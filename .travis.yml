@@ -5,8 +5,8 @@ python:
     - 3.4
 
 before_install:
-    - wget -q http://download.linuxaudio.org/lilypond/binaries/linux-64/lilypond-2.19.29-1.linux-64.sh
-    - sudo sh lilypond-2.19.29-1.linux-64.sh --batch
+    - wget -q http://download.linuxaudio.org/lilypond/binaries/linux-64/lilypond-2.19.41-1.linux-64.sh
+    - sudo sh lilypond-2.19.41-1.linux-64.sh --batch
     - pip install --upgrade pip
 
 install:
@@ -16,8 +16,8 @@ install:
     - pip install -e .
 
 script:
-    - ajv doctest ./dorn -x
-    - py.test -rf ./dorn -x
+    - ajv doctest ./dornen -x
+    - py.test -rf ./dornen -x
 
 notifications:
     email: false

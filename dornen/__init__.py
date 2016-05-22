@@ -1,4 +1,4 @@
 # -*- coding: utf-8 -*-
-from dorn import tools
-from dorn import materials
-from dorn import segments
+from dornen import tools
+from dornen import materials
+from dornen import segments

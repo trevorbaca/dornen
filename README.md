@@ -1,7 +1,7 @@
 Spiel der Dornen
 ================
 
-[![Build Status](https://travis-ci.org/trevorbaca/dorn.svg?branch=master)](https://travis-ci.org/trevorbaca/dorn)
+[![Build Status](https://travis-ci.org/trevorbaca/dornen.svg?branch=master)](https://travis-ci.org/trevorbaca/dornen)
 
 Spiel der Dornen (2016) for guitar.
 

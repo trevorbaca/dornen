@@ -11,9 +11,9 @@ def main():
         author='Trevor Bača',
         author_email='trevor.baca@gmail.com',
         install_requires=install_requires,
-        name='dorn',
-        packages=('dorn',),
-        url='https://github.com/trevorbaca/dorn',
+        name='dornen',
+        packages=('dornen',),
+        url='https://github.com/trevorbaca/dornen',
         version='0.1',
         zip_safe=False,
         )

@@ -5,7 +5,7 @@
 \include "default-instrument-names.ily"
 
 \paper {
-    bottom-margin = 0\mm
+    bottom-margin = 0.5\in
     evenFooterMarkup = \markup
         \on-the-fly #print-page-number-check-first
         \fill-line {
@@ -14,7 +14,7 @@
             \fontsize #3
             \override #'(font-name . "Palatino")
             \concat {
-                Spiel der Dornen
+                Spiel \hspace #1.5 der \hspace #1.5 Dornen
                 \hspace #3
                 —
                 \hspace #3
@@ -27,20 +27,20 @@
             }
             " "
     }
-    evenHeaderMarkup = \null
+    evenHeaderMarkup = \markup \null
     left-margin = 1\in
     oddFooterMarkup = \evenFooterMarkup
-    oddHeaderMarkup = \null
+    oddHeaderMarkup = \markup \null
     print-first-page-number = ##f
     print-page-number = ##t
     ragged-bottom = ##t
     ragged-last-bottom = ##t
-    right-margin = 0\mm
+    right-margin = 1\in
     markup-system-spacing.minimum-distance = 48
-    %system-system-spacing.padding = 40
+    system-system-spacing.minimum-distance = 24
     top-markup-spacing.minimum-distance = 18
-    top-system-spacing.minimum-distance = 48
-    top-margin = 0\mm
+    %top-system-spacing.minimum-distance = 48
+    top-margin = 0\in
 }
 
 \header {
@@ -49,7 +49,7 @@
         \fontsize #5
         \line { Trevor Bača (*1975) \hspace #15 }
     }
-    tagline = \null
+    tagline = \markup \null
     title = \markup \column {
         \center-align {
             \override #'(font-name . "Palatino")
@@ -155,25 +155,25 @@
     % GUITAR
     \context {
         \Voice
-        \name GuitarMusicVoice1
+        \name GuitarMusicVoiceOne
         \type Engraver_group
         \alias Voice
     }
     \context {
         \Voice
-        \name GuitarMusicVoice2
+        \name GuitarMusicVoiceTwo
         \type Engraver_group
         \alias Voice
     }
     \context {
         \Voice
-        \name GuitarMusicVoice3
+        \name GuitarMusicVoiceThree
         \type Engraver_group
         \alias Voice
     }
     \context {
         \Voice
-        \name GuitarMusicVoice4
+        \name GuitarMusicVoiceFour
         \type Engraver_group
         \alias Voice
     }
@@ -183,10 +183,10 @@
         \name GuitarMusicStaff
         \type Engraver_group
         \alias Staff
-        \accepts GuitarMusicVoice1
-        \accepts GuitarMusicVoice2
-        \accepts GuitarMusicVoice3
-        \accepts GuitarMusicVoice4
+        \accepts GuitarMusicVoiceOne
+        \accepts GuitarMusicVoiceTwo
+        \accepts GuitarMusicVoiceThree
+        \accepts GuitarMusicVoiceFour
         instrumentName = \guitarName
         shortInstrumentName = \shortGuitarName
     }

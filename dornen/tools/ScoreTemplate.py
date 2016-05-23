@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from abjad.tools import indicatortools
 from abjad.tools import instrumenttools
+from abjad.tools import markuptools
 from abjad.tools import scoretools
 from abjad.tools.topleveltools import attach
 import baca
@@ -48,19 +49,17 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
                         }
                     >>
                     \context MusicContext = "Music Context" {
-                        \context GuitarMusicStaff = "Guitar Music Staff" {
+                        \context GuitarMusicStaff = "Guitar Music Staff" <<
                             \clef "treble"
-                            \set Staff.instrumentName = \markup { Guitar }
-                            \set Staff.shortInstrumentName = \markup { Gt. }
-                            \context GuitarMusicVoice1 = "Guitar Music Voice 1" {
+                            \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
                             }
-                            \context GuitarMusicVoice2 = "Guitar Music Voice 2" {
+                            \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
                             }
-                            \context GuitarMusicVoice3 = "Guitar Music Voice 3" {
+                            \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
                             }
-                            \context GuitarMusicVoice4 = "Guitar Music Voice 4" {
+                            \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
                             }
-                        }
+                        >>
                     }
                 >>
 
@@ -71,25 +70,25 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
 
         guitar_music_voice_1 = scoretools.Voice(
             [], 
-            context_name='GuitarMusicVoice1',
+            context_name='GuitarMusicVoiceOne',
             name='Guitar Music Voice 1',
             )
 
         guitar_music_voice_2 = scoretools.Voice(
             [], 
-            context_name='GuitarMusicVoice2',
+            context_name='GuitarMusicVoiceTwo',
             name='Guitar Music Voice 2',
             )
 
         guitar_music_voice_3 = scoretools.Voice(
             [], 
-            context_name='GuitarMusicVoice3',
+            context_name='GuitarMusicVoiceThree',
             name='Guitar Music Voice 3',
             )
 
         guitar_music_voice_4 = scoretools.Voice(
             [], 
-            context_name='GuitarMusicVoice4',
+            context_name='GuitarMusicVoiceFour',
             name='Guitar Music Voice 4',
             )
 
@@ -101,12 +100,13 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
                 guitar_music_voice_4,
                 ], 
             context_name='GuitarMusicStaff',
+            is_simultaneous=True,
             name='Guitar Music Staff',
             )
 
         guitar = instrumenttools.Guitar(
             instrument_name='guitar',
-            short_instrument_name='gt.',
+            short_instrument_name=markuptools.Markup.null(),
             )
 
         attach(guitar, guitar_music_staff)

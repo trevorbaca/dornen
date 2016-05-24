@@ -1,0 +1,26 @@
+Figure 1. Rhythm defined in two parts. First part articulates prolated running
+notes of written duration 1. Second part articulates prolated running notes of
+written duration 2. Written duration 2 expressed as an integer power of 2
+multiple of written duration 1. User input specifies nonnegative integer number
+of notes in stage 2; any remaining notes interpreted as belonging to stage 1.
+Stage 1 prolation specified as integer number of extra counts of written
+duration 1. Stage 2 prolated also specifier as integer number of extra counts
+of written duration 1. There's also a ReadingSpecifier passed as input to the
+class at configuration time: cyclically determines how the music-maker reads
+input pitches. Aribtrarily many articulation specifiers per figure. Each
+articulation specifier can select notes from the first part, second part or
+both parts. One hairpin specifier per figure. Each hairpin specifier can select
+notes from the first part, second part or both parts. Arbitrarily many
+transition specifiers per figure with each able to select notes from the first
+part, second part or both parts.
+
+Figure 2. Fixed pitch reiterated in a single voice (possibly as an open string)
+against other pitches changing around the fixed pitch in close intervals.
+
+Call protocol: one string of input pitches always passed on call. If no other
+input parameters are passed, then the complete garland of figures is made and
+returned as output. Otherwise a figure restriction indicator may be passed as
+input on call. When a figure restriction indicator is passed on call, only
+select figures are made and returned as output. Each output figure is modeled
+as a selection. Output of every music-maker is always a tuple of zero or more
+selections.

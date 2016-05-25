@@ -5,14 +5,13 @@ multiple of written duration 1. User input specifies nonnegative integer number
 of notes in stage 2; any remaining notes interpreted as belonging to stage 1.
 Stage 1 prolation specified as integer number of extra counts of written
 duration 1. Stage 2 prolated also specifier as integer number of extra counts
-of written duration 1. There's also a ReadingSpecifier passed as input to the
-class at configuration time: cyclically determines how the music-maker reads
-input pitches. Aribtrarily many articulation specifiers per figure. Each
-articulation specifier can select notes from the first part, second part or
-both parts. One hairpin specifier per figure. Each hairpin specifier can select
-notes from the first part, second part or both parts. Arbitrarily many
-transition specifiers per figure with each able to select notes from the first
-part, second part or both parts.
+of written duration 1. ReadingSpecifier set at configuration time: cyclically
+determines how the music-maker reads input pitches. Aribtrarily many
+articulation specifiers per figure. Each articulation specifier can select
+notes from the first part, second part or both parts. One hairpin specifier per
+figure. Each hairpin specifier can select notes from the first part, second
+part or both parts. Arbitrarily many transition specifiers per figure with each
+able to select notes from the first part, second part or both parts.
 
 Figure 2. Fixed pitch reiterated in a single voice (possibly as an open string)
 against other pitches changing around the fixed pitch in close intervals.
@@ -44,6 +43,14 @@ notes. Minimum figure duration extends duration of last note in each voice, if
 necessary. Duration of upper voice selection always equals duration of lower
 voice selection. Music-maker produces rests in accordance with negative talea
 values.
+
+Figure 4. Admixed accelerandi. Denominator set at configuration time (defaults
+to 16). Talea set at configuration time (cyclic list of nonzero integers that
+defaults to [1]). Leaves per figure set at configuration time (cyclic list of
+positive integers that defaults to [4]). Extra counts per figure set at
+configuration time (cyclic list of integers that defaults to none). Accelerando
+per figure set at configuration time (cyclic list of values each equal to -1,
+0, 1 that defaults to [0]). ReadingSpecifier set at configuration time.
 
 Call protocol: one string of input pitches always passed on call. If no other
 input parameters are passed, then the complete garland of figures is made and

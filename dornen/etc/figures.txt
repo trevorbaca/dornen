@@ -17,6 +17,34 @@ part, second part or both parts.
 Figure 2. Fixed pitch reiterated in a single voice (possibly as an open string)
 against other pitches changing around the fixed pitch in close intervals.
 
+Figure 3. Basic two-voice figure. Denominator set at configuration time
+(defaults to 16). Upper talea set at configuration time. Lower talea set at
+configuration time. Minimum figure duration set at configuration time (defaults
+to none). Upper pick-up set at configuration time (to nonnegative integer or
+none). Lower pick-up set at configuration time (to nonnegative integer or
+none.) Extra counts per figure set at configuration time (defaults to none and
+set to cyclic list of integers). Maximum notes per figure set at configuration
+time (defaults to none and set to cyclic list of integers). Upper and lower
+articulation specifiers set at configuration time. Upper and lower dynamic
+specifiers set a configuration time. Pitch segment passed at calltime. Order of
+input pitches preserved. Input pitches clustered by register with only two
+registers allowed. Pitches of upper voice articulated as running tuplet.
+Pitches of lower voice articulated as running tuplet. Empty calltime input
+returns empty list. Single-pitch calltime input returns skip-filled selection
+in upper voice together with one-note selection in lower voice. Calltime input
+of two or more pitches returns note-filled selection in upper voice together
+with note-filled selection in lower voice. Upper pick-up inserts rests at
+beginning of upper voice. Lower pick-up inserts rests at beginning of lower
+voice. After two-voice clustering of pitch input, base duration used to
+articulate each note in voice with greatest number of notes as running tuplet.
+Voice with least number of notes articulated as running tuplet time-scaled to
+duration of voice with greatest number of notes. Extra counts per figure read
+cyclically for every figure and then applied to voice with greatest number of
+notes. Minimum figure duration extends duration of last note in each voice, if
+necessary. Duration of upper voice selection always equals duration of lower
+voice selection. Music-maker produces rests in accordance with negative talea
+values.
+
 Call protocol: one string of input pitches always passed on call. If no other
 input parameters are passed, then the complete garland of figures is made and
 returned as output. Otherwise a figure restriction indicator may be passed as

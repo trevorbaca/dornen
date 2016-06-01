@@ -1,0 +1,40 @@
+[1: Color arpeggiation] Four-note (or three-note) chord rapidly arpeggiated for
+a series of arbitrarily many stages. Each stage specified by duration. Constant
+written duration. Optional prolation for each stage specified as extra counts
+per stage. Each stage may also be accelerando or ritardando. Then what is
+expected is that SCP transitions will be specified over partitioned groups of
+stages. Also that hairpins will be specified over partitioned groups of stages;
+flared hairpins are freely available because niente hairpins will not be used.
+Version ending with ritardando used to approach a harmonic. Version terminating
+on sustained stage of maximum brittleness on the bridge: used as timbre
+transition to altissimi beyond the fretboard; used as timbre transition to
+butterknife altississimi.
+
+[2: Irregular altississimi] All on first string. Piano version. Pianissimo
+version. Forte version. Fortissimo version. Dynamics differ strikingly. Can be
+animated with exact 24-ET pitches. Not clear whether RH attack should be with
+RH fingernail, pick, metal rod or glass rod. Characteristic rhythm in irregular
+scaled eighth notes (or quarter notes) but not sixteenth notes. Version
+possible with LH simply pinching first string without recourse to butterknife.
+SCP probably ineffectual, though with the possibility of deadzone immediately
+before bridge; check on instrument. Use cross note heads and ottava spanner.
+Combines well with open-string pedal possibly rearticulated only sparingly,
+especially on sixth string; combines well with jeux des harmoniques.
+
+[3: Glissandi altississimi tremolandi] Rapid RH finger tremolo: either Spanish
+finger pattern or rapid mandolin fingering. Glissandi between most but not all
+note heads. Hairpins specified over partitioned groups of stages. Rhythm
+specified as the combination of a talea rhythm-maker and a sequence of
+divisions read cyclically. Can be used in two- and three-voice alternation with
+itself.
+
+[4: Glissandi altississimi riarticolati] Like glissandi altississimi tremolandi
+but executed with a serrated scraper held between the thumb and forefinger of
+the RH. Maybe possible to find an extremely small scraper to play the material
+truly pianississimo.
+
+[5: jeux des harmoniques] Canonical on sixth string. Version that attaches capo
+tasto to fret 0 and then moves successively to frets I, II, etc to raise the
+fundamental. Combines perfectly with irregular altississimi. 
+
+[6: pianissimo quartertone dyads]

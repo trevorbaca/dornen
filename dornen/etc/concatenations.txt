@@ -38,3 +38,59 @@ tasto to fret 0 and then moves successively to frets I, II, etc to raise the
 fundamental. Combines perfectly with irregular altississimi. 
 
 [6: pianissimo quartertone dyads]
+
+[7: snap pizzicati] Input a sequence of zero or more pitch-class segments.
+Output a single selection together with a single time signature. (Empty input
+returns an empty selection together with the zero-valued time signature 0/1.)
+Treat each pitch-class segment according to the following: make rhythm equal to
+repeated eighth notes; customize rhythm according to
+stage_to_rhythm_maker_succession[0]; set register to middle or low; attach snap
+pizzicato to every note; apply forte to nonlast notes and fortissimo to last
+note. Beam according to beam specifier. Implement beam_across_void boolean
+input parameter.
+
+### FORMALIZATION ###
+
+1. stage_to_rhythm_maker_succession: input parameter stored as tuple of zero or
+more items, each of which may be a RhythmMakerSuccession object or none.
+
+2. RhythmMakerSuccession: rhythm_maker_inventory together with
+succession_specifier. Set rhythm_maker_inventory to an (ordered) dictionary of
+rhythm-makers. All rhythm-makers implemented statally. Set succession_specifier
+to patterned sequence with domain equal to the keys in rhythm_maker_inventory.
+
+3. Patterned sequence: sequence items set by pattern. Example:
+    patterned_sequence = baca.tools.PatternedSequence()
+    patterned_sequence.set_(
+        pattern=patterntools.select_all(),
+        value='red',
+        )
+    patterned_sequence.set_(
+        pattern=patterntools.select_first(),
+        value='blue',
+        )
+    patterned_sequence.set_(
+        pattern=patterntools.select_last(),
+        value='blue',
+        )
+    patterned_sequence.get(0)
+    'blue'
+    patterned_sequence.get(1)
+    'red'
+    patterned_sequence.get(2)
+    'red'
+    patterned_sequence.get(3)
+    'red'
+    patterned_sequence.get(-1)
+    'blue'
+    patterned_sequence.get(9, total_length=10)
+    'blue'
+    patterned_sequence.make(total_length=5)
+    Sequence(('blue', 'red, 'red, 'red, 'blue'))
+
+4. New rhythm-makers:
+    * AccelerandoRhythmMaker that accepts number of notes as input.
+    * TaleaRhythmMaker that accepts number of notes as input.
+(EvenDivisionRhythmMaker, EvenRunRhythmMaker, IncisedRhythmMaker,
+NoteRhythmMaker, SkipRhythmMaker, TupletRhythmMaker not required in
+note-number-input implementations.)

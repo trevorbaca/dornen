@@ -88,9 +88,4 @@ to patterned sequence with domain equal to the keys in rhythm_maker_inventory.
     patterned_sequence.make(total_length=5)
     Sequence(('blue', 'red, 'red, 'red, 'blue'))
 
-4. New rhythm-makers:
-    * AccelerandoRhythmMaker that accepts number of notes as input.
-    * TaleaRhythmMaker that accepts number of notes as input.
-(EvenDivisionRhythmMaker, EvenRunRhythmMaker, IncisedRhythmMaker,
-NoteRhythmMaker, SkipRhythmMaker, TupletRhythmMaker not required in
-note-number-input implementations.)
+4. New rhythm-maker: EventBaseRhythmMaker.

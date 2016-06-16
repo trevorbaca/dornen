@@ -49,43 +49,9 @@ pizzicato to every note; apply forte to nonlast notes and fortissimo to last
 note. Beam according to beam specifier. Implement beam_across_void boolean
 input parameter.
 
-### FORMALIZATION ###
+[8: glissandi scatti] Quick jerky glissando segments. First version plucks some
+segment startpoints with RH. Second version uses motion of LH only: glissandi
+scatti non articolati.
 
-1. stage_to_rhythm_maker_succession: input parameter stored as tuple of zero or
-more items, each of which may be a RhythmMakerSuccession object or none.
-
-2. RhythmMakerSuccession: rhythm_maker_inventory together with
-succession_specifier. Set rhythm_maker_inventory to an (ordered) dictionary of
-rhythm-makers. All rhythm-makers implemented statally. Set succession_specifier
-to patterned sequence with domain equal to the keys in rhythm_maker_inventory.
-
-3. Patterned sequence: sequence items set by pattern. Example:
-    patterned_sequence = baca.tools.PatternedSequence()
-    patterned_sequence.set_(
-        pattern=patterntools.select_all(),
-        value='red',
-        )
-    patterned_sequence.set_(
-        pattern=patterntools.select_first(),
-        value='blue',
-        )
-    patterned_sequence.set_(
-        pattern=patterntools.select_last(),
-        value='blue',
-        )
-    patterned_sequence.get(0)
-    'blue'
-    patterned_sequence.get(1)
-    'red'
-    patterned_sequence.get(2)
-    'red'
-    patterned_sequence.get(3)
-    'red'
-    patterned_sequence.get(-1)
-    'blue'
-    patterned_sequence.get(9, total_length=10)
-    'blue'
-    patterned_sequence.make(total_length=5)
-    Sequence(('blue', 'red, 'red, 'red, 'blue'))
-
-4. New rhythm-maker: EventBaseRhythmMaker.
+[9: graced rests] Single acciaccaturas leading to a rest. Contrasted with main
+notes played exactly on the beat.

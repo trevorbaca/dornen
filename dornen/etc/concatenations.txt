@@ -55,3 +55,8 @@ scatti non articolati.
 
 [9: graced rests] Single acciaccaturas leading to a rest. Contrasted with main
 notes played exactly on the beat.
+
+[10: two-note alternation] With accents on every third note; with intermittent
+rhythmic variation during figure; with gradually changing hairpins. Bears
+intermittent appearances of other figures particularly well. Transforms into
+open notes of other figures particularly well.

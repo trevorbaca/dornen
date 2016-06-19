@@ -39,7 +39,7 @@ def make_thorn_figure_maker_1():
             ],
         registration_specifier=baca.tools.RegistrationSpecifier(
             registration=pitchtools.Registration(
-                [('[A0, C8]', 6)],
+                [('[A0, C8]', -6)],
                 ),
             ),
         rhythm_maker_figure_specifiers=[

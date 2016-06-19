@@ -16,12 +16,16 @@
                     \time 5/8
                     R1 * 5/8
                 }
+                {
+                    \time 11/16
+                    R1 * 11/16
+                }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
+                    \time 5/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 5 192)
                     \newSpacingSection
-                    \mark #1
                     s1 * 5/8 ^ \markup {
                         \fontsize
                             #-6
@@ -38,6 +42,12 @@
                                 90
                             }
                         }
+                }
+                {
+                    \time 11/16
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 128)
+                    \newSpacingSection
+                    s1 * 11/16
                 }
             }
         >>
@@ -109,19 +119,79 @@
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #0
                         bqf''32 -\staccato ] \pp )
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 3/4 {
+                        \set stemLeftBeamCount = #0
+                        \set stemRightBeamCount = #3
+                        g'32 [ \< \p
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        af'32
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        bqs''32
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #1
+                        bf'32
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 7/6 {
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #2
+                        eqf''16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #2
+                        b'16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #2
+                        d''16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #2
+                        ef''16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #2
+                        bqf''16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #1
+                        dqs''16 \f
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #3
+                        e''32 -\staccato \> \p (
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        f''32 -\staccato
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        fqs''32 -\staccato
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        gqf''32 -\staccato
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        a'32 -\staccato
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #0
+                        fs'32 -\staccato ] \pp )
                         \bar "|"
                     }
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
-                    R1 * 5/8
+                    s1 * 5/8
+                    s1 * 11/16
                     \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
-                    R1 * 5/8
+                    s1 * 5/8
+                    s1 * 11/16
                     \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
-                    R1 * 5/8
+                    s1 * 5/8
+                    s1 * 11/16
                     \bar "|"
                 }
             >>

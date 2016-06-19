@@ -14,17 +14,18 @@ from dornen.materials.__abbreviations__ import *
 ################################## FIGURES ####################################
 ###############################################################################
 
+figure_accumulator = dornen.tools.FigureAccumulator()
 thorn_figure_maker_1 = dornen.tools.make_thorn_figure_maker_1()
 
-selections = []
-time_signatures = []
-
 figure_token = dornen.materials.green_pitch_classes[:3]
-selections_, state_manifest = thorn_figure_maker_1(figure_token)
-time_signatures_ = dornen.tools.make_time_signatures(selections_)
-selections.extend(selections_)
-time_signatures.extend(time_signatures_)
+figure_accumulator(*thorn_figure_maker_1(figure_token))
 
+figure_token = dornen.materials.green_pitch_classes[3:6]
+figure_accumulator(*thorn_figure_maker_1(figure_token))
+
+###############################################################################
+############################### SEGMENT-MAKER #################################
+###############################################################################
 
 tempo_specifier = baca.tools.TempoSpecifier([
     (1, dornen.materials.tempi[90]),
@@ -35,29 +36,27 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     minimum_width=durationtools.Duration(1, 12),
     )
 
-measures_per_stage = len(time_signatures) * [1]
+measures_per_stage = len(figure_accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
     #label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
+    rehearsal_letter='',
     score_package=dornen,
+    skips_instead_of_rests=True,
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
-    time_signatures=time_signatures,
+    time_signatures=figure_accumulator.time_signatures,
     transpose_score=True,
     )
 
-segment_maker.validate_stage_count(1)
-segment_maker.validate_measure_count(1)
+segment_maker.validate_stage_count(2)
+segment_maker.validate_measure_count(2)
 segment_maker.validate_measures_per_stage()
 
-###############################################################################
-#################################### TIME #####################################
-###############################################################################
-
 music = []
-for selection in selections:
+for selection in figure_accumulator.selections:
     music.extend(selection)
 complete_selection = selectiontools.Selection(music)
 

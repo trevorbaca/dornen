@@ -4,1005 +4,41 @@
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                 {
-                    \time 4/4
-                    R1 * 1
+                    \time 5/8
+                    R1 * 5/8
                 }
                 {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    R1 * 1
-                }
-                {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    R1 * 3/2
-                }
-                {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    R1 * 1
-                }
-                {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    R1 * 3/2
-                }
-                {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
+                    \time 11/16
+                    R1 * 11/16
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \time 5/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 5 192)
                     \newSpacingSection
-                    \mark #1
-                    s1 * 1
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.1]
-                            }
-                        ^ \markup {
+                    s1 * 5/8 ^ \markup {
                         \fontsize
                             #-6
                             \general-align
                                 #Y
                                 #DOWN
                                 \note-by-number
-                                    #2
+                                    #3
                                     #0
                                     #1
                         \upright
                             {
                                 =
-                                100
+                                90
                             }
                         }
                 }
                 {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \time 11/16
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 128)
                     \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
+                    s1 * 11/16
                 }
             }
         >>
@@ -1018,415 +54,135 @@
                 \null
                 }
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/4
-                    R1 * 1
-                    \bar "|"
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        \set stemLeftBeamCount = #0
+                        \set stemRightBeamCount = #3
+                        fs'32 [ \< \p
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        e''32
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        f''32
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        fqs''32
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        gqf''32
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #1
+                        a'32
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/4 {
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #2
+                        bf'16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #2
+                        g'16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #2
+                        af'16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #1
+                        bqs''16 \f
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #3
+                        dqs''32 -\staccato \> \p (
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        eqf''32 -\staccato
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        b'32 -\staccato
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        d''32 -\staccato
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        ef''32 -\staccato
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #0
+                        bqf''32 -\staccato ] \pp )
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 3/4 {
+                        \set stemLeftBeamCount = #0
+                        \set stemRightBeamCount = #3
+                        g'32 [ \< \p
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        af'32
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        bqs''32
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #1
+                        bf'32
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 7/6 {
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #2
+                        eqf''16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #2
+                        b'16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #2
+                        d''16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #2
+                        ef''16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #2
+                        bqf''16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #1
+                        dqs''16 \f
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #3
+                        e''32 -\staccato \> \p (
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        f''32 -\staccato
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        fqs''32 -\staccato
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        gqf''32 -\staccato
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        a'32 -\staccato
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #0
+                        fs'32 -\staccato ] \pp )
+                        \bar "|"
+                    }
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/4
-                    R1 * 1
+                    s1 * 5/8
+                    s1 * 11/16
                     \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/4
-                    R1 * 1
+                    s1 * 5/8
+                    s1 * 11/16
                     \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/4
-                    R1 * 1
+                    s1 * 5/8
+                    s1 * 11/16
                     \bar "|"
                 }
             >>

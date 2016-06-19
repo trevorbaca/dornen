@@ -7,10 +7,10 @@ from abjad.tools import indicatortools
 tempi = collections.OrderedDict([
     (
         90,
-        indicatortools.Tempo(durationtools.Duration(1, 4), 90),
+        indicatortools.Tempo(durationtools.Duration(1, 8), 90),
         ),
     (
         100,
-        indicatortools.Tempo(durationtools.Duration(1, 4), 100),
+        indicatortools.Tempo(durationtools.Duration(1, 8), 100),
         ),
     ])

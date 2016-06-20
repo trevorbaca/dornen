@@ -13,14 +13,16 @@ pitches.
 open string) against other pitches changing around the fixed pitch in close
 intervals.
 
-[3: Color arpeggiation] Single chord rapidly arpeggiated for a series of
+[3: Convulsive multipitch figures]
+
+[4: Color arpeggiation] Single chord rapidly arpeggiated for a series of
 arbitrarily many stages. Each stage may be time-treated with prolation or local
 accelerandi. SCP transitions specified over groups of stages. Version ending
 with ritardando used to approach a harmonic. Version terminating on sustained
 stage of maximum brittleness on the bridge used as timbre transition to
 altissimi beyond the fretboard.
 
-[4: Irregular altississimi] All on first string. Piano version. Pianissimo
+[5: Irregular altississimi] All on first string. Piano version. Pianissimo
 version. Forte version. Fortissimo version. Dynamics differ strikingly. Can be
 animated with exact 24-ET pitches. Not clear whether RH attack should be with
 RH fingernail, pick, metal rod, glass rod. Characteristic rhythm in irregular
@@ -29,32 +31,36 @@ pinching first string without recourse to butterknife. Use cross note heads and
 ottava spanner. Combines well with open-string pedal rearticulated sparingly.
 Combines well with jeux des harmoniques.
 
-[5: One-note rearticulation] Measured RH single-finger pattern or measured RH
+[6: One-note rearticulation] Measured RH single-finger pattern or measured RH
 flamenco pattern on a single pitch. Hypnotic version with regular rhythm and
 gentle dynamics. Extremely fluid version with irregular rhythm and gentle
 dynamics. Mechanical version with regular rhythm and insistent dynamics.
 Convulsive version with irregular rhythm and irregular dynamics.
 
-[6: One-note color rearticulation] SCP transitions effected against [one-note
-rearticulation].
+[7: One-note color rearticulation] SCP transitions effected against [one-note
+rearticulation]. Hypnotic version with regular rhythm and gentle dynamics.
+Extremely fluid version with irregular rhythm and gentle dynamics. Mechanical
+version with regular rhythm and insistent dynamics. Convulsive version with
+irregular rhythm and irregular dynamics. Convulsive version juxtaposes
+especially well with convulsive multipitch figures.
 
-[7: Glissandi altississimi tremolandi] Rapid RH finger tremolo: either Spanish
+[8: Glissandi altississimi tremolandi] Rapid RH finger tremolo: either Spanish
 finger pattern or rapid mandolin fingering. Glissandi between most but not all
 note heads. Hairpins especially effective. Transitions into measured one-note
 rearticulation.
 
-[8: Glissandi altississimi riarticolati] Like glissandi altississimi tremolandi
+[9: Glissandi altississimi riarticolati] Like glissandi altississimi tremolandi
 but executed with a serrated scraper held between the thumb and forefinger of
 the RH. Maybe possible to find an extremely small scraper to play the material
 truly pianississimo.
 
-[9: jeux des harmoniques] Canonical on sixth string. Version that attaches capo
-tasto to fret 0 and then moves successively to frets I, II, etc to raise the
-fundamental. Combines perfectly with irregular altississimi. 
+[10: jeux des harmoniques] Canonical on sixth string. Version that attaches
+capo tasto to fret 0 and then moves successively to frets I, II, etc to raise
+the fundamental. Combines perfectly with irregular altississimi. 
 
-[10: pianissimo quartertone dyads]
+[11: pianissimo quartertone dyads]
 
-[11: snap pizzicati] Input a sequence of zero or more pitch-class segments.
+[12: snap pizzicati] Input a sequence of zero or more pitch-class segments.
 Output a single selection together with a single time signature. (Empty input
 returns an empty selection together with the zero-valued time signature 0/1.)
 Treat each pitch-class segment according to the following: make rhythm equal to
@@ -64,14 +70,26 @@ pizzicato to every note; apply forte to nonlast notes and fortissimo to last
 note. Beam according to beam specifier. Implement beam_across_void boolean
 input parameter.
 
-[12: glissandi scatti] Quick jerky glissando segments. First version plucks
-some segment startpoints with RH. Second version uses motion of LH only:
-glissandi scatti non articolati.
+[13: pitched glissandi scatti] Quick jerky glissando segments. RH plucks first
+note. Many different rhythmic characters available.
 
-[13: graced rests] Single acciaccaturas leading to a rest. Contrasted with main
-notes played exactly on the beat.
+[14: whisked glissandi scatti] Quick jerky glissando segments. RH tacet. Many
+different rhythmic characters available.
 
-[14: two-note alternation] With accents on every third note; with intermittent
-rhythmic variation during figure; with gradually changing hairpins. Bears
+[15: looped whisked glissandi scatti] Whisked glissandi scatti caught in a
+mechanical vortex. Turns Nico momentarily into mechnical puppet.
+
+[16: one-note grace rests] Series of rests each preceded by a single
+acciaccatura. Contrasts with main notes played exactly on the beat.
+
+[17: multinote graced rests] Series of rests each preceded by a multinote
+acciaccatura. Develops into [multinote grace tuplets].
+
+[18: multinote grace tuplets] Series of relatively moderate tuplets each
+precede by a multinote acciaccatura. Especially effective when tuplets are all
+the same duration.
+
+[19: two-note alternation] With accents on every third note. With intermittent
+rhythmic variation during figure. With gradually changing hairpins. Juxtaposes
 intermittent appearances of other figures particularly well. Transforms into
-open notes of other figures particularly well.
+introductory notes of other figures particularly well.

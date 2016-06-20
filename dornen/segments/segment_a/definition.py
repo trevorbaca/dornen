@@ -2,6 +2,7 @@
 import baca
 import dornen
 from abjad.tools import durationtools
+from abjad.tools import pitchtools
 from abjad.tools import selectiontools
 from dornen.materials.__abbreviations__ import *
 
@@ -17,11 +18,24 @@ from dornen.materials.__abbreviations__ import *
 figure_accumulator = dornen.tools.FigureAccumulator()
 thorn_figure_maker_1 = dornen.tools.make_thorn_figure_maker_1()
 
-figure_token = dornen.materials.green_pitch_classes[:3]
-figure_accumulator(*thorn_figure_maker_1(figure_token))
+figure_accumulator(
+    *thorn_figure_maker_1(
+        dornen.materials.green_pitch_classes[:3],
+        specifiers=[
+            baca.pitch.register(-6),
+            ],
+        )
+    )
 
-figure_token = dornen.materials.green_pitch_classes[3:6]
-figure_accumulator(*thorn_figure_maker_1(figure_token))
+figure_accumulator(
+    *thorn_figure_maker_1(
+        dornen.materials.green_pitch_classes[3:6],
+        specifiers=[
+            baca.pitch.transpose(1),
+            baca.pitch.register(0),
+            ],
+        )
+    )
 
 ###############################################################################
 ############################### SEGMENT-MAKER #################################

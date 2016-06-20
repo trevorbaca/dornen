@@ -3,7 +3,7 @@ from abjad.tools import abctools
 
 
 class FigureAccumulator(abctools.AbjadObject):
-    r'''Figure accumulator
+    r'''Figure accumulator.
     '''
 
     ### CLASS VARIABLES ###

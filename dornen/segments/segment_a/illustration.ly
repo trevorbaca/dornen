@@ -124,58 +124,58 @@
                     \times 3/4 {
                         \set stemLeftBeamCount = #0
                         \set stemRightBeamCount = #3
-                        g'32 [ \< \p
+                        af''32 [ \< \p
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #3
-                        af'32
+                        a''32
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #3
-                        bqs''32
+                        cqs''32
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #1
-                        bf'32
+                        b''32
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 7/6 {
                         \set stemLeftBeamCount = #1
                         \set stemRightBeamCount = #2
-                        eqf''16
+                        eqs''16
                         \set stemLeftBeamCount = #2
                         \set stemRightBeamCount = #2
-                        b'16
-                        \set stemLeftBeamCount = #2
-                        \set stemRightBeamCount = #2
-                        d''16
+                        c''16
                         \set stemLeftBeamCount = #2
                         \set stemRightBeamCount = #2
                         ef''16
                         \set stemLeftBeamCount = #2
                         \set stemRightBeamCount = #2
-                        bqf''16
+                        e''16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #2
+                        bqs''16
                         \set stemLeftBeamCount = #2
                         \set stemRightBeamCount = #1
-                        dqs''16 \f
+                        eqf''16 \f
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
                         \set stemLeftBeamCount = #1
                         \set stemRightBeamCount = #3
-                        e''32 -\staccato \> \p (
+                        f''32 -\staccato \> \p (
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #3
-                        f''32 -\staccato
-                        \set stemLeftBeamCount = #3
-                        \set stemRightBeamCount = #3
-                        fqs''32 -\staccato
+                        fs''32 -\staccato
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #3
                         gqf''32 -\staccato
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #3
-                        a'32 -\staccato
+                        gqs''32 -\staccato
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        bf''32 -\staccato
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #0
-                        fs'32 -\staccato ] \pp )
+                        g''32 -\staccato ] \pp )
                         \bar "|"
                     }
                 }

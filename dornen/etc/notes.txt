@@ -15,3 +15,11 @@ timeflow and backaway from the unexpected first presence of microtones.
 material of some other voice intervenes. arpeggiation then later returns and
 again slows to the point of noticing, warily, the presence of a single
 microtone yet again.
+
+5. effect of voice-intermittency will be helped considerably by curtailing the
+duration of the last note in many figures that are interrupted by the
+appearance of an intermittent voice. curtailment used to effect a sense of
+ongoing interruption.
+
+6. ratio of broken tuplets can be internalized in the appearance of a complete
+tuplet carrying the same ratio.

@@ -1,95 +1,112 @@
-[1: Measured lead-in] Rhythm defined in two parts. First part articulates
-prolated running notes of written duration 1. Second part articulates prolated
-running notes of written duration 2. Written duration 2 expressed as an integer
-power of 2 multiple of written duration 1. User input specifies nonnegative
-integer number of notes in stage 2; any remaining notes interpreted as
-belonging to stage 1. Stage 1 prolation specified as integer number of extra
-counts of written duration 1. Stage 2 prolation also specified as integer
-number of extra counts of written duration 1. ReadingSpecifier set at
-configuration time: cyclically determines how the music-maker reads input
-pitches.
+[1: measured lead-in] Prolated sixteenth notes followed by differently
+articulated prolated eighth notes. Fixed number of eighth notes with remaining
+number of pitches per figure allocated to sixteenth notes of first stage.
 
-[2: Reiterative pedal] Fixed pitch reiterated in a single voice (possibly as an
-open string) against other pitches changing around the fixed pitch in close
-intervals.
+[2: reiterative pedal] Fixed pitch reiterated on a single open string against
+other pitches changing around the fixed pitch in close intervals. Occurs first
+time as G3 pedal on open (3) string. Occurs second time as Bqs pedal on open
+(2) string. Notates in multiple voices. Reiterative pedal notated in one voice.
+Multipitch figuration notated in one or more additional voices.
 
-[3: Convulsive multipitch figures]
+[3: convulsive multipitch figures]
 
-[4: Color arpeggiation] Single chord rapidly arpeggiated for a series of
+[4: color arpeggiation] Single chord rapidly arpeggiated for a series of
 arbitrarily many stages. Each stage may be time-treated with prolation or local
 accelerandi. SCP transitions specified over groups of stages. Version ending
 with ritardando used to approach a harmonic. Version terminating on sustained
 stage of maximum brittleness on the bridge used as timbre transition to
 altissimi beyond the fretboard.
 
-[5: Irregular altississimi] All on first string. Piano version. Pianissimo
-version. Forte version. Fortissimo version. Dynamics differ strikingly. Can be
-animated with exact 24-ET pitches. Not clear whether RH attack should be with
-RH fingernail, pick, metal rod, glass rod. Characteristic rhythm in irregular
-scaled eighth notes but not sixteenth notes. Version possible with LH simply
-pinching first string without recourse to butterknife. Use cross note heads and
-ottava spanner. Combines well with open-string pedal rearticulated sparingly.
-Combines well with jeux des harmoniques.
+[5: irregular altississimi] All on first string with LH pinching 24-ET pitches
+beyond the fretboard. Fingerpads and fingernails differ strikingly. Dynamics
+differ strikingly. First version played piano with fingerpads in quick tiptoe
+rhythm (written as diminished eighth notes mixed with diminished sixteenth
+notes). Second version played forte in quick-but-heavy footfall rhythm (written
+as diminished eighth notes). Notates with cross noteheads and ottava spanner.
+Piano and forte versions of material interleave especially well as a type of
+crossfade between two separate voices that start predominantly piano with 
+intermittent forte and develop gradually to predominantly forte with
+intermittent piano. Crossfade effects two complete cycles from piano to forte
+and back to piano. Transitions especially effectively up the string to deadzone
+quivering.
 
-[6: One-note rearticulation] Measured RH single-finger pattern or measured RH
+[6: deadzone quivering] Rapid RH mandolin tremoli on strings (1) and (2)
+immediately in front of the bridge. LH deadens strings at extremely high
+altississimi pitches. Parameterizes with difference between single-string
+tremoli and two-string temoli. Parameterizes with transitions between different
+strictures of tremolo. Parameterizes with glissandi between LH altississimi
+pitches. Activates with sudden LH down-glissandi that cover almost all of the
+strings' course with RH tremoli continue.
+
+[7: OB quivering] Rapid RH mandolin tremoli directly on the irregular surface
+of the bridge. LH tacet. Particularly effective as an attention-holding
+material to allow the LH to take one of the scrapers all the way from a stand
+or sidetable to the RH in an expansive arc.
+
+[8: one-note rearticulation] Measured RH single-finger pattern or measured RH
 flamenco pattern on a single pitch. Hypnotic version with regular rhythm and
 gentle dynamics. Extremely fluid version with irregular rhythm and gentle
 dynamics. Mechanical version with regular rhythm and insistent dynamics.
 Convulsive version with irregular rhythm and irregular dynamics.
 
-[7: One-note color rearticulation] SCP transitions effected against [one-note
+[9: one-note color rearticulation] SCP transitions effected against [one-note
 rearticulation]. Hypnotic version with regular rhythm and gentle dynamics.
 Extremely fluid version with irregular rhythm and gentle dynamics. Mechanical
 version with regular rhythm and insistent dynamics. Convulsive version with
 irregular rhythm and irregular dynamics. Convulsive version juxtaposes
 especially well with convulsive multipitch figures.
 
-[8: Glissandi altississimi tremolandi] Rapid RH finger tremolo: either Spanish
+[10: glissandi altississimi tremolandi] Rapid RH finger tremolo: either Spanish
 finger pattern or rapid mandolin fingering. Glissandi between most but not all
 note heads. Hairpins especially effective. Transitions into measured one-note
 rearticulation.
 
-[9: Glissandi altississimi riarticolati] Like glissandi altississimi tremolandi
-but executed with a serrated scraper held between the thumb and forefinger of
-the RH. Maybe possible to find an extremely small scraper to play the material
-truly pianississimo.
+[11: glissandi altississimi riarticolati] Like glissandi altississimi
+tremolandi but executed with a serrated scraper held between the thumb and
+forefinger of the RH. Maybe possible to find an extremely small scraper to play
+the material truly pianississimo.
 
-[10: jeux des harmoniques] Canonical on sixth string. Version that attaches
+[12: jeux des harmoniques] Canonical on sixth string. Version that attaches
 capo tasto to fret 0 and then moves successively to frets I, II, etc to raise
-the fundamental. Combines perfectly with irregular altississimi. 
+the fundamental. Intermixes well with irregular altississimi. 
 
-[11: pianissimo quartertone dyads]
+[13: pianissimo quartertone dyads]
 
-[12: snap pizzicati] Input a sequence of zero or more pitch-class segments.
-Output a single selection together with a single time signature. (Empty input
-returns an empty selection together with the zero-valued time signature 0/1.)
-Treat each pitch-class segment according to the following: make rhythm equal to
-repeated eighth notes; customize rhythm according to
-stage_to_rhythm_maker_succession[0]; set register to middle or low; attach snap
-pizzicato to every note; apply forte to nonlast notes and fortissimo to last
-note. Beam according to beam specifier. Implement beam_across_void boolean
-input parameter.
+[14: snap pizzicati] Piano version. Forte version. Intermixes with most other
+materials. 
+# HERE
+Intermixes with measured lead-in.
 
-[13: pitched glissandi scatti] Quick jerky glissando segments. RH plucks first
+Intermixes with convulsive multipitch figures. Intermixes with
+whisked glissandi scatti.
+
+[15: deadened half-harmonics] Piano version. Forte version. Similar function to
+snap pizzicati. Intermixes with most other materials.
+
+[16: pitched glissandi scatti] Quick jerky glissando segments. RH plucks first
 note. Many different rhythmic characters available.
 
-[14: whisked glissandi scatti] Quick jerky glissando segments. RH tacet. Many
+[17: whisked glissandi scatti] Quick jerky glissando segments. RH tacet. Many
 different rhythmic characters available.
 
-[15: looped whisked glissandi scatti] Whisked glissandi scatti caught in a
+[18: looped whisked glissandi scatti] Whisked glissandi scatti caught in a
 mechanical vortex. Turns Nico momentarily into mechnical puppet.
 
-[16: one-note grace rests] Series of rests each preceded by a single
+[19: one-note grace rests] Series of rests each preceded by a single
 acciaccatura. Contrasts with main notes played exactly on the beat.
 
-[17: multinote graced rests] Series of rests each preceded by a multinote
+[20: multinote graced rests] Series of rests each preceded by a multinote
 acciaccatura. Develops into [multinote grace tuplets].
 
-[18: multinote grace tuplets] Series of relatively moderate tuplets each
+[21: multinote grace tuplets] Series of relatively moderate tuplets each
 precede by a multinote acciaccatura. Especially effective when tuplets are all
 the same duration.
 
-[19: two-note alternation] With accents on every third note. With intermittent
+[22: two-note alternation] With accents on every third note. With intermittent
 rhythmic variation during figure. With gradually changing hairpins. Juxtaposes
 intermittent appearances of other figures particularly well. Transforms into
 introductory notes of other figures particularly well.
+
+### NARRATIVES ###
+
+[A: 

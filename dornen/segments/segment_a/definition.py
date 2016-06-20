@@ -41,6 +41,7 @@ figure_accumulator(
         dornen.materials.blue_pitch_classes[6:9],
         specifiers=[
             baca.pitch.register(-6),
+            baca.pitch.transpose(1),
             ],
         )
     )

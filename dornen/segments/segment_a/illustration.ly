@@ -170,42 +170,42 @@
                     \times 2/3 {
                         \set stemLeftBeamCount = #0
                         \set stemRightBeamCount = #3
-                        a'32 [ \< \p
+                        bf''32 [ \< \p
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #3
-                        e''32
+                        f''32
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #1
-                        ef''32
+                        e''32
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 4/3 {
                         \set stemLeftBeamCount = #1
                         \set stemRightBeamCount = #2
-                        bf'16
+                        b''16
                         \set stemLeftBeamCount = #2
                         \set stemRightBeamCount = #2
-                        cs''16
+                        d''16
                         \set stemLeftBeamCount = #2
                         \set stemRightBeamCount = #1
-                        c''16 \f
+                        cs''16 \f
                     }
                     \times 4/5 {
                         \set stemLeftBeamCount = #1
                         \set stemRightBeamCount = #3
-                        fs'32 -\staccato \> \p (
+                        g''32 -\staccato \> \p (
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #3
-                        b'32 -\staccato
+                        c''32 -\staccato
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #3
-                        d''32 -\staccato
+                        ef''32 -\staccato
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #3
-                        f''32 -\staccato
+                        fs''32 -\staccato
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #0
-                        af'32 -\staccato ] \pp )
+                        a''32 -\staccato ] \pp )
                         \bar "|"
                     }
                 }

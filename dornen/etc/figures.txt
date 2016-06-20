@@ -1,61 +1,77 @@
-Figure 1. Rhythm defined in two parts. First part articulates prolated running
-notes of written duration 1. Second part articulates prolated running notes of
-written duration 2. Written duration 2 expressed as an integer power of 2
-multiple of written duration 1. User input specifies nonnegative integer number
-of notes in stage 2; any remaining notes interpreted as belonging to stage 1.
-Stage 1 prolation specified as integer number of extra counts of written
-duration 1. Stage 2 prolated also specifier as integer number of extra counts
-of written duration 1. ReadingSpecifier set at configuration time: cyclically
-determines how the music-maker reads input pitches. Aribtrarily many
-articulation specifiers per figure. Each articulation specifier can select
-notes from the first part, second part or both parts. One hairpin specifier per
-figure. Each hairpin specifier can select notes from the first part, second
-part or both parts. Arbitrarily many transition specifiers per figure with each
-able to select notes from the first part, second part or both parts.
+[1: Measured lead-in] Rhythm defined in two parts. First part articulates
+prolated running notes of written duration 1. Second part articulates prolated
+running notes of written duration 2. Written duration 2 expressed as an integer
+power of 2 multiple of written duration 1. User input specifies nonnegative
+integer number of notes in stage 2; any remaining notes interpreted as
+belonging to stage 1. Stage 1 prolation specified as integer number of extra
+counts of written duration 1. Stage 2 prolation also specified as integer
+number of extra counts of written duration 1. ReadingSpecifier set at
+configuration time: cyclically determines how the music-maker reads input
+pitches.
 
-Figure 2. Fixed pitch reiterated in a single voice (possibly as an open string)
-against other pitches changing around the fixed pitch in close intervals.
+[2: Reiterative pedal] Fixed pitch reiterated in a single voice (possibly as an
+open string) against other pitches changing around the fixed pitch in close
+intervals.
 
-Figure 3. Basic two-voice figure. Denominator set at configuration time
-(defaults to 16). Upper talea set at configuration time. Lower talea set at
-configuration time. Minimum figure duration set at configuration time (defaults
-to none). Upper pick-up set at configuration time (to nonnegative integer or
-none). Lower pick-up set at configuration time (to nonnegative integer or
-none.) Extra counts per figure set at configuration time (defaults to none and
-set to cyclic list of integers). Maximum notes per figure set at configuration
-time (defaults to none and set to cyclic list of integers). Upper and lower
-articulation specifiers set at configuration time. Upper and lower dynamic
-specifiers set a configuration time. Pitch segment passed at calltime. Order of
-input pitches preserved. Input pitches clustered by register with only two
-registers allowed. Pitches of upper voice articulated as running tuplet.
-Pitches of lower voice articulated as running tuplet. Empty calltime input
-returns empty list. Single-pitch calltime input returns skip-filled selection
-in upper voice together with one-note selection in lower voice. Calltime input
-of two or more pitches returns note-filled selection in upper voice together
-with note-filled selection in lower voice. Upper pick-up inserts rests at
-beginning of upper voice. Lower pick-up inserts rests at beginning of lower
-voice. After two-voice clustering of pitch input, base duration used to
-articulate each note in voice with greatest number of notes as running tuplet.
-Voice with least number of notes articulated as running tuplet time-scaled to
-duration of voice with greatest number of notes. Extra counts per figure read
-cyclically for every figure and then applied to voice with greatest number of
-notes. Minimum figure duration extends duration of last note in each voice, if
-necessary. Duration of upper voice selection always equals duration of lower
-voice selection. Music-maker produces rests in accordance with negative talea
-values.
+[3: Color arpeggiation] Four-note (or three-note) chord rapidly arpeggiated for
+a series of arbitrarily many stages. Each stage specified by duration. Constant
+written duration. Optional prolation for each stage specified as extra counts
+per stage. Each stage may also be accelerando or ritardando. Then what is
+expected is that SCP transitions will be specified over partitioned groups of
+stages. Also that hairpins will be specified over partitioned groups of stages;
+flared hairpins are freely available because niente hairpins will not be used.
+Version ending with ritardando used to approach a harmonic. Version terminating
+on sustained stage of maximum brittleness on the bridge: used as timbre
+transition to altissimi beyond the fretboard; used as timbre transition to
+butterknife altississimi.
 
-Figure 4. Admixed accelerandi. Denominator set at configuration time (defaults
-to 16). Talea set at configuration time (cyclic list of nonzero integers that
-defaults to [1]). Leaves per figure set at configuration time (cyclic list of
-positive integers that defaults to [4]). Extra counts per figure set at
-configuration time (cyclic list of integers that defaults to none). Accelerando
-per figure set at configuration time (cyclic list of values each equal to -1,
-0, 1 that defaults to [0]). ReadingSpecifier set at configuration time.
+[4: Irregular altississimi] All on first string. Piano version. Pianissimo
+version. Forte version. Fortissimo version. Dynamics differ strikingly. Can be
+animated with exact 24-ET pitches. Not clear whether RH attack should be with
+RH fingernail, pick, metal rod or glass rod. Characteristic rhythm in irregular
+scaled eighth notes (or quarter notes) but not sixteenth notes. Version
+possible with LH simply pinching first string without recourse to butterknife.
+SCP probably ineffectual, though with the possibility of deadzone immediately
+before bridge; check on instrument. Use cross note heads and ottava spanner.
+Combines well with open-string pedal possibly rearticulated only sparingly,
+especially on sixth string; combines well with jeux des harmoniques.
 
-Call protocol: one string of input pitches always passed on call. If no other
-input parameters are passed, then the complete garland of figures is made and
-returned as output. Otherwise a figure restriction indicator may be passed as
-input on call. When a figure restriction indicator is passed on call, only
-select figures are made and returned as output. Each output figure is modeled
-as a selection. Output of every music-maker is always a tuple of zero or more
-selections.
+[5: Glissandi altississimi tremolandi] Rapid RH finger tremolo: either Spanish
+finger pattern or rapid mandolin fingering. Glissandi between most but not all
+note heads. Hairpins specified over partitioned groups of stages. Rhythm
+specified as the combination of a talea rhythm-maker and a sequence of
+divisions read cyclically. Can be used in two- and three-voice alternation with
+itself.
+
+[6: Glissandi altississimi riarticolati] Like glissandi altississimi tremolandi
+but executed with a serrated scraper held between the thumb and forefinger of
+the RH. Maybe possible to find an extremely small scraper to play the material
+truly pianississimo.
+
+[7: jeux des harmoniques] Canonical on sixth string. Version that attaches capo
+tasto to fret 0 and then moves successively to frets I, II, etc to raise the
+fundamental. Combines perfectly with irregular altississimi. 
+
+[8: pianissimo quartertone dyads]
+
+[9: snap pizzicati] Input a sequence of zero or more pitch-class segments.
+Output a single selection together with a single time signature. (Empty input
+returns an empty selection together with the zero-valued time signature 0/1.)
+Treat each pitch-class segment according to the following: make rhythm equal to
+repeated eighth notes; customize rhythm according to
+stage_to_rhythm_maker_succession[0]; set register to middle or low; attach snap
+pizzicato to every note; apply forte to nonlast notes and fortissimo to last
+note. Beam according to beam specifier. Implement beam_across_void boolean
+input parameter.
+
+[10: glissandi scatti] Quick jerky glissando segments. First version plucks
+some segment startpoints with RH. Second version uses motion of LH only:
+glissandi scatti non articolati.
+
+[11: graced rests] Single acciaccaturas leading to a rest. Contrasted with main
+notes played exactly on the beat.
+
+[12: two-note alternation] With accents on every third note; with intermittent
+rhythmic variation during figure; with gradually changing hairpins. Bears
+intermittent appearances of other figures particularly well. Transforms into
+open notes of other figures particularly well.

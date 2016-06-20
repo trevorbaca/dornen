@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import baca
-from abjad import *
 
 
 green_pitch_classes = [
@@ -10,6 +9,7 @@ green_pitch_classes = [
     ]
 green_pitch_classes = baca.tools.helianthate(green_pitch_classes, -1, -1)
 assert len(green_pitch_classes) == 36
+
 r'''
 (0, [6, 4, 5, 5.5, 6.5, 9])
 (1, [10, 7, 8, 11.5])

@@ -13,20 +13,29 @@
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                 {
-                    \time 5/8
-                    R1 * 5/8
+                    \time 4/8
+                    R1 * 1/2
                 }
                 {
-                    \time 11/16
-                    R1 * 11/16
+                    \time 7/16
+                    R1 * 7/16
+                }
+                {
+                    R1 * 7/16
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
-                    \time 5/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 5 192)
+                    \time 4/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                     \newSpacingSection
-                    s1 * 5/8 ^ \markup {
+                    s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'00''
+                            }
+                        ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -44,10 +53,25 @@
                         }
                 }
                 {
-                    \time 11/16
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 128)
+                    \time 7/16
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                     \newSpacingSection
-                    s1 * 11/16
+                    s1 * 7/16
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'02''
+                            }
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
+                    \newSpacingSection
+                    s1 * 7/16
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'05''
+                            }
                 }
             }
         >>
@@ -63,50 +87,113 @@
                 \null
                 }
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
+                    \times 2/3 {
                         \set stemLeftBeamCount = #0
                         \set stemRightBeamCount = #3
-                        fs'32 [ \< \p
+                        cs''32 [ \< \p
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        c''32
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #1
+                        bf'32
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/5 {
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #2
+                        f''16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #2
+                        af'16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #2
+                        fs'16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #2
+                        b'16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #1
+                        d''16 \f
+                    }
+                    \times 2/3 {
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #3
+                        e''32 -\staccato \> \p (
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        ef''32 -\staccato
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #0
+                        a'32 -\staccato ] \pp )
+                    }
+                    \times 4/5 {
+                        \set stemLeftBeamCount = #0
+                        \set stemRightBeamCount = #3
+                        af''32 [ \< \p
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        fs''32
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        b''32
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        d''32
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #1
+                        f''32
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 4/3 {
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #2
+                        ef''16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #2
+                        a''16
+                        \set stemLeftBeamCount = #2
+                        \set stemRightBeamCount = #1
+                        e''16 \f
+                    }
+                    \times 2/3 {
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #3
+                        c''32 -\staccato \> \p (
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #3
+                        bf''32 -\staccato
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #0
+                        cs''32 -\staccato ] \pp )
+                    }
+                    \times 2/3 {
+                        \set stemLeftBeamCount = #0
+                        \set stemRightBeamCount = #3
+                        a'32 [ \< \p
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #3
                         e''32
                         \set stemLeftBeamCount = #3
-                        \set stemRightBeamCount = #3
-                        f''32
-                        \set stemLeftBeamCount = #3
-                        \set stemRightBeamCount = #3
-                        fqs''32
-                        \set stemLeftBeamCount = #3
-                        \set stemRightBeamCount = #3
-                        gqf''32
-                        \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #1
-                        a'32
+                        ef''32
                     }
                     \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/4 {
+                    \times 4/3 {
                         \set stemLeftBeamCount = #1
                         \set stemRightBeamCount = #2
                         bf'16
                         \set stemLeftBeamCount = #2
                         \set stemRightBeamCount = #2
-                        g'16
-                        \set stemLeftBeamCount = #2
-                        \set stemRightBeamCount = #2
-                        af'16
+                        cs''16
                         \set stemLeftBeamCount = #2
                         \set stemRightBeamCount = #1
-                        bqs''16 \f
+                        c''16 \f
                     }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
+                    \times 4/5 {
                         \set stemLeftBeamCount = #1
                         \set stemRightBeamCount = #3
-                        dqs''32 -\staccato \> \p (
-                        \set stemLeftBeamCount = #3
-                        \set stemRightBeamCount = #3
-                        eqf''32 -\staccato
+                        fs'32 -\staccato \> \p (
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #3
                         b'32 -\staccato
@@ -115,83 +202,29 @@
                         d''32 -\staccato
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #3
-                        ef''32 -\staccato
+                        f''32 -\staccato
                         \set stemLeftBeamCount = #3
                         \set stemRightBeamCount = #0
-                        bqf''32 -\staccato ] \pp )
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 3/4 {
-                        \set stemLeftBeamCount = #0
-                        \set stemRightBeamCount = #3
-                        af''32 [ \< \p
-                        \set stemLeftBeamCount = #3
-                        \set stemRightBeamCount = #3
-                        a''32
-                        \set stemLeftBeamCount = #3
-                        \set stemRightBeamCount = #3
-                        cqs''32
-                        \set stemLeftBeamCount = #3
-                        \set stemRightBeamCount = #1
-                        b''32
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 7/6 {
-                        \set stemLeftBeamCount = #1
-                        \set stemRightBeamCount = #2
-                        eqs''16
-                        \set stemLeftBeamCount = #2
-                        \set stemRightBeamCount = #2
-                        c''16
-                        \set stemLeftBeamCount = #2
-                        \set stemRightBeamCount = #2
-                        ef''16
-                        \set stemLeftBeamCount = #2
-                        \set stemRightBeamCount = #2
-                        e''16
-                        \set stemLeftBeamCount = #2
-                        \set stemRightBeamCount = #2
-                        bqs''16
-                        \set stemLeftBeamCount = #2
-                        \set stemRightBeamCount = #1
-                        eqf''16 \f
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-                        \set stemLeftBeamCount = #1
-                        \set stemRightBeamCount = #3
-                        f''32 -\staccato \> \p (
-                        \set stemLeftBeamCount = #3
-                        \set stemRightBeamCount = #3
-                        fs''32 -\staccato
-                        \set stemLeftBeamCount = #3
-                        \set stemRightBeamCount = #3
-                        gqf''32 -\staccato
-                        \set stemLeftBeamCount = #3
-                        \set stemRightBeamCount = #3
-                        gqs''32 -\staccato
-                        \set stemLeftBeamCount = #3
-                        \set stemRightBeamCount = #3
-                        bf''32 -\staccato
-                        \set stemLeftBeamCount = #3
-                        \set stemRightBeamCount = #0
-                        g''32 -\staccato ] \pp )
+                        af'32 -\staccato ] \pp )
                         \bar "|"
                     }
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
-                    s1 * 5/8
-                    s1 * 11/16
+                    s1 * 1/2
+                    s1 * 7/16
+                    s1 * 7/16
                     \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
-                    s1 * 5/8
-                    s1 * 11/16
+                    s1 * 1/2
+                    s1 * 7/16
+                    s1 * 7/16
                     \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
-                    s1 * 5/8
-                    s1 * 11/16
+                    s1 * 1/2
+                    s1 * 7/16
+                    s1 * 7/16
                     \bar "|"
                 }
             >>

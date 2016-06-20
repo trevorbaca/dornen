@@ -211,7 +211,7 @@
         \remove Mark_engraver
         \remove Metronome_mark_engraver
         \remove System_start_delimiter_engraver
-        \override BarLine.hair-thickness = 0.5
+        %\override BarLine.hair-thickness = 0.5
         \override BarLine.space-alist = #'(
             (time-signature extra-space . 0.0)
             (custos minimum-space . 0.0) 

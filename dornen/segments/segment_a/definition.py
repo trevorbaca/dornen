@@ -15,12 +15,12 @@ from dornen.materials.__abbreviations__ import *
 ################################## FIGURES ####################################
 ###############################################################################
 
-figure_accumulator = dornen.tools.FigureAccumulator()
+figure_accumulator = dornen.tools.FigureAccumulator(preferred_denominator=8)
 thorn_figure_maker_1 = dornen.tools.make_thorn_figure_maker_1()
 
 figure_accumulator(
     *thorn_figure_maker_1(
-        dornen.materials.green_pitch_classes[:3],
+        dornen.materials.blue_pitch_classes[:3],
         specifiers=[
             baca.pitch.register(-6),
             ],
@@ -29,10 +29,18 @@ figure_accumulator(
 
 figure_accumulator(
     *thorn_figure_maker_1(
-        dornen.materials.green_pitch_classes[3:6],
+        dornen.materials.blue_pitch_classes[3:6],
         specifiers=[
-            baca.pitch.transpose(1),
             baca.pitch.register(0),
+            ],
+        )
+    )
+
+figure_accumulator(
+    *thorn_figure_maker_1(
+        dornen.materials.blue_pitch_classes[6:9],
+        specifiers=[
+            baca.pitch.register(-6),
             ],
         )
     )
@@ -53,7 +61,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 measures_per_stage = len(figure_accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
-    #label_clock_time=True,
+    label_clock_time=True,
     #label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
     rehearsal_letter='',
@@ -65,8 +73,8 @@ segment_maker = baca.tools.SegmentMaker(
     transpose_score=True,
     )
 
-segment_maker.validate_stage_count(2)
-segment_maker.validate_measure_count(2)
+#segment_maker.validate_stage_count(1)
+#segment_maker.validate_measure_count(1)
 segment_maker.validate_measures_per_stage()
 
 music = []

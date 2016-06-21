@@ -112,10 +112,7 @@ Occurs third time as F#2 with capo tasto fixed to fret II on string (6).
 
 ### TRANSFORMATIONS ###
 
-[T1] Long crescendo and increased dampening gradually transform hypnotic
-one-note rearticulation into mechanical one-note rearticulation.
-
-[T2] Consider widely spaced snap pizzicati played forte. Then add a one-note
+[T1] Consider widely spaced snap pizzicati played forte. Then add a one-note
 acciaccatura before each snap pizzicato. Then add a two- or three-note
 acciaccatura before each snap pizzicato. Then add a five- or six-note
 acciaccatura before each snap pizzicato. This gradually fills the duration
@@ -137,7 +134,7 @@ gradually towards the bridge. Once RH is in front of the bridge, gradually
 glissando the LH up the strings' course until just in front of the RH fingers.
 Then transform the RH rhythmic from two-note alternation into quivering.
 
-[T3] Consider long-terminated even sixteenth notes patterned |: LS LS LS SL :|
+[T2] Consider long-terminated even sixteenth notes patterned |: LS LS LS SL :|
 as, for example, |: 3, 2, 4, 3, 5, 2, 3, 4 :| with 3=1+1+2, 2=1+2, 4=1+1+1+2,
 etc. with a slight accent on the last, longer attack of each chain. Motion
 characterizes a type of passe-pied. The progressively fill the termination of
@@ -164,3 +161,34 @@ tones as half-harmonics. Achieve end-tempo of accelerando and then begin
 resitral ascent, still with all notes as half-harmonics. Effect long diminuendo
 during ascent. Achieve end point of ascent in quiet half-harmonics. Then loop
 half-harmonics and close al niente.
+
+[T3] Consider a single lyrical half note played with vibrato. Repeat half note
+at pitch some number of times. Add a second pitch to the chain of half notes
+played with vibrato. Then add a third pitch, though with many chains continuing
+to begin with the anchor pitch. Begin interpolating single up-doits. Then
+increase the number of up-doits and crossfade from vibrato half notes to gentle
+up-doits. Remain on up-doits for a time. Then begin interpolating multinote
+graced rests. Then crossfade from up-doits to multinote graced rests. Then
+begin simultaneous down-transposition and ritardando of multinote graced rests.
+Achieve lowest register of multinote figures. Continue protracted ritardando
+of multinote figures. Come to rest on open (6) string. Continue to rearticulate
+the open (6) string with single plucks between cells of the other two
+narratives. Transitions SCP from the bridge to the fingerboard. Then change the
+tasto plucks of string (6) to lateral strokes of jeux des harmoniques. Then
+begin to vary the number of jeux des harmoniques strokes between 1, 2, 3. Begin
+to interpolate upper-register 24-ET acciaccaturas. Cotinue to interpolate
+upper-register 24-ET acciaccaturas and then raise fundamental of jeux des
+harmoniques from fret 0 of string (6) to fret I of string (6). Begin to slow
+and deaden upper-register 24-ET figures. Then raise fundamental of jeux des
+harmoniques from from I of string (6) to fret III of string (6). Then bring
+upper-register 24-ET figures to rest on a single pitch repeated in exact
+quarter note rhythm. Then let jeux des harmoniques begin to expire. Then begin
+to tremolo-attack the start of some pitches in the upper-register repetition
+chain. Then extend the tremolo-attack to consume the entire duration of first
+some notes and then all notes. Then begin to move tremolo pitch by LH
+glissandi. Then move glissandi beyond fingerboard. Then move glissandi beyond
+rose. Then move LH and RH all the way before the bridge for tremolo glissandi
+altississimi. Then slow tremolo to individually articulated altississimo notes.
+Then renaminate altississimo notes to deadzone quivering. Then transition
+deadzone quivering to OB quivering. Then slow OB quivering under diminuendo al
+niente.

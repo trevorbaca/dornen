@@ -1,4 +1,4 @@
-\version "2.19.41"
+\version "2.19.43"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -12,128 +12,41 @@
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                 {
-                    \time 4/4
-                    R1 * 1
+                    \time 15/8
+                    R1 * 15/8
                 }
                 {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 7/4
-                    R1 * 7/4
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
+                    \time 1/16
+                    R1 * 1/16
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
-                    \time 4/4
+                    \time 15/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
-                    s1 * 1
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [introduction.1]
-                            }
-                        ^ \markup {
+                    s1 * 15/8 ^ \markup {
                         \fontsize
                             #-6
                             \general-align
                                 #Y
                                 #DOWN
                                 \note-by-number
-                                    #2
+                                    #3
                                     #0
                                     #1
                         \upright
                             {
                                 =
-                                90
+                                44
                             }
                         }
                 }
                 {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \time 1/16
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                     \newSpacingSection
-                    s1 * 3/2
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [introduction.2]
-                            }
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 7/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [introduction.3]
-                            }
-                }
-                {
-                    \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [introduction.4]
-                            }
-                }
-                {
-                    \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/2
+                    s1 * 1/16
                 }
             }
         >>
@@ -149,47 +62,44 @@
                 \null
                 }
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    \bar "|"
+                    {
+                        cs'8... -\prall [
+                        c'8... -\prall
+                        bf8... -\prall ]
+                    }
+                    {
+                        f8... -\prall [
+                        af8... -\prall
+                        fs8... -\prall
+                        b8... -\prall
+                        d'8... -\prall ]
+                    }
+                    {
+                        \set stemLeftBeamCount = #0
+                        \set stemRightBeamCount = #4
+                        e'64 -\staccato [
+                        \set stemLeftBeamCount = #4
+                        \set stemRightBeamCount = #3
+                        ef''64 -\staccato
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #0
+                        a'32 -\staccato ]
+                        \bar "|"
+                    }
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
+                    s1 * 15/8
+                    s1 * 1/16
                     \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
+                    s1 * 15/8
+                    s1 * 1/16
                     \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 7/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
+                    s1 * 15/8
+                    s1 * 1/16
                     \bar "|"
                 }
             >>

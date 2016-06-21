@@ -5,10 +5,14 @@ probably relatively long rests.
 2. four different scrapers: delicate; medium; large; aggressive.
 introduced in that order with no backtracking.
 
-3. several striking rests at the end of the piece for the same reasons as at
+3. scraper acquisition gesture. dramatically wide LH arc. pantomimed once early
+in the piece. pantomimed twice in succession later in the piece. executed with
+scraper at start of the close of the piece.
+
+4. several striking rests at the end of the piece for the same reasons as at
 the beginning.
 
-4. microtones introduced self-consciously on the part of the music. first
+5. microtones introduced self-consciously on the part of the music. first
 microtone appears amidst the insistent arpeggiation of a single figure at the
 end of a protracted ritardando. music then accelerandos to resume previous
 timeflow and backaway from the unexpected first presence of microtones.
@@ -16,10 +20,10 @@ material of some other voice intervenes. arpeggiation then later returns and
 again slows to the point of noticing, warily, the presence of a single
 microtone yet again.
 
-5. effect of voice-intermittency will be helped considerably by curtailing the
+6. effect of voice-intermittency will be helped considerably by curtailing the
 duration of the last note in many figures that are interrupted by the
 appearance of an intermittent voice. curtailment used to effect a sense of
 ongoing interruption.
 
-6. ratio of broken tuplets can be internalized in the appearance of a complete
+7. ratio of broken tuplets can be internalized in the appearance of a complete
 tuplet carrying the same ratio.

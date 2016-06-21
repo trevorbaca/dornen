@@ -137,7 +137,7 @@ Then transform the RH rhythmic from two-note alternation into quivering.
 [T2] Consider long-terminated even sixteenth notes patterned |: LS LS LS SL :|
 as, for example, |: 3, 2, 4, 3, 5, 2, 3, 4 :| with 3=1+1+2, 2=1+2, 4=1+1+1+2,
 etc. with a slight accent on the last, longer attack of each chain. Motion
-characterizes a type of passe-pied. The progressively fill the termination of
+characterizes a type of passe-pied. Then progressively fill the termination of
 each chain with a sudden up- or down-glissando that starts on the beat and
 stops on the next beat, effectively dividing each +2 into a glissando of +1 and
 a sustain of +1. Then progressingly transform some chains to terminate in two
@@ -158,9 +158,9 @@ intervening material. Then begin closing accelerando. Slowly accelerate
 belltones. Continue accelerando and begin damping some belltones. Continue
 accelerando and dampen more belltones. Continue acclerando and realize all
 tones as half-harmonics. Achieve end-tempo of accelerando and then begin
-resitral ascent, still with all notes as half-harmonics. Effect long diminuendo
-during ascent. Achieve end point of ascent in quiet half-harmonics. Then loop
-half-harmonics and close al niente.
+registral ascent, still with all notes as half-harmonics. Effect long
+diminuendo during ascent. Achieve end point of ascent in quiet half-harmonics.
+Then loop half-harmonics and close al niente.
 
 [T3] Consider a single lyrical half note played with vibrato. Repeat half note
 at pitch some number of times. Add a second pitch to the chain of half notes

@@ -2,13 +2,13 @@
 import baca
 
 
-green_pitch_classes = [
+bright_green_pitch_classes = [
     [6, 4, 5, 5.5, 6.5, 9],
     [10, 7, 8, 11.5],
     [2.5, 3.5, 11, 2, 3, 10.5],
     ]
-green_pitch_classes = baca.tools.helianthate(green_pitch_classes, -1, -1)
-assert len(green_pitch_classes) == 36
+bright_green_pitch_classes = baca.tools.helianthate(bright_green_pitch_classes, -1, -1)
+assert len(bright_green_pitch_classes) == 36
 
 r'''
 (0, [6, 4, 5, 5.5, 6.5, 9])

@@ -11,30 +11,29 @@ import baca
 
 def make_passepied_figure_maker():
     figure_maker = baca.tools.FigureMaker(
-        articulation_figure_specifiers=[
-            baca.tools.ArticulationFigureSpecifier(
-                articulations=['.']
-                ),
-            ],
         beam_specifier=rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
-#        dynamic_figure_specifiers=[
-#            baca.tools.DynamicFigureSpecifier(
-#                dynamic=spannertools.Hairpin('p < f'),
-#                selector=selectortools.Selector().
-#                    by_class(scoretools.Tuplet).
-#                    get_slice(stop=-1, apply_to_each=True),
-#                ),
         rhythm_maker_figure_specifiers=[
             baca.tools.RhythmMakerFigureSpecifier(
-                patterns=patterntools.select_all(),
+                patterns=patterntools.select_first(),
+                rhythm_maker=baca.tools.StageRhythmMaker(
+                    acciaccatura_specifiers=[
+                        baca.tools.AcciaccaturaSpecifier(),
+                        ],
+                    talea=rhythmmakertools.Talea(
+                        counts=[1],
+                        denominator=16,
+                        ),
+                    )
+                ),
+            baca.tools.RhythmMakerFigureSpecifier(
+                patterns=patterntools.select_first(inverted=True),
                 rhythm_maker=baca.tools.StageRhythmMaker(
                     talea=rhythmmakertools.Talea(
-                        counts=[1, 1, 2],
-                        denominator=64,
+                        counts=[1],
+                        denominator=8,
                         ),
-                    #time_treatments=[mathtools.Ratio((8, 15))],
                     )
                 ),
             ],

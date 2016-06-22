@@ -93,24 +93,30 @@
                 }
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
                     {
+                        \once \override Beam.positions = #'(5 . 5)
                         e'8... -\prall [
                         fs8... -\prall
                         d'8... -\prall
-                        ef'8... -\prall ]
+                        ef'8... -\prall
                     }
                     s1 * 1/16
                     {
-                        f8... -\prall [
+                        f8... -\prall
                         a8... -\prall
-                        af8... -\prall ]
+                        af8... -\prall
                     }
                     s1 * 3/16
                     {
-                        c'8... -\prall
+                        c'8... -\prall ]
                         \bar "|"
                     }
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
+                    \override Accidental.color = #red
+                    \override Beam.color = #red
+                    \override NoteHead.color = #red
+                    \override Slur.color = #red
+                    \override Stem.color = #red
                     s1 * 15/16
                     {
                         \acciaccatura {
@@ -123,7 +129,8 @@
                             b'16 ]
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-3 . 0)
-                        d''16
+                        \once \override Beam.positions = #'(-7 . -7)
+                        d''16 [
                     }
                     s1 * 45/64
                     {
@@ -131,9 +138,9 @@
                             e'16 [
                             ef'16 ]
                         }
-                        \set stemLeftBeamCount = #0
+                        \set stemLeftBeamCount = #1
                         \set stemRightBeamCount = #2
-                        a'16 [
+                        a'16
                     }
                     {
                         \set stemLeftBeamCount = #1

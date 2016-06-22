@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 from abjad.tools import abctools
+from abjad.tools import durationtools
 from abjad.tools import indicatortools
 from abjad.tools import mathtools
+from abjad.tools import scoretools
+from abjad.tools import selectiontools
+from abjad.tools.topleveltools import attach
 
 
 class FigureAccumulator(abctools.AbjadObject):
@@ -12,8 +16,15 @@ class FigureAccumulator(abctools.AbjadObject):
 
     __slots__ = (
         '_preferred_denominator',
-        '_selections',
         '_time_signatures',
+        '_voice_name_to_selections',
+        )
+
+    _all_voices = (
+        'Guitar Music Voice 1',
+        'Guitar Music Voice 2',
+        'Guitar Music Voice 3',
+        'Guitar Music Voice 4',
         )
 
     ### INITIALIZER ###
@@ -23,17 +34,33 @@ class FigureAccumulator(abctools.AbjadObject):
             assert mathtools.is_positive_integer_power_of_two(
                 preferred_denominator)
         self._preferred_denominator = preferred_denominator
-        self._selections = []
         self._time_signatures = []
+        self._voice_name_to_selections = {
+            'Guitar Music Voice 1': [],
+            'Guitar Music Voice 2': [],
+            'Guitar Music Voice 3': [],
+            'Guitar Music Voice 4': [],
+            }
 
     ### SPECIAL METHODS ###
 
-    def __call__(self, selections, state_manifest):
+    def __call__(self, figure_output_pair, voice_name=None):
         r'''Calls figure accumulator on figure-maker output.
         '''
         import dornen
-        self.selections.extend(selections)
-        #time_signatures = dornen.tools.make_time_signatures(selections)
+        assert voice_name in self._all_voices
+        selections, state_manifest = figure_output_pair
+        duration = sum([_.get_duration() for _ in selections])
+        items = self.voice_name_to_selections.iteritems()
+        for voice_name_, selections_ in items:
+            if voice_name_ == voice_name:
+                selections_.extend(selections)
+            else:
+                skip = scoretools.Skip(1)
+                multiplier = durationtools.Multiplier(duration)
+                attach(multiplier, skip)
+                selection = selectiontools.Selection([skip])
+                selections_.append(selection)
         time_signatures = self._make_time_signatures(selections)
         self.time_signatures.extend(time_signatures)
 
@@ -67,10 +94,10 @@ class FigureAccumulator(abctools.AbjadObject):
         return self._preferred_denominator
 
     @property
-    def selections(self):
-        r'''Gets selections.
+    def voice_name_to_selections(self):
+        r'''Dictionary of selections keyed by voice name.
         '''
-        return self._selections
+        return self._voice_name_to_selections
 
     @property
     def time_signatures(self):

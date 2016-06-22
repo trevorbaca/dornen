@@ -26,11 +26,6 @@ def make_passepied_figure_maker():
 #                    by_class(scoretools.Tuplet).
 #                    get_slice(stop=-1, apply_to_each=True),
 #                ),
-#            baca.tools.DynamicFigureSpecifier(
-#                dynamic=spannertools.Hairpin('p > pp'),
-#                selector=select_last_tuplet(),
-#                ),
-#            ],
         rhythm_maker_figure_specifiers=[
             baca.tools.RhythmMakerFigureSpecifier(
                 patterns=patterntools.select_all(),

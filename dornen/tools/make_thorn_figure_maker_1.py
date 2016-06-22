@@ -8,7 +8,7 @@ from abjad.tools import spannertools
 import baca
 
 
-def select_last_tuplet():
+def _select_last_tuplet():
     selector = selectortools.Selector()
     selector = selector.by_class(scoretools.Tuplet)
     selector = selector.get_slice(start=-1, apply_to_each=True)
@@ -19,7 +19,7 @@ def make_thorn_figure_maker_1():
         articulation_figure_specifiers=[
             baca.tools.ArticulationFigureSpecifier(
                 articulations=['.'],
-                selector=select_last_tuplet(),
+                selector=_select_last_tuplet(),
                 ),
             ],
         beam_specifier=rhythmmakertools.BeamSpecifier(
@@ -34,7 +34,7 @@ def make_thorn_figure_maker_1():
                 ),
             baca.tools.DynamicFigureSpecifier(
                 dynamic=spannertools.Hairpin('p > pp'),
-                selector=select_last_tuplet(),
+                selector=_select_last_tuplet(),
                 ),
             ],
         rhythm_maker_figure_specifiers=[
@@ -62,7 +62,7 @@ def make_thorn_figure_maker_1():
             spanner_figure_specifiers=[
                 baca.tools.SpannerFigureSpecifier(
                     spanner=spannertools.Slur(),
-                    selector=select_last_tuplet(),
+                    selector=_select_last_tuplet(),
                     ),
                 ],
         )

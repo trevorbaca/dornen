@@ -233,8 +233,8 @@
         \override NoteColumn.ignore-collision = ##t
         \shape #'((-2 . 0) (-1 . 0) (-0.5 . 0) (0 . 0)) RepeatTie                 
         \override RepeatTie.X-extent = ##f
-        \override SpacingSpanner.strict-grace-spacing = ##t
-        \override SpacingSpanner.strict-note-spacing = ##t
+        %\override SpacingSpanner.strict-grace-spacing = ##t
+        %\override SpacingSpanner.strict-note-spacing = ##t
         \override SpacingSpanner.uniform-stretching = ##t
         \override StemTremolo.beam-width = 1.5
         \override StemTremolo.flag-count = 4

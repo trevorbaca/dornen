@@ -15,18 +15,55 @@ vibrato_figure_maker = dornen.tools.make_vibrato_figure_maker()
 
 figure_accumulator(
     *vibrato_figure_maker(
-        dornen.materials.blue_pitch_classes[:2],
+        dornen.materials.magenta_pitch_classes[:1],
         specifiers=[
             baca.pitch.register(-20+1),
             ],
         )
     )
 
+pitch_classes = dornen.materials.blue_pitch_classes[0]
+pitch_classes += dornen.materials.blue_pitch_classes[1]
+stage_specifier = [pitch_classes]
 figure_accumulator(
     *passepied_figure_maker(
-        dornen.materials.blue_pitch_classes[2:3],
+        stage_specifier,
+        specifiers=[
+            baca.overrides.time_signature_extra_offset((-3, 0)),
+            baca.pitch.register(-8),
+            ],
+        )
+    )
+
+pitch_classes = dornen.materials.magenta_pitch_classes[1][:3]
+stage_specifier = [pitch_classes]
+figure_accumulator(
+    *vibrato_figure_maker(
+        stage_specifier,
+        specifiers=[
+            baca.pitch.register(-20+1),
+            ],
+        )
+    )
+
+stage_specifier = [dornen.materials.blue_pitch_classes[2]]
+stage_specifier.append(dornen.materials.blue_pitch_classes[3][:1])
+figure_accumulator(
+    *passepied_figure_maker(
+        stage_specifier,
         specifiers=[
             baca.pitch.register(-8),
+            ],
+        )
+    )
+
+pitch_classes = dornen.materials.magenta_pitch_classes[1][3:]
+stage_specifier = [pitch_classes]
+figure_accumulator(
+    *vibrato_figure_maker(
+        stage_specifier,
+        specifiers=[
+            baca.pitch.register(-20+1),
             ],
         )
     )

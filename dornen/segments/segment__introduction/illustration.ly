@@ -98,6 +98,20 @@
                         d'8... -\prall
                         ef'8... -\prall ]
                     }
+                    s1 * 1/16
+                    {
+                        f8... -\prall [
+                        a8... -\prall
+                        af8... -\prall ]
+                    }
+                    s1 * 3/16
+                    {
+                        c'8... -\prall
+                        \bar "|"
+                    }
+                }
+                \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
+                    s1 * 15/16
                     {
                         \acciaccatura {
                             cs'16 [
@@ -111,11 +125,7 @@
                         \once \override Score.TimeSignature.extra-offset = #'(-3 . 0)
                         d''16
                     }
-                    {
-                        f8... -\prall [
-                        a8... -\prall
-                        af8... -\prall ]
-                    }
+                    s1 * 45/64
                     {
                         \acciaccatura {
                             e'16 [
@@ -130,16 +140,6 @@
                         \set stemRightBeamCount = #0
                         af'8 ]
                     }
-                    {
-                        c'8... -\prall
-                        \bar "|"
-                    }
-                }
-                \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
-                    s1 * 15/16
-                    s1 * 1/16
-                    s1 * 45/64
-                    s1 * 3/16
                     s1 * 15/64
                     \bar "|"
                 }

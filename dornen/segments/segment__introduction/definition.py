@@ -22,7 +22,7 @@ for tree in trees:
     design_1.append(numbers)
 assert len(design_1) == 50, repr(design_1)
 design_1 = design_1[:22]
-design_1 = abjad.datastructuretools.Cursor(source=design_1)
+design_1 = baca.tools.Cursor(source=design_1)
 
 # 1
 figure_accumulator(

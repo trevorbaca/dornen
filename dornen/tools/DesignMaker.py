@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import abjad
+import baca
 
 
 class DesignMaker(abjad.abctools.AbjadObject):
@@ -99,7 +100,7 @@ class DesignMaker(abjad.abctools.AbjadObject):
                     number_list)
                 cells.append(pitch_class_segment)
         cells = abjad.datastructuretools.CyclicTuple(cells)
-        cursor = abjad.datastructuretools.Cursor(source=cells)
+        cursor = baca.tools.Cursor(source=cells)
         return cursor
 
     ### PUBLIC METHODS ###

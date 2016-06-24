@@ -3,8 +3,8 @@ import abjad
 import baca
 
 
-def make_running_figure_maker():
-    r'''Makes running figure maker.
+def make_ritardando_figure_maker():
+    r'''Makes ritardando figure maker.
 
     Returns figure maker.
     '''
@@ -21,7 +21,7 @@ def make_running_figure_maker():
                         denominator=64,
                         ),
 
-                    time_treatments=[-1, -2],
+                    time_treatments=['rit'],
                     ),
                 ),
             ],

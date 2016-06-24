@@ -59,7 +59,7 @@ measures_per_stage = len(figure_accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
     label_clock_time=True,
-    #label_stage_numbers=True,
+    #label_stages=True,
     measures_per_stage=measures_per_stage,
     rehearsal_letter='',
     score_package=dornen,

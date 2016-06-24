@@ -23,7 +23,7 @@ def make_passepied_figure_maker():
                         ],
                     talea=rhythmmakertools.Talea(
                         counts=[1],
-                        denominator=16,
+                        denominator=32,
                         ),
                     )
                 ),

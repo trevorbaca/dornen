@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
 import dornen
-from abjad import *
-from dornen.materials.__abbreviations__ import *
 
 
 ###############################################################################
@@ -10,12 +9,24 @@ from dornen.materials.__abbreviations__ import *
 ###############################################################################
 
 figure_accumulator = dornen.tools.FigureAccumulator(preferred_denominator=8)
+anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
 passepied_figure_maker = dornen.tools.make_passepied_figure_maker()
-vibrato_figure_maker = dornen.tools.make_vibrato_figure_maker()
+running_figure_maker = dornen.tools.make_running_figure_maker()
+
+design_1 = dornen.tools.make_design_1()
+trees = design_1.iterate_at_level(level=-2)
+design_1 = []
+for tree in trees:
+    numbered_pitch_classes = list(tree.iterate_payload())
+    numbers = [_.pitch_class_number for _ in numbered_pitch_classes]
+    design_1.append(numbers)
+assert len(design_1) == 50, repr(design_1)
+design_1 = design_1[:22]
+design_1 = abjad.datastructuretools.Cursor(source=design_1)
 
 figure_accumulator(
-    vibrato_figure_maker(
-        dornen.materials.magenta_pitch_classes[:1],
+    anchor_figure_maker(
+        design_1.next(),
         specifiers=[
             baca.pitch.register(-20+1),
             ],
@@ -23,25 +34,20 @@ figure_accumulator(
     voice_name='Guitar Music Voice 1',
     )
 
-pitch_classes = dornen.materials.blue_pitch_classes[0]
-pitch_classes += dornen.materials.blue_pitch_classes[1]
-stage_specifier = [pitch_classes]
 figure_accumulator(
     passepied_figure_maker(
-        stage_specifier,
+        design_1.next(),
         specifiers=[
-            baca.overrides.time_signature_extra_offset((-3, 0)),
+            baca.overrides.time_signature_extra_offset((-2.5, 0)),
             baca.pitch.register(-8),
             ],
         ),
     voice_name='Guitar Music Voice 2',
     )
 
-pitch_classes = dornen.materials.magenta_pitch_classes[1][:3]
-stage_specifier = [pitch_classes]
 figure_accumulator(
-    vibrato_figure_maker(
-        stage_specifier,
+    anchor_figure_maker(
+        design_1.next(),
         specifiers=[
             baca.pitch.register(-20+1),
             ],
@@ -49,28 +55,77 @@ figure_accumulator(
     voice_name='Guitar Music Voice 1',
     )
 
-stage_specifier = [dornen.materials.blue_pitch_classes[2]]
-stage_specifier.append(dornen.materials.blue_pitch_classes[3][:1])
 figure_accumulator(
     passepied_figure_maker(
-        stage_specifier,
+        design_1.next(),
         specifiers=[
+            baca.overrides.time_signature_extra_offset((-2.5, 0)),
             baca.pitch.register(-8),
             ],
         ),
     voice_name='Guitar Music Voice 2',
     )
 
-pitch_classes = dornen.materials.magenta_pitch_classes[1][3:]
-stage_specifier = [pitch_classes]
 figure_accumulator(
-    vibrato_figure_maker(
-        stage_specifier,
+    anchor_figure_maker(
+        design_1.next(),
         specifiers=[
             baca.pitch.register(-20+1),
             ],
         ),
     voice_name='Guitar Music Voice 1',
+    )
+
+figure_accumulator(
+    passepied_figure_maker(
+        design_1.next(),
+        specifiers=[
+            baca.overrides.time_signature_extra_offset((-2.5, 0)),
+            baca.pitch.register(-8),
+            ],
+        ),
+    voice_name='Guitar Music Voice 2',
+    )
+
+figure_accumulator(
+    anchor_figure_maker(
+        design_1.next(),
+        specifiers=[
+            baca.pitch.register(-20+1),
+            ],
+        ),
+    voice_name='Guitar Music Voice 1',
+    )
+
+figure_accumulator(
+    passepied_figure_maker(
+        design_1.next(),
+        specifiers=[
+            baca.overrides.time_signature_extra_offset((-2.5, 0)),
+            baca.pitch.register(-8),
+            ],
+        ),
+    voice_name='Guitar Music Voice 2',
+    )
+
+figure_accumulator(
+    running_figure_maker(
+        design_1.next(2),
+        specifiers=[
+            baca.pitch.register(-6),
+            ],
+        ),
+    voice_name='Guitar Music Voice 1',
+    )
+
+figure_accumulator(
+    anchor_figure_maker(
+        design_1.next(),
+        specifiers=[
+            baca.pitch.register(-20+1),
+            ],
+        ),
+    voice_name='Guitar Music Voice 2',
     )
 
 ###############################################################################
@@ -82,8 +137,8 @@ tempo_specifier = baca.tools.TempoSpecifier([
     ])
 
 spacing_specifier = baca.tools.SpacingSpecifier(
-    fermata_measure_width=durationtools.Duration(1, 4),
-    minimum_width=durationtools.Duration(1, 12),
+    fermata_measure_width=abjad.durationtools.Duration(1, 4),
+    minimum_width=abjad.durationtools.Duration(1, 12),
     )
 
 measures_per_stage = len(figure_accumulator.time_signatures) * [1]
@@ -110,9 +165,9 @@ for voice_name, selections in items:
     music = []
     for selection in selections:
         music.extend(selection)
-    complete_selection = selectiontools.Selection(music)
+    complete_selection = abjad.selectiontools.Selection(music)
     segment_maker.append_specifiers(
-        (voice_name, stages(1, 1)),
+        (voice_name, baca.tools.stages(1, 1)),
         baca.tools.RhythmSpecifier(
             rhythm_maker=complete_selection,
             ),

@@ -205,13 +205,13 @@
                 }
                 {
                     \time 7/64
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 5 1024)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                     \newSpacingSection
                     s1 * 7/64
                 }
                 {
                     \time 3/16
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 1024)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                     \newSpacingSection
                     s1 * 3/16
                 }
@@ -230,7 +230,7 @@
                 }
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
                     {
-                        e'8.
+                        e'8. [
                     }
                     s1 * 1/32
                     {
@@ -238,18 +238,18 @@
                     }
                     s1 * 1/32
                     {
-                        bf'8. [
+                        bf'8.
                         g'8. ]
                     }
                     s1 * 1/32
                     {
                         g'8. [
-                        b8. ]
+                        b8.
                     }
                     s1 * 1/32
                     s1 * 3/32
                     {
-                        c'8. [
+                        c'8.
                         f'8.
                         a8.
                         af8. ]
@@ -257,11 +257,11 @@
                     s1 * 17/64
                     {
                         fs8. [
-                        bf8. ]
+                        bf8.
                     }
                     s1 * 1/32
                     {
-                        af8. [
+                        af8.
                         c'8. ]
                     }
                     s1 * 1/32
@@ -272,6 +272,12 @@
                     \bar "|"
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
+                    \override Accidental.color = #red
+                    \override Beam.color = #red
+                    \override NoteHead.color = #red
+                    \override Slur.color = #red
+                    \override Stem.color = #red
+                    \override Stem.direction = #down
                     s1 * 3/16
                     {
                         \acciaccatura {
@@ -283,7 +289,8 @@
                             af'16 ]
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-                        c''32
+                        \once \override Beam.positions = #'(-7 . -7)
+                        c''32 [
                     }
                     s1 * 3/16
                     {
@@ -306,7 +313,7 @@
                             ef'16 ]
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-                        e''32
+                        e''32 ]
                     }
                     s1 * 3/8
                     {
@@ -317,7 +324,8 @@
                             e'16 ]
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-                        fs''32
+                        \once \override Beam.positions = #'(-14 . -14)
+                        fs''32 [
                     }
                     s1 * 3/32
                     s1 * 3/4
@@ -335,7 +343,7 @@
                             ef'16 ]
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-                        e''32
+                        e''32 ]
                     }
                     s1 * 3/8
                     {
@@ -350,7 +358,8 @@
                             cs'16 ]
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-                        fs''32
+                        \once \override Beam.positions = #'(-7 . -7)
+                        fs''32 [
                     }
                     {
                         \acciaccatura {
@@ -359,7 +368,7 @@
                             f'16 ]
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-                        g''32
+                        g''32 ]
                     }
                     s1 * 9/64
                     s1 * 7/64
@@ -367,6 +376,8 @@
                     \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
+                    \override Beam.positions = #'(-7 . -7)
+                    \override Stem.direction = #down
                     s1 * 3/16
                     s1 * 1/32
                     s1 * 3/16
@@ -402,14 +413,14 @@
                         \set stemRightBeamCount = #4
                         fs'64
                         \set stemLeftBeamCount = #4
-                        \set stemRightBeamCount = #0
-                        d'64 ]
+                        \set stemRightBeamCount = #1
+                        d'64
                     }
                     s1 * 3/4
                     \times 2/3 {
-                        \set stemLeftBeamCount = #0
+                        \set stemLeftBeamCount = #1
                         \set stemRightBeamCount = #4
-                        b'64 [
+                        b'64
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         bf'64

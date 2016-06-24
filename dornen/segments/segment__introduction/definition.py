@@ -24,6 +24,7 @@ assert len(design_1) == 50, repr(design_1)
 design_1 = design_1[:22]
 design_1 = abjad.datastructuretools.Cursor(source=design_1)
 
+# 1
 figure_accumulator(
     anchor_figure_maker(
         design_1.next(),
@@ -34,6 +35,7 @@ figure_accumulator(
     voice_name='Guitar Music Voice 1',
     )
 
+# 2
 figure_accumulator(
     passepied_figure_maker(
         design_1.next(),
@@ -45,6 +47,7 @@ figure_accumulator(
     voice_name='Guitar Music Voice 2',
     )
 
+# 3
 figure_accumulator(
     anchor_figure_maker(
         design_1.next(),
@@ -55,6 +58,7 @@ figure_accumulator(
     voice_name='Guitar Music Voice 1',
     )
 
+# 4
 figure_accumulator(
     passepied_figure_maker(
         design_1.next(),
@@ -66,6 +70,7 @@ figure_accumulator(
     voice_name='Guitar Music Voice 2',
     )
 
+# 5
 figure_accumulator(
     anchor_figure_maker(
         design_1.next(),
@@ -76,6 +81,7 @@ figure_accumulator(
     voice_name='Guitar Music Voice 1',
     )
 
+# 6
 figure_accumulator(
     passepied_figure_maker(
         design_1.next(),
@@ -87,6 +93,7 @@ figure_accumulator(
     voice_name='Guitar Music Voice 2',
     )
 
+# 7
 figure_accumulator(
     anchor_figure_maker(
         design_1.next(),
@@ -97,6 +104,7 @@ figure_accumulator(
     voice_name='Guitar Music Voice 1',
     )
 
+# 8
 figure_accumulator(
     passepied_figure_maker(
         design_1.next(),
@@ -108,6 +116,7 @@ figure_accumulator(
     voice_name='Guitar Music Voice 2',
     )
 
+# 9
 figure_accumulator(
     running_figure_maker(
         design_1.next(2),
@@ -118,6 +127,7 @@ figure_accumulator(
     voice_name='Guitar Music Voice 1',
     )
 
+# 10
 figure_accumulator(
     anchor_figure_maker(
         design_1.next(),
@@ -126,6 +136,127 @@ figure_accumulator(
             ],
         ),
     voice_name='Guitar Music Voice 2',
+    )
+
+# 11
+figure_accumulator(
+    running_figure_maker(
+        design_1.next(),
+        specifiers=[
+            baca.pitch.register(-12),
+            ],
+        ),
+    voice_name='Guitar Music Voice 1',
+    )
+
+# 12
+figure_accumulator(
+    running_figure_maker(
+        design_1.next(),
+        specifiers=[
+            baca.pitch.register(-12),
+            ],
+        ),
+    voice_name='Guitar Music Voice 1',
+    )
+
+# 13
+figure_accumulator(
+    running_figure_maker(
+        design_1.next(),
+        specifiers=[
+            baca.pitch.register(-12),
+            ],
+        ),
+    voice_name='Guitar Music Voice 1',
+    )
+
+# 14
+figure_accumulator(
+    running_figure_maker(
+        design_1.next(),
+        specifiers=[
+            baca.pitch.register(-12),
+            ],
+        ),
+    voice_name='Guitar Music Voice 1',
+    )
+
+# 15
+figure_accumulator(
+    running_figure_maker(
+        design_1.next(),
+        specifiers=[
+            baca.pitch.register(-12),
+            ],
+        ),
+    voice_name='Guitar Music Voice 1',
+    )
+
+# 16
+figure_accumulator(
+    running_figure_maker(
+        design_1.next(),
+        specifiers=[
+            baca.pitch.register(-12),
+            ],
+        ),
+    voice_name='Guitar Music Voice 1',
+    )
+
+# 17
+figure_accumulator(
+    running_figure_maker(
+        design_1.next(),
+        specifiers=[
+            baca.pitch.register(-12),
+            ],
+        ),
+    voice_name='Guitar Music Voice 1',
+    )
+
+# 18
+figure_accumulator(
+    running_figure_maker(
+        design_1.next(),
+        specifiers=[
+            baca.pitch.register(-12),
+            ],
+        ),
+    voice_name='Guitar Music Voice 1',
+    )
+
+# 19
+figure_accumulator(
+    running_figure_maker(
+        design_1.next(),
+        specifiers=[
+            baca.pitch.register(-12),
+            ],
+        ),
+    voice_name='Guitar Music Voice 1',
+    )
+
+# 20
+figure_accumulator(
+    running_figure_maker(
+        design_1.next(),
+        specifiers=[
+            baca.pitch.register(-12),
+            ],
+        ),
+    voice_name='Guitar Music Voice 1',
+    )
+
+# 21
+figure_accumulator(
+    running_figure_maker(
+        design_1.next(),
+        specifiers=[
+            baca.pitch.register(-12),
+            ],
+        ),
+    voice_name='Guitar Music Voice 1',
     )
 
 ###############################################################################
@@ -145,12 +276,13 @@ measures_per_stage = len(figure_accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
-    #label_stage_numbers=True,
+    label_stages=True,
     measures_per_stage=measures_per_stage,
     rehearsal_letter='',
     score_package=dornen,
     skips_instead_of_rests=True,
     spacing_specifier=spacing_specifier,
+    stage_label_base_string='I',
     tempo_specifier=tempo_specifier,
     time_signatures=figure_accumulator.time_signatures,
     transpose_score=True,

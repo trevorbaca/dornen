@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import abjad
 from abjad.tools import abctools
 from abjad.tools import durationtools
 from abjad.tools import indicatortools
@@ -44,7 +45,7 @@ class FigureAccumulator(abctools.AbjadObject):
 
     ### SPECIAL METHODS ###
 
-    def __call__(self, figure_output_pair, voice_name=None):
+    def __call__(self, figure_output_pair, stage_name=None, voice_name=None):
         r'''Calls figure accumulator on figure-maker output.
         '''
         import dornen
@@ -61,6 +62,17 @@ class FigureAccumulator(abctools.AbjadObject):
                 attach(multiplier, skip)
                 selection = selectiontools.Selection([skip])
                 selections_.append(selection)
+        if stage_name is not None:
+            if not isinstance(stage_name, abjad.markuptools.Markup):
+                stage_name = '[{}]'.format(stage_name)
+                stage_name = abjad.markuptools.Markup(
+                    stage_name,
+                    direction=Up,
+                    )
+                stage_name = stage_name.with_color('blue')
+                stage_name = stage_name.fontsize(3)
+            leaves = list(abjad.iterate(selections).by_leaf())
+            attach(stage_name, leaves[0])
         time_signatures = self._make_time_signatures(selections)
         self.time_signatures.extend(time_signatures)
 

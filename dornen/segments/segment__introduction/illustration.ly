@@ -231,25 +231,60 @@
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
                     {
                         e'8.
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [1]
+                                }
                     }
                     s1 * 1/32
                     {
                         b'8.
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [3]
+                                }
                     }
                     s1 * 1/32
                     {
                         bf'8. [
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [5]
+                                }
                         g'8. ]
                     }
                     s1 * 1/32
                     {
                         g'8. [
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [7]
+                                }
                         b8. ]
                     }
                     s1 * 1/32
                     s1 * 3/32
                     {
                         c'8. [
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [10]
+                                }
                         f'8.
                         a8.
                         af8. ]
@@ -257,11 +292,25 @@
                     s1 * 17/64
                     {
                         fs8. [
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [12]
+                                }
                         bf8. ]
                     }
                     s1 * 1/32
                     {
                         af8. [
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [14]
+                                }
                         c'8. ]
                     }
                     s1 * 1/32
@@ -284,6 +333,13 @@
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
                         c''32
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [2]
+                                }
                     }
                     s1 * 3/16
                     {
@@ -296,6 +352,13 @@
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
                         f'32
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [4]
+                                }
                     }
                     s1 * 3/8
                     {
@@ -307,6 +370,13 @@
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
                         e''32
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [6]
+                                }
                     }
                     s1 * 3/8
                     {
@@ -318,6 +388,13 @@
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
                         fs''32
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [8]
+                                }
                     }
                     s1 * 3/32
                     s1 * 3/4
@@ -336,6 +413,13 @@
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
                         e''32
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [13]
+                                }
                     }
                     s1 * 3/8
                     {
@@ -351,6 +435,13 @@
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
                         fs''32
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [15]
+                                }
                     }
                     {
                         \acciaccatura {
@@ -360,6 +451,13 @@
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
                         g''32
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [16]
+                                }
                     }
                     s1 * 9/64
                     s1 * 7/64
@@ -419,6 +517,13 @@
                         \set stemLeftBeamCount = #0
                         \set stemRightBeamCount = #4
                         b''64 * 320/1024 [
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [18]
+                                }
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         af''64 * 640/1024
@@ -474,6 +579,13 @@
                         \set stemLeftBeamCount = #0
                         \set stemRightBeamCount = #4
                         f'64 * 192/1024 [
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [19]
+                                }
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         b'64 * 448/1024
@@ -525,6 +637,13 @@
                         \set stemLeftBeamCount = #0
                         \set stemRightBeamCount = #4
                         af'64 [
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [9]
+                                }
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         c'64
@@ -555,6 +674,13 @@
                         \set stemLeftBeamCount = #0
                         \set stemRightBeamCount = #4
                         b'64 [
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [11]
+                                }
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         bf'64
@@ -623,6 +749,13 @@
                         \set stemLeftBeamCount = #0
                         \set stemRightBeamCount = #4
                         a''64 [
+                            ^ \markup {
+                                \fontsize
+                                    #3
+                                    \with-color
+                                        #blue
+                                        [17]
+                                }
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         cs''64

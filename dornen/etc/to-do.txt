@@ -1,25 +1,23 @@
-1. Allow for newSpacingSection commands to attach to each stage.
+1. Make beaming work across intermittent voices.
 
-2. Make beaming work across intermittent voices.
-
-3. Implement preferred denominator as a StageRhythmMaker property together
+2. Implement preferred denominator as a StageRhythmMaker property together
 with optional calltime override. Update API example time signatures.
 
-4. Containerize FigureMaker output to allow slurs across stages with
+3. Containerize FigureMaker output to allow slurs across stages with
 Selector.with_next_leaf(). Add slur across stages in running figure maker.
 
-5. Add notational arrays to the docstrings of each Dornen figure maker.
+4. Add notational arrays to the docstrings of each Dornen figure maker.
 
-6. Make figure maker that produces Huitzil-style tuplet monads.
+5. Make figure maker that produces Huitzil-style tuplet monads.
 
-7. Deposit mock-up figures in [A] - [G].
+6. Deposit mock-up figures in [A] - [G].
 
-8. Implement a better RegisterTransitionSpecifier. Possibly named
+7. Implement a better RegisterTransitionSpecifier. Possibly named
 RegisterInterpolationSpecifier. Allow for arbitrarily many stages. Allow for
 interpolation by duration of selection. Allow for interpolation by number of
 notes and chords.
 
-9. Implement OctaveDisplacementSpecifier in [A].
+8. Implement OctaveDisplacementSpecifier in [A].
 
-10. Create a revelation passage in [A]. Use cleanly implemented cursor in
+9. Create a revelation passage in [A]. Use cleanly implemented cursor in
 segment definition file.

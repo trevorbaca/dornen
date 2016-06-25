@@ -8,7 +8,10 @@ import dornen
 ############################### [introduction] ################################
 ###############################################################################
 
-figure_accumulator = dornen.tools.FigureAccumulator(preferred_denominator=8)
+figure_accumulator = dornen.tools.FigureAccumulator(
+    #label_figures=True,
+    preferred_denominator=8,
+    )
 anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
 passepied_figure_maker = dornen.tools.make_passepied_figure_maker()
 ritardando_figure_maker = dornen.tools.make_ritardando_figure_maker()
@@ -25,7 +28,6 @@ assert len(design_1) == 50, repr(design_1)
 design_1 = design_1[:22]
 design_1 = baca.tools.Cursor(source=design_1)
 
-# 1
 figure_accumulator(
     anchor_figure_maker(
         design_1.next(),
@@ -33,11 +35,10 @@ figure_accumulator(
             baca.pitch.register(-8),
             ],
         ),
-    stage_name=1,
+    figure_name=1,
     voice_name='Guitar Music Voice 1',
     )
 
-# 2
 figure_accumulator(
     passepied_figure_maker(
         design_1.next(),
@@ -46,11 +47,10 @@ figure_accumulator(
             baca.pitch.register(-10),
             ],
         ),
-    stage_name=2,
+    figure_name=2,
     voice_name='Guitar Music Voice 2',
     )
 
-# 3
 figure_accumulator(
     anchor_figure_maker(
         design_1.next(),
@@ -58,11 +58,10 @@ figure_accumulator(
             baca.pitch.register(-10),
             ],
         ),
-    stage_name=3,
+    figure_name=3,
     voice_name='Guitar Music Voice 1',
     )
 
-# 4
 figure_accumulator(
     passepied_figure_maker(
         design_1.next(),
@@ -71,11 +70,10 @@ figure_accumulator(
             baca.pitch.register(-8),
             ],
         ),
-    stage_name=4,
+    figure_name=4,
     voice_name='Guitar Music Voice 2',
     )
 
-# 5
 figure_accumulator(
     anchor_figure_maker(
         design_1.next(),
@@ -83,11 +81,10 @@ figure_accumulator(
             baca.pitch.register(-12),
             ],
         ),
-    stage_name=5,
+    figure_name=5,
     voice_name='Guitar Music Voice 1',
     )
 
-# 6
 figure_accumulator(
     passepied_figure_maker(
         design_1.next(),
@@ -96,11 +93,10 @@ figure_accumulator(
             baca.pitch.register(-6),
             ],
         ),
-    stage_name=6,
+    figure_name=6,
     voice_name='Guitar Music Voice 2',
     )
 
-# 7
 figure_accumulator(
     anchor_figure_maker(
         design_1.next(),
@@ -108,11 +104,10 @@ figure_accumulator(
             baca.pitch.register(-14),
             ],
         ),
-    stage_name=7,
+    figure_name=7,
     voice_name='Guitar Music Voice 1',
     )
 
-# 8
 figure_accumulator(
     passepied_figure_maker(
         design_1.next(),
@@ -121,11 +116,10 @@ figure_accumulator(
             baca.pitch.register(-4),
             ],
         ),
-    stage_name=8,
+    figure_name=8,
     voice_name='Guitar Music Voice 2',
     )
 
-# 9
 figure_accumulator(
     running_figure_maker(
         design_1.next(2),
@@ -133,11 +127,10 @@ figure_accumulator(
             baca.pitch.register(-12),
             ],
         ),
-    stage_name=9,
+    figure_name=9,
     voice_name='Guitar Music Voice 4',
     )
 
-# 10
 figure_accumulator(
     anchor_figure_maker(
         design_1.next(),
@@ -145,11 +138,10 @@ figure_accumulator(
             baca.pitch.register(-16),
             ],
         ),
-    stage_name=10,
+    figure_name=10,
     voice_name='Guitar Music Voice 1',
     )
 
-# 11
 figure_accumulator(
     running_figure_maker(
         design_1.next(2),
@@ -157,11 +149,10 @@ figure_accumulator(
             baca.pitch.register(-6),
             ],
         ),
-    stage_name=11,
+    figure_name=11,
     voice_name='Guitar Music Voice 4',
     )
 
-# 12
 figure_accumulator(
     anchor_figure_maker(
         design_1.next(),
@@ -169,11 +160,10 @@ figure_accumulator(
             baca.pitch.register(-18),
             ],
         ),
-    stage_name=12,
+    figure_name=12,
     voice_name='Guitar Music Voice 1',
     )
 
-# 13
 figure_accumulator(
     passepied_figure_maker(
         design_1.next(),
@@ -182,11 +172,10 @@ figure_accumulator(
             baca.pitch.register(-2),
             ],
         ),
-    stage_name=13,
+    figure_name=13,
     voice_name='Guitar Music Voice 2',
     )
 
-# 14
 figure_accumulator(
     anchor_figure_maker(
         design_1.next(),
@@ -194,11 +183,10 @@ figure_accumulator(
             baca.pitch.register(-20),
             ],
         ),
-    stage_name=14,
+    figure_name=14,
     voice_name='Guitar Music Voice 1',
     )
 
-# 15
 figure_accumulator(
     passepied_figure_maker(
         design_1.next(),
@@ -207,11 +195,10 @@ figure_accumulator(
             baca.pitch.register(0),
             ],
         ),
-    stage_name=15,
+    figure_name=15,
     voice_name='Guitar Music Voice 2',
     )
 
-# 16
 figure_accumulator(
     passepied_figure_maker(
         design_1.next(),
@@ -220,11 +207,10 @@ figure_accumulator(
             baca.pitch.register(2),
             ],
         ),
-    stage_name=16,
+    figure_name=16,
     voice_name='Guitar Music Voice 2',
     )
 
-# 17
 figure_accumulator(
     running_figure_maker(
         design_1.next(2),
@@ -232,11 +218,10 @@ figure_accumulator(
             baca.pitch.register(0),
             ],
         ),
-    stage_name=17,
+    figure_name=17,
     voice_name='Guitar Music Voice 4',
     )
 
-# 18
 figure_accumulator(
     ritardando_figure_maker(
         design_1.next(1),
@@ -244,11 +229,10 @@ figure_accumulator(
             baca.pitch.register(0),
             ],
         ),
-    stage_name=18,
+    figure_name=18,
     voice_name='Guitar Music Voice 3',
     )
 
-# 19
 figure_accumulator(
     ritardando_figure_maker(
         design_1.next(1),
@@ -256,7 +240,7 @@ figure_accumulator(
             baca.pitch.register(-9),
             ],
         ),
-    stage_name=19,
+    figure_name=19,
     voice_name='Guitar Music Voice 3',
     )
 

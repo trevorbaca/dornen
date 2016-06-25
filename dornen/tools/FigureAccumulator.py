@@ -16,6 +16,7 @@ class FigureAccumulator(abctools.AbjadObject):
     ### CLASS VARIABLES ###
 
     __slots__ = (
+        '_label_figures',
         '_preferred_denominator',
         '_time_signatures',
         '_voice_name_to_selections',
@@ -30,7 +31,10 @@ class FigureAccumulator(abctools.AbjadObject):
 
     ### INITIALIZER ###
 
-    def __init__(self, preferred_denominator=None):
+    def __init__(self, label_figures=None, preferred_denominator=None):
+        if label_figures is not None:
+            label_figures = bool(label_figures)
+        self._label_figures = label_figures
         if preferred_denominator is not None:
             assert mathtools.is_positive_integer_power_of_two(
                 preferred_denominator)
@@ -45,7 +49,7 @@ class FigureAccumulator(abctools.AbjadObject):
 
     ### SPECIAL METHODS ###
 
-    def __call__(self, figure_output_pair, stage_name=None, voice_name=None):
+    def __call__(self, figure_output_pair, figure_name=None, voice_name=None):
         r'''Calls figure accumulator on figure-maker output.
         '''
         import dornen
@@ -62,17 +66,17 @@ class FigureAccumulator(abctools.AbjadObject):
                 attach(multiplier, skip)
                 selection = selectiontools.Selection([skip])
                 selections_.append(selection)
-        if stage_name is not None:
-            if not isinstance(stage_name, abjad.markuptools.Markup):
-                stage_name = '[{}]'.format(stage_name)
-                stage_name = abjad.markuptools.Markup(
-                    stage_name,
+        if self.label_figures and figure_name is not None:
+            if not isinstance(figure_name, abjad.markuptools.Markup):
+                figure_name = '[{}]'.format(figure_name)
+                figure_name = abjad.markuptools.Markup(
+                    figure_name,
                     direction=Up,
                     )
-                stage_name = stage_name.with_color('blue')
-                stage_name = stage_name.fontsize(3)
+                figure_name = figure_name.with_color('blue')
+                figure_name = figure_name.fontsize(3)
             leaves = list(abjad.iterate(selections).by_leaf())
-            attach(stage_name, leaves[0])
+            attach(figure_name, leaves[0])
         time_signatures = self._make_time_signatures(selections)
         self.time_signatures.extend(time_signatures)
 
@@ -98,6 +102,14 @@ class FigureAccumulator(abctools.AbjadObject):
         return time_signatures
 
     ### PUBLIC PROPERTIES ###
+
+    @property
+    def label_figures(self):
+        r'''Is true when figure accumulator should label figures.
+
+        Returns true, false or none.
+        '''
+        return self._label_figures
 
     @property
     def preferred_denominator(self):

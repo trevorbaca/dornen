@@ -164,6 +164,12 @@
         \name GuitarMusicVoiceTwo
         \type Engraver_group
         \alias Voice
+        \override Accidental.color = #red
+        \override Beam.color = #red
+        \override Dots.color = #red
+        \override NoteHead.color = #red
+        \override Slur.color = #red
+        \override Stem.color = #red
     }
     \context {
         \Voice
@@ -176,6 +182,12 @@
         \name GuitarMusicVoiceFour
         \type Engraver_group
         \alias Voice
+        \override Accidental.color = #red
+        \override Beam.color = #red
+        \override Dots.color = #red
+        \override NoteHead.color = #red
+        \override Slur.color = #red
+        \override Stem.color = #red
     }
 
     \context {

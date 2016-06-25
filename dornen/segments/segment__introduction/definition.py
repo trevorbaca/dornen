@@ -33,6 +33,7 @@ figure_accumulator(
             baca.pitch.register(-8),
             ],
         ),
+    stage_name=1,
     voice_name='Guitar Music Voice 1',
     )
 
@@ -45,6 +46,7 @@ figure_accumulator(
             baca.pitch.register(-10),
             ],
         ),
+    stage_name=2,
     voice_name='Guitar Music Voice 2',
     )
 
@@ -56,6 +58,7 @@ figure_accumulator(
             baca.pitch.register(-10),
             ],
         ),
+    stage_name=3,
     voice_name='Guitar Music Voice 1',
     )
 
@@ -68,6 +71,7 @@ figure_accumulator(
             baca.pitch.register(-8),
             ],
         ),
+    stage_name=4,
     voice_name='Guitar Music Voice 2',
     )
 
@@ -79,6 +83,7 @@ figure_accumulator(
             baca.pitch.register(-12),
             ],
         ),
+    stage_name=5,
     voice_name='Guitar Music Voice 1',
     )
 
@@ -91,6 +96,7 @@ figure_accumulator(
             baca.pitch.register(-6),
             ],
         ),
+    stage_name=6,
     voice_name='Guitar Music Voice 2',
     )
 
@@ -102,6 +108,7 @@ figure_accumulator(
             baca.pitch.register(-14),
             ],
         ),
+    stage_name=7,
     voice_name='Guitar Music Voice 1',
     )
 
@@ -114,6 +121,7 @@ figure_accumulator(
             baca.pitch.register(-4),
             ],
         ),
+    stage_name=8,
     voice_name='Guitar Music Voice 2',
     )
 
@@ -125,6 +133,7 @@ figure_accumulator(
             baca.pitch.register(-12),
             ],
         ),
+    stage_name=9,
     voice_name='Guitar Music Voice 4',
     )
 
@@ -136,6 +145,7 @@ figure_accumulator(
             baca.pitch.register(-16),
             ],
         ),
+    stage_name=10,
     voice_name='Guitar Music Voice 1',
     )
 
@@ -147,6 +157,7 @@ figure_accumulator(
             baca.pitch.register(-6),
             ],
         ),
+    stage_name=11,
     voice_name='Guitar Music Voice 4',
     )
 
@@ -158,6 +169,7 @@ figure_accumulator(
             baca.pitch.register(-18),
             ],
         ),
+    stage_name=12,
     voice_name='Guitar Music Voice 1',
     )
 
@@ -170,6 +182,7 @@ figure_accumulator(
             baca.pitch.register(-2),
             ],
         ),
+    stage_name=13,
     voice_name='Guitar Music Voice 2',
     )
 
@@ -181,6 +194,7 @@ figure_accumulator(
             baca.pitch.register(-20),
             ],
         ),
+    stage_name=14,
     voice_name='Guitar Music Voice 1',
     )
 
@@ -193,6 +207,7 @@ figure_accumulator(
             baca.pitch.register(0),
             ],
         ),
+    stage_name=15,
     voice_name='Guitar Music Voice 2',
     )
 
@@ -205,6 +220,7 @@ figure_accumulator(
             baca.pitch.register(2),
             ],
         ),
+    stage_name=16,
     voice_name='Guitar Music Voice 2',
     )
 
@@ -216,6 +232,7 @@ figure_accumulator(
             baca.pitch.register(0),
             ],
         ),
+    stage_name=17,
     voice_name='Guitar Music Voice 4',
     )
 
@@ -227,6 +244,7 @@ figure_accumulator(
             baca.pitch.register(0),
             ],
         ),
+    stage_name=18,
     voice_name='Guitar Music Voice 3',
     )
 
@@ -238,6 +256,7 @@ figure_accumulator(
             baca.pitch.register(-9),
             ],
         ),
+    stage_name=19,
     voice_name='Guitar Music Voice 3',
     )
 

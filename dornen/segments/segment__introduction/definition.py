@@ -125,7 +125,7 @@ figure_accumulator(
             baca.pitch.register(-12),
             ],
         ),
-    voice_name='Guitar Music Voice 3',
+    voice_name='Guitar Music Voice 4',
     )
 
 # 10
@@ -147,7 +147,7 @@ figure_accumulator(
             baca.pitch.register(-6),
             ],
         ),
-    voice_name='Guitar Music Voice 3',
+    voice_name='Guitar Music Voice 4',
     )
 
 # 12
@@ -216,7 +216,7 @@ figure_accumulator(
             baca.pitch.register(0),
             ],
         ),
-    voice_name='Guitar Music Voice 3',
+    voice_name='Guitar Music Voice 4',
     )
 
 # 18

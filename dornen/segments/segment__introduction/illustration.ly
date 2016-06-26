@@ -230,38 +230,71 @@
                 }
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
                     {
-                        e'8.
+                        \once \override Beam.positions = #'(6 . 6)
+                        \set stemLeftBeamCount = #0
+                        \set stemRightBeamCount = #1
+                        e'8. [
                     }
                     s1 * 1/32
                     {
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #1
                         b'8.
                     }
                     s1 * 1/32
                     {
-                        bf'8. [
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #1
+                        bf'8.
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #0
                         g'8. ]
                     }
                     s1 * 1/32
                     {
+                        \once \override Beam.positions = #'(9 . 9)
+                        \set stemLeftBeamCount = #0
+                        \set stemRightBeamCount = #1
                         g'8. [
-                        b8. ]
+                        \once \override Beam.positions = #'(9 . 9)
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #1
+                        b8.
                     }
                     s1 * 1/32
                     s1 * 3/32
                     {
-                        c'8. [
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #1
+                        c'8.
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #1
                         f'8.
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #1
                         a8.
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #0
                         af8. ]
                     }
                     s1 * 17/64
                     {
+                        \once \override Beam.positions = #'(6 . 6)
+                        \set stemLeftBeamCount = #0
+                        \set stemRightBeamCount = #1
                         fs8. [
-                        bf8. ]
+                        \once \override Beam.positions = #'(6 . 6)
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #1
+                        bf8.
                     }
                     s1 * 1/32
                     {
-                        af8. [
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #1
+                        af8.
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #0
                         c'8. ]
                     }
                     s1 * 1/32
@@ -282,8 +315,11 @@
                             a'16
                             af'16 ]
                         }
+                        \once \override Beam.positions = #'(-10 . -10)
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-                        c''32
+                        \set stemLeftBeamCount = #0
+                        \set stemRightBeamCount = #3
+                        c''32 [
                     }
                     s1 * 3/16
                     {
@@ -295,6 +331,8 @@
                             c'16 ]
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #3
                         f'32
                     }
                     s1 * 3/8
@@ -306,7 +344,9 @@
                             ef'16 ]
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-                        e''32
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #3
+                        e''32 ]
                     }
                     s1 * 3/8
                     {
@@ -316,8 +356,11 @@
                             ef'16
                             e'16 ]
                         }
+                        \once \override Beam.positions = #'(-10 . -10)
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-                        fs''32
+                        \set stemLeftBeamCount = #0
+                        \set stemRightBeamCount = #3
+                        fs''32 [
                     }
                     s1 * 3/32
                     s1 * 3/4
@@ -335,7 +378,9 @@
                             ef'16 ]
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-                        e''32
+                        \set stemLeftBeamCount = #1
+                        \set stemRightBeamCount = #3
+                        e''32 ]
                     }
                     s1 * 3/8
                     {
@@ -349,8 +394,11 @@
                             a'16
                             cs'16 ]
                         }
+                        \once \override Beam.positions = #'(-10 . -10)
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-                        fs''32
+                        \set stemLeftBeamCount = #0
+                        \set stemRightBeamCount = #3
+                        fs''32 [
                     }
                     {
                         \acciaccatura {
@@ -359,7 +407,9 @@
                             f'16 ]
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-                        g''32
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #0
+                        g''32 ]
                     }
                     s1 * 9/64
                     s1 * 7/64
@@ -416,24 +466,31 @@
                         }
                     \times 1/1 {
                         \once \override Beam.grow-direction = #left
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #0
                         \set stemRightBeamCount = #4
                         b''64 * 320/1024 [
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         af''64 * 640/1024
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         c''64 * 896/1024
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         e''64 * 1088/1024
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         f''64 * 1280/1024
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         g''64 * 1408/1024
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #0
                         ef''64 * 1536/1024 ]
@@ -471,39 +528,51 @@
                         }
                     \times 1/1 {
                         \once \override Beam.grow-direction = #left
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #0
                         \set stemRightBeamCount = #4
                         f'64 * 192/1024 [
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         b'64 * 448/1024
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         fs'64 * 640/1024
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         d''64 * 768/1024
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         c''64 * 896/1024
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         ef'64 * 1024/1024
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         b'64 * 1152/1024
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         fs'64 * 1216/1024
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         f'64 * 1344/1024
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         c''64 * 1408/1024
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #4
                         ef'64 * 1536/1024
+                        \once \override Beam.positions = #'(-6 . -6)
                         \set stemLeftBeamCount = #4
                         \set stemRightBeamCount = #0
                         d''64 * 1664/1024 ]

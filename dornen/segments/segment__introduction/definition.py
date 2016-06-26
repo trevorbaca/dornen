@@ -31,7 +31,9 @@ design_1 = baca.tools.Cursor(source=design_1)
 figure_accumulator(
     anchor_figure_maker(
         design_1.next(),
+        extend_beam=True,
         specifiers=[
+            baca.overrides.beam_positions(6),
             baca.pitch.register(-8),
             ],
         ),
@@ -42,7 +44,9 @@ figure_accumulator(
 figure_accumulator(
     passepied_figure_maker(
         design_1.next(),
+        extend_beam=True,
         specifiers=[
+            baca.overrides.beam_positions(-10),
             baca.overrides.time_signature_extra_offset((-2.5, 0)),
             baca.pitch.register(-10),
             ],
@@ -54,6 +58,7 @@ figure_accumulator(
 figure_accumulator(
     anchor_figure_maker(
         design_1.next(),
+        extend_beam=True,
         specifiers=[
             baca.pitch.register(-10),
             ],
@@ -65,6 +70,7 @@ figure_accumulator(
 figure_accumulator(
     passepied_figure_maker(
         design_1.next(),
+        extend_beam=True,
         specifiers=[
             baca.overrides.time_signature_extra_offset((-2.5, 0)),
             baca.pitch.register(-8),
@@ -100,7 +106,9 @@ figure_accumulator(
 figure_accumulator(
     anchor_figure_maker(
         design_1.next(),
+        extend_beam=True,
         specifiers=[
+            baca.overrides.beam_positions(9),
             baca.pitch.register(-14),
             ],
         ),
@@ -111,7 +119,9 @@ figure_accumulator(
 figure_accumulator(
     passepied_figure_maker(
         design_1.next(),
+        extend_beam=True,
         specifiers=[
+            baca.overrides.beam_positions(-10),
             baca.overrides.time_signature_extra_offset((-2.5, 0)),
             baca.pitch.register(-4),
             ],
@@ -156,7 +166,9 @@ figure_accumulator(
 figure_accumulator(
     anchor_figure_maker(
         design_1.next(),
+        extend_beam=True,
         specifiers=[
+            baca.overrides.beam_positions(6),
             baca.pitch.register(-18),
             ],
         ),
@@ -190,7 +202,9 @@ figure_accumulator(
 figure_accumulator(
     passepied_figure_maker(
         design_1.next(),
+        extend_beam=True,
         specifiers=[
+            baca.overrides.beam_positions(-10),
             baca.overrides.time_signature_extra_offset((-2.5, 0)),
             baca.pitch.register(0),
             ],
@@ -226,6 +240,7 @@ figure_accumulator(
     ritardando_figure_maker(
         design_1.next(1),
         specifiers=[
+            baca.overrides.beam_positions(-6),
             baca.pitch.register(0),
             ],
         ),
@@ -237,6 +252,7 @@ figure_accumulator(
     ritardando_figure_maker(
         design_1.next(1),
         specifiers=[
+            baca.overrides.beam_positions(-6),
             baca.pitch.register(-9),
             ],
         ),

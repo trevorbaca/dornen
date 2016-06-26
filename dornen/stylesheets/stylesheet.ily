@@ -129,12 +129,7 @@
         \override TimeSignature.font-size = 3
         \override TimeSignature.space-alist.clef = #'(extra-space . 0.5)
         \override TimeSignature.style = #'numbered
-        \override VerticalAxisGroup.default-staff-staff-spacing = #'(
-            (basic-distance . 0)
-            (minimum-distance . 12) % distance below time signature context
-            (padding . 0)
-            (stretchability . 0)
-        )
+        \override VerticalAxisGroup.default-staff-staff-spacing.minimum-distance = 20
         \override VerticalAxisGroup.minimum-Y-extent = #'(-4 . 4)
     }
 
@@ -158,6 +153,7 @@
         \name GuitarMusicVoiceOne
         \type Engraver_group
         \alias Voice
+        \override Stem.direction = #up
     }
     \context {
         \Voice
@@ -170,12 +166,16 @@
         \override NoteHead.color = #red
         \override Slur.color = #red
         \override Stem.color = #red
+        \override Stem.direction = #down
+        \override TupletBracket.color = #red
+        \override TupletNumber.color = #red
     }
     \context {
         \Voice
         \name GuitarMusicVoiceThree
         \type Engraver_group
         \alias Voice
+        \override Stem.direction = #down
     }
     \context {
         \Voice
@@ -188,6 +188,9 @@
         \override NoteHead.color = #red
         \override Slur.color = #red
         \override Stem.color = #red
+        \override Stem.direction = #up
+        \override TupletBracket.color = #red
+        \override TupletNumber.color = #red
     }
 
     \context {

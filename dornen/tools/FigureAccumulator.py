@@ -1,15 +1,8 @@
 # -*- coding: utf-8 -*-
 import abjad
-from abjad.tools import abctools
-from abjad.tools import durationtools
-from abjad.tools import indicatortools
-from abjad.tools import mathtools
-from abjad.tools import scoretools
-from abjad.tools import selectiontools
-from abjad.tools.topleveltools import attach
 
 
-class FigureAccumulator(abctools.AbjadObject):
+class FigureAccumulator(abjad.abctools.AbjadObject):
     r'''Figure accumulator.
     '''
 
@@ -36,7 +29,7 @@ class FigureAccumulator(abctools.AbjadObject):
             label_figures = bool(label_figures)
         self._label_figures = label_figures
         if preferred_denominator is not None:
-            assert mathtools.is_positive_integer_power_of_two(
+            assert abjad.mathtools.is_positive_integer_power_of_two(
                 preferred_denominator)
         self._preferred_denominator = preferred_denominator
         self._time_signatures = []
@@ -61,10 +54,10 @@ class FigureAccumulator(abctools.AbjadObject):
             if voice_name_ == voice_name:
                 selections_.extend(selections)
             else:
-                skip = scoretools.Skip(1)
-                multiplier = durationtools.Multiplier(duration)
-                attach(multiplier, skip)
-                selection = selectiontools.Selection([skip])
+                skip = abjad.scoretools.Skip(1)
+                multiplier = abjad.durationtools.Multiplier(duration)
+                abjad.attach(multiplier, skip)
+                selection = abjad.selectiontools.Selection([skip])
                 selections_.append(selection)
         if self.label_figures and figure_name is not None:
             if not isinstance(figure_name, abjad.markuptools.Markup):
@@ -76,7 +69,7 @@ class FigureAccumulator(abctools.AbjadObject):
                 figure_name = figure_name.with_color('blue')
                 figure_name = figure_name.fontsize(3)
             leaves = list(abjad.iterate(selections).by_leaf())
-            attach(figure_name, leaves[0])
+            abjad.attach(figure_name, leaves[0])
         time_signatures = self._make_time_signatures(selections)
         self.time_signatures.extend(time_signatures)
 
@@ -90,14 +83,14 @@ class FigureAccumulator(abctools.AbjadObject):
                 if self.preferred_denominator is not None:
                     duration = duration.with_denominator(
                         self.preferred_denominator)
-                time_signature = indicatortools.TimeSignature(duration)
+                time_signature = abjad.indicatortools.TimeSignature(duration)
                 time_signatures.append(time_signature)
         else:
             duration = sum(durations)
             if self.preferred_denominator is not None:
                 duration = duration.with_denominator(
                     self.preferred_denominator)
-            time_signature = indicatortools.TimeSignature(duration)
+            time_signature = abjad.indicatortools.TimeSignature(duration)
             time_signatures.append(time_signature)
         return time_signatures
 

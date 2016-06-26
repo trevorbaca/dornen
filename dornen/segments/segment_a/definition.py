@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
 import dornen
-from abjad.tools import durationtools
-from abjad.tools import pitchtools
-from abjad.tools import selectiontools
-from dornen.materials.__abbreviations__ import *
 
 
 ###############################################################################

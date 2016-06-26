@@ -1,16 +1,11 @@
 # -*- coding: utf-8 -*-
-from abjad.tools import patterntools
-from abjad.tools import pitchtools
-from abjad.tools import rhythmmakertools
-from abjad.tools import scoretools
-from abjad.tools import selectortools
-from abjad.tools import spannertools
+import abjad
 import baca
 
 
 def _select_last_tuplet():
-    selector = selectortools.Selector()
-    selector = selector.by_class(scoretools.Tuplet)
+    selector = abjad.selectortools.Selector()
+    selector = selector.by_class(abjad.scoretools.Tuplet)
     selector = selector.get_slice(start=-1, apply_to_each=True)
     return selector
 
@@ -22,26 +17,26 @@ def make_thorn_figure_maker_1():
                 selector=_select_last_tuplet(),
                 ),
             ],
-        beam_specifier=rhythmmakertools.BeamSpecifier(
+        beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
         dynamic_figure_specifiers=[
             baca.tools.DynamicFigureSpecifier(
-                dynamic=spannertools.Hairpin('p < f'),
-                selector=selectortools.Selector().
-                    by_class(scoretools.Tuplet).
+                dynamic=abjad.spannertools.Hairpin('p < f'),
+                selector=abjad.selectortools.Selector().
+                    by_class(abjad.scoretools.Tuplet).
                     get_slice(stop=-1, apply_to_each=True),
                 ),
             baca.tools.DynamicFigureSpecifier(
-                dynamic=spannertools.Hairpin('p > pp'),
+                dynamic=abjad.spannertools.Hairpin('p > pp'),
                 selector=_select_last_tuplet(),
                 ),
             ],
         rhythm_maker_figure_specifiers=[
             baca.tools.RhythmMakerFigureSpecifier(
-                patterns=patterntools.select_all(),
+                patterns=abjad.patterntools.select_all(),
                 rhythm_maker=baca.tools.StageRhythmMaker(
-                    talea=rhythmmakertools.Talea(
+                    talea=abjad.rhythmmakertools.Talea(
                         counts=[1],
                         denominator=16,
                         ),
@@ -49,9 +44,9 @@ def make_thorn_figure_maker_1():
                     )
                 ),
             baca.tools.RhythmMakerFigureSpecifier(
-                patterns=patterntools.select([0, -1]),
+                patterns=abjad.patterntools.select([0, -1]),
                 rhythm_maker=baca.tools.StageRhythmMaker(
-                    talea=rhythmmakertools.Talea(
+                    talea=abjad.rhythmmakertools.Talea(
                         counts=[1],
                         denominator=32,
                         ),
@@ -61,7 +56,7 @@ def make_thorn_figure_maker_1():
             ],
             spanner_figure_specifiers=[
                 baca.tools.SpannerFigureSpecifier(
-                    spanner=spannertools.Slur(),
+                    spanner=abjad.spannertools.Slur(),
                     selector=_select_last_tuplet(),
                     ),
                 ],

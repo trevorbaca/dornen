@@ -1,11 +1,5 @@
 # -*- coding: utf-8 -*-
-from abjad.tools import mathtools
-from abjad.tools import patterntools
-from abjad.tools import pitchtools
-from abjad.tools import rhythmmakertools
-from abjad.tools import scoretools
-from abjad.tools import selectortools
-from abjad.tools import spannertools
+import abjad
 import baca
 
 
@@ -16,22 +10,22 @@ def make_vibrato_figure_maker():
                 articulations=['prall']
                 ),
             ],
-#        beam_specifier=rhythmmakertools.BeamSpecifier(
+#        beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
 #            beam_divisions_together=True,
 #            ),
 #        dynamic_figure_specifiers=[
 #            baca.tools.DynamicFigureSpecifier(
-#                dynamic=spannertools.Hairpin('p < f'),
-#                selector=selectortools.Selector().
-#                    by_class(scoretools.Tuplet).
+#                dynamic=abjad.spannertools.Hairpin('p < f'),
+#                selector=abjad.selectortools.Selector().
+#                    by_class(abjad.scoretools.Tuplet).
 #                    get_slice(stop=-1, apply_to_each=True),
 #                ),
 #            ],
         rhythm_maker_figure_specifiers=[
             baca.tools.RhythmMakerFigureSpecifier(
-                patterns=patterntools.select_all(),
+                patterns=abjad.patterntools.select_all(),
                 rhythm_maker=baca.tools.StageRhythmMaker(
-                    talea=rhythmmakertools.Talea(
+                    talea=abjad.rhythmmakertools.Talea(
                         counts=[15],
                         denominator=64,
                         ),

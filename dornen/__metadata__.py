@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-from abjad import *
+import abjad
 
 
-metadata = datastructuretools.TypedOrderedDict(
+metadata = abjad.datastructuretools.TypedOrderedDict(
     [
         ('catalog_number', 'AWN-019'),
         ('composer', 'Ba\xc4\x8da'),

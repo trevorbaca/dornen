@@ -10,6 +10,10 @@ def _select_last_tuplet():
     return selector
 
 def make_thorn_figure_maker_1():
+    r'''Makes thorn figure maker 1.
+
+    Returns figure maker.
+    '''
     figure_maker = baca.tools.FigureMaker(
         articulation_figure_specifiers=[
             baca.tools.ArticulationFigureSpecifier(

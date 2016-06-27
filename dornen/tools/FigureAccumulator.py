@@ -47,18 +47,19 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         '''
         import dornen
         assert voice_name in self._all_voices
-        selections, time_signature, state_manifest = figure_output_triple
-        duration = sum([_.get_duration() for _ in selections])
+        selection, time_signature, state_manifest = figure_output_triple
+        assert isinstance(selection, abjad.selectiontools.Selection)
+        duration = selection.get_duration()
         items = self.voice_name_to_selections.iteritems()
         for voice_name_, selections_ in items:
             if voice_name_ == voice_name:
-                selections_.extend(selections)
+                selections_.append(selection)
             else:
                 skip = abjad.scoretools.Skip(1)
                 multiplier = abjad.durationtools.Multiplier(duration)
                 abjad.attach(multiplier, skip)
-                selection = abjad.selectiontools.Selection([skip])
-                selections_.append(selection)
+                selection_ = abjad.selectiontools.Selection([skip])
+                selections_.append(selection_)
         if self.label_figures and figure_name is not None:
             if not isinstance(figure_name, abjad.markuptools.Markup):
                 figure_name = '[{}]'.format(figure_name)

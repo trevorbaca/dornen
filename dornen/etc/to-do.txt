@@ -1,17 +1,14 @@
-1. Containerize FigureMaker output to allow slurs across stages with
-Selector.with_next_leaf(). Add slur across stages in running figure maker.
+1. Add notational arrays to the docstrings of each Dornen figure maker.
 
-2. Add notational arrays to the docstrings of each Dornen figure maker.
+2. Make figure maker that produces Huitzil-style tuplet monads.
 
-3. Make figure maker that produces Huitzil-style tuplet monads.
+3. Deposit mock-up figures in [A] - [G].
 
-4. Deposit mock-up figures in [A] - [G].
-
-5. Implement a better RegisterTransitionSpecifier. Possibly named
+4. Implement a better RegisterTransitionSpecifier. Possibly named
 RegisterInterpolationSpecifier. Allow for interpolation by duration. Allow for
 interpolation by number of attacks.
 
-6. Implement OctaveDisplacementSpecifier in [A].
+5. Implement OctaveDisplacementSpecifier in [A].
 
-7. Create a revelation passage in [A]. Use cleanly implemented cursor in
+6. Create a revelation passage in [A]. Use cleanly implemented cursor in
 segment definition file.

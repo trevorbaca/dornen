@@ -10,7 +10,6 @@ import dornen
 
 figure_accumulator = dornen.tools.FigureAccumulator(
     #label_figures=True,
-    preferred_denominator=8,
     )
 anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
 passepied_figure_maker = dornen.tools.make_passepied_figure_maker()

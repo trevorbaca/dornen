@@ -10,7 +10,6 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
 
     __slots__ = (
         '_label_figures',
-        '_preferred_denominator',
         '_time_signatures',
         '_voice_name_to_selections',
         )
@@ -24,14 +23,10 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
 
     ### INITIALIZER ###
 
-    def __init__(self, label_figures=None, preferred_denominator=None):
+    def __init__(self, label_figures=None):
         if label_figures is not None:
             label_figures = bool(label_figures)
         self._label_figures = label_figures
-        if preferred_denominator is not None:
-            assert abjad.mathtools.is_positive_integer_power_of_two(
-                preferred_denominator)
-        self._preferred_denominator = preferred_denominator
         self._time_signatures = []
         self._voice_name_to_selections = {
             'Guitar Music Voice 1': [],
@@ -42,12 +37,17 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
 
     ### SPECIAL METHODS ###
 
-    def __call__(self, figure_output_pair, figure_name=None, voice_name=None):
+    def __call__(
+        self,
+        figure_output_triple,
+        figure_name=None,
+        voice_name=None,
+        ):
         r'''Calls figure accumulator on figure-maker output.
         '''
         import dornen
         assert voice_name in self._all_voices
-        selections, state_manifest = figure_output_pair
+        selections, time_signature, state_manifest = figure_output_triple
         duration = sum([_.get_duration() for _ in selections])
         items = self.voice_name_to_selections.iteritems()
         for voice_name_, selections_ in items:
@@ -70,29 +70,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
                 figure_name = figure_name.fontsize(3)
             leaves = list(abjad.iterate(selections).by_leaf())
             abjad.attach(figure_name, leaves[0])
-        time_signatures = self._make_time_signatures(selections)
-        self.time_signatures.extend(time_signatures)
-
-    ### PRIVATE METHODS ###
-
-    def _make_time_signatures(self, selections):
-        time_signatures = []
-        durations = [_.get_duration() for _ in selections]
-        if any(not _.has_power_of_two_denominator for _ in durations):
-            for duration in durations:
-                if self.preferred_denominator is not None:
-                    duration = duration.with_denominator(
-                        self.preferred_denominator)
-                time_signature = abjad.indicatortools.TimeSignature(duration)
-                time_signatures.append(time_signature)
-        else:
-            duration = sum(durations)
-            if self.preferred_denominator is not None:
-                duration = duration.with_denominator(
-                    self.preferred_denominator)
-            time_signature = abjad.indicatortools.TimeSignature(duration)
-            time_signatures.append(time_signature)
-        return time_signatures
+        self.time_signatures.append(time_signature)
 
     ### PUBLIC PROPERTIES ###
 
@@ -103,12 +81,6 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         Returns true, false or none.
         '''
         return self._label_figures
-
-    @property
-    def preferred_denominator(self):
-        r'''Gets preferred denominator.
-        '''
-        return self._preferred_denominator
 
     @property
     def voice_name_to_selections(self):

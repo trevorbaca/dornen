@@ -48,7 +48,7 @@
                     R1 * 3/32
                 }
                 {
-                    \time 6/8
+                    \time 3/4
                     R1 * 3/4
                 }
                 {
@@ -157,7 +157,7 @@
                     s1 * 3/32
                 }
                 {
-                    \time 6/8
+                    \time 3/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 3/4
@@ -331,8 +331,8 @@
                             c'16 ]
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-                        \set stemLeftBeamCount = #1
-                        \set stemRightBeamCount = #3
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #1
                         f'32
                     }
                     s1 * 3/8
@@ -344,8 +344,8 @@
                             ef'16 ]
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-                        \set stemLeftBeamCount = #1
-                        \set stemRightBeamCount = #3
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #0
                         e''32 ]
                     }
                     s1 * 3/8
@@ -378,8 +378,8 @@
                             ef'16 ]
                         }
                         \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-                        \set stemLeftBeamCount = #1
-                        \set stemRightBeamCount = #3
+                        \set stemLeftBeamCount = #3
+                        \set stemRightBeamCount = #0
                         e''32 ]
                     }
                     s1 * 3/8

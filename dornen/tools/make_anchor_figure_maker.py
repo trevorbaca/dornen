@@ -9,9 +9,6 @@ def make_anchor_figure_maker():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
-#        beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
-#            beam_divisions_together=True,
-#            ),
         rhythm_maker_figure_specifiers=[
             baca.tools.RhythmMakerFigureSpecifier(
                 patterns=abjad.patterntools.select_all(),
@@ -21,7 +18,6 @@ def make_anchor_figure_maker():
                         denominator=16,
                         ),
 
-                    #time_treatments=[abjad.durationtools.Multiplier((8, 9))],
                     ),
                 ),
             ],

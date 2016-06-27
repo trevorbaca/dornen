@@ -18,8 +18,6 @@ def make_passepied_figure_maker():
             beam_specifier=rhythmmakertools.BeamSpecifier(
                 beam_each_division=True,
                 beam_divisions_together=True,
-                beam_rests=False,
-                use_feather_beams=False,
                 ),
             rhythm_maker_figure_specifiers=[
                 baca.tools.RhythmMakerFigureSpecifier(

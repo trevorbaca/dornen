@@ -1,8 +1,2 @@
-1. Implement a better RegisterTransitionSpecifier. Possibly named
-RegisterInterpolationSpecifier. Allow for interpolation by duration. Allow for
-interpolation by number of attacks.
-
-2. Implement OctaveDisplacementSpecifier in [A].
-
-3. Create a revelation passage in [A]. Use cleanly implemented cursor in
+1. Create a revelation passage in [A]. Use cleanly implemented cursor in
 segment definition file.

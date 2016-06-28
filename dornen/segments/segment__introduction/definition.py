@@ -12,6 +12,7 @@ figure_accumulator = dornen.tools.FigureAccumulator(
     #label_figures=True,
     )
 anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
+default_figure_maker = dornen.tools.make_default_figure_maker()
 passepied_figure_maker = dornen.tools.make_passepied_figure_maker()
 ritardando_figure_maker = dornen.tools.make_ritardando_figure_maker()
 running_figure_maker = dornen.tools.make_running_figure_maker()
@@ -25,6 +26,7 @@ for tree in trees:
     design_1.append(numbers)
 assert len(design_1) == 50, repr(design_1)
 design_1 = design_1[:22]
+assert len(design_1) == 22
 design_1 = baca.tools.Cursor(source=design_1)
 
 figure_accumulator(

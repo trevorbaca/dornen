@@ -11,6 +11,103 @@ def make_running_figure_maker():
         >>> import baca
         >>> import dornen
 
+    ::
+
+        >>> print(format(dornen.tools.make_running_figure_maker()))
+        baca.tools.FigureMaker(
+            beam_specifier=rhythmmakertools.BeamSpecifier(
+                beam_each_division=True,
+                beam_divisions_together=True,
+                ),
+            rhythm_maker_figure_specifiers=[
+                baca.tools.RhythmMakerFigureSpecifier(
+                    patterns=[
+                        patterntools.Pattern(
+                            indices=(0,),
+                            period=1,
+                            ),
+                        ],
+                    rhythm_maker=baca.tools.StageRhythmMaker(
+                        talea=rhythmmakertools.Talea(
+                            counts=(1,),
+                            denominator=64,
+                            ),
+                        time_treatments=[-1, -2],
+                        ),
+                    ),
+                ],
+            spanner_specifiers=[
+                baca.tools.SpannerSpecifier(
+                    selector=selectortools.Selector(
+                        callbacks=(
+                            selectortools.PrototypeSelectorCallback(
+                                prototype=scoretools.Tuplet,
+                                ),
+                            selectortools.SliceSelectorCallback(
+                                stop=1,
+                                apply_to_each=True,
+                                ),
+                            selectortools.PrototypeSelectorCallback(
+                                prototype=scoretools.Leaf,
+                                flatten=False,
+                                ),
+                            selectortools.ExtraLeafSelectorCallback(
+                                with_next_leaf=True,
+                                with_previous_leaf=False,
+                                ),
+                            ),
+                        ),
+                    spanner=spannertools.Slur(),
+                    ),
+                baca.tools.SpannerSpecifier(
+                    selector=selectortools.Selector(
+                        callbacks=(
+                            selectortools.PrototypeSelectorCallback(
+                                prototype=scoretools.Tuplet,
+                                ),
+                            selectortools.SliceSelectorCallback(
+                                start=1,
+                                stop=-1,
+                                apply_to_each=True,
+                                ),
+                            selectortools.PrototypeSelectorCallback(
+                                prototype=scoretools.Leaf,
+                                flatten=False,
+                                ),
+                            selectortools.SliceSelectorCallback(
+                                start=1,
+                                stop=-1,
+                                apply_to_each=True,
+                                ),
+                            ),
+                        ),
+                    spanner=spannertools.Slur(),
+                    ),
+                baca.tools.SpannerSpecifier(
+                    selector=selectortools.Selector(
+                        callbacks=(
+                            selectortools.PrototypeSelectorCallback(
+                                prototype=scoretools.Tuplet,
+                                ),
+                            selectortools.SliceSelectorCallback(
+                                start=-1,
+                                apply_to_each=True,
+                                ),
+                            selectortools.PrototypeSelectorCallback(
+                                prototype=scoretools.Leaf,
+                                flatten=False,
+                                ),
+                            selectortools.ExtraLeafSelectorCallback(
+                                with_next_leaf=False,
+                                with_previous_leaf=True,
+                                ),
+                            ),
+                        ),
+                    spanner=spannertools.Slur(),
+                    ),
+                ],
+            )
+
     ..  container:: example
 
         **Example 1.** Makes one-stage running figures:
@@ -133,7 +230,7 @@ def make_running_figure_maker():
                                 \times 6/7 {
                                     \set stemLeftBeamCount = #0
                                     \set stemRightBeamCount = #4
-                                    fs'64 [ (
+                                    fs'64 [ ( (
                                     \set stemLeftBeamCount = #4
                                     \set stemRightBeamCount = #4
                                     d'64
@@ -151,7 +248,7 @@ def make_running_figure_maker():
                                     af'64
                                     \set stemLeftBeamCount = #4
                                     \set stemRightBeamCount = #0
-                                    c'64 ] )
+                                    c'64 ] ) )
                                 }
                             }
                             {
@@ -164,7 +261,7 @@ def make_running_figure_maker():
                                 \times 5/6 {
                                     \set stemLeftBeamCount = #0
                                     \set stemRightBeamCount = #4
-                                    bf'64 [ (
+                                    bf'64 [ ( (
                                     \set stemLeftBeamCount = #4
                                     \set stemRightBeamCount = #4
                                     g'64
@@ -179,7 +276,7 @@ def make_running_figure_maker():
                                     c'64
                                     \set stemLeftBeamCount = #4
                                     \set stemRightBeamCount = #0
-                                    f'64 ] )
+                                    f'64 ] ) )
                                     \bar "|"
                                 }
                             }
@@ -317,7 +414,7 @@ def make_running_figure_maker():
                                     fs'64 )
                                     \set stemLeftBeamCount = #4
                                     \set stemRightBeamCount = #4
-                                    d'64
+                                    d'64 (
                                     \set stemLeftBeamCount = #4
                                     \set stemRightBeamCount = #4
                                     ef'64
@@ -329,15 +426,15 @@ def make_running_figure_maker():
                                     a'64
                                     \set stemLeftBeamCount = #4
                                     \set stemRightBeamCount = #4
-                                    af'64
+                                    af'64 )
                                     \set stemLeftBeamCount = #4
                                     \set stemRightBeamCount = #1
-                                    c'64
+                                    c'64 (
                                 }
                                 {
                                     \set stemLeftBeamCount = #4
                                     \set stemRightBeamCount = #0
-                                    b'64 ]
+                                    b'64 ] )
                                 }
                             }
                             {
@@ -368,7 +465,7 @@ def make_running_figure_maker():
                                 {
                                     \set stemLeftBeamCount = #4
                                     \set stemRightBeamCount = #1
-                                    b'64 )
+                                    b'64 ) (
                                 }
                                 \tweak text #tuplet-number::calc-fraction-text
                                 \times 5/6 {
@@ -389,7 +486,7 @@ def make_running_figure_maker():
                                     c'64
                                     \set stemLeftBeamCount = #4
                                     \set stemRightBeamCount = #0
-                                    f'64 ]
+                                    f'64 ] )
                                 }
                             }
                             {
@@ -405,7 +502,7 @@ def make_running_figure_maker():
                                     bf'64 )
                                     \set stemLeftBeamCount = #4
                                     \set stemRightBeamCount = #4
-                                    g'64
+                                    g'64 (
                                     \set stemLeftBeamCount = #4
                                     \set stemRightBeamCount = #4
                                     a'64
@@ -414,15 +511,15 @@ def make_running_figure_maker():
                                     af'64
                                     \set stemLeftBeamCount = #4
                                     \set stemRightBeamCount = #4
-                                    c'64
+                                    c'64 )
                                     \set stemLeftBeamCount = #4
                                     \set stemRightBeamCount = #1
-                                    f'64
+                                    f'64 (
                                 }
                                 {
                                     \set stemLeftBeamCount = #4
                                     \set stemRightBeamCount = #0
-                                    e'64 ]
+                                    e'64 ] )
                                     \bar "|"
                                 }
                             }
@@ -457,6 +554,22 @@ def make_running_figure_maker():
                     get_slice(stop=1).
                     by_leaf(flatten=False).
                     with_next_leaf(),
+                spanner=abjad.Slur(),
+                ),
+            baca.tools.SpannerSpecifier(
+                selector=abjad.select().
+                    by_class(abjad.Tuplet).
+                    get_slice(start=1, stop=-1).
+                    by_leaf(flatten=False).
+                    get_slice(start=1, stop=-1),
+                spanner=abjad.Slur(),
+                ),
+            baca.tools.SpannerSpecifier(
+                selector=abjad.select().
+                    by_class(abjad.Tuplet).
+                    get_slice(start=-1).
+                    by_leaf(flatten=False).
+                    with_previous_leaf(),
                 spanner=abjad.Slur(),
                 ),
             ],

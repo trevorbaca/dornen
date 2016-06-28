@@ -4,7 +4,7 @@
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                 {
-                    \time 1/4
+                    \time 4/16
                     R1 * 1/4
                 }
                 {
@@ -66,7 +66,7 @@
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
-                    \time 1/4
+                    \time 4/16
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                     \newSpacingSection
                     \mark #1
@@ -203,18 +203,22 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #4
+                            \once \override Beam.positions = #'(8 . 8)
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             cs''64 * 448/1024 [
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \once \override Beam.positions = #'(8 . 8)
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             c''64 * 896/1024
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \once \override Beam.positions = #'(8 . 8)
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             bf''64 * 1216/1024
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
-                            f''64 * 1536/1024
+                            \once \override Beam.positions = #'(8 . 8)
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            f''64 * 1536/1024 ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -249,18 +253,22 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
-                            af''64 * 448/1024
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \once \override Beam.positions = #'(8 . 8)
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            af''64 * 448/1024 [
+                            \once \override Beam.positions = #'(8 . 8)
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             fs''64 * 896/1024
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \once \override Beam.positions = #'(8 . 8)
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             b'64 * 1216/1024
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
-                            d''64 * 1536/1024
+                            \once \override Beam.positions = #'(8 . 8)
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            d''64 * 1536/1024 ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -295,18 +303,22 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
-                            e''64 * 448/1024
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \once \override Beam.positions = #'(8 . 8)
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            e''64 * 448/1024 [
+                            \once \override Beam.positions = #'(8 . 8)
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             ef''64 * 896/1024
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \once \override Beam.positions = #'(8 . 8)
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             a'64 * 1216/1024
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
-                            af'64 * 1536/1024
+                            \once \override Beam.positions = #'(8 . 8)
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            af'64 * 1536/1024 ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -341,17 +353,21 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
-                            fs'64 * 448/1024
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \once \override Beam.positions = #'(8 . 8)
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            fs'64 * 448/1024 [
+                            \once \override Beam.positions = #'(8 . 8)
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             b'64 * 896/1024
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \once \override Beam.positions = #'(8 . 8)
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             d'64 * 1216/1024
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #0
+                            \once \override Beam.positions = #'(8 . 8)
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             f'64 * 1536/1024 ]
                         }
                         \revert TupletNumber.text
@@ -359,396 +375,647 @@
                     s1 * 1/20
                     {
                         \times 4/5 {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #4
-                            cs'64 [ (
+                            cs'64 [ \< \f (
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             a'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             e'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             ef'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
                             bf'64
                         }
                         \times 4/5 {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             cs''64 )
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            c''64
+                            c''64 (
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             fs'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            b'64
+                            b'64 )
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            d''64
+                            d''64 (
                         }
                         \times 4/5 {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             f''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             af''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             cs''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             c''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            bf''64
+                            bf''64 \ff )
                         }
                     }
                     s1 * 1/10
                     {
                         \times 4/5 {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            cs'64 (
+                            cs'64 \< \mf (
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             c'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             fs'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             b'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
                             d'64
                         }
                         \times 4/5 {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             f'64 )
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            af'64
+                            af'64 (
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             cs''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            c''64
+                            c''64 )
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            bf'64
+                            bf'64 (
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             b'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             d''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             f''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             af''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             fs''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            e''64
+                            e''64 \f )
                         }
                     }
                     s1 * 3/20
                     {
                         \times 4/5 {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            f'64 (
+                            f'64 \< \mp (
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             af'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             cs'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             c''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
                             bf'64
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             b'64 )
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            d''64
+                            d''64 (
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             f'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             af'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            fs'64
+                            fs'64 )
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            e''64
+                            e''64 (
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             ef''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             a'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             d''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             f''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             af''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            fs''64
+                            fs''64 \mf )
                         }
                     }
                     s1 * 1/5
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            b64 (
+                            b64 \< \p (
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             d'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             f'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             af'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             fs'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
                             e'64
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             ef'64 )
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            a'64
+                            a'64 (
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             d''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             f'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            af'64
+                            af'64 )
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            fs''64
+                            fs''64 (
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             b'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             ef''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             a'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             e''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             c''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            bf''64
+                            bf''64 \mp )
                         }
                     }
                     s1 * 1/4
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            ef'64 (
+                            ef'64 \< \pp (
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             a'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             d'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             f'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             af'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
                             fs'64
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             b'64 )
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            ef''64
+                            ef''64 (
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             a'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             e''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             c''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
                             bf'64
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             cs''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             a'64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             e''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             ef''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            bf''64
+                            bf''64 )
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            cs''64
+                            cs''64 (
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             c'''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             f''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             af''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             fs''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             b''64
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #0
-                            d'''64 ]
+                            d'''64 ] \p )
                         }
                     }
                     s1 * 1/20
                     {
                         {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            f'''32 -\staccato [
+                            f'''32 -\staccato [ \> \p
+                                ^ \markup {
+                                    \whiteout
+                                        \upright
+                                            delicatiss.
+                                    }
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             a''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             b''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             bf''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             c'''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             fs''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             g''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             af''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             d''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             cs''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             ef''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             g'32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             af'32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             d''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             cs''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             ef'32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             fs'32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             a'32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             b32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             bf32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             c'32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             f'32 -\staccato
@@ -757,72 +1024,116 @@
                     s1 * 1/10
                     {
                         {
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             f32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             a32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             b32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             bf32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             c'32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             fs'32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             g'32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             af'32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             d'32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             cs''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             ef''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             g'32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             af'32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             d''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             cs''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             ef''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             fs''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             a''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             b''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             bf''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             c'''32 -\staccato
+                            \once \override DynamicLineSpanner.direction = #up
+                            \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            f''32 -\staccato ]
+                            f''32 -\staccato ] \ppp
                             \bar "|"
                         }
                     }
@@ -836,7 +1147,7 @@
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            ef'''16 -\marcato [
+                            ef'''16 -\marcato [ \< \f
                         }
                     }
                     s1 * 3/16
@@ -901,7 +1212,7 @@
                             c'''16 -\marcato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            bf''16 -\marcato ]
+                            bf''16 -\marcato ] \fff
                         }
                     }
                     s1 * 5/16
@@ -911,7 +1222,7 @@
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            ef'''16 -\marcato [
+                            ef'''16 -\marcato [ \> \fff
                         }
                     }
                     s1 * 11/16
@@ -923,7 +1234,7 @@
                             ef'''16 -\marcato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            a''16 -\marcato ]
+                            a''16 -\marcato ] \f
                         }
                     }
                     s1 * 11/16

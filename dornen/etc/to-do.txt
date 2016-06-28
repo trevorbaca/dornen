@@ -1,5 +1,3 @@
-0. Reconfigure running figure maker slurs.
-
 1. Migrate CyclicTree and PitchClassTree into Bača package.
 
 2. Hook custom WellformednessManager into SegmentMaker.
@@ -31,3 +29,7 @@ volta_specifier.
 12. Write ritardando_figure_maker API examples.
 
 13. Change as many handlers as possible to specifiers.
+
+14. Implement slur edge-case handling (for only one stage; for only two stages;
+for single-leaf stages) in running figure maker. Check that no LilyPond errors
+remain in LilyPond log file.

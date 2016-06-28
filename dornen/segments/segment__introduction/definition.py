@@ -9,7 +9,7 @@ import dornen
 ###############################################################################
 
 figure_accumulator = dornen.tools.FigureAccumulator(
-    label_figures=True,
+    #label_figures=True,
     )
 anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
 default_figure_maker = dornen.tools.make_default_figure_maker()

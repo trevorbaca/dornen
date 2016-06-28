@@ -1,6 +1,6 @@
 % Spiel der Dornen (2016) for guitar
 
-\version "2.19.43"
+\version "2.19.44"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -8,7 +8,7 @@
 
 \score {
     {
-%    \include "segment--introduction.ly"
+    \include "segment--introduction.ly"
     \include "segment-a.ly"
 %    \include "segment-b.ly"
 %    \include "segment-c.ly"

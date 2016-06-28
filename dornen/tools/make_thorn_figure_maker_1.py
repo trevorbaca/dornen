@@ -15,8 +15,8 @@ def make_thorn_figure_maker_1():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
-        articulation_figure_specifiers=[
-            baca.tools.ArticulationFigureSpecifier(
+        articulation_specifiers=[
+            baca.tools.ArticulationSpecifier(
                 articulations=['.'],
                 selector=_select_last_tuplet(),
                 ),

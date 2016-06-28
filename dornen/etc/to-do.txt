@@ -10,9 +10,8 @@ PianoPedalSpanner (?), TextSpanner (?), Tie and TrillSpanner.
 
 3. Extend FigureMaker with generalized 'specifiers' property.
 
-4. Collapse ArticulationFigureSpecifier, ArticulationHandler,
-PatternedArticulationHandler, ReiteratedArticulationHandler into a single
-ArticulationSpecifier class.
+4. Collapse ArticulationHandler, PatternedArticulationHandler,
+ReiteratedArticulationHandler into ArticulationSpecifier.
 
 5. Check for duplicate figure names.
 

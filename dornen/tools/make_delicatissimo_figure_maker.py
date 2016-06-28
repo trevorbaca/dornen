@@ -15,8 +15,8 @@ def make_delicatissimo_figure_maker():
 
         >>> print(format(dornen.tools.make_delicatissimo_figure_maker()))
         baca.tools.FigureMaker(
-            articulation_figure_specifiers=[
-                baca.tools.ArticulationFigureSpecifier(
+            articulation_specifiers=[
+                baca.tools.ArticulationSpecifier(
                     articulations=['.'],
                     ),
                 ],
@@ -464,8 +464,8 @@ def make_delicatissimo_figure_maker():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
-        articulation_figure_specifiers=[
-            baca.tools.ArticulationFigureSpecifier(
+        articulation_specifiers=[
+            baca.tools.ArticulationSpecifier(
                 articulations=['.'],
                 ),
             ],

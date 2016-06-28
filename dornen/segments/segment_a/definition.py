@@ -9,7 +9,7 @@ import dornen
 ###############################################################################
 
 figure_accumulator = dornen.tools.FigureAccumulator(
-    label_figures=True,
+    #label_figures=True,
     )
 anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
 default_figure_maker = dornen.tools.make_default_figure_maker()
@@ -185,7 +185,7 @@ figure_accumulator(
         design_2[13:],
         extend_beam=True,
         specifiers=[
-            baca.markup.delicatiss(),
+            #baca.markup.delicatiss(),
             baca.pitch.register(6, -20),
             ],
         ),
@@ -221,7 +221,7 @@ figure_accumulator(
 ###############################################################################
 
 tempo_specifier = baca.tools.TempoSpecifier([
-    (1, dornen.materials.tempi[44]),
+    #(1, dornen.materials.tempi[44]),
     ])
 
 spacing_specifier = baca.tools.SpacingSpecifier(
@@ -232,7 +232,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 measures_per_stage = len(figure_accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
-    label_clock_time=True,
+    #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
     score_package=dornen,

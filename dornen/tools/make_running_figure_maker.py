@@ -450,8 +450,8 @@ def make_running_figure_maker():
                     ),
                 ),
             ],
-        spanner_figure_specifiers=[
-            baca.tools.SpannerFigureSpecifier(
+        spanner_specifiers=[
+            baca.tools.SpannerSpecifier(
                 selector=abjad.select().
                     by_class(abjad.Tuplet).
                     get_slice(stop=1).

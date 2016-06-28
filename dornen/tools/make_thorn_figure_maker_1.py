@@ -58,8 +58,8 @@ def make_thorn_figure_maker_1():
                     )
                 ),
             ],
-            spanner_figure_specifiers=[
-                baca.tools.SpannerFigureSpecifier(
+            spanner_specifiers=[
+                baca.tools.SpannerSpecifier(
                     spanner=abjad.spannertools.Slur(),
                     selector=_select_last_tuplet(),
                     ),

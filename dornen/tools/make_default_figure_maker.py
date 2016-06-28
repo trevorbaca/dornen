@@ -36,8 +36,8 @@ def make_default_figure_maker():
                         ),
                     ),
                 ],
-            spanner_figure_specifiers=[
-                baca.tools.SpannerFigureSpecifier(
+            spanner_specifiers=[
+                baca.tools.SpannerSpecifier(
                     selector=selectortools.Selector(
                         callbacks=(
                             selectortools.PrototypeSelectorCallback(
@@ -491,8 +491,8 @@ def make_default_figure_maker():
                     ),
                 ),
             ],
-        spanner_figure_specifiers=[
-            baca.tools.SpannerFigureSpecifier(
+        spanner_specifiers=[
+            baca.tools.SpannerSpecifier(
                 selector=abjad.select().
                     by_class(abjad.Tuplet).
                     by_leaf(flatten=False),

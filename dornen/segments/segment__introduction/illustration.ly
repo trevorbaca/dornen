@@ -496,32 +496,18 @@
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #4
                             b''64 * 320/1024 [
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
                             af''64 * 640/1024
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
                             c''64 * 896/1024
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
                             e''64 * 1088/1024
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
                             f''64 * 1280/1024
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
                             g''64 * 1408/1024
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #0
                             ef''64 * 1536/1024 ]
                         }
                         \revert TupletNumber.text
@@ -560,52 +546,28 @@
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #4
                             f''64 * 192/1024 [
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
                             b'64 * 448/1024
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
                             fs''64 * 640/1024
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
                             d''64 * 768/1024
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
                             c''64 * 896/1024
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
                             ef''64 * 1024/1024
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
                             b'64 * 1152/1024
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
                             fs'64 * 1216/1024
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
                             f'64 * 1344/1024
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
                             c''64 * 1408/1024
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
                             ef'64 * 1536/1024
                             \once \override Beam.positions = #'(-6 . -6)
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #0
                             d'64 * 1664/1024 ]
                             \bar "|"
                         }
@@ -635,7 +597,7 @@
                             f'64
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            a'64
+                            a'64 (
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
@@ -650,7 +612,7 @@
                             fs'64
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #0
-                            d'64 ]
+                            d'64 ] )
                         }
                     }
                     s1 * 3/4
@@ -664,7 +626,7 @@
                             bf'64
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            g'64
+                            g'64 (
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 15/16 {
@@ -715,7 +677,7 @@
                             d''64
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #0
-                            f''64 ]
+                            f''64 ] )
                         }
                     }
                     s1 * 3/8
@@ -746,7 +708,7 @@
                             b'64
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            af'64
+                            af'64 (
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
@@ -761,7 +723,7 @@
                             bf'64
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #0
-                            a''64 ]
+                            a''64 ] )
                         }
                     }
                     s1 * 7/64

@@ -1,10 +1,8 @@
-1. Deposit mock-up figures in [A] - [G].
-
-2. Implement a better RegisterTransitionSpecifier. Possibly named
+1. Implement a better RegisterTransitionSpecifier. Possibly named
 RegisterInterpolationSpecifier. Allow for interpolation by duration. Allow for
 interpolation by number of attacks.
 
-3. Implement OctaveDisplacementSpecifier in [A].
+2. Implement OctaveDisplacementSpecifier in [A].
 
-4. Create a revelation passage in [A]. Use cleanly implemented cursor in
+3. Create a revelation passage in [A]. Use cleanly implemented cursor in
 segment definition file.

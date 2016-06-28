@@ -1,12 +1,10 @@
-1. Make figure maker that produces Huitzil-style tuplet monads.
+1. Deposit mock-up figures in [A] - [G].
 
-2. Deposit mock-up figures in [A] - [G].
-
-3. Implement a better RegisterTransitionSpecifier. Possibly named
+2. Implement a better RegisterTransitionSpecifier. Possibly named
 RegisterInterpolationSpecifier. Allow for interpolation by duration. Allow for
 interpolation by number of attacks.
 
-4. Implement OctaveDisplacementSpecifier in [A].
+3. Implement OctaveDisplacementSpecifier in [A].
 
-5. Create a revelation passage in [A]. Use cleanly implemented cursor in
+4. Create a revelation passage in [A]. Use cleanly implemented cursor in
 segment definition file.

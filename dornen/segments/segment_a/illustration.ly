@@ -80,195 +80,90 @@
                     \newSpacingSection
                     \mark #1
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.1]
-                            }
                 }
                 {
                     \time 1/20
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 1/20
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.2]
-                            }
                 }
                 {
                     \time 3/16
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 80)
                     \newSpacingSection
                     s1 * 3/16
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.3]
-                            }
                 }
                 {
                     \time 2/20
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 1/10
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.4]
-                            }
                 }
                 {
                     \time 13/64
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 80)
                     \newSpacingSection
                     s1 * 13/64
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.5]
-                            }
                 }
                 {
                     \time 3/20
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 3/20
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.6]
-                            }
                 }
                 {
                     \time 7/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 80)
                     \newSpacingSection
                     s1 * 7/32
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.7]
-                            }
                 }
                 {
                     \time 4/20
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 1/5
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.8]
-                            }
                 }
                 {
                     \time 15/64
                     \set Score.proportionalNotationDuration = #(ly:make-moment 5 384)
                     \newSpacingSection
                     s1 * 15/64
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.9]
-                            }
                 }
                 {
                     \time 5/20
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.10]
-                            }
                 }
                 {
                     \time 5/16
                     \set Score.proportionalNotationDuration = #(ly:make-moment 5 384)
                     \newSpacingSection
                     s1 * 5/16
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.11]
-                            }
                 }
                 {
                     \time 1/20
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 1/20
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.12]
-                            }
                 }
                 {
                     \time 11/16
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 11/16
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.13]
-                            }
                 }
                 {
                     \time 2/20
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 1/10
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.14]
-                            }
                 }
                 {
                     \time 11/16
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 11/16
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A.15]
-                            }
                 }
             }
         >>
@@ -321,13 +216,6 @@
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
                             cs''64 * 448/1024 [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            [1]
-                                    }
                             \once \override Beam.positions = #'(8 . 8)
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
@@ -501,13 +389,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #4
                             cs'64 [ \< \f (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            [3]
-                                    }
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
@@ -592,13 +473,6 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             cs'64 \< \mf (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            [5]
-                                    }
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
@@ -689,13 +563,6 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             f'64 \< \mp (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            [7]
-                                    }
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
@@ -793,13 +660,6 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             b64 \< \p (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            [9]
-                                    }
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
@@ -902,13 +762,6 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             ef'64 \< \pp (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            [11]
-                                    }
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
@@ -1043,19 +896,11 @@
                             \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            f'''32 -\staccato [
+                            f'''32 -\staccato [ \> \p
                                 ^ \markup {
-                                    \column
-                                        {
-                                            \whiteout
-                                                \upright
-                                                    delicatiss.
-                                            \fontsize
-                                                #3
-                                                \with-color
-                                                    #darkgreen
-                                                    [13]
-                                        }
+                                    \whiteout
+                                        \upright
+                                            delicatiss.
                                     }
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
@@ -1193,13 +1038,6 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             f32 -\staccato
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            [15]
-                                    }
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
@@ -1304,7 +1142,7 @@
                             \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            f''32 -\staccato ]
+                            f''32 -\staccato ] \ppp
                             \bar "|"
                         }
                     }
@@ -1318,14 +1156,7 @@
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            ef'''16 -\marcato [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            [2]
-                                    }
+                            ef'''16 -\marcato [ \< \f
                         }
                     }
                     s1 * 3/16
@@ -1335,13 +1166,6 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef'''16 -\marcato
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            [4]
-                                    }
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             a''16 -\marcato
@@ -1354,13 +1178,6 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef'''16 -\marcato
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            [6]
-                                    }
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             a''16 -\marcato
@@ -1376,13 +1193,6 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef'''16 -\marcato
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            [8]
-                                    }
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             a''16 -\marcato
@@ -1400,13 +1210,6 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef'''16 -\marcato
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            [10]
-                                    }
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             a''16 -\marcato
@@ -1418,7 +1221,7 @@
                             c'''16 -\marcato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            bf''16 -\marcato ]
+                            bf''16 -\marcato ] \fff
                         }
                     }
                     s1 * 5/16
@@ -1428,14 +1231,7 @@
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            ef'''16 -\marcato [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            [12]
-                                    }
+                            ef'''16 -\marcato [ \> \fff
                         }
                     }
                     s1 * 11/16
@@ -1445,16 +1241,9 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef'''16 -\marcato
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            [14]
-                                    }
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            a''16 -\marcato ]
+                            a''16 -\marcato ] \f
                         }
                     }
                     s1 * 11/16

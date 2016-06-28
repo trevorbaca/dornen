@@ -154,6 +154,7 @@
         \type Engraver_group
         \alias Voice
         \override Stem.direction = #up
+        \override TextScript.outside-staff-priority = 0
     }
     \context {
         \Voice
@@ -163,6 +164,8 @@
         \override Accidental.color = #red
         \override Beam.color = #red
         \override Dots.color = #red
+        \override DynamicText.color = #red
+        \override Hairpin.color = #red
         \override NoteHead.color = #red
         \override Script.color = #red
         \override Slur.color = #red
@@ -186,6 +189,8 @@
         \override Accidental.color = #red
         \override Beam.color = #red
         \override Dots.color = #red
+        \override DynamicText.color = #red
+        \override Hairpin.color = #red
         \override NoteHead.color = #red
         \override Script.color = #red
         \override Slur.color = #red

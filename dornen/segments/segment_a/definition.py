@@ -9,7 +9,7 @@ import dornen
 ###############################################################################
 
 figure_accumulator = dornen.tools.FigureAccumulator(
-    label_figures=True,
+    #label_figures=True,
     )
 anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
 default_figure_maker = dornen.tools.make_default_figure_maker()
@@ -253,7 +253,7 @@ measures_per_stage = len(figure_accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
-    label_stages=True,
+    #label_stages=True,
     measures_per_stage=measures_per_stage,
     score_package=dornen,
     skips_instead_of_rests=True,
@@ -295,8 +295,32 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.tools.stages(13, 15)),
     [
-#        baca.tools.DynamicSpecifier(
-#            dynamic=abjad.Hairpin('pp > ppp'),
-#            ),
+        baca.select_.leaves(
+            baca.tools.DynamicSpecifier(
+                dynamic=abjad.Hairpin('p > ppp'),
+                ),
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 2', baca.tools.stages(2, 10)),
+    [
+        baca.select_.leaves(
+            baca.tools.DynamicSpecifier(
+                dynamic=abjad.Hairpin('f < fff'),
+                ),
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 2', baca.tools.stages(12, 14)),
+    [
+        baca.select_.leaves(
+            baca.tools.DynamicSpecifier(
+                dynamic=abjad.Hairpin('fff > f'),
+                ),
+            ),
         ],
     )

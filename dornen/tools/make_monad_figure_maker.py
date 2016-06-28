@@ -16,7 +16,7 @@ def make_monad_figure_maker():
         >>> print(format(dornen.tools.make_monad_figure_maker()))
         baca.tools.FigureMaker(
             beam_specifier=rhythmmakertools.BeamSpecifier(
-                beam_each_division=False,
+                beam_each_division=True,
                 ),
             preferred_denominator=20,
             rhythm_maker_figure_specifiers=[
@@ -381,8 +381,8 @@ def make_monad_figure_maker():
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    c'16
-                                    bf'16
+                                    c'16 [
+                                    bf'16 ]
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
@@ -390,8 +390,8 @@ def make_monad_figure_maker():
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    af'16
-                                    fs'16
+                                    af'16 [
+                                    fs'16 ]
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
@@ -411,8 +411,8 @@ def make_monad_figure_maker():
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    a'16
-                                    af'16
+                                    a'16 [
+                                    af'16 ]
                                 }
                             }
                             {
@@ -422,8 +422,8 @@ def make_monad_figure_maker():
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    b'16
-                                    d'16
+                                    b'16 [
+                                    d'16 ]
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
@@ -440,7 +440,7 @@ def make_monad_figure_maker():
     '''
     figure_maker = baca.tools.FigureMaker(
         beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
-            beam_each_division=False,
+            beam_each_division=True,
             ),
         preferred_denominator=20,
         rhythm_maker_figure_specifiers=[

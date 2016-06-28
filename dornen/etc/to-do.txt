@@ -1,23 +1,29 @@
-0a. Implement MarkupSpecifier. Add markup to [A].
+0. Reconfigure running figure maker slurs.
 
-0b. Reconfigure running figure maker slurs.
+1. Migrate CyclicTree and PitchClassTree into Bača package.
 
-1. Hook custom WellformednessManager into SegmentMaker.
+2. Hook custom WellformednessManager into SegmentMaker.
 
-2. Add attachment test to Slur to complain if attached to only a single leaf.
+3. Add attachment test to Slur to complain if attached to only a single leaf.
 Do the same for Beam, Glissando, Hairpin, OctavationSpanner (?), PhrasingSlur,
 PianoPedalSpanner (?), TextSpanner (?), Tie and TrillSpanner.
 
-3. Extend FigureMaker with generalized 'specifiers' property.
+4. Extend FigureMaker with generalized 'specifiers' property.
 
-4. Collapse ArticulationHandler, PatternedArticulationHandler,
+5. Collapse RepeatedMarkupHandler into MarkupSpecifier.
+
+6. Collapse ArticulationHandler, PatternedArticulationHandler,
 ReiteratedArticulationHandler into ArticulationSpecifier.
 
-5. Check for duplicate figure names.
+7. Check for duplicate figure names.
 
-6. Build a fermata figure maker.
+8. Build a fermata figure maker.
 
-7. Write SegmentMaker tests for final_barline, final_markup,
+9. Write SegmentMaker tests for final_barline, final_markup,
 final_markup_extra_offset, label_clock_time, print_segment_duration,
 score_template, skips_instead_of_rests, tempo_specifier, transpose_score,
 volta_specifier.
+
+10. Build metric modulation from [A] to [B].
+
+11. Integrate OctaveDeviationSpecifier into [B].

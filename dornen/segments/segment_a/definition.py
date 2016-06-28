@@ -9,7 +9,7 @@ import dornen
 ###############################################################################
 
 figure_accumulator = dornen.tools.FigureAccumulator(
-    #label_figures=True,
+    label_figures=True,
     )
 anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
 default_figure_maker = dornen.tools.make_default_figure_maker()
@@ -67,6 +67,9 @@ figure_accumulator(
         extend_beam=True,
         specifiers=[
             baca.pitch.register(-14, 0),
+            baca.tools.DynamicFigureSpecifier(
+                dynamic='f < ff',
+                ),
             ],
         ),
     figure_name=3,
@@ -185,8 +188,11 @@ figure_accumulator(
         design_2[13:],
         extend_beam=True,
         specifiers=[
-            #baca.markup.delicatiss(),
+            baca.overrides.text_script_staff_padding(9),
             baca.pitch.register(6, -20),
+            baca.tools.MarkupSpecifier(
+                markup=baca.markup.delicatiss(),
+                ),
             ],
         ),
     figure_name=13,

@@ -25,13 +25,13 @@ def make_thorn_figure_maker_1():
             beam_divisions_together=True,
             ),
         dynamic_figure_specifiers=[
-            baca.tools.DynamicFigureSpecifier(
+            baca.tools.DynamicSpecifier(
                 dynamic=abjad.spannertools.Hairpin('p < f'),
                 selector=abjad.selectortools.Selector().
                     by_class(abjad.scoretools.Tuplet).
                     get_slice(stop=-1, apply_to_each=True),
                 ),
-            baca.tools.DynamicFigureSpecifier(
+            baca.tools.DynamicSpecifier(
                 dynamic=abjad.spannertools.Hairpin('p > pp'),
                 selector=_select_last_tuplet(),
                 ),

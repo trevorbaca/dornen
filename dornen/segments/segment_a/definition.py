@@ -33,7 +33,9 @@ assert len(design_2) == 14
 figure_accumulator(
     ritardando_figure_maker(
         design_2[:4],
+        preferred_denominator=16,
         specifiers=[
+            baca.overrides.beam_positions(8),
             baca.pitch.register(0, -14),
             ],
         ),
@@ -67,8 +69,8 @@ figure_accumulator(
         extend_beam=True,
         specifiers=[
             baca.pitch.register(-14, 0),
-            baca.tools.DynamicFigureSpecifier(
-                dynamic='f < ff',
+            baca.tools.DynamicSpecifier(
+                dynamic=abjad.Hairpin('f < ff'),
                 ),
             ],
         ),
@@ -94,6 +96,9 @@ figure_accumulator(
         extend_beam=True,
         specifiers=[
             baca.pitch.register(-14, 0),
+            baca.tools.DynamicSpecifier(
+                dynamic=abjad.Hairpin('mf < f'),
+                ),
             ],
         ),
     figure_name=5,
@@ -118,6 +123,9 @@ figure_accumulator(
         extend_beam=True,
         specifiers=[
             baca.pitch.register(-14, 0),
+            baca.tools.DynamicSpecifier(
+                dynamic=abjad.Hairpin('mp < mf'),
+                ),
             ],
         ),
     figure_name=7,
@@ -142,6 +150,9 @@ figure_accumulator(
         extend_beam=True,
         specifiers=[
             baca.pitch.register(-14, 0),
+            baca.tools.DynamicSpecifier(
+                dynamic=abjad.Hairpin('p < mp'),
+                ),
             ],
         ),
     figure_name=9,
@@ -164,6 +175,9 @@ figure_accumulator(
         design_2[9:13],
         specifiers=[
             baca.pitch.register(-14, 6),
+            baca.tools.DynamicSpecifier(
+                dynamic=abjad.Hairpin('pp < p'),
+                ),
             ],
         ),
     figure_name=11,
@@ -239,7 +253,7 @@ measures_per_stage = len(figure_accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
-    #label_stages=True,
+    label_stages=True,
     measures_per_stage=measures_per_stage,
     score_package=dornen,
     skips_instead_of_rests=True,
@@ -265,3 +279,24 @@ for voice_name, selections in items:
             rhythm_maker=complete_selection,
             ),
         )
+
+###############################################################################
+########################### CROSS-STAGE SPECIFIERS ############################
+###############################################################################
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 1', baca.tools.stages(1, 15)),
+    [
+        baca.overrides.dynamic_line_spanner_up(),
+        baca.overrides.dynamic_line_spanner_staff_padding(12),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 1', baca.tools.stages(13, 15)),
+    [
+#        baca.tools.DynamicSpecifier(
+#            dynamic=abjad.Hairpin('pp > ppp'),
+#            ),
+        ],
+    )

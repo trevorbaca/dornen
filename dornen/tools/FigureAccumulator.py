@@ -67,7 +67,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
                     figure_name,
                     direction=Up,
                     )
-                figure_name = figure_name.with_color('blue')
+                figure_name = figure_name.with_color('darkgreen')
                 figure_name = figure_name.fontsize(3)
             leaves = list(abjad.iterate(selection).by_leaf())
             abjad.attach(figure_name, leaves[0])

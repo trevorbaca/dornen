@@ -27,3 +27,7 @@ volta_specifier.
 10. Build metric modulation from [A] to [B].
 
 11. Integrate OctaveDeviationSpecifier into [B].
+
+12. Write ritardando_figure_maker API examples.
+
+13. Change as many handlers as possible to specifiers.

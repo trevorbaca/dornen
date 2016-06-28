@@ -9,7 +9,7 @@ import dornen
 ###############################################################################
 
 figure_accumulator = dornen.tools.FigureAccumulator(
-    #label_figures=True,
+    label_figures=True,
     )
 anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
 default_figure_maker = dornen.tools.make_default_figure_maker()
@@ -230,7 +230,7 @@ figure_accumulator(
     running_figure_maker(
         design_1.next(2),
         specifiers=[
-            baca.pitch.register(0),
+            baca.pitch.register(-12, 0),
             ],
         ),
     figure_name=17,
@@ -242,7 +242,6 @@ figure_accumulator(
         design_1.next(1),
         specifiers=[
             baca.overrides.beam_positions(-6),
-            baca.pitch.register(0),
             ],
         ),
     figure_name=18,
@@ -254,7 +253,6 @@ figure_accumulator(
         design_1.next(1),
         specifiers=[
             baca.overrides.beam_positions(-6),
-            baca.pitch.register(-9),
             ],
         ),
     figure_name=19,
@@ -308,3 +306,14 @@ for voice_name, selections in items:
             rhythm_maker=complete_selection,
             ),
         )
+
+###############################################################################
+########################### CROSS-STAGE SPECIFIERS ############################
+###############################################################################
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 3', baca.tools.stages(18, 19)),
+    [
+        baca.pitch.register(0, -12),
+        ],
+    )

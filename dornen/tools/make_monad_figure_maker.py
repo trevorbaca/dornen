@@ -15,6 +15,11 @@ def make_monad_figure_maker():
 
         >>> print(format(dornen.tools.make_monad_figure_maker()))
         baca.tools.FigureMaker(
+            articulation_figure_specifiers=[
+                baca.tools.ArticulationFigureSpecifier(
+                    articulations=['^'],
+                    ),
+                ],
             beam_specifier=rhythmmakertools.BeamSpecifier(
                 beam_each_division=True,
                 ),
@@ -171,73 +176,73 @@ def make_monad_figure_maker():
                             {
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    cs'16
+                                    cs'16 -\marcato
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    c'16
+                                    c'16 -\marcato
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    bf'16
+                                    bf'16 -\marcato
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    f'16
+                                    f'16 -\marcato
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    af'16
+                                    af'16 -\marcato
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    fs'16
+                                    fs'16 -\marcato
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    b'16
-                                }
-                            }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    d'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    e'16
+                                    b'16 -\marcato
                                 }
                             }
                             {
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    ef'16
+                                    d'16 -\marcato
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    a'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    af'16
+                                    e'16 -\marcato
                                 }
                             }
                             {
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    fs'16
+                                    ef'16 -\marcato
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    b'16
+                                    a'16 -\marcato
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    d'16
+                                    af'16 -\marcato
+                                }
+                            }
+                            {
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    fs'16 -\marcato
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    f'16
+                                    b'16 -\marcato
+                                }
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    d'16 -\marcato
+                                }
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    f'16 -\marcato
                                     \bar "|"
                                 }
                             }
@@ -377,57 +382,57 @@ def make_monad_figure_maker():
                             {
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    cs'16
+                                    cs'16 -\marcato
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    c'16 [
-                                    bf'16 ]
+                                    c'16 -\marcato [
+                                    bf'16 -\marcato ]
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    f'16
+                                    f'16 -\marcato
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    af'16 [
-                                    fs'16 ]
+                                    af'16 -\marcato [
+                                    fs'16 -\marcato ]
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    b'16
-                                }
-                            }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    d'16
+                                    b'16 -\marcato
                                 }
                             }
                             {
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    ef'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    a'16 [
-                                    af'16 ]
+                                    d'16 -\marcato
                                 }
                             }
                             {
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    fs'16
+                                    ef'16 -\marcato
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    b'16 [
-                                    d'16 ]
+                                    a'16 -\marcato [
+                                    af'16 -\marcato ]
+                                }
+                            }
+                            {
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    fs'16 -\marcato
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 4/5 {
-                                    f'16
+                                    b'16 -\marcato [
+                                    d'16 -\marcato ]
+                                }
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    f'16 -\marcato
                                     \bar "|"
                                 }
                             }
@@ -439,6 +444,11 @@ def make_monad_figure_maker():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
+        articulation_figure_specifiers=[
+            baca.tools.ArticulationFigureSpecifier(
+                articulations=['^'],
+                ),
+            ],
         beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
             beam_each_division=True,
             ),

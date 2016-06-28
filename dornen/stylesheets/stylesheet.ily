@@ -164,6 +164,7 @@
         \override Beam.color = #red
         \override Dots.color = #red
         \override NoteHead.color = #red
+        \override Script.color = #red
         \override Slur.color = #red
         \override Stem.color = #red
         \override Stem.direction = #down
@@ -186,6 +187,7 @@
         \override Beam.color = #red
         \override Dots.color = #red
         \override NoteHead.color = #red
+        \override Script.color = #red
         \override Slur.color = #red
         \override Stem.color = #red
         \override Stem.direction = #up

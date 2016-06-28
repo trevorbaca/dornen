@@ -69,7 +69,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
                     )
                 figure_name = figure_name.with_color('blue')
                 figure_name = figure_name.fontsize(3)
-            leaves = list(abjad.iterate(selections).by_leaf())
+            leaves = list(abjad.iterate(selection).by_leaf())
             abjad.attach(figure_name, leaves[0])
         self.time_signatures.append(time_signature)
 

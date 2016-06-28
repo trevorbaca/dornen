@@ -10,7 +10,7 @@ def make_design_3():
 
     ..  container:: example
 
-        **Example.** Makes design II:
+        **Example.** Makes design III:
 
         ::
 

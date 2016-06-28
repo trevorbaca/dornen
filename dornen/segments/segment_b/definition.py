@@ -12,6 +12,7 @@ figure_accumulator = dornen.tools.FigureAccumulator(
     label_figures=True,
     )
 anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
+default_figure_maker = dornen.tools.make_default_figure_maker()
 passepied_figure_maker = dornen.tools.make_passepied_figure_maker()
 ritardando_figure_maker = dornen.tools.make_ritardando_figure_maker()
 running_figure_maker = dornen.tools.make_running_figure_maker()
@@ -30,7 +31,7 @@ design_1 = baca.tools.Cursor(source=design_1)
 
 for i, cell in enumerate(design_1):
     figure_accumulator(
-        running_figure_maker(
+        default_figure_maker(
             [cell],
             specifiers=[
                 ],

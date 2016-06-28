@@ -13,6 +13,7 @@ figure_accumulator = dornen.tools.FigureAccumulator(
     )
 anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
 default_figure_maker = dornen.tools.make_default_figure_maker()
+monad_figure_maker = dornen.tools.make_monad_figure_maker()
 passepied_figure_maker = dornen.tools.make_passepied_figure_maker()
 ritardando_figure_maker = dornen.tools.make_ritardando_figure_maker()
 running_figure_maker = dornen.tools.make_running_figure_maker()
@@ -27,18 +28,68 @@ for tree in trees:
 assert len(design_2) == 40, (repr(design_2), len(design_2))
 design_2 = design_2[:14]
 assert len(design_2) == 14
-design_2 = baca.tools.Cursor(source=design_2)
 
-for i, cell in enumerate(design_2):
-    figure_accumulator(
-        default_figure_maker(
-            [cell],
-            specifiers=[
-                ],
-            ),
-        figure_name=i+1,
-        voice_name='Guitar Music Voice 1',
-        )
+#for i, cell in enumerate(design_2):
+#    figure_accumulator(
+#        default_figure_maker(
+#            [cell],
+#            specifiers=[
+#                ],
+#            ),
+#        figure_name=i+1,
+#        voice_name='Guitar Music Voice 1',
+#        )
+
+figure_accumulator(
+    ritardando_figure_maker(
+        design_2[:4],
+        specifiers=[
+            baca.pitch.register(0, -12),
+            ],
+        ),
+    figure_name=1,
+    voice_name='Guitar Music Voice 1',
+    )
+
+def reveal_amber(count):
+    amber = design_2[4]
+    assert len(amber) == 5, repr(amber)
+    amber = amber[:count]
+    return [amber]
+
+figure_accumulator(
+    monad_figure_maker(
+        reveal_amber(1),
+        extend_beam=True,
+        specifiers=[
+            baca.pitch.register(6),
+            ],
+        ),
+    figure_name=2,
+    voice_name='Guitar Music Voice 2',
+    )
+
+figure_accumulator(
+    running_figure_maker(
+        design_2[5:8],
+        specifiers=[
+            baca.pitch.register(-12, 0),
+            ],
+        ),
+    figure_name=2,
+    voice_name='Guitar Music Voice 1',
+    )
+
+figure_accumulator(
+    monad_figure_maker(
+        reveal_amber(2),
+        specifiers=[
+            baca.pitch.register(6),
+            ],
+        ),
+    figure_name=2,
+    voice_name='Guitar Music Voice 2',
+    )
 
 #assert design_2.is_exhausted
 
@@ -47,7 +98,7 @@ for i, cell in enumerate(design_2):
 ###############################################################################
 
 tempo_specifier = baca.tools.TempoSpecifier([
-    (1, dornen.materials.tempi[44]),
+    #(1, dornen.materials.tempi[44]),
     ])
 
 spacing_specifier = baca.tools.SpacingSpecifier(

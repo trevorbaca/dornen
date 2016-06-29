@@ -9,9 +9,7 @@ def make_ritardando_figure_maker():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
-#        beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
-#            beam_divisions_together=True,
-#            ),
+        annotate_unregistered_pitches=True,
         rhythm_maker_figure_specifiers=[
             baca.tools.RhythmMakerFigureSpecifier(
                 patterns=abjad.patterntools.select_all(),

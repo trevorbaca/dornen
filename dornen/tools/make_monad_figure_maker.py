@@ -15,6 +15,7 @@ def make_monad_figure_maker():
 
         >>> print(format(dornen.tools.make_monad_figure_maker()))
         baca.tools.FigureMaker(
+            annotate_unregistered_pitches=True,
             articulation_specifiers=[
                 baca.tools.ArticulationSpecifier(
                     articulations=['^'],
@@ -87,6 +88,7 @@ def make_monad_figure_maker():
         ::
 
             >>> segment_maker = baca.tools.SegmentMaker(
+            ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     spacing_specifier=baca.tools.SpacingSpecifier(
             ...         multiplier=durationtools.Multiplier((5, 2)),
@@ -293,6 +295,7 @@ def make_monad_figure_maker():
         ::
 
             >>> segment_maker = baca.tools.SegmentMaker(
+            ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     spacing_specifier=baca.tools.SpacingSpecifier(
             ...         multiplier=durationtools.Multiplier((5, 2)),
@@ -452,6 +455,7 @@ def make_monad_figure_maker():
         beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
             beam_each_division=True,
             ),
+        annotate_unregistered_pitches=True,
         preferred_denominator=20,
         rhythm_maker_figure_specifiers=[
             baca.tools.RhythmMakerFigureSpecifier(

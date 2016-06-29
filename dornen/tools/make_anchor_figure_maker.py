@@ -37,6 +37,7 @@ def make_anchor_figure_maker():
         ::
 
             >>> segment_maker = baca.tools.SegmentMaker(
+            ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     spacing_specifier=baca.tools.SpacingSpecifier(
             ...         minimum_width=Duration(1, 24),
@@ -163,6 +164,7 @@ def make_anchor_figure_maker():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
+        annotate_unregistered_pitches=True,
         preferred_denominator=8,
         rhythm_maker_figure_specifiers=[
             baca.tools.RhythmMakerFigureSpecifier(

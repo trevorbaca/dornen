@@ -24,6 +24,7 @@ def make_thorn_figure_maker_1():
         beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
+        annotate_unregistered_pitches=True,
         dynamic_figure_specifiers=[
             baca.tools.DynamicSpecifier(
                 dynamic=abjad.spannertools.Hairpin('p < f'),

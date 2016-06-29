@@ -1,29 +1,27 @@
-1. Color unregistered figures.
+1. Extend FigureMaker with generalized 'specifiers' property.
 
-2. Extend FigureMaker with generalized 'specifiers' property.
+2. Collapse RepeatedMarkupHandler into MarkupSpecifier.
 
-3. Collapse RepeatedMarkupHandler into MarkupSpecifier.
-
-4. Collapse ArticulationHandler, PatternedArticulationHandler,
+3. Collapse ArticulationHandler, PatternedArticulationHandler,
 ReiteratedArticulationHandler into ArticulationSpecifier.
 
-5. Check for duplicate figure names.
+4. Check for duplicate figure names.
 
-6. Build a fermata figure maker.
+5. Build a fermata figure maker.
 
-7. Write SegmentMaker tests for final_barline, final_markup,
+6. Write SegmentMaker tests for final_barline, final_markup,
 final_markup_extra_offset, label_clock_time, print_segment_duration,
 score_template, skips_instead_of_rests, tempo_specifier, transpose_score,
 volta_specifier.
 
-8. Build metric modulation from [A] to [B].
+7. Build metric modulation from [A] to [B].
 
-9. Integrate OctaveDeviationSpecifier into [B].
+8. Integrate OctaveDeviationSpecifier into [B].
 
-10. Write ritardando_figure_maker API examples.
+9. Write ritardando_figure_maker API examples.
 
-11. Change as many handlers as possible to specifiers.
+10. Change as many handlers as possible to specifiers.
 
-12. Implement slur edge-case handling (for only one stage; for only two stages;
+11. Implement slur edge-case handling (for only one stage; for only two stages;
 for single-leaf stages) in running figure maker. Check that no LilyPond errors
 remain in LilyPond log file.

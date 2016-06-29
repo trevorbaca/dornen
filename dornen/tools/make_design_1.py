@@ -60,8 +60,7 @@ def make_design_1():
                 a'8 \stopGroup
                 ef'8 \startGroup ^ \markup { 9 }
                 e'8
-                fs'8
-                d'8 \stopGroup
+                fs'8 d'8 \stopGroup
                 c'8 \startGroup ^ \markup { 10 }
                 f'8
                 a'8

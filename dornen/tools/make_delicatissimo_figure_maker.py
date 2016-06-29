@@ -15,6 +15,7 @@ def make_delicatissimo_figure_maker():
 
         >>> print(format(dornen.tools.make_delicatissimo_figure_maker()))
         baca.tools.FigureMaker(
+            annotate_unregistered_pitches=True,
             articulation_specifiers=[
                 baca.tools.ArticulationSpecifier(
                     articulations=['.'],
@@ -69,6 +70,7 @@ def make_delicatissimo_figure_maker():
         ::
 
             >>> segment_maker = baca.tools.SegmentMaker(
+            ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     spacing_specifier=baca.tools.SpacingSpecifier(
             ...         minimum_width=Duration(1, 24),
@@ -258,6 +260,7 @@ def make_delicatissimo_figure_maker():
         ::
 
             >>> segment_maker = baca.tools.SegmentMaker(
+            ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     spacing_specifier=baca.tools.SpacingSpecifier(
             ...         minimum_width=Duration(1, 24),
@@ -472,6 +475,7 @@ def make_delicatissimo_figure_maker():
         beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
+        annotate_unregistered_pitches=True,
         preferred_denominator=16,
         rhythm_maker_figure_specifiers=[
             baca.tools.RhythmMakerFigureSpecifier(

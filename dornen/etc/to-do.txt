@@ -1,6 +1,4 @@
-1. Add attachment test to Slur to complain if attached to only a single leaf.
-Do the same for Beam, Glissando, Hairpin, OctavationSpanner (?), PhrasingSlur,
-PianoPedalSpanner (?), TextSpanner (?), Tie and TrillSpanner.
+1. Color unregistered figures.
 
 2. Extend FigureMaker with generalized 'specifiers' property.
 

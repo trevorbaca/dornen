@@ -1,35 +1,31 @@
-1. Migrate CyclicTree and PitchClassTree into Bača package.
-
-2. Hook custom WellformednessManager into SegmentMaker.
-
-3. Add attachment test to Slur to complain if attached to only a single leaf.
+1. Add attachment test to Slur to complain if attached to only a single leaf.
 Do the same for Beam, Glissando, Hairpin, OctavationSpanner (?), PhrasingSlur,
 PianoPedalSpanner (?), TextSpanner (?), Tie and TrillSpanner.
 
-4. Extend FigureMaker with generalized 'specifiers' property.
+2. Extend FigureMaker with generalized 'specifiers' property.
 
-5. Collapse RepeatedMarkupHandler into MarkupSpecifier.
+3. Collapse RepeatedMarkupHandler into MarkupSpecifier.
 
-6. Collapse ArticulationHandler, PatternedArticulationHandler,
+4. Collapse ArticulationHandler, PatternedArticulationHandler,
 ReiteratedArticulationHandler into ArticulationSpecifier.
 
-7. Check for duplicate figure names.
+5. Check for duplicate figure names.
 
-8. Build a fermata figure maker.
+6. Build a fermata figure maker.
 
-9. Write SegmentMaker tests for final_barline, final_markup,
+7. Write SegmentMaker tests for final_barline, final_markup,
 final_markup_extra_offset, label_clock_time, print_segment_duration,
 score_template, skips_instead_of_rests, tempo_specifier, transpose_score,
 volta_specifier.
 
-10. Build metric modulation from [A] to [B].
+8. Build metric modulation from [A] to [B].
 
-11. Integrate OctaveDeviationSpecifier into [B].
+9. Integrate OctaveDeviationSpecifier into [B].
 
-12. Write ritardando_figure_maker API examples.
+10. Write ritardando_figure_maker API examples.
 
-13. Change as many handlers as possible to specifiers.
+11. Change as many handlers as possible to specifiers.
 
-14. Implement slur edge-case handling (for only one stage; for only two stages;
+12. Implement slur edge-case handling (for only one stage; for only two stages;
 for single-leaf stages) in running figure maker. Check that no LilyPond errors
 remain in LilyPond log file.

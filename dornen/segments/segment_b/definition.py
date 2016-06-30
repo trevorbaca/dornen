@@ -9,10 +9,11 @@ import dornen
 ###############################################################################
 
 figure_accumulator = dornen.tools.FigureAccumulator(
-    label_figures=True,
+    #label_figures=True,
     )
 anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
 default_figure_maker = dornen.tools.make_default_figure_maker()
+graced_tuplet_figure_maker = dornen.tools.make_graced_tuplet_figure_maker()
 ovoid_figure_maker = dornen.tools.make_ovoid_figure_maker()
 passepied_figure_maker = dornen.tools.make_passepied_figure_maker()
 ritardando_figure_maker = dornen.tools.make_ritardando_figure_maker()
@@ -48,7 +49,7 @@ figure_accumulator(
             #baca.pitch.register(0, -14),
             ],
         ),
-    figure_name=1,
+    figure_name=2,
     voice_name='Guitar Music Voice 1',
     )
 
@@ -59,7 +60,7 @@ figure_accumulator(
             #baca.pitch.register(0, -14),
             ],
         ),
-    figure_name=1,
+    figure_name=3,
     voice_name='Guitar Music Voice 1',
     )
 
@@ -70,11 +71,24 @@ figure_accumulator(
             baca.pitch.register(0, -14),
             ],
         ),
-    figure_name=1,
+    figure_name=4,
     voice_name='Guitar Music Voice 1',
     )
 
-for i, cell in enumerate(design_1[5:]):
+figure_accumulator(
+    graced_tuplet_figure_maker(
+        design_1[5:6] + design_1[5:6],
+        specifiers=[
+            baca.overrides.beam_positions(6),
+            baca.overrides.tuplet_bracket_staff_padding(8),
+            baca.overrides.tuplet_bracket_down(),
+            ],
+        ),
+    figure_name=5,
+    voice_name='Guitar Music Voice 1',
+    )
+
+for i, cell in enumerate(design_1[6:]):
     figure_accumulator(
         default_figure_maker(
             [cell],

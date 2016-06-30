@@ -25,9 +25,8 @@ def make_delicatissimo_figure_maker():
                 beam_each_division=True,
                 beam_divisions_together=True,
                 ),
-            preferred_denominator=16,
-            rhythm_maker_figure_specifiers=[
-                baca.tools.RhythmMakerFigureSpecifier(
+            figure_rhythm_specifiers=[
+                baca.tools.FigureRhythmSpecifier(
                     patterns=[
                         patterntools.Pattern(
                             indices=(0,),
@@ -42,6 +41,7 @@ def make_delicatissimo_figure_maker():
                         ),
                     ),
                 ],
+            preferred_denominator=16,
             )
 
     ..  container:: example
@@ -477,8 +477,8 @@ def make_delicatissimo_figure_maker():
             ),
         annotate_unregistered_pitches=True,
         preferred_denominator=16,
-        rhythm_maker_figure_specifiers=[
-            baca.tools.RhythmMakerFigureSpecifier(
+        figure_rhythm_specifiers=[
+            baca.tools.FigureRhythmSpecifier(
                 patterns=abjad.patterntools.select_all(),
                 rhythm_maker=baca.tools.FigureRhythmMaker(
                     talea=abjad.rhythmmakertools.Talea(

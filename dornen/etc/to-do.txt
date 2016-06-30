@@ -1,4 +1,5 @@
-0. Register acciaccatura pitches.
+0. Make inspect_(grace_note).get_effective(instrument) work. Then register
+acciaccatura pitches.
 
 1. Four-voice structure.
 

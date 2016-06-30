@@ -9,7 +9,7 @@ import dornen
 ###############################################################################
 
 figure_accumulator = dornen.tools.FigureAccumulator(
-    #label_figures=True,
+    label_figures=True,
     )
 anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
 default_figure_maker = dornen.tools.make_default_figure_maker()
@@ -29,7 +29,6 @@ for tree in trees:
 assert len(design_1) == 50, (repr(design_1), len(design_1))
 design_1 = design_1[16:38]
 assert len(design_1) == 22
-#design_1 = baca.tools.Cursor(source=design_1)
 
 figure_accumulator(
     ritardando_figure_maker(
@@ -46,7 +45,7 @@ figure_accumulator(
     ovoid_figure_maker(
         design_1[1:3],
         specifiers=[
-            #baca.pitch.register(0, -14),
+            baca.pitch.register(-14, 0),
             ],
         ),
     figure_name=2,

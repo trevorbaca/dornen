@@ -466,13 +466,7 @@
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
                             \once \override Beam.positions = #'(6 . 6)
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             f''16 [
@@ -485,13 +479,7 @@
                                 \once \override Stem.color = #magenta
                                 b'16
                             }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
                             \once \override Beam.positions = #'(6 . 6)
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             fs''16
@@ -504,13 +492,7 @@
                                 \once \override Stem.color = #magenta
                                 d'16
                             }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
                             \once \override Beam.positions = #'(6 . 6)
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             c''16
@@ -523,16 +505,10 @@
                                 \once \override Stem.color = #magenta
                                 ef'16
                             }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
                             \once \override Beam.positions = #'(6 . 6)
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            b''16
+                            b'16
                             \acciaccatura {
                                 \once \override Accidental.color = #magenta
                                 \once \override Beam.color = #magenta
@@ -542,13 +518,7 @@
                                 \once \override Stem.color = #magenta
                                 fs'16
                             }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
                             \once \override Beam.positions = #'(6 . 6)
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             f''16
@@ -561,39 +531,21 @@
                                 \once \override Stem.color = #magenta
                                 c'16
                             }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
                             \once \override Beam.positions = #'(6 . 6)
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             ef''16
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
                             \once \override Beam.positions = #'(6 . 6)
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             d''16
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
                             \once \override Beam.positions = #'(6 . 6)
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
-                            f''16
+                            f'16
                             \acciaccatura {
                                 \once \override Accidental.color = #magenta
                                 \once \override Beam.color = #magenta
@@ -603,16 +555,10 @@
                                 \once \override Stem.color = #magenta
                                 b'16
                             }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
                             \once \override Beam.positions = #'(6 . 6)
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            fs''16
+                            fs'16
                             \acciaccatura {
                                 \once \override Accidental.color = #magenta
                                 \once \override Beam.color = #magenta
@@ -622,13 +568,7 @@
                                 \once \override Stem.color = #magenta
                                 d'16
                             }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
                             \once \override Beam.positions = #'(6 . 6)
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             c''16
@@ -641,16 +581,10 @@
                                 \once \override Stem.color = #magenta
                                 ef'16
                             }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
                             \once \override Beam.positions = #'(6 . 6)
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            b''16
+                            b'16
                             \acciaccatura {
                                 \once \override Accidental.color = #magenta
                                 \once \override Beam.color = #magenta
@@ -660,16 +594,10 @@
                                 \once \override Stem.color = #magenta
                                 fs'16
                             }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
                             \once \override Beam.positions = #'(6 . 6)
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            f''16
+                            f'16
                             \acciaccatura {
                                 \once \override Accidental.color = #magenta
                                 \once \override Beam.color = #magenta
@@ -679,26 +607,14 @@
                                 \once \override Stem.color = #magenta
                                 c'16
                             }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
                             \once \override Beam.positions = #'(6 . 6)
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            ef''16
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
+                            ef'16
                             \once \override Beam.positions = #'(6 . 6)
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            d''16 ]
+                            d'16 ]
                         }
                     }
                     {

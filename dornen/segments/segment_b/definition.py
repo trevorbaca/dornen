@@ -80,6 +80,7 @@ figure_accumulator(
         design_1[5:6] + design_1[5:6],
         specifiers=[
             baca.overrides.beam_positions(6),
+            baca.pitch.register(0, -14),
             ],
         ),
     figure_name=5,

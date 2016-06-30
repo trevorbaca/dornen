@@ -13,6 +13,7 @@ figure_accumulator = dornen.tools.FigureAccumulator(
     )
 anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
 default_figure_maker = dornen.tools.make_default_figure_maker()
+ovoid_figure_maker = dornen.tools.make_ovoid_figure_maker()
 passepied_figure_maker = dornen.tools.make_passepied_figure_maker()
 ritardando_figure_maker = dornen.tools.make_ritardando_figure_maker()
 running_figure_maker = dornen.tools.make_running_figure_maker()
@@ -27,16 +28,60 @@ for tree in trees:
 assert len(design_1) == 50, (repr(design_1), len(design_1))
 design_1 = design_1[16:38]
 assert len(design_1) == 22
-design_1 = baca.tools.Cursor(source=design_1)
+#design_1 = baca.tools.Cursor(source=design_1)
 
-for i, cell in enumerate(design_1):
+figure_accumulator(
+    ritardando_figure_maker(
+        design_1[:1],
+        specifiers=[
+            baca.pitch.register(0, -14),
+            ],
+        ),
+    figure_name=1,
+    voice_name='Guitar Music Voice 1',
+    )
+
+figure_accumulator(
+    ovoid_figure_maker(
+        design_1[1:3],
+        specifiers=[
+            #baca.pitch.register(0, -14),
+            ],
+        ),
+    figure_name=1,
+    voice_name='Guitar Music Voice 1',
+    )
+
+figure_accumulator(
+    default_figure_maker(
+        design_1[3:4],
+        specifiers=[
+            #baca.pitch.register(0, -14),
+            ],
+        ),
+    figure_name=1,
+    voice_name='Guitar Music Voice 1',
+    )
+
+figure_accumulator(
+    ritardando_figure_maker(
+        design_1[4:5],
+        specifiers=[
+            baca.pitch.register(0, -14),
+            ],
+        ),
+    figure_name=1,
+    voice_name='Guitar Music Voice 1',
+    )
+
+for i, cell in enumerate(design_1[5:]):
     figure_accumulator(
         default_figure_maker(
             [cell],
             specifiers=[
                 ],
             ),
-        figure_name=i+1,
+        figure_name='.'+str(i+1),
         voice_name='Guitar Music Voice 1',
         )
 

@@ -169,7 +169,7 @@ def make_anchor_figure_maker():
         rhythm_maker_figure_specifiers=[
             baca.tools.RhythmMakerFigureSpecifier(
                 patterns=abjad.patterntools.select_all(),
-                rhythm_maker=baca.tools.StageRhythmMaker(
+                rhythm_maker=baca.tools.FigureRhythmMaker(
                     talea=abjad.rhythmmakertools.Talea(
                         counts=[3],
                         denominator=16,

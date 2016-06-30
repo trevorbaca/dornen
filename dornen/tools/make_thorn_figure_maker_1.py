@@ -40,7 +40,7 @@ def make_thorn_figure_maker_1():
         rhythm_maker_figure_specifiers=[
             baca.tools.RhythmMakerFigureSpecifier(
                 patterns=abjad.patterntools.select_all(),
-                rhythm_maker=baca.tools.StageRhythmMaker(
+                rhythm_maker=baca.tools.FigureRhythmMaker(
                     talea=abjad.rhythmmakertools.Talea(
                         counts=[1],
                         denominator=16,
@@ -50,7 +50,7 @@ def make_thorn_figure_maker_1():
                 ),
             baca.tools.RhythmMakerFigureSpecifier(
                 patterns=abjad.patterntools.select([0, -1]),
-                rhythm_maker=baca.tools.StageRhythmMaker(
+                rhythm_maker=baca.tools.FigureRhythmMaker(
                     talea=abjad.rhythmmakertools.Talea(
                         counts=[1],
                         denominator=32,

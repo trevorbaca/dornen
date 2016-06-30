@@ -29,7 +29,7 @@ def make_default_figure_maker():
                             period=1,
                             ),
                         ],
-                    rhythm_maker=baca.tools.StageRhythmMaker(
+                    rhythm_maker=baca.tools.FigureRhythmMaker(
                         talea=rhythmmakertools.Talea(
                             counts=(1,),
                             denominator=32,
@@ -486,7 +486,7 @@ def make_default_figure_maker():
         rhythm_maker_figure_specifiers=[
             baca.tools.RhythmMakerFigureSpecifier(
                 patterns=abjad.patterntools.select_all(),
-                rhythm_maker=baca.tools.StageRhythmMaker(
+                rhythm_maker=baca.tools.FigureRhythmMaker(
                     talea=abjad.rhythmmakertools.Talea(
                         counts=[1],
                         denominator=32,

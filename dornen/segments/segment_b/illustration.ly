@@ -29,8 +29,8 @@
                     R1 * 7/64
                 }
                 {
-                    \time 12/16
-                    R1 * 3/4
+                    \time 14/16
+                    R1 * 7/8
                 }
                 {
                     \time 16/32
@@ -124,10 +124,10 @@
                     s1 * 7/64
                 }
                 {
-                    \time 12/16
+                    \time 14/16
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 3/4
+                    s1 * 7/8
                 }
                 {
                     \time 16/32
@@ -423,10 +423,7 @@
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 7/6 {
-                            \acciaccatura {
-                                f'16
-                            }
+                        \times 8/7 {
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
                             \once \override Beam.positions = #'(6 . 6)
@@ -434,41 +431,9 @@
                             \once \override Flag.color = #magenta
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
-                            \once \override TupletBracket.direction = #down
-                            \once \override TupletBracket.staff-padding = #8
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            b''16 [
-                            \acciaccatura {
-                                fs'16
-                            }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Beam.positions = #'(6 . 6)
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \once \override TupletBracket.direction = #down
-                            \once \override TupletBracket.staff-padding = #8
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            d''16
-                            \acciaccatura {
-                                c'16
-                            }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Beam.positions = #'(6 . 6)
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \once \override TupletBracket.direction = #down
-                            \once \override TupletBracket.staff-padding = #8
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            ef''16
+                            f''16 [
                             \acciaccatura {
                                 b'16
                             }
@@ -479,13 +444,11 @@
                             \once \override Flag.color = #magenta
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
-                            \once \override TupletBracket.direction = #down
-                            \once \override TupletBracket.staff-padding = #8
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             fs''16
                             \acciaccatura {
-                                f'16
+                                d'16
                             }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
@@ -494,8 +457,6 @@
                             \once \override Flag.color = #magenta
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
-                            \once \override TupletBracket.direction = #down
-                            \once \override TupletBracket.staff-padding = #8
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             c''16
@@ -509,27 +470,7 @@
                             \once \override Flag.color = #magenta
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
-                            \once \override TupletBracket.direction = #down
-                            \once \override TupletBracket.staff-padding = #8
                             \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #1
-                            d''16
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 5/6 {
-                            \acciaccatura {
-                                f'16
-                            }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Beam.positions = #'(6 . 6)
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \once \override TupletBracket.direction = #down
-                            \once \override TupletBracket.staff-padding = #8
-                            \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             b''16
                             \acciaccatura {
@@ -542,11 +483,9 @@
                             \once \override Flag.color = #magenta
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
-                            \once \override TupletBracket.direction = #down
-                            \once \override TupletBracket.staff-padding = #8
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            d''16
+                            f''16
                             \acciaccatura {
                                 c'16
                             }
@@ -557,11 +496,32 @@
                             \once \override Flag.color = #magenta
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
-                            \once \override TupletBracket.direction = #down
-                            \once \override TupletBracket.staff-padding = #8
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             ef''16
+                            \once \override Accidental.color = #magenta
+                            \once \override Beam.color = #magenta
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Dots.color = #magenta
+                            \once \override Flag.color = #magenta
+                            \once \override NoteHead.color = #magenta
+                            \once \override Stem.color = #magenta
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #1
+                            d''16
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            \once \override Accidental.color = #magenta
+                            \once \override Beam.color = #magenta
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Dots.color = #magenta
+                            \once \override Flag.color = #magenta
+                            \once \override NoteHead.color = #magenta
+                            \once \override Stem.color = #magenta
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #2
+                            f''16
                             \acciaccatura {
                                 b'16
                             }
@@ -572,13 +532,11 @@
                             \once \override Flag.color = #magenta
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
-                            \once \override TupletBracket.direction = #down
-                            \once \override TupletBracket.staff-padding = #8
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             fs''16
                             \acciaccatura {
-                                f'16
+                                d'16
                             }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
@@ -587,8 +545,6 @@
                             \once \override Flag.color = #magenta
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
-                            \once \override TupletBracket.direction = #down
-                            \once \override TupletBracket.staff-padding = #8
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             c''16
@@ -602,8 +558,42 @@
                             \once \override Flag.color = #magenta
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
-                            \once \override TupletBracket.direction = #down
-                            \once \override TupletBracket.staff-padding = #8
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            b''16
+                            \acciaccatura {
+                                fs'16
+                            }
+                            \once \override Accidental.color = #magenta
+                            \once \override Beam.color = #magenta
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Dots.color = #magenta
+                            \once \override Flag.color = #magenta
+                            \once \override NoteHead.color = #magenta
+                            \once \override Stem.color = #magenta
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            f''16
+                            \acciaccatura {
+                                c'16
+                            }
+                            \once \override Accidental.color = #magenta
+                            \once \override Beam.color = #magenta
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Dots.color = #magenta
+                            \once \override Flag.color = #magenta
+                            \once \override NoteHead.color = #magenta
+                            \once \override Stem.color = #magenta
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            ef''16
+                            \once \override Accidental.color = #magenta
+                            \once \override Beam.color = #magenta
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Dots.color = #magenta
+                            \once \override Flag.color = #magenta
+                            \once \override NoteHead.color = #magenta
+                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             d''16 ]
@@ -1069,7 +1059,7 @@
                     s1 * 7/16
                     s1 * 1/8
                     s1 * 7/64
-                    s1 * 3/4
+                    s1 * 7/8
                     s1 * 1/2
                     s1 * 1/32
                     s1 * 3/32
@@ -1093,7 +1083,7 @@
                     s1 * 7/16
                     s1 * 1/8
                     s1 * 7/64
-                    s1 * 3/4
+                    s1 * 7/8
                     s1 * 1/2
                     s1 * 1/32
                     s1 * 3/32
@@ -1117,7 +1107,7 @@
                     s1 * 7/16
                     s1 * 1/8
                     s1 * 7/64
-                    s1 * 3/4
+                    s1 * 7/8
                     s1 * 1/2
                     s1 * 1/32
                     s1 * 3/32

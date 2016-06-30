@@ -32,8 +32,9 @@ def make_graced_tuplet_figure_maker():
                         acciaccatura_specifiers=[
                             baca.tools.AcciaccaturaSpecifier(
                                 lmr_specifier=baca.tools.LMRSpecifier(
-                                    middle_counts=[2],
-                                    middle_cyclic=True,
+                                    left_length=1,
+                                    right_counts=[2],
+                                    right_cyclic=True,
                                     ),
                                 ),
                             ],
@@ -55,8 +56,9 @@ def make_graced_tuplet_figure_maker():
                         acciaccatura_specifiers=[
                             baca.tools.AcciaccaturaSpecifier(
                                 lmr_specifier=baca.tools.LMRSpecifier(
-                                    middle_counts=[2],
-                                    middle_cyclic=True,
+                                    left_length=1,
+                                    right_counts=[2],
+                                    right_cyclic=True,
                                     ),
                                 ),
                             ],
@@ -147,30 +149,30 @@ def make_graced_tuplet_figure_maker():
                 \context TimeSignatureContext = "Time Signature Context" <<
                     \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                         {
-                            \time 5/16
-                            R1 * 5/16
+                            \time 6/16
+                            R1 * 3/8
                         }
                         {
-                            \time 10/16
-                            R1 * 5/8
+                            \time 12/16
+                            R1 * 3/4
                         }
                         {
-                            \time 7/16
-                            R1 * 7/16
+                            \time 8/16
+                            R1 * 1/2
                         }
                     }
                     \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                         {
-                            \time 5/16
-                            s1 * 5/16
+                            \time 6/16
+                            s1 * 3/8
                         }
                         {
-                            \time 10/16
-                            s1 * 5/8
+                            \time 12/16
+                            s1 * 3/4
                         }
                         {
-                            \time 7/16
-                            s1 * 7/16
+                            \time 8/16
+                            s1 * 1/2
                         }
                     }
                 >>
@@ -185,34 +187,35 @@ def make_graced_tuplet_figure_maker():
                                     \set stemRightBeamCount = #2
                                     af'16 [
                                 }
-                                \times 4/5 {
-                                    \acciaccatura {
-                                        cs'16
-                                    }
+                                \tweak text #tuplet-number::calc-fraction-text
+                                \times 5/6 {
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #2
-                                    c'16
+                                    cs'16
                                     \acciaccatura {
-                                        bf'16
+                                        c'16
                                     }
                                     \set stemLeftBeamCount = #2
                                     \set stemRightBeamCount = #2
-                                    f'16
+                                    bf'16
                                     \acciaccatura {
-                                        af'16
+                                        f'16
                                     }
                                     \set stemLeftBeamCount = #2
                                     \set stemRightBeamCount = #2
-                                    fs'16
+                                    af'16
                                     \acciaccatura {
-                                        b'16
+                                        fs'16
                                     }
                                     \set stemLeftBeamCount = #2
                                     \set stemRightBeamCount = #2
-                                    d'16
+                                    b'16
                                     \acciaccatura {
-                                        e'16
+                                        d'16
                                     }
+                                    \set stemLeftBeamCount = #2
+                                    \set stemRightBeamCount = #2
+                                    e'16
                                     \set stemLeftBeamCount = #2
                                     \set stemRightBeamCount = #0
                                     ef'16 ]
@@ -220,66 +223,67 @@ def make_graced_tuplet_figure_maker():
                             }
                             {
                                 \tweak text #tuplet-number::calc-fraction-text
-                                \times 6/5 {
-                                    \acciaccatura {
-                                        cs'16
-                                    }
+                                \times 7/6 {
                                     \set stemLeftBeamCount = #0
                                     \set stemRightBeamCount = #2
-                                    c'16 [
+                                    cs'16 [
                                     \acciaccatura {
-                                        bf'16
+                                        c'16
                                     }
                                     \set stemLeftBeamCount = #2
                                     \set stemRightBeamCount = #2
-                                    f'16
+                                    bf'16
                                     \acciaccatura {
-                                        af'16
+                                        f'16
                                     }
                                     \set stemLeftBeamCount = #2
                                     \set stemRightBeamCount = #2
-                                    fs'16
+                                    af'16
                                     \acciaccatura {
-                                        b'16
+                                        fs'16
                                     }
                                     \set stemLeftBeamCount = #2
                                     \set stemRightBeamCount = #2
-                                    d'16
+                                    b'16
                                     \acciaccatura {
-                                        e'16
+                                        d'16
                                     }
+                                    \set stemLeftBeamCount = #2
+                                    \set stemRightBeamCount = #2
+                                    e'16
                                     \set stemLeftBeamCount = #2
                                     \set stemRightBeamCount = #1
                                     ef'16
                                 }
-                                \times 4/5 {
-                                    \acciaccatura {
-                                        a'16
-                                    }
+                                \tweak text #tuplet-number::calc-fraction-text
+                                \times 5/6 {
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #2
-                                    af'16
-                                    \acciaccatura {
-                                        cs'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    c'16
-                                    \acciaccatura {
-                                        bf'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    f'16
+                                    a'16
                                     \acciaccatura {
                                         af'16
                                     }
                                     \set stemLeftBeamCount = #2
                                     \set stemRightBeamCount = #2
-                                    fs'16
+                                    cs'16
                                     \acciaccatura {
-                                        b'16
+                                        c'16
                                     }
+                                    \set stemLeftBeamCount = #2
+                                    \set stemRightBeamCount = #2
+                                    bf'16
+                                    \acciaccatura {
+                                        f'16
+                                    }
+                                    \set stemLeftBeamCount = #2
+                                    \set stemRightBeamCount = #2
+                                    af'16
+                                    \acciaccatura {
+                                        fs'16
+                                    }
+                                    \set stemLeftBeamCount = #2
+                                    \set stemRightBeamCount = #2
+                                    b'16
                                     \set stemLeftBeamCount = #2
                                     \set stemRightBeamCount = #0
                                     d'16 ]
@@ -287,34 +291,34 @@ def make_graced_tuplet_figure_maker():
                             }
                             {
                                 \tweak text #tuplet-number::calc-fraction-text
-                                \times 6/5 {
-                                    \acciaccatura {
-                                        a'16
-                                    }
+                                \times 7/6 {
                                     \set stemLeftBeamCount = #0
                                     \set stemRightBeamCount = #2
-                                    af'16 [
-                                    \acciaccatura {
-                                        cs'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    c'16
-                                    \acciaccatura {
-                                        bf'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    f'16
+                                    a'16 [
                                     \acciaccatura {
                                         af'16
                                     }
                                     \set stemLeftBeamCount = #2
                                     \set stemRightBeamCount = #2
-                                    fs'16
+                                    cs'16
                                     \acciaccatura {
-                                        b'16
+                                        c'16
                                     }
+                                    \set stemLeftBeamCount = #2
+                                    \set stemRightBeamCount = #2
+                                    bf'16
+                                    \acciaccatura {
+                                        f'16
+                                    }
+                                    \set stemLeftBeamCount = #2
+                                    \set stemRightBeamCount = #2
+                                    af'16
+                                    \acciaccatura {
+                                        fs'16
+                                    }
+                                    \set stemLeftBeamCount = #2
+                                    \set stemRightBeamCount = #2
+                                    b'16
                                     \set stemLeftBeamCount = #2
                                     \set stemRightBeamCount = #1
                                     d'16
@@ -345,8 +349,9 @@ def make_graced_tuplet_figure_maker():
                     acciaccatura_specifiers=[
                         baca.tools.AcciaccaturaSpecifier(
                             lmr_specifier=baca.tools.LMRSpecifier(
-                                middle_counts=[2],
-                                middle_cyclic=True,
+                                left_length=1,
+                                right_counts=[2],
+                                right_cyclic=True,
                                 ),
                             ),
                         ],
@@ -363,8 +368,9 @@ def make_graced_tuplet_figure_maker():
                     acciaccatura_specifiers=[
                         baca.tools.AcciaccaturaSpecifier(
                             lmr_specifier=baca.tools.LMRSpecifier(
-                                middle_counts=[2],
-                                middle_cyclic=True,
+                                left_length=1,
+                                right_counts=[2],
+                                right_cyclic=True,
                                 ),
                             ),
                         ],

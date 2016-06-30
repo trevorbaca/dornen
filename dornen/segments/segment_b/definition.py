@@ -80,8 +80,6 @@ figure_accumulator(
         design_1[5:6] + design_1[5:6],
         specifiers=[
             baca.overrides.beam_positions(6),
-            baca.overrides.tuplet_bracket_staff_padding(8),
-            baca.overrides.tuplet_bracket_down(),
             ],
         ),
     figure_name=5,

@@ -1,26 +1,20 @@
-0. Color unregistered acciaccaturas.
+0. Register acciaccatura pitches.
 
 1. Four-voice structure.
 
 2. Metric modulation up to 66.
 
-3. Segment-initial ritardando / ritardandi.
+3. Anchor figures carried forward from introduction.
 
-4. Build ovoid acciaccatura figure maker.
+4. Delicatiss. figures carried over from the end of [A].
 
-5. Anchor figures carried forward from introduction.
+5. Introduction of graced tuplets as revelation.
 
-6. Delicatiss. figures carried over from the end of [A].
+6. Introduction of tremolo. As revelation?
 
-7. Build grace tuplet figure maker.
+7. Introduction of two-note alternation. As revelation?
 
-8. Introduction of graced tuplets as revelation.
-
-9. Introduction of tremolo. As revelation?
-
-10. Introduction of two-note alternation. As revelation?
-
-11. Integrate OctaveDeviationSpecifier.
+8. Integrate OctaveDeviationSpecifier.
 
 ### BREAK ###
 
@@ -40,19 +34,15 @@ final_markup_extra_offset, label_clock_time, print_segment_duration,
 score_template, skips_instead_of_rests, tempo_specifier, transpose_score,
 volta_specifier.
 
-7. Build metric modulation from [A] to [B].
+7. Write ritardando_figure_maker API examples.
 
-8. Integrate OctaveDeviationSpecifier into [B].
+8. Change as many handlers as possible to specifiers.
 
-9. Write ritardando_figure_maker API examples.
-
-10. Change as many handlers as possible to specifiers.
-
-11. Implement slur edge-case handling (for only one stage; for only two stages;
+9. Implement slur edge-case handling (for only one stage; for only two stages;
 for single-leaf stages) in running figure maker. Check that no LilyPond errors
 remain in LilyPond log file.
 
-12. Build graced rests figure maker. Integrate. Make registration work on
+10. Build graced rests figure maker. Integrate. Make registration work on
 acciaccaturas.
 
-13. Collapse FigureRhythmSpecifier into RhythmSpecifier.
+11. Collapse FigureRhythmSpecifier into RhythmSpecifier.

@@ -27,7 +27,7 @@ def make_passepied_figure_maker():
                             indices=(0,),
                             ),
                         ],
-                    rhythm_maker=baca.tools.StageRhythmMaker(
+                    rhythm_maker=baca.tools.FigureRhythmMaker(
                         acciaccatura_specifiers=[
                             baca.tools.AcciaccaturaSpecifier(),
                             ],
@@ -44,7 +44,7 @@ def make_passepied_figure_maker():
                             inverted=True,
                             ),
                         ],
-                    rhythm_maker=baca.tools.StageRhythmMaker(
+                    rhythm_maker=baca.tools.FigureRhythmMaker(
                         talea=rhythmmakertools.Talea(
                             counts=(1,),
                             denominator=16,
@@ -500,7 +500,7 @@ def make_passepied_figure_maker():
         rhythm_maker_figure_specifiers=[
             baca.tools.RhythmMakerFigureSpecifier(
                 patterns=abjad.patterntools.select_first(),
-                rhythm_maker=baca.tools.StageRhythmMaker(
+                rhythm_maker=baca.tools.FigureRhythmMaker(
                     acciaccatura_specifiers=[
                         baca.tools.AcciaccaturaSpecifier(),
                         ],
@@ -512,7 +512,7 @@ def make_passepied_figure_maker():
                 ),
             baca.tools.RhythmMakerFigureSpecifier(
                 patterns=abjad.patterntools.select_first(inverted=True),
-                rhythm_maker=baca.tools.StageRhythmMaker(
+                rhythm_maker=baca.tools.FigureRhythmMaker(
                     talea=abjad.rhythmmakertools.Talea(
                         counts=[1],
                         denominator=16,

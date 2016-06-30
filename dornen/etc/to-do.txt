@@ -1,3 +1,29 @@
+0. Color unregistered acciaccaturas.
+
+1. Four-voice structure.
+
+2. Metric modulation up to 66.
+
+3. Segment-initial ritardando / ritardandi.
+
+4. Build ovoid acciaccatura figure maker.
+
+5. Anchor figures carried forward from introduction.
+
+6. Delicatiss. figures carried over from the end of [A].
+
+7. Build grace tuplet figure maker.
+
+8. Introduction of graced tuplets as revelation.
+
+9. Introduction of tremolo. As revelation?
+
+10. Introduction of two-note alternation. As revelation?
+
+11. Integrate OctaveDeviationSpecifier.
+
+### BREAK ###
+
 1. Extend FigureMaker with generalized 'specifiers' property.
 
 2. Collapse RepeatedMarkupHandler into MarkupSpecifier.
@@ -25,3 +51,6 @@ volta_specifier.
 11. Implement slur edge-case handling (for only one stage; for only two stages;
 for single-leaf stages) in running figure maker. Check that no LilyPond errors
 remain in LilyPond log file.
+
+12. Build graced rests figure maker. Integrate. Make registration work on
+acciaccaturas.

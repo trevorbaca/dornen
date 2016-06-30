@@ -166,8 +166,8 @@ def make_anchor_figure_maker():
     figure_maker = baca.tools.FigureMaker(
         annotate_unregistered_pitches=True,
         preferred_denominator=8,
-        rhythm_maker_figure_specifiers=[
-            baca.tools.RhythmMakerFigureSpecifier(
+        figure_rhythm_specifiers=[
+            baca.tools.FigureRhythmSpecifier(
                 patterns=abjad.patterntools.select_all(),
                 rhythm_maker=baca.tools.FigureRhythmMaker(
                     talea=abjad.rhythmmakertools.Talea(

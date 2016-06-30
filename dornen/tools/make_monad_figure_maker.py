@@ -24,9 +24,8 @@ def make_monad_figure_maker():
             beam_specifier=rhythmmakertools.BeamSpecifier(
                 beam_each_division=True,
                 ),
-            preferred_denominator=20,
-            rhythm_maker_figure_specifiers=[
-                baca.tools.RhythmMakerFigureSpecifier(
+            figure_rhythm_specifiers=[
+                baca.tools.FigureRhythmSpecifier(
                     patterns=[
                         patterntools.Pattern(
                             indices=(0,),
@@ -44,6 +43,7 @@ def make_monad_figure_maker():
                         ),
                     ),
                 ],
+            preferred_denominator=20,
             )
 
     ..  container:: example
@@ -457,8 +457,8 @@ def make_monad_figure_maker():
             ),
         annotate_unregistered_pitches=True,
         preferred_denominator=20,
-        rhythm_maker_figure_specifiers=[
-            baca.tools.RhythmMakerFigureSpecifier(
+        figure_rhythm_specifiers=[
+            baca.tools.FigureRhythmSpecifier(
                 patterns=abjad.patterntools.select_all(),
                 rhythm_maker=baca.tools.FigureRhythmMaker(
                     talea=abjad.rhythmmakertools.Talea(

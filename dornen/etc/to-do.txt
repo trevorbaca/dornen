@@ -54,3 +54,5 @@ remain in LilyPond log file.
 
 12. Build graced rests figure maker. Integrate. Make registration work on
 acciaccaturas.
+
+13. Collapse FigureRhythmSpecifier into RhythmSpecifier.

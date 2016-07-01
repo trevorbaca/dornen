@@ -305,27 +305,27 @@
                                             [2]
                                     }
                             \acciaccatura {
-                                e16 [
-                                f16 ]
+                                e'16 [
+                                f'16 ]
                             }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
-                            g''32
+                            g'32
                         }
                         {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             a'8.
                             \acciaccatura {
-                                cs'16 [
-                                fs16
-                                bf16
-                                c'16
-                                b16 ]
+                                cs''16 [
+                                fs'16
+                                bf'16
+                                c''16
+                                b'16 ]
                             }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            af'''32 ]
+                            af''32 ]
                         }
                     }
                     {
@@ -440,40 +440,40 @@
                                             [5]
                                     }
                             \acciaccatura {
-                                b'16
+                                b''16
                             }
                             \once \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            fs'''16
+                            fs''16
                             \acciaccatura {
-                                d'16
+                                d''16
                             }
                             \once \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            c'''16
+                            c''16
                             \acciaccatura {
-                                ef'16
+                                ef''16
                             }
                             \once \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            b''16
+                            b'16
                             \acciaccatura {
-                                fs'16
+                                fs''16
                             }
                             \once \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            f'''16
+                            f''16
                             \acciaccatura {
-                                c'16
+                                c''16
                             }
                             \once \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            ef'''16
+                            ef''16
                             \once \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
@@ -486,40 +486,40 @@
                             \set stemRightBeamCount = #2
                             f'16
                             \acciaccatura {
-                                b16
+                                b'16
                             }
                             \once \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            fs''16
+                            fs'16
                             \acciaccatura {
-                                d'16
+                                d''16
                             }
                             \once \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            c'''16
+                            c''16
                             \acciaccatura {
-                                ef16
+                                ef'16
                             }
                             \once \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            b''16
+                            b'16
                             \acciaccatura {
-                                fs16
+                                fs'16
                             }
                             \once \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            f''16
+                            f'16
                             \acciaccatura {
-                                c16
+                                c'16
                             }
                             \once \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            ef''16
+                            ef'16
                             \once \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0

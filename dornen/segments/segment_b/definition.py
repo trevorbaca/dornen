@@ -27,12 +27,12 @@ for tree in trees:
     numbers = [_.pitch_class_number for _ in numbered_pitch_classes]
     design_1.append(numbers)
 assert len(design_1) == 50, (repr(design_1), len(design_1))
-design_1 = design_1[16:38]
-assert len(design_1) == 22
+design = design_1[16:38]
+assert len(design) == 22
 
 figure_accumulator(
     ritardando_figure_maker(
-        design_1[:1],
+        design[:1],
         specifiers=[
             baca.pitch.register(0, -14),
             ],
@@ -41,22 +41,80 @@ figure_accumulator(
     voice_name='Guitar Music Voice 1',
     )
 
+def reveal(cells, total):
+    current = 0
+    result = []
+    for cell in cells:
+        cell_ = []
+        result.append(cell_)
+        for item in cell:
+            cell_.append(item)
+            current += 1
+            if current == total:
+                return result
+    return result
+
 figure_accumulator(
-    ovoid_figure_maker(
-        design_1[1:3],
+    graced_tuplet_figure_maker(
+        reveal(design[5:6], 1),
+        extend_beam=True,
         specifiers=[
-            baca.pitch.register(-14, 0),
+            baca.overrides.stem_up(),
+            baca.pitch.register(0, -14),
             ],
         ),
-    figure_name=2,
-    voice_name='Guitar Music Voice 1',
+    figure_name='fore',
+    voice_name='Guitar Music Voice 3',
     )
 
 figure_accumulator(
-    default_figure_maker(
-        design_1[3:4],
+    ovoid_figure_maker(
+        design[1:2],
+        extend_beam=True,
         specifiers=[
-            #baca.pitch.register(0, -14),
+            baca.pitch.register(-14, -6),
+            ],
+        ),
+    figure_name=2,
+    voice_name='Guitar Music Voice 2',
+    )
+
+figure_accumulator(
+    graced_tuplet_figure_maker(
+        reveal(design[5:6], 5),
+        specifiers=[
+            baca.overrides.stem_up(),
+            baca.pitch.register(0, -14),
+            ],
+        ),
+    figure_name='fore 2',
+    voice_name='Guitar Music Voice 3',
+    )
+
+def reverse(cells):
+    result = []
+    for cell in reversed(cells):
+        cell = cell[:]
+        cell.reverse()
+        result.append(cell)
+    return result
+
+def snip(cells, n=1):
+    result = []
+    first_cell = cells[0][:]
+    first_cell = first_cell[n:]
+    result.append(first_cell)
+    for cell in cells[1:]:
+        cell = cell[:]
+        result.append(cell)
+    return result
+
+figure_accumulator(
+    ritardando_figure_maker(
+        design[2:3] + snip(reverse(design[2:3])),
+        specifiers=[
+            baca.overrides.beam_positions(7),
+            baca.pitch.register(0, -14),
             ],
         ),
     figure_name=3,
@@ -64,21 +122,21 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    ritardando_figure_maker(
-        design_1[4:5],
+    ovoid_figure_maker(
+        design[3:4],
         specifiers=[
-            baca.pitch.register(0, -14),
+            baca.pitch.register(-14, -6),
             ],
         ),
     figure_name=4,
-    voice_name='Guitar Music Voice 1',
+    voice_name='Guitar Music Voice 2',
     )
 
 figure_accumulator(
-    graced_tuplet_figure_maker(
-        design_1[5:6] + design_1[5:6],
+    ritardando_figure_maker(
+        design[4:5] + snip(reverse(design[4:5])) + snip(design[4:5]),
         specifiers=[
-            baca.overrides.beam_positions(6),
+            baca.overrides.beam_positions(7),
             baca.pitch.register(0, -14),
             ],
         ),
@@ -86,7 +144,19 @@ figure_accumulator(
     voice_name='Guitar Music Voice 1',
     )
 
-for i, cell in enumerate(design_1[6:]):
+figure_accumulator(
+    graced_tuplet_figure_maker(
+        design[5:6] + design[5:6],
+        specifiers=[
+            baca.overrides.beam_positions(6),
+            baca.pitch.register(0, -14),
+            ],
+        ),
+    figure_name=6,
+    voice_name='Guitar Music Voice 1',
+    )
+
+for i, cell in enumerate(design[6:]):
     figure_accumulator(
         default_figure_maker(
             [cell],

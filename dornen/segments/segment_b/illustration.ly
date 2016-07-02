@@ -17,16 +17,28 @@
                     R1 * 9/64
                 }
                 {
-                    \time 7/16
-                    R1 * 7/16
+                    \time 1/16
+                    R1 * 1/16
                 }
                 {
-                    \time 4/32
-                    R1 * 1/8
+                    \time 7/32
+                    R1 * 7/32
                 }
                 {
-                    \time 7/64
-                    R1 * 7/64
+                    \time 4/16
+                    R1 * 1/4
+                }
+                {
+                    \time 13/64
+                    R1 * 13/64
+                }
+                {
+                    \time 7/32
+                    R1 * 7/32
+                }
+                {
+                    \time 19/64
+                    R1 * 19/64
                 }
                 {
                     \time 14/16
@@ -106,22 +118,40 @@
                     s1 * 9/64
                 }
                 {
-                    \time 7/16
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 1/16
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 7/16
+                    s1 * 1/16
                 }
                 {
-                    \time 4/32
+                    \time 7/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
-                    s1 * 1/8
+                    s1 * 7/32
                 }
                 {
-                    \time 7/64
+                    \time 4/16
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 1/4
+                }
+                {
+                    \time 13/64
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                     \newSpacingSection
-                    s1 * 7/64
+                    s1 * 13/64
+                }
+                {
+                    \time 7/32
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \newSpacingSection
+                    s1 * 7/32
+                }
+                {
+                    \time 19/64
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
+                    \newSpacingSection
+                    s1 * 19/64
                 }
                 {
                     \time 14/16
@@ -292,89 +322,9 @@
                         }
                         \revert TupletNumber.text
                     }
-                    {
-                        {
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #1
-                            ef'8. [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            [2]
-                                    }
-                            \acciaccatura {
-                                e'16 [
-                                f'16 ]
-                            }
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #1
-                            g'32
-                        }
-                        {
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #1
-                            a'8.
-                            \acciaccatura {
-                                cs''16 [
-                                fs'16
-                                bf'16
-                                c''16
-                                b'16 ]
-                            }
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
-                            af''32 ]
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            cs''32 [ (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            [3]
-                                    }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            fs''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            bf''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
-                            a''32 ] )
-                        }
-                    }
+                    s1 * 1/16
+                    s1 * 7/32
+                    s1 * 1/4
                     {
                         \override TupletNumber.text = \markup {
                             \scale
@@ -408,19 +358,222 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
+                            \once \override Beam.positions = #'(7 . 7)
+                            a''64 * 320/1024 [
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            [3]
+                                    }
+                            \once \override Beam.positions = #'(7 . 7)
+                            cs''64 * 640/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            fs''64 * 896/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            bf'64 * 1088/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            c''64 * 1280/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            b'64 * 1408/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            af'64 * 1536/1024 ]
+                        }
+                        \revert TupletNumber.text
+                        \override TupletNumber.text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner.spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'16.
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam.grow-direction = #left
+                            \once \override Beam.positions = #'(7 . 7)
+                            b'64 * 320/1024 [
+                            \once \override Beam.positions = #'(7 . 7)
+                            c''64 * 704/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            bf'64 * 960/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            fs'64 * 1216/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            cs'64 * 1408/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            a'64 * 1536/1024 ]
+                        }
+                        \revert TupletNumber.text
+                    }
+                    s1 * 7/32
+                    {
+                        \override TupletNumber.text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner.spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'16..
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam.grow-direction = #left
+                            \once \override Beam.positions = #'(7 . 7)
                             b''64 * 320/1024 [
                                 ^ \markup {
                                     \fontsize
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [4]
+                                            [5]
                                     }
+                            \once \override Beam.positions = #'(7 . 7)
                             af''64 * 640/1024
+                            \once \override Beam.positions = #'(7 . 7)
                             c''64 * 896/1024
+                            \once \override Beam.positions = #'(7 . 7)
                             e''64 * 1088/1024
-                            f'64 * 1280/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            f''64 * 1280/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            g''64 * 1408/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            ef''64 * 1536/1024 ]
+                        }
+                        \revert TupletNumber.text
+                        \override TupletNumber.text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner.spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'16.
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam.grow-direction = #left
+                            \once \override Beam.positions = #'(7 . 7)
+                            g'64 * 320/1024 [
+                            \once \override Beam.positions = #'(7 . 7)
+                            f''64 * 704/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            e''64 * 960/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            c''64 * 1216/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            af'64 * 1408/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            b'64 * 1536/1024 ]
+                        }
+                        \revert TupletNumber.text
+                        \override TupletNumber.text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner.spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'16.
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam.grow-direction = #left
+                            \once \override Beam.positions = #'(7 . 7)
+                            af'64 * 320/1024 [
+                            \once \override Beam.positions = #'(7 . 7)
+                            c''64 * 704/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            e'64 * 960/1024
+                            \once \override Beam.positions = #'(7 . 7)
+                            f'64 * 1216/1024
+                            \once \override Beam.positions = #'(7 . 7)
                             g'64 * 1408/1024
+                            \once \override Beam.positions = #'(7 . 7)
                             ef'64 * 1536/1024 ]
                         }
                         \revert TupletNumber.text
@@ -437,7 +590,7 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [5]
+                                            [6]
                                     }
                             \acciaccatura {
                                 b''16
@@ -1095,9 +1248,52 @@
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
                     s1 * 9/64
-                    s1 * 7/16
-                    s1 * 1/8
-                    s1 * 7/64
+                    s1 * 1/16
+                    {
+                        {
+                            \set stemLeftBeamCount = #0
+                            \set stemRightBeamCount = #1
+                            ef'8. [
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            [2]
+                                    }
+                            \acciaccatura {
+                                e'16 [
+                                f'16 ]
+                            }
+                            \set stemLeftBeamCount = #3
+                            \set stemRightBeamCount = #1
+                            g'32
+                        }
+                    }
+                    s1 * 1/4
+                    s1 * 13/64
+                    {
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #1
+                            cs'8.
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            [4]
+                                    }
+                            \acciaccatura {
+                                fs'16 [
+                                bf'16 ]
+                            }
+                            \set stemLeftBeamCount = #3
+                            \set stemRightBeamCount = #0
+                            a'32 ]
+                        }
+                    }
+                    s1 * 19/64
                     s1 * 7/8
                     s1 * 1/2
                     s1 * 1/32
@@ -1119,9 +1315,55 @@
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
                     s1 * 9/64
-                    s1 * 7/16
-                    s1 * 1/8
-                    s1 * 7/64
+                    {
+                        {
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #0
+                            \set stemRightBeamCount = #2
+                            f''16 [
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            [fore]
+                                    }
+                        }
+                    }
+                    s1 * 7/32
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #2
+                            f''16
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            "[fore 2]"
+                                    }
+                            \acciaccatura {
+                                b'16
+                            }
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            fs''16
+                            \acciaccatura {
+                                d''16
+                            }
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #0
+                            c''16 ]
+                        }
+                    }
+                    s1 * 13/64
+                    s1 * 7/32
+                    s1 * 19/64
                     s1 * 7/8
                     s1 * 1/2
                     s1 * 1/32
@@ -1143,9 +1385,12 @@
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
                     s1 * 9/64
-                    s1 * 7/16
-                    s1 * 1/8
-                    s1 * 7/64
+                    s1 * 1/16
+                    s1 * 7/32
+                    s1 * 1/4
+                    s1 * 13/64
+                    s1 * 7/32
+                    s1 * 19/64
                     s1 * 7/8
                     s1 * 1/2
                     s1 * 1/32

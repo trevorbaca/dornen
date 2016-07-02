@@ -8,7 +8,7 @@ import dornen
 ##################################### [B] #####################################
 ###############################################################################
 
-figure_accumulator = dornen.tools.FigureAccumulator(
+accumulator = dornen.tools.FigureAccumulator(
     label_figures=True,
     )
 
@@ -23,52 +23,8 @@ assert len(design_1) == 50, (repr(design_1), len(design_1))
 design = design_1[16:38]
 assert len(design) == 22
 
-def figure_name(letter, subscript):
-    return abjad.Markup.concat([
-        abjad.Markup(letter),
-        abjad.Markup(subscript).sub(),
-        ])
-
-def merge(cells):
-    cell_ = []
-    for cell in cells:
-        cell_.extend(cell)
-    result = [cell_]
-    return result
-
-def reveal(cells, total):
-    current = 0
-    result = []
-    for cell in cells:
-        cell_ = []
-        result.append(cell_)
-        for item in cell:
-            cell_.append(item)
-            current += 1
-            if current == total:
-                return result
-    return result
-
-def reverse(cells):
-    result = []
-    for cell in reversed(cells):
-        cell = cell[:]
-        cell.reverse()
-        result.append(cell)
-    return result
-
-def snip(cells, n=1):
-    result = []
-    first_cell = cells[0][:]
-    first_cell = first_cell[n:]
-    result.append(first_cell)
-    for cell in cells[1:]:
-        cell = cell[:]
-        result.append(cell)
-    return result
-
-figure_accumulator(
-    figure_accumulator.ritardando_figure_maker(
+accumulator(
+    accumulator.ritardando_figure_maker(
         design[:1],
         specifiers=[
             baca.pitch.register(0, -14),
@@ -78,9 +34,9 @@ figure_accumulator(
     voice_number=1,
     )
 
-figure_accumulator(
-    figure_accumulator.graced_tuplet_figure_maker(
-        reveal(design[5:6], 1),
+accumulator(
+    accumulator.graced_tuplet_figure_maker(
+        accumulator.reveal(design[5:6], 1),
         extend_beam=True,
         specifiers=[
             baca.overrides.beam_positions(12),
@@ -89,12 +45,12 @@ figure_accumulator(
             baca.pitch.register(0),
             ],
         ),
-    figure_name=figure_name('G1', '1'),
+    figure_name=accumulator.name('G1', '1'),
     voice_number=3,
     )
 
-figure_accumulator(
-    figure_accumulator.ovoid_figure_maker(
+accumulator(
+    accumulator.ovoid_figure_maker(
         design[1:2],
         extend_beam=True,
         specifiers=[
@@ -105,9 +61,9 @@ figure_accumulator(
     voice_number=2,
     )
 
-figure_accumulator(
-    figure_accumulator.graced_tuplet_figure_maker(
-        reveal(design[5:6], 1),
+accumulator(
+    accumulator.graced_tuplet_figure_maker(
+        accumulator.reveal(design[5:6], 1),
         extend_beam=True,
         specifiers=[
             baca.overrides.proportional_notation_duration((1, 42)),
@@ -115,13 +71,13 @@ figure_accumulator(
             baca.pitch.register(0),
             ],
         ),
-    figure_name=figure_name('G1', '1'),
+    figure_name=accumulator.name('G1', '1'),
     voice_number=3,
     )
 
-figure_accumulator(
-    figure_accumulator.ritardando_figure_maker(
-        design[2:3] + snip(reverse(design[2:3])),
+accumulator(
+    accumulator.ritardando_figure_maker(
+        design[2:3] + accumulator.snip(accumulator.reverse(design[2:3])),
         specifiers=[
             baca.overrides.beam_positions(7),
             baca.pitch.register(0, -14),
@@ -131,20 +87,20 @@ figure_accumulator(
     voice_number=1,
     )
 
-figure_accumulator(
-    figure_accumulator.graced_tuplet_figure_maker(
-        reveal(design[5:6], 3),
+accumulator(
+    accumulator.graced_tuplet_figure_maker(
+        accumulator.reveal(design[5:6], 3),
         specifiers=[
             baca.overrides.stem_up(),
             baca.pitch.register(0),
             ],
         ),
-    figure_name=figure_name('G', '2'),
+    figure_name=accumulator.name('G', '2'),
     voice_number=3,
     )
 
-figure_accumulator(
-    figure_accumulator.ovoid_figure_maker(
+accumulator(
+    accumulator.ovoid_figure_maker(
         design[3:4],
         specifiers=[
             baca.overrides.text_script_color('red'),
@@ -155,9 +111,10 @@ figure_accumulator(
     voice_number=2,
     )
 
-figure_accumulator(
-    figure_accumulator.ritardando_figure_maker(
-        design[4:5] + snip(reverse(design[4:5])) + snip(design[4:5]),
+accumulator(
+    accumulator.ritardando_figure_maker(
+        design[4:5] + accumulator.snip(accumulator.reverse(design[4:5])) +
+            accumulator.snip(design[4:5]),
         specifiers=[
             baca.overrides.beam_positions(7),
             baca.pitch.register(0, -14),
@@ -167,8 +124,8 @@ figure_accumulator(
     voice_number=1,
     )
 
-figure_accumulator(
-    figure_accumulator.graced_tuplet_figure_maker(
+accumulator(
+    accumulator.graced_tuplet_figure_maker(
         design[5:6] + design[5:6],
         specifiers=[
             baca.overrides.beam_positions(6),
@@ -179,8 +136,8 @@ figure_accumulator(
     voice_number=1,
     )
 
-figure_accumulator(
-    figure_accumulator.delicatissimo_figure_maker(
+accumulator(
+    accumulator.delicatissimo_figure_maker(
         design[6:7],
         specifiers=[
             baca.overrides.text_script_staff_padding(9),
@@ -194,9 +151,9 @@ figure_accumulator(
     voice_number=1,
     )
 
-figure_accumulator(
-    figure_accumulator.ovoid_figure_maker(
-        merge(design[7:9]),
+accumulator(
+    accumulator.ovoid_figure_maker(
+        accumulator.merge(design[7:9]),
         specifiers=[
             baca.pitch.register(-14, -6),
             ],
@@ -205,9 +162,9 @@ figure_accumulator(
     voice_number=1,
     )
 
-figure_accumulator(
-    figure_accumulator.ovoid_figure_maker(
-        merge(design[9:11]),
+accumulator(
+    accumulator.ovoid_figure_maker(
+        accumulator.merge(design[9:11]),
         specifiers=[
             baca.pitch.register(-14, -6),
             ],
@@ -216,9 +173,9 @@ figure_accumulator(
     voice_number=1,
     )
 
-figure_accumulator(
-    figure_accumulator.ovoid_figure_maker(
-        merge(design[11:13]),
+accumulator(
+    accumulator.ovoid_figure_maker(
+        accumulator.merge(design[11:13]),
         specifiers=[
             baca.pitch.register(-14, -6),
             ],
@@ -227,9 +184,9 @@ figure_accumulator(
     voice_number=1,
     )
 
-figure_accumulator(
-    figure_accumulator.ovoid_figure_maker(
-        merge(design[13:15]),
+accumulator(
+    accumulator.ovoid_figure_maker(
+        accumulator.merge(design[13:15]),
         specifiers=[
             baca.pitch.register(-14, -6),
             ],
@@ -238,9 +195,9 @@ figure_accumulator(
     voice_number=1,
     )
 
-figure_accumulator(
-    figure_accumulator.ovoid_figure_maker(
-        merge(design[15:17]),
+accumulator(
+    accumulator.ovoid_figure_maker(
+        accumulator.merge(design[15:17]),
         specifiers=[
             baca.pitch.register(-14, -6),
             ],
@@ -249,9 +206,9 @@ figure_accumulator(
     voice_number=1,
     )
 
-figure_accumulator(
-    figure_accumulator.ovoid_figure_maker(
-        merge(design[17:19]),
+accumulator(
+    accumulator.ovoid_figure_maker(
+        accumulator.merge(design[17:19]),
         specifiers=[
             baca.pitch.register(-14, -6),
             ],
@@ -260,9 +217,9 @@ figure_accumulator(
     voice_number=1,
     )
 
-figure_accumulator(
-    figure_accumulator.ovoid_figure_maker(
-        merge(design[19:21]),
+accumulator(
+    accumulator.ovoid_figure_maker(
+        accumulator.merge(design[19:21]),
         specifiers=[
             baca.pitch.register(-14, -6),
             ],
@@ -271,8 +228,8 @@ figure_accumulator(
     voice_number=1,
     )
 
-figure_accumulator(
-    figure_accumulator.ovoid_figure_maker(
+accumulator(
+    accumulator.ovoid_figure_maker(
         design[21:22],
         specifiers=[
             baca.pitch.register(-14, -6),
@@ -297,7 +254,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     minimum_width=abjad.durationtools.Duration(1, 24),
     )
 
-measures_per_stage = len(figure_accumulator.time_signatures) * [1]
+measures_per_stage = len(accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
@@ -307,7 +264,7 @@ segment_maker = baca.tools.SegmentMaker(
     skips_instead_of_rests=True,
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
-    time_signatures=figure_accumulator.time_signatures,
+    time_signatures=accumulator.time_signatures,
     transpose_score=True,
     )
 
@@ -315,7 +272,7 @@ segment_maker = baca.tools.SegmentMaker(
 #segment_maker.validate_measure_count()
 segment_maker.validate_measures_per_stage()
 
-items = figure_accumulator.voice_name_to_selections.iteritems()
+items = accumulator.voice_name_to_selections.iteritems()
 for voice_name, selections in items:
     music = []
     for selection in selections:

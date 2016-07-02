@@ -1,6 +1,4 @@
-0. Register acciaccatura pitches.
-
-1. Four-voice structure.
+1. Five-voice structure.
 
 2. Metric modulation up to 66.
 
@@ -15,6 +13,8 @@
 7. Introduction of two-note alternation. As revelation?
 
 8. Integrate OctaveDeviationSpecifier.
+
+9. Change FigureAccumulator.voice_name to FigureAccumulator.voice_number.
 
 ### BREAK ###
 

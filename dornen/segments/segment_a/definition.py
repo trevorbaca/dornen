@@ -11,13 +11,6 @@ import dornen
 figure_accumulator = dornen.tools.FigureAccumulator(
     #label_figures=True,
     )
-anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
-default_figure_maker = dornen.tools.make_default_figure_maker()
-delicatissimo_figure_maker = dornen.tools.make_delicatissimo_figure_maker()
-monad_figure_maker = dornen.tools.make_monad_figure_maker()
-passepied_figure_maker = dornen.tools.make_passepied_figure_maker()
-ritardando_figure_maker = dornen.tools.make_ritardando_figure_maker()
-running_figure_maker = dornen.tools.make_running_figure_maker()
 
 design_2 = dornen.tools.make_design_2()
 trees = design_2.iterate_at_level(level=-2)
@@ -30,8 +23,14 @@ assert len(design_2) == 40, (repr(design_2), len(design_2))
 design_2 = design_2[:14]
 assert len(design_2) == 14
 
+def reveal_amber(count):
+    amber = design_2[4]
+    assert len(amber) == 5, repr(amber)
+    amber = amber[:count]
+    return [amber]
+
 figure_accumulator(
-    ritardando_figure_maker(
+    figure_accumulator.ritardando_figure_maker(
         design_2[:4],
         preferred_denominator=16,
         specifiers=[
@@ -43,14 +42,8 @@ figure_accumulator(
     voice_number=1,
     )
 
-def reveal_amber(count):
-    amber = design_2[4]
-    assert len(amber) == 5, repr(amber)
-    amber = amber[:count]
-    return [amber]
-
 figure_accumulator(
-    monad_figure_maker(
+    figure_accumulator.monad_figure_maker(
         reveal_amber(1),
         extend_beam=True,
         specifiers=[
@@ -64,7 +57,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    running_figure_maker(
+    figure_accumulator.running_figure_maker(
         design_2[5:8],
         extend_beam=True,
         specifiers=[
@@ -79,7 +72,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    monad_figure_maker(
+    figure_accumulator.monad_figure_maker(
         reveal_amber(2),
         extend_beam=True,
         specifiers=[
@@ -91,7 +84,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    running_figure_maker(
+    figure_accumulator.running_figure_maker(
         design_2[6:9],
         extend_beam=True,
         specifiers=[
@@ -106,7 +99,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    monad_figure_maker(
+    figure_accumulator.monad_figure_maker(
         reveal_amber(3),
         extend_beam=True,
         specifiers=[
@@ -118,7 +111,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    running_figure_maker(
+    figure_accumulator.running_figure_maker(
         design_2[7:10],
         extend_beam=True,
         specifiers=[
@@ -133,7 +126,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    monad_figure_maker(
+    figure_accumulator.monad_figure_maker(
         reveal_amber(4),
         extend_beam=True,
         specifiers=[
@@ -145,7 +138,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    running_figure_maker(
+    figure_accumulator.running_figure_maker(
         design_2[8:11],
         extend_beam=True,
         specifiers=[
@@ -160,7 +153,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    monad_figure_maker(
+    figure_accumulator.monad_figure_maker(
         reveal_amber(5),
         specifiers=[
             baca.pitch.register(6),
@@ -171,7 +164,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    running_figure_maker(
+    figure_accumulator.running_figure_maker(
         design_2[9:13],
         specifiers=[
             baca.pitch.register(-14, 6),
@@ -185,7 +178,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    monad_figure_maker(
+    figure_accumulator.monad_figure_maker(
         reveal_amber(1),
         extend_beam=True,
         specifiers=[
@@ -198,7 +191,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    delicatissimo_figure_maker(
+    figure_accumulator.delicatissimo_figure_maker(
         design_2[13:],
         extend_beam=True,
         specifiers=[
@@ -214,7 +207,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    monad_figure_maker(
+    figure_accumulator.monad_figure_maker(
         reveal_amber(2),
         specifiers=[
             baca.pitch.register(6),
@@ -225,7 +218,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    delicatissimo_figure_maker(
+    figure_accumulator.delicatissimo_figure_maker(
         design_2[13:],
         extend_beam=True,
         specifiers=[

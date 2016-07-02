@@ -11,13 +11,6 @@ import dornen
 figure_accumulator = dornen.tools.FigureAccumulator(
     label_figures=True,
     )
-anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
-default_figure_maker = dornen.tools.make_default_figure_maker()
-graced_tuplet_figure_maker = dornen.tools.make_graced_tuplet_figure_maker()
-ovoid_figure_maker = dornen.tools.make_ovoid_figure_maker()
-passepied_figure_maker = dornen.tools.make_passepied_figure_maker()
-ritardando_figure_maker = dornen.tools.make_ritardando_figure_maker()
-running_figure_maker = dornen.tools.make_running_figure_maker()
 
 design_1 = dornen.tools.make_design_1()
 trees = design_1.iterate_at_level(level=-2)
@@ -68,7 +61,7 @@ def snip(cells, n=1):
     return result
 
 figure_accumulator(
-    ritardando_figure_maker(
+    figure_accumulator.ritardando_figure_maker(
         design[:1],
         specifiers=[
             baca.pitch.register(0, -14),
@@ -79,7 +72,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    graced_tuplet_figure_maker(
+    figure_accumulator.graced_tuplet_figure_maker(
         reveal(design[5:6], 1),
         extend_beam=True,
         specifiers=[
@@ -94,7 +87,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    ovoid_figure_maker(
+    figure_accumulator.ovoid_figure_maker(
         design[1:2],
         extend_beam=True,
         specifiers=[
@@ -106,7 +99,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    graced_tuplet_figure_maker(
+    figure_accumulator.graced_tuplet_figure_maker(
         reveal(design[5:6], 1),
         extend_beam=True,
         specifiers=[
@@ -120,7 +113,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    ritardando_figure_maker(
+    figure_accumulator.ritardando_figure_maker(
         design[2:3] + snip(reverse(design[2:3])),
         specifiers=[
             baca.overrides.beam_positions(7),
@@ -132,7 +125,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    graced_tuplet_figure_maker(
+    figure_accumulator.graced_tuplet_figure_maker(
         reveal(design[5:6], 3),
         specifiers=[
             baca.overrides.stem_up(),
@@ -144,7 +137,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    ovoid_figure_maker(
+    figure_accumulator.ovoid_figure_maker(
         design[3:4],
         specifiers=[
             baca.overrides.text_script_color('red'),
@@ -156,7 +149,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    ritardando_figure_maker(
+    figure_accumulator.ritardando_figure_maker(
         design[4:5] + snip(reverse(design[4:5])) + snip(design[4:5]),
         specifiers=[
             baca.overrides.beam_positions(7),
@@ -168,7 +161,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    graced_tuplet_figure_maker(
+    figure_accumulator.graced_tuplet_figure_maker(
         design[5:6] + design[5:6],
         specifiers=[
             baca.overrides.beam_positions(6),
@@ -179,16 +172,178 @@ figure_accumulator(
     voice_number=1,
     )
 
-for i, cell in enumerate(design[6:]):
-    figure_accumulator(
-        default_figure_maker(
-            [cell],
-            specifiers=[
-                ],
-            ),
-        figure_name='.'+str(i+1),
-        voice_number=1,
-        )
+#for i, cell in enumerate(design[6:]):
+#    figure_accumulator(
+#        figure_accumulator.default_figure_maker(
+#            [cell],
+#            specifiers=[
+#                ],
+#            ),
+#        figure_name='.'+str(i+1),
+#        voice_number=1,
+#        )
+
+figure_accumulator(
+    figure_accumulator.default_figure_maker(
+        design[6:7],
+        specifiers=[
+            ],
+        ),
+    figure_name=6,
+    voice_number=1,
+    )
+
+figure_accumulator(
+    figure_accumulator.default_figure_maker(
+        design[7:8],
+        specifiers=[
+            ],
+        ),
+    figure_name=7,
+    voice_number=1,
+    )
+
+figure_accumulator(
+    figure_accumulator.default_figure_maker(
+        design[8:9],
+        specifiers=[
+            ],
+        ),
+    figure_name=8,
+    voice_number=1,
+    )
+
+figure_accumulator(
+    figure_accumulator.default_figure_maker(
+        design[9:10],
+        specifiers=[
+            ],
+        ),
+    figure_name=9,
+    voice_number=1,
+    )
+
+figure_accumulator(
+    figure_accumulator.default_figure_maker(
+        design[10:11],
+        specifiers=[
+            ],
+        ),
+    figure_name=10,
+    voice_number=1,
+    )
+
+figure_accumulator(
+    figure_accumulator.default_figure_maker(
+        design[11:12],
+        specifiers=[
+            ],
+        ),
+    figure_name=11,
+    voice_number=1,
+    )
+
+figure_accumulator(
+    figure_accumulator.default_figure_maker(
+        design[12:13],
+        specifiers=[
+            ],
+        ),
+    figure_name=12,
+    voice_number=1,
+    )
+
+figure_accumulator(
+    figure_accumulator.default_figure_maker(
+        design[13:14],
+        specifiers=[
+            ],
+        ),
+    figure_name=13,
+    voice_number=1,
+    )
+
+figure_accumulator(
+    figure_accumulator.default_figure_maker(
+        design[14:15],
+        specifiers=[
+            ],
+        ),
+    figure_name=14,
+    voice_number=1,
+    )
+
+figure_accumulator(
+    figure_accumulator.default_figure_maker(
+        design[15:16],
+        specifiers=[
+            ],
+        ),
+    figure_name=15,
+    voice_number=1,
+    )
+
+figure_accumulator(
+    figure_accumulator.default_figure_maker(
+        design[16:17],
+        specifiers=[
+            ],
+        ),
+    figure_name=16,
+    voice_number=1,
+    )
+
+figure_accumulator(
+    figure_accumulator.default_figure_maker(
+        design[17:18],
+        specifiers=[
+            ],
+        ),
+    figure_name=17,
+    voice_number=1,
+    )
+
+figure_accumulator(
+    figure_accumulator.default_figure_maker(
+        design[18:19],
+        specifiers=[
+            ],
+        ),
+    figure_name=18,
+    voice_number=1,
+    )
+
+figure_accumulator(
+    figure_accumulator.default_figure_maker(
+        design[19:20],
+        specifiers=[
+            ],
+        ),
+    figure_name=19,
+    voice_number=1,
+    )
+
+figure_accumulator(
+    figure_accumulator.default_figure_maker(
+        design[20:21],
+        specifiers=[
+            ],
+        ),
+    figure_name=20,
+    voice_number=1,
+    )
+
+figure_accumulator(
+    figure_accumulator.default_figure_maker(
+        design[21:22],
+        specifiers=[
+            ],
+        ),
+    figure_name=21,
+    voice_number=1,
+    )
+
+assert len(design) == 22
 
 ###############################################################################
 ############################### SEGMENT-MAKER #################################

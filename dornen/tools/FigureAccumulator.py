@@ -12,6 +12,15 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         '_label_figures',
         '_time_signatures',
         '_voice_name_to_selections',
+        'anchor_figure_maker',
+        'delicatissimo_figure_maker',
+        'default_figure_maker',
+        'graced_tuplet_figure_maker',
+        'monad_figure_maker',
+        'ovoid_figure_maker',
+        'passepied_figure_maker',
+        'ritardando_figure_maker',
+        'running_figure_maker',
         )
 
     _all_voices = (
@@ -24,6 +33,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
     ### INITIALIZER ###
 
     def __init__(self, label_figures=None):
+        import dornen
         if label_figures is not None:
             label_figures = bool(label_figures)
         self._label_figures = label_figures
@@ -34,6 +44,18 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
             'Guitar Music Voice 3': [],
             'Guitar Music Voice 4': [],
             }
+        self.anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
+        self.default_figure_maker = dornen.tools.make_default_figure_maker()
+        self.delicatissimo_figure_maker = \
+            dornen.tools.make_delicatissimo_figure_maker()
+        self.graced_tuplet_figure_maker = \
+            dornen.tools.make_graced_tuplet_figure_maker()
+        self.ovoid_figure_maker = dornen.tools.make_ovoid_figure_maker()
+        self.monad_figure_maker = dornen.tools.make_monad_figure_maker()
+        self.passepied_figure_maker = dornen.tools.make_passepied_figure_maker()
+        self.ritardando_figure_maker = \
+            dornen.tools.make_ritardando_figure_maker()
+        self.running_figure_maker = dornen.tools.make_running_figure_maker()
 
     ### SPECIAL METHODS ###
 

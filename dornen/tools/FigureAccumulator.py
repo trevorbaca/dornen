@@ -119,3 +119,54 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         r'''Gets time signatures.
         '''
         return self._time_signatures
+
+    ### PUBLIC METHODS ###
+
+    @staticmethod
+    def merge(cells):
+        cell_ = []
+        for cell in cells:
+            cell_.extend(cell)
+        result = [cell_]
+        return result
+
+    @staticmethod
+    def name(letter, subscript):
+        return abjad.Markup.concat([
+            abjad.Markup(letter),
+            abjad.Markup(subscript).sub(),
+            ])
+
+    @staticmethod
+    def reveal(cells, total):
+        current = 0
+        result = []
+        for cell in cells:
+            cell_ = []
+            result.append(cell_)
+            for item in cell:
+                cell_.append(item)
+                current += 1
+                if current == total:
+                    return result
+        return result
+
+    @staticmethod
+    def reverse(cells):
+        result = []
+        for cell in reversed(cells):
+            cell = cell[:]
+            cell.reverse()
+            result.append(cell)
+        return result
+
+    @staticmethod
+    def snip(cells, n=1):
+        result = []
+        first_cell = cells[0][:]
+        first_cell = first_cell[n:]
+        result.append(first_cell)
+        for cell in cells[1:]:
+            cell = cell[:]
+            result.append(cell)
+        return result

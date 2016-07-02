@@ -49,68 +49,34 @@
                     R1 * 13/16
                 }
                 {
-                    \time 16/32
+                    \time 8/16
                     R1 * 1/2
                 }
                 {
-                    \time 1/32
-                    R1 * 1/32
+                    \time 7/32
+                    R1 * 7/32
                 }
                 {
-                    \time 3/32
-                    R1 * 3/32
+                    R1 * 7/32
                 }
                 {
-                    \time 1/32
-                    R1 * 1/32
+                    R1 * 7/32
                 }
                 {
-                    \time 3/32
-                    R1 * 3/32
+                    R1 * 7/32
                 }
                 {
-                    \time 1/32
-                    R1 * 1/32
+                    R1 * 7/32
                 }
                 {
-                    \time 3/32
-                    R1 * 3/32
+                    R1 * 7/32
                 }
                 {
-                    \time 1/32
-                    R1 * 1/32
+                    R1 * 7/32
                 }
                 {
-                    \time 3/32
-                    R1 * 3/32
-                }
-                {
-                    \time 1/32
-                    R1 * 1/32
-                }
-                {
-                    \time 3/32
-                    R1 * 3/32
-                }
-                {
-                    \time 1/32
-                    R1 * 1/32
-                }
-                {
-                    \time 3/32
-                    R1 * 3/32
-                }
-                {
-                    \time 1/32
-                    R1 * 1/32
-                }
-                {
-                    \time 3/32
-                    R1 * 3/32
-                }
-                {
-                    \time 1/32
-                    R1 * 1/32
+                    \time 3/16
+                    R1 * 3/16
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
@@ -170,100 +136,52 @@
                     s1 * 13/16
                 }
                 {
-                    \time 16/32
+                    \time 8/16
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 1/2
                 }
                 {
-                    \time 1/32
+                    \time 7/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
-                    s1 * 1/32
+                    s1 * 7/32
                 }
                 {
-                    \time 3/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
-                    s1 * 3/32
+                    s1 * 7/32
                 }
                 {
-                    \time 1/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
-                    s1 * 1/32
+                    s1 * 7/32
                 }
                 {
-                    \time 3/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
-                    s1 * 3/32
+                    s1 * 7/32
                 }
                 {
-                    \time 1/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
-                    s1 * 1/32
+                    s1 * 7/32
                 }
                 {
-                    \time 3/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
-                    s1 * 3/32
+                    s1 * 7/32
                 }
                 {
-                    \time 1/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
-                    s1 * 1/32
+                    s1 * 7/32
                 }
                 {
-                    \time 3/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 3/16
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 3/32
-                }
-                {
-                    \time 1/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                    \newSpacingSection
-                    s1 * 1/32
-                }
-                {
-                    \time 3/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                    \newSpacingSection
-                    s1 * 3/32
-                }
-                {
-                    \time 1/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                    \newSpacingSection
-                    s1 * 1/32
-                }
-                {
-                    \time 3/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                    \newSpacingSection
-                    s1 * 3/32
-                }
-                {
-                    \time 1/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                    \newSpacingSection
-                    s1 * 1/32
-                }
-                {
-                    \time 3/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                    \newSpacingSection
-                    s1 * 3/32
-                }
-                {
-                    \time 1/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                    \newSpacingSection
-                    s1 * 1/32
+                    s1 * 3/16
                 }
             }
         >>
@@ -712,198 +630,95 @@
                     }
                     {
                         {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            af''32 [ (
+                            af''32 -\staccato [
                                 ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    6
-                                                    ]
-                                                }
+                                    \column
+                                        {
+                                            \whiteout
+                                                \upright
+                                                    delicatiss.
+                                            \fontsize
+                                                #3
+                                                \with-color
+                                                    #darkgreen
+                                                    \concat
+                                                        {
+                                                            [
+                                                            D1
+                                                            ]
+                                                        }
+                                        }
                                     }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            cs''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            cs'''32 -\staccato
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            e''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            e''32 -\staccato
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            g''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            g''32 -\staccato
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            bf''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            bf''32 -\staccato
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            ef''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            ef''32 -\staccato
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            d''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            d''32 -\staccato
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            c''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            c''32 -\staccato
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            cs''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            cs''32 -\staccato
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            e''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            e'32 -\staccato
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            g''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            g'32 -\staccato
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            bf''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            bf'32 -\staccato
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            af''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            af'32 -\staccato
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            fs''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            fs'32 -\staccato
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            f''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            f'32 -\staccato
+                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            b''32 ] )
+                            b32 -\staccato ]
                         }
                     }
                     {
                         {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            fs''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    7
-                                                    ]
-                                                }
-                                    }
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            bf''32 [ (
+                            \set stemRightBeamCount = #1
+                            fs'8. [
                                 ^ \markup {
                                     \fontsize
                                         #3
@@ -912,64 +727,24 @@
                                             \concat
                                                 {
                                                     [
-                                                    8
+                                                    O3
                                                     ]
                                                 }
                                     }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            b''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            \acciaccatura {
+                                bf'16 [
+                                b'16 ]
+                            }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            f''32 ] )
+                            f'32 ]
                         }
                     }
                     {
                         {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            g''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    9
-                                                    ]
-                                                }
-                                    }
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            ef''32 [ (
+                            \set stemRightBeamCount = #1
+                            g'8. [
                                 ^ \markup {
                                     \fontsize
                                         #3
@@ -978,64 +753,24 @@
                                             \concat
                                                 {
                                                     [
-                                                    10
+                                                    O4
                                                     ]
                                                 }
                                     }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            d''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            \acciaccatura {
+                                ef'16 [
+                                d'16 ]
+                            }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            e''32 ] )
+                            e'32 ]
                         }
                     }
                     {
                         {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            af''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    11
-                                                    ]
-                                                }
-                                    }
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            a''32 [ (
+                            \set stemRightBeamCount = #1
+                            af'8. [
                                 ^ \markup {
                                     \fontsize
                                         #3
@@ -1044,64 +779,24 @@
                                             \concat
                                                 {
                                                     [
-                                                    12
+                                                    O5
                                                     ]
                                                 }
                                     }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            cs''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            \acciaccatura {
+                                a'16 [
+                                cs''16 ]
+                            }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            g''32 ] )
+                            g'32 ]
                         }
                     }
                     {
                         {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            ef''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    13
-                                                    ]
-                                                }
-                                    }
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            d''32 [ (
+                            \set stemRightBeamCount = #1
+                            ef'8. [
                                 ^ \markup {
                                     \fontsize
                                         #3
@@ -1110,64 +805,24 @@
                                             \concat
                                                 {
                                                     [
-                                                    14
+                                                    O6
                                                     ]
                                                 }
                                     }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            f''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            \acciaccatura {
+                                d'16 [
+                                f'16 ]
+                            }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            af''32 ] )
+                            af'32 ]
                         }
                     }
                     {
                         {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            a''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    15
-                                                    ]
-                                                }
-                                    }
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            cs''32 [ (
+                            \set stemRightBeamCount = #1
+                            a'8. [
                                 ^ \markup {
                                     \fontsize
                                         #3
@@ -1176,64 +831,24 @@
                                             \concat
                                                 {
                                                     [
-                                                    16
+                                                    O7
                                                     ]
                                                 }
                                     }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            e''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            \acciaccatura {
+                                cs'16 [
+                                e'16 ]
+                            }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            bf''32 ] )
+                            bf'32 ]
                         }
                     }
                     {
                         {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            b''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    17
-                                                    ]
-                                                }
-                                    }
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            fs''32 [ (
+                            \set stemRightBeamCount = #1
+                            b8. [
                                 ^ \markup {
                                     \fontsize
                                         #3
@@ -1242,64 +857,24 @@
                                             \concat
                                                 {
                                                     [
-                                                    18
+                                                    O8
                                                     ]
                                                 }
                                     }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            a''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            \acciaccatura {
+                                fs'16 [
+                                a'16 ]
+                            }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            cs''32 ] )
+                            cs''32 ]
                         }
                     }
                     {
                         {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            e''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    19
-                                                    ]
-                                                }
-                                    }
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            af''32 [ (
+                            \set stemRightBeamCount = #1
+                            e'8. [
                                 ^ \markup {
                                     \fontsize
                                         #3
@@ -1308,39 +883,22 @@
                                             \concat
                                                 {
                                                     [
-                                                    20
+                                                    O9
                                                     ]
                                                 }
                                     }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            b''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            \acciaccatura {
+                                af'16 [
+                                b'16 ]
+                            }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            fs''32 ] )
+                            fs'32 ]
                         }
                     }
                     {
                         {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            bf''32
+                            bf8.
                                 ^ \markup {
                                     \fontsize
                                         #3
@@ -1349,7 +907,7 @@
                                             \concat
                                                 {
                                                     [
-                                                    21
+                                                    O10
                                                     ]
                                                 }
                                     }
@@ -1420,21 +978,14 @@
                     s1 * 19/64
                     s1 * 13/16
                     s1 * 1/2
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 3/16
                     \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
@@ -1536,21 +1087,14 @@
                     s1 * 19/64
                     s1 * 13/16
                     s1 * 1/2
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 3/16
                     \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
@@ -1564,21 +1108,14 @@
                     s1 * 19/64
                     s1 * 13/16
                     s1 * 1/2
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 7/32
+                    s1 * 3/16
                     \bar "|"
                 }
             >>

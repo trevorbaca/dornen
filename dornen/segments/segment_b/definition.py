@@ -29,6 +29,13 @@ def figure_name(letter, subscript):
         abjad.Markup(subscript).sub(),
         ])
 
+def merge(cells):
+    cell_ = []
+    for cell in cells:
+        cell_.extend(cell)
+    result = [cell_]
+    return result
+
 def reveal(cells, total):
     current = 0
     result = []
@@ -172,174 +179,106 @@ figure_accumulator(
     voice_number=1,
     )
 
-#for i, cell in enumerate(design[6:]):
-#    figure_accumulator(
-#        figure_accumulator.default_figure_maker(
-#            [cell],
-#            specifiers=[
-#                ],
-#            ),
-#        figure_name='.'+str(i+1),
-#        voice_number=1,
-#        )
-
 figure_accumulator(
-    figure_accumulator.default_figure_maker(
+    figure_accumulator.delicatissimo_figure_maker(
         design[6:7],
         specifiers=[
+            baca.overrides.text_script_staff_padding(9),
+            baca.pitch.register(6, -20),
+            baca.tools.MarkupSpecifier(
+                markup=baca.markup.delicatiss(),
+                ),
             ],
         ),
-    figure_name=6,
+    figure_name='D1',
     voice_number=1,
     )
 
 figure_accumulator(
-    figure_accumulator.default_figure_maker(
-        design[7:8],
+    figure_accumulator.ovoid_figure_maker(
+        merge(design[7:9]),
         specifiers=[
+            baca.pitch.register(-14, -6),
             ],
         ),
-    figure_name=7,
+    figure_name='O3',
     voice_number=1,
     )
 
 figure_accumulator(
-    figure_accumulator.default_figure_maker(
-        design[8:9],
+    figure_accumulator.ovoid_figure_maker(
+        merge(design[9:11]),
         specifiers=[
+            baca.pitch.register(-14, -6),
             ],
         ),
-    figure_name=8,
+    figure_name='O4',
     voice_number=1,
     )
 
 figure_accumulator(
-    figure_accumulator.default_figure_maker(
-        design[9:10],
+    figure_accumulator.ovoid_figure_maker(
+        merge(design[11:13]),
         specifiers=[
+            baca.pitch.register(-14, -6),
             ],
         ),
-    figure_name=9,
+    figure_name='O5',
     voice_number=1,
     )
 
 figure_accumulator(
-    figure_accumulator.default_figure_maker(
-        design[10:11],
+    figure_accumulator.ovoid_figure_maker(
+        merge(design[13:15]),
         specifiers=[
+            baca.pitch.register(-14, -6),
             ],
         ),
-    figure_name=10,
+    figure_name='O6',
     voice_number=1,
     )
 
 figure_accumulator(
-    figure_accumulator.default_figure_maker(
-        design[11:12],
+    figure_accumulator.ovoid_figure_maker(
+        merge(design[15:17]),
         specifiers=[
+            baca.pitch.register(-14, -6),
             ],
         ),
-    figure_name=11,
+    figure_name='O7',
     voice_number=1,
     )
 
 figure_accumulator(
-    figure_accumulator.default_figure_maker(
-        design[12:13],
+    figure_accumulator.ovoid_figure_maker(
+        merge(design[17:19]),
         specifiers=[
+            baca.pitch.register(-14, -6),
             ],
         ),
-    figure_name=12,
+    figure_name='O8',
     voice_number=1,
     )
 
 figure_accumulator(
-    figure_accumulator.default_figure_maker(
-        design[13:14],
+    figure_accumulator.ovoid_figure_maker(
+        merge(design[19:21]),
         specifiers=[
+            baca.pitch.register(-14, -6),
             ],
         ),
-    figure_name=13,
+    figure_name='O9',
     voice_number=1,
     )
 
 figure_accumulator(
-    figure_accumulator.default_figure_maker(
-        design[14:15],
-        specifiers=[
-            ],
-        ),
-    figure_name=14,
-    voice_number=1,
-    )
-
-figure_accumulator(
-    figure_accumulator.default_figure_maker(
-        design[15:16],
-        specifiers=[
-            ],
-        ),
-    figure_name=15,
-    voice_number=1,
-    )
-
-figure_accumulator(
-    figure_accumulator.default_figure_maker(
-        design[16:17],
-        specifiers=[
-            ],
-        ),
-    figure_name=16,
-    voice_number=1,
-    )
-
-figure_accumulator(
-    figure_accumulator.default_figure_maker(
-        design[17:18],
-        specifiers=[
-            ],
-        ),
-    figure_name=17,
-    voice_number=1,
-    )
-
-figure_accumulator(
-    figure_accumulator.default_figure_maker(
-        design[18:19],
-        specifiers=[
-            ],
-        ),
-    figure_name=18,
-    voice_number=1,
-    )
-
-figure_accumulator(
-    figure_accumulator.default_figure_maker(
-        design[19:20],
-        specifiers=[
-            ],
-        ),
-    figure_name=19,
-    voice_number=1,
-    )
-
-figure_accumulator(
-    figure_accumulator.default_figure_maker(
-        design[20:21],
-        specifiers=[
-            ],
-        ),
-    figure_name=20,
-    voice_number=1,
-    )
-
-figure_accumulator(
-    figure_accumulator.default_figure_maker(
+    figure_accumulator.ovoid_figure_maker(
         design[21:22],
         specifiers=[
+            baca.pitch.register(-14, -6),
             ],
         ),
-    figure_name=21,
+    figure_name='O10',
     voice_number=1,
     )
 

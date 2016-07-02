@@ -74,8 +74,8 @@ figure_accumulator(
             baca.pitch.register(0, -14),
             ],
         ),
-    figure_name=1,
-    voice_name='Guitar Music Voice 1',
+    figure_name='W1',
+    voice_number=1,
     )
 
 figure_accumulator(
@@ -89,8 +89,8 @@ figure_accumulator(
             baca.pitch.register(0),
             ],
         ),
-    figure_name=figure_name('G', '1.1'),
-    voice_name='Guitar Music Voice 3',
+    figure_name=figure_name('G1', '1'),
+    voice_number=3,
     )
 
 figure_accumulator(
@@ -101,8 +101,8 @@ figure_accumulator(
             baca.pitch.register(-14, -6),
             ],
         ),
-    figure_name=2,
-    voice_name='Guitar Music Voice 2',
+    figure_name='O1',
+    voice_number=2,
     )
 
 figure_accumulator(
@@ -115,8 +115,8 @@ figure_accumulator(
             baca.pitch.register(0),
             ],
         ),
-    figure_name=figure_name('G', '1.2'),
-    voice_name='Guitar Music Voice 3',
+    figure_name=figure_name('G1', '1'),
+    voice_number=3,
     )
 
 figure_accumulator(
@@ -127,8 +127,8 @@ figure_accumulator(
             baca.pitch.register(0, -14),
             ],
         ),
-    figure_name=3,
-    voice_name='Guitar Music Voice 1',
+    figure_name='W2',
+    voice_number=1,
     )
 
 figure_accumulator(
@@ -140,18 +140,19 @@ figure_accumulator(
             ],
         ),
     figure_name=figure_name('G', '2'),
-    voice_name='Guitar Music Voice 3',
+    voice_number=3,
     )
 
 figure_accumulator(
     ovoid_figure_maker(
         design[3:4],
         specifiers=[
+            baca.overrides.text_script_color('red'),
             baca.pitch.register(-14, -6),
             ],
         ),
-    figure_name=4,
-    voice_name='Guitar Music Voice 2',
+    figure_name='O2',
+    voice_number=2,
     )
 
 figure_accumulator(
@@ -162,8 +163,8 @@ figure_accumulator(
             baca.pitch.register(0, -14),
             ],
         ),
-    figure_name=5,
-    voice_name='Guitar Music Voice 1',
+    figure_name='W3',
+    voice_number=1,
     )
 
 figure_accumulator(
@@ -174,8 +175,8 @@ figure_accumulator(
             baca.pitch.register(0, -14),
             ],
         ),
-    figure_name='G',
-    voice_name='Guitar Music Voice 1',
+    figure_name='G1',
+    voice_number=1,
     )
 
 for i, cell in enumerate(design[6:]):
@@ -186,7 +187,7 @@ for i, cell in enumerate(design[6:]):
                 ],
             ),
         figure_name='.'+str(i+1),
-        voice_name='Guitar Music Voice 1',
+        voice_number=1,
         )
 
 ###############################################################################

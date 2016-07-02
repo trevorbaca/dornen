@@ -40,7 +40,7 @@ figure_accumulator(
             ],
         ),
     figure_name=1,
-    voice_name='Guitar Music Voice 1',
+    voice_number=1,
     )
 
 def reveal_amber(count):
@@ -60,7 +60,7 @@ figure_accumulator(
             ],
         ),
     figure_name=2,
-    voice_name='Guitar Music Voice 2',
+    voice_number=2,
     )
 
 figure_accumulator(
@@ -75,7 +75,7 @@ figure_accumulator(
             ],
         ),
     figure_name=3,
-    voice_name='Guitar Music Voice 1',
+    voice_number=1,
     )
 
 figure_accumulator(
@@ -87,7 +87,7 @@ figure_accumulator(
             ],
         ),
     figure_name=4,
-    voice_name='Guitar Music Voice 2',
+    voice_number=2,
     )
 
 figure_accumulator(
@@ -102,7 +102,7 @@ figure_accumulator(
             ],
         ),
     figure_name=5,
-    voice_name='Guitar Music Voice 1',
+    voice_number=1,
     )
 
 figure_accumulator(
@@ -114,7 +114,7 @@ figure_accumulator(
             ],
         ),
     figure_name=6,
-    voice_name='Guitar Music Voice 2',
+    voice_number=2,
     )
 
 figure_accumulator(
@@ -129,7 +129,7 @@ figure_accumulator(
             ],
         ),
     figure_name=7,
-    voice_name='Guitar Music Voice 1',
+    voice_number=1,
     )
 
 figure_accumulator(
@@ -141,7 +141,7 @@ figure_accumulator(
             ],
         ),
     figure_name=8,
-    voice_name='Guitar Music Voice 2',
+    voice_number=2,
     )
 
 figure_accumulator(
@@ -156,7 +156,7 @@ figure_accumulator(
             ],
         ),
     figure_name=9,
-    voice_name='Guitar Music Voice 1',
+    voice_number=1,
     )
 
 figure_accumulator(
@@ -167,7 +167,7 @@ figure_accumulator(
             ],
         ),
     figure_name=10,
-    voice_name='Guitar Music Voice 2',
+    voice_number=2,
     )
 
 figure_accumulator(
@@ -181,7 +181,7 @@ figure_accumulator(
             ],
         ),
     figure_name=11,
-    voice_name='Guitar Music Voice 1',
+    voice_number=1,
     )
 
 figure_accumulator(
@@ -194,7 +194,7 @@ figure_accumulator(
             ],
         ),
     figure_name=12,
-    voice_name='Guitar Music Voice 2',
+    voice_number=2,
     )
 
 figure_accumulator(
@@ -210,7 +210,7 @@ figure_accumulator(
             ],
         ),
     figure_name=13,
-    voice_name='Guitar Music Voice 1',
+    voice_number=1,
     )
 
 figure_accumulator(
@@ -221,7 +221,7 @@ figure_accumulator(
             ],
         ),
     figure_name=14,
-    voice_name='Guitar Music Voice 2',
+    voice_number=2,
     )
 
 figure_accumulator(
@@ -233,7 +233,7 @@ figure_accumulator(
             ],
         ),
     figure_name=15,
-    voice_name='Guitar Music Voice 1',
+    voice_number=1,
     )
 
 ###############################################################################

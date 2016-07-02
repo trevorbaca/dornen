@@ -41,11 +41,13 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         self,
         figure_output_triple,
         figure_name=None,
-        voice_name=None,
+        voice_number=None,
         ):
         r'''Calls figure accumulator on figure-maker output.
         '''
         import dornen
+        voice_name = 'Guitar Music Voice {}'
+        voice_name = voice_name.format(voice_number)
         assert voice_name in self._all_voices
         selection, time_signature, state_manifest = figure_output_triple
         assert isinstance(selection, abjad.selectiontools.Selection)

@@ -322,7 +322,7 @@
                                             \concat
                                                 {
                                                     [
-                                                    1
+                                                    W1
                                                     ]
                                                 }
                                     }
@@ -383,7 +383,7 @@
                                             \concat
                                                 {
                                                     [
-                                                    3
+                                                    W2
                                                     ]
                                                 }
                                     }
@@ -493,7 +493,7 @@
                                             \concat
                                                 {
                                                     [
-                                                    5
+                                                    W3
                                                     ]
                                                 }
                                     }
@@ -619,7 +619,7 @@
                                             \concat
                                                 {
                                                     [
-                                                    G
+                                                    G1
                                                     ]
                                                 }
                                     }
@@ -1373,7 +1373,7 @@
                                             \concat
                                                 {
                                                     [
-                                                    2
+                                                    O1
                                                     ]
                                                 }
                                     }
@@ -1391,6 +1391,7 @@
                     s1 * 1/7
                     {
                         {
+                            \once \override TextScript.color = #red
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             cs'8.
@@ -1402,7 +1403,7 @@
                                             \concat
                                                 {
                                                     [
-                                                    4
+                                                    O2
                                                     ]
                                                 }
                                     }
@@ -1410,6 +1411,7 @@
                                 fs'16 [
                                 bf'16 ]
                             }
+                            \once \override TextScript.color = #red
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             a'32 ]
@@ -1457,9 +1459,9 @@
                                                     [
                                                     \concat
                                                         {
-                                                            G
+                                                            G1
                                                             \sub
-                                                                1.1
+                                                                1
                                                         }
                                                     ]
                                                 }
@@ -1486,9 +1488,9 @@
                                                     [
                                                     \concat
                                                         {
-                                                            G
+                                                            G1
                                                             \sub
-                                                                1.2
+                                                                1
                                                         }
                                                     ]
                                                 }

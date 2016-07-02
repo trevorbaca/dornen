@@ -30,16 +30,11 @@ assert len(design_1) == 50, (repr(design_1), len(design_1))
 design = design_1[16:38]
 assert len(design) == 22
 
-figure_accumulator(
-    ritardando_figure_maker(
-        design[:1],
-        specifiers=[
-            baca.pitch.register(0, -14),
-            ],
-        ),
-    figure_name=1,
-    voice_name='Guitar Music Voice 1',
-    )
+def figure_name(letter, subscript):
+    return abjad.Markup.concat([
+        abjad.Markup(letter),
+        abjad.Markup(subscript).sub(),
+        ])
 
 def reveal(cells, total):
     current = 0
@@ -53,43 +48,6 @@ def reveal(cells, total):
             if current == total:
                 return result
     return result
-
-figure_accumulator(
-    graced_tuplet_figure_maker(
-        reveal(design[5:6], 1),
-        extend_beam=True,
-        specifiers=[
-            baca.overrides.stem_up(),
-            baca.pitch.register(0, -14),
-            ],
-        ),
-    figure_name='fore',
-    voice_name='Guitar Music Voice 3',
-    )
-
-figure_accumulator(
-    ovoid_figure_maker(
-        design[1:2],
-        extend_beam=True,
-        specifiers=[
-            baca.pitch.register(-14, -6),
-            ],
-        ),
-    figure_name=2,
-    voice_name='Guitar Music Voice 2',
-    )
-
-figure_accumulator(
-    graced_tuplet_figure_maker(
-        reveal(design[5:6], 5),
-        specifiers=[
-            baca.overrides.stem_up(),
-            baca.pitch.register(0, -14),
-            ],
-        ),
-    figure_name='fore 2',
-    voice_name='Guitar Music Voice 3',
-    )
 
 def reverse(cells):
     result = []
@@ -111,6 +69,58 @@ def snip(cells, n=1):
 
 figure_accumulator(
     ritardando_figure_maker(
+        design[:1],
+        specifiers=[
+            baca.pitch.register(0, -14),
+            ],
+        ),
+    figure_name=1,
+    voice_name='Guitar Music Voice 1',
+    )
+
+figure_accumulator(
+    graced_tuplet_figure_maker(
+        reveal(design[5:6], 1),
+        extend_beam=True,
+        specifiers=[
+            baca.overrides.beam_positions(12),
+            baca.overrides.proportional_notation_duration((1, 42)),
+            baca.overrides.stem_up(),
+            baca.pitch.register(0),
+            ],
+        ),
+    figure_name=figure_name('G', '1.1'),
+    voice_name='Guitar Music Voice 3',
+    )
+
+figure_accumulator(
+    ovoid_figure_maker(
+        design[1:2],
+        extend_beam=True,
+        specifiers=[
+            baca.pitch.register(-14, -6),
+            ],
+        ),
+    figure_name=2,
+    voice_name='Guitar Music Voice 2',
+    )
+
+figure_accumulator(
+    graced_tuplet_figure_maker(
+        reveal(design[5:6], 1),
+        extend_beam=True,
+        specifiers=[
+            baca.overrides.proportional_notation_duration((1, 42)),
+            baca.overrides.stem_up(),
+            baca.pitch.register(0),
+            ],
+        ),
+    figure_name=figure_name('G', '1.2'),
+    voice_name='Guitar Music Voice 3',
+    )
+
+figure_accumulator(
+    ritardando_figure_maker(
         design[2:3] + snip(reverse(design[2:3])),
         specifiers=[
             baca.overrides.beam_positions(7),
@@ -119,6 +129,18 @@ figure_accumulator(
         ),
     figure_name=3,
     voice_name='Guitar Music Voice 1',
+    )
+
+figure_accumulator(
+    graced_tuplet_figure_maker(
+        reveal(design[5:6], 3),
+        specifiers=[
+            baca.overrides.stem_up(),
+            baca.pitch.register(0),
+            ],
+        ),
+    figure_name=figure_name('G', '2'),
+    voice_name='Guitar Music Voice 3',
     )
 
 figure_accumulator(
@@ -152,7 +174,7 @@ figure_accumulator(
             baca.pitch.register(0, -14),
             ],
         ),
-    figure_name=6,
+    figure_name='G',
     voice_name='Guitar Music Voice 1',
     )
 

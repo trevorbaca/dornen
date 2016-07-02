@@ -17,20 +17,24 @@
                     R1 * 9/64
                 }
                 {
-                    \time 1/16
-                    R1 * 1/16
+                    \time 1/14
+                    R1 * 1/14
                 }
                 {
                     \time 7/32
                     R1 * 7/32
                 }
                 {
-                    \time 4/16
-                    R1 * 1/4
+                    \time 1/14
+                    R1 * 1/14
                 }
                 {
                     \time 13/64
                     R1 * 13/64
+                }
+                {
+                    \time 2/14
+                    R1 * 1/7
                 }
                 {
                     \time 7/32
@@ -41,8 +45,8 @@
                     R1 * 19/64
                 }
                 {
-                    \time 14/16
-                    R1 * 7/8
+                    \time 13/16
+                    R1 * 13/16
                 }
                 {
                     \time 16/32
@@ -118,10 +122,10 @@
                     s1 * 9/64
                 }
                 {
-                    \time 1/16
+                    \time 1/14
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 1/16
+                    s1 * 1/14
                 }
                 {
                     \time 7/32
@@ -130,16 +134,22 @@
                     s1 * 7/32
                 }
                 {
-                    \time 4/16
+                    \time 1/14
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 1/4
+                    s1 * 1/14
                 }
                 {
                     \time 13/64
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                     \newSpacingSection
                     s1 * 13/64
+                }
+                {
+                    \time 2/14
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 1/7
                 }
                 {
                     \time 7/32
@@ -154,10 +164,10 @@
                     s1 * 19/64
                 }
                 {
-                    \time 14/16
+                    \time 13/16
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 7/8
+                    s1 * 13/16
                 }
                 {
                     \time 16/32
@@ -309,7 +319,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [1]
+                                            \concat
+                                                {
+                                                    [
+                                                    1
+                                                    ]
+                                                }
                                     }
                             g''64 * 512/1024
                             ef''64 * 768/1024
@@ -322,9 +337,9 @@
                         }
                         \revert TupletNumber.text
                     }
-                    s1 * 1/16
+                    s1 * 1/14
                     s1 * 7/32
-                    s1 * 1/4
+                    s1 * 1/14
                     {
                         \override TupletNumber.text = \markup {
                             \scale
@@ -365,7 +380,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [3]
+                                            \concat
+                                                {
+                                                    [
+                                                    3
+                                                    ]
+                                                }
                                     }
                             \once \override Beam.positions = #'(7 . 7)
                             cs''64 * 640/1024
@@ -428,6 +448,7 @@
                         }
                         \revert TupletNumber.text
                     }
+                    s1 * 1/7
                     s1 * 7/32
                     {
                         \override TupletNumber.text = \markup {
@@ -469,7 +490,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [5]
+                                            \concat
+                                                {
+                                                    [
+                                                    5
+                                                    ]
+                                                }
                                     }
                             \once \override Beam.positions = #'(7 . 7)
                             af''64 * 640/1024
@@ -590,7 +616,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [6]
+                                            \concat
+                                                {
+                                                    [
+                                                    G
+                                                    ]
+                                                }
                                     }
                             \acciaccatura {
                                 b''16
@@ -633,7 +664,7 @@
                             d''16
                         }
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/7 {
+                        \times 5/7 {
                             \once \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
@@ -695,7 +726,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [.1]
+                                            \concat
+                                                {
+                                                    [
+                                                    .1
+                                                    ]
+                                                }
                                     }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
@@ -848,7 +884,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [.2]
+                                            \concat
+                                                {
+                                                    [
+                                                    .2
+                                                    ]
+                                                }
                                     }
                         }
                     }
@@ -868,7 +909,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [.3]
+                                            \concat
+                                                {
+                                                    [
+                                                    .3
+                                                    ]
+                                                }
                                     }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
@@ -904,7 +950,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [.4]
+                                            \concat
+                                                {
+                                                    [
+                                                    .4
+                                                    ]
+                                                }
                                     }
                         }
                     }
@@ -924,7 +975,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [.5]
+                                            \concat
+                                                {
+                                                    [
+                                                    .5
+                                                    ]
+                                                }
                                     }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
@@ -960,7 +1016,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [.6]
+                                            \concat
+                                                {
+                                                    [
+                                                    .6
+                                                    ]
+                                                }
                                     }
                         }
                     }
@@ -980,7 +1041,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [.7]
+                                            \concat
+                                                {
+                                                    [
+                                                    .7
+                                                    ]
+                                                }
                                     }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
@@ -1016,7 +1082,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [.8]
+                                            \concat
+                                                {
+                                                    [
+                                                    .8
+                                                    ]
+                                                }
                                     }
                         }
                     }
@@ -1036,7 +1107,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [.9]
+                                            \concat
+                                                {
+                                                    [
+                                                    .9
+                                                    ]
+                                                }
                                     }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
@@ -1072,7 +1148,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [.10]
+                                            \concat
+                                                {
+                                                    [
+                                                    .10
+                                                    ]
+                                                }
                                     }
                         }
                     }
@@ -1092,7 +1173,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [.11]
+                                            \concat
+                                                {
+                                                    [
+                                                    .11
+                                                    ]
+                                                }
                                     }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
@@ -1128,7 +1214,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [.12]
+                                            \concat
+                                                {
+                                                    [
+                                                    .12
+                                                    ]
+                                                }
                                     }
                         }
                     }
@@ -1148,7 +1239,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [.13]
+                                            \concat
+                                                {
+                                                    [
+                                                    .13
+                                                    ]
+                                                }
                                     }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
@@ -1184,7 +1280,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [.14]
+                                            \concat
+                                                {
+                                                    [
+                                                    .14
+                                                    ]
+                                                }
                                     }
                         }
                     }
@@ -1204,7 +1305,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [.15]
+                                            \concat
+                                                {
+                                                    [
+                                                    .15
+                                                    ]
+                                                }
                                     }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
@@ -1240,7 +1346,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [.16]
+                                            \concat
+                                                {
+                                                    [
+                                                    .16
+                                                    ]
+                                                }
                                     }
                             \bar "|"
                         }
@@ -1248,7 +1359,7 @@
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
                     s1 * 9/64
-                    s1 * 1/16
+                    s1 * 1/14
                     {
                         {
                             \set stemLeftBeamCount = #0
@@ -1259,7 +1370,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [2]
+                                            \concat
+                                                {
+                                                    [
+                                                    2
+                                                    ]
+                                                }
                                     }
                             \acciaccatura {
                                 e'16 [
@@ -1270,8 +1386,9 @@
                             g'32
                         }
                     }
-                    s1 * 1/4
+                    s1 * 1/14
                     s1 * 13/64
+                    s1 * 1/7
                     {
                         {
                             \set stemLeftBeamCount = #1
@@ -1282,7 +1399,12 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [4]
+                                            \concat
+                                                {
+                                                    [
+                                                    4
+                                                    ]
+                                                }
                                     }
                             \acciaccatura {
                                 fs'16 [
@@ -1294,7 +1416,7 @@
                         }
                     }
                     s1 * 19/64
-                    s1 * 7/8
+                    s1 * 13/16
                     s1 * 1/2
                     s1 * 1/32
                     s1 * 3/32
@@ -1316,8 +1438,12 @@
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
                     s1 * 9/64
                     {
-                        {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 8/7 {
+                            \once \override Beam.positions = #'(12 . 12)
                             \once \override Stem.direction = #up
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 42)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             f''16 [
@@ -1326,14 +1452,54 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            [fore]
+                                            \concat
+                                                {
+                                                    [
+                                                    \concat
+                                                        {
+                                                            G
+                                                            \sub
+                                                                1.1
+                                                        }
+                                                    ]
+                                                }
                                     }
                         }
                     }
                     s1 * 7/32
                     {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 4/3 {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 8/7 {
+                            \once \override Stem.direction = #up
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 42)
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #1
+                            f''16
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    \concat
+                                                        {
+                                                            G
+                                                            \sub
+                                                                1.2
+                                                        }
+                                                    ]
+                                                }
+                                    }
+                        }
+                    }
+                    s1 * 13/64
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 8/7 {
                             \once \override Stem.direction = #up
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
@@ -1343,28 +1509,30 @@
                                         #3
                                         \with-color
                                             #darkgreen
-                                            "[fore 2]"
+                                            \concat
+                                                {
+                                                    [
+                                                    \concat
+                                                        {
+                                                            G
+                                                            \sub
+                                                                2
+                                                        }
+                                                    ]
+                                                }
                                     }
                             \acciaccatura {
-                                b'16
-                            }
-                            \once \override Stem.direction = #up
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            fs''16
-                            \acciaccatura {
-                                d''16
+                                b''16
                             }
                             \once \override Stem.direction = #up
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            c''16 ]
+                            fs''16 ]
                         }
                     }
-                    s1 * 13/64
                     s1 * 7/32
                     s1 * 19/64
-                    s1 * 7/8
+                    s1 * 13/16
                     s1 * 1/2
                     s1 * 1/32
                     s1 * 3/32
@@ -1385,13 +1553,14 @@
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
                     s1 * 9/64
-                    s1 * 1/16
+                    s1 * 1/14
                     s1 * 7/32
-                    s1 * 1/4
+                    s1 * 1/14
                     s1 * 13/64
+                    s1 * 1/7
                     s1 * 7/32
                     s1 * 19/64
-                    s1 * 7/8
+                    s1 * 13/16
                     s1 * 1/2
                     s1 * 1/32
                     s1 * 3/32

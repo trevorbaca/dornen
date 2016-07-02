@@ -42,7 +42,9 @@ def make_graced_tuplet_figure_maker():
                             counts=(1,),
                             denominator=16,
                             ),
-                        time_treatments=[1],
+                        time_treatments=[
+                            durationtools.Multiplier(8, 7),
+                            ],
                         ),
                     ),
                 baca.tools.FigureRhythmSpecifier(
@@ -66,11 +68,13 @@ def make_graced_tuplet_figure_maker():
                             counts=(1,),
                             denominator=16,
                             ),
-                        time_treatments=[-1],
+                        time_treatments=[
+                            durationtools.Multiplier(5, 7),
+                            ],
                         ),
                     ),
                 ],
-            preferred_denominator=16,
+            preferred_denominator=14,
             )
 
     ..  container:: example
@@ -149,30 +153,30 @@ def make_graced_tuplet_figure_maker():
                 \context TimeSignatureContext = "Time Signature Context" <<
                     \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                         {
-                            \time 6/16
-                            R1 * 3/8
+                            \time 19/56
+                            R1 * 19/56
                         }
                         {
-                            \time 12/16
-                            R1 * 3/4
+                            \time 39/56
+                            R1 * 39/56
                         }
                         {
-                            \time 8/16
-                            R1 * 1/2
+                            \time 53/112
+                            R1 * 53/112
                         }
                     }
                     \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                         {
-                            \time 6/16
-                            s1 * 3/8
+                            \time 19/56
+                            s1 * 19/56
                         }
                         {
-                            \time 12/16
-                            s1 * 3/4
+                            \time 39/56
+                            s1 * 39/56
                         }
                         {
-                            \time 8/16
-                            s1 * 1/2
+                            \time 53/112
+                            s1 * 53/112
                         }
                     }
                 >>
@@ -182,13 +186,16 @@ def make_graced_tuplet_figure_maker():
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
+                                \tweak text #tuplet-number::calc-fraction-text
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 8/7 {
                                     \set stemLeftBeamCount = #0
                                     \set stemRightBeamCount = #2
                                     af'16 [
                                 }
                                 \tweak text #tuplet-number::calc-fraction-text
-                                \times 5/6 {
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 5/7 {
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #2
                                     cs'16
@@ -223,7 +230,8 @@ def make_graced_tuplet_figure_maker():
                             }
                             {
                                 \tweak text #tuplet-number::calc-fraction-text
-                                \times 7/6 {
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 8/7 {
                                     \set stemLeftBeamCount = #0
                                     \set stemRightBeamCount = #2
                                     cs'16 [
@@ -256,7 +264,8 @@ def make_graced_tuplet_figure_maker():
                                     ef'16
                                 }
                                 \tweak text #tuplet-number::calc-fraction-text
-                                \times 5/6 {
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 5/7 {
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #2
                                     a'16
@@ -291,7 +300,8 @@ def make_graced_tuplet_figure_maker():
                             }
                             {
                                 \tweak text #tuplet-number::calc-fraction-text
-                                \times 7/6 {
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 8/7 {
                                     \set stemLeftBeamCount = #0
                                     \set stemRightBeamCount = #2
                                     a'16 [
@@ -323,7 +333,9 @@ def make_graced_tuplet_figure_maker():
                                     \set stemRightBeamCount = #1
                                     d'16
                                 }
-                                {
+                                \tweak text #tuplet-number::calc-fraction-text
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 5/7 {
                                     \set stemLeftBeamCount = #2
                                     \set stemRightBeamCount = #0
                                     af'16 ]
@@ -359,7 +371,8 @@ def make_graced_tuplet_figure_maker():
                         counts=[1],
                         denominator=16,
                         ),
-                    time_treatments=[1],
+                    #time_treatments=[1],
+                    time_treatments=[abjad.Multiplier((8, 7))],
                     )
                 ),
             baca.tools.FigureRhythmSpecifier(
@@ -378,10 +391,11 @@ def make_graced_tuplet_figure_maker():
                         counts=[1],
                         denominator=16,
                         ),
-                    time_treatments=[-1],
+                    #time_treatments=[-1],
+                    time_treatments=[abjad.Multiplier((5, 7))],
                     )
                 ),
             ],
-        preferred_denominator=16,
+        preferred_denominator=14,
         )
     return figure_maker

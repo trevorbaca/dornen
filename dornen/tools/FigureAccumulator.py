@@ -61,14 +61,15 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
                 selection_ = abjad.selectiontools.Selection([skip])
                 selections_.append(selection_)
         if self.label_figures and figure_name is not None:
-            if not isinstance(figure_name, abjad.markuptools.Markup):
-                figure_name = '[{}]'.format(figure_name)
-                figure_name = abjad.markuptools.Markup(
-                    figure_name,
-                    direction=Up,
-                    )
-                figure_name = figure_name.with_color('darkgreen')
-                figure_name = figure_name.fontsize(3)
+            figure_name = abjad.Markup(figure_name)
+            figure_name = abjad.Markup.concat([
+                '[',
+                figure_name,
+                ']',
+                ])
+            figure_name = figure_name.with_color('darkgreen')
+            figure_name = figure_name.fontsize(3)
+            figure_name = abjad.Markup(figure_name, direction=Up)
             leaves = list(abjad.iterate(selection).by_leaf())
             abjad.attach(figure_name, leaves[0])
         self.time_signatures.append(time_signature)

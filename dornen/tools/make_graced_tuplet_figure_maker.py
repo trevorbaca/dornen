@@ -15,66 +15,64 @@ def make_graced_tuplet_figure_maker():
 
         >>> print(format(dornen.tools.make_graced_tuplet_figure_maker()))
         baca.tools.FigureMaker(
+            rhythmmakertools.BeamSpecifier(
+                beam_each_division=True,
+                beam_divisions_together=True,
+                ),
+            baca.tools.FigureRhythmSpecifier(
+                patterns=[
+                    patterntools.Pattern(
+                        indices=(0,),
+                        period=2,
+                        ),
+                    ],
+                rhythm_maker=baca.tools.FigureRhythmMaker(
+                    acciaccatura_specifiers=[
+                        baca.tools.AcciaccaturaSpecifier(
+                            lmr_specifier=baca.tools.LMRSpecifier(
+                                left_length=1,
+                                right_counts=[2],
+                                right_cyclic=True,
+                                ),
+                            ),
+                        ],
+                    talea=rhythmmakertools.Talea(
+                        counts=(1,),
+                        denominator=16,
+                        ),
+                    time_treatments=[
+                        durationtools.Multiplier(8, 7),
+                        ],
+                    ),
+                ),
+            baca.tools.FigureRhythmSpecifier(
+                patterns=[
+                    patterntools.Pattern(
+                        indices=(1,),
+                        period=2,
+                        ),
+                    ],
+                rhythm_maker=baca.tools.FigureRhythmMaker(
+                    acciaccatura_specifiers=[
+                        baca.tools.AcciaccaturaSpecifier(
+                            lmr_specifier=baca.tools.LMRSpecifier(
+                                left_length=1,
+                                right_counts=[2],
+                                right_cyclic=True,
+                                ),
+                            ),
+                        ],
+                    talea=rhythmmakertools.Talea(
+                        counts=(1,),
+                        denominator=16,
+                        ),
+                    time_treatments=[
+                        durationtools.Multiplier(5, 7),
+                        ],
+                    ),
+                ),
             annotate_unregistered_pitches=True,
             preferred_denominator=14,
-            specifiers=[
-                rhythmmakertools.BeamSpecifier(
-                    beam_each_division=True,
-                    beam_divisions_together=True,
-                    ),
-                baca.tools.FigureRhythmSpecifier(
-                    patterns=[
-                        patterntools.Pattern(
-                            indices=(0,),
-                            period=2,
-                            ),
-                        ],
-                    rhythm_maker=baca.tools.FigureRhythmMaker(
-                        acciaccatura_specifiers=[
-                            baca.tools.AcciaccaturaSpecifier(
-                                lmr_specifier=baca.tools.LMRSpecifier(
-                                    left_length=1,
-                                    right_counts=[2],
-                                    right_cyclic=True,
-                                    ),
-                                ),
-                            ],
-                        talea=rhythmmakertools.Talea(
-                            counts=(1,),
-                            denominator=16,
-                            ),
-                        time_treatments=[
-                            durationtools.Multiplier(8, 7),
-                            ],
-                        ),
-                    ),
-                baca.tools.FigureRhythmSpecifier(
-                    patterns=[
-                        patterntools.Pattern(
-                            indices=(1,),
-                            period=2,
-                            ),
-                        ],
-                    rhythm_maker=baca.tools.FigureRhythmMaker(
-                        acciaccatura_specifiers=[
-                            baca.tools.AcciaccaturaSpecifier(
-                                lmr_specifier=baca.tools.LMRSpecifier(
-                                    left_length=1,
-                                    right_counts=[2],
-                                    right_cyclic=True,
-                                    ),
-                                ),
-                            ],
-                        talea=rhythmmakertools.Talea(
-                            counts=(1,),
-                            denominator=16,
-                            ),
-                        time_treatments=[
-                            durationtools.Multiplier(5, 7),
-                            ],
-                        ),
-                    ),
-                ],
             )
 
     ..  container:: example
@@ -350,52 +348,50 @@ def make_graced_tuplet_figure_maker():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
+        abjad.rhythmmakertools.BeamSpecifier(
+            beam_divisions_together=True,
+            ),
+        baca.tools.FigureRhythmSpecifier(
+            patterns=abjad.patterntools.select_every([0], period=2),
+            rhythm_maker=baca.tools.FigureRhythmMaker(
+                acciaccatura_specifiers=[
+                    baca.tools.AcciaccaturaSpecifier(
+                        lmr_specifier=baca.tools.LMRSpecifier(
+                            left_length=1,
+                            right_counts=[2],
+                            right_cyclic=True,
+                            ),
+                        ),
+                    ],
+                talea=abjad.rhythmmakertools.Talea(
+                    counts=[1],
+                    denominator=16,
+                    ),
+                #time_treatments=[1],
+                time_treatments=[abjad.Multiplier((8, 7))],
+                )
+            ),
+        baca.tools.FigureRhythmSpecifier(
+            patterns=abjad.patterntools.select_every([1], period=2),
+            rhythm_maker=baca.tools.FigureRhythmMaker(
+                acciaccatura_specifiers=[
+                    baca.tools.AcciaccaturaSpecifier(
+                        lmr_specifier=baca.tools.LMRSpecifier(
+                            left_length=1,
+                            right_counts=[2],
+                            right_cyclic=True,
+                            ),
+                        ),
+                    ],
+                talea=abjad.rhythmmakertools.Talea(
+                    counts=[1],
+                    denominator=16,
+                    ),
+                #time_treatments=[-1],
+                time_treatments=[abjad.Multiplier((5, 7))],
+                )
+            ),
         annotate_unregistered_pitches=True,
         preferred_denominator=14,
-        specifiers=[
-            abjad.rhythmmakertools.BeamSpecifier(
-                beam_divisions_together=True,
-                ),
-            baca.tools.FigureRhythmSpecifier(
-                patterns=abjad.patterntools.select_every([0], period=2),
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    acciaccatura_specifiers=[
-                        baca.tools.AcciaccaturaSpecifier(
-                            lmr_specifier=baca.tools.LMRSpecifier(
-                                left_length=1,
-                                right_counts=[2],
-                                right_cyclic=True,
-                                ),
-                            ),
-                        ],
-                    talea=abjad.rhythmmakertools.Talea(
-                        counts=[1],
-                        denominator=16,
-                        ),
-                    #time_treatments=[1],
-                    time_treatments=[abjad.Multiplier((8, 7))],
-                    )
-                ),
-            baca.tools.FigureRhythmSpecifier(
-                patterns=abjad.patterntools.select_every([1], period=2),
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    acciaccatura_specifiers=[
-                        baca.tools.AcciaccaturaSpecifier(
-                            lmr_specifier=baca.tools.LMRSpecifier(
-                                left_length=1,
-                                right_counts=[2],
-                                right_cyclic=True,
-                                ),
-                            ),
-                        ],
-                    talea=abjad.rhythmmakertools.Talea(
-                        counts=[1],
-                        denominator=16,
-                        ),
-                    #time_treatments=[-1],
-                    time_treatments=[abjad.Multiplier((5, 7))],
-                    )
-                ),
-            ],
         )
     return figure_maker

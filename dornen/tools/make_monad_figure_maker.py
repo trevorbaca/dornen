@@ -15,33 +15,31 @@ def make_monad_figure_maker():
 
         >>> print(format(dornen.tools.make_monad_figure_maker()))
         baca.tools.FigureMaker(
+            rhythmmakertools.BeamSpecifier(
+                beam_each_division=True,
+                ),
+            baca.tools.ArticulationSpecifier(
+                articulations=['^'],
+                ),
+            baca.tools.FigureRhythmSpecifier(
+                patterns=[
+                    patterntools.Pattern(
+                        indices=(0,),
+                        period=1,
+                        ),
+                    ],
+                rhythm_maker=baca.tools.FigureRhythmMaker(
+                    talea=rhythmmakertools.Talea(
+                        counts=(1,),
+                        denominator=16,
+                        ),
+                    time_treatments=[
+                        durationtools.Multiplier(4, 5),
+                        ],
+                    ),
+                ),
             annotate_unregistered_pitches=True,
             preferred_denominator=20,
-            specifiers=[
-                rhythmmakertools.BeamSpecifier(
-                    beam_each_division=True,
-                    ),
-                baca.tools.ArticulationSpecifier(
-                    articulations=['^'],
-                    ),
-                baca.tools.FigureRhythmSpecifier(
-                    patterns=[
-                        patterntools.Pattern(
-                            indices=(0,),
-                            period=1,
-                            ),
-                        ],
-                    rhythm_maker=baca.tools.FigureRhythmMaker(
-                        talea=rhythmmakertools.Talea(
-                            counts=(1,),
-                            denominator=16,
-                            ),
-                        time_treatments=[
-                            durationtools.Multiplier(4, 5),
-                            ],
-                        ),
-                    ),
-                ],
             )
 
     ..  container:: example
@@ -445,25 +443,23 @@ def make_monad_figure_maker():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
+        abjad.rhythmmakertools.BeamSpecifier(
+            beam_each_division=True,
+            ),
+        baca.tools.ArticulationSpecifier(
+            articulations=['^'],
+            ),
+        baca.tools.FigureRhythmSpecifier(
+            patterns=abjad.patterntools.select_all(),
+            rhythm_maker=baca.tools.FigureRhythmMaker(
+                talea=abjad.rhythmmakertools.Talea(
+                    counts=[1],
+                    denominator=16,
+                    ),
+                time_treatments=[abjad.durationtools.Multiplier((4, 5))],
+                )
+            ),
         annotate_unregistered_pitches=True,
         preferred_denominator=20,
-        specifiers=[
-            abjad.rhythmmakertools.BeamSpecifier(
-                beam_each_division=True,
-                ),
-            baca.tools.ArticulationSpecifier(
-                articulations=['^'],
-                ),
-            baca.tools.FigureRhythmSpecifier(
-                patterns=abjad.patterntools.select_all(),
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    talea=abjad.rhythmmakertools.Talea(
-                        counts=[1],
-                        denominator=16,
-                        ),
-                    time_treatments=[abjad.durationtools.Multiplier((4, 5))],
-                    )
-                ),
-            ],
         )
     return figure_maker

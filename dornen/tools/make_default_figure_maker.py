@@ -15,42 +15,40 @@ def make_default_figure_maker():
 
         >>> print(format(dornen.tools.make_default_figure_maker()))
         baca.tools.FigureMaker(
+            rhythmmakertools.BeamSpecifier(
+                beam_each_division=True,
+                beam_divisions_together=True,
+                ),
+            baca.tools.FigureRhythmSpecifier(
+                patterns=[
+                    patterntools.Pattern(
+                        indices=(0,),
+                        period=1,
+                        ),
+                    ],
+                rhythm_maker=baca.tools.FigureRhythmMaker(
+                    talea=rhythmmakertools.Talea(
+                        counts=(1,),
+                        denominator=32,
+                        ),
+                    ),
+                ),
+            baca.tools.SpannerSpecifier(
+                selector=selectortools.Selector(
+                    callbacks=(
+                        selectortools.PrototypeSelectorCallback(
+                            prototype=scoretools.Tuplet,
+                            ),
+                        selectortools.PrototypeSelectorCallback(
+                            prototype=scoretools.Leaf,
+                            flatten=False,
+                            ),
+                        ),
+                    ),
+                spanner=spannertools.Slur(),
+                ),
             annotate_unregistered_pitches=True,
             preferred_denominator=32,
-            specifiers=[
-                rhythmmakertools.BeamSpecifier(
-                    beam_each_division=True,
-                    beam_divisions_together=True,
-                    ),
-                baca.tools.FigureRhythmSpecifier(
-                    patterns=[
-                        patterntools.Pattern(
-                            indices=(0,),
-                            period=1,
-                            ),
-                        ],
-                    rhythm_maker=baca.tools.FigureRhythmMaker(
-                        talea=rhythmmakertools.Talea(
-                            counts=(1,),
-                            denominator=32,
-                            ),
-                        ),
-                    ),
-                baca.tools.SpannerSpecifier(
-                    selector=selectortools.Selector(
-                        callbacks=(
-                            selectortools.PrototypeSelectorCallback(
-                                prototype=scoretools.Tuplet,
-                                ),
-                            selectortools.PrototypeSelectorCallback(
-                                prototype=scoretools.Leaf,
-                                flatten=False,
-                                ),
-                            ),
-                        ),
-                    spanner=spannertools.Slur(),
-                    ),
-                ],
             )
 
     ..  container:: example
@@ -476,28 +474,26 @@ def make_default_figure_maker():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
+        abjad.rhythmmakertools.BeamSpecifier(
+            beam_divisions_together=True,
+        ),
+        baca.tools.FigureRhythmSpecifier(
+            patterns=abjad.patterntools.select_all(),
+            rhythm_maker=baca.tools.FigureRhythmMaker(
+                talea=abjad.rhythmmakertools.Talea(
+                    counts=[1],
+                    denominator=32,
+                    ),
+
+                ),
+            ),
+        baca.tools.SpannerSpecifier(
+            selector=abjad.select().
+                by_class(abjad.Tuplet).
+                by_leaf(flatten=False),
+            spanner=abjad.Slur(),
+            ),
         annotate_unregistered_pitches=True,
         preferred_denominator=32,
-        specifiers=[
-            abjad.rhythmmakertools.BeamSpecifier(
-                beam_divisions_together=True,
-            ),
-            baca.tools.FigureRhythmSpecifier(
-                patterns=abjad.patterntools.select_all(),
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    talea=abjad.rhythmmakertools.Talea(
-                        counts=[1],
-                        denominator=32,
-                        ),
-
-                    ),
-                ),
-            baca.tools.SpannerSpecifier(
-                selector=abjad.select().
-                    by_class(abjad.Tuplet).
-                    by_leaf(flatten=False),
-                spanner=abjad.Slur(),
-                ),
-            ],
         )
     return figure_maker

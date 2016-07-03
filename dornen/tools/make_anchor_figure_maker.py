@@ -164,7 +164,7 @@ def make_anchor_figure_maker():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
-        baca.tools.FigureRhythmSpecifier(
+        baca.tools.RhythmSpecifier(
             patterns=abjad.patterntools.select_all(),
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(

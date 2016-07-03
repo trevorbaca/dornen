@@ -32,7 +32,7 @@ def make_thorn_figure_maker_1():
             dynamic=abjad.spannertools.Hairpin('p > pp'),
             selector=_select_last_tuplet(),
             ),
-        baca.tools.FigureRhythmSpecifier(
+        baca.tools.RhythmSpecifier(
             patterns=abjad.patterntools.select_all(),
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
@@ -42,7 +42,7 @@ def make_thorn_figure_maker_1():
                 time_treatments=[1],
                 )
             ),
-        baca.tools.FigureRhythmSpecifier(
+        baca.tools.RhythmSpecifier(
             patterns=abjad.patterntools.select([0, -1]),
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(

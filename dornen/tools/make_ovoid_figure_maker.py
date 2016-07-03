@@ -19,7 +19,7 @@ def make_ovoid_figure_maker():
                 beam_each_division=True,
                 beam_divisions_together=True,
                 ),
-            baca.tools.FigureRhythmSpecifier(
+            baca.tools.RhythmSpecifier(
                 rhythm_maker=baca.tools.FigureRhythmMaker(
                     acciaccatura_specifiers=[
                         baca.tools.AcciaccaturaSpecifier(
@@ -288,7 +288,7 @@ def make_ovoid_figure_maker():
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.tools.FigureRhythmSpecifier(
+        baca.tools.RhythmSpecifier(
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 acciaccatura_specifiers=[
                     baca.tools.AcciaccaturaSpecifier(

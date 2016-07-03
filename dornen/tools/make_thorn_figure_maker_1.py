@@ -15,22 +15,7 @@ def make_thorn_figure_maker_1():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
-        beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
-            beam_divisions_together=True,
-            ),
         annotate_unregistered_pitches=True,
-        dynamic_figure_specifiers=[
-            baca.tools.DynamicSpecifier(
-                dynamic=abjad.spannertools.Hairpin('p < f'),
-                selector=abjad.selectortools.Selector().
-                    by_class(abjad.scoretools.Tuplet).
-                    get_slice(stop=-1, apply_to_each=True),
-                ),
-            baca.tools.DynamicSpecifier(
-                dynamic=abjad.spannertools.Hairpin('p > pp'),
-                selector=_select_last_tuplet(),
-                ),
-            ],
         rhythm_specifiers=[
             baca.tools.FigureRhythmSpecifier(
                 patterns=abjad.patterntools.select_all(),
@@ -54,8 +39,21 @@ def make_thorn_figure_maker_1():
                 ),
             ],
         specifiers=[
+            abjad.rhythmmakertools.BeamSpecifier(
+                beam_divisions_together=True,
+                ),
             baca.tools.ArticulationSpecifier(
                 articulations=['.'],
+                selector=_select_last_tuplet(),
+                ),
+            baca.tools.DynamicSpecifier(
+                dynamic=abjad.spannertools.Hairpin('p < f'),
+                selector=abjad.selectortools.Selector().
+                    by_class(abjad.scoretools.Tuplet).
+                    get_slice(stop=-1, apply_to_each=True),
+                ),
+            baca.tools.DynamicSpecifier(
+                dynamic=abjad.spannertools.Hairpin('p > pp'),
                 selector=_select_last_tuplet(),
                 ),
             baca.tools.SpannerSpecifier(

@@ -37,7 +37,7 @@ for i, cell in enumerate(design_3):
                 ],
             ),
         figure_name=i+1,
-        voice_name='Guitar Music Voice 1',
+        voice_number=1,
         )
 
 #assert design_3.is_exhausted
@@ -62,6 +62,7 @@ segment_maker = baca.tools.SegmentMaker(
     #label_stages=True,
     measures_per_stage=measures_per_stage,
     score_package=dornen,
+    score_template=dornen.tools.ScoreTemplate(),
     skips_instead_of_rests=True,
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,

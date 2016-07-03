@@ -16,11 +16,6 @@ def make_monad_figure_maker():
         >>> print(format(dornen.tools.make_monad_figure_maker()))
         baca.tools.FigureMaker(
             annotate_unregistered_pitches=True,
-            articulation_specifiers=[
-                baca.tools.ArticulationSpecifier(
-                    articulations=['^'],
-                    ),
-                ],
             beam_specifier=rhythmmakertools.BeamSpecifier(
                 beam_each_division=True,
                 ),
@@ -44,6 +39,11 @@ def make_monad_figure_maker():
                     ),
                 ],
             preferred_denominator=20,
+            specifiers=[
+                baca.tools.ArticulationSpecifier(
+                    articulations=['^'],
+                    ),
+                ],
             )
 
     ..  container:: example
@@ -447,11 +447,6 @@ def make_monad_figure_maker():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
-        articulation_specifiers=[
-            baca.tools.ArticulationSpecifier(
-                articulations=['^'],
-                ),
-            ],
         beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
             beam_each_division=True,
             ),
@@ -467,6 +462,11 @@ def make_monad_figure_maker():
                         ),
                     time_treatments=[abjad.durationtools.Multiplier((4, 5))],
                     )
+                ),
+            ],
+        specifiers=[
+            baca.tools.ArticulationSpecifier(
+                articulations=['^'],
                 ),
             ],
         )

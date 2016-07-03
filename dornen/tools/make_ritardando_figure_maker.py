@@ -9,19 +9,17 @@ def make_ritardando_figure_maker():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
-        annotate_unregistered_pitches=True,
-        specifiers=[
-            baca.tools.FigureRhythmSpecifier(
-                patterns=abjad.patterntools.select_all(),
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    talea=abjad.rhythmmakertools.Talea(
-                        counts=[1],
-                        denominator=64,
-                        ),
-
-                    time_treatments=['rit'],
+        baca.tools.FigureRhythmSpecifier(
+            patterns=abjad.patterntools.select_all(),
+            rhythm_maker=baca.tools.FigureRhythmMaker(
+                talea=abjad.rhythmmakertools.Talea(
+                    counts=[1],
+                    denominator=64,
                     ),
+
+                time_treatments=['rit'],
                 ),
-            ],
+            ),
+        annotate_unregistered_pitches=True,
         )
     return figure_maker

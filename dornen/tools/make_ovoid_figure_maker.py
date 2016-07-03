@@ -15,28 +15,26 @@ def make_ovoid_figure_maker():
 
         >>> print(format(dornen.tools.make_ovoid_figure_maker()))
         baca.tools.FigureMaker(
-            annotate_unregistered_pitches=True,
-            specifiers=[
-                rhythmmakertools.BeamSpecifier(
-                    beam_each_division=True,
-                    beam_divisions_together=True,
-                    ),
-                baca.tools.FigureRhythmSpecifier(
-                    rhythm_maker=baca.tools.FigureRhythmMaker(
-                        acciaccatura_specifiers=[
-                            baca.tools.AcciaccaturaSpecifier(
-                                lmr_specifier=baca.tools.LMRSpecifier(
-                                    left_length=1,
-                                    ),
+            rhythmmakertools.BeamSpecifier(
+                beam_each_division=True,
+                beam_divisions_together=True,
+                ),
+            baca.tools.FigureRhythmSpecifier(
+                rhythm_maker=baca.tools.FigureRhythmMaker(
+                    acciaccatura_specifiers=[
+                        baca.tools.AcciaccaturaSpecifier(
+                            lmr_specifier=baca.tools.LMRSpecifier(
+                                left_length=1,
                                 ),
-                            ],
-                        talea=rhythmmakertools.Talea(
-                            counts=(6, 1),
-                            denominator=32,
                             ),
+                        ],
+                    talea=rhythmmakertools.Talea(
+                        counts=(6, 1),
+                        denominator=32,
                         ),
                     ),
-                ],
+                ),
+            annotate_unregistered_pitches=True,
             )
 
     ..  container:: example
@@ -287,26 +285,24 @@ def make_ovoid_figure_maker():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
-        annotate_unregistered_pitches=True,
-        specifiers=[
-            abjad.rhythmmakertools.BeamSpecifier(
-                beam_divisions_together=True,
-                ),
-            baca.tools.FigureRhythmSpecifier(
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    acciaccatura_specifiers=[
-                        baca.tools.AcciaccaturaSpecifier(
-                            lmr_specifier=baca.tools.LMRSpecifier(
-                                left_length=1,
-                                ),
+        abjad.rhythmmakertools.BeamSpecifier(
+            beam_divisions_together=True,
+            ),
+        baca.tools.FigureRhythmSpecifier(
+            rhythm_maker=baca.tools.FigureRhythmMaker(
+                acciaccatura_specifiers=[
+                    baca.tools.AcciaccaturaSpecifier(
+                        lmr_specifier=baca.tools.LMRSpecifier(
+                            left_length=1,
                             ),
-                        ],
-                    talea=abjad.rhythmmakertools.Talea(
-                        counts=[6, 1],
-                        denominator=32,
                         ),
-                    )
-                ),
-            ],
+                    ],
+                talea=abjad.rhythmmakertools.Talea(
+                    counts=[6, 1],
+                    denominator=32,
+                    ),
+                )
+            ),
+        annotate_unregistered_pitches=True,
         )
     return figure_maker

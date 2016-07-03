@@ -15,43 +15,41 @@ def make_passepied_figure_maker():
 
         >>> print(format(dornen.tools.make_passepied_figure_maker()))
         baca.tools.FigureMaker(
+            rhythmmakertools.BeamSpecifier(
+                beam_each_division=True,
+                beam_divisions_together=True,
+                ),
+            baca.tools.FigureRhythmSpecifier(
+                patterns=[
+                    patterntools.Pattern(
+                        indices=(0,),
+                        ),
+                    ],
+                rhythm_maker=baca.tools.FigureRhythmMaker(
+                    acciaccatura_specifiers=[
+                        baca.tools.AcciaccaturaSpecifier(),
+                        ],
+                    talea=rhythmmakertools.Talea(
+                        counts=(1,),
+                        denominator=32,
+                        ),
+                    ),
+                ),
+            baca.tools.FigureRhythmSpecifier(
+                patterns=[
+                    patterntools.Pattern(
+                        indices=(0,),
+                        inverted=True,
+                        ),
+                    ],
+                rhythm_maker=baca.tools.FigureRhythmMaker(
+                    talea=rhythmmakertools.Talea(
+                        counts=(1,),
+                        denominator=16,
+                        ),
+                    ),
+                ),
             annotate_unregistered_pitches=True,
-            specifiers=[
-                rhythmmakertools.BeamSpecifier(
-                    beam_each_division=True,
-                    beam_divisions_together=True,
-                    ),
-                baca.tools.FigureRhythmSpecifier(
-                    patterns=[
-                        patterntools.Pattern(
-                            indices=(0,),
-                            ),
-                        ],
-                    rhythm_maker=baca.tools.FigureRhythmMaker(
-                        acciaccatura_specifiers=[
-                            baca.tools.AcciaccaturaSpecifier(),
-                            ],
-                        talea=rhythmmakertools.Talea(
-                            counts=(1,),
-                            denominator=32,
-                            ),
-                        ),
-                    ),
-                baca.tools.FigureRhythmSpecifier(
-                    patterns=[
-                        patterntools.Pattern(
-                            indices=(0,),
-                            inverted=True,
-                            ),
-                        ],
-                    rhythm_maker=baca.tools.FigureRhythmMaker(
-                        talea=rhythmmakertools.Talea(
-                            counts=(1,),
-                            denominator=16,
-                            ),
-                        ),
-                    ),
-                ],
             )
 
     ..  container:: example
@@ -493,32 +491,30 @@ def make_passepied_figure_maker():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
+        abjad.rhythmmakertools.BeamSpecifier(
+            beam_divisions_together=True,
+            ),
+        baca.tools.FigureRhythmSpecifier(
+            patterns=abjad.patterntools.select_first(),
+            rhythm_maker=baca.tools.FigureRhythmMaker(
+                acciaccatura_specifiers=[
+                    baca.tools.AcciaccaturaSpecifier(),
+                    ],
+                talea=abjad.rhythmmakertools.Talea(
+                    counts=[1],
+                    denominator=32,
+                    ),
+                )
+            ),
+        baca.tools.FigureRhythmSpecifier(
+            patterns=abjad.patterntools.select_first(inverted=True),
+            rhythm_maker=baca.tools.FigureRhythmMaker(
+                talea=abjad.rhythmmakertools.Talea(
+                    counts=[1],
+                    denominator=16,
+                    ),
+                )
+            ),
         annotate_unregistered_pitches=True,
-        specifiers=[
-            abjad.rhythmmakertools.BeamSpecifier(
-                beam_divisions_together=True,
-                ),
-            baca.tools.FigureRhythmSpecifier(
-                patterns=abjad.patterntools.select_first(),
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    acciaccatura_specifiers=[
-                        baca.tools.AcciaccaturaSpecifier(),
-                        ],
-                    talea=abjad.rhythmmakertools.Talea(
-                        counts=[1],
-                        denominator=32,
-                        ),
-                    )
-                ),
-            baca.tools.FigureRhythmSpecifier(
-                patterns=abjad.patterntools.select_first(inverted=True),
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    talea=abjad.rhythmmakertools.Talea(
-                        counts=[1],
-                        denominator=16,
-                        ),
-                    )
-                ),
-            ],
         )
     return figure_maker

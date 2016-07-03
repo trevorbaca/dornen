@@ -17,7 +17,11 @@ def make_default_figure_maker():
         baca.tools.FigureMaker(
             annotate_unregistered_pitches=True,
             preferred_denominator=32,
-            rhythm_specifiers=[
+            specifiers=[
+                rhythmmakertools.BeamSpecifier(
+                    beam_each_division=True,
+                    beam_divisions_together=True,
+                    ),
                 baca.tools.FigureRhythmSpecifier(
                     patterns=[
                         patterntools.Pattern(
@@ -31,12 +35,6 @@ def make_default_figure_maker():
                             denominator=32,
                             ),
                         ),
-                    ),
-                ],
-            specifiers=[
-                rhythmmakertools.BeamSpecifier(
-                    beam_each_division=True,
-                    beam_divisions_together=True,
                     ),
                 baca.tools.SpannerSpecifier(
                     selector=selectortools.Selector(
@@ -480,7 +478,10 @@ def make_default_figure_maker():
     figure_maker = baca.tools.FigureMaker(
         annotate_unregistered_pitches=True,
         preferred_denominator=32,
-        rhythm_specifiers=[
+        specifiers=[
+            abjad.rhythmmakertools.BeamSpecifier(
+                beam_divisions_together=True,
+            ),
             baca.tools.FigureRhythmSpecifier(
                 patterns=abjad.patterntools.select_all(),
                 rhythm_maker=baca.tools.FigureRhythmMaker(
@@ -491,11 +492,6 @@ def make_default_figure_maker():
 
                     ),
                 ),
-            ],
-        specifiers=[
-            abjad.rhythmmakertools.BeamSpecifier(
-                beam_divisions_together=True,
-            ),
             baca.tools.SpannerSpecifier(
                 selector=abjad.select().
                     by_class(abjad.Tuplet).

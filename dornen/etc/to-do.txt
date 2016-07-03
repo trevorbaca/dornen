@@ -18,25 +18,23 @@
 
 ### BREAK ###
 
-1. Extend FigureMaker with generalized 'specifiers' property.
+1. Collapse RepeatedMarkupHandler into MarkupSpecifier.
 
-2. Collapse RepeatedMarkupHandler into MarkupSpecifier.
-
-3. Collapse ArticulationHandler, PatternedArticulationHandler,
+2. Collapse ArticulationHandler, PatternedArticulationHandler,
 ReiteratedArticulationHandler into ArticulationSpecifier.
 
-4. Check for duplicate figure names.
+3. Check for duplicate figure names.
 
-5. Build fermata figure maker.
+4. Build fermata figure maker.
 
-6. Write ritardando_figure_maker API examples.
+5. Write ritardando_figure_maker API examples.
 
-7. Change as many handlers as possible to specifiers.
+6. Change as many handlers as possible to specifiers.
 
-8. Implement slur edge-case handling (for only one stage; for only two stages;
+7. Implement slur edge-case handling (for only one stage; for only two stages;
 for single-leaf stages) in running figure maker. Check that no LilyPond errors
 remain in LilyPond log file.
 
-9. Build graced rests figure maker.
+8. Build graced rests figure maker.
 
-10. Collapse FigureRhythmSpecifier into RhythmSpecifier.
+9. Collapse FigureRhythmSpecifier into RhythmSpecifier.

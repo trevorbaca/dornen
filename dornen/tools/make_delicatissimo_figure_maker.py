@@ -17,7 +17,14 @@ def make_delicatissimo_figure_maker():
         baca.tools.FigureMaker(
             annotate_unregistered_pitches=True,
             preferred_denominator=16,
-            rhythm_specifiers=[
+            specifiers=[
+                rhythmmakertools.BeamSpecifier(
+                    beam_each_division=True,
+                    beam_divisions_together=True,
+                    ),
+                baca.tools.ArticulationSpecifier(
+                    articulations=['.'],
+                    ),
                 baca.tools.FigureRhythmSpecifier(
                     patterns=[
                         patterntools.Pattern(
@@ -31,15 +38,6 @@ def make_delicatissimo_figure_maker():
                             denominator=32,
                             ),
                         ),
-                    ),
-                ],
-            specifiers=[
-                rhythmmakertools.BeamSpecifier(
-                    beam_each_division=True,
-                    beam_divisions_together=True,
-                    ),
-                baca.tools.ArticulationSpecifier(
-                    articulations=['.'],
                     ),
                 ],
             )
@@ -468,7 +466,14 @@ def make_delicatissimo_figure_maker():
     '''
     figure_maker = baca.tools.FigureMaker(
         annotate_unregistered_pitches=True,
-        rhythm_specifiers=[
+        preferred_denominator=16,
+        specifiers=[
+            abjad.rhythmmakertools.BeamSpecifier(
+                beam_divisions_together=True,
+                ),
+            baca.tools.ArticulationSpecifier(
+                articulations=['.'],
+                ),
             baca.tools.FigureRhythmSpecifier(
                 patterns=abjad.patterntools.select_all(),
                 rhythm_maker=baca.tools.FigureRhythmMaker(
@@ -478,15 +483,6 @@ def make_delicatissimo_figure_maker():
                         ),
 
                     ),
-                ),
-            ],
-        preferred_denominator=16,
-        specifiers=[
-            abjad.rhythmmakertools.BeamSpecifier(
-                beam_divisions_together=True,
-                ),
-            baca.tools.ArticulationSpecifier(
-                articulations=['.'],
                 ),
             ],
         )

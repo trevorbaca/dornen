@@ -10,7 +10,7 @@ def make_ritardando_figure_maker():
     '''
     figure_maker = baca.tools.FigureMaker(
         annotate_unregistered_pitches=True,
-        rhythm_specifiers=[
+        specifiers=[
             baca.tools.FigureRhythmSpecifier(
                 patterns=abjad.patterntools.select_all(),
                 rhythm_maker=baca.tools.FigureRhythmMaker(

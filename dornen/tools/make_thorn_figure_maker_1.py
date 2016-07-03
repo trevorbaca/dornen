@@ -16,7 +16,24 @@ def make_thorn_figure_maker_1():
     '''
     figure_maker = baca.tools.FigureMaker(
         annotate_unregistered_pitches=True,
-        rhythm_specifiers=[
+        specifiers=[
+            abjad.rhythmmakertools.BeamSpecifier(
+                beam_divisions_together=True,
+                ),
+            baca.tools.ArticulationSpecifier(
+                articulations=['.'],
+                selector=_select_last_tuplet(),
+                ),
+            baca.tools.DynamicSpecifier(
+                dynamic=abjad.spannertools.Hairpin('p < f'),
+                selector=abjad.selectortools.Selector().
+                    by_class(abjad.scoretools.Tuplet).
+                    get_slice(stop=-1, apply_to_each=True),
+                ),
+            baca.tools.DynamicSpecifier(
+                dynamic=abjad.spannertools.Hairpin('p > pp'),
+                selector=_select_last_tuplet(),
+                ),
             baca.tools.FigureRhythmSpecifier(
                 patterns=abjad.patterntools.select_all(),
                 rhythm_maker=baca.tools.FigureRhythmMaker(
@@ -36,25 +53,6 @@ def make_thorn_figure_maker_1():
                         ),
                     time_treatments=[-1],
                     )
-                ),
-            ],
-        specifiers=[
-            abjad.rhythmmakertools.BeamSpecifier(
-                beam_divisions_together=True,
-                ),
-            baca.tools.ArticulationSpecifier(
-                articulations=['.'],
-                selector=_select_last_tuplet(),
-                ),
-            baca.tools.DynamicSpecifier(
-                dynamic=abjad.spannertools.Hairpin('p < f'),
-                selector=abjad.selectortools.Selector().
-                    by_class(abjad.scoretools.Tuplet).
-                    get_slice(stop=-1, apply_to_each=True),
-                ),
-            baca.tools.DynamicSpecifier(
-                dynamic=abjad.spannertools.Hairpin('p > pp'),
-                selector=_select_last_tuplet(),
                 ),
             baca.tools.SpannerSpecifier(
                 spanner=abjad.spannertools.Slur(),

@@ -17,7 +17,13 @@ def make_monad_figure_maker():
         baca.tools.FigureMaker(
             annotate_unregistered_pitches=True,
             preferred_denominator=20,
-            rhythm_specifiers=[
+            specifiers=[
+                rhythmmakertools.BeamSpecifier(
+                    beam_each_division=True,
+                    ),
+                baca.tools.ArticulationSpecifier(
+                    articulations=['^'],
+                    ),
                 baca.tools.FigureRhythmSpecifier(
                     patterns=[
                         patterntools.Pattern(
@@ -34,14 +40,6 @@ def make_monad_figure_maker():
                             durationtools.Multiplier(4, 5),
                             ],
                         ),
-                    ),
-                ],
-            specifiers=[
-                rhythmmakertools.BeamSpecifier(
-                    beam_each_division=True,
-                    ),
-                baca.tools.ArticulationSpecifier(
-                    articulations=['^'],
                     ),
                 ],
             )
@@ -449,7 +447,13 @@ def make_monad_figure_maker():
     figure_maker = baca.tools.FigureMaker(
         annotate_unregistered_pitches=True,
         preferred_denominator=20,
-        rhythm_specifiers=[
+        specifiers=[
+            abjad.rhythmmakertools.BeamSpecifier(
+                beam_each_division=True,
+                ),
+            baca.tools.ArticulationSpecifier(
+                articulations=['^'],
+                ),
             baca.tools.FigureRhythmSpecifier(
                 patterns=abjad.patterntools.select_all(),
                 rhythm_maker=baca.tools.FigureRhythmMaker(
@@ -459,14 +463,6 @@ def make_monad_figure_maker():
                         ),
                     time_treatments=[abjad.durationtools.Multiplier((4, 5))],
                     )
-                ),
-            ],
-        specifiers=[
-            abjad.rhythmmakertools.BeamSpecifier(
-                beam_each_division=True,
-                ),
-            baca.tools.ArticulationSpecifier(
-                articulations=['^'],
                 ),
             ],
         )

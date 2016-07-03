@@ -16,7 +16,11 @@ def make_running_figure_maker():
         >>> print(format(dornen.tools.make_running_figure_maker()))
         baca.tools.FigureMaker(
             annotate_unregistered_pitches=True,
-            rhythm_specifiers=[
+            specifiers=[
+                rhythmmakertools.BeamSpecifier(
+                    beam_each_division=True,
+                    beam_divisions_together=True,
+                    ),
                 baca.tools.FigureRhythmSpecifier(
                     patterns=[
                         patterntools.Pattern(
@@ -31,12 +35,6 @@ def make_running_figure_maker():
                             ),
                         time_treatments=[-1, -2],
                         ),
-                    ),
-                ],
-            specifiers=[
-                rhythmmakertools.BeamSpecifier(
-                    beam_each_division=True,
-                    beam_divisions_together=True,
                     ),
                 baca.tools.SpannerSpecifier(
                     selector=selectortools.Selector(
@@ -535,7 +533,10 @@ def make_running_figure_maker():
     '''
     figure_maker = baca.tools.FigureMaker(
         annotate_unregistered_pitches=True,
-        rhythm_specifiers=[
+        specifiers=[
+            abjad.rhythmmakertools.BeamSpecifier(
+                beam_divisions_together=True,
+                ),
             baca.tools.FigureRhythmSpecifier(
                 patterns=abjad.patterntools.select_all(),
                 rhythm_maker=baca.tools.FigureRhythmMaker(
@@ -546,11 +547,6 @@ def make_running_figure_maker():
 
                     time_treatments=[-1, -2],
                     ),
-                ),
-            ],
-        specifiers=[
-            abjad.rhythmmakertools.BeamSpecifier(
-                beam_divisions_together=True,
                 ),
             baca.tools.SpannerSpecifier(
                 selector=abjad.select().

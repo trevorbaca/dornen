@@ -32,11 +32,9 @@ def reveal_amber(count):
 figure_accumulator(
     figure_accumulator.ritardando_figure_maker(
         design_2[:4],
+        baca.overrides.beam_positions(8),
+        baca.pitch.register(0, -14),
         preferred_denominator=16,
-        specifiers=[
-            baca.overrides.beam_positions(8),
-            baca.pitch.register(0, -14),
-            ],
         ),
     figure_name=1,
     voice_number=1,
@@ -45,12 +43,10 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.monad_figure_maker(
         reveal_amber(1),
+        baca.overrides.beam_positions(-8),
+        baca.overrides.proportional_notation_duration((1, 40)),
+        baca.pitch.register(6),
         extend_beam=True,
-        specifiers=[
-            baca.overrides.beam_positions(-8),
-            baca.overrides.proportional_notation_duration((1, 40)),
-            baca.pitch.register(6),
-            ],
         ),
     figure_name=2,
     voice_number=2,
@@ -59,13 +55,11 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.running_figure_maker(
         design_2[5:8],
+        baca.pitch.register(-14, 0),
+        baca.tools.DynamicSpecifier(
+            dynamic=abjad.Hairpin('f < ff'),
+            ),
         extend_beam=True,
-        specifiers=[
-            baca.pitch.register(-14, 0),
-            baca.tools.DynamicSpecifier(
-                dynamic=abjad.Hairpin('f < ff'),
-                ),
-            ],
         ),
     figure_name=3,
     voice_number=1,
@@ -74,10 +68,8 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.monad_figure_maker(
         reveal_amber(2),
+        baca.pitch.register(6),
         extend_beam=True,
-        specifiers=[
-            baca.pitch.register(6),
-            ],
         ),
     figure_name=4,
     voice_number=2,
@@ -86,13 +78,11 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.running_figure_maker(
         design_2[6:9],
+        baca.pitch.register(-14, 0),
+        baca.tools.DynamicSpecifier(
+            dynamic=abjad.Hairpin('mf < f'),
+            ),
         extend_beam=True,
-        specifiers=[
-            baca.pitch.register(-14, 0),
-            baca.tools.DynamicSpecifier(
-                dynamic=abjad.Hairpin('mf < f'),
-                ),
-            ],
         ),
     figure_name=5,
     voice_number=1,
@@ -101,10 +91,8 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.monad_figure_maker(
         reveal_amber(3),
+        baca.pitch.register(6),
         extend_beam=True,
-        specifiers=[
-            baca.pitch.register(6),
-            ],
         ),
     figure_name=6,
     voice_number=2,
@@ -113,13 +101,11 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.running_figure_maker(
         design_2[7:10],
+        baca.pitch.register(-14, 0),
+        baca.tools.DynamicSpecifier(
+            dynamic=abjad.Hairpin('mp < mf'),
+            ),
         extend_beam=True,
-        specifiers=[
-            baca.pitch.register(-14, 0),
-            baca.tools.DynamicSpecifier(
-                dynamic=abjad.Hairpin('mp < mf'),
-                ),
-            ],
         ),
     figure_name=7,
     voice_number=1,
@@ -128,10 +114,8 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.monad_figure_maker(
         reveal_amber(4),
+        baca.pitch.register(6),
         extend_beam=True,
-        specifiers=[
-            baca.pitch.register(6),
-            ],
         ),
     figure_name=8,
     voice_number=2,
@@ -140,13 +124,11 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.running_figure_maker(
         design_2[8:11],
+        baca.pitch.register(-14, 0),
+        baca.tools.DynamicSpecifier(
+            dynamic=abjad.Hairpin('p < mp'),
+            ),
         extend_beam=True,
-        specifiers=[
-            baca.pitch.register(-14, 0),
-            baca.tools.DynamicSpecifier(
-                dynamic=abjad.Hairpin('p < mp'),
-                ),
-            ],
         ),
     figure_name=9,
     voice_number=1,
@@ -155,9 +137,7 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.monad_figure_maker(
         reveal_amber(5),
-        specifiers=[
-            baca.pitch.register(6),
-            ],
+        baca.pitch.register(6),
         ),
     figure_name=10,
     voice_number=2,
@@ -166,12 +146,10 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.running_figure_maker(
         design_2[9:13],
-        specifiers=[
-            baca.pitch.register(-14, 6),
-            baca.tools.DynamicSpecifier(
-                dynamic=abjad.Hairpin('pp < p'),
-                ),
-            ],
+        baca.pitch.register(-14, 6),
+        baca.tools.DynamicSpecifier(
+            dynamic=abjad.Hairpin('pp < p'),
+            ),
         ),
     figure_name=11,
     voice_number=1,
@@ -180,11 +158,9 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.monad_figure_maker(
         reveal_amber(1),
+        baca.overrides.proportional_notation_duration((1, 40)),
+        baca.pitch.register(6),
         extend_beam=True,
-        specifiers=[
-            baca.overrides.proportional_notation_duration((1, 40)),
-            baca.pitch.register(6),
-            ],
         ),
     figure_name=12,
     voice_number=2,
@@ -193,14 +169,12 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.delicatissimo_figure_maker(
         design_2[13:],
+        baca.overrides.text_script_staff_padding(9),
+        baca.pitch.register(6, -20),
+        baca.tools.MarkupSpecifier(
+            markup=baca.markup.delicatiss(),
+            ),
         extend_beam=True,
-        specifiers=[
-            baca.overrides.text_script_staff_padding(9),
-            baca.pitch.register(6, -20),
-            baca.tools.MarkupSpecifier(
-                markup=baca.markup.delicatiss(),
-                ),
-            ],
         ),
     figure_name=13,
     voice_number=1,
@@ -209,9 +183,7 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.monad_figure_maker(
         reveal_amber(2),
-        specifiers=[
-            baca.pitch.register(6),
-            ],
+        baca.pitch.register(6),
         ),
     figure_name=14,
     voice_number=2,
@@ -220,10 +192,8 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.delicatissimo_figure_maker(
         design_2[13:],
+        baca.pitch.register(-20, 6),
         extend_beam=True,
-        specifiers=[
-            baca.pitch.register(-20, 6),
-            ],
         ),
     figure_name=15,
     voice_number=1,

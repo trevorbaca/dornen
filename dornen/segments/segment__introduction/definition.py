@@ -27,11 +27,9 @@ design_1 = baca.tools.Cursor(source=design_1)
 figure_accumulator(
     figure_accumulator.anchor_figure_maker(
         design_1.next(),
+        baca.overrides.beam_positions(6),
+        baca.pitch.register(-8),
         extend_beam=True,
-        specifiers=[
-            baca.overrides.beam_positions(6),
-            baca.pitch.register(-8),
-            ],
         ),
     figure_name=1,
     voice_number=1,
@@ -40,12 +38,10 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.passepied_figure_maker(
         design_1.next(),
+        baca.overrides.beam_positions(-10),
+        baca.overrides.time_signature_extra_offset((-2.5, 0)),
+        baca.pitch.register(-10),
         extend_beam=True,
-        specifiers=[
-            baca.overrides.beam_positions(-10),
-            baca.overrides.time_signature_extra_offset((-2.5, 0)),
-            baca.pitch.register(-10),
-            ],
         ),
     figure_name=2,
     voice_number=2,
@@ -54,10 +50,8 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.anchor_figure_maker(
         design_1.next(),
+        baca.pitch.register(-10),
         extend_beam=True,
-        specifiers=[
-            baca.pitch.register(-10),
-            ],
         ),
     figure_name=3,
     voice_number=1,
@@ -66,11 +60,9 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.passepied_figure_maker(
         design_1.next(),
+        baca.overrides.time_signature_extra_offset((-2.5, 0)),
+        baca.pitch.register(-8),
         extend_beam=True,
-        specifiers=[
-            baca.overrides.time_signature_extra_offset((-2.5, 0)),
-            baca.pitch.register(-8),
-            ],
         ),
     figure_name=4,
     voice_number=2,
@@ -79,9 +71,7 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.anchor_figure_maker(
         design_1.next(),
-        specifiers=[
-            baca.pitch.register(-12),
-            ],
+        baca.pitch.register(-12),
         ),
     figure_name=5,
     voice_number=1,
@@ -90,10 +80,8 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.passepied_figure_maker(
         design_1.next(),
-        specifiers=[
-            baca.overrides.time_signature_extra_offset((-2.5, 0)),
-            baca.pitch.register(-6),
-            ],
+        baca.overrides.time_signature_extra_offset((-2.5, 0)),
+        baca.pitch.register(-6),
         ),
     figure_name=6,
     voice_number=2,
@@ -102,11 +90,9 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.anchor_figure_maker(
         design_1.next(),
+        baca.overrides.beam_positions(9),
+        baca.pitch.register(-14),
         extend_beam=True,
-        specifiers=[
-            baca.overrides.beam_positions(9),
-            baca.pitch.register(-14),
-            ],
         ),
     figure_name=7,
     voice_number=1,
@@ -115,12 +101,10 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.passepied_figure_maker(
         design_1.next(),
+        baca.overrides.beam_positions(-10),
+        baca.overrides.time_signature_extra_offset((-2.5, 0)),
+        baca.pitch.register(-4),
         extend_beam=True,
-        specifiers=[
-            baca.overrides.beam_positions(-10),
-            baca.overrides.time_signature_extra_offset((-2.5, 0)),
-            baca.pitch.register(-4),
-            ],
         ),
     figure_name=8,
     voice_number=2,
@@ -129,9 +113,7 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.running_figure_maker(
         design_1.next(2),
-        specifiers=[
-            baca.pitch.register(-12),
-            ],
+        baca.pitch.register(-12),
         ),
     figure_name=9,
     voice_number=4,
@@ -140,9 +122,7 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.anchor_figure_maker(
         design_1.next(),
-        specifiers=[
-            baca.pitch.register(-16),
-            ],
+        baca.pitch.register(-16),
         ),
     figure_name=10,
     voice_number=1,
@@ -151,9 +131,7 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.running_figure_maker(
         design_1.next(2),
-        specifiers=[
-            baca.pitch.register(-6),
-            ],
+        baca.pitch.register(-6),
         ),
     figure_name=11,
     voice_number=4,
@@ -162,11 +140,9 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.anchor_figure_maker(
         design_1.next(),
+        baca.overrides.beam_positions(6),
+        baca.pitch.register(-18),
         extend_beam=True,
-        specifiers=[
-            baca.overrides.beam_positions(6),
-            baca.pitch.register(-18),
-            ],
         ),
     figure_name=12,
     voice_number=1,
@@ -175,10 +151,8 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.passepied_figure_maker(
         design_1.next(),
-        specifiers=[
-            baca.overrides.time_signature_extra_offset((-2.5, 0)),
-            baca.pitch.register(-2),
-            ],
+        baca.overrides.time_signature_extra_offset((-2.5, 0)),
+        baca.pitch.register(-2),
         ),
     figure_name=13,
     voice_number=2,
@@ -187,9 +161,7 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.anchor_figure_maker(
         design_1.next(),
-        specifiers=[
-            baca.pitch.register(-20),
-            ],
+        baca.pitch.register(-20),
         ),
     figure_name=14,
     voice_number=1,
@@ -198,12 +170,10 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.passepied_figure_maker(
         design_1.next(),
+        baca.overrides.beam_positions(-10),
+        baca.overrides.time_signature_extra_offset((-2.5, 0)),
+        baca.pitch.register(0),
         extend_beam=True,
-        specifiers=[
-            baca.overrides.beam_positions(-10),
-            baca.overrides.time_signature_extra_offset((-2.5, 0)),
-            baca.pitch.register(0),
-            ],
         ),
     figure_name=15,
     voice_number=2,
@@ -212,10 +182,8 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.passepied_figure_maker(
         design_1.next(),
-        specifiers=[
-            baca.overrides.time_signature_extra_offset((-2.5, 0)),
-            baca.pitch.register(2),
-            ],
+        baca.overrides.time_signature_extra_offset((-2.5, 0)),
+        baca.pitch.register(2),
         ),
     figure_name=16,
     voice_number=2,
@@ -224,9 +192,7 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.running_figure_maker(
         design_1.next(2),
-        specifiers=[
-            baca.pitch.register(-12, 0),
-            ],
+        baca.pitch.register(-12, 0),
         ),
     figure_name=17,
     voice_number=4,
@@ -235,9 +201,7 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.ritardando_figure_maker(
         design_1.next(1),
-        specifiers=[
-            baca.overrides.beam_positions(-6),
-            ],
+        baca.overrides.beam_positions(-6),
         ),
     figure_name=18,
     voice_number=3,
@@ -246,9 +210,7 @@ figure_accumulator(
 figure_accumulator(
     figure_accumulator.ritardando_figure_maker(
         design_1.next(1),
-        specifiers=[
-            baca.overrides.beam_positions(-6),
-            ],
+        baca.overrides.beam_positions(-6),
         ),
     figure_name=19,
     voice_number=3,

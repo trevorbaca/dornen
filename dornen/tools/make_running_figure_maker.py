@@ -19,7 +19,7 @@ def make_running_figure_maker():
                 beam_each_division=True,
                 beam_divisions_together=True,
                 ),
-            baca.tools.FigureRhythmSpecifier(
+            baca.tools.RhythmSpecifier(
                 patterns=[
                     patterntools.Pattern(
                         indices=(0,),
@@ -533,7 +533,7 @@ def make_running_figure_maker():
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.tools.FigureRhythmSpecifier(
+        baca.tools.RhythmSpecifier(
             patterns=abjad.patterntools.select_all(),
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(

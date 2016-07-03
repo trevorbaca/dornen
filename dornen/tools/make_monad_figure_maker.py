@@ -21,7 +21,7 @@ def make_monad_figure_maker():
             baca.tools.ArticulationSpecifier(
                 articulations=['^'],
                 ),
-            baca.tools.FigureRhythmSpecifier(
+            baca.tools.RhythmSpecifier(
                 patterns=[
                     patterntools.Pattern(
                         indices=(0,),
@@ -449,7 +449,7 @@ def make_monad_figure_maker():
         baca.tools.ArticulationSpecifier(
             articulations=['^'],
             ),
-        baca.tools.FigureRhythmSpecifier(
+        baca.tools.RhythmSpecifier(
             patterns=abjad.patterntools.select_all(),
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(

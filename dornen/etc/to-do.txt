@@ -36,5 +36,3 @@ for single-leaf stages) in running figure maker. Check that no LilyPond errors
 remain in LilyPond log file.
 
 8. Build graced rests figure maker.
-
-9. Collapse FigureRhythmSpecifier into RhythmSpecifier.

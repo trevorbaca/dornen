@@ -18,19 +18,18 @@
 
 ### BREAK ###
 
-1. Collapse ArticulationHandler, PatternedArticulationHandler,
-ReiteratedArticulationHandler into ArticulationSpecifier.
+1. Collapse PatternedArticulationHandler, into ArticulationSpecifier.
 
-2. Check for duplicate figure names.
+2. Change as many handlers as possible to specifiers.
 
-3. Build fermata figure maker.
+3. Check for duplicate figure names.
 
 4. Write ritardando_figure_maker API examples.
 
-5. Change as many handlers as possible to specifiers.
+5. Build graced rests figure maker.
 
-6. Implement slur edge-case handling (for only one stage; for only two stages;
+6. Build fermata figure maker.
+
+7. Implement slur edge-case handling (for only one stage; for only two stages;
 for single-leaf stages) in running figure maker. Check that no LilyPond errors
 remain in LilyPond log file.
-
-7. Build graced rests figure maker.

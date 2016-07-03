@@ -53,15 +53,13 @@ def make_thorn_figure_maker_1():
                     )
                 ),
             ],
-        spanner_specifiers=[
-            baca.tools.SpannerSpecifier(
-                spanner=abjad.spannertools.Slur(),
-                selector=_select_last_tuplet(),
-                ),
-            ],
         specifiers=[
             baca.tools.ArticulationSpecifier(
                 articulations=['.'],
+                selector=_select_last_tuplet(),
+                ),
+            baca.tools.SpannerSpecifier(
+                spanner=abjad.spannertools.Slur(),
                 selector=_select_last_tuplet(),
                 ),
             ],

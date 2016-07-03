@@ -37,7 +37,7 @@ def make_running_figure_maker():
                         ),
                     ),
                 ],
-            spanner_specifiers=[
+            specifiers=[
                 baca.tools.SpannerSpecifier(
                     selector=selectortools.Selector(
                         callbacks=(
@@ -551,7 +551,7 @@ def make_running_figure_maker():
                     ),
                 ),
             ],
-        spanner_specifiers=[
+        specifiers=[
             baca.tools.SpannerSpecifier(
                 selector=abjad.select().
                     by_class(abjad.Tuplet).

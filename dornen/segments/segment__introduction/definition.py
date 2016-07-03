@@ -277,6 +277,7 @@ segment_maker = baca.tools.SegmentMaker(
     measures_per_stage=measures_per_stage,
     rehearsal_letter='',
     score_package=dornen,
+    score_template=dornen.tools.ScoreTemplate(),
     skips_instead_of_rests=True,
     spacing_specifier=spacing_specifier,
     stage_label_base_string='I',

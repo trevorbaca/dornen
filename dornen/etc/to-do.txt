@@ -29,19 +29,14 @@ ReiteratedArticulationHandler into ArticulationSpecifier.
 
 5. Build fermata figure maker.
 
-6. Write SegmentMaker tests for final_barline, final_markup,
-final_markup_extra_offset, label_clock_time, print_segment_duration,
-score_template, skips_instead_of_rests, tempo_specifier, transpose_score,
-volta_specifier.
+6. Write ritardando_figure_maker API examples.
 
-7. Write ritardando_figure_maker API examples.
+7. Change as many handlers as possible to specifiers.
 
-8. Change as many handlers as possible to specifiers.
-
-9. Implement slur edge-case handling (for only one stage; for only two stages;
+8. Implement slur edge-case handling (for only one stage; for only two stages;
 for single-leaf stages) in running figure maker. Check that no LilyPond errors
 remain in LilyPond log file.
 
-10. Build graced rests figure maker.
+9. Build graced rests figure maker.
 
-11. Collapse FigureRhythmSpecifier into RhythmSpecifier.
+10. Collapse FigureRhythmSpecifier into RhythmSpecifier.

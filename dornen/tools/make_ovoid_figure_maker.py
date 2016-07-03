@@ -16,10 +16,6 @@ def make_ovoid_figure_maker():
         >>> print(format(dornen.tools.make_ovoid_figure_maker()))
         baca.tools.FigureMaker(
             annotate_unregistered_pitches=True,
-            beam_specifier=rhythmmakertools.BeamSpecifier(
-                beam_each_division=True,
-                beam_divisions_together=True,
-                ),
             rhythm_specifiers=[
                 baca.tools.FigureRhythmSpecifier(
                     rhythm_maker=baca.tools.FigureRhythmMaker(
@@ -35,6 +31,12 @@ def make_ovoid_figure_maker():
                             denominator=32,
                             ),
                         ),
+                    ),
+                ],
+            specifiers=[
+                rhythmmakertools.BeamSpecifier(
+                    beam_each_division=True,
+                    beam_divisions_together=True,
                     ),
                 ],
             )
@@ -287,9 +289,6 @@ def make_ovoid_figure_maker():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
-        beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
-            beam_divisions_together=True,
-            ),
         annotate_unregistered_pitches=True,
         rhythm_specifiers=[
             baca.tools.FigureRhythmSpecifier(
@@ -306,6 +305,11 @@ def make_ovoid_figure_maker():
                         denominator=32,
                         ),
                     )
+                ),
+            ],
+        specifiers=[
+            abjad.rhythmmakertools.BeamSpecifier(
+                beam_divisions_together=True,
                 ),
             ],
         )

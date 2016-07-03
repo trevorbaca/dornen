@@ -16,10 +16,6 @@ def make_default_figure_maker():
         >>> print(format(dornen.tools.make_default_figure_maker()))
         baca.tools.FigureMaker(
             annotate_unregistered_pitches=True,
-            beam_specifier=rhythmmakertools.BeamSpecifier(
-                beam_each_division=True,
-                beam_divisions_together=True,
-                ),
             preferred_denominator=32,
             rhythm_specifiers=[
                 baca.tools.FigureRhythmSpecifier(
@@ -38,6 +34,10 @@ def make_default_figure_maker():
                     ),
                 ],
             specifiers=[
+                rhythmmakertools.BeamSpecifier(
+                    beam_each_division=True,
+                    beam_divisions_together=True,
+                    ),
                 baca.tools.SpannerSpecifier(
                     selector=selectortools.Selector(
                         callbacks=(
@@ -478,9 +478,6 @@ def make_default_figure_maker():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
-        beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
-            beam_divisions_together=True,
-            ),
         annotate_unregistered_pitches=True,
         preferred_denominator=32,
         rhythm_specifiers=[
@@ -496,6 +493,9 @@ def make_default_figure_maker():
                 ),
             ],
         specifiers=[
+            abjad.rhythmmakertools.BeamSpecifier(
+                beam_divisions_together=True,
+            ),
             baca.tools.SpannerSpecifier(
                 selector=abjad.select().
                     by_class(abjad.Tuplet).

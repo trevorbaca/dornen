@@ -20,7 +20,8 @@ def make_graced_tuplet_figure_maker():
                 beam_each_division=True,
                 beam_divisions_together=True,
                 ),
-            figure_rhythm_specifiers=[
+            preferred_denominator=14,
+            rhythm_specifiers=[
                 baca.tools.FigureRhythmSpecifier(
                     patterns=[
                         patterntools.Pattern(
@@ -74,7 +75,6 @@ def make_graced_tuplet_figure_maker():
                         ),
                     ),
                 ],
-            preferred_denominator=14,
             )
 
     ..  container:: example
@@ -354,7 +354,7 @@ def make_graced_tuplet_figure_maker():
         beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        figure_rhythm_specifiers=[
+        rhythm_specifiers=[
             baca.tools.FigureRhythmSpecifier(
                 patterns=abjad.patterntools.select_every([0], period=2),
                 rhythm_maker=baca.tools.FigureRhythmMaker(

@@ -20,7 +20,8 @@ def make_delicatissimo_figure_maker():
                 beam_each_division=True,
                 beam_divisions_together=True,
                 ),
-            figure_rhythm_specifiers=[
+            preferred_denominator=16,
+            rhythm_specifiers=[
                 baca.tools.FigureRhythmSpecifier(
                     patterns=[
                         patterntools.Pattern(
@@ -36,7 +37,6 @@ def make_delicatissimo_figure_maker():
                         ),
                     ),
                 ],
-            preferred_denominator=16,
             specifiers=[
                 baca.tools.ArticulationSpecifier(
                     articulations=['.'],
@@ -471,7 +471,7 @@ def make_delicatissimo_figure_maker():
             beam_divisions_together=True,
             ),
         annotate_unregistered_pitches=True,
-        figure_rhythm_specifiers=[
+        rhythm_specifiers=[
             baca.tools.FigureRhythmSpecifier(
                 patterns=abjad.patterntools.select_all(),
                 rhythm_maker=baca.tools.FigureRhythmMaker(

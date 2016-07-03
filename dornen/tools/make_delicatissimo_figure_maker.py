@@ -16,11 +16,6 @@ def make_delicatissimo_figure_maker():
         >>> print(format(dornen.tools.make_delicatissimo_figure_maker()))
         baca.tools.FigureMaker(
             annotate_unregistered_pitches=True,
-            articulation_specifiers=[
-                baca.tools.ArticulationSpecifier(
-                    articulations=['.'],
-                    ),
-                ],
             beam_specifier=rhythmmakertools.BeamSpecifier(
                 beam_each_division=True,
                 beam_divisions_together=True,
@@ -42,6 +37,11 @@ def make_delicatissimo_figure_maker():
                     ),
                 ],
             preferred_denominator=16,
+            specifiers=[
+                baca.tools.ArticulationSpecifier(
+                    articulations=['.'],
+                    ),
+                ],
             )
 
     ..  container:: example
@@ -467,16 +467,10 @@ def make_delicatissimo_figure_maker():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
-        articulation_specifiers=[
-            baca.tools.ArticulationSpecifier(
-                articulations=['.'],
-                ),
-            ],
         beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
         annotate_unregistered_pitches=True,
-        preferred_denominator=16,
         figure_rhythm_specifiers=[
             baca.tools.FigureRhythmSpecifier(
                 patterns=abjad.patterntools.select_all(),
@@ -487,6 +481,12 @@ def make_delicatissimo_figure_maker():
                         ),
 
                     ),
+                ),
+            ],
+        preferred_denominator=16,
+        specifiers=[
+            baca.tools.ArticulationSpecifier(
+                articulations=['.'],
                 ),
             ],
         )

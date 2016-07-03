@@ -15,12 +15,6 @@ def make_thorn_figure_maker_1():
     Returns figure maker.
     '''
     figure_maker = baca.tools.FigureMaker(
-        articulation_specifiers=[
-            baca.tools.ArticulationSpecifier(
-                articulations=['.'],
-                selector=_select_last_tuplet(),
-                ),
-            ],
         beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
@@ -59,11 +53,17 @@ def make_thorn_figure_maker_1():
                     )
                 ),
             ],
-            spanner_specifiers=[
-                baca.tools.SpannerSpecifier(
-                    spanner=abjad.spannertools.Slur(),
-                    selector=_select_last_tuplet(),
-                    ),
-                ],
+        spanner_specifiers=[
+            baca.tools.SpannerSpecifier(
+                spanner=abjad.spannertools.Slur(),
+                selector=_select_last_tuplet(),
+                ),
+            ],
+        specifiers=[
+            baca.tools.ArticulationSpecifier(
+                articulations=['.'],
+                selector=_select_last_tuplet(),
+                ),
+            ],
         )
     return figure_maker

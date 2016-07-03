@@ -20,7 +20,8 @@ def make_default_figure_maker():
                 beam_each_division=True,
                 beam_divisions_together=True,
                 ),
-            figure_rhythm_specifiers=[
+            preferred_denominator=32,
+            rhythm_specifiers=[
                 baca.tools.FigureRhythmSpecifier(
                     patterns=[
                         patterntools.Pattern(
@@ -36,7 +37,6 @@ def make_default_figure_maker():
                         ),
                     ),
                 ],
-            preferred_denominator=32,
             spanner_specifiers=[
                 baca.tools.SpannerSpecifier(
                     selector=selectortools.Selector(
@@ -483,7 +483,7 @@ def make_default_figure_maker():
             ),
         annotate_unregistered_pitches=True,
         preferred_denominator=32,
-        figure_rhythm_specifiers=[
+        rhythm_specifiers=[
             baca.tools.FigureRhythmSpecifier(
                 patterns=abjad.patterntools.select_all(),
                 rhythm_maker=baca.tools.FigureRhythmMaker(

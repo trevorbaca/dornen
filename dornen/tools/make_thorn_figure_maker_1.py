@@ -31,7 +31,7 @@ def make_thorn_figure_maker_1():
                 selector=_select_last_tuplet(),
                 ),
             ],
-        figure_rhythm_specifiers=[
+        rhythm_specifiers=[
             baca.tools.FigureRhythmSpecifier(
                 patterns=abjad.patterntools.select_all(),
                 rhythm_maker=baca.tools.FigureRhythmMaker(

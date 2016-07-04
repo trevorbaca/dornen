@@ -83,12 +83,13 @@
                     R1 * 7/64
                 }
                 {
-                    \time 3/16
+                    \time 12/64
                     R1 * 3/16
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
+                    \time 3/16
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 3/16 ^ \markup {
@@ -210,7 +211,7 @@
                     s1 * 7/64
                 }
                 {
-                    \time 3/16
+                    \time 12/64
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                     \newSpacingSection
                     s1 * 3/16

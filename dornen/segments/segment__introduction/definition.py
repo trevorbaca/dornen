@@ -20,13 +20,13 @@ for tree in trees:
     numbers = [_.pitch_class_number for _ in numbered_pitch_classes]
     design_1.append(numbers)
 assert len(design_1) == 50, repr(design_1)
-design_1 = design_1[:22]
-assert len(design_1) == 22
-design_1 = baca.tools.Cursor(source=design_1)
+design = design_1[:22]
+assert len(design) == 22
+design = baca.tools.Cursor(source=design)
 
 figure_accumulator(
     figure_accumulator.anchor_figure_maker(
-        design_1.next(),
+        design.next(),
         baca.overrides.beam_positions(6),
         baca.pitch.register(-8),
         extend_beam=True,
@@ -37,7 +37,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.passepied_figure_maker(
-        design_1.next(),
+        design.next(),
         baca.overrides.beam_positions(-10),
         baca.overrides.time_signature_extra_offset((-2.5, 0)),
         baca.pitch.register(-10),
@@ -49,7 +49,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.anchor_figure_maker(
-        design_1.next(),
+        design.next(),
         baca.pitch.register(-10),
         extend_beam=True,
         ),
@@ -59,7 +59,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.passepied_figure_maker(
-        design_1.next(),
+        design.next(),
         baca.overrides.time_signature_extra_offset((-2.5, 0)),
         baca.pitch.register(-8),
         extend_beam=True,
@@ -70,7 +70,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.anchor_figure_maker(
-        design_1.next(),
+        design.next(),
         baca.pitch.register(-12),
         ),
     figure_name=5,
@@ -79,7 +79,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.passepied_figure_maker(
-        design_1.next(),
+        design.next(),
         baca.overrides.time_signature_extra_offset((-2.5, 0)),
         baca.pitch.register(-6),
         ),
@@ -89,7 +89,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.anchor_figure_maker(
-        design_1.next(),
+        design.next(),
         baca.overrides.beam_positions(9),
         baca.pitch.register(-14),
         extend_beam=True,
@@ -100,7 +100,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.passepied_figure_maker(
-        design_1.next(),
+        design.next(),
         baca.overrides.beam_positions(-10),
         baca.overrides.time_signature_extra_offset((-2.5, 0)),
         baca.pitch.register(-4),
@@ -112,7 +112,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.running_figure_maker(
-        design_1.next(2),
+        design.next(2),
         baca.pitch.register(-12),
         ),
     figure_name=9,
@@ -121,7 +121,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.anchor_figure_maker(
-        design_1.next(),
+        design.next(),
         baca.pitch.register(-16),
         ),
     figure_name=10,
@@ -130,7 +130,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.running_figure_maker(
-        design_1.next(2),
+        design.next(2),
         baca.pitch.register(-6),
         ),
     figure_name=11,
@@ -139,7 +139,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.anchor_figure_maker(
-        design_1.next(),
+        design.next(),
         baca.overrides.beam_positions(6),
         baca.pitch.register(-18),
         extend_beam=True,
@@ -150,7 +150,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.passepied_figure_maker(
-        design_1.next(),
+        design.next(),
         baca.overrides.time_signature_extra_offset((-2.5, 0)),
         baca.pitch.register(-2),
         ),
@@ -160,7 +160,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.anchor_figure_maker(
-        design_1.next(),
+        design.next(),
         baca.pitch.register(-20),
         ),
     figure_name=14,
@@ -169,7 +169,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.passepied_figure_maker(
-        design_1.next(),
+        design.next(),
         baca.overrides.beam_positions(-10),
         baca.overrides.time_signature_extra_offset((-2.5, 0)),
         baca.pitch.register(0),
@@ -181,7 +181,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.passepied_figure_maker(
-        design_1.next(),
+        design.next(),
         baca.overrides.time_signature_extra_offset((-2.5, 0)),
         baca.pitch.register(2),
         ),
@@ -191,7 +191,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.running_figure_maker(
-        design_1.next(2),
+        design.next(2),
         baca.pitch.register(-12, 0),
         ),
     figure_name=17,
@@ -200,7 +200,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.inverted_wave_figure_maker(
-        design_1.next(1),
+        design.next(1),
         baca.overrides.beam_positions(-6),
         ),
     figure_name=18,
@@ -209,14 +209,14 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.inverted_wave_figure_maker(
-        design_1.next(1),
+        design.next(1),
         baca.overrides.beam_positions(-6),
         ),
     figure_name=19,
     voice_number=3,
     )
 
-assert design_1.is_exhausted
+assert design.is_exhausted
 
 ###############################################################################
 ############################### SEGMENT-MAKER #################################

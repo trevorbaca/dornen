@@ -30,7 +30,7 @@ def reveal_amber(count):
     return [amber]
 
 figure_accumulator(
-    figure_accumulator.ritardando_figure_maker(
+    figure_accumulator.inverted_wave_figure_maker(
         design_2[:4],
         baca.overrides.beam_positions(8),
         baca.pitch.register(0, -14),

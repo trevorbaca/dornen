@@ -14,7 +14,7 @@ figure_accumulator = dornen.tools.FigureAccumulator(
 anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
 default_figure_maker = dornen.tools.make_default_figure_maker()
 passepied_figure_maker = dornen.tools.make_passepied_figure_maker()
-ritardando_figure_maker = dornen.tools.make_wave_figure_maker()
+wave_figure_maker = dornen.tools.make_wave_figure_maker()
 running_figure_maker = dornen.tools.make_running_figure_maker()
 
 design_1 = dornen.tools.make_design_1()

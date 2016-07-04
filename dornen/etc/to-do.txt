@@ -18,14 +18,8 @@
 
 ### BREAK ###
 
-1. Implement slur edge-case handling (for only one stage; for only two stages;
-for single-leaf stages) in running figure maker. Check that no LilyPond errors
-remain in LilyPond log file.
+1. Write ritardando_figure_maker API examples.
 
-2. Check for duplicate figure names.
+2. Build graced rests figure maker.
 
-3. Write ritardando_figure_maker API examples.
-
-4. Build graced rests figure maker.
-
-5. Build fermata figure maker.
+3. Build fermata figure maker.

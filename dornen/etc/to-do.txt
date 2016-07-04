@@ -18,9 +18,11 @@
 
 ### BREAK ###
 
-1. Collapse PatternedArticulationHandler, into ArticulationSpecifier.
+1. Change as many handlers as possible to specifiers.
 
-2. Change as many handlers as possible to specifiers.
+2. Implement slur edge-case handling (for only one stage; for only two stages;
+for single-leaf stages) in running figure maker. Check that no LilyPond errors
+remain in LilyPond log file.
 
 3. Check for duplicate figure names.
 
@@ -29,7 +31,3 @@
 5. Build graced rests figure maker.
 
 6. Build fermata figure maker.
-
-7. Implement slur edge-case handling (for only one stage; for only two stages;
-for single-leaf stages) in running figure maker. Check that no LilyPond errors
-remain in LilyPond log file.

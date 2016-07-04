@@ -24,7 +24,7 @@ design = design_1[16:38]
 assert len(design) == 22
 
 accumulator(
-    accumulator.ritardando_figure_maker(
+    accumulator.inverted_wave_figure_maker(
         design[:1],
         baca.pitch.register(0, -14),
         ),
@@ -68,7 +68,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.ritardando_figure_maker(
+    accumulator.inverted_wave_figure_maker(
         design[2:3] + accumulator.snip(accumulator.reverse(design[2:3])),
         baca.overrides.beam_positions(7),
         baca.pitch.register(0, -14),
@@ -98,7 +98,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.ritardando_figure_maker(
+    accumulator.inverted_wave_figure_maker(
         design[4:5] + accumulator.snip(accumulator.reverse(design[4:5])) +
             accumulator.snip(design[4:5]),
         baca.overrides.beam_positions(7),

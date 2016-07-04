@@ -199,7 +199,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    figure_accumulator.ritardando_figure_maker(
+    figure_accumulator.inverted_wave_figure_maker(
         design_1.next(1),
         baca.overrides.beam_positions(-6),
         ),
@@ -208,7 +208,7 @@ figure_accumulator(
     )
 
 figure_accumulator(
-    figure_accumulator.ritardando_figure_maker(
+    figure_accumulator.inverted_wave_figure_maker(
         design_1.next(1),
         baca.overrides.beam_positions(-6),
         ),

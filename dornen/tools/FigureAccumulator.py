@@ -106,11 +106,12 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         'delicatissimo_figure_maker',
         'default_figure_maker',
         'graced_tuplet_figure_maker',
+        'inverted_wave_figure_maker',
         'monad_figure_maker',
         'ovoid_figure_maker',
         'passepied_figure_maker',
-        'ritardando_figure_maker',
         'running_figure_maker',
+        'wave_figure_maker',
         )
 
     _all_voices = (
@@ -141,10 +142,12 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
             dornen.tools.make_delicatissimo_figure_maker()
         self.graced_tuplet_figure_maker = \
             dornen.tools.make_graced_tuplet_figure_maker()
+        self.inverted_wave_figure_maker = \
+            dornen.tools.make_wave_figure_maker(inverted=True)
         self.ovoid_figure_maker = dornen.tools.make_ovoid_figure_maker()
         self.monad_figure_maker = dornen.tools.make_monad_figure_maker()
         self.passepied_figure_maker = dornen.tools.make_passepied_figure_maker()
-        self.ritardando_figure_maker = \
+        self.wave_figure_maker = \
             dornen.tools.make_wave_figure_maker()
         self.running_figure_maker = dornen.tools.make_running_figure_maker()
 

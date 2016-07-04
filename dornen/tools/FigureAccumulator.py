@@ -145,7 +145,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         self.monad_figure_maker = dornen.tools.make_monad_figure_maker()
         self.passepied_figure_maker = dornen.tools.make_passepied_figure_maker()
         self.ritardando_figure_maker = \
-            dornen.tools.make_ritardando_figure_maker()
+            dornen.tools.make_wave_figure_maker()
         self.running_figure_maker = dornen.tools.make_running_figure_maker()
 
     ### SPECIAL METHODS ###

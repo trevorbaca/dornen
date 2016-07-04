@@ -18,7 +18,7 @@
 
 ### BREAK ###
 
-1. Write ritardando_figure_maker API examples.
+1. Write make_wave_figure_maker API examples.
 
 2. Build graced rests figure maker.
 

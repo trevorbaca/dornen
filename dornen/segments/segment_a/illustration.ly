@@ -261,23 +261,23 @@
                                     }
                             }
                         \times 1/1 {
-                            \once \override Beam.grow-direction = #left
+                            \once \override Beam.grow-direction = #right
                             \once \override Beam.positions = #'(8 . 8)
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
-                            af''64 * 448/1024 [
+                            af''64 * 1664/1024 [
                             \once \override Beam.positions = #'(8 . 8)
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
-                            fs''64 * 896/1024
+                            fs''64 * 960/1024
                             \once \override Beam.positions = #'(8 . 8)
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
-                            b'64 * 1216/1024
+                            b'64 * 768/1024
                             \once \override Beam.positions = #'(8 . 8)
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
-                            d''64 * 1536/1024 ]
+                            d''64 * 704/1024 ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -361,23 +361,23 @@
                                     }
                             }
                         \times 1/1 {
-                            \once \override Beam.grow-direction = #left
+                            \once \override Beam.grow-direction = #right
                             \once \override Beam.positions = #'(8 . 8)
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
-                            fs'64 * 448/1024 [
+                            fs'64 * 1664/1024 [
                             \once \override Beam.positions = #'(8 . 8)
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
-                            b'64 * 896/1024
+                            b'64 * 960/1024
                             \once \override Beam.positions = #'(8 . 8)
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
-                            d'64 * 1216/1024
+                            d'64 * 768/1024
                             \once \override Beam.positions = #'(8 . 8)
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
-                            f'64 * 1536/1024 ]
+                            f'64 * 704/1024 ]
                         }
                         \revert TupletNumber.text
                     }

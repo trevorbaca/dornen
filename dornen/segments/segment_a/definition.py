@@ -20,18 +20,18 @@ for tree in trees:
     numbers = [_.pitch_class_number for _ in numbered_pitch_classes]
     design_2.append(numbers)
 assert len(design_2) == 40, (repr(design_2), len(design_2))
-design_2 = design_2[:14]
-assert len(design_2) == 14
+design = design_2[:14]
+assert len(design) == 14
 
 def reveal_amber(count):
-    amber = design_2[4]
+    amber = design[4]
     assert len(amber) == 5, repr(amber)
     amber = amber[:count]
     return [amber]
 
 figure_accumulator(
     figure_accumulator.inverted_wave_figure_maker(
-        design_2[:4],
+        design[:4],
         baca.overrides.beam_positions(8),
         baca.pitch.register(0, -14),
         preferred_denominator=16,
@@ -54,7 +54,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.running_figure_maker(
-        design_2[5:8],
+        design[5:8],
         baca.pitch.register(-14, 0),
         baca.tools.DynamicSpecifier(
             dynamic=abjad.Hairpin('f < ff'),
@@ -77,7 +77,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.running_figure_maker(
-        design_2[6:9],
+        design[6:9],
         baca.pitch.register(-14, 0),
         baca.tools.DynamicSpecifier(
             dynamic=abjad.Hairpin('mf < f'),
@@ -100,7 +100,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.running_figure_maker(
-        design_2[7:10],
+        design[7:10],
         baca.pitch.register(-14, 0),
         baca.tools.DynamicSpecifier(
             dynamic=abjad.Hairpin('mp < mf'),
@@ -123,7 +123,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.running_figure_maker(
-        design_2[8:11],
+        design[8:11],
         baca.pitch.register(-14, 0),
         baca.tools.DynamicSpecifier(
             dynamic=abjad.Hairpin('p < mp'),
@@ -145,7 +145,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.running_figure_maker(
-        design_2[9:13],
+        design[9:13],
         baca.pitch.register(-14, 6),
         baca.tools.DynamicSpecifier(
             dynamic=abjad.Hairpin('pp < p'),
@@ -168,7 +168,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.delicatissimo_figure_maker(
-        design_2[13:],
+        design[13:],
         baca.overrides.text_script_staff_padding(9),
         baca.pitch.register(6, -20),
         baca.tools.MarkupSpecifier(
@@ -191,7 +191,7 @@ figure_accumulator(
 
 figure_accumulator(
     figure_accumulator.delicatissimo_figure_maker(
-        design_2[13:],
+        design[13:],
         baca.pitch.register(-20, 6),
         extend_beam=True,
         ),

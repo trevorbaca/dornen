@@ -111,7 +111,6 @@ def make_running_figure_maker():
 
         ::
 
-            >>> figure_maker = dornen.tools.make_running_figure_maker()
             >>> figure_tokens = [
             ...     [[4]],
             ...     [[6, 2, 3, 5, 9, 8, 0]],
@@ -121,12 +120,19 @@ def make_running_figure_maker():
 
         ::
 
+            >>> figure_maker = dornen.tools.make_running_figure_maker()
             >>> figures, time_signatures = [], []
             >>> for figure_token in figure_tokens:
             ...     result = figure_maker(figure_token)
             ...     selection, time_signature, state_manifest = result
             ...     figures.append(selection)
             ...     time_signatures.append(time_signature)    
+            ...
+            >>> figures_ = []
+            >>> for figure in figures:
+            ...     figures_.extend(figure)
+            ...
+            >>> figures = select(figures_)
 
         ::
 
@@ -138,16 +144,6 @@ def make_running_figure_maker():
             ...         ),
             ...     time_signatures=time_signatures,
             ...     )
-
-        ::
-
-            >>> figures_ = []
-            >>> for figure in figures:
-            ...     figures_.extend(figure)
-
-        ::
-
-            >>> figures = select(figures_)
             >>> specifiers = segment_maker.append_specifiers(
             ...     ('vn', baca.tools.stages(1)),
             ...     baca.tools.RhythmSpecifier(
@@ -289,7 +285,6 @@ def make_running_figure_maker():
 
         ::
 
-            >>> figure_maker = dornen.tools.make_running_figure_maker()
             >>> stage_tokens = [
             ...     [4],
             ...     [6, 2, 3, 5, 9, 8, 0],
@@ -302,9 +297,6 @@ def make_running_figure_maker():
             ...     stage_tokens[1:4],
             ...     stage_tokens[2:5],
             ...     ]
-
-        ::
-
             >>> for figure_token in figure_tokens:
             ...     figure_token
             ([4], [6, 2, 3, 5, 9, 8, 0], [11])
@@ -313,12 +305,19 @@ def make_running_figure_maker():
 
         ::
 
+            >>> figure_maker = dornen.tools.make_running_figure_maker()
             >>> figures, time_signatures = [], []
             >>> for figure_token in figure_tokens:
             ...     result = figure_maker(figure_token)
             ...     selection, time_signature, state_manifest = result
             ...     figures.append(selection)
             ...     time_signatures.append(time_signature)    
+            ...
+            >>> figures_ = []
+            >>> for figure in figures:
+            ...     figures_.extend(figure)
+            ...
+            >>> figures = select(figures_)
 
         ::
 
@@ -330,16 +329,6 @@ def make_running_figure_maker():
             ...         ),
             ...     time_signatures=time_signatures,
             ...     )
-
-        ::
-
-            >>> figures_ = []
-            >>> for figure in figures:
-            ...     figures_.extend(figure)
-
-        ::
-
-            >>> figures = select(figures_)
             >>> specifiers = segment_maker.append_specifiers(
             ...     ('vn', baca.tools.stages(1)),
             ...     baca.tools.RhythmSpecifier(

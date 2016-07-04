@@ -3,7 +3,7 @@ import abjad
 import baca
 
 
-def make_ritardando_figure_maker():
+def make_wave_figure_maker():
     r'''Makes ritardando figure maker.
 
     Returns figure maker.

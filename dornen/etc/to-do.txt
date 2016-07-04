@@ -1,6 +1,6 @@
-1. Five-voice structure.
+1. Implement design checker and integrate.
 
-2. Metric modulation up to 66.
+2. Integrate OctaveDeviationSpecifier.
 
 3. Anchor figures carried forward from introduction.
 
@@ -12,10 +12,6 @@
 
 7. Introduction of two-note alternation. As revelation?
 
-8. Integrate OctaveDeviationSpecifier.
+8. Metric modulation up to 66.
 
-9. Implement design checker and integrate.
-
-### BREAK ###
-
-1. Build fermata figure maker.
+9. Five-voice structure.

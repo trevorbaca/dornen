@@ -18,8 +18,6 @@
 
 ### BREAK ###
 
-1. Write make_wave_figure_maker API examples.
+1. Build graced rests figure maker.
 
-2. Build graced rests figure maker.
-
-3. Build fermata figure maker.
+2. Build fermata figure maker.

@@ -18,6 +18,4 @@
 
 ### BREAK ###
 
-1. Build graced rests figure maker.
-
-2. Build fermata figure maker.
+1. Build fermata figure maker.

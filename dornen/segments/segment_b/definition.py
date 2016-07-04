@@ -9,7 +9,7 @@ import dornen
 ###############################################################################
 
 accumulator = dornen.tools.FigureAccumulator(
-    label_figures=True,
+    #hide_figure_names=True,
     )
 
 design_1 = dornen.tools.make_design_1()
@@ -63,7 +63,7 @@ accumulator(
         baca.pitch.register(0),
         extend_beam=True,
         ),
-    figure_name=accumulator.name('G1', '1'),
+    figure_name=accumulator.name('G1', "1'"),
     voice_number=3,
     )
 

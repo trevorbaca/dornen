@@ -9,7 +9,7 @@ import dornen
 ###############################################################################
 
 figure_accumulator = dornen.tools.FigureAccumulator(
-    #label_figures=True,
+    hide_figure_names=True,
     )
 
 design_2 = dornen.tools.make_design_2()

@@ -266,17 +266,6 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         return result
 
     @staticmethod
-    def name(letter, subscript):
-        r'''Makes name markup.
-
-        Returns markup.
-        '''
-        return abjad.Markup.concat([
-            abjad.Markup(letter),
-            abjad.Markup(subscript).sub(),
-            ])
-
-    @staticmethod
     def reveal(cells, total):
         r'''Reveals `cells` to `total`.
 
@@ -306,18 +295,3 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
             cell.reverse()
             result.append(cell)
         return result
-
-#    @staticmethod
-#    def snip(cells, n=1):
-#        r'''Snips cells to length `n`.
-#
-#        Returns new list.
-#        '''
-#        result = []
-#        first_cell = cells[0][:]
-#        first_cell = first_cell[n:]
-#        result.append(first_cell)
-#        for cell in cells[1:]:
-#            cell = cell[:]
-#            result.append(cell)
-#        return result

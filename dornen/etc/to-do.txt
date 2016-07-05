@@ -1,17 +1,15 @@
-1. Implement design checker and integrate.
+1. Integrate OctaveDeviationSpecifier.
 
-2. Integrate OctaveDeviationSpecifier.
+2. Anchor figures carried forward from introduction.
 
-3. Anchor figures carried forward from introduction.
+3. Delicatiss. figures carried over from the end of [A].
 
-4. Delicatiss. figures carried over from the end of [A].
+4. Introduction of graced tuplets as revelation.
 
-5. Introduction of graced tuplets as revelation.
+5. Introduction of tremolo. As revelation?
 
-6. Introduction of tremolo. As revelation?
+6. Introduction of two-note alternation. As revelation?
 
-7. Introduction of two-note alternation. As revelation?
+7. Metric modulation up to 66.
 
-8. Metric modulation up to 66.
-
-9. Five-voice structure.
+8. Five-voice structure.

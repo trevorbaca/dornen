@@ -350,19 +350,19 @@
                                     }
                             }
                         \times 1/1 {
-                            \once \override Beam.grow-direction = #left
+                            \once \override Beam.grow-direction = #right
                             \once \override Beam.positions = #'(7 . 7)
-                            b'64 * 320/1024 [
+                            b'64 * 2048/1024 [
                             \once \override Beam.positions = #'(7 . 7)
-                            c''64 * 704/1024
+                            c''64 * 1088/1024
                             \once \override Beam.positions = #'(7 . 7)
-                            bf'64 * 960/1024
+                            bf'64 * 896/1024
                             \once \override Beam.positions = #'(7 . 7)
-                            fs'64 * 1216/1024
+                            fs'64 * 768/1024
                             \once \override Beam.positions = #'(7 . 7)
-                            cs'64 * 1408/1024
+                            cs'64 * 704/1024
                             \once \override Beam.positions = #'(7 . 7)
-                            a'64 * 1536/1024 ]
+                            a'64 * 640/1024 ]
                         }
                         \revert TupletNumber.text
                     }
@@ -460,19 +460,19 @@
                                     }
                             }
                         \times 1/1 {
-                            \once \override Beam.grow-direction = #left
+                            \once \override Beam.grow-direction = #right
                             \once \override Beam.positions = #'(7 . 7)
-                            g'64 * 320/1024 [
+                            g'64 * 2048/1024 [
                             \once \override Beam.positions = #'(7 . 7)
-                            f''64 * 704/1024
+                            f''64 * 1088/1024
                             \once \override Beam.positions = #'(7 . 7)
-                            e''64 * 960/1024
+                            e''64 * 896/1024
                             \once \override Beam.positions = #'(7 . 7)
-                            c''64 * 1216/1024
+                            c''64 * 768/1024
                             \once \override Beam.positions = #'(7 . 7)
-                            af'64 * 1408/1024
+                            af'64 * 704/1024
                             \once \override Beam.positions = #'(7 . 7)
-                            b'64 * 1536/1024 ]
+                            b'64 * 640/1024 ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {

@@ -216,8 +216,6 @@ figure_accumulator(
     voice_number=3,
     )
 
-assert design.is_exhausted
-
 ###############################################################################
 ############################### SEGMENT-MAKER #################################
 ###############################################################################
@@ -234,6 +232,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 measures_per_stage = len(figure_accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
+    #design_checker=dornen.tools.DesignChecker(design=design),
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,

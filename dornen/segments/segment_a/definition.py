@@ -207,7 +207,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 measures_per_stage = len(accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
-    allow_figure_names=True,
+    #allow_figure_names=True,
     #design_checker=dornen.tools.DesignChecker(design=design),
     #label_clock_time=True,
     #label_stages=True,

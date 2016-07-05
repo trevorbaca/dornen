@@ -231,6 +231,29 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
     ### PUBLIC METHODS ###
 
     @staticmethod
+    def boustrophedon(cells, count=2, flatten=False):
+        r'''Concatenates cells back to back.
+
+        Returns new list.
+        '''
+        result = []
+        for i in range(count):
+            if i == 0:
+                for cell in cells:
+                    result.append(cell[:])
+            elif i % 2 == 0:
+                result.append(cells[0][1:])
+                for cell in cells[1:]:
+                    result.append(cell[:])
+            else:
+                result.append(list(reversed(cells[-1]))[1:])
+                for cell in reversed(cells[:-1]):
+                    result.append(list(reversed(cell)))
+        if flatten:
+            result = [abjad.sequencetools.flatten_sequence(result)]
+        return result
+
+    @staticmethod
     def merge(cells):
         r'''Merges cells.
 
@@ -284,17 +307,17 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
             result.append(cell)
         return result
 
-    @staticmethod
-    def snip(cells, n=1):
-        r'''Snips cells to length `n`.
-
-        Returns new list.
-        '''
-        result = []
-        first_cell = cells[0][:]
-        first_cell = first_cell[n:]
-        result.append(first_cell)
-        for cell in cells[1:]:
-            cell = cell[:]
-            result.append(cell)
-        return result
+#    @staticmethod
+#    def snip(cells, n=1):
+#        r'''Snips cells to length `n`.
+#
+#        Returns new list.
+#        '''
+#        result = []
+#        first_cell = cells[0][:]
+#        first_cell = first_cell[n:]
+#        result.append(first_cell)
+#        for cell in cells[1:]:
+#            cell = cell[:]
+#            result.append(cell)
+#        return result

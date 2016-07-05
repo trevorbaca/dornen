@@ -60,14 +60,14 @@ accumulator(
         baca.overrides.stem_up(),
         baca.pitch.register(0),
         extend_beam=True,
-        figure_name=accumulator.name('G1', "1'"),
+        figure_name=accumulator.name('G1', "1*"),
         ),
     voice_number=3,
     )
 
 accumulator(
     accumulator.inverted_wave_figure_maker(
-        design[2:3] + accumulator.snip(accumulator.reverse(design[2:3])),
+        accumulator.boustrophedon(design[2:3], count=2),
         baca.overrides.beam_positions(7),
         baca.pitch.register(0, -14),
         figure_name='W2',
@@ -80,7 +80,7 @@ accumulator(
         accumulator.reveal(design[5:6], 3),
         baca.overrides.stem_up(),
         baca.pitch.register(0),
-        figure_name=accumulator.name('G', '2'),
+        figure_name=accumulator.name('G1', '2'),
         ),
     voice_number=3,
     )
@@ -96,12 +96,43 @@ accumulator(
     )
 
 accumulator(
-    accumulator.inverted_wave_figure_maker(
-        design[4:5] + accumulator.snip(accumulator.reverse(design[4:5])) +
-            accumulator.snip(design[4:5]),
+    accumulator.graced_tuplet_figure_maker(
+        accumulator.reveal(design[5:6], 5),
+        baca.overrides.stem_up(),
+        baca.pitch.register(0),
+        figure_name=accumulator.name('G1', '3'),
+        ),
+    voice_number=3,
+    )
+
+cell_d1 = accumulator.boustrophedon(design[4:5], count=4, flatten=True)
+
+accumulator(
+    accumulator.delicatissimo_figure_maker(
+        cell_d1,
         baca.overrides.beam_positions(7),
-        baca.pitch.register(0, -14),
-        figure_name='W3',
+        baca.pitch.register(-8),
+        figure_name=accumulator.name('D1', '1'),
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.graced_tuplet_figure_maker(
+        accumulator.reveal(design[5:6], 7),
+        baca.overrides.stem_up(),
+        baca.pitch.register(0),
+        figure_name=accumulator.name('G1', '4'),
+        ),
+    voice_number=3,
+    )
+
+accumulator(
+    accumulator.delicatissimo_figure_maker(
+        cell_d1,
+        baca.overrides.beam_positions(7),
+        baca.pitch.register(-8),
+        figure_name=accumulator.name('D1', '2'),
         ),
     voice_number=1,
     )
@@ -124,7 +155,7 @@ accumulator(
         baca.tools.MarkupSpecifier(
             markup=baca.markup.delicatiss(),
             ),
-        figure_name='D1',
+        figure_name='D2',
         ),
     voice_number=1,
     )

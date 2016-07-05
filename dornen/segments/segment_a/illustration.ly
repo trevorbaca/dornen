@@ -216,6 +216,18 @@
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
                             cs''64 * 448/1024 [
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    W1
+                                                    ]
+                                                }
+                                    }
                             \once \override Beam.positions = #'(8 . 8)
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
@@ -389,6 +401,18 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #4
                             cs'64 [ \< \f (
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    R1
+                                                    ]
+                                                }
+                                    }
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
@@ -473,6 +497,18 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             cs'64 \< \mf (
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    R2
+                                                    ]
+                                                }
+                                    }
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
@@ -563,6 +599,18 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             f'64 \< \mp (
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    R3
+                                                    ]
+                                                }
+                                    }
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
@@ -660,6 +708,18 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             b64 \< \p (
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    R4
+                                                    ]
+                                                }
+                                    }
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
@@ -762,6 +822,18 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             ef'64 \< \pp (
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    R5
+                                                    ]
+                                                }
+                                    }
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #4
@@ -898,9 +970,22 @@
                             \set stemRightBeamCount = #3
                             f'''32 -\staccato [ \> \p
                                 ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            delicatiss.
+                                    \column
+                                        {
+                                            \whiteout
+                                                \upright
+                                                    delicatiss.
+                                            \fontsize
+                                                #3
+                                                \with-color
+                                                    #darkgreen
+                                                    \concat
+                                                        {
+                                                            [
+                                                            D1
+                                                            ]
+                                                        }
+                                        }
                                     }
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
@@ -1038,6 +1123,18 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             f32 -\staccato
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    D2
+                                                    ]
+                                                }
+                                    }
                             \once \override DynamicLineSpanner.direction = #up
                             \once \override DynamicLineSpanner.staff-padding = #12
                             \set stemLeftBeamCount = #3
@@ -1157,6 +1254,23 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             ef'''16 -\marcato [ \< \f
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    \concat
+                                                        {
+                                                            F1
+                                                            \sub
+                                                                -4
+                                                        }
+                                                    ]
+                                                }
+                                    }
                         }
                     }
                     s1 * 3/16
@@ -1166,6 +1280,23 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef'''16 -\marcato
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    \concat
+                                                        {
+                                                            F1
+                                                            \sub
+                                                                -3
+                                                        }
+                                                    ]
+                                                }
+                                    }
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             a''16 -\marcato
@@ -1178,6 +1309,23 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef'''16 -\marcato
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    \concat
+                                                        {
+                                                            F1
+                                                            \sub
+                                                                -2
+                                                        }
+                                                    ]
+                                                }
+                                    }
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             a''16 -\marcato
@@ -1193,6 +1341,23 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef'''16 -\marcato
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    \concat
+                                                        {
+                                                            F1
+                                                            \sub
+                                                                -1
+                                                        }
+                                                    ]
+                                                }
+                                    }
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             a''16 -\marcato
@@ -1210,6 +1375,18 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef'''16 -\marcato
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    F1
+                                                    ]
+                                                }
+                                    }
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             a''16 -\marcato
@@ -1232,6 +1409,23 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             ef'''16 -\marcato [ \> \fff
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    \concat
+                                                        {
+                                                            F1
+                                                            \sub
+                                                                -4'
+                                                        }
+                                                    ]
+                                                }
+                                    }
                         }
                     }
                     s1 * 11/16
@@ -1241,6 +1435,23 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef'''16 -\marcato
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    \concat
+                                                        {
+                                                            F1
+                                                            \sub
+                                                                -3'
+                                                        }
+                                                    ]
+                                                }
+                                    }
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             a''16 -\marcato ] \f

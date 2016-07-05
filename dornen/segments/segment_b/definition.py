@@ -8,9 +8,7 @@ import dornen
 ##################################### [B] #####################################
 ###############################################################################
 
-accumulator = dornen.tools.FigureAccumulator(
-    #hide_figure_names=True,
-    )
+accumulator = dornen.tools.FigureAccumulator()
 
 design_1 = dornen.tools.make_design_1()
 trees = design_1.iterate_at_level(level=-2)
@@ -27,8 +25,8 @@ accumulator(
     accumulator.inverted_wave_figure_maker(
         design[:1],
         baca.pitch.register(0, -14),
+        figure_name='W1',
         ),
-    figure_name='W1',
     voice_number=1,
     )
 
@@ -40,8 +38,8 @@ accumulator(
         baca.overrides.stem_up(),
         baca.pitch.register(0),
         extend_beam=True,
+        figure_name=accumulator.name('G1', '1'),
         ),
-    figure_name=accumulator.name('G1', '1'),
     voice_number=3,
     )
 
@@ -50,8 +48,8 @@ accumulator(
         design[1:2],
         baca.pitch.register(-14, -6),
         extend_beam=True,
+        figure_name='O1',
         ),
-    figure_name='O1',
     voice_number=2,
     )
 
@@ -62,8 +60,8 @@ accumulator(
         baca.overrides.stem_up(),
         baca.pitch.register(0),
         extend_beam=True,
+        figure_name=accumulator.name('G1', "1'"),
         ),
-    figure_name=accumulator.name('G1', "1'"),
     voice_number=3,
     )
 
@@ -72,8 +70,8 @@ accumulator(
         design[2:3] + accumulator.snip(accumulator.reverse(design[2:3])),
         baca.overrides.beam_positions(7),
         baca.pitch.register(0, -14),
+        figure_name='W2',
         ),
-    figure_name='W2',
     voice_number=1,
     )
 
@@ -82,8 +80,8 @@ accumulator(
         accumulator.reveal(design[5:6], 3),
         baca.overrides.stem_up(),
         baca.pitch.register(0),
+        figure_name=accumulator.name('G', '2'),
         ),
-    figure_name=accumulator.name('G', '2'),
     voice_number=3,
     )
 
@@ -92,8 +90,8 @@ accumulator(
         design[3:4],
         baca.overrides.text_script_color('red'),
         baca.pitch.register(-14, -6),
+        figure_name='O2',
         ),
-    figure_name='O2',
     voice_number=2,
     )
 
@@ -103,8 +101,8 @@ accumulator(
             accumulator.snip(design[4:5]),
         baca.overrides.beam_positions(7),
         baca.pitch.register(0, -14),
+        figure_name='W3',
         ),
-    figure_name='W3',
     voice_number=1,
     )
 
@@ -113,8 +111,8 @@ accumulator(
         design[5:6] + design[5:6],
         baca.overrides.beam_positions(6),
         baca.pitch.register(0, -14),
+        figure_name='G1',
         ),
-    figure_name='G1',
     voice_number=1,
     )
 
@@ -126,8 +124,8 @@ accumulator(
         baca.tools.MarkupSpecifier(
             markup=baca.markup.delicatiss(),
             ),
+        figure_name='D1',
         ),
-    figure_name='D1',
     voice_number=1,
     )
 
@@ -135,8 +133,8 @@ accumulator(
     accumulator.ovoid_figure_maker(
         accumulator.merge(design[7:9]),
         baca.pitch.register(-14, -6),
+        figure_name='O3',
         ),
-    figure_name='O3',
     voice_number=1,
     )
 
@@ -144,8 +142,8 @@ accumulator(
     accumulator.ovoid_figure_maker(
         accumulator.merge(design[9:11]),
         baca.pitch.register(-14, -6),
+        figure_name='O4',
         ),
-    figure_name='O4',
     voice_number=1,
     )
 
@@ -153,8 +151,8 @@ accumulator(
     accumulator.ovoid_figure_maker(
         accumulator.merge(design[11:13]),
         baca.pitch.register(-14, -6),
+        figure_name='O5',
         ),
-    figure_name='O5',
     voice_number=1,
     )
 
@@ -162,8 +160,8 @@ accumulator(
     accumulator.ovoid_figure_maker(
         accumulator.merge(design[13:15]),
         baca.pitch.register(-14, -6),
+        figure_name='O6',
         ),
-    figure_name='O6',
     voice_number=1,
     )
 
@@ -171,8 +169,8 @@ accumulator(
     accumulator.ovoid_figure_maker(
         accumulator.merge(design[15:17]),
         baca.pitch.register(-14, -6),
+        figure_name='O7',
         ),
-    figure_name='O7',
     voice_number=1,
     )
 
@@ -180,8 +178,8 @@ accumulator(
     accumulator.ovoid_figure_maker(
         accumulator.merge(design[17:19]),
         baca.pitch.register(-14, -6),
+        figure_name='O8',
         ),
-    figure_name='O8',
     voice_number=1,
     )
 
@@ -189,8 +187,8 @@ accumulator(
     accumulator.ovoid_figure_maker(
         accumulator.merge(design[19:21]),
         baca.pitch.register(-14, -6),
+        figure_name='O9',
         ),
-    figure_name='O9',
     voice_number=1,
     )
 
@@ -198,8 +196,8 @@ accumulator(
     accumulator.ovoid_figure_maker(
         design[21:22],
         baca.pitch.register(-14, -6),
+        figure_name='O10',
         ),
-    figure_name='O10',
     voice_number=1,
     )
 
@@ -223,6 +221,7 @@ measures_per_stage = len(accumulator.time_signatures) * [1]
 segment_maker = baca.tools.SegmentMaker(
     #design_checker=dornen.tools.DesignChecker(design=design),
     #label_clock_time=True,
+    #label_figure_names=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
     score_package=dornen,

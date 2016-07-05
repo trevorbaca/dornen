@@ -129,125 +129,273 @@
                     \newSpacingSection
                     \mark #2
                     s1 * 9/64
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.1]
+                            }
                 }
                 {
                     \time 1/14
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 1/14
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.2]
+                            }
                 }
                 {
                     \time 7/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 7/32
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.3]
+                            }
                 }
                 {
                     \time 1/14
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 1/14
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.4]
+                            }
                 }
                 {
                     \time 13/64
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                     \newSpacingSection
                     s1 * 13/64
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.5]
+                            }
                 }
                 {
                     \time 2/14
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 1/7
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.6]
+                            }
                 }
                 {
                     \time 7/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 7/32
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.7]
+                            }
                 }
                 {
                     \time 2/14
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 1/7
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.8]
+                            }
                 }
                 {
                     \time 4/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 1/8
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.9]
+                            }
                 }
                 {
                     \time 1/14
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 1/14
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.10]
+                            }
                 }
                 {
                     \time 3/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 3/32
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.11]
+                            }
                 }
                 {
                     \time 3/14
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 3/14
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.12]
+                            }
                 }
                 {
                     \time 10/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 5/16
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.13]
+                            }
                 }
                 {
                     \time 2/14
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 1/7
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.14]
+                            }
                 }
                 {
                     \time 15/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 15/32
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.15]
+                            }
                 }
                 {
                     \time 5/14
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 5/14
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.16]
+                            }
                 }
                 {
                     \time 6/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 3/16
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.17]
+                            }
                 }
                 {
                     \time 13/16
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 13/16
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.18]
+                            }
                 }
                 {
                     \time 10/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 5/16
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.19]
+                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                     \newSpacingSection
                     s1 * 5/16
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.20]
+                            }
                 }
                 {
                     \time 16/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
-                    s1 * 1/2 ^ \markup {
+                    s1 * 1/2
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.21]
+                            }
+                        ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -269,42 +417,98 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 7/32
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.22]
+                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 7/32
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.23]
+                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 7/32
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.24]
+                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 7/32
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.25]
+                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 7/32
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.26]
+                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 7/32
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.27]
+                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
                     s1 * 7/32
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.28]
+                            }
                 }
                 {
                     \time 3/16
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 3/16
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [B.29]
+                            }
                 }
             }
         >>
@@ -522,7 +726,7 @@
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            c''32 -\staccato
+                            c'32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
@@ -535,7 +739,7 @@
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            b'32 -\staccato [
+                            b''32 -\staccato [
                                 ^ \markup {
                                     \fontsize
                                         #3
@@ -556,7 +760,7 @@
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            af'32 -\staccato
+                            af''32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
@@ -569,7 +773,7 @@
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            b'32 -\staccato [
+                            b''32 -\staccato [
                                 ^ \markup {
                                     \fontsize
                                         #3
@@ -594,7 +798,7 @@
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            c''32 -\staccato
+                            c'32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -606,7 +810,7 @@
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            g'32 -\staccato
+                            g''32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -614,11 +818,11 @@
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            g'32 -\staccato
+                            g''32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            f'32 -\staccato
+                            f''32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
@@ -656,19 +860,19 @@
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            c''32 -\staccato
+                            c'32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            e'32 -\staccato
+                            e''32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            f'32 -\staccato
+                            f''32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            g'32 -\staccato
+                            g''32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -688,80 +892,26 @@
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            c''32 -\staccato
+                            c'32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            af'32 -\staccato
+                            af''32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            b'32 -\staccato
+                            b''32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            af'32 -\staccato
+                            af''32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             c''32 -\staccato ]
                         }
                     }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \tweak edge-height #'(0.7 . 0)
-                        \times 8/7 {
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #2
-                            f''16 [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    \concat
-                                                        {
-                                                            G1
-                                                            \sub
-                                                                7
-                                                        }
-                                                    ]
-                                                }
-                                    }
-                            \acciaccatura {
-                                b'16
-                            }
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            fs''16
-                            \acciaccatura {
-                                d''16
-                            }
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            c''16
-                            \acciaccatura {
-                                ef''16
-                            }
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            b'16
-                            \acciaccatura {
-                                fs'16
-                            }
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #0
-                            f'16 ]
-                        }
-                    }
+                    s1 * 5/14
                     {
                         {
                             \once \override Beam.positions = #'(7 . 7)
@@ -792,7 +942,7 @@
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            c''32 -\staccato
+                            c'32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -800,130 +950,20 @@
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            f'32 -\staccato
+                            f''32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            g'32 -\staccato ]
+                            g''32 -\staccato ]
                         }
                     }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #2
-                            f''16 [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    \concat
-                                                        {
-                                                            G1
-                                                            \sub
-                                                                8
-                                                        }
-                                                    ]
-                                                }
-                                    }
-                            \acciaccatura {
-                                b''16
-                            }
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            fs''16
-                            \acciaccatura {
-                                d''16
-                            }
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            c''16
-                            \acciaccatura {
-                                ef''16
-                            }
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            b'16
-                            \acciaccatura {
-                                fs''16
-                            }
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            f''16
-                            \acciaccatura {
-                                c''16
-                            }
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            ef''16
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #1
-                            d''16
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 5/7 {
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #2
-                            f'16
-                            \acciaccatura {
-                                b'16
-                            }
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            fs'16
-                            \acciaccatura {
-                                d''16
-                            }
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            c''16
-                            \acciaccatura {
-                                ef'16
-                            }
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            b'16
-                            \acciaccatura {
-                                fs'16
-                            }
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            f'16
-                            \acciaccatura {
-                                c'16
-                            }
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            ef'16
-                            \once \override Beam.positions = #'(6 . 6)
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #0
-                            d'16 ]
-                        }
-                    }
+                    s1 * 13/16
                     {
                         {
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            b'32 -\staccato [
+                            b''32 -\staccato [
                                 ^ \markup {
                                     \fontsize
                                         #3
@@ -944,11 +984,11 @@
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            af'32 -\staccato
+                            af''32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            c''32 -\staccato
+                            c'32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -968,15 +1008,15 @@
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            g'32 -\staccato
+                            g''32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            f'32 -\staccato
+                            f''32 -\staccato
                             \once \override Beam.positions = #'(7 . 7)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            e'32 -\staccato ]
+                            e''32 -\staccato ]
                         }
                     }
                     {
@@ -985,7 +1025,7 @@
                                 \once \override Beam.positions = #'(7 . 7)
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                c''32 -\staccato [
+                                c'32 -\staccato [
                                     ^ \markup {
                                         \fontsize
                                             #3
@@ -1022,19 +1062,19 @@
                                 \once \override Beam.positions = #'(7 . 7)
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                e'32 -\staccato
+                                e''32 -\staccato
                                 \once \override Beam.positions = #'(7 . 7)
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                f'32 -\staccato
+                                f''32 -\staccato
                                 \once \override Beam.positions = #'(7 . 7)
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                g'32 -\staccato
+                                g''32 -\staccato
                                 \once \override Beam.positions = #'(7 . 7)
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                ef''32 -\staccato
+                                ef'32 -\staccato
                                 \once \override Beam.positions = #'(7 . 7)
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
@@ -1054,11 +1094,11 @@
                                 \once \override Beam.positions = #'(7 . 7)
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                af'32 -\staccato
+                                af''32 -\staccato
                                 \once \override Beam.positions = #'(7 . 7)
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                b'32 -\staccato ]
+                                b''32 -\staccato ]
                             }
                         }
                     }
@@ -1069,16 +1109,24 @@
                             \set stemRightBeamCount = #3
                             af''32 -\staccato [
                                 ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    D2
-                                                    ]
-                                                }
+                                    \column
+                                        {
+                                            \whiteout
+                                                \override
+                                                    #'(box-padding . 0.5)
+                                                    \box
+                                                        "Metric Modulation"
+                                            \fontsize
+                                                #3
+                                                \with-color
+                                                    #darkgreen
+                                                    \concat
+                                                        {
+                                                            [
+                                                            D2
+                                                            ]
+                                                        }
+                                        }
                                     }
                             \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
@@ -1662,9 +1710,192 @@
                         }
                     }
                     s1 * 15/32
-                    s1 * 5/14
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 8/7 {
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #0
+                            \set stemRightBeamCount = #2
+                            f''16 [
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    \concat
+                                                        {
+                                                            G1
+                                                            \sub
+                                                                7
+                                                        }
+                                                    ]
+                                                }
+                                    }
+                            \acciaccatura {
+                                b'16
+                            }
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            fs''16
+                            \acciaccatura {
+                                d''16
+                            }
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            c''16
+                            \acciaccatura {
+                                ef''16
+                            }
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            b'16
+                            \acciaccatura {
+                                fs'16
+                            }
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #0
+                            f'16 ]
+                        }
+                    }
                     s1 * 3/16
-                    s1 * 13/16
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #0
+                            \set stemRightBeamCount = #2
+                            f''16 [
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    \concat
+                                                        {
+                                                            G1
+                                                            \sub
+                                                                8
+                                                        }
+                                                    ]
+                                                }
+                                    }
+                            \acciaccatura {
+                                b''16
+                            }
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            fs''16
+                            \acciaccatura {
+                                d''16
+                            }
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            c''16
+                            \acciaccatura {
+                                ef''16
+                            }
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            b'16
+                            \acciaccatura {
+                                fs''16
+                            }
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            f''16
+                            \acciaccatura {
+                                c''16
+                            }
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            ef''16
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #1
+                            d''16
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 5/7 {
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #2
+                            f'16
+                            \acciaccatura {
+                                b'16
+                            }
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            fs'16
+                            \acciaccatura {
+                                d''16
+                            }
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            c''16
+                            \acciaccatura {
+                                ef'16
+                            }
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            b'16
+                            \acciaccatura {
+                                fs'16
+                            }
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            f'16
+                            \acciaccatura {
+                                c'16
+                            }
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            ef'16
+                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Stem.direction = #up
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #0
+                            d'16 ]
+                        }
+                    }
                     s1 * 5/16
                     s1 * 5/16
                     s1 * 1/2

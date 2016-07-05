@@ -37,7 +37,7 @@ def make_delicatissimo_figure_maker():
                     ),
                 ),
             annotate_unregistered_pitches=True,
-            preferred_denominator=16,
+            preferred_denominator=32,
             )
 
     ..  container:: example
@@ -113,7 +113,7 @@ def make_delicatissimo_figure_maker():
                             R1 * 1/32
                         }
                         {
-                            \time 3/16
+                            \time 6/32
                             R1 * 3/16
                         }
                     }
@@ -137,7 +137,7 @@ def make_delicatissimo_figure_maker():
                             s1 * 1/32
                         }
                         {
-                            \time 3/16
+                            \time 6/32
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                             \newSpacingSection
                             s1 * 3/16
@@ -292,11 +292,11 @@ def make_delicatissimo_figure_maker():
                             R1 * 9/32
                         }
                         {
-                            \time 7/16
+                            \time 14/32
                             R1 * 7/16
                         }
                         {
-                            \time 4/16
+                            \time 8/32
                             R1 * 1/4
                         }
                     }
@@ -308,13 +308,13 @@ def make_delicatissimo_figure_maker():
                             s1 * 9/32
                         }
                         {
-                            \time 7/16
+                            \time 14/32
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                             \newSpacingSection
                             s1 * 7/16
                         }
                         {
-                            \time 4/16
+                            \time 8/32
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                             \newSpacingSection
                             s1 * 1/4
@@ -469,6 +469,6 @@ def make_delicatissimo_figure_maker():
                 ),
             ),
         annotate_unregistered_pitches=True,
-        preferred_denominator=16,
+        preferred_denominator=32,
         )
     return figure_maker

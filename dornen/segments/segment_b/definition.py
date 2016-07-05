@@ -97,7 +97,7 @@ accumulator(
 
 accumulator(
     accumulator.graced_tuplet_figure_maker(
-        accumulator.reveal(design[5:6], 5),
+        accumulator.reveal(design[5:6], 3),
         baca.overrides.stem_up(),
         baca.pitch.register(0),
         figure_name='G1_3',
@@ -119,7 +119,8 @@ accumulator(
 
 accumulator(
     accumulator.graced_tuplet_figure_maker(
-        accumulator.reveal(design[5:6], 5),
+        accumulator.reveal(design[5:6], 1),
+        baca.overrides.proportional_notation_duration((1, 42)),
         baca.overrides.stem_up(),
         baca.pitch.register(0),
         figure_name='G1_4',
@@ -129,7 +130,7 @@ accumulator(
 
 accumulator(
     accumulator.delicatissimo_figure_maker(
-        accumulator.reveal(cell_d1, 7),
+        accumulator.reveal(cell_d1, 3),
         baca.overrides.beam_positions(7),
         baca.pitch.register(-8),
         figure_name='D1_2',
@@ -139,7 +140,7 @@ accumulator(
 
 accumulator(
     accumulator.graced_tuplet_figure_maker(
-        accumulator.reveal(design[5:6]),
+        accumulator.reveal(design[5:6], 5),
         baca.overrides.stem_up(),
         baca.pitch.register(0),
         figure_name='G1_5',
@@ -149,7 +150,7 @@ accumulator(
 
 accumulator(
     accumulator.delicatissimo_figure_maker(
-        accumulator.reveal(cell_d1, 15),
+        accumulator.reveal(cell_d1, 10),
         baca.overrides.beam_positions(7),
         baca.pitch.register(-8),
         figure_name='D1_3',
@@ -159,7 +160,7 @@ accumulator(
 
 accumulator(
     accumulator.graced_tuplet_figure_maker(
-        accumulator.reveal(design[5:6], 8),
+        accumulator.reveal(design[5:6], 3),
         baca.overrides.stem_up(),
         baca.pitch.register(0),
         figure_name='G1_6',
@@ -169,7 +170,7 @@ accumulator(
 
 accumulator(
     accumulator.delicatissimo_figure_maker(
-        cell_d1,
+        accumulator.reveal(cell_d1, 15),
         baca.overrides.beam_positions(7),
         baca.pitch.register(-8),
         figure_name='D1_4',
@@ -179,10 +180,53 @@ accumulator(
 
 accumulator(
     accumulator.graced_tuplet_figure_maker(
-        design[5:6] + design[5:6],
+        accumulator.reveal(design[5:6], 9),
         baca.overrides.beam_positions(6),
         baca.pitch.register(0, -14),
-        figure_name='G1',
+        figure_name='G1_7',
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.delicatissimo_figure_maker(
+        accumulator.reveal(cell_d1, 6),
+        baca.overrides.beam_positions(7),
+        baca.pitch.register(-8),
+        figure_name='D1_5',
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.graced_tuplet_figure_maker(
+        accumulator.repeat(design[5:6], n=2),
+        baca.overrides.beam_positions(6),
+        baca.pitch.register(0, -14),
+        figure_name='G1_8',
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.delicatissimo_figure_maker(
+        accumulator.reveal(cell_d1, 10),
+        baca.overrides.beam_positions(7),
+        baca.pitch.register(-8),
+        figure_name='D1_6',
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.delicatissimo_figure_maker(
+        accumulator.reveal(cell_d1, -15),
+        baca.overrides.beam_positions(7),
+        baca.pitch.register(-8),
+        baca.tools.NestingSpecifier(
+            time_treatments=[abjad.Multiplier((2, 3))],
+            ),
+        figure_name='D1_7',
         ),
     voice_number=1,
     )
@@ -192,9 +236,6 @@ accumulator(
         design[6:7],
         baca.overrides.text_script_staff_padding(9),
         baca.pitch.register(6, -20),
-        baca.tools.MarkupSpecifier(
-            markup=baca.markup.delicatiss(),
-            ),
         figure_name='D2',
         ),
     voice_number=1,
@@ -279,7 +320,7 @@ assert len(design) == 22
 ###############################################################################
 
 tempo_specifier = baca.tools.TempoSpecifier([
-    #(1, dornen.materials.tempi[44]),
+    (21, dornen.materials.tempi[66]),
     ])
 
 spacing_specifier = baca.tools.SpacingSpecifier(

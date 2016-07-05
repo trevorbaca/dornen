@@ -43,7 +43,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
             >>> f(staff)
             \new Staff {
                 {
-                    \time 5/16
+                    \time 10/32
                     {
                         {
                             \set stemLeftBeamCount = #0
@@ -266,7 +266,21 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         return result
 
     @staticmethod
-    def reveal(cells, total=None):
+    def repeat(cells, n=1, flatten=False):
+        r'''Repeats cells.
+
+        Returns new list.
+        '''
+        result = []
+        for i in range(n):
+            for cell in cells:
+                result.append(cell[:])
+        if flatten:
+            result = [abjad.sequencetools.flatten_sequence(result)]
+        return result
+
+    @classmethod
+    def reveal(class_, cells, total=None):
         r'''Reveals `cells` to `total`.
 
         Returns new list.
@@ -275,14 +289,19 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
             return cells
         current = 0
         result = []
-        for cell in cells:
-            cell_ = []
-            result.append(cell_)
-            for item in cell:
-                cell_.append(item)
-                current += 1
-                if current == total:
-                    return result
+        if 0 < total:
+            for cell in cells:
+                cell_ = []
+                result.append(cell_)
+                for item in cell:
+                    cell_.append(item)
+                    current += 1
+                    if current == total:
+                        return result
+        else:
+            cells = class_.reverse(cells)
+            cells = class_.reveal(cells, total=abs(total))
+            result = class_.reverse(cells)
         return result
 
     @staticmethod

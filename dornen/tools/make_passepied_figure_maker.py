@@ -232,7 +232,7 @@ def make_passepied_figure_maker():
             ...     [8],
             ...     [1, 0, 10, 5],
             ...     [8, 6, 11, 2],
-            ...     [4, 3, 9, 8],
+            ...     [4, 3, 9, 7],
             ...     [6, 11, 2, 5],
             ...     ]
             >>> stage_tokens = datastructuretools.CyclicTuple(stage_tokens)
@@ -245,9 +245,9 @@ def make_passepied_figure_maker():
             >>> for figure_token in figure_tokens:
             ...     figure_token
             ([8], [1, 0, 10, 5], [8, 6, 11, 2])
-            ([1, 0, 10, 5], [8, 6, 11, 2], [4, 3, 9, 8])
-            ([8, 6, 11, 2], [4, 3, 9, 8], [6, 11, 2, 5])
-            ([4, 3, 9, 8], [6, 11, 2, 5], [8])
+            ([1, 0, 10, 5], [8, 6, 11, 2], [4, 3, 9, 7])
+            ([8, 6, 11, 2], [4, 3, 9, 7], [6, 11, 2, 5])
+            ([4, 3, 9, 7], [6, 11, 2, 5], [8])
 
         ::
 
@@ -408,7 +408,7 @@ def make_passepied_figure_maker():
                                     a'16
                                     \set stemLeftBeamCount = #2
                                     \set stemRightBeamCount = #0
-                                    af'16 ]
+                                    g'16 ]
                                 }
                             }
                             {
@@ -434,7 +434,7 @@ def make_passepied_figure_maker():
                                     a'16
                                     \set stemLeftBeamCount = #2
                                     \set stemRightBeamCount = #1
-                                    af'16
+                                    g'16
                                 }
                                 {
                                     \set stemLeftBeamCount = #1
@@ -460,7 +460,7 @@ def make_passepied_figure_maker():
                                     }
                                     \set stemLeftBeamCount = #0
                                     \set stemRightBeamCount = #3
-                                    af'32 [
+                                    g'32 [
                                 }
                                 {
                                     \set stemLeftBeamCount = #1

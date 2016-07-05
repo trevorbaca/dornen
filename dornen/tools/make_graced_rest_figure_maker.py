@@ -219,7 +219,7 @@ def make_graced_rest_figure_maker():
             ...     [8],
             ...     [1, 0, 10, 5, None],
             ...     [8, 6, 11, 2, None],
-            ...     [4, 3, 9, 8, None],
+            ...     [4, 3, 9, 7, None],
             ...     [6, 11, 2, 5, None],
             ...     ]
             >>> stage_tokens = datastructuretools.CyclicTuple(stage_tokens)
@@ -232,9 +232,9 @@ def make_graced_rest_figure_maker():
             >>> for figure_token in figure_tokens:
             ...     figure_token
             ([8], [1, 0, 10, 5, None], [8, 6, 11, 2, None])
-            ([1, 0, 10, 5, None], [8, 6, 11, 2, None], [4, 3, 9, 8, None])
-            ([8, 6, 11, 2, None], [4, 3, 9, 8, None], [6, 11, 2, 5, None])
-            ([4, 3, 9, 8, None], [6, 11, 2, 5, None], [8])
+            ([1, 0, 10, 5, None], [8, 6, 11, 2, None], [4, 3, 9, 7, None])
+            ([8, 6, 11, 2, None], [4, 3, 9, 7, None], [6, 11, 2, 5, None])
+            ([4, 3, 9, 7, None], [6, 11, 2, 5, None], [8])
 
         ::
 
@@ -367,7 +367,7 @@ def make_graced_rest_figure_maker():
                                         e'16 [
                                         ef'16
                                         a'16
-                                        af'16 ]
+                                        g'16 ]
                                     }
                                     r8
                                 }
@@ -387,7 +387,7 @@ def make_graced_rest_figure_maker():
                                         e'16 [
                                         ef'16
                                         a'16
-                                        af'16 ]
+                                        g'16 ]
                                     }
                                     r8
                                 }
@@ -407,7 +407,7 @@ def make_graced_rest_figure_maker():
                                         e'16 [
                                         ef'16
                                         a'16
-                                        af'16 ]
+                                        g'16 ]
                                     }
                                     r8
                                 }
@@ -429,7 +429,6 @@ def make_graced_rest_figure_maker():
                     }
                 >>
             >>
-
 
     Returns figure maker.
     '''

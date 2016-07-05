@@ -266,11 +266,13 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         return result
 
     @staticmethod
-    def reveal(cells, total):
+    def reveal(cells, total=None):
         r'''Reveals `cells` to `total`.
 
         Returns new list.
         '''
+        if total is None:
+            return cells
         current = 0
         result = []
         for cell in cells:

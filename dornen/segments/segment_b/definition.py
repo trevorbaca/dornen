@@ -109,7 +109,7 @@ cell_d1 = accumulator.boustrophedon(design[4:5], count=4, flatten=True)
 
 accumulator(
     accumulator.delicatissimo_figure_maker(
-        cell_d1,
+        accumulator.reveal(cell_d1, 4),
         baca.overrides.beam_positions(7),
         baca.pitch.register(-8),
         figure_name='D1_1',
@@ -119,7 +119,7 @@ accumulator(
 
 accumulator(
     accumulator.graced_tuplet_figure_maker(
-        accumulator.reveal(design[5:6], 7),
+        accumulator.reveal(design[5:6], 5),
         baca.overrides.stem_up(),
         baca.pitch.register(0),
         figure_name='G1_4',
@@ -129,10 +129,50 @@ accumulator(
 
 accumulator(
     accumulator.delicatissimo_figure_maker(
-        cell_d1,
+        accumulator.reveal(cell_d1, 7),
         baca.overrides.beam_positions(7),
         baca.pitch.register(-8),
         figure_name='D1_2',
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.graced_tuplet_figure_maker(
+        accumulator.reveal(design[5:6]),
+        baca.overrides.stem_up(),
+        baca.pitch.register(0),
+        figure_name='G1_5',
+        ),
+    voice_number=3,
+    )
+
+accumulator(
+    accumulator.delicatissimo_figure_maker(
+        accumulator.reveal(cell_d1, 15),
+        baca.overrides.beam_positions(7),
+        baca.pitch.register(-8),
+        figure_name='D1_3',
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.graced_tuplet_figure_maker(
+        accumulator.reveal(design[5:6], 8),
+        baca.overrides.stem_up(),
+        baca.pitch.register(0),
+        figure_name='G1_6',
+        ),
+    voice_number=3,
+    )
+
+accumulator(
+    accumulator.delicatissimo_figure_maker(
+        cell_d1,
+        baca.overrides.beam_positions(7),
+        baca.pitch.register(-8),
+        figure_name='D1_4',
         ),
     voice_number=1,
     )

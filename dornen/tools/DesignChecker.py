@@ -12,6 +12,10 @@ class DesignChecker(abjad.abctools.AbjadObject):
         '_design',
         )
 
+    _foreshadow_tag = 'foreshadow'
+
+    _recollection_tag = 'recollection'
+
     ### INITIALIZER ###
 
     def __init__(self, design=None):
@@ -59,15 +63,18 @@ class DesignChecker(abjad.abctools.AbjadObject):
 
     def _get_score_pitch_classes(self, score):
         result = []
-        leaves = []
-        for leaf in abjad.iterate(score).by_class(
-            abjad.Note,
-            with_grace_notes=True,
-            ):
-            leaves.append(leaf)
-        leaves.sort(key=lambda _: abjad.inspect_(_).get_timespan().start_offset)
-        for leaf in leaves:
-            pitch_class = leaf.written_pitch.numbered_pitch_class
+        notes = []
+        for note in abjad.iterate(score).by_class(with_grace_notes=True):
+            if not isinstance(note, abjad.Note):
+                continue
+            if abjad.inspect_(note).get_indicator(self._foreshadow_tag):
+                continue
+            if abjad.inspect_(note).get_indicator(self._recollection_tag):
+                continue
+            notes.append(note)
+        notes.sort(key=lambda _: abjad.inspect_(_).get_timespan().start_offset)
+        for note in notes:
+            pitch_class = note.written_pitch.numbered_pitch_class
             result.append(pitch_class)
         return result
 

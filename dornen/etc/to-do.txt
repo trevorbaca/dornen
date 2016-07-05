@@ -6,10 +6,21 @@
 
 4. Introduction of graced tuplets as revelation.
 
-5. Introduction of tremolo. As revelation?
+5. Five-voice structure.
 
-6. Introduction of two-note alternation. As revelation?
+### C ###
 
-7. Metric modulation up to 66.
+1. Introduce tremolo.
 
-8. Five-voice structure.
+2. Introduce two-note alternation.
+
+### AFTER CONCERT ###
+
+1. Implement figure-named stage expressions:
+    segment_maker.append_specifiers(
+        ('Guitar Music Voice 1', baca.tools.stages('D1_1', 'D1_7')),
+        [
+            baca.pitch.register(-12),
+            baca.pitch.octave_displacements([0, 0, 0, 0, 1, 1, 1, 1]),
+            ],
+        )

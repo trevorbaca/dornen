@@ -111,7 +111,7 @@ accumulator(
     accumulator.delicatissimo_figure_maker(
         accumulator.reveal(cell_d1, 4),
         baca.overrides.beam_positions(7),
-        baca.pitch.register(-8),
+        #baca.pitch.register(-8),
         figure_name='D1_1',
         ),
     voice_number=1,
@@ -132,7 +132,7 @@ accumulator(
     accumulator.delicatissimo_figure_maker(
         accumulator.reveal(cell_d1, 3),
         baca.overrides.beam_positions(7),
-        baca.pitch.register(-8),
+        #baca.pitch.register(-8),
         figure_name='D1_2',
         ),
     voice_number=1,
@@ -152,7 +152,7 @@ accumulator(
     accumulator.delicatissimo_figure_maker(
         accumulator.reveal(cell_d1, 10),
         baca.overrides.beam_positions(7),
-        baca.pitch.register(-8),
+        #baca.pitch.register(-8),
         figure_name='D1_3',
         ),
     voice_number=1,
@@ -172,7 +172,7 @@ accumulator(
     accumulator.delicatissimo_figure_maker(
         accumulator.reveal(cell_d1, 15),
         baca.overrides.beam_positions(7),
-        baca.pitch.register(-8),
+        #baca.pitch.register(-8),
         figure_name='D1_4',
         ),
     voice_number=1,
@@ -182,17 +182,18 @@ accumulator(
     accumulator.graced_tuplet_figure_maker(
         accumulator.reveal(design[5:6], 9),
         baca.overrides.beam_positions(6),
+        baca.overrides.stem_up(),
         baca.pitch.register(0, -14),
         figure_name='G1_7',
         ),
-    voice_number=1,
+    voice_number=3,
     )
 
 accumulator(
     accumulator.delicatissimo_figure_maker(
         accumulator.reveal(cell_d1, 6),
         baca.overrides.beam_positions(7),
-        baca.pitch.register(-8),
+        #baca.pitch.register(-8),
         figure_name='D1_5',
         ),
     voice_number=1,
@@ -202,17 +203,18 @@ accumulator(
     accumulator.graced_tuplet_figure_maker(
         accumulator.repeat(design[5:6], n=2),
         baca.overrides.beam_positions(6),
+        baca.overrides.stem_up(),
         baca.pitch.register(0, -14),
         figure_name='G1_8',
         ),
-    voice_number=1,
+    voice_number=3,
     )
 
 accumulator(
     accumulator.delicatissimo_figure_maker(
         accumulator.reveal(cell_d1, 10),
         baca.overrides.beam_positions(7),
-        baca.pitch.register(-8),
+        #baca.pitch.register(-8),
         figure_name='D1_6',
         ),
     voice_number=1,
@@ -222,7 +224,7 @@ accumulator(
     accumulator.delicatissimo_figure_maker(
         accumulator.reveal(cell_d1, -15),
         baca.overrides.beam_positions(7),
-        baca.pitch.register(-8),
+        #baca.pitch.register(-8),
         baca.tools.NestingSpecifier(
             time_treatments=[abjad.Multiplier((2, 3))],
             ),
@@ -234,6 +236,7 @@ accumulator(
 accumulator(
     accumulator.delicatissimo_figure_maker(
         design[6:7],
+        baca.markup.make_boxed_markup_specifier('Metric Modulation'),
         baca.overrides.text_script_staff_padding(9),
         baca.pitch.register(6, -20),
         figure_name='D2',
@@ -334,7 +337,7 @@ segment_maker = baca.tools.SegmentMaker(
     allow_figure_names=True,
     #design_checker=dornen.tools.DesignChecker(design=design),
     #label_clock_time=True,
-    #label_stages=True,
+    label_stages=True,
     measures_per_stage=measures_per_stage,
     score_package=dornen,
     score_template=dornen.tools.ScoreTemplate(),
@@ -361,3 +364,15 @@ for voice_name, selections in items:
             rhythm_maker=complete_selection,
             ),
         )
+
+###############################################################################
+########################### CROSS-STAGE SPECIFIERS ############################
+###############################################################################
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 1', baca.tools.stages(9, 20)),
+    [
+        baca.pitch.register(-12),
+        baca.pitch.octave_displacements([0, 0, 0, 0, 1, 1, 1, 1]),
+        ],
+    )

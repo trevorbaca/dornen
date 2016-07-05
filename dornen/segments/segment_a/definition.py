@@ -8,9 +8,7 @@ import dornen
 ##################################### [A] #####################################
 ###############################################################################
 
-accumulator = dornen.tools.FigureAccumulator(
-    #hide_figure_names=True,
-    )
+accumulator = dornen.tools.FigureAccumulator()
 
 design_2 = dornen.tools.make_design_2()
 trees = design_2.iterate_at_level(level=-2)
@@ -28,9 +26,9 @@ accumulator(
         design[:4],
         baca.overrides.beam_positions(8),
         baca.pitch.register(0, -14),
+        figure_name='W1',
         preferred_denominator=16,
         ),
-    figure_name='W1',
     voice_number=1,
     )
 
@@ -41,9 +39,9 @@ accumulator(
         baca.overrides.proportional_notation_duration((1, 40)),
         baca.pitch.register(6),
         extend_beam=True,
+        figure_name=accumulator.name('F1', '1'),
         is_incomplete=True,
         ),
-    figure_name=accumulator.name('F1', '1'),
     voice_number=2,
     )
 
@@ -55,8 +53,8 @@ accumulator(
             dynamic=abjad.Hairpin('f < ff'),
             ),
         extend_beam=True,
+        figure_name='R1',
         ),
-    figure_name='R1',
     voice_number=1,
     )
 
@@ -65,8 +63,8 @@ accumulator(
         accumulator.reveal(design[4:5], 2),
         baca.pitch.register(6),
         extend_beam=True,
+        figure_name=accumulator.name('F1', '2'),
         ),
-    figure_name=accumulator.name('F1', '2'),
     voice_number=2,
     )
 
@@ -78,8 +76,8 @@ accumulator(
             dynamic=abjad.Hairpin('mf < f'),
             ),
         extend_beam=True,
+        figure_name='R2',
         ),
-    figure_name='R2',
     voice_number=1,
     )
 
@@ -88,8 +86,8 @@ accumulator(
         accumulator.reveal(design[4:5], 3),
         baca.pitch.register(6),
         extend_beam=True,
+        figure_name=accumulator.name('F1', '3'),
         ),
-    figure_name=accumulator.name('F1', '3'),
     voice_number=2,
     )
 
@@ -101,8 +99,8 @@ accumulator(
             dynamic=abjad.Hairpin('mp < mf'),
             ),
         extend_beam=True,
+        figure_name='R3',
         ),
-    figure_name='R3',
     voice_number=1,
     )
 
@@ -111,8 +109,8 @@ accumulator(
         accumulator.reveal(design[4:5], 4),
         baca.pitch.register(6),
         extend_beam=True,
+        figure_name=accumulator.name('F1', '4'),
         ),
-    figure_name=accumulator.name('F1', '4'),
     voice_number=2,
     )
 
@@ -124,8 +122,8 @@ accumulator(
             dynamic=abjad.Hairpin('p < mp'),
             ),
         extend_beam=True,
+        figure_name='R4',
         ),
-    figure_name='R4',
     voice_number=1,
     )
 
@@ -133,8 +131,8 @@ accumulator(
     accumulator.monad_figure_maker(
         accumulator.reveal(design[4:5], 5),
         baca.pitch.register(6),
+        figure_name='F1',
         ),
-    figure_name='F1',
     voice_number=2,
     )
 
@@ -145,8 +143,8 @@ accumulator(
         baca.tools.DynamicSpecifier(
             dynamic=abjad.Hairpin('pp < p'),
             ),
+        figure_name='R5',
         ),
-    figure_name='R5',
     voice_number=1,
     )
 
@@ -156,8 +154,8 @@ accumulator(
         baca.overrides.proportional_notation_duration((1, 40)),
         baca.pitch.register(6),
         extend_beam=True,
+        figure_name=accumulator.name('F1', "1'"),
         ),
-    figure_name=accumulator.name('F1', "1'"),
     voice_number=2,
     )
 
@@ -170,8 +168,8 @@ accumulator(
             markup=baca.markup.delicatiss(),
             ),
         extend_beam=True,
+        figure_name='D1',
         ),
-    figure_name='D1',
     voice_number=1,
     )
 
@@ -179,8 +177,8 @@ accumulator(
     accumulator.monad_figure_maker(
         accumulator.reveal(design[4:5], 2),
         baca.pitch.register(6),
+        figure_name=accumulator.name('F1', "2'"),
         ),
-    figure_name=accumulator.name('F1', "2'"),
     voice_number=2,
     )
 
@@ -189,8 +187,8 @@ accumulator(
         design[13:],
         baca.pitch.register(-20, 6),
         extend_beam=True,
+        figure_name='D2',
         ),
-    figure_name='D2',
     voice_number=1,
     )
 
@@ -209,7 +207,6 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 
 measures_per_stage = len(accumulator.time_signatures) * [1]
 
-#print(design)
 segment_maker = baca.tools.SegmentMaker(
     #design_checker=dornen.tools.DesignChecker(design=design),
     #label_clock_time=True,

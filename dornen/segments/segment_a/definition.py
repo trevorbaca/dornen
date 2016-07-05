@@ -39,8 +39,7 @@ accumulator(
         baca.overrides.proportional_notation_duration((1, 40)),
         baca.pitch.register(6),
         extend_beam=True,
-        figure_name=accumulator.name('F1', '1'),
-        is_incomplete=True,
+        figure_name='F1_1',
         ),
     voice_number=2,
     )
@@ -63,7 +62,7 @@ accumulator(
         accumulator.reveal(design[4:5], 2),
         baca.pitch.register(6),
         extend_beam=True,
-        figure_name=accumulator.name('F1', '2'),
+        figure_name='F1_2',
         ),
     voice_number=2,
     )
@@ -86,7 +85,7 @@ accumulator(
         accumulator.reveal(design[4:5], 3),
         baca.pitch.register(6),
         extend_beam=True,
-        figure_name=accumulator.name('F1', '3'),
+        figure_name='F1_3',
         ),
     voice_number=2,
     )
@@ -109,7 +108,7 @@ accumulator(
         accumulator.reveal(design[4:5], 4),
         baca.pitch.register(6),
         extend_beam=True,
-        figure_name=accumulator.name('F1', '4'),
+        figure_name='F1_4',
         ),
     voice_number=2,
     )
@@ -154,7 +153,7 @@ accumulator(
         baca.overrides.proportional_notation_duration((1, 40)),
         baca.pitch.register(6),
         extend_beam=True,
-        figure_name=accumulator.name('F1', "1'"),
+        figure_name='F1_1*',
         ),
     voice_number=2,
     )
@@ -177,7 +176,7 @@ accumulator(
     accumulator.monad_figure_maker(
         accumulator.reveal(design[4:5], 2),
         baca.pitch.register(6),
-        figure_name=accumulator.name('F1', "2'"),
+        figure_name='F1_2*',
         ),
     voice_number=2,
     )
@@ -208,7 +207,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 measures_per_stage = len(accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
-    #allow_figure_names=True,
+    allow_figure_names=True,
     #design_checker=dornen.tools.DesignChecker(design=design),
     #label_clock_time=True,
     #label_stages=True,

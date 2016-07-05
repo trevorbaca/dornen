@@ -38,7 +38,7 @@ accumulator(
         baca.overrides.stem_up(),
         baca.pitch.register(0),
         extend_beam=True,
-        figure_name=accumulator.name('G1', '1'),
+        figure_name='G1_1',
         ),
     voice_number=3,
     )
@@ -60,7 +60,7 @@ accumulator(
         baca.overrides.stem_up(),
         baca.pitch.register(0),
         extend_beam=True,
-        figure_name=accumulator.name('G1', "1*"),
+        figure_name='G1_1*',
         ),
     voice_number=3,
     )
@@ -80,7 +80,7 @@ accumulator(
         accumulator.reveal(design[5:6], 3),
         baca.overrides.stem_up(),
         baca.pitch.register(0),
-        figure_name=accumulator.name('G1', '2'),
+        figure_name='G1_2',
         ),
     voice_number=3,
     )
@@ -100,7 +100,7 @@ accumulator(
         accumulator.reveal(design[5:6], 5),
         baca.overrides.stem_up(),
         baca.pitch.register(0),
-        figure_name=accumulator.name('G1', '3'),
+        figure_name='G1_3',
         ),
     voice_number=3,
     )
@@ -112,7 +112,7 @@ accumulator(
         cell_d1,
         baca.overrides.beam_positions(7),
         baca.pitch.register(-8),
-        figure_name=accumulator.name('D1', '1'),
+        figure_name='D1_1',
         ),
     voice_number=1,
     )
@@ -122,7 +122,7 @@ accumulator(
         accumulator.reveal(design[5:6], 7),
         baca.overrides.stem_up(),
         baca.pitch.register(0),
-        figure_name=accumulator.name('G1', '4'),
+        figure_name='G1_4',
         ),
     voice_number=3,
     )
@@ -132,7 +132,7 @@ accumulator(
         cell_d1,
         baca.overrides.beam_positions(7),
         baca.pitch.register(-8),
-        figure_name=accumulator.name('D1', '2'),
+        figure_name='D1_2',
         ),
     voice_number=1,
     )

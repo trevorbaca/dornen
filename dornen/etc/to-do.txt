@@ -1,26 +1,5 @@
-1. Integrate OctaveDeviationSpecifier.
-
-2. Anchor figures carried forward from introduction.
-
-3. Delicatiss. figures carried over from the end of [A].
-
-4. Introduction of graced tuplets as revelation.
-
-5. Five-voice structure.
-
 ### C ###
 
 1. Introduce tremolo.
 
 2. Introduce two-note alternation.
-
-### AFTER CONCERT ###
-
-1. Implement figure-named stage expressions:
-    segment_maker.append_specifiers(
-        ('Guitar Music Voice 1', baca.tools.stages('D1_1', 'D1_7')),
-        [
-            baca.pitch.register(-12),
-            baca.pitch.octave_displacements([0, 0, 0, 0, 1, 1, 1, 1]),
-            ],
-        )

@@ -236,18 +236,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
                             e'8. [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    1
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     s1 * 1/32
@@ -256,18 +244,6 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             b'8.
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    3
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     s1 * 1/32
@@ -276,18 +252,6 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             bf'8.
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    5
-                                                    ]
-                                                }
-                                    }
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #0
                             g'8. ]
@@ -300,18 +264,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
                             g'8. [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    7
-                                                    ]
-                                                }
-                                    }
                             \once \override Beam.positions = #'(9 . 9)
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
@@ -325,18 +277,6 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             c'8.
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    10
-                                                    ]
-                                                }
-                                    }
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             f'8.
@@ -355,18 +295,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
                             fs8. [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    12
-                                                    ]
-                                                }
-                                    }
                             \once \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
@@ -379,18 +307,6 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             af8.
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    14
-                                                    ]
-                                                }
-                                    }
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #0
                             c'8. ]
@@ -420,18 +336,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             c''32 [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    2
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     s1 * 3/16
@@ -448,18 +352,6 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             f'32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    4
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     s1 * 3/8
@@ -475,18 +367,6 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             e''32 ]
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    6
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     s1 * 3/8
@@ -503,18 +383,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             fs''32 [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    8
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     s1 * 3/32
@@ -537,18 +405,6 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             e''32 ]
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    13
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     s1 * 3/8
@@ -569,18 +425,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             fs''32 [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    15
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     {
@@ -594,18 +438,6 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             g''32 ]
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    16
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     s1 * 9/64
@@ -666,18 +498,6 @@
                             \once \override Beam.grow-direction = #left
                             \once \override Beam.positions = #'(-6 . -6)
                             b''64 * 320/1024 [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    18
-                                                    ]
-                                                }
-                                    }
                             \once \override Beam.positions = #'(-6 . -6)
                             af''64 * 640/1024
                             \once \override Beam.positions = #'(-6 . -6)
@@ -728,18 +548,6 @@
                             \once \override Beam.grow-direction = #left
                             \once \override Beam.positions = #'(-6 . -6)
                             f''64 * 192/1024 [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    19
-                                                    ]
-                                                }
-                                    }
                             \once \override Beam.positions = #'(-6 . -6)
                             b'64 * 448/1024
                             \once \override Beam.positions = #'(-6 . -6)
@@ -782,18 +590,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #4
                             af'64 [ (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    9
-                                                    ]
-                                                }
-                                    }
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             c'64
@@ -826,18 +622,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #4
                             b'64 [ (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    11
-                                                    ]
-                                                }
-                                    }
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             bf'64
@@ -908,18 +692,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #4
                             a'64 [ (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    17
-                                                    ]
-                                                }
-                                    }
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             cs''64

@@ -4,7 +4,7 @@ import baca
 
 
 def make_default_figure_maker():
-    r'''Makes default figure maker.
+    r'''Makes default figure-maker.
 
     ::
 
@@ -460,7 +460,7 @@ def make_default_figure_maker():
                 >>
             >>
 
-    Returns figure maker.
+    Returns figure-maker.
     '''
     figure_maker = baca.tools.FigureMaker(
         abjad.rhythmmakertools.BeamSpecifier(

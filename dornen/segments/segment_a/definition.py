@@ -14,7 +14,7 @@ design = design_2[:14]
 assert len(design) == 14
 
 accumulator(
-    accumulator.inverted_wave_figure_maker(
+    accumulator.inverted_wave_64_figure_maker(
         design[:4],
         baca.overrides.beam_positions(8),
         baca.pitch.register(0, -14),

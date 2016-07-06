@@ -4,7 +4,7 @@ import baca
 
 
 def make_running_figure_maker():
-    r'''Makes running figure maker.
+    r'''Makes running figure-maker.
 
     ::
 
@@ -516,7 +516,7 @@ def make_running_figure_maker():
                 >>
             >>
 
-    Returns figure maker.
+    Returns figure-maker.
     '''
     figure_maker = baca.tools.FigureMaker(
         abjad.rhythmmakertools.BeamSpecifier(

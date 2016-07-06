@@ -4,7 +4,7 @@ import baca
 
 
 def make_graced_rest_figure_maker():
-    r'''Makes graced rest figure maker.
+    r'''Makes graced rest figure-maker.
 
     ::
 
@@ -430,7 +430,7 @@ def make_graced_rest_figure_maker():
                 >>
             >>
 
-    Returns figure maker.
+    Returns figure-maker.
     '''
     figure_maker = baca.tools.FigureMaker(
         baca.tools.RhythmSpecifier(

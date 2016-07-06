@@ -4,7 +4,7 @@ import baca
 
 
 def make_passepied_figure_maker():
-    r'''Makes passepied figure maker.
+    r'''Makes passepied figure-maker.
 
     ::
 
@@ -488,7 +488,7 @@ def make_passepied_figure_maker():
                 >>
             >>
 
-    Returns figure maker.
+    Returns figure-maker.
     '''
     figure_maker = baca.tools.FigureMaker(
         abjad.rhythmmakertools.BeamSpecifier(

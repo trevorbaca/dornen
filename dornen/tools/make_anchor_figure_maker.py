@@ -4,7 +4,7 @@ import baca
 
 
 def make_anchor_figure_maker():
-    r'''Makes anchor figure maker.
+    r'''Makes anchor figure-maker.
 
     ::
 
@@ -157,7 +157,7 @@ def make_anchor_figure_maker():
                 >>
             >>
 
-    Returns figure maker.
+    Returns figure-maker.
     '''
     figure_maker = baca.tools.FigureMaker(
         baca.tools.RhythmSpecifier(

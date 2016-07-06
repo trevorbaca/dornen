@@ -4,7 +4,7 @@ import baca
 
 
 def make_wave_figure_maker(denominator=64, inverted=False):
-    r'''Makes wave figure maker.
+    r'''Makes wave figure-maker.
 
     ::
 
@@ -1091,7 +1091,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
                 >>
             >>
 
-    Returns figure maker.
+    Returns figure-maker.
     '''
     assert abjad.mathtools.is_positive_integer_power_of_two(denominator)
     assert 16 <= denominator, repr(denominator)

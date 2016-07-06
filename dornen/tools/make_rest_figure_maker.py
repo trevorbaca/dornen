@@ -4,7 +4,7 @@ import baca
 
 
 def make_rest_figure_maker(duration=None):
-    r'''Makes rest figure maker.
+    r'''Makes rest figure-maker.
 
     ::
 
@@ -280,7 +280,7 @@ def make_rest_figure_maker(duration=None):
                 >>
             >>
 
-    Returns figure maker.
+    Returns figure-maker.
     '''
     duration = duration or abjad.Duration(1, 8)
     figure_maker = baca.tools.FigureMaker(

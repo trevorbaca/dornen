@@ -131,32 +131,25 @@ def make_tremolo_figure_maker():
                                 \times 8/11 {
                                     \set stemLeftBeamCount = #0
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 :32 [
+                                    e'8 :32 [ ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #0
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 ] \repeatTie
+                                    e'8 :32 ]
                                 }
                             }
                             {
@@ -170,28 +163,22 @@ def make_tremolo_figure_maker():
                                 \times 8/11 {
                                     \set stemLeftBeamCount = #0
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 :32 [
+                                    e'8 :32 [ ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #0
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 ] \repeatTie
+                                    e'8 :32 ]
                                     \bar "|"
                                 }
                             }
@@ -316,45 +303,37 @@ def make_tremolo_figure_maker():
                                 \times 8/11 {
                                     \set stemLeftBeamCount = #0
                                     \set stemRightBeamCount = #1
-                                    e'8 :32 [
+                                    e'8 :32 [ ~
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 8/11 {
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 8/11 {
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #0
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 ] \repeatTie
+                                    e'8 :32 ]
                                 }
                             }
                             {
@@ -362,66 +341,52 @@ def make_tremolo_figure_maker():
                                 \times 8/11 {
                                     \set stemLeftBeamCount = #0
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 :32 [
+                                    e'8 :32 [ ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 8/11 {
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 8/11 {
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #0
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 ] \repeatTie
+                                    e'8 :32 ]
                                 }
                             }
                             {
@@ -429,42 +394,34 @@ def make_tremolo_figure_maker():
                                 \times 8/11 {
                                     \set stemLeftBeamCount = #0
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 :32 [
+                                    e'8 :32 [ ~
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 8/11 {
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #1
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 \repeatTie
+                                    e'8 :32 ~
                                 }
                                 \tweak edge-height #'(0.7 . 0)
                                 \times 8/11 {
                                     \set stemLeftBeamCount = #1
                                     \set stemRightBeamCount = #0
-                                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                    e'8 ] \repeatTie
+                                    e'8 :32 ]
                                     \bar "|"
                                 }
                             }
@@ -503,11 +460,17 @@ def make_tremolo_figure_maker():
                     beam_divisions_together=True,
                     ),
                 baca.tools.SpannerSpecifier(
-                    spanner=spannertools.Tie(
-                        use_messiaen_style_ties=True,
-                        ),
+                    spanner=spannertools.Tie(),
                     ),
                 baca.tools.StemTremoloSpecifier(
+                    selector=selectortools.Selector(
+                        callbacks=(
+                            selectortools.PrototypeSelectorCallback(
+                                prototype=scoretools.Leaf,
+                                flatten=True,
+                                ),
+                            ),
+                        ),
                     tremolo_flags=32,
                     ),
                 annotate_unregistered_pitches=True,
@@ -532,9 +495,12 @@ def make_tremolo_figure_maker():
             beam_divisions_together=True,
             ),
         baca.tools.SpannerSpecifier(
-            spanner=abjad.Tie(use_messiaen_style_ties=True),
+            spanner=abjad.Tie(),
             ),
-        baca.tools.StemTremoloSpecifier(tremolo_flags=32),
+        baca.tools.StemTremoloSpecifier(
+            selector=abjad.select().by_leaf(flatten=True),
+            tremolo_flags=32,
+            ),
         allow_repeated_pitches=True,
         annotate_unregistered_pitches=True,
         preferred_denominator=11,

@@ -39,12 +39,14 @@ accumulator(
 accumulator(
     accumulator.glissando_scatto_figure_maker(
         design[2:3],
-        baca.markup.make_markup_specifier('attack first note only'),
+        baca.markup.make_markup_specifier('glissando: attack first note only'),
+        baca.overrides.beam_positions(-12),
         baca.pitch.register(-8),
         baca.pitch.displacement([0, 1]),
+        extend_beam=True,
         figure_name='G1',
         ),
-    voice_number=1,
+    voice_number=2,
     )
 
 accumulator(
@@ -56,38 +58,37 @@ accumulator(
     voice_number=1,
     )
 
-#accumulator(
-#    accumulator.default_figure_maker(
-#        design[4:5],
-#        figure_name=5,
-#        ),
-#    voice_number=1,
-#    )
-#
-#accumulator(
-#    accumulator.default_figure_maker(
-#        design[5:6],
-#        figure_name=6,
-#        ),
-#    voice_number=1,
-#    )
-
 accumulator(
     accumulator.running_figure_maker(
         design[6:9],
-        baca.pitch.register(-14, 0),
+        baca.pitch.register(0, -14),
+        extend_beam=True,
         figure_name='R1',
         ),
-    voice_number=1,
+    voice_number=3,
     )
 
 accumulator(
     accumulator.running_figure_maker(
         design[7:10],
         baca.pitch.register(-14, 0),
+        extend_beam=True,
         figure_name='R2',
         ),
-    voice_number=1,
+    voice_number=3,
+    )
+
+accumulator(
+    accumulator.tremolo_figure_maker(
+        [[6, 6, 6]],
+        baca.markup.make_markup_specifier('with finger pad(s)'),
+        baca.overrides.beam_positions(11),
+        baca.pitch.register(-20),
+        baca.tools.ArticulationSpecifier(articulations=['ppp']),
+        extend_beam=True,
+        figure_name='T1',
+        ),
+    voice_number=4,
     )
 
 accumulator(
@@ -96,18 +97,8 @@ accumulator(
         baca.pitch.register(-14, 0),
         figure_name='R3',
         ),
-    voice_number=1,
+    voice_number=3,
     )
-
-#### 
-
-#accumulator(
-#    accumulator.default_figure_maker(
-#        design[:1],
-#        figure_name=11,
-#        ),
-#    voice_number=1,
-#    )
 
 accumulator(
     accumulator.wave_32_figure_maker(
@@ -118,22 +109,15 @@ accumulator(
     voice_number=1,
     )
 
-#accumulator(
-#    accumulator.default_figure_maker(
-#        design[2:3],
-#        figure_name=13,
-#        ),
-#    voice_number=1,
-#    )
-
 accumulator(
     accumulator.glissando_scatto_figure_maker(
         design[3:4],
         baca.pitch.register(-8),
         baca.pitch.displacement([0, 1]),
+        extend_beam=True,
         figure_name='G2',
         ),
-    voice_number=1,
+    voice_number=2,
     )
 
 accumulator(
@@ -152,25 +136,38 @@ accumulator(
         baca.pitch.displacement([0, 1]),
         figure_name='G3',
         ),
-    voice_number=1,
+    voice_number=2,
     )
 
 accumulator(
     accumulator.running_figure_maker(
         design[5:8],
-        baca.pitch.register(-14, 0),
+        baca.pitch.register(0, -14),
+        extend_beam=True,
         figure_name='R4',
         ),
-    voice_number=1,
+    voice_number=3,
     )
 
 accumulator(
     accumulator.running_figure_maker(
         design[6:9],
         baca.pitch.register(-14, 0),
+        extend_beam=True,
         figure_name='R5',
         ),
-    voice_number=1,
+    voice_number=3,
+    )
+
+accumulator(
+    accumulator.tremolo_figure_maker(
+        [[6, 6, 6, 6]],
+        baca.overrides.beam_positions(10),
+        baca.pitch.register(-20),
+        baca.tools.ArticulationSpecifier(articulations=['ppp']),
+        figure_name='T2',
+        ),
+    voice_number=4,
     )
 
 accumulator(
@@ -179,7 +176,7 @@ accumulator(
         baca.pitch.register(-14, 0),
         figure_name='R6',
         ),
-    voice_number=1,
+    voice_number=3,
     )
 
 ###############################################################################
@@ -198,7 +195,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 measures_per_stage = len(accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
-    allow_figure_names=True,
+    #allow_figure_names=True,
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
@@ -223,6 +220,15 @@ accumulator._populate_segment_maker(segment_maker)
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.tools.stages(1, 3)),
     [
+        baca.overrides.beam_positions(9),
+        baca.pitch.register(-20, 4),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 1', baca.tools.stages(4, 12)),
+    [
+        baca.overrides.beam_positions(6),
         baca.pitch.register(-20, 4),
         ],
     )

@@ -11,7 +11,7 @@
     \include "segment--introduction.ly"
     \include "segment-a.ly"
     \include "segment-b.ly"
-%    \include "segment-c.ly"
+    \include "segment-c.ly"
 %    \include "segment-d.ly"
 %    \include "segment-e.ly"
 %    \include "segment-f.ly"

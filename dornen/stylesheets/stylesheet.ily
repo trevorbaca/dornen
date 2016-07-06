@@ -161,6 +161,7 @@
         \name GuitarMusicVoiceTwo
         \type Engraver_group
         \alias Voice
+        \dynamicUp
         \override Accidental.color = #red
         \override Beam.color = #red
         \override Dots.color = #red
@@ -171,6 +172,9 @@
         \override Slur.color = #red
         \override Stem.color = #red
         \override Stem.direction = #down
+        \override StemTremolo.color = #red
+        \override TextScript.color = #red
+        \override TextScript.direction = #down
         \override TupletBracket.color = #red
         \override TupletNumber.color = #red
     }
@@ -186,16 +190,21 @@
         \name GuitarMusicVoiceFour
         \type Engraver_group
         \alias Voice
+        \dynamicUp
         \override Accidental.color = #red
         \override Beam.color = #red
         \override Dots.color = #red
         \override DynamicText.color = #red
+        \override DynamicText.direction = #up
         \override Hairpin.color = #red
         \override NoteHead.color = #red
         \override Script.color = #red
         \override Slur.color = #red
         \override Stem.color = #red
+        \override StemTremolo.color = #red
         \override Stem.direction = #up
+        \override TextScript.color = #red
+        \override TextScript.direction = #up
         \override TupletBracket.color = #red
         \override TupletNumber.color = #red
     }

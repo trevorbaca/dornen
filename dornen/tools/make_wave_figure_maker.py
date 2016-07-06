@@ -11,8 +11,6 @@ def make_wave_figure_maker(denominator=64, inverted=False):
         >>> import baca
         >>> import dornen
 
-    Duration defaults to sixty-fourths.
-
     ..  container:: example
 
         **Example 1.** Makes wave figures:
@@ -66,13 +64,17 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
+            >>> score = lilypond_file.score_block.items[0]
+            >>> override(score).tuplet_bracket.padding = 2
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
             >>> score = lilypond_file.score_block.items[0]
             >>> f(score)
-            \context Score = "Score" <<
+            \context Score = "Score" \with {
+                \override TupletBracket.padding = #2
+            } <<
                 \tag violin
                 \context TimeSignatureContext = "Time Signature Context" <<
                     \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -426,13 +428,17 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
+            >>> score = lilypond_file.score_block.items[0]
+            >>> override(score).tuplet_bracket.padding = 2
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
             >>> score = lilypond_file.score_block.items[0]
             >>> f(score)
-            \context Score = "Score" <<
+            \context Score = "Score" \with {
+                \override TupletBracket.padding = #2
+            } <<
                 \tag violin
                 \context TimeSignatureContext = "Time Signature Context" <<
                     \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -786,13 +792,17 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
+            >>> score = lilypond_file.score_block.items[0]
+            >>> override(score).tuplet_bracket.padding = 2
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
             >>> score = lilypond_file.score_block.items[0]
             >>> f(score)
-            \context Score = "Score" <<
+            \context Score = "Score" \with {
+                \override TupletBracket.padding = #2
+            } <<
                 \tag violin
                 \context TimeSignatureContext = "Time Signature Context" <<
                     \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {

@@ -1,5 +1,5 @@
     \context Score = "Score" \with {
-        currentBarNumber = #97
+        currentBarNumber = #105
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -249,18 +249,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             a''32 [ (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    1
-                                                    ]
-                                                }
-                                    }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
                             \once \override Dots.color = #magenta
@@ -290,18 +278,6 @@
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
                             ef''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    2
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     {
@@ -315,18 +291,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             d''32 [ (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    3
-                                                    ]
-                                                }
-                                    }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
                             \once \override Dots.color = #magenta
@@ -356,18 +320,6 @@
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
                             a''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    4
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     {
@@ -381,18 +333,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             cs''32 [ (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    5
-                                                    ]
-                                                }
-                                    }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
                             \once \override Dots.color = #magenta
@@ -422,18 +362,6 @@
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
                             b''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    6
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     {
@@ -447,18 +375,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             fs''32 [ (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    7
-                                                    ]
-                                                }
-                                    }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
                             \once \override Dots.color = #magenta
@@ -488,18 +404,6 @@
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
                             e''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    8
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     {
@@ -513,18 +417,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             af''32 [ (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    9
-                                                    ]
-                                                }
-                                    }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
                             \once \override Dots.color = #magenta
@@ -554,18 +446,6 @@
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
                             bf''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    10
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     {
@@ -577,18 +457,6 @@
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
                             ef''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    11
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     {
@@ -602,18 +470,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             e''32 [ (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    12
-                                                    ]
-                                                }
-                                    }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
                             \once \override Dots.color = #magenta
@@ -652,18 +508,6 @@
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
                             d''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    13
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     {
@@ -677,18 +521,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             af''32 [ (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    14
-                                                    ]
-                                                }
-                                    }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
                             \once \override Dots.color = #magenta
@@ -727,18 +559,6 @@
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
                             c''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    15
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     {
@@ -752,18 +572,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             af''32 [ (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    16
-                                                    ]
-                                                }
-                                    }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
                             \once \override Dots.color = #magenta
@@ -802,18 +610,6 @@
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
                             c''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    17
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     {
@@ -827,18 +623,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             cs''32 [ (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    18
-                                                    ]
-                                                }
-                                    }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
                             \once \override Dots.color = #magenta
@@ -877,18 +661,6 @@
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
                             bf''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    19
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     {
@@ -902,18 +674,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             ef''32 [ (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    20
-                                                    ]
-                                                }
-                                    }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
                             \once \override Dots.color = #magenta
@@ -952,18 +712,6 @@
                             \once \override NoteHead.color = #magenta
                             \once \override Stem.color = #magenta
                             a''32
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    21
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     {
@@ -977,18 +725,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             g''32 [ (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    22
-                                                    ]
-                                                }
-                                    }
                             \once \override Accidental.color = #magenta
                             \once \override Beam.color = #magenta
                             \once \override Dots.color = #magenta

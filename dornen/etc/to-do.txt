@@ -1,5 +1,9 @@
 ### C ###
 
-1. Introduce tremolo.
+1. Three-layered voice nesting.
 
-2. Introduce two-note alternation.
+2. Develop from running figuration to atomization.
+
+3. Introduce tremolo.
+
+4. Introduce doubly nested figures.

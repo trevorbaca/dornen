@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-def make_design_1():
+def make_design_1(start=None, stop=None):
     r'''Makes design I.
 
     ::
@@ -237,4 +237,14 @@ def make_design_1():
     design_maker.partition('blue', 4, [], ['T2'])
     design_maker.partition_cyclic('magenta', 8, [1, 3], ['alpha'])
     design_maker.partition_cyclic('blue', 8, [1, 4], ['alpha'])
-    return design_maker()
+    design = design_maker()
+    if start is None and stop is None:
+        return design
+    trees = design.iterate_at_level(level=-2)
+    design = []
+    for tree in trees:
+        numbered_pitch_classes = list(tree.iterate_payload())
+        numbers = [_.pitch_class_number for _ in numbered_pitch_classes]
+        design.append(numbers)
+    design = design[start:stop]
+    return design

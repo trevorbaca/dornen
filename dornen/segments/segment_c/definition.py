@@ -37,65 +37,147 @@ accumulator(
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.glissando_scatto_figure_maker(
         design[2:3],
-        figure_name=3,
+        baca.markup.make_markup_specifier('attack first note only'),
+        baca.pitch.register(-8),
+        baca.pitch.displacement([0, 1]),
+        figure_name='G1',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.inverted_wave_32_figure_maker(
+        design[3:6],
+        baca.pitch.register(-8),
+        figure_name='W4',
+        ),
+    voice_number=1,
+    )
+
+#accumulator(
+#    accumulator.default_figure_maker(
+#        design[4:5],
+#        figure_name=5,
+#        ),
+#    voice_number=1,
+#    )
+#
+#accumulator(
+#    accumulator.default_figure_maker(
+#        design[5:6],
+#        figure_name=6,
+#        ),
+#    voice_number=1,
+#    )
+
+accumulator(
+    accumulator.running_figure_maker(
+        design[6:9],
+        baca.pitch.register(-14, 0),
+        figure_name='R1',
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.running_figure_maker(
+        design[7:10],
+        baca.pitch.register(-14, 0),
+        figure_name='R2',
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.running_figure_maker(
+        design[8:] + design[:1],
+        baca.pitch.register(-14, 0),
+        figure_name='R3',
+        ),
+    voice_number=1,
+    )
+
+#### 
+
+#accumulator(
+#    accumulator.default_figure_maker(
+#        design[:1],
+#        figure_name=11,
+#        ),
+#    voice_number=1,
+#    )
+
+accumulator(
+    accumulator.wave_32_figure_maker(
+        design[1:3],
+        baca.pitch.register(-20),
+        figure_name='W5',
+        ),
+    voice_number=1,
+    )
+
+#accumulator(
+#    accumulator.default_figure_maker(
+#        design[2:3],
+#        figure_name=13,
+#        ),
+#    voice_number=1,
+#    )
+
+accumulator(
+    accumulator.glissando_scatto_figure_maker(
         design[3:4],
-        figure_name=4,
+        baca.pitch.register(-8),
+        baca.pitch.displacement([0, 1]),
+        figure_name='G2',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.wave_32_figure_maker(
+        design[1:4],
+        baca.pitch.register(-20, -4),
+        figure_name='W6',
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.glissando_scatto_figure_maker(
         design[4:5],
-        figure_name=5,
+        baca.pitch.register(-8),
+        baca.pitch.displacement([0, 1]),
+        figure_name='G3',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
-        design[5:6],
-        figure_name=6,
+    accumulator.running_figure_maker(
+        design[5:8],
+        baca.pitch.register(-14, 0),
+        figure_name='R4',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
-        design[6:7],
-        figure_name=7,
+    accumulator.running_figure_maker(
+        design[6:9],
+        baca.pitch.register(-14, 0),
+        figure_name='R5',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
-        design[7:8],
-        figure_name=8,
-        ),
-    voice_number=1,
-    )
-
-accumulator(
-    accumulator.default_figure_maker(
-        design[8:9],
-        figure_name=9,
-        ),
-    voice_number=1,
-    )
-
-accumulator(
-    accumulator.default_figure_maker(
-        design[9:],
-        figure_name=10,
+    accumulator.running_figure_maker(
+        design[7:10],
+        baca.pitch.register(-14, 0),
+        figure_name='R6',
         ),
     voice_number=1,
     )

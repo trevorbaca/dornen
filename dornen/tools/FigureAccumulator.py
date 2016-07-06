@@ -105,6 +105,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         'anchor_figure_maker',
         'delicatissimo_figure_maker',
         'default_figure_maker',
+        'glissando_scatto_figure_maker',
         'graced_tuplet_figure_maker',
         'inverted_wave_32_figure_maker',
         'inverted_wave_64_figure_maker',
@@ -112,6 +113,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         'ovoid_figure_maker',
         'passepied_figure_maker',
         'running_figure_maker',
+        'tremolo_figure_maker',
         'wave_32_figure_maker',
         'wave_64_figure_maker',
         )
@@ -139,6 +141,8 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         self.default_figure_maker = dornen.tools.make_default_figure_maker()
         self.delicatissimo_figure_maker = \
             dornen.tools.make_delicatissimo_figure_maker()
+        self.glissando_scatto_figure_maker = \
+            dornen.tools.make_glissando_scatto_figure_maker()
         self.graced_tuplet_figure_maker = \
             dornen.tools.make_graced_tuplet_figure_maker()
         self.inverted_wave_32_figure_maker = \
@@ -149,6 +153,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         self.monad_figure_maker = dornen.tools.make_monad_figure_maker()
         self.passepied_figure_maker = \
             dornen.tools.make_passepied_figure_maker()
+        self.tremolo_figure_maker = dornen.tools.make_tremolo_figure_maker()
         self.wave_32_figure_maker = \
             dornen.tools.make_wave_figure_maker(denominator=32)
         self.wave_64_figure_maker = \

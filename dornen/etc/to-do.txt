@@ -1,15 +1,11 @@
-1. Implement tremolo figure-maker.
+1. Recapitulate running figures from [A].
 
-2. Implement glissando scatto figure-maker.
+2. Introduce glissandi scatti.
 
-3. Recapitulate running figures from [A].
+3. Introduce tremolo on a single pitch. Later tremolo glissando.
 
-4. Introduce glissandi scatti.
+4. Develop from running figuration to atomization.
 
-5. Introduce tremolo on a single pitch. Later tremolo glissando.
+5. Include doubly nested figures.
 
-6. Develop from running figuration to atomization.
-
-7. Include doubly nested figures.
-
-8. Include three-layered voice nesting during atomization.
+6. Include three-layered voice nesting during atomization.

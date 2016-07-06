@@ -24,36 +24,52 @@
                     R1 * 11/64
                 }
                 {
-                    \time 4/32
-                    R1 * 1/8
-                }
-                {
-                    \time 3/32
-                    R1 * 3/32
-                }
-                {
-                    \time 2/32
-                    R1 * 1/16
-                }
-                {
-                    \time 1/32
-                    R1 * 1/32
+                    \time 5/32
+                    R1 * 5/32
                 }
                 {
                     \time 6/32
                     R1 * 3/16
                 }
                 {
+                    \time 3/16
+                    R1 * 3/16
+                }
+                {
+                    \time 9/64
+                    R1 * 9/64
+                }
+                {
                     \time 5/32
                     R1 * 5/32
                 }
                 {
-                    \time 4/32
+                    \time 9/32
+                    R1 * 9/32
+                }
+                {
+                    \time 2/16
                     R1 * 1/8
                 }
                 {
-                    \time 3/32
-                    R1 * 3/32
+                    \time 12/32
+                    R1 * 3/8
+                }
+                {
+                    \time 2/16
+                    R1 * 1/8
+                }
+                {
+                    \time 5/32
+                    R1 * 5/32
+                }
+                {
+                    \time 3/16
+                    R1 * 3/16
+                }
+                {
+                    \time 9/64
+                    R1 * 9/64
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
@@ -76,28 +92,10 @@
                     s1 * 11/64
                 }
                 {
-                    \time 4/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 5/32
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 5 224)
                     \newSpacingSection
-                    s1 * 1/8
-                }
-                {
-                    \time 3/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                    \newSpacingSection
-                    s1 * 3/32
-                }
-                {
-                    \time 2/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                    \newSpacingSection
-                    s1 * 1/16
-                }
-                {
-                    \time 1/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                    \newSpacingSection
-                    s1 * 1/32
+                    s1 * 5/32
                 }
                 {
                     \time 6/32
@@ -106,22 +104,64 @@
                     s1 * 3/16
                 }
                 {
+                    \time 3/16
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 256)
+                    \newSpacingSection
+                    s1 * 3/16
+                }
+                {
+                    \time 9/64
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 96)
+                    \newSpacingSection
+                    s1 * 9/64
+                }
+                {
                     \time 5/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 96)
                     \newSpacingSection
                     s1 * 5/32
                 }
                 {
-                    \time 4/32
+                    \time 9/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \newSpacingSection
+                    s1 * 9/32
+                }
+                {
+                    \time 2/16
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 1/8
                 }
                 {
-                    \time 3/32
+                    \time 12/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
-                    s1 * 3/32
+                    s1 * 3/8
+                }
+                {
+                    \time 2/16
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 1/8
+                }
+                {
+                    \time 5/32
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 80)
+                    \newSpacingSection
+                    s1 * 5/32
+                }
+                {
+                    \time 3/16
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 256)
+                    \newSpacingSection
+                    s1 * 3/16
+                }
+                {
+                    \time 9/64
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 96)
+                    \newSpacingSection
+                    s1 * 9/64
                 }
             }
         >>
@@ -386,16 +426,11 @@
                         \revert TupletNumber.text
                     }
                     {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 5/7 {
                             \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            g''32 [ (
+                            \set stemRightBeamCount = #2
+                            g'16 [ \glissando
                                 ^ \markup {
                                     \fontsize
                                         #3
@@ -404,50 +439,56 @@
                                             \concat
                                                 {
                                                     [
-                                                    3
+                                                    G1
                                                     ]
                                                 }
                                     }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            af''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            d''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                                - \markup { "attack first note only" }
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            af''16 \glissando
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            d''16 \glissando
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            cs''32 ] )
+                            cs'''32 ]
                         }
                     }
                     {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            ef''32 [ (
+                        \override TupletNumber.text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner.spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'16.
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam.grow-direction = #left
+                            ef''32 * 512/1024 [
                                 ^ \markup {
                                     \fontsize
                                         #3
@@ -456,73 +497,60 @@
                                             \concat
                                                 {
                                                     [
-                                                    4
+                                                    W4
                                                     ]
                                                 }
                                     }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            fs''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
-                            a''32 ] )
+                            fs'32 * 1088/1024
+                            a'32 * 1472/1024 ]
                         }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            b''32 [ (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    5
-                                                    ]
-                                                }
+                        \revert TupletNumber.text
+                        \override TupletNumber.text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner.spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'16
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
                                     }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
-                            bf''32 ] )
+                            }
+                        \times 1/1 {
+                            \once \override Beam.grow-direction = #right
+                            b'32 * 1312/1024 [
+                            bf'32 * 736/1024 ]
                         }
-                    }
-                    {
+                        \revert TupletNumber.text
                         {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             c''32
+                        }
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 5/6 {
+                            \set stemLeftBeamCount = #0
+                            \set stemRightBeamCount = #4
+                            f'64 [ (
                                 ^ \markup {
                                     \fontsize
                                         #3
@@ -531,23 +559,450 @@
                                             \concat
                                                 {
                                                     [
-                                                    6
+                                                    R1
                                                     ]
                                                 }
                                     }
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            b64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bf'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            c''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            a'64
+                        }
+                        \times 4/5 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            af'64 )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64 (
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            cs''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            ef''64 )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fs''64 (
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            g''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            cs''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #0
+                            ef''64 ] )
+                        }
+                    }
+                    {
+                        \times 4/5 {
+                            \set stemLeftBeamCount = #0
+                            \set stemRightBeamCount = #4
+                            af'64 [ (
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    R2
+                                                    ]
+                                                }
+                                    }
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            cs'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            ef'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fs'64
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            g'64 )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64 (
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            cs''64 )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            ef''64 (
+                        }
+                        \times 2/3 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            g''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #0
+                            af''64 ] )
+                        }
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            \set stemLeftBeamCount = #0
+                            \set stemRightBeamCount = #4
+                            g'64 [ (
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    R3
+                                                    ]
+                                                }
+                                    }
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            cs'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            ef'64
+                        }
+                        \times 2/3 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs'64 )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            g'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            af'64 (
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 5/6 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            f''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            a'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            b'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bf'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            c''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #0
+                            fs''64 ] )
+                        }
+                    }
+                    {
+                        \override TupletNumber.text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner.spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'8 ~
+                                                c'32
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam.grow-direction = #right
+                            g32 * 1856/1024 [
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    W5
+                                                    ]
+                                                }
+                                    }
+                            af32 * 1024/1024
+                            d'32 * 832/1024
+                            cs'32 * 736/1024
+                            ef'32 * 672/1024 ]
+                        }
+                        \revert TupletNumber.text
+                        \override TupletNumber.text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner.spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'8
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam.grow-direction = #left
+                            g32 * 416/1024 [
+                            af32 * 896/1024
+                            d'32 * 1248/1024
+                            cs'32 * 1536/1024 ]
+                        }
+                        \revert TupletNumber.text
+                    }
+                    {
+                        \times 2/3 {
+                            \set stemLeftBeamCount = #0
+                            \set stemRightBeamCount = #2
+                            ef''16 [ \glissando
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    G2
+                                                    ]
+                                                }
+                                    }
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            fs''16 \glissando
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #0
+                            a'16 ]
+                        }
+                    }
+                    {
+                        \override TupletNumber.text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner.spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'8 ~
+                                                c'32
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam.grow-direction = #right
+                            g32 * 1856/1024 [
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    W6
+                                                    ]
+                                                }
+                                    }
+                            af32 * 1024/1024
+                            d'32 * 832/1024
+                            cs'32 * 736/1024
+                            ef'32 * 672/1024 ]
+                        }
+                        \revert TupletNumber.text
+                        \override TupletNumber.text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner.spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'8
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam.grow-direction = #left
+                            g'32 * 416/1024 [
+                            af'32 * 896/1024
+                            d'32 * 1248/1024
+                            cs''32 * 1536/1024 ]
+                        }
+                        \revert TupletNumber.text
+                        \override TupletNumber.text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner.spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'16.
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam.grow-direction = #right
+                            ef''32 * 1568/1024 [
+                            fs'32 * 832/1024
+                            a'32 * 672/1024 ]
+                        }
+                        \revert TupletNumber.text
+                    }
+                    {
+                        {
+                            \set stemLeftBeamCount = #0
+                            \set stemRightBeamCount = #2
+                            b'16 [ \glissando
+                                ^ \markup {
+                                    \fontsize
+                                        #3
+                                        \with-color
+                                            #darkgreen
+                                            \concat
+                                                {
+                                                    [
+                                                    G3
+                                                    ]
+                                                }
+                                    }
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #0
+                            bf''16 ]
                         }
                     }
                     {
                         {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
                             \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            f''32 [ (
+                            \set stemRightBeamCount = #4
+                            c'64 [ (
                                 ^ \markup {
                                     \fontsize
                                         #3
@@ -556,68 +1011,56 @@
                                             \concat
                                                 {
                                                     [
-                                                    7
+                                                    R4
                                                     ]
                                                 }
                                     }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            b''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            bf''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            c''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            f''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 5/6 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            f'64 )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            b'64 (
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bf'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            c''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f'64 )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            a'64 (
+                        }
+                        \times 4/5 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            af'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            cs''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            ef''64
+                            \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #0
-                            a''32 ] )
+                            fs''64 ] )
                         }
                     }
                     {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 5/6 {
                             \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            af''32 [ (
+                            \set stemRightBeamCount = #4
+                            f'64 [ (
                                 ^ \markup {
                                     \fontsize
                                         #3
@@ -626,59 +1069,64 @@
                                             \concat
                                                 {
                                                     [
-                                                    8
+                                                    R5
                                                     ]
                                                 }
                                     }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            d''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            cs''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            ef''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            b64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bf'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            c''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            a'64
+                        }
+                        \times 4/5 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            af'64 )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64 (
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            cs''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            ef''64 )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fs''64 (
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            g''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            cs''64
+                            \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #0
-                            fs''32 ] )
+                            ef''64 ] )
                         }
                     }
                     {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                        \times 4/5 {
                             \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            g''32 [ (
+                            \set stemRightBeamCount = #4
+                            af'64 [ (
                                 ^ \markup {
                                     \fontsize
                                         #3
@@ -687,80 +1135,48 @@
                                             \concat
                                                 {
                                                     [
-                                                    9
+                                                    R6
                                                     ]
                                                 }
                                     }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            d''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            cs''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
-                            ef''32 ] )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            cs'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            ef'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fs'64
                         }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            fs''32 [ (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    10
-                                                    ]
-                                                }
-                                    }
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            g''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            g'64 )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64 (
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            cs''64 )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            ef''64 (
+                        }
+                        \times 2/3 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            g''64
+                            \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #0
-                            af''32 ] )
+                            af''64 ] )
                             \bar "|"
                         }
                     }
@@ -769,42 +1185,54 @@
                     s1 * 11/32
                     s1 * 11/64
                     s1 * 11/64
-                    s1 * 1/8
-                    s1 * 3/32
-                    s1 * 1/16
-                    s1 * 1/32
-                    s1 * 3/16
                     s1 * 5/32
+                    s1 * 3/16
+                    s1 * 3/16
+                    s1 * 9/64
+                    s1 * 5/32
+                    s1 * 9/32
                     s1 * 1/8
-                    s1 * 3/32
+                    s1 * 3/8
+                    s1 * 1/8
+                    s1 * 5/32
+                    s1 * 3/16
+                    s1 * 9/64
                     \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
                     s1 * 11/32
                     s1 * 11/64
                     s1 * 11/64
-                    s1 * 1/8
-                    s1 * 3/32
-                    s1 * 1/16
-                    s1 * 1/32
-                    s1 * 3/16
                     s1 * 5/32
+                    s1 * 3/16
+                    s1 * 3/16
+                    s1 * 9/64
+                    s1 * 5/32
+                    s1 * 9/32
                     s1 * 1/8
-                    s1 * 3/32
+                    s1 * 3/8
+                    s1 * 1/8
+                    s1 * 5/32
+                    s1 * 3/16
+                    s1 * 9/64
                     \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
                     s1 * 11/32
                     s1 * 11/64
                     s1 * 11/64
-                    s1 * 1/8
-                    s1 * 3/32
-                    s1 * 1/16
-                    s1 * 1/32
-                    s1 * 3/16
                     s1 * 5/32
+                    s1 * 3/16
+                    s1 * 3/16
+                    s1 * 9/64
+                    s1 * 5/32
+                    s1 * 9/32
                     s1 * 1/8
-                    s1 * 3/32
+                    s1 * 3/8
+                    s1 * 1/8
+                    s1 * 5/32
+                    s1 * 3/16
+                    s1 * 9/64
                     \bar "|"
                 }
             >>

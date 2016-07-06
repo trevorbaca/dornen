@@ -4,7 +4,7 @@ import baca
 
 
 def make_graced_tuplet_figure_maker():
-    '''Makes graced tuplet figure maker.
+    '''Makes graced tuplet figure-maker.
 
     ::
 
@@ -345,7 +345,7 @@ def make_graced_tuplet_figure_maker():
                 >>
             >>
 
-    Returns figure maker.
+    Returns figure-maker.
     '''
     figure_maker = baca.tools.FigureMaker(
         abjad.rhythmmakertools.BeamSpecifier(

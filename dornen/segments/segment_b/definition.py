@@ -13,7 +13,7 @@ design = dornen.tools.make_design_1(start=16, stop=38)
 assert len(design) == 22
 
 accumulator(
-    accumulator.inverted_wave_figure_maker(
+    accumulator.inverted_wave_64_figure_maker(
         design[:1],
         baca.pitch.register(0, -14),
         figure_name='W1',
@@ -58,7 +58,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.inverted_wave_figure_maker(
+    accumulator.inverted_wave_64_figure_maker(
         accumulator.boustrophedon(design[2:3], count=2),
         baca.overrides.beam_positions(7),
         baca.pitch.register(0, -14),
@@ -179,7 +179,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.wave_figure_maker(
+    accumulator.wave_64_figure_maker(
         accumulator.boustrophedon(design[2:3], count=2, flatten=True),
         baca.overrides.beam_positions(7),
         baca.overrides.stem_up(),
@@ -364,7 +364,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.wave_figure_maker(
+    accumulator.wave_64_figure_maker(
         accumulator.boustrophedon(design[2:3], count=2, flatten=True),
         baca.overrides.beam_positions(7),
         baca.overrides.stem_up(),

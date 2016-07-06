@@ -4,7 +4,7 @@ import baca
 
 
 def make_ovoid_figure_maker():
-    '''Makes ovoid figure maker.
+    '''Makes ovoid figure-maker.
 
     ::
 
@@ -282,7 +282,7 @@ def make_ovoid_figure_maker():
                 >>
             >>
 
-    Returns figure maker.
+    Returns figure-maker.
     '''
     figure_maker = baca.tools.FigureMaker(
         abjad.rhythmmakertools.BeamSpecifier(

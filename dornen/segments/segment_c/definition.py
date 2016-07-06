@@ -13,17 +13,25 @@ design = dornen.tools.make_design_3(stop=10)
 assert len(design) == 10
 
 accumulator(
-    accumulator.default_figure_maker(
-        design[:1],
-        figure_name=1,
+    accumulator.wave_32_figure_maker(
+        design[:2],
+        figure_name='W1',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
-        design[1:2],
-        figure_name=2,
+    accumulator.wave_64_figure_maker(
+        design[:2],
+        figure_name='W2',
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.wave_64_figure_maker(
+        accumulator.merge(design[:2]),
+        figure_name='W3',
         ),
     voice_number=1,
     )
@@ -108,7 +116,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 measures_per_stage = len(accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
-    #allow_figure_names=True
+    allow_figure_names=True,
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
@@ -131,8 +139,8 @@ accumulator._populate_segment_maker(segment_maker)
 ###############################################################################
 
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 1', baca.tools.stages(1, 10)),
+    ('Guitar Music Voice 1', baca.tools.stages(1, 3)),
     [
-        #baca.pitch.register(-12),
+        baca.pitch.register(-20, 4),
         ],
     )

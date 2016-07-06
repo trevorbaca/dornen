@@ -4,7 +4,7 @@ import baca
 
 
 def make_delicatissimo_figure_maker():
-    r'''Makes delicatissimo figure maker.
+    r'''Makes delicatissimo figure-maker.
 
     ::
 
@@ -449,7 +449,7 @@ def make_delicatissimo_figure_maker():
                 >>
             >>
 
-    Returns figure maker.
+    Returns figure-maker.
     '''
     figure_maker = baca.tools.FigureMaker(
         abjad.rhythmmakertools.BeamSpecifier(

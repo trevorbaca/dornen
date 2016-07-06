@@ -188,7 +188,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.inverted_wave_figure_maker(
+    accumulator.inverted_wave_64_figure_maker(
         design.next(1),
         baca.overrides.beam_positions(-6),
         figure_name=18,
@@ -197,7 +197,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.inverted_wave_figure_maker(
+    accumulator.inverted_wave_64_figure_maker(
         design.next(1),
         baca.overrides.beam_positions(-6),
         figure_name=19,

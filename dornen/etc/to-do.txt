@@ -1,11 +1,15 @@
-1. Extend wave figure-maker to allow thirty-second-valued figures.
+1. Implement tremolo figure-maker.
 
-2. Introduce glissandi scatti.
+2. Implement glissando scatto figure-maker.
 
-3. Introduce tremolo on a single pitch. Later tremolo glissando.
+3. Recapitulate running figures from [A].
 
-4. Develop from running figuration to atomization.
+4. Introduce glissandi scatti.
 
-5. Include doubly nested figures.
+5. Introduce tremolo on a single pitch. Later tremolo glissando.
 
-6. Include three-layered voice nesting.
+6. Develop from running figuration to atomization.
+
+7. Include doubly nested figures.
+
+8. Include three-layered voice nesting during atomization.

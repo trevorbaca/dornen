@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import abjad
+import baca
 
 
 class FigureAccumulator(abjad.abctools.AbjadObject):
@@ -213,6 +214,20 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
             for markup in markups:
                 if markup._annotation == 'figure name':
                     return markup
+
+    def _populate_segment_maker(self, segment_maker):
+        items = self.voice_name_to_selections.iteritems()
+        for voice_name, selections in items:
+            music = []
+            for selection in selections:
+                music.extend(selection)
+            complete_selection = abjad.selectiontools.Selection(music)
+            segment_maker.append_specifiers(
+                (voice_name, baca.tools.stages(1, 1)),
+                baca.tools.RhythmSpecifier(
+                    rhythm_maker=complete_selection,
+                    ),
+                )
 
     ### PUBLIC PROPERTIES ###
 

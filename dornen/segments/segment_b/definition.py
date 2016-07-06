@@ -9,16 +9,7 @@ import dornen
 ###############################################################################
 
 accumulator = dornen.tools.FigureAccumulator()
-
-design_1 = dornen.tools.make_design_1()
-trees = design_1.iterate_at_level(level=-2)
-design_1 = []
-for tree in trees:
-    numbered_pitch_classes = list(tree.iterate_payload())
-    numbers = [_.pitch_class_number for _ in numbered_pitch_classes]
-    design_1.append(numbers)
-assert len(design_1) == 50, (repr(design_1), len(design_1))
-design = design_1[16:38]
+design = dornen.tools.make_design_1(start=16, stop=38)
 assert len(design) == 22
 
 accumulator(
@@ -433,7 +424,6 @@ measures_per_stage = len(accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
     #allow_figure_names=True,
-    #design_checker=dornen.tools.DesignChecker(design=design),
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
@@ -449,19 +439,7 @@ segment_maker = baca.tools.SegmentMaker(
 #segment_maker.validate_stage_count()
 #segment_maker.validate_measure_count()
 segment_maker.validate_measures_per_stage()
-
-items = accumulator.voice_name_to_selections.iteritems()
-for voice_name, selections in items:
-    music = []
-    for selection in selections:
-        music.extend(selection)
-    complete_selection = abjad.selectiontools.Selection(music)
-    segment_maker.append_specifiers(
-        (voice_name, baca.tools.stages(1, 1)),
-        baca.tools.RhythmSpecifier(
-            rhythm_maker=complete_selection,
-            ),
-        )
+accumulator._populate_segment_maker(segment_maker)
 
 ###############################################################################
 ########################### CROSS-STAGE SPECIFIERS ############################

@@ -8,39 +8,105 @@ import dornen
 ##################################### [G] #####################################
 ###############################################################################
 
-figure_accumulator = dornen.tools.FigureAccumulator(
-    label_figures=True,
+accumulator = dornen.tools.FigureAccumulator()
+design = dornen.tools.make_design_2(start=28)
+assert len(design) == 12, (repr(design), len(design))
+
+accumulator(
+    accumulator.default_figure_maker(
+        design[:1],
+        figure_name=1,
+        ),
+    voice_number=1,
     )
-anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
-default_figure_maker = dornen.tools.make_default_figure_maker()
-passepied_figure_maker = dornen.tools.make_passepied_figure_maker()
-wave_figure_maker = dornen.tools.make_wave_figure_maker()
-running_figure_maker = dornen.tools.make_running_figure_maker()
 
-design_2 = dornen.tools.make_design_2()
-trees = design_2.iterate_at_level(level=-2)
-design_2 = []
-for tree in trees:
-    numbered_pitch_classes = list(tree.iterate_payload())
-    numbers = [_.pitch_class_number for _ in numbered_pitch_classes]
-    design_2.append(numbers)
-assert len(design_2) == 40, (repr(design_2), len(design_2))
-design_2 = design_2[28:]
-assert len(design_2) == 12, len(design_2)
-design_2 = baca.tools.Cursor(source=design_2)
+accumulator(
+    accumulator.default_figure_maker(
+        design[1:2],
+        figure_name=2,
+        ),
+    voice_number=1,
+    )
 
-for i, cell in enumerate(design_2):
-    figure_accumulator(
-        default_figure_maker(
-            [cell],
-            specifiers=[
-                ],
-            ),
-        figure_name=i+1,
-        voice_number=1,
-        )
+accumulator(
+    accumulator.default_figure_maker(
+        design[2:3],
+        figure_name=3,
+        ),
+    voice_number=1,
+    )
 
-#assert design_2.is_exhausted
+accumulator(
+    accumulator.default_figure_maker(
+        design[3:4],
+        figure_name=4,
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.default_figure_maker(
+        design[4:5],
+        figure_name=5,
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.default_figure_maker(
+        design[5:6],
+        figure_name=6,
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.default_figure_maker(
+        design[6:7],
+        figure_name=7,
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.default_figure_maker(
+        design[7:8],
+        figure_name=8,
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.default_figure_maker(
+        design[8:9],
+        figure_name=9,
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.default_figure_maker(
+        design[9:10],
+        figure_name=10,
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.default_figure_maker(
+        design[10:11],
+        figure_name=11,
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.default_figure_maker(
+        design[11:12],
+        figure_name=12,
+        ),
+    voice_number=1,
+    )
 
 ###############################################################################
 ############################### SEGMENT-MAKER #################################
@@ -55,9 +121,10 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     minimum_width=abjad.durationtools.Duration(1, 24),
     )
 
-measures_per_stage = len(figure_accumulator.time_signatures) * [1]
+measures_per_stage = len(accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
+    #allow_figure_names=True,
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
@@ -66,23 +133,22 @@ segment_maker = baca.tools.SegmentMaker(
     skips_instead_of_rests=True,
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
-    time_signatures=figure_accumulator.time_signatures,
+    time_signatures=accumulator.time_signatures,
     transpose_score=True,
     )
 
 #segment_maker.validate_stage_count()
 #segment_maker.validate_measure_count()
 segment_maker.validate_measures_per_stage()
+accumulator._populate_segment_maker(segment_maker)
 
-items = figure_accumulator.voice_name_to_selections.iteritems()
-for voice_name, selections in items:
-    music = []
-    for selection in selections:
-        music.extend(selection)
-    complete_selection = abjad.selectiontools.Selection(music)
-    segment_maker.append_specifiers(
-        (voice_name, baca.tools.stages(1, 1)),
-        baca.tools.RhythmSpecifier(
-            rhythm_maker=complete_selection,
-            ),
-        )
+###############################################################################
+########################### CROSS-STAGE SPECIFIERS ############################
+###############################################################################
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 1', baca.tools.stages(1, 10)),
+    [
+        #baca.pitch.register(-12),
+        ],
+    )

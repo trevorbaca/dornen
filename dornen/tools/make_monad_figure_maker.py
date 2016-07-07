@@ -11,37 +11,6 @@ def make_monad_figure_maker():
         >>> import baca
         >>> import dornen
 
-    ::
-
-        >>> print(format(dornen.tools.make_monad_figure_maker()))
-        baca.tools.FigureMaker(
-            rhythmmakertools.BeamSpecifier(
-                beam_each_division=True,
-                ),
-            baca.tools.ArticulationSpecifier(
-                articulations=['^'],
-                ),
-            baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=(0,),
-                        period=1,
-                        ),
-                    ],
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    talea=rhythmmakertools.Talea(
-                        counts=(1,),
-                        denominator=16,
-                        ),
-                    time_treatments=[
-                        durationtools.Multiplier(4, 5),
-                        ],
-                    ),
-                ),
-            annotate_unregistered_pitches=True,
-            preferred_denominator=20,
-            )
-
     ..  container:: example
 
         **Example 1.** Makes monads:
@@ -439,6 +408,39 @@ def make_monad_figure_maker():
                     }
                 >>
             >>
+
+    ..  container:: example
+
+        **Definition.** Format monad figure-maker:
+
+        >>> print(format(dornen.tools.make_monad_figure_maker()))
+        baca.tools.FigureMaker(
+            rhythmmakertools.BeamSpecifier(
+                beam_each_division=True,
+                ),
+            baca.tools.ArticulationSpecifier(
+                articulations=['^'],
+                ),
+            baca.tools.RhythmSpecifier(
+                patterns=[
+                    patterntools.Pattern(
+                        indices=(0,),
+                        period=1,
+                        ),
+                    ],
+                rhythm_maker=baca.tools.FigureRhythmMaker(
+                    talea=rhythmmakertools.Talea(
+                        counts=(1,),
+                        denominator=16,
+                        ),
+                    time_treatments=[
+                        durationtools.Multiplier(4, 5),
+                        ],
+                    ),
+                ),
+            annotate_unregistered_pitches=True,
+            preferred_denominator=20,
+            )
 
     Returns figure-maker.
     '''

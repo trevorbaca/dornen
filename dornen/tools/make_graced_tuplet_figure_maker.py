@@ -11,70 +11,6 @@ def make_graced_tuplet_figure_maker():
         >>> import baca
         >>> import dornen
 
-    ::
-
-        >>> print(format(dornen.tools.make_graced_tuplet_figure_maker()))
-        baca.tools.FigureMaker(
-            rhythmmakertools.BeamSpecifier(
-                beam_each_division=True,
-                beam_divisions_together=True,
-                ),
-            baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=(0,),
-                        period=2,
-                        ),
-                    ],
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    acciaccatura_specifiers=[
-                        baca.tools.AcciaccaturaSpecifier(
-                            lmr_specifier=baca.tools.LMRSpecifier(
-                                left_length=1,
-                                right_counts=[2],
-                                right_cyclic=True,
-                                ),
-                            ),
-                        ],
-                    talea=rhythmmakertools.Talea(
-                        counts=(1,),
-                        denominator=16,
-                        ),
-                    time_treatments=[
-                        durationtools.Multiplier(8, 7),
-                        ],
-                    ),
-                ),
-            baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=(1,),
-                        period=2,
-                        ),
-                    ],
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    acciaccatura_specifiers=[
-                        baca.tools.AcciaccaturaSpecifier(
-                            lmr_specifier=baca.tools.LMRSpecifier(
-                                left_length=1,
-                                right_counts=[2],
-                                right_cyclic=True,
-                                ),
-                            ),
-                        ],
-                    talea=rhythmmakertools.Talea(
-                        counts=(1,),
-                        denominator=16,
-                        ),
-                    time_treatments=[
-                        durationtools.Multiplier(5, 7),
-                        ],
-                    ),
-                ),
-            annotate_unregistered_pitches=True,
-            preferred_denominator=14,
-            )
-
     ..  container:: example
 
         **Example.** Makes multistage graced tuplet figures:
@@ -344,6 +280,72 @@ def make_graced_tuplet_figure_maker():
                     }
                 >>
             >>
+
+    ..  container:: example
+
+        **Definition.** Makes graced tuplet figure-maker:
+
+        >>> print(format(dornen.tools.make_graced_tuplet_figure_maker()))
+        baca.tools.FigureMaker(
+            rhythmmakertools.BeamSpecifier(
+                beam_each_division=True,
+                beam_divisions_together=True,
+                ),
+            baca.tools.RhythmSpecifier(
+                patterns=[
+                    patterntools.Pattern(
+                        indices=(0,),
+                        period=2,
+                        ),
+                    ],
+                rhythm_maker=baca.tools.FigureRhythmMaker(
+                    acciaccatura_specifiers=[
+                        baca.tools.AcciaccaturaSpecifier(
+                            lmr_specifier=baca.tools.LMRSpecifier(
+                                left_length=1,
+                                right_counts=[2],
+                                right_cyclic=True,
+                                ),
+                            ),
+                        ],
+                    talea=rhythmmakertools.Talea(
+                        counts=(1,),
+                        denominator=16,
+                        ),
+                    time_treatments=[
+                        durationtools.Multiplier(8, 7),
+                        ],
+                    ),
+                ),
+            baca.tools.RhythmSpecifier(
+                patterns=[
+                    patterntools.Pattern(
+                        indices=(1,),
+                        period=2,
+                        ),
+                    ],
+                rhythm_maker=baca.tools.FigureRhythmMaker(
+                    acciaccatura_specifiers=[
+                        baca.tools.AcciaccaturaSpecifier(
+                            lmr_specifier=baca.tools.LMRSpecifier(
+                                left_length=1,
+                                right_counts=[2],
+                                right_cyclic=True,
+                                ),
+                            ),
+                        ],
+                    talea=rhythmmakertools.Talea(
+                        counts=(1,),
+                        denominator=16,
+                        ),
+                    time_treatments=[
+                        durationtools.Multiplier(5, 7),
+                        ],
+                    ),
+                ),
+            annotate_unregistered_pitches=True,
+            preferred_denominator=14,
+            )
 
     Returns figure-maker.
     '''

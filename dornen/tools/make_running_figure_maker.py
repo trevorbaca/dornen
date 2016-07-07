@@ -11,100 +11,6 @@ def make_running_figure_maker():
         >>> import baca
         >>> import dornen
 
-    ::
-
-        >>> print(format(dornen.tools.make_running_figure_maker()))
-        baca.tools.FigureMaker(
-            rhythmmakertools.BeamSpecifier(
-                beam_each_division=True,
-                beam_divisions_together=True,
-                ),
-            baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=(0,),
-                        period=1,
-                        ),
-                    ],
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    talea=rhythmmakertools.Talea(
-                        counts=(1,),
-                        denominator=64,
-                        ),
-                    time_treatments=[-1, -2],
-                    ),
-                ),
-            baca.tools.SpannerSpecifier(
-                selector=selectortools.Selector(
-                    callbacks=(
-                        selectortools.PrototypeSelectorCallback(
-                            prototype=scoretools.Tuplet,
-                            ),
-                        selectortools.SliceSelectorCallback(
-                            stop=1,
-                            apply_to_each=True,
-                            ),
-                        selectortools.PrototypeSelectorCallback(
-                            prototype=scoretools.Leaf,
-                            flatten=False,
-                            ),
-                        selectortools.ExtraLeafSelectorCallback(
-                            with_next_leaf=True,
-                            with_previous_leaf=False,
-                            ),
-                        ),
-                    ),
-                spanner=spannertools.Slur(),
-                ),
-            baca.tools.SpannerSpecifier(
-                selector=selectortools.Selector(
-                    callbacks=(
-                        selectortools.PrototypeSelectorCallback(
-                            prototype=scoretools.Tuplet,
-                            ),
-                        selectortools.SliceSelectorCallback(
-                            start=1,
-                            stop=-1,
-                            apply_to_each=True,
-                            ),
-                        selectortools.PrototypeSelectorCallback(
-                            prototype=scoretools.Leaf,
-                            flatten=False,
-                            ),
-                        selectortools.SliceSelectorCallback(
-                            start=1,
-                            stop=-1,
-                            apply_to_each=True,
-                            ),
-                        ),
-                    ),
-                spanner=spannertools.Slur(),
-                ),
-            baca.tools.SpannerSpecifier(
-                selector=selectortools.Selector(
-                    callbacks=(
-                        selectortools.PrototypeSelectorCallback(
-                            prototype=scoretools.Tuplet,
-                            ),
-                        selectortools.SliceSelectorCallback(
-                            start=-1,
-                            apply_to_each=True,
-                            ),
-                        selectortools.PrototypeSelectorCallback(
-                            prototype=scoretools.Leaf,
-                            flatten=False,
-                            ),
-                        selectortools.ExtraLeafSelectorCallback(
-                            with_next_leaf=False,
-                            with_previous_leaf=True,
-                            ),
-                        ),
-                    ),
-                spanner=spannertools.Slur(),
-                ),
-            annotate_unregistered_pitches=True,
-            )
-
     ..  container:: example
 
         **Example 1.** Makes one-stage running figures:
@@ -515,6 +421,102 @@ def make_running_figure_maker():
                     }
                 >>
             >>
+
+    ..  container:: example
+
+        **Definition.** Formats running figure-maker:
+
+        >>> print(format(dornen.tools.make_running_figure_maker()))
+        baca.tools.FigureMaker(
+            rhythmmakertools.BeamSpecifier(
+                beam_each_division=True,
+                beam_divisions_together=True,
+                ),
+            baca.tools.RhythmSpecifier(
+                patterns=[
+                    patterntools.Pattern(
+                        indices=(0,),
+                        period=1,
+                        ),
+                    ],
+                rhythm_maker=baca.tools.FigureRhythmMaker(
+                    talea=rhythmmakertools.Talea(
+                        counts=(1,),
+                        denominator=64,
+                        ),
+                    time_treatments=[-1, -2],
+                    ),
+                ),
+            baca.tools.SpannerSpecifier(
+                selector=selectortools.Selector(
+                    callbacks=(
+                        selectortools.PrototypeSelectorCallback(
+                            prototype=scoretools.Tuplet,
+                            ),
+                        selectortools.SliceSelectorCallback(
+                            stop=1,
+                            apply_to_each=True,
+                            ),
+                        selectortools.PrototypeSelectorCallback(
+                            prototype=scoretools.Leaf,
+                            flatten=False,
+                            ),
+                        selectortools.ExtraLeafSelectorCallback(
+                            with_next_leaf=True,
+                            with_previous_leaf=False,
+                            ),
+                        ),
+                    ),
+                spanner=spannertools.Slur(),
+                ),
+            baca.tools.SpannerSpecifier(
+                selector=selectortools.Selector(
+                    callbacks=(
+                        selectortools.PrototypeSelectorCallback(
+                            prototype=scoretools.Tuplet,
+                            ),
+                        selectortools.SliceSelectorCallback(
+                            start=1,
+                            stop=-1,
+                            apply_to_each=True,
+                            ),
+                        selectortools.PrototypeSelectorCallback(
+                            prototype=scoretools.Leaf,
+                            flatten=False,
+                            ),
+                        selectortools.SliceSelectorCallback(
+                            start=1,
+                            stop=-1,
+                            apply_to_each=True,
+                            ),
+                        ),
+                    ),
+                spanner=spannertools.Slur(),
+                ),
+            baca.tools.SpannerSpecifier(
+                selector=selectortools.Selector(
+                    callbacks=(
+                        selectortools.PrototypeSelectorCallback(
+                            prototype=scoretools.Tuplet,
+                            ),
+                        selectortools.SliceSelectorCallback(
+                            start=-1,
+                            apply_to_each=True,
+                            ),
+                        selectortools.PrototypeSelectorCallback(
+                            prototype=scoretools.Leaf,
+                            flatten=False,
+                            ),
+                        selectortools.ExtraLeafSelectorCallback(
+                            with_next_leaf=False,
+                            with_previous_leaf=True,
+                            ),
+                        ),
+                    ),
+                spanner=spannertools.Slur(),
+                ),
+            annotate_unregistered_pitches=True,
+            )
 
     Returns figure-maker.
     '''

@@ -11,32 +11,6 @@ def make_ovoid_figure_maker():
         >>> import baca
         >>> import dornen
 
-    ::
-
-        >>> print(format(dornen.tools.make_ovoid_figure_maker()))
-        baca.tools.FigureMaker(
-            rhythmmakertools.BeamSpecifier(
-                beam_each_division=True,
-                beam_divisions_together=True,
-                ),
-            baca.tools.RhythmSpecifier(
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    acciaccatura_specifiers=[
-                        baca.tools.AcciaccaturaSpecifier(
-                            lmr_specifier=baca.tools.LMRSpecifier(
-                                left_length=1,
-                                ),
-                            ),
-                        ],
-                    talea=rhythmmakertools.Talea(
-                        counts=(6, 1),
-                        denominator=32,
-                        ),
-                    ),
-                ),
-            annotate_unregistered_pitches=True,
-            )
-
     ..  container:: example
 
         **Example.** Makes multistage ovoid figures:
@@ -281,6 +255,34 @@ def make_ovoid_figure_maker():
                     }
                 >>
             >>
+
+    ..  container:: example
+
+        **Definition.** Formats ovoid figure-maker:
+
+        >>> print(format(dornen.tools.make_ovoid_figure_maker()))
+        baca.tools.FigureMaker(
+            rhythmmakertools.BeamSpecifier(
+                beam_each_division=True,
+                beam_divisions_together=True,
+                ),
+            baca.tools.RhythmSpecifier(
+                rhythm_maker=baca.tools.FigureRhythmMaker(
+                    acciaccatura_specifiers=[
+                        baca.tools.AcciaccaturaSpecifier(
+                            lmr_specifier=baca.tools.LMRSpecifier(
+                                left_length=1,
+                                ),
+                            ),
+                        ],
+                    talea=rhythmmakertools.Talea(
+                        counts=(6, 1),
+                        denominator=32,
+                        ),
+                    ),
+                ),
+            annotate_unregistered_pitches=True,
+            )
 
     Returns figure-maker.
     '''

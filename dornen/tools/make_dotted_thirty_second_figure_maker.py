@@ -3,8 +3,8 @@ import abjad
 import baca
 
 
-def make_anchor_figure_maker():
-    r'''Makes anchor figure-maker.
+def make_dotted_thirty_second_figure_maker():
+    r'''Makes dotted thirty-second figure-maker.
 
     ::
 
@@ -13,7 +13,7 @@ def make_anchor_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes one-stage anchor figures:
+        **Example 1.** Makes one-stage dotted thirty-second figures:
 
         ::
 
@@ -26,7 +26,7 @@ def make_anchor_figure_maker():
 
         ::
 
-            >>> figure_maker = dornen.tools.make_anchor_figure_maker()
+            >>> figure_maker = dornen.tools.make_dotted_thirty_second_figure_maker()
             >>> figures, time_signatures = [], []
             >>> for figure_token in figure_tokens:
             ...     result = figure_maker(figure_token)
@@ -72,46 +72,46 @@ def make_anchor_figure_maker():
                 \context TimeSignatureContext = "Time Signature Context" <<
                     \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                         {
-                            \time 3/16
-                            R1 * 3/16
+                            \time 3/64
+                            R1 * 3/64
                         }
                         {
-                            \time 21/16
-                            R1 * 21/16
+                            \time 21/64
+                            R1 * 21/64
                         }
                         {
-                            \time 3/16
-                            R1 * 3/16
+                            \time 3/64
+                            R1 * 3/64
                         }
                         {
-                            \time 9/8
-                            R1 * 9/8
+                            \time 9/32
+                            R1 * 9/32
                         }
                     }
                     \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                         {
-                            \time 3/16
+                            \time 3/64
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                             \newSpacingSection
-                            s1 * 3/16
+                            s1 * 3/64
                         }
                         {
-                            \time 21/16
+                            \time 21/64
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                             \newSpacingSection
-                            s1 * 21/16
+                            s1 * 21/64
                         }
                         {
-                            \time 3/16
+                            \time 3/64
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                             \newSpacingSection
-                            s1 * 3/16
+                            s1 * 3/64
                         }
                         {
-                            \time 9/8
+                            \time 9/32
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                             \newSpacingSection
-                            s1 * 9/8
+                            s1 * 9/32
                         }
                     }
                 >>
@@ -122,33 +122,33 @@ def make_anchor_figure_maker():
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
                                 {
-                                    e'8.
+                                    e'32.
                                 }
                             }
                             {
                                 {
-                                    fs'8. [
-                                    d'8.
-                                    ef'8.
-                                    f'8.
-                                    a'8.
-                                    af'8.
-                                    c'8. ]
+                                    fs'32. [
+                                    d'32.
+                                    ef'32.
+                                    f'32.
+                                    a'32.
+                                    af'32.
+                                    c'32. ]
                                 }
                             }
                             {
                                 {
-                                    b'8.
+                                    b'32.
                                 }
                             }
                             {
                                 {
-                                    bf'8. [
-                                    g'8.
-                                    a'8.
-                                    af'8.
-                                    c'8.
-                                    f'8. ]
+                                    bf'32. [
+                                    g'32.
+                                    a'32.
+                                    af'32.
+                                    c'32.
+                                    f'32. ]
                                     \bar "|"
                                 }
                             }
@@ -159,9 +159,11 @@ def make_anchor_figure_maker():
 
     ..  container:: example
 
-        **Definition.** Formats dotted thirty-second figure-maker:
+        **Definition.**
 
-            >>> print(format(dornen.tools.make_anchor_figure_maker()))
+        ::
+
+            >>> print(format(dornen.tools.make_dotted_thirty_second_figure_maker()))
             baca.tools.FigureMaker(
                 baca.tools.RhythmSpecifier(
                     patterns=[
@@ -173,12 +175,12 @@ def make_anchor_figure_maker():
                     rhythm_maker=baca.tools.FigureRhythmMaker(
                         talea=rhythmmakertools.Talea(
                             counts=(3,),
-                            denominator=16,
+                            denominator=64,
                             ),
                         ),
                     ),
                 annotate_unregistered_pitches=True,
-                preferred_denominator=8,
+                preferred_denominator=32,
                 )
 
     Returns figure-maker.
@@ -189,12 +191,12 @@ def make_anchor_figure_maker():
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[3],
-                    denominator=16,
+                    denominator=64,
                     ),
 
                 ),
             ),
         annotate_unregistered_pitches=True,
-        preferred_denominator=8,
+        preferred_denominator=32,
         )
     return figure_maker

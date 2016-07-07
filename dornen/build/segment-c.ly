@@ -758,7 +758,12 @@
                             \once \override Beam.positions = #'(-12 . -12)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            g'16 [ \glissando - \markup { "glissando: attack first note only" }
+                            g'16 [ \glissando
+                                ^ \markup {
+                                    \whiteout
+                                        \upright
+                                            "glissando: attack first note only"
+                                    }
                             \once \override Beam.positions = #'(-12 . -12)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
@@ -1131,7 +1136,12 @@
                             \once \override Beam.positions = #'(11 . 11)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
-                            fs8 :32 -\ppp [ ~ - \markup { "with finger pad(s)" }
+                            fs8 :32 -\ppp [ ~
+                                ^ \markup {
+                                    \whiteout
+                                        \upright
+                                            "with finger pad(s)"
+                                    }
                             \once \override Beam.positions = #'(11 . 11)
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1

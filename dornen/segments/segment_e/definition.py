@@ -90,10 +90,46 @@ accumulator(
     )
 
 accumulator(
-    accumulator.delicatissimo_figure_maker(
-        design[9:10],
-        baca.pitch.register(-24),
+    accumulator.sixty_fourth_figure_maker(
+        10 * accumulator.reveal(design[9:10], 3),
+        baca.pitch.register(0),
         figure_name='D1',
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.sixty_fourth_figure_maker(
+        10 * accumulator.reveal(design[9:10], 4),
+        baca.pitch.register(0),
+        figure_name='D2',
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.sixty_fourth_figure_maker(
+        10 * accumulator.reveal(design[9:10], 5),
+        baca.pitch.register(0),
+        figure_name='D3',
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.sixty_fourth_figure_maker(
+        10 * accumulator.reveal(design[9:10], 6),
+        baca.pitch.register(0),
+        figure_name='D4',
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.sixty_fourth_figure_maker(
+        accumulator.boustrophedon(design[9:10], 4),
+        baca.pitch.register(0),
+        figure_name='D5',
         ),
     voice_number=1,
     )
@@ -103,7 +139,7 @@ accumulator(
 ###############################################################################
 
 tempo_specifier = baca.tools.TempoSpecifier([
-    (1, dornen.materials.tempi[66]),
+    #(1, dornen.materials.tempi[66]),
     (9, dornen.materials.tempi[44]),
     ])
 
@@ -115,9 +151,9 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 measures_per_stage = len(accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
-    allow_figure_names=True,
+    #allow_figure_names=True,
     #label_clock_time=True,
-    label_stages=True,
+    #label_stages=True,
     measures_per_stage=measures_per_stage,
     score_package=dornen,
     score_template=dornen.tools.ScoreTemplate(),
@@ -152,5 +188,19 @@ segment_maker.append_specifiers(
         baca.articulations.staccati(),
         baca.overrides.beam_positions(5.5),
         baca.pitch.register(-4),
+        ],
+    )
+
+all_voices = [
+    'Guitar Music Voice 1',
+    #'Guitar Music Voice 2',
+    'Guitar Music Voice 3',
+    'Guitar Music Voice 4',
+    ]
+
+segment_maker.append_specifiers(
+    (all_voices, baca.tools.stages(1, 9)),
+    [
+        dornen.tools.QuartertoneManager(),
         ],
     )

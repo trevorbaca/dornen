@@ -115,6 +115,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         'rest_figure_maker',
         'running_figure_maker',
         'sixteenth_figure_maker',
+        'sixty_fourth_figure_maker',
         'thirty_second_figure_maker',
         'tremolo_figure_maker',
         'twentieth_figure_maker',
@@ -161,6 +162,8 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         self.rest_figure_maker = dornen.tools.make_rest_figure_maker()
         self.sixteenth_figure_maker = \
             dornen.tools.make_sixteenth_figure_maker()
+        self.sixty_fourth_figure_maker = \
+            dornen.tools.make_sixty_fourth_figure_maker()
         self.thirty_second_figure_maker = \
             dornen.tools.make_thirty_second_figure_maker()
         self.tremolo_figure_maker = dornen.tools.make_tremolo_figure_maker()

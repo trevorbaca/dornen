@@ -11,46 +11,6 @@ def make_default_figure_maker():
         >>> import baca
         >>> import dornen
 
-    ::
-
-        >>> print(format(dornen.tools.make_default_figure_maker()))
-        baca.tools.FigureMaker(
-            rhythmmakertools.BeamSpecifier(
-                beam_each_division=True,
-                beam_divisions_together=True,
-                ),
-            baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=(0,),
-                        period=1,
-                        ),
-                    ],
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    talea=rhythmmakertools.Talea(
-                        counts=(1,),
-                        denominator=32,
-                        ),
-                    ),
-                ),
-            baca.tools.SpannerSpecifier(
-                selector=selectortools.Selector(
-                    callbacks=(
-                        selectortools.PrototypeSelectorCallback(
-                            prototype=scoretools.Tuplet,
-                            ),
-                        selectortools.PrototypeSelectorCallback(
-                            prototype=scoretools.Leaf,
-                            flatten=False,
-                            ),
-                        ),
-                    ),
-                spanner=spannertools.Slur(),
-                ),
-            annotate_unregistered_pitches=True,
-            preferred_denominator=32,
-            )
-
     ..  container:: example
 
         **Example 1.** Makes one-stage default figures:
@@ -459,6 +419,48 @@ def make_default_figure_maker():
                     }
                 >>
             >>
+
+    ..  container:: example
+
+        **Definition.** Formats default figure-maker:
+
+        >>> print(format(dornen.tools.make_default_figure_maker()))
+        baca.tools.FigureMaker(
+            rhythmmakertools.BeamSpecifier(
+                beam_each_division=True,
+                beam_divisions_together=True,
+                ),
+            baca.tools.RhythmSpecifier(
+                patterns=[
+                    patterntools.Pattern(
+                        indices=(0,),
+                        period=1,
+                        ),
+                    ],
+                rhythm_maker=baca.tools.FigureRhythmMaker(
+                    talea=rhythmmakertools.Talea(
+                        counts=(1,),
+                        denominator=32,
+                        ),
+                    ),
+                ),
+            baca.tools.SpannerSpecifier(
+                selector=selectortools.Selector(
+                    callbacks=(
+                        selectortools.PrototypeSelectorCallback(
+                            prototype=scoretools.Tuplet,
+                            ),
+                        selectortools.PrototypeSelectorCallback(
+                            prototype=scoretools.Leaf,
+                            flatten=False,
+                            ),
+                        ),
+                    ),
+                spanner=spannertools.Slur(),
+                ),
+            annotate_unregistered_pitches=True,
+            preferred_denominator=32,
+            )
 
     Returns figure-maker.
     '''

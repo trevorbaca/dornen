@@ -11,28 +11,6 @@ def make_rest_figure_maker(duration=None):
         >>> import baca
         >>> import dornen
 
-    ::
-
-        >>> print(format(dornen.tools.make_rest_figure_maker()))
-        baca.tools.FigureMaker(
-            baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=(0,),
-                        period=1,
-                        ),
-                    ],
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    talea=rhythmmakertools.Talea(
-                        counts=(1,),
-                        denominator=8,
-                        ),
-                    ),
-                ),
-            annotate_unregistered_pitches=True,
-            preferred_denominator=8,
-            )
-
     ..  container:: example
 
         **Example 1.** Makes one-stage  rests:
@@ -279,6 +257,30 @@ def make_rest_figure_maker(duration=None):
                     }
                 >>
             >>
+
+    ..  container:: example
+
+        **Definition.** Formats rest figure-maker:
+
+        >>> print(format(dornen.tools.make_rest_figure_maker()))
+        baca.tools.FigureMaker(
+            baca.tools.RhythmSpecifier(
+                patterns=[
+                    patterntools.Pattern(
+                        indices=(0,),
+                        period=1,
+                        ),
+                    ],
+                rhythm_maker=baca.tools.FigureRhythmMaker(
+                    talea=rhythmmakertools.Talea(
+                        counts=(1,),
+                        denominator=8,
+                        ),
+                    ),
+                ),
+            annotate_unregistered_pitches=True,
+            preferred_denominator=8,
+            )
 
     Returns figure-maker.
     '''

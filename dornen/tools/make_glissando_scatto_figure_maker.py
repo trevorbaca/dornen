@@ -11,40 +11,6 @@ def make_glissando_scatto_figure_maker():
         >>> import baca
         >>> import dornen
 
-    ::
-
-        >>> print(format(dornen.tools.make_glissando_scatto_figure_maker()))
-        baca.tools.FigureMaker(
-            rhythmmakertools.BeamSpecifier(
-                beam_each_division=True,
-                beam_divisions_together=True,
-                ),
-            baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=(0,),
-                        period=1,
-                        ),
-                    ],
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    talea=rhythmmakertools.Talea(
-                        counts=(2, 2, 2, 1, 2, 2, 2),
-                        denominator=32,
-                        ),
-                    time_treatments=[-2, -3],
-                    ),
-                ),
-            baca.tools.SpannerSpecifier(
-                spanner=spannertools.Glissando(
-                    allow_repeated_pitches=False,
-                    allow_ties=False,
-                    parenthesize_repeated_pitches=False,
-                    ),
-                ),
-            annotate_unregistered_pitches=True,
-            preferred_denominator=16,
-            )
-
     ..  container:: example
 
         **Example 1.** Makes one-stage glissando scatto figures:
@@ -455,6 +421,42 @@ def make_glissando_scatto_figure_maker():
                     }
                 >>
             >>
+
+    ..  container:: example
+
+        **Definition.** Format glissando scatto figure-maker:
+
+        >>> print(format(dornen.tools.make_glissando_scatto_figure_maker()))
+        baca.tools.FigureMaker(
+            rhythmmakertools.BeamSpecifier(
+                beam_each_division=True,
+                beam_divisions_together=True,
+                ),
+            baca.tools.RhythmSpecifier(
+                patterns=[
+                    patterntools.Pattern(
+                        indices=(0,),
+                        period=1,
+                        ),
+                    ],
+                rhythm_maker=baca.tools.FigureRhythmMaker(
+                    talea=rhythmmakertools.Talea(
+                        counts=(2, 2, 2, 1, 2, 2, 2),
+                        denominator=32,
+                        ),
+                    time_treatments=[-2, -3],
+                    ),
+                ),
+            baca.tools.SpannerSpecifier(
+                spanner=spannertools.Glissando(
+                    allow_repeated_pitches=False,
+                    allow_ties=False,
+                    parenthesize_repeated_pitches=False,
+                    ),
+                ),
+            annotate_unregistered_pitches=True,
+            preferred_denominator=16,
+            )
 
     Returns figure-maker.
     '''

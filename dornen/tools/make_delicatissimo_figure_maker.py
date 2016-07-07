@@ -11,35 +11,6 @@ def make_delicatissimo_figure_maker():
         >>> import baca
         >>> import dornen
 
-    ::
-
-        >>> print(format(dornen.tools.make_delicatissimo_figure_maker()))
-        baca.tools.FigureMaker(
-            rhythmmakertools.BeamSpecifier(
-                beam_each_division=True,
-                beam_divisions_together=True,
-                ),
-            baca.tools.ArticulationSpecifier(
-                articulations=['.'],
-                ),
-            baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=(0,),
-                        period=1,
-                        ),
-                    ],
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    talea=rhythmmakertools.Talea(
-                        counts=(1,),
-                        denominator=32,
-                        ),
-                    ),
-                ),
-            annotate_unregistered_pitches=True,
-            preferred_denominator=32,
-            )
-
     ..  container:: example
 
         **Example 1.** Makes one-stage delicatissimo figures:
@@ -66,8 +37,8 @@ def make_delicatissimo_figure_maker():
             >>> figures_ = []
             >>> for figure in figures:
             ...     figures_.extend(figure)
-            >>> figures = select(figures_)
             ...
+            >>> figures = select(figures_)
 
         ::
 
@@ -250,6 +221,7 @@ def make_delicatissimo_figure_maker():
             >>> figures_ = []
             >>> for figure in figures:
             ...     figures_.extend(figure)
+            ...
             >>> figures = select(figures_)
 
         ::
@@ -448,6 +420,37 @@ def make_delicatissimo_figure_maker():
                     }
                 >>
             >>
+
+    ..  container:: example
+
+        **Definition.** Formats delicatissimo figure-maker:
+
+        >>> print(format(dornen.tools.make_delicatissimo_figure_maker()))
+        baca.tools.FigureMaker(
+            rhythmmakertools.BeamSpecifier(
+                beam_each_division=True,
+                beam_divisions_together=True,
+                ),
+            baca.tools.ArticulationSpecifier(
+                articulations=['.'],
+                ),
+            baca.tools.RhythmSpecifier(
+                patterns=[
+                    patterntools.Pattern(
+                        indices=(0,),
+                        period=1,
+                        ),
+                    ],
+                rhythm_maker=baca.tools.FigureRhythmMaker(
+                    talea=rhythmmakertools.Talea(
+                        counts=(1,),
+                        denominator=32,
+                        ),
+                    ),
+                ),
+            annotate_unregistered_pitches=True,
+            preferred_denominator=32,
+            )
 
     Returns figure-maker.
     '''

@@ -112,6 +112,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         'inverted_wave_64_figure_maker',
         'ovoid_figure_maker',
         'passepied_figure_maker',
+        'rest_figure_maker',
         'running_figure_maker',
         'sixteenth_figure_maker',
         'thirty_second_figure_maker',
@@ -155,14 +156,15 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         self.inverted_wave_64_figure_maker = \
             dornen.tools.make_wave_figure_maker(denominator=64, inverted=True)
         self.ovoid_figure_maker = dornen.tools.make_ovoid_figure_maker()
-        self.twentieth_figure_maker = dornen.tools.make_twentieth_figure_maker()
         self.passepied_figure_maker = \
             dornen.tools.make_passepied_figure_maker()
+        self.rest_figure_maker = dornen.tools.make_rest_figure_maker()
         self.sixteenth_figure_maker = \
             dornen.tools.make_sixteenth_figure_maker()
         self.thirty_second_figure_maker = \
             dornen.tools.make_thirty_second_figure_maker()
         self.tremolo_figure_maker = dornen.tools.make_tremolo_figure_maker()
+        self.twentieth_figure_maker = dornen.tools.make_twentieth_figure_maker()
         self.wave_32_figure_maker = \
             dornen.tools.make_wave_figure_maker(denominator=32)
         self.wave_64_figure_maker = \
@@ -203,7 +205,10 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         import dornen
         voice_name = 'Guitar Music Voice {}'
         voice_name = voice_name.format(voice_number)
-        assert voice_name in self._all_voices
+        if voice_name not in self._all_voices:
+            message = 'unknown voice name: {!r}.'
+            message = message.format(voice_name)
+            raise Exception(message)
         selection, time_signature, state_manifest = figure_output_triple
         assert isinstance(selection, abjad.selectiontools.Selection)
         duration = selection.get_duration()

@@ -282,7 +282,7 @@ accumulator(
 ###############################################################################
 
 tempo_specifier = baca.tools.TempoSpecifier([
-    (1, dornen.materials.tempi[66]),
+    #(1, dornen.materials.tempi[66]),
     ])
 
 spacing_specifier = baca.tools.SpacingSpecifier(

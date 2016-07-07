@@ -1156,7 +1156,7 @@
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            ef'''16 -\marcato [ \< \f
+                            ef'''16 [ \< \f
                         }
                     }
                     s1 * 3/16
@@ -1165,10 +1165,10 @@
                         \times 4/5 {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
-                            ef'''16 -\marcato
+                            ef'''16
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
-                            a''16 -\marcato
+                            a''16
                         }
                     }
                     s1 * 13/64
@@ -1177,13 +1177,13 @@
                         \times 4/5 {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
-                            ef'''16 -\marcato
+                            ef'''16
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            a''16 -\marcato
+                            a''16
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
-                            e'''16 -\marcato
+                            e'''16
                         }
                     }
                     s1 * 7/32
@@ -1192,16 +1192,16 @@
                         \times 4/5 {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
-                            ef'''16 -\marcato
+                            ef'''16
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            a''16 -\marcato
+                            a''16
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            e'''16 -\marcato
+                            e'''16
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
-                            c'''16 -\marcato
+                            c'''16
                         }
                     }
                     s1 * 15/64
@@ -1209,19 +1209,19 @@
                         \times 4/5 {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
-                            ef'''16 -\marcato
+                            ef'''16
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            a''16 -\marcato
+                            a''16
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            e'''16 -\marcato
+                            e'''16
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            c'''16 -\marcato
+                            c'''16
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            bf''16 -\marcato ] \fff
+                            bf''16 ] \fff
                         }
                     }
                     s1 * 5/16
@@ -1231,7 +1231,7 @@
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            ef'''16 -\marcato [ \> \fff
+                            ef'''16 [ \> \fff
                         }
                     }
                     s1 * 11/16
@@ -1240,10 +1240,10 @@
                         \times 4/5 {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
-                            ef'''16 -\marcato
+                            ef'''16
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            a''16 -\marcato ] \f
+                            a''16 ] \f
                         }
                     }
                     s1 * 11/16

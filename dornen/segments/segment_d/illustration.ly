@@ -135,22 +135,7 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     \mark #4
-                    s1 * 3/32 ^ \markup {
-                        \fontsize
-                            #-6
-                            \general-align
-                                #Y
-                                #DOWN
-                                \note-by-number
-                                    #3
-                                    #0
-                                    #1
-                        \upright
-                            {
-                                =
-                                66
-                            }
-                        }
+                    s1 * 3/32
                 }
                 {
                     \time 3/20

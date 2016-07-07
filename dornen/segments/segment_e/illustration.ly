@@ -45,8 +45,24 @@
                     R1 * 5/8
                 }
                 {
-                    \time 32/32
-                    R1 * 1
+                    \time 30/64
+                    R1 * 15/32
+                }
+                {
+                    \time 40/64
+                    R1 * 5/8
+                }
+                {
+                    \time 50/64
+                    R1 * 25/32
+                }
+                {
+                    \time 60/64
+                    R1 * 15/16
+                }
+                {
+                    \time 125/64
+                    R1 * 125/64
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
@@ -56,134 +72,54 @@
                     \newSpacingSection
                     \mark #5
                     s1 * 3/32
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [E.1]
-                            }
-                        ^ \markup {
-                        \fontsize
-                            #-6
-                            \general-align
-                                #Y
-                                #DOWN
-                                \note-by-number
-                                    #3
-                                    #0
-                                    #1
-                        \upright
-                            {
-                                =
-                                66
-                            }
-                        }
                 }
                 {
                     \time 1/16
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 1/16
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [E.2]
-                            }
                 }
                 {
                     \time 3/16
                     \set Score.proportionalNotationDuration = #(ly:make-moment 3 256)
                     \newSpacingSection
                     s1 * 3/16
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [E.3]
-                            }
                 }
                 {
                     \time 3/20
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 3/20
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [E.4]
-                            }
                 }
                 {
                     \time 3/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 3/32
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [E.5]
-                            }
                 }
                 {
                     \time 1/16
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 1/16
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [E.6]
-                            }
                 }
                 {
                     \time 3/20
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 3/20
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [E.7]
-                            }
                 }
                 {
                     \time 5/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 5/8
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [E.8]
-                            }
                 }
                 {
-                    \time 32/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 30/64
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                     \newSpacingSection
-                    s1 * 1
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [E.9]
-                            }
-                        ^ \markup {
+                    s1 * 15/32 ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -199,6 +135,30 @@
                                 44
                             }
                         }
+                }
+                {
+                    \time 40/64
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
+                    \newSpacingSection
+                    s1 * 5/8
+                }
+                {
+                    \time 50/64
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
+                    \newSpacingSection
+                    s1 * 25/32
+                }
+                {
+                    \time 60/64
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
+                    \newSpacingSection
+                    s1 * 15/16
+                }
+                {
+                    \time 125/64
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
+                    \newSpacingSection
+                    s1 * 125/64
                 }
             }
         >>
@@ -220,23 +180,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             bf'32. -\tenuto [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    \concat
-                                                        {
-                                                            48
-                                                            \sub
-                                                                1
-                                                        }
-                                                    ]
-                                                }
-                                    }
                             \once \override Beam.positions = #'(10 . 10)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
@@ -250,18 +193,6 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             a'64 (
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    R1
-                                                    ]
-                                                }
-                                    }
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             b64
@@ -317,23 +248,6 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             cs'32. -\tenuto
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    \concat
-                                                        {
-                                                            48
-                                                            \sub
-                                                                2
-                                                        }
-                                                    ]
-                                                }
-                                    }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             f'32. -\tenuto ]
@@ -345,22 +259,9 @@
                         {
                             r8
                                 ^ \markup {
-                                    \column
-                                        {
-                                            \whiteout
-                                                \upright
-                                                    "APPLY SCORDATURA"
-                                            \fontsize
-                                                #3
-                                                \with-color
-                                                    #darkgreen
-                                                    \concat
-                                                        {
-                                                            [
-                                                            S1
-                                                            ]
-                                                        }
-                                        }
+                                    \whiteout
+                                        \upright
+                                            "APPLY SCORDATURA"
                                     }
                             r8
                             r8
@@ -371,113 +272,1014 @@
                     {
                         {
                             \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            fs32 -\staccato [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    D1
-                                                    ]
-                                                }
-                                    }
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            e32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            f32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            fqs''32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            gqf''32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            a32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            bf32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            g32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            af32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            bqs''32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            dqs''32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            eqf''32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            b32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            d32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            ef32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            bqf''32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            g32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            af32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            bqs''32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            bf32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            eqf''32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            b32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            d32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            ef32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            bqf''32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            dqs''32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            e32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            f32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            fqs''32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            gqf''32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            a32 -\staccato
-                            \set stemLeftBeamCount = #3
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato [
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            f''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            f''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            f''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            f''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            f''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            f''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            f''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            f''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            f''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #0
-                            fs32 -\staccato ]
+                            f''64 -\staccato ]
+                        }
+                    }
+                    {
+                        {
+                            \set stemLeftBeamCount = #0
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato [
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fqs''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fqs''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fqs''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fqs''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fqs''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fqs''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fqs''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fqs''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fqs''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #0
+                            fqs''64 -\staccato ]
+                        }
+                    }
+                    {
+                        {
+                            \set stemLeftBeamCount = #0
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato [
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            gqf''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            gqf''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            gqf''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            gqf''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            gqf''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            gqf''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            gqf''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            gqf''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            gqf''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #0
+                            gqf''64 -\staccato ]
+                        }
+                    }
+                    {
+                        {
+                            \set stemLeftBeamCount = #0
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato [
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            a''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            a''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            a''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            a''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            a''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            a''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            a''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            a''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            a''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #0
+                            a''64 -\staccato ]
+                        }
+                    }
+                    {
+                        {
+                            \set stemLeftBeamCount = #0
+                            \set stemRightBeamCount = #4
+                            fs''64 -\staccato [
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            a''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            g''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            af''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            dqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            eqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            b''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            ef''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            g''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            af''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            eqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            b''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            ef''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            dqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            a''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fs''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            a''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            dqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            ef''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            b''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            eqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            af''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            g''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            ef''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            b''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            eqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            dqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            af''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            g''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            a''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fs''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            a''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            g''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            af''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            dqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            eqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            b''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            ef''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            g''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            af''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            eqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            b''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            ef''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            dqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            a''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fs''64 -\staccato
+                        }
+                        {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            a''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            dqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            ef''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            b''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            eqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            af''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            g''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            ef''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            b''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            eqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            dqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            af''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            g''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            a''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            gqf''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            fqs''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            e''64 -\staccato
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #0
+                            fs''64 -\staccato ]
                             \bar "|"
                         }
                     }
@@ -491,7 +1293,11 @@
                     s1 * 1/16
                     s1 * 3/20
                     s1 * 5/8
-                    s1 * 1
+                    s1 * 15/32
+                    s1 * 5/8
+                    s1 * 25/32
+                    s1 * 15/16
+                    s1 * 125/64
                     \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
@@ -502,23 +1308,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             f16 -\accent [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    \concat
-                                                        {
-                                                            16
-                                                            \sub
-                                                                1
-                                                        }
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     s1 * 3/16
@@ -530,28 +1319,15 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             a16 -\accent ]
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    \concat
-                                                        {
-                                                            16
-                                                            \sub
-                                                                2
-                                                        }
-                                                    ]
-                                                }
-                                    }
                         }
                     }
                     s1 * 3/20
                     s1 * 5/8
-                    s1 * 1
+                    s1 * 15/32
+                    s1 * 5/8
+                    s1 * 25/32
+                    s1 * 15/16
+                    s1 * 125/64
                     \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
@@ -563,23 +1339,6 @@
                         \times 4/5 {
                             \once \override Beam.positions = #'(5.5 . 5.5)
                             g''16 -\staccato [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    \concat
-                                                        {
-                                                            20
-                                                            \sub
-                                                                1
-                                                        }
-                                                    ]
-                                                }
-                                    }
                             \once \override Beam.positions = #'(5.5 . 5.5)
                             af'16 -\staccato
                             \once \override Beam.positions = #'(5.5 . 5.5)
@@ -593,23 +1352,6 @@
                         \times 4/5 {
                             \once \override Beam.positions = #'(5.5 . 5.5)
                             b'16 -\staccato [
-                                ^ \markup {
-                                    \fontsize
-                                        #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    \concat
-                                                        {
-                                                            20
-                                                            \sub
-                                                                2
-                                                        }
-                                                    ]
-                                                }
-                                    }
                             \once \override Beam.positions = #'(5.5 . 5.5)
                             bf'16 -\staccato
                             \once \override Beam.positions = #'(5.5 . 5.5)
@@ -617,7 +1359,11 @@
                         }
                     }
                     s1 * 5/8
-                    s1 * 1
+                    s1 * 15/32
+                    s1 * 5/8
+                    s1 * 25/32
+                    s1 * 15/16
+                    s1 * 125/64
                     \bar "|"
                 }
             >>

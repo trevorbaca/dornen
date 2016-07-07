@@ -159,7 +159,7 @@ def make_anchor_figure_maker():
 
     ..  container:: example
 
-        **Definition.** Formats dotted thirty-second figure-maker:
+        **Definition.** Formats anchor figure-maker:
 
             >>> print(format(dornen.tools.make_anchor_figure_maker()))
             baca.tools.FigureMaker(

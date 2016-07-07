@@ -25,7 +25,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.monad_figure_maker(
+    accumulator.twentieth_figure_maker(
         accumulator.reveal(design[4:5], 1),
         baca.overrides.beam_positions(-8),
         baca.overrides.proportional_notation_duration((1, 40)),
@@ -50,7 +50,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.monad_figure_maker(
+    accumulator.twentieth_figure_maker(
         accumulator.reveal(design[4:5], 2),
         baca.pitch.register(6),
         extend_beam=True,
@@ -73,7 +73,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.monad_figure_maker(
+    accumulator.twentieth_figure_maker(
         accumulator.reveal(design[4:5], 3),
         baca.pitch.register(6),
         extend_beam=True,
@@ -96,7 +96,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.monad_figure_maker(
+    accumulator.twentieth_figure_maker(
         accumulator.reveal(design[4:5], 4),
         baca.pitch.register(6),
         extend_beam=True,
@@ -119,7 +119,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.monad_figure_maker(
+    accumulator.twentieth_figure_maker(
         accumulator.reveal(design[4:5], 5),
         baca.pitch.register(6),
         figure_name='F1',
@@ -140,7 +140,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.monad_figure_maker(
+    accumulator.twentieth_figure_maker(
         accumulator.reveal(design[4:5], 1),
         baca.overrides.proportional_notation_duration((1, 40)),
         baca.pitch.register(6),
@@ -165,7 +165,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.monad_figure_maker(
+    accumulator.twentieth_figure_maker(
         accumulator.reveal(design[4:5], 2),
         baca.pitch.register(6),
         figure_name='F1_2*',

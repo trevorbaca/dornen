@@ -3,8 +3,8 @@ import abjad
 import baca
 
 
-def make_dotted_thirty_second_figure_maker():
-    r'''Makes dotted thirty-second figure-maker.
+def make_forty_eighth_figure_maker():
+    r'''Makes forty-eighth figure-maker.
 
     ::
 
@@ -13,7 +13,7 @@ def make_dotted_thirty_second_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes one-stage dotted thirty-second figures:
+        **Example 1.** Makes one-stage forty-eighth figures:
 
         ::
 
@@ -26,7 +26,7 @@ def make_dotted_thirty_second_figure_maker():
 
         ::
 
-            >>> figure_maker = dornen.tools.make_dotted_thirty_second_figure_maker()
+            >>> figure_maker = dornen.tools.make_forty_eighth_figure_maker()
             >>> figures, time_signatures = [], []
             >>> for figure_token in figure_tokens:
             ...     result = figure_maker(figure_token)
@@ -163,7 +163,7 @@ def make_dotted_thirty_second_figure_maker():
 
         ::
 
-            >>> print(format(dornen.tools.make_dotted_thirty_second_figure_maker()))
+            >>> print(format(dornen.tools.make_forty_eighth_figure_maker()))
             baca.tools.FigureMaker(
                 baca.tools.RhythmSpecifier(
                     patterns=[

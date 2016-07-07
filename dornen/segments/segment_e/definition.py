@@ -13,81 +13,87 @@ design = dornen.tools.make_design_3(start=10, stop=30)
 assert len(design) == 20
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.forty_eighth_figure_maker(
         design[:1],
-        figure_name=1,
+        baca.articulations.tenuti(),
+        baca.overrides.beam_positions(10),
+        baca.pitch.register(-12),
+        extend_beam=True,
+        figure_name='48_1',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.sixteenth_figure_maker(
         design[1:2],
-        figure_name=2,
+        extend_beam=True,
+        figure_name='16_1',
+        ),
+    voice_number=3,
+    )
+
+accumulator(
+    accumulator.running_figure_maker(
+        design[2:5],
+        baca.pitch.register(-14, 0),
+        extend_beam=True,
+        figure_name='R1',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
-        design[2:3],
-        figure_name=3,
-        ),
-    voice_number=1,
-    )
-
-accumulator(
-    accumulator.default_figure_maker(
-        design[3:4],
-        figure_name=4,
-        ),
-    voice_number=1,
-    )
-
-accumulator(
-    accumulator.default_figure_maker(
-        design[4:5],
-        figure_name=5,
-        ),
-    voice_number=1,
-    )
-
-accumulator(
-    accumulator.default_figure_maker(
+    accumulator.twentieth_figure_maker(
         design[5:6],
-        figure_name=6,
+        figure_name='20_1',
         ),
-    voice_number=1,
+    voice_number=4,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.forty_eighth_figure_maker(
         design[6:7],
-        figure_name=7,
+        baca.articulations.tenuti(),
+        baca.pitch.register(-12),
+        figure_name='48_2',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.sixteenth_figure_maker(
         design[7:8],
-        figure_name=8,
+        figure_name='16_2',
         ),
-    voice_number=1,
+    voice_number=3,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.twentieth_figure_maker(
         design[8:9],
-        figure_name=9,
+        figure_name='20_2',
+        ),
+    voice_number=4,
+    )
+
+accumulator(
+    accumulator.rest_figure_maker(
+        [5 * [None]],
+        baca.markup.make_markup_specifier(
+            'APPLY SCORDATURA',
+            selector=baca.selector.first_leaf(),
+            ),
+        figure_name='S1',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.delicatissimo_figure_maker(
         design[9:10],
-        figure_name=10,
+        baca.pitch.register(-24),
+        figure_name='D1',
         ),
     voice_number=1,
     )
@@ -97,7 +103,8 @@ accumulator(
 ###############################################################################
 
 tempo_specifier = baca.tools.TempoSpecifier([
-    #(1, dornen.materials.tempi[44]),
+    (1, dornen.materials.tempi[66]),
+    (9, dornen.materials.tempi[44]),
     ])
 
 spacing_specifier = baca.tools.SpacingSpecifier(
@@ -108,8 +115,9 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 measures_per_stage = len(accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
+    allow_figure_names=True,
     #label_clock_time=True,
-    #label_stages=True,
+    label_stages=True,
     measures_per_stage=measures_per_stage,
     score_package=dornen,
     score_template=dornen.tools.ScoreTemplate(),
@@ -130,8 +138,19 @@ accumulator._populate_segment_maker(segment_maker)
 ###############################################################################
 
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 1', baca.tools.stages(1, 10)),
+    ('Guitar Music Voice 3', baca.tools.stages(1, 7)),
     [
-        #baca.pitch.register(-12),
+        baca.articulations.accents(),
+        baca.overrides.script_direction(Down),
+        baca.pitch.register(-20),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 4', baca.tools.stages(1, 7)),
+    [
+        baca.articulations.staccati(),
+        baca.overrides.beam_positions(5.5),
+        baca.pitch.register(-4),
         ],
     )

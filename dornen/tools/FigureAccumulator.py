@@ -119,6 +119,8 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         'thirty_second_figure_maker',
         'tremolo_figure_maker',
         'twentieth_figure_maker',
+        'twenty_eighth_figure_maker',
+        'twenty_fourth_figure_maker',
         'wave_32_figure_maker',
         'wave_64_figure_maker',
         )
@@ -168,6 +170,10 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
             dornen.tools.make_thirty_second_figure_maker()
         self.tremolo_figure_maker = dornen.tools.make_tremolo_figure_maker()
         self.twentieth_figure_maker = dornen.tools.make_twentieth_figure_maker()
+        self.twenty_eighth_figure_maker = \
+            dornen.tools.make_twenty_eighth_figure_maker()
+        self.twenty_fourth_figure_maker = \
+            dornen.tools.make_twenty_fourth_figure_maker()
         self.wave_32_figure_maker = \
             dornen.tools.make_wave_figure_maker(denominator=32)
         self.wave_64_figure_maker = \

@@ -13,87 +13,88 @@
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                 {
-                    \time 3/32
-                    R1 * 3/32
+                    \time 3/20
+                    R1 * 3/20
                 }
                 {
-                    \time 1/32
-                    R1 * 1/32
+                    \time 1/16
+                    R1 * 1/16
                 }
                 {
-                    \time 3/32
-                    R1 * 3/32
+                    \time 3/28
+                    R1 * 3/28
                 }
                 {
-                    \time 1/32
-                    R1 * 1/32
+                    \time 1/16
+                    R1 * 1/16
                 }
                 {
-                    \time 3/32
-                    R1 * 3/32
+                    \time 3/20
+                    R1 * 3/20
                 }
                 {
-                    \time 1/32
-                    R1 * 1/32
+                    \time 1/16
+                    R1 * 1/16
                 }
                 {
-                    \time 3/32
-                    R1 * 3/32
+                    \time 3/28
+                    R1 * 3/28
                 }
                 {
-                    \time 1/32
-                    R1 * 1/32
+                    \time 1/16
+                    R1 * 1/16
                 }
                 {
-                    \time 3/32
-                    R1 * 3/32
+                    \time 3/20
+                    R1 * 3/20
                 }
                 {
-                    \time 1/32
-                    R1 * 1/32
+                    \time 1/16
+                    R1 * 1/16
                 }
                 {
-                    R1 * 1/32
-                }
-                {
-                    \time 4/32
-                    R1 * 1/8
-                }
-                {
-                    \time 1/32
-                    R1 * 1/32
+                    \time 1/24
+                    R1 * 1/24
                 }
                 {
                     \time 4/32
                     R1 * 1/8
                 }
                 {
-                    \time 1/32
-                    R1 * 1/32
+                    \time 1/24
+                    R1 * 1/24
+                }
+                {
+                    \time 4/28
+                    R1 * 1/7
+                }
+                {
+                    \time 1/24
+                    R1 * 1/24
                 }
                 {
                     \time 4/32
                     R1 * 1/8
                 }
                 {
-                    \time 1/32
-                    R1 * 1/32
+                    \time 1/24
+                    R1 * 1/24
                 }
                 {
                     \time 4/32
                     R1 * 1/8
                 }
                 {
-                    \time 1/32
-                    R1 * 1/32
+                    \time 1/24
+                    R1 * 1/24
                 }
                 {
-                    \time 4/32
-                    R1 * 1/8
+                    \time 4/28
+                    R1 * 1/7
                 }
                 {
-                    \time 1/32
-                    R1 * 1/32
+                    \time 1/24
+                    R1 * 1/24
                 }
                 {
                     \time 4/32
@@ -102,82 +103,71 @@
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
-                    \time 3/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 3/20
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     \mark #6
-                    s1 * 3/32
+                    s1 * 3/20
                 }
                 {
-                    \time 1/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 1/16
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 1/32
+                    s1 * 1/16
                 }
                 {
-                    \time 3/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 3/28
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                     \newSpacingSection
-                    s1 * 3/32
+                    s1 * 3/28
                 }
                 {
-                    \time 1/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 1/16
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 1/32
+                    s1 * 1/16
                 }
                 {
-                    \time 3/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 3/20
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 3/32
+                    s1 * 3/20
                 }
                 {
-                    \time 1/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 1/16
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 1/32
+                    s1 * 1/16
                 }
                 {
-                    \time 3/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 3/28
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                     \newSpacingSection
-                    s1 * 3/32
+                    s1 * 3/28
                 }
                 {
-                    \time 1/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 1/16
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 1/32
+                    s1 * 1/16
                 }
                 {
-                    \time 3/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 3/20
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 3/32
+                    s1 * 3/20
                 }
                 {
-                    \time 1/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 1/16
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 1/32
+                    s1 * 1/16
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 1/24
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 1/32
-                }
-                {
-                    \time 4/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                    \newSpacingSection
-                    s1 * 1/8
-                }
-                {
-                    \time 1/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                    \newSpacingSection
-                    s1 * 1/32
+                    s1 * 1/24
                 }
                 {
                     \time 4/32
@@ -186,10 +176,22 @@
                     s1 * 1/8
                 }
                 {
-                    \time 1/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 1/24
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 1/32
+                    s1 * 1/24
+                }
+                {
+                    \time 4/28
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
+                    \newSpacingSection
+                    s1 * 1/7
+                }
+                {
+                    \time 1/24
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 1/24
                 }
                 {
                     \time 4/32
@@ -198,10 +200,10 @@
                     s1 * 1/8
                 }
                 {
-                    \time 1/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 1/24
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 1/32
+                    s1 * 1/24
                 }
                 {
                     \time 4/32
@@ -210,22 +212,22 @@
                     s1 * 1/8
                 }
                 {
-                    \time 1/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 1/24
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 1/32
+                    s1 * 1/24
                 }
                 {
-                    \time 4/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 4/28
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                     \newSpacingSection
-                    s1 * 1/8
+                    s1 * 1/7
                 }
                 {
-                    \time 1/32
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 1/24
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 1/32
+                    s1 * 1/24
                 }
                 {
                     \time 4/32
@@ -248,516 +250,146 @@
                 }
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
                     {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            a''32 [ (
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            cs''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
+                            \set stemRightBeamCount = #2
+                            a'16 [ (
+                            \once \override Beam.positions = #'(8 . 8)
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            cs''16
+                            \once \override Beam.positions = #'(8 . 8)
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #1
+                            g''16 )
+                        }
+                    }
+                    s1 * 1/16
+                    s1 * 3/28
+                    s1 * 1/16
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            \once \override Beam.positions = #'(8 . 8)
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #2
+                            cs'16 (
+                            \once \override Beam.positions = #'(8 . 8)
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            e'16
+                            \once \override Beam.positions = #'(8 . 8)
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #1
+                            bf'16 )
+                        }
+                    }
+                    s1 * 1/16
+                    s1 * 3/28
+                    s1 * 1/16
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            \once \override Beam.positions = #'(8 . 8)
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #2
+                            af'16 (
+                            \once \override Beam.positions = #'(8 . 8)
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            b'16
+                            \once \override Beam.positions = #'(8 . 8)
+                            \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            g''32 ] )
+                            fs''16 ] )
                         }
                     }
+                    s1 * 1/16
+                    s1 * 1/24
                     {
                         {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            ef''32
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            d''32 [ (
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            e'32 [ (
+                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            f''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            a'32
+                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
-                            af''32 ] )
+                            \set stemRightBeamCount = #3
+                            g'32
+                            \once \override Beam.positions = #'(8 . 8)
+                            \set stemLeftBeamCount = #3
+                            \set stemRightBeamCount = #1
+                            bf'32 )
                         }
                     }
+                    s1 * 1/24
+                    s1 * 1/7
+                    s1 * 1/24
                     {
                         {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            a''32
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #0
+                            \once \override Beam.positions = #'(8 . 8)
+                            \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
-                            cs''32 [ (
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            af'32 (
+                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            e''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
-                            bf''32 ] )
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            b''32
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            fs''32 [ (
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            a''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
-                            cs''32 ] )
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            e''32
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            af''32 [ (
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            b''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
-                            fs''32 ] )
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            bf''32
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            ef''32
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            e''32 [ (
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            a''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            g''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
-                            bf''32 ] )
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            d''32
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            af''32 [ (
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            f''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            cs''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
-                            b''32 ] )
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            c''32
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            af''32 [ (
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            f''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            f'32
+                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             d''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
-                            b''32 ] )
+                            \set stemRightBeamCount = #1
+                            b'32 )
                         }
                     }
+                    s1 * 1/24
                     {
                         {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            c''32
+                            \once \override Beam.positions = #'(8 . 8)
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #3
+                            cs'32 (
+                            \once \override Beam.positions = #'(8 . 8)
+                            \set stemLeftBeamCount = #3
+                            \set stemRightBeamCount = #3
+                            e'32
+                            \once \override Beam.positions = #'(8 . 8)
+                            \set stemLeftBeamCount = #3
+                            \set stemRightBeamCount = #3
+                            a'32
+                            \once \override Beam.positions = #'(8 . 8)
+                            \set stemLeftBeamCount = #3
+                            \set stemRightBeamCount = #1
+                            g''32 )
                         }
                     }
+                    s1 * 1/24
+                    s1 * 1/7
+                    s1 * 1/24
                     {
                         {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #0
+                            \once \override Beam.positions = #'(8 . 8)
+                            \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
-                            cs''32 [ (
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            g'32 (
+                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            e''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            a''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
-                            g''32 ] )
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            bf''32
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            ef''32 [ (
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            c''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            cs''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
-                            b''32 ] )
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            a''32
-                        }
-                    }
-                    {
-                        {
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            g''32 [ (
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            bf''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            bf'32
+                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             ef''32
-                            \once \override Accidental.color = #magenta
-                            \once \override Beam.color = #magenta
-                            \once \override Dots.color = #magenta
-                            \once \override Flag.color = #magenta
-                            \once \override NoteHead.color = #magenta
-                            \once \override Stem.color = #magenta
+                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             e''32 ] )
@@ -766,77 +398,235 @@
                     }
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 1/32
+                    s1 * 3/20
+                    {
+                        {
+                            \once \override Beam.positions = #'(-7 . -7)
+                            \once \override TextScript.direction = #down
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                            \set stemLeftBeamCount = #0
+                            \set stemRightBeamCount = #2
+                            ef'16 [
+                                _ \markup {
+                                    \whiteout
+                                        \upright
+                                            "dull (but beautiful) thud with RH muting for each red note"
+                                    }
+                        }
+                    }
+                    s1 * 3/28
+                    {
+                        {
+                            \once \override Beam.positions = #'(-7 . -7)
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #1
+                            a16
+                        }
+                    }
+                    s1 * 3/20
+                    {
+                        {
+                            \once \override Beam.positions = #'(-7 . -7)
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #1
+                            b16
+                        }
+                    }
+                    s1 * 3/28
+                    {
+                        {
+                            \once \override Beam.positions = #'(-7 . -7)
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #1
+                            e'16
+                        }
+                    }
+                    s1 * 3/20
+                    {
+                        {
+                            \once \override Beam.positions = #'(-7 . -7)
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #0
+                            bf16 ]
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            \once \override Beam.positions = #'(-7 . -7)
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
+                            \set stemLeftBeamCount = #0
+                            \set stemRightBeamCount = #2
+                            ef'16 [
+                        }
+                    }
                     s1 * 1/8
-                    s1 * 1/32
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            \once \override Beam.positions = #'(-7 . -7)
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #1
+                            d'16
+                        }
+                    }
+                    s1 * 1/7
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            \once \override Beam.positions = #'(-7 . -7)
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #1
+                            c'16
+                        }
+                    }
                     s1 * 1/8
-                    s1 * 1/32
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            \once \override Beam.positions = #'(-7 . -7)
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #1
+                            c'16
+                        }
+                    }
                     s1 * 1/8
-                    s1 * 1/32
-                    s1 * 1/8
-                    s1 * 1/32
-                    s1 * 1/8
-                    s1 * 1/32
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            \once \override Beam.positions = #'(-7 . -7)
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #1
+                            bf16
+                        }
+                    }
+                    s1 * 1/7
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            \once \override Beam.positions = #'(-7 . -7)
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #0
+                            a16 ]
+                        }
+                    }
                     s1 * 1/8
                     \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 1/32
+                    s1 * 3/20
+                    s1 * 1/16
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/7 {
+                            \once \override Beam.positions = #'(4 . 4)
+                            \once \override Stem.direction = #up
+                            d'16 -\staccato [
+                            \once \override Beam.positions = #'(4 . 4)
+                            \once \override Stem.direction = #up
+                            f'16 -\staccato
+                            \once \override Beam.positions = #'(4 . 4)
+                            \once \override Stem.direction = #up
+                            af'16 -\staccato ]
+                        }
+                    }
+                    s1 * 1/16
+                    s1 * 3/20
+                    s1 * 1/16
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/7 {
+                            \once \override Beam.positions = #'(4 . 4)
+                            \once \override Stem.direction = #up
+                            fs'16 -\staccato [
+                            \once \override Beam.positions = #'(4 . 4)
+                            \once \override Stem.direction = #up
+                            a'16 -\staccato
+                            \once \override Beam.positions = #'(4 . 4)
+                            \once \override Stem.direction = #up
+                            cs''16 -\staccato ]
+                        }
+                    }
+                    s1 * 1/16
+                    s1 * 3/20
+                    s1 * 1/16
+                    s1 * 1/24
                     s1 * 1/8
-                    s1 * 1/32
+                    s1 * 1/24
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/7 {
+                            \once \override Beam.positions = #'(4 . 4)
+                            \once \override Stem.direction = #up
+                            af'16 -\staccato [
+                            \once \override Beam.positions = #'(4 . 4)
+                            \once \override Stem.direction = #up
+                            f'16 -\staccato
+                            \once \override Beam.positions = #'(4 . 4)
+                            \once \override Stem.direction = #up
+                            cs''16 -\staccato
+                            \once \override Beam.positions = #'(4 . 4)
+                            \once \override Stem.direction = #up
+                            b'16 -\staccato ]
+                        }
+                    }
+                    s1 * 1/24
                     s1 * 1/8
-                    s1 * 1/32
+                    s1 * 1/24
                     s1 * 1/8
-                    s1 * 1/32
-                    s1 * 1/8
-                    s1 * 1/32
-                    s1 * 1/8
-                    s1 * 1/32
+                    s1 * 1/24
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/7 {
+                            \once \override Beam.positions = #'(4 . 4)
+                            \once \override Stem.direction = #up
+                            ef'16 -\staccato [
+                            \once \override Beam.positions = #'(4 . 4)
+                            \once \override Stem.direction = #up
+                            c''16 -\staccato
+                            \once \override Beam.positions = #'(4 . 4)
+                            \once \override Stem.direction = #up
+                            cs''16 -\staccato
+                            \once \override Beam.positions = #'(4 . 4)
+                            \once \override Stem.direction = #up
+                            b'16 -\staccato ]
+                        }
+                    }
+                    s1 * 1/24
                     s1 * 1/8
                     \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 1/32
+                    s1 * 3/20
+                    s1 * 1/16
+                    s1 * 3/28
+                    s1 * 1/16
+                    s1 * 3/20
+                    s1 * 1/16
+                    s1 * 3/28
+                    s1 * 1/16
+                    s1 * 3/20
+                    s1 * 1/16
+                    s1 * 1/24
                     s1 * 1/8
-                    s1 * 1/32
+                    s1 * 1/24
+                    s1 * 1/7
+                    s1 * 1/24
                     s1 * 1/8
-                    s1 * 1/32
+                    s1 * 1/24
                     s1 * 1/8
-                    s1 * 1/32
-                    s1 * 1/8
-                    s1 * 1/32
-                    s1 * 1/8
-                    s1 * 1/32
+                    s1 * 1/24
+                    s1 * 1/7
+                    s1 * 1/24
                     s1 * 1/8
                     \bar "|"
                 }

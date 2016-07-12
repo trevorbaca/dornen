@@ -1345,7 +1345,7 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             b''32 ] )
-                            \bar "|"
+                            \bar "|."
                         }
                     }
                 }
@@ -1370,7 +1370,7 @@
                     s1 * 5/32
                     s1 * 5/32
                     s1 * 1/16
-                    \bar "|"
+                    \bar "|."
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
                     s1 * 3/16
@@ -1393,7 +1393,7 @@
                     s1 * 5/32
                     s1 * 5/32
                     s1 * 1/16
-                    \bar "|"
+                    \bar "|."
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
                     s1 * 3/16
@@ -1416,7 +1416,7 @@
                     s1 * 5/32
                     s1 * 5/32
                     s1 * 1/16
-                    \bar "|"
+                    \bar "|."
                 }
             >>
         }

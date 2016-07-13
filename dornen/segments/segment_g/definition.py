@@ -13,97 +13,110 @@ design = dornen.tools.make_design_2(start=28)
 assert len(design) == 12, (repr(design), len(design))
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.ovoid_figure_maker(
         design[:1],
-        figure_name=1,
+        baca.beam_positions(-7.5),
+        baca.register(-20, -8),
+        figure_name='O1',
         ),
-    voice_number=1,
+    voice_number=2,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.glissando_scatto_figure_maker(
         design[1:2],
-        figure_name=2,
+        baca.beam_positions(8),
+        figure_name='L1',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.graced_tuplet_figure_maker(
         design[2:3],
-        figure_name=3,
+        extend_beam=True,
+        figure_name='G1',
         ),
-    voice_number=1,
+    voice_number=4,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.delicatissimo_figure_maker(
         design[3:4],
-        figure_name=4,
+        baca.beam_positions(-7.5),
+        baca.register(4, -20),
+        figure_name='D1',
         ),
-    voice_number=1,
+    voice_number=3,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.graced_tuplet_figure_maker(
         design[4:5],
-        figure_name=5,
+        figure_name='G2',
         ),
-    voice_number=1,
+    voice_number=4,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.ovoid_figure_maker(
         design[5:6],
-        figure_name=6,
+        baca.beam_positions(-7.5),
+        extend_beam=True,
+        figure_name='O2',
         ),
-    voice_number=1,
+    voice_number=2,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.glissando_scatto_figure_maker(
         design[6:7],
-        figure_name=7,
+        baca.beam_positions(12),
+        extend_beam=True,
+        figure_name='L2',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.graced_tuplet_figure_maker(
         design[7:8],
-        figure_name=8,
+        extend_beam=True,
+        figure_name='G3',
         ),
-    voice_number=1,
+    voice_number=4,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.delicatissimo_figure_maker(
         design[8:9],
-        figure_name=9,
+        baca.beam_positions(-6),
+        baca.register(4, -20),
+        figure_name='D2',
         ),
-    voice_number=1,
+    voice_number=3,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.graced_tuplet_figure_maker(
         design[9:10],
-        figure_name=10,
+        figure_name='G4',
         ),
-    voice_number=1,
+    voice_number=4,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.ovoid_figure_maker(
         design[10:11],
-        figure_name=11,
+        figure_name='O3',
         ),
-    voice_number=1,
+    voice_number=2,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.glissando_scatto_figure_maker(
         design[11:12],
-        figure_name=12,
+        figure_name='L3',
         ),
     voice_number=1,
     )
@@ -113,7 +126,7 @@ accumulator(
 ###############################################################################
 
 tempo_specifier = baca.tools.TempoSpecifier([
-    #(1, dornen.materials.tempi[44]),
+    (1, dornen.materials.tempi[66]),
     ])
 
 spacing_specifier = baca.tools.SpacingSpecifier(
@@ -146,9 +159,35 @@ accumulator._populate_segment_maker(segment_maker)
 ########################### CROSS-STAGE SPECIFIERS ############################
 ###############################################################################
 
+# glissando scatto
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 1', baca.tools.stages(1, 10)),
+    ('Guitar Music Voice 1', baca.tools.stages(1, 12)),
     [
-        #baca.pitch.register(-12),
+        baca.register(-8),
+        baca.displacement([0, 1]),
+        ],
+    )
+
+# ovoid
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 2', baca.tools.stages(1, 12)),
+    [
+        baca.register(-20, 4),
+        ],
+    )
+
+# delicatissimo
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 3', baca.tools.stages(1, 12)),
+    [
+        ],
+    )
+
+# graced tuplet
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 4', baca.tools.stages(1, 12)),
+    [
+        baca.beam_positions(8),
+        baca.register(-18, 6),
         ],
     )

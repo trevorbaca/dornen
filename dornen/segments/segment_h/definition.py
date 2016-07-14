@@ -13,161 +13,164 @@ design = dornen.tools.make_design_3(start=20)
 assert len(design) == 20, (repr(design), len(design))
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.delicatissimo_figure_maker(
         design[:1],
-        figure_name=1,
+        baca.register(-4, -20),
+        figure_name='D1',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.delicatissimo_figure_maker(
         design[1:2],
-        figure_name=2,
+        baca.register(-4, -20),
+        figure_name='D2',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.wave_32_figure_maker(
         design[2:3],
-        figure_name=3,
+        baca.register(-20, -4),
+        figure_name='W1',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.delicatissimo_figure_maker(
         design[3:4],
-        figure_name=4,
+        baca.register(-4, -20),
+        figure_name='D3',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.delicatissimo_figure_maker(
         design[4:5],
-        figure_name=5,
+        baca.register(-4, -20),
+        figure_name='D4',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.glissando_scatto_figure_maker(
         design[5:6],
+        baca.register(-20),
+        baca.displacement([0, 1]),
         figure_name=6,
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.wave_32_figure_maker(
         design[6:7],
-        figure_name=7,
+        baca.register(0),
+        figure_name='W2',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.wave_32_figure_maker(
+        design[6:7],
+        baca.register(0),
+        figure_name='W3',
+        ),
+    voice_number=1,
+    )
+
+accumulator(
+    accumulator.thirty_second_figure_maker(
         design[7:8],
-        figure_name=8,
+        baca.register(0),
+        figure_name='32_1',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.twenty_eighth_figure_maker(
         design[8:9],
-        figure_name=9,
+        baca.register(0),
+        figure_name='28_1',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.forty_eighth_figure_maker(
         design[9:10],
-        figure_name=10,
+        baca.register(0),
+        figure_name='48_1',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.thirty_second_figure_maker(
         design[10:11],
-        figure_name=11,
+        baca.register(0),
+        figure_name='32_2',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.twenty_eighth_figure_maker(
         design[11:12],
-        figure_name=12,
+        baca.register(0),
+        figure_name='28_2',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.forty_eighth_figure_maker(
         design[12:13],
-        figure_name=13,
+        baca.register(0),
+        figure_name='48_2',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
+    accumulator.thirty_second_figure_maker(
         design[13:14],
-        figure_name=14,
+        baca.register(0),
+        figure_name='32_3',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
-        design[14:15],
-        figure_name=15,
+    accumulator.graced_tuplet_figure_maker(
+        design[14:16],
+        baca.register(0),
+        figure_name='G1',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
-        design[15:16],
-        figure_name=16,
+    accumulator.running_figure_maker(
+        design[16:19],
+        baca.register(0),
+        figure_name='R1',
         ),
     voice_number=1,
     )
 
 accumulator(
-    accumulator.default_figure_maker(
-        design[16:17],
-        figure_name=17,
-        ),
-    voice_number=1,
-    )
-
-accumulator(
-    accumulator.default_figure_maker(
-        design[17:18],
-        figure_name=18,
-        ),
-    voice_number=1,
-    )
-
-accumulator(
-    accumulator.default_figure_maker(
-        design[18:19],
-        figure_name=19,
-        ),
-    voice_number=1,
-    )
-
-accumulator(
-    accumulator.default_figure_maker(
+    accumulator.twentieth_figure_maker(
         design[19:20],
-        figure_name=20,
+        baca.register(0),
+        figure_name='20_1',
         ),
     voice_number=1,
     )
@@ -177,7 +180,7 @@ accumulator(
 ###############################################################################
 
 tempo_specifier = baca.tools.TempoSpecifier([
-    #(1, dornen.materials.tempi[44]),
+    #(1, dornen.materials.tempi[66]),
     ])
 
 spacing_specifier = baca.tools.SpacingSpecifier(
@@ -188,8 +191,9 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 measures_per_stage = len(accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
+    allow_figure_names=True,
     #label_clock_time=True,
-    #label_stages=True,
+    label_stages=True,
     measures_per_stage=measures_per_stage,
     score_package=dornen,
     score_template=dornen.tools.ScoreTemplate(),

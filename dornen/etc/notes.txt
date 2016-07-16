@@ -1,25 +1,45 @@
-1. four different scrapers: delicate, medium, large, aggressive.
+### waves; fermata; 5.75 * 6" whisked lh alone; attaca closing 30" rascado ### 
 
-2. scraper acquisition gesture. dramatically wide LH arc. pantomimed once early
-in the piece. pantomimed twice in succession later in the piece. executed with
-scraper at start of the close of the piece.
+voice-leading: Gf2 -> Gtqf2 -> F2 -> Fqf2 -> E2.
 
-3. striking rests at the end of the piece.
-
-4. curtail figure-final long durations to amplify the effects of
-voice-intermittency.
-
-5. "lift" string rather than "pinch" string because LH index finger can be
-placed under string.
-
-6. energy accumulates towards transformation boundary; energy persists across
-transformation boundary. alternatively, energy accumulates towards
-transformation boundary; rhythmic energy persists across transformation
-boundary but dynamic plummets at start of transformation. alternatively, energy
-decreases towards transition boundary to allow emergence of the reiterative
-materials. how can hypnotic repetition mediate strumming (rasgueado) and
-scraping (rascado)? rate of rasgueado can be controlled exactly; rate of
-rasgueado may be made to retard dramatically to individual nail clicks;
-especially effective if the pitch is high and the timbre is brittle. heartbeat
-thumb tamburo; two-finger tamburo trill; three-finger tamburo trill;
-four-finger tamburo trill.
+palette:
+    * tamburo trills:
+        * finger count: 2 - 4
+        * rate: "constant"
+        * dynamic: ppp - p
+        * dryness: resonant
+        * scp: tasto - ponticello
+    * knuckle rasgueado
+        * finger count: 2 -4
+        * rate: a bit faster, a bit slower
+        * dynamic: ppp - f
+        * dryness: resonant - dry
+        * scp: tasto - ponticello
+    * nail rasgueado
+        * finger count: 2 - 4
+        * rate: extremely slow - extremely fast
+        * dynamic: ppp - fff
+        * dryness: resonant - extremely dry
+        * scp: tasto - ponticello
+    
+color transitions:
+    * Gf2
+        * two-finger tamburo
+            * ppp
+            * ppp < pp
+            * pp
+            * pp > ppp
+        * three-finger tamburo
+            * ppp
+            * ppp < pp
+            * pp
+            * pp > ppp
+        * four-finger tamburo
+            * ppp
+            * ppp < pp
+            * pp [hold]
+            * pp < p
+            * p [hold]
+            * p > ppp and ord -> tasto
+        * four-finger tamburo tasto ppp [hold]
+        * 4-tamburo ppp -> 4-knuckle ppp -> 4-tamburo ppp

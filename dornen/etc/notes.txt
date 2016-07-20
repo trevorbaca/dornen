@@ -29,17 +29,116 @@ color transitions:
             * ppp < pp
             * pp
             * pp > ppp
+            * ppp
         * three-finger tamburo
             * ppp
-            * ppp < pp
-            * pp
-            * pp > ppp
+            * ppp < p
+            * p
+            * p > ppp
+            * ppp
         * four-finger tamburo
             * ppp
             * ppp < pp
             * pp [hold]
             * pp < p
             * p [hold]
-            * p > ppp and ord -> tasto
-        * four-finger tamburo tasto ppp [hold]
-        * 4-tamburo ppp -> 4-knuckle ppp -> 4-tamburo ppp
+            * p < mp
+            * mp [hold]
+            * mp > pp
+            * pp 
+        * four-finger tamburo (pp)
+        * three-finger tamburo (pp)
+        * two-finger tamburo (pp)
+    * Gtqf2
+        * two-finger tamburo
+            * pp
+            * pp < p
+            * p
+            * p > pp
+            * pp
+        * three-finger tamburo
+            * pp
+            * pp < mp
+            * mp
+            * mp > pp
+            * pp
+        * four-finger tamburo
+            * pp
+            * pp < p; tamburo -> knuckle-rasgueado
+            * p; knuckle-rasgueado [hold]
+            * p > pp; knuckle-rasgueado -> tamburo
+            * pp; t
+            * pp < mp; t -> k
+            * mp; k [hold]
+            * mp > pp; k -> t
+            * pp; t
+            * pp < mf; t -> k
+            * mf; k [hold]
+            * mf > p; k -> t
+            * p; t
+        * four-finger tamburo (p)
+        * three-finger tamburo (p)
+        * two-finger tamburo (p)
+    * F2
+        * two-finger tamburo / knuckle-rasgeuado
+            * p; t
+            * p < mp; t -> k
+            * mp; k
+            * mp > p; k -> t
+            * p; t
+        * three-finger tamburo / knuckle-rasgueado
+            * p; t
+            * p < mf; t -> k
+            * mf; k
+            * mf > p; k -> t
+            * p; t
+        * four-finger tamburo / knuckle-rasgueado
+            * p; t
+            * p < mp; t -> k
+            * mp; k
+            * mp > p; k -> t
+            * p; t
+            * p < mf; t -> k
+            * mf; k
+            * mf > p; k -> t
+            * p; t
+            * p < f; t -> k
+            * f; k
+            * f > mp; k -> t
+            * mp; t
+    * E2
+        * four-finger tamburo / knuckle-rasgueado / nail-rasgueado
+            * mp; t
+            * mp < mf; t -> k
+            * mf; k
+            * mf > p; k -> t
+            * mp; t
+            * mp < f; t -> k
+            * f; k
+            * f > mp; k -> t
+            * mp; t
+            * mp < ff; t -> k
+            * ff; k
+            * ff > mp; k -> t
+            * mp; t
+            * mp < mf; t -> k
+            * mf; k
+            * mf < f; k -> nail-rasgueado
+            * f; nail
+            * f > mf; nail -> k
+            * mf; k
+            * mf < ff; k -> nail
+            * ff; nail
+            * ff > mf; nail -> k
+            * mf; k
+            * mf < fff; k -> nail
+            * fff; nail
+            * fff > ppp; nail -> t [very long]
+            * ppp; t
+        * four-finger tamburo (ppp)
+        * three-finger tamburo (ppp)
+        * two-finger tamburo (ppp)
+        * two-finger tamburo (ppp) morendo al niente
+    * pause
+    * mechanical repetition (5.75x)
+    * attaca rascado

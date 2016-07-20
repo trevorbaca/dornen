@@ -411,7 +411,7 @@ def make_twenty_eighth_figure_maker():
 
     ..  container:: example
 
-        **Definition.** Format twenty-eighth figure-maker:
+        **Definition.** Formats twenty-eighth figure-maker:
 
         >>> print(format(dornen.tools.make_twenty_eighth_figure_maker()))
         baca.tools.FigureMaker(

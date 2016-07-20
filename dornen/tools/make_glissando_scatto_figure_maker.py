@@ -424,7 +424,7 @@ def make_glissando_scatto_figure_maker():
 
     ..  container:: example
 
-        **Definition.** Format glissando scatto figure-maker:
+        **Definition.** Formats glissando scatto figure-maker:
 
         >>> print(format(dornen.tools.make_glissando_scatto_figure_maker()))
         baca.tools.FigureMaker(

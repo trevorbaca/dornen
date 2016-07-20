@@ -3,8 +3,8 @@ import abjad
 import baca
 
 
-def make_sixteenth_figure_maker():
-    r'''Makes sixteenth figure-maker.
+def make_monad_figure_maker():
+    r'''Makes monad figure-maker.
 
     ::
 
@@ -13,7 +13,7 @@ def make_sixteenth_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes sixteenths:
+        **Example 1.** Makes monads:
 
         ::
 
@@ -36,7 +36,7 @@ def make_sixteenth_figure_maker():
 
         ::
 
-            >>> figure_maker = dornen.tools.make_sixteenth_figure_maker()
+            >>> figure_maker = dornen.tools.make_monad_figure_maker()
             >>> figures, time_signatures = [], []
             >>> for figure_token in figure_tokens:
             ...     result = figure_maker(figure_token)
@@ -92,46 +92,46 @@ def make_sixteenth_figure_maker():
                 \context TimeSignatureContext = "Time Signature Context" <<
                     \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                         {
-                            \time 7/16
-                            R1 * 7/16
+                            \time 28/5
+                            R1 * 28/5
                         }
                         {
-                            \time 2/16
-                            R1 * 1/8
+                            \time 8/5
+                            R1 * 8/5
                         }
                         {
-                            \time 3/16
-                            R1 * 3/16
+                            \time 12/5
+                            R1 * 12/5
                         }
                         {
-                            \time 4/16
-                            R1 * 1/4
+                            \time 16/5
+                            R1 * 16/5
                         }
                     }
                     \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                         {
-                            \time 7/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                            \time 28/5
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 8 25)
                             \newSpacingSection
-                            s1 * 7/16
+                            s1 * 28/5
                         }
                         {
-                            \time 2/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                            \time 8/5
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 8 25)
                             \newSpacingSection
-                            s1 * 1/8
+                            s1 * 8/5
                         }
                         {
-                            \time 3/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                            \time 12/5
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 8 25)
                             \newSpacingSection
-                            s1 * 3/16
+                            s1 * 12/5
                         }
                         {
-                            \time 4/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                            \time 16/5
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 8 25)
                             \newSpacingSection
-                            s1 * 1/4
+                            s1 * 16/5
                         }
                     }
                 >>
@@ -141,59 +141,75 @@ def make_sixteenth_figure_maker():
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
-                                    cs'16
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    cs'1
                                 }
-                                {
-                                    c'16
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    c'1
                                 }
-                                {
-                                    bf'16
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    bf'1
                                 }
-                                {
-                                    f'16
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    f'1
                                 }
-                                {
-                                    af'16
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    af'1
                                 }
-                                {
-                                    fs'16
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    fs'1
                                 }
-                                {
-                                    b'16
-                                }
-                            }
-                            {
-                                {
-                                    d'16
-                                }
-                                {
-                                    e'16
-                                }
-                            }
-                            {
-                                {
-                                    ef'16
-                                }
-                                {
-                                    a'16
-                                }
-                                {
-                                    af'16
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    b'1
                                 }
                             }
                             {
-                                {
-                                    fs'16
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    d'1
                                 }
-                                {
-                                    b'16
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    e'1
                                 }
-                                {
-                                    d'16
+                            }
+                            {
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    ef'1
                                 }
-                                {
-                                    f'16
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    a'1
+                                }
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    af'1
+                                }
+                            }
+                            {
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    fs'1
+                                }
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    b'1
+                                }
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    d'1
+                                }
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    f'1
                                     \bar "|"
                                 }
                             }
@@ -204,7 +220,7 @@ def make_sixteenth_figure_maker():
 
     ..  container:: example
 
-        **Example 2.** Mixes sixteenths and broken tuplets:
+        **Example 2.** Mixes monads and broken tuplets:
 
         ::
 
@@ -227,7 +243,7 @@ def make_sixteenth_figure_maker():
 
         ::
 
-            >>> figure_maker = dornen.tools.make_sixteenth_figure_maker()
+            >>> figure_maker = dornen.tools.make_monad_figure_maker()
             >>> figures, time_signatures = [], []
             >>> for figure_token in figure_tokens:
             ...     result = figure_maker(figure_token)
@@ -283,46 +299,46 @@ def make_sixteenth_figure_maker():
                 \context TimeSignatureContext = "Time Signature Context" <<
                     \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                         {
-                            \time 7/16
-                            R1 * 7/16
+                            \time 28/5
+                            R1 * 28/5
                         }
                         {
-                            \time 1/16
-                            R1 * 1/16
+                            \time 4/5
+                            R1 * 4/5
                         }
                         {
-                            \time 3/16
-                            R1 * 3/16
+                            \time 12/5
+                            R1 * 12/5
                         }
                         {
-                            \time 4/16
-                            R1 * 1/4
+                            \time 16/5
+                            R1 * 16/5
                         }
                     }
                     \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                         {
-                            \time 7/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                            \time 28/5
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 8 25)
                             \newSpacingSection
-                            s1 * 7/16
+                            s1 * 28/5
                         }
                         {
-                            \time 1/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                            \time 4/5
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 8 25)
                             \newSpacingSection
-                            s1 * 1/16
+                            s1 * 4/5
                         }
                         {
-                            \time 3/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                            \time 12/5
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 8 25)
                             \newSpacingSection
-                            s1 * 3/16
+                            s1 * 12/5
                         }
                         {
-                            \time 4/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                            \time 16/5
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 8 25)
                             \newSpacingSection
-                            s1 * 1/4
+                            s1 * 16/5
                         }
                     }
                 >>
@@ -332,48 +348,59 @@ def make_sixteenth_figure_maker():
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
-                                    cs'16
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    cs'1
                                 }
-                                {
-                                    c'16 [
-                                    bf'16 ]
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    c'1
+                                    bf'1
                                 }
-                                {
-                                    f'16
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    f'1
                                 }
-                                {
-                                    af'16 [
-                                    fs'16 ]
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    af'1
+                                    fs'1
                                 }
-                                {
-                                    b'16
-                                }
-                            }
-                            {
-                                {
-                                    d'16
-                                }
-                            }
-                            {
-                                {
-                                    ef'16
-                                }
-                                {
-                                    a'16 [
-                                    af'16 ]
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    b'1
                                 }
                             }
                             {
-                                {
-                                    fs'16
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    d'1
                                 }
-                                {
-                                    b'16 [
-                                    d'16 ]
+                            }
+                            {
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    ef'1
                                 }
-                                {
-                                    f'16
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    a'1
+                                    af'1
+                                }
+                            }
+                            {
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    fs'1
+                                }
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    b'1
+                                    d'1
+                                }
+                                \tweak edge-height #'(0.7 . 0)
+                                \times 4/5 {
+                                    f'1
                                     \bar "|"
                                 }
                             }
@@ -384,13 +411,10 @@ def make_sixteenth_figure_maker():
 
     ..  container:: example
 
-        **Definition.** Formats sixteenth figure-maker:
+        **Definition.** Format monad figure-maker:
 
-        >>> print(format(dornen.tools.make_sixteenth_figure_maker()))
+        >>> print(format(dornen.tools.make_monad_figure_maker()))
         baca.tools.FigureMaker(
-            rhythmmakertools.BeamSpecifier(
-                beam_each_division=True,
-                ),
             baca.tools.RhythmSpecifier(
                 patterns=[
                     patterntools.Pattern(
@@ -401,30 +425,29 @@ def make_sixteenth_figure_maker():
                 rhythm_maker=baca.tools.FigureRhythmMaker(
                     talea=rhythmmakertools.Talea(
                         counts=(1,),
-                        denominator=16,
+                        denominator=1,
                         ),
+                    time_treatments=[
+                        durationtools.Multiplier(4, 5),
+                        ],
                     ),
                 ),
-            annotate_unregistered_pitches=True,
-            preferred_denominator=16,
+            preferred_denominator=5,
             )
 
     Returns figure-maker.
     '''
     figure_maker = baca.tools.FigureMaker(
-        abjad.rhythmmakertools.BeamSpecifier(
-            beam_each_division=True,
-            ),
         baca.tools.RhythmSpecifier(
             patterns=abjad.patterntools.select_all(),
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],
-                    denominator=16,
+                    denominator=1,
                     ),
+                time_treatments=[abjad.durationtools.Multiplier((4, 5))],
                 )
             ),
-        annotate_unregistered_pitches=True,
-        preferred_denominator=16,
+        preferred_denominator=5,
         )
     return figure_maker

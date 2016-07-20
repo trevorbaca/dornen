@@ -3,8 +3,8 @@ import abjad
 import baca
 
 
-def make_monad_figure_maker():
-    r'''Makes monad figure-maker.
+def make_third_figure_maker():
+    r'''Makes third figure-maker.
 
     ::
 
@@ -13,7 +13,7 @@ def make_monad_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes monads:
+        **Example 1.** Makes thirds:
 
         ::
 
@@ -36,7 +36,7 @@ def make_monad_figure_maker():
 
         ::
 
-            >>> figure_maker = dornen.tools.make_monad_figure_maker()
+            >>> figure_maker = dornen.tools.make_third_figure_maker()
             >>> figures, time_signatures = [], []
             >>> for figure_token in figure_tokens:
             ...     result = figure_maker(figure_token)
@@ -92,46 +92,46 @@ def make_monad_figure_maker():
                 \context TimeSignatureContext = "Time Signature Context" <<
                     \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                         {
-                            \time 14/5
-                            R1 * 14/5
+                            \time 7/3
+                            R1 * 7/3
                         }
                         {
-                            \time 4/5
-                            R1 * 4/5
+                            \time 2/3
+                            R1 * 2/3
                         }
                         {
-                            \time 6/5
-                            R1 * 6/5
+                            \time 3/3
+                            R1 * 1
                         }
                         {
-                            \time 8/5
-                            R1 * 8/5
+                            \time 4/3
+                            R1 * 4/3
                         }
                     }
                     \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                         {
-                            \time 14/5
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
+                            \time 7/3
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
                             \newSpacingSection
-                            s1 * 14/5
+                            s1 * 7/3
                         }
                         {
-                            \time 4/5
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
+                            \time 2/3
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
                             \newSpacingSection
-                            s1 * 4/5
+                            s1 * 2/3
                         }
                         {
-                            \time 6/5
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
+                            \time 3/3
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
                             \newSpacingSection
-                            s1 * 6/5
+                            s1 * 1
                         }
                         {
-                            \time 8/5
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
+                            \time 4/3
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
                             \newSpacingSection
-                            s1 * 8/5
+                            s1 * 4/3
                         }
                     }
                 >>
@@ -142,73 +142,73 @@ def make_monad_figure_maker():
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     cs'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     c'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     bf'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     f'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     af'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     fs'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     b'2
                                 }
                             }
                             {
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     d'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     e'2
                                 }
                             }
                             {
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     ef'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     a'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     af'2
                                 }
                             }
                             {
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     fs'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     b'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     d'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     f'2
                                     \bar "|"
                                 }
@@ -220,7 +220,7 @@ def make_monad_figure_maker():
 
     ..  container:: example
 
-        **Example 2.** Mixes monads and broken tuplets:
+        **Example 2.** Mixes thirds and broken tuplets:
 
         ::
 
@@ -243,7 +243,7 @@ def make_monad_figure_maker():
 
         ::
 
-            >>> figure_maker = dornen.tools.make_monad_figure_maker()
+            >>> figure_maker = dornen.tools.make_third_figure_maker()
             >>> figures, time_signatures = [], []
             >>> for figure_token in figure_tokens:
             ...     result = figure_maker(figure_token)
@@ -299,46 +299,46 @@ def make_monad_figure_maker():
                 \context TimeSignatureContext = "Time Signature Context" <<
                     \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                         {
-                            \time 14/5
-                            R1 * 14/5
+                            \time 7/3
+                            R1 * 7/3
                         }
                         {
-                            \time 2/5
-                            R1 * 2/5
+                            \time 1/3
+                            R1 * 1/3
                         }
                         {
-                            \time 6/5
-                            R1 * 6/5
+                            \time 3/3
+                            R1 * 1
                         }
                         {
-                            \time 8/5
-                            R1 * 8/5
+                            \time 4/3
+                            R1 * 4/3
                         }
                     }
                     \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                         {
-                            \time 14/5
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
+                            \time 7/3
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
                             \newSpacingSection
-                            s1 * 14/5
+                            s1 * 7/3
                         }
                         {
-                            \time 2/5
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
+                            \time 1/3
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
                             \newSpacingSection
-                            s1 * 2/5
+                            s1 * 1/3
                         }
                         {
-                            \time 6/5
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
+                            \time 3/3
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
                             \newSpacingSection
-                            s1 * 6/5
+                            s1 * 1
                         }
                         {
-                            \time 8/5
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
+                            \time 4/3
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
                             \newSpacingSection
-                            s1 * 8/5
+                            s1 * 4/3
                         }
                     }
                 >>
@@ -349,57 +349,57 @@ def make_monad_figure_maker():
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     cs'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     c'2
                                     bf'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     f'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     af'2
                                     fs'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     b'2
                                 }
                             }
                             {
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     d'2
                                 }
                             }
                             {
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     ef'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     a'2
                                     af'2
                                 }
                             }
                             {
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     fs'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     b'2
                                     d'2
                                 }
                                 \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
+                                \times 2/3 {
                                     f'2
                                     \bar "|"
                                 }
@@ -411,9 +411,9 @@ def make_monad_figure_maker():
 
     ..  container:: example
 
-        **Definition.** Formats monad figure-maker:
+        **Definition.** Formats third figure-maker:
 
-        >>> print(format(dornen.tools.make_monad_figure_maker()))
+        >>> print(format(dornen.tools.make_third_figure_maker()))
         baca.tools.FigureMaker(
             baca.tools.RhythmSpecifier(
                 patterns=[
@@ -428,11 +428,11 @@ def make_monad_figure_maker():
                         denominator=2,
                         ),
                     time_treatments=[
-                        durationtools.Multiplier(4, 5),
+                        durationtools.Multiplier(2, 3),
                         ],
                     ),
                 ),
-            preferred_denominator=5,
+            preferred_denominator=3,
             )
 
     Returns figure-maker.
@@ -445,9 +445,9 @@ def make_monad_figure_maker():
                     counts=[1],
                     denominator=2,
                     ),
-                time_treatments=[abjad.durationtools.Multiplier((4, 5))],
+                time_treatments=[abjad.durationtools.Multiplier((2, 3))],
                 )
             ),
-        preferred_denominator=5,
+        preferred_denominator=3,
         )
     return figure_maker

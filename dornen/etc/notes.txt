@@ -37,15 +37,15 @@ color transitions:
             * p > ppp
             * ppp
         * four-finger tamburo
-            * ppp
-            * ppp < pp
-            * pp [hold]
-            * pp < p
-            * p [hold]
-            * p < mp
-            * mp [hold]
-            * mp > pp
-            * pp 
+            4-1 ppp 
+            4-2 ppp < pp
+            4-3 pp
+            4-4 pp < p
+            4-5 p
+            4-6 p < mp
+            4-7 mp
+            4-8 mp > pp
+            4-9 pp 
         * four-finger tamburo (pp)
         * three-finger tamburo (pp)
         * two-finger tamburo (pp)

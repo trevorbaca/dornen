@@ -12,11 +12,159 @@ accumulator = dornen.tools.FigureAccumulator()
 
 accumulator(
     accumulator.monad_figure_maker(
-        [10 * ['Gb2', 'F2']],
-        baca.register(-20),
-        figure_name='T1',
+        2 * [['Gb2']],
+        baca.markup.make_boxed_markup_specifier('2-finger tamb. trill'),
+        baca.tools.DynamicSpecifier(dynamic='ppp'),
+        figure_name='2_1',
         ),
-    voice_number=1,
+    )
+
+accumulator(
+    accumulator.monad_figure_maker(
+        [['Gb2']],
+        figure_name='2_2',
+        ),
+    )
+
+accumulator(
+    accumulator.third_figure_maker(
+        [['Gb2']],
+        figure_name='2_3',
+        ),
+    )
+
+accumulator(
+    accumulator.third_figure_maker(
+        [['Gb2']],
+        figure_name='2_4',
+        ),
+    )
+
+accumulator(
+    accumulator.third_figure_maker(
+        [['Gb2']],
+        figure_name='2_5',
+        ),
+    )
+
+###
+
+accumulator(
+    accumulator.monad_figure_maker(
+        [['Gb2']],
+        baca.markup.make_boxed_markup_specifier('3-finger tamb. trill'),
+        figure_name='3_1',
+        ),
+    )
+
+accumulator(
+    accumulator.monad_figure_maker(
+        [['Gb2']],
+        figure_name='3_2',
+        ),
+    )
+
+accumulator(
+    accumulator.third_figure_maker(
+        [['Gb2']],
+        figure_name='3_3',
+        ),
+    )
+
+accumulator(
+    accumulator.third_figure_maker(
+        [['Gb2']],
+        figure_name='3_4',
+        ),
+    )
+
+accumulator(
+    accumulator.third_figure_maker(
+        [['Gb2']],
+        figure_name='3_5',
+        ),
+    )
+
+###
+
+accumulator(
+    accumulator.monad_figure_maker(
+        [['Gb2']],
+        baca.markup.make_boxed_markup_specifier('4-finger tamb. trill'),
+        figure_name='4_1',
+        ),
+    )
+
+accumulator(
+    accumulator.monad_figure_maker(
+        [['Gb2']],
+        figure_name='4_2',
+        ),
+    )
+
+accumulator(
+    accumulator.third_figure_maker(
+        [['Gb2']],
+        figure_name='4_3',
+        ),
+    )
+
+accumulator(
+    accumulator.monad_figure_maker(
+        [['Gb2']],
+        figure_name='4_4',
+        ),
+    )
+
+accumulator(
+    accumulator.third_figure_maker(
+        [['Gb2']],
+        figure_name='4_5',
+        ),
+    )
+
+accumulator(
+    accumulator.monad_figure_maker(
+        [['Gb2']],
+        figure_name='4_6',
+        ),
+    )
+
+accumulator(
+    accumulator.third_figure_maker(
+        [['Gb2']],
+        figure_name='4_7',
+        ),
+    )
+
+accumulator(
+    accumulator.third_figure_maker(
+        [['Gb2']],
+        figure_name='4_8',
+        ),
+    )
+
+accumulator(
+    accumulator.third_figure_maker(
+        [['Gb2']],
+        figure_name='4_9',
+        ),
+    )
+
+accumulator(
+    accumulator.monad_figure_maker(
+        [['Gb2']],
+        baca.markup.make_boxed_markup_specifier('3-finger tamb. trill'),
+        figure_name='4_10',
+        ),
+    )
+
+accumulator(
+    accumulator.monad_figure_maker(
+        [['Gb2']],
+        baca.markup.make_boxed_markup_specifier('2-finger tamb. trill'),
+        figure_name='4_11',
+        ),
     )
 
 ###############################################################################
@@ -24,7 +172,7 @@ accumulator(
 ###############################################################################
 
 tempo_specifier = baca.tools.TempoSpecifier([
-    #(1, dornen.materials.tempi[66]),
+    (1, dornen.materials.tempi[66]),
     ])
 
 spacing_specifier = baca.tools.SpacingSpecifier(
@@ -58,8 +206,91 @@ accumulator._populate_segment_maker(segment_maker)
 ###############################################################################
 
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 1', baca.tools.stages(1, 1)),
+    ('Guitar Music Voice 1', baca.tools.stages(1, 'end')),
     [
-        #baca.beam_positions(6),
+        baca.register(-20),
+        baca.stem_tremolo(),
+        baca.tools.SpannerSpecifier(
+            spanner=abjad.Tie(use_messiaen_style_ties=True)
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 1', baca.tools.stages(2)),
+    [
+        baca.select_.leaves(
+            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('ppp < pp')),
+            with_next_leaf=True,
+            )
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 1', baca.tools.stages(4)),
+    [
+        baca.select_.leaves(
+            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('pp > ppp')),
+            with_next_leaf=True,
+            )
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 1', baca.tools.stages(7)),
+    [
+        baca.select_.leaves(
+            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('ppp < p')),
+            with_next_leaf=True,
+            )
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 1', baca.tools.stages(9)),
+    [
+        baca.select_.leaves(
+            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p > ppp')),
+            with_next_leaf=True,
+            )
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 1', baca.tools.stages(12)),
+    [
+        baca.select_.leaves(
+            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('ppp < pp')),
+            with_next_leaf=True,
+            )
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 1', baca.tools.stages(14)),
+    [
+        baca.select_.leaves(
+            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('pp < p')),
+            with_next_leaf=True,
+            )
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 1', baca.tools.stages(16)),
+    [
+        baca.select_.leaves(
+            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p < mp')),
+            with_next_leaf=True,
+            )
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 1', baca.tools.stages(18, 21)),
+    [
+        baca.select_.leaves(
+            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('mp > pp')),
+            )
         ],
     )

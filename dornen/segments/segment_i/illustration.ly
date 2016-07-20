@@ -13,16 +13,214 @@
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                 {
-                    \time 20/32
-                    R1 * 5/8
+                    \time 4/5
+                    R1 * 4/5
+                }
+                {
+                    \time 2/5
+                    R1 * 2/5
+                }
+                {
+                    \time 1/3
+                    R1 * 1/3
+                }
+                {
+                    R1 * 1/3
+                }
+                {
+                    R1 * 1/3
+                }
+                {
+                    \time 2/5
+                    R1 * 2/5
+                }
+                {
+                    R1 * 2/5
+                }
+                {
+                    \time 1/3
+                    R1 * 1/3
+                }
+                {
+                    R1 * 1/3
+                }
+                {
+                    R1 * 1/3
+                }
+                {
+                    \time 2/5
+                    R1 * 2/5
+                }
+                {
+                    R1 * 2/5
+                }
+                {
+                    \time 1/3
+                    R1 * 1/3
+                }
+                {
+                    \time 2/5
+                    R1 * 2/5
+                }
+                {
+                    \time 1/3
+                    R1 * 1/3
+                }
+                {
+                    \time 2/5
+                    R1 * 2/5
+                }
+                {
+                    \time 1/3
+                    R1 * 1/3
+                }
+                {
+                    R1 * 1/3
+                }
+                {
+                    R1 * 1/3
+                }
+                {
+                    \time 2/5
+                    R1 * 2/5
+                }
+                {
+                    R1 * 2/5
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \time 4/5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     \mark #9
-                    s1 * 5/8
+                    s1 * 4/5 ^ \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #3
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                66
+                            }
+                        }
+                }
+                {
+                    \time 2/5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \time 1/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \time 2/5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \time 1/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \time 2/5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \time 1/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \time 2/5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \time 1/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \time 2/5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \time 1/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \time 2/5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 2/5
                 }
             }
         >>
@@ -39,81 +237,242 @@
                 }
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
                     {
-                        {
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
-                            gf32 [ (
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            f32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            gf32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            f32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            gf32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            f32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            gf32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            f32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            gf32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            f32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            gf32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            f32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            gf32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            f32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            gf32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            f32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            gf32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            f32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            gf32
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
-                            f32 ] )
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            gf2 :32 \ppp
+                                ^ \markup {
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "2-finger tamb. trill"
+                                    }
+                        }
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            gf2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            gf2 :32 \repeatTie \< \ppp
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            gf2 :32 \repeatTie \pp
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            gf2 :32 \repeatTie \> \pp
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            gf2 :32 \repeatTie \ppp
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            gf2 :32 \repeatTie
+                                ^ \markup {
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "3-finger tamb. trill"
+                                    }
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            gf2 :32 \repeatTie \< \ppp
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            gf2 :32 \repeatTie \p
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            gf2 :32 \repeatTie \> \p
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            gf2 :32 \repeatTie \ppp
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            gf2 :32 \repeatTie
+                                ^ \markup {
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "4-finger tamb. trill"
+                                    }
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            gf2 :32 \repeatTie \< \ppp
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            gf2 :32 \repeatTie \pp
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            gf2 :32 \repeatTie \< \pp
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            gf2 :32 \repeatTie \p
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            gf2 :32 \repeatTie \< \p
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            gf2 :32 \repeatTie \mp
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            gf2 :32 \repeatTie \> \mp
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            gf2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            gf2 :32 \repeatTie
+                                ^ \markup {
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "3-finger tamb. trill"
+                                    }
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            gf2 :32 \repeatTie \pp
+                                ^ \markup {
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "2-finger tamb. trill"
+                                    }
                             \bar "|."
                         }
                     }
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
-                    s1 * 5/8
+                    s1 * 4/5
+                    s1 * 2/5
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 2/5
+                    s1 * 2/5
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 2/5
+                    s1 * 2/5
+                    s1 * 1/3
+                    s1 * 2/5
+                    s1 * 1/3
+                    s1 * 2/5
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 2/5
+                    s1 * 2/5
                     \bar "|."
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
-                    s1 * 5/8
+                    s1 * 4/5
+                    s1 * 2/5
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 2/5
+                    s1 * 2/5
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 2/5
+                    s1 * 2/5
+                    s1 * 1/3
+                    s1 * 2/5
+                    s1 * 1/3
+                    s1 * 2/5
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 2/5
+                    s1 * 2/5
                     \bar "|."
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
-                    s1 * 5/8
+                    s1 * 4/5
+                    s1 * 2/5
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 2/5
+                    s1 * 2/5
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 2/5
+                    s1 * 2/5
+                    s1 * 1/3
+                    s1 * 2/5
+                    s1 * 1/3
+                    s1 * 2/5
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 1/3
+                    s1 * 2/5
+                    s1 * 2/5
                     \bar "|."
                 }
             >>

@@ -110,12 +110,14 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         'graced_tuplet_figure_maker',
         'inverted_wave_32_figure_maker',
         'inverted_wave_64_figure_maker',
+        'monad_figure_maker',
         'ovoid_figure_maker',
         'passepied_figure_maker',
         'rest_figure_maker',
         'running_figure_maker',
         'sixteenth_figure_maker',
         'sixty_fourth_figure_maker',
+        'third_figure_maker',
         'thirty_second_figure_maker',
         'tremolo_figure_maker',
         'twentieth_figure_maker',
@@ -158,6 +160,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
             dornen.tools.make_wave_figure_maker(denominator=32, inverted=True)
         self.inverted_wave_64_figure_maker = \
             dornen.tools.make_wave_figure_maker(denominator=64, inverted=True)
+        self.monad_figure_maker = dornen.tools.make_monad_figure_maker()
         self.ovoid_figure_maker = dornen.tools.make_ovoid_figure_maker()
         self.passepied_figure_maker = \
             dornen.tools.make_passepied_figure_maker()
@@ -166,10 +169,12 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
             dornen.tools.make_sixteenth_figure_maker()
         self.sixty_fourth_figure_maker = \
             dornen.tools.make_sixty_fourth_figure_maker()
+        self.third_figure_maker = dornen.tools.make_third_figure_maker()
         self.thirty_second_figure_maker = \
             dornen.tools.make_thirty_second_figure_maker()
         self.tremolo_figure_maker = dornen.tools.make_tremolo_figure_maker()
-        self.twentieth_figure_maker = dornen.tools.make_twentieth_figure_maker()
+        self.twentieth_figure_maker = \
+            dornen.tools.make_twentieth_figure_maker()
         self.twenty_eighth_figure_maker = \
             dornen.tools.make_twenty_eighth_figure_maker()
         self.twenty_fourth_figure_maker = \
@@ -182,7 +187,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
 
     ### SPECIAL METHODS ###
 
-    def __call__(self, figure_output_triple, voice_number=None):
+    def __call__(self, figure_output_triple, voice_number=1):
         r'''Calls figure accumulator on figure-maker output.
 
         ..  container:: example

@@ -154,7 +154,8 @@
         \type Engraver_group
         \alias Voice
         \override Stem.direction = #up
-        \override TextScript.outside-staff-priority = 0
+        %\override TextScript.outside-staff-priority = 0
+        \override TextScript.outside-staff-priority = 800
     }
     \context {
         \Voice

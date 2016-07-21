@@ -5,44 +5,42 @@ import dornen
 
 
 ###############################################################################
-##################################### [I] #####################################
+##################################### [J] #####################################
 ###############################################################################
 
 accumulator = dornen.tools.FigureAccumulator()
 
 accumulator(
     accumulator.monad_figure_maker(
-        2 * [['Gb2']],
-        baca.markup.make_boxed_markup_specifier('2-finger tamb. trill'),
-        baca.tools.DynamicSpecifier(dynamic='ppp'),
+        [['Gb~2']],
         figure_name='2_1',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        [['Gb2']],
+        [['Gb~2']],
         figure_name='2_2',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
+        [['Gb~2']],
         figure_name='2_3',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
+        [['Gb~2']],
         figure_name='2_4',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
+        [['Gb~2']],
         figure_name='2_5',
         ),
     )
@@ -51,7 +49,7 @@ accumulator(
 
 accumulator(
     accumulator.monad_figure_maker(
-        [['Gb2']],
+        [['Gb~2']],
         baca.markup.make_boxed_markup_specifier('3-finger tamb. trill'),
         figure_name='3_1',
         ),
@@ -59,28 +57,28 @@ accumulator(
 
 accumulator(
     accumulator.monad_figure_maker(
-        [['Gb2']],
+        [['Gb~2']],
         figure_name='3_2',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
+        [['Gb~2']],
         figure_name='3_3',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
+        [['Gb~2']],
         figure_name='3_4',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
+        [['Gb~2']],
         figure_name='3_5',
         ),
     )
@@ -89,7 +87,7 @@ accumulator(
 
 accumulator(
     accumulator.monad_figure_maker(
-        [['Gb2']],
+        [['Gb~2']],
         baca.markup.make_boxed_markup_specifier('4-finger tamb. trill'),
         figure_name='4_1',
         ),
@@ -97,73 +95,101 @@ accumulator(
 
 accumulator(
     accumulator.monad_figure_maker(
-        [['Gb2']],
+        [['Gb~2']],
         figure_name='4_2',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
+        [['Gb~2']],
         figure_name='4_3',
         ),
     )
 
 accumulator(
-    accumulator.monad_figure_maker(
-        [['Gb2']],
+    accumulator.third_figure_maker(
+        [['Gb~2']],
         figure_name='4_4',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
+        [['Gb~2']],
         figure_name='4_5',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        [['Gb2']],
+        [['Gb~2']],
         figure_name='4_6',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
+        [['Gb~2']],
         figure_name='4_7',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
+        [['Gb~2']],
         figure_name='4_8',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
+        [['Gb~2']],
         figure_name='4_9',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        2 * [['Gb2']],
-        baca.markup.make_boxed_markup_specifier('3-finger tamb. trill'),
+        [['Gb~2']],
         figure_name='4_10',
         ),
     )
 
 accumulator(
-    accumulator.monad_figure_maker(
-        2 * [['Gb2']],
-        baca.markup.make_boxed_markup_specifier('2-finger tamb. trill'),
+    accumulator.third_figure_maker(
+        [['Gb~2']],
         figure_name='4_11',
+        ),
+    )
+
+accumulator(
+    accumulator.third_figure_maker(
+        [['Gb~2']],
+        figure_name='4_12',
+        ),
+    )
+
+accumulator(
+    accumulator.third_figure_maker(
+        [['Gb~2']],
+        figure_name='4_13',
+        ),
+    )
+
+accumulator(
+    accumulator.monad_figure_maker(
+        [2 * ['Gb~2']],
+        baca.markup.make_boxed_markup_specifier('3 fingers'),
+        figure_name='4_14',
+        ),
+    )
+
+accumulator(
+    accumulator.monad_figure_maker(
+        [2 * ['Gb~2']],
+        baca.markup.make_boxed_markup_specifier('2 fingers'),
+        figure_name='4_15',
         ),
     )
 
@@ -172,7 +198,7 @@ accumulator(
 ###############################################################################
 
 tempo_specifier = baca.tools.TempoSpecifier([
-    (1, dornen.materials.tempi[66]),
+    #(1, dornen.materials.tempi[66]),
     ])
 
 spacing_specifier = baca.tools.SpacingSpecifier(
@@ -220,9 +246,9 @@ segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.tools.stages(2)),
     [
         baca.select_.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('ppp < pp')),
+            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('pp < p')),
             with_next_leaf=True,
-            )
+            ),
         ],
     )
 
@@ -230,9 +256,9 @@ segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.tools.stages(4)),
     [
         baca.select_.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('pp > ppp')),
+            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p > pp')),
             with_next_leaf=True,
-            )
+            ),
         ],
     )
 
@@ -240,9 +266,9 @@ segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.tools.stages(7)),
     [
         baca.select_.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('ppp < p')),
+            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('pp < mp')),
             with_next_leaf=True,
-            )
+            ),
         ],
     )
 
@@ -250,9 +276,9 @@ segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.tools.stages(9)),
     [
         baca.select_.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p > ppp')),
+            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('mp > pp')),
             with_next_leaf=True,
-            )
+            ),
         ],
     )
 
@@ -260,9 +286,16 @@ segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.tools.stages(12)),
     [
         baca.select_.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('ppp < pp')),
+            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('pp < p')),
             with_next_leaf=True,
-            )
+            ),
+        baca.select_.leaves(
+            baca.spanners.make_transition(
+                baca.markup.trans(),
+                baca.markup.knuckle_rasg(),
+                ),
+            with_next_leaf=True,
+            ),
         ],
     )
 
@@ -270,9 +303,16 @@ segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.tools.stages(14)),
     [
         baca.select_.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('pp < p')),
+            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p > pp')),
             with_next_leaf=True,
-            )
+            ),
+        baca.select_.leaves(
+            baca.spanners.make_transition(
+                baca.markup.trans(),
+                baca.markup.tamb_tr(),
+                ),
+            with_next_leaf=True,
+            ),
         ],
     )
 
@@ -280,17 +320,64 @@ segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.tools.stages(16)),
     [
         baca.select_.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p < mp')),
+            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('pp < mp')),
             with_next_leaf=True,
-            )
+            ),
+        baca.select_.leaves(
+            baca.spanners.make_transition(
+                baca.markup.trans(),
+                baca.markup.knuckle_rasg(),
+                ),
+            with_next_leaf=True,
+            ),
         ],
     )
 
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 1', baca.tools.stages(18, 21)),
+    ('Guitar Music Voice 1', baca.tools.stages(18)),
     [
         baca.select_.leaves(
             baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('mp > pp')),
-            )
+            with_next_leaf=True,
+            ),
+        baca.select_.leaves(
+            baca.spanners.make_transition(
+                baca.markup.trans(),
+                baca.markup.tamb_tr(),
+                ),
+            with_next_leaf=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 1', baca.tools.stages(20)),
+    [
+        baca.select_.leaves(
+            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('pp < mf')),
+            with_next_leaf=True,
+            ),
+        baca.select_.leaves(
+            baca.spanners.make_transition(
+                baca.markup.trans(),
+                baca.markup.knuckle_rasg(),
+                ),
+            with_next_leaf=True,
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ('Guitar Music Voice 1', baca.tools.stages(22, 25)),
+    [
+        baca.select_.leaves(
+            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('mf > p')),
+            ),
+        baca.select_.leaves(
+            baca.spanners.make_transition(
+                baca.markup.trans(),
+                baca.markup.tamb_tr(),
+                ),
+            ),
         ],
     )

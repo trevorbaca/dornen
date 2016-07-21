@@ -51,31 +51,31 @@ color transitions:
         * two-finger tamburo (pp)
     * Gtqf2
         * two-finger tamburo
-            * pp
-            * pp < p
-            * p
-            * p > pp
-            * pp
+            2-1 pp
+            2-2 pp < p
+            2-3 p
+            2-4 p > pp
+            2-5 pp
         * three-finger tamburo
-            * pp
-            * pp < mp
-            * mp
-            * mp > pp
-            * pp
+            3-1 pp
+            3-2 pp < mp
+            3-3 mp
+            3-4 mp > pp
+            3-5 pp
         * four-finger tamburo
-            * pp
-            * pp < p; tamburo -> knuckle-rasgueado
-            * p; knuckle-rasgueado [hold]
-            * p > pp; knuckle-rasgueado -> tamburo
-            * pp; t
-            * pp < mp; t -> k
-            * mp; k [hold]
-            * mp > pp; k -> t
-            * pp; t
-            * pp < mf; t -> k
-            * mf; k [hold]
-            * mf > p; k -> t
-            * p; t
+            4-1 pp
+            4-2 pp < p; tamburo -> knuckle-rasgueado
+            4-3 p; knuckle-rasgueado [hold]
+            4-4 p > pp; knuckle-rasgueado -> tamburo
+            4-5 pp; t
+            4-6 pp < mp; t -> k
+            4-7 mp; k [hold]
+            4-8 mp > pp; k -> t
+            4-9 pp; t
+            4-10 pp < mf; t -> k
+            4-11 mf; k [hold]
+            4-12 mf > p; k -> t
+            4-13 p; t
         * four-finger tamburo (p)
         * three-finger tamburo (p)
         * two-finger tamburo (p)

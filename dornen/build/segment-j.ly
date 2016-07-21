@@ -93,138 +93,138 @@
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
                     \time 2/5
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     \mark #10
                     s1 * 2/5
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 2/5
                 }
                 {
                     \time 1/3
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
                     \time 2/5
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 2/5
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 2/5
                 }
                 {
                     \time 1/3
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
                     \time 2/5
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 2/5
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 2/5
                 }
                 {
                     \time 1/3
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
                     \time 2/5
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 2/5
                 }
                 {
                     \time 1/3
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
                     \time 2/5
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 2/5
                 }
                 {
                     \time 1/3
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
                     \time 4/5
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 4/5
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 4/5
                 }
@@ -281,7 +281,7 @@
                                         \override
                                             #'(box-padding . 0.5)
                                             \box
-                                                "3-finger tamb. trill"
+                                                "3 fingers"
                                     }
                         }
                     }
@@ -318,7 +318,7 @@
                                         \override
                                             #'(box-padding . 0.5)
                                             \box
-                                                "4-finger tamb. trill"
+                                                "4 fingers"
                                     }
                         }
                     }
@@ -358,7 +358,7 @@
                                     #'(font-name . "Palatino")
                                     \whiteout
                                         \upright
-                                            "knuckle rasg."
+                                            "kn. rasg."
                                 }
                         }
                     }
@@ -438,7 +438,7 @@
                                     #'(font-name . "Palatino")
                                     \whiteout
                                         \upright
-                                            "knuckle rasg."
+                                            "kn. rasg."
                                 }
                         }
                     }
@@ -518,7 +518,7 @@
                                     #'(font-name . "Palatino")
                                     \whiteout
                                         \upright
-                                            "knuckle rasg."
+                                            "kn. rasg."
                                 }
                         }
                     }
@@ -588,7 +588,7 @@
                                         \upright
                                             "tamb. tr."
                                 }
-                            \bar "|."
+                            \bar "|"
                         }
                     }
                 }
@@ -618,7 +618,7 @@
                     s1 * 1/3
                     s1 * 4/5
                     s1 * 4/5
-                    \bar "|."
+                    \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
                     s1 * 2/5
@@ -646,7 +646,7 @@
                     s1 * 1/3
                     s1 * 4/5
                     s1 * 4/5
-                    \bar "|."
+                    \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
                     s1 * 2/5
@@ -674,7 +674,7 @@
                     s1 * 1/3
                     s1 * 4/5
                     s1 * 4/5
-                    \bar "|."
+                    \bar "|"
                 }
             >>
         }

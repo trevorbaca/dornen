@@ -471,7 +471,7 @@
                         }
                     }
                     s1 * 1/10
-                    \bar "|."
+                    \bar "|"
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
                     s1 * 3/16
@@ -621,7 +621,7 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             b''16 ]
-                            \bar "|."
+                            \bar "|"
                         }
                     }
                 }
@@ -851,7 +851,7 @@
                     s1 * 39/112
                     s1 * 3/16
                     s1 * 1/10
-                    \bar "|."
+                    \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
                     s1 * 3/16
@@ -872,7 +872,7 @@
                     s1 * 39/112
                     s1 * 3/16
                     s1 * 1/10
-                    \bar "|."
+                    \bar "|"
                 }
             >>
         }

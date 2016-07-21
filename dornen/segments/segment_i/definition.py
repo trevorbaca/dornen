@@ -52,7 +52,7 @@ accumulator(
 accumulator(
     accumulator.monad_figure_maker(
         [['Gb2']],
-        baca.markup.make_boxed_markup_specifier('3-finger tamb. trill'),
+        baca.markup.make_boxed_markup_specifier('3 fingers'),
         figure_name='3_1',
         ),
     )
@@ -90,7 +90,7 @@ accumulator(
 accumulator(
     accumulator.monad_figure_maker(
         [['Gb2']],
-        baca.markup.make_boxed_markup_specifier('4-finger tamb. trill'),
+        baca.markup.make_boxed_markup_specifier('4 fingers'),
         figure_name='4_1',
         ),
     )
@@ -154,7 +154,7 @@ accumulator(
 accumulator(
     accumulator.monad_figure_maker(
         2 * [['Gb2']],
-        baca.markup.make_boxed_markup_specifier('3-finger tamb. trill'),
+        baca.markup.make_boxed_markup_specifier('3 fingers'),
         figure_name='4_10',
         ),
     )
@@ -162,7 +162,7 @@ accumulator(
 accumulator(
     accumulator.monad_figure_maker(
         2 * [['Gb2']],
-        baca.markup.make_boxed_markup_specifier('2-finger tamb. trill'),
+        baca.markup.make_boxed_markup_specifier('2 fingers'),
         figure_name='4_11',
         ),
     )
@@ -177,7 +177,7 @@ tempo_specifier = baca.tools.TempoSpecifier([
 
 spacing_specifier = baca.tools.SpacingSpecifier(
     fermata_measure_width=abjad.durationtools.Duration(1, 4),
-    minimum_width=abjad.durationtools.Duration(1, 24),
+    minimum_width=abjad.durationtools.Duration(1, 12),
     )
 
 measures_per_stage = len(accumulator.time_signatures) * [1]

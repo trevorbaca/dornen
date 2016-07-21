@@ -25,7 +25,7 @@ metadata = abjad.datastructuretools.TypedOrderedDict(
         ('first_bar_number', 117),
         ('measure_count', 13),
         ('name', 'E'),
-        ('segment_count', 12),
+        ('segment_count', 13),
         ('segment_number', 6),
         ]
     )

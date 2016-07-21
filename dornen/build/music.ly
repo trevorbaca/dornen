@@ -21,7 +21,6 @@
     \include "segment-j.ly"
     \include "segment-k.ly"
     \include "segment-l.ly"
-%    \include "segment-m.ly"
-%    \include "segment-n.ly"
+    \include "segment-m.ly"
     }
 }

@@ -1145,7 +1145,7 @@
                             r8
                             r8
                             r8
-                            \bar "|."
+                            \bar "|"
                         }
                     }
                 }
@@ -1196,7 +1196,7 @@
                     s1 * 2/3
                     s1 * 1/3
                     s1 * 5/8
-                    \bar "|."
+                    \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
                     s1 * 2/5
@@ -1245,7 +1245,7 @@
                     s1 * 2/3
                     s1 * 1/3
                     s1 * 5/8
-                    \bar "|."
+                    \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
                     s1 * 2/5
@@ -1294,7 +1294,7 @@
                     s1 * 2/3
                     s1 * 1/3
                     s1 * 5/8
-                    \bar "|."
+                    \bar "|"
                 }
             >>
         }

@@ -1,14 +1,5 @@
-\version "2.19.45"
-\language "english"
-
-#(ly:set-option 'relative-includes #t)
-
-\include "../../stylesheets/stylesheet.ily"
-\include "../../stylesheets/nonfirst-segment.ily"
-
-\score {
     \context Score = "Score" \with {
-        currentBarNumber = #203
+        currentBarNumber = #228
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -104,7 +95,7 @@
                     \time 2/5
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
-                    \mark #10
+                    \mark #11
                     s1 * 2/5
                 }
                 {
@@ -254,37 +245,93 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gtqf2 :32
+                            f2 :32
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gtqf2 :32 \repeatTie \< \pp
+                            \once \override TextSpanner.arrow-width = 0.25
+                            \once \override TextSpanner.bound-details.left-broken.text = ##f
+                            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                            \once \override TextSpanner.bound-details.left.text = \markup {
+                                \concat
+                                    {
+                                        \override
+                                            #'(font-name . "Palatino")
+                                            \whiteout
+                                                \upright
+                                                    "(tamb. tr.)"
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                            \once \override TextSpanner.bound-details.right-broken.padding = 0
+                            \once \override TextSpanner.bound-details.right.arrow = ##t
+                            \once \override TextSpanner.bound-details.right.padding = 1.75
+                            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                            \once \override TextSpanner.dash-fraction = 0.25
+                            \once \override TextSpanner.dash-period = 1.5
+                            f2 :32 \repeatTie \< \p \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \p
+                            f2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
+                                \override
+                                    #'(font-name . "Palatino")
+                                    \whiteout
+                                        \upright
+                                            "kn. rasg."
+                                }
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \> \p
+                            \once \override TextSpanner.arrow-width = 0.25
+                            \once \override TextSpanner.bound-details.left-broken.text = ##f
+                            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                            \once \override TextSpanner.bound-details.left.text = \markup {
+                                \concat
+                                    {
+                                        \override
+                                            #'(font-name . "Palatino")
+                                            \whiteout
+                                                \upright
+                                                    trans.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                            \once \override TextSpanner.bound-details.right-broken.padding = 0
+                            \once \override TextSpanner.bound-details.right.arrow = ##t
+                            \once \override TextSpanner.bound-details.right.padding = 1.75
+                            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                            \once \override TextSpanner.dash-fraction = 0.25
+                            \once \override TextSpanner.dash-period = 1.5
+                            f2 :32 \repeatTie \> \mp \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \pp
+                            f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
+                                \override
+                                    #'(font-name . "Palatino")
+                                    \whiteout
+                                        \upright
+                                            "tamb. tr."
+                                }
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gtqf2 :32 \repeatTie
+                            f2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -297,31 +344,87 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gtqf2 :32 \repeatTie \< \pp
+                            \once \override TextSpanner.arrow-width = 0.25
+                            \once \override TextSpanner.bound-details.left-broken.text = ##f
+                            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                            \once \override TextSpanner.bound-details.left.text = \markup {
+                                \concat
+                                    {
+                                        \override
+                                            #'(font-name . "Palatino")
+                                            \whiteout
+                                                \upright
+                                                    trans.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                            \once \override TextSpanner.bound-details.right-broken.padding = 0
+                            \once \override TextSpanner.bound-details.right.arrow = ##t
+                            \once \override TextSpanner.bound-details.right.padding = 1.75
+                            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                            \once \override TextSpanner.dash-fraction = 0.25
+                            \once \override TextSpanner.dash-period = 1.5
+                            f2 :32 \repeatTie \< \p \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \mp
+                            f2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
+                                \override
+                                    #'(font-name . "Palatino")
+                                    \whiteout
+                                        \upright
+                                            "kn. rasg."
+                                }
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \> \mp
+                            \once \override TextSpanner.arrow-width = 0.25
+                            \once \override TextSpanner.bound-details.left-broken.text = ##f
+                            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                            \once \override TextSpanner.bound-details.left.text = \markup {
+                                \concat
+                                    {
+                                        \override
+                                            #'(font-name . "Palatino")
+                                            \whiteout
+                                                \upright
+                                                    trans.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                            \once \override TextSpanner.bound-details.right-broken.padding = 0
+                            \once \override TextSpanner.bound-details.right.arrow = ##t
+                            \once \override TextSpanner.bound-details.right.padding = 1.75
+                            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                            \once \override TextSpanner.dash-fraction = 0.25
+                            \once \override TextSpanner.dash-period = 1.5
+                            f2 :32 \repeatTie \> \mf \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \pp
+                            f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
+                                \override
+                                    #'(font-name . "Palatino")
+                                    \whiteout
+                                        \upright
+                                            "tamb. tr."
+                                }
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gtqf2 :32 \repeatTie
+                            f2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -356,13 +459,13 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            gtqf2 :32 \repeatTie \< \pp \startTextSpan
+                            f2 :32 \repeatTie \< \p \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \p \stopTextSpan ^ \markup {
+                            f2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -396,13 +499,13 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            gtqf2 :32 \repeatTie \> \p \startTextSpan
+                            f2 :32 \repeatTie \> \mp \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \pp \stopTextSpan ^ \markup {
+                            f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -436,13 +539,13 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            gtqf2 :32 \repeatTie \< \pp \startTextSpan
+                            f2 :32 \repeatTie \< \p \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
+                            f2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -476,13 +579,13 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            gtqf2 :32 \repeatTie \> \mp \startTextSpan
+                            f2 :32 \repeatTie \> \mf \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \pp \stopTextSpan ^ \markup {
+                            f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -516,13 +619,13 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            gtqf2 :32 \repeatTie \< \pp \startTextSpan
+                            f2 :32 \repeatTie \< \p \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
+                            f2 :32 \repeatTie \f \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -556,19 +659,19 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            gtqf2 :32 \repeatTie \> \mf \startTextSpan
+                            f2 :32 \repeatTie \> \f \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie
+                            f2 :32 \repeatTie
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gtqf2 :32 \repeatTie
+                            f2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -576,13 +679,13 @@
                                             \box
                                                 "3 fingers"
                                     }
-                            gtqf2 :32 \repeatTie
+                            f2 :32 \repeatTie
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gtqf2 :32 \repeatTie
+                            f2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -590,7 +693,7 @@
                                             \box
                                                 "2 fingers"
                                     }
-                            gtqf2 :32 \repeatTie \p \stopTextSpan ^ \markup {
+                            f2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -688,4 +791,3 @@
             >>
         }
     >>
-}

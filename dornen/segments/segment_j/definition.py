@@ -50,7 +50,7 @@ accumulator(
 accumulator(
     accumulator.monad_figure_maker(
         [['Gb~2']],
-        baca.markup.make_boxed_markup_specifier('3-finger tamb. trill'),
+        baca.markup.make_boxed_markup_specifier('3 fingers'),
         figure_name='3_1',
         ),
     )
@@ -88,7 +88,7 @@ accumulator(
 accumulator(
     accumulator.monad_figure_maker(
         [['Gb~2']],
-        baca.markup.make_boxed_markup_specifier('4-finger tamb. trill'),
+        baca.markup.make_boxed_markup_specifier('4 fingers'),
         figure_name='4_1',
         ),
     )
@@ -203,7 +203,7 @@ tempo_specifier = baca.tools.TempoSpecifier([
 
 spacing_specifier = baca.tools.SpacingSpecifier(
     fermata_measure_width=abjad.durationtools.Duration(1, 4),
-    minimum_width=abjad.durationtools.Duration(1, 24),
+    minimum_width=abjad.durationtools.Duration(1, 12),
     )
 
 measures_per_stage = len(accumulator.time_signatures) * [1]
@@ -292,7 +292,7 @@ segment_maker.append_specifiers(
         baca.select_.leaves(
             baca.spanners.make_transition(
                 baca.markup.trans(),
-                baca.markup.knuckle_rasg(),
+                baca.markup.kn_rasg(),
                 ),
             with_next_leaf=True,
             ),
@@ -326,7 +326,7 @@ segment_maker.append_specifiers(
         baca.select_.leaves(
             baca.spanners.make_transition(
                 baca.markup.trans(),
-                baca.markup.knuckle_rasg(),
+                baca.markup.kn_rasg(),
                 ),
             with_next_leaf=True,
             ),
@@ -360,7 +360,7 @@ segment_maker.append_specifiers(
         baca.select_.leaves(
             baca.spanners.make_transition(
                 baca.markup.trans(),
-                baca.markup.knuckle_rasg(),
+                baca.markup.kn_rasg(),
                 ),
             with_next_leaf=True,
             ),

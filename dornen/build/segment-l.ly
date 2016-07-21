@@ -1,14 +1,5 @@
-\version "2.19.45"
-\language "english"
-
-#(ly:set-option 'relative-includes #t)
-
-\include "../../stylesheets/stylesheet.ily"
-\include "../../stylesheets/nonfirst-segment.ily"
-
-\score {
     \context Score = "Score" \with {
-        currentBarNumber = #228
+        currentBarNumber = #253
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -68,35 +59,120 @@
                     R1 * 2/5
                 }
                 {
-                    \time 1/3
-                    R1 * 1/3
-                }
-                {
-                    R1 * 1/3
-                }
-                {
-                    R1 * 1/3
+                    \time 2/3
+                    R1 * 2/3
                 }
                 {
                     \time 2/5
                     R1 * 2/5
                 }
                 {
+                    R1 * 2/5
+                }
+                {
+                    R1 * 2/5
+                }
+                {
+                    \time 3/3
+                    R1 * 1
+                }
+                {
+                    \time 2/5
+                    R1 * 2/5
+                }
+                {
+                    R1 * 2/5
+                }
+                {
+                    R1 * 2/5
+                }
+                {
+                    \time 4/3
+                    R1 * 4/3
+                }
+                {
+                    \time 5/3
+                    R1 * 5/3
+                }
+                {
+                    \time 4/3
+                    R1 * 4/3
+                }
+                {
+                    \time 3/3
+                    R1 * 1
+                }
+                {
+                    \time 2/3
+                    R1 * 2/3
+                }
+                {
                     \time 1/3
                     R1 * 1/3
                 }
                 {
+                    \time 2/3
+                    R1 * 2/3
+                }
+                {
+                    \time 3/3
+                    R1 * 1
+                }
+                {
+                    \time 4/3
+                    R1 * 4/3
+                }
+                {
+                    \time 5/3
+                    R1 * 5/3
+                }
+                {
+                    \time 4/3
+                    R1 * 4/3
+                }
+                {
+                    \time 3/3
+                    R1 * 1
+                }
+                {
+                    \time 2/3
+                    R1 * 2/3
+                }
+                {
+                    \time 1/3
                     R1 * 1/3
                 }
                 {
+                    \time 2/3
+                    R1 * 2/3
+                }
+                {
+                    \time 3/3
+                    R1 * 1
+                }
+                {
+                    \time 4/3
+                    R1 * 4/3
+                }
+                {
+                    \time 5/3
+                    R1 * 5/3
+                }
+                {
+                    \time 3/3
+                    R1 * 1
+                }
+                {
+                    \time 2/3
+                    R1 * 2/3
+                }
+                {
+                    \time 1/3
                     R1 * 1/3
                 }
                 {
-                    \time 4/5
-                    R1 * 4/5
-                }
-                {
-                    R1 * 4/5
+                    \time 5/8
+                    R1 * 5/8
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
@@ -104,8 +180,23 @@
                     \time 2/5
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
-                    \mark #11
-                    s1 * 2/5
+                    \mark #12
+                    s1 * 2/5 ^ \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #3
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                66
+                            }
+                        }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -189,20 +280,10 @@
                     s1 * 2/5
                 }
                 {
-                    \time 1/3
+                    \time 2/3
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
-                    s1 * 1/3
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/3
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/3
+                    s1 * 2/3
                 }
                 {
                     \time 2/5
@@ -211,31 +292,168 @@
                     s1 * 2/5
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \time 3/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                }
+                {
+                    \time 2/5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \time 4/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 4/3
+                }
+                {
+                    \time 5/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 5/3
+                }
+                {
+                    \time 4/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 4/3
+                }
+                {
+                    \time 3/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                }
+                {
+                    \time 2/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 2/3
+                }
+                {
                     \time 1/3
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
+                    \time 2/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 2/3
+                }
+                {
+                    \time 3/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                }
+                {
+                    \time 4/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 4/3
+                }
+                {
+                    \time 5/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 5/3
+                }
+                {
+                    \time 4/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 4/3
+                }
+                {
+                    \time 3/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                }
+                {
+                    \time 2/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 2/3
+                }
+                {
+                    \time 1/3
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
+                    \time 2/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 2/3
+                }
+                {
+                    \time 3/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                }
+                {
+                    \time 4/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 4/3
+                }
+                {
+                    \time 5/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 5/3
+                }
+                {
+                    \time 3/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                }
+                {
+                    \time 2/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 2/3
+                }
+                {
+                    \time 1/3
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1/3
                 }
                 {
-                    \time 4/5
+                    \time 5/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
-                    s1 * 4/5
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 4/5
+                    s1 * 5/8
                 }
             }
         >>
@@ -254,7 +472,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            f2 :32
+                            e2 :32
                         }
                     }
                     {
@@ -282,13 +500,13 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \< \p \startTextSpan
+                            e2 :32 \repeatTie \< \mp \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            f2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
+                            e2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -322,13 +540,13 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \> \mp \startTextSpan
+                            e2 :32 \repeatTie \> \mf \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
+                            e2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -340,7 +558,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            f2 :32 \repeatTie
+                            e2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -375,13 +593,13 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \< \p \startTextSpan
+                            e2 :32 \repeatTie \< \mp \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            f2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
+                            e2 :32 \repeatTie \f \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -415,13 +633,13 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \> \mf \startTextSpan
+                            e2 :32 \repeatTie \> \f \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
+                            e2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -433,7 +651,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            f2 :32 \repeatTie
+                            e2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -468,13 +686,13 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \< \p \startTextSpan
+                            e2 :32 \repeatTie \< \mp \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            f2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
+                            e2 :32 \repeatTie \ff \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -486,41 +704,13 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            \once \override TextSpanner.arrow-width = 0.25
-                            \once \override TextSpanner.bound-details.left-broken.text = ##f
-                            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-                            \once \override TextSpanner.bound-details.left.text = \markup {
-                                \concat
-                                    {
-                                        \override
-                                            #'(font-name . "Palatino")
-                                            \whiteout
-                                                \upright
-                                                    trans.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                            \once \override TextSpanner.bound-details.right-broken.padding = 0
-                            \once \override TextSpanner.bound-details.right.arrow = ##t
-                            \once \override TextSpanner.bound-details.right.padding = 1.75
-                            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-                            \once \override TextSpanner.dash-fraction = 0.25
-                            \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \> \mp \startTextSpan
+                            e2 :32 \repeatTie \> \ff
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
-                                \override
-                                    #'(font-name . "Palatino")
-                                    \whiteout
-                                        \upright
-                                            "tamb. tr."
-                                }
+                            e2 :32 \repeatTie \mf
                         }
                     }
                     {
@@ -548,13 +738,54 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \< \p \startTextSpan
+                            e2 :32 \repeatTie \< \mf \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            f2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
+                            e2 :32 \repeatTie \f \stopTextSpan ^ \markup {
+                                \override
+                                    #'(font-name . "Palatino")
+                                    \whiteout
+                                        \upright
+                                            "nail rasg."
+                                }
+                            e2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            \once \override TextSpanner.arrow-width = 0.25
+                            \once \override TextSpanner.bound-details.left-broken.text = ##f
+                            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                            \once \override TextSpanner.bound-details.left.text = \markup {
+                                \concat
+                                    {
+                                        \override
+                                            #'(font-name . "Palatino")
+                                            \whiteout
+                                                \upright
+                                                    trans.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                            \once \override TextSpanner.bound-details.right-broken.padding = 0
+                            \once \override TextSpanner.bound-details.right.arrow = ##t
+                            \once \override TextSpanner.bound-details.right.padding = 1.75
+                            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                            \once \override TextSpanner.dash-fraction = 0.25
+                            \once \override TextSpanner.dash-period = 1.5
+                            e2 :32 \repeatTie \> \f \startTextSpan
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            e2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -565,7 +796,7 @@
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
-                        \times 2/3 {
+                        \times 4/5 {
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -588,19 +819,20 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \> \mf \startTextSpan
+                            e2 :32 \repeatTie \< \mf \startTextSpan
                         }
                     }
                     {
-                        \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
+                            e2 :32 \repeatTie \ff \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
                                         \upright
-                                            "tamb. tr."
+                                            "nail rasg."
                                 }
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
                         }
                     }
                     {
@@ -628,13 +860,13 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \< \p \startTextSpan
+                            e2 :32 \repeatTie \> \ff \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            f2 :32 \repeatTie \f \stopTextSpan ^ \markup {
+                        \times 4/5 {
+                            e2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -645,6 +877,59 @@
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            \once \override TextSpanner.arrow-width = 0.25
+                            \once \override TextSpanner.bound-details.left-broken.text = ##f
+                            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                            \once \override TextSpanner.bound-details.left.text = \markup {
+                                \concat
+                                    {
+                                        \override
+                                            #'(font-name . "Palatino")
+                                            \whiteout
+                                                \upright
+                                                    trans.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                            \once \override TextSpanner.bound-details.right-broken.padding = 0
+                            \once \override TextSpanner.bound-details.right.arrow = ##t
+                            \once \override TextSpanner.bound-details.right.padding = 1.75
+                            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                            \once \override TextSpanner.dash-fraction = 0.25
+                            \once \override TextSpanner.dash-period = 1.5
+                            e2 :32 \repeatTie \< \mf \startTextSpan
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            e2 :32 \repeatTie \ffff \stopTextSpan ^ \markup {
+                                \override
+                                    #'(font-name . "Palatino")
+                                    \whiteout
+                                        \upright
+                                            "nail rasg."
+                                }
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -668,48 +953,190 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \> \f \startTextSpan
+                            e2 :32 \repeatTie \> \ffff \startTextSpan
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \times 2/3 {
+                            e2 :32 \repeatTie \ff \< \ff
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            f2 :32 \repeatTie
+                            e2 :32 \repeatTie \fff \> \fff
+                            e2 :32 \repeatTie
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
-                        \times 4/5 {
-                            f2 :32 \repeatTie
-                                ^ \markup {
-                                    \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "3 fingers"
-                                    }
-                            f2 :32 \repeatTie
+                        \times 2/3 {
+                            e2 :32 \repeatTie \f \< \f
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
-                        \times 4/5 {
-                            f2 :32 \repeatTie
-                                ^ \markup {
-                                    \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "2 fingers"
-                                    }
-                            f2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
+                        \times 2/3 {
+                            e2 :32 \repeatTie \ff \> \ff
+                            e2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \times 2/3 {
+                            e2 :32 \repeatTie \mf \< \mf
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            e2 :32 \repeatTie \f \> \f
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            e2 :32 \repeatTie \mp \< \mp
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            e2 :32 \repeatTie \mf \> \mf
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \times 2/3 {
+                            e2 :32 \repeatTie \p \< \p
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            e2 :32 \repeatTie \mp \stopTextSpan \> \mp ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
                                         \upright
-                                            "tamb. tr."
+                                            ponticello
                                 }
-                            \bar "|"
+                            e2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            e2 :32 \repeatTie \pp \< \pp
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            e2 :32 \repeatTie \p \> \p
+                            e2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \times 2/3 {
+                            e2 :32 \repeatTie \ppp \< \ppp
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            \once \override TextSpanner.arrow-width = 0.25
+                            \once \override TextSpanner.bound-details.left-broken.text = ##f
+                            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                            \once \override TextSpanner.bound-details.left.text = \markup {
+                                \concat
+                                    {
+                                        \override
+                                            #'(font-name . "Palatino")
+                                            \whiteout
+                                                \upright
+                                                    "gradually slow rasgueado"
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                            \once \override TextSpanner.bound-details.right-broken.padding = 0
+                            \once \override TextSpanner.bound-details.right.arrow = ##t
+                            \once \override TextSpanner.bound-details.right.padding = 1.75
+                            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                            \once \override TextSpanner.dash-fraction = 0.25
+                            \once \override TextSpanner.dash-period = 1.5
+                            e2 :32 \repeatTie \pp \> \pp \startTextSpan
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            e2 :32 \repeatTie \pppp \< \pppp
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \times 2/3 {
+                            e2 :32 \repeatTie \ppp \> \ppp
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            e2 :32 \repeatTie \ppppp \< \ppppp
+                            e2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            \once \override Hairpin.circled-tip = ##t
+                            e2 :32 \repeatTie \pppp \> \pppp
+                        }
+                    }
+                    {
+                        {
+                            r8 \! \stopTextSpan ^ \markup {
+                                \override
+                                    #'(font-name . "Palatino")
+                                    \whiteout
+                                        \upright
+                                            still
+                                }
+                            r8
+                            r8
+                            r8
+                            r8
+                            \bar "|."
                         }
                     }
                 }
@@ -730,16 +1157,37 @@
                     s1 * 1/3
                     s1 * 1/3
                     s1 * 2/5
-                    s1 * 1/3
-                    s1 * 1/3
-                    s1 * 1/3
+                    s1 * 2/3
                     s1 * 2/5
+                    s1 * 2/5
+                    s1 * 2/5
+                    s1 * 1
+                    s1 * 2/5
+                    s1 * 2/5
+                    s1 * 2/5
+                    s1 * 4/3
+                    s1 * 5/3
+                    s1 * 4/3
+                    s1 * 1
+                    s1 * 2/3
                     s1 * 1/3
+                    s1 * 2/3
+                    s1 * 1
+                    s1 * 4/3
+                    s1 * 5/3
+                    s1 * 4/3
+                    s1 * 1
+                    s1 * 2/3
                     s1 * 1/3
+                    s1 * 2/3
+                    s1 * 1
+                    s1 * 4/3
+                    s1 * 5/3
+                    s1 * 1
+                    s1 * 2/3
                     s1 * 1/3
-                    s1 * 4/5
-                    s1 * 4/5
-                    \bar "|"
+                    s1 * 5/8
+                    \bar "|."
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
                     s1 * 2/5
@@ -758,16 +1206,37 @@
                     s1 * 1/3
                     s1 * 1/3
                     s1 * 2/5
-                    s1 * 1/3
-                    s1 * 1/3
-                    s1 * 1/3
+                    s1 * 2/3
                     s1 * 2/5
+                    s1 * 2/5
+                    s1 * 2/5
+                    s1 * 1
+                    s1 * 2/5
+                    s1 * 2/5
+                    s1 * 2/5
+                    s1 * 4/3
+                    s1 * 5/3
+                    s1 * 4/3
+                    s1 * 1
+                    s1 * 2/3
                     s1 * 1/3
+                    s1 * 2/3
+                    s1 * 1
+                    s1 * 4/3
+                    s1 * 5/3
+                    s1 * 4/3
+                    s1 * 1
+                    s1 * 2/3
                     s1 * 1/3
+                    s1 * 2/3
+                    s1 * 1
+                    s1 * 4/3
+                    s1 * 5/3
+                    s1 * 1
+                    s1 * 2/3
                     s1 * 1/3
-                    s1 * 4/5
-                    s1 * 4/5
-                    \bar "|"
+                    s1 * 5/8
+                    \bar "|."
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
                     s1 * 2/5
@@ -786,18 +1255,38 @@
                     s1 * 1/3
                     s1 * 1/3
                     s1 * 2/5
-                    s1 * 1/3
-                    s1 * 1/3
-                    s1 * 1/3
+                    s1 * 2/3
                     s1 * 2/5
+                    s1 * 2/5
+                    s1 * 2/5
+                    s1 * 1
+                    s1 * 2/5
+                    s1 * 2/5
+                    s1 * 2/5
+                    s1 * 4/3
+                    s1 * 5/3
+                    s1 * 4/3
+                    s1 * 1
+                    s1 * 2/3
                     s1 * 1/3
+                    s1 * 2/3
+                    s1 * 1
+                    s1 * 4/3
+                    s1 * 5/3
+                    s1 * 4/3
+                    s1 * 1
+                    s1 * 2/3
                     s1 * 1/3
+                    s1 * 2/3
+                    s1 * 1
+                    s1 * 4/3
+                    s1 * 5/3
+                    s1 * 1
+                    s1 * 2/3
                     s1 * 1/3
-                    s1 * 4/5
-                    s1 * 4/5
-                    \bar "|"
+                    s1 * 5/8
+                    \bar "|."
                 }
             >>
         }
     >>
-}

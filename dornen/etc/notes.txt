@@ -111,7 +111,7 @@ color transitions:
             * mp; t
             * mp < mf; t -> k
             * mf; k
-            * mf > p; k -> t
+            * mf > mp; k -> t
             * mp; t
             * mp < f; t -> k
             * f; k
@@ -135,10 +135,6 @@ color transitions:
             * fff; nail
             * fff > ppp; nail -> t [very long]
             * ppp; t
-        * four-finger tamburo (ppp)
-        * three-finger tamburo (ppp)
-        * two-finger tamburo (ppp)
-        * two-finger tamburo (ppp) morendo al niente
     * pause
     * mechanical repetition (5.75x)
     * attaca rascado

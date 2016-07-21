@@ -196,7 +196,7 @@ accumulator(
 ###############################################################################
 
 tempo_specifier = baca.tools.TempoSpecifier([
-    #(1, dornen.materials.tempi[66]),
+    (1, dornen.materials.tempi[66]),
     ])
 
 spacing_specifier = baca.tools.SpacingSpecifier(
@@ -208,7 +208,7 @@ measures_per_stage = len(accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
     #allow_figure_names=True,
-    #label_clock_time=True,
+    label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
     score_package=dornen,

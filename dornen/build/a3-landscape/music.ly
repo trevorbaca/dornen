@@ -4,23 +4,23 @@
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
-\include "../stylesheets/stylesheet.ily"
+\include "../../stylesheets/stylesheet.ily"
 
 \score {
     {
-    \include "../segment--introduction.ly"
-    \include "../segment-a.ly"
-    \include "../segment-b.ly"
-    \include "../segment-c.ly"
-    \include "../segment-d.ly"
-    \include "../segment-e.ly"
-    \include "../segment-f.ly"
-    \include "../segment-g.ly"
-    \include "../segment-h.ly"
-    \include "../segment-i.ly"
-    \include "../segment-j.ly"
-    \include "../segment-k.ly"
-    \include "../segment-l.ly"
-    \include "../segment-m.ly"
+    \include "../_segments/segment--introduction.ly"
+    \include "../_segments/segment-a.ly"
+    \include "../_segments/segment-b.ly"
+    \include "../_segments/segment-c.ly"
+    \include "../_segments/segment-d.ly"
+    \include "../_segments/segment-e.ly"
+    \include "../_segments/segment-f.ly"
+    \include "../_segments/segment-g.ly"
+    \include "../_segments/segment-h.ly"
+    \include "../_segments/segment-i.ly"
+    \include "../_segments/segment-j.ly"
+    \include "../_segments/segment-k.ly"
+    \include "../_segments/segment-l.ly"
+    \include "../_segments/segment-m.ly"
     }
 }

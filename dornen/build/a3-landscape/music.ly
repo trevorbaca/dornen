@@ -4,7 +4,7 @@
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
-\include "../../stylesheets/stylesheet.ily"
+\include "stylesheet.ily"
 
 \score {
     {

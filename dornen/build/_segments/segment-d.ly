@@ -1,5 +1,5 @@
     \context Score = "Score" \with {
-        currentBarNumber = #88
+        currentBarNumber = #90
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -92,8 +92,12 @@
                     R1 * 1/16
                 }
                 {
-                    \time 5/11
-                    R1 * 5/11
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 4/5
+                    R1 * 4/5
                 }
                 {
                     \time 3/20
@@ -125,7 +129,6 @@
                     \time 3/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    \mark #4
                     s1 * 3/32
                 }
                 {
@@ -255,10 +258,16 @@
                     s1 * 1/16
                 }
                 {
-                    \time 5/11
+                    \time 3/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 5/11
+                    s1 * 3/8
+                }
+                {
+                    \time 4/5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 4/5
                 }
                 {
                     \time 3/20
@@ -392,7 +401,8 @@
                     }
                     s1 * 3/20
                     s1 * 1/16
-                    s1 * 5/11
+                    s1 * 3/8
+                    s1 * 4/5
                     s1 * 3/20
                     s1 * 1/8
                     {
@@ -493,43 +503,35 @@
                     s1 * 3/20
                     s1 * 1/16
                     {
+                        {
+                            r8
+                            r8
+                            r8
+                        }
+                    }
+                    {
                         \tweak edge-height #'(0.7 . 0)
-                        \times 8/11 {
+                        \times 4/5 {
                             \once \override Stem.direction = #up
                             \once \override TupletBracket.extra-offset = #'(0 . -0.5)
                             \once \override TupletBracket.staff-padding = #0
                             \once \override TupletNumber.extra-offset = #'(0 . -0.5)
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #1
-                            fs8 :32 [ ~
+                            gf2 :32
+                                ^ \markup {
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "2-finger tamb. trill"
+                                    }
+                        }
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
                             \once \override Stem.direction = #up
                             \once \override TupletBracket.extra-offset = #'(0 . -0.5)
                             \once \override TupletBracket.staff-padding = #0
                             \once \override TupletNumber.extra-offset = #'(0 . -0.5)
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #1
-                            fs8 :32 ~
-                            \once \override Stem.direction = #up
-                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
-                            \once \override TupletBracket.staff-padding = #0
-                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #1
-                            fs8 :32 ~
-                            \once \override Stem.direction = #up
-                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
-                            \once \override TupletBracket.staff-padding = #0
-                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #1
-                            fs8 :32 ~
-                            \once \override Stem.direction = #up
-                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
-                            \once \override TupletBracket.staff-padding = #0
-                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #0
-                            fs8 :32 ]
+                            gf2 :32 \repeatTie
                         }
                     }
                     s1 * 3/20
@@ -617,7 +619,8 @@
                             f16 -\accent
                         }
                     }
-                    s1 * 5/11
+                    s1 * 3/8
+                    s1 * 4/5
                     s1 * 3/20
                     s1 * 1/8
                     s1 * 3/32
@@ -806,7 +809,8 @@
                         }
                     }
                     s1 * 1/16
-                    s1 * 5/11
+                    s1 * 3/8
+                    s1 * 4/5
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {

@@ -8,10 +8,14 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #182
+        currentBarNumber = #185
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
                 {
                     \time 4/5
                     R1 * 4/5
@@ -90,242 +94,127 @@
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
+                    \time 3/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
-                    \mark #9
-                    s1 * 4/5
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'00''
-                            }
-                        ^ \markup {
-                        \fontsize
-                            #-6
-                            \general-align
-                                #Y
-                                #DOWN
-                                \note-by-number
-                                    #3
-                                    #0
-                                    #1
-                        \upright
-                            {
-                                =
-                                66
-                            }
-                        }
-                }
-                {
-                    \time 2/5
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 2/5
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'05''
-                            }
-                }
-                {
-                    \time 1/3
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/3
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'08''
-                            }
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/3
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'11''
-                            }
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/3
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'13''
-                            }
-                }
-                {
-                    \time 2/5
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 2/5
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'16''
-                            }
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 2/5
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'18''
-                            }
-                }
-                {
-                    \time 1/3
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/3
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'21''
-                            }
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/3
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'24''
-                            }
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/3
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'26''
-                            }
-                }
-                {
-                    \time 2/5
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 2/5
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'29''
-                            }
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 2/5
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'32''
-                            }
-                }
-                {
-                    \time 1/3
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/3
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'34''
-                            }
-                }
-                {
-                    \time 2/5
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 2/5
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'37''
-                            }
-                }
-                {
-                    \time 1/3
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/3
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'40''
-                            }
-                }
-                {
-                    \time 2/5
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 2/5
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'42''
-                            }
-                }
-                {
-                    \time 1/3
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/3
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'45''
-                            }
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/3
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'48''
-                            }
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/3
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'50''
-                            }
+                    s1 * 3/8
                 }
                 {
                     \time 4/5
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 4/5
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'52''
-                            }
+                }
+                {
+                    \time 2/5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \time 1/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \time 2/5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \time 1/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \time 2/5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \time 1/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \time 2/5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \time 1/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \time 2/5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 2/5
+                }
+                {
+                    \time 1/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \time 4/5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 4/5
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 4/5
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'58''
-                            }
                 }
             }
         >>
@@ -342,9 +231,16 @@
                 }
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
                     {
+                        {
+                            r8
+                            r8
+                            r8
+                        }
+                    }
+                    {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf2 :32 \ppp
+                            gf2 :32 \ppp \< \ppp
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -361,12 +257,6 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf2 :32 \repeatTie \< \ppp
-                        }
-                    }
-                    {
-                        \tweak edge-height #'(0.7 . 0)
-                        \times 2/3 {
                             gf2 :32 \repeatTie \pp
                         }
                     }
@@ -384,8 +274,14 @@
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
-                        \times 4/5 {
+                        \times 2/3 {
                             gf2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            gf2 :32 \repeatTie \< \ppp
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -398,12 +294,6 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf2 :32 \repeatTie \< \ppp
-                        }
-                    }
-                    {
-                        \tweak edge-height #'(0.7 . 0)
-                        \times 2/3 {
                             gf2 :32 \repeatTie \p
                         }
                     }
@@ -421,8 +311,14 @@
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
-                        \times 4/5 {
+                        \times 2/3 {
                             gf2 :32 \repeatTie
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            gf2 :32 \repeatTie \< \ppp
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -435,36 +331,30 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf2 :32 \repeatTie \< \ppp
-                        }
-                    }
-                    {
-                        \tweak edge-height #'(0.7 . 0)
-                        \times 2/3 {
                             gf2 :32 \repeatTie \pp
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
-                        \times 4/5 {
+                        \times 2/3 {
                             gf2 :32 \repeatTie \< \pp
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
-                        \times 2/3 {
+                        \times 4/5 {
                             gf2 :32 \repeatTie \p
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
-                        \times 4/5 {
+                        \times 2/3 {
                             gf2 :32 \repeatTie \< \p
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
-                        \times 2/3 {
+                        \times 4/5 {
                             gf2 :32 \repeatTie \mp
                         }
                     }
@@ -472,6 +362,12 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             gf2 :32 \repeatTie \> \mp
+                        }
+                    }
+                    {
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            gf2 :32 \repeatTie
                         }
                     }
                     {
@@ -494,7 +390,7 @@
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf2 :32 \repeatTie
+                            gf2 :32 \repeatTie \pp
                         }
                     }
                     {
@@ -511,12 +407,13 @@
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf2 :32 \repeatTie \pp
+                            gf2 :32 \repeatTie
                             \bar "|"
                         }
                     }
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
+                    s1 * 3/8
                     s1 * 4/5
                     s1 * 2/5
                     s1 * 1/3
@@ -541,6 +438,7 @@
                     \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
+                    s1 * 3/8
                     s1 * 4/5
                     s1 * 2/5
                     s1 * 1/3
@@ -565,6 +463,7 @@
                     \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
+                    s1 * 3/8
                     s1 * 4/5
                     s1 * 2/5
                     s1 * 1/3

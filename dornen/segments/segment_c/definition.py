@@ -79,13 +79,26 @@ accumulator(
     )
 
 accumulator(
-    accumulator.tremolo_figure_maker(
-        [[6, 6, 6]],
-        baca.markup.make_markup_specifier('with finger pad(s)'),
-        baca.overrides.beam_positions(11),
-        baca.pitch.register(-20),
-        baca.tools.ArticulationSpecifier(articulations=['ppp']),
-        extend_beam=True,
+    accumulator.rest_figure_maker(
+        [3 * [None]],
+        figure_name='S1',
+        ),
+    voice_number=4,
+    )
+
+accumulator(
+    accumulator.monad_figure_maker(
+        2 * [['Gb2']],
+        baca.markup.make_boxed_markup_specifier('2-finger tamb. trill'),
+        baca.stem_tremolo(),
+        baca.stem_up(),
+        baca.tuplet_bracket_staff_padding(0),
+        baca.tuplet_bracket_extra_offset((0, -0.5)),
+        baca.tuplet_number_extra_offset((0, -0.5)),
+        baca.register(-20),
+        baca.tools.SpannerSpecifier(
+            spanner=abjad.Tie(use_messiaen_style_ties=True)
+            ),
         figure_name='T1',
         ),
     voice_number=4,
@@ -160,11 +173,26 @@ accumulator(
     )
 
 accumulator(
-    accumulator.tremolo_figure_maker(
-        [[6, 6, 6, 6]],
-        baca.overrides.beam_positions(10),
-        baca.pitch.register(-20),
-        baca.tools.ArticulationSpecifier(articulations=['ppp']),
+    accumulator.rest_figure_maker(
+        [3 * [None]],
+        figure_name='S2',
+        ),
+    voice_number=4,
+    )
+
+accumulator(
+    accumulator.monad_figure_maker(
+        2 * [['Gb2']],
+        baca.markup.make_boxed_markup_specifier('2-finger tamb. trill'),
+        baca.stem_tremolo(),
+        baca.stem_up(),
+        baca.tuplet_bracket_staff_padding(0),
+        baca.tuplet_bracket_extra_offset((0, -0.5)),
+        baca.tuplet_number_extra_offset((0, -0.5)),
+        baca.register(-20),
+        baca.tools.SpannerSpecifier(
+            spanner=abjad.Tie(use_messiaen_style_ties=True)
+            ),
         figure_name='T2',
         ),
     voice_number=4,
@@ -199,6 +227,7 @@ segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
+    rehearsal_letter='',
     score_package=dornen,
     score_template=dornen.tools.ScoreTemplate(),
     skips_instead_of_rests=True,

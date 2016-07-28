@@ -8,7 +8,7 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #152
+        currentBarNumber = #155
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -66,7 +66,6 @@
                     \time 7/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
-                    \mark #7
                     s1 * 7/32 ^ \markup {
                         \fontsize
                             #-6

@@ -253,6 +253,7 @@ segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
+    rehearsal_letter='',
     score_package=dornen,
     score_template=dornen.tools.ScoreTemplate(),
     skips_instead_of_rests=True,

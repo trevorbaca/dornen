@@ -11,6 +11,13 @@ import dornen
 accumulator = dornen.tools.FigureAccumulator()
 
 accumulator(
+    accumulator.rest_figure_maker(
+        [3 * [None]],
+        figure_name='R_1',
+        ),
+    )
+
+accumulator(
     accumulator.monad_figure_maker(
         2 * [['Gb2']],
         baca.markup.make_boxed_markup_specifier('2-finger tamb. trill'),
@@ -172,7 +179,7 @@ accumulator(
 ###############################################################################
 
 tempo_specifier = baca.tools.TempoSpecifier([
-    (1, dornen.materials.tempi[66]),
+    #(1, dornen.materials.tempi[66]),
     ])
 
 spacing_specifier = baca.tools.SpacingSpecifier(
@@ -184,9 +191,10 @@ measures_per_stage = len(accumulator.time_signatures) * [1]
 
 segment_maker = baca.tools.SegmentMaker(
     #allow_figure_names=True,
-    label_clock_time=True,
+    #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
+    rehearsal_letter='',
     score_package=dornen,
     score_template=dornen.tools.ScoreTemplate(),
     skips_instead_of_rests=True,

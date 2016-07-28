@@ -40,8 +40,12 @@
                     R1 * 9/64
                 }
                 {
-                    \time 3/11
-                    R1 * 3/11
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 4/5
+                    R1 * 4/5
                 }
                 {
                     \time 5/32
@@ -72,8 +76,12 @@
                     R1 * 3/16
                 }
                 {
-                    \time 4/11
-                    R1 * 4/11
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 4/5
+                    R1 * 4/5
                 }
                 {
                     \time 9/64
@@ -85,7 +93,6 @@
                     \time 11/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     \newSpacingSection
-                    \mark #3
                     s1 * 11/32
                 }
                 {
@@ -124,10 +131,16 @@
                     s1 * 9/64
                 }
                 {
-                    \time 3/11
+                    \time 3/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 3/11
+                    s1 * 3/8
+                }
+                {
+                    \time 4/5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 4/5
                 }
                 {
                     \time 5/32
@@ -172,10 +185,16 @@
                     s1 * 3/16
                 }
                 {
-                    \time 4/11
+                    \time 3/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 4/11
+                    s1 * 3/8
+                }
+                {
+                    \time 4/5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 4/5
                 }
                 {
                     \time 9/64
@@ -519,7 +538,7 @@
                             \once \override Beam.positions = #'(6 . 6)
                             b32 * 1312/1024 [
                             \once \override Beam.positions = #'(6 . 6)
-                            bf32 * 736/1024 ]
+                            bf'32 * 736/1024 ]
                         }
                         \revert TupletNumber.text
                         {
@@ -529,98 +548,9 @@
                     }
                     s1 * 3/16
                     s1 * 9/64
-                    s1 * 3/11
+                    s1 * 3/8
+                    s1 * 4/5
                     s1 * 5/32
-                    {
-                        \override TupletNumber.text = \markup {
-                            \scale
-                                #'(0.75 . 0.75)
-                                \score
-                                    {
-                                        \new Score \with {
-                                            \override SpacingSpanner.spacing-increment = #0.5
-                                            proportionalNotationDuration = ##f
-                                        } <<
-                                            \new RhythmicStaff \with {
-                                                \remove Time_signature_engraver
-                                                \remove Staff_symbol_engraver
-                                                \override Stem.direction = #up
-                                                \override Stem.length = #5
-                                                \override TupletBracket.bracket-visibility = ##t
-                                                \override TupletBracket.direction = #up
-                                                \override TupletBracket.padding = #1.25
-                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                tupletFullLength = ##t
-                                            } {
-                                                c'8 ~
-                                                c'32
-                                            }
-                                        >>
-                                        \layout {
-                                            indent = #0
-                                            ragged-right = ##t
-                                        }
-                                    }
-                            }
-                        \times 1/1 {
-                            \once \override Beam.grow-direction = #right
-                            \once \override Beam.positions = #'(6 . 6)
-                            g'32 * 1856/1024 [
-                            \once \override Beam.positions = #'(6 . 6)
-                            af'32 * 1024/1024
-                            \once \override Beam.positions = #'(6 . 6)
-                            d'32 * 832/1024
-                            \once \override Beam.positions = #'(6 . 6)
-                            cs'32 * 736/1024
-                            \once \override Beam.positions = #'(6 . 6)
-                            ef'32 * 672/1024 ]
-                        }
-                        \revert TupletNumber.text
-                        \override TupletNumber.text = \markup {
-                            \scale
-                                #'(0.75 . 0.75)
-                                \score
-                                    {
-                                        \new Score \with {
-                                            \override SpacingSpanner.spacing-increment = #0.5
-                                            proportionalNotationDuration = ##f
-                                        } <<
-                                            \new RhythmicStaff \with {
-                                                \remove Time_signature_engraver
-                                                \remove Staff_symbol_engraver
-                                                \override Stem.direction = #up
-                                                \override Stem.length = #5
-                                                \override TupletBracket.bracket-visibility = ##t
-                                                \override TupletBracket.direction = #up
-                                                \override TupletBracket.padding = #1.25
-                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                tupletFullLength = ##t
-                                            } {
-                                                c'8
-                                            }
-                                        >>
-                                        \layout {
-                                            indent = #0
-                                            ragged-right = ##t
-                                        }
-                                    }
-                            }
-                        \times 1/1 {
-                            \once \override Beam.grow-direction = #left
-                            \once \override Beam.positions = #'(6 . 6)
-                            g'32 * 416/1024 [
-                            \once \override Beam.positions = #'(6 . 6)
-                            af'32 * 896/1024
-                            \once \override Beam.positions = #'(6 . 6)
-                            d''32 * 1248/1024
-                            \once \override Beam.positions = #'(6 . 6)
-                            cs''32 * 1536/1024 ]
-                        }
-                        \revert TupletNumber.text
-                    }
-                    s1 * 1/8
                     {
                         \override TupletNumber.text = \markup {
                             \scale
@@ -706,6 +636,87 @@
                             \once \override Beam.positions = #'(6 . 6)
                             d''32 * 1248/1024
                             \once \override Beam.positions = #'(6 . 6)
+                            cs'''32 * 1536/1024 ]
+                        }
+                        \revert TupletNumber.text
+                    }
+                    s1 * 1/8
+                    {
+                        \override TupletNumber.text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner.spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'8 ~
+                                                c'32
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam.grow-direction = #right
+                            g32 * 1856/1024 [
+                            af32 * 1024/1024
+                            d'32 * 832/1024
+                            cs'32 * 736/1024
+                            ef'32 * 672/1024 ]
+                        }
+                        \revert TupletNumber.text
+                        \override TupletNumber.text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner.spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'8
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam.grow-direction = #left
+                            g'32 * 416/1024 [
+                            af'32 * 896/1024
+                            d'32 * 1248/1024
                             cs''32 * 1536/1024 ]
                         }
                         \revert TupletNumber.text
@@ -741,19 +752,17 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
-                            \once \override Beam.positions = #'(6 . 6)
                             ef''32 * 1568/1024 [
-                            \once \override Beam.positions = #'(6 . 6)
-                            fs''32 * 832/1024
-                            \once \override Beam.positions = #'(6 . 6)
-                            a''32 * 672/1024 ]
+                            fs'32 * 832/1024
+                            a'32 * 672/1024 ]
                         }
                         \revert TupletNumber.text
                     }
                     s1 * 1/8
                     s1 * 5/32
                     s1 * 3/16
-                    s1 * 4/11
+                    s1 * 3/8
+                    s1 * 4/5
                     s1 * 9/64
                     \bar "|"
                 }
@@ -790,7 +799,8 @@
                     s1 * 3/16
                     s1 * 3/16
                     s1 * 9/64
-                    s1 * 3/11
+                    s1 * 3/8
+                    s1 * 4/5
                     s1 * 5/32
                     s1 * 9/32
                     {
@@ -819,7 +829,8 @@
                     }
                     s1 * 5/32
                     s1 * 3/16
-                    s1 * 4/11
+                    s1 * 3/8
+                    s1 * 4/5
                     s1 * 9/64
                     \bar "|"
                 }
@@ -929,7 +940,8 @@
                             af''64 )
                         }
                     }
-                    s1 * 3/11
+                    s1 * 3/8
+                    s1 * 4/5
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
@@ -1083,7 +1095,8 @@
                             ef''64 )
                         }
                     }
-                    s1 * 4/11
+                    s1 * 3/8
+                    s1 * 4/5
                     {
                         \times 4/5 {
                             \set stemLeftBeamCount = #1
@@ -1140,25 +1153,35 @@
                     s1 * 3/16
                     s1 * 9/64
                     {
+                        {
+                            r8
+                            r8
+                            r8
+                        }
+                    }
+                    {
                         \tweak edge-height #'(0.7 . 0)
-                        \times 8/11 {
-                            \once \override Beam.positions = #'(11 . 11)
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #1
-                            fs8 :32 -\ppp [ ~
+                        \times 4/5 {
+                            \once \override Stem.direction = #up
+                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
+                            \once \override TupletBracket.staff-padding = #0
+                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
+                            gf2 :32
                                 ^ \markup {
                                     \whiteout
-                                        \upright
-                                            "with finger pad(s)"
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "2-finger tamb. trill"
                                     }
-                            \once \override Beam.positions = #'(11 . 11)
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #1
-                            fs8 :32 ~
-                            \once \override Beam.positions = #'(11 . 11)
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #1
-                            fs8 :32
+                        }
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            \once \override Stem.direction = #up
+                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
+                            \once \override TupletBracket.staff-padding = #0
+                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
+                            gf2 :32 \repeatTie
                         }
                     }
                     s1 * 5/32
@@ -1169,24 +1192,35 @@
                     s1 * 5/32
                     s1 * 3/16
                     {
+                        {
+                            r8
+                            r8
+                            r8
+                        }
+                    }
+                    {
                         \tweak edge-height #'(0.7 . 0)
-                        \times 8/11 {
-                            \once \override Beam.positions = #'(10 . 10)
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #1
-                            fs8 :32 -\ppp ~
-                            \once \override Beam.positions = #'(10 . 10)
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #1
-                            fs8 :32 ~
-                            \once \override Beam.positions = #'(10 . 10)
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #1
-                            fs8 :32 ~
-                            \once \override Beam.positions = #'(10 . 10)
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #0
-                            fs8 :32 ]
+                        \times 4/5 {
+                            \once \override Stem.direction = #up
+                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
+                            \once \override TupletBracket.staff-padding = #0
+                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
+                            gf2 :32
+                                ^ \markup {
+                                    \whiteout
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "2-finger tamb. trill"
+                                    }
+                        }
+                        \tweak edge-height #'(0.7 . 0)
+                        \times 4/5 {
+                            \once \override Stem.direction = #up
+                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
+                            \once \override TupletBracket.staff-padding = #0
+                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
+                            gf2 :32 \repeatTie
                         }
                     }
                     s1 * 9/64

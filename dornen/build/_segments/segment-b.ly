@@ -146,7 +146,6 @@
                     \time 9/64
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                     \newSpacingSection
-                    \mark #2
                     s1 * 9/64
                 }
                 {
@@ -980,13 +979,6 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             af''32 -\staccato [
-                                ^ \markup {
-                                    \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "Metric Modulation"
-                                    }
                             \once \override Beam.positions = #'(-6.5 . -6.5)
                             \once \override Stem.direction = #down
                             \set stemLeftBeamCount = #3

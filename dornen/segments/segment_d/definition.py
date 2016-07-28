@@ -215,14 +215,40 @@ accumulator(
     )
 
 accumulator(
-    accumulator.tremolo_figure_maker(
-        [[6, 6, 6, 6, 6]],
-        baca.overrides.stem_up(),
-        baca.overrides.tuplet_bracket_staff_padding(0),
-        baca.overrides.tuplet_bracket_extra_offset((0, -0.5)),
-        baca.overrides.tuplet_number_extra_offset((0, -0.5)),
-        baca.pitch.register(-20),
-        figure_name='T1',
+    accumulator.rest_figure_maker(
+        [3 * [None]],
+        figure_name='R1',
+        ),
+    voice_number=2,
+    )
+
+#accumulator(
+#    accumulator.tremolo_figure_maker(
+#        [[6, 6, 6, 6, 6]],
+#        baca.overrides.stem_up(),
+#        baca.overrides.tuplet_bracket_staff_padding(0),
+#        baca.overrides.tuplet_bracket_extra_offset((0, -0.5)),
+#        baca.overrides.tuplet_number_extra_offset((0, -0.5)),
+#        baca.pitch.register(-20),
+#        figure_name='T1',
+#        ),
+#    voice_number=2,
+#    )
+
+accumulator(
+    accumulator.monad_figure_maker(
+        2 * [['Gb2']],
+        baca.markup.make_boxed_markup_specifier('2-finger tamb. trill'),
+        baca.stem_tremolo(),
+        baca.stem_up(),
+        baca.tuplet_bracket_staff_padding(0),
+        baca.tuplet_bracket_extra_offset((0, -0.5)),
+        baca.tuplet_number_extra_offset((0, -0.5)),
+        baca.register(-20),
+        baca.tools.SpannerSpecifier(
+            spanner=abjad.Tie(use_messiaen_style_ties=True)
+            ),
+        figure_name='2_1',
         ),
     voice_number=2,
     )
@@ -297,6 +323,7 @@ segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
+    rehearsal_letter='',
     score_package=dornen,
     score_template=dornen.tools.ScoreTemplate(),
     skips_instead_of_rests=True,
@@ -316,7 +343,7 @@ accumulator._populate_segment_maker(segment_maker)
 ###############################################################################
 
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 1', baca.tools.stages(1, 29)),
+    ('Guitar Music Voice 1', baca.tools.stages(1, 'end')),
     [
         baca.articulations.tenuti(),
         baca.overrides.beam_positions(10),
@@ -333,7 +360,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 2', baca.tools.stages(24, 29)),
+    ('Guitar Music Voice 2', baca.tools.stages(25, 'end')),
     [
         baca.overrides.beam_positions(-5.5),
         baca.pitch.register(4),
@@ -341,7 +368,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 3', baca.tools.stages(1, 29)),
+    ('Guitar Music Voice 3', baca.tools.stages(1, 'end')),
     [
         baca.articulations.accents(),
         baca.overrides.script_direction(Down),
@@ -350,7 +377,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 4', baca.tools.stages(1, 29)),
+    ('Guitar Music Voice 4', baca.tools.stages(1, 'end')),
     [
         baca.articulations.staccati(),
         baca.overrides.beam_positions(5.5),

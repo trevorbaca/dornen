@@ -79,9 +79,9 @@ accumulator(
 
 accumulator(
     accumulator.rest_figure_maker(
-        [5 * [None]],
+        [3 * [None]],
         baca.markup.make_markup_specifier(
-            'APPLY SCORDATURA',
+            'raise string 2 one quartertone',
             selector=baca.selector.first_leaf(),
             ),
         figure_name='S1',
@@ -155,6 +155,7 @@ segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
+    rehearsal_letter='',
     score_package=dornen,
     score_template=dornen.tools.ScoreTemplate(),
     skips_instead_of_rests=True,

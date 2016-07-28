@@ -283,7 +283,7 @@ accumulator(
 accumulator(
     accumulator.delicatissimo_figure_maker(
         design[6:7],
-        baca.markup.make_boxed_markup_specifier('Metric Modulation'),
+        #baca.markup.make_boxed_markup_specifier('Metric Modulation'),
         baca.overrides.beam_positions(-6.5),
         baca.overrides.stem_down(),
         baca.pitch.register(6, -20),
@@ -427,6 +427,7 @@ segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
+    rehearsal_letter='',
     score_package=dornen,
     score_template=dornen.tools.ScoreTemplate(),
     skips_instead_of_rests=True,

@@ -167,8 +167,10 @@
         \override Beam.color = #red
         \override Dots.color = #red
         \override DynamicText.color = #red
+        \override Glissando.color = #red
         \override Hairpin.color = #red
         \override NoteHead.color = #red
+        \override RepeatTie.color = #red
         \override Script.color = #red
         \override Slur.color = #red
         \override Stem.color = #red
@@ -197,8 +199,10 @@
         \override Dots.color = #red
         \override DynamicText.color = #red
         \override DynamicText.direction = #up
+        \override Glissando.color = #red
         \override Hairpin.color = #red
         \override NoteHead.color = #red
+        \override RepeatTie.color = #red
         \override Script.color = #red
         \override Slur.color = #red
         \override Stem.color = #red

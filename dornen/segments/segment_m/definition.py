@@ -17,7 +17,7 @@ assert len(design) == 14
 accumulator(
     accumulator.forty_eighth_figure_maker(
         design[:1],
-        baca.markup.make_boxed_markup_specifier(
+        baca.markup.make_markup_specifier(
             'LH only until rascado! (RH tacet; encourage whisks) ...'
             ),
         extend_beam=True,
@@ -76,7 +76,7 @@ accumulator(
 accumulator(
     accumulator.forty_eighth_figure_maker(
         design[:1],
-        baca.markup.make_boxed_markup_specifier('RH reaches for screw ...'),
+        baca.markup.make_markup_specifier('RH reaches for screw ...'),
         extend_beam=True,
         ),
     voice_number=1,
@@ -133,8 +133,7 @@ accumulator(
 accumulator(
     accumulator.forty_eighth_figure_maker(
         design[:1],
-        baca.markup.make_boxed_markup_specifier(
-            'RH places screw on string ...'),
+        baca.markup.make_markup_specifier('RH places screw on string ...'),
         extend_beam=True,
         ),
     voice_number=1,
@@ -344,10 +343,10 @@ accumulator(
 accumulator(
     accumulator.rest_figure_maker(
         [5 * [None]],
-        baca.tools.MarkupSpecifier(
-            markup=baca.markup.make_boxed_markup('FREEZE'),
-            selector=baca.selector.first_leaf(),
-            ),
+        #baca.tools.MarkupSpecifier(
+        #    markup=baca.markup.make_boxed_markup('FREEZE'),
+        #    selector=baca.selector.first_leaf(),
+        #    ),
         ),
     voice_number=1,
     )
@@ -357,7 +356,7 @@ accumulator(
         [13 * ['E2']],
         baca.make_markup_specifier(
             'RASCADO: slowly draw extremely long metal screw over open string;'
-            ' as close as possible to bridge; only one stroke!'
+            ' as close as possible to bridge; only one stroke.'
             ),
         baca.overrides.proportional_notation_duration((1, 12)),
         baca.stem_tremolo(),
@@ -388,10 +387,11 @@ measures_per_stage = len(accumulator.time_signatures) * [1]
 segment_maker = baca.tools.SegmentMaker(
     #allow_figure_names=True,
     final_markup=dornen.tools.make_final_markup(),
-    final_markup_extra_offset=(98, 0),
+    final_markup_extra_offset=(79, 0),
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
+    rehearsal_letter='',
     score_package=dornen,
     score_template=dornen.tools.ScoreTemplate(),
     skips_instead_of_rests=True,

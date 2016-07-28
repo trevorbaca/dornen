@@ -1,5 +1,5 @@
     \context Score = "Score" \with {
-        currentBarNumber = #299
+        currentBarNumber = #303
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -177,7 +177,6 @@
                     \time 3/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    \mark #13
                     s1 * 3/32
                 }
                 {
@@ -448,10 +447,8 @@
                             d'32. -\tenuto [
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "LH only until rascado! (RH tacet; encourage whisks) ..."
+                                        \upright
+                                            "LH only until rascado! (RH tacet; encourage whisks) ..."
                                     }
                             \once \override Beam.positions = #'(10 . 10)
                             \set stemLeftBeamCount = #3
@@ -488,10 +485,8 @@
                             d'32. -\tenuto [
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "RH reaches for screw ..."
+                                        \upright
+                                            "RH reaches for screw ..."
                                     }
                             \once \override Beam.positions = #'(10 . 10)
                             \set stemLeftBeamCount = #3
@@ -528,10 +523,8 @@
                             d'32. -\tenuto [
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "RH places screw on string ..."
+                                        \upright
+                                            "RH places screw on string ..."
                                     }
                             \once \override Beam.positions = #'(10 . 10)
                             \set stemLeftBeamCount = #3
@@ -641,13 +634,6 @@
                     {
                         {
                             r8
-                                ^ \markup {
-                                    \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                FREEZE
-                                    }
                             r8
                             r8
                             r8
@@ -662,7 +648,7 @@
                                 ^ \markup {
                                     \whiteout
                                         \upright
-                                            "RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke!"
+                                            "RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke."
                                     }
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                             e2 :32 \repeatTie
@@ -1178,7 +1164,7 @@
                     }
                     s1 * 1/8
                     s1 * 5/8
-                    \once \override TextScript.extra-offset = #'(98 . 0)
+                    \once \override TextScript.extra-offset = #'(79 . 0)
                     s1 * 13/3
                         _ \markup {
                             \with-color
@@ -1186,8 +1172,8 @@
                                 \italic
                                     \right-column
                                         {
-                                            "Madison, WI – Palo Alto, CA"
-                                            "May – Jul. 2016"
+                                            "Cambridge, MA – Madison, WI – Palo Alto, CA."
+                                            "Nov. 2015 – Jul. 2016."
                                         }
                             }
                     \bar "|."

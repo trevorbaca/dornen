@@ -1,5 +1,5 @@
     \context Score = "Score" \with {
-        currentBarNumber = #117
+        currentBarNumber = #120
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -32,8 +32,8 @@
                     R1 * 3/20
                 }
                 {
-                    \time 5/8
-                    R1 * 5/8
+                    \time 3/8
+                    R1 * 3/8
                 }
                 {
                     \time 30/64
@@ -61,7 +61,6 @@
                     \time 3/32
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    \mark #5
                     s1 * 3/32
                 }
                 {
@@ -101,10 +100,10 @@
                     s1 * 3/20
                 }
                 {
-                    \time 5/8
+                    \time 3/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 5/8
+                    s1 * 3/8
                 }
                 {
                     \time 30/64
@@ -252,10 +251,8 @@
                                 ^ \markup {
                                     \whiteout
                                         \upright
-                                            "APPLY SCORDATURA"
+                                            "raise string 2 one quartertone"
                                     }
-                            r8
-                            r8
                             r8
                             r8
                         }
@@ -1283,7 +1280,7 @@
                     s1 * 3/32
                     s1 * 1/16
                     s1 * 3/20
-                    s1 * 5/8
+                    s1 * 3/8
                     s1 * 15/32
                     s1 * 5/8
                     s1 * 25/32
@@ -1313,7 +1310,7 @@
                         }
                     }
                     s1 * 3/20
-                    s1 * 5/8
+                    s1 * 3/8
                     s1 * 15/32
                     s1 * 5/8
                     s1 * 25/32
@@ -1349,7 +1346,7 @@
                             c''16 -\staccato ]
                         }
                     }
-                    s1 * 5/8
+                    s1 * 3/8
                     s1 * 15/32
                     s1 * 5/8
                     s1 * 25/32

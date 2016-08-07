@@ -39,7 +39,6 @@
     markup-system-spacing.minimum-distance = 48
     system-system-spacing.minimum-distance = 24
     top-markup-spacing.minimum-distance = 18
-    %top-system-spacing.minimum-distance = 48
     top-margin = 0\in
 }
 

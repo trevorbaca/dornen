@@ -4,7 +4,7 @@ import baca
 
 
 class DesignMaker(abjad.abctools.AbjadObject):
-    r'''Design maker.
+    r'''Design-maker.
     '''
 
     ### CLASS VARIABLES ###
@@ -38,7 +38,7 @@ class DesignMaker(abjad.abctools.AbjadObject):
     ### SPECIAL METHODS ###
 
     def __call__(self):
-        r'''Calls design maker.
+        r'''Calls design-maker.
 
         Returns pitch-class tree.
         '''

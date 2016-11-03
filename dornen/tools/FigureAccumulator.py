@@ -256,7 +256,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
                     return markup
 
     def _populate_segment_maker(self, segment_maker):
-        items = self.voice_name_to_selections.iteritems()
+        items = self.voice_name_to_selections.items()
         for voice_name, selections in items:
             music = []
             for selection in selections:

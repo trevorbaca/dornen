@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import baca
 
 
 def make_design_1(start=None, stop=None):
@@ -221,22 +222,30 @@ def make_design_1(start=None, stop=None):
 
     '''
     import dornen
-    design_maker = dornen.tools.DesignMaker()
-    design_maker.partition('magenta', 2, [1])
-    design_maker.partition('magenta', 2, [1])
-    design_maker.partition('magenta', 2, [2])
-    design_maker.partition('magenta', 2, [2])
-    design_maker.partition('magenta', 2, [4])
-    design_maker.partition('magenta', 2, [4])
-    design_maker.partition('blue', 4, [], ['T0'])
-    design_maker.partition('magenta', 3, [2], ['T1'])
-    design_maker.partition('magenta', 3, [2], ['T1'])
-    design_maker.partition('magenta', 3, [4], ['T1'])
-    design_maker.partition('magenta', 3, [4], ['T1'])
-    design_maker.partition('blue', 4, [], ['T2'])
-    design_maker.partition('blue', 4, [], ['T2'])
-    design_maker.partition_cyclic('magenta', 8, [1, 3], ['alpha'])
-    design_maker.partition_cyclic('blue', 8, [1, 4], ['alpha'])
+    design_maker = baca.tools.DesignMaker()
+    magenta_pitch_classes = dornen.materials.magenta_pitch_classes
+    magenta_cursor = baca.tools.Cursor.from_pitch_class_segments(
+        magenta_pitch_classes,
+        )
+    blue_pitch_classes = dornen.materials.blue_pitch_classes
+    blue_cursor = baca.tools.Cursor.from_pitch_class_segments(
+        blue_pitch_classes,
+        )
+    design_maker.partition(magenta_cursor, 2, [1])
+    design_maker.partition(magenta_cursor, 2, [1])
+    design_maker.partition(magenta_cursor, 2, [2])
+    design_maker.partition(magenta_cursor, 2, [2])
+    design_maker.partition(magenta_cursor, 2, [4])
+    design_maker.partition(magenta_cursor, 2, [4])
+    design_maker.partition(blue_cursor, 4, [], ['T0'])
+    design_maker.partition(magenta_cursor, 3, [2], ['T1'])
+    design_maker.partition(magenta_cursor, 3, [2], ['T1'])
+    design_maker.partition(magenta_cursor, 3, [4], ['T1'])
+    design_maker.partition(magenta_cursor, 3, [4], ['T1'])
+    design_maker.partition(blue_cursor, 4, [], ['T2'])
+    design_maker.partition(blue_cursor, 4, [], ['T2'])
+    design_maker.partition_cyclic(magenta_cursor, 8, [1, 3], ['alpha'])
+    design_maker.partition_cyclic(blue_cursor, 8, [1, 4], ['alpha'])
     design = design_maker()
     if start is None and stop is None:
         return design

@@ -226,7 +226,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         selection, time_signature, state_manifest = figure_output_triple
         assert isinstance(selection, abjad.selectiontools.Selection)
         duration = selection.get_duration()
-        items = self.voice_name_to_selections.iteritems()
+        items = self.voice_name_to_selections.items()
         for voice_name_, selections_ in items:
             if voice_name_ == voice_name:
                 selections_.append(selection)

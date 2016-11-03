@@ -4,7 +4,7 @@ import baca
 
 
 class FigureAccumulator(abjad.abctools.AbjadObject):
-    r'''Figure accumulator.
+    r'''Figure-accumulator.
 
     ::
 
@@ -188,7 +188,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
     ### SPECIAL METHODS ###
 
     def __call__(self, figure_output_triple, voice_number=1):
-        r'''Calls figure accumulator on figure-maker output.
+        r'''Calls figure-accumulator on figure-maker output.
 
         ..  container:: example
 

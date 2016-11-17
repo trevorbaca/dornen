@@ -265,10 +265,10 @@ def make_design_2(start=None, stop=None):
     design = design_maker()
     if start is None and stop is None:
         return design
-    trees = design.iterate_at_level(level=-2)
+    cells = design.iterate(level=-2)
     design = []
-    for tree in trees:
-        numbered_pitch_classes = tree.get_payload()
+    for cell in cells:
+        numbered_pitch_classes = cell.get_payload()
         numbers = [_.pitch_class_number for _ in numbered_pitch_classes]
         design.append(numbers)
     design = design[start:stop]

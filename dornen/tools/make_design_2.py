@@ -268,7 +268,7 @@ def make_design_2(start=None, stop=None):
     trees = design.iterate_at_level(level=-2)
     design = []
     for tree in trees:
-        numbered_pitch_classes = list(tree.iterate_payload())
+        numbered_pitch_classes = tree.get_payload()
         numbers = [_.pitch_class_number for _ in numbered_pitch_classes]
         design.append(numbers)
     design = design[start:stop]

@@ -26,326 +26,261 @@ def make_design_2(start=None, stop=None):
             \new Voice \with {
                 \consists Horizontal_bracket_engraver
             } {
-                {
-                    \time 1/2
-                    cs'8 \startGroup ^ \markup { 0 }
-                    c'8
-                    bf'8
-                    f'8 \stopGroup
-                }
-                {
-                    af'8 \startGroup ^ \markup { 1 }
-                    fs'8
-                    b'8
-                    d'8 \stopGroup
-                }
-                {
-                    e'8 \startGroup ^ \markup { 2 }
-                    ef'8
-                    a'8
-                    af'8 \stopGroup
-                }
-                {
-                    fs'8 \startGroup ^ \markup { 3 }
-                    b'8
-                    d'8
-                    f'8 \stopGroup
-                }
-                {
-                    \time 5/8
-                    ef'8 \startGroup ^ \markup { 4 }
-                    a'8
-                    e'8
-                    c'8
-                    bf'8 \stopGroup
-                }
-                {
-                    cs'8 \startGroup ^ \markup { 5 }
-                    a'8
-                    e'8
-                    ef'8
-                    bf'8 \stopGroup
-                }
-                {
-                    cs'8 \startGroup ^ \markup { 6 }
-                    c'8
-                    fs'8
-                    b'8
-                    d'8 \stopGroup
-                }
-                {
-                    f'8 \startGroup ^ \markup { 7 }
-                    af'8
-                    cs'8
-                    c'8
-                    bf'8 \stopGroup
-                }
-                {
-                    \time 3/4
-                    b'8 \startGroup ^ \markup { 8 }
-                    d'8
-                    f'8
-                    af'8
-                    fs'8
-                    e'8 \stopGroup
-                }
-                {
-                    ef'8 \startGroup ^ \markup { 9 }
-                    a'8
-                    d'8
-                    f'8
-                    af'8
-                    fs'8 \stopGroup
-                }
-                {
-                    b'8 \startGroup ^ \markup { 10 }
-                    ef'8
-                    a'8
-                    e'8
-                    c'8
-                    bf'8 \stopGroup
-                }
-                {
-                    cs'8 \startGroup ^ \markup { 11 }
-                    a'8
-                    e'8
-                    ef'8
-                    bf'8
-                    cs'8 \stopGroup
-                }
-                {
-                    c'8 \startGroup ^ \markup { 12 }
-                    f'8
-                    af'8
-                    fs'8
-                    b'8
-                    d'8 \stopGroup
-                }
-                {
-                    \time 11/4
-                    f'8 \startGroup ^ \markup { 13 }
-                    a'8
-                    b'8
-                    bf'8
-                    c'8
-                    fs'8
-                    g'8
-                    af'8
-                    d'8
-                    cs'8
-                    ef'8
-                    g'8
-                    af'8
-                    d'8
-                    cs'8
-                    ef'8
-                    fs'8
-                    a'8
-                    b'8
-                    bf'8
-                    c'8
-                    f'8 \stopGroup
-                }
-                {
-                    \time 1/4
-                    d'8 \startGroup ^ \markup { 14 }
-                    cs'8 \stopGroup
-                }
-                {
-                    \time 3/8
-                    b'8 \startGroup ^ \markup { 15 }
-                    a'8
-                    g'8 \stopGroup
-                }
-                {
-                    \time 1/8
-                    c'8 \startGroup \stopGroup ^ \markup { 16 }
-                }
-                {
-                    \time 3/8
-                    ef'8 \startGroup ^ \markup { 17 }
-                    fs'8
-                    f'8 \stopGroup
-                }
-                {
-                    \time 1/2
-                    e'8 \startGroup ^ \markup { 18 }
-                    bf'8
-                    g'8
-                    c'8 \stopGroup
-                }
-                {
-                    \time 1/4
-                    ef'8 \startGroup ^ \markup { 19 }
-                    fs'8 \stopGroup
-                }
-                {
-                    \time 3/8
-                    a'8 \startGroup ^ \markup { 20 }
-                    e'8
-                    bf'8 \stopGroup
-                }
-                {
-                    \time 1/8
-                    f'8 \startGroup \stopGroup ^ \markup { 21 }
-                }
-                {
-                    \time 3/8
-                    cs'8 \startGroup ^ \markup { 22 }
-                    b'8
-                    d'8 \stopGroup
-                }
-                {
-                    \time 1/2
-                    bf'8 \startGroup ^ \markup { 23 }
-                    f'8
-                    e'8
-                    b'8 \stopGroup
-                }
-                {
-                    \time 1/4
-                    d'8 \startGroup ^ \markup { 24 }
-                    cs'8 \stopGroup
-                }
-                {
-                    \time 3/8
-                    c'8 \startGroup ^ \markup { 25 }
-                    ef'8
-                    fs'8 \stopGroup
-                }
-                {
-                    \time 1/8
-                    a'8 \startGroup \stopGroup ^ \markup { 26 }
-                }
-                {
-                    \time 3/8
-                    g'8 \startGroup ^ \markup { 27 }
-                    d'8
-                    cs'8 \stopGroup
-                }
-                {
-                    \time 1/2
-                    b'8 \startGroup ^ \markup { 28 }
-                    ef'8
-                    fs'8
-                    a'8 \stopGroup
-                }
-                {
-                    \time 1/4
-                    g'8 \startGroup ^ \markup { 29 }
-                    c'8 \stopGroup
-                }
-                {
-                    \time 3/8
-                    f'8 \startGroup ^ \markup { 30 }
-                    e'8
-                    bf'8 \stopGroup
-                }
-                {
-                    \time 11/4
-                    cs'8 \startGroup ^ \markup { 31 }
-                    c'8
-                    d'8
-                    g'8
-                    b'8
-                    bf'8
-                    e'8
-                    ef'8
-                    f'8
-                    af'8
-                    a'8
-                    e'8
-                    ef'8
-                    f'8
-                    af'8
-                    a'8
-                    bf'8
-                    c'8
-                    d'8
-                    g'8
-                    b'8
-                    cs'8 \stopGroup
-                }
-                {
-                    d'8 \startGroup ^ \markup { 32 }
-                    g'8
-                    b'8
-                    cs'8
-                    c'8
-                    ef'8
-                    f'8
-                    af'8
-                    a'8
-                    bf'8
-                    e'8
-                    f'8
-                    af'8
-                    a'8
-                    bf'8
-                    e'8
-                    ef'8
-                    g'8
-                    b'8
-                    cs'8
-                    c'8
-                    d'8 \stopGroup
-                }
-                {
-                    \time 3/4
-                    e'8 \startGroup ^ \markup { 33 }
-                    a'8
-                    g'8
-                    bf'8
-                    ef'8
-                    d'8 \stopGroup
-                }
-                {
-                    af'8 \startGroup ^ \markup { 34 }
-                    f'8
-                    cs'8
-                    b'8
-                    c'8
-                    af'8 \stopGroup
-                }
-                {
-                    \time 1/4
-                    f'8 \startGroup ^ \markup { 35 }
-                    d'8 \stopGroup
-                }
-                {
-                    \time 3/4
-                    af'8 \startGroup ^ \markup { 36 }
-                    bf'8
-                    b'8
-                    cs'8
-                    e'8
-                    g'8 \stopGroup
-                }
-                {
-                    fs'8 \startGroup ^ \markup { 37 }
-                    a'8
-                    ef'8
-                    c'8
-                    d'8
-                    fs'8 \stopGroup
-                }
-                {
-                    a'8 \startGroup ^ \markup { 38 }
-                    ef'8
-                    c'8
-                    d'8
-                    g'8
-                    bf'8 \stopGroup
-                }
-                {
-                    \time 1/2
-                    b'8 \startGroup ^ \markup { 39 }
-                    cs'8
-                    e'8
-                    af'8 \stopGroup
-                    \bar "|."
-                    \override Score.BarLine.transparent = ##f
-                }
+                \time 1/8
+                cs'8 \startGroup ^ \markup { 0 }
+                c'8
+                bf'8
+                f'8 \stopGroup
+                s8
+                af'8 \startGroup ^ \markup { 1 }
+                fs'8
+                b'8
+                d'8 \stopGroup
+                s8
+                e'8 \startGroup ^ \markup { 2 }
+                ef'8
+                a'8
+                af'8 \stopGroup
+                s8
+                fs'8 \startGroup ^ \markup { 3 }
+                b'8
+                d'8
+                f'8 \stopGroup
+                s8
+                ef'8 \startGroup ^ \markup { 4 }
+                a'8
+                e'8
+                c'8
+                bf'8 \stopGroup
+                s8
+                cs'8 \startGroup ^ \markup { 5 }
+                a'8
+                e'8
+                ef'8
+                bf'8 \stopGroup
+                s8
+                cs'8 \startGroup ^ \markup { 6 }
+                c'8
+                fs'8
+                b'8
+                d'8 \stopGroup
+                s8
+                f'8 \startGroup ^ \markup { 7 }
+                af'8
+                cs'8
+                c'8
+                bf'8 \stopGroup
+                s8
+                b'8 \startGroup ^ \markup { 8 }
+                d'8
+                f'8
+                af'8
+                fs'8
+                e'8 \stopGroup
+                s8
+                ef'8 \startGroup ^ \markup { 9 }
+                a'8
+                d'8
+                f'8
+                af'8
+                fs'8 \stopGroup
+                s8
+                b'8 \startGroup ^ \markup { 10 }
+                ef'8
+                a'8
+                e'8
+                c'8
+                bf'8 \stopGroup
+                s8
+                cs'8 \startGroup ^ \markup { 11 }
+                a'8
+                e'8
+                ef'8
+                bf'8
+                cs'8 \stopGroup
+                s8
+                c'8 \startGroup ^ \markup { 12 }
+                f'8
+                af'8
+                fs'8
+                b'8
+                d'8 \stopGroup
+                s8
+                f'8 \startGroup ^ \markup { 13 }
+                a'8
+                b'8
+                bf'8
+                c'8
+                fs'8
+                g'8
+                af'8
+                d'8
+                cs'8
+                ef'8
+                g'8
+                af'8
+                d'8
+                cs'8
+                ef'8
+                fs'8
+                a'8
+                b'8
+                bf'8
+                c'8
+                f'8 \stopGroup
+                s8
+                d'8 \startGroup ^ \markup { 14 }
+                cs'8 \stopGroup
+                s8
+                b'8 \startGroup ^ \markup { 15 }
+                a'8
+                g'8 \stopGroup
+                s8
+                c'8 \startGroup \stopGroup ^ \markup { 16 }
+                s8
+                ef'8 \startGroup ^ \markup { 17 }
+                fs'8
+                f'8 \stopGroup
+                s8
+                e'8 \startGroup ^ \markup { 18 }
+                bf'8
+                g'8
+                c'8 \stopGroup
+                s8
+                ef'8 \startGroup ^ \markup { 19 }
+                fs'8 \stopGroup
+                s8
+                a'8 \startGroup ^ \markup { 20 }
+                e'8
+                bf'8 \stopGroup
+                s8
+                f'8 \startGroup \stopGroup ^ \markup { 21 }
+                s8
+                cs'8 \startGroup ^ \markup { 22 }
+                b'8
+                d'8 \stopGroup
+                s8
+                bf'8 \startGroup ^ \markup { 23 }
+                f'8
+                e'8
+                b'8 \stopGroup
+                s8
+                d'8 \startGroup ^ \markup { 24 }
+                cs'8 \stopGroup
+                s8
+                c'8 \startGroup ^ \markup { 25 }
+                ef'8
+                fs'8 \stopGroup
+                s8
+                a'8 \startGroup \stopGroup ^ \markup { 26 }
+                s8
+                g'8 \startGroup ^ \markup { 27 }
+                d'8
+                cs'8 \stopGroup
+                s8
+                b'8 \startGroup ^ \markup { 28 }
+                ef'8
+                fs'8
+                a'8 \stopGroup
+                s8
+                g'8 \startGroup ^ \markup { 29 }
+                c'8 \stopGroup
+                s8
+                f'8 \startGroup ^ \markup { 30 }
+                e'8
+                bf'8 \stopGroup
+                s8
+                cs'8 \startGroup ^ \markup { 31 }
+                c'8
+                d'8
+                g'8
+                b'8
+                bf'8
+                e'8
+                ef'8
+                f'8
+                af'8
+                a'8
+                e'8
+                ef'8
+                f'8
+                af'8
+                a'8
+                bf'8
+                c'8
+                d'8
+                g'8
+                b'8
+                cs'8 \stopGroup
+                s8
+                d'8 \startGroup ^ \markup { 32 }
+                g'8
+                b'8
+                cs'8
+                c'8
+                ef'8
+                f'8
+                af'8
+                a'8
+                bf'8
+                e'8
+                f'8
+                af'8
+                a'8
+                bf'8
+                e'8
+                ef'8
+                g'8
+                b'8
+                cs'8
+                c'8
+                d'8 \stopGroup
+                s8
+                e'8 \startGroup ^ \markup { 33 }
+                a'8
+                g'8
+                bf'8
+                ef'8
+                d'8 \stopGroup
+                s8
+                af'8 \startGroup ^ \markup { 34 }
+                f'8
+                cs'8
+                b'8
+                c'8
+                af'8 \stopGroup
+                s8
+                f'8 \startGroup ^ \markup { 35 }
+                d'8 \stopGroup
+                s8
+                af'8 \startGroup ^ \markup { 36 }
+                bf'8
+                b'8
+                cs'8
+                e'8
+                g'8 \stopGroup
+                s8
+                fs'8 \startGroup ^ \markup { 37 }
+                a'8
+                ef'8
+                c'8
+                d'8
+                fs'8 \stopGroup
+                s8
+                a'8 \startGroup ^ \markup { 38 }
+                ef'8
+                c'8
+                d'8
+                g'8
+                bf'8 \stopGroup
+                s8
+                b'8 \startGroup ^ \markup { 39 }
+                cs'8
+                e'8
+                af'8 \stopGroup
+                s8
+                \bar "|."
+                \override Score.BarLine.transparent = ##f
             }
 
     '''

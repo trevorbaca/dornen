@@ -473,6 +473,7 @@ def make_tremolo_figure_maker():
                         ),
                     tremolo_flags=32,
                     ),
+                allow_repeated_pitches=True,
                 annotate_unregistered_pitches=True,
                 preferred_denominator=11,
                 )

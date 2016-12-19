@@ -39,9 +39,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
 
         ..  doctest::
 
-            >>> class_ = rhythmmakertools.RhythmMaker
-            >>> staff = class_._get_staff(lilypond_file)
-            >>> f(staff)
+            >>> f(lilypond_file[Staff])
             \new Staff {
                 {
                     \time 10/32

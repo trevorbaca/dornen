@@ -82,7 +82,7 @@ accumulator(
         [3 * [None]],
         baca.markup.make_markup_specifier(
             'raise string 2 one quartertone',
-            selector=baca.selector.first_leaf(),
+            selector=baca.select.first_leaf(),
             ),
         figure_name='S1',
         ),

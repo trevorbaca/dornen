@@ -261,7 +261,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
                 music.extend(selection)
             complete_selection = abjad.selectiontools.Selection(music)
             segment_maker.append_specifiers(
-                (voice_name, baca.tools.stages(1, 1)),
+                (voice_name, baca.select.stages(1, 1)),
                 baca.tools.RhythmSpecifier(
                     rhythm_maker=complete_selection,
                     ),

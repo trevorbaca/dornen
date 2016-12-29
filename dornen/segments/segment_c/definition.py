@@ -247,7 +247,7 @@ accumulator._populate_segment_maker(segment_maker)
 ###############################################################################
 
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 1', baca.tools.stages(1, 3)),
+    ('Guitar Music Voice 1', baca.select.stages(1, 3)),
     [
         baca.overrides.beam_positions(9),
         baca.pitch.register(-20, 4),
@@ -255,7 +255,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 1', baca.tools.stages(4, 12)),
+    ('Guitar Music Voice 1', baca.select.stages(4, 12)),
     [
         baca.overrides.beam_positions(6),
         baca.pitch.register(-20, 4),

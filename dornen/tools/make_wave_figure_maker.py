@@ -54,7 +54,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
             ...     time_signatures=time_signatures,
             ...     )
             >>> specifiers = segment_maker.append_specifiers(
-            ...     ('vn', baca.tools.stages(1)),
+            ...     ('vn', baca.select.stages(1)),
             ...     baca.tools.RhythmSpecifier(
             ...         rhythm_maker=figures,
             ...         ),
@@ -418,7 +418,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
             ...     time_signatures=time_signatures,
             ...     )
             >>> specifiers = segment_maker.append_specifiers(
-            ...     ('vn', baca.tools.stages(1)),
+            ...     ('vn', baca.select.stages(1)),
             ...     baca.tools.RhythmSpecifier(
             ...         rhythm_maker=figures,
             ...         ),
@@ -782,7 +782,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
             ...     time_signatures=time_signatures,
             ...     )
             >>> specifiers = segment_maker.append_specifiers(
-            ...     ('vn', baca.tools.stages(1)),
+            ...     ('vn', baca.select.stages(1)),
             ...     baca.tools.RhythmSpecifier(
             ...         rhythm_maker=figures,
             ...         ),

@@ -175,7 +175,7 @@ accumulator._populate_segment_maker(segment_maker)
 ###############################################################################
 
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 3', baca.tools.stages(1, 7)),
+    ('Guitar Music Voice 3', baca.select.stages(1, 7)),
     [
         baca.articulations.accents(),
         baca.overrides.script_direction(Down),
@@ -184,7 +184,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 4', baca.tools.stages(1, 7)),
+    ('Guitar Music Voice 4', baca.select.stages(1, 7)),
     [
         baca.articulations.staccati(),
         baca.overrides.beam_positions(5.5),
@@ -200,7 +200,7 @@ all_voices = [
     ]
 
 segment_maker.append_specifiers(
-    (all_voices, baca.tools.stages(1, 9)),
+    (all_voices, baca.select.stages(1, 9)),
     [
         dornen.tools.QuartertoneManager(),
         ],

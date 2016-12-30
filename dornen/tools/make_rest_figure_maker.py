@@ -68,13 +68,12 @@ def make_rest_figure_maker(duration=None):
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
-            >>> score = lilypond_file.score_block.items[0]
+            >>> score = lilypond_file[Score]
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
-            >>> score = lilypond_file.score_block.items[0]
-            >>> f(score)
+            >>> f(lilypond_file[Score])
             \context Score = "Score" <<
                 \tag violin
                 \context TimeSignatureContext = "Time Signature Context" <<
@@ -191,13 +190,12 @@ def make_rest_figure_maker(duration=None):
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
-            >>> score = lilypond_file.score_block.items[0]
+            >>> score = lilypond_file[Score]
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
-            >>> score = lilypond_file.score_block.items[0]
-            >>> f(score)
+            >>> f(lilypond_file[Score])
             \context Score = "Score" <<
                 \tag violin
                 \context TimeSignatureContext = "Time Signature Context" <<

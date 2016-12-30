@@ -65,8 +65,7 @@ def make_glissando_scatto_figure_maker():
 
         ..  doctest::
 
-            >>> score = lilypond_file.score_block.items[0]
-            >>> f(score)
+            >>> f(lilypond_file[Score])
             \context Score = "Score" <<
                 \tag violin
                 \context TimeSignatureContext = "Time Signature Context" <<
@@ -250,8 +249,7 @@ def make_glissando_scatto_figure_maker():
 
         ..  doctest::
 
-            >>> score = lilypond_file.score_block.items[0]
-            >>> f(score)
+            >>> f(lilypond_file[Score])
             \context Score = "Score" <<
                 \tag violin
                 \context TimeSignatureContext = "Time Signature Context" <<

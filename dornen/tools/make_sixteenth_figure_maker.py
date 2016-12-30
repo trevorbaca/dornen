@@ -71,7 +71,7 @@ def make_sixteenth_figure_maker():
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
-            >>> score = lilypond_file.score_block.items[0]
+            >>> score = lilypond_file[Score]
             >>> override(score).spacing_spanner.strict_grace_spacing = False
             >>> override(score).spacing_spanner.strict_note_spacing = False
             >>> override(score).tuplet_bracket.direction = Up
@@ -80,8 +80,7 @@ def make_sixteenth_figure_maker():
 
         ..  doctest::
 
-            >>> score = lilypond_file.score_block.items[0]
-            >>> f(score)
+            >>> f(lilypond_file[Score])
             \context Score = "Score" \with {
                 \override SpacingSpanner.strict-grace-spacing = ##f
                 \override SpacingSpanner.strict-note-spacing = ##f
@@ -262,7 +261,7 @@ def make_sixteenth_figure_maker():
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
-            >>> score = lilypond_file.score_block.items[0]
+            >>> score = lilypond_file[Score]
             >>> override(score).spacing_spanner.strict_grace_spacing = False
             >>> override(score).spacing_spanner.strict_note_spacing = False
             >>> override(score).tuplet_bracket.direction = Up
@@ -271,8 +270,7 @@ def make_sixteenth_figure_maker():
 
         ..  doctest::
 
-            >>> score = lilypond_file.score_block.items[0]
-            >>> f(score)
+            >>> f(lilypond_file[Score])
             \context Score = "Score" \with {
                 \override SpacingSpanner.strict-grace-spacing = ##f
                 \override SpacingSpanner.strict-note-spacing = ##f

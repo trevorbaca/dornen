@@ -11,7 +11,7 @@ def make_design_2(start=None, stop=None):
 
     ..  container:: example
 
-        **Example.** Makes design II:
+        Makes design II:
 
         ::
 

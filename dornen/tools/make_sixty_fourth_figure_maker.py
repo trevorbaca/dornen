@@ -13,7 +13,7 @@ def make_sixty_fourth_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes one-stage sixty-fourth figures:
+        Makes one-stage sixty-fourth figures:
 
         ::
 
@@ -185,11 +185,11 @@ def make_sixty_fourth_figure_maker():
 
     ..  container:: example
 
-        **Definition.**
+        Formats figure-maker:
 
         ::
 
-            >>> print(format(dornen.tools.make_sixty_fourth_figure_maker()))
+            >>> f(dornen.tools.make_sixty_fourth_figure_maker())
             baca.tools.FigureMaker(
                 rhythmmakertools.BeamSpecifier(
                     beam_each_division=True,

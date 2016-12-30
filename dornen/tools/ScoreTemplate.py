@@ -5,6 +5,11 @@ import baca
 
 class ScoreTemplate(baca.tools.ScoreTemplate):
     r'''Score template.
+
+    ::
+
+        >>> import dornen
+
     '''
 
     ### CLASS VARIABLES ###
@@ -23,11 +28,7 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
 
         ..  container:: example
 
-            **Example.** Calls score template:
-
-            ::
-
-                >>> import dornen
+            Calls score template:
 
             ::
 

@@ -13,7 +13,7 @@ def make_twenty_fourth_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes twenty-fourths:
+        Makes twenty-fourths:
 
         ::
 
@@ -220,7 +220,7 @@ def make_twenty_fourth_figure_maker():
 
     ..  container:: example
 
-        **Example 2.** Mixes twenty-fourths and broken tuplets:
+        Mixes twenty-fourths and broken tuplets:
 
         ::
 
@@ -411,33 +411,35 @@ def make_twenty_fourth_figure_maker():
 
     ..  container:: example
 
-        **Definition.** Formats twenty-fourth figure-maker:
+        Formats twenty-fourth figure-maker:
 
-        >>> print(format(dornen.tools.make_twenty_fourth_figure_maker()))
-        baca.tools.FigureMaker(
-            rhythmmakertools.BeamSpecifier(
-                beam_each_division=True,
-                ),
-            baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=(0,),
-                        period=1,
-                        ),
-                    ],
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    talea=rhythmmakertools.Talea(
-                        counts=(1,),
-                        denominator=16,
-                        ),
-                    time_treatments=[
-                        durationtools.Multiplier(2, 3),
-                        ],
+        ::
+
+            >>> f(dornen.tools.make_twenty_fourth_figure_maker())
+            baca.tools.FigureMaker(
+                rhythmmakertools.BeamSpecifier(
+                    beam_each_division=True,
                     ),
-                ),
-            annotate_unregistered_pitches=True,
-            preferred_denominator=24,
-            )
+                baca.tools.RhythmSpecifier(
+                    patterns=[
+                        patterntools.Pattern(
+                            indices=(0,),
+                            period=1,
+                            ),
+                        ],
+                    rhythm_maker=baca.tools.FigureRhythmMaker(
+                        talea=rhythmmakertools.Talea(
+                            counts=(1,),
+                            denominator=16,
+                            ),
+                        time_treatments=[
+                            durationtools.Multiplier(2, 3),
+                            ],
+                        ),
+                    ),
+                annotate_unregistered_pitches=True,
+                preferred_denominator=24,
+                )
 
     Returns figure-maker.
     '''

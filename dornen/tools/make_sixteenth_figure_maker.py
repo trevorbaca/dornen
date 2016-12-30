@@ -13,7 +13,7 @@ def make_sixteenth_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes sixteenths:
+        Makes sixteenths:
 
         ::
 
@@ -204,7 +204,7 @@ def make_sixteenth_figure_maker():
 
     ..  container:: example
 
-        **Example 2.** Mixes sixteenths and broken tuplets:
+        Mixes sixteenths and broken tuplets:
 
         ::
 
@@ -384,30 +384,32 @@ def make_sixteenth_figure_maker():
 
     ..  container:: example
 
-        **Definition.** Formats sixteenth figure-maker:
+        Formats sixteenth figure-maker:
 
-        >>> print(format(dornen.tools.make_sixteenth_figure_maker()))
-        baca.tools.FigureMaker(
-            rhythmmakertools.BeamSpecifier(
-                beam_each_division=True,
-                ),
-            baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=(0,),
-                        period=1,
-                        ),
-                    ],
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    talea=rhythmmakertools.Talea(
-                        counts=(1,),
-                        denominator=16,
+        ::
+
+            >>> f(dornen.tools.make_sixteenth_figure_maker())
+            baca.tools.FigureMaker(
+                rhythmmakertools.BeamSpecifier(
+                    beam_each_division=True,
+                    ),
+                baca.tools.RhythmSpecifier(
+                    patterns=[
+                        patterntools.Pattern(
+                            indices=(0,),
+                            period=1,
+                            ),
+                        ],
+                    rhythm_maker=baca.tools.FigureRhythmMaker(
+                        talea=rhythmmakertools.Talea(
+                            counts=(1,),
+                            denominator=16,
+                            ),
                         ),
                     ),
-                ),
-            annotate_unregistered_pitches=True,
-            preferred_denominator=16,
-            )
+                annotate_unregistered_pitches=True,
+                preferred_denominator=16,
+                )
 
     Returns figure-maker.
     '''

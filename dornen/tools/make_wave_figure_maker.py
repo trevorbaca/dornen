@@ -13,7 +13,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
     ..  container:: example
 
-        **Example 1.** Makes wave figures:
+        Makes wave figures:
 
         ::
 
@@ -375,7 +375,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
     ..  container:: example
 
-        **Example 2.** Makes inverted wave figures:
+        Makes inverted wave figures:
 
         ::
 
@@ -739,7 +739,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
     ..  container:: example
 
-        **Example 3.** Makes thirty-second-valued wave figures:
+        Makes thirty-second-valued wave figures:
 
         ::
 

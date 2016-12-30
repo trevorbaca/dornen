@@ -13,7 +13,7 @@ def make_third_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes thirds:
+        Makes thirds:
 
         ::
 
@@ -220,7 +220,7 @@ def make_third_figure_maker():
 
     ..  container:: example
 
-        **Example 2.** Mixes thirds and broken tuplets:
+        Mixes thirds and broken tuplets:
 
         ::
 
@@ -411,29 +411,31 @@ def make_third_figure_maker():
 
     ..  container:: example
 
-        **Definition.** Formats third figure-maker:
+        Formats third figure-maker:
 
-        >>> print(format(dornen.tools.make_third_figure_maker()))
-        baca.tools.FigureMaker(
-            baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=(0,),
-                        period=1,
-                        ),
-                    ],
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    talea=rhythmmakertools.Talea(
-                        counts=(1,),
-                        denominator=2,
-                        ),
-                    time_treatments=[
-                        durationtools.Multiplier(2, 3),
+        ::
+
+            >>> f(dornen.tools.make_third_figure_maker())
+            baca.tools.FigureMaker(
+                baca.tools.RhythmSpecifier(
+                    patterns=[
+                        patterntools.Pattern(
+                            indices=(0,),
+                            period=1,
+                            ),
                         ],
+                    rhythm_maker=baca.tools.FigureRhythmMaker(
+                        talea=rhythmmakertools.Talea(
+                            counts=(1,),
+                            denominator=2,
+                            ),
+                        time_treatments=[
+                            durationtools.Multiplier(2, 3),
+                            ],
+                        ),
                     ),
-                ),
-            preferred_denominator=3,
-            )
+                preferred_denominator=3,
+                )
 
     Returns figure-maker.
     '''

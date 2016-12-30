@@ -13,7 +13,7 @@ def make_twentieth_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes twentieths:
+        Makes twentieths:
 
         ::
 
@@ -220,7 +220,7 @@ def make_twentieth_figure_maker():
 
     ..  container:: example
 
-        **Example 2.** Mixes twentieths and broken tuplets:
+        Mixes twentieths and broken tuplets:
 
         ::
 
@@ -411,33 +411,35 @@ def make_twentieth_figure_maker():
 
     ..  container:: example
 
-        **Definition.** Formats twentieth figure-maker:
+        Formats twentieth figure-maker:
 
-        >>> print(format(dornen.tools.make_twentieth_figure_maker()))
-        baca.tools.FigureMaker(
-            rhythmmakertools.BeamSpecifier(
-                beam_each_division=True,
-                ),
-            baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=(0,),
-                        period=1,
-                        ),
-                    ],
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    talea=rhythmmakertools.Talea(
-                        counts=(1,),
-                        denominator=16,
-                        ),
-                    time_treatments=[
-                        durationtools.Multiplier(4, 5),
-                        ],
+        ::
+
+            >>> f(dornen.tools.make_twentieth_figure_maker())
+            baca.tools.FigureMaker(
+                rhythmmakertools.BeamSpecifier(
+                    beam_each_division=True,
                     ),
-                ),
-            annotate_unregistered_pitches=True,
-            preferred_denominator=20,
-            )
+                baca.tools.RhythmSpecifier(
+                    patterns=[
+                        patterntools.Pattern(
+                            indices=(0,),
+                            period=1,
+                            ),
+                        ],
+                    rhythm_maker=baca.tools.FigureRhythmMaker(
+                        talea=rhythmmakertools.Talea(
+                            counts=(1,),
+                            denominator=16,
+                            ),
+                        time_treatments=[
+                            durationtools.Multiplier(4, 5),
+                            ],
+                        ),
+                    ),
+                annotate_unregistered_pitches=True,
+                preferred_denominator=20,
+                )
 
     Returns figure-maker.
     '''

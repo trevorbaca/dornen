@@ -13,7 +13,7 @@ def make_passepied_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes one-stage passepied figures:
+        Makes one-stage passepied figures:
 
         ::
 
@@ -183,7 +183,7 @@ def make_passepied_figure_maker():
 
     ..  container:: example
 
-        **Example 2.** Makes multistage passepied figures:
+        Makes multistage passepied figures:
 
         ::
 
@@ -449,46 +449,48 @@ def make_passepied_figure_maker():
 
     ..  container:: example
 
-        **Definition.** Formats passepied figure-maker:
+        Formats passepied figure-maker:
 
-        >>> print(format(dornen.tools.make_passepied_figure_maker()))
-        baca.tools.FigureMaker(
-            rhythmmakertools.BeamSpecifier(
-                beam_each_division=True,
-                beam_divisions_together=True,
-                ),
-            baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=(0,),
-                        ),
-                    ],
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    acciaccatura_specifiers=[
-                        baca.tools.AcciaccaturaSpecifier(),
+        ::
+
+            >>> f(dornen.tools.make_passepied_figure_maker())
+            baca.tools.FigureMaker(
+                rhythmmakertools.BeamSpecifier(
+                    beam_each_division=True,
+                    beam_divisions_together=True,
+                    ),
+                baca.tools.RhythmSpecifier(
+                    patterns=[
+                        patterntools.Pattern(
+                            indices=(0,),
+                            ),
                         ],
-                    talea=rhythmmakertools.Talea(
-                        counts=(1,),
-                        denominator=32,
+                    rhythm_maker=baca.tools.FigureRhythmMaker(
+                        acciaccatura_specifiers=[
+                            baca.tools.AcciaccaturaSpecifier(),
+                            ],
+                        talea=rhythmmakertools.Talea(
+                            counts=(1,),
+                            denominator=32,
+                            ),
                         ),
                     ),
-                ),
-            baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=(0,),
-                        inverted=True,
-                        ),
-                    ],
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    talea=rhythmmakertools.Talea(
-                        counts=(1,),
-                        denominator=16,
+                baca.tools.RhythmSpecifier(
+                    patterns=[
+                        patterntools.Pattern(
+                            indices=(0,),
+                            inverted=True,
+                            ),
+                        ],
+                    rhythm_maker=baca.tools.FigureRhythmMaker(
+                        talea=rhythmmakertools.Talea(
+                            counts=(1,),
+                            denominator=16,
+                            ),
                         ),
                     ),
-                ),
-            annotate_unregistered_pitches=True,
-            )
+                annotate_unregistered_pitches=True,
+                )
 
     Returns figure-maker.
     '''

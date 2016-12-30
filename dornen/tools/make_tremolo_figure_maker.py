@@ -13,7 +13,7 @@ def make_tremolo_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes one-stage tremolo figures:
+        Makes one-stage tremolo figures:
 
         ::
 
@@ -189,7 +189,7 @@ def make_tremolo_figure_maker():
 
     ..  container:: example
 
-        **Example 2.** Makes multistage tremolo figures:
+        Makes multistage tremolo figures:
 
         ::
 
@@ -432,11 +432,11 @@ def make_tremolo_figure_maker():
 
     ..  container:: example
 
-        **Example 3.** Definition:
+        Formats figure-maker:
 
         ::
 
-            >>> print(format(dornen.tools.make_tremolo_figure_maker()))
+            >>> f(dornen.tools.make_tremolo_figure_maker())
             baca.tools.FigureMaker(
                 baca.tools.RhythmSpecifier(
                     patterns=[

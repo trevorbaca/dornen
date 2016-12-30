@@ -13,7 +13,7 @@ def make_graced_rest_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes one-stage graced rests:
+        Makes one-stage graced rests:
 
         ::
 
@@ -187,7 +187,7 @@ def make_graced_rest_figure_maker():
 
     ..  container:: example
 
-        **Example 2.** Makes multistage graced rests:
+        Makes multistage graced rests:
 
         ::
 
@@ -408,29 +408,31 @@ def make_graced_rest_figure_maker():
 
     ..  container:: example
 
-        **Definition.** Makes graced rest figure-maker:
+        Formats graced rest figure-maker:
 
-        >>> print(format(dornen.tools.make_graced_rest_figure_maker()))
-        baca.tools.FigureMaker(
-            baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=(0,),
-                        period=1,
-                        ),
-                    ],
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    acciaccatura_specifiers=[
-                        baca.tools.AcciaccaturaSpecifier(),
+        ::
+
+            >>> f(dornen.tools.make_graced_rest_figure_maker())
+            baca.tools.FigureMaker(
+                baca.tools.RhythmSpecifier(
+                    patterns=[
+                        patterntools.Pattern(
+                            indices=(0,),
+                            period=1,
+                            ),
                         ],
-                    talea=rhythmmakertools.Talea(
-                        counts=(1,),
-                        denominator=8,
+                    rhythm_maker=baca.tools.FigureRhythmMaker(
+                        acciaccatura_specifiers=[
+                            baca.tools.AcciaccaturaSpecifier(),
+                            ],
+                        talea=rhythmmakertools.Talea(
+                            counts=(1,),
+                            denominator=8,
+                            ),
                         ),
                     ),
-                ),
-            annotate_unregistered_pitches=True,
-            )
+                annotate_unregistered_pitches=True,
+                )
 
     Returns figure-maker.
     '''

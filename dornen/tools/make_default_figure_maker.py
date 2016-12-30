@@ -13,7 +13,7 @@ def make_default_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes one-stage default figures:
+        Makes one-stage default figures:
 
         ::
 
@@ -185,7 +185,7 @@ def make_default_figure_maker():
 
     ..  container:: example
 
-        **Example 2.** Makes multistage default figures:
+        Makes multistage default figures:
 
         ::
 
@@ -422,9 +422,9 @@ def make_default_figure_maker():
 
     ..  container:: example
 
-        **Definition.** Formats default figure-maker:
+        Formats default figure-maker:
 
-        >>> print(format(dornen.tools.make_default_figure_maker()))
+        >>> f(dornen.tools.make_default_figure_maker())
         baca.tools.FigureMaker(
             rhythmmakertools.BeamSpecifier(
                 beam_each_division=True,

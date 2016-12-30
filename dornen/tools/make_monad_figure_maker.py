@@ -13,7 +13,7 @@ def make_monad_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes monads:
+        Makes monads:
 
         ::
 
@@ -220,7 +220,7 @@ def make_monad_figure_maker():
 
     ..  container:: example
 
-        **Example 2.** Mixes monads and broken tuplets:
+        Mixes monads and broken tuplets:
 
         ::
 
@@ -411,29 +411,31 @@ def make_monad_figure_maker():
 
     ..  container:: example
 
-        **Definition.** Formats monad figure-maker:
+        Formats monad figure-maker:
 
-        >>> print(format(dornen.tools.make_monad_figure_maker()))
-        baca.tools.FigureMaker(
-            baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=(0,),
-                        period=1,
-                        ),
-                    ],
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    talea=rhythmmakertools.Talea(
-                        counts=(1,),
-                        denominator=2,
-                        ),
-                    time_treatments=[
-                        durationtools.Multiplier(4, 5),
+        ::
+
+            >>> f(dornen.tools.make_monad_figure_maker())
+            baca.tools.FigureMaker(
+                baca.tools.RhythmSpecifier(
+                    patterns=[
+                        patterntools.Pattern(
+                            indices=(0,),
+                            period=1,
+                            ),
                         ],
+                    rhythm_maker=baca.tools.FigureRhythmMaker(
+                        talea=rhythmmakertools.Talea(
+                            counts=(1,),
+                            denominator=2,
+                            ),
+                        time_treatments=[
+                            durationtools.Multiplier(4, 5),
+                            ],
+                        ),
                     ),
-                ),
-            preferred_denominator=5,
-            )
+                preferred_denominator=5,
+                )
 
     Returns figure-maker.
     '''

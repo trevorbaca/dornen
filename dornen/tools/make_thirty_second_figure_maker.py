@@ -13,7 +13,7 @@ def make_thirty_second_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes one-stage thirty-second figures:
+        Makes one-stage thirty-second figures:
 
         ::
 
@@ -185,7 +185,7 @@ def make_thirty_second_figure_maker():
 
     ..  container:: example
 
-        **Example 2.** Makes multistage thirty-second figures:
+        Makes multistage thirty-second figures:
 
         ::
 
@@ -422,31 +422,33 @@ def make_thirty_second_figure_maker():
 
     ..  container:: example
 
-        **Definition.** Formats thirty-second figure-maker:
+        Formats thirty-second figure-maker:
 
-        >>> print(format(dornen.tools.make_thirty_second_figure_maker()))
-        baca.tools.FigureMaker(
-            rhythmmakertools.BeamSpecifier(
-                beam_each_division=True,
-                beam_divisions_together=True,
-                ),
-            baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=(0,),
-                        period=1,
-                        ),
-                    ],
-                rhythm_maker=baca.tools.FigureRhythmMaker(
-                    talea=rhythmmakertools.Talea(
-                        counts=(1,),
-                        denominator=32,
+        ::
+
+            >>> f(dornen.tools.make_thirty_second_figure_maker())
+            baca.tools.FigureMaker(
+                rhythmmakertools.BeamSpecifier(
+                    beam_each_division=True,
+                    beam_divisions_together=True,
+                    ),
+                baca.tools.RhythmSpecifier(
+                    patterns=[
+                        patterntools.Pattern(
+                            indices=(0,),
+                            period=1,
+                            ),
+                        ],
+                    rhythm_maker=baca.tools.FigureRhythmMaker(
+                        talea=rhythmmakertools.Talea(
+                            counts=(1,),
+                            denominator=32,
+                            ),
                         ),
                     ),
-                ),
-            annotate_unregistered_pitches=True,
-            preferred_denominator=32,
-            )
+                annotate_unregistered_pitches=True,
+                preferred_denominator=32,
+                )
 
     Returns figure-maker.
     '''

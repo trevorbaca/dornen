@@ -13,7 +13,7 @@ def make_forty_eighth_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes one-stage forty-eighth figures:
+        Makes one-stage forty-eighth figures:
 
         ::
 
@@ -159,11 +159,11 @@ def make_forty_eighth_figure_maker():
 
     ..  container:: example
 
-        **Definition.**
+        Formats figure-maker:
 
         ::
 
-            >>> print(format(dornen.tools.make_forty_eighth_figure_maker()))
+            >>> f(dornen.tools.make_forty_eighth_figure_maker())
             baca.tools.FigureMaker(
                 baca.tools.RhythmSpecifier(
                     patterns=[

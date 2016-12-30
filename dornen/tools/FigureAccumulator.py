@@ -13,8 +13,6 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
 
     ..  container:: example
 
-        **Example.**
-
         ::
 
             >>> accumulator = dornen.tools.FigureAccumulator()
@@ -190,7 +188,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
 
         ..  container:: example
 
-            **Example 1.** Raises exception on duplicate figure name:
+            Raises exception on duplicate figure name:
 
             ::
 

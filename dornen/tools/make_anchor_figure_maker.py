@@ -13,7 +13,7 @@ def make_anchor_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes one-stage anchor figures:
+        Makes one-stage anchor figures:
 
         ::
 
@@ -159,9 +159,11 @@ def make_anchor_figure_maker():
 
     ..  container:: example
 
-        **Definition.** Formats anchor figure-maker:
+        Formats anchor figure-maker:
 
-            >>> print(format(dornen.tools.make_anchor_figure_maker()))
+        ::
+
+            >>> f(dornen.tools.make_anchor_figure_maker())
             baca.tools.FigureMaker(
                 baca.tools.RhythmSpecifier(
                     patterns=[

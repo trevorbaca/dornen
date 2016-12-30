@@ -13,7 +13,7 @@ def make_delicatissimo_figure_maker():
 
     ..  container:: example
 
-        **Example 1.** Makes one-stage delicatissimo figures:
+        Makes one-stage delicatissimo figures:
 
         ::
 
@@ -185,7 +185,7 @@ def make_delicatissimo_figure_maker():
 
     ..  container:: example
 
-        **Example 2.** Makes multistage delicatissimo figures:
+        Makes multistage delicatissimo figures:
 
         ::
 
@@ -423,9 +423,9 @@ def make_delicatissimo_figure_maker():
 
     ..  container:: example
 
-        **Definition.** Formats delicatissimo figure-maker:
+        Formats delicatissimo figure-maker:
 
-        >>> print(format(dornen.tools.make_delicatissimo_figure_maker()))
+        >>> f(dornen.tools.make_delicatissimo_figure_maker())
         baca.tools.FigureMaker(
             rhythmmakertools.BeamSpecifier(
                 beam_each_division=True,

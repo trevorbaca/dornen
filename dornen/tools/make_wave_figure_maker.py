@@ -64,14 +64,13 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
-            >>> score = lilypond_file.score_block.items[0]
+            >>> score = lilypond_file[Score]
             >>> override(score).tuplet_bracket.padding = 2
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
-            >>> score = lilypond_file.score_block.items[0]
-            >>> f(score)
+            >>> f(lilypond_file[Score])
             \context Score = "Score" \with {
                 \override TupletBracket.padding = #2
             } <<
@@ -428,14 +427,13 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
-            >>> score = lilypond_file.score_block.items[0]
+            >>> score = lilypond_file[Score]
             >>> override(score).tuplet_bracket.padding = 2
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
-            >>> score = lilypond_file.score_block.items[0]
-            >>> f(score)
+            >>> f(lilypond_file[Score])
             \context Score = "Score" \with {
                 \override TupletBracket.padding = #2
             } <<
@@ -792,14 +790,13 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
-            >>> score = lilypond_file.score_block.items[0]
+            >>> score = lilypond_file[Score]
             >>> override(score).tuplet_bracket.padding = 2
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
-            >>> score = lilypond_file.score_block.items[0]
-            >>> f(score)
+            >>> f(lilypond_file[Score])
             \context Score = "Score" \with {
                 \override TupletBracket.padding = #2
             } <<

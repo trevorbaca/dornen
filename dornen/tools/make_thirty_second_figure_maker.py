@@ -65,8 +65,7 @@ def make_thirty_second_figure_maker():
 
         ..  doctest::
 
-            >>> score = lilypond_file.score_block.items[0]
-            >>> f(score)
+            >>> f(lilypond_file[Score])
             \context Score = "Score" <<
                 \tag violin
                 \context TimeSignatureContext = "Time Signature Context" <<
@@ -244,14 +243,13 @@ def make_thirty_second_figure_maker():
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
-            >>> score = lilypond_file.score_block.items[0]
+            >>> score = lilypond_file[Score]
             >>> override(score).beam.positions = (5, 5)
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
-            >>> score = lilypond_file.score_block.items[0]
-            >>> f(score)
+            >>> f(lilypond_file[Score])
             \context Score = "Score" \with {
                 \override Beam.positions = #'(5 . 5)
             } <<

@@ -21,8 +21,7 @@ def make_design_2(start=None, stop=None):
         ..  doctest::
 
             >>> lilypond_file = design_2.__illustrate__()
-            >>> voice = lilypond_file.score_block.items[0][0][0]
-            >>> f(voice)
+            >>> f(lilypond_file[Voice])
             \new Voice \with {
                 \consists Horizontal_bracket_engraver
             } {

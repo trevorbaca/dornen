@@ -248,8 +248,11 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         for leaf in abjad.iterate(expr).by_leaf():
             markups = abjad.inspect_(leaf).get_indicators(abjad.Markup)
             for markup in markups:
-                if markup._annotation == 'figure name':
-                    return markup
+                if (isinstance(markup._annotation, str) and
+                    markup._annotation.startswith('figure name:')):
+                    annotation = markup._annotation
+                    figure_name = annotation[13:]
+                    return figure_name
 
     def _populate_segment_maker(self, segment_maker):
         items = self.voice_name_to_selections.items()

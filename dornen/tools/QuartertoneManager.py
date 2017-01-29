@@ -8,13 +8,13 @@ class QuartertoneManager(abjad.abctools.AbjadObject):
 
     ### SPECIAL METHODS ###
 
-    def __call__(self, expr=None):
-        r'''Calls quartertone manager on `expr`.
+    def __call__(self, argument=None):
+        r'''Calls quartertone manager on `argument`.
 
         Returns none.
         '''
         lowest_quartertone = abjad.NamedPitch('C4')
-        for note in abjad.iterate(expr).by_leaf(pitched=True):
+        for note in abjad.iterate(argument).by_leaf(pitched=True):
             pitch_number = note.written_pitch.pitch_number
             if pitch_number == int(pitch_number):
                 continue

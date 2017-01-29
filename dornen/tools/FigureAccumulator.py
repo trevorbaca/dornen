@@ -304,7 +304,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
                 for cell in reversed(cells[:-1]):
                     result.append(list(reversed(cell)))
         if flatten:
-            result = [abjad.sequencetools.flatten_sequence(result)]
+            result = [baca.Sequence(result).flatten()]
         return result
 
     @staticmethod
@@ -330,7 +330,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
             for cell in cells:
                 result.append(cell[:])
         if flatten:
-            result = [abjad.sequencetools.flatten_sequence(result)]
+            result = [baca.Sequence(result).flatten()]
         return result
 
     @classmethod

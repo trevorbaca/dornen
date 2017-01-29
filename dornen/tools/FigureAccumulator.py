@@ -244,8 +244,8 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
     ### PRIVATE METHODS ###
 
     @staticmethod
-    def _get_figure_name(expr):
-        for leaf in abjad.iterate(expr).by_leaf():
+    def _get_figure_name(argument):
+        for leaf in abjad.iterate(argument).by_leaf():
             markups = abjad.inspect_(leaf).get_indicators(abjad.Markup)
             for markup in markups:
                 if (isinstance(markup._annotation, str) and

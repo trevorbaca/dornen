@@ -376,7 +376,7 @@ accumulator._populate_segment_maker(segment_maker)
 ###############################################################################
 
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 1', baca.select.stages(1, 'end')),
+    ('Guitar Music Voice 1', baca.select.stages(1, Infinity)),
     [
         baca.register(-20),
         baca.stem_tremolo(),

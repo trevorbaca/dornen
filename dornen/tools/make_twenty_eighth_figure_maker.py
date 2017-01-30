@@ -24,15 +24,16 @@ def make_twenty_eighth_figure_maker():
             ...     [6, 11, 2, 5],
             ...     ]
             >>> figure_tokens = [
-            ...     sequencetools.partition_sequence_by_counts(_, [1], cyclic=True)
+            ...     baca.Sequence(_).partition_by_counts([1], cyclic=True)
             ...     for _ in figure_tokens
             ...     ]
             >>> for figure_token in figure_tokens:
             ...     figure_token
-            [[1], [0], [10], [5], [8], [6], [11]]
-            [[2], [4]]
-            [[3], [9], [8]]
-            [[6], [11], [2], [5]]
+            ...
+            Sequence([Sequence([1]), Sequence([0]), Sequence([10]), Sequence([5]), Sequence([8]), Sequence([6]), Sequence([11])])
+            Sequence([Sequence([2]), Sequence([4])])
+            Sequence([Sequence([3]), Sequence([9]), Sequence([8])])
+            Sequence([Sequence([6]), Sequence([11]), Sequence([2]), Sequence([5])])
 
         ::
 
@@ -230,15 +231,16 @@ def make_twenty_eighth_figure_maker():
             ...     [6, 11, 2, 5],
             ...     ]
             >>> figure_tokens = [
-            ...     sequencetools.partition_sequence_by_counts(_, [1, 2], cyclic=True)
+            ...     baca.Sequence(_).partition_by_counts([1, 2], cyclic=True)
             ...     for _ in figure_tokens
             ...     ]
             >>> for figure_token in figure_tokens:
             ...     figure_token
-            [[1], [0, 10], [5], [8, 6], [11]]
-            [[2]]
-            [[3], [9, 8]]
-            [[6], [11, 2], [5]]
+            ...
+            Sequence([Sequence([1]), Sequence([0, 10]), Sequence([5]), Sequence([8, 6]), Sequence([11])])
+            Sequence([Sequence([2])])
+            Sequence([Sequence([3]), Sequence([9, 8])])
+            Sequence([Sequence([6]), Sequence([11, 2]), Sequence([5])])
 
         ::
 

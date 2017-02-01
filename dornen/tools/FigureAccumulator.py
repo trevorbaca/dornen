@@ -183,8 +183,8 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
 
     ### SPECIAL METHODS ###
 
-    def __call__(self, figure_output_triple, voice_number=1):
-        r'''Calls figure-accumulator on figure-maker output.
+    def __call__(self, figure_contribution, voice_number=1):
+        r'''Calls figure-accumulator on `figure_contribution`.
 
         ..  container:: example
 
@@ -219,8 +219,9 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
             message = 'unknown voice name: {!r}.'
             message = message.format(voice_name)
             raise Exception(message)
-        selection, time_signature, state_manifest = figure_output_triple
-        assert isinstance(selection, abjad.selectiontools.Selection)
+        assert len(figure_contribution.selections) == 1
+        selection = figure_contribution.selections[0]
+        assert isinstance(selection, abjad.Selection), repr(selection)
         duration = selection.get_duration()
         items = self.voice_name_to_selections.items()
         for voice_name_, selections_ in items:
@@ -232,7 +233,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
                 abjad.attach(multiplier, skip)
                 selection_ = abjad.selectiontools.Selection([skip])
                 selections_.append(selection_)
-        self.time_signatures.append(time_signature)
+        self.time_signatures.append(figure_contribution.time_signature)
         figure_name = self._get_figure_name(selection)
         if figure_name is not None:
             if figure_name in self._figure_names:

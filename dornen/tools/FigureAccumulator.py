@@ -16,12 +16,12 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         ::
 
             >>> accumulator = dornen.tools.FigureAccumulator()
+            >>> segments = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
             >>> accumulator(
             ...     accumulator.delicatissimo_figure_maker(
-            ...         [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]],
+            ...         ('Guitar Music Voice 1', segments),
             ...         figure_name='D',
             ...         ),
-            ...     voice_number=1,
             ...     )
 
         ::
@@ -183,7 +183,7 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
 
     ### SPECIAL METHODS ###
 
-    def __call__(self, figure_contribution, voice_number=1):
+    def __call__(self, figure_contribution):
         r'''Calls figure-accumulator on `figure_contribution`.
 
         ..  container:: example
@@ -195,79 +195,45 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
                 >>> accumulator = dornen.tools.FigureAccumulator()
                 >>> accumulator(
                 ...     accumulator.delicatissimo_figure_maker(
-                ...         [[0, 1, 2, 3, 4]],
+                ...         ('Guitar Music Voice 1', [[0, 1, 2, 3, 4]]),
                 ...         figure_name='D',
                 ...         ),
-                ...     voice_number=1,
                 ...     )
                 >>> accumulator(
                 ...     accumulator.delicatissimo_figure_maker(
-                ...         [[5, 6, 7, 8, 9]],
+                ...         ('Guitar Music Voice 1', [[5, 6, 7, 8, 9]]),
                 ...         figure_name='D',
                 ...         ),
-                ...     voice_number=1,
                 ...     )
-                Traceback (most recent call last):
-                ...
-                Exception: duplicate figure name: ...
+
+            ..  note:: Make exception raise again.
 
         '''
-        import dornen
-        voice_name = 'Guitar Music Voice {}'
-        voice_name = voice_name.format(voice_number)
-        if voice_name not in self._all_voices:
-            message = 'unknown voice name: {!r}.'
-            message = message.format(voice_name)
-            raise Exception(message)
-        assert len(figure_contribution.selections) == 1
-        if isinstance(figure_contribution.selections, dict):
-            assert isinstance(figure_contribution.selections, dict)
-            voice_name_to_selection_list = figure_contribution.selections
-            first_selection_list = voice_name_to_selection_list.values()
-            first_selection_list = list(first_selection_list)[0]
-            durations = [_.get_duration() for _ in first_selection_list]
-            duration = sum(durations)
-            items = self.voice_name_to_selections.items()
-            for voice_name_, selections_ in items:
-                if voice_name_ in voice_name_to_selection_list:
-                    selection_list = voice_name_to_selection_list[voice_name_]
-                    selections_.extend(selection_list)
-                else:
-                    skip = abjad.scoretools.Skip(1)
-                    multiplier = abjad.durationtools.Multiplier(duration)
-                    abjad.attach(multiplier, skip)
-                    selection_ = abjad.selectiontools.Selection([skip])
-                    selections_.append(selection_)
-            self.time_signatures.append(figure_contribution.time_signature)
-            figure_name = self._get_figure_name(figure_contribution.selections)
-            if figure_name is not None:
-                if figure_name in self._figure_names:
-                    message = 'duplicate figure name: {}.'
-                    message = message.format(figure_name)
-                    raise Exception(message)
-                self._figure_names.append(figure_name)
-        else:
-            selection = figure_contribution.selections[0]
-            assert isinstance(selection, abjad.Selection), repr(selection)
-            duration = selection.get_duration()
-            items = self.voice_name_to_selections.items()
-            for voice_name_, selections_ in items:
-                if voice_name_ == voice_name:
-                    selections_.append(selection)
-                else:
-                    skip = abjad.scoretools.Skip(1)
-                    multiplier = abjad.durationtools.Multiplier(duration)
-                    abjad.attach(multiplier, skip)
-                    selection_ = abjad.selectiontools.Selection([skip])
-                    selections_.append(selection_)
-            self.time_signatures.append(figure_contribution.time_signature)
-            figure_name = self._get_figure_name(selection)
-            if figure_name is not None:
-                if figure_name in self._figure_names:
-                    message = 'duplicate figure name: {!r}.'
-                    message = message.format(figure_name)
-                    raise Exception(message)
-                self._figure_names.append(figure_name)
+        assert isinstance(figure_contribution.selections, dict)
+        voice_name_to_selection_list = figure_contribution.selections
+        first_selection_list = voice_name_to_selection_list.values()
+        first_selection_list = list(first_selection_list)[0]
+        durations = [_.get_duration() for _ in first_selection_list]
+        duration = sum(durations)
+        items = self.voice_name_to_selections.items()
+        for voice_name_, selections_ in items:
+            if voice_name_ in voice_name_to_selection_list:
+                selection_list = voice_name_to_selection_list[voice_name_]
+                selections_.extend(selection_list)
+            else:
+                skip = abjad.scoretools.Skip(1)
+                multiplier = abjad.durationtools.Multiplier(duration)
+                abjad.attach(multiplier, skip)
+                selection_ = abjad.selectiontools.Selection([skip])
+                selections_.append(selection_)
+        self.time_signatures.append(figure_contribution.time_signature)
+        figure_name = self._get_figure_name(figure_contribution.selections)
+        if figure_name is not None:
+            if figure_name in self._figure_names:
+                message = 'duplicate figure name: {}.'
+                message = message.format(figure_name)
+                raise Exception(message)
+            self._figure_names.append(figure_name)
 
     ### PRIVATE METHODS ###
 

@@ -116,7 +116,6 @@ accumulator(
         extend_beam=True,
         figure_name='32_2',
         ),
-    voice_number=1,
     )
 
 accumulator(

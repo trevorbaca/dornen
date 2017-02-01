@@ -15,157 +15,139 @@ assert len(design) == 14
 
 accumulator(
     accumulator.inverted_wave_64_figure_maker(
-        design[:4],
+        ('Guitar Music Voice 1', design[:4]),
         baca.overrides.beam_positions(8),
         baca.pitch.register(0, -14),
         figure_name='W1',
         preferred_denominator=16,
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        accumulator.reveal(design[4:5], 1),
+        ('Guitar Music Voice 2', accumulator.reveal(design[4:5], 1)),
         baca.overrides.beam_positions(-8),
         baca.overrides.proportional_notation_duration((1, 40)),
         baca.pitch.register(6),
         extend_beam=True,
         figure_name='F1_1',
         ),
-    voice_number=2,
     )
 
 accumulator(
     accumulator.running_figure_maker(
-        design[5:8],
+        ('Guitar Music Voice 1', design[5:8]),
         baca.pitch.register(-14, 0),
         extend_beam=True,
         figure_name='R1',
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        accumulator.reveal(design[4:5], 2),
+        ('Guitar Music Voice 2', accumulator.reveal(design[4:5], 2)),
         baca.pitch.register(6),
         extend_beam=True,
         figure_name='F1_2',
         ),
-    voice_number=2,
     )
 
 accumulator(
     accumulator.running_figure_maker(
-        design[6:9],
+        ('Guitar Music Voice 1', design[6:9]),
         baca.pitch.register(-14, 0),
         extend_beam=True,
         figure_name='R2',
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        accumulator.reveal(design[4:5], 3),
+        ('Guitar Music Voice 2', accumulator.reveal(design[4:5], 3)),
         baca.pitch.register(6),
         extend_beam=True,
         figure_name='F1_3',
         ),
-    voice_number=2,
     )
 
 accumulator(
     accumulator.running_figure_maker(
-        design[7:10],
+        ('Guitar Music Voice 1', design[7:10]),
         baca.pitch.register(-14, 0),
         extend_beam=True,
         figure_name='R3',
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        accumulator.reveal(design[4:5], 4),
+        ('Guitar Music Voice 2', accumulator.reveal(design[4:5], 4)),
         baca.pitch.register(6),
         extend_beam=True,
         figure_name='F1_4',
         ),
-    voice_number=2,
     )
 
 accumulator(
     accumulator.running_figure_maker(
-        design[8:11],
+        ('Guitar Music Voice 1', design[8:11]),
         baca.pitch.register(-14, 0),
         extend_beam=True,
         figure_name='R4',
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        accumulator.reveal(design[4:5], 5),
+        ('Guitar Music Voice 2', accumulator.reveal(design[4:5], 5)),
         baca.pitch.register(6),
         figure_name='F1',
         ),
-    voice_number=2,
     )
 
 accumulator(
     accumulator.running_figure_maker(
-        design[9:13],
+        ('Guitar Music Voice 1', design[9:13]),
         baca.pitch.register(-14, 6),
         figure_name='R5',
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        accumulator.reveal(design[4:5], 1),
+        ('Guitar Music Voice 2', accumulator.reveal(design[4:5], 1)),
         baca.overrides.proportional_notation_duration((1, 40)),
         baca.pitch.register(6),
         extend_beam=True,
         figure_name='F1_1*',
         ),
-    voice_number=2,
     )
 
 accumulator(
     accumulator.delicatissimo_figure_maker(
-        design[13:],
+        ('Guitar Music Voice 1', design[13:]),
         baca.overrides.text_script_staff_padding(9),
         baca.pitch.register(6, -20),
-        #baca.tools.MarkupSpecifier(
-        #    markup=baca.markup.delicatiss(),
-        #    ),
         extend_beam=True,
         figure_name='D1',
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        accumulator.reveal(design[4:5], 2),
+        ('Guitar Music Voice 2', accumulator.reveal(design[4:5], 2)),
         baca.pitch.register(6),
         figure_name='F1_2*',
         ),
-    voice_number=2,
     )
 
 accumulator(
     accumulator.delicatissimo_figure_maker(
-        design[13:],
+        ('Guitar Music Voice 1', design[13:]),
         baca.pitch.register(-20, 6),
         extend_beam=True,
         figure_name='D2',
         ),
-    voice_number=1,
     )
 
 ###############################################################################

@@ -246,7 +246,7 @@
                                         \override
                                             #'(box-padding . 0.5)
                                             \box
-                                                "<class 'baca.tools.MarkupInterface.MarkupInterface'>"
+                                                "2-finger tamb. trill"
                                     }
                         }
                         \tweak edge-height #'(0.7 . 0)
@@ -287,7 +287,7 @@
                                         \override
                                             #'(box-padding . 0.5)
                                             \box
-                                                "<class 'baca.tools.MarkupInterface.MarkupInterface'>"
+                                                "3 fingers"
                                     }
                         }
                     }
@@ -324,7 +324,7 @@
                                         \override
                                             #'(box-padding . 0.5)
                                             \box
-                                                "<class 'baca.tools.MarkupInterface.MarkupInterface'>"
+                                                "4 fingers"
                                     }
                         }
                     }
@@ -385,7 +385,7 @@
                                         \override
                                             #'(box-padding . 0.5)
                                             \box
-                                                "<class 'baca.tools.MarkupInterface.MarkupInterface'>"
+                                                "3 fingers"
                                     }
                         }
                         \tweak edge-height #'(0.7 . 0)
@@ -402,7 +402,7 @@
                                         \override
                                             #'(box-padding . 0.5)
                                             \box
-                                                "<class 'baca.tools.MarkupInterface.MarkupInterface'>"
+                                                "2 fingers"
                                     }
                         }
                         \tweak edge-height #'(0.7 . 0)

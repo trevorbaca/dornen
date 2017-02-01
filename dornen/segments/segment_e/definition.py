@@ -14,124 +14,111 @@ assert len(design) == 20
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        design[:1],
+        ('Guitar Music Voice 1', design[:1]),
         baca.articulations.tenuti(),
         baca.overrides.beam_positions(10),
         baca.pitch.register(-12),
         extend_beam=True,
         figure_name='48_1',
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        design[1:2],
+        ('Guitar Music Voice 3', design[1:2]),
         extend_beam=True,
         figure_name='16_1',
         ),
-    voice_number=3,
     )
 
 accumulator(
     accumulator.running_figure_maker(
-        design[2:5],
+        ('Guitar Music Voice 1', design[2:5]),
         baca.pitch.register(-14, 0),
         extend_beam=True,
         figure_name='R1',
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        design[5:6],
+        ('Guitar Music Voice 4', design[5:6]),
         figure_name='20_1',
         ),
-    voice_number=4,
     )
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        design[6:7],
+        ('Guitar Music Voice 1', design[6:7]),
         baca.articulations.tenuti(),
         baca.pitch.register(-12),
         figure_name='48_2',
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        design[7:8],
+        ('Guitar Music Voice 3', design[7:8]),
         figure_name='16_2',
         ),
-    voice_number=3,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        design[8:9],
+        ('Guitar Music Voice 4', design[8:9]),
         figure_name='20_2',
         ),
-    voice_number=4,
     )
 
 accumulator(
     accumulator.rest_figure_maker(
-        [3 * [None]],
+        ('Guitar Music Voice 1', [3 * [None]]),
         baca.markup.make_markup_specifier(
             'raise string 2 one quartertone',
             selector=baca.select.first_leaf(),
             ),
         figure_name='S1',
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.sixty_fourth_figure_maker(
-        10 * accumulator.reveal(design[9:10], 3),
+        ('Guitar Music Voice 1', 10 * accumulator.reveal(design[9:10], 3)),
         baca.pitch.register(0),
         figure_name='D1',
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.sixty_fourth_figure_maker(
-        10 * accumulator.reveal(design[9:10], 4),
+        ('Guitar Music Voice 1', 10 * accumulator.reveal(design[9:10], 4)),
         baca.pitch.register(0),
         figure_name='D2',
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.sixty_fourth_figure_maker(
-        10 * accumulator.reveal(design[9:10], 5),
+        ('Guitar Music Voice 1', 10 * accumulator.reveal(design[9:10], 5)),
         baca.pitch.register(0),
         figure_name='D3',
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.sixty_fourth_figure_maker(
-        10 * accumulator.reveal(design[9:10], 6),
+        ('Guitar Music Voice 1', 10 * accumulator.reveal(design[9:10], 6)),
         baca.pitch.register(0),
         figure_name='D4',
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.sixty_fourth_figure_maker(
-        accumulator.boustrophedon(design[9:10], 4),
+        ('Guitar Music Voice 1', accumulator.boustrophedon(design[9:10], 4)),
         baca.pitch.register(0),
         figure_name='D5',
         ),
-    voice_number=1,
     )
 
 ###############################################################################

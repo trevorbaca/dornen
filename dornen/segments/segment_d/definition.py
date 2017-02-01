@@ -368,7 +368,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 3', baca.select.stages(1, Infinity))
+    ('Guitar Music Voice 3', baca.select.stages(1, Infinity)),
     [
         baca.articulations.accents(),
         baca.overrides.script_direction(Down),

@@ -1,4 +1,4 @@
-\version "2.19.46"
+\version "2.19.54"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -557,7 +557,7 @@
                                         \override
                                             #'(box-padding . 0.5)
                                             \box
-                                                "3 fingers"
+                                                "<class 'baca.tools.MarkupInterface.MarkupInterface'>"
                                     }
                         }
                     }
@@ -650,7 +650,7 @@
                                         \override
                                             #'(box-padding . 0.5)
                                             \box
-                                                "4 fingers"
+                                                "<class 'baca.tools.MarkupInterface.MarkupInterface'>"
                                     }
                         }
                     }

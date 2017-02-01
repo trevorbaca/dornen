@@ -16,344 +16,299 @@ assert len(design) == 14
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        design[:1],
+        ('Guitar Music Voice 1', design[:1]),
         baca.markup.make_markup_specifier(
             'LH only until rascado! (RH tacet; encourage whisks) ...'
             ),
         extend_beam=True,
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        design[1:2],
+        ('Guitar Music Voice 4', design[1:2]),
         extend_beam=True,
         ),
-    voice_number=4,
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        design[2:3],
+        ('Guitar Music Voice 3', design[2:3]),
         ),
-    voice_number=3,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        design[3:4],
+        ('Guitar Music Voice 4', design[3:4]),
         baca.overrides.beam_positions(6),
         baca.overrides.stem_up(),
         ),
-    voice_number=4,
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        design[4:5],
+        ('Guitar Music Voice 2', design[4:5]),
         baca.spanners.slur(),
         ),
-    voice_number=2,
     )
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        design[5:6],
+        ('Guitar Music Voice 1', design[5:6]),
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        [[None]],
+        ('Guitar Music Voice 1', [[None]]),
         ),
-    voice_number=1,
     )
 
 ### 2 ###
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        design[:1],
+        ('Guitar Music Voice 1', design[:1]),
         baca.markup.make_markup_specifier('RH reaches for screw ...'),
         extend_beam=True,
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        design[1:2],
+        ('Guitar Music Voice 4', design[1:2]),
         extend_beam=True,
         ),
-    voice_number=4,
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        design[2:3],
+        ('Guitar Music Voice 3', design[2:3]),
         ),
-    voice_number=3,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        design[3:4],
+        ('Guitar Music Voice 4', design[3:4]),
         baca.overrides.beam_positions(6),
         baca.overrides.stem_up(),
         ),
-    voice_number=4,
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        design[4:5],
+        ('Guitar Music Voice 2', design[4:5]),
         baca.spanners.slur(),
         ),
-    voice_number=2,
     )
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        design[5:6],
+        ('Guitar Music Voice 1', design[5:6]),
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        [[None]],
+        ('Guitar Music Voice 1', [[None]]),
         ),
-    voice_number=1,
     )
 
 ### 3 ###
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        design[:1],
+        ('Guitar Music Voice 1', design[:1]),
         baca.markup.make_markup_specifier('RH places screw on string ...'),
         extend_beam=True,
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        design[1:2],
+        ('Guitar Music Voice 4', design[1:2]),
         extend_beam=True,
         ),
-    voice_number=4,
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        design[2:3],
+        ('Guitar Music Voice 3', design[2:3]),
         ),
-    voice_number=3,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        design[3:4],
+        ('Guitar Music Voice 4', design[3:4]),
         baca.overrides.beam_positions(6),
         baca.overrides.stem_up(),
         ),
-    voice_number=4,
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        design[4:5],
+        ('Guitar Music Voice 2', design[4:5]),
         baca.spanners.slur(),
         ),
-    voice_number=2,
     )
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        design[5:6],
+        ('Guitar Music Voice 1', design[5:6]),
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        [[None]],
+        ('Guitar Music Voice 1', [[None]]),
         ),
-    voice_number=1,
     )
 
 ### 4 ###
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        design[:1],
+        ('Guitar Music Voice 1', design[:1]),
         extend_beam=True,
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        design[1:2],
+        ('Guitar Music Voice 4', design[1:2]),
         extend_beam=True,
         ),
-    voice_number=4,
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        design[2:3],
+        ('Guitar Music Voice 3', design[2:3]),
         ),
-    voice_number=3,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        design[3:4],
+        ('Guitar Music Voice 4', design[3:4]),
         baca.overrides.beam_positions(6),
         baca.overrides.stem_up(),
         ),
-    voice_number=4,
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        design[4:5],
+        ('Guitar Music Voice 2', design[4:5]),
         baca.spanners.slur(),
         ),
-    voice_number=2,
     )
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        design[5:6],
+        ('Guitar Music Voice 1', design[5:6]),
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        [[None]],
+        ('Guitar Music Voice 1', [[None]]),
         ),
-    voice_number=1,
     )
 
 ### 5 ###
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        design[:1],
+        ('Guitar Music Voice 1', design[:1]),
         extend_beam=True,
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        design[1:2],
+        ('Guitar Music Voice 4', design[1:2]),
         extend_beam=True,
         ),
-    voice_number=4,
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        design[2:3],
+        ('Guitar Music Voice 3', design[2:3]),
         ),
-    voice_number=3,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        design[3:4],
+        ('Guitar Music Voice 4', design[3:4]),
         baca.overrides.beam_positions(6),
         baca.overrides.stem_up(),
         ),
-    voice_number=4,
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        design[4:5],
+        ('Guitar Music Voice 2', design[4:5]),
         baca.spanners.slur(),
         ),
-    voice_number=2,
     )
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        design[5:6],
+        ('Guitar Music Voice 1', design[5:6]),
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        [[None]],
+        ('Guitar Music Voice 1', [[None]]),
         ),
-    voice_number=1,
     )
 
 ### 6 ###
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        design[:1],
+        ('Guitar Music Voice 1', design[:1]),
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        design[1:2],
+        ('Guitar Music Voice 4', design[1:2]),
         extend_beam=True,
         ),
-    voice_number=4,
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        design[2:3],
+        ('Guitar Music Voice 3', design[2:3]),
         ),
-    voice_number=3,
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        design[3:4],
+        ('Guitar Music Voice 4', design[3:4]),
         baca.overrides.beam_positions(6),
         baca.overrides.stem_up(),
         ),
-    voice_number=4,
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        design[4:5],
+        ('Guitar Music Voice 2', design[4:5]),
         baca.spanners.slur(),
         ),
-    voice_number=2,
     )
 
 ### rascado ###
 
 accumulator(
     accumulator.rest_figure_maker(
-        [5 * [None]],
-        #baca.tools.MarkupSpecifier(
-        #    markup=baca.markup.make_boxed_markup('FREEZE'),
-        #    selector=baca.select.first_leaf(),
-        #    ),
+        ('Guitar Music Voice 1', [5 * [None]]),
         ),
-    voice_number=1,
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [13 * ['E2']],
+        ('Guitar Music Voice 1', [13 * ['E2']]),
         baca.make_markup_specifier(
             'RASCADO: slowly draw extremely long metal screw over open string;'
             ' as close as possible to bridge; only one stroke.'
@@ -366,7 +321,6 @@ accumulator(
             spanner=abjad.Tie(use_messiaen_style_ties=True)
             ),
         ),
-    voice_number=1,
     )
 
 ###############################################################################

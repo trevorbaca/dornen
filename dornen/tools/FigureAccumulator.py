@@ -220,27 +220,54 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
             message = message.format(voice_name)
             raise Exception(message)
         assert len(figure_contribution.selections) == 1
-        selection = figure_contribution.selections[0]
-        assert isinstance(selection, abjad.Selection), repr(selection)
-        duration = selection.get_duration()
-        items = self.voice_name_to_selections.items()
-        for voice_name_, selections_ in items:
-            if voice_name_ == voice_name:
-                selections_.append(selection)
-            else:
-                skip = abjad.scoretools.Skip(1)
-                multiplier = abjad.durationtools.Multiplier(duration)
-                abjad.attach(multiplier, skip)
-                selection_ = abjad.selectiontools.Selection([skip])
-                selections_.append(selection_)
-        self.time_signatures.append(figure_contribution.time_signature)
-        figure_name = self._get_figure_name(selection)
-        if figure_name is not None:
-            if figure_name in self._figure_names:
-                message = 'duplicate figure name: {!r}.'
-                message = message.format(figure_name)
-                raise Exception(message)
-            self._figure_names.append(figure_name)
+        if isinstance(figure_contribution.selections, dict):
+            assert isinstance(figure_contribution.selections, dict)
+            voice_name_to_selection_list = figure_contribution.selections
+            first_selection_list = voice_name_to_selection_list.values()
+            first_selection_list = list(first_selection_list)[0]
+            durations = [_.get_duration() for _ in first_selection_list]
+            duration = sum(durations)
+            items = self.voice_name_to_selections.items()
+            for voice_name_, selections_ in items:
+                if voice_name_ in voice_name_to_selection_list:
+                    selection_list = voice_name_to_selection_list[voice_name_]
+                    selections_.extend(selection_list)
+                else:
+                    skip = abjad.scoretools.Skip(1)
+                    multiplier = abjad.durationtools.Multiplier(duration)
+                    abjad.attach(multiplier, skip)
+                    selection_ = abjad.selectiontools.Selection([skip])
+                    selections_.append(selection_)
+            self.time_signatures.append(figure_contribution.time_signature)
+            figure_name = self._get_figure_name(figure_contribution.selections)
+            if figure_name is not None:
+                if figure_name in self._figure_names:
+                    message = 'duplicate figure name: {}.'
+                    message = message.format(figure_name)
+                    raise Exception(message)
+                self._figure_names.append(figure_name)
+        else:
+            selection = figure_contribution.selections[0]
+            assert isinstance(selection, abjad.Selection), repr(selection)
+            duration = selection.get_duration()
+            items = self.voice_name_to_selections.items()
+            for voice_name_, selections_ in items:
+                if voice_name_ == voice_name:
+                    selections_.append(selection)
+                else:
+                    skip = abjad.scoretools.Skip(1)
+                    multiplier = abjad.durationtools.Multiplier(duration)
+                    abjad.attach(multiplier, skip)
+                    selection_ = abjad.selectiontools.Selection([skip])
+                    selections_.append(selection_)
+            self.time_signatures.append(figure_contribution.time_signature)
+            figure_name = self._get_figure_name(selection)
+            if figure_name is not None:
+                if figure_name in self._figure_names:
+                    message = 'duplicate figure name: {!r}.'
+                    message = message.format(figure_name)
+                    raise Exception(message)
+                self._figure_names.append(figure_name)
 
     ### PRIVATE METHODS ###
 

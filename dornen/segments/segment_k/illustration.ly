@@ -345,7 +345,7 @@
                                         \override
                                             #'(box-padding . 0.5)
                                             \box
-                                                "<class 'baca.tools.MarkupInterface.MarkupInterface'>"
+                                                "3 fingers"
                                     }
                         }
                     }
@@ -438,7 +438,7 @@
                                         \override
                                             #'(box-padding . 0.5)
                                             \box
-                                                "<class 'baca.tools.MarkupInterface.MarkupInterface'>"
+                                                "4 fingers"
                                     }
                         }
                     }
@@ -685,7 +685,7 @@
                                         \override
                                             #'(box-padding . 0.5)
                                             \box
-                                                "<class 'baca.tools.MarkupInterface.MarkupInterface'>"
+                                                "3 fingers"
                                     }
                             f2 :32 \repeatTie
                         }
@@ -699,7 +699,7 @@
                                         \override
                                             #'(box-padding . 0.5)
                                             \box
-                                                "<class 'baca.tools.MarkupInterface.MarkupInterface'>"
+                                                "2 fingers"
                                     }
                             f2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
                                 \override

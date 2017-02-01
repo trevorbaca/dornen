@@ -39,10 +39,9 @@ def make_rest_figure_maker(duration=None):
             >>> figure_maker = dornen.tools.make_rest_figure_maker()
             >>> figures, time_signatures = [], []
             >>> for figure_token in figure_tokens:
-            ...     result = figure_maker(figure_token)
-            ...     selection, time_signature, state_manifest = result
-            ...     figures.append(selection)
-            ...     time_signatures.append(time_signature)    
+            ...     contribution = figure_maker(figure_token)
+            ...     figures.extend(contribution.selections)
+            ...     time_signatures.append(contribution.time_signature)    
             ...
             >>> figures_ = []
             >>> for figure in figures:
@@ -161,10 +160,9 @@ def make_rest_figure_maker(duration=None):
             >>> figure_maker = dornen.tools.make_rest_figure_maker()
             >>> figures, time_signatures = [], []
             >>> for figure_token in figure_tokens:
-            ...     result = figure_maker(figure_token)
-            ...     selection, time_signature, state_manifest = result
-            ...     figures.append(selection)
-            ...     time_signatures.append(time_signature)    
+            ...     contribution = figure_maker(figure_token)
+            ...     figures.extend(contribution.selections)
+            ...     time_signatures.append(contribution.time_signature)    
             ...
             >>> figures_ = []
             >>> for figure in figures:

@@ -14,159 +14,177 @@ assert len(design) == 20, (repr(design), len(design))
 
 accumulator(
     accumulator.delicatissimo_figure_maker(
-        ('Guitar Music Voice 1', design[:1]),
+        design[:1],
         baca.register(-4, -20),
         extend_beam=True,
         figure_name='D1',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.delicatissimo_figure_maker(
-        ('Guitar Music Voice 1', design[1:2]),
+        design[1:2],
         baca.register(-4, -20),
         extend_beam=True,
         figure_name='D2',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.wave_32_figure_maker(
-        ('Guitar Music Voice 3', design[2:3]),
+        design[2:3],
         baca.register(0),
         figure_name='W1',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.delicatissimo_figure_maker(
-        ('Guitar Music Voice 1', design[3:4]),
+        design[3:4],
         baca.register(-4, -20),
         extend_beam=True,
         figure_name='D3',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.delicatissimo_figure_maker(
-        ('Guitar Music Voice 1', design[4:5]),
+        design[4:5],
         baca.register(-4, -20),
         extend_beam=True,
         figure_name='D4',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.glissando_scatto_figure_maker(
-        ('Guitar Music Voice 1', design[5:6]),
+        design[5:6],
         baca.register(-20),
         baca.displacement([0, 1]),
         figure_name='L1',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.wave_32_figure_maker(
-        ('Guitar Music Voice 3', design[6:7]),
+        design[6:7],
         baca.register(0),
         figure_name='W2',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.wave_32_figure_maker(
-        ('Guitar Music Voice 3', design[6:7]),
+        design[6:7],
         baca.register(0),
         figure_name='W3',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        ('Guitar Music Voice 1', design[7:8]),
+        design[7:8],
         baca.register(0),
         extend_beam=True,
         figure_name='32_1',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.twenty_eighth_figure_maker(
-        ('Guitar Music Voice 2', design[8:9]),
+        design[8:9],
         baca.beam_positions(-5),
         baca.register(0),
         extend_beam=True,
         figure_name='28_1',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        ('Guitar Music Voice 2', design[9:10]),
+        design[9:10],
         baca.register(0),
         extend_beam=True,
         figure_name='48_1',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        ('Guitar Music Voice 1', design[10:11]),
+        design[10:11],
         baca.register(0),
         extend_beam=True,
         figure_name='32_2',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.twenty_eighth_figure_maker(
-        ('Guitar Music Voice 2', design[11:12]),
+        design[11:12],
         baca.register(0),
         extend_beam=True,
         figure_name='28_2',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        ('Guitar Music Voice 2', design[12:13]),
+        design[12:13],
         baca.register(0),
         extend_beam=True,
         figure_name='48_2',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        ('Guitar Music Voice 1', design[13:14]),
+        design[13:14],
         baca.register(0),
         extend_beam=True,
         figure_name='32_3',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.graced_tuplet_figure_maker(
-        ('Guitar Music Voice 2', design[14:16]),
+        design[14:16],
         baca.register(0),
         extend_beam=True,
         figure_name='G1',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.running_figure_maker(
-        ('Guitar Music Voice 1', design[16:19]),
+        design[16:19],
         baca.register(0),
         figure_name='R1',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        ('Guitar Music Voice 2', design[19:20]),
+        design[19:20],
         baca.register(0),
         figure_name='20_1',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 

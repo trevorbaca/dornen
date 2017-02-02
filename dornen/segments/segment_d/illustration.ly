@@ -105,8 +105,8 @@
                     R1 * 3/8
                 }
                 {
-                    \time 4/5
-                    R1 * 4/5
+                    \time 2/5
+                    R1 * 2/5
                 }
                 {
                     \time 3/20
@@ -273,10 +273,10 @@
                     s1 * 3/8
                 }
                 {
-                    \time 4/5
+                    \time 2/5
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 4/5
+                    s1 * 2/5
                 }
                 {
                     \time 3/20
@@ -411,7 +411,7 @@
                     s1 * 3/20
                     s1 * 1/16
                     s1 * 3/8
-                    s1 * 4/5
+                    s1 * 2/5
                     s1 * 3/20
                     s1 * 1/8
                     {
@@ -534,14 +534,6 @@
                                                 "2-finger tamb. trill"
                                     }
                         }
-                        \tweak edge-height #'(0.7 . 0)
-                        \times 4/5 {
-                            \once \override Stem.direction = #up
-                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
-                            \once \override TupletBracket.staff-padding = #0
-                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
-                            gf2 :32 \repeatTie
-                        }
                     }
                     s1 * 3/20
                     {
@@ -629,7 +621,7 @@
                         }
                     }
                     s1 * 3/8
-                    s1 * 4/5
+                    s1 * 2/5
                     s1 * 3/20
                     s1 * 1/8
                     s1 * 3/32
@@ -819,7 +811,7 @@
                     }
                     s1 * 1/16
                     s1 * 3/8
-                    s1 * 4/5
+                    s1 * 2/5
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {

@@ -17,17 +17,18 @@ middle_register = baca.pitch.register(-12, 0)
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        ('Guitar Music Voice 1', design[:1]),
+        design[:1],
         baca.spanners.slur(),
         middle_register,
         extend_beam=True,
         figure_name='20_1',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        ('Guitar Music Voice 2', design[1:2]),
+        design[1:2],
         baca.markup.make_markup_specifier(
             'dull (but beautiful) thud with RH muting for each red note',
             direction=Down,
@@ -35,179 +36,200 @@ accumulator(
         baca.overrides.text_script_down(),
         extend_beam=True,
         figure_name='16_1',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.twenty_eighth_figure_maker(
-        ('Guitar Music Voice 3', design[2:3]),
+        design[2:3],
         baca.overrides.stem_up(),
         middle_register,
         figure_name='28_1',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        ('Guitar Music Voice 2', design[3:4]),
+        design[3:4],
         extend_beam=True,
         figure_name='16_2',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        ('Guitar Music Voice 1', design[4:5]),
+        design[4:5],
         baca.spanners.slur(),
         middle_register,
         extend_beam=True,
         figure_name='20_2',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        ('Guitar Music Voice 2', design[5:6]),
+        design[5:6],
         extend_beam=True,
         figure_name='16_3',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.twenty_eighth_figure_maker(
-        ('Guitar Music Voice 3', design[6:7]),
+        design[6:7],
         baca.overrides.stem_up(),
         middle_register,
         figure_name='28_2',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        ('Guitar Music Voice 2', design[7:8]),
+        design[7:8],
         extend_beam=True,
         figure_name='16_4',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        ('Guitar Music Voice 1', design[8:9]),
+        design[8:9],
         baca.spanners.slur(),
         middle_register,
         figure_name='20_3',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        ('Guitar Music Voice 2', design[9:10]),
+        design[9:10],
         figure_name='16_5',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.twenty_fourth_figure_maker(
-        ('Guitar Music Voice 2', design[10:11]),
+        design[10:11],
         baca.overrides.proportional_notation_duration((1, 48)),
         extend_beam=True,
         figure_name='24_1',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        ('Guitar Music Voice 1', design[11:12]),
+        design[11:12],
         baca.spanners.slur(),
         middle_register,
         extend_beam=True,
         figure_name='32_1',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.twenty_fourth_figure_maker(
-        ('Guitar Music Voice 2', design[12:13]),
+        design[12:13],
         extend_beam=True,
         figure_name='24_2',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.twenty_eighth_figure_maker(
-        ('Guitar Music Voice 3', design[13:14]),
+        design[13:14],
         baca.overrides.stem_up(),
         middle_register,
         figure_name='28_3',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.twenty_fourth_figure_maker(
-        ('Guitar Music Voice 2', design[14:15]),
+        design[14:15],
         extend_beam=True,
         figure_name='24_3',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        ('Guitar Music Voice 1', design[15:16]),
+        design[15:16],
         baca.spanners.slur(),
         middle_register,
         extend_beam=True,
         figure_name='32_2',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.twenty_fourth_figure_maker(
-        ('Guitar Music Voice 2', design[16:17]),
+        design[16:17],
         extend_beam=True,
         figure_name='24_4',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        ('Guitar Music Voice 1', design[17:18]),
+        design[17:18],
         baca.spanners.slur(),
         middle_register,
         extend_beam=True,
         figure_name='32_3',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.twenty_fourth_figure_maker(
-        ('Guitar Music Voice 2', design[18:19]),
+        design[18:19],
         extend_beam=True,
         figure_name='24_5',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.twenty_eighth_figure_maker(
-        ('Guitar Music Voice 3', design[19:20]),
+        design[19:20],
         baca.overrides.stem_up(),
         middle_register,
         figure_name='28_4',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.twenty_fourth_figure_maker(
-        ('Guitar Music Voice 2', design[20:21]),
+        design[20:21],
         figure_name='24_6',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        ('Guitar Music Voice 1', design[21:]),
+        design[21:],
         baca.spanners.slur(),
         middle_register,
         figure_name='32_4',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 

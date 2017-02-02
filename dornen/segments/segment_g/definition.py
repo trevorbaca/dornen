@@ -15,109 +15,109 @@ assert len(design) == 12, (repr(design), len(design))
 accumulator(
     accumulator.ovoid_figure_maker(
         design[:1],
+        'Guitar Music Voice 2',
         baca.beam_positions(-7.5),
         baca.register(-20, -8),
         figure_name='O1',
-        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.glissando_scatto_figure_maker(
         design[1:2],
+        'Guitar Music Voice 1',
         baca.beam_positions(8),
         figure_name='L1',
-        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.graced_tuplet_figure_maker(
         design[2:3],
+        'Guitar Music Voice 4',
         extend_beam=True,
         figure_name='G1',
-        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.delicatissimo_figure_maker(
         design[3:4],
+        'Guitar Music Voice 3',
         baca.beam_positions(-7.5),
         baca.register(4, -20),
         figure_name='D1',
-        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.graced_tuplet_figure_maker(
         design[4:5],
+        'Guitar Music Voice 4',
         figure_name='G2',
-        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.ovoid_figure_maker(
         design[5:6],
+        'Guitar Music Voice 2',
         baca.beam_positions(-7.5),
         extend_beam=True,
         figure_name='O2',
-        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.glissando_scatto_figure_maker(
         design[6:7],
+        'Guitar Music Voice 1',
         baca.beam_positions(12),
         extend_beam=True,
         figure_name='L2',
-        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.graced_tuplet_figure_maker(
         design[7:8],
+        'Guitar Music Voice 4',
         extend_beam=True,
         figure_name='G3',
-        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.delicatissimo_figure_maker(
         design[8:9],
+        'Guitar Music Voice 3',
         baca.beam_positions(-6),
         baca.register(4, -20),
         figure_name='D2',
-        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.graced_tuplet_figure_maker(
         design[9:10],
+        'Guitar Music Voice 4',
         figure_name='G4',
-        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.ovoid_figure_maker(
         design[10:11],
+        'Guitar Music Voice 2',
         figure_name='O3',
-        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.glissando_scatto_figure_maker(
         design[11:12],
+        'Guitar Music Voice 1',
         figure_name='L3',
-        voice_name='Guitar Music Voice 1',
         ),
     )
 

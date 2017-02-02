@@ -42,11 +42,15 @@ def make_ovoid_figure_maker():
 
         ::
 
+            >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_ovoid_figure_maker()
             >>> figures, time_signatures = [], []
             >>> for figure_token in figure_tokens:
-            ...     contribution = figure_maker(figure_token)
-            ...     figures.extend(contribution.selections)
+            ...     contribution = figure_maker(
+            ...         figure_token,
+            ...         voice_name=voice_name,
+            ...         )
+            ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
             >>> figures_ = []

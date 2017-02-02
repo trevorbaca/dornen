@@ -29,11 +29,15 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
         ::
 
+            >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_wave_figure_maker()
             >>> figures, time_signatures = [], []
             >>> for figure_token in figure_tokens:
-            ...     contribution = figure_maker(figure_token)
-            ...     figures.extend(contribution.selections)
+            ...     contribution = figure_maker(
+            ...         figure_token,
+            ...         voice_name=voice_name,
+            ...         )
+            ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
             >>> figures_ = []
@@ -389,13 +393,17 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
         ::
 
+            >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_wave_figure_maker(
             ...     inverted=True,
             ...     )
             >>> figures, time_signatures = [], []
             >>> for figure_token in figure_tokens:
-            ...     contribution = figure_maker(figure_token)
-            ...     figures.extend(contribution.selections)
+            ...     contribution = figure_maker(
+            ...         figure_token,
+            ...         voice_name=voice_name,
+            ...         )
+            ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
             >>> figures_ = []
@@ -751,13 +759,17 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
         ::
 
+            >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_wave_figure_maker(
             ...     denominator=32,
             ...     )
             >>> figures, time_signatures = [], []
             >>> for figure_token in figure_tokens:
-            ...     contribution = figure_maker(figure_token)
-            ...     figures.extend(contribution.selections)
+            ...     contribution = figure_maker(
+            ...         figure_token,
+            ...         voice_name=voice_name,
+            ...         )
+            ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
             >>> figures_ = []

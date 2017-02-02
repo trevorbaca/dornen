@@ -28,7 +28,7 @@ class FigureAccumulator(baca.tools.FigureAccumulator):
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> selections = accumulator.voice_name_to_selections[voice_name]
+            >>> selections = accumulator.selections[voice_name]
             >>> lilypond_file = rhythmmakertools.make_lilypond_file(
             ...     selections,
             ...     accumulator.time_signatures,
@@ -121,7 +121,7 @@ class FigureAccumulator(baca.tools.FigureAccumulator):
         'wave_64_figure_maker',
         )
 
-    _all_voices = (
+    _all_voice_names = (
         'Guitar Music Voice 1',
         'Guitar Music Voice 2',
         'Guitar Music Voice 3',

@@ -19,8 +19,9 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
             >>> segments = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
             >>> accumulator(
             ...     accumulator.delicatissimo_figure_maker(
-            ...         ('Guitar Music Voice 1', segments),
+            ...         segments,
             ...         figure_name='D',
+            ...         voice_name='Guitar Music Voice 1',
             ...         ),
             ...     )
 
@@ -195,14 +196,16 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
                 >>> accumulator = dornen.tools.FigureAccumulator()
                 >>> accumulator(
                 ...     accumulator.delicatissimo_figure_maker(
-                ...         ('Guitar Music Voice 1', [[0, 1, 2, 3, 4]]),
+                ...         [[0, 1, 2, 3, 4]],
                 ...         figure_name='D',
+                ...         voice_name='Guitar Music Voice 1',
                 ...         ),
                 ...     )
                 >>> accumulator(
                 ...     accumulator.delicatissimo_figure_maker(
-                ...         ('Guitar Music Voice 1', [[5, 6, 7, 8, 9]]),
+                ...         [[5, 6, 7, 8, 9]],
                 ...         figure_name='D',
+                ...         voice_name='Guitar Music Voice 1',
                 ...         ),
                 ...     )
 

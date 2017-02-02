@@ -133,50 +133,40 @@ def make_passepied_figure_maker():
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
-                                    af'32
-                                }
+                                af'32
                             }
                             {
-                                {
-                                    \acciaccatura {
-                                        cs'16 [
-                                        c'16
-                                        bf'16 ]
-                                    }
-                                    f'32
+                                \acciaccatura {
+                                    cs'16 [
+                                    c'16
+                                    bf'16 ]
                                 }
+                                f'32
                             }
                             {
-                                {
-                                    \acciaccatura {
-                                        af'16 [
-                                        fs'16
-                                        b'16 ]
-                                    }
-                                    d'32
+                                \acciaccatura {
+                                    af'16 [
+                                    fs'16
+                                    b'16 ]
                                 }
+                                d'32
                             }
                             {
-                                {
-                                    \acciaccatura {
-                                        e'16 [
-                                        ef'16
-                                        a'16 ]
-                                    }
-                                    af'32
+                                \acciaccatura {
+                                    e'16 [
+                                    ef'16
+                                    a'16 ]
                                 }
+                                af'32
                             }
                             {
-                                {
-                                    \acciaccatura {
-                                        fs'16 [
-                                        b'16
-                                        d'16 ]
-                                    }
-                                    f'32
-                                    \bar "|"
+                                \acciaccatura {
+                                    fs'16 [
+                                    b'16
+                                    d'16 ]
                                 }
+                                f'32
+                                \bar "|"
                             }
                         }
                     }
@@ -300,151 +290,143 @@ def make_passepied_figure_maker():
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #3
-                                    af'32 [
-                                }
-                                {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #2
-                                    cs'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #3
+                                af'32 [
+                            }
+                            {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #2
+                                cs'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                c'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                bf'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #1
+                                f'16
+                            }
+                            {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #2
+                                af'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                fs'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                b'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #0
+                                d'16 ]
+                            }
+                            {
+                                \acciaccatura {
+                                    cs'16 [
                                     c'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    bf'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #1
-                                    f'16
+                                    bf'16 ]
                                 }
-                                {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #2
-                                    af'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    fs'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    b'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #0
-                                    d'16 ]
-                                }
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #3
+                                f'32 [
                             }
                             {
-                                {
-                                    \acciaccatura {
-                                        cs'16 [
-                                        c'16
-                                        bf'16 ]
-                                    }
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #3
-                                    f'32 [
-                                }
-                                {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #2
-                                    af'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #2
+                                af'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                fs'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                b'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #1
+                                d'16
+                            }
+                            {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #2
+                                e'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                ef'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                a'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #0
+                                g'16 ]
+                            }
+                            {
+                                \acciaccatura {
+                                    af'16 [
                                     fs'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    b'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #1
-                                    d'16
+                                    b'16 ]
                                 }
-                                {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #2
-                                    e'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #3
+                                d'32 [
+                            }
+                            {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #2
+                                e'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                ef'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                a'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #1
+                                g'16
+                            }
+                            {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #2
+                                fs'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                b'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                d'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #0
+                                f'16 ]
+                            }
+                            {
+                                \acciaccatura {
+                                    e'16 [
                                     ef'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    a'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #0
-                                    g'16 ]
+                                    a'16 ]
                                 }
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #3
+                                g'32 [
                             }
                             {
-                                {
-                                    \acciaccatura {
-                                        af'16 [
-                                        fs'16
-                                        b'16 ]
-                                    }
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #3
-                                    d'32 [
-                                }
-                                {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #2
-                                    e'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    ef'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    a'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #1
-                                    g'16
-                                }
-                                {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #2
-                                    fs'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    b'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    d'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #0
-                                    f'16 ]
-                                }
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #2
+                                fs'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                b'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                d'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #1
+                                f'16
                             }
                             {
-                                {
-                                    \acciaccatura {
-                                        e'16 [
-                                        ef'16
-                                        a'16 ]
-                                    }
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #3
-                                    g'32 [
-                                }
-                                {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #2
-                                    fs'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    b'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    d'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #1
-                                    f'16
-                                }
-                                {
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #0
-                                    af'16 ]
-                                    \bar "|"
-                                }
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #0
+                                af'16 ]
+                                \bar "|"
                             }
                         }
                     }

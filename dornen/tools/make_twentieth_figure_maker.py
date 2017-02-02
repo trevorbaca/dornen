@@ -143,78 +143,70 @@ def make_twentieth_figure_maker():
                     \context ViolinMusicStaff = "Violin Music Staff" {
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    cs'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    c'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    bf'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    f'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    af'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    fs'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    b'16
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                cs'16
                             }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    d'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    e'16
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                c'16
                             }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    ef'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    a'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    af'16
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                bf'16
                             }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    fs'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    b'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    d'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    f'16
-                                    \bar "|"
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                f'16
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                af'16
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                fs'16
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                b'16
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                d'16
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                e'16
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                ef'16
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                a'16
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                af'16
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                fs'16
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                b'16
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                d'16
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                f'16
+                                \bar "|"
                             }
                         }
                     }
@@ -353,62 +345,54 @@ def make_twentieth_figure_maker():
                     \context ViolinMusicStaff = "Violin Music Staff" {
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    cs'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    c'16 [
-                                    bf'16 ]
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    f'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    af'16 [
-                                    fs'16 ]
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    b'16
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                cs'16
                             }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    d'16
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                c'16 [
+                                bf'16 ]
                             }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    ef'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    a'16 [
-                                    af'16 ]
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                f'16
                             }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    fs'16
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    b'16 [
-                                    d'16 ]
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 4/5 {
-                                    f'16
-                                    \bar "|"
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                af'16 [
+                                fs'16 ]
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                b'16
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                d'16
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                ef'16
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                a'16 [
+                                af'16 ]
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                fs'16
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                b'16 [
+                                d'16 ]
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                f'16
+                                \bar "|"
                             }
                         }
                     }

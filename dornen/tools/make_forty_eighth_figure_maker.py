@@ -123,36 +123,28 @@ def make_forty_eighth_figure_maker():
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
-                                    e'32.
-                                }
+                                e'32.
                             }
                             {
-                                {
-                                    fs'32. [
-                                    d'32.
-                                    ef'32.
-                                    f'32.
-                                    a'32.
-                                    af'32.
-                                    c'32. ]
-                                }
+                                fs'32. [
+                                d'32.
+                                ef'32.
+                                f'32.
+                                a'32.
+                                af'32.
+                                c'32. ]
                             }
                             {
-                                {
-                                    b'32.
-                                }
+                                b'32.
                             }
                             {
-                                {
-                                    bf'32. [
-                                    g'32.
-                                    a'32.
-                                    af'32.
-                                    c'32.
-                                    f'32. ]
-                                    \bar "|"
-                                }
+                                bf'32. [
+                                g'32.
+                                a'32.
+                                af'32.
+                                c'32.
+                                f'32. ]
+                                \bar "|"
                             }
                         }
                     }

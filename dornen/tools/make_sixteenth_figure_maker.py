@@ -144,61 +144,53 @@ def make_sixteenth_figure_maker():
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
-                                    cs'16
-                                }
-                                {
-                                    c'16
-                                }
-                                {
-                                    bf'16
-                                }
-                                {
-                                    f'16
-                                }
-                                {
-                                    af'16
-                                }
-                                {
-                                    fs'16
-                                }
-                                {
-                                    b'16
-                                }
+                                cs'16
                             }
                             {
-                                {
-                                    d'16
-                                }
-                                {
-                                    e'16
-                                }
+                                c'16
                             }
                             {
-                                {
-                                    ef'16
-                                }
-                                {
-                                    a'16
-                                }
-                                {
-                                    af'16
-                                }
+                                bf'16
                             }
                             {
-                                {
-                                    fs'16
-                                }
-                                {
-                                    b'16
-                                }
-                                {
-                                    d'16
-                                }
-                                {
-                                    f'16
-                                    \bar "|"
-                                }
+                                f'16
+                            }
+                            {
+                                af'16
+                            }
+                            {
+                                fs'16
+                            }
+                            {
+                                b'16
+                            }
+                            {
+                                d'16
+                            }
+                            {
+                                e'16
+                            }
+                            {
+                                ef'16
+                            }
+                            {
+                                a'16
+                            }
+                            {
+                                af'16
+                            }
+                            {
+                                fs'16
+                            }
+                            {
+                                b'16
+                            }
+                            {
+                                d'16
+                            }
+                            {
+                                f'16
+                                \bar "|"
                             }
                         }
                     }
@@ -338,50 +330,42 @@ def make_sixteenth_figure_maker():
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
-                                    cs'16
-                                }
-                                {
-                                    c'16 [
-                                    bf'16 ]
-                                }
-                                {
-                                    f'16
-                                }
-                                {
-                                    af'16 [
-                                    fs'16 ]
-                                }
-                                {
-                                    b'16
-                                }
+                                cs'16
                             }
                             {
-                                {
-                                    d'16
-                                }
+                                c'16 [
+                                bf'16 ]
                             }
                             {
-                                {
-                                    ef'16
-                                }
-                                {
-                                    a'16 [
-                                    af'16 ]
-                                }
+                                f'16
                             }
                             {
-                                {
-                                    fs'16
-                                }
-                                {
-                                    b'16 [
-                                    d'16 ]
-                                }
-                                {
-                                    f'16
-                                    \bar "|"
-                                }
+                                af'16 [
+                                fs'16 ]
+                            }
+                            {
+                                b'16
+                            }
+                            {
+                                d'16
+                            }
+                            {
+                                ef'16
+                            }
+                            {
+                                a'16 [
+                                af'16 ]
+                            }
+                            {
+                                fs'16
+                            }
+                            {
+                                b'16 [
+                                d'16 ]
+                            }
+                            {
+                                f'16
+                                \bar "|"
                             }
                         }
                     }

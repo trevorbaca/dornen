@@ -265,9 +265,7 @@
                             g''16 )
                         }
                     }
-                    s1 * 1/16
-                    s1 * 3/28
-                    s1 * 1/16
+                    s1 * 13/56
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
@@ -285,9 +283,7 @@
                             bf'16 )
                         }
                     }
-                    s1 * 1/16
-                    s1 * 3/28
-                    s1 * 1/16
+                    s1 * 13/56
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
@@ -305,8 +301,7 @@
                             fs''16 ] )
                         }
                     }
-                    s1 * 1/16
-                    s1 * 1/24
+                    s1 * 5/48
                     {
                         {
                             \once \override Beam.positions = #'(8 . 8)
@@ -327,9 +322,7 @@
                             bf'32 )
                         }
                     }
-                    s1 * 1/24
-                    s1 * 1/7
-                    s1 * 1/24
+                    s1 * 19/84
                     {
                         {
                             \once \override Beam.positions = #'(8 . 8)
@@ -371,9 +364,7 @@
                             g''32 )
                         }
                     }
-                    s1 * 1/24
-                    s1 * 1/7
-                    s1 * 1/24
+                    s1 * 19/84
                     {
                         {
                             \once \override Beam.positions = #'(8 . 8)
@@ -522,8 +513,7 @@
                     \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
-                    s1 * 3/20
-                    s1 * 1/16
+                    s1 * 17/80
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/7 {
@@ -538,9 +528,7 @@
                             af'16 -\staccato ]
                         }
                     }
-                    s1 * 1/16
-                    s1 * 3/20
-                    s1 * 1/16
+                    s1 * 11/40
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/7 {
@@ -555,12 +543,7 @@
                             cs''16 -\staccato ]
                         }
                     }
-                    s1 * 1/16
-                    s1 * 3/20
-                    s1 * 1/16
-                    s1 * 1/24
-                    s1 * 1/8
-                    s1 * 1/24
+                    s1 * 29/60
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/7 {
@@ -578,11 +561,7 @@
                             b'16 -\staccato ]
                         }
                     }
-                    s1 * 1/24
-                    s1 * 1/8
-                    s1 * 1/24
-                    s1 * 1/8
-                    s1 * 1/24
+                    s1 * 3/8
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/7 {
@@ -600,8 +579,7 @@
                             b'16 -\staccato ]
                         }
                     }
-                    s1 * 1/24
-                    s1 * 1/8
+                    s1 * 1/6
                     \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {

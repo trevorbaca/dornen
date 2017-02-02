@@ -176,10 +176,7 @@
                             c'''16 ]
                         }
                     }
-                    s1 * 1/7
-                    s1 * 11/16
-                    s1 * 6/7
-                    s1 * 7/32
+                    s1 * 61/32
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 9/11 {
@@ -209,10 +206,7 @@
                             af''16
                         }
                     }
-                    s1 * 1/7
-                    s1 * 3/16
-                    s1 * 2/7
-                    s1 * 7/32
+                    s1 * 187/224
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/7 {
@@ -249,10 +243,7 @@
                             a32 ]
                         }
                     }
-                    s1 * 1/8
-                    s1 * 1/7
-                    s1 * 11/16
-                    s1 * 6/7
+                    s1 * 29/16
                     {
                         {
                             \once \override Beam.positions = #'(-7.5 . -7.5)
@@ -271,10 +262,7 @@
                             d''32
                         }
                     }
-                    s1 * 9/32
-                    s1 * 1/7
-                    s1 * 3/16
-                    s1 * 2/7
+                    s1 * 201/224
                     {
                         {
                             \set stemLeftBeamCount = #1
@@ -295,9 +283,7 @@
                     \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
-                    s1 * 7/32
-                    s1 * 1/8
-                    s1 * 1/7
+                    s1 * 109/224
                     {
                         {
                             \once \override Beam.positions = #'(-7.5 . -7.5)
@@ -390,10 +376,7 @@
                             cs'32 -\staccato ]
                         }
                     }
-                    s1 * 6/7
-                    s1 * 7/32
-                    s1 * 9/32
-                    s1 * 1/7
+                    s1 * 3/2
                     {
                         {
                             \once \override Beam.positions = #'(-6 . -6)
@@ -422,14 +405,11 @@
                             g'32 -\staccato ]
                         }
                     }
-                    s1 * 2/7
-                    s1 * 7/32
-                    s1 * 5/32
+                    s1 * 37/56
                     \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
-                    s1 * 7/32
-                    s1 * 1/8
+                    s1 * 11/32
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \tweak edge-height #'(0.7 . 0)
@@ -532,8 +512,7 @@
                             d''16 ]
                         }
                     }
-                    s1 * 7/32
-                    s1 * 9/32
+                    s1 * 1/2
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \tweak edge-height #'(0.7 . 0)
@@ -577,8 +556,7 @@
                             fs''16 ]
                         }
                     }
-                    s1 * 7/32
-                    s1 * 5/32
+                    s1 * 3/8
                     \bar "|"
                 }
             >>

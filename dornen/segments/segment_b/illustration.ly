@@ -435,9 +435,7 @@
                         }
                         \revert TupletNumber.text
                     }
-                    s1 * 1/14
-                    s1 * 7/32
-                    s1 * 1/14
+                    s1 * 81/224
                     {
                         \override TupletNumber.text = \markup {
                             \scale
@@ -534,9 +532,7 @@
                         }
                         \revert TupletNumber.text
                     }
-                    s1 * 1/7
-                    s1 * 7/32
-                    s1 * 1/7
+                    s1 * 113/224
                     {
                         {
                             \once \override Beam.positions = #'(-6.5 . -6.5)
@@ -636,8 +632,7 @@
                             e'32 -\staccato ]
                         }
                     }
-                    s1 * 7/32
-                    s1 * 1/7
+                    s1 * 81/224
                     {
                         \override TupletNumber.text = \markup {
                             \scale
@@ -828,9 +823,7 @@
                             g'32 -\staccato ]
                         }
                     }
-                    s1 * 7/32
-                    s1 * 13/16
-                    s1 * 7/32
+                    s1 * 5/4
                     {
                         {
                             \once \override Beam.positions = #'(-6.5 . -6.5)
@@ -1065,13 +1058,7 @@
                             b32 -\staccato ]
                         }
                     }
-                    s1 * 7/32
-                    s1 * 7/32
-                    s1 * 7/32
-                    s1 * 7/32
-                    s1 * 7/32
-                    s1 * 7/32
-                    s1 * 7/32
+                    s1 * 49/32
                     {
                         \override TupletNumber.text = \markup {
                             \scale
@@ -1232,13 +1219,11 @@
                             b32 -\staccato ]
                         }
                     }
-                    s1 * 7/32
-                    s1 * 3/16
+                    s1 * 13/32
                     \bar "|"
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
-                    s1 * 9/64
-                    s1 * 1/14
+                    s1 * 95/448
                     {
                         {
                             \once \override Beam.positions = #'(-8 . -8)
@@ -1255,9 +1240,7 @@
                             g'32
                         }
                     }
-                    s1 * 1/14
-                    s1 * 13/64
-                    s1 * 1/7
+                    s1 * 187/448
                     {
                         {
                             \once \override TextScript.color = #red
@@ -1274,12 +1257,7 @@
                             a'32 ]
                         }
                     }
-                    s1 * 1/7
-                    s1 * 1/8
-                    s1 * 1/14
-                    s1 * 3/32
-                    s1 * 3/14
-                    s1 * 5/16
+                    s1 * 215/224
                     {
                         {
                             \once \override Beam.positions = #'(-8 . -8)
@@ -1296,11 +1274,7 @@
                             g'32
                         }
                     }
-                    s1 * 1/7
-                    s1 * 13/64
-                    s1 * 15/32
-                    s1 * 5/14
-                    s1 * 3/16
+                    s1 * 87/64
                     {
                         {
                             \once \override TextScript.color = #red
@@ -1334,9 +1308,7 @@
                             g'32
                         }
                     }
-                    s1 * 5/16
-                    s1 * 5/16
-                    s1 * 1/2
+                    s1 * 9/8
                     {
                         {
                             \once \override TextScript.color = #red
@@ -1441,8 +1413,7 @@
                             cs''32
                         }
                     }
-                    s1 * 13/64
-                    s1 * 1/2
+                    s1 * 45/64
                     {
                         {
                             \set stemLeftBeamCount = #1
@@ -1605,8 +1576,7 @@
                             c''16
                         }
                     }
-                    s1 * 5/16
-                    s1 * 7/32
+                    s1 * 17/32
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \tweak edge-height #'(0.7 . 0)
@@ -1624,8 +1594,7 @@
                             fs''16
                         }
                     }
-                    s1 * 13/64
-                    s1 * 15/32
+                    s1 * 43/64
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \tweak edge-height #'(0.7 . 0)
@@ -1669,8 +1638,7 @@
                             f'16
                         }
                     }
-                    s1 * 3/16
-                    s1 * 7/32
+                    s1 * 13/32
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
@@ -1779,21 +1747,7 @@
                             d'16 ]
                         }
                     }
-                    s1 * 7/32
-                    s1 * 5/16
-                    s1 * 5/16
-                    s1 * 1/2
-                    s1 * 7/32
-                    s1 * 7/32
-                    s1 * 7/32
-                    s1 * 7/32
-                    s1 * 7/32
-                    s1 * 7/32
-                    s1 * 7/32
-                    s1 * 13/64
-                    s1 * 1/2
-                    s1 * 7/32
-                    s1 * 3/16
+                    s1 * 255/64
                     \bar "|"
                 }
             >>

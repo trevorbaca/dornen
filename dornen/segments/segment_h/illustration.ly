@@ -327,8 +327,7 @@
                             af16 ]
                         }
                     }
-                    s1 * 11/16
-                    s1 * 11/16
+                    s1 * 11/8
                     {
                         {
                             \once \override Beam.positions = #'(8 . 8)
@@ -353,8 +352,7 @@
                             e''32
                         }
                     }
-                    s1 * 5/28
-                    s1 * 15/64
+                    s1 * 185/448
                     {
                         {
                             \once \override Beam.positions = #'(8 . 8)
@@ -379,8 +377,7 @@
                             e''32
                         }
                     }
-                    s1 * 3/14
-                    s1 * 9/32
+                    s1 * 111/224
                     {
                         {
                             \once \override Beam.positions = #'(8 . 8)
@@ -482,15 +479,7 @@
                     \bar "|"
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
-                    s1 * 3/16
-                    s1 * 3/16
-                    s1 * 3/16
-                    s1 * 3/16
-                    s1 * 3/16
-                    s1 * 1/8
-                    s1 * 11/16
-                    s1 * 11/16
-                    s1 * 5/32
+                    s1 * 83/32
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/7 {
@@ -634,8 +623,7 @@
                     }
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
-                    s1 * 3/16
-                    s1 * 3/16
+                    s1 * 3/8
                     {
                         \override TupletNumber.text = \markup {
                             \scale
@@ -684,9 +672,7 @@
                         }
                         \revert TupletNumber.text
                     }
-                    s1 * 3/16
-                    s1 * 3/16
-                    s1 * 1/8
+                    s1 * 1/2
                     {
                         \override TupletNumber.text = \markup {
                             \scale
@@ -849,16 +835,7 @@
                         }
                         \revert TupletNumber.text
                     }
-                    s1 * 5/32
-                    s1 * 5/28
-                    s1 * 15/64
-                    s1 * 5/32
-                    s1 * 3/14
-                    s1 * 9/32
-                    s1 * 3/16
-                    s1 * 39/112
-                    s1 * 3/16
-                    s1 * 1/10
+                    s1 * 4579/2240
                     \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {

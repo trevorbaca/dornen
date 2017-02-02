@@ -123,36 +123,28 @@ def make_anchor_figure_maker():
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
-                                    e'8.
-                                }
+                                e'8.
                             }
                             {
-                                {
-                                    fs'8. [
-                                    d'8.
-                                    ef'8.
-                                    f'8.
-                                    a'8.
-                                    af'8.
-                                    c'8. ]
-                                }
+                                fs'8. [
+                                d'8.
+                                ef'8.
+                                f'8.
+                                a'8.
+                                af'8.
+                                c'8. ]
                             }
                             {
-                                {
-                                    b'8.
-                                }
+                                b'8.
                             }
                             {
-                                {
-                                    bf'8. [
-                                    g'8.
-                                    a'8.
-                                    af'8.
-                                    c'8.
-                                    f'8. ]
-                                    \bar "|"
-                                }
+                                bf'8. [
+                                g'8.
+                                a'8.
+                                af'8.
+                                c'8.
+                                f'8. ]
+                                \bar "|"
                             }
                         }
                     }

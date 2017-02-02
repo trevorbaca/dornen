@@ -252,8 +252,7 @@
                             f'32. -\tenuto ]
                         }
                     }
-                    s1 * 1/16
-                    s1 * 3/20
+                    s1 * 17/80
                     {
                         {
                             r8
@@ -1307,9 +1306,7 @@
                             f16 -\accent [
                         }
                     }
-                    s1 * 3/16
-                    s1 * 3/20
-                    s1 * 3/32
+                    s1 * 69/160
                     {
                         {
                             \once \override Script.direction = #down
@@ -1318,19 +1315,11 @@
                             a16 -\accent ]
                         }
                     }
-                    s1 * 3/20
-                    s1 * 3/8
-                    s1 * 15/32
-                    s1 * 5/8
-                    s1 * 25/32
-                    s1 * 15/16
-                    s1 * 125/64
+                    s1 * 1693/320
                     \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
-                    s1 * 3/32
-                    s1 * 1/16
-                    s1 * 3/16
+                    s1 * 11/32
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
@@ -1342,8 +1331,7 @@
                             d''16 -\staccato ]
                         }
                     }
-                    s1 * 3/32
-                    s1 * 1/16
+                    s1 * 5/32
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
@@ -1355,12 +1343,7 @@
                             c''16 -\staccato ]
                         }
                     }
-                    s1 * 3/8
-                    s1 * 15/32
-                    s1 * 5/8
-                    s1 * 25/32
-                    s1 * 15/16
-                    s1 * 125/64
+                    s1 * 329/64
                     \bar "|"
                 }
             >>

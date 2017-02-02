@@ -143,78 +143,70 @@ def make_third_figure_maker():
                     \context ViolinMusicStaff = "Violin Music Staff" {
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    cs'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    c'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    bf'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    f'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    af'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    fs'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    b'2
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                cs'2
                             }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    d'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    e'2
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                c'2
                             }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    ef'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    a'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    af'2
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                bf'2
                             }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    fs'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    b'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    d'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    f'2
-                                    \bar "|"
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                f'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                af'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                fs'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                b'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                d'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                e'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                ef'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                a'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                af'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                fs'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                b'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                d'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                f'2
+                                \bar "|"
                             }
                         }
                     }
@@ -353,62 +345,54 @@ def make_third_figure_maker():
                     \context ViolinMusicStaff = "Violin Music Staff" {
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    cs'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    c'2
-                                    bf'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    f'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    af'2
-                                    fs'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    b'2
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                cs'2
                             }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    d'2
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                c'2
+                                bf'2
                             }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    ef'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    a'2
-                                    af'2
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                f'2
                             }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    fs'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    b'2
-                                    d'2
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 2/3 {
-                                    f'2
-                                    \bar "|"
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                af'2
+                                fs'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                b'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                d'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                ef'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                a'2
+                                af'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                fs'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                b'2
+                                d'2
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 2/3 {
+                                f'2
+                                \bar "|"
                             }
                         }
                     }

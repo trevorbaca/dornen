@@ -123,64 +123,56 @@ def make_glissando_scatto_figure_maker():
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
-                                    e'16
-                                }
+                                e'16
+                            }
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 11/13 {
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #2
+                                fs'16 [ \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                d'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                ef'16 \glissando
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #2
+                                f'32 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                a'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                af'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #0
+                                c'16 ]
                             }
                             {
-                                \tweak text #tuplet-number::calc-fraction-text
-                                \times 11/13 {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #2
-                                    fs'16 [ \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    d'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    ef'16 \glissando
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #2
-                                    f'32 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    a'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    af'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #0
-                                    c'16 ]
-                                }
+                                b'16
                             }
-                            {
-                                {
-                                    b'16
-                                }
-                            }
-                            {
-                                \tweak text #tuplet-number::calc-fraction-text
-                                \times 9/11 {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #2
-                                    bf'16 [ \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    g'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    a'16 \glissando
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #2
-                                    af'32 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    c'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #0
-                                    f'16 ]
-                                    \bar "|"
-                                }
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 9/11 {
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #2
+                                bf'16 [ \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                g'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                a'16 \glissando
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #2
+                                af'32 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                c'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #0
+                                f'16 ]
+                                \bar "|"
                             }
                         }
                     }
@@ -300,126 +292,120 @@ def make_glissando_scatto_figure_maker():
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #2
-                                    e'16 [ \glissando
-                                }
-                                \tweak text #tuplet-number::calc-fraction-text
-                                \times 11/13 {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #2
-                                    fs'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    d'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    ef'16 \glissando
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #2
-                                    f'32 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    a'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    af'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #1
-                                    c'16 \glissando
-                                }
-                                {
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #0
-                                    b'16 ]
-                                }
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #2
+                                e'16 [ \glissando
+                            }
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 11/13 {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #2
+                                fs'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                d'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                ef'16 \glissando
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #2
+                                f'32 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                a'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                af'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #1
+                                c'16 \glissando
                             }
                             {
-                                \tweak text #tuplet-number::calc-fraction-text
-                                \times 11/13 {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #2
-                                    fs'16 [ \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    d'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    ef'16 \glissando
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #2
-                                    f'32 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    a'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    af'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #1
-                                    c'16 \glissando
-                                }
-                                {
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #1
-                                    b'16 \glissando
-                                }
-                                \tweak text #tuplet-number::calc-fraction-text
-                                \times 9/11 {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #2
-                                    bf'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    g'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    a'16 \glissando
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #2
-                                    af'32 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    c'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #0
-                                    f'16 ]
-                                }
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #0
+                                b'16 ]
+                            }
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 11/13 {
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #2
+                                fs'16 [ \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                d'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                ef'16 \glissando
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #2
+                                f'32 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                a'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                af'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #1
+                                c'16 \glissando
                             }
                             {
-                                {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #2
-                                    b'16 [ \glissando
-                                }
-                                \tweak text #tuplet-number::calc-fraction-text
-                                \times 9/11 {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #2
-                                    bf'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    g'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    a'16 \glissando
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #2
-                                    af'32 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    c'16 \glissando
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #1
-                                    f'16 \glissando
-                                }
-                                {
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #0
-                                    e'16 ]
-                                    \bar "|"
-                                }
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #1
+                                b'16 \glissando
+                            }
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 9/11 {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #2
+                                bf'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                g'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                a'16 \glissando
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #2
+                                af'32 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                c'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #0
+                                f'16 ]
+                            }
+                            {
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #2
+                                b'16 [ \glissando
+                            }
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 9/11 {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #2
+                                bf'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                g'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                a'16 \glissando
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #2
+                                af'32 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                c'16 \glissando
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #1
+                                f'16 \glissando
+                            }
+                            {
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #0
+                                e'16 ]
+                                \bar "|"
                             }
                         }
                     }

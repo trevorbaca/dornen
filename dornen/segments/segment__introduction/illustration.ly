@@ -270,8 +270,7 @@
                             b8.
                         }
                     }
-                    s1 * 1/32
-                    s1 * 3/32
+                    s1 * 1/8
                     {
                         {
                             \set stemLeftBeamCount = #1
@@ -312,11 +311,7 @@
                             c'8. ]
                         }
                     }
-                    s1 * 1/32
-                    s1 * 1/32
-                    s1 * 9/64
-                    s1 * 7/64
-                    s1 * 3/16
+                    s1 * 1/2
                     \bar "|"
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
@@ -385,10 +380,7 @@
                             fs''32 [
                         }
                     }
-                    s1 * 3/32
-                    s1 * 3/4
-                    s1 * 17/64
-                    s1 * 3/8
+                    s1 * 95/64
                     {
                         {
                             \acciaccatura {
@@ -440,29 +432,11 @@
                             g''32 ]
                         }
                     }
-                    s1 * 9/64
-                    s1 * 7/64
-                    s1 * 3/16
+                    s1 * 7/16
                     \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
-                    s1 * 3/16
-                    s1 * 1/32
-                    s1 * 3/16
-                    s1 * 1/32
-                    s1 * 3/8
-                    s1 * 1/32
-                    s1 * 3/8
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 3/4
-                    s1 * 17/64
-                    s1 * 3/8
-                    s1 * 1/32
-                    s1 * 3/8
-                    s1 * 1/32
-                    s1 * 1/32
-                    s1 * 9/64
+                    s1 * 107/32
                     {
                         \override TupletNumber.text = \markup {
                             \scale
@@ -576,14 +550,7 @@
                     }
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
-                    s1 * 3/16
-                    s1 * 1/32
-                    s1 * 3/16
-                    s1 * 1/32
-                    s1 * 3/8
-                    s1 * 1/32
-                    s1 * 3/8
-                    s1 * 1/32
+                    s1 * 5/4
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
@@ -681,11 +648,7 @@
                             f''64 ] )
                         }
                     }
-                    s1 * 3/8
-                    s1 * 1/32
-                    s1 * 3/8
-                    s1 * 1/32
-                    s1 * 1/32
+                    s1 * 27/32
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
@@ -727,8 +690,7 @@
                             a''64 ] )
                         }
                     }
-                    s1 * 7/64
-                    s1 * 3/16
+                    s1 * 19/64
                     \bar "|"
                 }
             >>

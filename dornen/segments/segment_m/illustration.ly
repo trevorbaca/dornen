@@ -465,10 +465,7 @@
                             cs'32. -\tenuto
                         }
                     }
-                    s1 * 3/20
-                    s1 * 1/16
-                    s1 * 3/20
-                    s1 * 1/8
+                    s1 * 39/80
                     {
                         {
                             \once \override Beam.positions = #'(10 . 10)
@@ -503,10 +500,7 @@
                             cs'32. -\tenuto
                         }
                     }
-                    s1 * 3/20
-                    s1 * 1/16
-                    s1 * 3/20
-                    s1 * 1/8
+                    s1 * 39/80
                     {
                         {
                             \once \override Beam.positions = #'(10 . 10)
@@ -541,10 +535,7 @@
                             cs'32. -\tenuto
                         }
                     }
-                    s1 * 3/20
-                    s1 * 1/16
-                    s1 * 3/20
-                    s1 * 1/8
+                    s1 * 39/80
                     {
                         {
                             \once \override Beam.positions = #'(10 . 10)
@@ -574,10 +565,7 @@
                             cs'32. -\tenuto
                         }
                     }
-                    s1 * 3/20
-                    s1 * 1/16
-                    s1 * 3/20
-                    s1 * 1/8
+                    s1 * 39/80
                     {
                         {
                             \once \override Beam.positions = #'(10 . 10)
@@ -607,10 +595,7 @@
                             cs'32. -\tenuto
                         }
                     }
-                    s1 * 3/20
-                    s1 * 1/16
-                    s1 * 3/20
-                    s1 * 1/8
+                    s1 * 39/80
                     {
                         {
                             \once \override Beam.positions = #'(10 . 10)
@@ -636,10 +621,7 @@
                             cs'32. -\tenuto ]
                         }
                     }
-                    s1 * 3/20
-                    s1 * 1/16
-                    s1 * 3/20
-                    s1 * 1/8
+                    s1 * 39/80
                     {
                         {
                             r8
@@ -688,10 +670,7 @@
                     }
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
-                    s1 * 3/32
-                    s1 * 3/20
-                    s1 * 1/16
-                    s1 * 3/20
+                    s1 * 73/160
                     {
                         {
                             \once \override Beam.positions = #'(-5.5 . -5.5)
@@ -712,12 +691,7 @@
                             c'''32 ] )
                         }
                     }
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 3/20
-                    s1 * 1/16
-                    s1 * 3/20
+                    s1 * 93/160
                     {
                         {
                             \once \override Beam.positions = #'(-5.5 . -5.5)
@@ -738,12 +712,7 @@
                             c'''32 ] )
                         }
                     }
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 3/20
-                    s1 * 1/16
-                    s1 * 3/20
+                    s1 * 93/160
                     {
                         {
                             \once \override Beam.positions = #'(-5.5 . -5.5)
@@ -764,12 +733,7 @@
                             c'''32 ] )
                         }
                     }
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 3/20
-                    s1 * 1/16
-                    s1 * 3/20
+                    s1 * 93/160
                     {
                         {
                             \once \override Beam.positions = #'(-5.5 . -5.5)
@@ -790,12 +754,7 @@
                             c'''32 ] )
                         }
                     }
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 3/20
-                    s1 * 1/16
-                    s1 * 3/20
+                    s1 * 93/160
                     {
                         {
                             \once \override Beam.positions = #'(-5.5 . -5.5)
@@ -816,12 +775,7 @@
                             c'''32 ] )
                         }
                     }
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 3/20
-                    s1 * 1/16
-                    s1 * 3/20
+                    s1 * 93/160
                     {
                         {
                             \once \override Beam.positions = #'(-5.5 . -5.5)
@@ -842,83 +796,53 @@
                             c'''32 ] )
                         }
                     }
-                    s1 * 5/8
-                    s1 * 13/3
+                    s1 * 119/24
                     \bar "|."
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
-                    s1 * 3/32
-                    s1 * 3/20
+                    s1 * 39/160
                     {
                         {
                             \once \override Script.direction = #down
                             c'16 -\accent
                         }
                     }
-                    s1 * 3/20
-                    s1 * 1/8
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 3/20
+                    s1 * 103/160
                     {
                         {
                             \once \override Script.direction = #down
                             c'16 -\accent
                         }
                     }
-                    s1 * 3/20
-                    s1 * 1/8
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 3/20
+                    s1 * 103/160
                     {
                         {
                             \once \override Script.direction = #down
                             c'16 -\accent
                         }
                     }
-                    s1 * 3/20
-                    s1 * 1/8
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 3/20
+                    s1 * 103/160
                     {
                         {
                             \once \override Script.direction = #down
                             c'16 -\accent
                         }
                     }
-                    s1 * 3/20
-                    s1 * 1/8
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 3/20
+                    s1 * 103/160
                     {
                         {
                             \once \override Script.direction = #down
                             c'16 -\accent
                         }
                     }
-                    s1 * 3/20
-                    s1 * 1/8
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
-                    s1 * 3/20
+                    s1 * 103/160
                     {
                         {
                             \once \override Script.direction = #down
                             c'16 -\accent
                         }
                     }
-                    s1 * 3/20
-                    s1 * 1/8
-                    s1 * 5/8
-                    s1 * 13/3
+                    s1 * 157/30
                     \bar "|."
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
@@ -961,10 +885,7 @@
                             f''16 -\staccato ]
                         }
                     }
-                    s1 * 1/8
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
+                    s1 * 11/32
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
@@ -1003,10 +924,7 @@
                             f''16 -\staccato ]
                         }
                     }
-                    s1 * 1/8
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
+                    s1 * 11/32
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
@@ -1045,10 +963,7 @@
                             f''16 -\staccato ]
                         }
                     }
-                    s1 * 1/8
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
+                    s1 * 11/32
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
@@ -1087,10 +1002,7 @@
                             f''16 -\staccato ]
                         }
                     }
-                    s1 * 1/8
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
+                    s1 * 11/32
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
@@ -1129,10 +1041,7 @@
                             f''16 -\staccato ]
                         }
                     }
-                    s1 * 1/8
-                    s1 * 3/32
-                    s1 * 1/32
-                    s1 * 3/32
+                    s1 * 11/32
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
@@ -1171,10 +1080,8 @@
                             f''16 -\staccato ]
                         }
                     }
-                    s1 * 1/8
-                    s1 * 5/8
-                    \once \override TextScript.extra-offset = #'(79 . 0)
-                    s1 * 13/3
+                    \once \override TextScript.extra-offset = #'(128 . -4)
+                    s1 * 61/12
                         _ \markup {
                             \with-color
                                 #black

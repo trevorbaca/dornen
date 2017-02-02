@@ -123,62 +123,54 @@ def make_sixty_fourth_figure_maker():
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
-                                    e'64 -\staccato
-                                }
+                                e'64 -\staccato
                             }
                             {
-                                {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #4
-                                    fs'64 -\staccato [
-                                    \set stemLeftBeamCount = #4
-                                    \set stemRightBeamCount = #4
-                                    d'64 -\staccato
-                                    \set stemLeftBeamCount = #4
-                                    \set stemRightBeamCount = #4
-                                    ef'64 -\staccato
-                                    \set stemLeftBeamCount = #4
-                                    \set stemRightBeamCount = #4
-                                    f'64 -\staccato
-                                    \set stemLeftBeamCount = #4
-                                    \set stemRightBeamCount = #4
-                                    a'64 -\staccato
-                                    \set stemLeftBeamCount = #4
-                                    \set stemRightBeamCount = #4
-                                    af'64 -\staccato
-                                    \set stemLeftBeamCount = #4
-                                    \set stemRightBeamCount = #0
-                                    c'64 -\staccato ]
-                                }
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #4
+                                fs'64 -\staccato [
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                d'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                ef'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                f'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                a'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                af'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #0
+                                c'64 -\staccato ]
                             }
                             {
-                                {
-                                    b'64 -\staccato
-                                }
+                                b'64 -\staccato
                             }
                             {
-                                {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #4
-                                    bf'64 -\staccato [
-                                    \set stemLeftBeamCount = #4
-                                    \set stemRightBeamCount = #4
-                                    g'64 -\staccato
-                                    \set stemLeftBeamCount = #4
-                                    \set stemRightBeamCount = #4
-                                    a'64 -\staccato
-                                    \set stemLeftBeamCount = #4
-                                    \set stemRightBeamCount = #4
-                                    af'64 -\staccato
-                                    \set stemLeftBeamCount = #4
-                                    \set stemRightBeamCount = #4
-                                    c'64 -\staccato
-                                    \set stemLeftBeamCount = #4
-                                    \set stemRightBeamCount = #0
-                                    f'64 -\staccato ]
-                                    \bar "|"
-                                }
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #4
+                                bf'64 -\staccato [
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                g'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                a'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                af'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                c'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #0
+                                f'64 -\staccato ]
+                                \bar "|"
                             }
                         }
                     }

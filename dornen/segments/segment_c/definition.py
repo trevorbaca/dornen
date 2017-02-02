@@ -14,73 +14,81 @@ assert len(design) == 10
 
 accumulator(
     accumulator.wave_32_figure_maker(
-        ('Guitar Music Voice 1', design[:2]),
+        design[:2],
         figure_name='W1',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.wave_64_figure_maker(
-        ('Guitar Music Voice 1', design[:2]),
+        design[:2],
         figure_name='W2',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.wave_64_figure_maker(
-        ('Guitar Music Voice 1', accumulator.merge(design[:2])),
+        accumulator.merge(design[:2]),
         figure_name='W3',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.glissando_scatto_figure_maker(
-        ('Guitar Music Voice 2', design[2:3]),
+        design[2:3],
         baca.markup.make_markup_specifier('glissando: attack first note only'),
         baca.overrides.beam_positions(-12),
         baca.pitch.register(-8),
         baca.pitch.displacement([0, 1]),
         extend_beam=True,
         figure_name='G1',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.inverted_wave_32_figure_maker(
-        ('Guitar Music Voice 1', design[3:6]),
+        design[3:6],
         baca.pitch.register(-8),
         figure_name='W4',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.running_figure_maker(
-        ('Guitar Music Voice 3', design[6:9]),
+        design[6:9],
         baca.pitch.register(0, -14),
         extend_beam=True,
         figure_name='R1',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.running_figure_maker(
-        ('Guitar Music Voice 3', design[7:10]),
+        design[7:10],
         baca.pitch.register(-14, 0),
         extend_beam=True,
         figure_name='R2',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.rest_figure_maker(
-        ('Guitar Music Voice 4', [3 * [None]]),
+        [3 * [None]],
         figure_name='S1',
+        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        ('Guitar Music Voice 4', 2 * [['Gb2']]),
+        2 * [['Gb2']],
         baca.markup.make_boxed_markup_specifier('2-finger tamb. trill'),
         baca.stem_tremolo(),
         baca.stem_up(),
@@ -92,80 +100,89 @@ accumulator(
             spanner=abjad.Tie(use_messiaen_style_ties=True)
             ),
         figure_name='T1',
+        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.running_figure_maker(
-        ('Guitar Music Voice 3', design[8:] + design[:1]),
+        design[8:] + design[:1],
         baca.pitch.register(-14, 0),
         figure_name='R3',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.wave_32_figure_maker(
-        ('Guitar Music Voice 1', design[1:3]),
+        design[1:3],
         baca.pitch.register(-20),
         figure_name='W5',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.glissando_scatto_figure_maker(
-        ('Guitar Music Voice 2', design[3:4]),
+        design[3:4],
         baca.pitch.register(-8),
         baca.pitch.displacement([0, 1]),
         extend_beam=True,
         figure_name='G2',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.wave_32_figure_maker(
-        ('Guitar Music Voice 1', design[1:4]),
+        design[1:4],
         baca.pitch.register(-20, -4),
         figure_name='W6',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.glissando_scatto_figure_maker(
-        ('Guitar Music Voice 2', design[4:5]),
+        design[4:5],
         baca.pitch.register(-8),
         baca.pitch.displacement([0, 1]),
         figure_name='G3',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.running_figure_maker(
-        ('Guitar Music Voice 3', design[5:8]),
+        design[5:8],
         baca.pitch.register(0, -14),
         extend_beam=True,
         figure_name='R4',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.running_figure_maker(
-        ('Guitar Music Voice 3', design[6:9]),
+        design[6:9],
         baca.pitch.register(-14, 0),
         extend_beam=True,
         figure_name='R5',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.rest_figure_maker(
-        ('Guitar Music Voice 4', [3 * [None]]),
+        [3 * [None]],
         figure_name='S2',
+        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        ('Guitar Music Voice 4', 2 * [['Gb2']]),
+        2 * [['Gb2']],
         baca.markup.make_boxed_markup_specifier('2-finger tamb. trill'),
         baca.stem_tremolo(),
         baca.stem_up(),
@@ -177,14 +194,16 @@ accumulator(
             spanner=abjad.Tie(use_messiaen_style_ties=True)
             ),
         figure_name='T2',
+        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.running_figure_maker(
-        ('Guitar Music Voice 3', design[7:10]),
+        design[7:10],
         baca.pitch.register(-14, 0),
         figure_name='R6',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 

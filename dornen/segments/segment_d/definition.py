@@ -14,7 +14,7 @@ assert len(design) == 14
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        ('Guitar Music Voice 1', design[:1]),
+        design[:1],
         baca.markup.make_markup_specifier(
             'slurs fluid; all other parts mechanically precise'
             ),
@@ -22,107 +22,121 @@ accumulator(
         #baca.overrides.rehearsal_mark_extra_offset((-10, -10)),
         extend_beam=True,
         figure_name='48_1',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        ('Guitar Music Voice 4', design[1:2]),
+        design[1:2],
         extend_beam=True,
         figure_name='20_1',
+        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        ('Guitar Music Voice 3', design[2:3]),
+        design[2:3],
         extend_beam=True,
         figure_name='16_1',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        ('Guitar Music Voice 4', design[3:4]),
+        design[3:4],
         baca.overrides.beam_positions(6),
         baca.overrides.stem_up(),
         figure_name='20_2',
+        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        ('Guitar Music Voice 2', design[4:5]),
+        design[4:5],
         baca.spanners.slur(),
         figure_name='32_1',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        ('Guitar Music Voice 1', design[5:6]),
+        design[5:6],
         figure_name='48_2',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        ('Guitar Music Voice 4', design[6:7]),
+        design[6:7],
         extend_beam=True,
         figure_name='20_3',
+        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        ('Guitar Music Voice 3', design[7:8]),
+        design[7:8],
         extend_beam=True,
         figure_name='16_2',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        ('Guitar Music Voice 4', design[8:9]),
+        design[8:9],
         figure_name='20_4',
+        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        ('Guitar Music Voice 2', design[9:10]),
+        design[9:10],
         baca.spanners.slur(),
         figure_name='32_2',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        ('Guitar Music Voice 1', design[10:11]),
+        design[10:11],
         extend_beam=True,
         figure_name='48_3',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        ('Guitar Music Voice 4', design[11:12]),
+        design[11:12],
         extend_beam=True,
         figure_name='20_5',
+        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        ('Guitar Music Voice 3', design[12:13]),
+        design[12:13],
         figure_name='16_3',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        ('Guitar Music Voice 4', design[13:14]),
+        design[13:14],
         figure_name='20_6',
+        voice_name='Guitar Music Voice 4',
         ),
     )
 
@@ -130,90 +144,100 @@ accumulator(
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        ('Guitar Music Voice 1', design[:1]),
+        design[:1],
         figure_name='48_1*',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        ('Guitar Music Voice 4', design[1:2]),
+        design[1:2],
         extend_beam=True,
         figure_name='20_1*',
+        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        ('Guitar Music Voice 3', design[2:3]),
+        design[2:3],
         extend_beam=True,
         figure_name='16_1*',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        ('Guitar Music Voice 4', design[3:4]),
+        design[3:4],
         baca.overrides.beam_positions(6),
         baca.overrides.stem_up(),
         figure_name='20_2*',
+        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        ('Guitar Music Voice 2', design[4:5]),
+        design[4:5],
         baca.spanners.slur(),
         figure_name='32_1*',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        ('Guitar Music Voice 1', design[5:6]),
+        design[5:6],
         extend_beam=True,
         figure_name='48_2*',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        ('Guitar Music Voice 4', design[6:7]),
+        design[6:7],
         extend_beam=True,
         figure_name='20_3*',
+        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        ('Guitar Music Voice 3', design[7:8]),
+        design[7:8],
         extend_beam=True,
         figure_name='16_2*',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.rest_figure_maker(
-        ('Guitar Music Voice 2', [3 * [None]]),
+        [3 * [None]],
         figure_name='R1',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 #accumulator(
 #    accumulator.tremolo_figure_maker(
-#        ('Guitar Music Voice 2', [[6, 6, 6, 6, 6]]),
+#        [[6, 6, 6, 6, 6]],
 #        baca.overrides.stem_up(),
 #        baca.overrides.tuplet_bracket_staff_padding(0),
 #        baca.overrides.tuplet_bracket_extra_offset((0, -0.5)),
 #        baca.overrides.tuplet_number_extra_offset((0, -0.5)),
 #        baca.pitch.register(-20),
 #        figure_name='T1',
+#        voice_name='Guitar Music Voice 2',
 #        ),
 #    )
 
 accumulator(
     accumulator.monad_figure_maker(
-        ('Guitar Music Voice 2', 2 * [['Gb2']]),
+        [['Gb2']],
         baca.markup.make_boxed_markup_specifier('2-finger tamb. trill'),
         baca.stem_tremolo(),
         baca.stem_up(),
@@ -225,50 +249,57 @@ accumulator(
             spanner=abjad.Tie(use_messiaen_style_ties=True)
             ),
         figure_name='2_1',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        ('Guitar Music Voice 4', design[8:9]),
+        design[8:9],
         figure_name='20_4*',
+        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.thirty_second_figure_maker(
-        ('Guitar Music Voice 2', design[9:10]),
+        design[9:10],
         baca.spanners.slur(),
         figure_name='32_2*',
+        voice_name='Guitar Music Voice 2',
         ),
     )
 
 accumulator(
     accumulator.forty_eighth_figure_maker(
-        ('Guitar Music Voice 1', design[10:11]),
+        design[10:11],
         figure_name='48_3*',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        ('Guitar Music Voice 4', design[11:12]),
+        design[11:12],
         extend_beam=True,
         figure_name='20_5*',
+        voice_name='Guitar Music Voice 4',
         ),
     )
 
 accumulator(
     accumulator.sixteenth_figure_maker(
-        ('Guitar Music Voice 3', design[12:13]),
+        design[12:13],
         figure_name='16_3*',
+        voice_name='Guitar Music Voice 3',
         ),
     )
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        ('Guitar Music Voice 4', design[13:14]),
+        design[13:14],
         figure_name='20_6*',
+        voice_name='Guitar Music Voice 4',
         ),
     )
 

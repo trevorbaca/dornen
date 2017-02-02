@@ -12,36 +12,41 @@ accumulator = dornen.tools.FigureAccumulator()
 
 accumulator(
     accumulator.monad_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='2_1',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='2_2',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='2_3',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='2_4',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='2_5',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
@@ -49,290 +54,331 @@ accumulator(
 
 accumulator(
     accumulator.monad_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         baca.markup.make_boxed_markup_specifier('3 fingers'),
         figure_name='3_1',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='3_2',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='3_3',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='3_4',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='3_5',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         baca.markup.make_boxed_markup_specifier('4 fingers'),
         figure_name='4_1',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='4_2',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='4_3',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='4_4',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='4_5',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='4_6',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [2 * ['E2']]),
+        [2 * ['E2']],
         figure_name='4_7',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='4_8',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='4_9',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='4_10',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [3 * ['E2']]),
+        [3 * ['E2']],
         figure_name='4_11',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='4_12',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='4_13',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='4_14',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [4 * ['E2']]),
+        [4 * ['E2']],
         figure_name='4_15',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [5 * ['E2']]),
+        [5 * ['E2']],
         figure_name='4_16',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [4 * ['E2']]),
+        [4 * ['E2']],
         figure_name='4_17',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [3 * ['E2']]),
+        [3 * ['E2']],
         figure_name='4_18',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [2 * ['E2']]),
+        [2 * ['E2']],
         figure_name='4_19',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [['E2']]),
+        [['E2']],
         figure_name='4_20',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [2 * ['E2']]),
+        [2 * ['E2']],
         figure_name='4_21',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [3 * ['E2']]),
+        [3 * ['E2']],
         figure_name='4_22',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [4 * ['E2']]),
+        [4 * ['E2']],
         figure_name='4_23',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [5 * ['E2']]),
+        [5 * ['E2']],
         figure_name='4_24',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [4 * ['E2']]),
+        [4 * ['E2']],
         figure_name='4_25',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [3 * ['E2']]),
+        [3 * ['E2']],
         figure_name='4_26',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [2 * ['E2']]),
+        [2 * ['E2']],
         figure_name='4_27',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [1 * ['E2']]),
+        [1 * ['E2']],
         figure_name='4_28',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [2 * ['E2']]),
+        [2 * ['E2']],
         figure_name='4_29',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [3 * ['E2']]),
+        [3 * ['E2']],
         figure_name='4_30',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [4 * ['E2']]),
+        [4 * ['E2']],
         figure_name='4_31',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [5 * ['E2']]),
+        [5 * ['E2']],
         figure_name='4_32',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [3 * ['E2']]),
+        [3 * ['E2']],
         figure_name='4_33',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [2 * ['E2']]),
+        [2 * ['E2']],
         figure_name='4_34',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        ('Guitar Music Voice 1', [1 * ['E2']]),
+        [1 * ['E2']],
         figure_name='4_35',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 
 accumulator(
     accumulator.rest_figure_maker(
-        ('Guitar Music Voice 1', [5 * [None]]),
+        [5 * [None]],
         figure_name='4_36',
+        voice_name='Guitar Music Voice 1',
         ),
     )
 

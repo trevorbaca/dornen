@@ -3,7 +3,7 @@ import abjad
 import baca
 
 
-class FigureAccumulator(abjad.abctools.AbjadObject):
+class FigureAccumulator(baca.tools.FigureAccumulator):
     r'''Figure-accumulator.
 
     ::
@@ -96,9 +96,6 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
     ### CLASS VARIABLES ###
 
     __slots__ = (
-        '_figure_names',
-        '_time_signatures',
-        '_voice_name_to_selections',
         'anchor_figure_maker',
         'delicatissimo_figure_maker',
         'default_figure_maker',
@@ -135,14 +132,8 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
 
     def __init__(self):
         import dornen
-        self._figure_names = []
-        self._time_signatures = []
-        self._voice_name_to_selections = {
-            'Guitar Music Voice 1': [],
-            'Guitar Music Voice 2': [],
-            'Guitar Music Voice 3': [],
-            'Guitar Music Voice 4': [],
-            }
+        superclass = super(FigureAccumulator, self)
+        superclass.__init__()
         self.anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
         self.default_figure_maker = dornen.tools.make_default_figure_maker()
         self.delicatissimo_figure_maker = \
@@ -181,103 +172,6 @@ class FigureAccumulator(abjad.abctools.AbjadObject):
         self.wave_64_figure_maker = \
             dornen.tools.make_wave_figure_maker(denominator=64)
         self.running_figure_maker = dornen.tools.make_running_figure_maker()
-
-    ### SPECIAL METHODS ###
-
-    def __call__(self, figure_contribution):
-        r'''Calls figure-accumulator on `figure_contribution`.
-
-        ..  container:: example
-
-            Raises exception on duplicate figure name:
-
-            ::
-
-                >>> accumulator = dornen.tools.FigureAccumulator()
-                >>> accumulator(
-                ...     accumulator.delicatissimo_figure_maker(
-                ...         [[0, 1, 2, 3, 4]],
-                ...         figure_name='D',
-                ...         voice_name='Guitar Music Voice 1',
-                ...         ),
-                ...     )
-                >>> accumulator(
-                ...     accumulator.delicatissimo_figure_maker(
-                ...         [[5, 6, 7, 8, 9]],
-                ...         figure_name='D',
-                ...         voice_name='Guitar Music Voice 1',
-                ...         ),
-                ...     )
-
-            ..  note:: Make exception raise again.
-
-        '''
-        assert isinstance(figure_contribution.selections, dict)
-        voice_name_to_selection_list = figure_contribution.selections
-        first_selection_list = voice_name_to_selection_list.values()
-        first_selection_list = list(first_selection_list)[0]
-        durations = [_.get_duration() for _ in first_selection_list]
-        duration = sum(durations)
-        items = self.voice_name_to_selections.items()
-        for voice_name_, selections_ in items:
-            if voice_name_ in voice_name_to_selection_list:
-                selection_list = voice_name_to_selection_list[voice_name_]
-                selections_.extend(selection_list)
-            else:
-                skip = abjad.scoretools.Skip(1)
-                multiplier = abjad.durationtools.Multiplier(duration)
-                abjad.attach(multiplier, skip)
-                selection_ = abjad.selectiontools.Selection([skip])
-                selections_.append(selection_)
-        self.time_signatures.append(figure_contribution.time_signature)
-        figure_name = self._get_figure_name(figure_contribution.selections)
-        if figure_name is not None:
-            if figure_name in self._figure_names:
-                message = 'duplicate figure name: {}.'
-                message = message.format(figure_name)
-                raise Exception(message)
-            self._figure_names.append(figure_name)
-
-    ### PRIVATE METHODS ###
-
-    @staticmethod
-    def _get_figure_name(argument):
-        for leaf in abjad.iterate(argument).by_leaf():
-            markups = abjad.inspect_(leaf).get_indicators(abjad.Markup)
-            for markup in markups:
-                if (isinstance(markup._annotation, str) and
-                    markup._annotation.startswith('figure name:')):
-                    annotation = markup._annotation
-                    figure_name = annotation[13:]
-                    return figure_name
-
-    def _populate_segment_maker(self, segment_maker):
-        items = self.voice_name_to_selections.items()
-        for voice_name, selections in items:
-            music = []
-            for selection in selections:
-                music.extend(selection)
-            complete_selection = abjad.selectiontools.Selection(music)
-            segment_maker.append_specifiers(
-                (voice_name, baca.select.stages(1, 1)),
-                baca.tools.RhythmSpecifier(
-                    rhythm_maker=complete_selection,
-                    ),
-                )
-
-    ### PUBLIC PROPERTIES ###
-
-    @property
-    def voice_name_to_selections(self):
-        r'''Dictionary of selections keyed by voice name.
-        '''
-        return self._voice_name_to_selections
-
-    @property
-    def time_signatures(self):
-        r'''Gets time signatures.
-        '''
-        return self._time_signatures
 
     ### PUBLIC METHODS ###
 

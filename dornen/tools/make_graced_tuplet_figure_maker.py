@@ -121,162 +121,156 @@ def make_graced_tuplet_figure_maker():
                     \context ViolinMusicStaff = "Violin Music Staff" {
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
-                            {
-                                \tweak text #tuplet-number::calc-fraction-text
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 8/7 {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #2
-                                    af'16 [
-                                }
-                                \tweak text #tuplet-number::calc-fraction-text
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 5/7 {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #2
-                                    cs'16
-                                    \acciaccatura {
-                                        c'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    bf'16
-                                    \acciaccatura {
-                                        f'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    af'16
-                                    \acciaccatura {
-                                        fs'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    b'16
-                                    \acciaccatura {
-                                        d'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    e'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #0
-                                    ef'16 ]
-                                }
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 8/7 {
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #2
+                                af'16 [
                             }
-                            {
-                                \tweak text #tuplet-number::calc-fraction-text
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 8/7 {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #2
-                                    cs'16 [
-                                    \acciaccatura {
-                                        c'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    bf'16
-                                    \acciaccatura {
-                                        f'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    af'16
-                                    \acciaccatura {
-                                        fs'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    b'16
-                                    \acciaccatura {
-                                        d'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    e'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #1
-                                    ef'16
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 5/7 {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #2
+                                cs'16
+                                \acciaccatura {
+                                    c'16
                                 }
-                                \tweak text #tuplet-number::calc-fraction-text
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 5/7 {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #2
-                                    a'16
-                                    \acciaccatura {
-                                        af'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    cs'16
-                                    \acciaccatura {
-                                        c'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    bf'16
-                                    \acciaccatura {
-                                        f'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    af'16
-                                    \acciaccatura {
-                                        fs'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    b'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #0
-                                    d'16 ]
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                bf'16
+                                \acciaccatura {
+                                    f'16
                                 }
-                            }
-                            {
-                                \tweak text #tuplet-number::calc-fraction-text
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 8/7 {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #2
-                                    a'16 [
-                                    \acciaccatura {
-                                        af'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    cs'16
-                                    \acciaccatura {
-                                        c'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    bf'16
-                                    \acciaccatura {
-                                        f'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    af'16
-                                    \acciaccatura {
-                                        fs'16
-                                    }
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #2
-                                    b'16
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                af'16
+                                \acciaccatura {
+                                    fs'16
+                                }
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                b'16
+                                \acciaccatura {
                                     d'16
                                 }
-                                \tweak text #tuplet-number::calc-fraction-text
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 5/7 {
-                                    \set stemLeftBeamCount = #2
-                                    \set stemRightBeamCount = #0
-                                    af'16 ]
-                                    \bar "|"
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                e'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #0
+                                ef'16 ]
+                            }
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 8/7 {
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #2
+                                cs'16 [
+                                \acciaccatura {
+                                    c'16
                                 }
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                bf'16
+                                \acciaccatura {
+                                    f'16
+                                }
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                af'16
+                                \acciaccatura {
+                                    fs'16
+                                }
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                b'16
+                                \acciaccatura {
+                                    d'16
+                                }
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                e'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #1
+                                ef'16
+                            }
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 5/7 {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #2
+                                a'16
+                                \acciaccatura {
+                                    af'16
+                                }
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                cs'16
+                                \acciaccatura {
+                                    c'16
+                                }
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                bf'16
+                                \acciaccatura {
+                                    f'16
+                                }
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                af'16
+                                \acciaccatura {
+                                    fs'16
+                                }
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                b'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #0
+                                d'16 ]
+                            }
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 8/7 {
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #2
+                                a'16 [
+                                \acciaccatura {
+                                    af'16
+                                }
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                cs'16
+                                \acciaccatura {
+                                    c'16
+                                }
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                bf'16
+                                \acciaccatura {
+                                    f'16
+                                }
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                af'16
+                                \acciaccatura {
+                                    fs'16
+                                }
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #2
+                                b'16
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #1
+                                d'16
+                            }
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 5/7 {
+                                \set stemLeftBeamCount = #2
+                                \set stemRightBeamCount = #0
+                                af'16 ]
+                                \bar "|"
                             }
                         }
                     }

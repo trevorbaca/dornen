@@ -546,11 +546,7 @@
                             c'32
                         }
                     }
-                    s1 * 3/16
-                    s1 * 9/64
-                    s1 * 3/8
-                    s1 * 4/5
-                    s1 * 5/32
+                    s1 * 531/320
                     {
                         \override TupletNumber.text = \markup {
                             \scale
@@ -758,18 +754,11 @@
                         }
                         \revert TupletNumber.text
                     }
-                    s1 * 1/8
-                    s1 * 5/32
-                    s1 * 3/16
-                    s1 * 3/8
-                    s1 * 4/5
-                    s1 * 9/64
+                    s1 * 571/320
                     \bar "|"
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
-                    s1 * 11/32
-                    s1 * 11/64
-                    s1 * 11/64
+                    s1 * 11/16
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/7 {
@@ -796,13 +785,7 @@
                             cs'''32
                         }
                     }
-                    s1 * 3/16
-                    s1 * 3/16
-                    s1 * 9/64
-                    s1 * 3/8
-                    s1 * 4/5
-                    s1 * 5/32
-                    s1 * 9/32
+                    s1 * 681/320
                     {
                         \times 2/3 {
                             \set stemLeftBeamCount = #1
@@ -827,19 +810,11 @@
                             bf''16 ]
                         }
                     }
-                    s1 * 5/32
-                    s1 * 3/16
-                    s1 * 3/8
-                    s1 * 4/5
-                    s1 * 9/64
+                    s1 * 531/320
                     \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
-                    s1 * 11/32
-                    s1 * 11/64
-                    s1 * 11/64
-                    s1 * 5/32
-                    s1 * 3/16
+                    s1 * 33/32
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
@@ -940,8 +915,7 @@
                             af''64 )
                         }
                     }
-                    s1 * 3/8
-                    s1 * 4/5
+                    s1 * 47/40
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
@@ -991,10 +965,7 @@
                             fs''64 ] )
                         }
                     }
-                    s1 * 9/32
-                    s1 * 1/8
-                    s1 * 3/8
-                    s1 * 1/8
+                    s1 * 29/32
                     {
                         {
                             \set stemLeftBeamCount = #0
@@ -1095,8 +1066,7 @@
                             ef''64 )
                         }
                     }
-                    s1 * 3/8
-                    s1 * 4/5
+                    s1 * 47/40
                     {
                         \times 4/5 {
                             \set stemLeftBeamCount = #1
@@ -1145,13 +1115,7 @@
                     }
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
-                    s1 * 11/32
-                    s1 * 11/64
-                    s1 * 11/64
-                    s1 * 5/32
-                    s1 * 3/16
-                    s1 * 3/16
-                    s1 * 9/64
+                    s1 * 87/64
                     {
                         {
                             r8
@@ -1184,13 +1148,7 @@
                             gf2 :32 \repeatTie
                         }
                     }
-                    s1 * 5/32
-                    s1 * 9/32
-                    s1 * 1/8
-                    s1 * 3/8
-                    s1 * 1/8
-                    s1 * 5/32
-                    s1 * 3/16
+                    s1 * 45/32
                     {
                         {
                             r8

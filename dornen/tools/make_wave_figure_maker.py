@@ -119,257 +119,251 @@ def make_wave_figure_maker(denominator=64, inverted=False):
                     \context ViolinMusicStaff = "Violin Music Staff" {
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
-                            {
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'16..
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'16..
                                                 }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
                                             }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #right
-                                    fs'64 * 2112/1024 [
-                                    d'64 * 1152/1024
-                                    ef'64 * 960/1024
-                                    f'64 * 832/1024
-                                    a'64 * 768/1024
-                                    af'64 * 704/1024
-                                    c'64 * 640/1024 ]
+                                        }
                                 }
-                                \revert TupletNumber.text
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #right
+                                fs'64 * 2112/1024 [
+                                d'64 * 1152/1024
+                                ef'64 * 960/1024
+                                f'64 * 832/1024
+                                a'64 * 768/1024
+                                af'64 * 704/1024
+                                c'64 * 640/1024 ]
                             }
-                            {
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'16..
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
+                            \revert TupletNumber.text
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'16..
                                                 }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
                                             }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #right
-                                    fs'64 * 2112/1024 [
-                                    d'64 * 1152/1024
-                                    ef'64 * 960/1024
-                                    f'64 * 832/1024
-                                    a'64 * 768/1024
-                                    af'64 * 704/1024
-                                    c'64 * 640/1024 ]
+                                        }
                                 }
-                                \revert TupletNumber.text
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'16.
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
-                                                }
-                                            }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #left
-                                    bf'64 * 320/1024 [
-                                    g'64 * 704/1024
-                                    a'64 * 960/1024
-                                    af'64 * 1216/1024
-                                    c'64 * 1408/1024
-                                    f'64 * 1536/1024 ]
-                                }
-                                \revert TupletNumber.text
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #right
+                                fs'64 * 2112/1024 [
+                                d'64 * 1152/1024
+                                ef'64 * 960/1024
+                                f'64 * 832/1024
+                                a'64 * 768/1024
+                                af'64 * 704/1024
+                                c'64 * 640/1024 ]
                             }
-                            {
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'16..
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
+                            \revert TupletNumber.text
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'16.
                                                 }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
                                             }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #right
-                                    fs'64 * 2112/1024 [
-                                    d'64 * 1152/1024
-                                    ef'64 * 960/1024
-                                    f'64 * 832/1024
-                                    a'64 * 768/1024
-                                    af'64 * 704/1024
-                                    c'64 * 640/1024 ]
+                                        }
                                 }
-                                \revert TupletNumber.text
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'16.
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
-                                                }
-                                            }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #left
-                                    bf'64 * 320/1024 [
-                                    g'64 * 704/1024
-                                    a'64 * 960/1024
-                                    af'64 * 1216/1024
-                                    c'64 * 1408/1024
-                                    f'64 * 1536/1024 ]
-                                }
-                                \revert TupletNumber.text
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'16..
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
-                                                }
-                                            }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #right
-                                    fs'64 * 2112/1024 [
-                                    d'64 * 1152/1024
-                                    ef'64 * 960/1024
-                                    f'64 * 832/1024
-                                    a'64 * 768/1024
-                                    af'64 * 704/1024
-                                    c'64 * 640/1024 ]
-                                    \bar "|"
-                                }
-                                \revert TupletNumber.text
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #left
+                                bf'64 * 320/1024 [
+                                g'64 * 704/1024
+                                a'64 * 960/1024
+                                af'64 * 1216/1024
+                                c'64 * 1408/1024
+                                f'64 * 1536/1024 ]
                             }
+                            \revert TupletNumber.text
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'16..
+                                                }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
+                                            }
+                                        }
+                                }
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #right
+                                fs'64 * 2112/1024 [
+                                d'64 * 1152/1024
+                                ef'64 * 960/1024
+                                f'64 * 832/1024
+                                a'64 * 768/1024
+                                af'64 * 704/1024
+                                c'64 * 640/1024 ]
+                            }
+                            \revert TupletNumber.text
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'16.
+                                                }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
+                                            }
+                                        }
+                                }
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #left
+                                bf'64 * 320/1024 [
+                                g'64 * 704/1024
+                                a'64 * 960/1024
+                                af'64 * 1216/1024
+                                c'64 * 1408/1024
+                                f'64 * 1536/1024 ]
+                            }
+                            \revert TupletNumber.text
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'16..
+                                                }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
+                                            }
+                                        }
+                                }
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #right
+                                fs'64 * 2112/1024 [
+                                d'64 * 1152/1024
+                                ef'64 * 960/1024
+                                f'64 * 832/1024
+                                a'64 * 768/1024
+                                af'64 * 704/1024
+                                c'64 * 640/1024 ]
+                                \bar "|"
+                            }
+                            \revert TupletNumber.text
                         }
                     }
                 >>
@@ -485,257 +479,251 @@ def make_wave_figure_maker(denominator=64, inverted=False):
                     \context ViolinMusicStaff = "Violin Music Staff" {
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
-                            {
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'16..
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'16..
                                                 }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
                                             }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #left
-                                    fs'64 * 320/1024 [
-                                    d'64 * 640/1024
-                                    ef'64 * 896/1024
-                                    f'64 * 1088/1024
-                                    a'64 * 1280/1024
-                                    af'64 * 1408/1024
-                                    c'64 * 1536/1024 ]
+                                        }
                                 }
-                                \revert TupletNumber.text
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #left
+                                fs'64 * 320/1024 [
+                                d'64 * 640/1024
+                                ef'64 * 896/1024
+                                f'64 * 1088/1024
+                                a'64 * 1280/1024
+                                af'64 * 1408/1024
+                                c'64 * 1536/1024 ]
                             }
-                            {
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'16..
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
+                            \revert TupletNumber.text
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'16..
                                                 }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
                                             }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #left
-                                    fs'64 * 320/1024 [
-                                    d'64 * 640/1024
-                                    ef'64 * 896/1024
-                                    f'64 * 1088/1024
-                                    a'64 * 1280/1024
-                                    af'64 * 1408/1024
-                                    c'64 * 1536/1024 ]
+                                        }
                                 }
-                                \revert TupletNumber.text
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'16.
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
-                                                }
-                                            }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #right
-                                    bf'64 * 2048/1024 [
-                                    g'64 * 1088/1024
-                                    a'64 * 896/1024
-                                    af'64 * 768/1024
-                                    c'64 * 704/1024
-                                    f'64 * 640/1024 ]
-                                }
-                                \revert TupletNumber.text
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #left
+                                fs'64 * 320/1024 [
+                                d'64 * 640/1024
+                                ef'64 * 896/1024
+                                f'64 * 1088/1024
+                                a'64 * 1280/1024
+                                af'64 * 1408/1024
+                                c'64 * 1536/1024 ]
                             }
-                            {
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'16..
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
+                            \revert TupletNumber.text
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'16.
                                                 }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
                                             }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #left
-                                    fs'64 * 320/1024 [
-                                    d'64 * 640/1024
-                                    ef'64 * 896/1024
-                                    f'64 * 1088/1024
-                                    a'64 * 1280/1024
-                                    af'64 * 1408/1024
-                                    c'64 * 1536/1024 ]
+                                        }
                                 }
-                                \revert TupletNumber.text
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'16.
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
-                                                }
-                                            }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #right
-                                    bf'64 * 2048/1024 [
-                                    g'64 * 1088/1024
-                                    a'64 * 896/1024
-                                    af'64 * 768/1024
-                                    c'64 * 704/1024
-                                    f'64 * 640/1024 ]
-                                }
-                                \revert TupletNumber.text
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'16..
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
-                                                }
-                                            }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #left
-                                    fs'64 * 320/1024 [
-                                    d'64 * 640/1024
-                                    ef'64 * 896/1024
-                                    f'64 * 1088/1024
-                                    a'64 * 1280/1024
-                                    af'64 * 1408/1024
-                                    c'64 * 1536/1024 ]
-                                    \bar "|"
-                                }
-                                \revert TupletNumber.text
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #right
+                                bf'64 * 2048/1024 [
+                                g'64 * 1088/1024
+                                a'64 * 896/1024
+                                af'64 * 768/1024
+                                c'64 * 704/1024
+                                f'64 * 640/1024 ]
                             }
+                            \revert TupletNumber.text
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'16..
+                                                }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
+                                            }
+                                        }
+                                }
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #left
+                                fs'64 * 320/1024 [
+                                d'64 * 640/1024
+                                ef'64 * 896/1024
+                                f'64 * 1088/1024
+                                a'64 * 1280/1024
+                                af'64 * 1408/1024
+                                c'64 * 1536/1024 ]
+                            }
+                            \revert TupletNumber.text
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'16.
+                                                }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
+                                            }
+                                        }
+                                }
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #right
+                                bf'64 * 2048/1024 [
+                                g'64 * 1088/1024
+                                a'64 * 896/1024
+                                af'64 * 768/1024
+                                c'64 * 704/1024
+                                f'64 * 640/1024 ]
+                            }
+                            \revert TupletNumber.text
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'16..
+                                                }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
+                                            }
+                                        }
+                                }
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #left
+                                fs'64 * 320/1024 [
+                                d'64 * 640/1024
+                                ef'64 * 896/1024
+                                f'64 * 1088/1024
+                                a'64 * 1280/1024
+                                af'64 * 1408/1024
+                                c'64 * 1536/1024 ]
+                                \bar "|"
+                            }
+                            \revert TupletNumber.text
                         }
                     }
                 >>
@@ -851,257 +839,251 @@ def make_wave_figure_maker(denominator=64, inverted=False):
                     \context ViolinMusicStaff = "Violin Music Staff" {
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
-                            {
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'8..
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'8..
                                                 }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
                                             }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #right
-                                    fs'32 * 2080/1024 [
-                                    d'32 * 1152/1024
-                                    ef'32 * 960/1024
-                                    f'32 * 832/1024
-                                    a'32 * 768/1024
-                                    af'32 * 704/1024
-                                    c'32 * 672/1024 ]
+                                        }
                                 }
-                                \revert TupletNumber.text
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #right
+                                fs'32 * 2080/1024 [
+                                d'32 * 1152/1024
+                                ef'32 * 960/1024
+                                f'32 * 832/1024
+                                a'32 * 768/1024
+                                af'32 * 704/1024
+                                c'32 * 672/1024 ]
                             }
-                            {
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'8..
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
+                            \revert TupletNumber.text
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'8..
                                                 }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
                                             }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #right
-                                    fs'32 * 2080/1024 [
-                                    d'32 * 1152/1024
-                                    ef'32 * 960/1024
-                                    f'32 * 832/1024
-                                    a'32 * 768/1024
-                                    af'32 * 704/1024
-                                    c'32 * 672/1024 ]
+                                        }
                                 }
-                                \revert TupletNumber.text
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'8.
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
-                                                }
-                                            }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #left
-                                    bf'32 * 320/1024 [
-                                    g'32 * 704/1024
-                                    a'32 * 960/1024
-                                    af'32 * 1184/1024
-                                    c'32 * 1376/1024
-                                    f'32 * 1600/1024 ]
-                                }
-                                \revert TupletNumber.text
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #right
+                                fs'32 * 2080/1024 [
+                                d'32 * 1152/1024
+                                ef'32 * 960/1024
+                                f'32 * 832/1024
+                                a'32 * 768/1024
+                                af'32 * 704/1024
+                                c'32 * 672/1024 ]
                             }
-                            {
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'8..
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
+                            \revert TupletNumber.text
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'8.
                                                 }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
                                             }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #right
-                                    fs'32 * 2080/1024 [
-                                    d'32 * 1152/1024
-                                    ef'32 * 960/1024
-                                    f'32 * 832/1024
-                                    a'32 * 768/1024
-                                    af'32 * 704/1024
-                                    c'32 * 672/1024 ]
+                                        }
                                 }
-                                \revert TupletNumber.text
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'8.
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
-                                                }
-                                            }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #left
-                                    bf'32 * 320/1024 [
-                                    g'32 * 704/1024
-                                    a'32 * 960/1024
-                                    af'32 * 1184/1024
-                                    c'32 * 1376/1024
-                                    f'32 * 1600/1024 ]
-                                }
-                                \revert TupletNumber.text
-                                \override TupletNumber.text = \markup {
-                                    \scale
-                                        #'(0.75 . 0.75)
-                                        \score
-                                            {
-                                                \new Score \with {
-                                                    \override SpacingSpanner.spacing-increment = #0.5
-                                                    proportionalNotationDuration = ##f
-                                                } <<
-                                                    \new RhythmicStaff \with {
-                                                        \remove Time_signature_engraver
-                                                        \remove Staff_symbol_engraver
-                                                        \override Stem.direction = #up
-                                                        \override Stem.length = #5
-                                                        \override TupletBracket.bracket-visibility = ##t
-                                                        \override TupletBracket.direction = #up
-                                                        \override TupletBracket.padding = #1.25
-                                                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                        tupletFullLength = ##t
-                                                    } {
-                                                        c'8..
-                                                    }
-                                                >>
-                                                \layout {
-                                                    indent = #0
-                                                    ragged-right = ##t
-                                                }
-                                            }
-                                    }
-                                \times 1/1 {
-                                    \once \override Beam.grow-direction = #right
-                                    fs'32 * 2080/1024 [
-                                    d'32 * 1152/1024
-                                    ef'32 * 960/1024
-                                    f'32 * 832/1024
-                                    a'32 * 768/1024
-                                    af'32 * 704/1024
-                                    c'32 * 672/1024 ]
-                                    \bar "|"
-                                }
-                                \revert TupletNumber.text
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #left
+                                bf'32 * 320/1024 [
+                                g'32 * 704/1024
+                                a'32 * 960/1024
+                                af'32 * 1184/1024
+                                c'32 * 1376/1024
+                                f'32 * 1600/1024 ]
                             }
+                            \revert TupletNumber.text
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'8..
+                                                }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
+                                            }
+                                        }
+                                }
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #right
+                                fs'32 * 2080/1024 [
+                                d'32 * 1152/1024
+                                ef'32 * 960/1024
+                                f'32 * 832/1024
+                                a'32 * 768/1024
+                                af'32 * 704/1024
+                                c'32 * 672/1024 ]
+                            }
+                            \revert TupletNumber.text
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'8.
+                                                }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
+                                            }
+                                        }
+                                }
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #left
+                                bf'32 * 320/1024 [
+                                g'32 * 704/1024
+                                a'32 * 960/1024
+                                af'32 * 1184/1024
+                                c'32 * 1376/1024
+                                f'32 * 1600/1024 ]
+                            }
+                            \revert TupletNumber.text
+                            \override TupletNumber.text = \markup {
+                                \scale
+                                    #'(0.75 . 0.75)
+                                    \score
+                                        {
+                                            \new Score \with {
+                                                \override SpacingSpanner.spacing-increment = #0.5
+                                                proportionalNotationDuration = ##f
+                                            } <<
+                                                \new RhythmicStaff \with {
+                                                    \remove Time_signature_engraver
+                                                    \remove Staff_symbol_engraver
+                                                    \override Stem.direction = #up
+                                                    \override Stem.length = #5
+                                                    \override TupletBracket.bracket-visibility = ##t
+                                                    \override TupletBracket.direction = #up
+                                                    \override TupletBracket.padding = #1.25
+                                                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                    tupletFullLength = ##t
+                                                } {
+                                                    c'8..
+                                                }
+                                            >>
+                                            \layout {
+                                                indent = #0
+                                                ragged-right = ##t
+                                            }
+                                        }
+                                }
+                            \times 1/1 {
+                                \once \override Beam.grow-direction = #right
+                                fs'32 * 2080/1024 [
+                                d'32 * 1152/1024
+                                ef'32 * 960/1024
+                                f'32 * 832/1024
+                                a'32 * 768/1024
+                                af'32 * 704/1024
+                                c'32 * 672/1024 ]
+                                \bar "|"
+                            }
+                            \revert TupletNumber.text
                         }
                     }
                 >>

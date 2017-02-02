@@ -133,54 +133,44 @@ def make_graced_rest_figure_maker():
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
-                                    af'8
-                                }
+                                af'8
                             }
                             {
-                                {
-                                    \acciaccatura {
-                                        cs'16 [
-                                        c'16
-                                        bf'16
-                                        f'16 ]
-                                    }
-                                    r8
+                                \acciaccatura {
+                                    cs'16 [
+                                    c'16
+                                    bf'16
+                                    f'16 ]
                                 }
+                                r8
                             }
                             {
-                                {
-                                    \acciaccatura {
-                                        af'16 [
-                                        fs'16
-                                        b'16
-                                        d'16 ]
-                                    }
-                                    r8
+                                \acciaccatura {
+                                    af'16 [
+                                    fs'16
+                                    b'16
+                                    d'16 ]
                                 }
+                                r8
                             }
                             {
-                                {
-                                    \acciaccatura {
-                                        e'16 [
-                                        ef'16
-                                        a'16
-                                        af'16 ]
-                                    }
-                                    r8
+                                \acciaccatura {
+                                    e'16 [
+                                    ef'16
+                                    a'16
+                                    af'16 ]
                                 }
+                                r8
                             }
                             {
-                                {
-                                    \acciaccatura {
-                                        fs'16 [
-                                        b'16
-                                        d'16
-                                        f'16 ]
-                                    }
-                                    r8
-                                    \bar "|"
+                                \acciaccatura {
+                                    fs'16 [
+                                    b'16
+                                    d'16
+                                    f'16 ]
                                 }
+                                r8
+                                \bar "|"
                             }
                         }
                     }
@@ -301,109 +291,101 @@ def make_graced_rest_figure_maker():
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
-                                    af'8
-                                }
-                                {
-                                    \acciaccatura {
-                                        cs'16 [
-                                        c'16
-                                        bf'16
-                                        f'16 ]
-                                    }
-                                    r8
-                                }
-                                {
-                                    \acciaccatura {
-                                        af'16 [
-                                        fs'16
-                                        b'16
-                                        d'16 ]
-                                    }
-                                    r8
-                                }
+                                af'8
                             }
                             {
-                                {
-                                    \acciaccatura {
-                                        cs'16 [
-                                        c'16
-                                        bf'16
-                                        f'16 ]
-                                    }
-                                    r8
+                                \acciaccatura {
+                                    cs'16 [
+                                    c'16
+                                    bf'16
+                                    f'16 ]
                                 }
-                                {
-                                    \acciaccatura {
-                                        af'16 [
-                                        fs'16
-                                        b'16
-                                        d'16 ]
-                                    }
-                                    r8
-                                }
-                                {
-                                    \acciaccatura {
-                                        e'16 [
-                                        ef'16
-                                        a'16
-                                        g'16 ]
-                                    }
-                                    r8
-                                }
+                                r8
                             }
                             {
-                                {
-                                    \acciaccatura {
-                                        af'16 [
-                                        fs'16
-                                        b'16
-                                        d'16 ]
-                                    }
-                                    r8
+                                \acciaccatura {
+                                    af'16 [
+                                    fs'16
+                                    b'16
+                                    d'16 ]
                                 }
-                                {
-                                    \acciaccatura {
-                                        e'16 [
-                                        ef'16
-                                        a'16
-                                        g'16 ]
-                                    }
-                                    r8
-                                }
-                                {
-                                    \acciaccatura {
-                                        fs'16 [
-                                        b'16
-                                        d'16
-                                        f'16 ]
-                                    }
-                                    r8
-                                }
+                                r8
                             }
                             {
-                                {
-                                    \acciaccatura {
-                                        e'16 [
-                                        ef'16
-                                        a'16
-                                        g'16 ]
-                                    }
-                                    r8
+                                \acciaccatura {
+                                    cs'16 [
+                                    c'16
+                                    bf'16
+                                    f'16 ]
                                 }
-                                {
-                                    \acciaccatura {
-                                        fs'16 [
-                                        b'16
-                                        d'16
-                                        f'16 ]
-                                    }
-                                    r8
+                                r8
+                            }
+                            {
+                                \acciaccatura {
+                                    af'16 [
+                                    fs'16
+                                    b'16
+                                    d'16 ]
                                 }
-                                {
-                                    af'8
-                                    \bar "|"
+                                r8
+                            }
+                            {
+                                \acciaccatura {
+                                    e'16 [
+                                    ef'16
+                                    a'16
+                                    g'16 ]
                                 }
+                                r8
+                            }
+                            {
+                                \acciaccatura {
+                                    af'16 [
+                                    fs'16
+                                    b'16
+                                    d'16 ]
+                                }
+                                r8
+                            }
+                            {
+                                \acciaccatura {
+                                    e'16 [
+                                    ef'16
+                                    a'16
+                                    g'16 ]
+                                }
+                                r8
+                            }
+                            {
+                                \acciaccatura {
+                                    fs'16 [
+                                    b'16
+                                    d'16
+                                    f'16 ]
+                                }
+                                r8
+                            }
+                            {
+                                \acciaccatura {
+                                    e'16 [
+                                    ef'16
+                                    a'16
+                                    g'16 ]
+                                }
+                                r8
+                            }
+                            {
+                                \acciaccatura {
+                                    fs'16 [
+                                    b'16
+                                    d'16
+                                    f'16 ]
+                                }
+                                r8
+                            }
+                            {
+                                af'8
+                                \bar "|"
                             }
                         }
                     }

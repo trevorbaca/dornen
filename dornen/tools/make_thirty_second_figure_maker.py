@@ -123,62 +123,54 @@ def make_thirty_second_figure_maker():
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
-                                    e'32
-                                }
+                                e'32
                             }
                             {
-                                {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #3
-                                    fs'32 [
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    d'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    ef'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    f'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    a'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    af'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #0
-                                    c'32 ]
-                                }
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #3
+                                fs'32 [
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                d'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                ef'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                f'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                a'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                af'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #0
+                                c'32 ]
                             }
                             {
-                                {
-                                    b'32
-                                }
+                                b'32
                             }
                             {
-                                {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #3
-                                    bf'32 [
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    g'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    a'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    af'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    c'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #0
-                                    f'32 ]
-                                    \bar "|"
-                                }
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #3
+                                bf'32 [
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                g'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                a'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                af'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                c'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #0
+                                f'32 ]
+                                \bar "|"
                             }
                         }
                     }
@@ -302,122 +294,116 @@ def make_thirty_second_figure_maker():
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #3
-                                    e'32 [
-                                }
-                                {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #3
-                                    fs'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    d'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    ef'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    f'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    a'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    af'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #1
-                                    c'32
-                                }
-                                {
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #0
-                                    b'32 ]
-                                }
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #3
+                                e'32 [
                             }
                             {
-                                {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #3
-                                    fs'32 [
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    d'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    ef'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    f'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    a'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    af'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #1
-                                    c'32
-                                }
-                                {
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #1
-                                    b'32
-                                }
-                                {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #3
-                                    bf'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    g'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    a'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    af'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    c'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #0
-                                    f'32 ]
-                                }
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #3
+                                fs'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                d'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                ef'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                f'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                a'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                af'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #1
+                                c'32
                             }
                             {
-                                {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #3
-                                    b'32 [
-                                }
-                                {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #3
-                                    bf'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    g'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    a'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    af'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #3
-                                    c'32
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #1
-                                    f'32
-                                }
-                                {
-                                    \set stemLeftBeamCount = #3
-                                    \set stemRightBeamCount = #0
-                                    e'32 ]
-                                    \bar "|"
-                                }
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #0
+                                b'32 ]
+                            }
+                            {
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #3
+                                fs'32 [
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                d'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                ef'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                f'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                a'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                af'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #1
+                                c'32
+                            }
+                            {
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #1
+                                b'32
+                            }
+                            {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #3
+                                bf'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                g'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                a'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                af'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                c'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #0
+                                f'32 ]
+                            }
+                            {
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #3
+                                b'32 [
+                            }
+                            {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #3
+                                bf'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                g'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                a'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                af'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #3
+                                c'32
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #1
+                                f'32
+                            }
+                            {
+                                \set stemLeftBeamCount = #3
+                                \set stemRightBeamCount = #0
+                                e'32 ]
+                                \bar "|"
                             }
                         }
                     }

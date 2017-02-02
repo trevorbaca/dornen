@@ -122,67 +122,59 @@ def make_tremolo_figure_maker():
                     \context ViolinMusicStaff = "Violin Music Staff" {
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 8/11 {
-                                    e'8 :32
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 8/11 {
+                                e'8 :32
                             }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 8/11 {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 [ ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #0
-                                    e'8 :32 ]
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 8/11 {
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #1
+                                e'8 :32 [ ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #0
+                                e'8 :32 ]
                             }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 8/11 {
-                                    e'8 :32
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 8/11 {
+                                e'8 :32
                             }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 8/11 {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 [ ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #0
-                                    e'8 :32 ]
-                                    \bar "|"
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 8/11 {
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #1
+                                e'8 :32 [ ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #0
+                                e'8 :32 ]
+                                \bar "|"
                             }
                         }
                     }
@@ -302,132 +294,126 @@ def make_tremolo_figure_maker():
                     \context ViolinMusicStaff = "Violin Music Staff" {
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 8/11 {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 [ ~
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 8/11 {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 8/11 {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #0
-                                    e'8 :32 ]
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 8/11 {
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #1
+                                e'8 :32 [ ~
                             }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 8/11 {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 [ ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 8/11 {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 8/11 {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #0
-                                    e'8 :32 ]
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 8/11 {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
                             }
-                            {
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 8/11 {
-                                    \set stemLeftBeamCount = #0
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 [ ~
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 8/11 {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #1
-                                    e'8 :32 ~
-                                }
-                                \tweak edge-height #'(0.7 . 0)
-                                \times 8/11 {
-                                    \set stemLeftBeamCount = #1
-                                    \set stemRightBeamCount = #0
-                                    e'8 :32 ]
-                                    \bar "|"
-                                }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 8/11 {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #0
+                                e'8 :32 ]
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 8/11 {
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #1
+                                e'8 :32 [ ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 8/11 {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 8/11 {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #0
+                                e'8 :32 ]
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 8/11 {
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #1
+                                e'8 :32 [ ~
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 8/11 {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #1
+                                e'8 :32 ~
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 8/11 {
+                                \set stemLeftBeamCount = #1
+                                \set stemRightBeamCount = #0
+                                e'8 :32 ]
+                                \bar "|"
                             }
                         }
                     }

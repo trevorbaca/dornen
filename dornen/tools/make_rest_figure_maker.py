@@ -115,23 +115,17 @@ def make_rest_figure_maker(duration=None):
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
-                                    r8
-                                }
+                                r8
                             }
                             {
-                                {
-                                    r8
-                                    r8
-                                }
+                                r8
+                                r8
                             }
                             {
-                                {
-                                    r8
-                                    r8
-                                    r8
-                                    \bar "|"
-                                }
+                                r8
+                                r8
+                                r8
+                                \bar "|"
                             }
                         }
                     }
@@ -229,33 +223,29 @@ def make_rest_figure_maker(duration=None):
                         \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                {
-                                    r8
-                                }
-                                {
-                                    r8
-                                    r8
-                                }
-                                {
-                                    r8
-                                    r8
-                                    r8
-                                }
+                                r8
                             }
                             {
-                                {
-                                    r8
-                                    r8
-                                }
-                                {
-                                    r8
-                                    r8
-                                    r8
-                                }
-                                {
-                                    r8
-                                    \bar "|"
-                                }
+                                r8
+                                r8
+                            }
+                            {
+                                r8
+                                r8
+                                r8
+                            }
+                            {
+                                r8
+                                r8
+                            }
+                            {
+                                r8
+                                r8
+                                r8
+                            }
+                            {
+                                r8
+                                \bar "|"
                             }
                         }
                     }

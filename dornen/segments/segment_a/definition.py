@@ -17,7 +17,7 @@ accumulator(
     accumulator.inverted_wave_64_figure_maker(
         design[:4],
         'Guitar Music Voice 1',
-        baca.overrides.beam_positions(8),
+        baca.beam_positions(8),
         baca.register(0, -14),
         figure_name='W1',
         preferred_denominator=16,
@@ -28,8 +28,8 @@ accumulator(
     accumulator.twentieth_figure_maker(
         accumulator.reveal(design[4:5], 1),
         'Guitar Music Voice 2',
-        baca.overrides.beam_positions(-8),
-        baca.overrides.proportional_notation_duration((1, 40)),
+        baca.beam_positions(-8),
+        baca.proportional_notation_duration((1, 40)),
         baca.register(6),
         extend_beam=True,
         figure_name='F1_1',
@@ -128,7 +128,7 @@ accumulator(
     accumulator.twentieth_figure_maker(
         accumulator.reveal(design[4:5], 1),
         'Guitar Music Voice 2',
-        baca.overrides.proportional_notation_duration((1, 40)),
+        baca.proportional_notation_duration((1, 40)),
         baca.register(6),
         extend_beam=True,
         figure_name='F1_1*',
@@ -139,7 +139,7 @@ accumulator(
     accumulator.delicatissimo_figure_maker(
         design[13:],
         'Guitar Music Voice 1',
-        baca.overrides.text_script_staff_padding(9),
+        baca.text_script_staff_padding(9),
         baca.register(6, -20),
         extend_beam=True,
         figure_name='D1',
@@ -207,8 +207,8 @@ accumulator._populate_segment_maker(segment_maker)
 #segment_maker.append_specifiers(
 #    ('Guitar Music Voice 1', baca.select.stages(1, 15)),
 #    [
-#        baca.overrides.dynamic_line_spanner_up(),
-#        baca.overrides.dynamic_line_spanner_staff_padding(12),
+#        baca.dynamic_line_spanner_up(),
+#        baca.dynamic_line_spanner_staff_padding(12),
 #        ],
 #    )
 

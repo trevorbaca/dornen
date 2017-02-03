@@ -41,7 +41,7 @@ accumulator(
         design[2:3],
         'Guitar Music Voice 2',
         baca.markup.make_markup_specifier('glissando: attack first note only'),
-        baca.overrides.beam_positions(-12),
+        baca.beam_positions(-12),
         baca.register(-8),
         baca.displacement([0, 1]),
         extend_beam=True,
@@ -249,7 +249,7 @@ accumulator._populate_segment_maker(segment_maker)
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(1, 3)),
     [
-        baca.overrides.beam_positions(9),
+        baca.beam_positions(9),
         baca.register(-20, 4),
         ],
     )
@@ -257,7 +257,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(4, 12)),
     [
-        baca.overrides.beam_positions(6),
+        baca.beam_positions(6),
         baca.register(-20, 4),
         ],
     )

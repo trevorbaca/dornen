@@ -44,8 +44,8 @@ accumulator(
     accumulator.twentieth_figure_maker(
         design[3:4],
         'Guitar Music Voice 4',
-        baca.overrides.beam_positions(6),
-        baca.overrides.stem_up(),
+        baca.beam_positions(6),
+        baca.stem_up(),
         ),
     )
 
@@ -53,7 +53,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         design[4:5],
         'Guitar Music Voice 2',
-        baca.spanners.slur(),
+        baca.slur(),
         ),
     )
 
@@ -101,8 +101,8 @@ accumulator(
     accumulator.twentieth_figure_maker(
         design[3:4],
         'Guitar Music Voice 4',
-        baca.overrides.beam_positions(6),
-        baca.overrides.stem_up(),
+        baca.beam_positions(6),
+        baca.stem_up(),
         ),
     )
 
@@ -110,7 +110,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         design[4:5],
         'Guitar Music Voice 2',
-        baca.spanners.slur(),
+        baca.slur(),
         ),
     )
 
@@ -158,8 +158,8 @@ accumulator(
     accumulator.twentieth_figure_maker(
         design[3:4],
         'Guitar Music Voice 4',
-        baca.overrides.beam_positions(6),
-        baca.overrides.stem_up(),
+        baca.beam_positions(6),
+        baca.stem_up(),
         ),
     )
 
@@ -167,7 +167,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         design[4:5],
         'Guitar Music Voice 2',
-        baca.spanners.slur(),
+        baca.slur(),
         ),
     )
 
@@ -214,8 +214,8 @@ accumulator(
     accumulator.twentieth_figure_maker(
         design[3:4],
         'Guitar Music Voice 4',
-        baca.overrides.beam_positions(6),
-        baca.overrides.stem_up(),
+        baca.beam_positions(6),
+        baca.stem_up(),
         ),
     )
 
@@ -223,7 +223,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         design[4:5],
         'Guitar Music Voice 2',
-        baca.spanners.slur(),
+        baca.slur(),
         ),
     )
 
@@ -270,8 +270,8 @@ accumulator(
     accumulator.twentieth_figure_maker(
         design[3:4],
         'Guitar Music Voice 4',
-        baca.overrides.beam_positions(6),
-        baca.overrides.stem_up(),
+        baca.beam_positions(6),
+        baca.stem_up(),
         ),
     )
 
@@ -279,7 +279,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         design[4:5],
         'Guitar Music Voice 2',
-        baca.spanners.slur(),
+        baca.slur(),
         ),
     )
 
@@ -325,8 +325,8 @@ accumulator(
     accumulator.twentieth_figure_maker(
         design[3:4],
         'Guitar Music Voice 4',
-        baca.overrides.beam_positions(6),
-        baca.overrides.stem_up(),
+        baca.beam_positions(6),
+        baca.stem_up(),
         ),
     )
 
@@ -334,7 +334,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         design[4:5],
         'Guitar Music Voice 2',
-        baca.spanners.slur(),
+        baca.slur(),
         ),
     )
 
@@ -355,7 +355,7 @@ accumulator(
             'RASCADO: slowly draw extremely long metal screw over open string;'
             ' as close as possible to bridge; only one stroke.'
             ),
-        baca.overrides.proportional_notation_duration((1, 12)),
+        baca.proportional_notation_duration((1, 12)),
         baca.stem_tremolo(),
         baca.register(-20),
         baca.tools.DynamicSpecifier(dynamic='p'),
@@ -409,8 +409,8 @@ accumulator._populate_segment_maker(segment_maker)
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(1, 41)),
     [
-        baca.articulations.tenuti(),
-        baca.overrides.beam_positions(10),
+        baca.tenuti(),
+        baca.beam_positions(10),
         baca.register(-12),
         ],
     )
@@ -418,7 +418,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 2', baca.select.stages(1, 41)),
     [
-        baca.overrides.beam_positions(-5.5),
+        baca.beam_positions(-5.5),
         baca.register(4),
         ],
     )
@@ -426,8 +426,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 3', baca.select.stages(1, 41)),
     [
-        baca.articulations.accents(),
-        baca.overrides.script_direction(Down),
+        baca.accents(),
+        baca.script_direction(Down),
         baca.register(-20),
         ],
     )
@@ -435,8 +435,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 4', baca.select.stages(1, 41)),
     [
-        baca.articulations.staccati(),
-        baca.overrides.beam_positions(5.5),
+        baca.staccati(),
+        baca.beam_positions(5.5),
         baca.register(-4),
         ],
     )

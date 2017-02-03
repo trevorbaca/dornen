@@ -20,7 +20,7 @@ accumulator(
             'slurs fluid; all other parts mechanically precise'
             ),
         # TODO: allow for arbitrary LilyPond command string
-        #baca.overrides.rehearsal_mark_extra_offset((-10, -10)),
+        #baca.rehearsal_mark_extra_offset((-10, -10)),
         extend_beam=True,
         figure_name='48_1',
         ),
@@ -48,8 +48,8 @@ accumulator(
     accumulator.twentieth_figure_maker(
         design[3:4],
         'Guitar Music Voice 4',
-        baca.overrides.beam_positions(6),
-        baca.overrides.stem_up(),
+        baca.beam_positions(6),
+        baca.stem_up(),
         figure_name='20_2',
         ),
     )
@@ -58,7 +58,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         design[4:5],
         'Guitar Music Voice 2',
-        baca.spanners.slur(),
+        baca.slur(),
         figure_name='32_1',
         ),
     )
@@ -101,7 +101,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         design[9:10],
         'Guitar Music Voice 2',
-        baca.spanners.slur(),
+        baca.slur(),
         figure_name='32_2',
         ),
     )
@@ -172,8 +172,8 @@ accumulator(
     accumulator.twentieth_figure_maker(
         design[3:4],
         'Guitar Music Voice 4',
-        baca.overrides.beam_positions(6),
-        baca.overrides.stem_up(),
+        baca.beam_positions(6),
+        baca.stem_up(),
         figure_name='20_2*',
         ),
     )
@@ -182,7 +182,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         design[4:5],
         'Guitar Music Voice 2',
-        baca.spanners.slur(),
+        baca.slur(),
         figure_name='32_1*',
         ),
     )
@@ -226,10 +226,10 @@ accumulator(
 #    accumulator.tremolo_figure_maker(
 #        [[6, 6, 6, 6, 6]],
 #        'Guitar Music Voice 2',
-#        baca.overrides.stem_up(),
-#        baca.overrides.tuplet_bracket_staff_padding(0),
-#        baca.overrides.tuplet_bracket_extra_offset((0, -0.5)),
-#        baca.overrides.tuplet_number_extra_offset((0, -0.5)),
+#        baca.stem_up(),
+#        baca.tuplet_bracket_staff_padding(0),
+#        baca.tuplet_bracket_extra_offset((0, -0.5)),
+#        baca.tuplet_number_extra_offset((0, -0.5)),
 #        baca.register(-20),
 #        figure_name='T1',
 #        ),
@@ -265,7 +265,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         design[9:10],
         'Guitar Music Voice 2',
-        baca.spanners.slur(),
+        baca.slur(),
         figure_name='32_2*',
         ),
     )
@@ -345,8 +345,8 @@ accumulator._populate_segment_maker(segment_maker)
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(1, Infinity)),
     [
-        baca.articulations.tenuti(),
-        baca.overrides.beam_positions(10),
+        baca.tenuti(),
+        baca.beam_positions(10),
         baca.register(-12),
         ],
     )
@@ -354,7 +354,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 2', baca.select.stages(1, 22)),
     [
-        baca.overrides.beam_positions(-5.5),
+        baca.beam_positions(-5.5),
         baca.register(4),
         ],
     )
@@ -362,7 +362,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 2', baca.select.stages(25, Infinity)),
     [
-        baca.overrides.beam_positions(-5.5),
+        baca.beam_positions(-5.5),
         baca.register(4),
         ],
     )
@@ -370,8 +370,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 3', baca.select.stages(1, Infinity)),
     [
-        baca.articulations.accents(),
-        baca.overrides.script_direction(Down),
+        baca.accents(),
+        baca.script_direction(Down),
         baca.register(-20),
         ],
     )
@@ -379,8 +379,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 4', baca.select.stages(1, Infinity)),
     [
-        baca.articulations.staccati(),
-        baca.overrides.beam_positions(5.5),
+        baca.staccati(),
+        baca.beam_positions(5.5),
         baca.register(-4),
         ],
     )

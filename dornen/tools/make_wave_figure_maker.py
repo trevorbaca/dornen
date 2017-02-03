@@ -17,7 +17,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
         ::
 
-            >>> figure_tokens = [
+            >>> segment_lists = [
             ...     [[6, 2, 3, 5, 9, 8, 0]],
             ...     [[6, 2, 3, 5, 9, 8, 0], [10, 7, 9, 8, 0, 5]],
             ...     [
@@ -32,9 +32,9 @@ def make_wave_figure_maker(denominator=64, inverted=False):
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_wave_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for figure_token in figure_tokens:
+            >>> for segment_list in segment_lists:
             ...     contribution = figure_maker(
-            ...         figure_token,
+            ...         segment_list,
             ...         voice_name=voice_name,
             ...         )
             ...     figures.extend(contribution.selections[voice_name])
@@ -375,7 +375,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
         ::
 
-            >>> figure_tokens = [
+            >>> segment_lists = [
             ...     [[6, 2, 3, 5, 9, 8, 0]],
             ...     [[6, 2, 3, 5, 9, 8, 0], [10, 7, 9, 8, 0, 5]],
             ...     [
@@ -392,9 +392,9 @@ def make_wave_figure_maker(denominator=64, inverted=False):
             ...     inverted=True,
             ...     )
             >>> figures, time_signatures = [], []
-            >>> for figure_token in figure_tokens:
+            >>> for segment_list in segment_lists:
             ...     contribution = figure_maker(
-            ...         figure_token,
+            ...         segment_list,
             ...         voice_name=voice_name,
             ...         )
             ...     figures.extend(contribution.selections[voice_name])
@@ -735,7 +735,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
         ::
 
-            >>> figure_tokens = [
+            >>> segment_lists = [
             ...     [[6, 2, 3, 5, 9, 8, 0]],
             ...     [[6, 2, 3, 5, 9, 8, 0], [10, 7, 9, 8, 0, 5]],
             ...     [
@@ -752,9 +752,9 @@ def make_wave_figure_maker(denominator=64, inverted=False):
             ...     denominator=32,
             ...     )
             >>> figures, time_signatures = [], []
-            >>> for figure_token in figure_tokens:
+            >>> for segment_list in segment_lists:
             ...     contribution = figure_maker(
-            ...         figure_token,
+            ...         segment_list,
             ...         voice_name=voice_name,
             ...         )
             ...     figures.extend(contribution.selections[voice_name])

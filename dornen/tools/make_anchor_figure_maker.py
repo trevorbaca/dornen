@@ -17,7 +17,7 @@ def make_anchor_figure_maker():
 
         ::
 
-            >>> figure_tokens = [
+            >>> segment_lists = [
             ...     [[4]],
             ...     [[6, 2, 3, 5, 9, 8, 0]],
             ...     [[11]],
@@ -29,9 +29,9 @@ def make_anchor_figure_maker():
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_anchor_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for figure_token in figure_tokens:
+            >>> for segment_list in segment_lists:
             ...     contribution = figure_maker(
-            ...         figure_token,
+            ...         segment_list,
             ...         voice_name=voice_name,
             ...         )
             ...     figures.extend(contribution.selections[voice_name])

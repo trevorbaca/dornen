@@ -17,18 +17,18 @@ def make_twentieth_figure_maker():
 
         ::
 
-            >>> figure_tokens = [
+            >>> segment_lists = [
             ...     [1, 0, 10, 5, 8, 6, 11],
             ...     [2, 4],
             ...     [3, 9, 8],
             ...     [6, 11, 2, 5],
             ...     ]
-            >>> figure_tokens = [
+            >>> segment_lists = [
             ...     baca.Sequence(_).partition_by_counts([1], cyclic=True)
-            ...     for _ in figure_tokens
+            ...     for _ in segment_lists
             ...     ]
-            >>> for figure_token in figure_tokens:
-            ...     figure_token
+            >>> for segment_list in segment_lists:
+            ...     segment_list
             ...
             Sequence([Sequence([1]), Sequence([0]), Sequence([10]), Sequence([5]), Sequence([8]), Sequence([6]), Sequence([11])])
             Sequence([Sequence([2]), Sequence([4])])
@@ -40,9 +40,9 @@ def make_twentieth_figure_maker():
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_twentieth_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for figure_token in figure_tokens:
+            >>> for segment_list in segment_lists:
             ...     contribution = figure_maker(
-            ...         figure_token,
+            ...         segment_list,
             ...         voice_name=voice_name,
             ...         )
             ...     figures.extend(contribution.selections[voice_name])
@@ -219,18 +219,18 @@ def make_twentieth_figure_maker():
 
         ::
 
-            >>> figure_tokens = [
+            >>> segment_lists = [
             ...     [1, 0, 10, 5, 8, 6, 11],
             ...     [2, 4],
             ...     [3, 9, 8],
             ...     [6, 11, 2, 5],
             ...     ]
-            >>> figure_tokens = [
+            >>> segment_lists = [
             ...     baca.Sequence(_).partition_by_counts([1, 2], cyclic=True)
-            ...     for _ in figure_tokens
+            ...     for _ in segment_lists
             ...     ]
-            >>> for figure_token in figure_tokens:
-            ...     figure_token
+            >>> for segment_list in segment_lists:
+            ...     segment_list
             ...
             Sequence([Sequence([1]), Sequence([0, 10]), Sequence([5]), Sequence([8, 6]), Sequence([11])])
             Sequence([Sequence([2])])
@@ -242,9 +242,9 @@ def make_twentieth_figure_maker():
             >>> voic_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_twentieth_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for figure_token in figure_tokens:
+            >>> for segment_list in segment_lists:
             ...     contribution = figure_maker(
-            ...         figure_token,
+            ...         segment_list,
             ...         voice_name=voice_name,
             ...         )
             ...     figures.extend(contribution.selections[voice_name])

@@ -17,7 +17,7 @@ def make_tremolo_figure_maker():
 
         ::
 
-            >>> figure_tokens = [
+            >>> segment_lists = [
             ...     [[4]],
             ...     [[4, 4, 4, 4, 4, 4, 4]],
             ...     [[4]],
@@ -29,9 +29,9 @@ def make_tremolo_figure_maker():
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_tremolo_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for figure_token in figure_tokens:
+            >>> for segment_list in segment_lists:
             ...     contribution = figure_maker(
-            ...         figure_token,
+            ...         segment_list,
             ...         voice_name=voice_name,
             ...         )
             ...     figures.extend(contribution.selections[voice_name])
@@ -194,13 +194,13 @@ def make_tremolo_figure_maker():
             ...     [4, 4, 4, 4, 4, 4],
             ...     ]
             >>> stage_tokens = datastructuretools.CyclicTuple(stage_tokens)
-            >>> figure_tokens = [
+            >>> segment_lists = [
             ...     stage_tokens[:3],
             ...     stage_tokens[1:4],
             ...     stage_tokens[2:5],
             ...     ]
-            >>> for figure_token in figure_tokens:
-            ...     figure_token
+            >>> for segment_list in segment_lists:
+            ...     segment_list
             ([4], [4, 4, 4, 4, 4, 4, 4], [4])
             ([4, 4, 4, 4, 4, 4, 4], [4], [4, 4, 4, 4, 4, 4])
             ([4], [4, 4, 4, 4, 4, 4], [4])
@@ -211,9 +211,9 @@ def make_tremolo_figure_maker():
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_tremolo_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for figure_token in figure_tokens:
+            >>> for segment_list in segment_lists:
             ...     contribution = figure_maker(
-            ...         figure_token,
+            ...         segment_list,
             ...         voice_name=voice_name,
             ...         )
             ...     figures.extend(contribution.selections[voice_name])

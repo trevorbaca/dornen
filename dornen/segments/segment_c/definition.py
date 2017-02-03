@@ -42,8 +42,8 @@ accumulator(
         'Guitar Music Voice 2',
         baca.markup.make_markup_specifier('glissando: attack first note only'),
         baca.overrides.beam_positions(-12),
-        baca.pitch.register(-8),
-        baca.pitch.displacement([0, 1]),
+        baca.register(-8),
+        baca.displacement([0, 1]),
         extend_beam=True,
         figure_name='G1',
         ),
@@ -53,7 +53,7 @@ accumulator(
     accumulator.inverted_wave_32_figure_maker(
         design[3:6],
         'Guitar Music Voice 1',
-        baca.pitch.register(-8),
+        baca.register(-8),
         figure_name='W4',
         ),
     )
@@ -62,7 +62,7 @@ accumulator(
     accumulator.running_figure_maker(
         design[6:9],
         'Guitar Music Voice 3',
-        baca.pitch.register(0, -14),
+        baca.register(0, -14),
         extend_beam=True,
         figure_name='R1',
         ),
@@ -72,7 +72,7 @@ accumulator(
     accumulator.running_figure_maker(
         design[7:10],
         'Guitar Music Voice 3',
-        baca.pitch.register(-14, 0),
+        baca.register(-14, 0),
         extend_beam=True,
         figure_name='R2',
         ),
@@ -108,7 +108,7 @@ accumulator(
     accumulator.running_figure_maker(
         design[8:] + design[:1],
         'Guitar Music Voice 3',
-        baca.pitch.register(-14, 0),
+        baca.register(-14, 0),
         figure_name='R3',
         ),
     )
@@ -117,7 +117,7 @@ accumulator(
     accumulator.wave_32_figure_maker(
         design[1:3],
         'Guitar Music Voice 1',
-        baca.pitch.register(-20),
+        baca.register(-20),
         figure_name='W5',
         ),
     )
@@ -126,8 +126,8 @@ accumulator(
     accumulator.glissando_scatto_figure_maker(
         design[3:4],
         'Guitar Music Voice 2',
-        baca.pitch.register(-8),
-        baca.pitch.displacement([0, 1]),
+        baca.register(-8),
+        baca.displacement([0, 1]),
         extend_beam=True,
         figure_name='G2',
         ),
@@ -137,7 +137,7 @@ accumulator(
     accumulator.wave_32_figure_maker(
         design[1:4],
         'Guitar Music Voice 1',
-        baca.pitch.register(-20, -4),
+        baca.register(-20, -4),
         figure_name='W6',
         ),
     )
@@ -146,8 +146,8 @@ accumulator(
     accumulator.glissando_scatto_figure_maker(
         design[4:5],
         'Guitar Music Voice 2',
-        baca.pitch.register(-8),
-        baca.pitch.displacement([0, 1]),
+        baca.register(-8),
+        baca.displacement([0, 1]),
         figure_name='G3',
         ),
     )
@@ -156,7 +156,7 @@ accumulator(
     accumulator.running_figure_maker(
         design[5:8],
         'Guitar Music Voice 3',
-        baca.pitch.register(0, -14),
+        baca.register(0, -14),
         extend_beam=True,
         figure_name='R4',
         ),
@@ -166,7 +166,7 @@ accumulator(
     accumulator.running_figure_maker(
         design[6:9],
         'Guitar Music Voice 3',
-        baca.pitch.register(-14, 0),
+        baca.register(-14, 0),
         extend_beam=True,
         figure_name='R5',
         ),
@@ -202,7 +202,7 @@ accumulator(
     accumulator.running_figure_maker(
         design[7:10],
         'Guitar Music Voice 3',
-        baca.pitch.register(-14, 0),
+        baca.register(-14, 0),
         figure_name='R6',
         ),
     )
@@ -250,7 +250,7 @@ segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(1, 3)),
     [
         baca.overrides.beam_positions(9),
-        baca.pitch.register(-20, 4),
+        baca.register(-20, 4),
         ],
     )
 
@@ -258,6 +258,6 @@ segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(4, 12)),
     [
         baca.overrides.beam_positions(6),
-        baca.pitch.register(-20, 4),
+        baca.register(-20, 4),
         ],
     )

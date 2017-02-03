@@ -25,15 +25,15 @@ def make_passepied_figure_maker():
             ...     [6, 11, 2, 5],
             ...     ]
             >>> stage_tokens = datastructuretools.CyclicTuple(stage_tokens)
-            >>> figure_tokens = [
+            >>> segment_lists = [
             ...     stage_tokens[:1],
             ...     stage_tokens[1:2],
             ...     stage_tokens[2:3],
             ...     stage_tokens[3:4],
             ...     stage_tokens[4:5],
             ...     ]
-            >>> for figure_token in figure_tokens:
-            ...     figure_token
+            >>> for segment_list in segment_lists:
+            ...     segment_list
             ([8],)
             ([1, 0, 10, 5],)
             ([8, 6, 11, 2],)
@@ -45,9 +45,9 @@ def make_passepied_figure_maker():
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_passepied_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for figure_token in figure_tokens:
+            >>> for segment_list in segment_lists:
             ...     contribution = figure_maker(
-            ...         figure_token,
+            ...         segment_list,
             ...         voice_name=voice_name,
             ...         )
             ...     figures.extend(contribution.selections[voice_name])
@@ -187,14 +187,14 @@ def make_passepied_figure_maker():
             ...     [6, 11, 2, 5],
             ...     ]
             >>> stage_tokens = datastructuretools.CyclicTuple(stage_tokens)
-            >>> figure_tokens = [
+            >>> segment_lists = [
             ...     stage_tokens[:3],
             ...     stage_tokens[1:4],
             ...     stage_tokens[2:5],
             ...     stage_tokens[3:6],
             ...     ]
-            >>> for figure_token in figure_tokens:
-            ...     figure_token
+            >>> for segment_list in segment_lists:
+            ...     segment_list
             ([8], [1, 0, 10, 5], [8, 6, 11, 2])
             ([1, 0, 10, 5], [8, 6, 11, 2], [4, 3, 9, 7])
             ([8, 6, 11, 2], [4, 3, 9, 7], [6, 11, 2, 5])
@@ -205,9 +205,9 @@ def make_passepied_figure_maker():
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_passepied_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for figure_token in figure_tokens:
+            >>> for segment_list in segment_lists:
             ...     contribution = figure_maker(
-            ...         figure_token,
+            ...         segment_list,
             ...         voice_name=voice_name,
             ...         )
             ...     figures.extend(contribution.selections[voice_name])

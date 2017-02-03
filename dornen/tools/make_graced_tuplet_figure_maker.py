@@ -23,13 +23,13 @@ def make_graced_tuplet_figure_maker():
             ...     [9, 8, 1, 0, 10, 5, 8, 6, 11, 2],
             ...     ]
             >>> stage_tokens = datastructuretools.CyclicTuple(stage_tokens)
-            >>> figure_tokens = [
+            >>> segment_lists = [
             ...     stage_tokens[:2],
             ...     stage_tokens[1:3],
             ...     stage_tokens[2:4],
             ...     ]
-            >>> for figure_token in figure_tokens:
-            ...     figure_token
+            >>> for segment_list in segment_lists:
+            ...     segment_list
             ([8], [1, 0, 10, 5, 8, 6, 11, 2, 4, 3])
             ([1, 0, 10, 5, 8, 6, 11, 2, 4, 3], [9, 8, 1, 0, 10, 5, 8, 6, 11, 2])
             ([9, 8, 1, 0, 10, 5, 8, 6, 11, 2], [8])
@@ -39,9 +39,9 @@ def make_graced_tuplet_figure_maker():
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_graced_tuplet_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for figure_token in figure_tokens:
+            >>> for segment_list in segment_lists:
             ...     contribution = figure_maker(
-            ...         figure_token,
+            ...         segment_list,
             ...         voice_name=voice_name,
             ...         )
             ...     figures.extend(contribution.selections[voice_name])

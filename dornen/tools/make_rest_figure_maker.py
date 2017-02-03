@@ -23,13 +23,13 @@ def make_rest_figure_maker(duration=None):
             ...     [None, None, None],
             ...     ]
             >>> stage_tokens = datastructuretools.CyclicTuple(stage_tokens)
-            >>> figure_tokens = [
+            >>> segment_lists = [
             ...     stage_tokens[:1],
             ...     stage_tokens[1:2],
             ...     stage_tokens[2:3],
             ...     ]
-            >>> for figure_token in figure_tokens:
-            ...     figure_token
+            >>> for segment_list in segment_lists:
+            ...     segment_list
             ([None],)
             ([None, None],)
             ([None, None, None],)
@@ -39,9 +39,9 @@ def make_rest_figure_maker(duration=None):
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_rest_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for figure_token in figure_tokens:
+            >>> for segment_list in segment_lists:
             ...     contribution = figure_maker(
-            ...         figure_token,
+            ...         segment_list,
             ...         voice_name=voice_name,
             ...         )
             ...     figures.extend(contribution.selections[voice_name])
@@ -144,12 +144,12 @@ def make_rest_figure_maker(duration=None):
             ...     [None, None, None],
             ...     ]
             >>> stage_tokens = datastructuretools.CyclicTuple(stage_tokens)
-            >>> figure_tokens = [
+            >>> segment_lists = [
             ...     stage_tokens[:3],
             ...     stage_tokens[1:4],
             ...     ]
-            >>> for figure_token in figure_tokens:
-            ...     figure_token
+            >>> for segment_list in segment_lists:
+            ...     segment_list
             ([None], [None, None], [None, None, None])
             ([None, None], [None, None, None], [None])
 
@@ -158,9 +158,9 @@ def make_rest_figure_maker(duration=None):
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_rest_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for figure_token in figure_tokens:
+            >>> for segment_list in segment_lists:
             ...     contribution = figure_maker(
-            ...         figure_token,
+            ...         segment_list,
             ...         voice_name=voice_name,
             ...         )
             ...     figures.extend(contribution.selections[voice_name])

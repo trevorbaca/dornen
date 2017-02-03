@@ -270,7 +270,7 @@ def make_ovoid_figure_maker():
                                 ),
                             ],
                         talea=rhythmmakertools.Talea(
-                            counts=(6, 1),
+                            counts=[6, 1],
                             denominator=32,
                             ),
                         ),

@@ -427,13 +427,13 @@ def make_glissando_scatto_figure_maker():
                 baca.tools.RhythmSpecifier(
                     patterns=[
                         patterntools.Pattern(
-                            indices=(0,),
+                            indices=[0],
                             period=1,
                             ),
                         ],
                     rhythm_maker=baca.tools.FigureRhythmMaker(
                         talea=rhythmmakertools.Talea(
-                            counts=(2, 2, 2, 1, 2, 2, 2),
+                            counts=[2, 2, 2, 1, 2, 2, 2],
                             denominator=32,
                             ),
                         time_treatments=[-2, -3],

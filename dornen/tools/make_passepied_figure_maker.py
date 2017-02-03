@@ -448,7 +448,7 @@ def make_passepied_figure_maker():
                 baca.tools.RhythmSpecifier(
                     patterns=[
                         patterntools.Pattern(
-                            indices=(0,),
+                            indices=[0],
                             ),
                         ],
                     rhythm_maker=baca.tools.FigureRhythmMaker(
@@ -456,7 +456,7 @@ def make_passepied_figure_maker():
                             baca.tools.AcciaccaturaSpecifier(),
                             ],
                         talea=rhythmmakertools.Talea(
-                            counts=(1,),
+                            counts=[1],
                             denominator=32,
                             ),
                         ),
@@ -464,13 +464,13 @@ def make_passepied_figure_maker():
                 baca.tools.RhythmSpecifier(
                     patterns=[
                         patterntools.Pattern(
-                            indices=(0,),
+                            indices=[0],
                             inverted=True,
                             ),
                         ],
                     rhythm_maker=baca.tools.FigureRhythmMaker(
                         talea=rhythmmakertools.Talea(
-                            counts=(1,),
+                            counts=[1],
                             denominator=16,
                             ),
                         ),

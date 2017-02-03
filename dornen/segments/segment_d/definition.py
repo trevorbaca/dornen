@@ -230,7 +230,7 @@ accumulator(
 #        baca.overrides.tuplet_bracket_staff_padding(0),
 #        baca.overrides.tuplet_bracket_extra_offset((0, -0.5)),
 #        baca.overrides.tuplet_number_extra_offset((0, -0.5)),
-#        baca.pitch.register(-20),
+#        baca.register(-20),
 #        figure_name='T1',
 #        ),
 #    )
@@ -347,7 +347,7 @@ segment_maker.append_specifiers(
     [
         baca.articulations.tenuti(),
         baca.overrides.beam_positions(10),
-        baca.pitch.register(-12),
+        baca.register(-12),
         ],
     )
 
@@ -355,7 +355,7 @@ segment_maker.append_specifiers(
     ('Guitar Music Voice 2', baca.select.stages(1, 22)),
     [
         baca.overrides.beam_positions(-5.5),
-        baca.pitch.register(4),
+        baca.register(4),
         ],
     )
 
@@ -363,7 +363,7 @@ segment_maker.append_specifiers(
     ('Guitar Music Voice 2', baca.select.stages(25, Infinity)),
     [
         baca.overrides.beam_positions(-5.5),
-        baca.pitch.register(4),
+        baca.register(4),
         ],
     )
 
@@ -372,7 +372,7 @@ segment_maker.append_specifiers(
     [
         baca.articulations.accents(),
         baca.overrides.script_direction(Down),
-        baca.pitch.register(-20),
+        baca.register(-20),
         ],
     )
 
@@ -381,6 +381,6 @@ segment_maker.append_specifiers(
     [
         baca.articulations.staccati(),
         baca.overrides.beam_positions(5.5),
-        baca.pitch.register(-4),
+        baca.register(-4),
         ],
     )

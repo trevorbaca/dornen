@@ -18,7 +18,7 @@ accumulator(
         'Guitar Music Voice 1',
         baca.articulations.tenuti(),
         baca.overrides.beam_positions(10),
-        baca.pitch.register(-12),
+        baca.register(-12),
         extend_beam=True,
         figure_name='48_1',
         ),
@@ -37,7 +37,7 @@ accumulator(
     accumulator.running_figure_maker(
         design[2:5],
         'Guitar Music Voice 1',
-        baca.pitch.register(-14, 0),
+        baca.register(-14, 0),
         extend_beam=True,
         figure_name='R1',
         ),
@@ -56,7 +56,7 @@ accumulator(
         design[6:7],
         'Guitar Music Voice 1',
         baca.articulations.tenuti(),
-        baca.pitch.register(-12),
+        baca.register(-12),
         figure_name='48_2',
         ),
     )
@@ -93,7 +93,7 @@ accumulator(
     accumulator.sixty_fourth_figure_maker(
         10 * accumulator.reveal(design[9:10], 3),
         'Guitar Music Voice 1',
-        baca.pitch.register(0),
+        baca.register(0),
         figure_name='D1',
         ),
     )
@@ -102,7 +102,7 @@ accumulator(
     accumulator.sixty_fourth_figure_maker(
         10 * accumulator.reveal(design[9:10], 4),
         'Guitar Music Voice 1',
-        baca.pitch.register(0),
+        baca.register(0),
         figure_name='D2',
         ),
     )
@@ -111,7 +111,7 @@ accumulator(
     accumulator.sixty_fourth_figure_maker(
         10 * accumulator.reveal(design[9:10], 5),
         'Guitar Music Voice 1',
-        baca.pitch.register(0),
+        baca.register(0),
         figure_name='D3',
         ),
     )
@@ -120,7 +120,7 @@ accumulator(
     accumulator.sixty_fourth_figure_maker(
         10 * accumulator.reveal(design[9:10], 6),
         'Guitar Music Voice 1',
-        baca.pitch.register(0),
+        baca.register(0),
         figure_name='D4',
         ),
     )
@@ -129,7 +129,7 @@ accumulator(
     accumulator.sixty_fourth_figure_maker(
         accumulator.boustrophedon(design[9:10], 4),
         'Guitar Music Voice 1',
-        baca.pitch.register(0),
+        baca.register(0),
         figure_name='D5',
         ),
     )
@@ -179,7 +179,7 @@ segment_maker.append_specifiers(
     [
         baca.articulations.accents(),
         baca.overrides.script_direction(Down),
-        baca.pitch.register(-20),
+        baca.register(-20),
         ],
     )
 
@@ -188,7 +188,7 @@ segment_maker.append_specifiers(
     [
         baca.articulations.staccati(),
         baca.overrides.beam_positions(5.5),
-        baca.pitch.register(-4),
+        baca.register(-4),
         ],
     )
 

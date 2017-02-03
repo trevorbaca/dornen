@@ -12,8 +12,8 @@ accumulator = dornen.tools.FigureAccumulator()
 design = dornen.tools.make_design_1(start=28)
 assert len(design) == 22, len(design)
 
-lower_register = baca.pitch.register(-18)
-middle_register = baca.pitch.register(-12, 0)
+lower_register = baca.register(-18)
+middle_register = baca.register(-12, 0)
 
 accumulator(
     accumulator.twentieth_figure_maker(

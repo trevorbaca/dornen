@@ -18,7 +18,7 @@ accumulator(
         design.next(),
         'Guitar Music Voice 1',
         baca.overrides.beam_positions(6),
-        baca.pitch.register(-8),
+        baca.register(-8),
         extend_beam=True,
         figure_name=1,
         ),
@@ -30,7 +30,7 @@ accumulator(
         'Guitar Music Voice 2',
         baca.overrides.beam_positions(-10),
         baca.overrides.time_signature_extra_offset((-2.5, 0)),
-        baca.pitch.register(-10),
+        baca.register(-10),
         extend_beam=True,
         figure_name=2,
         ),
@@ -40,7 +40,7 @@ accumulator(
     accumulator.anchor_figure_maker(
         design.next(),
         'Guitar Music Voice 1',
-        baca.pitch.register(-10),
+        baca.register(-10),
         extend_beam=True,
         figure_name=3,
         ),
@@ -51,7 +51,7 @@ accumulator(
         design.next(),
         'Guitar Music Voice 2',
         baca.overrides.time_signature_extra_offset((-2.5, 0)),
-        baca.pitch.register(-8),
+        baca.register(-8),
         extend_beam=True,
         figure_name=4,
         ),
@@ -61,7 +61,7 @@ accumulator(
     accumulator.anchor_figure_maker(
         design.next(),
         'Guitar Music Voice 1',
-        baca.pitch.register(-12),
+        baca.register(-12),
         figure_name=5,
         ),
     )
@@ -71,7 +71,7 @@ accumulator(
         design.next(),
         'Guitar Music Voice 2',
         baca.overrides.time_signature_extra_offset((-2.5, 0)),
-        baca.pitch.register(-6),
+        baca.register(-6),
         figure_name=6,
         ),
     )
@@ -81,7 +81,7 @@ accumulator(
         design.next(),
         'Guitar Music Voice 1',
         baca.overrides.beam_positions(9),
-        baca.pitch.register(-14),
+        baca.register(-14),
         extend_beam=True,
         figure_name=7,
         ),
@@ -93,7 +93,7 @@ accumulator(
         'Guitar Music Voice 2',
         baca.overrides.beam_positions(-10),
         baca.overrides.time_signature_extra_offset((-2.5, 0)),
-        baca.pitch.register(-4),
+        baca.register(-4),
         extend_beam=True,
         figure_name=8,
         ),
@@ -103,7 +103,7 @@ accumulator(
     accumulator.running_figure_maker(
         design.next(2),
         'Guitar Music Voice 4',
-        baca.pitch.register(-12),
+        baca.register(-12),
         figure_name=9,
         ),
     )
@@ -112,7 +112,7 @@ accumulator(
     accumulator.anchor_figure_maker(
         design.next(),
         'Guitar Music Voice 1',
-        baca.pitch.register(-16),
+        baca.register(-16),
         figure_name=10,
         ),
     )
@@ -121,7 +121,7 @@ accumulator(
     accumulator.running_figure_maker(
         design.next(2),
         'Guitar Music Voice 4',
-        baca.pitch.register(-6),
+        baca.register(-6),
         figure_name=11,
         ),
     )
@@ -131,7 +131,7 @@ accumulator(
         design.next(),
         'Guitar Music Voice 1',
         baca.overrides.beam_positions(6),
-        baca.pitch.register(-18),
+        baca.register(-18),
         extend_beam=True,
         figure_name=12,
         ),
@@ -142,7 +142,7 @@ accumulator(
         design.next(),
         'Guitar Music Voice 2',
         baca.overrides.time_signature_extra_offset((-2.5, 0)),
-        baca.pitch.register(-2),
+        baca.register(-2),
         figure_name=13,
         ),
     )
@@ -151,7 +151,7 @@ accumulator(
     accumulator.anchor_figure_maker(
         design.next(),
         'Guitar Music Voice 1',
-        baca.pitch.register(-20),
+        baca.register(-20),
         figure_name=14,
         ),
     )
@@ -162,7 +162,7 @@ accumulator(
         'Guitar Music Voice 2',
         baca.overrides.beam_positions(-10),
         baca.overrides.time_signature_extra_offset((-2.5, 0)),
-        baca.pitch.register(0),
+        baca.register(0),
         extend_beam=True,
         figure_name=15,
         ),
@@ -173,7 +173,7 @@ accumulator(
         design.next(),
         'Guitar Music Voice 2',
         baca.overrides.time_signature_extra_offset((-2.5, 0)),
-        baca.pitch.register(2),
+        baca.register(2),
         figure_name=16,
         ),
     )
@@ -182,7 +182,7 @@ accumulator(
     accumulator.running_figure_maker(
         design.next(2),
         'Guitar Music Voice 4',
-        baca.pitch.register(-12, 0),
+        baca.register(-12, 0),
         figure_name=17,
         ),
     )
@@ -248,6 +248,6 @@ accumulator._populate_segment_maker(segment_maker)
 segment_maker.append_specifiers(
     ('Guitar Music Voice 3', baca.select.stages(18, 19)),
     [
-        baca.pitch.register(0, -12),
+        baca.register(0, -12),
         ],
     )

@@ -411,7 +411,7 @@ segment_maker.append_specifiers(
     [
         baca.articulations.tenuti(),
         baca.overrides.beam_positions(10),
-        baca.pitch.register(-12),
+        baca.register(-12),
         ],
     )
 
@@ -419,7 +419,7 @@ segment_maker.append_specifiers(
     ('Guitar Music Voice 2', baca.select.stages(1, 41)),
     [
         baca.overrides.beam_positions(-5.5),
-        baca.pitch.register(4),
+        baca.register(4),
         ],
     )
 
@@ -428,7 +428,7 @@ segment_maker.append_specifiers(
     [
         baca.articulations.accents(),
         baca.overrides.script_direction(Down),
-        baca.pitch.register(-20),
+        baca.register(-20),
         ],
     )
 
@@ -437,6 +437,6 @@ segment_maker.append_specifiers(
     [
         baca.articulations.staccati(),
         baca.overrides.beam_positions(5.5),
-        baca.pitch.register(-4),
+        baca.register(-4),
         ],
     )

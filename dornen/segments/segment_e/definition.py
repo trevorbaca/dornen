@@ -16,8 +16,8 @@ accumulator(
     accumulator.forty_eighth_figure_maker(
         design[:1],
         'Guitar Music Voice 1',
-        baca.articulations.tenuti(),
-        baca.overrides.beam_positions(10),
+        baca.tenuti(),
+        baca.beam_positions(10),
         baca.register(-12),
         extend_beam=True,
         figure_name='48_1',
@@ -55,7 +55,7 @@ accumulator(
     accumulator.forty_eighth_figure_maker(
         design[6:7],
         'Guitar Music Voice 1',
-        baca.articulations.tenuti(),
+        baca.tenuti(),
         baca.register(-12),
         figure_name='48_2',
         ),
@@ -177,8 +177,8 @@ accumulator._populate_segment_maker(segment_maker)
 segment_maker.append_specifiers(
     ('Guitar Music Voice 3', baca.select.stages(1, 7)),
     [
-        baca.articulations.accents(),
-        baca.overrides.script_direction(Down),
+        baca.accents(),
+        baca.script_direction(Down),
         baca.register(-20),
         ],
     )
@@ -186,8 +186,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 4', baca.select.stages(1, 7)),
     [
-        baca.articulations.staccati(),
-        baca.overrides.beam_positions(5.5),
+        baca.staccati(),
+        baca.beam_positions(5.5),
         baca.register(-4),
         ],
     )

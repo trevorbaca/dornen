@@ -19,7 +19,7 @@ accumulator(
     accumulator.twentieth_figure_maker(
         design[:1],
         'Guitar Music Voice 1',
-        baca.spanners.slur(),
+        baca.slur(),
         middle_register,
         extend_beam=True,
         figure_name='20_1',
@@ -34,7 +34,7 @@ accumulator(
             'dull (but beautiful) thud with RH muting for each red note',
             direction=Down,
             ),
-        baca.overrides.text_script_down(),
+        baca.text_script_down(),
         extend_beam=True,
         figure_name='16_1',
         ),
@@ -44,7 +44,7 @@ accumulator(
     accumulator.twenty_eighth_figure_maker(
         design[2:3],
         'Guitar Music Voice 3',
-        baca.overrides.stem_up(),
+        baca.stem_up(),
         middle_register,
         figure_name='28_1',
         ),
@@ -63,7 +63,7 @@ accumulator(
     accumulator.twentieth_figure_maker(
         design[4:5],
         'Guitar Music Voice 1',
-        baca.spanners.slur(),
+        baca.slur(),
         middle_register,
         extend_beam=True,
         figure_name='20_2',
@@ -83,7 +83,7 @@ accumulator(
     accumulator.twenty_eighth_figure_maker(
         design[6:7],
         'Guitar Music Voice 3',
-        baca.overrides.stem_up(),
+        baca.stem_up(),
         middle_register,
         figure_name='28_2',
         ),
@@ -102,7 +102,7 @@ accumulator(
     accumulator.twentieth_figure_maker(
         design[8:9],
         'Guitar Music Voice 1',
-        baca.spanners.slur(),
+        baca.slur(),
         middle_register,
         figure_name='20_3',
         ),
@@ -120,7 +120,7 @@ accumulator(
     accumulator.twenty_fourth_figure_maker(
         design[10:11],
         'Guitar Music Voice 2',
-        baca.overrides.proportional_notation_duration((1, 48)),
+        baca.proportional_notation_duration((1, 48)),
         extend_beam=True,
         figure_name='24_1',
         ),
@@ -130,7 +130,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         design[11:12],
         'Guitar Music Voice 1',
-        baca.spanners.slur(),
+        baca.slur(),
         middle_register,
         extend_beam=True,
         figure_name='32_1',
@@ -150,7 +150,7 @@ accumulator(
     accumulator.twenty_eighth_figure_maker(
         design[13:14],
         'Guitar Music Voice 3',
-        baca.overrides.stem_up(),
+        baca.stem_up(),
         middle_register,
         figure_name='28_3',
         ),
@@ -169,7 +169,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         design[15:16],
         'Guitar Music Voice 1',
-        baca.spanners.slur(),
+        baca.slur(),
         middle_register,
         extend_beam=True,
         figure_name='32_2',
@@ -189,7 +189,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         design[17:18],
         'Guitar Music Voice 1',
-        baca.spanners.slur(),
+        baca.slur(),
         middle_register,
         extend_beam=True,
         figure_name='32_3',
@@ -209,7 +209,7 @@ accumulator(
     accumulator.twenty_eighth_figure_maker(
         design[19:20],
         'Guitar Music Voice 3',
-        baca.overrides.stem_up(),
+        baca.stem_up(),
         middle_register,
         figure_name='28_4',
         ),
@@ -227,7 +227,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         design[21:],
         'Guitar Music Voice 1',
-        baca.spanners.slur(),
+        baca.slur(),
         middle_register,
         figure_name='32_4',
         ),
@@ -275,15 +275,15 @@ accumulator._populate_segment_maker(segment_maker)
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(1, 22)),
     [
-        baca.overrides.beam_positions(8),
+        baca.beam_positions(8),
         ],
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 2', baca.select.stages(1, 10)),
     [
-        baca.overrides.beam_positions(-7),
-        baca.overrides.proportional_notation_duration((1, 32)),
+        baca.beam_positions(-7),
+        baca.proportional_notation_duration((1, 32)),
         lower_register,
         ],
     )
@@ -291,8 +291,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 2', baca.select.stages(11, 22)),
     [
-        baca.overrides.beam_positions(-7),
-        baca.overrides.proportional_notation_duration((1, 48)),
+        baca.beam_positions(-7),
+        baca.proportional_notation_duration((1, 48)),
         lower_register,
         ],
     )
@@ -300,7 +300,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 3', baca.select.stages(1, 22)),
     [
-        baca.overrides.beam_positions(4),
-        baca.articulations.staccati(),
+        baca.beam_positions(4),
+        baca.staccati(),
         ],
     )

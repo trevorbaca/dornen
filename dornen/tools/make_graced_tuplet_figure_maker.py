@@ -292,7 +292,7 @@ def make_graced_tuplet_figure_maker():
                 baca.tools.RhythmSpecifier(
                     patterns=[
                         patterntools.Pattern(
-                            indices=(0,),
+                            indices=[0],
                             period=2,
                             ),
                         ],
@@ -307,7 +307,7 @@ def make_graced_tuplet_figure_maker():
                                 ),
                             ],
                         talea=rhythmmakertools.Talea(
-                            counts=(1,),
+                            counts=[1],
                             denominator=16,
                             ),
                         time_treatments=[
@@ -318,7 +318,7 @@ def make_graced_tuplet_figure_maker():
                 baca.tools.RhythmSpecifier(
                     patterns=[
                         patterntools.Pattern(
-                            indices=(1,),
+                            indices=[1],
                             period=2,
                             ),
                         ],
@@ -333,7 +333,7 @@ def make_graced_tuplet_figure_maker():
                                 ),
                             ],
                         talea=rhythmmakertools.Talea(
-                            counts=(1,),
+                            counts=[1],
                             denominator=16,
                             ),
                         time_treatments=[

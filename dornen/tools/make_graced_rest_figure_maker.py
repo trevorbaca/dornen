@@ -403,7 +403,7 @@ def make_graced_rest_figure_maker():
                 baca.tools.RhythmSpecifier(
                     patterns=[
                         patterntools.Pattern(
-                            indices=(0,),
+                            indices=[0],
                             period=1,
                             ),
                         ],
@@ -412,7 +412,7 @@ def make_graced_rest_figure_maker():
                             baca.tools.AcciaccaturaSpecifier(),
                             ],
                         talea=rhythmmakertools.Talea(
-                            counts=(1,),
+                            counts=[1],
                             denominator=8,
                             ),
                         ),

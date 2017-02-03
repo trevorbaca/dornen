@@ -427,13 +427,13 @@ def make_running_figure_maker():
                 baca.tools.RhythmSpecifier(
                     patterns=[
                         patterntools.Pattern(
-                            indices=(0,),
+                            indices=[0],
                             period=1,
                             ),
                         ],
                     rhythm_maker=baca.tools.FigureRhythmMaker(
                         talea=rhythmmakertools.Talea(
-                            counts=(1,),
+                            counts=[1],
                             denominator=64,
                             ),
                         time_treatments=[-1, -2],

@@ -48,7 +48,7 @@ def make_glissando_scatto_figure_maker():
             >>> segment_maker = baca.tools.SegmentMaker(
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.SpacingSpecifier(
+            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
             ...         minimum_width=Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,
@@ -227,7 +227,7 @@ def make_glissando_scatto_figure_maker():
             >>> segment_maker = baca.tools.SegmentMaker(
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.SpacingSpecifier(
+            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
             ...         minimum_width=Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,

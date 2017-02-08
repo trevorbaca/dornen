@@ -59,7 +59,7 @@ def make_twenty_eighth_figure_maker():
             >>> segment_maker = baca.tools.SegmentMaker(
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.SpacingSpecifier(
+            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
             ...         multiplier=durationtools.Multiplier((5, 2)),
             ...         ),
             ...     time_signatures=time_signatures,
@@ -261,7 +261,7 @@ def make_twenty_eighth_figure_maker():
             >>> segment_maker = baca.tools.SegmentMaker(
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.SpacingSpecifier(
+            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
             ...         multiplier=durationtools.Multiplier((5, 2)),
             ...         ),
             ...     time_signatures=time_signatures,

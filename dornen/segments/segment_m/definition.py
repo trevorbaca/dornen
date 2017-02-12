@@ -68,7 +68,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         'Guitar Music Voice 1',
         [['C4']],
-        logical_tie_masks=abjad.rhythmmakertools.silence_all(),
+        logical_tie_masks=abjad.silence_all(),
         ),
     )
 
@@ -126,7 +126,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         'Guitar Music Voice 1',
         [['C4']],
-        logical_tie_masks=abjad.rhythmmakertools.silence_all(),
+        logical_tie_masks=abjad.silence_all(),
         ),
     )
 
@@ -184,7 +184,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         'Guitar Music Voice 1',
         [['C4']],
-        logical_tie_masks=abjad.rhythmmakertools.silence_all(),
+        logical_tie_masks=abjad.silence_all(),
         ),
     )
 
@@ -241,7 +241,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         'Guitar Music Voice 1',
         [['C4']],
-        logical_tie_masks=abjad.rhythmmakertools.silence_all(),
+        logical_tie_masks=abjad.silence_all(),
         ),
     )
 
@@ -298,7 +298,7 @@ accumulator(
     accumulator.thirty_second_figure_maker(
         'Guitar Music Voice 1',
         [['C4']],
-        logical_tie_masks=abjad.rhythmmakertools.silence_all(),
+        logical_tie_masks=abjad.silence_all(),
         ),
     )
 
@@ -349,7 +349,7 @@ accumulator(
     accumulator.rest_figure_maker(
         'Guitar Music Voice 1',
         [5 * ['C4']],
-        logical_tie_masks=abjad.rhythmmakertools.silence_all(),
+        logical_tie_masks=abjad.silence_all(),
         ),
     )
 

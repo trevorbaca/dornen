@@ -219,7 +219,7 @@ accumulator(
         'Guitar Music Voice 2',
         [3 * ['C4']],
         figure_name='R1',
-        logical_tie_masks=abjad.rhythmmakertools.silence_all(),
+        logical_tie_masks=abjad.silence_all(),
         ),
     )
 

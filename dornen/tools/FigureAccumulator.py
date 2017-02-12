@@ -29,10 +29,9 @@ class FigureAccumulator(baca.tools.FigureAccumulator):
         ::
 
             >>> selection = accumulator.assemble(voice_name)
-            >>> lilypond_file = rhythmmakertools.make_lilypond_file(
+            >>> lilypond_file = accumulator.show(
             ...     {voice_name: selection},
             ...     accumulator.time_signatures,
-            ...     pitched_staff=True,
             ...     )
             >>> show(lilypond_file) # doctest: +SKIP
 

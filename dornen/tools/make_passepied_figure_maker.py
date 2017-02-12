@@ -32,8 +32,9 @@ def make_passepied_figure_maker():
             ...     stage_tokens[3:4],
             ...     stage_tokens[4:5],
             ...     ]
-            >>> for segment_list in segment_lists:
-            ...     segment_list
+            >>> for segments in segment_lists:
+            ...     segments
+            ...
             ([8],)
             ([1, 0, 10, 5],)
             ([8, 6, 11, 2],)
@@ -45,11 +46,8 @@ def make_passepied_figure_maker():
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_passepied_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for segment_list in segment_lists:
-            ...     contribution = figure_maker(
-            ...         segment_list,
-            ...         voice_name=voice_name,
-            ...         )
+            >>> for segments in segment_lists:
+            ...     contribution = figure_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
@@ -193,8 +191,9 @@ def make_passepied_figure_maker():
             ...     stage_tokens[2:5],
             ...     stage_tokens[3:6],
             ...     ]
-            >>> for segment_list in segment_lists:
-            ...     segment_list
+            >>> for segments in segment_lists:
+            ...     segments
+            ...
             ([8], [1, 0, 10, 5], [8, 6, 11, 2])
             ([1, 0, 10, 5], [8, 6, 11, 2], [4, 3, 9, 7])
             ([8, 6, 11, 2], [4, 3, 9, 7], [6, 11, 2, 5])
@@ -205,11 +204,8 @@ def make_passepied_figure_maker():
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_passepied_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for segment_list in segment_lists:
-            ...     contribution = figure_maker(
-            ...         segment_list,
-            ...         voice_name=voice_name,
-            ...         )
+            >>> for segments in segment_lists:
+            ...     contribution = figure_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...

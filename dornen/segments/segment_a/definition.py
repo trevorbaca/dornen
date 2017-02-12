@@ -15,8 +15,8 @@ assert len(design) == 14
 
 accumulator(
     accumulator.inverted_wave_64_figure_maker(
-        design[:4],
         'Guitar Music Voice 1',
+        design[:4],
         baca.beam_positions(8),
         baca.register(0, -14),
         figure_name='W1',
@@ -26,8 +26,8 @@ accumulator(
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        accumulator.reveal(design[4:5], 1),
         'Guitar Music Voice 2',
+        accumulator.reveal(design[4:5], 1),
         baca.beam_positions(-8),
         baca.proportional_notation_duration((1, 40)),
         baca.register(6),
@@ -38,8 +38,8 @@ accumulator(
 
 accumulator(
     accumulator.running_figure_maker(
-        design[5:8],
         'Guitar Music Voice 1',
+        design[5:8],
         baca.register(-14, 0),
         extend_beam=True,
         figure_name='R1',
@@ -48,8 +48,8 @@ accumulator(
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        accumulator.reveal(design[4:5], 2),
         'Guitar Music Voice 2',
+        accumulator.reveal(design[4:5], 2),
         baca.register(6),
         extend_beam=True,
         figure_name='F1_2',
@@ -58,8 +58,8 @@ accumulator(
 
 accumulator(
     accumulator.running_figure_maker(
-        design[6:9],
         'Guitar Music Voice 1',
+        design[6:9],
         baca.register(-14, 0),
         extend_beam=True,
         figure_name='R2',
@@ -68,8 +68,8 @@ accumulator(
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        accumulator.reveal(design[4:5], 3),
         'Guitar Music Voice 2',
+        accumulator.reveal(design[4:5], 3),
         baca.register(6),
         extend_beam=True,
         figure_name='F1_3',
@@ -78,8 +78,8 @@ accumulator(
 
 accumulator(
     accumulator.running_figure_maker(
-        design[7:10],
         'Guitar Music Voice 1',
+        design[7:10],
         baca.register(-14, 0),
         extend_beam=True,
         figure_name='R3',
@@ -88,8 +88,8 @@ accumulator(
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        accumulator.reveal(design[4:5], 4),
         'Guitar Music Voice 2',
+        accumulator.reveal(design[4:5], 4),
         baca.register(6),
         extend_beam=True,
         figure_name='F1_4',
@@ -98,8 +98,8 @@ accumulator(
 
 accumulator(
     accumulator.running_figure_maker(
-        design[8:11],
         'Guitar Music Voice 1',
+        design[8:11],
         baca.register(-14, 0),
         extend_beam=True,
         figure_name='R4',
@@ -108,8 +108,8 @@ accumulator(
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        accumulator.reveal(design[4:5], 5),
         'Guitar Music Voice 2',
+        accumulator.reveal(design[4:5], 5),
         baca.register(6),
         figure_name='F1',
         ),
@@ -117,8 +117,8 @@ accumulator(
 
 accumulator(
     accumulator.running_figure_maker(
-        design[9:13],
         'Guitar Music Voice 1',
+        design[9:13],
         baca.register(-14, 6),
         figure_name='R5',
         ),
@@ -126,8 +126,8 @@ accumulator(
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        accumulator.reveal(design[4:5], 1),
         'Guitar Music Voice 2',
+        accumulator.reveal(design[4:5], 1),
         baca.proportional_notation_duration((1, 40)),
         baca.register(6),
         extend_beam=True,
@@ -137,8 +137,8 @@ accumulator(
 
 accumulator(
     accumulator.delicatissimo_figure_maker(
-        design[13:],
         'Guitar Music Voice 1',
+        design[13:],
         baca.text_script_staff_padding(9),
         baca.register(6, -20),
         extend_beam=True,
@@ -148,8 +148,8 @@ accumulator(
 
 accumulator(
     accumulator.twentieth_figure_maker(
-        accumulator.reveal(design[4:5], 2),
         'Guitar Music Voice 2',
+        accumulator.reveal(design[4:5], 2),
         baca.register(6),
         figure_name='F1_2*',
         ),
@@ -157,8 +157,8 @@ accumulator(
 
 accumulator(
     accumulator.delicatissimo_figure_maker(
-        design[13:],
         'Guitar Music Voice 1',
+        design[13:],
         baca.register(-20, 6),
         extend_beam=True,
         figure_name='D2',

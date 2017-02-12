@@ -20,9 +20,9 @@ class FigureAccumulator(baca.tools.FigureAccumulator):
             >>> segments = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
             >>> accumulator(
             ...     accumulator.delicatissimo_figure_maker(
+            ...         voice_name,
             ...         segments,
             ...         figure_name='D',
-            ...         voice_name=voice_name,
             ...         ),
             ...     )
 

@@ -29,11 +29,8 @@ def make_forty_eighth_figure_maker():
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_forty_eighth_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for segment_list in segment_lists:
-            ...     contribution = figure_maker(
-            ...         segment_list,
-            ...         voice_name=voice_name,
-            ...         )
+            >>> for segments in segment_lists:
+            ...     contribution = figure_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...

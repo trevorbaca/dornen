@@ -12,16 +12,17 @@ accumulator = dornen.tools.FigureAccumulator()
 
 accumulator(
     accumulator.rest_figure_maker(
-        [3 * [None]],
         'Guitar Music Voice 1',
+        [3 * ['C4']],
         figure_name='R_1',
+        logical_tie_masks=abjad.rhythmmakertools.silence_all(),
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        2 * [['Gb2']],
         'Guitar Music Voice 1',
+        2 * [['Gb2']],
         baca.markup.make_boxed_markup_specifier('2-finger tamb. trill'),
         baca.tools.DynamicSpecifier(dynamic='ppp'),
         figure_name='2_1',
@@ -30,32 +31,32 @@ accumulator(
 
 accumulator(
     accumulator.monad_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         figure_name='2_2',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         figure_name='2_3',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         figure_name='2_4',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         figure_name='2_5',
         ),
     )
@@ -64,8 +65,8 @@ accumulator(
 
 accumulator(
     accumulator.monad_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         baca.markup.make_boxed_markup_specifier('3 fingers'),
         figure_name='3_1',
         ),
@@ -73,32 +74,32 @@ accumulator(
 
 accumulator(
     accumulator.monad_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         figure_name='3_2',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         figure_name='3_3',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         figure_name='3_4',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         figure_name='3_5',
         ),
     )
@@ -107,8 +108,8 @@ accumulator(
 
 accumulator(
     accumulator.monad_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         baca.markup.make_boxed_markup_specifier('4 fingers'),
         figure_name='4_1',
         ),
@@ -116,72 +117,72 @@ accumulator(
 
 accumulator(
     accumulator.monad_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         figure_name='4_2',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         figure_name='4_3',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         figure_name='4_4',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         figure_name='4_5',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         figure_name='4_6',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         figure_name='4_7',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         figure_name='4_8',
         ),
     )
 
 accumulator(
     accumulator.third_figure_maker(
-        [['Gb2']],
         'Guitar Music Voice 1',
+        [['Gb2']],
         figure_name='4_9',
         ),
     )
 
 accumulator(
     accumulator.monad_figure_maker(
-        2 * [['Gb2']],
         'Guitar Music Voice 1',
+        2 * [['Gb2']],
         baca.markup.make_boxed_markup_specifier('3 fingers'),
         figure_name='4_10',
         ),
@@ -189,8 +190,8 @@ accumulator(
 
 accumulator(
     accumulator.monad_figure_maker(
-        2 * [['Gb2']],
         'Guitar Music Voice 1',
+        2 * [['Gb2']],
         baca.markup.make_boxed_markup_specifier('2 fingers'),
         figure_name='4_11',
         ),

@@ -86,7 +86,7 @@ accumulator(
             selector=baca.select.first_leaf(),
             ),
         figure_name='S1',
-        logical_tie_masks=abjad.rhythmmakertools.silence_all(),
+        logical_tie_masks=abjad.silence_all(),
         ),
     )
 

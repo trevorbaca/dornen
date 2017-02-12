@@ -82,7 +82,7 @@ accumulator(
     accumulator.rest_figure_maker(
         'Guitar Music Voice 4',
         [3 * ['C4']],
-        logical_tie_masks=abjad.rhythmmakertools.silence_all(),
+        logical_tie_masks=abjad.silence_all(),
         figure_name='S1',
         ),
     )
@@ -178,7 +178,7 @@ accumulator(
         'Guitar Music Voice 4',
         [3 * ['C4']],
         figure_name='S2',
-        logical_tie_masks=abjad.rhythmmakertools.silence_all(),
+        logical_tie_masks=abjad.silence_all(),
         ),
     )
 

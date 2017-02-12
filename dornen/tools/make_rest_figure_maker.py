@@ -291,7 +291,7 @@ def make_rest_figure_maker(duration=None):
         baca.tools.RhythmSpecifier(
             patterns=abjad.patterntools.select_all(),
             rhythm_maker=baca.tools.FigureRhythmMaker(
-                logical_tie_masks=abjad.rhythmmakertools.silence_all(),
+                logical_tie_masks=abjad.silence_all(),
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[duration.numerator],
                     denominator=duration.denominator,

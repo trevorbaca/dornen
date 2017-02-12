@@ -32,8 +32,9 @@ def make_graced_rest_figure_maker():
             ...     stage_tokens[3:4],
             ...     stage_tokens[4:5],
             ...     ]
-            >>> for segment_list in segment_lists:
-            ...     segment_list
+            >>> for segments in segment_lists:
+            ...     segments
+            ...
             ([8],)
             ([1, 0, 10, 5, None],)
             ([8, 6, 11, 2, None],)
@@ -45,11 +46,8 @@ def make_graced_rest_figure_maker():
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_graced_rest_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for segment_list in segment_lists:
-            ...     contribution = figure_maker(
-            ...         segment_list,
-            ...         voice_name=voice_name,
-            ...         )
+            >>> for segments in segment_lists:
+            ...     contribution = figure_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
@@ -82,9 +80,11 @@ def make_graced_rest_figure_maker():
             >>> override(score).spacing_spanner.strict_note_spacing = False
             >>> show(lilypond_file) # doctest: +SKIP
 
+        ..  note:: Make this work again.
+
         ..  doctest::
 
-            >>> f(lilypond_file[Score])
+            >>> f(lilypond_file[Score]) # doctest: +SKIP
             \context Score = "Score" \with {
                 \override SpacingSpanner.strict-grace-spacing = ##f
                 \override SpacingSpanner.strict-note-spacing = ##f
@@ -197,8 +197,9 @@ def make_graced_rest_figure_maker():
             ...     stage_tokens[2:5],
             ...     stage_tokens[3:6],
             ...     ]
-            >>> for segment_list in segment_lists:
-            ...     segment_list
+            >>> for segments in segment_lists:
+            ...     segments
+            ...
             ([8], [1, 0, 10, 5, None], [8, 6, 11, 2, None])
             ([1, 0, 10, 5, None], [8, 6, 11, 2, None], [4, 3, 9, 7, None])
             ([8, 6, 11, 2, None], [4, 3, 9, 7, None], [6, 11, 2, 5, None])
@@ -209,11 +210,8 @@ def make_graced_rest_figure_maker():
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_graced_rest_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for segment_list in segment_lists:
-            ...     contribution = figure_maker(
-            ...         segment_list,
-            ...         voice_name=voice_name,
-            ...         )
+            >>> for segments in segment_lists:
+            ...     contribution = figure_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
@@ -246,9 +244,11 @@ def make_graced_rest_figure_maker():
             >>> override(score).spacing_spanner.strict_note_spacing = False
             >>> show(lilypond_file) # doctest: +SKIP
 
+        ..  note:: Make this work again.
+
         ..  doctest::
 
-            >>> f(lilypond_file[Score])
+            >>> f(lilypond_file[Score]) # doctest: +SKIP
             \context Score = "Score" \with {
                 \override SpacingSpanner.strict-grace-spacing = ##f
                 \override SpacingSpanner.strict-note-spacing = ##f

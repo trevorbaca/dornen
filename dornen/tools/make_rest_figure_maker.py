@@ -28,8 +28,9 @@ def make_rest_figure_maker(duration=None):
             ...     stage_tokens[1:2],
             ...     stage_tokens[2:3],
             ...     ]
-            >>> for segment_list in segment_lists:
-            ...     segment_list
+            >>> for segments in segment_lists:
+            ...     segments
+            ...
             ([None],)
             ([None, None],)
             ([None, None, None],)
@@ -39,11 +40,8 @@ def make_rest_figure_maker(duration=None):
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_rest_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for segment_list in segment_lists:
-            ...     contribution = figure_maker(
-            ...         segment_list,
-            ...         voice_name=voice_name,
-            ...         )
+            >>> for segments in segment_lists:
+            ...     contribution = figure_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
@@ -148,8 +146,9 @@ def make_rest_figure_maker(duration=None):
             ...     stage_tokens[:3],
             ...     stage_tokens[1:4],
             ...     ]
-            >>> for segment_list in segment_lists:
-            ...     segment_list
+            >>> for segments in segment_lists:
+            ...     segments
+            ...
             ([None], [None, None], [None, None, None])
             ([None, None], [None, None, None], [None])
 
@@ -158,11 +157,8 @@ def make_rest_figure_maker(duration=None):
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_rest_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for segment_list in segment_lists:
-            ...     contribution = figure_maker(
-            ...         segment_list,
-            ...         voice_name=voice_name,
-            ...         )
+            >>> for segments in segment_lists:
+            ...     contribution = figure_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
@@ -268,6 +264,16 @@ def make_rest_figure_maker(duration=None):
                             ),
                         ],
                     rhythm_maker=baca.tools.FigureRhythmMaker(
+                        logical_tie_masks=patterntools.PatternInventory(
+                            (
+                                rhythmmakertools.SilenceMask(
+                                    pattern=patterntools.Pattern(
+                                        indices=[0],
+                                        period=1,
+                                        ),
+                                    ),
+                                )
+                            ),
                         talea=rhythmmakertools.Talea(
                             counts=[1],
                             denominator=8,
@@ -285,6 +291,7 @@ def make_rest_figure_maker(duration=None):
         baca.tools.RhythmSpecifier(
             patterns=abjad.patterntools.select_all(),
             rhythm_maker=baca.tools.FigureRhythmMaker(
+                logical_tie_masks=abjad.rhythmmakertools.silence_all(),
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[duration.numerator],
                     denominator=duration.denominator,

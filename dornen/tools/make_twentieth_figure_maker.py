@@ -27,8 +27,8 @@ def make_twentieth_figure_maker():
             ...     baca.Sequence(_).partition_by_counts([1], cyclic=True)
             ...     for _ in segment_lists
             ...     ]
-            >>> for segment_list in segment_lists:
-            ...     segment_list
+            >>> for segments in segment_lists:
+            ...     segments
             ...
             Sequence([Sequence([1]), Sequence([0]), Sequence([10]), Sequence([5]), Sequence([8]), Sequence([6]), Sequence([11])])
             Sequence([Sequence([2]), Sequence([4])])
@@ -40,11 +40,8 @@ def make_twentieth_figure_maker():
             >>> voice_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_twentieth_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for segment_list in segment_lists:
-            ...     contribution = figure_maker(
-            ...         segment_list,
-            ...         voice_name=voice_name,
-            ...         )
+            >>> for segments in segment_lists:
+            ...     contribution = figure_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
@@ -229,8 +226,8 @@ def make_twentieth_figure_maker():
             ...     baca.Sequence(_).partition_by_counts([1, 2], cyclic=True)
             ...     for _ in segment_lists
             ...     ]
-            >>> for segment_list in segment_lists:
-            ...     segment_list
+            >>> for segments in segment_lists:
+            ...     segments
             ...
             Sequence([Sequence([1]), Sequence([0, 10]), Sequence([5]), Sequence([8, 6]), Sequence([11])])
             Sequence([Sequence([2])])
@@ -242,11 +239,8 @@ def make_twentieth_figure_maker():
             >>> voic_name = 'Guitar Music Voice 1'
             >>> figure_maker = dornen.tools.make_twentieth_figure_maker()
             >>> figures, time_signatures = [], []
-            >>> for segment_list in segment_lists:
-            ...     contribution = figure_maker(
-            ...         segment_list,
-            ...         voice_name=voice_name,
-            ...         )
+            >>> for segments in segment_lists:
+            ...     contribution = figure_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...

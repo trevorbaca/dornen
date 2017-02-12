@@ -15,8 +15,8 @@ design = baca.tools.Cursor(source=design)
 
 accumulator(
     accumulator.anchor_figure_maker(
-        design.next(),
         'Guitar Music Voice 1',
+        design.next(),
         baca.beam_positions(6),
         baca.register(-8),
         extend_beam=True,
@@ -26,8 +26,8 @@ accumulator(
 
 accumulator(
     accumulator.passepied_figure_maker(
-        design.next(),
         'Guitar Music Voice 2',
+        design.next(),
         baca.beam_positions(-10),
         baca.time_signature_extra_offset((-2.5, 0)),
         baca.register(-10),
@@ -38,8 +38,8 @@ accumulator(
 
 accumulator(
     accumulator.anchor_figure_maker(
-        design.next(),
         'Guitar Music Voice 1',
+        design.next(),
         baca.register(-10),
         extend_beam=True,
         figure_name=3,
@@ -48,8 +48,8 @@ accumulator(
 
 accumulator(
     accumulator.passepied_figure_maker(
-        design.next(),
         'Guitar Music Voice 2',
+        design.next(),
         baca.time_signature_extra_offset((-2.5, 0)),
         baca.register(-8),
         extend_beam=True,
@@ -59,8 +59,8 @@ accumulator(
 
 accumulator(
     accumulator.anchor_figure_maker(
-        design.next(),
         'Guitar Music Voice 1',
+        design.next(),
         baca.register(-12),
         figure_name=5,
         ),
@@ -68,8 +68,8 @@ accumulator(
 
 accumulator(
     accumulator.passepied_figure_maker(
-        design.next(),
         'Guitar Music Voice 2',
+        design.next(),
         baca.time_signature_extra_offset((-2.5, 0)),
         baca.register(-6),
         figure_name=6,
@@ -78,8 +78,8 @@ accumulator(
 
 accumulator(
     accumulator.anchor_figure_maker(
-        design.next(),
         'Guitar Music Voice 1',
+        design.next(),
         baca.beam_positions(9),
         baca.register(-14),
         extend_beam=True,
@@ -89,8 +89,8 @@ accumulator(
 
 accumulator(
     accumulator.passepied_figure_maker(
-        design.next(),
         'Guitar Music Voice 2',
+        design.next(),
         baca.beam_positions(-10),
         baca.time_signature_extra_offset((-2.5, 0)),
         baca.register(-4),
@@ -101,8 +101,8 @@ accumulator(
 
 accumulator(
     accumulator.running_figure_maker(
-        design.next(2),
         'Guitar Music Voice 4',
+        design.next(2),
         baca.register(-12),
         figure_name=9,
         ),
@@ -110,8 +110,8 @@ accumulator(
 
 accumulator(
     accumulator.anchor_figure_maker(
-        design.next(),
         'Guitar Music Voice 1',
+        design.next(),
         baca.register(-16),
         figure_name=10,
         ),
@@ -119,8 +119,8 @@ accumulator(
 
 accumulator(
     accumulator.running_figure_maker(
-        design.next(2),
         'Guitar Music Voice 4',
+        design.next(2),
         baca.register(-6),
         figure_name=11,
         ),
@@ -128,8 +128,8 @@ accumulator(
 
 accumulator(
     accumulator.anchor_figure_maker(
-        design.next(),
         'Guitar Music Voice 1',
+        design.next(),
         baca.beam_positions(6),
         baca.register(-18),
         extend_beam=True,
@@ -139,8 +139,8 @@ accumulator(
 
 accumulator(
     accumulator.passepied_figure_maker(
-        design.next(),
         'Guitar Music Voice 2',
+        design.next(),
         baca.time_signature_extra_offset((-2.5, 0)),
         baca.register(-2),
         figure_name=13,
@@ -149,8 +149,8 @@ accumulator(
 
 accumulator(
     accumulator.anchor_figure_maker(
-        design.next(),
         'Guitar Music Voice 1',
+        design.next(),
         baca.register(-20),
         figure_name=14,
         ),
@@ -158,8 +158,8 @@ accumulator(
 
 accumulator(
     accumulator.passepied_figure_maker(
-        design.next(),
         'Guitar Music Voice 2',
+        design.next(),
         baca.beam_positions(-10),
         baca.time_signature_extra_offset((-2.5, 0)),
         baca.register(0),
@@ -170,8 +170,8 @@ accumulator(
 
 accumulator(
     accumulator.passepied_figure_maker(
-        design.next(),
         'Guitar Music Voice 2',
+        design.next(),
         baca.time_signature_extra_offset((-2.5, 0)),
         baca.register(2),
         figure_name=16,
@@ -180,8 +180,8 @@ accumulator(
 
 accumulator(
     accumulator.running_figure_maker(
-        design.next(2),
         'Guitar Music Voice 4',
+        design.next(2),
         baca.register(-12, 0),
         figure_name=17,
         ),
@@ -189,8 +189,8 @@ accumulator(
 
 accumulator(
     accumulator.inverted_wave_64_figure_maker(
-        design.next(),
         'Guitar Music Voice 3',
+        design.next(),
         baca.beam_positions(-6),
         figure_name=18,
         ),
@@ -198,8 +198,8 @@ accumulator(
 
 accumulator(
     accumulator.inverted_wave_64_figure_maker(
-        design.next(),
         'Guitar Music Voice 3',
+        design.next(),
         baca.beam_positions(-6),
         figure_name=19,
         ),

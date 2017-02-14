@@ -41,7 +41,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
             >>> for figure in figures:
             ...     figures_.extend(figure)
             ... 
-            >>> figures = select(figures_)
+            >>> figures = abjad.select(figures_)
 
         ::
 
@@ -49,7 +49,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-            ...         minimum_width=Duration(1, 24),
+            ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,
             ...     )
@@ -64,13 +64,13 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
-            >>> score = lilypond_file[Score]
-            >>> override(score).tuplet_bracket.padding = 2
+            >>> score = lilypond_file[abjad.Score]
+            >>> abjad.override(score).tuplet_bracket.padding = 2
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
-            >>> f(lilypond_file[Score])
+            >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {
                 \override TupletBracket.padding = #2
             } <<
@@ -398,7 +398,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
             >>> for figure in figures:
             ...     figures_.extend(figure)
             ... 
-            >>> figures = select(figures_)
+            >>> figures = abjad.select(figures_)
 
         ::
 
@@ -406,7 +406,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-            ...         minimum_width=Duration(1, 24),
+            ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,
             ...     )
@@ -421,13 +421,13 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
-            >>> score = lilypond_file[Score]
-            >>> override(score).tuplet_bracket.padding = 2
+            >>> score = lilypond_file[abjad.Score]
+            >>> abjad.override(score).tuplet_bracket.padding = 2
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
-            >>> f(lilypond_file[Score])
+            >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {
                 \override TupletBracket.padding = #2
             } <<
@@ -755,7 +755,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
             >>> for figure in figures:
             ...     figures_.extend(figure)
             ... 
-            >>> figures = select(figures_)
+            >>> figures = abjad.select(figures_)
 
         ::
 
@@ -763,7 +763,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-            ...         minimum_width=Duration(1, 24),
+            ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,
             ...     )
@@ -778,13 +778,13 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
-            >>> score = lilypond_file[Score]
-            >>> override(score).tuplet_bracket.padding = 2
+            >>> score = lilypond_file[abjad.Score]
+            >>> abjad.override(score).tuplet_bracket.padding = 2
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
-            >>> f(lilypond_file[Score])
+            >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {
                 \override TupletBracket.padding = #2
             } <<

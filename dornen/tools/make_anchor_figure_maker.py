@@ -38,7 +38,7 @@ def make_anchor_figure_maker():
             >>> for figure in figures:
             ...     figures_.extend(figure)
             ... 
-            >>> figures = select(figures_)
+            >>> figures = abjad.select(figures_)
 
         ::
 
@@ -46,7 +46,7 @@ def make_anchor_figure_maker():
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-            ...         minimum_width=Duration(1, 24),
+            ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,
             ...     )
@@ -65,7 +65,7 @@ def make_anchor_figure_maker():
 
         ..  doctest::
 
-            >>> f(lilypond_file[Score])
+            >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \tag violin
                 \context TimeSignatureContext = "Time Signature Context" <<

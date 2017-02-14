@@ -37,7 +37,7 @@ class FigureAccumulator(baca.tools.FigureAccumulator):
 
         ..  doctest::
 
-            >>> f(lilypond_file[Staff])
+            >>> f(lilypond_file[abjad.Staff])
             \new Staff <<
                 \context Voice = "Guitar Music Voice 1" {
                     {

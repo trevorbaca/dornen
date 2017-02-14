@@ -38,7 +38,7 @@ def make_tremolo_figure_maker():
             >>> for figure in figures:
             ...     figures_.extend(figure)
             ...
-            >>> figures = select(figures_)
+            >>> figures = abjad.select(figures_)
 
         ::
 
@@ -46,7 +46,7 @@ def make_tremolo_figure_maker():
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-            ...         minimum_width=Duration(1, 24),
+            ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,
             ...     )
@@ -65,7 +65,7 @@ def make_tremolo_figure_maker():
 
         ..  doctest::
 
-            >>> f(lilypond_file[Score])
+            >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \tag violin
                 \context TimeSignatureContext = "Time Signature Context" <<
@@ -190,7 +190,7 @@ def make_tremolo_figure_maker():
             ...     [4],
             ...     [4, 4, 4, 4, 4, 4],
             ...     ]
-            >>> stage_tokens = datastructuretools.CyclicTuple(stage_tokens)
+            >>> stage_tokens = abjad.CyclicTuple(stage_tokens)
             >>> segment_lists = [
             ...     stage_tokens[:3],
             ...     stage_tokens[1:4],
@@ -218,7 +218,7 @@ def make_tremolo_figure_maker():
             >>> for figure in figures:
             ...     figures_.extend(figure)
             ...
-            >>> figures = select(figures_)
+            >>> figures = abjad.select(figures_)
 
         ::
 
@@ -226,7 +226,7 @@ def make_tremolo_figure_maker():
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-            ...         minimum_width=Duration(1, 24),
+            ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,
             ...     )
@@ -245,7 +245,7 @@ def make_tremolo_figure_maker():
 
         ..  doctest::
 
-            >>> f(lilypond_file[Score])
+            >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \tag violin
                 \context TimeSignatureContext = "Time Signature Context" <<

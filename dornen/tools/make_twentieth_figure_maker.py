@@ -49,7 +49,7 @@ def make_twentieth_figure_maker():
             >>> for figure in figures:
             ...     figures_.extend(figure)
             ...
-            >>> figures = select(figures_)
+            >>> figures = abjad.select(figures_)
 
         ::
 
@@ -57,7 +57,7 @@ def make_twentieth_figure_maker():
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-            ...         multiplier=durationtools.Multiplier((5, 2)),
+            ...         multiplier=abjad.Multiplier((5, 2)),
             ...         ),
             ...     time_signatures=time_signatures,
             ...     )
@@ -72,16 +72,16 @@ def make_twentieth_figure_maker():
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
-            >>> score = lilypond_file[Score]
-            >>> override(score).spacing_spanner.strict_grace_spacing = False
-            >>> override(score).spacing_spanner.strict_note_spacing = False
-            >>> override(score).tuplet_bracket.direction = Up
-            >>> override(score).tuplet_bracket.staff_padding = 1.5
+            >>> score = lilypond_file[abjad.Score]
+            >>> abjad.override(score).spacing_spanner.strict_grace_spacing = False
+            >>> abjad.override(score).spacing_spanner.strict_note_spacing = False
+            >>> abjad.override(score).tuplet_bracket.direction = Up
+            >>> abjad.override(score).tuplet_bracket.staff_padding = 1.5
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
-            >>> f(lilypond_file[Score])
+            >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {
                 \override SpacingSpanner.strict-grace-spacing = ##f
                 \override SpacingSpanner.strict-note-spacing = ##f
@@ -248,7 +248,7 @@ def make_twentieth_figure_maker():
             >>> for figure in figures:
             ...     figures_.extend(figure)
             ...
-            >>> figures = select(figures_)
+            >>> figures = abjad.select(figures_)
 
         ::
 
@@ -256,7 +256,7 @@ def make_twentieth_figure_maker():
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-            ...         multiplier=durationtools.Multiplier((5, 2)),
+            ...         multiplier=abjad.Multiplier((5, 2)),
             ...         ),
             ...     time_signatures=time_signatures,
             ...     )
@@ -271,16 +271,16 @@ def make_twentieth_figure_maker():
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
-            >>> score = lilypond_file[Score]
-            >>> override(score).spacing_spanner.strict_grace_spacing = False
-            >>> override(score).spacing_spanner.strict_note_spacing = False
-            >>> override(score).tuplet_bracket.direction = Up
-            >>> override(score).tuplet_bracket.staff_padding = 1.5
+            >>> score = lilypond_file[abjad.Score]
+            >>> abjad.override(score).spacing_spanner.strict_grace_spacing = False
+            >>> abjad.override(score).spacing_spanner.strict_note_spacing = False
+            >>> abjad.override(score).tuplet_bracket.direction = Up
+            >>> abjad.override(score).tuplet_bracket.staff_padding = 1.5
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
-            >>> f(lilypond_file[Score])
+            >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {
                 \override SpacingSpanner.strict-grace-spacing = ##f
                 \override SpacingSpanner.strict-note-spacing = ##f

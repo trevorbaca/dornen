@@ -38,7 +38,7 @@ def make_default_figure_maker():
             >>> for figure in figures:
             ...     figures_.extend(figure)
             ...
-            >>> figures = select(figures_)
+            >>> figures = abjad.select(figures_)
 
         ::
 
@@ -46,7 +46,7 @@ def make_default_figure_maker():
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-            ...         minimum_width=Duration(1, 24),
+            ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,
             ...     )
@@ -65,7 +65,7 @@ def make_default_figure_maker():
 
         ..  doctest::
 
-            >>> f(lilypond_file[Score])
+            >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \tag violin
                 \context TimeSignatureContext = "Time Signature Context" <<
@@ -186,7 +186,7 @@ def make_default_figure_maker():
             ...     [11],
             ...     [10, 7, 9, 8, 0, 5],
             ...     ]
-            >>> stage_tokens = datastructuretools.CyclicTuple(stage_tokens)
+            >>> stage_tokens = abjad.CyclicTuple(stage_tokens)
             >>> segment_lists = [
             ...     stage_tokens[:3],
             ...     stage_tokens[1:4],
@@ -213,7 +213,7 @@ def make_default_figure_maker():
             >>> for figure in figures:
             ...     figures_.extend(figure)
             ...
-            >>> figures = select(figures_)
+            >>> figures = abjad.select(figures_)
 
         ::
 
@@ -221,7 +221,7 @@ def make_default_figure_maker():
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-            ...         minimum_width=Duration(1, 24),
+            ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,
             ...     )
@@ -236,13 +236,13 @@ def make_default_figure_maker():
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
-            >>> score = lilypond_file[Score]
-            >>> override(score).beam.positions = (5, 5)
+            >>> score = lilypond_file[abjad.Score]
+            >>> abjad.override(score).beam.positions = (5, 5)
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
-            >>> f(lilypond_file[Score])
+            >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {
                 \override Beam.positions = #'(5 . 5)
             } <<

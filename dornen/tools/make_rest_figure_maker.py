@@ -22,7 +22,7 @@ def make_rest_figure_maker(duration=None):
             ...     [None, None],
             ...     [None, None, None],
             ...     ]
-            >>> stage_tokens = datastructuretools.CyclicTuple(stage_tokens)
+            >>> stage_tokens = abjad.CyclicTuple(stage_tokens)
             >>> segment_lists = [
             ...     stage_tokens[:1],
             ...     stage_tokens[1:2],
@@ -49,7 +49,7 @@ def make_rest_figure_maker(duration=None):
             >>> for figure in figures:
             ...     figures_.extend(figure)
             ...
-            >>> figures = select(figures_)
+            >>> figures = abjad.select(figures_)
 
         ::
 
@@ -69,12 +69,12 @@ def make_rest_figure_maker(duration=None):
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
-            >>> score = lilypond_file[Score]
+            >>> score = lilypond_file[abjad.Score]
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
-            >>> f(lilypond_file[Score])
+            >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \tag violin
                 \context TimeSignatureContext = "Time Signature Context" <<
@@ -141,7 +141,7 @@ def make_rest_figure_maker(duration=None):
             ...     [None, None],
             ...     [None, None, None],
             ...     ]
-            >>> stage_tokens = datastructuretools.CyclicTuple(stage_tokens)
+            >>> stage_tokens = abjad.CyclicTuple(stage_tokens)
             >>> segment_lists = [
             ...     stage_tokens[:3],
             ...     stage_tokens[1:4],
@@ -166,7 +166,7 @@ def make_rest_figure_maker(duration=None):
             >>> for figure in figures:
             ...     figures_.extend(figure)
             ...
-            >>> figures = select(figures_)
+            >>> figures = abjad.select(figures_)
 
         ::
 
@@ -186,12 +186,12 @@ def make_rest_figure_maker(duration=None):
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
-            >>> score = lilypond_file[Score]
+            >>> score = lilypond_file[abjad.Score]
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
-            >>> f(lilypond_file[Score])
+            >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \tag violin
                 \context TimeSignatureContext = "Time Signature Context" <<

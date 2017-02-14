@@ -22,7 +22,7 @@ def make_graced_tuplet_figure_maker():
             ...     [1, 0, 10, 5, 8, 6, 11, 2, 4, 3],
             ...     [9, 8, 1, 0, 10, 5, 8, 6, 11, 2],
             ...     ]
-            >>> stage_tokens = datastructuretools.CyclicTuple(stage_tokens)
+            >>> stage_tokens = abjad.CyclicTuple(stage_tokens)
             >>> segment_lists = [
             ...     stage_tokens[:2],
             ...     stage_tokens[1:3],
@@ -49,7 +49,7 @@ def make_graced_tuplet_figure_maker():
             >>> for figure in figures:
             ...     figures_.extend(figure)
             ...
-            >>> figures = select(figures_)
+            >>> figures = abjad.select(figures_)
 
         ::
 
@@ -69,15 +69,15 @@ def make_graced_tuplet_figure_maker():
 
             >>> result = segment_maker(is_doc_example=True)
             >>> lilypond_file, segment_metadata = result
-            >>> score = lilypond_file[Score]
-            >>> override(score).spacing_spanner.strict_grace_spacing = False
-            >>> override(score).spacing_spanner.strict_note_spacing = False
-            >>> override(score).tuplet_bracket.staff_padding = 4
+            >>> score = lilypond_file[abjad.Score]
+            >>> abjad.override(score).spacing_spanner.strict_grace_spacing = False
+            >>> abjad.override(score).spacing_spanner.strict_note_spacing = False
+            >>> abjad.override(score).tuplet_bracket.staff_padding = 4
             >>> show(lilypond_file) # doctest: +SKIP
 
         ..  doctest::
 
-            >>> f(lilypond_file[Score])
+            >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {
                 \override SpacingSpanner.strict-grace-spacing = ##f
                 \override SpacingSpanner.strict-note-spacing = ##f

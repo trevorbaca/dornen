@@ -8,6 +8,7 @@ class FigureAccumulator(baca.tools.FigureAccumulator):
 
     ::
 
+        >>> import abjad
         >>> import baca
         >>> import dornen
 

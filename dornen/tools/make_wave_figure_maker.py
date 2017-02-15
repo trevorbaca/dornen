@@ -8,6 +8,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
 
     ::
 
+        >>> import abjad
         >>> import baca
         >>> import dornen
 
@@ -1105,11 +1106,11 @@ def make_wave_figure_maker(denominator=64, inverted=False):
         rhythm_maker_2 = accelerando_rhythm_maker
     figure_maker = baca.tools.FigureMaker(
         baca.tools.RhythmSpecifier(
-            patterns=abjad.patterntools.select_every([0], period=2),
+            pattern=abjad.select_every([0], period=2),
             rhythm_maker=rhythm_maker_1,
             ),
         baca.tools.RhythmSpecifier(
-            patterns=abjad.patterntools.select_every([1], period=2),
+            pattern=abjad.select_every([1], period=2),
             rhythm_maker=rhythm_maker_2,
             ),
         annotate_unregistered_pitches=True,

@@ -8,6 +8,7 @@ def make_twenty_eighth_figure_maker():
 
     ::
 
+        >>> import abjad
         >>> import baca
         >>> import dornen
 
@@ -405,12 +406,6 @@ def make_twenty_eighth_figure_maker():
                     beam_each_division=True,
                     ),
                 baca.tools.RhythmSpecifier(
-                    patterns=[
-                        patterntools.Pattern(
-                            indices=[0],
-                            period=1,
-                            ),
-                        ],
                     rhythm_maker=baca.tools.FigureRhythmMaker(
                         talea=rhythmmakertools.Talea(
                             counts=[1],
@@ -432,7 +427,6 @@ def make_twenty_eighth_figure_maker():
             beam_each_division=True,
             ),
         baca.tools.RhythmSpecifier(
-            patterns=abjad.patterntools.select_all(),
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],

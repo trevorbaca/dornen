@@ -8,6 +8,7 @@ def make_graced_rest_figure_maker():
 
     ::
 
+        >>> import abjad
         >>> import baca
         >>> import dornen
 
@@ -401,12 +402,6 @@ def make_graced_rest_figure_maker():
             >>> f(dornen.tools.make_graced_rest_figure_maker())
             baca.tools.FigureMaker(
                 baca.tools.RhythmSpecifier(
-                    patterns=[
-                        patterntools.Pattern(
-                            indices=[0],
-                            period=1,
-                            ),
-                        ],
                     rhythm_maker=baca.tools.FigureRhythmMaker(
                         acciaccatura_specifiers=[
                             baca.tools.AcciaccaturaSpecifier(),
@@ -424,7 +419,6 @@ def make_graced_rest_figure_maker():
     '''
     figure_maker = baca.tools.FigureMaker(
         baca.tools.RhythmSpecifier(
-            patterns=abjad.patterntools.select_all(),
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 acciaccatura_specifiers=[
                     baca.tools.AcciaccaturaSpecifier(),

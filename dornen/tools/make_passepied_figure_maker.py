@@ -8,6 +8,7 @@ def make_passepied_figure_maker():
 
     ::
 
+        >>> import abjad
         >>> import baca
         >>> import dornen
 
@@ -442,11 +443,9 @@ def make_passepied_figure_maker():
                     beam_divisions_together=True,
                     ),
                 baca.tools.RhythmSpecifier(
-                    patterns=[
-                        patterntools.Pattern(
-                            indices=[0],
-                            ),
-                        ],
+                    pattern=patterntools.Pattern(
+                        indices=[0],
+                        ),
                     rhythm_maker=baca.tools.FigureRhythmMaker(
                         acciaccatura_specifiers=[
                             baca.tools.AcciaccaturaSpecifier(),
@@ -458,12 +457,10 @@ def make_passepied_figure_maker():
                         ),
                     ),
                 baca.tools.RhythmSpecifier(
-                    patterns=[
-                        patterntools.Pattern(
-                            indices=[0],
-                            inverted=True,
-                            ),
-                        ],
+                    pattern=patterntools.Pattern(
+                        indices=[0],
+                        inverted=True,
+                        ),
                     rhythm_maker=baca.tools.FigureRhythmMaker(
                         talea=rhythmmakertools.Talea(
                             counts=[1],
@@ -481,7 +478,7 @@ def make_passepied_figure_maker():
             beam_divisions_together=True,
             ),
         baca.tools.RhythmSpecifier(
-            patterns=abjad.patterntools.select_first(),
+            pattern=abjad.select_first(),
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 acciaccatura_specifiers=[
                     baca.tools.AcciaccaturaSpecifier(),
@@ -493,7 +490,7 @@ def make_passepied_figure_maker():
                 )
             ),
         baca.tools.RhythmSpecifier(
-            patterns=abjad.patterntools.select_first(inverted=True),
+            pattern=abjad.select_first(inverted=True),
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],

@@ -8,6 +8,7 @@ def make_ovoid_figure_maker():
 
     ::
 
+        >>> import abjad
         >>> import baca
         >>> import dornen
 

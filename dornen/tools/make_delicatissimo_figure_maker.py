@@ -8,6 +8,7 @@ def make_delicatissimo_figure_maker():
 
     ::
 
+        >>> import abjad
         >>> import baca
         >>> import dornen
 
@@ -420,12 +421,6 @@ def make_delicatissimo_figure_maker():
                 articulations=['.'],
                 ),
             baca.tools.RhythmSpecifier(
-                patterns=[
-                    patterntools.Pattern(
-                        indices=[0],
-                        period=1,
-                        ),
-                    ],
                 rhythm_maker=baca.tools.FigureRhythmMaker(
                     talea=rhythmmakertools.Talea(
                         counts=[1],
@@ -447,7 +442,6 @@ def make_delicatissimo_figure_maker():
             articulations=['.'],
             ),
         baca.tools.RhythmSpecifier(
-            patterns=abjad.patterntools.select_all(),
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],

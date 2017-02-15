@@ -8,6 +8,7 @@ def make_tremolo_figure_maker():
 
     ::
 
+        >>> import abjad
         >>> import baca
         >>> import dornen
 
@@ -424,12 +425,6 @@ def make_tremolo_figure_maker():
             >>> f(dornen.tools.make_tremolo_figure_maker())
             baca.tools.FigureMaker(
                 baca.tools.RhythmSpecifier(
-                    patterns=[
-                        patterntools.Pattern(
-                            indices=[0],
-                            period=1,
-                            ),
-                        ],
                     rhythm_maker=baca.tools.FigureRhythmMaker(
                         talea=rhythmmakertools.Talea(
                             counts=[1],
@@ -467,7 +462,6 @@ def make_tremolo_figure_maker():
     '''
     figure_maker = baca.tools.FigureMaker(
         baca.tools.RhythmSpecifier(
-            patterns=abjad.patterntools.select_all(),
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],

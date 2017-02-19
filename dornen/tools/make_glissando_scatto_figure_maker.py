@@ -431,7 +431,7 @@ def make_glissando_scatto_figure_maker():
                     ),
                 baca.tools.SpannerSpecifier(
                     spanner=spannertools.Glissando(
-                        allow_repeated_pitches=False,
+                        allow_repeat_pitches=False,
                         allow_ties=False,
                         parenthesize_repeated_pitches=False,
                         ),

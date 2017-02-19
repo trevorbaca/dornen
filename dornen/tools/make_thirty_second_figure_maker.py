@@ -418,7 +418,7 @@ def make_thirty_second_figure_maker():
                     beam_each_division=True,
                     beam_divisions_together=True,
                     ),
-                baca.tools.RhythmSpecifier(
+                baca.tools.FigureRhythmSpecifier(
                     rhythm_maker=baca.tools.FigureRhythmMaker(
                         talea=rhythmmakertools.Talea(
                             counts=[1],
@@ -436,7 +436,7 @@ def make_thirty_second_figure_maker():
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
         ),
-        baca.tools.RhythmSpecifier(
+        baca.tools.FigureRhythmSpecifier(
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],

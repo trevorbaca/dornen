@@ -402,7 +402,7 @@ def make_monad_figure_maker():
 
             >>> f(dornen.tools.make_monad_figure_maker())
             baca.tools.FigureMaker(
-                baca.tools.RhythmSpecifier(
+                baca.tools.FigureRhythmSpecifier(
                     rhythm_maker=baca.tools.FigureRhythmMaker(
                         talea=rhythmmakertools.Talea(
                             counts=[1],
@@ -419,7 +419,7 @@ def make_monad_figure_maker():
     Returns figure-maker.
     '''
     figure_maker = baca.tools.FigureMaker(
-        baca.tools.RhythmSpecifier(
+        baca.tools.FigureRhythmSpecifier(
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],

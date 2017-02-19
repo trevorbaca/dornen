@@ -453,7 +453,7 @@ def make_tremolo_figure_maker():
                         ),
                     tremolo_flags=32,
                     ),
-                allow_repeated_pitches=True,
+                allow_repeat_pitches=True,
                 annotate_unregistered_pitches=True,
                 preferred_denominator=11,
                 )
@@ -481,7 +481,7 @@ def make_tremolo_figure_maker():
             selector=abjad.select().by_leaf(flatten=True),
             tremolo_flags=32,
             ),
-        allow_repeated_pitches=True,
+        allow_repeat_pitches=True,
         annotate_unregistered_pitches=True,
         preferred_denominator=11,
         )

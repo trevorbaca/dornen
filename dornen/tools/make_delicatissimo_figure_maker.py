@@ -420,7 +420,7 @@ def make_delicatissimo_figure_maker():
             baca.tools.ArticulationSpecifier(
                 articulations=['.'],
                 ),
-            baca.tools.RhythmSpecifier(
+            baca.tools.FigureRhythmSpecifier(
                 rhythm_maker=baca.tools.FigureRhythmMaker(
                     talea=rhythmmakertools.Talea(
                         counts=[1],
@@ -441,7 +441,7 @@ def make_delicatissimo_figure_maker():
         baca.tools.ArticulationSpecifier(
             articulations=['.'],
             ),
-        baca.tools.RhythmSpecifier(
+        baca.tools.FigureRhythmSpecifier(
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],

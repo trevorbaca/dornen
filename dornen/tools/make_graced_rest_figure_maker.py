@@ -401,7 +401,7 @@ def make_graced_rest_figure_maker():
 
             >>> f(dornen.tools.make_graced_rest_figure_maker())
             baca.tools.FigureMaker(
-                baca.tools.RhythmSpecifier(
+                baca.tools.FigureRhythmSpecifier(
                     rhythm_maker=baca.tools.FigureRhythmMaker(
                         acciaccatura_specifiers=[
                             baca.tools.AcciaccaturaSpecifier(),
@@ -418,7 +418,7 @@ def make_graced_rest_figure_maker():
     Returns figure-maker.
     '''
     figure_maker = baca.tools.FigureMaker(
-        baca.tools.RhythmSpecifier(
+        baca.tools.FigureRhythmSpecifier(
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 acciaccatura_specifiers=[
                     baca.tools.AcciaccaturaSpecifier(),

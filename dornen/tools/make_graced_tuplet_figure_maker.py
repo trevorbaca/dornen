@@ -288,7 +288,7 @@ def make_graced_tuplet_figure_maker():
                     beam_each_division=True,
                     beam_divisions_together=True,
                     ),
-                baca.tools.RhythmSpecifier(
+                baca.tools.FigureRhythmSpecifier(
                     pattern=patterntools.Pattern(
                         indices=[0],
                         period=2,
@@ -312,7 +312,7 @@ def make_graced_tuplet_figure_maker():
                             ],
                         ),
                     ),
-                baca.tools.RhythmSpecifier(
+                baca.tools.FigureRhythmSpecifier(
                     pattern=patterntools.Pattern(
                         indices=[1],
                         period=2,
@@ -346,7 +346,7 @@ def make_graced_tuplet_figure_maker():
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.tools.RhythmSpecifier(
+        baca.tools.FigureRhythmSpecifier(
             pattern=abjad.select_every([0], period=2),
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 acciaccatura_specifiers=[
@@ -366,7 +366,7 @@ def make_graced_tuplet_figure_maker():
                 time_treatments=[abjad.Multiplier((8, 7))],
                 )
             ),
-        baca.tools.RhythmSpecifier(
+        baca.tools.FigureRhythmSpecifier(
             pattern=abjad.select_every([1], period=2),
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 acciaccatura_specifiers=[

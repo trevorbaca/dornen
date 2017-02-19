@@ -257,7 +257,7 @@ def make_rest_figure_maker(duration=None):
 
             >>> f(dornen.tools.make_rest_figure_maker())
             baca.tools.FigureMaker(
-                baca.tools.RhythmSpecifier(
+                baca.tools.FigureRhythmSpecifier(
                     rhythm_maker=baca.tools.FigureRhythmMaker(
                         logical_tie_masks=patterntools.PatternInventory(
                             (
@@ -283,7 +283,7 @@ def make_rest_figure_maker(duration=None):
     '''
     duration = duration or abjad.Duration(1, 8)
     figure_maker = baca.tools.FigureMaker(
-        baca.tools.RhythmSpecifier(
+        baca.tools.FigureRhythmSpecifier(
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 logical_tie_masks=abjad.silence_all(),
                 talea=abjad.rhythmmakertools.Talea(

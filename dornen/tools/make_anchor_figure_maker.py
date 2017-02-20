@@ -165,7 +165,7 @@ def make_anchor_figure_maker():
                             ),
                         ),
                     ),
-                annotate_unregistered_pitches=True,
+                color_unregistered_pitches=True,
                 preferred_denominator=8,
                 )
 
@@ -181,7 +181,7 @@ def make_anchor_figure_maker():
 
                 ),
             ),
-        annotate_unregistered_pitches=True,
+        color_unregistered_pitches=True,
         preferred_denominator=8,
         )
     return figure_maker

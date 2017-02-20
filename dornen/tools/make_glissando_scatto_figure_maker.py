@@ -436,7 +436,7 @@ def make_glissando_scatto_figure_maker():
                         parenthesize_repeated_pitches=False,
                         ),
                     ),
-                annotate_unregistered_pitches=True,
+                color_unregistered_pitches=True,
                 preferred_denominator=16,
                 )
 
@@ -459,7 +459,7 @@ def make_glissando_scatto_figure_maker():
         baca.tools.SpannerSpecifier(
             spanner=abjad.Glissando(),
             ),
-        annotate_unregistered_pitches=True,
+        color_unregistered_pitches=True,
         preferred_denominator=16,
         )
     return figure_maker

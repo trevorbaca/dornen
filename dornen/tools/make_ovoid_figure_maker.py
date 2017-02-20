@@ -274,7 +274,7 @@ def make_ovoid_figure_maker():
                             ),
                         ),
                     ),
-                annotate_unregistered_pitches=True,
+                color_unregistered_pitches=True,
                 )
 
     Returns figure-maker.
@@ -298,6 +298,6 @@ def make_ovoid_figure_maker():
                     ),
                 )
             ),
-        annotate_unregistered_pitches=True,
+        color_unregistered_pitches=True,
         )
     return figure_maker

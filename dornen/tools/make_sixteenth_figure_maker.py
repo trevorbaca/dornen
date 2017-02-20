@@ -386,7 +386,7 @@ def make_sixteenth_figure_maker():
                             ),
                         ),
                     ),
-                annotate_unregistered_pitches=True,
+                color_unregistered_pitches=True,
                 preferred_denominator=16,
                 )
 
@@ -404,7 +404,7 @@ def make_sixteenth_figure_maker():
                     ),
                 )
             ),
-        annotate_unregistered_pitches=True,
+        color_unregistered_pitches=True,
         preferred_denominator=16,
         )
     return figure_maker

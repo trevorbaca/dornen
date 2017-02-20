@@ -416,7 +416,7 @@ def make_twentieth_figure_maker():
                             ],
                         ),
                     ),
-                annotate_unregistered_pitches=True,
+                color_unregistered_pitches=True,
                 preferred_denominator=20,
                 )
 
@@ -435,7 +435,7 @@ def make_twentieth_figure_maker():
                 time_treatments=[abjad.durationtools.Multiplier((4, 5))],
                 )
             ),
-        annotate_unregistered_pitches=True,
+        color_unregistered_pitches=True,
         preferred_denominator=20,
         )
     return figure_maker

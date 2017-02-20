@@ -198,7 +198,7 @@ def make_sixty_fourth_figure_maker():
                 baca.tools.ArticulationSpecifier(
                     articulations=['.'],
                     ),
-                annotate_unregistered_pitches=True,
+                color_unregistered_pitches=True,
                 preferred_denominator=64,
                 )
 
@@ -220,7 +220,7 @@ def make_sixty_fourth_figure_maker():
         baca.tools.ArticulationSpecifier(
             articulations=['.'],
             ),
-        annotate_unregistered_pitches=True,
+        color_unregistered_pitches=True,
         preferred_denominator=64,
         )
     return figure_maker

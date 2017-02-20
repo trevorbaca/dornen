@@ -438,7 +438,7 @@ def make_default_figure_maker():
                     ),
                 spanner=spannertools.Slur(),
                 ),
-            annotate_unregistered_pitches=True,
+            color_unregistered_pitches=True,
             preferred_denominator=32,
             )
 
@@ -463,7 +463,7 @@ def make_default_figure_maker():
                 by_leaf(flatten=False),
             spanner=abjad.Slur(),
             ),
-        annotate_unregistered_pitches=True,
+        color_unregistered_pitches=True,
         preferred_denominator=32,
         )
     return figure_maker

@@ -454,7 +454,7 @@ def make_tremolo_figure_maker():
                     tremolo_flags=32,
                     ),
                 allow_repeat_pitches=True,
-                annotate_unregistered_pitches=True,
+                color_unregistered_pitches=True,
                 preferred_denominator=11,
                 )
 
@@ -482,7 +482,7 @@ def make_tremolo_figure_maker():
             tremolo_flags=32,
             ),
         allow_repeat_pitches=True,
-        annotate_unregistered_pitches=True,
+        color_unregistered_pitches=True,
         preferred_denominator=11,
         )
     return figure_maker

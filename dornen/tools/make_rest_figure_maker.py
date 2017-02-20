@@ -275,7 +275,7 @@ def make_rest_figure_maker(duration=None):
                             ),
                         ),
                     ),
-                annotate_unregistered_pitches=True,
+                color_unregistered_pitches=True,
                 preferred_denominator=8,
                 )
 
@@ -292,7 +292,7 @@ def make_rest_figure_maker(duration=None):
                     ),
                 )
             ),
-        annotate_unregistered_pitches=True,
+        color_unregistered_pitches=True,
         preferred_denominator=duration.denominator,
         )
     return figure_maker

@@ -336,7 +336,7 @@ def make_graced_tuplet_figure_maker():
                             ],
                         ),
                     ),
-                annotate_unregistered_pitches=True,
+                color_unregistered_pitches=True,
                 preferred_denominator=14,
                 )
 
@@ -386,7 +386,7 @@ def make_graced_tuplet_figure_maker():
                 time_treatments=[abjad.Multiplier((5, 7))],
                 )
             ),
-        annotate_unregistered_pitches=True,
+        color_unregistered_pitches=True,
         preferred_denominator=14,
         )
     return figure_maker

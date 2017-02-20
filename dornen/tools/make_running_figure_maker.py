@@ -497,7 +497,7 @@ def make_running_figure_maker():
                         ),
                     spanner=spannertools.Slur(),
                     ),
-                annotate_unregistered_pitches=True,
+                color_unregistered_pitches=True,
                 )
 
     Returns figure-maker.
@@ -540,6 +540,6 @@ def make_running_figure_maker():
                 with_previous_leaf(),
             spanner=abjad.Slur(),
             ),
-        annotate_unregistered_pitches=True,
+        color_unregistered_pitches=True,
         )
     return figure_maker

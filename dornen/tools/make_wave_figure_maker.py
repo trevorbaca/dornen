@@ -1113,7 +1113,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
             pattern=abjad.select_every([1], period=2),
             rhythm_maker=rhythm_maker_2,
             ),
-        annotate_unregistered_pitches=True,
+        color_unregistered_pitches=True,
         preferred_denominator=denominator,
         )
     return figure_maker

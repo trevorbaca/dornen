@@ -257,179 +257,157 @@ accumulator._populate_segment_maker(segment_maker)
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(1, Infinity)),
-    [
-        baca.register(-20),
-        baca.stem_tremolo(),
-        baca.tools.SpannerSpecifier(
-            spanner=abjad.Tie(use_messiaen_style_ties=True)
-            ),
-        ],
+    baca.register(-20),
+    baca.stem_tremolo(),
+    baca.tools.SpannerSpecifier(
+        spanner=abjad.Tie(use_messiaen_style_ties=True)
+        ),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(2)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p < mp')),
-            with_next_leaf=True,
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p < mp')),
+        with_next_leaf=True,
+        ),
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.tamb_tr(is_new=False),
+            baca.markup.kn_rasg(),
             ),
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.tamb_tr(is_new=False),
-                baca.markup.kn_rasg(),
-                ),
-            with_next_leaf=True,
-            ),
-        ],
+        with_next_leaf=True,
+        ),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(4)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('mp > p')),
-            with_next_leaf=True,
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('mp > p')),
+        with_next_leaf=True,
+        ),
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.trans(),
+            baca.markup.tamb_tr(),
             ),
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.trans(),
-                baca.markup.tamb_tr(),
-                ),
-            with_next_leaf=True,
-            ),
-        ],
+        with_next_leaf=True,
+        ),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(7)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p < mf')),
-            with_next_leaf=True,
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p < mf')),
+        with_next_leaf=True,
+        ),
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.trans(),
+            baca.markup.kn_rasg(),
             ),
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.trans(),
-                baca.markup.kn_rasg(),
-                ),
-            with_next_leaf=True,
-            ),
-        ],
+        with_next_leaf=True,
+        ),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(9)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('mf > p')),
-            with_next_leaf=True,
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('mf > p')),
+        with_next_leaf=True,
+        ),
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.trans(),
+            baca.markup.tamb_tr(),
             ),
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.trans(),
-                baca.markup.tamb_tr(),
-                ),
-            with_next_leaf=True,
-            ),
-        ],
+        with_next_leaf=True,
+        ),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(12)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p < mp')),
-            with_next_leaf=True,
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p < mp')),
+        with_next_leaf=True,
+        ),
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.trans(),
+            baca.markup.kn_rasg(),
             ),
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.trans(),
-                baca.markup.kn_rasg(),
-                ),
-            with_next_leaf=True,
-            ),
-        ],
+        with_next_leaf=True,
+        ),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(14)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('mp > p')),
-            with_next_leaf=True,
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('mp > p')),
+        with_next_leaf=True,
+        ),
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.trans(),
+            baca.markup.tamb_tr(),
             ),
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.trans(),
-                baca.markup.tamb_tr(),
-                ),
-            with_next_leaf=True,
-            ),
-        ],
+        with_next_leaf=True,
+        ),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(16)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p < mf')),
-            with_next_leaf=True,
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p < mf')),
+        with_next_leaf=True,
+        ),
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.trans(),
+            baca.markup.kn_rasg(),
             ),
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.trans(),
-                baca.markup.kn_rasg(),
-                ),
-            with_next_leaf=True,
-            ),
-        ],
+        with_next_leaf=True,
+        ),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(18)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('mf > p')),
-            with_next_leaf=True,
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('mf > p')),
+        with_next_leaf=True,
+        ),
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.trans(),
+            baca.markup.tamb_tr(),
             ),
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.trans(),
-                baca.markup.tamb_tr(),
-                ),
-            with_next_leaf=True,
-            ),
-        ],
+        with_next_leaf=True,
+        ),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(20)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p < f')),
-            with_next_leaf=True,
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p < f')),
+        with_next_leaf=True,
+        ),
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.trans(),
+            baca.markup.kn_rasg(),
             ),
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.trans(),
-                baca.markup.kn_rasg(),
-                ),
-            with_next_leaf=True,
-            ),
-        ],
+        with_next_leaf=True,
+        ),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(22, 25)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('f > mp')),
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('f > mp')),
+        ),
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.trans(),
+            baca.markup.tamb_tr(),
             ),
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.trans(),
-                baca.markup.tamb_tr(),
-                ),
-            ),
-        ],
+        ),
     )

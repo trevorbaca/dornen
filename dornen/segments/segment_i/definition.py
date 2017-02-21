@@ -238,90 +238,72 @@ accumulator._populate_segment_maker(segment_maker)
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(1, Infinity)),
-    [
-        baca.register(-20),
-        baca.stem_tremolo(),
-        baca.tools.SpannerSpecifier(
-            spanner=abjad.Tie(use_messiaen_style_ties=True)
-            ),
-        ],
+    baca.register(-20),
+    baca.stem_tremolo(),
+    baca.tools.SpannerSpecifier(
+        spanner=abjad.Tie(use_messiaen_style_ties=True)
+        ),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(2)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('ppp < pp')),
-            with_next_leaf=True,
-            )
-        ],
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('ppp < pp')),
+        with_next_leaf=True,
+        )
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(4)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('pp > ppp')),
-            with_next_leaf=True,
-            )
-        ],
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('pp > ppp')),
+        with_next_leaf=True,
+        )
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(7)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('ppp < p')),
-            with_next_leaf=True,
-            )
-        ],
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('ppp < p')),
+        with_next_leaf=True,
+        )
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(9)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p > ppp')),
-            with_next_leaf=True,
-            )
-        ],
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p > ppp')),
+        with_next_leaf=True,
+        )
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(12)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('ppp < pp')),
-            with_next_leaf=True,
-            )
-        ],
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('ppp < pp')),
+        with_next_leaf=True,
+        )
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(14)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('pp < p')),
-            with_next_leaf=True,
-            )
-        ],
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('pp < p')),
+        with_next_leaf=True,
+        )
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(16)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p < mp')),
-            with_next_leaf=True,
-            )
-        ],
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('p < mp')),
+        with_next_leaf=True,
+        )
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(18, 21)),
-    [
-        baca.wrap.leaves(
-            baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('mp > pp')),
-            )
-        ],
+    baca.wrap.leaves(
+        baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('mp > pp')),
+        )
     )

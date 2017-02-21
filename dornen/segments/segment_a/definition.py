@@ -206,41 +206,33 @@ accumulator._populate_segment_maker(segment_maker)
 
 #segment_maker.append_specifiers(
 #    ('Guitar Music Voice 1', baca.select.stages(1, 15)),
-#    [
-#        baca.dynamic_line_spanner_up(),
-#        baca.dynamic_line_spanner_staff_padding(12),
-#        ],
+#    baca.dynamic_line_spanner_up(),
+#    baca.dynamic_line_spanner_staff_padding(12),
 #    )
 
 #segment_maker.append_specifiers(
 #    ('Guitar Music Voice 1', baca.select.stages(13, 15)),
-#    [
-#        baca.wrap.leaves(
-#            baca.tools.DynamicSpecifier(
-#                dynamic=abjad.Hairpin('p > ppp'),
-#                ),
+#    baca.wrap.leaves(
+#        baca.tools.DynamicSpecifier(
+#            dynamic=abjad.Hairpin('p > ppp'),
 #            ),
-#        ],
+#        ),
 #    )
 
 #segment_maker.append_specifiers(
 #    ('Guitar Music Voice 2', baca.select.stages(2, 10)),
-#    [
-#        baca.wrap.leaves(
-#            baca.tools.DynamicSpecifier(
-#                dynamic=abjad.Hairpin('f < fff'),
-#                ),
+#    baca.wrap.leaves(
+#        baca.tools.DynamicSpecifier(
+#            dynamic=abjad.Hairpin('f < fff'),
 #            ),
-#        ],
+#        ),
 #    )
 
 #segment_maker.append_specifiers(
 #    ('Guitar Music Voice 2', baca.select.stages(12, 14)),
-#    [
-#        baca.wrap.leaves(
-#            baca.tools.DynamicSpecifier(
-#                dynamic=abjad.Hairpin('fff > f'),
-#                ),
+#    baca.wrap.leaves(
+#        baca.tools.DynamicSpecifier(
+#            dynamic=abjad.Hairpin('fff > f'),
 #            ),
-#        ],
+#        ),
 #    )

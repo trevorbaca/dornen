@@ -274,33 +274,25 @@ accumulator._populate_segment_maker(segment_maker)
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select.stages(1, 22)),
-    [
-        baca.beam_positions(8),
-        ],
+    baca.beam_positions(8),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 2', baca.select.stages(1, 10)),
-    [
-        baca.beam_positions(-7),
-        baca.proportional_notation_duration((1, 32)),
-        lower_register,
-        ],
+    baca.beam_positions(-7),
+    baca.proportional_notation_duration((1, 32)),
+    lower_register,
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 2', baca.select.stages(11, 22)),
-    [
-        baca.beam_positions(-7),
-        baca.proportional_notation_duration((1, 48)),
-        lower_register,
-        ],
+    baca.beam_positions(-7),
+    baca.proportional_notation_duration((1, 48)),
+    lower_register,
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 3', baca.select.stages(1, 22)),
-    [
-        baca.beam_positions(4),
-        baca.staccati(),
-        ],
+    baca.beam_positions(4),
+    baca.staccati(),
     )

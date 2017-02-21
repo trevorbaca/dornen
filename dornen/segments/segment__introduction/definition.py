@@ -247,7 +247,5 @@ accumulator._populate_segment_maker(segment_maker)
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 3', baca.select.stages(18, 19)),
-    [
-        baca.register(0, -12),
-        ],
+    baca.register(0, -12),
     )

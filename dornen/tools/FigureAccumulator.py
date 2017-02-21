@@ -49,14 +49,12 @@ class FigureAccumulator(baca.tools.FigureAccumulator):
                                 ^ \markup {
                                     \fontsize
                                         #3
-                                        \with-color
-                                            #darkgreen
-                                            \concat
-                                                {
-                                                    [
-                                                    D
-                                                    ]
-                                                }
+                                        \concat
+                                            {
+                                                [
+                                                D
+                                                ]
+                                            }
                                     }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3

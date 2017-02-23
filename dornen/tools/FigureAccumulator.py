@@ -16,8 +16,9 @@ class FigureAccumulator(baca.tools.FigureAccumulator):
 
         ::
 
+            >>> score_template = dornen.tools.ScoreTemplate()
+            >>> accumulator = dornen.tools.FigureAccumulator(score_template)
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> accumulator = dornen.tools.FigureAccumulator()
             >>> segments = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
             >>> accumulator(
             ...     accumulator.delicatissimo_figure_maker(
@@ -118,19 +119,12 @@ class FigureAccumulator(baca.tools.FigureAccumulator):
         'wave_64_figure_maker',
         )
 
-    _all_voice_names = (
-        'Guitar Music Voice 1',
-        'Guitar Music Voice 2',
-        'Guitar Music Voice 3',
-        'Guitar Music Voice 4',
-        )
-
     ### INITIALIZER ###
 
-    def __init__(self):
+    def __init__(self, score_template):
         import dornen
         superclass = super(FigureAccumulator, self)
-        superclass.__init__()
+        superclass.__init__(score_template)
         self.anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
         self.default_figure_maker = dornen.tools.make_default_figure_maker()
         self.delicatissimo_figure_maker = \

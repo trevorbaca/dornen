@@ -8,7 +8,7 @@ import dornen
 ##################################### [I] #####################################
 ###############################################################################
 
-accumulator = dornen.tools.FigureAccumulator()
+accumulator = dornen.tools.FigureAccumulator(dornen.tools.ScoreTemplate())
 
 accumulator(
     accumulator.rest_figure_maker(

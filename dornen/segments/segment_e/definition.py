@@ -8,7 +8,7 @@ import dornen
 ##################################### [E] #####################################
 ###############################################################################
 
-accumulator = dornen.tools.FigureAccumulator()
+accumulator = dornen.tools.FigureAccumulator(dornen.tools.ScoreTemplate())
 design = dornen.tools.make_design_3(start=10, stop=30)
 assert len(design) == 20
 

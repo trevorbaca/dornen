@@ -8,7 +8,7 @@ import dornen
 ################################ [introduction] ###############################
 ###############################################################################
 
-accumulator = dornen.tools.FigureAccumulator()
+accumulator = dornen.tools.FigureAccumulator(dornen.tools.ScoreTemplate())
 design = dornen.tools.make_design_1(stop=22)
 assert len(design) == 22
 design = baca.tools.Cursor(source=design)

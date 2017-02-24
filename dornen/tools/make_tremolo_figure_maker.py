@@ -181,21 +181,21 @@ def make_tremolo_figure_maker():
 
     ..  container:: example
 
-        Makes multistage tremolo figures:
+        Makes multisegment tremolo figures:
 
         ::
 
-            >>> stage_tokens = [
+            >>> segments = [
             ...     [4],
             ...     [4, 4, 4, 4, 4, 4, 4],
             ...     [4],
             ...     [4, 4, 4, 4, 4, 4],
             ...     ]
-            >>> stage_tokens = abjad.CyclicTuple(stage_tokens)
+            >>> segments = abjad.CyclicTuple(segments)
             >>> segment_lists = [
-            ...     stage_tokens[:3],
-            ...     stage_tokens[1:4],
-            ...     stage_tokens[2:5],
+            ...     segments[:3],
+            ...     segments[1:4],
+            ...     segments[2:5],
             ...     ]
             >>> for segments in segment_lists:
             ...     segments

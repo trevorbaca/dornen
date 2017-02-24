@@ -177,21 +177,21 @@ def make_thirty_second_figure_maker():
 
     ..  container:: example
 
-        Makes multistage thirty-second figures:
+        Makes multisegment thirty-second figures:
 
         ::
 
-            >>> stage_tokens = [
+            >>> segments = [
             ...     [4],
             ...     [6, 2, 3, 5, 9, 8, 0],
             ...     [11],
             ...     [10, 7, 9, 8, 0, 5],
             ...     ]
-            >>> stage_tokens = abjad.CyclicTuple(stage_tokens)
+            >>> segments = abjad.CyclicTuple(segments)
             >>> segment_lists = [
-            ...     stage_tokens[:3],
-            ...     stage_tokens[1:4],
-            ...     stage_tokens[2:5],
+            ...     segments[:3],
+            ...     segments[1:4],
+            ...     segments[2:5],
             ...     ]
             >>> for segments in segment_lists:
             ...     segments

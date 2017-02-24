@@ -14,24 +14,24 @@ def make_passepied_figure_maker():
 
     ..  container:: example
 
-        Makes one-stage passepied figures:
+        Makes single-segment passepied figures:
 
         ::
 
-            >>> stage_tokens = [
+            >>> segments = [
             ...     [8],
             ...     [1, 0, 10, 5],
             ...     [8, 6, 11, 2],
             ...     [4, 3, 9, 8],
             ...     [6, 11, 2, 5],
             ...     ]
-            >>> stage_tokens = abjad.CyclicTuple(stage_tokens)
+            >>> segments = abjad.CyclicTuple(segments)
             >>> segment_lists = [
-            ...     stage_tokens[:1],
-            ...     stage_tokens[1:2],
-            ...     stage_tokens[2:3],
-            ...     stage_tokens[3:4],
-            ...     stage_tokens[4:5],
+            ...     segments[:1],
+            ...     segments[1:2],
+            ...     segments[2:3],
+            ...     segments[3:4],
+            ...     segments[4:5],
             ...     ]
             >>> for segments in segment_lists:
             ...     segments
@@ -174,23 +174,23 @@ def make_passepied_figure_maker():
 
     ..  container:: example
 
-        Makes multistage passepied figures:
+        Makes multisegment passepied figures:
 
         ::
 
-            >>> stage_tokens = [
+            >>> segments = [
             ...     [8],
             ...     [1, 0, 10, 5],
             ...     [8, 6, 11, 2],
             ...     [4, 3, 9, 7],
             ...     [6, 11, 2, 5],
             ...     ]
-            >>> stage_tokens = abjad.CyclicTuple(stage_tokens)
+            >>> segments = abjad.CyclicTuple(segments)
             >>> segment_lists = [
-            ...     stage_tokens[:3],
-            ...     stage_tokens[1:4],
-            ...     stage_tokens[2:5],
-            ...     stage_tokens[3:6],
+            ...     segments[:3],
+            ...     segments[1:4],
+            ...     segments[2:5],
+            ...     segments[3:6],
             ...     ]
             >>> for segments in segment_lists:
             ...     segments

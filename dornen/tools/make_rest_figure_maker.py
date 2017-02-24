@@ -14,20 +14,20 @@ def make_rest_figure_maker(duration=None):
 
     ..  container:: example
 
-        Makes one-stage  rests:
+        Makes single-segment rests:
 
         ::
 
-            >>> stage_tokens = [
+            >>> segments = [
             ...     [None],
             ...     [None, None],
             ...     [None, None, None],
             ...     ]
-            >>> stage_tokens = abjad.CyclicTuple(stage_tokens)
+            >>> segments = abjad.CyclicTuple(segments)
             >>> segment_lists = [
-            ...     stage_tokens[:1],
-            ...     stage_tokens[1:2],
-            ...     stage_tokens[2:3],
+            ...     segments[:1],
+            ...     segments[1:2],
+            ...     segments[2:3],
             ...     ]
             >>> for segments in segment_lists:
             ...     segments
@@ -133,19 +133,19 @@ def make_rest_figure_maker(duration=None):
 
     ..  container:: example
 
-        Makes multistage rests:
+        Makes multisegment rests:
 
         ::
 
-            >>> stage_tokens = [
+            >>> segments = [
             ...     [None],
             ...     [None, None],
             ...     [None, None, None],
             ...     ]
-            >>> stage_tokens = abjad.CyclicTuple(stage_tokens)
+            >>> segments = abjad.CyclicTuple(segments)
             >>> segment_lists = [
-            ...     stage_tokens[:3],
-            ...     stage_tokens[1:4],
+            ...     segments[:3],
+            ...     segments[1:4],
             ...     ]
             >>> for segments in segment_lists:
             ...     segments

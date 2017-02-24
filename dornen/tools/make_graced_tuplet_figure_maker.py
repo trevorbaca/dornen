@@ -18,16 +18,16 @@ def make_graced_tuplet_figure_maker():
 
         ::
 
-            >>> stage_tokens = [
+            >>> segments = [
             ...     [8],
             ...     [1, 0, 10, 5, 8, 6, 11, 2, 4, 3],
             ...     [9, 8, 1, 0, 10, 5, 8, 6, 11, 2],
             ...     ]
-            >>> stage_tokens = abjad.CyclicTuple(stage_tokens)
+            >>> segments = abjad.CyclicTuple(segments)
             >>> segment_lists = [
-            ...     stage_tokens[:2],
-            ...     stage_tokens[1:3],
-            ...     stage_tokens[2:4],
+            ...     segments[:2],
+            ...     segments[1:3],
+            ...     segments[2:4],
             ...     ]
             >>> for segments in segment_lists:
             ...     segments

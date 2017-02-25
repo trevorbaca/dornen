@@ -266,7 +266,7 @@ segment_maker = baca.tools.SegmentMaker(
 #segment_maker.validate_stage_count()
 #segment_maker.validate_measure_count()
 segment_maker.validate_measures_per_stage()
-accumulator._populate_segment_maker(segment_maker)
+accumulator.populate_segment_maker(segment_maker)
 
 ###############################################################################
 ############################ CROSS-STAGE SPECIFIERS ###########################

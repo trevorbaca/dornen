@@ -240,7 +240,7 @@ accumulator(
     accumulator.monad_figure_maker(
         'Guitar Music Voice 2',
         [['Gb2']],
-        baca.markup.make_boxed_markup_specifier('2-finger tamb. trill'),
+        baca.markup.boxed_specifier('2-finger tamb. trill'),
         baca.stem_tremolo(),
         baca.stem_up(),
         baca.tuplet_bracket_staff_padding(0),

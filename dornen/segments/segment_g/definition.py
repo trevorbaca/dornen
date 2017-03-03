@@ -162,25 +162,25 @@ accumulator.populate_segment_maker(segment_maker)
 
 # glissando scatto
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 1', baca.select.stages(1, 12)),
+    ('Guitar Music Voice 1', baca.select_stages(1, 12)),
     baca.register(-8),
     baca.displacement([0, 1]),
     )
 
 # ovoid
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 2', baca.select.stages(1, 12)),
+    ('Guitar Music Voice 2', baca.select_stages(1, 12)),
     baca.register(-20, 4),
     )
 
 # delicatissimo
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 3', baca.select.stages(1, 12)),
+    ('Guitar Music Voice 3', baca.select_stages(1, 12)),
     )
 
 # graced tuplet
 segment_maker.append_specifiers(
-    ('Guitar Music Voice 4', baca.select.stages(1, 12)),
+    ('Guitar Music Voice 4', baca.select_stages(1, 12)),
     baca.beam_positions(8),
     baca.register(-18, 6),
     )

@@ -387,7 +387,7 @@ def make_sixteenth_figure_maker():
                         ),
                     ),
                 color_unregistered_pitches=True,
-                preferred_denominator=16,
+                denominator=16,
                 )
 
     Returns figure-maker.
@@ -405,6 +405,6 @@ def make_sixteenth_figure_maker():
                 )
             ),
         color_unregistered_pitches=True,
-        preferred_denominator=16,
+        denominator=16,
         )
     return figure_maker

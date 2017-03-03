@@ -455,7 +455,7 @@ def make_tremolo_figure_maker():
                     ),
                 allow_repeat_pitches=True,
                 color_unregistered_pitches=True,
-                preferred_denominator=11,
+                denominator=11,
                 )
 
     Returns figure-maker.
@@ -483,6 +483,6 @@ def make_tremolo_figure_maker():
             ),
         allow_repeat_pitches=True,
         color_unregistered_pitches=True,
-        preferred_denominator=11,
+        denominator=11,
         )
     return figure_maker

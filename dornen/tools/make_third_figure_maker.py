@@ -413,7 +413,7 @@ def make_third_figure_maker():
                             ],
                         ),
                     ),
-                preferred_denominator=3,
+                denominator=3,
                 )
 
     Returns figure-maker.
@@ -428,6 +428,6 @@ def make_third_figure_maker():
                 time_treatments=[abjad.durationtools.Multiplier((2, 3))],
                 )
             ),
-        preferred_denominator=3,
+        denominator=3,
         )
     return figure_maker

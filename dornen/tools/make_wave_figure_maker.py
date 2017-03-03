@@ -1114,6 +1114,6 @@ def make_wave_figure_maker(denominator=64, inverted=False):
             rhythm_maker=rhythm_maker_2,
             ),
         color_unregistered_pitches=True,
-        preferred_denominator=denominator,
+        denominator=denominator,
         )
     return figure_maker

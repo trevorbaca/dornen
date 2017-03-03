@@ -413,7 +413,7 @@ def make_monad_figure_maker():
                             ],
                         ),
                     ),
-                preferred_denominator=5,
+                denominator=5,
                 )
 
     Returns figure-maker.
@@ -428,6 +428,6 @@ def make_monad_figure_maker():
                 time_treatments=[abjad.durationtools.Multiplier((4, 5))],
                 )
             ),
-        preferred_denominator=5,
+        denominator=5,
         )
     return figure_maker

@@ -337,7 +337,7 @@ def make_graced_tuplet_figure_maker():
                         ),
                     ),
                 color_unregistered_pitches=True,
-                preferred_denominator=14,
+                denominator=14,
                 )
 
     Returns figure-maker.
@@ -387,6 +387,6 @@ def make_graced_tuplet_figure_maker():
                 )
             ),
         color_unregistered_pitches=True,
-        preferred_denominator=14,
+        denominator=14,
         )
     return figure_maker

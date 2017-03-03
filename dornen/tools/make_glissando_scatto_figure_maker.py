@@ -437,7 +437,7 @@ def make_glissando_scatto_figure_maker():
                         ),
                     ),
                 color_unregistered_pitches=True,
-                preferred_denominator=16,
+                denominator=16,
                 )
 
     Returns figure-maker.
@@ -460,6 +460,6 @@ def make_glissando_scatto_figure_maker():
             spanner=abjad.Glissando(),
             ),
         color_unregistered_pitches=True,
-        preferred_denominator=16,
+        denominator=16,
         )
     return figure_maker

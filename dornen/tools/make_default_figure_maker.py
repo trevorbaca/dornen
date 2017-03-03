@@ -439,7 +439,7 @@ def make_default_figure_maker():
                 spanner=spannertools.Slur(),
                 ),
             color_unregistered_pitches=True,
-            preferred_denominator=32,
+            denominator=32,
             )
 
     Returns figure-maker.
@@ -464,6 +464,6 @@ def make_default_figure_maker():
             spanner=abjad.Slur(),
             ),
         color_unregistered_pitches=True,
-        preferred_denominator=32,
+        denominator=32,
         )
     return figure_maker

@@ -20,7 +20,7 @@ accumulator(
         baca.beam_positions(8),
         baca.register(0, -14),
         figure_name='W1',
-        preferred_denominator=16,
+        denominator=16,
         ),
     )
 

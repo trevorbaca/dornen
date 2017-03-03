@@ -16,7 +16,7 @@ accumulator(
     accumulator.forty_eighth_figure_maker(
         'Guitar Music Voice 1',
         design[:1],
-        baca.markup.make_markup_specifier(
+        baca.markup.specifier(
             'slurs fluid; all other parts mechanically precise'
             ),
         # TODO: allow for arbitrary LilyPond command string

@@ -30,7 +30,7 @@ accumulator(
     accumulator.sixteenth_figure_maker(
         'Guitar Music Voice 2',
         design[1:2],
-        baca.markup.make_markup_specifier(
+        baca.markup.specifier(
             'dull (but beautiful) thud with RH muting for each red note',
             direction=Down,
             ),

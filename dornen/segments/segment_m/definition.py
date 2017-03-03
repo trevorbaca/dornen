@@ -18,7 +18,7 @@ accumulator(
     accumulator.forty_eighth_figure_maker(
         'Guitar Music Voice 1',
         design[:1],
-        baca.markup.make_markup_specifier(
+        baca.markup.specifier(
             'LH only until rascado! (RH tacet; encourage whisks) ...'
             ),
         extend_beam=True,
@@ -78,7 +78,7 @@ accumulator(
     accumulator.forty_eighth_figure_maker(
         'Guitar Music Voice 1',
         design[:1],
-        baca.markup.make_markup_specifier('RH reaches for screw ...'),
+        baca.markup.specifier('RH reaches for screw ...'),
         extend_beam=True,
         ),
     )
@@ -136,7 +136,7 @@ accumulator(
     accumulator.forty_eighth_figure_maker(
         'Guitar Music Voice 1',
         design[:1],
-        baca.markup.make_markup_specifier('RH places screw on string ...'),
+        baca.markup.specifier('RH places screw on string ...'),
         extend_beam=True,
         ),
     )
@@ -357,7 +357,7 @@ accumulator(
     accumulator.third_figure_maker(
         'Guitar Music Voice 1',
         [13 * ['E2']],
-        baca.make_markup_specifier(
+        baca.markup.specifier(
             'RASCADO: slowly draw extremely long metal screw over open string;'
             ' as close as possible to bridge; only one stroke.'
             ),

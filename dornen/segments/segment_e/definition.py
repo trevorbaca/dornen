@@ -81,9 +81,9 @@ accumulator(
     accumulator.rest_figure_maker(
         'Guitar Music Voice 1',
         [3 * ['C4']],
-        baca.markup.make_markup_specifier(
+        baca.markup.specifier(
             'raise string 2 one quartertone',
-            selector=baca.select.leaf(0),
+            selector=baca.select_leaf(0),
             ),
         figure_name='S1',
         logical_tie_masks=abjad.silence_all(),

@@ -438,7 +438,7 @@ segment_maker.append_specifiers(
         with_next_leaf=True,
         ),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.tamb_tr(is_new=False),
             baca.markup.kn_rasg(),
             ),
@@ -453,7 +453,7 @@ segment_maker.append_specifiers(
         with_next_leaf=True,
         ),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.trans(),
             baca.markup.tamb_tr(),
             ),
@@ -468,7 +468,7 @@ segment_maker.append_specifiers(
         with_next_leaf=True,
         ),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.trans(),
             baca.markup.kn_rasg(),
             ),
@@ -483,7 +483,7 @@ segment_maker.append_specifiers(
         with_next_leaf=True,
         ),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.trans(),
             baca.markup.tamb_tr(),
             ),
@@ -498,7 +498,7 @@ segment_maker.append_specifiers(
         with_next_leaf=True,
         ),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.trans(),
             baca.markup.kn_rasg(),
             ),
@@ -521,7 +521,7 @@ segment_maker.append_specifiers(
         with_next_leaf=True,
         ),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.trans(),
             baca.markup.nail_rasg(),
             ),
@@ -536,7 +536,7 @@ segment_maker.append_specifiers(
         with_next_leaf=True,
         ),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.trans(),
             baca.markup.kn_rasg(),
             ),
@@ -551,7 +551,7 @@ segment_maker.append_specifiers(
         with_next_leaf=True,
         ),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.trans(),
             baca.markup.nail_rasg(),
             ),
@@ -566,7 +566,7 @@ segment_maker.append_specifiers(
         with_next_leaf=True,
         ),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.trans(),
             baca.markup.kn_rasg(),
             ),
@@ -581,7 +581,7 @@ segment_maker.append_specifiers(
         with_next_leaf=True,
         ),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.trans(),
             baca.markup.nail_rasg(),
             ),
@@ -746,7 +746,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select_stages(27, 36)),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.trans(),
             baca.markup.ponticello(),
             ),
@@ -757,7 +757,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select_stages(41, 45)),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.make_markup('gradually slow rasgueado'),
             #baca.markup.still(),
             ),

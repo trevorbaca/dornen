@@ -40,7 +40,7 @@ accumulator(
     accumulator.glissando_scatto_figure_maker(
         'Guitar Music Voice 2',
         design[2:3],
-        baca.markup.make_markup_specifier('glissando: attack first note only'),
+        baca.markup.specifier('glissando: attack first note only'),
         baca.beam_positions(-12),
         baca.register(-8),
         baca.displacement([0, 1]),

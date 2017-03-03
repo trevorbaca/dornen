@@ -305,7 +305,7 @@ segment_maker.append_specifiers(
         with_next_leaf=True,
         ),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.trans(),
             baca.markup.kn_rasg(),
             ),
@@ -320,7 +320,7 @@ segment_maker.append_specifiers(
         with_next_leaf=True,
         ),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.trans(),
             baca.markup.tamb_tr(),
             ),
@@ -335,7 +335,7 @@ segment_maker.append_specifiers(
         with_next_leaf=True,
         ),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.trans(),
             baca.markup.kn_rasg(),
             ),
@@ -350,7 +350,7 @@ segment_maker.append_specifiers(
         with_next_leaf=True,
         ),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.trans(),
             baca.markup.tamb_tr(),
             ),
@@ -365,7 +365,7 @@ segment_maker.append_specifiers(
         with_next_leaf=True,
         ),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.trans(),
             baca.markup.kn_rasg(),
             ),
@@ -379,7 +379,7 @@ segment_maker.append_specifiers(
         baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('mf > p')),
         ),
     baca.wrap_leaves(
-        baca.make_transition(
+        baca.transition_spanner(
             baca.markup.trans(),
             baca.markup.tamb_tr(),
             ),

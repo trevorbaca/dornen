@@ -52,7 +52,7 @@ def make_running_figure_maker():
             ...     time_signatures=time_signatures,
             ...     )
             >>> specifiers = segment_maker.append_specifiers(
-            ...     ('vn', baca.select.stages(1)),
+            ...     ('vn', baca.select_stages(1)),
             ...     baca.tools.RhythmSpecifier(
             ...         rhythm_maker=figures,
             ...         ),
@@ -229,7 +229,7 @@ def make_running_figure_maker():
             ...     time_signatures=time_signatures,
             ...     )
             >>> specifiers = segment_maker.append_specifiers(
-            ...     ('vn', baca.select.stages(1)),
+            ...     ('vn', baca.select_stages(1)),
             ...     baca.tools.RhythmSpecifier(
             ...         rhythm_maker=figures,
             ...         ),

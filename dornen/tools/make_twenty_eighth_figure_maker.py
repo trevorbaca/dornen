@@ -417,7 +417,7 @@ def make_twenty_eighth_figure_maker():
                         ),
                     ),
                 color_unregistered_pitches=True,
-                preferred_denominator=28,
+                denominator=28,
                 )
 
     Returns figure-maker.
@@ -436,6 +436,6 @@ def make_twenty_eighth_figure_maker():
                 )
             ),
         color_unregistered_pitches=True,
-        preferred_denominator=28,
+        denominator=28,
         )
     return figure_maker

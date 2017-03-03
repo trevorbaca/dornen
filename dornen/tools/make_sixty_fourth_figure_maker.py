@@ -199,7 +199,7 @@ def make_sixty_fourth_figure_maker():
                     articulations=['.'],
                     ),
                 color_unregistered_pitches=True,
-                preferred_denominator=64,
+                denominator=64,
                 )
 
     Returns figure-maker.
@@ -221,6 +221,6 @@ def make_sixty_fourth_figure_maker():
             articulations=['.'],
             ),
         color_unregistered_pitches=True,
-        preferred_denominator=64,
+        denominator=64,
         )
     return figure_maker

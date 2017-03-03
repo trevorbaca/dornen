@@ -166,7 +166,7 @@ def make_anchor_figure_maker():
                         ),
                     ),
                 color_unregistered_pitches=True,
-                preferred_denominator=8,
+                denominator=8,
                 )
 
     Returns figure-maker.
@@ -182,6 +182,6 @@ def make_anchor_figure_maker():
                 ),
             ),
         color_unregistered_pitches=True,
-        preferred_denominator=8,
+        denominator=8,
         )
     return figure_maker

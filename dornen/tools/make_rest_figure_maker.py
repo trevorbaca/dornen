@@ -276,7 +276,7 @@ def make_rest_figure_maker(duration=None):
                         ),
                     ),
                 color_unregistered_pitches=True,
-                preferred_denominator=8,
+                denominator=8,
                 )
 
     Returns figure-maker.
@@ -293,6 +293,6 @@ def make_rest_figure_maker(duration=None):
                 )
             ),
         color_unregistered_pitches=True,
-        preferred_denominator=duration.denominator,
+        denominator=duration.denominator,
         )
     return figure_maker

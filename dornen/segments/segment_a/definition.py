@@ -19,8 +19,8 @@ accumulator(
         design[:4],
         baca.beam_positions(8),
         baca.register(0, -14),
-        figure_name='W1',
         denominator=16,
+        figure_name='W1',
         ),
     )
 

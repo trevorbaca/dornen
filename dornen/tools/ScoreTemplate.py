@@ -69,25 +69,25 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
 
         time_signature_context = self._make_time_signature_context()
 
-        guitar_music_voice_1 = abjad.scoretools.Voice(
+        guitar_music_voice_1 = abjad.Voice(
             [], 
             context_name='GuitarMusicVoiceOne',
             name='Guitar Music Voice 1',
             )
 
-        guitar_music_voice_2 = abjad.scoretools.Voice(
+        guitar_music_voice_2 = abjad.Voice(
             [], 
             context_name='GuitarMusicVoiceTwo',
             name='Guitar Music Voice 2',
             )
 
-        guitar_music_voice_3 = abjad.scoretools.Voice(
+        guitar_music_voice_3 = abjad.Voice(
             [], 
             context_name='GuitarMusicVoiceThree',
             name='Guitar Music Voice 3',
             )
 
-        guitar_music_voice_4 = abjad.scoretools.Voice(
+        guitar_music_voice_4 = abjad.Voice(
             [], 
             context_name='GuitarMusicVoiceFour',
             name='Guitar Music Voice 4',
@@ -113,14 +113,14 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
         abjad.attach(guitar, guitar_music_staff)
         abjad.attach(abjad.indicatortools.Clef('treble'), guitar_music_staff)
 
-        music_context = abjad.scoretools.Context(
+        music_context = abjad.Context(
             [
                 guitar_music_staff,
             ],
             context_name='MusicContext',
             name='Music Context',
             )
-        score = abjad.scoretools.Score(
+        score = abjad.Score(
             [
             time_signature_context,
             music_context,

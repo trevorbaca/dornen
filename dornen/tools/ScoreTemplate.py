@@ -93,7 +93,7 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
             name='Guitar Music Voice 4',
             )
 
-        guitar_music_staff = abjad.scoretools.Staff(
+        guitar_music_staff = abjad.Staff(
             [
                 guitar_music_voice_1,
                 guitar_music_voice_2,

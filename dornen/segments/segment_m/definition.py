@@ -429,7 +429,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 3', baca.select_stages(1, 41)),
     baca.accents(),
-    baca.script_direction(Down),
+    baca.script_down(),
     baca.register(-20),
     )
 

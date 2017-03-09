@@ -34,7 +34,7 @@ accumulator(
             'dull (but beautiful) thud with RH muting for each red note',
             direction=Down,
             ),
-        baca.text_script_down(),
+        baca.text_scripts_down(),
         extend_beam=True,
         figure_name='16_1',
         ),
@@ -44,7 +44,7 @@ accumulator(
     accumulator.twenty_eighth_figure_maker(
         'Guitar Music Voice 3',
         design[2:3],
-        baca.stem_up(),
+        baca.stems_up(),
         middle_register,
         figure_name='28_1',
         ),
@@ -83,7 +83,7 @@ accumulator(
     accumulator.twenty_eighth_figure_maker(
         'Guitar Music Voice 3',
         design[6:7],
-        baca.stem_up(),
+        baca.stems_up(),
         middle_register,
         figure_name='28_2',
         ),
@@ -150,7 +150,7 @@ accumulator(
     accumulator.twenty_eighth_figure_maker(
         'Guitar Music Voice 3',
         design[13:14],
-        baca.stem_up(),
+        baca.stems_up(),
         middle_register,
         figure_name='28_3',
         ),
@@ -209,7 +209,7 @@ accumulator(
     accumulator.twenty_eighth_figure_maker(
         'Guitar Music Voice 3',
         design[19:20],
-        baca.stem_up(),
+        baca.stems_up(),
         middle_register,
         figure_name='28_4',
         ),

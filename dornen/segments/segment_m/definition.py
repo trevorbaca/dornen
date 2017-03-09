@@ -45,7 +45,7 @@ accumulator(
         'Guitar Music Voice 4',
         design[3:4],
         baca.beam_positions(6),
-        baca.stem_up(),
+        baca.stems_up(),
         ),
     )
 
@@ -103,7 +103,7 @@ accumulator(
         'Guitar Music Voice 4',
         design[3:4],
         baca.beam_positions(6),
-        baca.stem_up(),
+        baca.stems_up(),
         ),
     )
 
@@ -161,7 +161,7 @@ accumulator(
         'Guitar Music Voice 4',
         design[3:4],
         baca.beam_positions(6),
-        baca.stem_up(),
+        baca.stems_up(),
         ),
     )
 
@@ -218,7 +218,7 @@ accumulator(
         'Guitar Music Voice 4',
         design[3:4],
         baca.beam_positions(6),
-        baca.stem_up(),
+        baca.stems_up(),
         ),
     )
 
@@ -275,7 +275,7 @@ accumulator(
         'Guitar Music Voice 4',
         design[3:4],
         baca.beam_positions(6),
-        baca.stem_up(),
+        baca.stems_up(),
         ),
     )
 
@@ -331,7 +331,7 @@ accumulator(
         'Guitar Music Voice 4',
         design[3:4],
         baca.beam_positions(6),
-        baca.stem_up(),
+        baca.stems_up(),
         ),
     )
 
@@ -429,7 +429,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 3', baca.select_stages(1, 41)),
     baca.accents(),
-    baca.script_down(),
+    baca.scripts_down(),
     baca.register(-20),
     )
 

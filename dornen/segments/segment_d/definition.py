@@ -49,7 +49,7 @@ accumulator(
         'Guitar Music Voice 4',
         design[3:4],
         baca.beam_positions(6),
-        baca.stem_up(),
+        baca.stems_up(),
         figure_name='20_2',
         ),
     )
@@ -173,7 +173,7 @@ accumulator(
         'Guitar Music Voice 4',
         design[3:4],
         baca.beam_positions(6),
-        baca.stem_up(),
+        baca.stems_up(),
         figure_name='20_2*',
         ),
     )
@@ -227,7 +227,7 @@ accumulator(
 #    accumulator.tremolo_figure_maker(
 #        'Guitar Music Voice 2',
 #        [[6, 6, 6, 6, 6]],
-#        baca.stem_up(),
+#        baca.stems_up(),
 #        baca.tuplet_bracket_staff_padding(0),
 #        baca.tuplet_bracket_extra_offset((0, -0.5)),
 #        baca.tuplet_number_extra_offset((0, -0.5)),
@@ -242,7 +242,7 @@ accumulator(
         [['Gb2']],
         baca.markup.boxed_specifier('2-finger tamb. trill'),
         baca.stem_tremolo(),
-        baca.stem_up(),
+        baca.stems_up(),
         baca.tuplet_bracket_staff_padding(0),
         baca.tuplet_bracket_extra_offset((0, -0.5)),
         baca.tuplet_number_extra_offset((0, -0.5)),
@@ -365,7 +365,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 3', baca.select_stages(1, Infinity)),
     baca.accents(),
-    baca.script_down(),
+    baca.scripts_down(),
     baca.register(-20),
     )
 

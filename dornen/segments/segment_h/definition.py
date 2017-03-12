@@ -66,7 +66,7 @@ accumulator(
         'Guitar Music Voice 1',
         design[5:6],
         baca.register(-20),
-        baca.displacement([0, 1]),
+        baca.displacements([0, 1]),
         figure_name='L1',
         ),
     )

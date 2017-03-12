@@ -164,7 +164,7 @@ accumulator.populate_segment_maker(segment_maker)
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select_stages(1, 12)),
     baca.register(-8),
-    baca.displacement([0, 1]),
+    baca.displacements([0, 1]),
     )
 
 # ovoid

@@ -249,17 +249,12 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
-                            \once \override Beam.positions = #'(9 . 9)
+                            \override Beam.positions = #'(9 . 9)
                             f32 * 1984/1024 [
-                            \once \override Beam.positions = #'(9 . 9)
                             a32 * 1088/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             b32 * 896/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             bf32 * 800/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             c'32 * 704/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             fs'32 * 672/1024 ]
                         }
                         \revert TupletNumber.text
@@ -296,15 +291,10 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
-                            \once \override Beam.positions = #'(9 . 9)
                             g'32 * 384/1024 [
-                            \once \override Beam.positions = #'(9 . 9)
                             af'32 * 768/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             d'32 * 1088/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             cs'32 * 1344/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             ef'32 * 1536/1024 ]
                         }
                         \revert TupletNumber.text
@@ -342,17 +332,11 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
-                            \once \override Beam.positions = #'(9 . 9)
                             f'64 * 2048/1024 [
-                            \once \override Beam.positions = #'(9 . 9)
                             a'64 * 1088/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             b'64 * 896/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             bf'64 * 768/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             c''64 * 704/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             fs'64 * 640/1024 ]
                         }
                         \revert TupletNumber.text
@@ -389,15 +373,10 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
-                            \once \override Beam.positions = #'(9 . 9)
                             g'64 * 384/1024 [
-                            \once \override Beam.positions = #'(9 . 9)
                             af'64 * 768/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             d''64 * 1088/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             cs''64 * 1344/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             ef''64 * 1536/1024 ]
                         }
                         \revert TupletNumber.text
@@ -436,28 +415,18 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
-                            \once \override Beam.positions = #'(9 . 9)
                             f''64 * 2560/1024 [
-                            \once \override Beam.positions = #'(9 . 9)
                             a'64 * 1344/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             b'64 * 1088/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             bf''64 * 960/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             c''64 * 896/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             fs''64 * 832/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             g''64 * 768/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             af''64 * 768/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             d''64 * 704/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             cs'''64 * 704/1024
-                            \once \override Beam.positions = #'(9 . 9)
                             ef''64 * 640/1024 ]
+                            \revert Beam.positions
                         }
                         \revert TupletNumber.text
                     }
@@ -495,11 +464,9 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
-                            \once \override Beam.positions = #'(6 . 6)
+                            \override Beam.positions = #'(6 . 6)
                             ef'32 * 512/1024 [
-                            \once \override Beam.positions = #'(6 . 6)
                             fs32 * 1088/1024
-                            \once \override Beam.positions = #'(6 . 6)
                             a32 * 1472/1024 ]
                         }
                         \revert TupletNumber.text
@@ -535,14 +502,11 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
-                            \once \override Beam.positions = #'(6 . 6)
                             b32 * 1312/1024 [
-                            \once \override Beam.positions = #'(6 . 6)
                             bf'32 * 736/1024 ]
                         }
                         \revert TupletNumber.text
                         {
-                            \once \override Beam.positions = #'(6 . 6)
                             c'32
                         }
                     }
@@ -581,15 +545,10 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
-                            \once \override Beam.positions = #'(6 . 6)
                             g'32 * 1856/1024 [
-                            \once \override Beam.positions = #'(6 . 6)
                             af'32 * 1024/1024
-                            \once \override Beam.positions = #'(6 . 6)
                             d''32 * 832/1024
-                            \once \override Beam.positions = #'(6 . 6)
                             cs''32 * 736/1024
-                            \once \override Beam.positions = #'(6 . 6)
                             ef''32 * 672/1024 ]
                         }
                         \revert TupletNumber.text
@@ -625,14 +584,11 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
-                            \once \override Beam.positions = #'(6 . 6)
                             g''32 * 416/1024 [
-                            \once \override Beam.positions = #'(6 . 6)
                             af''32 * 896/1024
-                            \once \override Beam.positions = #'(6 . 6)
                             d''32 * 1248/1024
-                            \once \override Beam.positions = #'(6 . 6)
                             cs'''32 * 1536/1024 ]
+                            \revert Beam.positions
                         }
                         \revert TupletNumber.text
                     }
@@ -762,27 +718,25 @@
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/7 {
-                            \once \override Beam.positions = #'(-12 . -12)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
+                            \override Beam.positions = #'(-12 . -12)
                             g'16 [ \glissando
                                 ^ \markup {
                                     \whiteout
                                         \upright
                                             "glissando: attack first note only"
                                     }
-                            \once \override Beam.positions = #'(-12 . -12)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             af''16 \glissando
-                            \once \override Beam.positions = #'(-12 . -12)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             d''16 \glissando
-                            \once \override Beam.positions = #'(-12 . -12)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             cs'''32
+                            \revert Beam.positions
                         }
                     }
                     s1 * 681/320
@@ -1126,10 +1080,10 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            \once \override Stem.direction = #up
-                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
-                            \once \override TupletBracket.staff-padding = #0
-                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
+                            \override Stem.direction = #up
+                            \override TupletBracket.staff-padding = #0
+                            \override TupletBracket.extra-offset = #'(0 . -0.5)
+                            \override TupletNumber.extra-offset = #'(0 . -0.5)
                             gf2 :32
                                 ^ \markup {
                                     \whiteout
@@ -1141,11 +1095,11 @@
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            \once \override Stem.direction = #up
-                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
-                            \once \override TupletBracket.staff-padding = #0
-                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
                             gf2 :32 \repeatTie
+                            \revert Stem.direction
+                            \revert TupletBracket.staff-padding
+                            \revert TupletBracket.extra-offset
+                            \revert TupletNumber.extra-offset
                         }
                     }
                     s1 * 45/32
@@ -1159,10 +1113,10 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            \once \override Stem.direction = #up
-                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
-                            \once \override TupletBracket.staff-padding = #0
-                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
+                            \override Stem.direction = #up
+                            \override TupletBracket.staff-padding = #0
+                            \override TupletBracket.extra-offset = #'(0 . -0.5)
+                            \override TupletNumber.extra-offset = #'(0 . -0.5)
                             gf2 :32
                                 ^ \markup {
                                     \whiteout
@@ -1174,11 +1128,11 @@
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            \once \override Stem.direction = #up
-                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
-                            \once \override TupletBracket.staff-padding = #0
-                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
                             gf2 :32 \repeatTie
+                            \revert Stem.direction
+                            \revert TupletBracket.staff-padding
+                            \revert TupletBracket.extra-offset
+                            \revert TupletNumber.extra-offset
                         }
                     }
                     s1 * 9/64

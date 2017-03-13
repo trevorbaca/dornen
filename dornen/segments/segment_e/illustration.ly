@@ -175,14 +175,14 @@
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
                     {
                         {
-                            \once \override Beam.positions = #'(10 . 10)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
+                            \override Beam.positions = #'(10 . 10)
                             bf'32. -\tenuto [
-                            \once \override Beam.positions = #'(10 . 10)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             c'32. -\tenuto
+                            \revert Beam.positions
                         }
                     }
                     s1 * 1/16
@@ -1300,19 +1300,19 @@
                     s1 * 3/32
                     {
                         {
-                            \once \override Script.direction = #down
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
+                            \override Script.direction = #down
                             f16 -\accent [
                         }
                     }
                     s1 * 69/160
                     {
                         {
-                            \once \override Script.direction = #down
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             a16 -\accent ]
+                            \revert Script.direction
                         }
                     }
                     s1 * 1693/320
@@ -1323,11 +1323,9 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            \once \override Beam.positions = #'(5.5 . 5.5)
+                            \override Beam.positions = #'(5.5 . 5.5)
                             g''16 -\staccato [
-                            \once \override Beam.positions = #'(5.5 . 5.5)
                             af'16 -\staccato
-                            \once \override Beam.positions = #'(5.5 . 5.5)
                             d''16 -\staccato ]
                         }
                     }
@@ -1335,12 +1333,10 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            \once \override Beam.positions = #'(5.5 . 5.5)
                             b'16 -\staccato [
-                            \once \override Beam.positions = #'(5.5 . 5.5)
                             bf'16 -\staccato
-                            \once \override Beam.positions = #'(5.5 . 5.5)
                             c''16 -\staccato ]
+                            \revert Beam.positions
                         }
                     }
                     s1 * 329/64

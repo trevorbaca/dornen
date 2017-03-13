@@ -211,13 +211,10 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
-                            \once \override Beam.positions = #'(8 . 8)
+                            \override Beam.positions = #'(8 . 8)
                             cs''64 * 448/1024 [
-                            \once \override Beam.positions = #'(8 . 8)
                             c''64 * 896/1024
-                            \once \override Beam.positions = #'(8 . 8)
                             bf''64 * 1216/1024
-                            \once \override Beam.positions = #'(8 . 8)
                             f''64 * 1536/1024 ]
                         }
                         \revert TupletNumber.text
@@ -253,13 +250,9 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
-                            \once \override Beam.positions = #'(8 . 8)
                             af''64 * 1664/1024 [
-                            \once \override Beam.positions = #'(8 . 8)
                             fs''64 * 960/1024
-                            \once \override Beam.positions = #'(8 . 8)
                             b'64 * 768/1024
-                            \once \override Beam.positions = #'(8 . 8)
                             d''64 * 704/1024 ]
                         }
                         \revert TupletNumber.text
@@ -295,13 +288,9 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
-                            \once \override Beam.positions = #'(8 . 8)
                             e''64 * 448/1024 [
-                            \once \override Beam.positions = #'(8 . 8)
                             ef''64 * 896/1024
-                            \once \override Beam.positions = #'(8 . 8)
                             a'64 * 1216/1024
-                            \once \override Beam.positions = #'(8 . 8)
                             af'64 * 1536/1024 ]
                         }
                         \revert TupletNumber.text
@@ -337,14 +326,11 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
-                            \once \override Beam.positions = #'(8 . 8)
                             fs'64 * 1664/1024 [
-                            \once \override Beam.positions = #'(8 . 8)
                             b'64 * 960/1024
-                            \once \override Beam.positions = #'(8 . 8)
                             d'64 * 768/1024
-                            \once \override Beam.positions = #'(8 . 8)
                             f'64 * 704/1024 ]
+                            \revert Beam.positions
                         }
                         \revert TupletNumber.text
                     }
@@ -678,94 +664,74 @@
                     s1 * 1/20
                     {
                         {
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
+                            \override TextScript.staff-padding = #9
                             f'''32 -\staccato [
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             a''32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             b''32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             bf''32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             c'''32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             fs''32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             g''32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             af''32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             d''32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             cs''32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             ef''32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             g'32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             af'32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             d''32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             cs''32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             ef'32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             fs'32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             a'32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             b32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             bf32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             c'32 -\staccato
-                            \once \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             f'32 -\staccato
+                            \revert TextScript.staff-padding
                         }
                     }
                     s1 * 1/10
@@ -846,11 +812,12 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            \once \override Beam.positions = #'(-8 . -8)
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
+                            \override Beam.positions = #'(-8 . -8)
                             ef'''16 [
+                            \revert Beam.positions
                         }
                     }
                     s1 * 3/16

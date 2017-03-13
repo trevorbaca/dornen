@@ -251,15 +251,13 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
+                            \override Beam.positions = #'(8 . 8)
                             a'16 [ (
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             cs''16
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             g''16 )
@@ -269,15 +267,12 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             cs'16 (
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             e'16
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             bf'16 )
@@ -287,15 +282,12 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             af'16 (
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             b'16
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             fs''16 ] )
@@ -304,19 +296,15 @@
                     s1 * 5/48
                     {
                         {
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             e'32 [ (
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             a'32
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             g'32
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             bf'32 )
@@ -325,19 +313,15 @@
                     s1 * 19/84
                     {
                         {
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             af'32 (
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             f'32
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             d''32
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             b'32 )
@@ -346,19 +330,15 @@
                     s1 * 1/24
                     {
                         {
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             cs'32 (
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             e'32
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             a'32
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             g''32 )
@@ -367,23 +347,20 @@
                     s1 * 19/84
                     {
                         {
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             g'32 (
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             bf'32
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             ef''32
-                            \once \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             e''32 ] )
                             \bar "|"
+                            \revert Beam.positions
                         }
                     }
                 }
@@ -391,24 +368,23 @@
                     s1 * 3/20
                     {
                         {
-                            \once \override Beam.positions = #'(-7 . -7)
-                            \once \override TextScript.direction = #down
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
+                            \override TextScript.direction = #down
+                            \override Beam.positions = #'(-7 . -7)
                             ef'16 [
                                 _ \markup {
                                     \whiteout
                                         \upright
                                             "dull (but beautiful) thud with RH muting for each red note"
                                     }
+                            \revert TextScript.direction
                         }
                     }
                     s1 * 3/28
                     {
                         {
-                            \once \override Beam.positions = #'(-7 . -7)
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             a16
@@ -417,8 +393,6 @@
                     s1 * 3/20
                     {
                         {
-                            \once \override Beam.positions = #'(-7 . -7)
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             b16
@@ -427,8 +401,6 @@
                     s1 * 3/28
                     {
                         {
-                            \once \override Beam.positions = #'(-7 . -7)
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             e'16
@@ -437,20 +409,19 @@
                     s1 * 3/20
                     {
                         {
-                            \once \override Beam.positions = #'(-7 . -7)
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             bf16 ]
+                            \revert Beam.positions
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            \once \override Beam.positions = #'(-7 . -7)
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
+                            \override Beam.positions = #'(-7 . -7)
                             ef'16 [
                         }
                     }
@@ -458,8 +429,6 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            \once \override Beam.positions = #'(-7 . -7)
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             d'16
@@ -469,8 +438,6 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            \once \override Beam.positions = #'(-7 . -7)
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             c'16
@@ -480,8 +447,6 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            \once \override Beam.positions = #'(-7 . -7)
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             c'16
@@ -491,8 +456,6 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            \once \override Beam.positions = #'(-7 . -7)
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             bf16
@@ -502,11 +465,10 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            \once \override Beam.positions = #'(-7 . -7)
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             a16 ]
+                            \revert Beam.positions
                         }
                     }
                     s1 * 1/8
@@ -517,66 +479,48 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/7 {
-                            \once \override Beam.positions = #'(4 . 4)
-                            \once \override Stem.direction = #up
+                            \override Stem.direction = #up
+                            \override Beam.positions = #'(4 . 4)
                             d'16 -\staccato [
-                            \once \override Beam.positions = #'(4 . 4)
-                            \once \override Stem.direction = #up
                             f'16 -\staccato
-                            \once \override Beam.positions = #'(4 . 4)
-                            \once \override Stem.direction = #up
                             af'16 -\staccato ]
+                            \revert Stem.direction
                         }
                     }
                     s1 * 11/40
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/7 {
-                            \once \override Beam.positions = #'(4 . 4)
-                            \once \override Stem.direction = #up
+                            \override Stem.direction = #up
                             fs'16 -\staccato [
-                            \once \override Beam.positions = #'(4 . 4)
-                            \once \override Stem.direction = #up
                             a'16 -\staccato
-                            \once \override Beam.positions = #'(4 . 4)
-                            \once \override Stem.direction = #up
                             cs''16 -\staccato ]
+                            \revert Stem.direction
                         }
                     }
                     s1 * 29/60
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/7 {
-                            \once \override Beam.positions = #'(4 . 4)
-                            \once \override Stem.direction = #up
+                            \override Stem.direction = #up
                             af'16 -\staccato [
-                            \once \override Beam.positions = #'(4 . 4)
-                            \once \override Stem.direction = #up
                             f'16 -\staccato
-                            \once \override Beam.positions = #'(4 . 4)
-                            \once \override Stem.direction = #up
                             cs''16 -\staccato
-                            \once \override Beam.positions = #'(4 . 4)
-                            \once \override Stem.direction = #up
                             b'16 -\staccato ]
+                            \revert Stem.direction
                         }
                     }
                     s1 * 3/8
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/7 {
-                            \once \override Beam.positions = #'(4 . 4)
-                            \once \override Stem.direction = #up
+                            \override Stem.direction = #up
                             ef'16 -\staccato [
-                            \once \override Beam.positions = #'(4 . 4)
-                            \once \override Stem.direction = #up
                             c''16 -\staccato
-                            \once \override Beam.positions = #'(4 . 4)
-                            \once \override Stem.direction = #up
                             cs''16 -\staccato
-                            \once \override Beam.positions = #'(4 . 4)
-                            \once \override Stem.direction = #up
                             b'16 -\staccato ]
+                            \revert Stem.direction
+                            \revert Beam.positions
                         }
                     }
                     s1 * 1/6

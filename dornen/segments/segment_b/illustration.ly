@@ -1023,7 +1023,7 @@
                         {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
-                            \override TextScript.color = #''red'
+                            \override TextScript.color = #red
                             cs'8.
                             \acciaccatura {
                                 fs'16 [
@@ -1057,7 +1057,7 @@
                         {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
-                            \override TextScript.color = #''red'
+                            \override TextScript.color = #red
                             cs'8.
                             \acciaccatura {
                                 fs'16 [
@@ -1091,7 +1091,7 @@
                         {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
-                            \override TextScript.color = #''red'
+                            \override TextScript.color = #red
                             cs'8.
                             \acciaccatura {
                                 fs'16 [

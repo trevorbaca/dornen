@@ -8,12 +8,12 @@ import dornen
 ##################################### [C] #####################################
 ###############################################################################
 
-accumulator = dornen.tools.FigureAccumulator(dornen.tools.ScoreTemplate())
+accumulator = dornen.tools.MusicAccumulator(dornen.tools.ScoreTemplate())
 design = dornen.tools.make_design_3(stop=10)
 assert len(design) == 10
 
 accumulator(
-    accumulator.wave_32_figure_maker(
+    accumulator.wave_32_music_maker(
         'Guitar Music Voice 1',
         design[:2],
         figure_name='W1',
@@ -21,7 +21,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.wave_64_figure_maker(
+    accumulator.wave_64_music_maker(
         'Guitar Music Voice 1',
         design[:2],
         figure_name='W2',
@@ -29,7 +29,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.wave_64_figure_maker(
+    accumulator.wave_64_music_maker(
         'Guitar Music Voice 1',
         accumulator.merge(design[:2]),
         figure_name='W3',
@@ -37,7 +37,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.glissando_scatto_figure_maker(
+    accumulator.glissando_scatto_music_maker(
         'Guitar Music Voice 2',
         design[2:3],
         baca.markup.specifier('glissando: attack first note only'),
@@ -50,7 +50,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.inverted_wave_32_figure_maker(
+    accumulator.inverted_wave_32_music_maker(
         'Guitar Music Voice 1',
         design[3:6],
         baca.register(-8),
@@ -59,7 +59,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.running_figure_maker(
+    accumulator.running_music_maker(
         'Guitar Music Voice 3',
         design[6:9],
         baca.register(0, -14),
@@ -69,7 +69,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.running_figure_maker(
+    accumulator.running_music_maker(
         'Guitar Music Voice 3',
         design[7:10],
         baca.register(-14, 0),
@@ -79,7 +79,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.rest_figure_maker(
+    accumulator.rest_music_maker(
         'Guitar Music Voice 4',
         [3 * ['C4']],
         logical_tie_masks=abjad.silence_all(),
@@ -88,7 +88,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.monad_figure_maker(
+    accumulator.monad_music_maker(
         'Guitar Music Voice 4',
         2 * [['Gb2']],
         baca.markup.boxed_specifier('2-finger tamb. trill'),
@@ -106,7 +106,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.running_figure_maker(
+    accumulator.running_music_maker(
         'Guitar Music Voice 3',
         design[8:] + design[:1],
         baca.register(-14, 0),
@@ -115,7 +115,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.wave_32_figure_maker(
+    accumulator.wave_32_music_maker(
         'Guitar Music Voice 1',
         design[1:3],
         baca.register(-20),
@@ -124,7 +124,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.glissando_scatto_figure_maker(
+    accumulator.glissando_scatto_music_maker(
         'Guitar Music Voice 2',
         design[3:4],
         baca.register(-8),
@@ -135,7 +135,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.wave_32_figure_maker(
+    accumulator.wave_32_music_maker(
         'Guitar Music Voice 1',
         design[1:4],
         baca.register(-20, -4),
@@ -144,7 +144,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.glissando_scatto_figure_maker(
+    accumulator.glissando_scatto_music_maker(
         'Guitar Music Voice 2',
         design[4:5],
         baca.register(-8),
@@ -154,7 +154,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.running_figure_maker(
+    accumulator.running_music_maker(
         'Guitar Music Voice 3',
         design[5:8],
         baca.register(0, -14),
@@ -164,7 +164,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.running_figure_maker(
+    accumulator.running_music_maker(
         'Guitar Music Voice 3',
         design[6:9],
         baca.register(-14, 0),
@@ -174,7 +174,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.rest_figure_maker(
+    accumulator.rest_music_maker(
         'Guitar Music Voice 4',
         [3 * ['C4']],
         figure_name='S2',
@@ -183,7 +183,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.monad_figure_maker(
+    accumulator.monad_music_maker(
         'Guitar Music Voice 4',
         2 * [['Gb2']],
         baca.markup.boxed_specifier('2-finger tamb. trill'),
@@ -201,7 +201,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.running_figure_maker(
+    accumulator.running_music_maker(
         'Guitar Music Voice 3',
         design[7:10],
         baca.register(-14, 0),

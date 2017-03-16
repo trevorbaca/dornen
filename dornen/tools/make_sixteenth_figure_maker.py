@@ -3,8 +3,8 @@ import abjad
 import baca
 
 
-def make_sixteenth_figure_maker():
-    r'''Makes sixteenth figure-maker.
+def make_sixteenth_music_maker():
+    r'''Makes sixteenth music-maker.
 
     ::
 
@@ -39,10 +39,10 @@ def make_sixteenth_figure_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> figure_maker = dornen.tools.make_sixteenth_figure_maker()
+            >>> music_maker = dornen.tools.make_sixteenth_music_maker()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
-            ...     contribution = figure_maker(voice_name, segments)
+            ...     contribution = music_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
@@ -222,10 +222,10 @@ def make_sixteenth_figure_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> figure_maker = dornen.tools.make_sixteenth_figure_maker()
+            >>> music_maker = dornen.tools.make_sixteenth_music_maker()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
-            ...     contribution = figure_maker(voice_name, segments)
+            ...     contribution = music_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
@@ -369,12 +369,12 @@ def make_sixteenth_figure_maker():
 
     ..  container:: example
 
-        Formats sixteenth figure-maker:
+        Formats sixteenth music-maker:
 
         ::
 
-            >>> f(dornen.tools.make_sixteenth_figure_maker())
-            baca.tools.FigureMaker(
+            >>> f(dornen.tools.make_sixteenth_music_maker())
+            baca.tools.MusicMaker(
                 rhythmmakertools.BeamSpecifier(
                     beam_each_division=True,
                     ),
@@ -390,9 +390,9 @@ def make_sixteenth_figure_maker():
                 denominator=16,
                 )
 
-    Returns figure-maker.
+    Returns music-maker.
     '''
-    figure_maker = baca.tools.FigureMaker(
+    music_maker = baca.tools.MusicMaker(
         abjad.rhythmmakertools.BeamSpecifier(
             beam_each_division=True,
             ),
@@ -407,4 +407,4 @@ def make_sixteenth_figure_maker():
         color_unregistered_pitches=True,
         denominator=16,
         )
-    return figure_maker
+    return music_maker

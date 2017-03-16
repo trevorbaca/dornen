@@ -3,8 +3,8 @@ import abjad
 import baca
 
 
-def make_graced_tuplet_figure_maker():
-    '''Makes graced tuplet figure-maker.
+def make_graced_tuplet_music_maker():
+    '''Makes graced tuplet music-maker.
 
     ::
 
@@ -39,10 +39,10 @@ def make_graced_tuplet_figure_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> figure_maker = dornen.tools.make_graced_tuplet_figure_maker()
+            >>> music_maker = dornen.tools.make_graced_tuplet_music_maker()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
-            ...     contribution = figure_maker(voice_name, segments)
+            ...     contribution = music_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
@@ -278,12 +278,12 @@ def make_graced_tuplet_figure_maker():
 
     ..  container:: example
 
-        Formats graced tuplet figure-maker:
+        Formats graced tuplet music-maker:
 
         ::
 
-            >>> f(dornen.tools.make_graced_tuplet_figure_maker())
-            baca.tools.FigureMaker(
+            >>> f(dornen.tools.make_graced_tuplet_music_maker())
+            baca.tools.MusicMaker(
                 rhythmmakertools.BeamSpecifier(
                     beam_each_division=True,
                     beam_divisions_together=True,
@@ -340,9 +340,9 @@ def make_graced_tuplet_figure_maker():
                 denominator=14,
                 )
 
-    Returns figure-maker.
+    Returns music-maker.
     '''
-    figure_maker = baca.tools.FigureMaker(
+    music_maker = baca.tools.MusicMaker(
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
@@ -389,4 +389,4 @@ def make_graced_tuplet_figure_maker():
         color_unregistered_pitches=True,
         denominator=14,
         )
-    return figure_maker
+    return music_maker

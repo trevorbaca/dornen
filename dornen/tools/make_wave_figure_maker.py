@@ -3,8 +3,8 @@ import abjad
 import baca
 
 
-def make_wave_figure_maker(denominator=64, inverted=False):
-    r'''Makes wave figure-maker.
+def make_wave_music_maker(denominator=64, inverted=False):
+    r'''Makes wave music-maker.
 
     ::
 
@@ -31,10 +31,10 @@ def make_wave_figure_maker(denominator=64, inverted=False):
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> figure_maker = dornen.tools.make_wave_figure_maker()
+            >>> music_maker = dornen.tools.make_wave_music_maker()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
-            ...     contribution = figure_maker(voice_name, segments)
+            ...     contribution = music_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
@@ -386,12 +386,12 @@ def make_wave_figure_maker(denominator=64, inverted=False):
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> figure_maker = dornen.tools.make_wave_figure_maker(
+            >>> music_maker = dornen.tools.make_wave_music_maker(
             ...     inverted=True,
             ...     )
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
-            ...     contribution = figure_maker(voice_name, segments)
+            ...     contribution = music_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
@@ -743,12 +743,12 @@ def make_wave_figure_maker(denominator=64, inverted=False):
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> figure_maker = dornen.tools.make_wave_figure_maker(
+            >>> music_maker = dornen.tools.make_wave_music_maker(
             ...     denominator=32,
             ...     )
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
-            ...     contribution = figure_maker(voice_name, segments)
+            ...     contribution = music_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
@@ -1081,7 +1081,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
                 >>
             >>
 
-    Returns figure-maker.
+    Returns music-maker.
     '''
     assert abjad.mathtools.is_positive_integer_power_of_two(denominator)
     assert 16 <= denominator, repr(denominator)
@@ -1104,7 +1104,7 @@ def make_wave_figure_maker(denominator=64, inverted=False):
     if inverted:
         rhythm_maker_1 = ritardando_rhythm_maker
         rhythm_maker_2 = accelerando_rhythm_maker
-    figure_maker = baca.tools.FigureMaker(
+    music_maker = baca.tools.MusicMaker(
         baca.tools.FigureRhythmSpecifier(
             pattern=abjad.select_every([0], period=2),
             rhythm_maker=rhythm_maker_1,
@@ -1116,4 +1116,4 @@ def make_wave_figure_maker(denominator=64, inverted=False):
         color_unregistered_pitches=True,
         denominator=denominator,
         )
-    return figure_maker
+    return music_maker

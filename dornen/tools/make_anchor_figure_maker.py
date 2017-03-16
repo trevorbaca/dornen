@@ -3,8 +3,8 @@ import abjad
 import baca
 
 
-def make_anchor_figure_maker():
-    r'''Makes anchor figure-maker.
+def make_anchor_music_maker():
+    r'''Makes anchor music-maker.
 
     ::
 
@@ -28,10 +28,10 @@ def make_anchor_figure_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> figure_maker = dornen.tools.make_anchor_figure_maker()
+            >>> music_maker = dornen.tools.make_anchor_music_maker()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
-            ...     contribution = figure_maker(voice_name, segments)
+            ...     contribution = music_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
@@ -151,12 +151,12 @@ def make_anchor_figure_maker():
 
     ..  container:: example
 
-        Formats anchor figure-maker:
+        Formats anchor music-maker:
 
         ::
 
-            >>> f(dornen.tools.make_anchor_figure_maker())
-            baca.tools.FigureMaker(
+            >>> f(dornen.tools.make_anchor_music_maker())
+            baca.tools.MusicMaker(
                 baca.tools.FigureRhythmSpecifier(
                     rhythm_maker=baca.tools.FigureRhythmMaker(
                         talea=rhythmmakertools.Talea(
@@ -169,9 +169,9 @@ def make_anchor_figure_maker():
                 denominator=8,
                 )
 
-    Returns figure-maker.
+    Returns music-maker.
     '''
-    figure_maker = baca.tools.FigureMaker(
+    music_maker = baca.tools.MusicMaker(
         baca.tools.FigureRhythmSpecifier(
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
@@ -184,4 +184,4 @@ def make_anchor_figure_maker():
         color_unregistered_pitches=True,
         denominator=8,
         )
-    return figure_maker
+    return music_maker

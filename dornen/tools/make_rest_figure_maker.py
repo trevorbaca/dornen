@@ -3,8 +3,8 @@ import abjad
 import baca
 
 
-def make_rest_figure_maker(duration=None):
-    r'''Makes rest figure-maker.
+def make_rest_music_maker(duration=None):
+    r'''Makes rest music-maker.
 
     ::
 
@@ -39,10 +39,10 @@ def make_rest_figure_maker(duration=None):
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> figure_maker = dornen.tools.make_rest_figure_maker()
+            >>> music_maker = dornen.tools.make_rest_music_maker()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
-            ...     contribution = figure_maker(voice_name, segments)
+            ...     contribution = music_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
@@ -156,10 +156,10 @@ def make_rest_figure_maker(duration=None):
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> figure_maker = dornen.tools.make_rest_figure_maker()
+            >>> music_maker = dornen.tools.make_rest_music_maker()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
-            ...     contribution = figure_maker(voice_name, segments)
+            ...     contribution = music_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
             ...     time_signatures.append(contribution.time_signature)    
             ...
@@ -251,12 +251,12 @@ def make_rest_figure_maker(duration=None):
 
     ..  container:: example
 
-        Formats rest figure-maker:
+        Formats rest music-maker:
 
         ::
 
-            >>> f(dornen.tools.make_rest_figure_maker())
-            baca.tools.FigureMaker(
+            >>> f(dornen.tools.make_rest_music_maker())
+            baca.tools.MusicMaker(
                 baca.tools.FigureRhythmSpecifier(
                     rhythm_maker=baca.tools.FigureRhythmMaker(
                         logical_tie_masks=patterntools.PatternInventory(
@@ -279,10 +279,10 @@ def make_rest_figure_maker(duration=None):
                 denominator=8,
                 )
 
-    Returns figure-maker.
+    Returns music-maker.
     '''
     duration = duration or abjad.Duration(1, 8)
-    figure_maker = baca.tools.FigureMaker(
+    music_maker = baca.tools.MusicMaker(
         baca.tools.FigureRhythmSpecifier(
             rhythm_maker=baca.tools.FigureRhythmMaker(
                 logical_tie_masks=abjad.silence_all(),
@@ -295,4 +295,4 @@ def make_rest_figure_maker(duration=None):
         color_unregistered_pitches=True,
         denominator=duration.denominator,
         )
-    return figure_maker
+    return music_maker

@@ -3,7 +3,7 @@ import abjad
 import baca
 
 
-class FigureAccumulator(baca.tools.FigureAccumulator):
+class MusicAccumulator(baca.tools.MusicAccumulator):
     r'''Figure-accumulator.
 
     ::
@@ -17,11 +17,11 @@ class FigureAccumulator(baca.tools.FigureAccumulator):
         ::
 
             >>> score_template = dornen.tools.ScoreTemplate()
-            >>> accumulator = dornen.tools.FigureAccumulator(score_template)
+            >>> accumulator = dornen.tools.MusicAccumulator(score_template)
             >>> voice_name = 'Guitar Music Voice 1'
             >>> segments = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
             >>> accumulator(
-            ...     accumulator.delicatissimo_figure_maker(
+            ...     accumulator.delicatissimo_music_maker(
             ...         voice_name,
             ...         segments,
             ...         figure_name='D',
@@ -94,75 +94,75 @@ class FigureAccumulator(baca.tools.FigureAccumulator):
     ### CLASS VARIABLES ###
 
     __slots__ = (
-        'anchor_figure_maker',
-        'delicatissimo_figure_maker',
-        'default_figure_maker',
-        'forty_eighth_figure_maker',
-        'glissando_scatto_figure_maker',
-        'graced_tuplet_figure_maker',
-        'inverted_wave_32_figure_maker',
-        'inverted_wave_64_figure_maker',
-        'monad_figure_maker',
-        'ovoid_figure_maker',
-        'passepied_figure_maker',
-        'rest_figure_maker',
-        'running_figure_maker',
-        'sixteenth_figure_maker',
-        'sixty_fourth_figure_maker',
-        'third_figure_maker',
-        'thirty_second_figure_maker',
-        'tremolo_figure_maker',
-        'twentieth_figure_maker',
-        'twenty_eighth_figure_maker',
-        'twenty_fourth_figure_maker',
-        'wave_32_figure_maker',
-        'wave_64_figure_maker',
+        'anchor_music_maker',
+        'delicatissimo_music_maker',
+        'default_music_maker',
+        'forty_eighth_music_maker',
+        'glissando_scatto_music_maker',
+        'graced_tuplet_music_maker',
+        'inverted_wave_32_music_maker',
+        'inverted_wave_64_music_maker',
+        'monad_music_maker',
+        'ovoid_music_maker',
+        'passepied_music_maker',
+        'rest_music_maker',
+        'running_music_maker',
+        'sixteenth_music_maker',
+        'sixty_fourth_music_maker',
+        'third_music_maker',
+        'thirty_second_music_maker',
+        'tremolo_music_maker',
+        'twentieth_music_maker',
+        'twenty_eighth_music_maker',
+        'twenty_fourth_music_maker',
+        'wave_32_music_maker',
+        'wave_64_music_maker',
         )
 
     ### INITIALIZER ###
 
     def __init__(self, score_template):
         import dornen
-        superclass = super(FigureAccumulator, self)
+        superclass = super(MusicAccumulator, self)
         superclass.__init__(score_template)
-        self.anchor_figure_maker = dornen.tools.make_anchor_figure_maker()
-        self.default_figure_maker = dornen.tools.make_default_figure_maker()
-        self.delicatissimo_figure_maker = \
-            dornen.tools.make_delicatissimo_figure_maker()
-        self.forty_eighth_figure_maker = \
-            dornen.tools.make_forty_eighth_figure_maker()
-        self.glissando_scatto_figure_maker = \
-            dornen.tools.make_glissando_scatto_figure_maker()
-        self.graced_tuplet_figure_maker = \
-            dornen.tools.make_graced_tuplet_figure_maker()
-        self.inverted_wave_32_figure_maker = \
-            dornen.tools.make_wave_figure_maker(denominator=32, inverted=True)
-        self.inverted_wave_64_figure_maker = \
-            dornen.tools.make_wave_figure_maker(denominator=64, inverted=True)
-        self.monad_figure_maker = dornen.tools.make_monad_figure_maker()
-        self.ovoid_figure_maker = dornen.tools.make_ovoid_figure_maker()
-        self.passepied_figure_maker = \
-            dornen.tools.make_passepied_figure_maker()
-        self.rest_figure_maker = dornen.tools.make_rest_figure_maker()
-        self.sixteenth_figure_maker = \
-            dornen.tools.make_sixteenth_figure_maker()
-        self.sixty_fourth_figure_maker = \
-            dornen.tools.make_sixty_fourth_figure_maker()
-        self.third_figure_maker = dornen.tools.make_third_figure_maker()
-        self.thirty_second_figure_maker = \
-            dornen.tools.make_thirty_second_figure_maker()
-        self.tremolo_figure_maker = dornen.tools.make_tremolo_figure_maker()
-        self.twentieth_figure_maker = \
-            dornen.tools.make_twentieth_figure_maker()
-        self.twenty_eighth_figure_maker = \
-            dornen.tools.make_twenty_eighth_figure_maker()
-        self.twenty_fourth_figure_maker = \
-            dornen.tools.make_twenty_fourth_figure_maker()
-        self.wave_32_figure_maker = \
-            dornen.tools.make_wave_figure_maker(denominator=32)
-        self.wave_64_figure_maker = \
-            dornen.tools.make_wave_figure_maker(denominator=64)
-        self.running_figure_maker = dornen.tools.make_running_figure_maker()
+        self.anchor_music_maker = dornen.tools.make_anchor_music_maker()
+        self.default_music_maker = dornen.tools.make_default_music_maker()
+        self.delicatissimo_music_maker = \
+            dornen.tools.make_delicatissimo_music_maker()
+        self.forty_eighth_music_maker = \
+            dornen.tools.make_forty_eighth_music_maker()
+        self.glissando_scatto_music_maker = \
+            dornen.tools.make_glissando_scatto_music_maker()
+        self.graced_tuplet_music_maker = \
+            dornen.tools.make_graced_tuplet_music_maker()
+        self.inverted_wave_32_music_maker = \
+            dornen.tools.make_wave_music_maker(denominator=32, inverted=True)
+        self.inverted_wave_64_music_maker = \
+            dornen.tools.make_wave_music_maker(denominator=64, inverted=True)
+        self.monad_music_maker = dornen.tools.make_monad_music_maker()
+        self.ovoid_music_maker = dornen.tools.make_ovoid_music_maker()
+        self.passepied_music_maker = \
+            dornen.tools.make_passepied_music_maker()
+        self.rest_music_maker = dornen.tools.make_rest_music_maker()
+        self.sixteenth_music_maker = \
+            dornen.tools.make_sixteenth_music_maker()
+        self.sixty_fourth_music_maker = \
+            dornen.tools.make_sixty_fourth_music_maker()
+        self.third_music_maker = dornen.tools.make_third_music_maker()
+        self.thirty_second_music_maker = \
+            dornen.tools.make_thirty_second_music_maker()
+        self.tremolo_music_maker = dornen.tools.make_tremolo_music_maker()
+        self.twentieth_music_maker = \
+            dornen.tools.make_twentieth_music_maker()
+        self.twenty_eighth_music_maker = \
+            dornen.tools.make_twenty_eighth_music_maker()
+        self.twenty_fourth_music_maker = \
+            dornen.tools.make_twenty_fourth_music_maker()
+        self.wave_32_music_maker = \
+            dornen.tools.make_wave_music_maker(denominator=32)
+        self.wave_64_music_maker = \
+            dornen.tools.make_wave_music_maker(denominator=64)
+        self.running_music_maker = dornen.tools.make_running_music_maker()
 
     ### PUBLIC METHODS ###
 

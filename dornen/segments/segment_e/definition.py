@@ -8,12 +8,12 @@ import dornen
 ##################################### [E] #####################################
 ###############################################################################
 
-accumulator = dornen.tools.FigureAccumulator(dornen.tools.ScoreTemplate())
+accumulator = dornen.tools.MusicAccumulator(dornen.tools.ScoreTemplate())
 design = dornen.tools.make_design_3(start=10, stop=30)
 assert len(design) == 20
 
 accumulator(
-    accumulator.forty_eighth_figure_maker(
+    accumulator.forty_eighth_music_maker(
         'Guitar Music Voice 1',
         design[:1],
         baca.tenuti(),
@@ -25,7 +25,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.sixteenth_figure_maker(
+    accumulator.sixteenth_music_maker(
         'Guitar Music Voice 3',
         design[1:2],
         extend_beam=True,
@@ -34,7 +34,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.running_figure_maker(
+    accumulator.running_music_maker(
         'Guitar Music Voice 1',
         design[2:5],
         baca.register(-14, 0),
@@ -44,7 +44,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.twentieth_figure_maker(
+    accumulator.twentieth_music_maker(
         'Guitar Music Voice 4',
         design[5:6],
         figure_name='20_1',
@@ -52,7 +52,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.forty_eighth_figure_maker(
+    accumulator.forty_eighth_music_maker(
         'Guitar Music Voice 1',
         design[6:7],
         baca.tenuti(),
@@ -62,7 +62,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.sixteenth_figure_maker(
+    accumulator.sixteenth_music_maker(
         'Guitar Music Voice 3',
         design[7:8],
         figure_name='16_2',
@@ -70,7 +70,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.twentieth_figure_maker(
+    accumulator.twentieth_music_maker(
         'Guitar Music Voice 4',
         design[8:9],
         figure_name='20_2',
@@ -78,7 +78,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.rest_figure_maker(
+    accumulator.rest_music_maker(
         'Guitar Music Voice 1',
         [3 * ['C4']],
         baca.markup.specifier(
@@ -91,7 +91,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.sixty_fourth_figure_maker(
+    accumulator.sixty_fourth_music_maker(
         'Guitar Music Voice 1',
         10 * accumulator.reveal(design[9:10], 3),
         baca.register(0),
@@ -100,7 +100,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.sixty_fourth_figure_maker(
+    accumulator.sixty_fourth_music_maker(
         'Guitar Music Voice 1',
         10 * accumulator.reveal(design[9:10], 4),
         baca.register(0),
@@ -109,7 +109,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.sixty_fourth_figure_maker(
+    accumulator.sixty_fourth_music_maker(
         'Guitar Music Voice 1',
         10 * accumulator.reveal(design[9:10], 5),
         baca.register(0),
@@ -118,7 +118,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.sixty_fourth_figure_maker(
+    accumulator.sixty_fourth_music_maker(
         'Guitar Music Voice 1',
         10 * accumulator.reveal(design[9:10], 6),
         baca.register(0),
@@ -127,7 +127,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.sixty_fourth_figure_maker(
+    accumulator.sixty_fourth_music_maker(
         'Guitar Music Voice 1',
         accumulator.boustrophedon(design[9:10], 4),
         baca.register(0),

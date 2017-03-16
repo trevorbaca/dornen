@@ -8,13 +8,13 @@ import dornen
 ################################ [introduction] ###############################
 ###############################################################################
 
-accumulator = dornen.tools.FigureAccumulator(dornen.tools.ScoreTemplate())
+accumulator = dornen.tools.MusicAccumulator(dornen.tools.ScoreTemplate())
 design = dornen.tools.make_design_1(stop=22)
 assert len(design) == 22
 design = baca.tools.Cursor(source=design)
 
 accumulator(
-    accumulator.anchor_figure_maker(
+    accumulator.anchor_music_maker(
         'Guitar Music Voice 1',
         design.next(),
         baca.beam_positions(6),
@@ -25,7 +25,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.passepied_figure_maker(
+    accumulator.passepied_music_maker(
         'Guitar Music Voice 2',
         design.next(),
         baca.beam_positions(-10),
@@ -37,7 +37,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.anchor_figure_maker(
+    accumulator.anchor_music_maker(
         'Guitar Music Voice 1',
         design.next(),
         baca.register(-10),
@@ -47,7 +47,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.passepied_figure_maker(
+    accumulator.passepied_music_maker(
         'Guitar Music Voice 2',
         design.next(),
         baca.time_signature_extra_offset((-2.5, 0)),
@@ -58,7 +58,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.anchor_figure_maker(
+    accumulator.anchor_music_maker(
         'Guitar Music Voice 1',
         design.next(),
         baca.register(-12),
@@ -67,7 +67,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.passepied_figure_maker(
+    accumulator.passepied_music_maker(
         'Guitar Music Voice 2',
         design.next(),
         baca.time_signature_extra_offset((-2.5, 0)),
@@ -77,7 +77,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.anchor_figure_maker(
+    accumulator.anchor_music_maker(
         'Guitar Music Voice 1',
         design.next(),
         baca.beam_positions(9),
@@ -88,7 +88,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.passepied_figure_maker(
+    accumulator.passepied_music_maker(
         'Guitar Music Voice 2',
         design.next(),
         baca.beam_positions(-10),
@@ -100,7 +100,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.running_figure_maker(
+    accumulator.running_music_maker(
         'Guitar Music Voice 4',
         design.next(2),
         baca.register(-12),
@@ -109,7 +109,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.anchor_figure_maker(
+    accumulator.anchor_music_maker(
         'Guitar Music Voice 1',
         design.next(),
         baca.register(-16),
@@ -118,7 +118,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.running_figure_maker(
+    accumulator.running_music_maker(
         'Guitar Music Voice 4',
         design.next(2),
         baca.register(-6),
@@ -127,7 +127,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.anchor_figure_maker(
+    accumulator.anchor_music_maker(
         'Guitar Music Voice 1',
         design.next(),
         baca.beam_positions(6),
@@ -138,7 +138,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.passepied_figure_maker(
+    accumulator.passepied_music_maker(
         'Guitar Music Voice 2',
         design.next(),
         baca.time_signature_extra_offset((-2.5, 0)),
@@ -148,7 +148,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.anchor_figure_maker(
+    accumulator.anchor_music_maker(
         'Guitar Music Voice 1',
         design.next(),
         baca.register(-20),
@@ -157,7 +157,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.passepied_figure_maker(
+    accumulator.passepied_music_maker(
         'Guitar Music Voice 2',
         design.next(),
         baca.beam_positions(-10),
@@ -169,7 +169,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.passepied_figure_maker(
+    accumulator.passepied_music_maker(
         'Guitar Music Voice 2',
         design.next(),
         baca.time_signature_extra_offset((-2.5, 0)),
@@ -179,7 +179,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.running_figure_maker(
+    accumulator.running_music_maker(
         'Guitar Music Voice 4',
         design.next(2),
         baca.register(-12, 0),
@@ -188,7 +188,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.inverted_wave_64_figure_maker(
+    accumulator.inverted_wave_64_music_maker(
         'Guitar Music Voice 3',
         design.next(),
         baca.beam_positions(-6),
@@ -197,7 +197,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.inverted_wave_64_figure_maker(
+    accumulator.inverted_wave_64_music_maker(
         'Guitar Music Voice 3',
         design.next(),
         baca.beam_positions(-6),

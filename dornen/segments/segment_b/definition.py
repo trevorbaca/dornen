@@ -8,12 +8,12 @@ import dornen
 ##################################### [B] #####################################
 ###############################################################################
 
-accumulator = dornen.tools.FigureAccumulator(dornen.tools.ScoreTemplate())
+accumulator = dornen.tools.MusicAccumulator(dornen.tools.ScoreTemplate())
 design = dornen.tools.make_design_1(start=16, stop=38)
 assert len(design) == 22
 
 accumulator(
-    accumulator.inverted_wave_64_figure_maker(
+    accumulator.inverted_wave_64_music_maker(
         'Guitar Music Voice 1',
         design[:1],
         baca.register(0, -14),
@@ -22,7 +22,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.graced_tuplet_figure_maker(
+    accumulator.graced_tuplet_music_maker(
         'Guitar Music Voice 4',
         accumulator.reveal(design[5:6], 1),
         baca.beam_positions(12),
@@ -35,7 +35,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.ovoid_figure_maker(
+    accumulator.ovoid_music_maker(
         'Guitar Music Voice 2',
         design[1:2],
         baca.beam_positions(-8),
@@ -46,7 +46,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.graced_tuplet_figure_maker(
+    accumulator.graced_tuplet_music_maker(
         'Guitar Music Voice 4',
         accumulator.reveal(design[5:6], 1),
         baca.proportional_notation_duration((1, 42)),
@@ -58,7 +58,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.inverted_wave_64_figure_maker(
+    accumulator.inverted_wave_64_music_maker(
         'Guitar Music Voice 1',
         accumulator.boustrophedon(design[2:3], count=2),
         baca.beam_positions(7),
@@ -68,7 +68,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.graced_tuplet_figure_maker(
+    accumulator.graced_tuplet_music_maker(
         'Guitar Music Voice 4',
         accumulator.reveal(design[5:6], 3),
         baca.stems_up(),
@@ -79,7 +79,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.ovoid_figure_maker(
+    accumulator.ovoid_music_maker(
         'Guitar Music Voice 2',
         design[3:4],
         baca.text_script_color('red'),
@@ -89,7 +89,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.graced_tuplet_figure_maker(
+    accumulator.graced_tuplet_music_maker(
         'Guitar Music Voice 4',
         accumulator.reveal(design[5:6], 3),
         baca.stems_up(),
@@ -101,7 +101,7 @@ accumulator(
 cell_d1 = accumulator.boustrophedon(design[4:5], count=4, flatten=True)
 
 accumulator(
-    accumulator.delicatissimo_figure_maker(
+    accumulator.delicatissimo_music_maker(
         'Guitar Music Voice 1',
         accumulator.reveal(cell_d1, 4),
         baca.beam_positions(-6.5),
@@ -112,7 +112,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.graced_tuplet_figure_maker(
+    accumulator.graced_tuplet_music_maker(
         'Guitar Music Voice 4',
         accumulator.reveal(design[5:6], 1),
         baca.beam_positions(12),
@@ -125,7 +125,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.delicatissimo_figure_maker(
+    accumulator.delicatissimo_music_maker(
         'Guitar Music Voice 1',
         accumulator.reveal(cell_d1, 3),
         baca.beam_positions(-6.5),
@@ -136,7 +136,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.graced_tuplet_figure_maker(
+    accumulator.graced_tuplet_music_maker(
         'Guitar Music Voice 4',
         accumulator.reveal(design[5:6], 5),
         baca.stems_up(),
@@ -147,7 +147,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.delicatissimo_figure_maker(
+    accumulator.delicatissimo_music_maker(
         'Guitar Music Voice 1',
         accumulator.reveal(cell_d1, 10),
         baca.beam_positions(-6.5),
@@ -157,7 +157,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.ovoid_figure_maker(
+    accumulator.ovoid_music_maker(
         'Guitar Music Voice 2',
         design[1:2],
         baca.beam_positions(-8),
@@ -168,7 +168,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.graced_tuplet_figure_maker(
+    accumulator.graced_tuplet_music_maker(
         'Guitar Music Voice 4',
         accumulator.reveal(design[5:6], 3),
         baca.stems_up(),
@@ -179,7 +179,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.wave_64_figure_maker(
+    accumulator.wave_64_music_maker(
         'Guitar Music Voice 1',
         accumulator.boustrophedon(design[2:3], count=2, flatten=True),
         baca.beam_positions(7),
@@ -190,7 +190,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.delicatissimo_figure_maker(
+    accumulator.delicatissimo_music_maker(
         'Guitar Music Voice 1',
         accumulator.reveal(cell_d1, 15),
         baca.beam_positions(-6.5),
@@ -201,7 +201,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.graced_tuplet_figure_maker(
+    accumulator.graced_tuplet_music_maker(
         'Guitar Music Voice 4',
         accumulator.reveal(design[5:6], 9),
         baca.beam_positions(6),
@@ -213,7 +213,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.delicatissimo_figure_maker(
+    accumulator.delicatissimo_music_maker(
         'Guitar Music Voice 1',
         accumulator.reveal(cell_d1, 6),
         baca.beam_positions(-6.5),
@@ -223,7 +223,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.ovoid_figure_maker(
+    accumulator.ovoid_music_maker(
         'Guitar Music Voice 2',
         design[3:4],
         baca.text_script_color('red'),
@@ -233,7 +233,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.graced_tuplet_figure_maker(
+    accumulator.graced_tuplet_music_maker(
         'Guitar Music Voice 4',
         accumulator.repeat(design[5:6], n=2),
         baca.beam_positions(6),
@@ -244,7 +244,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.ovoid_figure_maker(
+    accumulator.ovoid_music_maker(
         'Guitar Music Voice 2',
         design[1:2],
         baca.beam_positions(-8),
@@ -255,7 +255,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.delicatissimo_figure_maker(
+    accumulator.delicatissimo_music_maker(
         'Guitar Music Voice 1',
         accumulator.reveal(cell_d1, 10),
         baca.beam_positions(-6.5),
@@ -266,7 +266,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.delicatissimo_figure_maker(
+    accumulator.delicatissimo_music_maker(
         'Guitar Music Voice 1',
         accumulator.reveal(cell_d1, -15),
         baca.beam_positions(-6.5),
@@ -281,7 +281,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.delicatissimo_figure_maker(
+    accumulator.delicatissimo_music_maker(
         'Guitar Music Voice 1',
         design[6:7],
         #baca.markup.boxed_specifier('Metric Modulation'),
@@ -293,7 +293,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.ovoid_figure_maker(
+    accumulator.ovoid_music_maker(
         'Guitar Music Voice 2',
         design[3:4],
         baca.text_script_color('red'),
@@ -304,7 +304,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.ovoid_figure_maker(
+    accumulator.ovoid_music_maker(
         'Guitar Music Voice 2',
         accumulator.merge(design[7:9]),
         baca.register(-14, -6),
@@ -313,7 +313,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.ovoid_figure_maker(
+    accumulator.ovoid_music_maker(
         'Guitar Music Voice 2',
         accumulator.merge(design[9:11]),
         baca.beam_positions(-8),
@@ -324,7 +324,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.ovoid_figure_maker(
+    accumulator.ovoid_music_maker(
         'Guitar Music Voice 2',
         accumulator.merge(design[11:13]),
         baca.register(-14, -6),
@@ -334,7 +334,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.ovoid_figure_maker(
+    accumulator.ovoid_music_maker(
         'Guitar Music Voice 2',
         accumulator.merge(design[13:15]),
         baca.register(-14, -6),
@@ -344,7 +344,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.ovoid_figure_maker(
+    accumulator.ovoid_music_maker(
         'Guitar Music Voice 2',
         accumulator.merge(design[15:17]),
         baca.register(-14, -6),
@@ -353,7 +353,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.ovoid_figure_maker(
+    accumulator.ovoid_music_maker(
         'Guitar Music Voice 2',
         accumulator.merge(design[17:19]),
         baca.beam_positions(-8),
@@ -364,7 +364,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.wave_64_figure_maker(
+    accumulator.wave_64_music_maker(
         'Guitar Music Voice 1',
         accumulator.boustrophedon(design[2:3], count=2, flatten=True),
         baca.beam_positions(7),
@@ -375,7 +375,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.delicatissimo_figure_maker(
+    accumulator.delicatissimo_music_maker(
         'Guitar Music Voice 1',
         design[6:7],
         baca.beam_positions(-6.5),
@@ -386,7 +386,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.ovoid_figure_maker(
+    accumulator.ovoid_music_maker(
         'Guitar Music Voice 2',
         accumulator.merge(design[19:21]),
         baca.register(-14, -6),
@@ -396,7 +396,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.ovoid_figure_maker(
+    accumulator.ovoid_music_maker(
         'Guitar Music Voice 2',
         design[21:22],
         baca.register(-14, -6),

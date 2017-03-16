@@ -8,14 +8,14 @@ import dornen
 ##################################### [M] #####################################
 ###############################################################################
 
-accumulator = dornen.tools.FigureAccumulator(dornen.tools.ScoreTemplate())
+accumulator = dornen.tools.MusicAccumulator(dornen.tools.ScoreTemplate())
 design = dornen.tools.make_design_2(start=14, stop=28)
 assert len(design) == 14
 
 ### 1 ###
 
 accumulator(
-    accumulator.forty_eighth_figure_maker(
+    accumulator.forty_eighth_music_maker(
         'Guitar Music Voice 1',
         design[:1],
         baca.markup.specifier(
@@ -26,7 +26,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.twentieth_figure_maker(
+    accumulator.twentieth_music_maker(
         'Guitar Music Voice 4',
         design[1:2],
         extend_beam=True,
@@ -34,14 +34,14 @@ accumulator(
     )
 
 accumulator(
-    accumulator.sixteenth_figure_maker(
+    accumulator.sixteenth_music_maker(
         'Guitar Music Voice 3',
         design[2:3],
         ),
     )
 
 accumulator(
-    accumulator.twentieth_figure_maker(
+    accumulator.twentieth_music_maker(
         'Guitar Music Voice 4',
         design[3:4],
         baca.beam_positions(6),
@@ -50,7 +50,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.thirty_second_figure_maker(
+    accumulator.thirty_second_music_maker(
         'Guitar Music Voice 2',
         design[4:5],
         baca.slur(),
@@ -58,14 +58,14 @@ accumulator(
     )
 
 accumulator(
-    accumulator.forty_eighth_figure_maker(
+    accumulator.forty_eighth_music_maker(
         'Guitar Music Voice 1',
         design[5:6],
         ),
     )
 
 accumulator(
-    accumulator.thirty_second_figure_maker(
+    accumulator.thirty_second_music_maker(
         'Guitar Music Voice 1',
         [['C4']],
         logical_tie_masks=abjad.silence_all(),
@@ -75,7 +75,7 @@ accumulator(
 ### 2 ###
 
 accumulator(
-    accumulator.forty_eighth_figure_maker(
+    accumulator.forty_eighth_music_maker(
         'Guitar Music Voice 1',
         design[:1],
         baca.markup.specifier('RH reaches for screw ...'),
@@ -84,7 +84,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.twentieth_figure_maker(
+    accumulator.twentieth_music_maker(
         'Guitar Music Voice 4',
         design[1:2],
         extend_beam=True,
@@ -92,14 +92,14 @@ accumulator(
     )
 
 accumulator(
-    accumulator.sixteenth_figure_maker(
+    accumulator.sixteenth_music_maker(
         'Guitar Music Voice 3',
         design[2:3],
         ),
     )
 
 accumulator(
-    accumulator.twentieth_figure_maker(
+    accumulator.twentieth_music_maker(
         'Guitar Music Voice 4',
         design[3:4],
         baca.beam_positions(6),
@@ -108,7 +108,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.thirty_second_figure_maker(
+    accumulator.thirty_second_music_maker(
         'Guitar Music Voice 2',
         design[4:5],
         baca.slur(),
@@ -116,14 +116,14 @@ accumulator(
     )
 
 accumulator(
-    accumulator.forty_eighth_figure_maker(
+    accumulator.forty_eighth_music_maker(
         'Guitar Music Voice 1',
         design[5:6],
         ),
     )
 
 accumulator(
-    accumulator.thirty_second_figure_maker(
+    accumulator.thirty_second_music_maker(
         'Guitar Music Voice 1',
         [['C4']],
         logical_tie_masks=abjad.silence_all(),
@@ -133,7 +133,7 @@ accumulator(
 ### 3 ###
 
 accumulator(
-    accumulator.forty_eighth_figure_maker(
+    accumulator.forty_eighth_music_maker(
         'Guitar Music Voice 1',
         design[:1],
         baca.markup.specifier('RH places screw on string ...'),
@@ -142,7 +142,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.twentieth_figure_maker(
+    accumulator.twentieth_music_maker(
         'Guitar Music Voice 4',
         design[1:2],
         extend_beam=True,
@@ -150,14 +150,14 @@ accumulator(
     )
 
 accumulator(
-    accumulator.sixteenth_figure_maker(
+    accumulator.sixteenth_music_maker(
         'Guitar Music Voice 3',
         design[2:3],
         ),
     )
 
 accumulator(
-    accumulator.twentieth_figure_maker(
+    accumulator.twentieth_music_maker(
         'Guitar Music Voice 4',
         design[3:4],
         baca.beam_positions(6),
@@ -166,7 +166,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.thirty_second_figure_maker(
+    accumulator.thirty_second_music_maker(
         'Guitar Music Voice 2',
         design[4:5],
         baca.slur(),
@@ -174,14 +174,14 @@ accumulator(
     )
 
 accumulator(
-    accumulator.forty_eighth_figure_maker(
+    accumulator.forty_eighth_music_maker(
         'Guitar Music Voice 1',
         design[5:6],
         ),
     )
 
 accumulator(
-    accumulator.thirty_second_figure_maker(
+    accumulator.thirty_second_music_maker(
         'Guitar Music Voice 1',
         [['C4']],
         logical_tie_masks=abjad.silence_all(),
@@ -191,7 +191,7 @@ accumulator(
 ### 4 ###
 
 accumulator(
-    accumulator.forty_eighth_figure_maker(
+    accumulator.forty_eighth_music_maker(
         'Guitar Music Voice 1',
         design[:1],
         extend_beam=True,
@@ -199,7 +199,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.twentieth_figure_maker(
+    accumulator.twentieth_music_maker(
         'Guitar Music Voice 4',
         design[1:2],
         extend_beam=True,
@@ -207,14 +207,14 @@ accumulator(
     )
 
 accumulator(
-    accumulator.sixteenth_figure_maker(
+    accumulator.sixteenth_music_maker(
         'Guitar Music Voice 3',
         design[2:3],
         ),
     )
 
 accumulator(
-    accumulator.twentieth_figure_maker(
+    accumulator.twentieth_music_maker(
         'Guitar Music Voice 4',
         design[3:4],
         baca.beam_positions(6),
@@ -223,7 +223,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.thirty_second_figure_maker(
+    accumulator.thirty_second_music_maker(
         'Guitar Music Voice 2',
         design[4:5],
         baca.slur(),
@@ -231,14 +231,14 @@ accumulator(
     )
 
 accumulator(
-    accumulator.forty_eighth_figure_maker(
+    accumulator.forty_eighth_music_maker(
         'Guitar Music Voice 1',
         design[5:6],
         ),
     )
 
 accumulator(
-    accumulator.thirty_second_figure_maker(
+    accumulator.thirty_second_music_maker(
         'Guitar Music Voice 1',
         [['C4']],
         logical_tie_masks=abjad.silence_all(),
@@ -248,7 +248,7 @@ accumulator(
 ### 5 ###
 
 accumulator(
-    accumulator.forty_eighth_figure_maker(
+    accumulator.forty_eighth_music_maker(
         'Guitar Music Voice 1',
         design[:1],
         extend_beam=True,
@@ -256,7 +256,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.twentieth_figure_maker(
+    accumulator.twentieth_music_maker(
         'Guitar Music Voice 4',
         design[1:2],
         extend_beam=True,
@@ -264,14 +264,14 @@ accumulator(
     )
 
 accumulator(
-    accumulator.sixteenth_figure_maker(
+    accumulator.sixteenth_music_maker(
         'Guitar Music Voice 3',
         design[2:3],
         ),
     )
 
 accumulator(
-    accumulator.twentieth_figure_maker(
+    accumulator.twentieth_music_maker(
         'Guitar Music Voice 4',
         design[3:4],
         baca.beam_positions(6),
@@ -280,7 +280,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.thirty_second_figure_maker(
+    accumulator.thirty_second_music_maker(
         'Guitar Music Voice 2',
         design[4:5],
         baca.slur(),
@@ -288,14 +288,14 @@ accumulator(
     )
 
 accumulator(
-    accumulator.forty_eighth_figure_maker(
+    accumulator.forty_eighth_music_maker(
         'Guitar Music Voice 1',
         design[5:6],
         ),
     )
 
 accumulator(
-    accumulator.thirty_second_figure_maker(
+    accumulator.thirty_second_music_maker(
         'Guitar Music Voice 1',
         [['C4']],
         logical_tie_masks=abjad.silence_all(),
@@ -305,14 +305,14 @@ accumulator(
 ### 6 ###
 
 accumulator(
-    accumulator.forty_eighth_figure_maker(
+    accumulator.forty_eighth_music_maker(
         'Guitar Music Voice 1',
         design[:1],
         ),
     )
 
 accumulator(
-    accumulator.twentieth_figure_maker(
+    accumulator.twentieth_music_maker(
         'Guitar Music Voice 4',
         design[1:2],
         extend_beam=True,
@@ -320,14 +320,14 @@ accumulator(
     )
 
 accumulator(
-    accumulator.sixteenth_figure_maker(
+    accumulator.sixteenth_music_maker(
         'Guitar Music Voice 3',
         design[2:3],
         ),
     )
 
 accumulator(
-    accumulator.twentieth_figure_maker(
+    accumulator.twentieth_music_maker(
         'Guitar Music Voice 4',
         design[3:4],
         baca.beam_positions(6),
@@ -336,7 +336,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.thirty_second_figure_maker(
+    accumulator.thirty_second_music_maker(
         'Guitar Music Voice 2',
         design[4:5],
         baca.slur(),
@@ -346,7 +346,7 @@ accumulator(
 ### rascado ###
 
 accumulator(
-    accumulator.rest_figure_maker(
+    accumulator.rest_music_maker(
         'Guitar Music Voice 1',
         [5 * ['C4']],
         logical_tie_masks=abjad.silence_all(),
@@ -354,7 +354,7 @@ accumulator(
     )
 
 accumulator(
-    accumulator.third_figure_maker(
+    accumulator.third_music_maker(
         'Guitar Music Voice 1',
         [13 * ['E2']],
         baca.markup.specifier(

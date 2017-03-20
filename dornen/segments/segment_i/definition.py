@@ -23,7 +23,6 @@ accumulator(
     accumulator.monad_music_maker(
         'Guitar Music Voice 1',
         2 * [['Gb2']],
-        baca.dynamic('ppp'),
         baca.markup.boxed_specifier('2-finger tamb. trill'),
         figure_name='2_1',
         ),
@@ -249,6 +248,7 @@ segment_maker.append_specifiers(
         baca.tools.SpannerSpecifier(spanner=abjad.Hairpin('ppp < pp')),
         with_next_leaf=True,
         )
+#    baca.hairpins(['ppp < pp'], selector=baca.select_leaves()),
     )
 
 segment_maker.append_specifiers(

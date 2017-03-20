@@ -240,7 +240,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf2 :32 \ppp \< \ppp
+                            gf2 :32 \< \ppp
                                 ^ \markup {
                                     \whiteout
                                         \override

@@ -378,8 +378,8 @@ def make_sixteenth_music_maker():
                 rhythmmakertools.BeamSpecifier(
                     beam_each_division=True,
                     ),
-                baca.tools.FigureRhythmSpecifier(
-                    rhythm_maker=baca.tools.FigureRhythmMaker(
+                baca.tools.MusicRhythmSpecifier(
+                    rhythm_maker=baca.tools.MusicRhythmMaker(
                         talea=rhythmmakertools.Talea(
                             counts=[1],
                             denominator=16,
@@ -396,8 +396,8 @@ def make_sixteenth_music_maker():
         abjad.rhythmmakertools.BeamSpecifier(
             beam_each_division=True,
             ),
-        baca.tools.FigureRhythmSpecifier(
-            rhythm_maker=baca.tools.FigureRhythmMaker(
+        baca.tools.MusicRhythmSpecifier(
+            rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],
                     denominator=16,

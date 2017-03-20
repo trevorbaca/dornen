@@ -4,7 +4,7 @@ import baca
 
 
 class MusicAccumulator(baca.tools.MusicAccumulator):
-    r'''Figure-accumulator.
+    r'''Music-accumulator.
 
     ::
 

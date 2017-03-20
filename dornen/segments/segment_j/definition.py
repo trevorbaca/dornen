@@ -287,70 +287,58 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select_stages(12)),
     baca.hairpins(['pp < p'], selector=baca.select_leaves(leak=Right)),
-    baca.wrap_leaves(
-        baca.transition_spanner(
-            baca.markup.trans(),
-            baca.markup.kn_rasg(),
-            ),
-        with_next_leaf=True,
+    baca.transition_spanner(
+        baca.markup.trans(),
+        baca.markup.kn_rasg(),
+        baca.select_leaves(leak=Right),
         ),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select_stages(14)),
     baca.hairpins(['p > pp'], selector=baca.select_leaves(leak=Right)),
-    baca.wrap_leaves(
-        baca.transition_spanner(
-            baca.markup.trans(),
-            baca.markup.tamb_tr(),
-            ),
-        with_next_leaf=True,
+    baca.transition_spanner(
+        baca.markup.trans(),
+        baca.markup.tamb_tr(),
+        baca.select_leaves(leak=Right),
         ),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select_stages(16)),
     baca.hairpins(['pp < mp'], selector=baca.select_leaves(leak=Right)),
-    baca.wrap_leaves(
-        baca.transition_spanner(
-            baca.markup.trans(),
-            baca.markup.kn_rasg(),
-            ),
-        with_next_leaf=True,
+    baca.transition_spanner(
+        baca.markup.trans(),
+        baca.markup.kn_rasg(),
+        baca.select_leaves(leak=Right),
         ),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select_stages(18)),
     baca.hairpins(['mp > pp'], selector=baca.select_leaves(leak=Right)),
-    baca.wrap_leaves(
-        baca.transition_spanner(
-            baca.markup.trans(),
-            baca.markup.tamb_tr(),
-            ),
-        with_next_leaf=True,
+    baca.transition_spanner(
+        baca.markup.trans(),
+        baca.markup.tamb_tr(),
+        baca.select_leaves(leak=Right),
         ),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select_stages(20)),
     baca.hairpins(['pp < mf'], selector=baca.select_leaves(leak=Right)),
-    baca.wrap_leaves(
-        baca.transition_spanner(
-            baca.markup.trans(),
-            baca.markup.kn_rasg(),
-            ),
-        with_next_leaf=True,
+    baca.transition_spanner(
+        baca.markup.trans(),
+        baca.markup.kn_rasg(),
+        baca.select_leaves(leak=Right),
         ),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select_stages(22, 25)),
     baca.hairpins(['mf > p'], selector=baca.select_leaves()),
-    baca.wrap_leaves(
-        baca.transition_spanner(
-            baca.markup.trans(),
-            baca.markup.tamb_tr(),
-            ),
+    baca.transition_spanner(
+        baca.markup.trans(),
+        baca.markup.tamb_tr(),
         ),
     )

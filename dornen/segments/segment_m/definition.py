@@ -357,17 +357,15 @@ accumulator(
     accumulator.third_music_maker(
         'Guitar Music Voice 1',
         [13 * ['E2']],
+        baca.dynamic('p'),
         baca.markup.specifier(
             'RASCADO: slowly draw extremely long metal screw over open string;'
             ' as close as possible to bridge; only one stroke.'
             ),
+        baca.messiaen_tie_each(),
         baca.proportional_notation_duration((1, 12)),
-        baca.stem_tremolo(),
         baca.register(-20),
-        baca.tools.DynamicSpecifier(dynamic='p'),
-        baca.tools.SpannerSpecifier(
-            spanner=abjad.Tie(use_messiaen_style_ties=True)
-            ),
+        baca.stem_tremolo(),
         ),
     )
 
@@ -415,9 +413,9 @@ accumulator.populate_segment_maker(segment_maker)
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select_stages(1, 41)),
-    baca.tenuti(),
     baca.beam_positions(10),
     baca.register(-12),
+    baca.tenuti(),
     )
 
 segment_maker.append_specifiers(
@@ -429,13 +427,13 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ('Guitar Music Voice 3', baca.select_stages(1, 41)),
     baca.accents(),
-    baca.scripts_down(),
     baca.register(-20),
+    baca.scripts_down(),
     )
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 4', baca.select_stages(1, 41)),
-    baca.staccati(),
     baca.beam_positions(5.5),
     baca.register(-4),
+    baca.staccati(),
     )

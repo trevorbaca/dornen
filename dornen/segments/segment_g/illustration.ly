@@ -381,6 +381,7 @@
                     \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
+                    \override Beam.positions = #'(8 . 8)
                     s1 * 11/32
                     {
                         \tweak text #tuplet-number::calc-fraction-text
@@ -388,7 +389,6 @@
                         \times 8/7 {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            \override Beam.positions = #'(8 . 8)
                             f'16 [
                             \acciaccatura {
                                 e'16
@@ -507,11 +507,11 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             fs''16 ]
-                            \revert Beam.positions
                         }
                     }
                     s1 * 3/8
                     \bar "|"
+                    \revert Beam.positions
                 }
             >>
         }

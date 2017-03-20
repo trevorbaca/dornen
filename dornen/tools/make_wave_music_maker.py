@@ -1085,14 +1085,14 @@ def make_wave_music_maker(denominator=64, inverted=False):
     '''
     assert abjad.mathtools.is_positive_integer_power_of_two(denominator)
     assert 16 <= denominator, repr(denominator)
-    accelerando_rhythm_maker = baca.tools.FigureRhythmMaker(
+    accelerando_rhythm_maker = baca.tools.MusicRhythmMaker(
         talea=abjad.rhythmmakertools.Talea(
             counts=[1],
             denominator=denominator,
             ),
         time_treatments=['accel'],
         )
-    ritardando_rhythm_maker = baca.tools.FigureRhythmMaker(
+    ritardando_rhythm_maker = baca.tools.MusicRhythmMaker(
         talea=abjad.rhythmmakertools.Talea(
             counts=[1],
             denominator=denominator,
@@ -1105,11 +1105,11 @@ def make_wave_music_maker(denominator=64, inverted=False):
         rhythm_maker_1 = ritardando_rhythm_maker
         rhythm_maker_2 = accelerando_rhythm_maker
     music_maker = baca.tools.MusicMaker(
-        baca.tools.FigureRhythmSpecifier(
+        baca.tools.MusicRhythmSpecifier(
             pattern=abjad.select_every([0], period=2),
             rhythm_maker=rhythm_maker_1,
             ),
-        baca.tools.FigureRhythmSpecifier(
+        baca.tools.MusicRhythmSpecifier(
             pattern=abjad.select_every([1], period=2),
             rhythm_maker=rhythm_maker_2,
             ),

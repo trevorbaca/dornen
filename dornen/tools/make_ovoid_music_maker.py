@@ -259,8 +259,8 @@ def make_ovoid_music_maker():
                     beam_each_division=True,
                     beam_divisions_together=True,
                     ),
-                baca.tools.FigureRhythmSpecifier(
-                    rhythm_maker=baca.tools.FigureRhythmMaker(
+                baca.tools.MusicRhythmSpecifier(
+                    rhythm_maker=baca.tools.MusicRhythmMaker(
                         acciaccatura_specifiers=[
                             baca.tools.AcciaccaturaSpecifier(
                                 lmr_specifier=baca.tools.LMRSpecifier(
@@ -283,8 +283,8 @@ def make_ovoid_music_maker():
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.tools.FigureRhythmSpecifier(
-            rhythm_maker=baca.tools.FigureRhythmMaker(
+        baca.tools.MusicRhythmSpecifier(
+            rhythm_maker=baca.tools.MusicRhythmMaker(
                 acciaccatura_specifiers=[
                     baca.tools.AcciaccaturaSpecifier(
                         lmr_specifier=baca.tools.LMRSpecifier(

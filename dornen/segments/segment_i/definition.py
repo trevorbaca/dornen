@@ -238,11 +238,9 @@ accumulator.populate_segment_maker(segment_maker)
 
 segment_maker.append_specifiers(
     ('Guitar Music Voice 1', baca.select_stages(1, Infinity)),
+    baca.messiaen_tie_each(),
     baca.register(-20),
     baca.stem_tremolo(),
-    baca.tools.SpannerSpecifier(
-        spanner=abjad.Tie(use_messiaen_style_ties=True)
-        ),
     )
 
 segment_maker.append_specifiers(

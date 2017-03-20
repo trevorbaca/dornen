@@ -257,8 +257,8 @@ def make_rest_music_maker(duration=None):
 
             >>> f(dornen.tools.make_rest_music_maker())
             baca.tools.MusicMaker(
-                baca.tools.FigureRhythmSpecifier(
-                    rhythm_maker=baca.tools.FigureRhythmMaker(
+                baca.tools.MusicRhythmSpecifier(
+                    rhythm_maker=baca.tools.MusicRhythmMaker(
                         logical_tie_masks=patterntools.PatternInventory(
                             (
                                 rhythmmakertools.SilenceMask(
@@ -283,8 +283,8 @@ def make_rest_music_maker(duration=None):
     '''
     duration = duration or abjad.Duration(1, 8)
     music_maker = baca.tools.MusicMaker(
-        baca.tools.FigureRhythmSpecifier(
-            rhythm_maker=baca.tools.FigureRhythmMaker(
+        baca.tools.MusicRhythmSpecifier(
+            rhythm_maker=baca.tools.MusicRhythmMaker(
                 logical_tie_masks=abjad.silence_all(),
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[duration.numerator],

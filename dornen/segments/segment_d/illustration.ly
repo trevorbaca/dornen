@@ -397,19 +397,19 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             cs'32. -\tenuto ]
-                            \revert Beam.positions
                         }
                     }
                     s1 * 29/80
                     \bar "|"
+                    \revert Beam.positions
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
+                    \override Beam.positions = #'(-5.5 . -5.5)
                     s1 * 73/160
                     {
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            \override Beam.positions = #'(-5.5 . -5.5)
                             e''32 [ (
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -454,10 +454,10 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             c'''32 ] )
-                            \revert Beam.positions
                         }
                     }
                     s1 * 49/160
+                    \revert Beam.positions
                     {
                         {
                             r8
@@ -486,12 +486,12 @@
                             \revert TupletNumber.extra-offset
                         }
                     }
+                    \override Beam.positions = #'(-5.5 . -5.5)
                     s1 * 3/20
                     {
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            \override Beam.positions = #'(-5.5 . -5.5)
                             bf''32 [ (
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -502,19 +502,19 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             b''32 ] )
-                            \revert Beam.positions
                         }
                     }
                     s1 * 73/160
                     \bar "|"
+                    \revert Beam.positions
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
+                    \override Script.direction = #down
                     s1 * 39/160
                     {
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            \override Script.direction = #down
                             c'16 -\accent [
                         }
                     }
@@ -556,20 +556,20 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             a16 -\accent ]
-                            \revert Script.direction
                         }
                     }
                     s1 * 3/20
                     \bar "|"
+                    \revert Script.direction
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
+                    \override Beam.positions = #'(5.5 . 5.5)
                     s1 * 3/32
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            \override Beam.positions = #'(5.5 . 5.5)
                             b'16 -\staccato [
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2

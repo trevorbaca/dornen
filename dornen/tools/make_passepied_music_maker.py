@@ -442,11 +442,11 @@ def make_passepied_music_maker():
                     beam_each_division=True,
                     beam_divisions_together=True,
                     ),
-                baca.tools.FigureRhythmSpecifier(
+                baca.tools.MusicRhythmSpecifier(
                     pattern=patterntools.Pattern(
                         indices=[0],
                         ),
-                    rhythm_maker=baca.tools.FigureRhythmMaker(
+                    rhythm_maker=baca.tools.MusicRhythmMaker(
                         acciaccatura_specifiers=[
                             baca.tools.AcciaccaturaSpecifier(),
                             ],
@@ -456,12 +456,12 @@ def make_passepied_music_maker():
                             ),
                         ),
                     ),
-                baca.tools.FigureRhythmSpecifier(
+                baca.tools.MusicRhythmSpecifier(
                     pattern=patterntools.Pattern(
                         indices=[0],
                         inverted=True,
                         ),
-                    rhythm_maker=baca.tools.FigureRhythmMaker(
+                    rhythm_maker=baca.tools.MusicRhythmMaker(
                         talea=rhythmmakertools.Talea(
                             counts=[1],
                             denominator=16,
@@ -477,9 +477,9 @@ def make_passepied_music_maker():
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.tools.FigureRhythmSpecifier(
+        baca.tools.MusicRhythmSpecifier(
             pattern=abjad.select_first(),
-            rhythm_maker=baca.tools.FigureRhythmMaker(
+            rhythm_maker=baca.tools.MusicRhythmMaker(
                 acciaccatura_specifiers=[
                     baca.tools.AcciaccaturaSpecifier(),
                     ],
@@ -489,9 +489,9 @@ def make_passepied_music_maker():
                     ),
                 )
             ),
-        baca.tools.FigureRhythmSpecifier(
+        baca.tools.MusicRhythmSpecifier(
             pattern=abjad.select_first(inverted=True),
-            rhythm_maker=baca.tools.FigureRhythmMaker(
+            rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],
                     denominator=16,

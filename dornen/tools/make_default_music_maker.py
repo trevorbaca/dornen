@@ -416,8 +416,8 @@ def make_default_music_maker():
                 beam_each_division=True,
                 beam_divisions_together=True,
                 ),
-            baca.tools.FigureRhythmSpecifier(
-                rhythm_maker=baca.tools.FigureRhythmMaker(
+            baca.tools.MusicRhythmSpecifier(
+                rhythm_maker=baca.tools.MusicRhythmMaker(
                     talea=rhythmmakertools.Talea(
                         counts=[1],
                         denominator=32,
@@ -448,8 +448,8 @@ def make_default_music_maker():
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
         ),
-        baca.tools.FigureRhythmSpecifier(
-            rhythm_maker=baca.tools.FigureRhythmMaker(
+        baca.tools.MusicRhythmSpecifier(
+            rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],
                     denominator=32,

@@ -430,6 +430,7 @@
                         }
                         \revert TupletNumber.text
                     }
+                    \override Beam.positions = #'(6 . 6)
                     s1 * 5/32
                     {
                         \override TupletNumber.text = \markup {
@@ -464,7 +465,6 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
-                            \override Beam.positions = #'(6 . 6)
                             ef'32 * 512/1024 [
                             fs32 * 1088/1024
                             a32 * 1472/1024 ]
@@ -588,11 +588,11 @@
                             af''32 * 896/1024
                             d''32 * 1248/1024
                             cs'''32 * 1536/1024 ]
-                            \revert Beam.positions
                         }
                         \revert TupletNumber.text
                     }
                     s1 * 1/8
+                    \revert Beam.positions
                     {
                         \override TupletNumber.text = \markup {
                             \scale

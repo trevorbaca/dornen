@@ -424,8 +424,8 @@ def make_tremolo_music_maker():
 
             >>> f(dornen.tools.make_tremolo_music_maker())
             baca.tools.MusicMaker(
-                baca.tools.FigureRhythmSpecifier(
-                    rhythm_maker=baca.tools.FigureRhythmMaker(
+                baca.tools.MusicRhythmSpecifier(
+                    rhythm_maker=baca.tools.MusicRhythmMaker(
                         talea=rhythmmakertools.Talea(
                             counts=[1],
                             denominator=8,
@@ -461,8 +461,8 @@ def make_tremolo_music_maker():
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(
-        baca.tools.FigureRhythmSpecifier(
-            rhythm_maker=baca.tools.FigureRhythmMaker(
+        baca.tools.MusicRhythmSpecifier(
+            rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],
                     denominator=8,

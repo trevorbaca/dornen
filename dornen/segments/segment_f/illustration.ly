@@ -365,14 +365,14 @@
                     }
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \override Beam.positions = #'(-7 . -7)
                     s1 * 3/20
                     {
                         {
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             \override TextScript.direction = #down
-                            \override Beam.positions = #'(-7 . -7)
                             ef'16 [
                                 _ \markup {
                                     \whiteout
@@ -468,19 +468,19 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             a16 ]
-                            \revert Beam.positions
                         }
                     }
                     s1 * 1/8
                     \bar "|"
+                    \revert Beam.positions
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
+                    \override Beam.positions = #'(4 . 4)
                     s1 * 17/80
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/7 {
                             \override Stem.direction = #up
-                            \override Beam.positions = #'(4 . 4)
                             d'16 -\staccato [
                             f'16 -\staccato
                             af'16 -\staccato ]
@@ -520,11 +520,11 @@
                             cs''16 -\staccato
                             b'16 -\staccato ]
                             \revert Stem.direction
-                            \revert Beam.positions
                         }
                     }
                     s1 * 1/6
                     \bar "|"
+                    \revert Beam.positions
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
                     s1 * 3/20

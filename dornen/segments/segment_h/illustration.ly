@@ -299,10 +299,10 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             af16 ]
-                            \revert Beam.positions
                         }
                     }
                     s1 * 11/8
+                    \revert Beam.positions
                     {
                         {
                             \set stemLeftBeamCount = #0
@@ -418,11 +418,11 @@
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #0
                             a''64 ] )
-                            \revert Beam.positions
                         }
                     }
                     s1 * 1/10
                     \bar "|"
+                    \revert Beam.positions
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
                     s1 * 83/32
@@ -566,6 +566,7 @@
                     }
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
+                    \override Beam.positions = #'(-4 . -4)
                     s1 * 3/8
                     {
                         \override TupletNumber.text = \markup {
@@ -600,7 +601,6 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
-                            \override Beam.positions = #'(-4 . -4)
                             a''32 * 1984/1024 [
                             ef''32 * 1088/1024
                             d''32 * 896/1024
@@ -726,12 +726,12 @@
                             af''32 * 672/1024
                             fs''32 * 672/1024
                             g''32 * 640/1024 ]
-                            \revert Beam.positions
                         }
                         \revert TupletNumber.text
                     }
                     s1 * 4579/2240
                     \bar "|"
+                    \revert Beam.positions
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
                     s1 * 3/16

@@ -1297,12 +1297,12 @@
                     \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
+                    \override Script.direction = #down
                     s1 * 3/32
                     {
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            \override Script.direction = #down
                             f16 -\accent [
                         }
                     }
@@ -1312,18 +1312,18 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             a16 -\accent ]
-                            \revert Script.direction
                         }
                     }
                     s1 * 1693/320
                     \bar "|"
+                    \revert Script.direction
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
+                    \override Beam.positions = #'(5.5 . 5.5)
                     s1 * 11/32
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            \override Beam.positions = #'(5.5 . 5.5)
                             g''16 -\staccato [
                             af'16 -\staccato
                             d''16 -\staccato ]

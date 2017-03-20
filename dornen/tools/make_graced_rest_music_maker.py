@@ -401,8 +401,8 @@ def make_graced_rest_music_maker():
 
             >>> f(dornen.tools.make_graced_rest_music_maker())
             baca.tools.MusicMaker(
-                baca.tools.FigureRhythmSpecifier(
-                    rhythm_maker=baca.tools.FigureRhythmMaker(
+                baca.tools.MusicRhythmSpecifier(
+                    rhythm_maker=baca.tools.MusicRhythmMaker(
                         acciaccatura_specifiers=[
                             baca.tools.AcciaccaturaSpecifier(),
                             ],
@@ -418,8 +418,8 @@ def make_graced_rest_music_maker():
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(
-        baca.tools.FigureRhythmSpecifier(
-            rhythm_maker=baca.tools.FigureRhythmMaker(
+        baca.tools.MusicRhythmSpecifier(
+            rhythm_maker=baca.tools.MusicRhythmMaker(
                 acciaccatura_specifiers=[
                     baca.tools.AcciaccaturaSpecifier(),
                     ],

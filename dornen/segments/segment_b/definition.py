@@ -270,11 +270,9 @@ accumulator(
         'Guitar Music Voice 1',
         accumulator.reveal(cell_d1, -15),
         baca.beam_positions(-6.5),
+        baca.nest([abjad.Multiplier((2, 3))]),
         baca.stems_down(),
         baca.tuplet_brackets_up(),
-        baca.tools.NestingSpecifier(
-            time_treatments=[abjad.Multiplier((2, 3))],
-            ),
         #extend_beam=True,
         figure_name='D1_7',
         ),

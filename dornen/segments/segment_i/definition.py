@@ -23,8 +23,8 @@ accumulator(
     accumulator.monad_music_maker(
         'Guitar Music Voice 1',
         2 * [['Gb2']],
+        baca.dynamic('ppp'),
         baca.markup.boxed_specifier('2-finger tamb. trill'),
-        baca.tools.DynamicSpecifier(dynamic='ppp'),
         figure_name='2_1',
         ),
     )

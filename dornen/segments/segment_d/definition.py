@@ -241,15 +241,13 @@ accumulator(
         'Guitar Music Voice 2',
         [['Gb2']],
         baca.markup.boxed_specifier('2-finger tamb. trill'),
+        baca.messiaen_tie_each(),
         baca.stem_tremolo(),
         baca.stems_up(),
         baca.tuplet_bracket_staff_padding(0),
         baca.tuplet_bracket_extra_offset((0, -0.5)),
         baca.tuplet_number_extra_offset((0, -0.5)),
         baca.register(-20),
-        baca.tools.SpannerSpecifier(
-            spanner=abjad.Tie(use_messiaen_style_ties=True)
-            ),
         figure_name='2_1',
         ),
     )

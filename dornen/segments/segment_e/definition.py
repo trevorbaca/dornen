@@ -175,15 +175,17 @@ accumulator.populate_segment_maker(segment_maker)
 ############################# CROSS-STAGE COMMANDS ############################
 ###############################################################################
 
-segment_maker.append_specifiers(
-    ('Guitar Music Voice 3', baca.select_stages(1, 7)),
+segment_maker.append_commands(
+    'Guitar Music Voice 3',
+    baca.select_stages(1, 7),
     baca.accents(),
     baca.scripts_down(),
     baca.register(-20),
     )
 
-segment_maker.append_specifiers(
-    ('Guitar Music Voice 4', baca.select_stages(1, 7)),
+segment_maker.append_commands(
+    'Guitar Music Voice 4',
+    baca.select_stages(1, 7),
     baca.staccati(),
     baca.beam_positions(5.5),
     baca.register(-4),
@@ -196,7 +198,8 @@ all_voices = [
     'Guitar Music Voice 4',
     ]
 
-segment_maker.append_specifiers(
-    (all_voices, baca.select_stages(1, 9)),
+segment_maker.append_commands(
+    all_voices,
+    baca.select_stages(1, 9),
     dornen.tools.QuartertoneManager(),
     )

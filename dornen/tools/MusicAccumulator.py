@@ -47,11 +47,18 @@ class MusicAccumulator(baca.tools.MusicAccumulator):
                             c'32 -\staccato [
                                 ^ \markup {
                                     \fontsize
-                                        #3
+                                        #2
                                         \concat
                                             {
                                                 [
                                                 D
+                                                \hspace
+                                                    #1
+                                                \raise
+                                                    #0.25
+                                                    \fontsize
+                                                        #-2
+                                                        (0)
                                                 ]
                                             }
                                     }
@@ -172,6 +179,7 @@ class MusicAccumulator(baca.tools.MusicAccumulator):
         *specifiers,
         allow_repeat_pitches=None,
         color_unregistered_pitches=None,
+        counts=None,
         division_masks=None,
         exhaustive=None,
         extend_beam=None,
@@ -184,7 +192,6 @@ class MusicAccumulator(baca.tools.MusicAccumulator):
         logical_tie_masks=None,
         denominator=None,
         state_manifest=None,
-        talea_counts=None,
         talea_denominator=None,
         thread=None,
         time_treatments=None,
@@ -194,6 +201,7 @@ class MusicAccumulator(baca.tools.MusicAccumulator):
         keywords = {
             'allow_repeat_pitches': allow_repeat_pitches,
             'color_unregistered_pitches': color_unregistered_pitches,
+            'counts': counts,
             'division_masks': division_masks,
             'exhaustive': exhaustive,
             'extend_beam': extend_beam,
@@ -206,7 +214,6 @@ class MusicAccumulator(baca.tools.MusicAccumulator):
             'logical_tie_masks': logical_tie_masks,
             'denominator': denominator,
             'state_manifest': state_manifest,
-            'talea_counts': talea_counts,
             'talea_denominator': talea_denominator,
             'thread': thread,
             'time_treatments': time_treatments,

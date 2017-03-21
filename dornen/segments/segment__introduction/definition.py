@@ -14,195 +14,176 @@ assert len(design) == 22
 design = baca.tools.Cursor(source=design)
 
 accumulator(
-    accumulator.anchor_music_maker(
-        'Guitar Music Voice 1',
-        design.next(),
-        baca.beam_positions(6),
-        baca.register(-8),
-        extend_beam=True,
-        figure_name=1,
-        ),
+    'Guitar Music Voice 1',
+    design.next(),
+    accumulator.anchor_music_maker,
+    baca.beam_positions(6),
+    baca.register(-8),
+    extend_beam=True,
+    figure_name=1,
     )
 
 accumulator(
-    accumulator.passepied_music_maker(
-        'Guitar Music Voice 2',
-        design.next(),
-        baca.beam_positions(-10),
-        baca.time_signature_extra_offset((-2.5, 0)),
-        baca.register(-10),
-        extend_beam=True,
-        figure_name=2,
-        ),
+    'Guitar Music Voice 2',
+    design.next(),
+    accumulator.passepied_music_maker,
+    baca.beam_positions(-10),
+    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.register(-10),
+    extend_beam=True,
+    figure_name=2,
     )
 
 accumulator(
-    accumulator.anchor_music_maker(
-        'Guitar Music Voice 1',
-        design.next(),
-        baca.register(-10),
-        extend_beam=True,
-        figure_name=3,
-        ),
+    'Guitar Music Voice 1',
+    design.next(),
+    accumulator.anchor_music_maker,
+    baca.register(-10),
+    extend_beam=True,
+    figure_name=3,
     )
 
 accumulator(
-    accumulator.passepied_music_maker(
-        'Guitar Music Voice 2',
-        design.next(),
-        baca.time_signature_extra_offset((-2.5, 0)),
-        baca.register(-8),
-        extend_beam=True,
-        figure_name=4,
-        ),
+    'Guitar Music Voice 2',
+    design.next(),
+    accumulator.passepied_music_maker,
+    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.register(-8),
+    extend_beam=True,
+    figure_name=4,
     )
 
 accumulator(
-    accumulator.anchor_music_maker(
-        'Guitar Music Voice 1',
-        design.next(),
-        baca.register(-12),
-        figure_name=5,
-        ),
+    'Guitar Music Voice 1',
+    design.next(),
+    accumulator.anchor_music_maker,
+    baca.register(-12),
+    figure_name=5,
     )
 
 accumulator(
-    accumulator.passepied_music_maker(
-        'Guitar Music Voice 2',
-        design.next(),
-        baca.time_signature_extra_offset((-2.5, 0)),
-        baca.register(-6),
-        figure_name=6,
-        ),
+    'Guitar Music Voice 2',
+    design.next(),
+    accumulator.passepied_music_maker,
+    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.register(-6),
+    figure_name=6,
     )
 
 accumulator(
-    accumulator.anchor_music_maker(
-        'Guitar Music Voice 1',
-        design.next(),
-        baca.beam_positions(9),
-        baca.register(-14),
-        extend_beam=True,
-        figure_name=7,
-        ),
+    'Guitar Music Voice 1',
+    design.next(),
+    accumulator.anchor_music_maker,
+    baca.beam_positions(9),
+    baca.register(-14),
+    extend_beam=True,
+    figure_name=7,
     )
 
 accumulator(
-    accumulator.passepied_music_maker(
-        'Guitar Music Voice 2',
-        design.next(),
-        baca.beam_positions(-10),
-        baca.time_signature_extra_offset((-2.5, 0)),
-        baca.register(-4),
-        extend_beam=True,
-        figure_name=8,
-        ),
+    'Guitar Music Voice 2',
+    design.next(),
+    accumulator.passepied_music_maker,
+    baca.beam_positions(-10),
+    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.register(-4),
+    extend_beam=True,
+    figure_name=8,
     )
 
 accumulator(
-    accumulator.running_music_maker(
-        'Guitar Music Voice 4',
-        design.next(2),
-        baca.register(-12),
-        figure_name=9,
-        ),
+    'Guitar Music Voice 4',
+    design.next(2),
+    accumulator.running_music_maker,
+    baca.register(-12),
+    figure_name=9,
     )
 
 accumulator(
-    accumulator.anchor_music_maker(
-        'Guitar Music Voice 1',
-        design.next(),
-        baca.register(-16),
-        figure_name=10,
-        ),
+    'Guitar Music Voice 1',
+    design.next(),
+    accumulator.anchor_music_maker,
+    baca.register(-16),
+    figure_name=10,
     )
 
 accumulator(
-    accumulator.running_music_maker(
-        'Guitar Music Voice 4',
-        design.next(2),
-        baca.register(-6),
-        figure_name=11,
-        ),
+    'Guitar Music Voice 4',
+    design.next(2),
+    accumulator.running_music_maker,
+    baca.register(-6),
+    figure_name=11,
     )
 
 accumulator(
-    accumulator.anchor_music_maker(
-        'Guitar Music Voice 1',
-        design.next(),
-        baca.beam_positions(6),
-        baca.register(-18),
-        extend_beam=True,
-        figure_name=12,
-        ),
+    'Guitar Music Voice 1',
+    design.next(),
+    accumulator.anchor_music_maker,
+    baca.beam_positions(6),
+    baca.register(-18),
+    extend_beam=True,
+    figure_name=12,
     )
 
 accumulator(
-    accumulator.passepied_music_maker(
-        'Guitar Music Voice 2',
-        design.next(),
-        baca.time_signature_extra_offset((-2.5, 0)),
-        baca.register(-2),
-        figure_name=13,
-        ),
+    'Guitar Music Voice 2',
+    design.next(),
+    accumulator.passepied_music_maker,
+    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.register(-2),
+    figure_name=13,
     )
 
 accumulator(
-    accumulator.anchor_music_maker(
-        'Guitar Music Voice 1',
-        design.next(),
-        baca.register(-20),
-        figure_name=14,
-        ),
+    'Guitar Music Voice 1',
+    design.next(),
+    accumulator.anchor_music_maker,
+    baca.register(-20),
+    figure_name=14,
     )
 
 accumulator(
-    accumulator.passepied_music_maker(
-        'Guitar Music Voice 2',
-        design.next(),
-        baca.beam_positions(-10),
-        baca.time_signature_extra_offset((-2.5, 0)),
-        baca.register(0),
-        extend_beam=True,
-        figure_name=15,
-        ),
+    'Guitar Music Voice 2',
+    design.next(),
+    accumulator.passepied_music_maker,
+    baca.beam_positions(-10),
+    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.register(0),
+    extend_beam=True,
+    figure_name=15,
     )
 
 accumulator(
-    accumulator.passepied_music_maker(
-        'Guitar Music Voice 2',
-        design.next(),
-        baca.time_signature_extra_offset((-2.5, 0)),
-        baca.register(2),
-        figure_name=16,
-        ),
+    'Guitar Music Voice 2',
+    design.next(),
+    accumulator.passepied_music_maker,
+    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.register(2),
+    figure_name=16,
     )
 
 accumulator(
-    accumulator.running_music_maker(
-        'Guitar Music Voice 4',
-        design.next(2),
-        baca.register(-12, 0),
-        figure_name=17,
-        ),
+    'Guitar Music Voice 4',
+    design.next(2),
+    accumulator.running_music_maker,
+    baca.register(-12, 0),
+    figure_name=17,
     )
 
 accumulator(
-    accumulator.inverted_wave_64_music_maker(
-        'Guitar Music Voice 3',
-        design.next(),
-        baca.beam_positions(-6),
-        figure_name=18,
-        ),
+    'Guitar Music Voice 3',
+    design.next(),
+    accumulator.inverted_wave_64_music_maker,
+    baca.beam_positions(-6),
+    figure_name=18,
     )
 
 accumulator(
-    accumulator.inverted_wave_64_music_maker(
-        'Guitar Music Voice 3',
-        design.next(),
-        baca.beam_positions(-6),
-        figure_name=19,
-        ),
+    'Guitar Music Voice 3',
+    design.next(),
+    accumulator.inverted_wave_64_music_maker,
+    baca.beam_positions(-6),
+    figure_name=19,
     )
 
 ###############################################################################

@@ -419,8 +419,35 @@ def make_delicatissimo_music_maker():
                 beam_each_division=True,
                 beam_divisions_together=True,
                 ),
-            baca.tools.ArticulationSpecifier(
-                articulations=['.'],
+            baca.tools.AttachCommand(
+                arguments=[
+                    indicatortools.Articulation('staccato'),
+                    ],
+                selector=selectortools.Selector(
+                    callbacks=(
+                        selectortools.LogicalTieSelectorCallback(
+                            flatten=False,
+                            pitched=True,
+                            trivial=True,
+                            ),
+                        selectortools.SliceSelectorCallback(
+                            apply_to_each=True,
+                            ),
+                        selectortools.FlattenSelectorCallback(
+                            depth=1,
+                            ),
+                        selectortools.SliceSelectorCallback(
+                            apply_to_each=False,
+                            ),
+                        selectortools.ItemSelectorCallback(
+                            item=0,
+                            apply_to_each=True,
+                            ),
+                        selectortools.WrapSelectionCallback(
+                            apply_to_each=False,
+                            ),
+                        ),
+                    ),
                 ),
             baca.tools.MusicRhythmSpecifier(
                 rhythm_maker=baca.tools.MusicRhythmMaker(
@@ -440,9 +467,7 @@ def make_delicatissimo_music_maker():
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.tools.ArticulationSpecifier(
-            articulations=['.'],
-            ),
+        baca.staccati(),
         baca.tools.MusicRhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(

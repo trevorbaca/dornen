@@ -188,6 +188,36 @@ def make_sixty_fourth_music_maker():
                     beam_each_division=True,
                     beam_divisions_together=True,
                     ),
+                baca.tools.AttachCommand(
+                    arguments=[
+                        indicatortools.Articulation('staccato'),
+                        ],
+                    selector=selectortools.Selector(
+                        callbacks=(
+                            selectortools.LogicalTieSelectorCallback(
+                                flatten=False,
+                                pitched=True,
+                                trivial=True,
+                                ),
+                            selectortools.SliceSelectorCallback(
+                                apply_to_each=True,
+                                ),
+                            selectortools.FlattenSelectorCallback(
+                                depth=1,
+                                ),
+                            selectortools.SliceSelectorCallback(
+                                apply_to_each=False,
+                                ),
+                            selectortools.ItemSelectorCallback(
+                                item=0,
+                                apply_to_each=True,
+                                ),
+                            selectortools.WrapSelectionCallback(
+                                apply_to_each=False,
+                                ),
+                            ),
+                        ),
+                    ),
                 baca.tools.MusicRhythmSpecifier(
                     rhythm_maker=baca.tools.MusicRhythmMaker(
                         talea=rhythmmakertools.Talea(
@@ -195,9 +225,6 @@ def make_sixty_fourth_music_maker():
                             denominator=64,
                             ),
                         ),
-                    ),
-                baca.tools.ArticulationSpecifier(
-                    articulations=['.'],
                     ),
                 color_unregistered_pitches=True,
                 denominator=64,
@@ -209,6 +236,7 @@ def make_sixty_fourth_music_maker():
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
+        baca.staccati(),
         baca.tools.MusicRhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
@@ -217,9 +245,6 @@ def make_sixty_fourth_music_maker():
                     ),
 
                 ),
-            ),
-        baca.tools.ArticulationSpecifier(
-            articulations=['.'],
             ),
         color_unregistered_pitches=True,
         denominator=64,

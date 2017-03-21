@@ -254,7 +254,7 @@ segment_maker.validate_measures_per_stage()
 accumulator.populate_segment_maker(segment_maker)
 
 ###############################################################################
-############################ CROSS-STAGE SPECIFIERS ###########################
+############################# CROSS-STAGE COMMANDS ############################
 ###############################################################################
 
 segment_maker.append_specifiers(

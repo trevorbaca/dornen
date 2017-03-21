@@ -59,7 +59,7 @@ def make_rest_music_maker(duration=None):
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     time_signatures=time_signatures,
             ...     )
-            >>> specifiers = segment_maker.append_specifiers(
+            >>> specifiers = segment_maker.append_commands(
             ...     ('vn', baca.select_stages(1)),
             ...     baca.tools.RhythmSpecifier(
             ...         rhythm_maker=figures,
@@ -176,7 +176,7 @@ def make_rest_music_maker(duration=None):
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     time_signatures=time_signatures,
             ...     )
-            >>> specifiers = segment_maker.append_specifiers(
+            >>> specifiers = segment_maker.append_commands(
             ...     ('vn', baca.select_stages(1)),
             ...     baca.tools.RhythmSpecifier(
             ...         rhythm_maker=figures,

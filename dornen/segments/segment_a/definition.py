@@ -14,155 +14,140 @@ design = design_2[:14]
 assert len(design) == 14
 
 accumulator(
-    accumulator.inverted_wave_64_music_maker(
-        'Guitar Music Voice 1',
-        design[:4],
-        baca.beam_positions(8),
-        baca.register(0, -14),
-        denominator=16,
-        figure_name='W1',
-        ),
+    'Guitar Music Voice 1',
+    design[:4],
+    accumulator.inverted_wave_64_music_maker,
+    baca.beam_positions(8),
+    baca.register(0, -14),
+    denominator=16,
+    figure_name='W1',
     )
 
 accumulator(
-    accumulator.twentieth_music_maker(
-        'Guitar Music Voice 2',
-        accumulator.reveal(design[4:5], 1),
-        baca.beam_positions(-8),
-        baca.proportional_notation_duration((1, 40)),
-        baca.register(6),
-        extend_beam=True,
-        figure_name='F1_1',
-        ),
+    'Guitar Music Voice 2',
+    accumulator.reveal(design[4:5], 1),
+    accumulator.twentieth_music_maker,
+    baca.beam_positions(-8),
+    baca.proportional_notation_duration((1, 40)),
+    baca.register(6),
+    extend_beam=True,
+    figure_name='F1_1',
     )
 
 accumulator(
-    accumulator.running_music_maker(
-        'Guitar Music Voice 1',
-        design[5:8],
-        baca.register(-14, 0),
-        extend_beam=True,
-        figure_name='R1',
-        ),
+    'Guitar Music Voice 1',
+    design[5:8],
+    accumulator.running_music_maker,
+    baca.register(-14, 0),
+    extend_beam=True,
+    figure_name='R1',
     )
 
 accumulator(
-    accumulator.twentieth_music_maker(
-        'Guitar Music Voice 2',
-        accumulator.reveal(design[4:5], 2),
-        baca.register(6),
-        extend_beam=True,
-        figure_name='F1_2',
-        ),
+    'Guitar Music Voice 2',
+    accumulator.reveal(design[4:5], 2),
+    accumulator.twentieth_music_maker,
+    baca.register(6),
+    extend_beam=True,
+    figure_name='F1_2',
     )
 
 accumulator(
-    accumulator.running_music_maker(
-        'Guitar Music Voice 1',
-        design[6:9],
-        baca.register(-14, 0),
-        extend_beam=True,
-        figure_name='R2',
-        ),
+    'Guitar Music Voice 1',
+    design[6:9],
+    accumulator.running_music_maker,
+    baca.register(-14, 0),
+    extend_beam=True,
+    figure_name='R2',
     )
 
 accumulator(
-    accumulator.twentieth_music_maker(
-        'Guitar Music Voice 2',
-        accumulator.reveal(design[4:5], 3),
-        baca.register(6),
-        extend_beam=True,
-        figure_name='F1_3',
-        ),
+    'Guitar Music Voice 2',
+    accumulator.reveal(design[4:5], 3),
+    accumulator.twentieth_music_maker,
+    baca.register(6),
+    extend_beam=True,
+    figure_name='F1_3',
     )
 
 accumulator(
-    accumulator.running_music_maker(
-        'Guitar Music Voice 1',
-        design[7:10],
-        baca.register(-14, 0),
-        extend_beam=True,
-        figure_name='R3',
-        ),
+    'Guitar Music Voice 1',
+    design[7:10],
+    accumulator.running_music_maker,
+    baca.register(-14, 0),
+    extend_beam=True,
+    figure_name='R3',
     )
 
 accumulator(
-    accumulator.twentieth_music_maker(
-        'Guitar Music Voice 2',
-        accumulator.reveal(design[4:5], 4),
-        baca.register(6),
-        extend_beam=True,
-        figure_name='F1_4',
-        ),
+    'Guitar Music Voice 2',
+    accumulator.reveal(design[4:5], 4),
+    accumulator.twentieth_music_maker,
+    baca.register(6),
+    extend_beam=True,
+    figure_name='F1_4',
     )
 
 accumulator(
-    accumulator.running_music_maker(
-        'Guitar Music Voice 1',
-        design[8:11],
-        baca.register(-14, 0),
-        extend_beam=True,
-        figure_name='R4',
-        ),
+    'Guitar Music Voice 1',
+    design[8:11],
+    accumulator.running_music_maker,
+    baca.register(-14, 0),
+    extend_beam=True,
+    figure_name='R4',
     )
 
 accumulator(
-    accumulator.twentieth_music_maker(
-        'Guitar Music Voice 2',
-        accumulator.reveal(design[4:5], 5),
-        baca.register(6),
-        figure_name='F1',
-        ),
+    'Guitar Music Voice 2',
+    accumulator.reveal(design[4:5], 5),
+    accumulator.twentieth_music_maker,
+    baca.register(6),
+    figure_name='F1',
     )
 
 accumulator(
-    accumulator.running_music_maker(
-        'Guitar Music Voice 1',
-        design[9:13],
-        baca.register(-14, 6),
-        figure_name='R5',
-        ),
+    'Guitar Music Voice 1',
+    design[9:13],
+    accumulator.running_music_maker,
+    baca.register(-14, 6),
+    figure_name='R5',
     )
 
 accumulator(
-    accumulator.twentieth_music_maker(
-        'Guitar Music Voice 2',
-        accumulator.reveal(design[4:5], 1),
-        baca.proportional_notation_duration((1, 40)),
-        baca.register(6),
-        extend_beam=True,
-        figure_name='F1_1*',
-        ),
+    'Guitar Music Voice 2',
+    accumulator.reveal(design[4:5], 1),
+    accumulator.twentieth_music_maker,
+    baca.proportional_notation_duration((1, 40)),
+    baca.register(6),
+    extend_beam=True,
+    figure_name='F1_1*',
     )
 
 accumulator(
-    accumulator.delicatissimo_music_maker(
-        'Guitar Music Voice 1',
-        design[13:],
-        baca.text_script_staff_padding(9),
-        baca.register(6, -20),
-        extend_beam=True,
-        figure_name='D1',
-        ),
+    'Guitar Music Voice 1',
+    design[13:],
+    accumulator.delicatissimo_music_maker,
+    baca.text_script_staff_padding(9),
+    baca.register(6, -20),
+    extend_beam=True,
+    figure_name='D1',
     )
 
 accumulator(
-    accumulator.twentieth_music_maker(
-        'Guitar Music Voice 2',
-        accumulator.reveal(design[4:5], 2),
-        baca.register(6),
-        figure_name='F1_2*',
-        ),
+    'Guitar Music Voice 2',
+    accumulator.reveal(design[4:5], 2),
+    accumulator.twentieth_music_maker,
+    baca.register(6),
+    figure_name='F1_2*',
     )
 
 accumulator(
-    accumulator.delicatissimo_music_maker(
-        'Guitar Music Voice 1',
-        design[13:],
-        baca.register(-20, 6),
-        extend_beam=True,
-        figure_name='D2',
-        ),
+    'Guitar Music Voice 1',
+    design[13:],
+    accumulator.delicatissimo_music_maker,
+    baca.register(-20, 6),
+    extend_beam=True,
+    figure_name='D2',
     )
 
 ###############################################################################

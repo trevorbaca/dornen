@@ -11,376 +11,330 @@ import dornen
 accumulator = dornen.tools.MusicAccumulator(dornen.tools.ScoreTemplate())
 
 accumulator(
-    accumulator.monad_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='2_1',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.monad_music_maker,
+    figure_name='2_1',
     )
 
 accumulator(
-    accumulator.monad_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='2_2',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.monad_music_maker,
+    figure_name='2_2',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='2_3',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.third_music_maker,
+    figure_name='2_3',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='2_4',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.third_music_maker,
+    figure_name='2_4',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='2_5',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.third_music_maker,
+    figure_name='2_5',
     )
 
 ###
 
 accumulator(
-    accumulator.monad_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        baca.markup.boxed_specifier('3 fingers'),
-        figure_name='3_1',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.monad_music_maker,
+    baca.markup.boxed_specifier('3 fingers'),
+    figure_name='3_1',
     )
 
 accumulator(
-    accumulator.monad_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='3_2',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.monad_music_maker,
+    figure_name='3_2',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='3_3',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.third_music_maker,
+    figure_name='3_3',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='3_4',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.third_music_maker,
+    figure_name='3_4',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='3_5',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.third_music_maker,
+    figure_name='3_5',
     )
 
 accumulator(
-    accumulator.monad_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        baca.markup.boxed_specifier('4 fingers'),
-        figure_name='4_1',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.monad_music_maker,
+    baca.markup.boxed_specifier('4 fingers'),
+    figure_name='4_1',
     )
 
 accumulator(
-    accumulator.monad_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='4_2',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.monad_music_maker,
+    figure_name='4_2',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='4_3',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_3',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='4_4',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_4',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='4_5',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_5',
     )
 
 accumulator(
-    accumulator.monad_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='4_6',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.monad_music_maker,
+    figure_name='4_6',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [2 * ['E2']],
-        figure_name='4_7',
-        ),
+    'Guitar Music Voice 1',
+    [2 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_7',
     )
 
 accumulator(
-    accumulator.monad_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='4_8',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.monad_music_maker,
+    figure_name='4_8',
     )
 
 accumulator(
-    accumulator.monad_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='4_9',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.monad_music_maker,
+    figure_name='4_9',
     )
 
 accumulator(
-    accumulator.monad_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='4_10',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.monad_music_maker,
+    figure_name='4_10',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [3 * ['E2']],
-        figure_name='4_11',
-        ),
+    'Guitar Music Voice 1',
+    [3 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_11',
     )
 
 accumulator(
-    accumulator.monad_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='4_12',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.monad_music_maker,
+    figure_name='4_12',
     )
 
 accumulator(
-    accumulator.monad_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='4_13',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.monad_music_maker,
+    figure_name='4_13',
     )
 
 accumulator(
-    accumulator.monad_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='4_14',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.monad_music_maker,
+    figure_name='4_14',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [4 * ['E2']],
-        figure_name='4_15',
-        ),
+    'Guitar Music Voice 1',
+    [4 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_15',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [5 * ['E2']],
-        figure_name='4_16',
-        ),
+    'Guitar Music Voice 1',
+    [5 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_16',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [4 * ['E2']],
-        figure_name='4_17',
-        ),
+    'Guitar Music Voice 1',
+    [4 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_17',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [3 * ['E2']],
-        figure_name='4_18',
-        ),
+    'Guitar Music Voice 1',
+    [3 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_18',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [2 * ['E2']],
-        figure_name='4_19',
-        ),
+    'Guitar Music Voice 1',
+    [2 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_19',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [['E2']],
-        figure_name='4_20',
-        ),
+    'Guitar Music Voice 1',
+    [['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_20',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [2 * ['E2']],
-        figure_name='4_21',
-        ),
+    'Guitar Music Voice 1',
+    [2 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_21',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [3 * ['E2']],
-        figure_name='4_22',
-        ),
+    'Guitar Music Voice 1',
+    [3 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_22',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [4 * ['E2']],
-        figure_name='4_23',
-        ),
+    'Guitar Music Voice 1',
+    [4 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_23',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [5 * ['E2']],
-        figure_name='4_24',
-        ),
+    'Guitar Music Voice 1',
+    [5 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_24',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [4 * ['E2']],
-        figure_name='4_25',
-        ),
+    'Guitar Music Voice 1',
+    [4 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_25',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [3 * ['E2']],
-        figure_name='4_26',
-        ),
+    'Guitar Music Voice 1',
+    [3 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_26',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [2 * ['E2']],
-        figure_name='4_27',
-        ),
+    'Guitar Music Voice 1',
+    [2 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_27',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [1 * ['E2']],
-        figure_name='4_28',
-        ),
+    'Guitar Music Voice 1',
+    [1 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_28',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [2 * ['E2']],
-        figure_name='4_29',
-        ),
+    'Guitar Music Voice 1',
+    [2 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_29',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [3 * ['E2']],
-        figure_name='4_30',
-        ),
+    'Guitar Music Voice 1',
+    [3 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_30',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [4 * ['E2']],
-        figure_name='4_31',
-        ),
+    'Guitar Music Voice 1',
+    [4 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_31',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [5 * ['E2']],
-        figure_name='4_32',
-        ),
+    'Guitar Music Voice 1',
+    [5 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_32',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [3 * ['E2']],
-        figure_name='4_33',
-        ),
+    'Guitar Music Voice 1',
+    [3 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_33',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [2 * ['E2']],
-        figure_name='4_34',
-        ),
+    'Guitar Music Voice 1',
+    [2 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_34',
     )
 
 accumulator(
-    accumulator.third_music_maker(
-        'Guitar Music Voice 1',
-        [1 * ['E2']],
-        figure_name='4_35',
-        ),
+    'Guitar Music Voice 1',
+    [1 * ['E2']],
+    accumulator.third_music_maker,
+    figure_name='4_35',
     )
 
 accumulator(
-    accumulator.rest_music_maker(
-        'Guitar Music Voice 1',
-        [5 * ['C4']],
-        figure_name='4_36',
-        logical_tie_masks=abjad.silence_all(),
-        ),
+    'Guitar Music Voice 1',
+    [5 * ['C4']],
+    accumulator.rest_music_maker,
+    figure_name='4_36',
+    logical_tie_masks=abjad.silence_all(),
     )
 
 ###############################################################################

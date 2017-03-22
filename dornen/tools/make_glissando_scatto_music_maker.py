@@ -46,7 +46,7 @@ def make_glissando_scatto_music_maker():
             >>> segment_maker = baca.tools.SegmentMaker(
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
+            ...     spacing_specifier=baca.tools.HorizontalSpacingCommand(
             ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,
@@ -224,7 +224,7 @@ def make_glissando_scatto_music_maker():
             >>> segment_maker = baca.tools.SegmentMaker(
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
+            ...     spacing_specifier=baca.tools.HorizontalSpacingCommand(
             ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,
@@ -431,7 +431,7 @@ def make_glissando_scatto_music_maker():
                         time_treatments=[-2, -3],
                         ),
                     ),
-                baca.tools.SpannerSpecifier(
+                baca.tools.SpannerCommand(
                     spanner=spannertools.Glissando(
                         allow_repeat_pitches=False,
                         allow_ties=False,
@@ -458,7 +458,7 @@ def make_glissando_scatto_music_maker():
                 time_treatments=[-2, -3],
                 ),
             ),
-        baca.tools.SpannerSpecifier(
+        baca.tools.SpannerCommand(
             spanner=abjad.Glissando(),
             ),
         color_unregistered_pitches=True,

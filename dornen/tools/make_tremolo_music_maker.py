@@ -46,7 +46,7 @@ def make_tremolo_music_maker():
             >>> segment_maker = baca.tools.SegmentMaker(
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
+            ...     spacing_specifier=baca.tools.HorizontalSpacingCommand(
             ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,
@@ -227,7 +227,7 @@ def make_tremolo_music_maker():
             >>> segment_maker = baca.tools.SegmentMaker(
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
+            ...     spacing_specifier=baca.tools.HorizontalSpacingCommand(
             ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,
@@ -441,10 +441,10 @@ def make_tremolo_music_maker():
                     beam_each_division=True,
                     beam_divisions_together=True,
                     ),
-                baca.tools.SpannerSpecifier(
+                baca.tools.SpannerCommand(
                     spanner=spannertools.Tie(),
                     ),
-                baca.tools.StemTremoloSpecifier(
+                baca.tools.StemTremoloCommand(
                     selector=selectortools.Selector(
                         callbacks=(
                             selectortools.PrototypeSelectorCallback(
@@ -476,10 +476,10 @@ def make_tremolo_music_maker():
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.tools.SpannerSpecifier(
+        baca.tools.SpannerCommand(
             spanner=abjad.Tie(),
             ),
-        baca.tools.StemTremoloSpecifier(
+        baca.tools.StemTremoloCommand(
             selector=abjad.select().by_leaf(flatten=True),
             tremolo_flags=32,
             ),

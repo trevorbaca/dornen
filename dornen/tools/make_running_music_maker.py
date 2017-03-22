@@ -46,7 +46,7 @@ def make_running_music_maker():
             >>> segment_maker = baca.tools.SegmentMaker(
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
+            ...     spacing_specifier=baca.tools.HorizontalSpacingCommand(
             ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,
@@ -224,7 +224,7 @@ def make_running_music_maker():
             >>> segment_maker = baca.tools.SegmentMaker(
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
+            ...     spacing_specifier=baca.tools.HorizontalSpacingCommand(
             ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,
@@ -431,7 +431,7 @@ def make_running_music_maker():
                         time_treatments=[-1, -2],
                         ),
                     ),
-                baca.tools.SpannerSpecifier(
+                baca.tools.SpannerCommand(
                     selector=selectortools.Selector(
                         callbacks=(
                             selectortools.PrototypeSelectorCallback(
@@ -453,7 +453,7 @@ def make_running_music_maker():
                         ),
                     spanner=spannertools.Slur(),
                     ),
-                baca.tools.SpannerSpecifier(
+                baca.tools.SpannerCommand(
                     selector=selectortools.Selector(
                         callbacks=(
                             selectortools.PrototypeSelectorCallback(
@@ -477,7 +477,7 @@ def make_running_music_maker():
                         ),
                     spanner=spannertools.Slur(),
                     ),
-                baca.tools.SpannerSpecifier(
+                baca.tools.SpannerCommand(
                     selector=selectortools.Selector(
                         callbacks=(
                             selectortools.PrototypeSelectorCallback(
@@ -518,7 +518,7 @@ def make_running_music_maker():
                 time_treatments=[-1, -2],
                 ),
             ),
-        baca.tools.SpannerSpecifier(
+        baca.tools.SpannerCommand(
             selector=abjad.select().
                 by_class(abjad.Tuplet).
                 get_slice(stop=1).
@@ -526,7 +526,7 @@ def make_running_music_maker():
                 with_next_leaf(),
             spanner=abjad.Slur(),
             ),
-        baca.tools.SpannerSpecifier(
+        baca.tools.SpannerCommand(
             selector=abjad.select().
                 by_class(abjad.Tuplet).
                 get_slice(start=1, stop=-1).
@@ -534,7 +534,7 @@ def make_running_music_maker():
                 get_slice(start=1, stop=-1),
             spanner=abjad.Slur(),
             ),
-        baca.tools.SpannerSpecifier(
+        baca.tools.SpannerCommand(
             selector=abjad.select().
                 by_class(abjad.Tuplet).
                 get_slice(start=-1).

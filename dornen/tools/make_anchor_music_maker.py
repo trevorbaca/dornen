@@ -46,7 +46,7 @@ def make_anchor_music_maker():
             >>> segment_maker = baca.tools.SegmentMaker(
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
+            ...     spacing_specifier=baca.tools.HorizontalSpacingCommand(
             ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,

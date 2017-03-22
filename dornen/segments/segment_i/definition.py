@@ -182,7 +182,7 @@ tempo_specifier = baca.tools.TempoSpecifier([
     #(1, dornen.materials.tempi[66]),
     ])
 
-spacing_specifier = baca.tools.HorizontalSpacingSpecifier(
+spacing_specifier = baca.tools.HorizontalSpacingCommand(
     fermata_measure_width=abjad.durationtools.Duration(1, 4),
     minimum_width=abjad.durationtools.Duration(1, 12),
     )

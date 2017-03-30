@@ -1,4 +1,4 @@
-\version "2.19.57"
+\version "2.19.58"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -373,12 +373,7 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             \override TextScript.direction = #down
-                            ef'16 [
-                                _ \markup {
-                                    \whiteout
-                                        \upright
-                                            "dull (but beautiful) thud with RH muting for each red note"
-                                    }
+                            ef'16 [ - \markup { "AttachCommand(arguments=[Markup(contents=[MarkupCommand('whiteout', MarkupCommand('upright', 'dull (but beautiful) thud with RH muting for each red note'))], direction=Down)], selector=Selector(callbacks=(LogicalTieSelectorCallback(flatten=False, pitched=True, trivial=True), SliceSelectorCallback(apply_to_each=True), FlattenSelectorCallback(depth=1), SliceSelectorCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=True), WrapSelectionCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False))))" }
                             \revert TextScript.direction
                         }
                     }

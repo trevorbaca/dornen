@@ -70,7 +70,6 @@
     ragged-bottom = ##t
     ragged-last = ##t
     ragged-right = ##t
-
     % TIME SIGNATURE CONTEXT
     \context {
         \name TimeSignatureContextSkips
@@ -131,7 +130,6 @@
         \override VerticalAxisGroup.default-staff-staff-spacing.minimum-distance = 20
         \override VerticalAxisGroup.minimum-Y-extent = #'(-4 . 4)
     }
-
     % GENERIC CONTEXTS
     \context {
         \PianoStaff
@@ -145,7 +143,6 @@
         \Voice
         \remove Forbid_line_break_engraver
     }
-
     % GUITAR
     \context {
         \Voice
@@ -212,7 +209,6 @@
         \override TupletBracket.color = #red
         \override TupletNumber.color = #red
     }
-
     \context {
         \Staff
         \name GuitarMusicStaff
@@ -225,7 +221,6 @@
         instrumentName = \guitarName
         shortInstrumentName = \shortGuitarName
     }
-
     % MUSIC
     \context {
         %\StaffGroup
@@ -236,7 +231,6 @@
         \accepts GuitarMusicStaff
         %systemStartDelimiter = 'SystemStartBar
     }
-
     % SCORE
     \context {
         \Score
@@ -246,7 +240,6 @@
         \remove Mark_engraver
         \remove Metronome_mark_engraver
         \remove System_start_delimiter_engraver
-        %\override BarLine.hair-thickness = 0.5
         \override BarLine.space-alist = #'(
             (time-signature extra-space . 0.0)
             (custos minimum-space . 0.0) 

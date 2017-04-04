@@ -116,15 +116,15 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
         music_context = abjad.Context(
             [
                 guitar_music_staff,
-            ],
+                ],
             context_name='MusicContext',
             name='Music Context',
             )
         score = abjad.Score(
             [
-            time_signature_context,
-            music_context,
-            ],
+                time_signature_context,
+                music_context,
+                ],
             name='Score',
             )
         return score

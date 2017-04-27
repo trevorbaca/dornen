@@ -261,7 +261,7 @@ def make_rest_music_maker(duration=None):
             baca.tools.MusicMaker(
                 baca.tools.MusicRhythmSpecifier(
                     rhythm_maker=baca.tools.MusicRhythmMaker(
-                        logical_tie_masks=patterntools.PatternInventory(
+                        logical_tie_masks=patterntools.PatternList(
                             (
                                 rhythmmakertools.SilenceMask(
                                     pattern=patterntools.Pattern(

@@ -11,7 +11,7 @@ import dornen
 accumulator = dornen.tools.MusicAccumulator(dornen.tools.ScoreTemplate())
 design = dornen.tools.make_design_1(stop=22)
 assert len(design) == 22
-design = baca.tools.Cursor(source=design)
+design = baca.Cursor(source=design)
 
 accumulator(
     'Guitar Music Voice 1',
@@ -190,18 +190,18 @@ accumulator(
 ################################ SEGMENT-MAKER ################################
 ###############################################################################
 
-tempo_specifier = baca.tools.TempoSpecifier([
+tempo_specifier = baca.TempoSpecifier([
     (1, dornen.materials.tempi[44]),
     ])
 
-spacing_specifier = baca.tools.HorizontalSpacingCommand(
+spacing_specifier = baca.HorizontalSpacingCommand(
     fermata_measure_width=abjad.durationtools.Duration(1, 4),
     minimum_width=abjad.durationtools.Duration(1, 24),
     )
 
 measures_per_stage = len(accumulator.time_signatures) * [1]
 
-segment_maker = baca.tools.SegmentMaker(
+segment_maker = baca.SegmentMaker(
     #allow_figure_names=True,
     #label_clock_time=True,
     #label_stages=True,

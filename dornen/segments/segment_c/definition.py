@@ -190,18 +190,18 @@ accumulator(
 ################################ SEGMENT-MAKER ################################
 ###############################################################################
 
-tempo_specifier = baca.tools.TempoSpecifier([
+tempo_specifier = baca.TempoSpecifier([
     #(1, dornen.materials.tempi[66]),
     ])
 
-spacing_specifier = baca.tools.HorizontalSpacingCommand(
+spacing_specifier = baca.HorizontalSpacingCommand(
     fermata_measure_width=abjad.durationtools.Duration(1, 4),
     minimum_width=abjad.durationtools.Duration(1, 24),
     )
 
 measures_per_stage = len(accumulator.time_signatures) * [1]
 
-segment_maker = baca.tools.SegmentMaker(
+segment_maker = baca.SegmentMaker(
     #allow_figure_names=True,
     ignore_repeat_pitch_classes=True,
     #label_clock_time=True,

@@ -284,13 +284,13 @@ def make_design_1(start=None, stop=None):
 
     '''
     import dornen
-    design_maker = baca.tools.DesignMaker()
+    design_maker = baca.DesignMaker()
     magenta_pitch_classes = dornen.materials.magenta_pitch_classes
-    magenta_cursor = baca.tools.Cursor.from_pitch_class_segments(
+    magenta_cursor = baca.Cursor.from_pitch_class_segments(
         magenta_pitch_classes,
         )
     blue_pitch_classes = dornen.materials.blue_pitch_classes
-    blue_cursor = baca.tools.Cursor.from_pitch_class_segments(
+    blue_cursor = baca.Cursor.from_pitch_class_segments(
         blue_pitch_classes,
         )
     design_maker.partition(magenta_cursor, 2, [1])

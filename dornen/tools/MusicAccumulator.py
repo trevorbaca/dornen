@@ -3,7 +3,7 @@ import abjad
 import baca
 
 
-class MusicAccumulator(baca.tools.MusicAccumulator):
+class MusicAccumulator(baca.MusicAccumulator):
     r'''Music-accumulator.
 
     ::

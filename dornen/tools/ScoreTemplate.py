@@ -107,7 +107,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         guitar = abjad.instrumenttools.Guitar(
             instrument_name='guitar',
-            short_instrument_name_markup=abjad.markuptools.Markup.null(),
+            short_instrument_name_markup=abjad.Markup.null(),
             )
 
         abjad.attach(guitar, guitar_music_staff)

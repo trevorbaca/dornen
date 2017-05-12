@@ -251,36 +251,6 @@ def make_rest_music_maker(duration=None):
                 >>
             >>
 
-    ..  container:: example
-
-        Formats rest music-maker:
-
-        ::
-
-            >>> f(dornen.tools.make_rest_music_maker())
-            baca.tools.MusicMaker(
-                baca.tools.MusicRhythmSpecifier(
-                    rhythm_maker=baca.tools.MusicRhythmMaker(
-                        logical_tie_masks=patterntools.PatternList(
-                            (
-                                rhythmmakertools.SilenceMask(
-                                    pattern=patterntools.Pattern(
-                                        indices=[0],
-                                        period=1,
-                                        ),
-                                    ),
-                                )
-                            ),
-                        talea=rhythmmakertools.Talea(
-                            counts=[1],
-                            denominator=8,
-                            ),
-                        ),
-                    ),
-                color_unregistered_pitches=True,
-                denominator=8,
-                )
-
     Returns music-maker.
     '''
     duration = duration or abjad.Duration(1, 8)

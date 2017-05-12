@@ -150,26 +150,6 @@ def make_anchor_music_maker():
                 >>
             >>
 
-    ..  container:: example
-
-        Formats anchor music-maker:
-
-        ::
-
-            >>> f(dornen.tools.make_anchor_music_maker())
-            baca.tools.MusicMaker(
-                baca.tools.MusicRhythmSpecifier(
-                    rhythm_maker=baca.tools.MusicRhythmMaker(
-                        talea=rhythmmakertools.Talea(
-                            counts=[3],
-                            denominator=16,
-                            ),
-                        ),
-                    ),
-                color_unregistered_pitches=True,
-                denominator=8,
-                )
-
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(

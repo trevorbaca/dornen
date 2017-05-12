@@ -369,29 +369,6 @@ def make_sixteenth_music_maker():
                 >>
             >>
 
-    ..  container:: example
-
-        Formats sixteenth music-maker:
-
-        ::
-
-            >>> f(dornen.tools.make_sixteenth_music_maker())
-            baca.tools.MusicMaker(
-                rhythmmakertools.BeamSpecifier(
-                    beam_each_division=True,
-                    ),
-                baca.tools.MusicRhythmSpecifier(
-                    rhythm_maker=baca.tools.MusicRhythmMaker(
-                        talea=rhythmmakertools.Talea(
-                            counts=[1],
-                            denominator=16,
-                            ),
-                        ),
-                    ),
-                color_unregistered_pitches=True,
-                denominator=16,
-                )
-
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(

@@ -176,60 +176,6 @@ def make_sixty_fourth_music_maker():
                 >>
             >>
 
-    ..  container:: example
-
-        Formats music-maker:
-
-        ::
-
-            >>> f(dornen.tools.make_sixty_fourth_music_maker())
-            baca.tools.MusicMaker(
-                rhythmmakertools.BeamSpecifier(
-                    beam_each_division=True,
-                    beam_divisions_together=True,
-                    ),
-                baca.tools.AttachCommand(
-                    arguments=[
-                        indicatortools.Articulation('staccato'),
-                        ],
-                    selector=selectortools.Selector(
-                        callbacks=(
-                            selectortools.LogicalTieSelectorCallback(
-                                flatten=False,
-                                pitched=True,
-                                trivial=True,
-                                ),
-                            selectortools.SliceSelectorCallback(
-                                apply_to_each=True,
-                                ),
-                            selectortools.FlattenSelectorCallback(
-                                depth=1,
-                                ),
-                            selectortools.SliceSelectorCallback(
-                                apply_to_each=False,
-                                ),
-                            selectortools.ItemSelectorCallback(
-                                item=0,
-                                apply_to_each=True,
-                                ),
-                            selectortools.WrapSelectionCallback(
-                                apply_to_each=False,
-                                ),
-                            ),
-                        ),
-                    ),
-                baca.tools.MusicRhythmSpecifier(
-                    rhythm_maker=baca.tools.MusicRhythmMaker(
-                        talea=rhythmmakertools.Talea(
-                            counts=[1],
-                            denominator=64,
-                            ),
-                        ),
-                    ),
-                color_unregistered_pitches=True,
-                denominator=64,
-                )
-
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(

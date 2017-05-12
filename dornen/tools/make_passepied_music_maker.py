@@ -432,47 +432,6 @@ def make_passepied_music_maker():
                 >>
             >>
 
-    ..  container:: example
-
-        Formats passepied music-maker:
-
-        ::
-
-            >>> f(dornen.tools.make_passepied_music_maker())
-            baca.tools.MusicMaker(
-                rhythmmakertools.BeamSpecifier(
-                    beam_each_division=True,
-                    beam_divisions_together=True,
-                    ),
-                baca.tools.MusicRhythmSpecifier(
-                    pattern=patterntools.Pattern(
-                        indices=[0],
-                        ),
-                    rhythm_maker=baca.tools.MusicRhythmMaker(
-                        acciaccatura_specifiers=[
-                            baca.tools.AcciaccaturaSpecifier(),
-                            ],
-                        talea=rhythmmakertools.Talea(
-                            counts=[1],
-                            denominator=32,
-                            ),
-                        ),
-                    ),
-                baca.tools.MusicRhythmSpecifier(
-                    pattern=patterntools.Pattern(
-                        indices=[0],
-                        inverted=True,
-                        ),
-                    rhythm_maker=baca.tools.MusicRhythmMaker(
-                        talea=rhythmmakertools.Talea(
-                            counts=[1],
-                            denominator=16,
-                            ),
-                        ),
-                    ),
-                color_unregistered_pitches=True,
-                )
-
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(

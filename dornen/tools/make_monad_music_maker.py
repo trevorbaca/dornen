@@ -396,28 +396,6 @@ def make_monad_music_maker():
                 >>
             >>
 
-    ..  container:: example
-
-        Formats monad music-maker:
-
-        ::
-
-            >>> f(dornen.tools.make_monad_music_maker())
-            baca.tools.MusicMaker(
-                baca.tools.MusicRhythmSpecifier(
-                    rhythm_maker=baca.tools.MusicRhythmMaker(
-                        talea=rhythmmakertools.Talea(
-                            counts=[1],
-                            denominator=2,
-                            ),
-                        time_treatments=[
-                            durationtools.Multiplier(4, 5),
-                            ],
-                        ),
-                    ),
-                denominator=5,
-                )
-
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(

@@ -395,28 +395,6 @@ def make_graced_rest_music_maker():
                 >>
             >>
 
-    ..  container:: example
-
-        Formats graced rest music-maker:
-
-        ::
-
-            >>> f(dornen.tools.make_graced_rest_music_maker())
-            baca.tools.MusicMaker(
-                baca.tools.MusicRhythmSpecifier(
-                    rhythm_maker=baca.tools.MusicRhythmMaker(
-                        acciaccatura_specifiers=[
-                            baca.tools.AcciaccaturaSpecifier(),
-                            ],
-                        talea=rhythmmakertools.Talea(
-                            counts=[1],
-                            denominator=8,
-                            ),
-                        ),
-                    ),
-                color_unregistered_pitches=True,
-                )
-
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(

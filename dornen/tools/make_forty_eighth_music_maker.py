@@ -150,26 +150,6 @@ def make_forty_eighth_music_maker():
                 >>
             >>
 
-    ..  container:: example
-
-        Formats music-maker:
-
-        ::
-
-            >>> f(dornen.tools.make_forty_eighth_music_maker())
-            baca.tools.MusicMaker(
-                baca.tools.MusicRhythmSpecifier(
-                    rhythm_maker=baca.tools.MusicRhythmMaker(
-                        talea=rhythmmakertools.Talea(
-                            counts=[3],
-                            denominator=64,
-                            ),
-                        ),
-                    ),
-                color_unregistered_pitches=True,
-                denominator=32,
-                )
-
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(

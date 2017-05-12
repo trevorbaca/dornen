@@ -408,30 +408,6 @@ def make_thirty_second_music_maker():
                 >>
             >>
 
-    ..  container:: example
-
-        Formats thirty-second music-maker:
-
-        ::
-
-            >>> f(dornen.tools.make_thirty_second_music_maker())
-            baca.tools.MusicMaker(
-                rhythmmakertools.BeamSpecifier(
-                    beam_each_division=True,
-                    beam_divisions_together=True,
-                    ),
-                baca.tools.MusicRhythmSpecifier(
-                    rhythm_maker=baca.tools.MusicRhythmMaker(
-                        talea=rhythmmakertools.Talea(
-                            counts=[1],
-                            denominator=32,
-                            ),
-                        ),
-                    ),
-                color_unregistered_pitches=True,
-                denominator=32,
-                )
-
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(

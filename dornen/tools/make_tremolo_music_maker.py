@@ -418,48 +418,6 @@ def make_tremolo_music_maker():
                 >>
             >>
 
-    ..  container:: example
-
-        Formats music-maker:
-
-        ::
-
-            >>> f(dornen.tools.make_tremolo_music_maker())
-            baca.tools.MusicMaker(
-                baca.tools.MusicRhythmSpecifier(
-                    rhythm_maker=baca.tools.MusicRhythmMaker(
-                        talea=rhythmmakertools.Talea(
-                            counts=[1],
-                            denominator=8,
-                            ),
-                        time_treatments=[
-                            mathtools.Ratio((11, 8)),
-                            ],
-                        ),
-                    ),
-                rhythmmakertools.BeamSpecifier(
-                    beam_each_division=True,
-                    beam_divisions_together=True,
-                    ),
-                baca.tools.SpannerCommand(
-                    spanner=spannertools.Tie(),
-                    ),
-                baca.tools.StemTremoloCommand(
-                    selector=selectortools.Selector(
-                        callbacks=(
-                            selectortools.PrototypeSelectorCallback(
-                                prototype=scoretools.Leaf,
-                                flatten=True,
-                                ),
-                            ),
-                        ),
-                    tremolo_flags=32,
-                    ),
-                allow_repeat_pitches=True,
-                color_unregistered_pitches=True,
-                denominator=11,
-                )
-
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(

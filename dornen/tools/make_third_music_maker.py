@@ -396,28 +396,6 @@ def make_third_music_maker():
                 >>
             >>
 
-    ..  container:: example
-
-        Formats third music-maker:
-
-        ::
-
-            >>> f(dornen.tools.make_third_music_maker())
-            baca.tools.MusicMaker(
-                baca.tools.MusicRhythmSpecifier(
-                    rhythm_maker=baca.tools.MusicRhythmMaker(
-                        talea=rhythmmakertools.Talea(
-                            counts=[1],
-                            denominator=2,
-                            ),
-                        time_treatments=[
-                            durationtools.Multiplier(2, 3),
-                            ],
-                        ),
-                    ),
-                denominator=3,
-                )
-
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(

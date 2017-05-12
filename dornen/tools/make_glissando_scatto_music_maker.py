@@ -410,38 +410,6 @@ def make_glissando_scatto_music_maker():
                 >>
             >>
 
-    ..  container:: example
-
-        Formats glissando scatto music-maker:
-
-        ::
-
-            >>> f(dornen.tools.make_glissando_scatto_music_maker())
-            baca.tools.MusicMaker(
-                rhythmmakertools.BeamSpecifier(
-                    beam_each_division=True,
-                    beam_divisions_together=True,
-                    ),
-                baca.tools.MusicRhythmSpecifier(
-                    rhythm_maker=baca.tools.MusicRhythmMaker(
-                        talea=rhythmmakertools.Talea(
-                            counts=[2, 2, 2, 1, 2, 2, 2],
-                            denominator=32,
-                            ),
-                        time_treatments=[-2, -3],
-                        ),
-                    ),
-                baca.tools.SpannerCommand(
-                    spanner=spannertools.Glissando(
-                        allow_repeat_pitches=False,
-                        allow_ties=False,
-                        parenthesize_repeated_pitches=False,
-                        ),
-                    ),
-                color_unregistered_pitches=True,
-                denominator=16,
-                )
-
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(

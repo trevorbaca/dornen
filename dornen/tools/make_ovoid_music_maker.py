@@ -248,36 +248,6 @@ def make_ovoid_music_maker():
                 >>
             >>
 
-    ..  container:: example
-
-        Formats ovoid music-maker:
-
-        ::
-
-            >>> f(dornen.tools.make_ovoid_music_maker())
-            baca.tools.MusicMaker(
-                rhythmmakertools.BeamSpecifier(
-                    beam_each_division=True,
-                    beam_divisions_together=True,
-                    ),
-                baca.tools.MusicRhythmSpecifier(
-                    rhythm_maker=baca.tools.MusicRhythmMaker(
-                        acciaccatura_specifiers=[
-                            baca.tools.AcciaccaturaSpecifier(
-                                lmr_specifier=baca.tools.LMRSpecifier(
-                                    left_length=1,
-                                    ),
-                                ),
-                            ],
-                        talea=rhythmmakertools.Talea(
-                            counts=[6, 1],
-                            denominator=32,
-                            ),
-                        ),
-                    ),
-                color_unregistered_pitches=True,
-                )
-
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(

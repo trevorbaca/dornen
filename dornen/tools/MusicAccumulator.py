@@ -35,7 +35,7 @@ class MusicAccumulator(baca.MusicAccumulator):
             ...     )
             >>> show(lilypond_file) # doctest: +SKIP
 
-        ..  doctest::
+        ..  docs::
 
             >>> f(lilypond_file[abjad.Staff])
             \new Staff <<

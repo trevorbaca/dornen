@@ -74,7 +74,7 @@ def make_rest_music_maker(duration=None):
             >>> score = lilypond_file[abjad.Score]
             >>> show(lilypond_file) # doctest: +SKIP
 
-        ..  doctest::
+        ..  docs::
 
             >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
@@ -192,7 +192,7 @@ def make_rest_music_maker(duration=None):
             >>> score = lilypond_file[abjad.Score]
             >>> show(lilypond_file) # doctest: +SKIP
 
-        ..  doctest::
+        ..  docs::
 
             >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" <<

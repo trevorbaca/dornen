@@ -70,7 +70,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
             >>> abjad.override(score).tuplet_bracket.padding = 2
             >>> show(lilypond_file) # doctest: +SKIP
 
-        ..  doctest::
+        ..  docs::
 
             >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {
@@ -428,7 +428,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
             >>> abjad.override(score).tuplet_bracket.padding = 2
             >>> show(lilypond_file) # doctest: +SKIP
 
-        ..  doctest::
+        ..  docs::
 
             >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {
@@ -786,7 +786,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
             >>> abjad.override(score).tuplet_bracket.padding = 2
             >>> show(lilypond_file) # doctest: +SKIP
 
-        ..  doctest::
+        ..  docs::
 
             >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {

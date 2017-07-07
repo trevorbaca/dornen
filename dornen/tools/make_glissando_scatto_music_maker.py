@@ -65,7 +65,7 @@ def make_glissando_scatto_music_maker():
             >>> lilypond_file, segment_metadata = result
             >>> show(lilypond_file) # doctest: +SKIP
 
-        ..  doctest::
+        ..  docs::
 
             >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
@@ -243,7 +243,7 @@ def make_glissando_scatto_music_maker():
             >>> lilypond_file, segment_metadata = result
             >>> show(lilypond_file) # doctest: +SKIP
 
-        ..  doctest::
+        ..  docs::
 
             >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" <<

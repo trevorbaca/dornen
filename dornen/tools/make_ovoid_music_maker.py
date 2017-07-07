@@ -82,7 +82,7 @@ def make_ovoid_music_maker():
             >>> abjad.override(score).spacing_spanner.strict_note_spacing = False
             >>> show(lilypond_file) # doctest: +SKIP
 
-        ..  doctest::
+        ..  docs::
 
             >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {

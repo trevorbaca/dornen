@@ -65,7 +65,7 @@ def make_delicatissimo_music_maker():
             >>> lilypond_file, segment_metadata = result
             >>> show(lilypond_file) # doctest: +SKIP
 
-        ..  doctest::
+        ..  docs::
 
             >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
@@ -244,7 +244,7 @@ def make_delicatissimo_music_maker():
             >>> abjad.override(score).beam.positions = (5, 5)
             >>> show(lilypond_file) # doctest: +SKIP
 
-        ..  doctest::
+        ..  docs::
 
             >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {

@@ -19,7 +19,7 @@ def make_design_3(start=None, stop=None):
             >>> design_3 = dornen.tools.make_design_3()
             >>> show(design_3) # doctest: +SKIP
 
-        ..  doctest::
+        ..  docs::
 
             >>> lilypond_file = design_3.__illustrate__()
             >>> f(lilypond_file[abjad.Voice])

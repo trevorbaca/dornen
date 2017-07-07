@@ -81,7 +81,7 @@ def make_twentieth_music_maker():
             >>> abjad.override(score).tuplet_bracket.staff_padding = 1.5
             >>> show(lilypond_file) # doctest: +SKIP
 
-        ..  doctest::
+        ..  docs::
 
             >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {
@@ -281,7 +281,7 @@ def make_twentieth_music_maker():
             >>> abjad.override(score).tuplet_bracket.staff_padding = 1.5
             >>> show(lilypond_file) # doctest: +SKIP
 
-        ..  doctest::
+        ..  docs::
 
             >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {

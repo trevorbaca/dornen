@@ -84,7 +84,7 @@ def make_graced_rest_music_maker():
 
         ..  note:: Make this work again.
 
-        ..  doctest::
+        ..  docs::
 
             >>> f(lilypond_file[abjad.Score]) # doctest: +SKIP
             \context Score = "Score" \with {
@@ -249,7 +249,7 @@ def make_graced_rest_music_maker():
 
         ..  note:: Make this work again.
 
-        ..  doctest::
+        ..  docs::
 
             >>> f(lilypond_file[abjad.Score]) # doctest: +SKIP
             \context Score = "Score" \with {

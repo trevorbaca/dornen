@@ -439,7 +439,7 @@ def make_passepied_music_maker():
             beam_divisions_together=True,
             ),
         baca.tools.MusicRhythmSpecifier(
-            pattern=abjad.select_first(),
+            pattern=abjad.index_first(),
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 acciaccatura_specifiers=[
                     baca.tools.AcciaccaturaSpecifier(),
@@ -451,7 +451,7 @@ def make_passepied_music_maker():
                 )
             ),
         baca.tools.MusicRhythmSpecifier(
-            pattern=abjad.select_first(inverted=True),
+            pattern=abjad.index_first(inverted=True),
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],

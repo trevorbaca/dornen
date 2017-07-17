@@ -116,7 +116,6 @@ def make_wave_music_maker(denominator=64, inverted=False):
                 \context MusicContext = "Music Context" <<
                     \tag violin
                     \context ViolinMusicStaff = "Violin Music Staff" {
-                        \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             \override TupletNumber.text = \markup {
                                 \scale
@@ -474,7 +473,6 @@ def make_wave_music_maker(denominator=64, inverted=False):
                 \context MusicContext = "Music Context" <<
                     \tag violin
                     \context ViolinMusicStaff = "Violin Music Staff" {
-                        \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             \override TupletNumber.text = \markup {
                                 \scale
@@ -832,7 +830,6 @@ def make_wave_music_maker(denominator=64, inverted=False):
                 \context MusicContext = "Music Context" <<
                     \tag violin
                     \context ViolinMusicStaff = "Violin Music Staff" {
-                        \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             \override TupletNumber.text = \markup {
                                 \scale

@@ -112,7 +112,6 @@ def make_rest_music_maker(duration=None):
                 \context MusicContext = "Music Context" <<
                     \tag violin
                     \context ViolinMusicStaff = "Violin Music Staff" {
-                        \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
                                 r8
@@ -219,7 +218,6 @@ def make_rest_music_maker(duration=None):
                 \context MusicContext = "Music Context" <<
                     \tag violin
                     \context ViolinMusicStaff = "Violin Music Staff" {
-                        \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
                                 r8

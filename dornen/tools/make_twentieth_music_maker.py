@@ -140,7 +140,6 @@ def make_twentieth_music_maker():
                 \context MusicContext = "Music Context" <<
                     \tag violin
                     \context ViolinMusicStaff = "Violin Music Staff" {
-                        \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
@@ -340,7 +339,6 @@ def make_twentieth_music_maker():
                 \context MusicContext = "Music Context" <<
                     \tag violin
                     \context ViolinMusicStaff = "Violin Music Staff" {
-                        \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {

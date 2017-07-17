@@ -119,7 +119,6 @@ def make_graced_tuplet_music_maker():
                 \context MusicContext = "Music Context" <<
                     \tag violin
                     \context ViolinMusicStaff = "Violin Music Staff" {
-                        \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             \tweak text #tuplet-number::calc-fraction-text
                             \tweak edge-height #'(0.7 . 0)

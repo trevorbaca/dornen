@@ -110,8 +110,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             short_instrument_name_markup=abjad.Markup.null(),
             )
 
-        abjad.attach(guitar, guitar_music_staff)
-        abjad.attach(abjad.Clef('treble'), guitar_music_staff)
+        #abjad.attach(guitar, guitar_music_staff)
+        #abjad.attach(abjad.Clef('treble'), guitar_music_staff)
 
         music_context = abjad.Context(
             [

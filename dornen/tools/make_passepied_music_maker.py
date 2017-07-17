@@ -130,7 +130,6 @@ def make_passepied_music_maker():
                 \context MusicContext = "Music Context" <<
                     \tag violin
                     \context ViolinMusicStaff = "Violin Music Staff" {
-                        \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
                                 af'32
@@ -286,7 +285,6 @@ def make_passepied_music_maker():
                 \context MusicContext = "Music Context" <<
                     \tag violin
                     \context ViolinMusicStaff = "Violin Music Staff" {
-                        \clef "treble"
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
                                 \set stemLeftBeamCount = #0

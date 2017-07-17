@@ -47,11 +47,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     >>
                     \context MusicContext = "Music Context" {
                         \context GuitarMusicStaff = "Guitar Music Staff" <<
-                            \clef "treble"
-                            \set Staff.instrumentName = \markup { Guitar }
-                            \set Staff.shortInstrumentName = \markup {
-                            \null
-                            }
                             \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
                             }
                             \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {

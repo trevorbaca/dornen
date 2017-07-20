@@ -313,7 +313,7 @@ def make_design_3(start=None, stop=None):
     design = []
     for cell in cells:
         numbered_pitch_classes = cell.get_payload()
-        numbers = [_.pitch_class_number for _ in numbered_pitch_classes]
+        numbers = [_.number for _ in numbered_pitch_classes]
         design.append(numbers)
     design = design[start:stop]
     return design

@@ -14,7 +14,7 @@ def make_graced_rest_music_maker():
 
     ..  container:: example
 
-        Makes single-segment  graced rests:
+        Makes single-segment graced rests:
 
         ::
 

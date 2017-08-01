@@ -32,7 +32,7 @@ def make_design_1(start=None, stop=None):
                 \once \override NoteHead.color = #red
                 \once \override Stem.color = #red
                 \time 1/8
-                e'8 \startGroup \stopGroup ^ \markup { 0 }
+                e'8 \stopGroup \startGroup ^ \markup { 0 }
                 s8
                 fs'8 \startGroup ^ \markup { 1 }
                 d'8
@@ -42,7 +42,7 @@ def make_design_1(start=None, stop=None):
                 af'8
                 c'8 \stopGroup
                 s8
-                b'8 \startGroup \stopGroup ^ \markup { 2 }
+                b'8 \stopGroup \startGroup ^ \markup { 2 }
                 s8
                 bf'8 \startGroup ^ \markup { 3 }
                 g'8
@@ -187,86 +187,86 @@ def make_design_1(start=None, stop=None):
                 f'8
                 b'8 \stopGroup
                 s8
-                fs'8 \startGroup \stopGroup ^ \markup { 23 }
+                fs'8 \stopGroup \startGroup ^ \markup { 23 }
                 s8
                 bf'8 \startGroup ^ \markup { 24 }
                 b'8
                 f'8 \stopGroup
                 s8
-                g'8 \startGroup \stopGroup ^ \markup { 25 }
+                g'8 \stopGroup \startGroup ^ \markup { 25 }
                 s8
                 ef'8 \startGroup ^ \markup { 26 }
                 d'8
                 e'8 \stopGroup
                 s8
-                af'8 \startGroup \stopGroup ^ \markup { 27 }
+                af'8 \stopGroup \startGroup ^ \markup { 27 }
                 s8
                 a'8 \startGroup ^ \markup { 28 }
                 cs'8
                 g'8 \stopGroup
                 s8
-                ef'8 \startGroup \stopGroup ^ \markup { 29 }
+                ef'8 \stopGroup \startGroup ^ \markup { 29 }
                 s8
                 d'8 \startGroup ^ \markup { 30 }
                 f'8
                 af'8 \stopGroup
                 s8
-                a'8 \startGroup \stopGroup ^ \markup { 31 }
+                a'8 \stopGroup \startGroup ^ \markup { 31 }
                 s8
                 cs'8 \startGroup ^ \markup { 32 }
                 e'8
                 bf'8 \stopGroup
                 s8
-                b'8 \startGroup \stopGroup ^ \markup { 33 }
+                b'8 \stopGroup \startGroup ^ \markup { 33 }
                 s8
                 fs'8 \startGroup ^ \markup { 34 }
                 a'8
                 cs'8 \stopGroup
                 s8
-                e'8 \startGroup \stopGroup ^ \markup { 35 }
+                e'8 \stopGroup \startGroup ^ \markup { 35 }
                 s8
                 af'8 \startGroup ^ \markup { 36 }
                 b'8
                 fs'8 \stopGroup
                 s8
-                bf'8 \startGroup \stopGroup ^ \markup { 37 }
+                bf'8 \stopGroup \startGroup ^ \markup { 37 }
                 s8
-                ef'8 \startGroup \stopGroup ^ \markup { 38 }
+                ef'8 \stopGroup \startGroup ^ \markup { 38 }
                 s8
                 e'8 \startGroup ^ \markup { 39 }
                 a'8
                 g'8
                 bf'8 \stopGroup
                 s8
-                d'8 \startGroup \stopGroup ^ \markup { 40 }
+                d'8 \stopGroup \startGroup ^ \markup { 40 }
                 s8
                 af'8 \startGroup ^ \markup { 41 }
                 f'8
                 cs'8
                 b'8 \stopGroup
                 s8
-                c'8 \startGroup \stopGroup ^ \markup { 42 }
+                c'8 \stopGroup \startGroup ^ \markup { 42 }
                 s8
                 af'8 \startGroup ^ \markup { 43 }
                 f'8
                 d'8
                 b'8 \stopGroup
                 s8
-                c'8 \startGroup \stopGroup ^ \markup { 44 }
+                c'8 \stopGroup \startGroup ^ \markup { 44 }
                 s8
                 cs'8 \startGroup ^ \markup { 45 }
                 e'8
                 a'8
                 g'8 \stopGroup
                 s8
-                bf'8 \startGroup \stopGroup ^ \markup { 46 }
+                bf'8 \stopGroup \startGroup ^ \markup { 46 }
                 s8
                 ef'8 \startGroup ^ \markup { 47 }
                 c'8
                 cs'8
                 b'8 \stopGroup
                 s8
-                a'8 \startGroup \stopGroup ^ \markup { 48 }
+                a'8 \stopGroup \startGroup ^ \markup { 48 }
                 s8
                 g'8 \startGroup ^ \markup { 49 }
                 bf'8

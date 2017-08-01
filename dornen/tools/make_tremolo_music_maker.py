@@ -128,7 +128,7 @@ def make_tremolo_music_maker():
                             \times 8/11 {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                e'8 :32 [ ~
+                                e'8 :32 ~ [
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 e'8 :32 ~
@@ -156,7 +156,7 @@ def make_tremolo_music_maker():
                             \times 8/11 {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                e'8 :32 [ ~
+                                e'8 :32 ~ [
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 e'8 :32 ~
@@ -294,7 +294,7 @@ def make_tremolo_music_maker():
                             \times 8/11 {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                e'8 :32 [ ~
+                                e'8 :32 ~ [
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
@@ -330,7 +330,7 @@ def make_tremolo_music_maker():
                             \times 8/11 {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                e'8 :32 [ ~
+                                e'8 :32 ~ [
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 e'8 :32 ~
@@ -381,7 +381,7 @@ def make_tremolo_music_maker():
                             \times 8/11 {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                e'8 :32 [ ~
+                                e'8 :32 ~ [
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {

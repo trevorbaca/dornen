@@ -52,7 +52,7 @@ def make_design_3(start=None, stop=None):
                 b'8 \startGroup ^ \markup { 4 }
                 bf'8 \stopGroup
                 s8
-                c'8 \startGroup \stopGroup ^ \markup { 5 }
+                c'8 \stopGroup \startGroup ^ \markup { 5 }
                 s8
                 f'8 \startGroup ^ \markup { 6 }
                 b'8
@@ -79,7 +79,7 @@ def make_design_3(start=None, stop=None):
                 bf'8 \startGroup ^ \markup { 10 }
                 c'8 \stopGroup
                 s8
-                f'8 \startGroup \stopGroup ^ \markup { 11 }
+                f'8 \stopGroup \startGroup ^ \markup { 11 }
                 s8
                 a'8 \startGroup ^ \markup { 12 }
                 b'8
@@ -106,7 +106,7 @@ def make_design_3(start=None, stop=None):
                 cs'8 \startGroup ^ \markup { 16 }
                 f'8 \stopGroup
                 s8
-                a'8 \startGroup \stopGroup ^ \markup { 17 }
+                a'8 \stopGroup \startGroup ^ \markup { 17 }
                 s8
                 b'8 \startGroup ^ \markup { 18 }
                 bf'8

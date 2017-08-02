@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -240,50 +240,41 @@
         >>
         \context MusicContext = "Music Context" {
             \context GuitarMusicStaff = "Guitar Music Staff" <<
-                \clef "treble"
-                \set GuitarMusicStaff.instrumentName = \markup {
-                \hcenter-in
-                    #16
-                    Guitar
-                }
-                \set GuitarMusicStaff.shortInstrumentName = \markup {
-                \null
-                }
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gtqf2 :32
+                            gtqf,2 :32
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gtqf2 :32 \repeatTie \< \pp
+                            gtqf,2 :32 \repeatTie \< \pp
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \p
+                            gtqf,2 :32 \repeatTie \p
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \> \p
+                            gtqf,2 :32 \repeatTie \> \p
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \pp
+                            gtqf,2 :32 \repeatTie \pp
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gtqf2 :32 \repeatTie
+                            gtqf,2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -296,31 +287,31 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gtqf2 :32 \repeatTie \< \pp
+                            gtqf,2 :32 \repeatTie \< \pp
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \mp
+                            gtqf,2 :32 \repeatTie \mp
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \> \mp
+                            gtqf,2 :32 \repeatTie \> \mp
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \pp
+                            gtqf,2 :32 \repeatTie \pp
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gtqf2 :32 \repeatTie
+                            gtqf,2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -355,13 +346,13 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            gtqf2 :32 \repeatTie \< \pp \startTextSpan
+                            gtqf,2 :32 \repeatTie \< \pp \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \p \stopTextSpan ^ \markup {
+                            gtqf,2 :32 \repeatTie \p \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -395,13 +386,13 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            gtqf2 :32 \repeatTie \> \p \startTextSpan
+                            gtqf,2 :32 \repeatTie \> \p \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \pp \stopTextSpan ^ \markup {
+                            gtqf,2 :32 \repeatTie \pp \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -435,13 +426,13 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            gtqf2 :32 \repeatTie \< \pp \startTextSpan
+                            gtqf,2 :32 \repeatTie \< \pp \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
+                            gtqf,2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -475,13 +466,13 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            gtqf2 :32 \repeatTie \> \mp \startTextSpan
+                            gtqf,2 :32 \repeatTie \> \mp \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \pp \stopTextSpan ^ \markup {
+                            gtqf,2 :32 \repeatTie \pp \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -515,13 +506,13 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            gtqf2 :32 \repeatTie \< \pp \startTextSpan
+                            gtqf,2 :32 \repeatTie \< \pp \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
+                            gtqf,2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout
@@ -555,19 +546,19 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            gtqf2 :32 \repeatTie \> \mf \startTextSpan
+                            gtqf,2 :32 \repeatTie \> \mf \startTextSpan
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gtqf2 :32 \repeatTie
+                            gtqf,2 :32 \repeatTie
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gtqf2 :32 \repeatTie
+                            gtqf,2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -575,13 +566,13 @@
                                             \box
                                                 "3 fingers"
                                     }
-                            gtqf2 :32 \repeatTie
+                            gtqf,2 :32 \repeatTie
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gtqf2 :32 \repeatTie
+                            gtqf,2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -589,7 +580,7 @@
                                             \box
                                                 "2 fingers"
                                     }
-                            gtqf2 :32 \repeatTie \p \stopTextSpan ^ \markup {
+                            gtqf,2 :32 \repeatTie \p \stopTextSpan ^ \markup {
                                 \override
                                     #'(font-name . "Palatino")
                                     \whiteout

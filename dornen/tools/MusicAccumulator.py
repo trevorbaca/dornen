@@ -251,7 +251,7 @@ class MusicAccumulator(baca.MusicAccumulator):
                 for cell in reversed(cells[:-1]):
                     result.append(list(reversed(cell)))
         if flatten:
-            result = [baca.Sequence(result).flatten()]
+            result = [baca.sequence(result).flatten()]
         return result
 
     @staticmethod
@@ -277,7 +277,7 @@ class MusicAccumulator(baca.MusicAccumulator):
             for cell in cells:
                 result.append(cell[:])
         if flatten:
-            result = [baca.Sequence(result).flatten()]
+            result = [baca.sequence(result).flatten()]
         return result
 
     @classmethod

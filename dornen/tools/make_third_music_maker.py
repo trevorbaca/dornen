@@ -25,7 +25,7 @@ def make_third_music_maker():
             ...     [6, 11, 2, 5],
             ...     ]
             >>> segment_lists = [
-            ...     baca.Sequence(_).partition_by_counts([1], cyclic=True)
+            ...     baca.sequence(_).partition_by_counts([1], cyclic=True)
             ...     for _ in segment_lists
             ...     ]
             >>> for segments in segment_lists:
@@ -224,7 +224,7 @@ def make_third_music_maker():
             ...     [6, 11, 2, 5],
             ...     ]
             >>> segment_lists = [
-            ...     baca.Sequence(_).partition_by_counts([1, 2], cyclic=True)
+            ...     baca.sequence(_).partition_by_counts([1, 2], cyclic=True)
             ...     for _ in segment_lists
             ...     ]
             >>> for segments in segment_lists:

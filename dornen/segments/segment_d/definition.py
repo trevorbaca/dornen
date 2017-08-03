@@ -280,8 +280,8 @@ tempo_specifier = baca.TempoSpecifier([
     ])
 
 spacing_specifier = baca.HorizontalSpacingCommand(
-    fermata_measure_width=abjad.durationtools.Duration(1, 4),
-    minimum_width=abjad.durationtools.Duration(1, 24),
+    fermata_measure_width=abjad.Duration(1, 4),
+    minimum_width=abjad.Duration(1, 24),
     )
 
 measures_per_stage = len(accumulator.time_signatures) * [1]

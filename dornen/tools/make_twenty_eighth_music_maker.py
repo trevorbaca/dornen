@@ -406,7 +406,7 @@ def make_twenty_eighth_music_maker():
                     counts=[1],
                     denominator=16,
                     ),
-                time_treatments=[abjad.durationtools.Multiplier((4, 7))],
+                time_treatments=[abjad.Multiplier((4, 7))],
                 )
             ),
         color_unregistered_pitches=True,

@@ -403,7 +403,7 @@ def make_monad_music_maker():
                     counts=[1],
                     denominator=2,
                     ),
-                time_treatments=[abjad.durationtools.Multiplier((4, 5))],
+                time_treatments=[abjad.Multiplier((4, 5))],
                 )
             ),
         denominator=5,

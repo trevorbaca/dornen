@@ -2,7 +2,7 @@
 import abjad
 
 
-class DesignChecker(abjad.abctools.AbjadObject):
+class DesignChecker(abjad.AbjadObject):
     r'''Design-checker.
     '''
 

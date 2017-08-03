@@ -2,7 +2,7 @@
 import abjad
 
 
-class QuartertoneManager(abjad.abctools.AbjadObject):
+class QuartertoneManager(abjad.AbjadObject):
     r'''Quartertone manager.
     '''
 

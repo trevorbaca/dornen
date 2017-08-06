@@ -453,7 +453,7 @@
                                 }
                             \clef "treble"
                             \override Beam.positions = #'(10 . 10)
-                            d'32. -\tenuto [ - \markup { "AttachCommand(arguments=[Markup(contents=[MarkupCommand('whiteout', MarkupCommand('upright', 'LH only until rascado! (RH tacet; encourage whisks) ...'))], direction=Up)], selector=Selector(callbacks=(LogicalTieSelectorCallback(flatten=False, pitched=True, trivial=True), SliceSelectorCallback(apply_to_each=True), FlattenSelectorCallback(depth=1), SliceSelectorCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=True), WrapSelectionCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False))))" }
+                            d'32. -\tenuto [ - \markup { "LH only until rascado! (RH tacet; encourage whisks) ..." }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             cs'32. -\tenuto
@@ -479,7 +479,7 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            d'32. -\tenuto [ - \markup { "AttachCommand(arguments=[Markup(contents=[MarkupCommand('whiteout', MarkupCommand('upright', 'RH reaches for screw ...'))], direction=Up)], selector=Selector(callbacks=(LogicalTieSelectorCallback(flatten=False, pitched=True, trivial=True), SliceSelectorCallback(apply_to_each=True), FlattenSelectorCallback(depth=1), SliceSelectorCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=True), WrapSelectionCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False))))" }
+                            d'32. -\tenuto [ - \markup { "RH reaches for screw ..." }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             cs'32. -\tenuto
@@ -505,7 +505,7 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            d'32. -\tenuto [ - \markup { "AttachCommand(arguments=[Markup(contents=[MarkupCommand('whiteout', MarkupCommand('upright', 'RH places screw on string ...'))], direction=Up)], selector=Selector(callbacks=(LogicalTieSelectorCallback(flatten=False, pitched=True, trivial=True), SliceSelectorCallback(apply_to_each=True), FlattenSelectorCallback(depth=1), SliceSelectorCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=True), WrapSelectionCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False))))" }
+                            d'32. -\tenuto [ - \markup { "RH places screw on string ..." }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             cs'32. -\tenuto
@@ -600,7 +600,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                            e2 :32 \p - \markup { "AttachCommand(arguments=[Markup(contents=[MarkupCommand('whiteout', MarkupCommand('upright', 'RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke.'))], direction=Up)], selector=Selector(callbacks=(LogicalTieSelectorCallback(flatten=False, pitched=True, trivial=True), SliceSelectorCallback(apply_to_each=True), FlattenSelectorCallback(depth=1), SliceSelectorCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=True), WrapSelectionCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False))))" }
+                            e2 :32 \p - \markup { "RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke." }
                             e2 :32 \repeatTie
                             e2 :32 \repeatTie
                             e2 :32 \repeatTie

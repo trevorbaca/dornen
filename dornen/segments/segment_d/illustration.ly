@@ -333,7 +333,7 @@
                                 }
                             \clef "treble"
                             \override Beam.positions = #'(10 . 10)
-                            d'32. -\tenuto [ - \markup { "AttachCommand(arguments=[Markup(contents=[MarkupCommand('whiteout', MarkupCommand('upright', 'slurs fluid; all other parts mechanically precise'))], direction=Up)], selector=Selector(callbacks=(LogicalTieSelectorCallback(flatten=False, pitched=True, trivial=True), SliceSelectorCallback(apply_to_each=True), FlattenSelectorCallback(depth=1), SliceSelectorCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=True), WrapSelectionCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False))))" }
+                            d'32. -\tenuto [ - \markup { "slurs fluid; all other parts mechanically precise" }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             cs'32. -\tenuto

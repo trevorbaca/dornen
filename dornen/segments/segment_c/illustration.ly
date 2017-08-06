@@ -240,13 +240,22 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
+                            \set Staff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Guitar
+                                }
+                            \set Staff.shortInstrumentName = \markup {
+                                \null
+                                }
+                            \clef "treble"
                             \override Beam.positions = #'(9 . 9)
-                            f,32 * 1984/1024 [
-                            a,32 * 1088/1024
-                            b,32 * 896/1024
-                            bf,32 * 800/1024
-                            c32 * 704/1024
-                            fs32 * 672/1024 ]
+                            f32 * 1984/1024 [
+                            a32 * 1088/1024
+                            b32 * 896/1024
+                            bf32 * 800/1024
+                            c'32 * 704/1024
+                            fs'32 * 672/1024 ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -282,11 +291,11 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
-                            g32 * 384/1024 [
-                            af32 * 768/1024
-                            d32 * 1088/1024
-                            cs32 * 1344/1024
-                            ef32 * 1536/1024 ]
+                            g'32 * 384/1024 [
+                            af'32 * 768/1024
+                            d'32 * 1088/1024
+                            cs'32 * 1344/1024
+                            ef'32 * 1536/1024 ]
                         }
                         \revert TupletNumber.text
                     }
@@ -323,12 +332,12 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
-                            f64 * 2048/1024 [
-                            a64 * 1088/1024
-                            b64 * 896/1024
-                            bf64 * 768/1024
-                            c'64 * 704/1024
-                            fs64 * 640/1024 ]
+                            f'64 * 2048/1024 [
+                            a'64 * 1088/1024
+                            b'64 * 896/1024
+                            bf'64 * 768/1024
+                            c''64 * 704/1024
+                            fs'64 * 640/1024 ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -364,11 +373,11 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
-                            g64 * 384/1024 [
-                            af64 * 768/1024
-                            d'64 * 1088/1024
-                            cs'64 * 1344/1024
-                            ef'64 * 1536/1024 ]
+                            g'64 * 384/1024 [
+                            af'64 * 768/1024
+                            d''64 * 1088/1024
+                            cs''64 * 1344/1024
+                            ef''64 * 1536/1024 ]
                         }
                         \revert TupletNumber.text
                     }
@@ -406,17 +415,17 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
-                            f'64 * 2560/1024 [
-                            a64 * 1344/1024
-                            b64 * 1088/1024
-                            bf'64 * 960/1024
-                            c'64 * 896/1024
-                            fs'64 * 832/1024
-                            g'64 * 768/1024
-                            af'64 * 768/1024
-                            d'64 * 704/1024
-                            cs''64 * 704/1024
-                            ef'64 * 640/1024 ]
+                            f''64 * 2560/1024 [
+                            a'64 * 1344/1024
+                            b'64 * 1088/1024
+                            bf''64 * 960/1024
+                            c''64 * 896/1024
+                            fs''64 * 832/1024
+                            g''64 * 768/1024
+                            af''64 * 768/1024
+                            d''64 * 704/1024
+                            cs'''64 * 704/1024
+                            ef''64 * 640/1024 ]
                             \revert Beam.positions
                         }
                         \revert TupletNumber.text
@@ -456,9 +465,9 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
-                            ef32 * 512/1024 [
-                            fs,32 * 1088/1024
-                            a,32 * 1472/1024 ]
+                            ef'32 * 512/1024 [
+                            fs32 * 1088/1024
+                            a32 * 1472/1024 ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -493,15 +502,97 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
-                            b,32 * 1312/1024 [
-                            bf32 * 736/1024 ]
+                            b32 * 1312/1024 [
+                            bf'32 * 736/1024 ]
                         }
                         \revert TupletNumber.text
                         {
-                            c32
+                            c'32
                         }
                     }
                     s1 * 531/320
+                    {
+                        \override TupletNumber.text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner.spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'8 ~
+                                                c'32
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam.grow-direction = #right
+                            g'32 * 1856/1024 [
+                            af'32 * 1024/1024
+                            d''32 * 832/1024
+                            cs''32 * 736/1024
+                            ef''32 * 672/1024 ]
+                        }
+                        \revert TupletNumber.text
+                        \override TupletNumber.text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner.spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem.direction = #up
+                                                \override Stem.length = #5
+                                                \override TupletBracket.bracket-visibility = ##t
+                                                \override TupletBracket.direction = #up
+                                                \override TupletBracket.padding = #1.25
+                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'8
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam.grow-direction = #left
+                            g''32 * 416/1024 [
+                            af''32 * 896/1024
+                            d''32 * 1248/1024
+                            cs'''32 * 1536/1024 ]
+                        }
+                        \revert TupletNumber.text
+                    }
+                    s1 * 1/8
+                    \revert Beam.positions
                     {
                         \override TupletNumber.text = \markup {
                             \scale
@@ -581,88 +672,6 @@
                             cs''32 * 1536/1024 ]
                         }
                         \revert TupletNumber.text
-                    }
-                    s1 * 1/8
-                    \revert Beam.positions
-                    {
-                        \override TupletNumber.text = \markup {
-                            \scale
-                                #'(0.75 . 0.75)
-                                \score
-                                    {
-                                        \new Score \with {
-                                            \override SpacingSpanner.spacing-increment = #0.5
-                                            proportionalNotationDuration = ##f
-                                        } <<
-                                            \new RhythmicStaff \with {
-                                                \remove Time_signature_engraver
-                                                \remove Staff_symbol_engraver
-                                                \override Stem.direction = #up
-                                                \override Stem.length = #5
-                                                \override TupletBracket.bracket-visibility = ##t
-                                                \override TupletBracket.direction = #up
-                                                \override TupletBracket.padding = #1.25
-                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                tupletFullLength = ##t
-                                            } {
-                                                c'8 ~
-                                                c'32
-                                            }
-                                        >>
-                                        \layout {
-                                            indent = #0
-                                            ragged-right = ##t
-                                        }
-                                    }
-                            }
-                        \times 1/1 {
-                            \once \override Beam.grow-direction = #right
-                            g,32 * 1856/1024 [
-                            af,32 * 1024/1024
-                            d32 * 832/1024
-                            cs32 * 736/1024
-                            ef32 * 672/1024 ]
-                        }
-                        \revert TupletNumber.text
-                        \override TupletNumber.text = \markup {
-                            \scale
-                                #'(0.75 . 0.75)
-                                \score
-                                    {
-                                        \new Score \with {
-                                            \override SpacingSpanner.spacing-increment = #0.5
-                                            proportionalNotationDuration = ##f
-                                        } <<
-                                            \new RhythmicStaff \with {
-                                                \remove Time_signature_engraver
-                                                \remove Staff_symbol_engraver
-                                                \override Stem.direction = #up
-                                                \override Stem.length = #5
-                                                \override TupletBracket.bracket-visibility = ##t
-                                                \override TupletBracket.direction = #up
-                                                \override TupletBracket.padding = #1.25
-                                                \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                                                \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                                                tupletFullLength = ##t
-                                            } {
-                                                c'8
-                                            }
-                                        >>
-                                        \layout {
-                                            indent = #0
-                                            ragged-right = ##t
-                                        }
-                                    }
-                            }
-                        \times 1/1 {
-                            \once \override Beam.grow-direction = #left
-                            g32 * 416/1024 [
-                            af32 * 896/1024
-                            d32 * 1248/1024
-                            cs'32 * 1536/1024 ]
-                        }
-                        \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -695,9 +704,9 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
-                            ef'32 * 1568/1024 [
-                            fs32 * 832/1024
-                            a32 * 672/1024 ]
+                            ef''32 * 1568/1024 [
+                            fs'32 * 832/1024
+                            a'32 * 672/1024 ]
                         }
                         \revert TupletNumber.text
                     }
@@ -712,16 +721,16 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             \override Beam.positions = #'(-12 . -12)
-                            g16 [ \glissando - \markup { "AttachCommand(arguments=[Markup(contents=[MarkupCommand('whiteout', MarkupCommand('upright', 'glissando: attack first note only'))], direction=Up)], selector=Selector(callbacks=(LogicalTieSelectorCallback(flatten=False, pitched=True, trivial=True), SliceSelectorCallback(apply_to_each=True), FlattenSelectorCallback(depth=1), SliceSelectorCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=True), WrapSelectionCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False))))" }
+                            g'16 [ \glissando - \markup { "AttachCommand(arguments=[Markup(contents=[MarkupCommand('whiteout', MarkupCommand('upright', 'glissando: attack first note only'))], direction=Up)], selector=Selector(callbacks=(LogicalTieSelectorCallback(flatten=False, pitched=True, trivial=True), SliceSelectorCallback(apply_to_each=True), FlattenSelectorCallback(depth=1), SliceSelectorCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=True), WrapSelectionCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False))))" }
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            af'16 \glissando
+                            af''16 \glissando
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            d'16 \glissando
+                            d''16 \glissando
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
-                            cs''32
+                            cs'''32
                             \revert Beam.positions
                         }
                     }
@@ -730,13 +739,13 @@
                         \times 2/3 {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
-                            ef'16 \glissando
+                            ef''16 \glissando
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            fs'16 \glissando
+                            fs''16 \glissando
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
-                            a16
+                            a'16
                         }
                     }
                     s1 * 3/8
@@ -744,10 +753,10 @@
                         {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
-                            b16 \glissando
+                            b'16 \glissando
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            bf'16 ]
+                            bf''16 ]
                         }
                     }
                     s1 * 531/320
@@ -760,232 +769,36 @@
                         \times 5/6 {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #4
-                            f'64 [ (
+                            f''64 [ (
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            b'64
+                            b''64
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            bf'64
+                            bf''64
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            c'64
+                            c''64
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            f'64
+                            f''64
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            a64
+                            a'64
                         }
                         \times 4/5 {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            af64 )
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            d'64 (
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            cs'64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            ef'64 )
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
-                            fs64 (
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
-                            g64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            d64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            cs64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
-                            ef64 )
-                        }
-                    }
-                    {
-                        \times 4/5 {
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
-                            af64 (
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            d64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            cs64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            ef64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
-                            fs64
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
-                            g64 )
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            d'64 (
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            cs'64 )
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
-                            ef'64 (
-                        }
-                        \times 2/3 {
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
-                            fs'64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            g'64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
                             af'64 )
-                        }
-                    }
-                    s1 * 47/40
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
-                            g64 (
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            d64
+                            d''64 (
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            cs64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
-                            ef64
-                        }
-                        \times 2/3 {
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
-                            fs64 )
+                            cs''64
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            g64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
-                            af64 (
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 5/6 {
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
-                            f'64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            a64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            b64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            bf64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            c'64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #0
-                            fs'64 ] )
-                        }
-                    }
-                    s1 * 29/32
-                    {
-                        {
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #4
-                            c'64 [ (
-                        }
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 5/6 {
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
-                            f'64 )
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            b64 (
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            bf64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            c'64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            f'64 )
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
-                            a64 (
-                        }
-                        \times 4/5 {
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
-                            af64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            d'64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            cs'64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            ef64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
-                            fs64 )
-                        }
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 5/6 {
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
-                            f64 (
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            b,64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            bf64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            c'64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            f64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
-                            a64
-                        }
-                        \times 4/5 {
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
-                            af64 )
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            d'64 (
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            cs'64
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
-                            ef'64 )
+                            ef''64 )
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
                             fs'64 (
@@ -1006,50 +819,246 @@
                             ef'64 )
                         }
                     }
-                    s1 * 47/40
                     {
                         \times 4/5 {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            af64 (
+                            af'64 (
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            d64
+                            d'64
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            cs64
+                            cs'64
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            ef64
+                            ef'64
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            fs64
+                            fs'64
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            g64 )
+                            g'64 )
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            d'64 (
+                            d''64 (
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            cs'64 )
+                            cs''64 )
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            ef'64 (
+                            ef''64 (
                         }
                         \times 2/3 {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            fs'64
+                            fs''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            g''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            af''64 )
+                        }
+                    }
+                    s1 * 47/40
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            g'64 (
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            cs'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            ef'64
+                        }
+                        \times 2/3 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs'64 )
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
                             g'64
                             \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            af'64 (
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 5/6 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            f''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            a'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            b'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bf'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            c''64
+                            \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #0
-                            af'64 ] )
+                            fs''64 ] )
+                        }
+                    }
+                    s1 * 29/32
+                    {
+                        {
+                            \set stemLeftBeamCount = #0
+                            \set stemRightBeamCount = #4
+                            c''64 [ (
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 5/6 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            f''64 )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            b'64 (
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bf'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            c''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f''64 )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            a'64 (
+                        }
+                        \times 4/5 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            af'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            cs''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            ef'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fs'64 )
+                        }
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 5/6 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            f'64 (
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            b64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            bf'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            c''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            f'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            a'64
+                        }
+                        \times 4/5 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            af'64 )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64 (
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            cs''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            ef''64 )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fs''64 (
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            g''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            cs''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            ef''64 )
+                        }
+                    }
+                    s1 * 47/40
+                    {
+                        \times 4/5 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            af'64 (
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            cs'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            ef'64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            fs'64
+                        }
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            g'64 )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            d''64 (
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            cs''64 )
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #1
+                            ef''64 (
+                        }
+                        \times 2/3 {
+                            \set stemLeftBeamCount = #1
+                            \set stemRightBeamCount = #4
+                            fs''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #4
+                            g''64
+                            \set stemLeftBeamCount = #4
+                            \set stemRightBeamCount = #0
+                            af''64 ] )
                             \bar "|"
                         }
                     }
@@ -1070,7 +1079,7 @@
                             \override TupletBracket.staff-padding = #0
                             \override TupletBracket.extra-offset = #'(0 . -0.5)
                             \override TupletNumber.extra-offset = #'(0 . -0.5)
-                            gf,2 :32
+                            gf2 :32
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -1081,7 +1090,7 @@
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf,2 :32 \repeatTie
+                            gf2 :32 \repeatTie
                             \revert Stem.direction
                             \revert TupletBracket.staff-padding
                             \revert TupletBracket.extra-offset
@@ -1103,7 +1112,7 @@
                             \override TupletBracket.staff-padding = #0
                             \override TupletBracket.extra-offset = #'(0 . -0.5)
                             \override TupletNumber.extra-offset = #'(0 . -0.5)
-                            gf,2 :32
+                            gf2 :32
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -1114,7 +1123,7 @@
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf,2 :32 \repeatTie
+                            gf2 :32 \repeatTie
                             \revert Stem.direction
                             \revert TupletBracket.staff-padding
                             \revert TupletBracket.extra-offset

@@ -223,6 +223,15 @@
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
                     {
                         {
+                            \set Staff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Guitar
+                                }
+                            \set Staff.shortInstrumentName = \markup {
+                                \null
+                                }
+                            \clef "treble"
                             r8
                             r8
                             r8
@@ -231,7 +240,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf,2 :32 \< \ppp
+                            gf2 :32 \< \ppp
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -242,37 +251,37 @@
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf,2 :32 \repeatTie
+                            gf2 :32 \repeatTie
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf,2 :32 \repeatTie \pp
+                            gf2 :32 \repeatTie \pp
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gf,2 :32 \repeatTie \> \pp
+                            gf2 :32 \repeatTie \> \pp
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gf,2 :32 \repeatTie \ppp
+                            gf2 :32 \repeatTie \ppp
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gf,2 :32 \repeatTie
+                            gf2 :32 \repeatTie
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf,2 :32 \repeatTie \< \ppp
+                            gf2 :32 \repeatTie \< \ppp
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -285,31 +294,31 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf,2 :32 \repeatTie \p
+                            gf2 :32 \repeatTie \p
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gf,2 :32 \repeatTie \> \p
+                            gf2 :32 \repeatTie \> \p
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gf,2 :32 \repeatTie \ppp
+                            gf2 :32 \repeatTie \ppp
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gf,2 :32 \repeatTie
+                            gf2 :32 \repeatTie
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf,2 :32 \repeatTie \< \ppp
+                            gf2 :32 \repeatTie \< \ppp
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -322,55 +331,55 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf,2 :32 \repeatTie \pp
+                            gf2 :32 \repeatTie \pp
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gf,2 :32 \repeatTie \< \pp
+                            gf2 :32 \repeatTie \< \pp
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf,2 :32 \repeatTie \p
+                            gf2 :32 \repeatTie \p
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gf,2 :32 \repeatTie \< \p
+                            gf2 :32 \repeatTie \< \p
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf,2 :32 \repeatTie \mp
+                            gf2 :32 \repeatTie \mp
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gf,2 :32 \repeatTie \> \mp
+                            gf2 :32 \repeatTie \> \mp
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gf,2 :32 \repeatTie
+                            gf2 :32 \repeatTie
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            gf,2 :32 \repeatTie
+                            gf2 :32 \repeatTie
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf,2 :32 \repeatTie
+                            gf2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -381,13 +390,13 @@
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf,2 :32 \repeatTie \pp
+                            gf2 :32 \repeatTie \pp
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf,2 :32 \repeatTie
+                            gf2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
                                         \override
@@ -398,7 +407,7 @@
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            gf,2 :32 \repeatTie
+                            gf2 :32 \repeatTie
                             \bar "|"
                         }
                     }

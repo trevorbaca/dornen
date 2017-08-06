@@ -443,11 +443,20 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
+                            \set Staff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Guitar
+                                }
+                            \set Staff.shortInstrumentName = \markup {
+                                \null
+                                }
+                            \clef "treble"
                             \override Beam.positions = #'(10 . 10)
-                            d32. -\tenuto [ - \markup { "AttachCommand(arguments=[Markup(contents=[MarkupCommand('whiteout', MarkupCommand('upright', 'LH only until rascado! (RH tacet; encourage whisks) ...'))], direction=Up)], selector=Selector(callbacks=(LogicalTieSelectorCallback(flatten=False, pitched=True, trivial=True), SliceSelectorCallback(apply_to_each=True), FlattenSelectorCallback(depth=1), SliceSelectorCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=True), WrapSelectionCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False))))" }
+                            d'32. -\tenuto [ - \markup { "AttachCommand(arguments=[Markup(contents=[MarkupCommand('whiteout', MarkupCommand('upright', 'LH only until rascado! (RH tacet; encourage whisks) ...'))], direction=Up)], selector=Selector(callbacks=(LogicalTieSelectorCallback(flatten=False, pitched=True, trivial=True), SliceSelectorCallback(apply_to_each=True), FlattenSelectorCallback(depth=1), SliceSelectorCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=True), WrapSelectionCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False))))" }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
-                            cs32. -\tenuto
+                            cs'32. -\tenuto
                         }
                     }
                     s1 * 39/80
@@ -455,10 +464,10 @@
                         {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
-                            ef32. -\tenuto
+                            ef'32. -\tenuto
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            fs32. -\tenuto ]
+                            fs'32. -\tenuto ]
                         }
                     }
                     {
@@ -470,10 +479,10 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            d32. -\tenuto [ - \markup { "AttachCommand(arguments=[Markup(contents=[MarkupCommand('whiteout', MarkupCommand('upright', 'RH reaches for screw ...'))], direction=Up)], selector=Selector(callbacks=(LogicalTieSelectorCallback(flatten=False, pitched=True, trivial=True), SliceSelectorCallback(apply_to_each=True), FlattenSelectorCallback(depth=1), SliceSelectorCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=True), WrapSelectionCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False))))" }
+                            d'32. -\tenuto [ - \markup { "AttachCommand(arguments=[Markup(contents=[MarkupCommand('whiteout', MarkupCommand('upright', 'RH reaches for screw ...'))], direction=Up)], selector=Selector(callbacks=(LogicalTieSelectorCallback(flatten=False, pitched=True, trivial=True), SliceSelectorCallback(apply_to_each=True), FlattenSelectorCallback(depth=1), SliceSelectorCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=True), WrapSelectionCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False))))" }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
-                            cs32. -\tenuto
+                            cs'32. -\tenuto
                         }
                     }
                     s1 * 39/80
@@ -481,10 +490,10 @@
                         {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
-                            ef32. -\tenuto
+                            ef'32. -\tenuto
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            fs32. -\tenuto ]
+                            fs'32. -\tenuto ]
                         }
                     }
                     {
@@ -496,10 +505,10 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            d32. -\tenuto [ - \markup { "AttachCommand(arguments=[Markup(contents=[MarkupCommand('whiteout', MarkupCommand('upright', 'RH places screw on string ...'))], direction=Up)], selector=Selector(callbacks=(LogicalTieSelectorCallback(flatten=False, pitched=True, trivial=True), SliceSelectorCallback(apply_to_each=True), FlattenSelectorCallback(depth=1), SliceSelectorCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=True), WrapSelectionCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False))))" }
+                            d'32. -\tenuto [ - \markup { "AttachCommand(arguments=[Markup(contents=[MarkupCommand('whiteout', MarkupCommand('upright', 'RH places screw on string ...'))], direction=Up)], selector=Selector(callbacks=(LogicalTieSelectorCallback(flatten=False, pitched=True, trivial=True), SliceSelectorCallback(apply_to_each=True), FlattenSelectorCallback(depth=1), SliceSelectorCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=True), WrapSelectionCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False))))" }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
-                            cs32. -\tenuto
+                            cs'32. -\tenuto
                         }
                     }
                     s1 * 39/80
@@ -507,10 +516,10 @@
                         {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
-                            ef32. -\tenuto
+                            ef'32. -\tenuto
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            fs32. -\tenuto ]
+                            fs'32. -\tenuto ]
                         }
                     }
                     {
@@ -522,10 +531,10 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            d32. -\tenuto [
+                            d'32. -\tenuto [
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
-                            cs32. -\tenuto
+                            cs'32. -\tenuto
                         }
                     }
                     s1 * 39/80
@@ -533,10 +542,10 @@
                         {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
-                            ef32. -\tenuto
+                            ef'32. -\tenuto
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            fs32. -\tenuto ]
+                            fs'32. -\tenuto ]
                         }
                     }
                     {
@@ -548,10 +557,10 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            d32. -\tenuto [
+                            d'32. -\tenuto [
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
-                            cs32. -\tenuto
+                            cs'32. -\tenuto
                         }
                     }
                     s1 * 39/80
@@ -559,10 +568,10 @@
                         {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
-                            ef32. -\tenuto
+                            ef'32. -\tenuto
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            fs32. -\tenuto ]
+                            fs'32. -\tenuto ]
                         }
                     }
                     {
@@ -572,8 +581,8 @@
                     }
                     {
                         {
-                            d32. -\tenuto [
-                            cs32. -\tenuto ]
+                            d'32. -\tenuto [
+                            cs'32. -\tenuto ]
                         }
                     }
                     s1 * 39/80
@@ -591,19 +600,19 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                            e,2 :32 \p - \markup { "AttachCommand(arguments=[Markup(contents=[MarkupCommand('whiteout', MarkupCommand('upright', 'RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke.'))], direction=Up)], selector=Selector(callbacks=(LogicalTieSelectorCallback(flatten=False, pitched=True, trivial=True), SliceSelectorCallback(apply_to_each=True), FlattenSelectorCallback(depth=1), SliceSelectorCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=True), WrapSelectionCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False))))" }
-                            e,2 :32 \repeatTie
-                            e,2 :32 \repeatTie
-                            e,2 :32 \repeatTie
-                            e,2 :32 \repeatTie
-                            e,2 :32 \repeatTie
-                            e,2 :32 \repeatTie
-                            e,2 :32 \repeatTie
-                            e,2 :32 \repeatTie
-                            e,2 :32 \repeatTie
-                            e,2 :32 \repeatTie
-                            e,2 :32 \repeatTie
-                            e,2 :32 \repeatTie
+                            e2 :32 \p - \markup { "AttachCommand(arguments=[Markup(contents=[MarkupCommand('whiteout', MarkupCommand('upright', 'RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke.'))], direction=Up)], selector=Selector(callbacks=(LogicalTieSelectorCallback(flatten=False, pitched=True, trivial=True), SliceSelectorCallback(apply_to_each=True), FlattenSelectorCallback(depth=1), SliceSelectorCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=True), WrapSelectionCallback(apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False), ItemSelectorCallback(item=0, apply_to_each=False))))" }
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
+                            e2 :32 \repeatTie
                             \bar "|."
                         }
                     }
@@ -615,16 +624,16 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            e'32 [ (
+                            e''32 [ (
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            bf'32
+                            bf''32
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            g'32
+                            g''32
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            c''32 ] )
+                            c'''32 ] )
                         }
                     }
                     s1 * 93/160
@@ -632,16 +641,16 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            e'32 [ (
+                            e''32 [ (
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            bf'32
+                            bf''32
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            g'32
+                            g''32
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            c''32 ] )
+                            c'''32 ] )
                         }
                     }
                     s1 * 93/160
@@ -649,16 +658,16 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            e'32 [ (
+                            e''32 [ (
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            bf'32
+                            bf''32
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            g'32
+                            g''32
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            c''32 ] )
+                            c'''32 ] )
                         }
                     }
                     s1 * 93/160
@@ -666,16 +675,16 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            e'32 [ (
+                            e''32 [ (
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            bf'32
+                            bf''32
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            g'32
+                            g''32
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            c''32 ] )
+                            c'''32 ] )
                         }
                     }
                     s1 * 93/160
@@ -683,16 +692,16 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            e'32 [ (
+                            e''32 [ (
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            bf'32
+                            bf''32
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            g'32
+                            g''32
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            c''32 ] )
+                            c'''32 ] )
                         }
                     }
                     s1 * 93/160
@@ -700,16 +709,16 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            e'32 [ (
+                            e''32 [ (
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            bf'32
+                            bf''32
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            g'32
+                            g''32
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            c''32 ] )
+                            c'''32 ] )
                         }
                     }
                     s1 * 119/24
@@ -721,37 +730,37 @@
                     s1 * 39/160
                     {
                         {
-                            c16 -\accent
+                            c'16 -\accent
                         }
                     }
                     s1 * 103/160
                     {
                         {
-                            c16 -\accent
+                            c'16 -\accent
                         }
                     }
                     s1 * 103/160
                     {
                         {
-                            c16 -\accent
+                            c'16 -\accent
                         }
                     }
                     s1 * 103/160
                     {
                         {
-                            c16 -\accent
+                            c'16 -\accent
                         }
                     }
                     s1 * 103/160
                     {
                         {
-                            c16 -\accent
+                            c'16 -\accent
                         }
                     }
                     s1 * 103/160
                     {
                         {
-                            c16 -\accent
+                            c'16 -\accent
                         }
                     }
                     s1 * 157/30
@@ -766,13 +775,13 @@
                         \times 4/5 {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            b16 -\staccato [
+                            b'16 -\staccato [
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            a16 -\staccato
+                            a'16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
-                            g'16 -\staccato
+                            g''16 -\staccato
                         }
                     }
                     s1 * 1/16
@@ -783,13 +792,13 @@
                             \set stemRightBeamCount = #2
                             \override Beam.positions = #'(6 . 6)
                             \override Stem.direction = #up
-                            ef'16 -\staccato
+                            ef''16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            fs'16 -\staccato
+                            fs''16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            f'16 -\staccato ]
+                            f''16 -\staccato ]
                             \revert Beam.positions
                             \revert Stem.direction
                         }
@@ -800,13 +809,13 @@
                         \times 4/5 {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            b16 -\staccato [
+                            b'16 -\staccato [
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            a16 -\staccato
+                            a'16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
-                            g'16 -\staccato
+                            g''16 -\staccato
                         }
                     }
                     s1 * 1/16
@@ -817,13 +826,13 @@
                             \set stemRightBeamCount = #2
                             \override Beam.positions = #'(6 . 6)
                             \override Stem.direction = #up
-                            ef'16 -\staccato
+                            ef''16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            fs'16 -\staccato
+                            fs''16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            f'16 -\staccato ]
+                            f''16 -\staccato ]
                             \revert Beam.positions
                             \revert Stem.direction
                         }
@@ -834,13 +843,13 @@
                         \times 4/5 {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            b16 -\staccato [
+                            b'16 -\staccato [
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            a16 -\staccato
+                            a'16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
-                            g'16 -\staccato
+                            g''16 -\staccato
                         }
                     }
                     s1 * 1/16
@@ -851,13 +860,13 @@
                             \set stemRightBeamCount = #2
                             \override Beam.positions = #'(6 . 6)
                             \override Stem.direction = #up
-                            ef'16 -\staccato
+                            ef''16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            fs'16 -\staccato
+                            fs''16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            f'16 -\staccato ]
+                            f''16 -\staccato ]
                             \revert Beam.positions
                             \revert Stem.direction
                         }
@@ -868,13 +877,13 @@
                         \times 4/5 {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            b16 -\staccato [
+                            b'16 -\staccato [
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            a16 -\staccato
+                            a'16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
-                            g'16 -\staccato
+                            g''16 -\staccato
                         }
                     }
                     s1 * 1/16
@@ -885,13 +894,13 @@
                             \set stemRightBeamCount = #2
                             \override Beam.positions = #'(6 . 6)
                             \override Stem.direction = #up
-                            ef'16 -\staccato
+                            ef''16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            fs'16 -\staccato
+                            fs''16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            f'16 -\staccato ]
+                            f''16 -\staccato ]
                             \revert Beam.positions
                             \revert Stem.direction
                         }
@@ -902,13 +911,13 @@
                         \times 4/5 {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            b16 -\staccato [
+                            b'16 -\staccato [
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            a16 -\staccato
+                            a'16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
-                            g'16 -\staccato
+                            g''16 -\staccato
                         }
                     }
                     s1 * 1/16
@@ -919,13 +928,13 @@
                             \set stemRightBeamCount = #2
                             \override Beam.positions = #'(6 . 6)
                             \override Stem.direction = #up
-                            ef'16 -\staccato
+                            ef''16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            fs'16 -\staccato
+                            fs''16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            f'16 -\staccato ]
+                            f''16 -\staccato ]
                             \revert Beam.positions
                             \revert Stem.direction
                         }
@@ -936,13 +945,13 @@
                         \times 4/5 {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            b16 -\staccato [
+                            b'16 -\staccato [
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            a16 -\staccato
+                            a'16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
-                            g'16 -\staccato
+                            g''16 -\staccato
                         }
                     }
                     s1 * 1/16
@@ -953,13 +962,13 @@
                             \set stemRightBeamCount = #2
                             \override Beam.positions = #'(6 . 6)
                             \override Stem.direction = #up
-                            ef'16 -\staccato
+                            ef''16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            fs'16 -\staccato
+                            fs''16 -\staccato
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            f'16 -\staccato ]
+                            f''16 -\staccato ]
                             \revert Beam.positions
                             \revert Stem.direction
                         }

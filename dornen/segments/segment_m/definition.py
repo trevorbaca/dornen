@@ -347,6 +347,7 @@ segment_maker = baca.SegmentMaker(
     final_markup=dornen.tools.make_final_markup(),
     final_markup_extra_offset=(128, -4),
     #ignore_repeat_pitch_classes=True,
+    instruments=dornen.materials.instruments,
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,

@@ -204,6 +204,7 @@ measures_per_stage = len(accumulator.time_signatures) * [1]
 segment_maker = baca.SegmentMaker(
     #allow_figure_names=True,
     ignore_repeat_pitch_classes=True,
+    instruments=dornen.materials.instruments,
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,

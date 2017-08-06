@@ -154,16 +154,25 @@
         \context MusicContext = "Music Context" {
             \context GuitarMusicStaff = "Guitar Music Staff" <<
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Guitar
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \null
+                        }
+                    \clef "treble"
                     s1 * 7/32
                     {
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             \override Beam.positions = #'(8 . 8)
-                            g16 [ \glissando
+                            g'16 [ \glissando
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            c''16 ]
+                            c'''16 ]
                             \revert Beam.positions
                         }
                     }
@@ -174,22 +183,22 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             \override Beam.positions = #'(12 . 12)
-                            af16 [ \glissando
+                            af'16 [ \glissando
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            f'16 \glissando
+                            f''16 \glissando
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            cs'16 \glissando
+                            cs''16 \glissando
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #2
-                            b'32 \glissando
+                            b''32 \glissando
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            c'16 \glissando
+                            c''16 \glissando
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
-                            af'16
+                            af''16
                             \revert Beam.positions
                         }
                     }
@@ -199,16 +208,16 @@
                         \times 5/7 {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
-                            b16 \glissando
+                            b'16 \glissando
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            cs''16 \glissando
+                            cs'''16 \glissando
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            e16 \glissando
+                            e'16 \glissando
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            af'32 ]
+                            af''32 ]
                             \bar "|"
                         }
                     }
@@ -219,14 +228,14 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
                             \override Beam.positions = #'(-7.5 . -7.5)
-                            b,8. [
+                            b8. [
                             \acciaccatura {
-                                ef16 [
-                                fs16 ]
+                                ef'16 [
+                                fs'16 ]
                             }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            a,32 ]
+                            a32 ]
                             \revert Beam.positions
                         }
                     }
@@ -236,16 +245,16 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
                             \override Beam.positions = #'(-7.5 . -7.5)
-                            e8. [
+                            e'8. [
                             \acciaccatura {
-                                a16 [
-                                g16
-                                bf16
-                                ef'16 ]
+                                a'16 [
+                                g'16
+                                bf'16
+                                ef''16 ]
                             }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
-                            d'32
+                            d''32
                             \revert Beam.positions
                         }
                     }
@@ -254,16 +263,16 @@
                         {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
-                            a8.
+                            a'8.
                             \acciaccatura {
-                                ef'16 [
-                                c'16
-                                d'16
-                                g'16 ]
+                                ef''16 [
+                                c''16
+                                d''16
+                                g''16 ]
                             }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            bf'32 ]
+                            bf''32 ]
                         }
                     }
                     s1 * 5/32
@@ -276,22 +285,37 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             \override Beam.positions = #'(-7.5 . -7.5)
-                            cs''32 -\staccato [
+                            cs'''32 -\staccato [
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            c''32 -\staccato
+                            c'''32 -\staccato
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            d'32 -\staccato
+                            d''32 -\staccato
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            g'32 -\staccato
+                            g''32 -\staccato
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            b'32 -\staccato
+                            b''32 -\staccato
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            bf'32 -\staccato
+                            bf''32 -\staccato
+                            \set stemLeftBeamCount = #3
+                            \set stemRightBeamCount = #3
+                            e''32 -\staccato
+                            \set stemLeftBeamCount = #3
+                            \set stemRightBeamCount = #3
+                            ef''32 -\staccato
+                            \set stemLeftBeamCount = #3
+                            \set stemRightBeamCount = #3
+                            f''32 -\staccato
+                            \set stemLeftBeamCount = #3
+                            \set stemRightBeamCount = #3
+                            af'32 -\staccato
+                            \set stemLeftBeamCount = #3
+                            \set stemRightBeamCount = #3
+                            a'32 -\staccato
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             e'32 -\staccato
@@ -303,43 +327,28 @@
                             f'32 -\staccato
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            af32 -\staccato
+                            af'32 -\staccato
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            a32 -\staccato
+                            a'32 -\staccato
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            e32 -\staccato
+                            bf'32 -\staccato
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            ef32 -\staccato
+                            c'32 -\staccato
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            f32 -\staccato
+                            d'32 -\staccato
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            af32 -\staccato
+                            g'32 -\staccato
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            a32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            bf32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            c32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            d32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            g32 -\staccato
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
-                            b,32 -\staccato
+                            b32 -\staccato
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            cs32 -\staccato ]
+                            cs'32 -\staccato ]
                             \revert Beam.positions
                         }
                     }
@@ -349,22 +358,22 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             \override Beam.positions = #'(-6 . -6)
-                            af'32 -\staccato [
+                            af''32 -\staccato [
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            bf'32 -\staccato
+                            bf''32 -\staccato
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            b32 -\staccato
+                            b'32 -\staccato
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            cs'32 -\staccato
+                            cs''32 -\staccato
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            e32 -\staccato
+                            e'32 -\staccato
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            g32 -\staccato ]
+                            g'32 -\staccato ]
                             \revert Beam.positions
                         }
                     }
@@ -380,13 +389,13 @@
                         \times 8/7 {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            f16 [
+                            f'16 [
                             \acciaccatura {
-                                e16
+                                e'16
                             }
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
-                            bf,16
+                            bf16
                         }
                     }
                     s1 * 11/16
@@ -396,55 +405,7 @@
                         \times 8/7 {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
-                            d16
-                            \acciaccatura {
-                                g16
-                            }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            b,16
-                            \acciaccatura {
-                                cs16
-                            }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            c16
-                            \acciaccatura {
-                                ef16
-                            }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            f16
-                            \acciaccatura {
-                                af16
-                            }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            a16
-                            \acciaccatura {
-                                bf16
-                            }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            e16
-                            \acciaccatura {
-                                f16
-                            }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            af16
-                            \acciaccatura {
-                                a16
-                            }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            bf16
-                            \acciaccatura {
-                                e'16
-                            }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
-                            ef'16
+                            d'16
                             \acciaccatura {
                                 g'16
                             }
@@ -457,9 +418,57 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             c'16
+                            \acciaccatura {
+                                ef'16
+                            }
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            f'16
+                            \acciaccatura {
+                                af'16
+                            }
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            a'16
+                            \acciaccatura {
+                                bf'16
+                            }
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            e'16
+                            \acciaccatura {
+                                f'16
+                            }
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            af'16
+                            \acciaccatura {
+                                a'16
+                            }
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            bf'16
+                            \acciaccatura {
+                                e''16
+                            }
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            ef''16
+                            \acciaccatura {
+                                g''16
+                            }
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            b'16
+                            \acciaccatura {
+                                cs''16
+                            }
+                            \set stemLeftBeamCount = #2
+                            \set stemRightBeamCount = #2
+                            c''16
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            d'16 ]
+                            d''16 ]
                         }
                     }
                     s1 * 1/2
@@ -469,10 +478,10 @@
                         \times 8/7 {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            f'16 [
+                            f''16 [
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
-                            d'16
+                            d''16
                         }
                     }
                     s1 * 3/16
@@ -482,22 +491,22 @@
                         \times 8/7 {
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
-                            fs'16
+                            fs''16
                             \acciaccatura {
-                                a'16
+                                a''16
                             }
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            ef'16
+                            ef''16
                             \acciaccatura {
-                                c''16
+                                c'''16
                             }
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            d''16
+                            d'''16
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            fs'16 ]
+                            fs''16 ]
                         }
                     }
                     s1 * 3/8

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import abjad
 import baca
+import dornen
 
 
 class ScoreTemplate(baca.ScoreTemplate):
@@ -9,6 +10,54 @@ class ScoreTemplate(baca.ScoreTemplate):
     ::
 
         >>> import dornen
+
+    ..  container:: example
+
+        ::
+
+            >>> template = dornen.tools.ScoreTemplate()
+            >>> lilypond_file = template.__illustrate__()
+            >>> path = '/Users/trevorbaca/Scores/dornen/dornen'
+            >>> path += '/stylesheets/context-definitions.ily'
+            >>> lilypond_file = abjad.new(
+            ...     lilypond_file,
+            ...     global_staff_size=16,
+            ...     includes=[path],
+            ...     )
+            >>> show(lilypond_file) # doctest: +SKIP
+
+        ::
+
+            >>> f(lilypond_file[abjad.Score])
+            \context Score = "Score" <<
+                \context TimeSignatureContext = "Time Signature Context" <<
+                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                    }
+                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    }
+                >>
+                \context MusicContext = "Music Context" {
+                    \context GuitarMusicStaff = "Guitar Music Staff" <<
+                        \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
+                            \set Staff.instrumentName = \markup { Guitar }
+                            \set Staff.shortInstrumentName = \markup {
+                                \null
+                                }
+                            \clef "treble"
+                            s1
+                        }
+                        \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
+                            s1
+                        }
+                        \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
+                            s1
+                        }
+                        \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
+                            s1
+                        }
+                    >>
+                }
+            >>
 
     '''
 
@@ -26,42 +75,9 @@ class ScoreTemplate(baca.ScoreTemplate):
     def __call__(self):
         r'''Calls score template.
 
-        ..  container:: example
-
-            Calls score template:
-
-            ::
-
-                >>> template = dornen.tools.ScoreTemplate()
-                >>> score = template()
-
-            ::
-
-                >>> f(score)
-                \context Score = "Score" <<
-                    \context TimeSignatureContext = "Time Signature Context" <<
-                        \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
-                        }
-                        \context TimeSignatureContextSkips = "Time Signature Context Skips" {
-                        }
-                    >>
-                    \context MusicContext = "Music Context" {
-                        \context GuitarMusicStaff = "Guitar Music Staff" <<
-                            \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
-                            }
-                            \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
-                            }
-                            \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
-                            }
-                            \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
-                            }
-                        >>
-                    }
-                >>
 
         Returns score.
         '''
-
         time_signature_context = self._make_time_signature_context()
 
         guitar_music_voice_1 = abjad.Voice(
@@ -100,13 +116,16 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='Guitar Music Staff',
             )
 
-        guitar = abjad.instrumenttools.Guitar(
-            instrument_name='guitar',
-            short_instrument_name_markup=abjad.Markup.null(),
+        abjad.annotate(
+            guitar_music_staff,
+            'default_instrument',
+            dornen.materials.instruments['guitar'],
             )
-
-        #abjad.attach(guitar, guitar_music_staff)
-        #abjad.attach(abjad.Clef('treble'), guitar_music_staff)
+        abjad.annotate(
+            guitar_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
+            )
 
         music_context = abjad.Context(
             [

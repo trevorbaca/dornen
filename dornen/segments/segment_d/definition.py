@@ -16,7 +16,7 @@ accumulator(
     'Guitar Music Voice 1',
     design[:1],
     accumulator.forty_eighth_music_maker,
-    baca.markup.specifier(
+    baca.markup(
         'slurs fluid; all other parts mechanically precise'
         ),
     # TODO: allow for arbitrary LilyPond command string

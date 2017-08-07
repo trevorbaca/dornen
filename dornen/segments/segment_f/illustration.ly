@@ -244,15 +244,6 @@
                         \times 4/5 {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            \set Staff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Guitar
-                                }
-                            \set Staff.shortInstrumentName = \markup {
-                                \null
-                                }
-                            \clef "treble"
                             \override Beam.positions = #'(8 . 8)
                             a'16 [ (
                             \set stemLeftBeamCount = #2

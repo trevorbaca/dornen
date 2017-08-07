@@ -443,15 +443,6 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            \set Staff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Guitar
-                                }
-                            \set Staff.shortInstrumentName = \markup {
-                                \null
-                                }
-                            \clef "treble"
                             \override Beam.positions = #'(10 . 10)
                             d'32. -\tenuto [ - \markup { "LH only until rascado! (RH tacet; encourage whisks) ..." }
                             \set stemLeftBeamCount = #3

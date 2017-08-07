@@ -244,15 +244,6 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            \set Staff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Guitar
-                                }
-                            \set Staff.shortInstrumentName = \markup {
-                                \null
-                                }
-                            \clef "treble"
                             f2 :32
                         }
                     }

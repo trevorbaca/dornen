@@ -223,15 +223,6 @@
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
                     {
                         {
-                            \set Staff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Guitar
-                                }
-                            \set Staff.shortInstrumentName = \markup {
-                                \null
-                                }
-                            \clef "treble"
                             r8
                             r8
                             r8

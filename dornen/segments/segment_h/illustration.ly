@@ -193,15 +193,6 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            \set Staff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Guitar
-                                }
-                            \set Staff.shortInstrumentName = \markup {
-                                \null
-                                }
-                            \clef "treble"
                             \override Beam.positions = #'(6 . 6)
                             bf'32 -\staccato [
                             \set stemLeftBeamCount = #3

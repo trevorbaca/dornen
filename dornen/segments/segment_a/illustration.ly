@@ -202,15 +202,6 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
-                            \set Staff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Guitar
-                                }
-                            \set Staff.shortInstrumentName = \markup {
-                                \null
-                                }
-                            \clef "treble"
                             \override Beam.positions = #'(8 . 8)
                             cs''64 * 448/1024 [
                             c''64 * 896/1024

@@ -31,7 +31,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.tools.make_wave_music_maker()
+            >>> music_maker = dornen.make_wave_music_maker()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
@@ -386,7 +386,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.tools.make_wave_music_maker(
+            >>> music_maker = dornen.make_wave_music_maker(
             ...     inverted=True,
             ...     )
             >>> figures, time_signatures = [], []
@@ -743,7 +743,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.tools.make_wave_music_maker(
+            >>> music_maker = dornen.make_wave_music_maker(
             ...     denominator=32,
             ...     )
             >>> figures, time_signatures = [], []

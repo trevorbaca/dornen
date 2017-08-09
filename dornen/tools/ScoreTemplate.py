@@ -15,7 +15,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         ::
 
-            >>> template = dornen.tools.ScoreTemplate()
+            >>> template = dornen.ScoreTemplate()
             >>> lilypond_file = template.__illustrate__()
             >>> path = '/Users/trevorbaca/Scores/dornen/dornen'
             >>> path += '/stylesheets/context-definitions.ily'
@@ -123,7 +123,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             guitar_music_staff,
             'default_instrument',
-            dornen.materials.instruments['guitar'],
+            dornen.instruments['guitar'],
             )
         abjad.annotate(
             guitar_music_staff,

@@ -8,8 +8,8 @@ if not (
     raise ImportError('Requires Python 3.5.')
 del distutils
 del platform
-from dornen import tools
-from dornen import materials
+from dornen.tools import *
+from dornen.materials import *
 from dornen import segments
 
 r'''

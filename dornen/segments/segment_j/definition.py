@@ -8,7 +8,7 @@ import dornen
 ##################################### [J] #####################################
 ###############################################################################
 
-accumulator = dornen.tools.MusicAccumulator(dornen.tools.ScoreTemplate())
+accumulator = dornen.MusicAccumulator(dornen.ScoreTemplate())
 
 accumulator(
     'Guitar Music Voice 1',
@@ -198,7 +198,7 @@ accumulator(
 ###############################################################################
 
 tempo_specifier = baca.TempoSpecifier([
-    #(1, dornen.materials.tempi[66]),
+    #(1, dornen.tempi[66]),
     ])
 
 spacing_specifier = baca.HorizontalSpacingCommand(
@@ -210,13 +210,13 @@ measures_per_stage = len(accumulator.time_signatures) * [1]
 
 segment_maker = baca.SegmentMaker(
     #allow_figure_names=True,
-    instruments=dornen.materials.instruments,
+    instruments=dornen.instruments,
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
-    metronome_marks=dornen.materials.tempi,
+    metronome_marks=dornen.tempi,
     rehearsal_letter='',
-    score_template=dornen.tools.ScoreTemplate(),
+    score_template=dornen.ScoreTemplate(),
     skips_instead_of_rests=True,
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,

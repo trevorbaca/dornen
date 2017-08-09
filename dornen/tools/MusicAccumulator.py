@@ -16,8 +16,8 @@ class MusicAccumulator(baca.MusicAccumulator):
 
         ::
 
-            >>> score_template = dornen.tools.ScoreTemplate()
-            >>> accumulator = dornen.tools.MusicAccumulator(score_template)
+            >>> score_template = dornen.ScoreTemplate()
+            >>> accumulator = dornen.MusicAccumulator(score_template)
             >>> segments = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
             >>> accumulator(
             ...     'Guitar Music Voice 1',
@@ -130,44 +130,44 @@ class MusicAccumulator(baca.MusicAccumulator):
         import dornen
         superclass = super(MusicAccumulator, self)
         superclass.__init__(score_template)
-        self.anchor_music_maker = dornen.tools.make_anchor_music_maker()
-        self.default_music_maker = dornen.tools.make_default_music_maker()
+        self.anchor_music_maker = dornen.make_anchor_music_maker()
+        self.default_music_maker = dornen.make_default_music_maker()
         self.delicatissimo_music_maker = \
-            dornen.tools.make_delicatissimo_music_maker()
+            dornen.make_delicatissimo_music_maker()
         self.forty_eighth_music_maker = \
-            dornen.tools.make_forty_eighth_music_maker()
+            dornen.make_forty_eighth_music_maker()
         self.glissando_scatto_music_maker = \
-            dornen.tools.make_glissando_scatto_music_maker()
+            dornen.make_glissando_scatto_music_maker()
         self.graced_tuplet_music_maker = \
-            dornen.tools.make_graced_tuplet_music_maker()
+            dornen.make_graced_tuplet_music_maker()
         self.inverted_wave_32_music_maker = \
-            dornen.tools.make_wave_music_maker(denominator=32, inverted=True)
+            dornen.make_wave_music_maker(denominator=32, inverted=True)
         self.inverted_wave_64_music_maker = \
-            dornen.tools.make_wave_music_maker(denominator=64, inverted=True)
-        self.monad_music_maker = dornen.tools.make_monad_music_maker()
-        self.ovoid_music_maker = dornen.tools.make_ovoid_music_maker()
+            dornen.make_wave_music_maker(denominator=64, inverted=True)
+        self.monad_music_maker = dornen.make_monad_music_maker()
+        self.ovoid_music_maker = dornen.make_ovoid_music_maker()
         self.passepied_music_maker = \
-            dornen.tools.make_passepied_music_maker()
-        self.rest_music_maker = dornen.tools.make_rest_music_maker()
+            dornen.make_passepied_music_maker()
+        self.rest_music_maker = dornen.make_rest_music_maker()
         self.sixteenth_music_maker = \
-            dornen.tools.make_sixteenth_music_maker()
+            dornen.make_sixteenth_music_maker()
         self.sixty_fourth_music_maker = \
-            dornen.tools.make_sixty_fourth_music_maker()
-        self.third_music_maker = dornen.tools.make_third_music_maker()
+            dornen.make_sixty_fourth_music_maker()
+        self.third_music_maker = dornen.make_third_music_maker()
         self.thirty_second_music_maker = \
-            dornen.tools.make_thirty_second_music_maker()
-        self.tremolo_music_maker = dornen.tools.make_tremolo_music_maker()
+            dornen.make_thirty_second_music_maker()
+        self.tremolo_music_maker = dornen.make_tremolo_music_maker()
         self.twentieth_music_maker = \
-            dornen.tools.make_twentieth_music_maker()
+            dornen.make_twentieth_music_maker()
         self.twenty_eighth_music_maker = \
-            dornen.tools.make_twenty_eighth_music_maker()
+            dornen.make_twenty_eighth_music_maker()
         self.twenty_fourth_music_maker = \
-            dornen.tools.make_twenty_fourth_music_maker()
+            dornen.make_twenty_fourth_music_maker()
         self.wave_32_music_maker = \
-            dornen.tools.make_wave_music_maker(denominator=32)
+            dornen.make_wave_music_maker(denominator=32)
         self.wave_64_music_maker = \
-            dornen.tools.make_wave_music_maker(denominator=64)
-        self.running_music_maker = dornen.tools.make_running_music_maker()
+            dornen.make_wave_music_maker(denominator=64)
+        self.running_music_maker = dornen.make_running_music_maker()
 
     ### SPECIAL METHODS ###
 

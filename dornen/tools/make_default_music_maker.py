@@ -70,8 +70,8 @@ def make_default_music_maker():
             >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 1/32
                             R1 * 1/32
@@ -89,7 +89,7 @@ def make_default_music_maker():
                             R1 * 3/16
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             \time 1/32
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
@@ -249,8 +249,8 @@ def make_default_music_maker():
                 \override Beam.positions = #'(5 . 5)
             } <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 9/32
                             R1 * 9/32
@@ -264,7 +264,7 @@ def make_default_music_maker():
                             R1 * 1/4
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             \time 9/32
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)

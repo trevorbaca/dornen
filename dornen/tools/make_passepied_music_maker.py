@@ -90,8 +90,8 @@ def make_passepied_music_maker():
                 \override SpacingSpanner.strict-note-spacing = ##f
             } <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 1/32
                             R1 * 1/32
@@ -109,7 +109,7 @@ def make_passepied_music_maker():
                             R1 * 1/32
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             s1 * 1/32
                         }
@@ -248,8 +248,8 @@ def make_passepied_music_maker():
                 \override SpacingSpanner.strict-note-spacing = ##f
             } <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 17/32
                             R1 * 17/32
@@ -265,7 +265,7 @@ def make_passepied_music_maker():
                             R1 * 11/32
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             \time 17/32
                             s1 * 17/32

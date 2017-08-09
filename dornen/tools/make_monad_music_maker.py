@@ -91,8 +91,8 @@ def make_monad_music_maker():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 14/5
                             R1 * 14/5
@@ -110,7 +110,7 @@ def make_monad_music_maker():
                             R1 * 8/5
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             \time 14/5
                             \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
@@ -290,8 +290,8 @@ def make_monad_music_maker():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 14/5
                             R1 * 14/5
@@ -309,7 +309,7 @@ def make_monad_music_maker():
                             R1 * 8/5
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             \time 14/5
                             \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)

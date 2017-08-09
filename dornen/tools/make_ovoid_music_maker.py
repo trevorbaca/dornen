@@ -90,8 +90,8 @@ def make_ovoid_music_maker():
                 \override SpacingSpanner.strict-note-spacing = ##f
             } <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 13/32
                             R1 * 13/32
@@ -111,7 +111,7 @@ def make_ovoid_music_maker():
                             R1 * 13/32
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             s1 * 13/32
                         }

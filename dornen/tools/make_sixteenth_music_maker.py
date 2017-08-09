@@ -91,8 +91,8 @@ def make_sixteenth_music_maker():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 7/16
                             R1 * 7/16
@@ -110,7 +110,7 @@ def make_sixteenth_music_maker():
                             R1 * 1/4
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/16
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
@@ -274,8 +274,8 @@ def make_sixteenth_music_maker():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 7/16
                             R1 * 7/16
@@ -293,7 +293,7 @@ def make_sixteenth_music_maker():
                             R1 * 1/4
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/16
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)

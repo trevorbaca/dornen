@@ -70,8 +70,8 @@ def make_running_music_maker():
             >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 1/64
                             R1 * 1/64
@@ -89,7 +89,7 @@ def make_running_music_maker():
                             R1 * 5/64
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             \time 1/64
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
@@ -247,8 +247,8 @@ def make_running_music_maker():
             >>> f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 1/8
                             R1 * 1/8
@@ -262,7 +262,7 @@ def make_running_music_maker():
                             R1 * 7/64
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             \time 1/8
                             \set Score.proportionalNotationDuration = #(ly:make-moment 3 224)

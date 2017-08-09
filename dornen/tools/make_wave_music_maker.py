@@ -77,8 +77,8 @@ def make_wave_music_maker(denominator=64, inverted=False):
                 \override TupletBracket.padding = #2
             } <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 7/64
                             R1 * 7/64
@@ -92,7 +92,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
                             R1 * 5/16
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/64
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
@@ -434,8 +434,8 @@ def make_wave_music_maker(denominator=64, inverted=False):
                 \override TupletBracket.padding = #2
             } <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 7/64
                             R1 * 7/64
@@ -449,7 +449,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
                             R1 * 5/16
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/64
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
@@ -791,8 +791,8 @@ def make_wave_music_maker(denominator=64, inverted=False):
                 \override TupletBracket.padding = #2
             } <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 7/32
                             R1 * 7/32
@@ -806,7 +806,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
                             R1 * 5/8
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/32
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)

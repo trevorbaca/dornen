@@ -91,8 +91,8 @@ def make_twenty_fourth_music_maker():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 7/24
                             R1 * 7/24
@@ -110,7 +110,7 @@ def make_twenty_fourth_music_maker():
                             R1 * 1/6
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/24
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)
@@ -290,8 +290,8 @@ def make_twenty_fourth_music_maker():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 7/24
                             R1 * 7/24
@@ -309,7 +309,7 @@ def make_twenty_fourth_music_maker():
                             R1 * 1/6
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/24
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)

@@ -91,8 +91,8 @@ def make_third_music_maker():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 7/3
                             R1 * 7/3
@@ -110,7 +110,7 @@ def make_third_music_maker():
                             R1 * 4/3
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/3
                             \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
@@ -290,8 +290,8 @@ def make_third_music_maker():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 7/3
                             R1 * 7/3
@@ -309,7 +309,7 @@ def make_third_music_maker():
                             R1 * 4/3
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/3
                             \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)

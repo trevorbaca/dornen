@@ -9,8 +9,8 @@
     \context Score = "Score" \with {
         currentBarNumber = #1
     } <<
-        \context TimeSignatureContext = "Time Signature Context" <<
-            \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+        \context GlobalContext = "Global Context" <<
+            \context GlobalRests = "Global Rests" {
                 {
                     \time 3/16
                     R1 * 3/16
@@ -87,7 +87,7 @@
                     R1 * 3/16
                 }
             }
-            \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+            \context GlobalSkips = "Global Skips" {
                 {
                     \time 3/16
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)

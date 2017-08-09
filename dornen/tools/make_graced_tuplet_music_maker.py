@@ -86,8 +86,8 @@ def make_graced_tuplet_music_maker():
                 \override TupletBracket.staff-padding = #4
             } <<
                 \tag violin
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                \context GlobalContext = "Global Context" <<
+                    \context GlobalRests = "Global Rests" {
                         {
                             \time 19/56
                             R1 * 19/56
@@ -101,7 +101,7 @@ def make_graced_tuplet_music_maker():
                             R1 * 53/112
                         }
                     }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    \context GlobalSkips = "Global Skips" {
                         {
                             \time 19/56
                             s1 * 19/56

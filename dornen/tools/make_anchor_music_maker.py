@@ -28,7 +28,7 @@ def make_anchor_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.tools.make_anchor_music_maker()
+            >>> music_maker = dornen.make_anchor_music_maker()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)

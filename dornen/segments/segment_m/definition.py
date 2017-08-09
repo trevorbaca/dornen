@@ -8,8 +8,8 @@ import dornen
 ##################################### [M] #####################################
 ###############################################################################
 
-accumulator = dornen.tools.MusicAccumulator(dornen.tools.ScoreTemplate())
-design = dornen.tools.make_design_2(start=14, stop=28)
+accumulator = dornen.MusicAccumulator(dornen.ScoreTemplate())
+design = dornen.make_design_2(start=14, stop=28)
 assert len(design) == 14
 
 ### 1 ###
@@ -332,7 +332,7 @@ accumulator(
 ###############################################################################
 
 tempo_specifier = baca.TempoSpecifier([
-    #(1, dornen.materials.tempi[66]),
+    #(1, dornen.tempi[66]),
     ])
 
 spacing_specifier = baca.HorizontalSpacingCommand(
@@ -344,16 +344,16 @@ measures_per_stage = len(accumulator.time_signatures) * [1]
 
 segment_maker = baca.SegmentMaker(
     #allow_figure_names=True,
-    final_markup=dornen.tools.make_final_markup(),
+    final_markup=dornen.make_final_markup(),
     final_markup_extra_offset=(128, -4),
     #ignore_repeat_pitch_classes=True,
-    instruments=dornen.materials.instruments,
+    instruments=dornen.instruments,
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
-    metronome_marks=dornen.materials.tempi,
+    metronome_marks=dornen.tempi,
     rehearsal_letter='',
-    score_template=dornen.tools.ScoreTemplate(),
+    score_template=dornen.ScoreTemplate(),
     skips_instead_of_rests=True,
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,

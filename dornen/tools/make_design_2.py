@@ -16,7 +16,7 @@ def make_design_2(start=None, stop=None):
 
         ::
 
-            >>> design_2 = dornen.tools.make_design_2()
+            >>> design_2 = dornen.make_design_2()
             >>> show(design_2) # doctest: +SKIP
 
         ..  docs::
@@ -285,11 +285,11 @@ def make_design_2(start=None, stop=None):
 
     '''
     import dornen
-    blue_pitch_classes = dornen.materials.blue_pitch_classes
+    blue_pitch_classes = dornen.blue_pitch_classes
     blue_cursor = baca.Cursor.from_pitch_class_segments(
         blue_pitch_classes
         )
-    green_pitch_classes = dornen.materials.green_pitch_classes
+    green_pitch_classes = dornen.green_pitch_classes
     green_cursor = baca.Cursor.from_pitch_class_segments(
         green_pitch_classes
         )

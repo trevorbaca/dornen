@@ -76,7 +76,7 @@ def make_ovoid_music_maker():
         ::
 
             >>> result = segment_maker(is_doc_example=True)
-            >>> lilypond_file, segment_metadata = result
+            >>> lilypond_file, metadata = result
             >>> score = lilypond_file[abjad.Score]
             >>> abjad.override(score).spacing_spanner.strict_grace_spacing = False
             >>> abjad.override(score).spacing_spanner.strict_note_spacing = False

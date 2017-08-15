@@ -49,7 +49,7 @@ def make_passepied_music_maker():
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
-            ...     time_signatures.append(contribution.time_signature)    
+            ...     time_signatures.append(contribution.time_signature)
             ...
             >>> figures_ = []
             >>> for figure in figures:
@@ -207,7 +207,7 @@ def make_passepied_music_maker():
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
-            ...     time_signatures.append(contribution.time_signature)    
+            ...     time_signatures.append(contribution.time_signature)
             ...
             >>> figures_ = []
             >>> for figure in figures:

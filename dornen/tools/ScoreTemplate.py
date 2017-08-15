@@ -84,25 +84,25 @@ class ScoreTemplate(baca.ScoreTemplate):
         time_signature_context = self._make_time_signature_context()
 
         guitar_music_voice_1 = abjad.Voice(
-            [], 
+            [],
             context_name='GuitarMusicVoiceOne',
             name='Guitar Music Voice 1',
             )
 
         guitar_music_voice_2 = abjad.Voice(
-            [], 
+            [],
             context_name='GuitarMusicVoiceTwo',
             name='Guitar Music Voice 2',
             )
 
         guitar_music_voice_3 = abjad.Voice(
-            [], 
+            [],
             context_name='GuitarMusicVoiceThree',
             name='Guitar Music Voice 3',
             )
 
         guitar_music_voice_4 = abjad.Voice(
-            [], 
+            [],
             context_name='GuitarMusicVoiceFour',
             name='Guitar Music Voice 4',
             )
@@ -113,7 +113,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                 guitar_music_voice_2,
                 guitar_music_voice_3,
                 guitar_music_voice_4,
-                ], 
+                ],
             context_name='GuitarMusicStaff',
             is_simultaneous=True,
             name='Guitar Music Staff',

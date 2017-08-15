@@ -9,6 +9,7 @@ class ScoreTemplate(baca.ScoreTemplate):
     ::
 
         >>> import dornen
+        >>> import pathlib
 
     ..  container:: example
 
@@ -16,8 +17,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
             >>> template = dornen.ScoreTemplate()
             >>> lilypond_file = template.__illustrate__()
-            >>> path = '/Users/trevorbaca/Scores/dornen/dornen'
-            >>> path += '/stylesheets/context-definitions.ily'
+            >>> path = pathlib.Path(dornen.__path__[0], 'stylesheets')
+            >>> path = path.joinpath('context-definitions.ily')
             >>> lilypond_file = abjad.new(
             ...     lilypond_file,
             ...     global_staff_size=16,

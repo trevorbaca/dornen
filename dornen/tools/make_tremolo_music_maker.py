@@ -121,6 +121,9 @@ def make_tremolo_music_maker():
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
+                                \set Staff.instrumentName = \markup { Violin }
+                                \set Staff.shortInstrumentName = \markup { Vn. }
+                                \clef "treble"
                                 e'8 :32
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -293,6 +296,9 @@ def make_tremolo_music_maker():
                             \times 8/11 {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
+                                \set Staff.instrumentName = \markup { Violin }
+                                \set Staff.shortInstrumentName = \markup { Vn. }
+                                \clef "treble"
                                 e'8 :32 ~ [
                             }
                             \tweak edge-height #'(0.7 . 0)

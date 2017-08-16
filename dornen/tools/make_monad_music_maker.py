@@ -142,6 +142,9 @@ def make_monad_music_maker():
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
+                                \set Staff.instrumentName = \markup { Violin }
+                                \set Staff.shortInstrumentName = \markup { Vn. }
+                                \clef "treble"
                                 cs'2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -341,6 +344,9 @@ def make_monad_music_maker():
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
+                                \set Staff.instrumentName = \markup { Violin }
+                                \set Staff.shortInstrumentName = \markup { Vn. }
+                                \clef "treble"
                                 cs'2
                             }
                             \tweak edge-height #'(0.7 . 0)

@@ -137,6 +137,9 @@ def make_ovoid_music_maker():
                             {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
+                                \set Staff.instrumentName = \markup { Violin }
+                                \set Staff.shortInstrumentName = \markup { Vn. }
+                                \clef "treble"
                                 af'8. [
                             }
                             {

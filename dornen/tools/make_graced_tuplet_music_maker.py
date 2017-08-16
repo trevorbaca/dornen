@@ -124,6 +124,9 @@ def make_graced_tuplet_music_maker():
                             \times 8/7 {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
+                                \set Staff.instrumentName = \markup { Violin }
+                                \set Staff.shortInstrumentName = \markup { Vn. }
+                                \clef "treble"
                                 af'16 [
                             }
                             \tweak text #tuplet-number::calc-fraction-text

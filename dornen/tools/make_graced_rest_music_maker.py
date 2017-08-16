@@ -49,7 +49,7 @@ def make_graced_rest_music_maker():
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
-            ...     time_signatures.append(contribution.time_signature)    
+            ...     time_signatures.append(contribution.time_signature)
             ...
             >>> figures_ = []
             >>> for figure in figures:
@@ -86,96 +86,7 @@ def make_graced_rest_music_maker():
         ..  docs::
 
             >>> f(lilypond_file[abjad.Score]) # doctest: +SKIP
-            \context Score = "Score" \with {
-                \override SpacingSpanner.strict-grace-spacing = ##f
-                \override SpacingSpanner.strict-note-spacing = ##f
-            } <<
-                \tag violin
-                \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 1/8
-                            R1 * 1/8
-                        }
-                        {
-                            R1 * 1/8
-                        }
-                        {
-                            R1 * 1/8
-                        }
-                        {
-                            R1 * 1/8
-                        }
-                        {
-                            R1 * 1/8
-                        }
-                    }
-                    \context GlobalSkips = "Global Skips" {
-                        {
-                            s1 * 1/8
-                        }
-                        {
-                            s1 * 1/8
-                        }
-                        {
-                            s1 * 1/8
-                        }
-                        {
-                            s1 * 1/8
-                        }
-                        {
-                            s1 * 1/8
-                        }
-                    }
-                >>
-                \context MusicContext = "Music Context" <<
-                    \tag violin
-                    \context ViolinMusicStaff = "Violin Music Staff" {
-                        \context ViolinMusicVoice = "Violin Music Voice" {
-                            {
-                                af'8
-                            }
-                            {
-                                \acciaccatura {
-                                    cs'16 [
-                                    c'16
-                                    bf'16
-                                    f'16 ]
-                                }
-                                r8
-                            }
-                            {
-                                \acciaccatura {
-                                    af'16 [
-                                    fs'16
-                                    b'16
-                                    d'16 ]
-                                }
-                                r8
-                            }
-                            {
-                                \acciaccatura {
-                                    e'16 [
-                                    ef'16
-                                    a'16
-                                    af'16 ]
-                                }
-                                r8
-                            }
-                            {
-                                \acciaccatura {
-                                    fs'16 [
-                                    b'16
-                                    d'16
-                                    f'16 ]
-                                }
-                                r8
-                                \bar "|"
-                            }
-                        }
-                    }
-                >>
-            >>
+
 
     ..  container:: example
 
@@ -213,7 +124,7 @@ def make_graced_rest_music_maker():
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
             ...     figures.extend(contribution.selections[voice_name])
-            ...     time_signatures.append(contribution.time_signature)    
+            ...     time_signatures.append(contribution.time_signature)
             ...
             >>> figures_ = []
             >>> for figure in figures:
@@ -250,147 +161,7 @@ def make_graced_rest_music_maker():
         ..  docs::
 
             >>> f(lilypond_file[abjad.Score]) # doctest: +SKIP
-            \context Score = "Score" \with {
-                \override SpacingSpanner.strict-grace-spacing = ##f
-                \override SpacingSpanner.strict-note-spacing = ##f
-            } <<
-                \tag violin
-                \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 3/8
-                            R1 * 3/8
-                        }
-                        {
-                            R1 * 3/8
-                        }
-                        {
-                            R1 * 3/8
-                        }
-                        {
-                            R1 * 3/8
-                        }
-                    }
-                    \context GlobalSkips = "Global Skips" {
-                        {
-                            s1 * 3/8
-                        }
-                        {
-                            s1 * 3/8
-                        }
-                        {
-                            s1 * 3/8
-                        }
-                        {
-                            s1 * 3/8
-                        }
-                    }
-                >>
-                \context MusicContext = "Music Context" <<
-                    \tag violin
-                    \context ViolinMusicStaff = "Violin Music Staff" {
-                        \context ViolinMusicVoice = "Violin Music Voice" {
-                            {
-                                af'8
-                            }
-                            {
-                                \acciaccatura {
-                                    cs'16 [
-                                    c'16
-                                    bf'16
-                                    f'16 ]
-                                }
-                                r8
-                            }
-                            {
-                                \acciaccatura {
-                                    af'16 [
-                                    fs'16
-                                    b'16
-                                    d'16 ]
-                                }
-                                r8
-                            }
-                            {
-                                \acciaccatura {
-                                    cs'16 [
-                                    c'16
-                                    bf'16
-                                    f'16 ]
-                                }
-                                r8
-                            }
-                            {
-                                \acciaccatura {
-                                    af'16 [
-                                    fs'16
-                                    b'16
-                                    d'16 ]
-                                }
-                                r8
-                            }
-                            {
-                                \acciaccatura {
-                                    e'16 [
-                                    ef'16
-                                    a'16
-                                    g'16 ]
-                                }
-                                r8
-                            }
-                            {
-                                \acciaccatura {
-                                    af'16 [
-                                    fs'16
-                                    b'16
-                                    d'16 ]
-                                }
-                                r8
-                            }
-                            {
-                                \acciaccatura {
-                                    e'16 [
-                                    ef'16
-                                    a'16
-                                    g'16 ]
-                                }
-                                r8
-                            }
-                            {
-                                \acciaccatura {
-                                    fs'16 [
-                                    b'16
-                                    d'16
-                                    f'16 ]
-                                }
-                                r8
-                            }
-                            {
-                                \acciaccatura {
-                                    e'16 [
-                                    ef'16
-                                    a'16
-                                    g'16 ]
-                                }
-                                r8
-                            }
-                            {
-                                \acciaccatura {
-                                    fs'16 [
-                                    b'16
-                                    d'16
-                                    f'16 ]
-                                }
-                                r8
-                            }
-                            {
-                                af'8
-                                \bar "|"
-                            }
-                        }
-                    }
-                >>
-            >>
+
 
     Returns music-maker.
     '''

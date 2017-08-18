@@ -1,7 +1,7 @@
 import abjad
 
 
-metadata = abjad.datastructuretools.TypedOrderedDict(
+metadata = abjad.TypedOrderedDict(
     [
         ('catalog_number_suffix', ''),
         ('paper_size', 'ledger'),

@@ -973,8 +973,38 @@
                                 \italic
                                     \right-column
                                         {
-                                            "Cambridge, MA – Madison, WI – Palo Alto, CA."
-                                            "Nov. 2015 – Jul. 2016."
+                                            \line
+                                                {
+                                                    Cambridge,
+                                                    MA
+                                                    \hspace
+                                                        #0.75
+                                                    –
+                                                    \hspace
+                                                        #0.75
+                                                    Madison,
+                                                    WI
+                                                    \hspace
+                                                        #0.75
+                                                    –
+                                                    \hspace
+                                                        #0.75
+                                                    Palo
+                                                    Alto,
+                                                    CA.
+                                                }
+                                            \line
+                                                {
+                                                    November
+                                                    2015
+                                                    \hspace
+                                                        #0.75
+                                                    –
+                                                    \hspace
+                                                        #0.75
+                                                    July
+                                                    2016.
+                                                }
                                         }
                             }
                     \bar "|."

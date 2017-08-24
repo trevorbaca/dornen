@@ -16,13 +16,11 @@ class ScoreTemplate(baca.ScoreTemplate):
         ::
 
             >>> template = dornen.ScoreTemplate()
-            >>> lilypond_file = template.__illustrate__()
-            >>> path = pathlib.Path(dornen.__path__[0], 'stylesheets')
-            >>> path = path.joinpath('context-definitions.ily')
-            >>> lilypond_file = abjad.new(
-            ...     lilypond_file,
+            >>> path = pathlib.Path(dornen.__path__[0])
+            >>> path = path / 'stylesheets' / 'context-definitions.ily'
+            >>> lilypond_file = template.__illustrate__(
             ...     global_staff_size=16,
-            ...     includes=[str(path)],
+            ...     includes=[path],
             ...     )
             >>> show(lilypond_file) # doctest: +SKIP
 
@@ -79,35 +77,30 @@ class ScoreTemplate(baca.ScoreTemplate):
     def __call__(self):
         r'''Calls score template.
 
-
         Returns score.
         '''
         time_signature_context = self._make_time_signature_context()
-
+        # GUITAR
         guitar_music_voice_1 = abjad.Voice(
             [],
             context_name='GuitarMusicVoiceOne',
             name='Guitar Music Voice 1',
             )
-
         guitar_music_voice_2 = abjad.Voice(
             [],
             context_name='GuitarMusicVoiceTwo',
             name='Guitar Music Voice 2',
             )
-
         guitar_music_voice_3 = abjad.Voice(
             [],
             context_name='GuitarMusicVoiceThree',
             name='Guitar Music Voice 3',
             )
-
         guitar_music_voice_4 = abjad.Voice(
             [],
             context_name='GuitarMusicVoiceFour',
             name='Guitar Music Voice 4',
             )
-
         guitar_music_staff = abjad.Staff(
             [
                 guitar_music_voice_1,
@@ -119,18 +112,12 @@ class ScoreTemplate(baca.ScoreTemplate):
             is_simultaneous=True,
             name='Guitar Music Staff',
             )
-
         abjad.annotate(
             guitar_music_staff,
             'default_instrument',
             dornen.instruments['guitar'],
             )
-        abjad.annotate(
-            guitar_music_staff,
-            'default_clef',
-            abjad.Clef('treble'),
-            )
-
+        # SCORE
         music_context = abjad.Context(
             [
                 guitar_music_staff,

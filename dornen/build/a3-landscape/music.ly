@@ -1,6 +1,6 @@
 % Spiel der Dornen (2016) for guitar
 
-\version "2.19.45"
+\version "2.19.65"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)

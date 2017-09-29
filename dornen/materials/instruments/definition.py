@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-instruments = abjad.TypedOrderedDict([
+instruments = abjad.InstrumentDictionary([
     (
         'guitar',
         abjad.Guitar(

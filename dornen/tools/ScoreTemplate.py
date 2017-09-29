@@ -9,15 +9,13 @@ class ScoreTemplate(baca.ScoreTemplate):
     ::
 
         >>> import dornen
-        >>> import pathlib
 
     ..  container:: example
 
         ::
 
             >>> template = dornen.ScoreTemplate()
-            >>> path = pathlib.Path(dornen.__path__[0])
-            >>> path = path / 'stylesheets' / 'contexts.ily'
+            >>> path = abjad.Path('dornen', 'stylesheets', 'contexts.ily')
             >>> lilypond_file = template.__illustrate__(
             ...     global_staff_size=16,
             ...     includes=[path],
@@ -37,12 +35,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                 \context MusicContext = "Music Context" {
                     \context GuitarMusicStaff = "Guitar Music Staff" <<
                         \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
-                            \set Staff.instrumentName = \markup {
+                            \set GuitarMusicStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     Guitar
                                 }
-                            \set Staff.shortInstrumentName = \markup {
+                            \set GuitarMusicStaff.shortInstrumentName = \markup {
                                 \null
                                 }
                             \clef "treble"

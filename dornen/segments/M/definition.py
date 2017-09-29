@@ -331,7 +331,7 @@ accumulator(
 ###############################################################################
 
 tempo_specifier = baca.TempoSpecifier([
-    #(1, dornen.tempi[66]),
+    #(1, dornen.metronome_marks[66]),
     ])
 
 spacing_specifier = baca.HorizontalSpacingCommand(
@@ -350,7 +350,7 @@ segment_maker = baca.SegmentMaker(
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
-    metronome_marks=dornen.tempi,
+    metronome_marks=dornen.metronome_marks,
     rehearsal_letter='',
     score_template=dornen.ScoreTemplate(),
     skips_instead_of_rests=True,

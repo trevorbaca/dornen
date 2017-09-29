@@ -217,12 +217,12 @@
                     {
                         \set stemLeftBeamCount = #0
                         \set stemRightBeamCount = #1
-                        \set ViolinMusicStaff.instrumentName = \markup {
+                        \set GuitarMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
                                 Guitar
                             }
-                        \set ViolinMusicStaff.shortInstrumentName = \markup {
+                        \set GuitarMusicStaff.shortInstrumentName = \markup {
                             \null
                             }
                         \clef "treble"

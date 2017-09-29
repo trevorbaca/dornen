@@ -148,8 +148,8 @@ def make_wave_music_maker(denominator=64, inverted=False):
                                 }
                             \times 1/1 {
                                 \once \override Beam.grow-direction = #right
-                                \set Staff.instrumentName = \markup { Violin }
-                                \set Staff.shortInstrumentName = \markup { Vn. }
+                                \set ViolinMusicStaff.instrumentName = \markup { Violin }
+                                \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
                                 fs'64 * 2112/1024 [
                                 d'64 * 1152/1024
@@ -508,8 +508,8 @@ def make_wave_music_maker(denominator=64, inverted=False):
                                 }
                             \times 1/1 {
                                 \once \override Beam.grow-direction = #left
-                                \set Staff.instrumentName = \markup { Violin }
-                                \set Staff.shortInstrumentName = \markup { Vn. }
+                                \set ViolinMusicStaff.instrumentName = \markup { Violin }
+                                \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
                                 fs'64 * 320/1024 [
                                 d'64 * 640/1024
@@ -868,8 +868,8 @@ def make_wave_music_maker(denominator=64, inverted=False):
                                 }
                             \times 1/1 {
                                 \once \override Beam.grow-direction = #right
-                                \set Staff.instrumentName = \markup { Violin }
-                                \set Staff.shortInstrumentName = \markup { Vn. }
+                                \set ViolinMusicStaff.instrumentName = \markup { Violin }
+                                \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
                                 fs'32 * 2080/1024 [
                                 d'32 * 1152/1024

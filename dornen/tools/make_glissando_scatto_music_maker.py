@@ -120,8 +120,8 @@ def make_glissando_scatto_music_maker():
                     \context ViolinMusicStaff = "Violin Music Staff" {
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             {
-                                \set Staff.instrumentName = \markup { Violin }
-                                \set Staff.shortInstrumentName = \markup { Vn. }
+                                \set ViolinMusicStaff.instrumentName = \markup { Violin }
+                                \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
                                 e'16
                             }
@@ -292,8 +292,8 @@ def make_glissando_scatto_music_maker():
                             {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
-                                \set Staff.instrumentName = \markup { Violin }
-                                \set Staff.shortInstrumentName = \markup { Vn. }
+                                \set ViolinMusicStaff.instrumentName = \markup { Violin }
+                                \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
                                 e'16 [ \glissando
                             }

@@ -142,8 +142,8 @@ def make_twenty_fourth_music_maker():
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
-                                \set Staff.instrumentName = \markup { Violin }
-                                \set Staff.shortInstrumentName = \markup { Vn. }
+                                \set ViolinMusicStaff.instrumentName = \markup { Violin }
+                                \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
                                 cs'16
                             }
@@ -344,8 +344,8 @@ def make_twenty_fourth_music_maker():
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
-                                \set Staff.instrumentName = \markup { Violin }
-                                \set Staff.shortInstrumentName = \markup { Vn. }
+                                \set ViolinMusicStaff.instrumentName = \markup { Violin }
+                                \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
                                 cs'16
                             }

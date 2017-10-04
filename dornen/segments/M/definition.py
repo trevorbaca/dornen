@@ -318,7 +318,8 @@ accumulator(
     baca.dynamic('p'),
     baca.markup(
         'RASCADO: slowly draw extremely long metal screw over open string;'
-        ' as close as possible to bridge; only one stroke.'
+        ' as close as possible to bridge; only one stroke.',
+        direction=abjad.Up,
         ),
     baca.messiaen_tie_each(),
     baca.proportional_notation_duration((1, 12)),
@@ -343,8 +344,11 @@ measures_per_stage = len(accumulator.time_signatures) * [1]
 
 segment_maker = baca.SegmentMaker(
     #allow_figure_names=True,
-    final_markup=dornen.final_markup(),
-    final_markup_extra_offset=(128, -4),
+    final_markup=(
+        ['Cambridge, MA', 'Madison, WI', 'Palo Alto, CA.'],
+        ['November 2015', 'July 2016.'],
+        ),
+    final_markup_extra_offset=(124, 0),
     #ignore_repeat_pitch_classes=True,
     instruments=dornen.instruments,
     #label_clock_time=True,

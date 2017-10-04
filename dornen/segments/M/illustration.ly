@@ -592,7 +592,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                            e2 :32 \p - \markup { "RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke." }
+                            e2 :32 \p ^ \markup { "RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke." }
                             e2 :32 \repeatTie
                             e2 :32 \repeatTie
                             e2 :32 \repeatTie
@@ -965,12 +965,11 @@
                             \revert Stem.direction
                         }
                     }
-                    \once \override TextScript.extra-offset = #'(128 . -4)
+                    \once \override TextScript.extra-offset = #'(124 . 0)
                     s1 * 61/12
                         _ \markup {
-                            \with-color
-                                #black
-                                \italic
+                            \whiteout
+                                \upright
                                     \right-column
                                         {
                                             \line

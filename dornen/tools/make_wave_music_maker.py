@@ -48,7 +48,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
             >>> segment_maker = baca.tools.SegmentMaker(
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.HorizontalSpacingCommand(
+            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
             ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,
@@ -408,7 +408,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
             >>> segment_maker = baca.tools.SegmentMaker(
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.HorizontalSpacingCommand(
+            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
             ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,
@@ -768,7 +768,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
             >>> segment_maker = baca.tools.SegmentMaker(
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.HorizontalSpacingCommand(
+            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
             ...         minimum_width=abjad.Duration(1, 24),
             ...         ),
             ...     time_signatures=time_signatures,

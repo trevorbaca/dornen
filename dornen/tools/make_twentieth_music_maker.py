@@ -56,7 +56,7 @@ def make_twentieth_music_maker():
             >>> segment_maker = baca.tools.SegmentMaker(
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.HorizontalSpacingCommand(
+            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
             ...         multiplier=abjad.Multiplier((5, 2)),
             ...         ),
             ...     time_signatures=time_signatures,
@@ -258,7 +258,7 @@ def make_twentieth_music_maker():
             >>> segment_maker = baca.tools.SegmentMaker(
             ...     ignore_unregistered_pitches=True,
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.HorizontalSpacingCommand(
+            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
             ...         multiplier=abjad.Multiplier((5, 2)),
             ...         ),
             ...     time_signatures=time_signatures,

@@ -188,5 +188,5 @@ all_voices = [
 segment_maker.append_commands(
     all_voices,
     baca.select_stages(1, 9),
-    dornen.QuartertoneManager(),
+    dornen.QuartertoneCommand(),
     )

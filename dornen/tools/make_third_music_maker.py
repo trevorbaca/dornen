@@ -64,7 +64,7 @@ def make_third_music_maker():
             >>> specifiers = segment_maker.append_commands(
             ...     'vn',
             ...     baca.select_stages(1),
-            ...     baca.tools.RhythmSpecifier(
+            ...     baca.tools.RhythmCommand(
             ...         rhythm_maker=figures,
             ...         ),
             ...     )
@@ -266,7 +266,7 @@ def make_third_music_maker():
             >>> specifiers = segment_maker.append_commands(
             ...     'vn',
             ...     baca.select_stages(1),
-            ...     baca.tools.RhythmSpecifier(
+            ...     baca.tools.RhythmCommand(
             ...         rhythm_maker=figures,
             ...         ),
             ...     )
@@ -402,7 +402,7 @@ def make_third_music_maker():
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(
-        baca.tools.MusicRhythmSpecifier(
+        baca.tools.MusicRhythmCommand(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],

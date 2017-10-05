@@ -64,8 +64,8 @@ def make_ovoid_music_maker():
             ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
             ...     time_signatures=time_signatures,
             ...     )
-            >>> specifiers = segment_maker.append_commands(
-            ...     'vn',
+            >>> segment_maker.append_commands(
+            ...     'Violin Music Voice',
             ...     baca.select_stages(1),
             ...     baca.tools.RhythmCommand(
             ...         rhythm_maker=figures,

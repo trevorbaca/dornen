@@ -417,7 +417,7 @@ def make_thirty_second_music_maker():
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
         ),
-        baca.tools.MusicRhythmCommand(
+        baca.tools.MusicRhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],

@@ -419,7 +419,7 @@ def make_delicatissimo_music_maker():
             beam_divisions_together=True,
             ),
         baca.staccati(),
-        baca.tools.MusicRhythmCommand(
+        baca.tools.MusicRhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],

@@ -284,7 +284,7 @@ def make_graced_tuplet_music_maker():
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.tools.MusicRhythmCommand(
+        baca.tools.MusicRhythmSpecifier(
             pattern=abjad.index_every([0], period=2),
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 acciaccatura_specifiers=[
@@ -304,7 +304,7 @@ def make_graced_tuplet_music_maker():
                 time_treatments=[abjad.Multiplier((8, 7))],
                 )
             ),
-        baca.tools.MusicRhythmCommand(
+        baca.tools.MusicRhythmSpecifier(
             pattern=abjad.index_every([1], period=2),
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 acciaccatura_specifiers=[

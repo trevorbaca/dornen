@@ -255,7 +255,7 @@ def make_ovoid_music_maker():
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.tools.MusicRhythmCommand(
+        baca.tools.MusicRhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 acciaccatura_specifiers=[
                     baca.tools.AcciaccaturaSpecifier(

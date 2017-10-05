@@ -1113,11 +1113,11 @@ def make_wave_music_maker(denominator=64, inverted=False):
         rhythm_maker_1 = ritardando_rhythm_maker
         rhythm_maker_2 = accelerando_rhythm_maker
     music_maker = baca.tools.MusicMaker(
-        baca.tools.MusicRhythmCommand(
+        baca.tools.MusicRhythmSpecifier(
             pattern=abjad.index_every([0], period=2),
             rhythm_maker=rhythm_maker_1,
             ),
-        baca.tools.MusicRhythmCommand(
+        baca.tools.MusicRhythmSpecifier(
             pattern=abjad.index_every([1], period=2),
             rhythm_maker=rhythm_maker_2,
             ),

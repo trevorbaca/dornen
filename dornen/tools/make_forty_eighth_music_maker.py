@@ -154,7 +154,7 @@ def make_forty_eighth_music_maker():
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(
-        baca.tools.MusicRhythmCommand(
+        baca.tools.MusicRhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[3],

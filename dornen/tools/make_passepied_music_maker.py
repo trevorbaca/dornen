@@ -67,7 +67,7 @@ def make_passepied_music_maker():
             >>> specifiers = segment_maker.append_commands(
             ...     'vn',
             ...     baca.select_stages(1),
-            ...     baca.tools.RhythmSpecifier(
+            ...     baca.tools.RhythmCommand(
             ...         rhythm_maker=figures,
             ...         ),
             ...     )
@@ -228,7 +228,7 @@ def make_passepied_music_maker():
             >>> specifiers = segment_maker.append_commands(
             ...     'vn',
             ...     baca.select_stages(1),
-            ...     baca.tools.RhythmSpecifier(
+            ...     baca.tools.RhythmCommand(
             ...         rhythm_maker=figures,
             ...         ),
             ...     )
@@ -441,7 +441,7 @@ def make_passepied_music_maker():
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.tools.MusicRhythmSpecifier(
+        baca.tools.MusicRhythmCommand(
             pattern=abjad.index_first(),
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 acciaccatura_specifiers=[
@@ -453,7 +453,7 @@ def make_passepied_music_maker():
                     ),
                 )
             ),
-        baca.tools.MusicRhythmSpecifier(
+        baca.tools.MusicRhythmCommand(
             pattern=abjad.index_first(inverted=True),
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(

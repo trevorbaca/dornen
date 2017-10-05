@@ -53,7 +53,7 @@ def make_delicatissimo_music_maker():
             >>> specifiers = segment_maker.append_commands(
             ...     'vn',
             ...     baca.select_stages(1),
-            ...     baca.tools.RhythmSpecifier(
+            ...     baca.tools.RhythmCommand(
             ...         rhythm_maker=figures,
             ...         ),
             ...     )
@@ -232,7 +232,7 @@ def make_delicatissimo_music_maker():
             >>> specifiers = segment_maker.append_commands(
             ...     'vn',
             ...     baca.select_stages(1),
-            ...     baca.tools.RhythmSpecifier(
+            ...     baca.tools.RhythmCommand(
             ...         rhythm_maker=figures,
             ...         ),
             ...     )
@@ -419,7 +419,7 @@ def make_delicatissimo_music_maker():
             beam_divisions_together=True,
             ),
         baca.staccati(),
-        baca.tools.MusicRhythmSpecifier(
+        baca.tools.MusicRhythmCommand(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],

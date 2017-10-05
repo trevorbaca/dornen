@@ -1,7 +1,7 @@
 import abjad
 
 
-class QuartertoneManager(abjad.AbjadObject):
+class QuartertoneCommand(abjad.AbjadObject):
     r'''Quartertone manager.
     '''
 

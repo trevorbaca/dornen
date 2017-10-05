@@ -189,7 +189,7 @@ accumulator(
 ################################ SEGMENT-MAKER ################################
 ###############################################################################
 
-tempo_specifier = baca.TempoSpecifier([
+metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
     (1, dornen.metronome_marks[44]),
     ])
 
@@ -212,7 +212,7 @@ segment_maker = baca.SegmentMaker(
     skips_instead_of_rests=True,
     spacing_specifier=spacing_specifier,
     stage_label_base_string='I',
-    tempo_specifier=tempo_specifier,
+    metronome_mark_measure_map=metronome_mark_measure_map,
     time_signatures=accumulator.time_signatures,
     transpose_score=True,
     )

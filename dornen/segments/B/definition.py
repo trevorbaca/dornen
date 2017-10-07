@@ -372,8 +372,8 @@ assert len(design) == 22
 ###############################################################################
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    #(1, dornen.metronome_marks[44]),
-    (25, dornen.metronome_marks[66]),
+    #(1, dornen.metronome_marks['44']),
+    (25, dornen.metronome_marks['66']),
     ])
 
 spacing_specifier = baca.HorizontalSpacingSpecifier(

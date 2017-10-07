@@ -33,21 +33,16 @@ class DesignChecker(abjad.AbjadObject):
         for index, pair in enumerate(pairs):
             design_pitch_class, score_pitch_class = pair
             if not design_pitch_class == score_pitch_class:
-                message = 'pitch-class mismatch at index {}:'
-                message += ' design {!s} vs score {!s}.'
-                message = message.format(
-                    index,
-                    design_pitch_class,
-                    score_pitch_class,
-                    )
+                message = f'pitch-class mismatch at index {index}:'
+                message += f' design {design_pitch_class!r}'
+                message += ' vs score {score_pitch_class!r}.'
                 raise Exception(message)
         total_design = len(design_pitch_classes)
         total_score = len(score_pitch_classes)
         if total_score < total_design:
-            message = '{} design pcs with only {} score pcs ...'
+            message = f'{total_design} pcs; only {total_score} score pcs ...'
         else:
-            message = '{} design pcs with {} score pcs ...'
-        message = message.format(total_design, total_score)
+            message = f'{total_design} pcs with {total_score} score pcs ...'
         if not total_design == total_score:
             raise Exception(message)
         print(message)

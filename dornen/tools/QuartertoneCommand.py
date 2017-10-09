@@ -1,7 +1,8 @@
 import abjad
+import baca
 
 
-class QuartertoneCommand(abjad.AbjadObject):
+class QuartertoneCommand(baca.Command):
     r'''Quartertone manager.
     '''
 

@@ -149,25 +149,25 @@ accumulator.populate_segment_maker(segment_maker)
 ###############################################################################
 
 # glissando scatto
-segment_maker.scope(
+segment_maker(
     baca.scope('Guitar Music Voice 1', 1, 12),
     baca.register(-8),
     baca.displacements([0, 1]),
     )
 
 # ovoid
-segment_maker.scope(
+segment_maker(
     baca.scope('Guitar Music Voice 2', 1, 12),
     baca.register(-20, 4),
     )
 
 # delicatissimo
-segment_maker.scope(
+segment_maker(
     baca.scope('Guitar Music Voice 3', 1, 12),
     )
 
 # graced tuplet
-segment_maker.scope(
+segment_maker(
     baca.scope('Guitar Music Voice 4', 1, 12),
     baca.beam_positions(8),
     baca.register(-18, 6),

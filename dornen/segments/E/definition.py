@@ -162,14 +162,14 @@ accumulator.populate_segment_maker(segment_maker)
 ############################# CROSS-STAGE COMMANDS ############################
 ###############################################################################
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Guitar Music Voice 3', 1, 7),
     baca.accents(),
     baca.scripts_down(),
     baca.register(-20),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Guitar Music Voice 4', 1, 7),
     baca.staccati(),
     baca.beam_positions(5.5),
@@ -183,7 +183,7 @@ all_voices = [
     'Guitar Music Voice 4',
     ]
 
-segment_maker.scope(
+segment_maker(
     baca.scopes(all_voices, [(1, 9)]),
     dornen.QuartertoneCommand(),
     )

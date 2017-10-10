@@ -48,7 +48,7 @@ def make_default_music_maker():
             ...         ),
             ...     time_signatures=time_signatures,
             ...     )
-            >>> segment_maker.scope(
+            >>> segment_maker(
             ...     baca.scope('Violin Music Voice', 1),
             ...     baca.tools.RhythmCommand(
             ...         rhythm_maker=figures,
@@ -225,7 +225,7 @@ def make_default_music_maker():
             ...         ),
             ...     time_signatures=time_signatures,
             ...     )
-            >>> segment_maker.scope(
+            >>> segment_maker(
             ...     baca.scope('Violin Music Voice', 1),
             ...     baca.tools.RhythmCommand(
             ...         rhythm_maker=figures,

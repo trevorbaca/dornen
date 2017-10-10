@@ -232,34 +232,34 @@ accumulator.populate_segment_maker(segment_maker)
 ############################# CROSS-STAGE COMMANDS ############################
 ###############################################################################
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Guitar Music Voice 1', 1, Infinity),
     baca.messiaen_tie_each(),
     baca.register(-20),
     baca.stem_tremolo(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Guitar Music Voice 1', 2),
     baca.hairpins(['pp < p'], selector=baca.select_leaves(leak=Right)),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Guitar Music Voice 1', 4),
     baca.hairpins(['p > pp'], selector=baca.select_leaves(leak=Right)),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Guitar Music Voice 1', 7),
     baca.hairpins(['pp < mp'], selector=baca.select_leaves(leak=Right)),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Guitar Music Voice 1', 9),
     baca.hairpins(['mp > pp'], selector=baca.select_leaves(leak=Right)),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Guitar Music Voice 1', 12),
     baca.hairpins(['pp < p'], selector=baca.select_leaves(leak=Right)),
     baca.transition_spanner(
@@ -269,7 +269,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Guitar Music Voice 1', 14),
     baca.hairpins(['p > pp'], selector=baca.select_leaves(leak=Right)),
     baca.transition_spanner(
@@ -279,7 +279,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Guitar Music Voice 1', 16),
     baca.hairpins(['pp < mp'], selector=baca.select_leaves(leak=Right)),
     baca.transition_spanner(
@@ -289,7 +289,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Guitar Music Voice 1', 18),
     baca.hairpins(['mp > pp'], selector=baca.select_leaves(leak=Right)),
     baca.transition_spanner(
@@ -299,7 +299,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Guitar Music Voice 1', 20),
     baca.hairpins(['pp < mf'], selector=baca.select_leaves(leak=Right)),
     baca.transition_spanner(
@@ -309,7 +309,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Guitar Music Voice 1', 22, 25),
     baca.hairpins(['mf > p'], selector=baca.select_leaves()),
     baca.transition_spanner(

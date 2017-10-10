@@ -6,8 +6,6 @@ class MusicAccumulator(baca.MusicAccumulator):
 
     ::
 
-        >>> import abjad
-        >>> import baca
         >>> import dornen
 
     ..  container:: example

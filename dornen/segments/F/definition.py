@@ -250,31 +250,27 @@ accumulator.populate_segment_maker(segment_maker)
 ############################# CROSS-STAGE COMMANDS ############################
 ###############################################################################
 
-segment_maker.append_commands(
-    'Guitar Music Voice 1',
-    baca.select_stages(1, 22),
+segment_maker.scope(
+    baca.scope('Guitar Music Voice 1', 1, 22),
     baca.beam_positions(8),
     )
 
-segment_maker.append_commands(
-    'Guitar Music Voice 2',
-    baca.select_stages(1, 10),
+segment_maker.scope(
+    baca.scope('Guitar Music Voice 2', 1, 10),
     baca.beam_positions(-7),
     baca.proportional_notation_duration((1, 32)),
     lower_register,
     )
 
-segment_maker.append_commands(
-    'Guitar Music Voice 2',
-    baca.select_stages(11, 22),
+segment_maker.scope(
+    baca.scope('Guitar Music Voice 2', 11, 22),
     baca.beam_positions(-7),
     baca.proportional_notation_duration((1, 48)),
     lower_register,
     )
 
-segment_maker.append_commands(
-    'Guitar Music Voice 3',
-    baca.select_stages(1, 22),
+segment_maker.scope(
+    baca.scope('Guitar Music Voice 3', 1, 22),
     baca.beam_positions(4),
     baca.staccati(),
     )

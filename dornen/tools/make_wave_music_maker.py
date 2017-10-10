@@ -7,8 +7,6 @@ def make_wave_music_maker(denominator=64, inverted=False):
 
     ::
 
-        >>> import abjad
-        >>> import baca
         >>> import dornen
 
     ..  container:: example
@@ -53,9 +51,8 @@ def make_wave_music_maker(denominator=64, inverted=False):
             ...         ),
             ...     time_signatures=time_signatures,
             ...     )
-            >>> segment_maker.append_commands(
-            ...     'Violin Music Voice',
-            ...     baca.select_stages(1),
+            >>> segment_maker.scope(
+            ...     baca.scope('Violin Music Voice', 1),
             ...     baca.tools.RhythmCommand(
             ...         rhythm_maker=figures,
             ...         ),
@@ -413,9 +410,8 @@ def make_wave_music_maker(denominator=64, inverted=False):
             ...         ),
             ...     time_signatures=time_signatures,
             ...     )
-            >>> segment_maker.append_commands(
-            ...     'Violin Music Voice',
-            ...     baca.select_stages(1),
+            >>> segment_maker.scope(
+            ...     baca.scope('Violin Music Voice', 1),
             ...     baca.tools.RhythmCommand(
             ...         rhythm_maker=figures,
             ...         ),
@@ -773,9 +769,8 @@ def make_wave_music_maker(denominator=64, inverted=False):
             ...         ),
             ...     time_signatures=time_signatures,
             ...     )
-            >>> segment_maker.append_commands(
-            ...     'Violin Music Voice',
-            ...     baca.select_stages(1),
+            >>> segment_maker.scope(
+            ...     baca.scope('Violin Music Voice', 1),
             ...     baca.tools.RhythmCommand(
             ...         rhythm_maker=figures,
             ...         ),

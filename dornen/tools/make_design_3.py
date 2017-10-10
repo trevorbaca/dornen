@@ -6,7 +6,6 @@ def make_design_3(start=None, stop=None):
 
     ::
 
-        >>> import abjad
         >>> import dornen
 
     ..  container:: example

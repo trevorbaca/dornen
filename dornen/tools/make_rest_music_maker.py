@@ -58,7 +58,7 @@ def make_rest_music_maker(duration=None):
             ...     )
             >>> segment_maker(
             ...     baca.scope('Violin Music Voice', 1),
-            ...     baca.tools.RhythmCommand(
+            ...     baca.tools.RhythmBuilder(
             ...         rhythm_maker=figures,
             ...         ),
             ...     )
@@ -177,7 +177,7 @@ def make_rest_music_maker(duration=None):
             ...     )
             >>> segment_maker(
             ...     baca.scope('Violin Music Voice', 1),
-            ...     baca.tools.RhythmCommand(
+            ...     baca.tools.RhythmBuilder(
             ...         rhythm_maker=figures,
             ...         ),
             ...     )

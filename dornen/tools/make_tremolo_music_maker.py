@@ -50,7 +50,7 @@ def make_tremolo_music_maker():
             ...     )
             >>> segment_maker(
             ...     baca.scope('Violin Music Voice', 1),
-            ...     baca.tools.RhythmCommand(
+            ...     baca.tools.RhythmBuilder(
             ...         rhythm_maker=figures,
             ...         ),
             ...     )
@@ -232,7 +232,7 @@ def make_tremolo_music_maker():
             ...     )
             >>> segment_maker(
             ...     baca.scope('Violin Music Voice', 1),
-            ...     baca.tools.RhythmCommand(
+            ...     baca.tools.RhythmBuilder(
             ...         rhythm_maker=figures,
             ...         ),
             ...     )

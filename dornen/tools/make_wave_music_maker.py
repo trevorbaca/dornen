@@ -53,7 +53,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
             ...     )
             >>> segment_maker(
             ...     baca.scope('Violin Music Voice', 1),
-            ...     baca.tools.RhythmCommand(
+            ...     baca.tools.RhythmBuilder(
             ...         rhythm_maker=figures,
             ...         ),
             ...     )
@@ -412,7 +412,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
             ...     )
             >>> segment_maker(
             ...     baca.scope('Violin Music Voice', 1),
-            ...     baca.tools.RhythmCommand(
+            ...     baca.tools.RhythmBuilder(
             ...         rhythm_maker=figures,
             ...         ),
             ...     )
@@ -771,7 +771,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
             ...     )
             >>> segment_maker(
             ...     baca.scope('Violin Music Voice', 1),
-            ...     baca.tools.RhythmCommand(
+            ...     baca.tools.RhythmBuilder(
             ...         rhythm_maker=figures,
             ...         ),
             ...     )

@@ -584,6 +584,7 @@ segment_maker(
         ['pppp > niente'],
         include_rests=True,
         selector=baca.select_leaves(leak=Right),
+        target=baca.select_leaves(),
         ),
     )
 

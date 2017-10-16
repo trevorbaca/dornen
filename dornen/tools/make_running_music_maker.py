@@ -429,7 +429,7 @@ def make_running_music_maker():
             selector=abjad.select().
                 by_class(abjad.Tuplet).
                 get_slice(stop=1).
-                by_leaf(flatten=False).
+                by_leaf().
                 with_next_leaf(),
             spanner=abjad.Slur(),
             ),
@@ -437,7 +437,7 @@ def make_running_music_maker():
             selector=abjad.select().
                 by_class(abjad.Tuplet).
                 get_slice(start=1, stop=-1).
-                by_leaf(flatten=False).
+                by_leaf().
                 get_slice(start=1, stop=-1),
             spanner=abjad.Slur(),
             ),
@@ -445,7 +445,7 @@ def make_running_music_maker():
             selector=abjad.select().
                 by_class(abjad.Tuplet).
                 get_slice(start=-1).
-                by_leaf(flatten=False).
+                by_leaf().
                 with_previous_leaf(),
             spanner=abjad.Slur(),
             ),

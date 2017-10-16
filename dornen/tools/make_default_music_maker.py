@@ -425,7 +425,7 @@ def make_default_music_maker():
         baca.tools.SpannerCommand(
             selector=abjad.select().
                 by_class(abjad.Tuplet).
-                by_leaf(flatten=False),
+                by_leaf(),
             spanner=abjad.Slur(),
             ),
         color_unregistered_pitches=True,

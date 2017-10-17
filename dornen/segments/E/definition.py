@@ -75,7 +75,7 @@ accumulator(
     accumulator.rest_music_maker,
     baca.markup.make_markup(
         'raise string 2 one quartertone',
-        target=baca.select_leaf(0),
+        target=baca.select().leaf(0),
         ),
     figure_name='S1',
     logical_tie_masks=abjad.silence_all(),

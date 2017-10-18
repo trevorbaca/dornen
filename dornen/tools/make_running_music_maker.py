@@ -425,18 +425,9 @@ def make_running_music_maker():
                 time_treatments=[-1, -2],
                 ),
             ),
-        baca.SpannerCommand(
-            selector=baca.select().tuplet().leaves(leak=abjad.Right).wrap(),
-            spanner=abjad.Slur(),
-            ),
-        baca.SpannerCommand(
-            selector=baca.select().tuplets()[1:-1].leaves()[1:-1].wrap(),
-            spanner=abjad.Slur(),
-            ),
-        baca.SpannerCommand(
-            selector=baca.select().tuplet(-1).leaves(leak=abjad.Left).wrap(),
-            spanner=abjad.Slur(),
-            ),
+        baca.slur(baca.select().tuplet().leaves(leak=abjad.Right).wrap()),
+        baca.slur(baca.select().tuplets()[1:-1].leaves()[1:-1].wrap()),
+        baca.slur(baca.select().tuplet(-1).leaves(leak=abjad.Left).wrap()),
         color_unregistered_pitches=True,
         )
     return music_maker

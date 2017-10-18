@@ -152,7 +152,7 @@ accumulator.populate_segment_maker(segment_maker)
 segment_maker(
     baca.scope('Guitar Music Voice 1', 1, 12),
     baca.register(-8),
-    baca.displacements([0, 1]),
+    baca.displacement([0, 1]),
     )
 
 # ovoid

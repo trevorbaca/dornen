@@ -40,7 +40,7 @@ accumulator(
     baca.markup('glissando: attack first note only'),
     baca.beam_positions(-12),
     baca.register(-8),
-    baca.displacements([0, 1]),
+    baca.displacement([0, 1]),
     extend_beam=True,
     figure_name='G1',
     )
@@ -115,7 +115,7 @@ accumulator(
     design[3:4],
     accumulator.glissando_scatto_music_maker,
     baca.register(-8),
-    baca.displacements([0, 1]),
+    baca.displacement([0, 1]),
     extend_beam=True,
     figure_name='G2',
     )
@@ -133,7 +133,7 @@ accumulator(
     design[4:5],
     accumulator.glissando_scatto_music_maker,
     baca.register(-8),
-    baca.displacements([0, 1]),
+    baca.displacement([0, 1]),
     figure_name='G3',
     )
 

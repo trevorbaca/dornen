@@ -410,9 +410,7 @@ def make_default_music_maker():
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(
-        abjad.rhythmmakertools.BeamSpecifier(
-            beam_divisions_together=True,
-        ),
+        abjad.rhythmmakertools.BeamSpecifier(beam_divisions_together=True),
         baca.tools.MusicRhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
@@ -423,9 +421,7 @@ def make_default_music_maker():
                 ),
             ),
         baca.tools.SpannerCommand(
-            selector=abjad.select().
-                by_class(abjad.Tuplet).
-                by_leaf(),
+            selector=baca.select().leaves().wrap(),
             spanner=abjad.Slur(),
             ),
         color_unregistered_pitches=True,

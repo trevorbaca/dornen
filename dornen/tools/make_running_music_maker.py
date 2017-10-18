@@ -411,12 +411,12 @@ def make_running_music_maker():
 
     Returns music-maker.
     '''
-    music_maker = baca.tools.MusicMaker(
+    music_maker = baca.MusicMaker(
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.tools.MusicRhythmSpecifier(
-            rhythm_maker=baca.tools.MusicRhythmMaker(
+        baca.MusicRhythmSpecifier(
+            rhythm_maker=baca.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],
                     denominator=64,
@@ -425,28 +425,16 @@ def make_running_music_maker():
                 time_treatments=[-1, -2],
                 ),
             ),
-        baca.tools.SpannerCommand(
-            selector=abjad.select().
-                by_class(abjad.Tuplet).
-                get_slice(stop=1).
-                by_leaf().
-                with_next_leaf(),
+        baca.SpannerCommand(
+            selector=baca.select().tuplet().leaves(leak=abjad.Right).wrap(),
             spanner=abjad.Slur(),
             ),
-        baca.tools.SpannerCommand(
-            selector=abjad.select().
-                by_class(abjad.Tuplet).
-                get_slice(start=1, stop=-1).
-                by_leaf().
-                get_slice(start=1, stop=-1),
+        baca.SpannerCommand(
+            selector=baca.select().tuplets()[1:-1].leaves()[1:-1].wrap(),
             spanner=abjad.Slur(),
             ),
-        baca.tools.SpannerCommand(
-            selector=abjad.select().
-                by_class(abjad.Tuplet).
-                get_slice(start=-1).
-                by_leaf().
-                with_previous_leaf(),
+        baca.SpannerCommand(
+            selector=baca.select().tuplet(-1).leaves(leak=abjad.Left).wrap(),
             spanner=abjad.Slur(),
             ),
         color_unregistered_pitches=True,

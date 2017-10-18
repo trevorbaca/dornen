@@ -60,7 +60,7 @@ accumulator(
     design[5:6],
     accumulator.glissando_scatto_music_maker,
     baca.register(-20),
-    baca.displacements([0, 1]),
+    baca.displacement([0, 1]),
     figure_name='L1',
     )
 

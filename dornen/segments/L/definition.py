@@ -624,7 +624,6 @@ segment_maker(
     baca.scope('Guitar Music Voice 1', 45),
     baca.hairpins(
         ['pppp > niente'],
-        include_rests=True,
         selector=baca.select().leaves(leak=Right).wrap(),
         ),
     )

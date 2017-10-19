@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_running_music_maker():
+def running_music():
     r'''Makes running music-maker.
 
     ::
@@ -25,7 +25,7 @@ def make_running_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_running_music_maker()
+            >>> music_maker = dornen.running_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
@@ -204,7 +204,7 @@ def make_running_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_running_music_maker()
+            >>> music_maker = dornen.running_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)

@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_ovoid_music_maker():
+def ovoid_music():
     '''Makes ovoid music-maker.
 
     ::
@@ -42,7 +42,7 @@ def make_ovoid_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_ovoid_music_maker()
+            >>> music_maker = dornen.ovoid_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)

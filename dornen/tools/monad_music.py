@@ -2,8 +2,8 @@ import abjad
 import baca
 
 
-def make_sixteenth_music_maker():
-    r'''Makes sixteenth music-maker.
+def monad_music():
+    r'''Makes monad music-maker.
 
     ::
 
@@ -11,7 +11,7 @@ def make_sixteenth_music_maker():
 
     ..  container:: example
 
-        Makes sixteenths:
+        Makes monads:
 
         ::
 
@@ -36,7 +36,7 @@ def make_sixteenth_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_sixteenth_music_maker()
+            >>> music_maker = dornen.monad_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
@@ -90,46 +90,46 @@ def make_sixteenth_music_maker():
                 \context GlobalContext = "Global Context" <<
                     \context GlobalRests = "Global Rests" {
                         {
-                            \time 7/16
-                            R1 * 7/16
+                            \time 14/5
+                            R1 * 14/5
                         }
                         {
-                            \time 2/16
-                            R1 * 1/8
+                            \time 4/5
+                            R1 * 4/5
                         }
                         {
-                            \time 3/16
-                            R1 * 3/16
+                            \time 6/5
+                            R1 * 6/5
                         }
                         {
-                            \time 4/16
-                            R1 * 1/4
+                            \time 8/5
+                            R1 * 8/5
                         }
                     }
                     \context GlobalSkips = "Global Skips" {
                         {
-                            \time 7/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                            \time 14/5
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                             \newSpacingSection
-                            s1 * 7/16
+                            s1 * 14/5
                         }
                         {
-                            \time 2/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                            \time 4/5
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                             \newSpacingSection
-                            s1 * 1/8
+                            s1 * 4/5
                         }
                         {
-                            \time 3/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                            \time 6/5
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                             \newSpacingSection
-                            s1 * 3/16
+                            s1 * 6/5
                         }
                         {
-                            \time 4/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                            \time 8/5
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                             \newSpacingSection
-                            s1 * 1/4
+                            s1 * 8/5
                         }
                     }
                 >>
@@ -137,56 +137,72 @@ def make_sixteenth_music_maker():
                     \tag violin
                     \context ViolinMusicStaff = "Violin Music Staff" {
                         \context ViolinMusicVoice = "Violin Music Voice" {
-                            {
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
                                 \set ViolinMusicStaff.instrumentName = \markup { Violin }
                                 \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
-                                cs'16
+                                cs'2
                             }
-                            {
-                                c'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                c'2
                             }
-                            {
-                                bf'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                bf'2
                             }
-                            {
-                                f'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                f'2
                             }
-                            {
-                                af'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                af'2
                             }
-                            {
-                                fs'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                fs'2
                             }
-                            {
-                                b'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                b'2
                             }
-                            {
-                                d'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                d'2
                             }
-                            {
-                                e'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                e'2
                             }
-                            {
-                                ef'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                ef'2
                             }
-                            {
-                                a'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                a'2
                             }
-                            {
-                                af'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                af'2
                             }
-                            {
-                                fs'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                fs'2
                             }
-                            {
-                                b'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                b'2
                             }
-                            {
-                                d'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                d'2
                             }
-                            {
-                                f'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                f'2
                                 \bar "|"
                             }
                         }
@@ -196,7 +212,7 @@ def make_sixteenth_music_maker():
 
     ..  container:: example
 
-        Mixes sixteenths and broken tuplets:
+        Mixes monads and broken tuplets:
 
         ::
 
@@ -221,7 +237,7 @@ def make_sixteenth_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_sixteenth_music_maker()
+            >>> music_maker = dornen.monad_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
@@ -275,46 +291,46 @@ def make_sixteenth_music_maker():
                 \context GlobalContext = "Global Context" <<
                     \context GlobalRests = "Global Rests" {
                         {
-                            \time 7/16
-                            R1 * 7/16
+                            \time 14/5
+                            R1 * 14/5
                         }
                         {
-                            \time 1/16
-                            R1 * 1/16
+                            \time 2/5
+                            R1 * 2/5
                         }
                         {
-                            \time 3/16
-                            R1 * 3/16
+                            \time 6/5
+                            R1 * 6/5
                         }
                         {
-                            \time 4/16
-                            R1 * 1/4
+                            \time 8/5
+                            R1 * 8/5
                         }
                     }
                     \context GlobalSkips = "Global Skips" {
                         {
-                            \time 7/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                            \time 14/5
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                             \newSpacingSection
-                            s1 * 7/16
+                            s1 * 14/5
                         }
                         {
-                            \time 1/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                            \time 2/5
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                             \newSpacingSection
-                            s1 * 1/16
+                            s1 * 2/5
                         }
                         {
-                            \time 3/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                            \time 6/5
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                             \newSpacingSection
-                            s1 * 3/16
+                            s1 * 6/5
                         }
                         {
-                            \time 4/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                            \time 8/5
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                             \newSpacingSection
-                            s1 * 1/4
+                            s1 * 8/5
                         }
                     }
                 >>
@@ -322,45 +338,56 @@ def make_sixteenth_music_maker():
                     \tag violin
                     \context ViolinMusicStaff = "Violin Music Staff" {
                         \context ViolinMusicVoice = "Violin Music Voice" {
-                            {
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
                                 \set ViolinMusicStaff.instrumentName = \markup { Violin }
                                 \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
-                                cs'16
+                                cs'2
                             }
-                            {
-                                c'16 [
-                                bf'16 ]
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                c'2
+                                bf'2
                             }
-                            {
-                                f'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                f'2
                             }
-                            {
-                                af'16 [
-                                fs'16 ]
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                af'2
+                                fs'2
                             }
-                            {
-                                b'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                b'2
                             }
-                            {
-                                d'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                d'2
                             }
-                            {
-                                ef'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                ef'2
                             }
-                            {
-                                a'16 [
-                                af'16 ]
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                a'2
+                                af'2
                             }
-                            {
-                                fs'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                fs'2
                             }
-                            {
-                                b'16 [
-                                d'16 ]
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                b'2
+                                d'2
                             }
-                            {
-                                f'16
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 4/5 {
+                                f'2
                                 \bar "|"
                             }
                         }
@@ -371,18 +398,15 @@ def make_sixteenth_music_maker():
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(
-        abjad.rhythmmakertools.BeamSpecifier(
-            beam_each_division=True,
-            ),
         baca.tools.MusicRhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],
-                    denominator=16,
+                    denominator=2,
                     ),
+                time_treatments=[abjad.Multiplier((4, 5))],
                 )
             ),
-        color_unregistered_pitches=True,
-        denominator=16,
+        denominator=5,
         )
     return music_maker

@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_graced_tuplet_music_maker():
+def graced_tuplet_music():
     '''Makes graced tuplet music-maker.
 
     ::
@@ -36,7 +36,7 @@ def make_graced_tuplet_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_graced_tuplet_music_maker()
+            >>> music_maker = dornen.graced_tuplet_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)

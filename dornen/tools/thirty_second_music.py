@@ -2,8 +2,8 @@ import abjad
 import baca
 
 
-def make_default_music_maker():
-    r'''Makes default music-maker.
+def thirty_second_music():
+    r'''Makes thirty-second music-maker.
 
     ::
 
@@ -11,7 +11,7 @@ def make_default_music_maker():
 
     ..  container:: example
 
-        Makes one-stage default figures:
+        Makes one-stage thirty-second figures:
 
         ::
 
@@ -25,7 +25,7 @@ def make_default_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_default_music_maker()
+            >>> music_maker = dornen.thirty_second_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
@@ -125,7 +125,7 @@ def make_default_music_maker():
                             {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                fs'32 [ (
+                                fs'32 [
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
                                 d'32
@@ -143,7 +143,7 @@ def make_default_music_maker():
                                 af'32
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                c'32 ] )
+                                c'32 ]
                             }
                             {
                                 b'32
@@ -151,7 +151,7 @@ def make_default_music_maker():
                             {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                bf'32 [ (
+                                bf'32 [
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
                                 g'32
@@ -166,7 +166,7 @@ def make_default_music_maker():
                                 c'32
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                f'32 ] )
+                                f'32 ]
                                 \bar "|"
                             }
                         }
@@ -176,7 +176,7 @@ def make_default_music_maker():
 
     ..  container:: example
 
-        Makes multisegment default figures:
+        Makes multisegment thirty-second figures:
 
         ::
 
@@ -202,7 +202,7 @@ def make_default_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_default_music_maker()
+            >>> music_maker = dornen.thirty_second_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
@@ -293,7 +293,7 @@ def make_default_music_maker():
                                 \set ViolinMusicStaff.instrumentName = \markup { Violin }
                                 \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
-                                e'32 [ (
+                                e'32 [
                             }
                             {
                                 \set stemLeftBeamCount = #1
@@ -321,12 +321,12 @@ def make_default_music_maker():
                             {
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                b'32 ] )
+                                b'32 ]
                             }
                             {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                fs'32 [ (
+                                fs'32 [
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
                                 d'32
@@ -369,12 +369,12 @@ def make_default_music_maker():
                                 c'32
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                f'32 ] )
+                                f'32 ]
                             }
                             {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                b'32 [ (
+                                b'32 [
                             }
                             {
                                 \set stemLeftBeamCount = #1
@@ -399,7 +399,7 @@ def make_default_music_maker():
                             {
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                e'32 ] )
+                                e'32 ]
                                 \bar "|"
                             }
                         }
@@ -409,10 +409,12 @@ def make_default_music_maker():
 
     Returns music-maker.
     '''
-    music_maker = baca.MusicMaker(
-        abjad.rhythmmakertools.BeamSpecifier(beam_divisions_together=True),
-        baca.MusicRhythmSpecifier(
-            rhythm_maker=baca.MusicRhythmMaker(
+    music_maker = baca.tools.MusicMaker(
+        abjad.rhythmmakertools.BeamSpecifier(
+            beam_divisions_together=True,
+        ),
+        baca.tools.MusicRhythmSpecifier(
+            rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
                     counts=[1],
                     denominator=32,
@@ -420,7 +422,6 @@ def make_default_music_maker():
 
                 ),
             ),
-        baca.slur(baca.select().leaves().wrap()),
         color_unregistered_pitches=True,
         denominator=32,
         )

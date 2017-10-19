@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_graced_rest_music_maker():
+def graced_rest_music():
     r'''Makes graced rest music-maker.
 
     ::
@@ -42,7 +42,7 @@ def make_graced_rest_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_graced_rest_music_maker()
+            >>> music_maker = dornen.graced_rest_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
@@ -116,7 +116,7 @@ def make_graced_rest_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_graced_rest_music_maker()
+            >>> music_maker = dornen.graced_rest_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)

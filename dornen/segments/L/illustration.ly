@@ -1110,7 +1110,15 @@
                     }
                     {
                         {
-                            r8 \! \stopTextSpan
+                            \override TextScript.staff-padding = #5.5
+                            r8 \! \stopTextSpan ^ \markup {
+                                \override
+                                    #'(font-name . "Palatino")
+                                    \whiteout
+                                        \upright
+                                            still
+                                }
+                            \revert TextScript.staff-padding
                             r8
                             r8
                             r8

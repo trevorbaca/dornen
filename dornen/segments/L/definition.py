@@ -378,7 +378,7 @@ accumulator.populate_segment_maker(segment_maker)
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 1, Infinity),
-    baca.messiaen_tie_each(),
+    baca.messiaen_ties(),
     baca.register(-20),
     baca.stem_tremolo(),
     )

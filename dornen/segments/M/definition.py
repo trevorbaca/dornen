@@ -321,7 +321,7 @@ accumulator(
         ' as close as possible to bridge; only one stroke.',
         direction=abjad.Up,
         ),
-    baca.messiaen_tie_each(),
+    baca.messiaen_ties(),
     baca.proportional_notation_duration((1, 12)),
     baca.register(-20),
     baca.stem_tremolo(),

@@ -280,7 +280,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        baca.select().leaves(leak=Right),
+        baca.select().leaves(leak=Right).wrap(),
         ),
     )
 
@@ -293,7 +293,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
-        baca.select().leaves(leak=Right),
+        baca.select().leaves(leak=Right).wrap(),
         ),
     )
 
@@ -306,7 +306,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        baca.select().leaves(leak=Right),
+        baca.select().leaves(leak=Right).wrap(),
         ),
     )
 
@@ -319,7 +319,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
-        baca.select().leaves(leak=Right),
+        baca.select().leaves(leak=Right).wrap(),
         ),
     )
 
@@ -332,7 +332,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        baca.select().leaves(leak=Right),
+        baca.select().leaves(leak=Right).wrap(),
         ),
     )
 
@@ -345,5 +345,6 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
+        baca.select().leaves(leak=Right).wrap(),
         ),
     )

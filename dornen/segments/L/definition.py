@@ -392,7 +392,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.tamb_tr(is_new=False),
         baca.markup.kn_rasg(),
-        baca.select().leaves(leak=Right),
+        baca.select().leaves(leak=Right).wrap(),
         ),
     )
 
@@ -405,7 +405,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
-        baca.select().leaves(leak=Right),
+        baca.select().leaves(leak=Right).wrap(),
         ),
     )
 
@@ -418,7 +418,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        baca.select().leaves(leak=Right),
+        baca.select().leaves(leak=Right).wrap(),
         ),
     )
 
@@ -431,7 +431,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
-        baca.select().leaves(leak=Right),
+        baca.select().leaves(leak=Right).wrap(),
         ),
     )
 
@@ -444,7 +444,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        baca.select().leaves(leak=Right),
+        baca.select().leaves(leak=Right).wrap(),
         ),
     )
 
@@ -465,7 +465,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.nail_rasg(),
-        baca.select().leaves(leak=Right),
+        baca.select().leaves(leak=Right).wrap(),
         ),
     )
 
@@ -478,7 +478,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        baca.select().leaves(leak=Right),
+        baca.select().leaves(leak=Right).wrap(),
         ),
     )
 
@@ -491,7 +491,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.nail_rasg(),
-        baca.select().leaves(leak=Right),
+        baca.select().leaves(leak=Right).wrap(),
         ),
     )
 
@@ -504,7 +504,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        baca.select().leaves(leak=Right),
+        baca.select().leaves(leak=Right).wrap(),
         ),
     )
 
@@ -517,7 +517,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.nail_rasg(),
-        baca.select().leaves(leak=Right),
+        baca.select().leaves(leak=Right).wrap(),
         ),
     )
 
@@ -642,7 +642,11 @@ segment_maker(
     baca.scope('Guitar Music Voice 1', 41, 45),
     baca.transition_spanner(
         baca.markup.make_markup('gradually slow rasgueado'),
-        #baca.markup.still(),
+        baca.markup.still(),
         selector=baca.select().leaves(leak=Right).wrap(),
+        ),
+    baca.text_script_staff_padding(
+        5.5,
+        baca.select().leaves(leak=abjad.Right)[-1],
         ),
     )

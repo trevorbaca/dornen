@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_wave_music_maker(denominator=64, inverted=False):
+def wave_music(denominator=64, inverted=False):
     r'''Makes wave music-maker.
 
     ::
@@ -28,7 +28,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_wave_music_maker()
+            >>> music_maker = dornen.wave_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
@@ -385,7 +385,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_wave_music_maker(
+            >>> music_maker = dornen.wave_music(
             ...     inverted=True,
             ...     )
             >>> figures, time_signatures = [], []
@@ -744,7 +744,7 @@ def make_wave_music_maker(denominator=64, inverted=False):
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_wave_music_maker(
+            >>> music_maker = dornen.wave_music(
             ...     denominator=32,
             ...     )
             >>> figures, time_signatures = [], []

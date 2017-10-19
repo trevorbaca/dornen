@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_glissando_scatto_music_maker():
+def glissando_scatto_music():
     r'''Makes glissando scatto music-maker.
 
     ::
@@ -25,7 +25,7 @@ def make_glissando_scatto_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_glissando_scatto_music_maker()
+            >>> music_maker = dornen.glissando_scatto_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
@@ -204,7 +204,7 @@ def make_glissando_scatto_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_glissando_scatto_music_maker()
+            >>> music_maker = dornen.glissando_scatto_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)

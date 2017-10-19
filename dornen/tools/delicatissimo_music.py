@@ -2,8 +2,8 @@ import abjad
 import baca
 
 
-def make_thirty_second_music_maker():
-    r'''Makes thirty-second music-maker.
+def delicatissimo_music():
+    r'''Makes delicatissimo music-maker.
 
     ::
 
@@ -11,7 +11,7 @@ def make_thirty_second_music_maker():
 
     ..  container:: example
 
-        Makes one-stage thirty-second figures:
+        Makes one-stage delicatissimo figures:
 
         ::
 
@@ -25,7 +25,7 @@ def make_thirty_second_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_thirty_second_music_maker()
+            >>> music_maker = dornen.delicatissimo_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
@@ -120,53 +120,53 @@ def make_thirty_second_music_maker():
                                 \set ViolinMusicStaff.instrumentName = \markup { Violin }
                                 \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
-                                e'32
+                                e'32 -\staccato
                             }
                             {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                fs'32 [
+                                fs'32 -\staccato [
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                d'32
+                                d'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                ef'32
+                                ef'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                f'32
+                                f'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                a'32
+                                a'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                af'32
+                                af'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                c'32 ]
+                                c'32 -\staccato ]
                             }
                             {
-                                b'32
+                                b'32 -\staccato
                             }
                             {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                bf'32 [
+                                bf'32 -\staccato [
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                g'32
+                                g'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                a'32
+                                a'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                af'32
+                                af'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                c'32
+                                c'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                f'32 ]
+                                f'32 -\staccato ]
                                 \bar "|"
                             }
                         }
@@ -176,7 +176,7 @@ def make_thirty_second_music_maker():
 
     ..  container:: example
 
-        Makes multisegment thirty-second figures:
+        Makes multisegment delicatissimo figures:
 
         ::
 
@@ -192,6 +192,7 @@ def make_thirty_second_music_maker():
             ...     segments[1:4],
             ...     segments[2:5],
             ...     ]
+            ...
             >>> for segments in segment_lists:
             ...     segments
             ...
@@ -202,7 +203,7 @@ def make_thirty_second_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_thirty_second_music_maker()
+            >>> music_maker = dornen.delicatissimo_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
@@ -293,113 +294,113 @@ def make_thirty_second_music_maker():
                                 \set ViolinMusicStaff.instrumentName = \markup { Violin }
                                 \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
-                                e'32 [
+                                e'32 -\staccato [
                             }
                             {
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #3
-                                fs'32
+                                fs'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                d'32
+                                d'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                ef'32
+                                ef'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                f'32
+                                f'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                a'32
+                                a'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                af'32
+                                af'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #1
-                                c'32
+                                c'32 -\staccato
                             }
                             {
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                b'32 ]
+                                b'32 -\staccato ]
                             }
                             {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                fs'32 [
+                                fs'32 -\staccato [
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                d'32
+                                d'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                ef'32
+                                ef'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                f'32
+                                f'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                a'32
+                                a'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                af'32
+                                af'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #1
-                                c'32
+                                c'32 -\staccato
                             }
                             {
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #1
-                                b'32
+                                b'32 -\staccato
                             }
                             {
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #3
-                                bf'32
+                                bf'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                g'32
+                                g'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                a'32
+                                a'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                af'32
+                                af'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                c'32
+                                c'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                f'32 ]
+                                f'32 -\staccato ]
                             }
                             {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                b'32 [
+                                b'32 -\staccato [
                             }
                             {
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #3
-                                bf'32
+                                bf'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                g'32
+                                g'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                a'32
+                                a'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                af'32
+                                af'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                c'32
+                                c'32 -\staccato
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #1
-                                f'32
+                                f'32 -\staccato
                             }
                             {
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                e'32 ]
+                                e'32 -\staccato ]
                                 \bar "|"
                             }
                         }
@@ -412,7 +413,8 @@ def make_thirty_second_music_maker():
     music_maker = baca.tools.MusicMaker(
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
-        ),
+            ),
+        baca.staccati(),
         baca.tools.MusicRhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(

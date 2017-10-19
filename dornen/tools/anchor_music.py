@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_anchor_music_maker():
+def anchor_music():
     r'''Makes anchor music-maker.
 
     ::
@@ -25,7 +25,7 @@ def make_anchor_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_anchor_music_maker()
+            >>> music_maker = dornen.anchor_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)

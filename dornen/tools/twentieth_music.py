@@ -2,8 +2,8 @@ import abjad
 import baca
 
 
-def make_twenty_fourth_music_maker():
-    r'''Makes twenty-fourth music-maker.
+def twentieth_music():
+    r'''Makes twentieth music-maker.
 
     ::
 
@@ -11,7 +11,7 @@ def make_twenty_fourth_music_maker():
 
     ..  container:: example
 
-        Makes twenty-fourths:
+        Makes twentieths:
 
         ::
 
@@ -36,7 +36,7 @@ def make_twenty_fourth_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_twenty_fourth_music_maker()
+            >>> music_maker = dornen.twentieth_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
@@ -90,46 +90,46 @@ def make_twenty_fourth_music_maker():
                 \context GlobalContext = "Global Context" <<
                     \context GlobalRests = "Global Rests" {
                         {
-                            \time 7/24
-                            R1 * 7/24
+                            \time 7/20
+                            R1 * 7/20
                         }
                         {
-                            \time 2/24
-                            R1 * 1/12
+                            \time 2/20
+                            R1 * 1/10
                         }
                         {
-                            \time 3/24
-                            R1 * 1/8
+                            \time 3/20
+                            R1 * 3/20
                         }
                         {
-                            \time 4/24
-                            R1 * 1/6
+                            \time 4/20
+                            R1 * 1/5
                         }
                     }
                     \context GlobalSkips = "Global Skips" {
                         {
-                            \time 7/24
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)
+                            \time 7/20
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)
                             \newSpacingSection
-                            s1 * 7/24
+                            s1 * 7/20
                         }
                         {
-                            \time 2/24
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)
+                            \time 2/20
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)
                             \newSpacingSection
-                            s1 * 1/12
+                            s1 * 1/10
                         }
                         {
-                            \time 3/24
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)
+                            \time 3/20
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)
                             \newSpacingSection
-                            s1 * 1/8
+                            s1 * 3/20
                         }
                         {
-                            \time 4/24
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)
+                            \time 4/20
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)
                             \newSpacingSection
-                            s1 * 1/6
+                            s1 * 1/5
                         }
                     }
                 >>
@@ -138,70 +138,70 @@ def make_twenty_fourth_music_maker():
                     \context ViolinMusicStaff = "Violin Music Staff" {
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 \set ViolinMusicStaff.instrumentName = \markup { Violin }
                                 \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
                                 cs'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 c'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 bf'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 f'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 af'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 fs'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 b'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 d'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 e'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 ef'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 a'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 af'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 fs'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 b'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 d'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 f'16
                                 \bar "|"
                             }
@@ -212,7 +212,7 @@ def make_twenty_fourth_music_maker():
 
     ..  container:: example
 
-        Mixes twenty-fourths and broken tuplets:
+        Mixes twentieths and broken tuplets:
 
         ::
 
@@ -236,8 +236,8 @@ def make_twenty_fourth_music_maker():
 
         ::
 
-            >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_twenty_fourth_music_maker()
+            >>> voic_name = 'Guitar Music Voice 1'
+            >>> music_maker = dornen.twentieth_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
@@ -291,46 +291,46 @@ def make_twenty_fourth_music_maker():
                 \context GlobalContext = "Global Context" <<
                     \context GlobalRests = "Global Rests" {
                         {
-                            \time 7/24
-                            R1 * 7/24
+                            \time 7/20
+                            R1 * 7/20
                         }
                         {
-                            \time 1/24
-                            R1 * 1/24
+                            \time 1/20
+                            R1 * 1/20
                         }
                         {
-                            \time 3/24
-                            R1 * 1/8
+                            \time 3/20
+                            R1 * 3/20
                         }
                         {
-                            \time 4/24
-                            R1 * 1/6
+                            \time 4/20
+                            R1 * 1/5
                         }
                     }
                     \context GlobalSkips = "Global Skips" {
                         {
-                            \time 7/24
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)
+                            \time 7/20
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)
                             \newSpacingSection
-                            s1 * 7/24
+                            s1 * 7/20
                         }
                         {
-                            \time 1/24
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)
+                            \time 1/20
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)
                             \newSpacingSection
-                            s1 * 1/24
+                            s1 * 1/20
                         }
                         {
-                            \time 3/24
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)
+                            \time 3/20
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)
                             \newSpacingSection
-                            s1 * 1/8
+                            s1 * 3/20
                         }
                         {
-                            \time 4/24
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)
+                            \time 4/20
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)
                             \newSpacingSection
-                            s1 * 1/6
+                            s1 * 1/5
                         }
                     }
                 >>
@@ -339,54 +339,54 @@ def make_twenty_fourth_music_maker():
                     \context ViolinMusicStaff = "Violin Music Staff" {
                         \context ViolinMusicVoice = "Violin Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 \set ViolinMusicStaff.instrumentName = \markup { Violin }
                                 \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
                                 cs'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 c'16 [
                                 bf'16 ]
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 f'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 af'16 [
                                 fs'16 ]
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 b'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 d'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 ef'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 a'16 [
                                 af'16 ]
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 fs'16
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 b'16 [
                                 d'16 ]
                             }
                             \tweak edge-height #'(0.7 . 0)
-                            \times 2/3 {
+                            \times 4/5 {
                                 f'16
                                 \bar "|"
                             }
@@ -407,10 +407,10 @@ def make_twenty_fourth_music_maker():
                     counts=[1],
                     denominator=16,
                     ),
-                time_treatments=[abjad.Multiplier((2, 3))],
+                time_treatments=[abjad.Multiplier((4, 5))],
                 )
             ),
         color_unregistered_pitches=True,
-        denominator=24,
+        denominator=20,
         )
     return music_maker

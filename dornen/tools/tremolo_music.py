@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_tremolo_music_maker():
+def tremolo_music():
     r'''Makes tremolo music-maker.
 
     ::
@@ -25,7 +25,7 @@ def make_tremolo_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_tremolo_music_maker()
+            >>> music_maker = dornen.tremolo_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
@@ -207,7 +207,7 @@ def make_tremolo_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_tremolo_music_maker()
+            >>> music_maker = dornen.tremolo_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)

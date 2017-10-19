@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_passepied_music_maker():
+def passepied_music():
     r'''Makes passepied music-maker.
 
     ::
@@ -42,7 +42,7 @@ def make_passepied_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_passepied_music_maker()
+            >>> music_maker = dornen.passepied_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
@@ -202,7 +202,7 @@ def make_passepied_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_passepied_music_maker()
+            >>> music_maker = dornen.passepied_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)

@@ -8,7 +8,7 @@ import dornen
 ###############################################################################
 
 accumulator = dornen.MusicAccumulator(dornen.ScoreTemplate())
-design = dornen.make_design_3(start=20)
+design = dornen.design_3(start=20)
 assert len(design) == 20, (repr(design), len(design))
 
 accumulator(

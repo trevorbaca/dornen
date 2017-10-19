@@ -1,7 +1,7 @@
 import baca
 
 
-def make_design_3(start=None, stop=None):
+def design_3(start=None, stop=None):
     r'''Makes design III.
 
     ::
@@ -14,7 +14,7 @@ def make_design_3(start=None, stop=None):
 
         ::
 
-            >>> design_3 = dornen.make_design_3()
+            >>> design_3 = dornen.design_3()
             >>> show(design_3) # doctest: +SKIP
 
         ..  docs::

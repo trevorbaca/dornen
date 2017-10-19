@@ -2,8 +2,8 @@ import abjad
 import baca
 
 
-def make_forty_eighth_music_maker():
-    r'''Makes forty-eighth music-maker.
+def sixty_fourth_music():
+    r'''Makes sixty-fourth music-maker.
 
     ::
 
@@ -11,7 +11,7 @@ def make_forty_eighth_music_maker():
 
     ..  container:: example
 
-        Makes one-stage forty-eighth figures:
+        Makes one-stage sixty-fourth figures:
 
         ::
 
@@ -25,7 +25,7 @@ def make_forty_eighth_music_maker():
         ::
 
             >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.make_forty_eighth_music_maker()
+            >>> music_maker = dornen.sixty_fourth_music()
             >>> figures, time_signatures = [], []
             >>> for segments in segment_lists:
             ...     contribution = music_maker(voice_name, segments)
@@ -69,46 +69,46 @@ def make_forty_eighth_music_maker():
                 \context GlobalContext = "Global Context" <<
                     \context GlobalRests = "Global Rests" {
                         {
-                            \time 3/64
-                            R1 * 3/64
+                            \time 1/64
+                            R1 * 1/64
                         }
                         {
-                            \time 21/64
-                            R1 * 21/64
+                            \time 7/64
+                            R1 * 7/64
                         }
                         {
-                            \time 3/64
-                            R1 * 3/64
+                            \time 1/64
+                            R1 * 1/64
                         }
                         {
-                            \time 9/32
-                            R1 * 9/32
+                            \time 6/64
+                            R1 * 3/32
                         }
                     }
                     \context GlobalSkips = "Global Skips" {
                         {
-                            \time 3/64
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                            \time 1/64
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                             \newSpacingSection
-                            s1 * 3/64
+                            s1 * 1/64
                         }
                         {
-                            \time 21/64
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                            \time 7/64
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                             \newSpacingSection
-                            s1 * 21/64
+                            s1 * 7/64
                         }
                         {
-                            \time 3/64
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                            \time 1/64
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                             \newSpacingSection
-                            s1 * 3/64
+                            s1 * 1/64
                         }
                         {
-                            \time 9/32
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                            \time 6/64
+                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                             \newSpacingSection
-                            s1 * 9/32
+                            s1 * 3/32
                         }
                     }
                 >>
@@ -120,27 +120,53 @@ def make_forty_eighth_music_maker():
                                 \set ViolinMusicStaff.instrumentName = \markup { Violin }
                                 \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
-                                e'32.
+                                e'64 -\staccato
                             }
                             {
-                                fs'32. [
-                                d'32.
-                                ef'32.
-                                f'32.
-                                a'32.
-                                af'32.
-                                c'32. ]
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #4
+                                fs'64 -\staccato [
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                d'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                ef'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                f'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                a'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                af'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #0
+                                c'64 -\staccato ]
                             }
                             {
-                                b'32.
+                                b'64 -\staccato
                             }
                             {
-                                bf'32. [
-                                g'32.
-                                a'32.
-                                af'32.
-                                c'32.
-                                f'32. ]
+                                \set stemLeftBeamCount = #0
+                                \set stemRightBeamCount = #4
+                                bf'64 -\staccato [
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                g'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                a'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                af'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #4
+                                c'64 -\staccato
+                                \set stemLeftBeamCount = #4
+                                \set stemRightBeamCount = #0
+                                f'64 -\staccato ]
                                 \bar "|"
                             }
                         }
@@ -151,16 +177,20 @@ def make_forty_eighth_music_maker():
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(
+        abjad.rhythmmakertools.BeamSpecifier(
+            beam_divisions_together=True,
+            ),
+        baca.staccati(),
         baca.tools.MusicRhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=abjad.rhythmmakertools.Talea(
-                    counts=[3],
+                    counts=[1],
                     denominator=64,
                     ),
 
                 ),
             ),
         color_unregistered_pitches=True,
-        denominator=32,
+        denominator=64,
         )
     return music_maker

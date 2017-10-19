@@ -425,9 +425,9 @@ def running_music():
                 time_treatments=[-1, -2],
                 ),
             ),
-        baca.slur(baca.select().tuplet().leaves(leak=abjad.Right).wrap()),
-        baca.slur(baca.select().tuplets()[1:-1].leaves()[1:-1].wrap()),
-        baca.slur(baca.select().tuplet(-1).leaves(leak=abjad.Left).wrap()),
+        baca.slurs(baca.select().tuplet().leaves(leak=abjad.Right).wrap()),
+        baca.slurs(baca.select().tuplets()[1:-1].leaves()[1:-1].wrap()),
+        baca.slurs(baca.select().tuplet(-1).leaves(leak=abjad.Left).wrap()),
         color_unregistered_pitches=True,
         )
     return music_maker

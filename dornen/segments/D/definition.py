@@ -53,7 +53,7 @@ accumulator(
     'Guitar Music Voice 2',
     design[4:5],
     accumulator.thirty_second_music_maker,
-    baca.slur(),
+    baca.slurs(),
     figure_name='32_1',
     )
 
@@ -91,7 +91,7 @@ accumulator(
     'Guitar Music Voice 2',
     design[9:10],
     accumulator.thirty_second_music_maker,
-    baca.slur(),
+    baca.slurs(),
     figure_name='32_2',
     )
 
@@ -163,7 +163,7 @@ accumulator(
     'Guitar Music Voice 2',
     design[4:5],
     accumulator.thirty_second_music_maker,
-    baca.slur(),
+    baca.slurs(),
     figure_name='32_1*',
     )
 
@@ -237,7 +237,7 @@ accumulator(
     'Guitar Music Voice 2',
     design[9:10],
     accumulator.thirty_second_music_maker,
-    baca.slur(),
+    baca.slurs(),
     figure_name='32_2*',
     )
 

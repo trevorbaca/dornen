@@ -420,7 +420,7 @@ def default_music():
 
                 ),
             ),
-        baca.slurs(baca.select().leaves().wrap()),
+        baca.slurs(baca.select().leaves().group()),
         color_unregistered_pitches=True,
         denominator=32,
         )

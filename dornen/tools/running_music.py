@@ -425,9 +425,9 @@ def running_music():
                 time_treatments=[-1, -2],
                 ),
             ),
-        baca.slurs(baca.select().tuplet().rleaves().wrap()),
-        baca.slurs(baca.select().tuplets()[1:-1].leaves()[1:-1].wrap()),
-        baca.slurs(baca.select().tuplet(-1).lleaves().wrap()),
+        baca.slurs(baca.select().tuplet().rleaves().group()),
+        baca.slurs(baca.select().tuplets()[1:-1].leaves()[1:-1].group()),
+        baca.slurs(baca.select().tuplet(-1).lleaves().group()),
         color_unregistered_pitches=True,
         )
     return music_maker

@@ -58,7 +58,7 @@ class DesignChecker(abjad.AbjadObject):
     def _get_score_pitch_classes(self, score):
         result = []
         notes = []
-        for note in abjad.iterate(score).by_class(with_grace_notes=True):
+        for note in abjad.iterate(score).components(with_grace_notes=True):
             if not isinstance(note, abjad.Note):
                 continue
             if abjad.inspect(note).get_indicator(self._foreshadow_tag):

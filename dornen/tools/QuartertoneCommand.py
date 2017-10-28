@@ -14,7 +14,7 @@ class QuartertoneCommand(baca.Command):
         Returns none.
         '''
         lowest_quartertone = abjad.NamedPitch('C4')
-        for note in abjad.iterate(argument).by_leaf(pitched=True):
+        for note in abjad.iterate(argument).leaves(pitched=True):
             number = note.written_pitch.number
             if number == int(number):
                 continue

@@ -437,7 +437,7 @@ def tremolo_music():
             spanner=abjad.Tie(),
             ),
         baca.tools.StemTremoloCommand(
-            selector=abjad.select().by_leaf(),
+            selector=abjad.select().leaves(),
             tremolo_flags=32,
             ),
         allow_repeat_pitches=True,

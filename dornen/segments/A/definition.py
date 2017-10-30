@@ -197,15 +197,15 @@ accumulator.populate_segment_maker(segment_maker)
 
 #segment_maker(
 #    baca.scope('Guitar Music Voice 1', 13, 15),
-#    baca.hairpins(['p > ppp']),
+#    baca.hairpin('p > ppp'),
 #    )
 
 #segment_maker(
 #    baca.scope('Guitar Music Voice 2', 2, 10),
-#    baca.hairpins(['f < fff']),
+#    baca.hairpin('f < fff'),
 #    )
 
 #segment_maker(
 #    baca.scope('Guitar Music Voice 2', 12, 14),
-#    baca.hairpins(['fff > f']),
+#    baca.hairpin('fff > f'),
 #    )

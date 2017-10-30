@@ -214,7 +214,7 @@ accumulator(
     [['Gb2']],
     accumulator.monad_music_maker,
     baca.markup.boxed_specifier('2-finger tamb. trill'),
-    baca.messiaen_ties(),
+    baca.messiaen_tie(),
     baca.stem_tremolo(),
     baca.stems_up(),
     baca.tuplet_bracket_staff_padding(0),

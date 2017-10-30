@@ -241,42 +241,27 @@ segment_maker(
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 2),
-    baca.hairpins(
-        ['pp < p'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('pp < p', baca.select().rleaves()),
     )
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 4),
-    baca.hairpins(
-        ['p > pp'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('p > pp', baca.select().rleaves()),
     )
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 7),
-    baca.hairpins(
-        ['pp < mp'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('pp < mp', baca.select().rleaves()),
     )
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 9),
-    baca.hairpins(
-        ['mp > pp'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('mp > pp', baca.select().rleaves()),
     )
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 12),
-    baca.hairpins(
-        ['pp < p'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('pp < p', baca.select().rleaves()),
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
@@ -286,10 +271,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 14),
-    baca.hairpins(
-        ['p > pp'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('p > pp', baca.select().rleaves()),
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
@@ -299,10 +281,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 16),
-    baca.hairpins(
-        ['pp < mp'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('pp < mp', baca.select().rleaves()),
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
@@ -312,10 +291,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 18),
-    baca.hairpins(
-        ['mp > pp'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('mp > pp', baca.select().rleaves()),
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
@@ -325,10 +301,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 20),
-    baca.hairpins(
-        ['pp < mf'],
-        selector=baca.select().rleaves().group(),
-        ),
+    baca.hairpin('pp < mf', baca.select().rleaves()),
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
@@ -338,10 +311,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 22, 25),
-    baca.hairpins(
-        ['mf > p'],
-        selector=baca.select().leaves().group(),
-        ),
+    baca.hairpin('mf > p', baca.select().leaves()),
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.tamb_tr(),

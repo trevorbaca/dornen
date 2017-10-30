@@ -48,7 +48,7 @@ accumulator(
     'Guitar Music Voice 2',
     design[4:5],
     accumulator.thirty_second_music_maker,
-    baca.slurs(),
+    baca.slur(),
     )
 
 accumulator(
@@ -99,7 +99,7 @@ accumulator(
     'Guitar Music Voice 2',
     design[4:5],
     accumulator.thirty_second_music_maker,
-    baca.slurs(),
+    baca.slur(),
     )
 
 accumulator(
@@ -150,7 +150,7 @@ accumulator(
     'Guitar Music Voice 2',
     design[4:5],
     accumulator.thirty_second_music_maker,
-    baca.slurs(),
+    baca.slur(),
     )
 
 accumulator(
@@ -200,7 +200,7 @@ accumulator(
     'Guitar Music Voice 2',
     design[4:5],
     accumulator.thirty_second_music_maker,
-    baca.slurs(),
+    baca.slur(),
     )
 
 accumulator(
@@ -250,7 +250,7 @@ accumulator(
     'Guitar Music Voice 2',
     design[4:5],
     accumulator.thirty_second_music_maker,
-    baca.slurs(),
+    baca.slur(),
     )
 
 accumulator(
@@ -299,7 +299,7 @@ accumulator(
     'Guitar Music Voice 2',
     design[4:5],
     accumulator.thirty_second_music_maker,
-    baca.slurs(),
+    baca.slur(),
     )
 
 ### rascado ###

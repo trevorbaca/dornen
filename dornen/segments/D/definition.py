@@ -15,9 +15,7 @@ accumulator(
     'Guitar Music Voice 1',
     design[:1],
     accumulator.forty_eighth_music_maker,
-    baca.markup(
-        'slurs fluid; all other parts mechanically precise'
-        ),
+    baca.markup('slurs fluid; all other parts mechanically precise'),
     # TODO: allow for arbitrary LilyPond command string
     #baca.rehearsal_mark_extra_offset((-10, -10)),
     extend_beam=True,
@@ -53,7 +51,7 @@ accumulator(
     'Guitar Music Voice 2',
     design[4:5],
     accumulator.thirty_second_music_maker,
-    baca.slurs(),
+    baca.slur(),
     figure_name='32_1',
     )
 
@@ -91,7 +89,7 @@ accumulator(
     'Guitar Music Voice 2',
     design[9:10],
     accumulator.thirty_second_music_maker,
-    baca.slurs(),
+    baca.slur(),
     figure_name='32_2',
     )
 
@@ -163,7 +161,7 @@ accumulator(
     'Guitar Music Voice 2',
     design[4:5],
     accumulator.thirty_second_music_maker,
-    baca.slurs(),
+    baca.slur(),
     figure_name='32_1*',
     )
 
@@ -237,7 +235,7 @@ accumulator(
     'Guitar Music Voice 2',
     design[9:10],
     accumulator.thirty_second_music_maker,
-    baca.slurs(),
+    baca.slur(),
     figure_name='32_2*',
     )
 

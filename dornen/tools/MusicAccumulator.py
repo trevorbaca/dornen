@@ -4,36 +4,30 @@ import baca
 class MusicAccumulator(baca.MusicAccumulator):
     r'''Music-accumulator.
 
-    ::
-
-        >>> import dornen
+    >>> import dornen
 
     ..  container:: example
 
-        ::
+        >>> score_template = dornen.ScoreTemplate()
+        >>> accumulator = dornen.MusicAccumulator(score_template)
+        >>> segments = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
+        >>> accumulator(
+        ...     'Guitar Music Voice 1',
+        ...     segments,
+        ...     accumulator.delicatissimo_music_maker,
+        ...     figure_name='D',
+        ...     )
 
-            >>> score_template = dornen.ScoreTemplate()
-            >>> accumulator = dornen.MusicAccumulator(score_template)
-            >>> segments = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
-            >>> accumulator(
-            ...     'Guitar Music Voice 1',
-            ...     segments,
-            ...     accumulator.delicatissimo_music_maker,
-            ...     figure_name='D',
-            ...     )
-
-        ::
-
-            >>> selection = accumulator.assemble('Guitar Music Voice 1')
-            >>> lilypond_file = accumulator.show(
-            ...     {'Guitar Music Voice 1': selection},
-            ...     accumulator.time_signatures,
-            ...     )
-            >>> show(lilypond_file) # doctest: +SKIP
+        >>> selection = accumulator.assemble('Guitar Music Voice 1')
+        >>> lilypond_file = accumulator.show(
+        ...     {'Guitar Music Voice 1': selection},
+        ...     accumulator.time_signatures,
+        ...     )
+        >>> abjad.show(lilypond_file) # doctest: +SKIP
 
         ..  docs::
 
-            >>> f(lilypond_file[abjad.Staff])
+            >>> abjad.f(lilypond_file[abjad.Staff])
             \new Staff <<
                 \context Voice = "Guitar Music Voice 1" {
                     {

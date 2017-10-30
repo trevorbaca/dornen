@@ -6,58 +6,52 @@ import dornen
 class ScoreTemplate(baca.ScoreTemplate):
     r'''Score template.
 
-    ::
-
-        >>> import dornen
+    >>> import dornen
 
     ..  container:: example
 
-        ::
+        >>> template = dornen.ScoreTemplate()
+        >>> path = abjad.Path('dornen', 'stylesheets', 'contexts.ily')
+        >>> lilypond_file = template.__illustrate__(
+        ...     global_staff_size=16,
+        ...     includes=[path],
+        ...     )
+        >>> abjad.show(lilypond_file) # doctest: +SKIP
 
-            >>> template = dornen.ScoreTemplate()
-            >>> path = abjad.Path('dornen', 'stylesheets', 'contexts.ily')
-            >>> lilypond_file = template.__illustrate__(
-            ...     global_staff_size=16,
-            ...     includes=[path],
-            ...     )
-            >>> show(lilypond_file) # doctest: +SKIP
-
-        ::
-
-            >>> f(lilypond_file[abjad.Score])
-            \context Score = "Score" <<
-                \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                    }
-                    \context GlobalSkips = "Global Skips" {
-                    }
-                >>
-                \context MusicContext = "Music Context" {
-                    \context GuitarMusicStaff = "Guitar Music Staff" <<
-                        \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
-                            \set GuitarMusicStaff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Guitar
-                                }
-                            \set GuitarMusicStaff.shortInstrumentName = \markup {
-                                \null
-                                }
-                            \clef "treble"
-                            s1
-                        }
-                        \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
-                            s1
-                        }
-                        \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
-                            s1
-                        }
-                        \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
-                            s1
-                        }
-                    >>
+        >>> abjad.f(lilypond_file[abjad.Score])
+        \context Score = "Score" <<
+            \context GlobalContext = "Global Context" <<
+                \context GlobalRests = "Global Rests" {
+                }
+                \context GlobalSkips = "Global Skips" {
                 }
             >>
+            \context MusicContext = "Music Context" {
+                \context GuitarMusicStaff = "Guitar Music Staff" <<
+                    \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
+                        \set GuitarMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Guitar
+                            }
+                        \set GuitarMusicStaff.shortInstrumentName = \markup {
+                            \null
+                            }
+                        \clef "treble"
+                        s1
+                    }
+                    \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
+                        s1
+                    }
+                    \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
+                        s1
+                    }
+                    \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
+                        s1
+                    }
+                >>
+            }
+        >>
 
     '''
 

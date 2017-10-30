@@ -5,70 +5,60 @@ import baca
 def wave_music(denominator=64, inverted=False):
     r'''Makes wave music-maker.
 
-    ::
-
-        >>> import dornen
+    >>> import dornen
 
     ..  container:: example
 
         Makes wave figures:
 
-        ::
+        >>> segment_lists = [
+        ...     [[6, 2, 3, 5, 9, 8, 0]],
+        ...     [[6, 2, 3, 5, 9, 8, 0], [10, 7, 9, 8, 0, 5]],
+        ...     [
+        ...         [6, 2, 3, 5, 9, 8, 0],
+        ...         [10, 7, 9, 8, 0, 5],
+        ...         [6, 2, 3, 5, 9, 8, 0],
+        ...         ],
+        ...     ]
 
-            >>> segment_lists = [
-            ...     [[6, 2, 3, 5, 9, 8, 0]],
-            ...     [[6, 2, 3, 5, 9, 8, 0], [10, 7, 9, 8, 0, 5]],
-            ...     [
-            ...         [6, 2, 3, 5, 9, 8, 0],
-            ...         [10, 7, 9, 8, 0, 5],
-            ...         [6, 2, 3, 5, 9, 8, 0],
-            ...         ],
-            ...     ]
+        >>> voice_name = 'Guitar Music Voice 1'
+        >>> music_maker = dornen.wave_music()
+        >>> figures, time_signatures = [], []
+        >>> for segments in segment_lists:
+        ...     contribution = music_maker(voice_name, segments)
+        ...     figures.extend(contribution.selections[voice_name])
+        ...     time_signatures.append(contribution.time_signature)
+        ...
+        >>> figures_ = []
+        >>> for figure in figures:
+        ...     figures_.extend(figure)
+        ...
+        >>> figures = abjad.select(figures_)
 
-        ::
+        >>> segment_maker = baca.tools.SegmentMaker(
+        ...     ignore_unregistered_pitches=True,
+        ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
+        ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
+        ...         minimum_width=abjad.Duration(1, 24),
+        ...         ),
+        ...     time_signatures=time_signatures,
+        ...     )
+        >>> segment_maker(
+        ...     baca.scope('Violin Music Voice', 1),
+        ...     baca.tools.RhythmBuilder(
+        ...         rhythm_maker=figures,
+        ...         ),
+        ...     )
 
-            >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.wave_music()
-            >>> figures, time_signatures = [], []
-            >>> for segments in segment_lists:
-            ...     contribution = music_maker(voice_name, segments)
-            ...     figures.extend(contribution.selections[voice_name])
-            ...     time_signatures.append(contribution.time_signature)
-            ...
-            >>> figures_ = []
-            >>> for figure in figures:
-            ...     figures_.extend(figure)
-            ...
-            >>> figures = abjad.select(figures_)
-
-        ::
-
-            >>> segment_maker = baca.tools.SegmentMaker(
-            ...     ignore_unregistered_pitches=True,
-            ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-            ...         minimum_width=abjad.Duration(1, 24),
-            ...         ),
-            ...     time_signatures=time_signatures,
-            ...     )
-            >>> segment_maker(
-            ...     baca.scope('Violin Music Voice', 1),
-            ...     baca.tools.RhythmBuilder(
-            ...         rhythm_maker=figures,
-            ...         ),
-            ...     )
-
-        ::
-
-            >>> result = segment_maker.run(is_doc_example=True)
-            >>> lilypond_file, metadata = result
-            >>> score = lilypond_file[abjad.Score]
-            >>> abjad.override(score).tuplet_bracket.padding = 2
-            >>> show(lilypond_file) # doctest: +SKIP
+        >>> result = segment_maker.run(is_doc_example=True)
+        >>> lilypond_file, metadata = result
+        >>> score = lilypond_file[abjad.Score]
+        >>> abjad.override(score).tuplet_bracket.padding = 2
+        >>> abjad.show(lilypond_file) # doctest: +SKIP
 
         ..  docs::
 
-            >>> f(lilypond_file[abjad.Score])
+            >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {
                 \override TupletBracket.padding = #2
             } <<
@@ -370,64 +360,56 @@ def wave_music(denominator=64, inverted=False):
 
         Makes inverted wave figures:
 
-        ::
+        >>> segment_lists = [
+        ...     [[6, 2, 3, 5, 9, 8, 0]],
+        ...     [[6, 2, 3, 5, 9, 8, 0], [10, 7, 9, 8, 0, 5]],
+        ...     [
+        ...         [6, 2, 3, 5, 9, 8, 0],
+        ...         [10, 7, 9, 8, 0, 5],
+        ...         [6, 2, 3, 5, 9, 8, 0],
+        ...         ],
+        ...     ]
 
-            >>> segment_lists = [
-            ...     [[6, 2, 3, 5, 9, 8, 0]],
-            ...     [[6, 2, 3, 5, 9, 8, 0], [10, 7, 9, 8, 0, 5]],
-            ...     [
-            ...         [6, 2, 3, 5, 9, 8, 0],
-            ...         [10, 7, 9, 8, 0, 5],
-            ...         [6, 2, 3, 5, 9, 8, 0],
-            ...         ],
-            ...     ]
+        >>> voice_name = 'Guitar Music Voice 1'
+        >>> music_maker = dornen.wave_music(
+        ...     inverted=True,
+        ...     )
+        >>> figures, time_signatures = [], []
+        >>> for segments in segment_lists:
+        ...     contribution = music_maker(voice_name, segments)
+        ...     figures.extend(contribution.selections[voice_name])
+        ...     time_signatures.append(contribution.time_signature)
+        ...
+        >>> figures_ = []
+        >>> for figure in figures:
+        ...     figures_.extend(figure)
+        ...
+        >>> figures = abjad.select(figures_)
 
-        ::
+        >>> segment_maker = baca.tools.SegmentMaker(
+        ...     ignore_unregistered_pitches=True,
+        ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
+        ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
+        ...         minimum_width=abjad.Duration(1, 24),
+        ...         ),
+        ...     time_signatures=time_signatures,
+        ...     )
+        >>> segment_maker(
+        ...     baca.scope('Violin Music Voice', 1),
+        ...     baca.tools.RhythmBuilder(
+        ...         rhythm_maker=figures,
+        ...         ),
+        ...     )
 
-            >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.wave_music(
-            ...     inverted=True,
-            ...     )
-            >>> figures, time_signatures = [], []
-            >>> for segments in segment_lists:
-            ...     contribution = music_maker(voice_name, segments)
-            ...     figures.extend(contribution.selections[voice_name])
-            ...     time_signatures.append(contribution.time_signature)
-            ...
-            >>> figures_ = []
-            >>> for figure in figures:
-            ...     figures_.extend(figure)
-            ...
-            >>> figures = abjad.select(figures_)
-
-        ::
-
-            >>> segment_maker = baca.tools.SegmentMaker(
-            ...     ignore_unregistered_pitches=True,
-            ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-            ...         minimum_width=abjad.Duration(1, 24),
-            ...         ),
-            ...     time_signatures=time_signatures,
-            ...     )
-            >>> segment_maker(
-            ...     baca.scope('Violin Music Voice', 1),
-            ...     baca.tools.RhythmBuilder(
-            ...         rhythm_maker=figures,
-            ...         ),
-            ...     )
-
-        ::
-
-            >>> result = segment_maker.run(is_doc_example=True)
-            >>> lilypond_file, metadata = result
-            >>> score = lilypond_file[abjad.Score]
-            >>> abjad.override(score).tuplet_bracket.padding = 2
-            >>> show(lilypond_file) # doctest: +SKIP
+        >>> result = segment_maker.run(is_doc_example=True)
+        >>> lilypond_file, metadata = result
+        >>> score = lilypond_file[abjad.Score]
+        >>> abjad.override(score).tuplet_bracket.padding = 2
+        >>> abjad.show(lilypond_file) # doctest: +SKIP
 
         ..  docs::
 
-            >>> f(lilypond_file[abjad.Score])
+            >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {
                 \override TupletBracket.padding = #2
             } <<
@@ -729,64 +711,56 @@ def wave_music(denominator=64, inverted=False):
 
         Makes thirty-second-valued wave figures:
 
-        ::
+        >>> segment_lists = [
+        ...     [[6, 2, 3, 5, 9, 8, 0]],
+        ...     [[6, 2, 3, 5, 9, 8, 0], [10, 7, 9, 8, 0, 5]],
+        ...     [
+        ...         [6, 2, 3, 5, 9, 8, 0],
+        ...         [10, 7, 9, 8, 0, 5],
+        ...         [6, 2, 3, 5, 9, 8, 0],
+        ...         ],
+        ...     ]
 
-            >>> segment_lists = [
-            ...     [[6, 2, 3, 5, 9, 8, 0]],
-            ...     [[6, 2, 3, 5, 9, 8, 0], [10, 7, 9, 8, 0, 5]],
-            ...     [
-            ...         [6, 2, 3, 5, 9, 8, 0],
-            ...         [10, 7, 9, 8, 0, 5],
-            ...         [6, 2, 3, 5, 9, 8, 0],
-            ...         ],
-            ...     ]
+        >>> voice_name = 'Guitar Music Voice 1'
+        >>> music_maker = dornen.wave_music(
+        ...     denominator=32,
+        ...     )
+        >>> figures, time_signatures = [], []
+        >>> for segments in segment_lists:
+        ...     contribution = music_maker(voice_name, segments)
+        ...     figures.extend(contribution.selections[voice_name])
+        ...     time_signatures.append(contribution.time_signature)
+        ...
+        >>> figures_ = []
+        >>> for figure in figures:
+        ...     figures_.extend(figure)
+        ...
+        >>> figures = abjad.select(figures_)
 
-        ::
+        >>> segment_maker = baca.tools.SegmentMaker(
+        ...     ignore_unregistered_pitches=True,
+        ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
+        ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
+        ...         minimum_width=abjad.Duration(1, 24),
+        ...         ),
+        ...     time_signatures=time_signatures,
+        ...     )
+        >>> segment_maker(
+        ...     baca.scope('Violin Music Voice', 1),
+        ...     baca.tools.RhythmBuilder(
+        ...         rhythm_maker=figures,
+        ...         ),
+        ...     )
 
-            >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.wave_music(
-            ...     denominator=32,
-            ...     )
-            >>> figures, time_signatures = [], []
-            >>> for segments in segment_lists:
-            ...     contribution = music_maker(voice_name, segments)
-            ...     figures.extend(contribution.selections[voice_name])
-            ...     time_signatures.append(contribution.time_signature)
-            ...
-            >>> figures_ = []
-            >>> for figure in figures:
-            ...     figures_.extend(figure)
-            ...
-            >>> figures = abjad.select(figures_)
-
-        ::
-
-            >>> segment_maker = baca.tools.SegmentMaker(
-            ...     ignore_unregistered_pitches=True,
-            ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-            ...         minimum_width=abjad.Duration(1, 24),
-            ...         ),
-            ...     time_signatures=time_signatures,
-            ...     )
-            >>> segment_maker(
-            ...     baca.scope('Violin Music Voice', 1),
-            ...     baca.tools.RhythmBuilder(
-            ...         rhythm_maker=figures,
-            ...         ),
-            ...     )
-
-        ::
-
-            >>> result = segment_maker.run(is_doc_example=True)
-            >>> lilypond_file, metadata = result
-            >>> score = lilypond_file[abjad.Score]
-            >>> abjad.override(score).tuplet_bracket.padding = 2
-            >>> show(lilypond_file) # doctest: +SKIP
+        >>> result = segment_maker.run(is_doc_example=True)
+        >>> lilypond_file, metadata = result
+        >>> score = lilypond_file[abjad.Score]
+        >>> abjad.override(score).tuplet_bracket.padding = 2
+        >>> abjad.show(lilypond_file) # doctest: +SKIP
 
         ..  docs::
 
-            >>> f(lilypond_file[abjad.Score])
+            >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {
                 \override TupletBracket.padding = #2
             } <<

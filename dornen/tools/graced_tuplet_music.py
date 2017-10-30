@@ -5,77 +5,67 @@ import baca
 def graced_tuplet_music():
     '''Makes graced tuplet music-maker.
 
-    ::
-
-        >>> import dornen
+    >>> import dornen
 
     ..  container:: example
 
         Makes multistage graced tuplet figures:
 
-        ::
+        >>> segments = [
+        ...     [8],
+        ...     [1, 0, 10, 5, 8, 6, 11, 2, 4, 3],
+        ...     [9, 8, 1, 0, 10, 5, 8, 6, 11, 2],
+        ...     ]
+        >>> segments = abjad.CyclicTuple(segments)
+        >>> segment_lists = [
+        ...     segments[:2],
+        ...     segments[1:3],
+        ...     segments[2:4],
+        ...     ]
+        >>> for segments in segment_lists:
+        ...     segments
+        ...
+        ([8], [1, 0, 10, 5, 8, 6, 11, 2, 4, 3])
+        ([1, 0, 10, 5, 8, 6, 11, 2, 4, 3], [9, 8, 1, 0, 10, 5, 8, 6, 11, 2])
+        ([9, 8, 1, 0, 10, 5, 8, 6, 11, 2], [8])
 
-            >>> segments = [
-            ...     [8],
-            ...     [1, 0, 10, 5, 8, 6, 11, 2, 4, 3],
-            ...     [9, 8, 1, 0, 10, 5, 8, 6, 11, 2],
-            ...     ]
-            >>> segments = abjad.CyclicTuple(segments)
-            >>> segment_lists = [
-            ...     segments[:2],
-            ...     segments[1:3],
-            ...     segments[2:4],
-            ...     ]
-            >>> for segments in segment_lists:
-            ...     segments
-            ...
-            ([8], [1, 0, 10, 5, 8, 6, 11, 2, 4, 3])
-            ([1, 0, 10, 5, 8, 6, 11, 2, 4, 3], [9, 8, 1, 0, 10, 5, 8, 6, 11, 2])
-            ([9, 8, 1, 0, 10, 5, 8, 6, 11, 2], [8])
+        >>> voice_name = 'Guitar Music Voice 1'
+        >>> music_maker = dornen.graced_tuplet_music()
+        >>> figures, time_signatures = [], []
+        >>> for segments in segment_lists:
+        ...     contribution = music_maker(voice_name, segments)
+        ...     figures.extend(contribution.selections[voice_name])
+        ...     time_signatures.append(contribution.time_signature)
+        ...
+        >>> figures_ = []
+        >>> for figure in figures:
+        ...     figures_.extend(figure)
+        ...
+        >>> figures = abjad.select(figures_)
 
-        ::
+        >>> segment_maker = baca.tools.SegmentMaker(
+        ...     ignore_unregistered_pitches=True,
+        ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
+        ...     time_signatures=time_signatures,
+        ...     )
+        >>> segment_maker(
+        ...     baca.scope('Violin Music Voice', 1),
+        ...     baca.tools.RhythmBuilder(
+        ...         rhythm_maker=figures,
+        ...         ),
+        ...     )
 
-            >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.graced_tuplet_music()
-            >>> figures, time_signatures = [], []
-            >>> for segments in segment_lists:
-            ...     contribution = music_maker(voice_name, segments)
-            ...     figures.extend(contribution.selections[voice_name])
-            ...     time_signatures.append(contribution.time_signature)
-            ...
-            >>> figures_ = []
-            >>> for figure in figures:
-            ...     figures_.extend(figure)
-            ...
-            >>> figures = abjad.select(figures_)
-
-        ::
-
-            >>> segment_maker = baca.tools.SegmentMaker(
-            ...     ignore_unregistered_pitches=True,
-            ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     time_signatures=time_signatures,
-            ...     )
-            >>> segment_maker(
-            ...     baca.scope('Violin Music Voice', 1),
-            ...     baca.tools.RhythmBuilder(
-            ...         rhythm_maker=figures,
-            ...         ),
-            ...     )
-
-        ::
-
-            >>> result = segment_maker.run(is_doc_example=True)
-            >>> lilypond_file, metadata = result
-            >>> score = lilypond_file[abjad.Score]
-            >>> abjad.override(score).spacing_spanner.strict_grace_spacing = False
-            >>> abjad.override(score).spacing_spanner.strict_note_spacing = False
-            >>> abjad.override(score).tuplet_bracket.staff_padding = 4
-            >>> show(lilypond_file) # doctest: +SKIP
+        >>> result = segment_maker.run(is_doc_example=True)
+        >>> lilypond_file, metadata = result
+        >>> score = lilypond_file[abjad.Score]
+        >>> abjad.override(score).spacing_spanner.strict_grace_spacing = False
+        >>> abjad.override(score).spacing_spanner.strict_note_spacing = False
+        >>> abjad.override(score).tuplet_bracket.staff_padding = 4
+        >>> abjad.show(lilypond_file) # doctest: +SKIP
 
         ..  docs::
 
-            >>> f(lilypond_file[abjad.Score])
+            >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" \with {
                 \override SpacingSpanner.strict-grace-spacing = ##f
                 \override SpacingSpanner.strict-note-spacing = ##f

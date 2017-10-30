@@ -5,65 +5,55 @@ import baca
 def tremolo_music():
     r'''Makes tremolo music-maker.
 
-    ::
-
-        >>> import dornen
+    >>> import dornen
 
     ..  container:: example
 
         Makes one-stage tremolo figures:
 
-        ::
+        >>> segment_lists = [
+        ...     [[4]],
+        ...     [[4, 4, 4, 4, 4, 4, 4]],
+        ...     [[4]],
+        ...     [[4, 4, 4, 4, 4, 4]],
+        ...     ]
 
-            >>> segment_lists = [
-            ...     [[4]],
-            ...     [[4, 4, 4, 4, 4, 4, 4]],
-            ...     [[4]],
-            ...     [[4, 4, 4, 4, 4, 4]],
-            ...     ]
+        >>> voice_name = 'Guitar Music Voice 1'
+        >>> music_maker = dornen.tremolo_music()
+        >>> figures, time_signatures = [], []
+        >>> for segments in segment_lists:
+        ...     contribution = music_maker(voice_name, segments)
+        ...     figures.extend(contribution.selections[voice_name])
+        ...     time_signatures.append(contribution.time_signature)
+        ...
+        >>> figures_ = []
+        >>> for figure in figures:
+        ...     figures_.extend(figure)
+        ...
+        >>> figures = abjad.select(figures_)
 
-        ::
+        >>> segment_maker = baca.tools.SegmentMaker(
+        ...     ignore_unregistered_pitches=True,
+        ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
+        ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
+        ...         minimum_width=abjad.Duration(1, 24),
+        ...         ),
+        ...     time_signatures=time_signatures,
+        ...     )
+        >>> segment_maker(
+        ...     baca.scope('Violin Music Voice', 1),
+        ...     baca.tools.RhythmBuilder(
+        ...         rhythm_maker=figures,
+        ...         ),
+        ...     )
 
-            >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.tremolo_music()
-            >>> figures, time_signatures = [], []
-            >>> for segments in segment_lists:
-            ...     contribution = music_maker(voice_name, segments)
-            ...     figures.extend(contribution.selections[voice_name])
-            ...     time_signatures.append(contribution.time_signature)
-            ...
-            >>> figures_ = []
-            >>> for figure in figures:
-            ...     figures_.extend(figure)
-            ...
-            >>> figures = abjad.select(figures_)
-
-        ::
-
-            >>> segment_maker = baca.tools.SegmentMaker(
-            ...     ignore_unregistered_pitches=True,
-            ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-            ...         minimum_width=abjad.Duration(1, 24),
-            ...         ),
-            ...     time_signatures=time_signatures,
-            ...     )
-            >>> segment_maker(
-            ...     baca.scope('Violin Music Voice', 1),
-            ...     baca.tools.RhythmBuilder(
-            ...         rhythm_maker=figures,
-            ...         ),
-            ...     )
-
-        ::
-
-            >>> result = segment_maker.run(is_doc_example=True)
-            >>> lilypond_file, metadata = result
-            >>> show(lilypond_file) # doctest: +SKIP
+        >>> result = segment_maker.run(is_doc_example=True)
+        >>> lilypond_file, metadata = result
+        >>> abjad.show(lilypond_file) # doctest: +SKIP
 
         ..  docs::
 
-            >>> f(lilypond_file[abjad.Score])
+            >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \tag violin
                 \context GlobalContext = "Global Context" <<
@@ -182,70 +172,63 @@ def tremolo_music():
 
         Makes multisegment tremolo figures:
 
-        ::
-
-            >>> segments = [
-            ...     [4],
-            ...     [4, 4, 4, 4, 4, 4, 4],
-            ...     [4],
-            ...     [4, 4, 4, 4, 4, 4],
-            ...     ]
-            >>> segments = abjad.CyclicTuple(segments)
-            >>> segment_lists = [
-            ...     segments[:3],
-            ...     segments[1:4],
-            ...     segments[2:5],
-            ...     ]
-            >>> for segments in segment_lists:
-            ...     segments
-            ...
-            ([4], [4, 4, 4, 4, 4, 4, 4], [4])
-            ([4, 4, 4, 4, 4, 4, 4], [4], [4, 4, 4, 4, 4, 4])
-            ([4], [4, 4, 4, 4, 4, 4], [4])
+        >>> segments = [
+        ...     [4],
+        ...     [4, 4, 4, 4, 4, 4, 4],
+        ...     [4],
+        ...     [4, 4, 4, 4, 4, 4],
+        ...     ]
+        >>> segments = abjad.CyclicTuple(segments)
+        >>> segment_lists = [
+        ...     segments[:3],
+        ...     segments[1:4],
+        ...     segments[2:5],
+        ...     ]
+        >>> for segments in segment_lists:
+        ...     segments
+        ...
+        ([4], [4, 4, 4, 4, 4, 4, 4], [4])
+        ([4, 4, 4, 4, 4, 4, 4], [4], [4, 4, 4, 4, 4, 4])
+        ([4], [4, 4, 4, 4, 4, 4], [4])
 
 
-        ::
+        >>> voice_name = 'Guitar Music Voice 1'
+        >>> music_maker = dornen.tremolo_music()
+        >>> figures, time_signatures = [], []
+        >>> for segments in segment_lists:
+        ...     contribution = music_maker(voice_name, segments)
+        ...     figures.extend(contribution.selections[voice_name])
+        ...     time_signatures.append(contribution.time_signature)
+        ...
+        >>> figures_ = []
+        >>> for figure in figures:
+        ...     figures_.extend(figure)
+        ...
+        >>> figures = abjad.select(figures_)
 
-            >>> voice_name = 'Guitar Music Voice 1'
-            >>> music_maker = dornen.tremolo_music()
-            >>> figures, time_signatures = [], []
-            >>> for segments in segment_lists:
-            ...     contribution = music_maker(voice_name, segments)
-            ...     figures.extend(contribution.selections[voice_name])
-            ...     time_signatures.append(contribution.time_signature)
-            ...
-            >>> figures_ = []
-            >>> for figure in figures:
-            ...     figures_.extend(figure)
-            ...
-            >>> figures = abjad.select(figures_)
+        >>> segment_maker = baca.tools.SegmentMaker(
+        ...     ignore_unregistered_pitches=True,
+        ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
+        ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
+        ...         minimum_width=abjad.Duration(1, 24),
+        ...         ),
+        ...     time_signatures=time_signatures,
+        ...     )
+        >>> segment_maker(
+        ...     baca.scope('Violin Music Voice', 1),
+        ...     baca.tools.RhythmBuilder(
+        ...         rhythm_maker=figures,
+        ...         ),
+        ...     )
 
-        ::
-
-            >>> segment_maker = baca.tools.SegmentMaker(
-            ...     ignore_unregistered_pitches=True,
-            ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
-            ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-            ...         minimum_width=abjad.Duration(1, 24),
-            ...         ),
-            ...     time_signatures=time_signatures,
-            ...     )
-            >>> segment_maker(
-            ...     baca.scope('Violin Music Voice', 1),
-            ...     baca.tools.RhythmBuilder(
-            ...         rhythm_maker=figures,
-            ...         ),
-            ...     )
-
-        ::
-
-            >>> result = segment_maker.run(is_doc_example=True)
-            >>> lilypond_file, metadata = result
-            >>> show(lilypond_file) # doctest: +SKIP
+        >>> result = segment_maker.run(is_doc_example=True)
+        >>> lilypond_file, metadata = result
+        >>> show(
+            lilypond_file) # doctest: +SKIP
 
         ..  docs::
 
-            >>> f(lilypond_file[abjad.Score])
+            >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \tag violin
                 \context GlobalContext = "Global Context" <<

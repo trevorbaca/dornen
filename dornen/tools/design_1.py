@@ -4,23 +4,19 @@ import baca
 def design_1(start=None, stop=None):
     r'''Makes design I.
 
-    ::
-
-        >>> import dornen
+    >>> import dornen
 
     ..  container:: example
 
         Makes design I:
 
-        ::
-
-            >>> design_1 = dornen.design_1()
-            >>> show(design_1) # doctest: +SKIP
+        >>> design_1 = dornen.design_1()
+        >>> abjad.show(design_1) # doctest: +SKIP
 
         ..  docs::
 
             >>> lilypond_file = design_1.__illustrate__()
-            >>> f(lilypond_file[abjad.Voice])
+            >>> abjad.f(lilypond_file[abjad.Voice])
             \new Voice \with {
                 \consists Horizontal_bracket_engraver
             } {

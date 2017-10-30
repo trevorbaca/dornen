@@ -223,8 +223,7 @@ def tremolo_music():
 
         >>> result = segment_maker.run(is_doc_example=True)
         >>> lilypond_file, metadata = result
-        >>> show(
-            lilypond_file) # doctest: +SKIP
+        >>> show(lilypond_file) # doctest: +SKIP
 
         ..  docs::
 

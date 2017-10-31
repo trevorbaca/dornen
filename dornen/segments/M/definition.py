@@ -321,10 +321,10 @@ accumulator(
         ' as close as possible to bridge; only one stroke.',
         direction=abjad.Up,
         ),
-    baca.repeat_tie(),
     baca.proportional_notation_duration((1, 12)),
     baca.register(-20),
     baca.stem_tremolo(),
+    baca.tie(repeat=True),
     )
 
 ###############################################################################

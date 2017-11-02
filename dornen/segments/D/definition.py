@@ -11,13 +11,13 @@ accumulator = dornen.MusicAccumulator(dornen.ScoreTemplate())
 design = dornen.design_2(start=14, stop=28)
 assert len(design) == 14
 
+string = r"\override Score.RehearsalMark.extra-offset = #'(-10 . -10)"
 accumulator(
     'Guitar Music Voice 1',
     design[:1],
     accumulator.forty_eighth_music_maker,
     baca.markup('slurs fluid; all other parts mechanically precise'),
-    # TODO: allow for arbitrary LilyPond command string
-    #baca.rehearsal_mark_extra_offset((-10, -10)),
+    baca.literal(string),
     extend_beam=True,
     figure_name='48_1',
     )

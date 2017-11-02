@@ -272,7 +272,7 @@ def graced_tuplet_music():
             beam_divisions_together=True,
             ),
         baca.tools.MusicRhythmSpecifier(
-            pattern=abjad.index_every([0], period=2),
+            pattern=abjad.index([0], 2),
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 acciaccatura_specifiers=[
                     baca.tools.AcciaccaturaSpecifier(
@@ -292,7 +292,7 @@ def graced_tuplet_music():
                 )
             ),
         baca.tools.MusicRhythmSpecifier(
-            pattern=abjad.index_every([1], period=2),
+            pattern=abjad.index([1], 2),
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 acciaccatura_specifiers=[
                     baca.tools.AcciaccaturaSpecifier(

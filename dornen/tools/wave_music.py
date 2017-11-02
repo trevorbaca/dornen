@@ -1083,11 +1083,11 @@ def wave_music(denominator=64, inverted=False):
         rhythm_maker_2 = accelerando_rhythm_maker
     music_maker = baca.tools.MusicMaker(
         baca.tools.MusicRhythmSpecifier(
-            pattern=abjad.index_every([0], period=2),
+            pattern=abjad.index([0], 2),
             rhythm_maker=rhythm_maker_1,
             ),
         baca.tools.MusicRhythmSpecifier(
-            pattern=abjad.index_every([1], period=2),
+            pattern=abjad.index([1], 2),
             rhythm_maker=rhythm_maker_2,
             ),
         color_unregistered_pitches=True,

@@ -194,6 +194,7 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
+                            \clef "treble"
                             \override Beam.positions = #'(6 . 6)
                             bf'32 -\staccato [
                             \set stemLeftBeamCount = #3

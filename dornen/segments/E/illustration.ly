@@ -169,6 +169,7 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
+                            \clef "treble"
                             \override Beam.positions = #'(10 . 10)
                             bf'32. -\tenuto [
                             \set stemLeftBeamCount = #3

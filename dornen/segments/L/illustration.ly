@@ -457,6 +457,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
+                            \clef "treble"
                             e2 :32
                         }
                     }

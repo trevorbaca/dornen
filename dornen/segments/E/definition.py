@@ -78,7 +78,7 @@ accumulator(
         baca.select().leaf(0),
         ),
     figure_name='S1',
-    logical_tie_masks=abjad.silence_all(),
+    logical_tie_masks=abjad.silence([0], 1),
     )
 
 accumulator(

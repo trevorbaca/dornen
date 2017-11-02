@@ -333,7 +333,7 @@ accumulator(
     [5 * ['C4']],
     accumulator.rest_music_maker,
     figure_name='4_36',
-    logical_tie_masks=abjad.silence_all(),
+    logical_tie_masks=abjad.silence([0], 1),
     )
 
 ###############################################################################

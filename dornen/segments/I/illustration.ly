@@ -224,6 +224,7 @@
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
                     {
                         {
+                            \clef "treble"
                             r8
                             r8
                             r8

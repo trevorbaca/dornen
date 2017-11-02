@@ -241,6 +241,7 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
+                            \clef "treble"
                             \override Beam.positions = #'(9 . 9)
                             f32 * 1984/1024 [
                             a32 * 1088/1024

@@ -154,6 +154,7 @@
         \context MusicContext = "Music Context" {
             \context GuitarMusicStaff = "Guitar Music Staff" <<
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
+                    \clef "treble"
                     s1 * 7/32
                     {
                         {

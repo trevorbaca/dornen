@@ -324,6 +324,7 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
+                            \clef "treble"
                             \override Beam.positions = #'(10 . 10)
                             d'32. -\tenuto [ - \markup { "slurs fluid; all other parts mechanically precise" }
                             \set stemLeftBeamCount = #3

@@ -415,6 +415,7 @@
                             }
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
+                            \clef "treble"
                             b''64 * 256/1024 [
                             g''64 * 512/1024
                             ef''64 * 768/1024

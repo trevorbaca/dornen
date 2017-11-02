@@ -61,7 +61,7 @@ accumulator(
     'Guitar Music Voice 1',
     [['C4']],
     accumulator.thirty_second_music_maker,
-    logical_tie_masks=abjad.silence_all(),
+    logical_tie_masks=abjad.silence([0], 1),
     )
 
 ### 2 ###
@@ -112,7 +112,7 @@ accumulator(
     'Guitar Music Voice 1',
     [['C4']],
     accumulator.thirty_second_music_maker,
-    logical_tie_masks=abjad.silence_all(),
+    logical_tie_masks=abjad.silence([0], 1),
     )
 
 ### 3 ###
@@ -163,7 +163,7 @@ accumulator(
     'Guitar Music Voice 1',
     [['C4']],
     accumulator.thirty_second_music_maker,
-    logical_tie_masks=abjad.silence_all(),
+    logical_tie_masks=abjad.silence([0], 1),
     )
 
 ### 4 ###
@@ -213,7 +213,7 @@ accumulator(
     'Guitar Music Voice 1',
     [['C4']],
     accumulator.thirty_second_music_maker,
-    logical_tie_masks=abjad.silence_all(),
+    logical_tie_masks=abjad.silence([0], 1),
     )
 
 ### 5 ###
@@ -263,7 +263,7 @@ accumulator(
     'Guitar Music Voice 1',
     [['C4']],
     accumulator.thirty_second_music_maker,
-    logical_tie_masks=abjad.silence_all(),
+    logical_tie_masks=abjad.silence([0], 1),
     )
 
 ### 6 ###
@@ -308,7 +308,7 @@ accumulator(
     'Guitar Music Voice 1',
     [5 * ['C4']],
     accumulator.rest_music_maker,
-    logical_tie_masks=abjad.silence_all(),
+    logical_tie_masks=abjad.silence([0], 1),
     )
 
 accumulator(

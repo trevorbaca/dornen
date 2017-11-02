@@ -14,7 +14,7 @@ accumulator(
     [3 * ['C4']],
     accumulator.rest_music_maker,
     figure_name='R_1',
-    logical_tie_masks=abjad.silence_all(),
+    logical_tie_masks=abjad.silence([0], 1),
     )
 
 accumulator(

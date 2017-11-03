@@ -332,11 +332,9 @@
                             \once \override TextSpanner.bound-details.left.text = \markup {
                                 \concat
                                     {
-                                        \override
-                                            #'(font-name . "Palatino")
-                                            \whiteout
-                                                \upright
-                                                    trans.
+                                        \whiteout
+                                            \upright
+                                                trans.
                                         \hspace
                                             #0.5
                                     }
@@ -355,11 +353,9 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             gtqf2 :32 \repeatTie \p \stopTextSpan ^ \markup {
-                                \override
-                                    #'(font-name . "Palatino")
-                                    \whiteout
-                                        \upright
-                                            "kn. rasg."
+                                \whiteout
+                                    \upright
+                                        "kn. rasg."
                                 }
                         }
                     }
@@ -372,11 +368,9 @@
                             \once \override TextSpanner.bound-details.left.text = \markup {
                                 \concat
                                     {
-                                        \override
-                                            #'(font-name . "Palatino")
-                                            \whiteout
-                                                \upright
-                                                    trans.
+                                        \whiteout
+                                            \upright
+                                                trans.
                                         \hspace
                                             #0.5
                                     }
@@ -395,11 +389,9 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             gtqf2 :32 \repeatTie \pp \stopTextSpan ^ \markup {
-                                \override
-                                    #'(font-name . "Palatino")
-                                    \whiteout
-                                        \upright
-                                            "tamb. tr."
+                                \whiteout
+                                    \upright
+                                        "tamb. tr."
                                 }
                         }
                     }
@@ -412,11 +404,9 @@
                             \once \override TextSpanner.bound-details.left.text = \markup {
                                 \concat
                                     {
-                                        \override
-                                            #'(font-name . "Palatino")
-                                            \whiteout
-                                                \upright
-                                                    trans.
+                                        \whiteout
+                                            \upright
+                                                trans.
                                         \hspace
                                             #0.5
                                     }
@@ -435,11 +425,9 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             gtqf2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
-                                \override
-                                    #'(font-name . "Palatino")
-                                    \whiteout
-                                        \upright
-                                            "kn. rasg."
+                                \whiteout
+                                    \upright
+                                        "kn. rasg."
                                 }
                         }
                     }
@@ -452,11 +440,9 @@
                             \once \override TextSpanner.bound-details.left.text = \markup {
                                 \concat
                                     {
-                                        \override
-                                            #'(font-name . "Palatino")
-                                            \whiteout
-                                                \upright
-                                                    trans.
+                                        \whiteout
+                                            \upright
+                                                trans.
                                         \hspace
                                             #0.5
                                     }
@@ -475,11 +461,9 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             gtqf2 :32 \repeatTie \pp \stopTextSpan ^ \markup {
-                                \override
-                                    #'(font-name . "Palatino")
-                                    \whiteout
-                                        \upright
-                                            "tamb. tr."
+                                \whiteout
+                                    \upright
+                                        "tamb. tr."
                                 }
                         }
                     }
@@ -492,11 +476,9 @@
                             \once \override TextSpanner.bound-details.left.text = \markup {
                                 \concat
                                     {
-                                        \override
-                                            #'(font-name . "Palatino")
-                                            \whiteout
-                                                \upright
-                                                    trans.
+                                        \whiteout
+                                            \upright
+                                                trans.
                                         \hspace
                                             #0.5
                                     }
@@ -515,11 +497,9 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             gtqf2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
-                                \override
-                                    #'(font-name . "Palatino")
-                                    \whiteout
-                                        \upright
-                                            "kn. rasg."
+                                \whiteout
+                                    \upright
+                                        "kn. rasg."
                                 }
                         }
                     }
@@ -532,11 +512,9 @@
                             \once \override TextSpanner.bound-details.left.text = \markup {
                                 \concat
                                     {
-                                        \override
-                                            #'(font-name . "Palatino")
-                                            \whiteout
-                                                \upright
-                                                    trans.
+                                        \whiteout
+                                            \upright
+                                                trans.
                                         \hspace
                                             #0.5
                                     }
@@ -583,11 +561,9 @@
                                                 "2 fingers"
                                     }
                             gtqf2 :32 \repeatTie \p \stopTextSpan ^ \markup {
-                                \override
-                                    #'(font-name . "Palatino")
-                                    \whiteout
-                                        \upright
-                                            "tamb. tr."
+                                \whiteout
+                                    \upright
+                                        "tamb. tr."
                                 }
                             \bar "|"
                         }

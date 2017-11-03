@@ -117,25 +117,32 @@ def tremolo_music():
                             \times 8/11 {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~ [
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 [
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #0
-                                e'8 :32 ]
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie ]
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
@@ -145,22 +152,28 @@ def tremolo_music():
                             \times 8/11 {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~ [
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 [
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #0
-                                e'8 :32 ]
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie ]
                                 \bar "|"
                             }
                         }
@@ -277,121 +290,151 @@ def tremolo_music():
                                 \set ViolinMusicStaff.instrumentName = \markup { Violin }
                                 \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
-                                e'8 :32 ~ [
+                                e'8 :32 [
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #0
-                                e'8 :32 ]
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie ]
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~ [
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 [
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #0
-                                e'8 :32 ]
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie ]
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~ [
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 [
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
-                                e'8 :32 ~
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #0
-                                e'8 :32 ]
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                                e'8 :32 \repeatTie ]
                                 \bar "|"
                             }
                         }
@@ -415,13 +458,8 @@ def tremolo_music():
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.tools.SpannerCommand(
-            spanner=abjad.Tie(),
-            ),
-        baca.tools.StemTremoloCommand(
-            selector=abjad.select().leaves(),
-            tremolo_flags=32,
-            ),
+        baca.tie(repeat=True),
+        baca.stem_tremolo(),
         allow_repeat_pitches=True,
         color_unregistered_pitches=True,
         denominator=11,

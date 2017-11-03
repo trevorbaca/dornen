@@ -458,7 +458,7 @@ def tremolo_music():
         abjad.rhythmmakertools.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.tie(repeat=True),
+        baca.map(baca.tie(repeat=True), baca.select().qruns().nontrivial()),
         baca.stem_tremolo(),
         allow_repeat_pitches=True,
         color_unregistered_pitches=True,

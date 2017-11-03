@@ -407,9 +407,7 @@ def glissando_scatto_music():
                 time_treatments=[-2, -3],
                 ),
             ),
-        baca.tools.SpannerCommand(
-            spanner=abjad.Glissando(),
-            ),
+        baca.map(baca.glissando(), baca.select().ntruns()),
         color_unregistered_pitches=True,
         denominator=16,
         )

@@ -409,15 +409,15 @@ def running_music():
             ),
         baca.map(
             baca.slur(),
-            baca.select().tuplets()[:1].rleaves().group().nontrivial(),
+            baca.tuplets()[:1].rleaves().group().nontrivial(),
             ),
         baca.map(
             baca.slur(),
-            baca.select().tuplets()[1:-1].leaves()[1:-1].group().nontrivial(),
+            baca.tuplets()[1:-1].leaves()[1:-1].group().nontrivial(),
             ),
         baca.map(
             baca.slur(),
-            baca.select().tuplets()[-1:].lleaves().group().nontrivial(),
+            baca.tuplets()[-1:].lleaves().group().nontrivial(),
             ),
         color_unregistered_pitches=True,
         )

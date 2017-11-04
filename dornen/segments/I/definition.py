@@ -222,40 +222,40 @@ segment_maker(
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 2),
-    baca.hairpin('ppp < pp', baca.select().rleaves()),
+    baca.hairpin('ppp < pp', baca.rleaves()),
     )
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 4),
-    baca.hairpin('pp > ppp', baca.select().rleaves()),
+    baca.hairpin('pp > ppp', baca.rleaves()),
     )
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 7),
-    baca.hairpin('ppp < p', baca.select().rleaves()),
+    baca.hairpin('ppp < p', baca.rleaves()),
     )
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 9),
-    baca.hairpin('p > ppp', baca.select().rleaves()),
+    baca.hairpin('p > ppp', baca.rleaves()),
     )
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 12),
-    baca.hairpin('ppp < pp', baca.select().rleaves()),
+    baca.hairpin('ppp < pp', baca.rleaves()),
     )
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 14),
-    baca.hairpin('pp < p', baca.select().rleaves()),
+    baca.hairpin('pp < p', baca.rleaves()),
     )
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 16),
-    baca.hairpin('p < mp', baca.select().rleaves()),
+    baca.hairpin('p < mp', baca.rleaves()),
     )
 
 segment_maker(
     baca.scope('Guitar Music Voice 1', 18, 21),
-    baca.hairpin('mp > pp', baca.select().leaves()),
+    baca.hairpin('mp > pp', baca.leaves()),
     )

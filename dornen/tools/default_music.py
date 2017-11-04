@@ -402,7 +402,7 @@ def default_music():
 
                 ),
             ),
-        baca.map(baca.slur(), baca.select().ntruns()),
+        baca.map(baca.slur(), baca.ntruns()),
         color_unregistered_pitches=True,
         denominator=32,
         )

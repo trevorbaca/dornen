@@ -1,5 +1,6 @@
 import abjad
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def forty_eighth_music():
@@ -143,7 +144,7 @@ def forty_eighth_music():
     music_maker = baca.tools.MusicMaker(
         baca.tools.MusicRhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
-                talea=abjad.rhythmmakertools.Talea(
+                talea=rhythmos.Talea(
                     counts=[3],
                     denominator=64,
                     ),

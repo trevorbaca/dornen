@@ -1,5 +1,6 @@
 import abjad
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def passepied_music():
@@ -416,7 +417,7 @@ def passepied_music():
     Returns music-maker.
     '''
     music_maker = baca.MusicMaker(
-        abjad.rhythmmakertools.BeamSpecifier(
+        rhythmos.BeamSpecifier(
             beam_divisions_together=True,
             ),
         baca.MusicRhythmSpecifier(
@@ -425,7 +426,7 @@ def passepied_music():
                 acciaccatura_specifiers=[
                     baca.AcciaccaturaSpecifier(),
                     ],
-                talea=abjad.rhythmmakertools.Talea(
+                talea=rhythmos.Talea(
                     counts=[1],
                     denominator=32,
                     ),
@@ -434,7 +435,7 @@ def passepied_music():
         baca.MusicRhythmSpecifier(
             pattern=~abjad.index([0]),
             rhythm_maker=baca.MusicRhythmMaker(
-                talea=abjad.rhythmmakertools.Talea(
+                talea=rhythmos.Talea(
                     counts=[1],
                     denominator=16,
                     ),

@@ -1,5 +1,6 @@
 import abjad
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def tremolo_music():
@@ -447,7 +448,7 @@ def tremolo_music():
     music_maker = baca.tools.MusicMaker(
         baca.tools.MusicRhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
-                talea=abjad.rhythmmakertools.Talea(
+                talea=rhythmos.Talea(
                     counts=[1],
                     denominator=8,
                     ),
@@ -455,7 +456,7 @@ def tremolo_music():
                 time_treatments=[abjad.Ratio((11, 8))],
                 ),
             ),
-        abjad.rhythmmakertools.BeamSpecifier(
+        rhythmos.BeamSpecifier(
             beam_divisions_together=True,
             ),
         baca.map(baca.tie(repeat=True), baca.qruns().nontrivial()),

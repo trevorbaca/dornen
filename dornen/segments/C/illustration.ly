@@ -1080,14 +1080,14 @@
                                             \box
                                                 "2-finger tamb. trill"
                                     }
+                            \revert TupletBracket.extra-offset
+                            \revert TupletNumber.extra-offset
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             gf2 :32 \repeatTie
                             \revert Stem.direction
                             \revert TupletBracket.staff-padding
-                            \revert TupletBracket.extra-offset
-                            \revert TupletNumber.extra-offset
                         }
                     }
                     s1 * 45/32
@@ -1113,14 +1113,14 @@
                                             \box
                                                 "2-finger tamb. trill"
                                     }
+                            \revert TupletBracket.extra-offset
+                            \revert TupletNumber.extra-offset
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             gf2 :32 \repeatTie
                             \revert Stem.direction
                             \revert TupletBracket.staff-padding
-                            \revert TupletBracket.extra-offset
-                            \revert TupletNumber.extra-offset
                         }
                     }
                     s1 * 9/64

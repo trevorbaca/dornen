@@ -1,5 +1,6 @@
 import abjad
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def graced_tuplet_music():
@@ -268,7 +269,7 @@ def graced_tuplet_music():
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(
-        abjad.rhythmmakertools.BeamSpecifier(
+        rhythmos.BeamSpecifier(
             beam_divisions_together=True,
             ),
         baca.tools.MusicRhythmSpecifier(
@@ -283,7 +284,7 @@ def graced_tuplet_music():
                             ),
                         ),
                     ],
-                talea=abjad.rhythmmakertools.Talea(
+                talea=rhythmos.Talea(
                     counts=[1],
                     denominator=16,
                     ),
@@ -303,7 +304,7 @@ def graced_tuplet_music():
                             ),
                         ),
                     ],
-                talea=abjad.rhythmmakertools.Talea(
+                talea=rhythmos.Talea(
                     counts=[1],
                     denominator=16,
                     ),

@@ -1,5 +1,6 @@
 import abjad
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def ovoid_music():
@@ -239,7 +240,7 @@ def ovoid_music():
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(
-        abjad.rhythmmakertools.BeamSpecifier(
+        rhythmos.BeamSpecifier(
             beam_divisions_together=True,
             ),
         baca.tools.MusicRhythmSpecifier(
@@ -251,7 +252,7 @@ def ovoid_music():
                             ),
                         ),
                     ],
-                talea=abjad.rhythmmakertools.Talea(
+                talea=rhythmos.Talea(
                     counts=[6, 1],
                     denominator=32,
                     ),

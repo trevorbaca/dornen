@@ -1,5 +1,6 @@
 import abjad
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def delicatissimo_music():
@@ -393,13 +394,13 @@ def delicatissimo_music():
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(
-        abjad.rhythmmakertools.BeamSpecifier(
+        rhythmos.BeamSpecifier(
             beam_divisions_together=True,
             ),
         baca.staccati(),
         baca.tools.MusicRhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
-                talea=abjad.rhythmmakertools.Talea(
+                talea=rhythmos.Talea(
                     counts=[1],
                     denominator=32,
                     ),

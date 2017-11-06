@@ -1,5 +1,6 @@
 import abjad
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def rest_music(duration=None):
@@ -239,7 +240,7 @@ def rest_music(duration=None):
         baca.tools.MusicRhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 logical_tie_masks=abjad.silence([0], 1),
-                talea=abjad.rhythmmakertools.Talea(
+                talea=rhythmos.Talea(
                     counts=[duration.numerator],
                     denominator=duration.denominator,
                     ),

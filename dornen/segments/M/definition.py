@@ -343,13 +343,13 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
 measures_per_stage = len(accumulator.time_signatures) * [1]
 
 segment_maker = baca.SegmentMaker(
-    #allow_figure_names=True,
+    allow_figure_names=False,
     final_markup=(
         ['Cambridge, MA', 'Madison, WI', 'Palo Alto, CA.'],
         ['November 2015', 'July 2016.'],
         ),
     final_markup_extra_offset=(124, 0),
-    #ignore_repeat_pitch_classes=True,
+    ignore_repeat_pitch_classes=False,
     instruments=dornen.instruments,
     label_clock_time=False,
     label_stages=False,

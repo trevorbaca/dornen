@@ -469,10 +469,11 @@
                             gf2 :32
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "2-finger tamb. trill"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "2-finger tamb. trill"
                                     }
                             \revert Stem.direction
                             \revert TupletBracket.staff-padding

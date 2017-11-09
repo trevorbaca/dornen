@@ -236,10 +236,11 @@
                             gf2 :32 \< \ppp
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "2-finger tamb. trill"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "2-finger tamb. trill"
                                     }
                         }
                         \tweak edge-height #'(0.7 . 0)
@@ -277,10 +278,11 @@
                             gf2 :32 \repeatTie \< \ppp
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "3 fingers"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "3 fingers"
                                     }
                         }
                     }
@@ -314,10 +316,11 @@
                             gf2 :32 \repeatTie \< \ppp
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "4 fingers"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "4 fingers"
                                     }
                         }
                     }
@@ -375,10 +378,11 @@
                             gf2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "3 fingers"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "3 fingers"
                                     }
                         }
                         \tweak edge-height #'(0.7 . 0)
@@ -392,10 +396,11 @@
                             gf2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "2 fingers"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "2 fingers"
                                     }
                         }
                         \tweak edge-height #'(0.7 . 0)

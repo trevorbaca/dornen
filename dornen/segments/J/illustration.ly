@@ -279,10 +279,11 @@
                             gtqf2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "3 fingers"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "3 fingers"
                                     }
                         }
                     }
@@ -316,10 +317,11 @@
                             gtqf2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "4 fingers"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "4 fingers"
                                     }
                         }
                     }
@@ -541,10 +543,11 @@
                             gtqf2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "3 fingers"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "3 fingers"
                                     }
                             gtqf2 :32 \repeatTie
                         }
@@ -555,10 +558,11 @@
                             gtqf2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "2 fingers"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "2 fingers"
                                     }
                             gtqf2 :32 \repeatTie \p \stopTextSpan ^ \markup {
                                 \whiteout

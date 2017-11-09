@@ -1080,10 +1080,11 @@
                             gf2 :32
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "2-finger tamb. trill"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "2-finger tamb. trill"
                                     }
                             \revert TupletBracket.extra-offset
                             \revert TupletNumber.extra-offset
@@ -1113,10 +1114,11 @@
                             gf2 :32
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "2-finger tamb. trill"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "2-finger tamb. trill"
                                     }
                             \revert TupletBracket.extra-offset
                             \revert TupletNumber.extra-offset

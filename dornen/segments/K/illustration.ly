@@ -327,10 +327,11 @@
                             f2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "3 fingers"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "3 fingers"
                                     }
                         }
                     }
@@ -412,10 +413,11 @@
                             f2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "4 fingers"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "4 fingers"
                                     }
                         }
                     }
@@ -637,10 +639,11 @@
                             f2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "3 fingers"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "3 fingers"
                                     }
                             f2 :32 \repeatTie
                         }
@@ -651,10 +654,11 @@
                             f2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "2 fingers"
+                                        \upright
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    "2 fingers"
                                     }
                             f2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
                                 \whiteout

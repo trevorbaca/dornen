@@ -446,7 +446,12 @@
                             \set stemRightBeamCount = #3
                             \clef "treble"
                             \override Beam.positions = #'(10 . 10)
-                            d'32. -\tenuto [ - \markup { "LH only until rascado! (RH tacet; encourage whisks) ..." }
+                            d'32. -\tenuto [
+                                ^ \markup {
+                                    \whiteout
+                                        \upright
+                                            "LH only until rascado! (RH tacet; encourage whisks) ..."
+                                    }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             cs'32. -\tenuto
@@ -472,7 +477,12 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            d'32. -\tenuto [ - \markup { "RH reaches for screw ..." }
+                            d'32. -\tenuto [
+                                ^ \markup {
+                                    \whiteout
+                                        \upright
+                                            "RH reaches for screw ..."
+                                    }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             cs'32. -\tenuto
@@ -498,7 +508,12 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            d'32. -\tenuto [ - \markup { "RH places screw on string ..." }
+                            d'32. -\tenuto [
+                                ^ \markup {
+                                    \whiteout
+                                        \upright
+                                            "RH places screw on string ..."
+                                    }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             cs'32. -\tenuto
@@ -593,7 +608,12 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                            e2 :32 \p ^ \markup { "RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke." }
+                            e2 :32 \p
+                                ^ \markup {
+                                    \whiteout
+                                        \upright
+                                            "RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke."
+                                    }
                             e2 :32 \repeatTie
                             e2 :32 \repeatTie
                             e2 :32 \repeatTie

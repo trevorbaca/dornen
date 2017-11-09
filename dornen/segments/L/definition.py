@@ -595,7 +595,7 @@ segment_maker(
 segment_maker(
     baca.scope('Guitar Music Voice 1', 41, 45),
     baca.single_segment_transition(
-        baca.make_markup('gradually slow rasgueado'),
+        baca.markup('gradually slow rasgueado'),
         baca.markup.still(),
         selector=baca.rleaves().group(),
         ),

@@ -73,7 +73,7 @@ accumulator(
     'Guitar Music Voice 1',
     [3 * ['C4']],
     accumulator.rest_music_maker,
-    baca.make_markup(
+    baca.markup(
         'raise string 2 one quartertone',
         baca.leaf(0),
         ),

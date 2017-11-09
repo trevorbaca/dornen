@@ -714,7 +714,12 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             \override Beam.positions = #'(-12 . -12)
-                            g'16 [ \glissando - \markup { "glissando: attack first note only" }
+                            g'16 [ \glissando
+                                ^ \markup {
+                                    \whiteout
+                                        \upright
+                                            "glissando: attack first note only"
+                                    }
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             af''16 \glissando

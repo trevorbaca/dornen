@@ -327,7 +327,12 @@
                             \clef "treble"
                             \override Score.RehearsalMark.extra-offset = #'(-10 . -10)
                             \override Beam.positions = #'(10 . 10)
-                            d'32. -\tenuto [ - \markup { "slurs fluid; all other parts mechanically precise" }
+                            d'32. -\tenuto [
+                                ^ \markup {
+                                    \whiteout
+                                        \upright
+                                            "slurs fluid; all other parts mechanically precise"
+                                    }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             cs'32. -\tenuto

@@ -28,7 +28,7 @@ accumulator(
     'Guitar Music Voice 2',
     design[1:2],
     accumulator.sixteenth_music_maker,
-    baca.markup(
+    baca.make_markup(
         'dull (but beautiful) thud with RH muting for each red note',
         direction=Down,
         ),

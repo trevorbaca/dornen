@@ -184,6 +184,6 @@ all_voices = [
     ]
 
 segment_maker(
-    baca.scopes(all_voices, [(1, 9)]),
+    baca.make_scopes(all_voices, [(1, 9)]),
     dornen.QuartertoneCommand(),
     )

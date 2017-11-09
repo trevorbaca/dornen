@@ -40,7 +40,7 @@ def wave_music(denominator=64, inverted=False):
         ...     ignore_unregistered_pitches=True,
         ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
         ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-        ...         minimum_width=abjad.Duration(1, 24),
+        ...         minimum_width=(1, 24),
         ...         ),
         ...     time_signatures=time_signatures,
         ...     )
@@ -391,7 +391,7 @@ def wave_music(denominator=64, inverted=False):
         ...     ignore_unregistered_pitches=True,
         ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
         ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-        ...         minimum_width=abjad.Duration(1, 24),
+        ...         minimum_width=(1, 24),
         ...         ),
         ...     time_signatures=time_signatures,
         ...     )
@@ -742,7 +742,7 @@ def wave_music(denominator=64, inverted=False):
         ...     ignore_unregistered_pitches=True,
         ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
         ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
-        ...         minimum_width=abjad.Duration(1, 24),
+        ...         minimum_width=(1, 24),
         ...         ),
         ...     time_signatures=time_signatures,
         ...     )

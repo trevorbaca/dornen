@@ -37,7 +37,7 @@ accumulator(
     'Guitar Music Voice 2',
     design[2:3],
     accumulator.glissando_scatto_music_maker,
-    baca.make_markup('glissando: attack first note only'),
+    baca.markup('glissando: attack first note only'),
     baca.beam_positions(-12),
     baca.register(-8),
     baca.displacement([0, 1]),

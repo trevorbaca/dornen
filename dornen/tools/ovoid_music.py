@@ -243,7 +243,7 @@ def ovoid_music():
         rhythmos.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.tools.MusicRhythmSpecifier(
+        baca.tools.RhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 acciaccatura_specifiers=[
                     baca.tools.AcciaccaturaSpecifier(

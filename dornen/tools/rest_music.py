@@ -237,7 +237,7 @@ def rest_music(duration=None):
     '''
     duration = duration or abjad.Duration(1, 8)
     music_maker = baca.tools.MusicMaker(
-        baca.tools.MusicRhythmSpecifier(
+        baca.tools.RhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 logical_tie_masks=abjad.silence([0], 1),
                 talea=rhythmos.Talea(

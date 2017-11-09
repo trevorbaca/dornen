@@ -446,7 +446,7 @@ def tremolo_music():
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(
-        baca.tools.MusicRhythmSpecifier(
+        baca.tools.RhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=rhythmos.Talea(
                     counts=[1],

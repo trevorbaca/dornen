@@ -398,7 +398,7 @@ def delicatissimo_music():
             beam_divisions_together=True,
             ),
         baca.staccati(),
-        baca.tools.MusicRhythmSpecifier(
+        baca.tools.RhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=rhythmos.Talea(
                     counts=[1],

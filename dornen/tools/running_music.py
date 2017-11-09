@@ -399,7 +399,7 @@ def running_music():
             beam_divisions_together=True,
             ),
         baca.RhythmSpecifier(
-            rhythm_maker=baca.MusicRhythmMaker(
+            rhythm_maker=baca.CollectionRhythmMaker(
                 talea=rhythmos.Talea(
                     counts=[1],
                     denominator=64,

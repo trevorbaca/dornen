@@ -274,7 +274,7 @@ def graced_tuplet_music():
             ),
         baca.tools.RhythmSpecifier(
             pattern=abjad.index([0], 2),
-            rhythm_maker=baca.tools.MusicRhythmMaker(
+            rhythm_maker=baca.tools.CollectionRhythmMaker(
                 acciaccatura_specifiers=[
                     baca.tools.AcciaccaturaSpecifier(
                         lmr_specifier=baca.tools.LMRSpecifier(
@@ -294,7 +294,7 @@ def graced_tuplet_music():
             ),
         baca.tools.RhythmSpecifier(
             pattern=abjad.index([1], 2),
-            rhythm_maker=baca.tools.MusicRhythmMaker(
+            rhythm_maker=baca.tools.CollectionRhythmMaker(
                 acciaccatura_specifiers=[
                     baca.tools.AcciaccaturaSpecifier(
                         lmr_specifier=baca.tools.LMRSpecifier(

@@ -395,7 +395,7 @@ def default_music():
     music_maker = baca.MusicMaker(
         rhythmos.BeamSpecifier(beam_divisions_together=True),
         baca.RhythmSpecifier(
-            rhythm_maker=baca.MusicRhythmMaker(
+            rhythm_maker=baca.CollectionRhythmMaker(
                 talea=rhythmos.Talea(
                     counts=[1],
                     denominator=32,

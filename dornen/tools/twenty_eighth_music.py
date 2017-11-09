@@ -385,7 +385,7 @@ def twenty_eighth_music():
             beam_each_division=True,
             ),
         baca.tools.RhythmSpecifier(
-            rhythm_maker=baca.tools.MusicRhythmMaker(
+            rhythm_maker=baca.tools.CollectionRhythmMaker(
                 talea=rhythmos.Talea(
                     counts=[1],
                     denominator=16,

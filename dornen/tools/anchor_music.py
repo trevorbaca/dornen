@@ -143,7 +143,7 @@ def anchor_music():
     '''
     music_maker = baca.tools.MusicMaker(
         baca.tools.RhythmSpecifier(
-            rhythm_maker=baca.tools.MusicRhythmMaker(
+            rhythm_maker=baca.tools.CollectionRhythmMaker(
                 talea=rhythmos.Talea(
                     counts=[3],
                     denominator=16,

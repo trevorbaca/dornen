@@ -357,7 +357,7 @@ def sixteenth_music():
         rhythmos.BeamSpecifier(
             beam_each_division=True,
             ),
-        baca.tools.MusicRhythmSpecifier(
+        baca.tools.RhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=rhythmos.Talea(
                     counts=[1],

@@ -398,7 +398,7 @@ def glissando_scatto_music():
         rhythmos.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.tools.MusicRhythmSpecifier(
+        baca.tools.RhythmSpecifier(
             rhythm_maker=baca.tools.MusicRhythmMaker(
                 talea=rhythmos.Talea(
                     counts=[2, 2, 2, 1, 2, 2, 2],

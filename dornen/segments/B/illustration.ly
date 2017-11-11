@@ -1256,11 +1256,9 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 42)
-                            \override Beam.positions = #'(12 . 12)
-                            \override Stem.direction = #up
+                            \once \override Beam.positions = #'(12 . 12)
+                            \once \override Stem.direction = #up
                             f''16 [
-                            \revert Beam.positions
-                            \revert Stem.direction
                         }
                     }
                     s1 * 7/32
@@ -1271,9 +1269,8 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 42)
-                            \override Stem.direction = #up
+                            \once \override Stem.direction = #up
                             f''16
-                            \revert Stem.direction
                         }
                     }
                     s1 * 13/64
@@ -1320,11 +1317,9 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 42)
-                            \override Beam.positions = #'(12 . 12)
-                            \override Stem.direction = #up
+                            \once \override Beam.positions = #'(12 . 12)
+                            \once \override Stem.direction = #up
                             f''16 [
-                            \revert Beam.positions
-                            \revert Stem.direction
                         }
                     }
                     s1 * 3/32

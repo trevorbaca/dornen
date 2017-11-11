@@ -365,14 +365,13 @@
                         {
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            \override TextScript.direction = #down
+                            \once \override TextScript.direction = #down
                             ef'16 [
                                 _ \markup {
                                     \whiteout
                                         \upright
                                             "dull (but beautiful) thud with RH muting for each red note"
                                     }
-                            \revert TextScript.direction
                         }
                     }
                     s1 * 3/28

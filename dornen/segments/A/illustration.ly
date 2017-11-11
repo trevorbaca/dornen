@@ -808,9 +808,8 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
-                            \override Beam.positions = #'(-8 . -8)
+                            \once \override Beam.positions = #'(-8 . -8)
                             ef'''16 [
-                            \revert Beam.positions
                         }
                     }
                     s1 * 3/16

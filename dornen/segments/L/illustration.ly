@@ -1067,13 +1067,12 @@
                     }
                     {
                         {
-                            \override TextScript.staff-padding = #5.5
+                            \once \override TextScript.staff-padding = #5.5
                             r8 \! \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
                                         still
                                 }
-                            \revert TextScript.staff-padding
                             r8
                             r8
                             r8

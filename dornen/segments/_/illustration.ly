@@ -234,9 +234,8 @@
                                 \null
                                 }
                             \clef "treble"
-                            \override Beam.positions = #'(6 . 6)
+                            \once \override Beam.positions = #'(6 . 6)
                             e'8. [
-                            \revert Beam.positions
                         }
                     }
                     s1 * 1/32
@@ -329,11 +328,9 @@
                             }
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            \override Beam.positions = #'(-10 . -10)
-                            \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+                            \once \override Beam.positions = #'(-10 . -10)
+                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
                             c''32 [
-                            \revert Beam.positions
-                            \revert Score.TimeSignature.extra-offset
                         }
                     }
                     s1 * 3/16
@@ -348,9 +345,8 @@
                             }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
-                            \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
                             f'32
-                            \revert Score.TimeSignature.extra-offset
                         }
                     }
                     s1 * 3/8
@@ -364,9 +360,8 @@
                             }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
                             e''32 ]
-                            \revert Score.TimeSignature.extra-offset
                         }
                     }
                     s1 * 3/8
@@ -380,11 +375,9 @@
                             }
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            \override Beam.positions = #'(-10 . -10)
-                            \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+                            \once \override Beam.positions = #'(-10 . -10)
+                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
                             fs''32 [
-                            \revert Beam.positions
-                            \revert Score.TimeSignature.extra-offset
                         }
                     }
                     s1 * 95/64
@@ -402,9 +395,8 @@
                             }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
                             e''32 ]
-                            \revert Score.TimeSignature.extra-offset
                         }
                     }
                     s1 * 3/8
@@ -422,11 +414,9 @@
                             }
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            \override Beam.positions = #'(-10 . -10)
-                            \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+                            \once \override Beam.positions = #'(-10 . -10)
+                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
                             fs''32 [
-                            \revert Beam.positions
-                            \revert Score.TimeSignature.extra-offset
                         }
                     }
                     {
@@ -438,9 +428,8 @@
                             }
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
                             g''32 ]
-                            \revert Score.TimeSignature.extra-offset
                         }
                     }
                     s1 * 7/16

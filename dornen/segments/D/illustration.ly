@@ -462,10 +462,10 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
-                            \override Stem.direction = #up
-                            \override TupletBracket.staff-padding = #0
-                            \override TupletBracket.extra-offset = #'(0 . -0.5)
-                            \override TupletNumber.extra-offset = #'(0 . -0.5)
+                            \once \override Stem.direction = #up
+                            \once \override TupletBracket.staff-padding = #0
+                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
+                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
                             gf2 :32
                                 ^ \markup {
                                     \whiteout
@@ -475,10 +475,6 @@
                                                 \box
                                                     "2-finger tamb. trill"
                                     }
-                            \revert Stem.direction
-                            \revert TupletBracket.staff-padding
-                            \revert TupletBracket.extra-offset
-                            \revert TupletNumber.extra-offset
                         }
                     }
                     \override Beam.positions = #'(-5.5 . -5.5)

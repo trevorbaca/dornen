@@ -1075,8 +1075,8 @@
                         \times 4/5 {
                             \override Stem.direction = #up
                             \override TupletBracket.staff-padding = #0
-                            \override TupletBracket.extra-offset = #'(0 . -0.5)
-                            \override TupletNumber.extra-offset = #'(0 . -0.5)
+                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
+                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
                             gf2 :32
                                 ^ \markup {
                                     \whiteout
@@ -1086,8 +1086,6 @@
                                                 \box
                                                     "2-finger tamb. trill"
                                     }
-                            \revert TupletBracket.extra-offset
-                            \revert TupletNumber.extra-offset
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
@@ -1109,8 +1107,8 @@
                         \times 4/5 {
                             \override Stem.direction = #up
                             \override TupletBracket.staff-padding = #0
-                            \override TupletBracket.extra-offset = #'(0 . -0.5)
-                            \override TupletNumber.extra-offset = #'(0 . -0.5)
+                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
+                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
                             gf2 :32
                                 ^ \markup {
                                     \whiteout
@@ -1120,8 +1118,6 @@
                                                 \box
                                                     "2-finger tamb. trill"
                                     }
-                            \revert TupletBracket.extra-offset
-                            \revert TupletNumber.extra-offset
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {

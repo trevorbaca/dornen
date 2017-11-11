@@ -48,7 +48,7 @@ def glissando_scatto_music():
         ...         ),
         ...     )
 
-        >>> result = segment_maker.run(is_doc_example=True)
+        >>> result = segment_maker.run(docs=True)
         >>> lilypond_file, metadata = result
         >>> abjad.show(lilypond_file) # doctest: +SKIP
 
@@ -219,7 +219,7 @@ def glissando_scatto_music():
         ...         ),
         ...     )
 
-        >>> result = segment_maker.run(is_doc_example=True)
+        >>> result = segment_maker.run(docs=True)
         >>> lilypond_file, metadata = result
         >>> abjad.show(lilypond_file) # doctest: +SKIP
 

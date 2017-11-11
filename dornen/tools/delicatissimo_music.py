@@ -48,7 +48,7 @@ def delicatissimo_music():
         ...         ),
         ...     )
 
-        >>> result = segment_maker.run(is_doc_example=True)
+        >>> result = segment_maker.run(docs=True)
         >>> lilypond_file, metadata = result
         >>> abjad.show(lilypond_file) # doctest: +SKIP
 
@@ -218,7 +218,7 @@ def delicatissimo_music():
         ...         ),
         ...     )
 
-        >>> result = segment_maker.run(is_doc_example=True)
+        >>> result = segment_maker.run(docs=True)
         >>> lilypond_file, metadata = result
         >>> score = lilypond_file[abjad.Score]
         >>> abjad.override(score).beam.positions = (5, 5)

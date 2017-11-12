@@ -48,8 +48,7 @@ def forty_eighth_music():
         ...         ),
         ...     )
 
-        >>> result = segment_maker.run(environment='docs')
-        >>> lilypond_file, metadata = result
+        >>> lilypond_file = segment_maker.run(environment='docs')
         >>> abjad.show(lilypond_file) # doctest: +SKIP
 
         ..  docs::

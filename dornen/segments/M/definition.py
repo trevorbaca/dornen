@@ -342,7 +342,7 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
 
 measures_per_stage = len(accumulator.time_signatures) * [1]
 
-segment_maker = baca.SegmentMaker(
+maker = baca.SegmentMaker(
     allow_figure_names=False,
     final_markup=(
         ['Cambridge, MA', 'Madison, WI', 'Palo Alto, CA.'],
@@ -364,36 +364,36 @@ segment_maker = baca.SegmentMaker(
     transpose_score=True,
     )
 
-#segment_maker.validate_stage_count()
-#segment_maker.validate_measure_count()
-segment_maker.validate_measures_per_stage()
-accumulator.populate_segment_maker(segment_maker)
+#maker.validate_stage_count()
+#maker.validate_measure_count()
+maker.validate_measures_per_stage()
+accumulator.populate_segment_maker(maker)
 
 ###############################################################################
 ############################# CROSS-STAGE COMMANDS ############################
 ###############################################################################
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 1, 41),
     baca.beam_positions(10),
     baca.register(-12),
     baca.tenuti(),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 2', 1, 41),
     baca.beam_positions(-5.5),
     baca.register(4),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 3', 1, 41),
     baca.accents(),
     baca.register(-20),
     baca.scripts_down(),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 4', 1, 41),
     baca.beam_positions(5.5),
     baca.register(-4),

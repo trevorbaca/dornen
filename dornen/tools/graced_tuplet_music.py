@@ -44,19 +44,19 @@ def graced_tuplet_music():
         ...
         >>> figures = abjad.select(figures_)
 
-        >>> segment_maker = baca.tools.SegmentMaker(
+        >>> maker = baca.tools.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
         ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
         ...     time_signatures=time_signatures,
         ...     )
-        >>> segment_maker(
+        >>> maker(
         ...     baca.scope('Violin Music Voice', 1),
         ...     baca.tools.RhythmBuilder(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )
 
-        >>> lilypond_file = segment_maker.run(environment='docs')
+        >>> lilypond_file = maker.run(environment='docs')
         >>> score = lilypond_file[abjad.Score]
         >>> abjad.override(score).spacing_spanner.strict_grace_spacing = False
         >>> abjad.override(score).spacing_spanner.strict_note_spacing = False

@@ -351,7 +351,7 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
 
 measures_per_stage = len(accumulator.time_signatures) * [1]
 
-segment_maker = baca.SegmentMaker(
+maker = baca.SegmentMaker(
     allow_figure_names=False,
     instruments=dornen.instruments,
     label_clock_time=False,
@@ -367,23 +367,23 @@ segment_maker = baca.SegmentMaker(
     transpose_score=True,
     )
 
-#segment_maker.validate_stage_count()
-#segment_maker.validate_measure_count()
-segment_maker.validate_measures_per_stage()
-accumulator.populate_segment_maker(segment_maker)
+#maker.validate_stage_count()
+#maker.validate_measure_count()
+maker.validate_measures_per_stage()
+accumulator.populate_segment_maker(maker)
 
 ###############################################################################
 ############################# CROSS-STAGE COMMANDS ############################
 ###############################################################################
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 1, Infinity),
     baca.register(-20),
     baca.stem_tremolo(),
     baca.tie(repeat=True),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 2),
     baca.hairpin('mp < mf', baca.rleaves()),
     baca.single_segment_transition(
@@ -393,7 +393,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 4),
     baca.hairpin('mf > mp', baca.rleaves()),
     baca.single_segment_transition(
@@ -403,7 +403,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 7),
     baca.hairpin('mp < f', baca.rleaves()),
     baca.single_segment_transition(
@@ -413,7 +413,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 9),
     baca.hairpin('f > mp', baca.rleaves()),
     baca.single_segment_transition(
@@ -423,7 +423,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 12),
     baca.hairpin('mp < ff', baca.rleaves()),
     baca.single_segment_transition(
@@ -433,12 +433,12 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 14),
     baca.hairpin('ff > mf', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 16),
     baca.hairpin('mf < f', baca.rleaves()),
     baca.single_segment_transition(
@@ -448,7 +448,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 18),
     baca.hairpin('f > mf', baca.rleaves()),
     baca.single_segment_transition(
@@ -458,7 +458,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 20),
     baca.hairpin('mf < ff', baca.rleaves()),
     baca.single_segment_transition(
@@ -468,7 +468,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 22),
     baca.hairpin('ff > mf', baca.rleaves()),
     baca.single_segment_transition(
@@ -478,7 +478,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 24, 25),
     baca.hairpin('mf < ffff', baca.rleaves()),
     baca.single_segment_transition(
@@ -488,102 +488,102 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 27),
     baca.hairpin('ffff > ff', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 28),
     baca.hairpin('ff < fff', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 29),
     baca.hairpin('fff > f', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 30),
     baca.hairpin('f < ff', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 31),
     baca.hairpin('ff > mf', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 32),
     baca.hairpin('mf < f', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 33),
     baca.hairpin('f > mp', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 34),
     baca.hairpin('mp < mf', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 35),
     baca.hairpin('mf > p', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 36),
     baca.hairpin('p < mp', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 37),
     baca.hairpin('mp > pp', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 38),
     baca.hairpin('pp < p', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 39),
     baca.hairpin('p > ppp', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 40),
     baca.hairpin('ppp < pp', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 41),
     baca.hairpin('pp > pppp', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 42),
     baca.hairpin('pppp < ppp', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 43),
     baca.hairpin('ppp > ppppp', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 44),
     baca.hairpin('ppppp < pppp', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 45),
     baca.hairpin('pppp > niente', baca.rleaves()),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 27, 36),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -592,7 +592,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 41, 45),
     baca.single_segment_transition(
         baca.markup('gradually slow rasgueado'),

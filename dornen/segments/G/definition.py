@@ -123,7 +123,7 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
 
 measures_per_stage = len(accumulator.time_signatures) * [1]
 
-segment_maker = baca.SegmentMaker(
+maker = baca.SegmentMaker(
     allow_figure_names=False,
     instruments=dornen.instruments,
     label_clock_time=False,
@@ -139,35 +139,35 @@ segment_maker = baca.SegmentMaker(
     transpose_score=True,
     )
 
-#segment_maker.validate_stage_count()
-#segment_maker.validate_measure_count()
-segment_maker.validate_measures_per_stage()
-accumulator.populate_segment_maker(segment_maker)
+#maker.validate_stage_count()
+#maker.validate_measure_count()
+maker.validate_measures_per_stage()
+accumulator.populate_segment_maker(maker)
 
 ###############################################################################
 ############################# CROSS-STAGE COMMANDS ############################
 ###############################################################################
 
 # glissando scatto
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 1, 12),
     baca.register(-8),
     baca.displacement([0, 1]),
     )
 
 # ovoid
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 2', 1, 12),
     baca.register(-20, 4),
     )
 
 # delicatissimo
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 3', 1, 12),
     )
 
 # graced tuplet
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 4', 1, 12),
     baca.beam_positions(8),
     baca.register(-18, 6),

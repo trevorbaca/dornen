@@ -77,24 +77,6 @@ def sixteenth_music():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 7/16
-                            R1 * 7/16
-                        }
-                        {
-                            \time 2/16
-                            R1 * 1/8
-                        }
-                        {
-                            \time 3/16
-                            R1 * 3/16
-                        }
-                        {
-                            \time 4/16
-                            R1 * 1/4
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/16
@@ -249,24 +231,6 @@ def sixteenth_music():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 7/16
-                            R1 * 7/16
-                        }
-                        {
-                            \time 1/16
-                            R1 * 1/16
-                        }
-                        {
-                            \time 3/16
-                            R1 * 3/16
-                        }
-                        {
-                            \time 4/16
-                            R1 * 1/4
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/16

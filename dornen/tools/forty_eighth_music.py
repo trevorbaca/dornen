@@ -56,24 +56,6 @@ def forty_eighth_music():
             >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 3/64
-                            R1 * 3/64
-                        }
-                        {
-                            \time 21/64
-                            R1 * 21/64
-                        }
-                        {
-                            \time 3/64
-                            R1 * 3/64
-                        }
-                        {
-                            \time 9/32
-                            R1 * 9/32
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 3/64

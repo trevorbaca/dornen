@@ -76,26 +76,9 @@ def passepied_music():
                 \override SpacingSpanner.strict-note-spacing = ##f
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 1/32
-                            R1 * 1/32
-                        }
-                        {
-                            R1 * 1/32
-                        }
-                        {
-                            R1 * 1/32
-                        }
-                        {
-                            R1 * 1/32
-                        }
-                        {
-                            R1 * 1/32
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
+                            \time 1/32
                             s1 * 1/32
                         }
                         {
@@ -223,22 +206,6 @@ def passepied_music():
                 \override SpacingSpanner.strict-note-spacing = ##f
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 17/32
-                            R1 * 17/32
-                        }
-                        {
-                            R1 * 17/32
-                        }
-                        {
-                            R1 * 17/32
-                        }
-                        {
-                            \time 11/32
-                            R1 * 11/32
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 17/32

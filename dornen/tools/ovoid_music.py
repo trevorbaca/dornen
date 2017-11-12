@@ -76,28 +76,9 @@ def ovoid_music():
                 \override SpacingSpanner.strict-note-spacing = ##f
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 13/32
-                            R1 * 13/32
-                        }
-                        {
-                            \time 7/16
-                            R1 * 7/16
-                        }
-                        {
-                            R1 * 7/16
-                        }
-                        {
-                            R1 * 7/16
-                        }
-                        {
-                            \time 13/32
-                            R1 * 13/32
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
+                            \time 13/32
                             s1 * 13/32
                         }
                         {

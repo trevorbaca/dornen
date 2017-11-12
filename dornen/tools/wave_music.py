@@ -63,20 +63,6 @@ def wave_music(denominator=64, inverted=False):
                 \override TupletBracket.padding = #2
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 7/64
-                            R1 * 7/64
-                        }
-                        {
-                            \time 13/64
-                            R1 * 13/64
-                        }
-                        {
-                            \time 20/64
-                            R1 * 5/16
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/64
@@ -409,20 +395,6 @@ def wave_music(denominator=64, inverted=False):
                 \override TupletBracket.padding = #2
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 7/64
-                            R1 * 7/64
-                        }
-                        {
-                            \time 13/64
-                            R1 * 13/64
-                        }
-                        {
-                            \time 20/64
-                            R1 * 5/16
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/64
@@ -755,20 +727,6 @@ def wave_music(denominator=64, inverted=False):
                 \override TupletBracket.padding = #2
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 7/32
-                            R1 * 7/32
-                        }
-                        {
-                            \time 13/32
-                            R1 * 13/32
-                        }
-                        {
-                            \time 20/32
-                            R1 * 5/8
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/32

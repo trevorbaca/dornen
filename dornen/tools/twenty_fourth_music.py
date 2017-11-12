@@ -77,24 +77,6 @@ def twenty_fourth_music():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 7/24
-                            R1 * 7/24
-                        }
-                        {
-                            \time 2/24
-                            R1 * 1/12
-                        }
-                        {
-                            \time 3/24
-                            R1 * 1/8
-                        }
-                        {
-                            \time 4/24
-                            R1 * 1/6
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/24
@@ -265,24 +247,6 @@ def twenty_fourth_music():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 7/24
-                            R1 * 7/24
-                        }
-                        {
-                            \time 1/24
-                            R1 * 1/24
-                        }
-                        {
-                            \time 3/24
-                            R1 * 1/8
-                        }
-                        {
-                            \time 4/24
-                            R1 * 1/6
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/24

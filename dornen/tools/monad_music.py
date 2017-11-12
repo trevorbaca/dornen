@@ -77,24 +77,6 @@ def monad_music():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 14/5
-                            R1 * 14/5
-                        }
-                        {
-                            \time 4/5
-                            R1 * 4/5
-                        }
-                        {
-                            \time 6/5
-                            R1 * 6/5
-                        }
-                        {
-                            \time 8/5
-                            R1 * 8/5
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 14/5
@@ -265,24 +247,6 @@ def monad_music():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 14/5
-                            R1 * 14/5
-                        }
-                        {
-                            \time 2/5
-                            R1 * 2/5
-                        }
-                        {
-                            \time 6/5
-                            R1 * 6/5
-                        }
-                        {
-                            \time 8/5
-                            R1 * 8/5
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 14/5

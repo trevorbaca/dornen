@@ -77,24 +77,6 @@ def third_music():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 7/3
-                            R1 * 7/3
-                        }
-                        {
-                            \time 2/3
-                            R1 * 2/3
-                        }
-                        {
-                            \time 3/3
-                            R1 * 1
-                        }
-                        {
-                            \time 4/3
-                            R1 * 4/3
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/3
@@ -265,24 +247,6 @@ def third_music():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 7/3
-                            R1 * 7/3
-                        }
-                        {
-                            \time 1/3
-                            R1 * 1/3
-                        }
-                        {
-                            \time 3/3
-                            R1 * 1
-                        }
-                        {
-                            \time 4/3
-                            R1 * 4/3
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 7/3

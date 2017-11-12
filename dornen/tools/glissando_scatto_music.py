@@ -56,24 +56,6 @@ def glissando_scatto_music():
             >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 1/16
-                            R1 * 1/16
-                        }
-                        {
-                            \time 11/32
-                            R1 * 11/32
-                        }
-                        {
-                            \time 1/16
-                            R1 * 1/16
-                        }
-                        {
-                            \time 9/32
-                            R1 * 9/32
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 1/16
@@ -222,20 +204,6 @@ def glissando_scatto_music():
             >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 15/32
-                            R1 * 15/32
-                        }
-                        {
-                            \time 11/16
-                            R1 * 11/16
-                        }
-                        {
-                            \time 13/32
-                            R1 * 13/32
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 15/32

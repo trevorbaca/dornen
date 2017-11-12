@@ -72,20 +72,6 @@ def graced_tuplet_music():
                 \override TupletBracket.staff-padding = #4
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 19/56
-                            R1 * 19/56
-                        }
-                        {
-                            \time 39/56
-                            R1 * 39/56
-                        }
-                        {
-                            \time 53/112
-                            R1 * 53/112
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 19/56

@@ -56,24 +56,6 @@ def anchor_music():
             >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 3/16
-                            R1 * 3/16
-                        }
-                        {
-                            \time 21/16
-                            R1 * 21/16
-                        }
-                        {
-                            \time 3/16
-                            R1 * 3/16
-                        }
-                        {
-                            \time 9/8
-                            R1 * 9/8
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 3/16

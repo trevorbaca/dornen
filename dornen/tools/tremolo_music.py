@@ -56,24 +56,6 @@ def tremolo_music():
             >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 1/11
-                            R1 * 1/11
-                        }
-                        {
-                            \time 7/11
-                            R1 * 7/11
-                        }
-                        {
-                            \time 1/11
-                            R1 * 1/11
-                        }
-                        {
-                            \time 6/11
-                            R1 * 6/11
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 1/11
@@ -238,20 +220,6 @@ def tremolo_music():
             >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 9/11
-                            R1 * 9/11
-                        }
-                        {
-                            \time 14/11
-                            R1 * 14/11
-                        }
-                        {
-                            \time 8/11
-                            R1 * 8/11
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 9/11

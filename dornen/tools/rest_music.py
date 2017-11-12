@@ -65,20 +65,6 @@ def rest_music(duration=None):
             >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 1/8
-                            R1 * 1/8
-                        }
-                        {
-                            \time 2/8
-                            R1 * 1/4
-                        }
-                        {
-                            \time 3/8
-                            R1 * 3/8
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
                             \time 1/8
@@ -171,17 +157,9 @@ def rest_music(duration=None):
             >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                        {
-                            \time 6/8
-                            R1 * 3/4
-                        }
-                        {
-                            R1 * 3/4
-                        }
-                    }
                     \context GlobalSkips = "Global Skips" {
                         {
+                            \time 6/8
                             s1 * 3/4
                         }
                         {

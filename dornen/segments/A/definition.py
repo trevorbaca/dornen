@@ -164,7 +164,7 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
 
 measures_per_stage = len(accumulator.time_signatures) * [1]
 
-segment_maker = baca.SegmentMaker(
+maker = baca.SegmentMaker(
     allow_figure_names=False,
     instruments=dornen.instruments,
     label_clock_time=False,
@@ -180,32 +180,32 @@ segment_maker = baca.SegmentMaker(
     transpose_score=True,
     )
 
-#segment_maker.validate_stage_count()
-#segment_maker.validate_measure_count()
-segment_maker.validate_measures_per_stage()
-accumulator.populate_segment_maker(segment_maker)
+#maker.validate_stage_count()
+#maker.validate_measure_count()
+maker.validate_measures_per_stage()
+accumulator.populate_segment_maker(maker)
 
 ###############################################################################
 ############################# CROSS-STAGE COMMANDS ############################
 ###############################################################################
 
-#segment_maker(
+#maker(
 #    baca.scope('Guitar Music Voice 1', 1, 15),
 #    baca.dynamic_line_spanner_up(),
 #    baca.dynamic_line_spanner_staff_padding(12),
 #    )
 
-#segment_maker(
+#maker(
 #    baca.scope('Guitar Music Voice 1', 13, 15),
 #    baca.hairpin('p > ppp'),
 #    )
 
-#segment_maker(
+#maker(
 #    baca.scope('Guitar Music Voice 2', 2, 10),
 #    baca.hairpin('f < fff'),
 #    )
 
-#segment_maker(
+#maker(
 #    baca.scope('Guitar Music Voice 2', 12, 14),
 #    baca.hairpin('fff > f'),
 #    )

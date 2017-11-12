@@ -283,7 +283,7 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
 
 measures_per_stage = len(accumulator.time_signatures) * [1]
 
-segment_maker = baca.SegmentMaker(
+maker = baca.SegmentMaker(
     allow_figure_names=False,
     instruments=dornen.instruments,
     label_clock_time=False,
@@ -299,42 +299,42 @@ segment_maker = baca.SegmentMaker(
     transpose_score=True,
     )
 
-#segment_maker.validate_stage_count()
-#segment_maker.validate_measure_count()
-segment_maker.validate_measures_per_stage()
-accumulator.populate_segment_maker(segment_maker)
+#maker.validate_stage_count()
+#maker.validate_measure_count()
+maker.validate_measures_per_stage()
+accumulator.populate_segment_maker(maker)
 
 ###############################################################################
 ############################# CROSS-STAGE COMMANDS ############################
 ###############################################################################
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 1', 1, Infinity),
     baca.tenuti(),
     baca.beam_positions(10),
     baca.register(-12),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 2', 1, 22),
     baca.beam_positions(-5.5),
     baca.register(4),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 2', 25, Infinity),
     baca.beam_positions(-5.5),
     baca.register(4),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 3', 1, Infinity),
     baca.accents(),
     baca.scripts_down(),
     baca.register(-20),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice 4', 1, Infinity),
     baca.staccati(),
     baca.beam_positions(5.5),

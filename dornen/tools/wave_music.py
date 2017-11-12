@@ -51,8 +51,7 @@ def wave_music(denominator=64, inverted=False):
         ...         ),
         ...     )
 
-        >>> result = segment_maker.run(environment='docs')
-        >>> lilypond_file, metadata = result
+        >>> lilypond_file = segment_maker.run(environment='docs')
         >>> score = lilypond_file[abjad.Score]
         >>> abjad.override(score).tuplet_bracket.padding = 2
         >>> abjad.show(lilypond_file) # doctest: +SKIP
@@ -402,8 +401,7 @@ def wave_music(denominator=64, inverted=False):
         ...         ),
         ...     )
 
-        >>> result = segment_maker.run(environment='docs')
-        >>> lilypond_file, metadata = result
+        >>> lilypond_file = segment_maker.run(environment='docs')
         >>> score = lilypond_file[abjad.Score]
         >>> abjad.override(score).tuplet_bracket.padding = 2
         >>> abjad.show(lilypond_file) # doctest: +SKIP
@@ -753,8 +751,7 @@ def wave_music(denominator=64, inverted=False):
         ...         ),
         ...     )
 
-        >>> result = segment_maker.run(environment='docs')
-        >>> lilypond_file, metadata = result
+        >>> lilypond_file = segment_maker.run(environment='docs')
         >>> score = lilypond_file[abjad.Score]
         >>> abjad.override(score).tuplet_bracket.padding = 2
         >>> abjad.show(lilypond_file) # doctest: +SKIP

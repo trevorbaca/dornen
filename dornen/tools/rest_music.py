@@ -56,8 +56,7 @@ def rest_music(duration=None):
         ...         ),
         ...     )
 
-        >>> result = segment_maker.run(environment='docs')
-        >>> lilypond_file, metadata = result
+        >>> lilypond_file = segment_maker.run(environment='docs')
         >>> score = lilypond_file[abjad.Score]
         >>> abjad.show(lilypond_file) # doctest: +SKIP
 
@@ -167,8 +166,7 @@ def rest_music(duration=None):
         ...         ),
         ...     )
 
-        >>> result = segment_maker.run(environment='docs')
-        >>> lilypond_file, metadata = result
+        >>> lilypond_file = segment_maker.run(environment='docs')
         >>> score = lilypond_file[abjad.Score]
         >>> abjad.show(lilypond_file) # doctest: +SKIP
 

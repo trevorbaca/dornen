@@ -62,8 +62,7 @@ def graced_rest_music():
         ...         ),
         ...     )
 
-        >>> result = segment_maker.run(environment='docs')
-        >>> lilypond_file, metadata = result
+        >>> lilypond_file = segment_maker.run(environment='docs')
         >>> score = lilypond_file[abjad.Score]
         >>> abjad.override(score).spacing_spanner.strict_grace_spacing = False
         >>> abjad.override(score).spacing_spanner.strict_note_spacing = False
@@ -128,8 +127,7 @@ def graced_rest_music():
         ...         ),
         ...     )
 
-        >>> result = segment_maker.run(environment='docs')
-        >>> lilypond_file, metadata = result
+        >>> lilypond_file = segment_maker.run(environment='docs')
         >>> score = lilypond_file[abjad.Score]
         >>> abjad.override(score).spacing_spanner.strict_grace_spacing = False
         >>> abjad.override(score).spacing_spanner.strict_note_spacing = False

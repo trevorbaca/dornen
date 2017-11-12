@@ -38,14 +38,14 @@ def wave_music(denominator=64, inverted=False):
 
         >>> maker = baca.tools.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
-        ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
+        ...     score_template=baca.tools.SingleStaffScoreTemplate(),
         ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
         ...         minimum_width=(1, 24),
         ...         ),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Violin Music Voice', 1),
+        ...     baca.scope('Music Voice', 1),
         ...     baca.tools.RhythmBuilder(
         ...         rhythm_maker=figures,
         ...         ),
@@ -62,7 +62,6 @@ def wave_music(denominator=64, inverted=False):
             \context Score = "Score" \with {
                 \override TupletBracket.padding = #2
             } <<
-                \tag violin
                 \context GlobalContext = "Global Context" <<
                     \context GlobalRests = "Global Rests" {
                         {
@@ -100,9 +99,8 @@ def wave_music(denominator=64, inverted=False):
                     }
                 >>
                 \context MusicContext = "Music Context" <<
-                    \tag violin
-                    \context ViolinMusicStaff = "Violin Music Staff" {
-                        \context ViolinMusicVoice = "Violin Music Voice" {
+                    \context Staff = "Music Staff" {
+                        \context Voice = "Music Voice" {
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -135,8 +133,6 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \times 1/1 {
                                 \once \override Beam.grow-direction = #right
-                                \set ViolinMusicStaff.instrumentName = \markup { Violin }
-                                \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
                                 fs'64 * 2112/1024 [
                                 d'64 * 1152/1024
@@ -388,14 +384,14 @@ def wave_music(denominator=64, inverted=False):
 
         >>> maker = baca.tools.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
-        ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
+        ...     score_template=baca.tools.SingleStaffScoreTemplate(),
         ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
         ...         minimum_width=(1, 24),
         ...         ),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Violin Music Voice', 1),
+        ...     baca.scope('Music Voice', 1),
         ...     baca.tools.RhythmBuilder(
         ...         rhythm_maker=figures,
         ...         ),
@@ -412,7 +408,6 @@ def wave_music(denominator=64, inverted=False):
             \context Score = "Score" \with {
                 \override TupletBracket.padding = #2
             } <<
-                \tag violin
                 \context GlobalContext = "Global Context" <<
                     \context GlobalRests = "Global Rests" {
                         {
@@ -450,9 +445,8 @@ def wave_music(denominator=64, inverted=False):
                     }
                 >>
                 \context MusicContext = "Music Context" <<
-                    \tag violin
-                    \context ViolinMusicStaff = "Violin Music Staff" {
-                        \context ViolinMusicVoice = "Violin Music Voice" {
+                    \context Staff = "Music Staff" {
+                        \context Voice = "Music Voice" {
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -485,8 +479,6 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \times 1/1 {
                                 \once \override Beam.grow-direction = #left
-                                \set ViolinMusicStaff.instrumentName = \markup { Violin }
-                                \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
                                 fs'64 * 320/1024 [
                                 d'64 * 640/1024
@@ -738,14 +730,14 @@ def wave_music(denominator=64, inverted=False):
 
         >>> maker = baca.tools.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
-        ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
+        ...     score_template=baca.tools.SingleStaffScoreTemplate(),
         ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
         ...         minimum_width=(1, 24),
         ...         ),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Violin Music Voice', 1),
+        ...     baca.scope('Music Voice', 1),
         ...     baca.tools.RhythmBuilder(
         ...         rhythm_maker=figures,
         ...         ),
@@ -762,7 +754,6 @@ def wave_music(denominator=64, inverted=False):
             \context Score = "Score" \with {
                 \override TupletBracket.padding = #2
             } <<
-                \tag violin
                 \context GlobalContext = "Global Context" <<
                     \context GlobalRests = "Global Rests" {
                         {
@@ -800,9 +791,8 @@ def wave_music(denominator=64, inverted=False):
                     }
                 >>
                 \context MusicContext = "Music Context" <<
-                    \tag violin
-                    \context ViolinMusicStaff = "Violin Music Staff" {
-                        \context ViolinMusicVoice = "Violin Music Voice" {
+                    \context Staff = "Music Staff" {
+                        \context Voice = "Music Voice" {
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -835,8 +825,6 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \times 1/1 {
                                 \once \override Beam.grow-direction = #right
-                                \set ViolinMusicStaff.instrumentName = \markup { Violin }
-                                \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
                                 fs'32 * 2080/1024 [
                                 d'32 * 1152/1024

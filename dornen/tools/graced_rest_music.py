@@ -52,11 +52,11 @@ def graced_rest_music():
 
         >>> maker = baca.tools.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
-        ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
+        ...     score_template=baca.tools.SingleStaffScoreTemplate(),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Violin Music Voice', 1),
+        ...     baca.scope('Music Voice', 1),
         ...     baca.tools.RhythmBuilder(
         ...         rhythm_maker=figures,
         ...         ),
@@ -117,11 +117,11 @@ def graced_rest_music():
 
         >>> maker = baca.tools.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
-        ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
+        ...     score_template=baca.tools.SingleStaffScoreTemplate(),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Violin Music Voice', 1),
+        ...     baca.scope('Music Voice', 1),
         ...     baca.tools.RhythmBuilder(
         ...         rhythm_maker=figures,
         ...         ),

@@ -52,11 +52,11 @@ def ovoid_music():
 
         >>> maker = baca.tools.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
-        ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
+        ...     score_template=baca.tools.SingleStaffScoreTemplate(),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Violin Music Voice', 1),
+        ...     baca.scope('Music Voice', 1),
         ...     baca.tools.RhythmBuilder(
         ...         rhythm_maker=figures,
         ...         ),
@@ -75,7 +75,6 @@ def ovoid_music():
                 \override SpacingSpanner.strict-grace-spacing = ##f
                 \override SpacingSpanner.strict-note-spacing = ##f
             } <<
-                \tag violin
                 \context GlobalContext = "Global Context" <<
                     \context GlobalRests = "Global Rests" {
                         {
@@ -118,14 +117,11 @@ def ovoid_music():
                     }
                 >>
                 \context MusicContext = "Music Context" <<
-                    \tag violin
-                    \context ViolinMusicStaff = "Violin Music Staff" {
-                        \context ViolinMusicVoice = "Violin Music Voice" {
+                    \context Staff = "Music Staff" {
+                        \context Voice = "Music Voice" {
                             {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                \set ViolinMusicStaff.instrumentName = \markup { Violin }
-                                \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
                                 af'8. [
                             }

@@ -46,11 +46,11 @@ def graced_tuplet_music():
 
         >>> maker = baca.tools.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
-        ...     score_template=baca.tools.ViolinSoloScoreTemplate(),
+        ...     score_template=baca.tools.SingleStaffScoreTemplate(),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Violin Music Voice', 1),
+        ...     baca.scope('Music Voice', 1),
         ...     baca.tools.RhythmBuilder(
         ...         rhythm_maker=figures,
         ...         ),
@@ -71,7 +71,6 @@ def graced_tuplet_music():
                 \override SpacingSpanner.strict-note-spacing = ##f
                 \override TupletBracket.staff-padding = #4
             } <<
-                \tag violin
                 \context GlobalContext = "Global Context" <<
                     \context GlobalRests = "Global Rests" {
                         {
@@ -103,16 +102,13 @@ def graced_tuplet_music():
                     }
                 >>
                 \context MusicContext = "Music Context" <<
-                    \tag violin
-                    \context ViolinMusicStaff = "Violin Music Staff" {
-                        \context ViolinMusicVoice = "Violin Music Voice" {
+                    \context Staff = "Music Staff" {
+                        \context Voice = "Music Voice" {
                             \tweak text #tuplet-number::calc-fraction-text
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
-                                \set ViolinMusicStaff.instrumentName = \markup { Violin }
-                                \set ViolinMusicStaff.shortInstrumentName = \markup { Vn. }
                                 \clef "treble"
                                 af'16 [
                             }

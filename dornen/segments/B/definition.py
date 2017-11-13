@@ -257,7 +257,7 @@ accumulator(
     'Guitar Music Voice 1',
     design[6:7],
     accumulator.delicatissimo_music_maker,
-    #baca.markup.boxed_specifier('Metric Modulation'),
+    #baca.markup.boxed('Metric Modulation'),
     baca.beam_positions(-6.5),
     baca.stems_down(),
     baca.register(6, -20),

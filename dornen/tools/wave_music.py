@@ -64,24 +64,21 @@ def wave_music(denominator=64, inverted=False):
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 7/64
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
-                            \newSpacingSection
-                            s1 * 7/64
-                        }
-                        {
-                            \time 13/64
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
-                            \newSpacingSection
-                            s1 * 13/64
-                        }
-                        {
-                            \time 20/64
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
-                            \newSpacingSection
-                            s1 * 5/16
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
+                        \time 7/64
+                        \newSpacingSection
+                        s1 * 7/64
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
+                        \time 13/64
+                        \newSpacingSection
+                        s1 * 13/64
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
+                        \time 20/64
+                        \newSpacingSection
+                        s1 * 5/16
                     }
                 >>
                 \context MusicContext = "Music Context" <<
@@ -118,6 +115,7 @@ def wave_music(denominator=64, inverted=False):
                                         }
                                 }
                             \times 1/1 {
+                                % measure 1
                                 \once \override Beam.grow-direction = #right
                                 \clef "treble"
                                 fs'64 * 2112/1024 [
@@ -160,6 +158,7 @@ def wave_music(denominator=64, inverted=False):
                                         }
                                 }
                             \times 1/1 {
+                                % measure 2
                                 \once \override Beam.grow-direction = #right
                                 fs'64 * 2112/1024 [
                                 d'64 * 1152/1024
@@ -241,6 +240,7 @@ def wave_music(denominator=64, inverted=False):
                                         }
                                 }
                             \times 1/1 {
+                                % measure 3
                                 \once \override Beam.grow-direction = #right
                                 fs'64 * 2112/1024 [
                                 d'64 * 1152/1024
@@ -396,24 +396,21 @@ def wave_music(denominator=64, inverted=False):
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 7/64
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
-                            \newSpacingSection
-                            s1 * 7/64
-                        }
-                        {
-                            \time 13/64
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
-                            \newSpacingSection
-                            s1 * 13/64
-                        }
-                        {
-                            \time 20/64
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
-                            \newSpacingSection
-                            s1 * 5/16
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
+                        \time 7/64
+                        \newSpacingSection
+                        s1 * 7/64
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
+                        \time 13/64
+                        \newSpacingSection
+                        s1 * 13/64
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
+                        \time 20/64
+                        \newSpacingSection
+                        s1 * 5/16
                     }
                 >>
                 \context MusicContext = "Music Context" <<
@@ -450,6 +447,7 @@ def wave_music(denominator=64, inverted=False):
                                         }
                                 }
                             \times 1/1 {
+                                % measure 1
                                 \once \override Beam.grow-direction = #left
                                 \clef "treble"
                                 fs'64 * 320/1024 [
@@ -492,6 +490,7 @@ def wave_music(denominator=64, inverted=False):
                                         }
                                 }
                             \times 1/1 {
+                                % measure 2
                                 \once \override Beam.grow-direction = #left
                                 fs'64 * 320/1024 [
                                 d'64 * 640/1024
@@ -573,6 +572,7 @@ def wave_music(denominator=64, inverted=False):
                                         }
                                 }
                             \times 1/1 {
+                                % measure 3
                                 \once \override Beam.grow-direction = #left
                                 fs'64 * 320/1024 [
                                 d'64 * 640/1024
@@ -728,24 +728,21 @@ def wave_music(denominator=64, inverted=False):
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 7/32
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                            \newSpacingSection
-                            s1 * 7/32
-                        }
-                        {
-                            \time 13/32
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                            \newSpacingSection
-                            s1 * 13/32
-                        }
-                        {
-                            \time 20/32
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                            \newSpacingSection
-                            s1 * 5/8
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                        \time 7/32
+                        \newSpacingSection
+                        s1 * 7/32
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                        \time 13/32
+                        \newSpacingSection
+                        s1 * 13/32
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                        \time 20/32
+                        \newSpacingSection
+                        s1 * 5/8
                     }
                 >>
                 \context MusicContext = "Music Context" <<
@@ -782,6 +779,7 @@ def wave_music(denominator=64, inverted=False):
                                         }
                                 }
                             \times 1/1 {
+                                % measure 1
                                 \once \override Beam.grow-direction = #right
                                 \clef "treble"
                                 fs'32 * 2080/1024 [
@@ -824,6 +822,7 @@ def wave_music(denominator=64, inverted=False):
                                         }
                                 }
                             \times 1/1 {
+                                % measure 2
                                 \once \override Beam.grow-direction = #right
                                 fs'32 * 2080/1024 [
                                 d'32 * 1152/1024
@@ -905,6 +904,7 @@ def wave_music(denominator=64, inverted=False):
                                         }
                                 }
                             \times 1/1 {
+                                % measure 3
                                 \once \override Beam.grow-direction = #right
                                 fs'32 * 2080/1024 [
                                 d'32 * 1152/1024

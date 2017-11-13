@@ -73,18 +73,15 @@ def graced_tuplet_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 19/56
-                            s1 * 19/56
-                        }
-                        {
-                            \time 39/56
-                            s1 * 39/56
-                        }
-                        {
-                            \time 53/112
-                            s1 * 53/112
-                        }
+                        % measure 1
+                        \time 19/56
+                        s1 * 19/56
+                        % measure 2
+                        \time 39/56
+                        s1 * 39/56
+                        % measure 3
+                        \time 53/112
+                        s1 * 53/112
                     }
                 >>
                 \context MusicContext = "Music Context" <<
@@ -93,6 +90,7 @@ def graced_tuplet_music():
                             \tweak text #tuplet-number::calc-fraction-text
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
+                                % measure 1
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 \clef "treble"
@@ -135,6 +133,7 @@ def graced_tuplet_music():
                             \tweak text #tuplet-number::calc-fraction-text
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
+                                % measure 2
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 cs'16 [
@@ -203,6 +202,7 @@ def graced_tuplet_music():
                             \tweak text #tuplet-number::calc-fraction-text
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
+                                % measure 3
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 a'16 [

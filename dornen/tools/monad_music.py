@@ -78,30 +78,26 @@ def monad_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 14/5
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
-                            \newSpacingSection
-                            s1 * 14/5
-                        }
-                        {
-                            \time 4/5
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
-                            \newSpacingSection
-                            s1 * 4/5
-                        }
-                        {
-                            \time 6/5
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
-                            \newSpacingSection
-                            s1 * 6/5
-                        }
-                        {
-                            \time 8/5
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
-                            \newSpacingSection
-                            s1 * 8/5
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
+                        \time 14/5
+                        \newSpacingSection
+                        s1 * 14/5
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
+                        \time 4/5
+                        \newSpacingSection
+                        s1 * 4/5
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
+                        \time 6/5
+                        \newSpacingSection
+                        s1 * 6/5
+                        % measure 4
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
+                        \time 8/5
+                        \newSpacingSection
+                        s1 * 8/5
                     }
                 >>
                 \context MusicContext = "Music Context" <<
@@ -109,6 +105,7 @@ def monad_music():
                         \context Voice = "Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
+                                % measure 1
                                 \clef "treble"
                                 cs'2
                             }
@@ -138,6 +135,7 @@ def monad_music():
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
+                                % measure 2
                                 d'2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -146,6 +144,7 @@ def monad_music():
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
+                                % measure 3
                                 ef'2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -158,6 +157,7 @@ def monad_music():
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
+                                % measure 4
                                 fs'2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -248,30 +248,26 @@ def monad_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 14/5
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
-                            \newSpacingSection
-                            s1 * 14/5
-                        }
-                        {
-                            \time 2/5
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
-                            \newSpacingSection
-                            s1 * 2/5
-                        }
-                        {
-                            \time 6/5
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
-                            \newSpacingSection
-                            s1 * 6/5
-                        }
-                        {
-                            \time 8/5
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
-                            \newSpacingSection
-                            s1 * 8/5
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
+                        \time 14/5
+                        \newSpacingSection
+                        s1 * 14/5
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
+                        \time 2/5
+                        \newSpacingSection
+                        s1 * 2/5
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
+                        \time 6/5
+                        \newSpacingSection
+                        s1 * 6/5
+                        % measure 4
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
+                        \time 8/5
+                        \newSpacingSection
+                        s1 * 8/5
                     }
                 >>
                 \context MusicContext = "Music Context" <<
@@ -279,6 +275,7 @@ def monad_music():
                         \context Voice = "Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
+                                % measure 1
                                 \clef "treble"
                                 cs'2
                             }
@@ -302,10 +299,12 @@ def monad_music():
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
+                                % measure 2
                                 d'2
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
+                                % measure 3
                                 ef'2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -315,6 +314,7 @@ def monad_music():
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
+                                % measure 4
                                 fs'2
                             }
                             \tweak edge-height #'(0.7 . 0)

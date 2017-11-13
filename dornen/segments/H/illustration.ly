@@ -12,75 +12,93 @@
     } <<
         \context GlobalContext = "Global Context" <<
             \context GlobalSkips = "Global Skips" {
+                % measure 167
                 \tempo 8=66
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 6/32
                 \newSpacingSection
                 s1 * 3/16
+                % measure 168
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 6/32
                 \newSpacingSection
                 s1 * 3/16
+                % measure 169
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 6/32
                 \newSpacingSection
                 s1 * 3/16
+                % measure 170
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 6/32
                 \newSpacingSection
                 s1 * 3/16
+                % measure 171
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 6/32
                 \newSpacingSection
                 s1 * 3/16
+                % measure 172
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 2/16
                 \newSpacingSection
                 s1 * 1/8
+                % measure 173
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 22/32
                 \newSpacingSection
                 s1 * 11/16
+                % measure 174
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 22/32
                 \newSpacingSection
                 s1 * 11/16
+                % measure 175
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 5/32
                 \newSpacingSection
                 s1 * 5/32
+                % measure 176
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 5/28
                 \newSpacingSection
                 s1 * 5/28
+                % measure 177
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 15/64
                 \newSpacingSection
                 s1 * 15/64
+                % measure 178
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 5/32
                 \newSpacingSection
                 s1 * 5/32
+                % measure 179
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 6/28
                 \newSpacingSection
                 s1 * 3/14
+                % measure 180
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 9/32
                 \newSpacingSection
                 s1 * 9/32
+                % measure 181
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 6/32
                 \newSpacingSection
                 s1 * 3/16
+                % measure 182
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 39/112
                 \newSpacingSection
                 s1 * 39/112
+                % measure 183
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 80)
                 \time 3/16
                 \newSpacingSection
                 s1 * 3/16
+                % measure 184
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 2/20
                 \newSpacingSection
@@ -92,6 +110,7 @@
                 \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
                     {
                         {
+                            % measure 167
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             \clef "treble"
@@ -116,6 +135,7 @@
                     }
                     {
                         {
+                            % measure 168
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             af'32 -\staccato
@@ -136,9 +156,11 @@
                             af32 -\staccato
                         }
                     }
+                    % measure 169
                     s1 * 3/16
                     {
                         {
+                            % measure 170
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             b'32 -\staccato
@@ -161,6 +183,7 @@
                     }
                     {
                         {
+                            % measure 171
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             fs''32 -\staccato
@@ -183,6 +206,7 @@
                     }
                     {
                         \times 2/3 {
+                            % measure 172
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             e16 \glissando
@@ -194,10 +218,12 @@
                             af16 ]
                         }
                     }
+                    % measure 173
                     s1 * 11/8
                     \revert Beam.positions
                     {
                         {
+                            % measure 175
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             \override Beam.positions = #'(8 . 8)
@@ -216,9 +242,11 @@
                             e''32
                         }
                     }
+                    % measure 176
                     s1 * 185/448
                     {
                         {
+                            % measure 178
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             cqs''32
@@ -236,9 +264,11 @@
                             e''32
                         }
                     }
+                    % measure 179
                     s1 * 111/224
                     {
                         {
+                            % measure 181
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             af''32
@@ -259,9 +289,11 @@
                             d''32
                         }
                     }
+                    % measure 182
                     s1 * 39/112
                     {
                         \times 4/5 {
+                            % measure 183
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
                             eqs''64 (
@@ -313,15 +345,18 @@
                             a''64 ] )
                         }
                     }
+                    % measure 184
                     s1 * 1/10
                     \bar "|"
                     \revert Beam.positions
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
+                    % measure 167
                     s1 * 83/32
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/7 {
+                            % measure 176
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             \override Beam.positions = #'(-5 . -5)
@@ -343,6 +378,7 @@
                     }
                     {
                         {
+                            % measure 177
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             c''32.
@@ -360,10 +396,12 @@
                             f''32.
                         }
                     }
+                    % measure 178
                     s1 * 5/32
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/7 {
+                            % measure 179
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef''16
@@ -386,6 +424,7 @@
                     }
                     {
                         {
+                            % measure 180
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             cs''32.
@@ -406,11 +445,13 @@
                             e''32.
                         }
                     }
+                    % measure 181
                     s1 * 3/16
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \tweak edge-height #'(0.7 . 0)
                         \times 8/7 {
+                            % measure 182
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             g''16
@@ -444,10 +485,12 @@
                             e''16
                         }
                     }
+                    % measure 183
                     s1 * 3/16
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
+                            % measure 184
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             bqf''16
@@ -459,6 +502,7 @@
                     }
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
+                    % measure 167
                     \override Beam.positions = #'(-4 . -4)
                     s1 * 3/8
                     {
@@ -493,6 +537,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 169
                             \once \override Beam.grow-direction = #right
                             a''32 * 1984/1024 [
                             ef''32 * 1088/1024
@@ -503,6 +548,7 @@
                         }
                         \revert TupletNumber.text
                     }
+                    % measure 170
                     s1 * 1/2
                     {
                         \override TupletNumber.text = \markup {
@@ -537,6 +583,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 173
                             \once \override Beam.grow-direction = #right
                             cs''32 * 3264/1024 [
                             e''32 * 1760/1024
@@ -596,6 +643,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 174
                             \once \override Beam.grow-direction = #right
                             cs''32 * 3264/1024 [
                             e''32 * 1760/1024
@@ -622,28 +670,47 @@
                         }
                         \revert TupletNumber.text
                     }
+                    % measure 175
                     s1 * 4579/2240
                     \bar "|"
                     \revert Beam.positions
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
+                    % measure 167
                     s1 * 3/16
+                    % measure 168
                     s1 * 3/16
+                    % measure 169
                     s1 * 3/16
+                    % measure 170
                     s1 * 3/16
+                    % measure 171
                     s1 * 3/16
+                    % measure 172
                     s1 * 1/8
+                    % measure 173
                     s1 * 11/16
+                    % measure 174
                     s1 * 11/16
+                    % measure 175
                     s1 * 5/32
+                    % measure 176
                     s1 * 5/28
+                    % measure 177
                     s1 * 15/64
+                    % measure 178
                     s1 * 5/32
+                    % measure 179
                     s1 * 3/14
+                    % measure 180
                     s1 * 9/32
+                    % measure 181
                     s1 * 3/16
+                    % measure 182
                     s1 * 39/112
+                    % measure 183
                     s1 * 3/16
+                    % measure 184
                     s1 * 1/10
                     \bar "|"
                 }

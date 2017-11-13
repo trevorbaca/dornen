@@ -78,30 +78,26 @@ def third_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 7/3
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
-                            \newSpacingSection
-                            s1 * 7/3
-                        }
-                        {
-                            \time 2/3
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
-                            \newSpacingSection
-                            s1 * 2/3
-                        }
-                        {
-                            \time 3/3
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
-                            \newSpacingSection
-                            s1 * 1
-                        }
-                        {
-                            \time 4/3
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
-                            \newSpacingSection
-                            s1 * 4/3
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
+                        \time 7/3
+                        \newSpacingSection
+                        s1 * 7/3
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
+                        \time 2/3
+                        \newSpacingSection
+                        s1 * 2/3
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
+                        \time 3/3
+                        \newSpacingSection
+                        s1 * 1
+                        % measure 4
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
+                        \time 4/3
+                        \newSpacingSection
+                        s1 * 4/3
                     }
                 >>
                 \context MusicContext = "Music Context" <<
@@ -109,6 +105,7 @@ def third_music():
                         \context Voice = "Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+                                % measure 1
                                 \clef "treble"
                                 cs'2
                             }
@@ -138,6 +135,7 @@ def third_music():
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+                                % measure 2
                                 d'2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -146,6 +144,7 @@ def third_music():
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+                                % measure 3
                                 ef'2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -158,6 +157,7 @@ def third_music():
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+                                % measure 4
                                 fs'2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -248,30 +248,26 @@ def third_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 7/3
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
-                            \newSpacingSection
-                            s1 * 7/3
-                        }
-                        {
-                            \time 1/3
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
-                            \newSpacingSection
-                            s1 * 1/3
-                        }
-                        {
-                            \time 3/3
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
-                            \newSpacingSection
-                            s1 * 1
-                        }
-                        {
-                            \time 4/3
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
-                            \newSpacingSection
-                            s1 * 4/3
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
+                        \time 7/3
+                        \newSpacingSection
+                        s1 * 7/3
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
+                        \time 1/3
+                        \newSpacingSection
+                        s1 * 1/3
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
+                        \time 3/3
+                        \newSpacingSection
+                        s1 * 1
+                        % measure 4
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 2 15)
+                        \time 4/3
+                        \newSpacingSection
+                        s1 * 4/3
                     }
                 >>
                 \context MusicContext = "Music Context" <<
@@ -279,6 +275,7 @@ def third_music():
                         \context Voice = "Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+                                % measure 1
                                 \clef "treble"
                                 cs'2
                             }
@@ -302,10 +299,12 @@ def third_music():
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+                                % measure 2
                                 d'2
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+                                % measure 3
                                 ef'2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -315,6 +314,7 @@ def third_music():
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+                                % measure 4
                                 fs'2
                             }
                             \tweak edge-height #'(0.7 . 0)

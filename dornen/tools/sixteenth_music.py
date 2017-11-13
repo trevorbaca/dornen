@@ -78,36 +78,33 @@ def sixteenth_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 7/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
-                            \newSpacingSection
-                            s1 * 7/16
-                        }
-                        {
-                            \time 2/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
-                            \newSpacingSection
-                            s1 * 1/8
-                        }
-                        {
-                            \time 3/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
-                            \newSpacingSection
-                            s1 * 3/16
-                        }
-                        {
-                            \time 4/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
-                            \newSpacingSection
-                            s1 * 1/4
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                        \time 7/16
+                        \newSpacingSection
+                        s1 * 7/16
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                        \time 2/16
+                        \newSpacingSection
+                        s1 * 1/8
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                        \time 3/16
+                        \newSpacingSection
+                        s1 * 3/16
+                        % measure 4
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                        \time 4/16
+                        \newSpacingSection
+                        s1 * 1/4
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
+                                % measure 1
                                 \clef "treble"
                                 cs'16
                             }
@@ -130,12 +127,14 @@ def sixteenth_music():
                                 b'16
                             }
                             {
+                                % measure 2
                                 d'16
                             }
                             {
                                 e'16
                             }
                             {
+                                % measure 3
                                 ef'16
                             }
                             {
@@ -145,6 +144,7 @@ def sixteenth_music():
                                 af'16
                             }
                             {
+                                % measure 4
                                 fs'16
                             }
                             {
@@ -232,36 +232,33 @@ def sixteenth_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 7/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
-                            \newSpacingSection
-                            s1 * 7/16
-                        }
-                        {
-                            \time 1/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
-                            \newSpacingSection
-                            s1 * 1/16
-                        }
-                        {
-                            \time 3/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
-                            \newSpacingSection
-                            s1 * 3/16
-                        }
-                        {
-                            \time 4/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
-                            \newSpacingSection
-                            s1 * 1/4
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                        \time 7/16
+                        \newSpacingSection
+                        s1 * 7/16
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                        \time 1/16
+                        \newSpacingSection
+                        s1 * 1/16
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                        \time 3/16
+                        \newSpacingSection
+                        s1 * 3/16
+                        % measure 4
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                        \time 4/16
+                        \newSpacingSection
+                        s1 * 1/4
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
+                                % measure 1
                                 \clef "treble"
                                 cs'16
                             }
@@ -280,9 +277,11 @@ def sixteenth_music():
                                 b'16
                             }
                             {
+                                % measure 2
                                 d'16
                             }
                             {
+                                % measure 3
                                 ef'16
                             }
                             {
@@ -290,6 +289,7 @@ def sixteenth_music():
                                 af'16 ]
                             }
                             {
+                                % measure 4
                                 fs'16
                             }
                             {

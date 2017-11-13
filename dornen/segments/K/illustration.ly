@@ -12,103 +12,128 @@
     } <<
         \context GlobalContext = "Global Context" <<
             \context GlobalSkips = "Global Skips" {
+                % measure 232
                 \tempo 8=66
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/5
                 \newSpacingSection
                 s1 * 2/5
+                % measure 233
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/5
                 \newSpacingSection
                 s1 * 2/5
+                % measure 234
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 1/3
                 \newSpacingSection
                 s1 * 1/3
+                % measure 235
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 1/3
                 \newSpacingSection
                 s1 * 1/3
+                % measure 236
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 1/3
                 \newSpacingSection
                 s1 * 1/3
+                % measure 237
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/5
                 \newSpacingSection
                 s1 * 2/5
+                % measure 238
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/5
                 \newSpacingSection
                 s1 * 2/5
+                % measure 239
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 1/3
                 \newSpacingSection
                 s1 * 1/3
+                % measure 240
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 1/3
                 \newSpacingSection
                 s1 * 1/3
+                % measure 241
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 1/3
                 \newSpacingSection
                 s1 * 1/3
+                % measure 242
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/5
                 \newSpacingSection
                 s1 * 2/5
+                % measure 243
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/5
                 \newSpacingSection
                 s1 * 2/5
+                % measure 244
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 1/3
                 \newSpacingSection
                 s1 * 1/3
+                % measure 245
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 1/3
                 \newSpacingSection
                 s1 * 1/3
+                % measure 246
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 1/3
                 \newSpacingSection
                 s1 * 1/3
+                % measure 247
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/5
                 \newSpacingSection
                 s1 * 2/5
+                % measure 248
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 1/3
                 \newSpacingSection
                 s1 * 1/3
+                % measure 249
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 1/3
                 \newSpacingSection
                 s1 * 1/3
+                % measure 250
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 1/3
                 \newSpacingSection
                 s1 * 1/3
+                % measure 251
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 2/5
                 \newSpacingSection
                 s1 * 2/5
+                % measure 252
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 1/3
                 \newSpacingSection
                 s1 * 1/3
+                % measure 253
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 1/3
                 \newSpacingSection
                 s1 * 1/3
+                % measure 254
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 1/3
                 \newSpacingSection
                 s1 * 1/3
+                % measure 255
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/5
                 \newSpacingSection
                 s1 * 4/5
+                % measure 256
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/5
                 \newSpacingSection
@@ -121,6 +146,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
+                            % measure 232
                             \clef "treble"
                             f2 :32
                         }
@@ -128,6 +154,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
+                            % measure 233
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -154,6 +181,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
+                            % measure 234
                             f2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -164,6 +192,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
+                            % measure 235
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -190,6 +219,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
+                            % measure 236
                             f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -200,6 +230,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
+                            % measure 237
                             f2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
@@ -214,6 +245,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
+                            % measure 238
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -240,6 +272,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
+                            % measure 239
                             f2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -250,6 +283,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
+                            % measure 240
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -276,6 +310,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
+                            % measure 241
                             f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -286,6 +321,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
+                            % measure 242
                             f2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
@@ -300,6 +336,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
+                            % measure 243
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -326,6 +363,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
+                            % measure 244
                             f2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -336,6 +374,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
+                            % measure 245
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -362,6 +401,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
+                            % measure 246
                             f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -372,6 +412,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
+                            % measure 247
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -398,6 +439,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
+                            % measure 248
                             f2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -408,6 +450,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
+                            % measure 249
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -434,6 +477,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
+                            % measure 250
                             f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -444,6 +488,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
+                            % measure 251
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -470,6 +515,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
+                            % measure 252
                             f2 :32 \repeatTie \f \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -480,6 +526,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
+                            % measure 253
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -506,12 +553,14 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
+                            % measure 254
                             f2 :32 \repeatTie
                         }
                     }
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
+                            % measure 255
                             f2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
@@ -527,6 +576,7 @@
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
+                            % measure 256
                             f2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
@@ -546,86 +596,161 @@
                     }
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
+                    % measure 232
                     s1 * 2/5
+                    % measure 233
                     s1 * 2/5
+                    % measure 234
                     s1 * 1/3
+                    % measure 235
                     s1 * 1/3
+                    % measure 236
                     s1 * 1/3
+                    % measure 237
                     s1 * 2/5
+                    % measure 238
                     s1 * 2/5
+                    % measure 239
                     s1 * 1/3
+                    % measure 240
                     s1 * 1/3
+                    % measure 241
                     s1 * 1/3
+                    % measure 242
                     s1 * 2/5
+                    % measure 243
                     s1 * 2/5
+                    % measure 244
                     s1 * 1/3
+                    % measure 245
                     s1 * 1/3
+                    % measure 246
                     s1 * 1/3
+                    % measure 247
                     s1 * 2/5
+                    % measure 248
                     s1 * 1/3
+                    % measure 249
                     s1 * 1/3
+                    % measure 250
                     s1 * 1/3
+                    % measure 251
                     s1 * 2/5
+                    % measure 252
                     s1 * 1/3
+                    % measure 253
                     s1 * 1/3
+                    % measure 254
                     s1 * 1/3
+                    % measure 255
                     s1 * 4/5
+                    % measure 256
                     s1 * 4/5
                     \bar "|"
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
+                    % measure 232
                     s1 * 2/5
+                    % measure 233
                     s1 * 2/5
+                    % measure 234
                     s1 * 1/3
+                    % measure 235
                     s1 * 1/3
+                    % measure 236
                     s1 * 1/3
+                    % measure 237
                     s1 * 2/5
+                    % measure 238
                     s1 * 2/5
+                    % measure 239
                     s1 * 1/3
+                    % measure 240
                     s1 * 1/3
+                    % measure 241
                     s1 * 1/3
+                    % measure 242
                     s1 * 2/5
+                    % measure 243
                     s1 * 2/5
+                    % measure 244
                     s1 * 1/3
+                    % measure 245
                     s1 * 1/3
+                    % measure 246
                     s1 * 1/3
+                    % measure 247
                     s1 * 2/5
+                    % measure 248
                     s1 * 1/3
+                    % measure 249
                     s1 * 1/3
+                    % measure 250
                     s1 * 1/3
+                    % measure 251
                     s1 * 2/5
+                    % measure 252
                     s1 * 1/3
+                    % measure 253
                     s1 * 1/3
+                    % measure 254
                     s1 * 1/3
+                    % measure 255
                     s1 * 4/5
+                    % measure 256
                     s1 * 4/5
                     \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
+                    % measure 232
                     s1 * 2/5
+                    % measure 233
                     s1 * 2/5
+                    % measure 234
                     s1 * 1/3
+                    % measure 235
                     s1 * 1/3
+                    % measure 236
                     s1 * 1/3
+                    % measure 237
                     s1 * 2/5
+                    % measure 238
                     s1 * 2/5
+                    % measure 239
                     s1 * 1/3
+                    % measure 240
                     s1 * 1/3
+                    % measure 241
                     s1 * 1/3
+                    % measure 242
                     s1 * 2/5
+                    % measure 243
                     s1 * 2/5
+                    % measure 244
                     s1 * 1/3
+                    % measure 245
                     s1 * 1/3
+                    % measure 246
                     s1 * 1/3
+                    % measure 247
                     s1 * 2/5
+                    % measure 248
                     s1 * 1/3
+                    % measure 249
                     s1 * 1/3
+                    % measure 250
                     s1 * 1/3
+                    % measure 251
                     s1 * 2/5
+                    % measure 252
                     s1 * 1/3
+                    % measure 253
                     s1 * 1/3
+                    % measure 254
                     s1 * 1/3
+                    % measure 255
                     s1 * 4/5
+                    % measure 256
                     s1 * 4/5
                     \bar "|"
                 }

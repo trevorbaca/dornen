@@ -57,40 +57,38 @@ def sixty_fourth_music():
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 1/64
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
-                            \newSpacingSection
-                            s1 * 1/64
-                        }
-                        {
-                            \time 7/64
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
-                            \newSpacingSection
-                            s1 * 7/64
-                        }
-                        {
-                            \time 1/64
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
-                            \newSpacingSection
-                            s1 * 1/64
-                        }
-                        {
-                            \time 6/64
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
-                            \newSpacingSection
-                            s1 * 3/32
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
+                        \time 1/64
+                        \newSpacingSection
+                        s1 * 1/64
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
+                        \time 7/64
+                        \newSpacingSection
+                        s1 * 7/64
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
+                        \time 1/64
+                        \newSpacingSection
+                        s1 * 1/64
+                        % measure 4
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
+                        \time 6/64
+                        \newSpacingSection
+                        s1 * 3/32
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
+                                % measure 1
                                 \clef "treble"
                                 e'64 -\staccato
                             }
                             {
+                                % measure 2
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #4
                                 fs'64 -\staccato [
@@ -114,9 +112,11 @@ def sixty_fourth_music():
                                 c'64 -\staccato ]
                             }
                             {
+                                % measure 3
                                 b'64 -\staccato
                             }
                             {
+                                % measure 4
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #4
                                 bf'64 -\staccato [

@@ -66,32 +66,32 @@ def rest_music(duration=None):
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 1/8
-                            s1 * 1/8
-                        }
-                        {
-                            \time 2/8
-                            s1 * 1/4
-                        }
-                        {
-                            \time 3/8
-                            s1 * 3/8
-                        }
+                        % measure 1
+                        \time 1/8
+                        s1 * 1/8
+                        % measure 2
+                        \time 2/8
+                        s1 * 1/4
+                        % measure 3
+                        \time 3/8
+                        s1 * 3/8
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
+                                % measure 1
                                 \clef "treble"
                                 r8
                             }
                             {
+                                % measure 2
                                 r8
                                 r8
                             }
                             {
+                                % measure 3
                                 r8
                                 r8
                                 r8
@@ -158,19 +158,19 @@ def rest_music(duration=None):
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 6/8
-                            s1 * 3/4
-                        }
-                        {
-                            s1 * 3/4
-                        }
+                        % measure 1
+                        \time 6/8
+                        s1 * 3/4
+                        % measure 2
+                        \time 6/8
+                        s1 * 3/4
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
+                                % measure 1
                                 \clef "treble"
                                 r8
                             }
@@ -184,6 +184,7 @@ def rest_music(duration=None):
                                 r8
                             }
                             {
+                                % measure 2
                                 r8
                                 r8
                             }

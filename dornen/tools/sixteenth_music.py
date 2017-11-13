@@ -312,7 +312,7 @@ def sixteenth_music():
             beam_each_division=True,
             ),
         baca.tools.PitchFirstRhythmCommand(
-            rhythm_maker=baca.tools.CollectionRhythmMaker(
+            rhythm_maker=baca.tools.PitchFirstRhythmMaker(
                 talea=rhythmos.Talea(
                     counts=[1],
                     denominator=16,

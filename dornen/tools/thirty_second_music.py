@@ -354,7 +354,7 @@ def thirty_second_music():
         rhythmos.BeamSpecifier(
             beam_divisions_together=True,
         ),
-        baca.tools.RhythmSpecifier(
+        baca.tools.PitchFirstRhythmCommand(
             rhythm_maker=baca.tools.CollectionRhythmMaker(
                 talea=rhythmos.Talea(
                     counts=[1],

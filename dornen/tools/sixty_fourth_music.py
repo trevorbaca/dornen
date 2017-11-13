@@ -149,7 +149,7 @@ def sixty_fourth_music():
             beam_divisions_together=True,
             ),
         baca.staccati(),
-        baca.tools.RhythmSpecifier(
+        baca.tools.PitchFirstRhythmCommand(
             rhythm_maker=baca.tools.CollectionRhythmMaker(
                 talea=rhythmos.Talea(
                     counts=[1],

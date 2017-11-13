@@ -143,7 +143,7 @@ def graced_rest_music():
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(
-        baca.tools.RhythmSpecifier(
+        baca.tools.PitchFirstRhythmCommand(
             rhythm_maker=baca.tools.CollectionRhythmMaker(
                 acciaccatura_specifiers=[
                     baca.tools.AcciaccaturaSpecifier(),

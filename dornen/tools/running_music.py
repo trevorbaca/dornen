@@ -356,7 +356,7 @@ def running_music():
         rhythmos.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.RhythmSpecifier(
+        baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.CollectionRhythmMaker(
                 talea=rhythmos.Talea(
                     counts=[1],

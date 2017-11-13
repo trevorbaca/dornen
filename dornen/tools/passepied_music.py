@@ -383,7 +383,7 @@ def passepied_music():
         rhythmos.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.RhythmSpecifier(
+        baca.PitchFirstRhythmCommand(
             pattern=abjad.index([0]),
             rhythm_maker=baca.CollectionRhythmMaker(
                 acciaccatura_specifiers=[
@@ -395,7 +395,7 @@ def passepied_music():
                     ),
                 )
             ),
-        baca.RhythmSpecifier(
+        baca.PitchFirstRhythmCommand(
             pattern=~abjad.index([0]),
             rhythm_maker=baca.CollectionRhythmMaker(
                 talea=rhythmos.Talea(

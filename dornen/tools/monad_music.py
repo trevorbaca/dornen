@@ -335,7 +335,7 @@ def monad_music():
     Returns music-maker.
     '''
     music_maker = baca.tools.MusicMaker(
-        baca.tools.RhythmSpecifier(
+        baca.tools.PitchFirstRhythmCommand(
             rhythm_maker=baca.tools.CollectionRhythmMaker(
                 talea=rhythmos.Talea(
                     counts=[1],

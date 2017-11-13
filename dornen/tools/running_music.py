@@ -57,41 +57,39 @@ def running_music():
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 1/64
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
-                            \newSpacingSection
-                            s1 * 1/64
-                        }
-                        {
-                            \time 3/32
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 3 224)
-                            \newSpacingSection
-                            s1 * 3/32
-                        }
-                        {
-                            \time 1/64
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
-                            \newSpacingSection
-                            s1 * 1/64
-                        }
-                        {
-                            \time 5/64
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 5 384)
-                            \newSpacingSection
-                            s1 * 5/64
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
+                        \time 1/64
+                        \newSpacingSection
+                        s1 * 1/64
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 3 224)
+                        \time 3/32
+                        \newSpacingSection
+                        s1 * 3/32
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
+                        \time 1/64
+                        \newSpacingSection
+                        s1 * 1/64
+                        % measure 4
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 5 384)
+                        \time 5/64
+                        \newSpacingSection
+                        s1 * 5/64
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
+                                % measure 1
                                 \clef "treble"
                                 e'64
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {
+                                % measure 2
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #4
                                 fs'64 [ ( (
@@ -115,10 +113,12 @@ def running_music():
                                 c'64 ] ) )
                             }
                             {
+                                % measure 3
                                 b'64
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 5/6 {
+                                % measure 4
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #4
                                 bf'64 [ ( (
@@ -205,30 +205,28 @@ def running_music():
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 1/8
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 3 224)
-                            \newSpacingSection
-                            s1 * 1/8
-                        }
-                        {
-                            \time 3/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 5 384)
-                            \newSpacingSection
-                            s1 * 3/16
-                        }
-                        {
-                            \time 7/64
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 5 384)
-                            \newSpacingSection
-                            s1 * 7/64
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 3 224)
+                        \time 1/8
+                        \newSpacingSection
+                        s1 * 1/8
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 5 384)
+                        \time 3/16
+                        \newSpacingSection
+                        s1 * 3/16
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 5 384)
+                        \time 7/64
+                        \newSpacingSection
+                        s1 * 7/64
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
+                                % measure 1
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #4
                                 \clef "treble"
@@ -265,6 +263,7 @@ def running_music():
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {
+                                % measure 2
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #4
                                 fs'64 [ (
@@ -314,6 +313,7 @@ def running_music():
                                 f'64 ] )
                             }
                             {
+                                % measure 3
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #4
                                 b'64 [ (

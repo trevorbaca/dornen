@@ -57,40 +57,38 @@ def anchor_music():
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 3/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                            \newSpacingSection
-                            s1 * 3/16
-                        }
-                        {
-                            \time 21/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                            \newSpacingSection
-                            s1 * 21/16
-                        }
-                        {
-                            \time 3/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                            \newSpacingSection
-                            s1 * 3/16
-                        }
-                        {
-                            \time 9/8
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                            \newSpacingSection
-                            s1 * 9/8
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                        \time 3/16
+                        \newSpacingSection
+                        s1 * 3/16
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                        \time 21/16
+                        \newSpacingSection
+                        s1 * 21/16
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                        \time 3/16
+                        \newSpacingSection
+                        s1 * 3/16
+                        % measure 4
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                        \time 9/8
+                        \newSpacingSection
+                        s1 * 9/8
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
+                                % measure 1
                                 \clef "treble"
                                 e'8.
                             }
                             {
+                                % measure 2
                                 fs'8. [
                                 d'8.
                                 ef'8.
@@ -100,9 +98,11 @@ def anchor_music():
                                 c'8. ]
                             }
                             {
+                                % measure 3
                                 b'8.
                             }
                             {
+                                % measure 4
                                 bf'8. [
                                 g'8.
                                 a'8.

@@ -57,41 +57,39 @@ def glissando_scatto_music():
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 1/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                            \newSpacingSection
-                            s1 * 1/16
-                        }
-                        {
-                            \time 11/32
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 11 416)
-                            \newSpacingSection
-                            s1 * 11/32
-                        }
-                        {
-                            \time 1/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                            \newSpacingSection
-                            s1 * 1/16
-                        }
-                        {
-                            \time 9/32
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 9 352)
-                            \newSpacingSection
-                            s1 * 9/32
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                        \time 1/16
+                        \newSpacingSection
+                        s1 * 1/16
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 11 416)
+                        \time 11/32
+                        \newSpacingSection
+                        s1 * 11/32
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                        \time 1/16
+                        \newSpacingSection
+                        s1 * 1/16
+                        % measure 4
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 9 352)
+                        \time 9/32
+                        \newSpacingSection
+                        s1 * 9/32
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
+                                % measure 1
                                 \clef "treble"
                                 e'16
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 11/13 {
+                                % measure 2
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 fs'16 [ \glissando
@@ -115,10 +113,12 @@ def glissando_scatto_music():
                                 c'16 ]
                             }
                             {
+                                % measure 3
                                 b'16
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 9/11 {
+                                % measure 4
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 bf'16 [ \glissando
@@ -205,30 +205,28 @@ def glissando_scatto_music():
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 15/32
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 11 416)
-                            \newSpacingSection
-                            s1 * 15/32
-                        }
-                        {
-                            \time 11/16
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 9 352)
-                            \newSpacingSection
-                            s1 * 11/16
-                        }
-                        {
-                            \time 13/32
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 9 352)
-                            \newSpacingSection
-                            s1 * 13/32
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 11 416)
+                        \time 15/32
+                        \newSpacingSection
+                        s1 * 15/32
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 9 352)
+                        \time 11/16
+                        \newSpacingSection
+                        s1 * 11/16
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 9 352)
+                        \time 13/32
+                        \newSpacingSection
+                        s1 * 13/32
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
+                                % measure 1
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 \clef "treble"
@@ -265,6 +263,7 @@ def glissando_scatto_music():
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 11/13 {
+                                % measure 2
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 fs'16 [ \glissando
@@ -314,6 +313,7 @@ def glissando_scatto_music():
                                 f'16 ]
                             }
                             {
+                                % measure 3
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 b'16 [ \glissando

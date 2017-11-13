@@ -77,30 +77,28 @@ def ovoid_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 13/32
-                            s1 * 13/32
-                        }
-                        {
-                            \time 7/16
-                            s1 * 7/16
-                        }
-                        {
-                            s1 * 7/16
-                        }
-                        {
-                            s1 * 7/16
-                        }
-                        {
-                            \time 13/32
-                            s1 * 13/32
-                        }
+                        % measure 1
+                        \time 13/32
+                        s1 * 13/32
+                        % measure 2
+                        \time 7/16
+                        s1 * 7/16
+                        % measure 3
+                        \time 7/16
+                        s1 * 7/16
+                        % measure 4
+                        \time 7/16
+                        s1 * 7/16
+                        % measure 5
+                        \time 13/32
+                        s1 * 13/32
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
+                                % measure 1
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
                                 \clef "treble"
@@ -119,6 +117,7 @@ def ovoid_music():
                                 f'32 ]
                             }
                             {
+                                % measure 2
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
                                 cs'8. [
@@ -143,6 +142,7 @@ def ovoid_music():
                                 d'32 ]
                             }
                             {
+                                % measure 3
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
                                 af'8. [
@@ -167,6 +167,7 @@ def ovoid_music():
                                 af'32 ]
                             }
                             {
+                                % measure 4
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
                                 e'8. [
@@ -191,6 +192,7 @@ def ovoid_music():
                                 f'32 ]
                             }
                             {
+                                % measure 5
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
                                 fs'8. [

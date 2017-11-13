@@ -12,103 +12,128 @@
     } <<
         \context GlobalContext = "Global Context" <<
             \context GlobalSkips = "Global Skips" {
+                % measure 35
                 \tempo 8=44
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                 \time 9/64
                 \newSpacingSection
                 s1 * 9/64
+                % measure 36
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 1/14
                 \newSpacingSection
                 s1 * 1/14
+                % measure 37
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 7/32
                 \newSpacingSection
                 s1 * 7/32
+                % measure 38
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 1/14
                 \newSpacingSection
                 s1 * 1/14
+                % measure 39
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                 \time 13/64
                 \newSpacingSection
                 s1 * 13/64
+                % measure 40
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 2/14
                 \newSpacingSection
                 s1 * 1/7
+                % measure 41
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 7/32
                 \newSpacingSection
                 s1 * 7/32
+                % measure 42
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 2/14
                 \newSpacingSection
                 s1 * 1/7
+                % measure 43
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 4/32
                 \newSpacingSection
                 s1 * 1/8
+                % measure 44
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 1/14
                 \newSpacingSection
                 s1 * 1/14
+                % measure 45
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 3/32
                 \newSpacingSection
                 s1 * 3/32
+                % measure 46
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 3/14
                 \newSpacingSection
                 s1 * 3/14
+                % measure 47
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 10/32
                 \newSpacingSection
                 s1 * 5/16
+                % measure 48
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 7/32
                 \newSpacingSection
                 s1 * 7/32
+                % measure 49
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 2/14
                 \newSpacingSection
                 s1 * 1/7
+                % measure 50
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                 \time 13/64
                 \newSpacingSection
                 s1 * 13/64
+                % measure 51
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 15/32
                 \newSpacingSection
                 s1 * 15/32
+                % measure 52
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 5/14
                 \newSpacingSection
                 s1 * 5/14
+                % measure 53
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 6/32
                 \newSpacingSection
                 s1 * 3/16
+                % measure 54
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 7/32
                 \newSpacingSection
                 s1 * 7/32
+                % measure 55
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 13/16
                 \newSpacingSection
                 s1 * 13/16
+                % measure 56
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 7/32
                 \newSpacingSection
                 s1 * 7/32
+                % measure 57
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 10/32
                 \newSpacingSection
                 s1 * 5/16
+                % measure 58
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                 \time 10/32
                 \newSpacingSection
                 s1 * 5/16
+                % measure 59
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 16/32
                 \newSpacingSection
@@ -128,46 +153,57 @@
                             66
                         }
                     }
+                % measure 60
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 7/32
                 \newSpacingSection
                 s1 * 7/32
+                % measure 61
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 7/32
                 \newSpacingSection
                 s1 * 7/32
+                % measure 62
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 7/32
                 \newSpacingSection
                 s1 * 7/32
+                % measure 63
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 7/32
                 \newSpacingSection
                 s1 * 7/32
+                % measure 64
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 7/32
                 \newSpacingSection
                 s1 * 7/32
+                % measure 65
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 7/32
                 \newSpacingSection
                 s1 * 7/32
+                % measure 66
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 7/32
                 \newSpacingSection
                 s1 * 7/32
+                % measure 67
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                 \time 13/64
                 \newSpacingSection
                 s1 * 13/64
+                % measure 68
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 16/32
                 \newSpacingSection
                 s1 * 1/2
+                % measure 69
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 7/32
                 \newSpacingSection
                 s1 * 7/32
+                % measure 70
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 3/16
                 \newSpacingSection
@@ -210,6 +246,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 35
                             \once \override Beam.grow-direction = #left
                             \clef "treble"
                             b''64 * 256/1024 [
@@ -224,6 +261,7 @@
                         }
                         \revert TupletNumber.text
                     }
+                    % measure 36
                     s1 * 81/224
                     {
                         \override TupletNumber.text = \markup {
@@ -257,6 +295,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 39
                             \once \override Beam.grow-direction = #left
                             \override Beam.positions = #'(7 . 7)
                             a''64 * 320/1024 [
@@ -310,9 +349,11 @@
                         }
                         \revert TupletNumber.text
                     }
+                    % measure 40
                     s1 * 113/224
                     {
                         {
+                            % measure 43
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             \override Beam.positions = #'(-6.5 . -6.5)
@@ -331,9 +372,11 @@
                             \revert Stem.direction
                         }
                     }
+                    % measure 44
                     s1 * 1/14
                     {
                         {
+                            % measure 45
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             \override Beam.positions = #'(-6.5 . -6.5)
@@ -349,9 +392,11 @@
                             \revert Stem.direction
                         }
                     }
+                    % measure 46
                     s1 * 3/14
                     {
                         {
+                            % measure 47
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             \override Beam.positions = #'(-6.5 . -6.5)
@@ -388,6 +433,7 @@
                             \revert Stem.direction
                         }
                     }
+                    % measure 48
                     s1 * 81/224
                     {
                         \override TupletNumber.text = \markup {
@@ -422,6 +468,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 50
                             \once \override Beam.grow-direction = #right
                             \override Beam.positions = #'(7 . 7)
                             \override Stem.direction = #up
@@ -445,6 +492,7 @@
                     }
                     {
                         {
+                            % measure 51
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             \override Beam.positions = #'(-6.5 . -6.5)
@@ -496,9 +544,11 @@
                             \revert Stem.direction
                         }
                     }
+                    % measure 52
                     s1 * 5/14
                     {
                         {
+                            % measure 53
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             \override Beam.positions = #'(-6.5 . -6.5)
@@ -523,9 +573,11 @@
                             \revert Stem.direction
                         }
                     }
+                    % measure 54
                     s1 * 5/4
                     {
                         {
+                            % measure 57
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             \override Beam.positions = #'(-6.5 . -6.5)
@@ -565,6 +617,7 @@
                     {
                         \times 2/3 {
                             {
+                                % measure 58
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
                                 \override Beam.positions = #'(-6.5 . -6.5)
@@ -621,6 +674,7 @@
                     }
                     {
                         {
+                            % measure 59
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             \override Beam.positions = #'(-6.5 . -6.5)
@@ -675,6 +729,7 @@
                             \revert Stem.direction
                         }
                     }
+                    % measure 60
                     s1 * 49/32
                     {
                         \override TupletNumber.text = \markup {
@@ -709,6 +764,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 67
                             \once \override Beam.grow-direction = #right
                             \override Beam.positions = #'(7 . 7)
                             \override Stem.direction = #up
@@ -732,6 +788,7 @@
                     }
                     {
                         {
+                            % measure 68
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             \override Beam.positions = #'(-6.5 . -6.5)
@@ -786,13 +843,16 @@
                             \revert Stem.direction
                         }
                     }
+                    % measure 69
                     s1 * 13/32
                     \bar "|"
                 }
                 \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
+                    % measure 35
                     s1 * 95/448
                     {
                         {
+                            % measure 37
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
                             \override Beam.positions = #'(-8 . -8)
@@ -807,9 +867,11 @@
                             \revert Beam.positions
                         }
                     }
+                    % measure 38
                     s1 * 187/448
                     {
                         {
+                            % measure 41
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             \override TextScript.color = #red
@@ -824,9 +886,11 @@
                             \revert TextScript.color
                         }
                     }
+                    % measure 42
                     s1 * 215/224
                     {
                         {
+                            % measure 48
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
                             \override Beam.positions = #'(-8 . -8)
@@ -841,9 +905,11 @@
                             \revert Beam.positions
                         }
                     }
+                    % measure 49
                     s1 * 87/64
                     {
                         {
+                            % measure 54
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             \override TextScript.color = #red
@@ -858,9 +924,11 @@
                             \revert TextScript.color
                         }
                     }
+                    % measure 55
                     s1 * 13/16
                     {
                         {
+                            % measure 56
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
                             \override Beam.positions = #'(-8 . -8)
@@ -875,9 +943,11 @@
                             \revert Beam.positions
                         }
                     }
+                    % measure 57
                     s1 * 9/8
                     {
                         {
+                            % measure 60
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             \override TextScript.color = #red
@@ -894,6 +964,7 @@
                     }
                     {
                         {
+                            % measure 61
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             fs'8.
@@ -908,6 +979,7 @@
                     }
                     {
                         {
+                            % measure 62
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
                             \override Beam.positions = #'(-8 . -8)
@@ -924,6 +996,7 @@
                     }
                     {
                         {
+                            % measure 63
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             af'8.
@@ -938,6 +1011,7 @@
                     }
                     {
                         {
+                            % measure 64
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             ef'8.
@@ -952,6 +1026,7 @@
                     }
                     {
                         {
+                            % measure 65
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             a'8.
@@ -966,6 +1041,7 @@
                     }
                     {
                         {
+                            % measure 66
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
                             \override Beam.positions = #'(-8 . -8)
@@ -980,9 +1056,11 @@
                             \revert Beam.positions
                         }
                     }
+                    % measure 67
                     s1 * 45/64
                     {
                         {
+                            % measure 69
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             e'8.
@@ -997,6 +1075,7 @@
                     }
                     {
                         {
+                            % measure 70
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #0
                             bf8. ]
@@ -1005,50 +1084,88 @@
                     }
                 }
                 \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
+                    % measure 35
                     s1 * 9/64
+                    % measure 36
                     s1 * 1/14
+                    % measure 37
                     s1 * 7/32
+                    % measure 38
                     s1 * 1/14
+                    % measure 39
                     s1 * 13/64
+                    % measure 40
                     s1 * 1/7
+                    % measure 41
                     s1 * 7/32
+                    % measure 42
                     s1 * 1/7
+                    % measure 43
                     s1 * 1/8
+                    % measure 44
                     s1 * 1/14
+                    % measure 45
                     s1 * 3/32
+                    % measure 46
                     s1 * 3/14
+                    % measure 47
                     s1 * 5/16
+                    % measure 48
                     s1 * 7/32
+                    % measure 49
                     s1 * 1/7
+                    % measure 50
                     s1 * 13/64
+                    % measure 51
                     s1 * 15/32
+                    % measure 52
                     s1 * 5/14
+                    % measure 53
                     s1 * 3/16
+                    % measure 54
                     s1 * 7/32
+                    % measure 55
                     s1 * 13/16
+                    % measure 56
                     s1 * 7/32
+                    % measure 57
                     s1 * 5/16
+                    % measure 58
                     s1 * 5/16
+                    % measure 59
                     s1 * 1/2
+                    % measure 60
                     s1 * 7/32
+                    % measure 61
                     s1 * 7/32
+                    % measure 62
                     s1 * 7/32
+                    % measure 63
                     s1 * 7/32
+                    % measure 64
                     s1 * 7/32
+                    % measure 65
                     s1 * 7/32
+                    % measure 66
                     s1 * 7/32
+                    % measure 67
                     s1 * 13/64
+                    % measure 68
                     s1 * 1/2
+                    % measure 69
                     s1 * 7/32
+                    % measure 70
                     s1 * 3/16
                     \bar "|"
                 }
                 \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
+                    % measure 35
                     s1 * 9/64
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \tweak edge-height #'(0.7 . 0)
                         \times 8/7 {
+                            % measure 36
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 42)
@@ -1057,11 +1174,13 @@
                             f''16 [
                         }
                     }
+                    % measure 37
                     s1 * 7/32
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \tweak edge-height #'(0.7 . 0)
                         \times 8/7 {
+                            % measure 38
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 42)
@@ -1069,11 +1188,13 @@
                             f''16
                         }
                     }
+                    % measure 39
                     s1 * 13/64
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \tweak edge-height #'(0.7 . 0)
                         \times 8/7 {
+                            % measure 40
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             \override Stem.direction = #up
@@ -1087,11 +1208,13 @@
                             \revert Stem.direction
                         }
                     }
+                    % measure 41
                     s1 * 7/32
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \tweak edge-height #'(0.7 . 0)
                         \times 8/7 {
+                            % measure 42
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             \override Stem.direction = #up
@@ -1105,11 +1228,13 @@
                             \revert Stem.direction
                         }
                     }
+                    % measure 43
                     s1 * 1/8
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \tweak edge-height #'(0.7 . 0)
                         \times 8/7 {
+                            % measure 44
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 42)
@@ -1118,11 +1243,13 @@
                             f''16 [
                         }
                     }
+                    % measure 45
                     s1 * 3/32
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \tweak edge-height #'(0.7 . 0)
                         \times 8/7 {
+                            % measure 46
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             \override Stem.direction = #up
@@ -1142,11 +1269,13 @@
                             \revert Stem.direction
                         }
                     }
+                    % measure 47
                     s1 * 17/32
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \tweak edge-height #'(0.7 . 0)
                         \times 8/7 {
+                            % measure 49
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             \override Stem.direction = #up
@@ -1160,11 +1289,13 @@
                             \revert Stem.direction
                         }
                     }
+                    % measure 50
                     s1 * 43/64
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \tweak edge-height #'(0.7 . 0)
                         \times 8/7 {
+                            % measure 52
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             \override Beam.positions = #'(6 . 6)
@@ -1198,10 +1329,12 @@
                             \revert Stem.direction
                         }
                     }
+                    % measure 53
                     s1 * 13/32
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
+                            % measure 55
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             \override Beam.positions = #'(6 . 6)
@@ -1283,6 +1416,7 @@
                             \revert Stem.direction
                         }
                     }
+                    % measure 56
                     s1 * 255/64
                     \bar "|"
                 }

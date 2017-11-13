@@ -57,40 +57,38 @@ def delicatissimo_music():
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 1/32
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                            \newSpacingSection
-                            s1 * 1/32
-                        }
-                        {
-                            \time 7/32
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                            \newSpacingSection
-                            s1 * 7/32
-                        }
-                        {
-                            \time 1/32
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                            \newSpacingSection
-                            s1 * 1/32
-                        }
-                        {
-                            \time 6/32
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                            \newSpacingSection
-                            s1 * 3/16
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                        \time 1/32
+                        \newSpacingSection
+                        s1 * 1/32
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                        \time 7/32
+                        \newSpacingSection
+                        s1 * 7/32
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                        \time 1/32
+                        \newSpacingSection
+                        s1 * 1/32
+                        % measure 4
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                        \time 6/32
+                        \newSpacingSection
+                        s1 * 3/16
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
+                                % measure 1
                                 \clef "treble"
                                 e'32 -\staccato
                             }
                             {
+                                % measure 2
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
                                 fs'32 -\staccato [
@@ -114,9 +112,11 @@ def delicatissimo_music():
                                 c'32 -\staccato ]
                             }
                             {
+                                % measure 3
                                 b'32 -\staccato
                             }
                             {
+                                % measure 4
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
                                 bf'32 -\staccato [
@@ -208,30 +208,28 @@ def delicatissimo_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 9/32
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                            \newSpacingSection
-                            s1 * 9/32
-                        }
-                        {
-                            \time 14/32
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                            \newSpacingSection
-                            s1 * 7/16
-                        }
-                        {
-                            \time 8/32
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
-                            \newSpacingSection
-                            s1 * 1/4
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                        \time 9/32
+                        \newSpacingSection
+                        s1 * 9/32
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                        \time 14/32
+                        \newSpacingSection
+                        s1 * 7/16
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                        \time 8/32
+                        \newSpacingSection
+                        s1 * 1/4
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
+                                % measure 1
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
                                 \clef "treble"
@@ -266,6 +264,7 @@ def delicatissimo_music():
                                 b'32 -\staccato ]
                             }
                             {
+                                % measure 2
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
                                 fs'32 -\staccato [
@@ -314,6 +313,7 @@ def delicatissimo_music():
                                 f'32 -\staccato ]
                             }
                             {
+                                % measure 3
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
                                 b'32 -\staccato [

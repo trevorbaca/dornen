@@ -77,28 +77,28 @@ def passepied_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 1/32
-                            s1 * 1/32
-                        }
-                        {
-                            s1 * 1/32
-                        }
-                        {
-                            s1 * 1/32
-                        }
-                        {
-                            s1 * 1/32
-                        }
-                        {
-                            s1 * 1/32
-                        }
+                        % measure 1
+                        \time 1/32
+                        s1 * 1/32
+                        % measure 2
+                        \time 1/32
+                        s1 * 1/32
+                        % measure 3
+                        \time 1/32
+                        s1 * 1/32
+                        % measure 4
+                        \time 1/32
+                        s1 * 1/32
+                        % measure 5
+                        \time 1/32
+                        s1 * 1/32
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
+                                % measure 1
                                 \clef "treble"
                                 af'32
                             }
@@ -108,6 +108,7 @@ def passepied_music():
                                     c'16
                                     bf'16 ]
                                 }
+                                % measure 2
                                 f'32
                             }
                             {
@@ -116,6 +117,7 @@ def passepied_music():
                                     fs'16
                                     b'16 ]
                                 }
+                                % measure 3
                                 d'32
                             }
                             {
@@ -124,6 +126,7 @@ def passepied_music():
                                     ef'16
                                     a'16 ]
                                 }
+                                % measure 4
                                 af'32
                             }
                             {
@@ -132,6 +135,7 @@ def passepied_music():
                                     b'16
                                     d'16 ]
                                 }
+                                % measure 5
                                 f'32
                                 \bar "|"
                             }
@@ -207,26 +211,25 @@ def passepied_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 17/32
-                            s1 * 17/32
-                        }
-                        {
-                            s1 * 17/32
-                        }
-                        {
-                            s1 * 17/32
-                        }
-                        {
-                            \time 11/32
-                            s1 * 11/32
-                        }
+                        % measure 1
+                        \time 17/32
+                        s1 * 17/32
+                        % measure 2
+                        \time 17/32
+                        s1 * 17/32
+                        % measure 3
+                        \time 17/32
+                        s1 * 17/32
+                        % measure 4
+                        \time 11/32
+                        s1 * 11/32
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
+                                % measure 1
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
                                 \clef "treble"
@@ -266,6 +269,7 @@ def passepied_music():
                                     c'16
                                     bf'16 ]
                                 }
+                                % measure 2
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
                                 f'32 [
@@ -304,6 +308,7 @@ def passepied_music():
                                     fs'16
                                     b'16 ]
                                 }
+                                % measure 3
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
                                 d'32 [
@@ -342,6 +347,7 @@ def passepied_music():
                                     ef'16
                                     a'16 ]
                                 }
+                                % measure 4
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
                                 g'32 [

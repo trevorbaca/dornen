@@ -78,30 +78,26 @@ def twenty_eighth_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 7/28
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)
-                            \newSpacingSection
-                            s1 * 1/4
-                        }
-                        {
-                            \time 2/28
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)
-                            \newSpacingSection
-                            s1 * 1/14
-                        }
-                        {
-                            \time 3/28
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)
-                            \newSpacingSection
-                            s1 * 3/28
-                        }
-                        {
-                            \time 4/28
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)
-                            \newSpacingSection
-                            s1 * 1/7
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)
+                        \time 7/28
+                        \newSpacingSection
+                        s1 * 1/4
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)
+                        \time 2/28
+                        \newSpacingSection
+                        s1 * 1/14
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)
+                        \time 3/28
+                        \newSpacingSection
+                        s1 * 3/28
+                        % measure 4
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)
+                        \time 4/28
+                        \newSpacingSection
+                        s1 * 1/7
                     }
                 >>
                 \context MusicContext = "Music Context" <<
@@ -109,6 +105,7 @@ def twenty_eighth_music():
                         \context Voice = "Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
+                                % measure 1
                                 \clef "treble"
                                 cs'16
                             }
@@ -138,6 +135,7 @@ def twenty_eighth_music():
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
+                                % measure 2
                                 d'16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -146,6 +144,7 @@ def twenty_eighth_music():
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
+                                % measure 3
                                 ef'16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -158,6 +157,7 @@ def twenty_eighth_music():
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
+                                % measure 4
                                 fs'16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -248,30 +248,26 @@ def twenty_eighth_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        {
-                            \time 7/28
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)
-                            \newSpacingSection
-                            s1 * 1/4
-                        }
-                        {
-                            \time 1/28
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)
-                            \newSpacingSection
-                            s1 * 1/28
-                        }
-                        {
-                            \time 3/28
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)
-                            \newSpacingSection
-                            s1 * 3/28
-                        }
-                        {
-                            \time 4/28
-                            \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)
-                            \newSpacingSection
-                            s1 * 1/7
-                        }
+                        % measure 1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)
+                        \time 7/28
+                        \newSpacingSection
+                        s1 * 1/4
+                        % measure 2
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)
+                        \time 1/28
+                        \newSpacingSection
+                        s1 * 1/28
+                        % measure 3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)
+                        \time 3/28
+                        \newSpacingSection
+                        s1 * 3/28
+                        % measure 4
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)
+                        \time 4/28
+                        \newSpacingSection
+                        s1 * 1/7
                     }
                 >>
                 \context MusicContext = "Music Context" <<
@@ -279,6 +275,7 @@ def twenty_eighth_music():
                         \context Voice = "Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
+                                % measure 1
                                 \clef "treble"
                                 cs'16
                             }
@@ -302,10 +299,12 @@ def twenty_eighth_music():
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
+                                % measure 2
                                 d'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
+                                % measure 3
                                 ef'16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -315,6 +314,7 @@ def twenty_eighth_music():
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
+                                % measure 4
                                 fs'16
                             }
                             \tweak edge-height #'(0.7 . 0)

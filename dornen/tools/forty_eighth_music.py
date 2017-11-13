@@ -120,7 +120,7 @@ def forty_eighth_music():
     '''
     music_maker = baca.tools.MusicMaker(
         baca.tools.PitchFirstRhythmCommand(
-            rhythm_maker=baca.tools.CollectionRhythmMaker(
+            rhythm_maker=baca.tools.PitchFirstRhythmMaker(
                 talea=rhythmos.Talea(
                     counts=[3],
                     denominator=64,

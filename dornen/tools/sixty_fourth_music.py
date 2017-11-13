@@ -150,7 +150,7 @@ def sixty_fourth_music():
             ),
         baca.staccati(),
         baca.tools.PitchFirstRhythmCommand(
-            rhythm_maker=baca.tools.CollectionRhythmMaker(
+            rhythm_maker=baca.tools.PitchFirstRhythmMaker(
                 talea=rhythmos.Talea(
                     counts=[1],
                     denominator=64,

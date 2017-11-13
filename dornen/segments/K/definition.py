@@ -48,7 +48,7 @@ accumulator(
     'Guitar Music Voice 1',
     [['F2']],
     accumulator.monad_music_maker,
-    baca.markup.boxed_specifier('3 fingers'),
+    baca.markup.boxed('3 fingers'),
     figure_name='3_1',
     )
 
@@ -86,7 +86,7 @@ accumulator(
     'Guitar Music Voice 1',
     [['F2']],
     accumulator.monad_music_maker,
-    baca.markup.boxed_specifier('4 fingers'),
+    baca.markup.boxed('4 fingers'),
     figure_name='4_1',
     )
 
@@ -178,7 +178,7 @@ accumulator(
     'Guitar Music Voice 1',
     [2 * ['F2']],
     accumulator.monad_music_maker,
-    baca.markup.boxed_specifier('3 fingers'),
+    baca.markup.boxed('3 fingers'),
     figure_name='4_14',
     )
 
@@ -186,7 +186,7 @@ accumulator(
     'Guitar Music Voice 1',
     [2 * ['F2']],
     accumulator.monad_music_maker,
-    baca.markup.boxed_specifier('2 fingers'),
+    baca.markup.boxed('2 fingers'),
     figure_name='4_15',
     )
 

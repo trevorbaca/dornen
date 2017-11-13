@@ -43,7 +43,7 @@ def default_music():
         ...     )
         >>> maker(
         ...     baca.scope('Music Voice', 1),
-        ...     baca.tools.RhythmBuilder(
+        ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )
@@ -189,7 +189,7 @@ def default_music():
         ...     )
         >>> maker(
         ...     baca.scope('Music Voice', 1),
-        ...     baca.tools.RhythmBuilder(
+        ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )

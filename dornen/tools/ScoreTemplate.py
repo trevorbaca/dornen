@@ -62,7 +62,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         Returns score.
         '''
-        time_signature_context = self._make_time_signature_context()
+        global_context = self._make_global_context()
         # GUITAR
         guitar_music_voice_1 = abjad.Voice(
             [],
@@ -110,7 +110,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         score = abjad.Score(
             [
-                time_signature_context,
+                global_context,
                 music_context,
                 ],
             name='Score',

@@ -13,11 +13,26 @@
         \context GlobalContext = "Global Context" <<
             \context GlobalSkips = "Global Skips" {
                 % measure 185
-                \tempo 8=66
+                \once \override TextScript.color = #darkgreen
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/8
                 \newSpacingSection
-                s1 * 3/8
+                s1 * 3/8 ^ \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #3
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            66
+                        }
+                    }
                 % measure 186
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/5

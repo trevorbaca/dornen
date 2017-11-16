@@ -13,9 +13,9 @@
         \context GlobalContext = "Global Context" <<
             \context GlobalSkips = "Global Skips" {
                 % measure 90
-                \once \override TextScript.color = #darkgreen
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 3/32
+                \once \override TextScript.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                 \newSpacingSection
                 s1 * 3/32 ^ \markup {
                     \fontsize

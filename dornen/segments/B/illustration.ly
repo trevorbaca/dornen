@@ -273,6 +273,7 @@
                                 }
                             \clef "treble"
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             b''64 * 256/1024 [
                             g''64 * 512/1024
                             ef''64 * 768/1024

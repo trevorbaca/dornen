@@ -160,6 +160,7 @@
                             \clef "treble"
                             \override Beam.positions = #'(8 . 8)
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             a'16 [ (
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2

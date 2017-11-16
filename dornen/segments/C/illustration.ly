@@ -162,8 +162,17 @@
                         \times 1/1 {
                             % measure 71
                             \once \override Beam.grow-direction = #right
+                            \set GuitarMusicStaff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Guitar
+                                }
+                            \set GuitarMusicStaff.shortInstrumentName = \markup {
+                                \null
+                                }
                             \clef "treble"
                             \override Beam.positions = #'(9 . 9)
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             f32 * 1984/1024 [
                             a32 * 1088/1024
                             b32 * 896/1024

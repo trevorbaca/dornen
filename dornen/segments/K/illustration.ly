@@ -162,7 +162,16 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             % measure 232
+                            \set GuitarMusicStaff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Guitar
+                                }
+                            \set GuitarMusicStaff.shortInstrumentName = \markup {
+                                \null
+                                }
                             \clef "treble"
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             f2 :32
                         }
                     }

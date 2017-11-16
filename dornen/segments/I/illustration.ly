@@ -146,7 +146,16 @@
                     {
                         {
                             % measure 185
+                            \set GuitarMusicStaff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Guitar
+                                }
+                            \set GuitarMusicStaff.shortInstrumentName = \markup {
+                                \null
+                                }
                             \clef "treble"
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             r8
                             r8
                             r8

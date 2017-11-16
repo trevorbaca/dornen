@@ -118,8 +118,17 @@
                             % measure 120
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
+                            \set GuitarMusicStaff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Guitar
+                                }
+                            \set GuitarMusicStaff.shortInstrumentName = \markup {
+                                \null
+                                }
                             \clef "treble"
                             \override Beam.positions = #'(10 . 10)
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             bf'32. -\tenuto [
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1

@@ -149,8 +149,17 @@
                             % measure 133
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
+                            \set GuitarMusicStaff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Guitar
+                                }
+                            \set GuitarMusicStaff.shortInstrumentName = \markup {
+                                \null
+                                }
                             \clef "treble"
                             \override Beam.positions = #'(8 . 8)
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             a'16 [ (
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2

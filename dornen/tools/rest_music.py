@@ -64,7 +64,7 @@ def rest_music(duration=None):
 
             >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
-                \context GlobalContext = "Global Context" <<
+                \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
@@ -167,7 +167,7 @@ def rest_music(duration=None):
 
             >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
-                \context GlobalContext = "Global Context" <<
+                \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%

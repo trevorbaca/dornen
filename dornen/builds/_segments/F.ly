@@ -1,7 +1,7 @@
 \context Score = "Score" \with {
     currentBarNumber = #133
 } <<
-    \context GlobalContext = "Global Context" <<
+    \context GlobalContext = "GlobalContext" <<
         \context GlobalRests = "GlobalRests" {
             {
                 \time 3/20

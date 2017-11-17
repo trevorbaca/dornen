@@ -62,7 +62,7 @@ def wave_music(denominator=64, inverted=False):
             \context Score = "Score" \with {
                 \override TupletBracket.padding = #2
             } <<
-                \context GlobalContext = "Global Context" <<
+                \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
@@ -439,7 +439,7 @@ def wave_music(denominator=64, inverted=False):
             \context Score = "Score" \with {
                 \override TupletBracket.padding = #2
             } <<
-                \context GlobalContext = "Global Context" <<
+                \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
@@ -816,7 +816,7 @@ def wave_music(denominator=64, inverted=False):
             \context Score = "Score" \with {
                 \override TupletBracket.padding = #2
             } <<
-                \context GlobalContext = "Global Context" <<
+                \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%

@@ -230,7 +230,7 @@
     >>
     \context MusicContext = "MusicContext" {
         \context GuitarMusicStaff = "GuitarMusicStaff" <<
-            \context GuitarMusicVoiceOne = "GuitarMusicVoice1" {
+            \context GuitarMusicVoiceOne = "GuitarMusicVoiceOne" {
                 {
                     \tweak edge-height #'(0.7 . 0)
                     \times 4/5 {
@@ -347,7 +347,7 @@
                     }
                 }
             }
-            \context GuitarMusicVoiceTwo = "GuitarMusicVoice2" {
+            \context GuitarMusicVoiceTwo = "GuitarMusicVoiceTwo" {
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \override Beam.positions = #'(-7 . -7)
                 s1 * 3/20
@@ -452,7 +452,7 @@
                 \bar "|"
                 \revert Beam.positions
             }
-            \context GuitarMusicVoiceThree = "GuitarMusicVoice3" {
+            \context GuitarMusicVoiceThree = "GuitarMusicVoiceThree" {
                 \override Beam.positions = #'(4 . 4)
                 s1 * 17/80
                 {
@@ -504,7 +504,7 @@
                 \bar "|"
                 \revert Beam.positions
             }
-            \context GuitarMusicVoiceFour = "GuitarMusicVoice4" {
+            \context GuitarMusicVoiceFour = "GuitarMusicVoiceFour" {
                 s1 * 3/20
                 s1 * 1/16
                 s1 * 3/28

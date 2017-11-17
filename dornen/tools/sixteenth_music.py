@@ -30,7 +30,7 @@ def sixteenth_music():
         Sequence([Sequence([3]), Sequence([9]), Sequence([8])])
         Sequence([Sequence([6]), Sequence([11]), Sequence([2]), Sequence([5])])
 
-        >>> voice_name = 'GuitarMusicVoice1'
+        >>> voice_name = 'GuitarMusicVoiceOne'
         >>> music_maker = dornen.sixteenth_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -53,7 +53,7 @@ def sixteenth_music():
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Music Voice', 1),
+        ...     baca.scope('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
@@ -106,11 +106,11 @@ def sixteenth_music():
                     }
                 >>
                 \context MusicContext = "MusicContext" <<
-                    \context Staff = "Music Staff" {
-                        \context Voice = "Music Voice" {
+                    \context Staff = "MusicStaff" {
+                        \context Voice = "MusicVoice" {
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 1] %%%
+                                %%% MusicVoice [measure 1] %%%
                                 \clef "treble"
                                 cs'16
                             }
@@ -140,7 +140,7 @@ def sixteenth_music():
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 2] %%%
+                                %%% MusicVoice [measure 2] %%%
                                 d'16
                             }
                             {
@@ -149,7 +149,7 @@ def sixteenth_music():
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 3] %%%
+                                %%% MusicVoice [measure 3] %%%
                                 ef'16
                             }
                             {
@@ -162,7 +162,7 @@ def sixteenth_music():
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 4] %%%
+                                %%% MusicVoice [measure 4] %%%
                                 fs'16
                             }
                             {
@@ -206,7 +206,7 @@ def sixteenth_music():
         Sequence([Sequence([3]), Sequence([9, 8])])
         Sequence([Sequence([6]), Sequence([11, 2]), Sequence([5])])
 
-        >>> voice_name = 'GuitarMusicVoice1'
+        >>> voice_name = 'GuitarMusicVoiceOne'
         >>> music_maker = dornen.sixteenth_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -229,7 +229,7 @@ def sixteenth_music():
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Music Voice', 1),
+        ...     baca.scope('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
@@ -282,11 +282,11 @@ def sixteenth_music():
                     }
                 >>
                 \context MusicContext = "MusicContext" <<
-                    \context Staff = "Music Staff" {
-                        \context Voice = "Music Voice" {
+                    \context Staff = "MusicStaff" {
+                        \context Voice = "MusicVoice" {
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 1] %%%
+                                %%% MusicVoice [measure 1] %%%
                                 \clef "treble"
                                 cs'16
                             }
@@ -312,12 +312,12 @@ def sixteenth_music():
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 2] %%%
+                                %%% MusicVoice [measure 2] %%%
                                 d'16
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 3] %%%
+                                %%% MusicVoice [measure 3] %%%
                                 ef'16
                             }
                             {
@@ -328,7 +328,7 @@ def sixteenth_music():
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 4] %%%
+                                %%% MusicVoice [measure 4] %%%
                                 fs'16
                             }
                             {

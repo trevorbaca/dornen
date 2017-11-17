@@ -30,7 +30,7 @@ def rest_music(duration=None):
         ([None, None],)
         ([None, None, None],)
 
-        >>> voice_name = 'GuitarMusicVoice1'
+        >>> voice_name = 'GuitarMusicVoiceOne'
         >>> music_maker = dornen.rest_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -50,7 +50,7 @@ def rest_music(duration=None):
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Music Voice', 1),
+        ...     baca.scope('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
@@ -82,24 +82,24 @@ def rest_music(duration=None):
                     }
                 >>
                 \context MusicContext = "MusicContext" <<
-                    \context Staff = "Music Staff" {
-                        \context Voice = "Music Voice" {
+                    \context Staff = "MusicStaff" {
+                        \context Voice = "MusicVoice" {
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 1] %%%
+                                %%% MusicVoice [measure 1] %%%
                                 \clef "treble"
                                 r8
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 2] %%%
+                                %%% MusicVoice [measure 2] %%%
                                 r8
             <BLANKLINE>
                                 r8
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 3] %%%
+                                %%% MusicVoice [measure 3] %%%
                                 r8
             <BLANKLINE>
                                 r8
@@ -133,7 +133,7 @@ def rest_music(duration=None):
         ([None], [None, None], [None, None, None])
         ([None, None], [None, None, None], [None])
 
-        >>> voice_name = 'GuitarMusicVoice1'
+        >>> voice_name = 'GuitarMusicVoiceOne'
         >>> music_maker = dornen.rest_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -153,7 +153,7 @@ def rest_music(duration=None):
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Music Voice', 1),
+        ...     baca.scope('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
@@ -181,11 +181,11 @@ def rest_music(duration=None):
                     }
                 >>
                 \context MusicContext = "MusicContext" <<
-                    \context Staff = "Music Staff" {
-                        \context Voice = "Music Voice" {
+                    \context Staff = "MusicStaff" {
+                        \context Voice = "MusicVoice" {
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 1] %%%
+                                %%% MusicVoice [measure 1] %%%
                                 \clef "treble"
                                 r8
                             }
@@ -205,7 +205,7 @@ def rest_music(duration=None):
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 2] %%%
+                                %%% MusicVoice [measure 2] %%%
                                 r8
             <BLANKLINE>
                                 r8

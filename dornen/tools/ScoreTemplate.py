@@ -28,7 +28,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>
             \context MusicContext = "MusicContext" {
                 \context GuitarMusicStaff = "GuitarMusicStaff" <<
-                    \context GuitarMusicVoiceOne = "GuitarMusicVoice1" {
+                    \context GuitarMusicVoiceOne = "GuitarMusicVoiceOne" {
                         \set GuitarMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -40,13 +40,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                         \clef "treble"
                         s1
                     }
-                    \context GuitarMusicVoiceTwo = "GuitarMusicVoice2" {
+                    \context GuitarMusicVoiceTwo = "GuitarMusicVoiceTwo" {
                         s1
                     }
-                    \context GuitarMusicVoiceThree = "GuitarMusicVoice3" {
+                    \context GuitarMusicVoiceThree = "GuitarMusicVoiceThree" {
                         s1
                     }
-                    \context GuitarMusicVoiceFour = "GuitarMusicVoice4" {
+                    \context GuitarMusicVoiceFour = "GuitarMusicVoiceFour" {
                         s1
                     }
                 >>
@@ -67,22 +67,22 @@ class ScoreTemplate(baca.ScoreTemplate):
         guitar_music_voice_1 = abjad.Voice(
             [],
             context_name='GuitarMusicVoiceOne',
-            name='GuitarMusicVoice1',
+            name='GuitarMusicVoiceOne',
             )
         guitar_music_voice_2 = abjad.Voice(
             [],
             context_name='GuitarMusicVoiceTwo',
-            name='GuitarMusicVoice2',
+            name='GuitarMusicVoiceTwo',
             )
         guitar_music_voice_3 = abjad.Voice(
             [],
             context_name='GuitarMusicVoiceThree',
-            name='GuitarMusicVoice3',
+            name='GuitarMusicVoiceThree',
             )
         guitar_music_voice_4 = abjad.Voice(
             [],
             context_name='GuitarMusicVoiceFour',
-            name='GuitarMusicVoice4',
+            name='GuitarMusicVoiceFour',
             )
         guitar_music_staff = abjad.Staff(
             [

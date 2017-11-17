@@ -19,7 +19,7 @@ def tremolo_music():
         ...     [[4, 4, 4, 4, 4, 4]],
         ...     ]
 
-        >>> voice_name = 'GuitarMusicVoice1'
+        >>> voice_name = 'GuitarMusicVoiceOne'
         >>> music_maker = dornen.tremolo_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -42,7 +42,7 @@ def tremolo_music():
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Music Voice', 1),
+        ...     baca.scope('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
@@ -85,19 +85,19 @@ def tremolo_music():
                     }
                 >>
                 \context MusicContext = "MusicContext" <<
-                    \context Staff = "Music Staff" {
-                        \context Voice = "Music Voice" {
+                    \context Staff = "MusicStaff" {
+                        \context Voice = "MusicVoice" {
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
-                                %%% Music Voice [measure 1] %%%
+                                %%% MusicVoice [measure 1] %%%
                                 \clef "treble"
                                 e'8 :32
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
-                                %%% Music Voice [measure 2] %%%
+                                %%% MusicVoice [measure 2] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -136,13 +136,13 @@ def tremolo_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
-                                %%% Music Voice [measure 3] %%%
+                                %%% MusicVoice [measure 3] %%%
                                 e'8 :32
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
-                                %%% Music Voice [measure 4] %%%
+                                %%% MusicVoice [measure 4] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -204,7 +204,7 @@ def tremolo_music():
         ([4], [4, 4, 4, 4, 4, 4], [4])
 
 
-        >>> voice_name = 'GuitarMusicVoice1'
+        >>> voice_name = 'GuitarMusicVoiceOne'
         >>> music_maker = dornen.tremolo_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -227,7 +227,7 @@ def tremolo_music():
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Music Voice', 1),
+        ...     baca.scope('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
@@ -264,12 +264,12 @@ def tremolo_music():
                     }
                 >>
                 \context MusicContext = "MusicContext" <<
-                    \context Staff = "Music Staff" {
-                        \context Voice = "Music Voice" {
+                    \context Staff = "MusicStaff" {
+                        \context Voice = "MusicVoice" {
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
-                                %%% Music Voice [measure 1] %%%
+                                %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
                                 \clef "treble"
@@ -324,7 +324,7 @@ def tremolo_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
-                                %%% Music Voice [measure 2] %%%
+                                %%% MusicVoice [measure 2] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -404,7 +404,7 @@ def tremolo_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
-                                %%% Music Voice [measure 3] %%%
+                                %%% MusicVoice [measure 3] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie

@@ -30,7 +30,7 @@ def graced_tuplet_music():
         ([1, 0, 10, 5, 8, 6, 11, 2, 4, 3], [9, 8, 1, 0, 10, 5, 8, 6, 11, 2])
         ([9, 8, 1, 0, 10, 5, 8, 6, 11, 2], [8])
 
-        >>> voice_name = 'GuitarMusicVoice1'
+        >>> voice_name = 'GuitarMusicVoiceOne'
         >>> music_maker = dornen.graced_tuplet_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -50,7 +50,7 @@ def graced_tuplet_music():
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Music Voice', 1),
+        ...     baca.scope('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
@@ -89,13 +89,13 @@ def graced_tuplet_music():
                     }
                 >>
                 \context MusicContext = "MusicContext" <<
-                    \context Staff = "Music Staff" {
-                        \context Voice = "Music Voice" {
+                    \context Staff = "MusicStaff" {
+                        \context Voice = "MusicVoice" {
                             \tweak text #tuplet-number::calc-fraction-text
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                %%% Music Voice [measure 1] %%%
+                                %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 \clef "treble"
@@ -153,7 +153,7 @@ def graced_tuplet_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                %%% Music Voice [measure 2] %%%
+                                %%% MusicVoice [measure 2] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 cs'16 [
@@ -250,7 +250,7 @@ def graced_tuplet_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                %%% Music Voice [measure 3] %%%
+                                %%% MusicVoice [measure 3] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 a'16 [

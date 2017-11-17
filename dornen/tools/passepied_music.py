@@ -36,7 +36,7 @@ def passepied_music():
         ([4, 3, 9, 8],)
         ([6, 11, 2, 5],)
 
-        >>> voice_name = 'GuitarMusicVoice1'
+        >>> voice_name = 'GuitarMusicVoiceOne'
         >>> music_maker = dornen.passepied_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -56,7 +56,7 @@ def passepied_music():
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Music Voice', 1),
+        ...     baca.scope('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
@@ -101,17 +101,17 @@ def passepied_music():
                     }
                 >>
                 \context MusicContext = "MusicContext" <<
-                    \context Staff = "Music Staff" {
-                        \context Voice = "Music Voice" {
+                    \context Staff = "MusicStaff" {
+                        \context Voice = "MusicVoice" {
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 1] %%%
+                                %%% MusicVoice [measure 1] %%%
                                 \clef "treble"
                                 af'32
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 2] %%%
+                                %%% MusicVoice [measure 2] %%%
                                 \acciaccatura {
             <BLANKLINE>
                                     cs'16 [
@@ -125,7 +125,7 @@ def passepied_music():
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 3] %%%
+                                %%% MusicVoice [measure 3] %%%
                                 \acciaccatura {
             <BLANKLINE>
                                     af'16 [
@@ -139,7 +139,7 @@ def passepied_music():
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 4] %%%
+                                %%% MusicVoice [measure 4] %%%
                                 \acciaccatura {
             <BLANKLINE>
                                     e'16 [
@@ -153,7 +153,7 @@ def passepied_music():
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 5] %%%
+                                %%% MusicVoice [measure 5] %%%
                                 \acciaccatura {
             <BLANKLINE>
                                     fs'16 [
@@ -198,7 +198,7 @@ def passepied_music():
         ([8, 6, 11, 2], [4, 3, 9, 7], [6, 11, 2, 5])
         ([4, 3, 9, 7], [6, 11, 2, 5], [8])
 
-        >>> voice_name = 'GuitarMusicVoice1'
+        >>> voice_name = 'GuitarMusicVoiceOne'
         >>> music_maker = dornen.passepied_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -218,7 +218,7 @@ def passepied_music():
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Music Voice', 1),
+        ...     baca.scope('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
@@ -259,11 +259,11 @@ def passepied_music():
                     }
                 >>
                 \context MusicContext = "MusicContext" <<
-                    \context Staff = "Music Staff" {
-                        \context Voice = "Music Voice" {
+                    \context Staff = "MusicStaff" {
+                        \context Voice = "MusicVoice" {
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 1] %%%
+                                %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
                                 \clef "treble"
@@ -307,7 +307,7 @@ def passepied_music():
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 2] %%%
+                                %%% MusicVoice [measure 2] %%%
                                 \acciaccatura {
             <BLANKLINE>
                                     cs'16 [
@@ -359,7 +359,7 @@ def passepied_music():
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 3] %%%
+                                %%% MusicVoice [measure 3] %%%
                                 \acciaccatura {
             <BLANKLINE>
                                     af'16 [
@@ -411,7 +411,7 @@ def passepied_music():
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 4] %%%
+                                %%% MusicVoice [measure 4] %%%
                                 \acciaccatura {
             <BLANKLINE>
                                     e'16 [

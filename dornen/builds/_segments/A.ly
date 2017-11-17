@@ -160,7 +160,7 @@
     >>
     \context MusicContext = "MusicContext" {
         \context GuitarMusicStaff = "GuitarMusicStaff" <<
-            \context GuitarMusicVoiceOne = "GuitarMusicVoice1" {
+            \context GuitarMusicVoiceOne = "GuitarMusicVoiceOne" {
                 {
                     \override TupletNumber.text = \markup {
                         \scale
@@ -790,7 +790,7 @@
                     }
                 }
             }
-            \context GuitarMusicVoiceTwo = "GuitarMusicVoice2" {
+            \context GuitarMusicVoiceTwo = "GuitarMusicVoiceTwo" {
                 s1 * 1/4
                 {
                     \tweak edge-height #'(0.7 . 0)
@@ -893,7 +893,7 @@
                 s1 * 11/16
                 \bar "|"
             }
-            \context GuitarMusicVoiceThree = "GuitarMusicVoice3" {
+            \context GuitarMusicVoiceThree = "GuitarMusicVoiceThree" {
                 s1 * 1/4
                 s1 * 1/20
                 s1 * 3/16
@@ -911,7 +911,7 @@
                 s1 * 11/16
                 \bar "|"
             }
-            \context GuitarMusicVoiceFour = "GuitarMusicVoice4" {
+            \context GuitarMusicVoiceFour = "GuitarMusicVoiceFour" {
                 s1 * 1/4
                 s1 * 1/20
                 s1 * 3/16

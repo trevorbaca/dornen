@@ -22,7 +22,7 @@ def wave_music(denominator=64, inverted=False):
         ...         ],
         ...     ]
 
-        >>> voice_name = 'GuitarMusicVoice1'
+        >>> voice_name = 'GuitarMusicVoiceOne'
         >>> music_maker = dornen.wave_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -45,7 +45,7 @@ def wave_music(denominator=64, inverted=False):
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Music Voice', 1),
+        ...     baca.scope('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
@@ -86,8 +86,8 @@ def wave_music(denominator=64, inverted=False):
                     }
                 >>
                 \context MusicContext = "MusicContext" <<
-                    \context Staff = "Music Staff" {
-                        \context Voice = "Music Voice" {
+                    \context Staff = "MusicStaff" {
+                        \context Voice = "MusicVoice" {
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -120,7 +120,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \times 1/1 {
             <BLANKLINE>
-                                %%% Music Voice [measure 1] %%%
+                                %%% MusicVoice [measure 1] %%%
                                 \once \override Beam.grow-direction = #right
                                 \clef "treble"
                                 fs'64 * 2112/1024 [
@@ -170,7 +170,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \times 1/1 {
             <BLANKLINE>
-                                %%% Music Voice [measure 2] %%%
+                                %%% MusicVoice [measure 2] %%%
                                 \once \override Beam.grow-direction = #right
                                 fs'64 * 2112/1024 [
             <BLANKLINE>
@@ -265,7 +265,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \times 1/1 {
             <BLANKLINE>
-                                %%% Music Voice [measure 3] %%%
+                                %%% MusicVoice [measure 3] %%%
                                 \once \override Beam.grow-direction = #right
                                 fs'64 * 2112/1024 [
             <BLANKLINE>
@@ -397,7 +397,7 @@ def wave_music(denominator=64, inverted=False):
         ...         ],
         ...     ]
 
-        >>> voice_name = 'GuitarMusicVoice1'
+        >>> voice_name = 'GuitarMusicVoiceOne'
         >>> music_maker = dornen.wave_music(
         ...     inverted=True,
         ...     )
@@ -422,7 +422,7 @@ def wave_music(denominator=64, inverted=False):
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Music Voice', 1),
+        ...     baca.scope('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
@@ -463,8 +463,8 @@ def wave_music(denominator=64, inverted=False):
                     }
                 >>
                 \context MusicContext = "MusicContext" <<
-                    \context Staff = "Music Staff" {
-                        \context Voice = "Music Voice" {
+                    \context Staff = "MusicStaff" {
+                        \context Voice = "MusicVoice" {
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -497,7 +497,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \times 1/1 {
             <BLANKLINE>
-                                %%% Music Voice [measure 1] %%%
+                                %%% MusicVoice [measure 1] %%%
                                 \once \override Beam.grow-direction = #left
                                 \clef "treble"
                                 fs'64 * 320/1024 [
@@ -547,7 +547,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \times 1/1 {
             <BLANKLINE>
-                                %%% Music Voice [measure 2] %%%
+                                %%% MusicVoice [measure 2] %%%
                                 \once \override Beam.grow-direction = #left
                                 fs'64 * 320/1024 [
             <BLANKLINE>
@@ -642,7 +642,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \times 1/1 {
             <BLANKLINE>
-                                %%% Music Voice [measure 3] %%%
+                                %%% MusicVoice [measure 3] %%%
                                 \once \override Beam.grow-direction = #left
                                 fs'64 * 320/1024 [
             <BLANKLINE>
@@ -774,7 +774,7 @@ def wave_music(denominator=64, inverted=False):
         ...         ],
         ...     ]
 
-        >>> voice_name = 'GuitarMusicVoice1'
+        >>> voice_name = 'GuitarMusicVoiceOne'
         >>> music_maker = dornen.wave_music(
         ...     denominator=32,
         ...     )
@@ -799,7 +799,7 @@ def wave_music(denominator=64, inverted=False):
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Music Voice', 1),
+        ...     baca.scope('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
@@ -840,8 +840,8 @@ def wave_music(denominator=64, inverted=False):
                     }
                 >>
                 \context MusicContext = "MusicContext" <<
-                    \context Staff = "Music Staff" {
-                        \context Voice = "Music Voice" {
+                    \context Staff = "MusicStaff" {
+                        \context Voice = "MusicVoice" {
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -874,7 +874,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \times 1/1 {
             <BLANKLINE>
-                                %%% Music Voice [measure 1] %%%
+                                %%% MusicVoice [measure 1] %%%
                                 \once \override Beam.grow-direction = #right
                                 \clef "treble"
                                 fs'32 * 2080/1024 [
@@ -924,7 +924,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \times 1/1 {
             <BLANKLINE>
-                                %%% Music Voice [measure 2] %%%
+                                %%% MusicVoice [measure 2] %%%
                                 \once \override Beam.grow-direction = #right
                                 fs'32 * 2080/1024 [
             <BLANKLINE>
@@ -1019,7 +1019,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \times 1/1 {
             <BLANKLINE>
-                                %%% Music Voice [measure 3] %%%
+                                %%% MusicVoice [measure 3] %%%
                                 \once \override Beam.grow-direction = #right
                                 fs'32 * 2080/1024 [
             <BLANKLINE>

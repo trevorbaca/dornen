@@ -76,7 +76,7 @@ def sixteenth_music():
                 \override TupletBracket.direction = #up
                 \override TupletBracket.staff-padding = #1.5
             } <<
-                \context GlobalContext = "Global Context" <<
+                \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
@@ -252,7 +252,7 @@ def sixteenth_music():
                 \override TupletBracket.direction = #up
                 \override TupletBracket.staff-padding = #1.5
             } <<
-                \context GlobalContext = "Global Context" <<
+                \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%

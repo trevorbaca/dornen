@@ -75,7 +75,7 @@ def passepied_music():
                 \override SpacingSpanner.strict-grace-spacing = ##f
                 \override SpacingSpanner.strict-note-spacing = ##f
             } <<
-                \context GlobalContext = "Global Context" <<
+                \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
@@ -237,7 +237,7 @@ def passepied_music():
                 \override SpacingSpanner.strict-grace-spacing = ##f
                 \override SpacingSpanner.strict-note-spacing = ##f
             } <<
-                \context GlobalContext = "Global Context" <<
+                \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%

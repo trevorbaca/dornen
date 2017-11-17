@@ -57,87 +57,108 @@ def running_music():
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        % measure 1
+            <BLANKLINE>
+                        %%% Global Skips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                         \time 1/64
                         \newSpacingSection
                         s1 * 1/64
-                        % measure 2
+            <BLANKLINE>
+                        %%% Global Skips [measure 2] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 3 224)
                         \time 3/32
                         \newSpacingSection
                         s1 * 3/32
-                        % measure 3
+            <BLANKLINE>
+                        %%% Global Skips [measure 3] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                         \time 1/64
                         \newSpacingSection
                         s1 * 1/64
-                        % measure 4
+            <BLANKLINE>
+                        %%% Global Skips [measure 4] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 5 384)
                         \time 5/64
                         \newSpacingSection
                         s1 * 5/64
+            <BLANKLINE>
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
-                                % measure 1
+            <BLANKLINE>
+                                %%% Music Voice [measure 1] %%%
                                 \clef "treble"
                                 e'64
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {
-                                % measure 2
+            <BLANKLINE>
+                                %%% Music Voice [measure 2] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #4
                                 fs'64 [ ( (
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 d'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 ef'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 f'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 a'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 af'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #0
                                 c'64 ] ) )
                             }
                             {
-                                % measure 3
+            <BLANKLINE>
+                                %%% Music Voice [measure 3] %%%
                                 b'64
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 5/6 {
-                                % measure 4
+            <BLANKLINE>
+                                %%% Music Voice [measure 4] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #4
                                 bf'64 [ ( (
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 g'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 a'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 af'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 c'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #0
                                 f'64 ] ) )
                                 \bar "|"
+            <BLANKLINE>
                             }
                         }
                     }
@@ -205,28 +226,33 @@ def running_music():
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        % measure 1
+            <BLANKLINE>
+                        %%% Global Skips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 3 224)
                         \time 1/8
                         \newSpacingSection
                         s1 * 1/8
-                        % measure 2
+            <BLANKLINE>
+                        %%% Global Skips [measure 2] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 5 384)
                         \time 3/16
                         \newSpacingSection
                         s1 * 3/16
-                        % measure 3
+            <BLANKLINE>
+                        %%% Global Skips [measure 3] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 5 384)
                         \time 7/64
                         \newSpacingSection
                         s1 * 7/64
+            <BLANKLINE>
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
-                                % measure 1
+            <BLANKLINE>
+                                %%% Music Voice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #4
                                 \clef "treble"
@@ -234,116 +260,147 @@ def running_music():
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #4
                                 fs'64 )
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 d'64 (
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 ef'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 f'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 a'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 af'64 )
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #1
                                 c'64 (
                             }
                             {
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #0
                                 b'64 ] )
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {
-                                % measure 2
+            <BLANKLINE>
+                                %%% Music Voice [measure 2] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #4
                                 fs'64 [ (
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 d'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 ef'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 f'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 a'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 af'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #1
                                 c'64
                             }
                             {
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #1
                                 b'64 ) (
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 5/6 {
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #4
                                 bf'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 g'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 a'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 af'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 c'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #0
                                 f'64 ] )
                             }
                             {
-                                % measure 3
+            <BLANKLINE>
+                                %%% Music Voice [measure 3] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #4
                                 b'64 [ (
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 5/6 {
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #4
                                 bf'64 )
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 g'64 (
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 a'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 af'64
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 c'64 )
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #1
                                 f'64 (
                             }
                             {
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #0
                                 e'64 ] )
                                 \bar "|"
+            <BLANKLINE>
                             }
                         }
                     }

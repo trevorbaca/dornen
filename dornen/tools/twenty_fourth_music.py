@@ -78,26 +78,31 @@ def twenty_fourth_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        % measure 1
+            <BLANKLINE>
+                        %%% Global Skips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)
                         \time 7/24
                         \newSpacingSection
                         s1 * 7/24
-                        % measure 2
+            <BLANKLINE>
+                        %%% Global Skips [measure 2] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)
                         \time 2/24
                         \newSpacingSection
                         s1 * 1/12
-                        % measure 3
+            <BLANKLINE>
+                        %%% Global Skips [measure 3] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)
                         \time 3/24
                         \newSpacingSection
                         s1 * 1/8
-                        % measure 4
+            <BLANKLINE>
+                        %%% Global Skips [measure 4] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)
                         \time 4/24
                         \newSpacingSection
                         s1 * 1/6
+            <BLANKLINE>
                     }
                 >>
                 \context MusicContext = "Music Context" <<
@@ -105,73 +110,90 @@ def twenty_fourth_music():
                         \context Voice = "Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
-                                % measure 1
+            <BLANKLINE>
+                                %%% Music Voice [measure 1] %%%
                                 \clef "treble"
                                 cs'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 c'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 bf'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 f'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 af'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 fs'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 b'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
-                                % measure 2
+            <BLANKLINE>
+                                %%% Music Voice [measure 2] %%%
                                 d'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 e'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
-                                % measure 3
+            <BLANKLINE>
+                                %%% Music Voice [measure 3] %%%
                                 ef'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 a'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 af'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
-                                % measure 4
+            <BLANKLINE>
+                                %%% Music Voice [measure 4] %%%
                                 fs'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 b'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 d'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 f'16
                                 \bar "|"
+            <BLANKLINE>
                             }
                         }
                     }
@@ -248,26 +270,31 @@ def twenty_fourth_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        % measure 1
+            <BLANKLINE>
+                        %%% Global Skips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)
                         \time 7/24
                         \newSpacingSection
                         s1 * 7/24
-                        % measure 2
+            <BLANKLINE>
+                        %%% Global Skips [measure 2] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)
                         \time 1/24
                         \newSpacingSection
                         s1 * 1/24
-                        % measure 3
+            <BLANKLINE>
+                        %%% Global Skips [measure 3] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)
                         \time 3/24
                         \newSpacingSection
                         s1 * 1/8
-                        % measure 4
+            <BLANKLINE>
+                        %%% Global Skips [measure 4] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 60)
                         \time 4/24
                         \newSpacingSection
                         s1 * 1/6
+            <BLANKLINE>
                     }
                 >>
                 \context MusicContext = "Music Context" <<
@@ -275,57 +302,73 @@ def twenty_fourth_music():
                         \context Voice = "Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
-                                % measure 1
+            <BLANKLINE>
+                                %%% Music Voice [measure 1] %%%
                                 \clef "treble"
                                 cs'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 c'16 [
+            <BLANKLINE>
                                 bf'16 ]
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 f'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 af'16 [
+            <BLANKLINE>
                                 fs'16 ]
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 b'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
-                                % measure 2
+            <BLANKLINE>
+                                %%% Music Voice [measure 2] %%%
                                 d'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
-                                % measure 3
+            <BLANKLINE>
+                                %%% Music Voice [measure 3] %%%
                                 ef'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 a'16 [
+            <BLANKLINE>
                                 af'16 ]
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
-                                % measure 4
+            <BLANKLINE>
+                                %%% Music Voice [measure 4] %%%
                                 fs'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 b'16 [
+            <BLANKLINE>
                                 d'16 ]
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
+            <BLANKLINE>
                                 f'16
                                 \bar "|"
+            <BLANKLINE>
                             }
                         }
                     }

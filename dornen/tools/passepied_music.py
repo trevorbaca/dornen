@@ -77,67 +77,95 @@ def passepied_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        % measure 1
+            <BLANKLINE>
+                        %%% Global Skips [measure 1] %%%
                         \time 1/32
                         s1 * 1/32
-                        % measure 2
+            <BLANKLINE>
+                        %%% Global Skips [measure 2] %%%
                         \time 1/32
                         s1 * 1/32
-                        % measure 3
+            <BLANKLINE>
+                        %%% Global Skips [measure 3] %%%
                         \time 1/32
                         s1 * 1/32
-                        % measure 4
+            <BLANKLINE>
+                        %%% Global Skips [measure 4] %%%
                         \time 1/32
                         s1 * 1/32
-                        % measure 5
+            <BLANKLINE>
+                        %%% Global Skips [measure 5] %%%
                         \time 1/32
                         s1 * 1/32
+            <BLANKLINE>
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
-                                % measure 1
+            <BLANKLINE>
+                                %%% Music Voice [measure 1] %%%
                                 \clef "treble"
                                 af'32
                             }
                             {
+            <BLANKLINE>
+                                %%% Music Voice [measure 2] %%%
                                 \acciaccatura {
+            <BLANKLINE>
                                     cs'16 [
+            <BLANKLINE>
                                     c'16
+            <BLANKLINE>
                                     bf'16 ]
+            <BLANKLINE>
                                 }
-                                % measure 2
                                 f'32
                             }
                             {
+            <BLANKLINE>
+                                %%% Music Voice [measure 3] %%%
                                 \acciaccatura {
+            <BLANKLINE>
                                     af'16 [
+            <BLANKLINE>
                                     fs'16
+            <BLANKLINE>
                                     b'16 ]
+            <BLANKLINE>
                                 }
-                                % measure 3
                                 d'32
                             }
                             {
+            <BLANKLINE>
+                                %%% Music Voice [measure 4] %%%
                                 \acciaccatura {
+            <BLANKLINE>
                                     e'16 [
+            <BLANKLINE>
                                     ef'16
+            <BLANKLINE>
                                     a'16 ]
+            <BLANKLINE>
                                 }
-                                % measure 4
                                 af'32
                             }
                             {
+            <BLANKLINE>
+                                %%% Music Voice [measure 5] %%%
                                 \acciaccatura {
+            <BLANKLINE>
                                     fs'16 [
+            <BLANKLINE>
                                     b'16
+            <BLANKLINE>
                                     d'16 ]
+            <BLANKLINE>
                                 }
-                                % measure 5
                                 f'32
                                 \bar "|"
+            <BLANKLINE>
                             }
                         }
                     }
@@ -211,166 +239,217 @@ def passepied_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        % measure 1
+            <BLANKLINE>
+                        %%% Global Skips [measure 1] %%%
                         \time 17/32
                         s1 * 17/32
-                        % measure 2
+            <BLANKLINE>
+                        %%% Global Skips [measure 2] %%%
                         \time 17/32
                         s1 * 17/32
-                        % measure 3
+            <BLANKLINE>
+                        %%% Global Skips [measure 3] %%%
                         \time 17/32
                         s1 * 17/32
-                        % measure 4
+            <BLANKLINE>
+                        %%% Global Skips [measure 4] %%%
                         \time 11/32
                         s1 * 11/32
+            <BLANKLINE>
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
-                                % measure 1
+            <BLANKLINE>
+                                %%% Music Voice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
                                 \clef "treble"
                                 af'32 [
                             }
                             {
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #2
                                 cs'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #2
                                 c'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #2
                                 bf'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #1
                                 f'16
                             }
                             {
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #2
                                 af'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #2
                                 fs'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #2
                                 b'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #0
                                 d'16 ]
                             }
                             {
+            <BLANKLINE>
+                                %%% Music Voice [measure 2] %%%
                                 \acciaccatura {
+            <BLANKLINE>
                                     cs'16 [
+            <BLANKLINE>
                                     c'16
+            <BLANKLINE>
                                     bf'16 ]
+            <BLANKLINE>
                                 }
-                                % measure 2
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
                                 f'32 [
                             }
                             {
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #2
                                 af'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #2
                                 fs'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #2
                                 b'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #1
                                 d'16
                             }
                             {
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #2
                                 e'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #2
                                 ef'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #2
                                 a'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #0
                                 g'16 ]
                             }
                             {
+            <BLANKLINE>
+                                %%% Music Voice [measure 3] %%%
                                 \acciaccatura {
+            <BLANKLINE>
                                     af'16 [
+            <BLANKLINE>
                                     fs'16
+            <BLANKLINE>
                                     b'16 ]
+            <BLANKLINE>
                                 }
-                                % measure 3
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
                                 d'32 [
                             }
                             {
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #2
                                 e'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #2
                                 ef'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #2
                                 a'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #1
                                 g'16
                             }
                             {
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #2
                                 fs'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #2
                                 b'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #2
                                 d'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #0
                                 f'16 ]
                             }
                             {
+            <BLANKLINE>
+                                %%% Music Voice [measure 4] %%%
                                 \acciaccatura {
+            <BLANKLINE>
                                     e'16 [
+            <BLANKLINE>
                                     ef'16
+            <BLANKLINE>
                                     a'16 ]
+            <BLANKLINE>
                                 }
-                                % measure 4
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
                                 g'32 [
                             }
                             {
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #2
                                 fs'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #2
                                 b'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #2
                                 d'16
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #1
                                 f'16
                             }
                             {
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #0
                                 af'16 ]
                                 \bar "|"
+            <BLANKLINE>
                             }
                         }
                     }

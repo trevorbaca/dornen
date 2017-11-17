@@ -30,7 +30,7 @@ def graced_tuplet_music():
         ([1, 0, 10, 5, 8, 6, 11, 2, 4, 3], [9, 8, 1, 0, 10, 5, 8, 6, 11, 2])
         ([9, 8, 1, 0, 10, 5, 8, 6, 11, 2], [8])
 
-        >>> voice_name = 'Guitar Music Voice 1'
+        >>> voice_name = 'GuitarMusicVoice1'
         >>> music_maker = dornen.graced_tuplet_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -88,7 +88,7 @@ def graced_tuplet_music():
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "Music Context" <<
+                \context MusicContext = "MusicContext" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             \tweak text #tuplet-number::calc-fraction-text

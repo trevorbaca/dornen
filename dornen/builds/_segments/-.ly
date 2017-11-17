@@ -210,9 +210,9 @@
             }
         }
     >>
-    \context MusicContext = "Music Context" {
-        \context GuitarMusicStaff = "Guitar Music Staff" <<
-            \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
+    \context MusicContext = "MusicContext" {
+        \context GuitarMusicStaff = "GuitarMusicStaff" <<
+            \context GuitarMusicVoiceOne = "GuitarMusicVoice1" {
                 {
                     {
                         \set stemLeftBeamCount = #0
@@ -307,7 +307,7 @@
                 s1 * 1/2
                 \bar "|"
             }
-            \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
+            \context GuitarMusicVoiceTwo = "GuitarMusicVoice2" {
                 s1 * 3/16
                 {
                     {
@@ -438,7 +438,7 @@
                 s1 * 7/16
                 \bar "|"
             }
-            \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
+            \context GuitarMusicVoiceThree = "GuitarMusicVoice3" {
                 s1 * 107/32
                 {
                     \override TupletNumber.text = \markup {
@@ -537,7 +537,7 @@
                     \revert TupletNumber.text
                 }
             }
-            \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
+            \context GuitarMusicVoiceFour = "GuitarMusicVoice4" {
                 s1 * 5/4
                 {
                     \tweak text #tuplet-number::calc-fraction-text

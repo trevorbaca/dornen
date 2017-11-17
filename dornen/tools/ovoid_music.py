@@ -36,7 +36,7 @@ def ovoid_music():
         ([4, 3, 9, 8], [6, 11, 2, 5])
         ([6, 11, 2, 5], [8])
 
-        >>> voice_name = 'Guitar Music Voice 1'
+        >>> voice_name = 'GuitarMusicVoice1'
         >>> music_maker = dornen.ovoid_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -100,7 +100,7 @@ def ovoid_music():
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "Music Context" <<
+                \context MusicContext = "MusicContext" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {

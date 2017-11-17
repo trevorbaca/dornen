@@ -181,14 +181,14 @@
                 
             }
         >>
-        \context MusicContext = "Music Context" {
-            \context GuitarMusicStaff = "Guitar Music Staff" <<
-                \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
+        \context MusicContext = "MusicContext" {
+            \context GuitarMusicStaff = "GuitarMusicStaff" <<
+                \context GuitarMusicVoiceOne = "GuitarMusicVoice1" {
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             
-                            %%% Guitar Music Voice 1 [measure 232] %%%
+                            %%% GuitarMusicVoice1 [measure 232] %%%
                             \set GuitarMusicStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
@@ -207,7 +207,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             
-                            %%% Guitar Music Voice 1 [measure 233] %%%
+                            %%% GuitarMusicVoice1 [measure 233] %%%
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -235,7 +235,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             
-                            %%% Guitar Music Voice 1 [measure 234] %%%
+                            %%% GuitarMusicVoice1 [measure 234] %%%
                             f2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -247,7 +247,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             
-                            %%% Guitar Music Voice 1 [measure 235] %%%
+                            %%% GuitarMusicVoice1 [measure 235] %%%
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -275,7 +275,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             
-                            %%% Guitar Music Voice 1 [measure 236] %%%
+                            %%% GuitarMusicVoice1 [measure 236] %%%
                             f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -287,7 +287,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             
-                            %%% Guitar Music Voice 1 [measure 237] %%%
+                            %%% GuitarMusicVoice1 [measure 237] %%%
                             f2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
@@ -303,7 +303,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             
-                            %%% Guitar Music Voice 1 [measure 238] %%%
+                            %%% GuitarMusicVoice1 [measure 238] %%%
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -331,7 +331,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             
-                            %%% Guitar Music Voice 1 [measure 239] %%%
+                            %%% GuitarMusicVoice1 [measure 239] %%%
                             f2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -343,7 +343,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             
-                            %%% Guitar Music Voice 1 [measure 240] %%%
+                            %%% GuitarMusicVoice1 [measure 240] %%%
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -371,7 +371,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             
-                            %%% Guitar Music Voice 1 [measure 241] %%%
+                            %%% GuitarMusicVoice1 [measure 241] %%%
                             f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -383,7 +383,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             
-                            %%% Guitar Music Voice 1 [measure 242] %%%
+                            %%% GuitarMusicVoice1 [measure 242] %%%
                             f2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
@@ -399,7 +399,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             
-                            %%% Guitar Music Voice 1 [measure 243] %%%
+                            %%% GuitarMusicVoice1 [measure 243] %%%
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -427,7 +427,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             
-                            %%% Guitar Music Voice 1 [measure 244] %%%
+                            %%% GuitarMusicVoice1 [measure 244] %%%
                             f2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -439,7 +439,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             
-                            %%% Guitar Music Voice 1 [measure 245] %%%
+                            %%% GuitarMusicVoice1 [measure 245] %%%
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -467,7 +467,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             
-                            %%% Guitar Music Voice 1 [measure 246] %%%
+                            %%% GuitarMusicVoice1 [measure 246] %%%
                             f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -479,7 +479,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             
-                            %%% Guitar Music Voice 1 [measure 247] %%%
+                            %%% GuitarMusicVoice1 [measure 247] %%%
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -507,7 +507,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             
-                            %%% Guitar Music Voice 1 [measure 248] %%%
+                            %%% GuitarMusicVoice1 [measure 248] %%%
                             f2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -519,7 +519,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             
-                            %%% Guitar Music Voice 1 [measure 249] %%%
+                            %%% GuitarMusicVoice1 [measure 249] %%%
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -547,7 +547,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             
-                            %%% Guitar Music Voice 1 [measure 250] %%%
+                            %%% GuitarMusicVoice1 [measure 250] %%%
                             f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -559,7 +559,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             
-                            %%% Guitar Music Voice 1 [measure 251] %%%
+                            %%% GuitarMusicVoice1 [measure 251] %%%
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -587,7 +587,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             
-                            %%% Guitar Music Voice 1 [measure 252] %%%
+                            %%% GuitarMusicVoice1 [measure 252] %%%
                             f2 :32 \repeatTie \f \stopTextSpan ^ \markup {
                                 \whiteout
                                     \upright
@@ -599,7 +599,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             
-                            %%% Guitar Music Voice 1 [measure 253] %%%
+                            %%% GuitarMusicVoice1 [measure 253] %%%
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -627,7 +627,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 2/3 {
                             
-                            %%% Guitar Music Voice 1 [measure 254] %%%
+                            %%% GuitarMusicVoice1 [measure 254] %%%
                             f2 :32 \repeatTie
                         }
                     }
@@ -635,7 +635,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             
-                            %%% Guitar Music Voice 1 [measure 255] %%%
+                            %%% GuitarMusicVoice1 [measure 255] %%%
                             f2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
@@ -653,7 +653,7 @@
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             
-                            %%% Guitar Music Voice 1 [measure 256] %%%
+                            %%% GuitarMusicVoice1 [measure 256] %%%
                             f2 :32 \repeatTie
                                 ^ \markup {
                                     \whiteout
@@ -674,239 +674,239 @@
                         }
                     }
                 }
-                \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
+                \context GuitarMusicVoiceTwo = "GuitarMusicVoice2" {
                     
-                    %%% Guitar Music Voice 2 [measure 232] %%%
+                    %%% GuitarMusicVoice2 [measure 232] %%%
                     s1 * 2/5
                     
-                    %%% Guitar Music Voice 2 [measure 233] %%%
+                    %%% GuitarMusicVoice2 [measure 233] %%%
                     s1 * 2/5
                     
-                    %%% Guitar Music Voice 2 [measure 234] %%%
+                    %%% GuitarMusicVoice2 [measure 234] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 2 [measure 235] %%%
+                    %%% GuitarMusicVoice2 [measure 235] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 2 [measure 236] %%%
+                    %%% GuitarMusicVoice2 [measure 236] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 2 [measure 237] %%%
+                    %%% GuitarMusicVoice2 [measure 237] %%%
                     s1 * 2/5
                     
-                    %%% Guitar Music Voice 2 [measure 238] %%%
+                    %%% GuitarMusicVoice2 [measure 238] %%%
                     s1 * 2/5
                     
-                    %%% Guitar Music Voice 2 [measure 239] %%%
+                    %%% GuitarMusicVoice2 [measure 239] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 2 [measure 240] %%%
+                    %%% GuitarMusicVoice2 [measure 240] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 2 [measure 241] %%%
+                    %%% GuitarMusicVoice2 [measure 241] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 2 [measure 242] %%%
+                    %%% GuitarMusicVoice2 [measure 242] %%%
                     s1 * 2/5
                     
-                    %%% Guitar Music Voice 2 [measure 243] %%%
+                    %%% GuitarMusicVoice2 [measure 243] %%%
                     s1 * 2/5
                     
-                    %%% Guitar Music Voice 2 [measure 244] %%%
+                    %%% GuitarMusicVoice2 [measure 244] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 2 [measure 245] %%%
+                    %%% GuitarMusicVoice2 [measure 245] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 2 [measure 246] %%%
+                    %%% GuitarMusicVoice2 [measure 246] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 2 [measure 247] %%%
+                    %%% GuitarMusicVoice2 [measure 247] %%%
                     s1 * 2/5
                     
-                    %%% Guitar Music Voice 2 [measure 248] %%%
+                    %%% GuitarMusicVoice2 [measure 248] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 2 [measure 249] %%%
+                    %%% GuitarMusicVoice2 [measure 249] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 2 [measure 250] %%%
+                    %%% GuitarMusicVoice2 [measure 250] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 2 [measure 251] %%%
+                    %%% GuitarMusicVoice2 [measure 251] %%%
                     s1 * 2/5
                     
-                    %%% Guitar Music Voice 2 [measure 252] %%%
+                    %%% GuitarMusicVoice2 [measure 252] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 2 [measure 253] %%%
+                    %%% GuitarMusicVoice2 [measure 253] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 2 [measure 254] %%%
+                    %%% GuitarMusicVoice2 [measure 254] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 2 [measure 255] %%%
+                    %%% GuitarMusicVoice2 [measure 255] %%%
                     s1 * 4/5
                     
-                    %%% Guitar Music Voice 2 [measure 256] %%%
-                    s1 * 4/5
-                    \bar "|"
-                    
-                }
-                \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
-                    
-                    %%% Guitar Music Voice 3 [measure 232] %%%
-                    s1 * 2/5
-                    
-                    %%% Guitar Music Voice 3 [measure 233] %%%
-                    s1 * 2/5
-                    
-                    %%% Guitar Music Voice 3 [measure 234] %%%
-                    s1 * 1/3
-                    
-                    %%% Guitar Music Voice 3 [measure 235] %%%
-                    s1 * 1/3
-                    
-                    %%% Guitar Music Voice 3 [measure 236] %%%
-                    s1 * 1/3
-                    
-                    %%% Guitar Music Voice 3 [measure 237] %%%
-                    s1 * 2/5
-                    
-                    %%% Guitar Music Voice 3 [measure 238] %%%
-                    s1 * 2/5
-                    
-                    %%% Guitar Music Voice 3 [measure 239] %%%
-                    s1 * 1/3
-                    
-                    %%% Guitar Music Voice 3 [measure 240] %%%
-                    s1 * 1/3
-                    
-                    %%% Guitar Music Voice 3 [measure 241] %%%
-                    s1 * 1/3
-                    
-                    %%% Guitar Music Voice 3 [measure 242] %%%
-                    s1 * 2/5
-                    
-                    %%% Guitar Music Voice 3 [measure 243] %%%
-                    s1 * 2/5
-                    
-                    %%% Guitar Music Voice 3 [measure 244] %%%
-                    s1 * 1/3
-                    
-                    %%% Guitar Music Voice 3 [measure 245] %%%
-                    s1 * 1/3
-                    
-                    %%% Guitar Music Voice 3 [measure 246] %%%
-                    s1 * 1/3
-                    
-                    %%% Guitar Music Voice 3 [measure 247] %%%
-                    s1 * 2/5
-                    
-                    %%% Guitar Music Voice 3 [measure 248] %%%
-                    s1 * 1/3
-                    
-                    %%% Guitar Music Voice 3 [measure 249] %%%
-                    s1 * 1/3
-                    
-                    %%% Guitar Music Voice 3 [measure 250] %%%
-                    s1 * 1/3
-                    
-                    %%% Guitar Music Voice 3 [measure 251] %%%
-                    s1 * 2/5
-                    
-                    %%% Guitar Music Voice 3 [measure 252] %%%
-                    s1 * 1/3
-                    
-                    %%% Guitar Music Voice 3 [measure 253] %%%
-                    s1 * 1/3
-                    
-                    %%% Guitar Music Voice 3 [measure 254] %%%
-                    s1 * 1/3
-                    
-                    %%% Guitar Music Voice 3 [measure 255] %%%
-                    s1 * 4/5
-                    
-                    %%% Guitar Music Voice 3 [measure 256] %%%
+                    %%% GuitarMusicVoice2 [measure 256] %%%
                     s1 * 4/5
                     \bar "|"
                     
                 }
-                \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
+                \context GuitarMusicVoiceThree = "GuitarMusicVoice3" {
                     
-                    %%% Guitar Music Voice 4 [measure 232] %%%
+                    %%% GuitarMusicVoice3 [measure 232] %%%
                     s1 * 2/5
                     
-                    %%% Guitar Music Voice 4 [measure 233] %%%
+                    %%% GuitarMusicVoice3 [measure 233] %%%
                     s1 * 2/5
                     
-                    %%% Guitar Music Voice 4 [measure 234] %%%
+                    %%% GuitarMusicVoice3 [measure 234] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 4 [measure 235] %%%
+                    %%% GuitarMusicVoice3 [measure 235] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 4 [measure 236] %%%
+                    %%% GuitarMusicVoice3 [measure 236] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 4 [measure 237] %%%
+                    %%% GuitarMusicVoice3 [measure 237] %%%
                     s1 * 2/5
                     
-                    %%% Guitar Music Voice 4 [measure 238] %%%
+                    %%% GuitarMusicVoice3 [measure 238] %%%
                     s1 * 2/5
                     
-                    %%% Guitar Music Voice 4 [measure 239] %%%
+                    %%% GuitarMusicVoice3 [measure 239] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 4 [measure 240] %%%
+                    %%% GuitarMusicVoice3 [measure 240] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 4 [measure 241] %%%
+                    %%% GuitarMusicVoice3 [measure 241] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 4 [measure 242] %%%
+                    %%% GuitarMusicVoice3 [measure 242] %%%
                     s1 * 2/5
                     
-                    %%% Guitar Music Voice 4 [measure 243] %%%
+                    %%% GuitarMusicVoice3 [measure 243] %%%
                     s1 * 2/5
                     
-                    %%% Guitar Music Voice 4 [measure 244] %%%
+                    %%% GuitarMusicVoice3 [measure 244] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 4 [measure 245] %%%
+                    %%% GuitarMusicVoice3 [measure 245] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 4 [measure 246] %%%
+                    %%% GuitarMusicVoice3 [measure 246] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 4 [measure 247] %%%
+                    %%% GuitarMusicVoice3 [measure 247] %%%
                     s1 * 2/5
                     
-                    %%% Guitar Music Voice 4 [measure 248] %%%
+                    %%% GuitarMusicVoice3 [measure 248] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 4 [measure 249] %%%
+                    %%% GuitarMusicVoice3 [measure 249] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 4 [measure 250] %%%
+                    %%% GuitarMusicVoice3 [measure 250] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 4 [measure 251] %%%
+                    %%% GuitarMusicVoice3 [measure 251] %%%
                     s1 * 2/5
                     
-                    %%% Guitar Music Voice 4 [measure 252] %%%
+                    %%% GuitarMusicVoice3 [measure 252] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 4 [measure 253] %%%
+                    %%% GuitarMusicVoice3 [measure 253] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 4 [measure 254] %%%
+                    %%% GuitarMusicVoice3 [measure 254] %%%
                     s1 * 1/3
                     
-                    %%% Guitar Music Voice 4 [measure 255] %%%
+                    %%% GuitarMusicVoice3 [measure 255] %%%
                     s1 * 4/5
                     
-                    %%% Guitar Music Voice 4 [measure 256] %%%
+                    %%% GuitarMusicVoice3 [measure 256] %%%
+                    s1 * 4/5
+                    \bar "|"
+                    
+                }
+                \context GuitarMusicVoiceFour = "GuitarMusicVoice4" {
+                    
+                    %%% GuitarMusicVoice4 [measure 232] %%%
+                    s1 * 2/5
+                    
+                    %%% GuitarMusicVoice4 [measure 233] %%%
+                    s1 * 2/5
+                    
+                    %%% GuitarMusicVoice4 [measure 234] %%%
+                    s1 * 1/3
+                    
+                    %%% GuitarMusicVoice4 [measure 235] %%%
+                    s1 * 1/3
+                    
+                    %%% GuitarMusicVoice4 [measure 236] %%%
+                    s1 * 1/3
+                    
+                    %%% GuitarMusicVoice4 [measure 237] %%%
+                    s1 * 2/5
+                    
+                    %%% GuitarMusicVoice4 [measure 238] %%%
+                    s1 * 2/5
+                    
+                    %%% GuitarMusicVoice4 [measure 239] %%%
+                    s1 * 1/3
+                    
+                    %%% GuitarMusicVoice4 [measure 240] %%%
+                    s1 * 1/3
+                    
+                    %%% GuitarMusicVoice4 [measure 241] %%%
+                    s1 * 1/3
+                    
+                    %%% GuitarMusicVoice4 [measure 242] %%%
+                    s1 * 2/5
+                    
+                    %%% GuitarMusicVoice4 [measure 243] %%%
+                    s1 * 2/5
+                    
+                    %%% GuitarMusicVoice4 [measure 244] %%%
+                    s1 * 1/3
+                    
+                    %%% GuitarMusicVoice4 [measure 245] %%%
+                    s1 * 1/3
+                    
+                    %%% GuitarMusicVoice4 [measure 246] %%%
+                    s1 * 1/3
+                    
+                    %%% GuitarMusicVoice4 [measure 247] %%%
+                    s1 * 2/5
+                    
+                    %%% GuitarMusicVoice4 [measure 248] %%%
+                    s1 * 1/3
+                    
+                    %%% GuitarMusicVoice4 [measure 249] %%%
+                    s1 * 1/3
+                    
+                    %%% GuitarMusicVoice4 [measure 250] %%%
+                    s1 * 1/3
+                    
+                    %%% GuitarMusicVoice4 [measure 251] %%%
+                    s1 * 2/5
+                    
+                    %%% GuitarMusicVoice4 [measure 252] %%%
+                    s1 * 1/3
+                    
+                    %%% GuitarMusicVoice4 [measure 253] %%%
+                    s1 * 1/3
+                    
+                    %%% GuitarMusicVoice4 [measure 254] %%%
+                    s1 * 1/3
+                    
+                    %%% GuitarMusicVoice4 [measure 255] %%%
+                    s1 * 4/5
+                    
+                    %%% GuitarMusicVoice4 [measure 256] %%%
                     s1 * 4/5
                     \bar "|"
                     

@@ -19,7 +19,7 @@ def thirty_second_music():
         ...     [[10, 7, 9, 8, 0, 5]],
         ...     ]
 
-        >>> voice_name = 'Guitar Music Voice 1'
+        >>> voice_name = 'GuitarMusicVoice1'
         >>> music_maker = dornen.thirty_second_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -84,7 +84,7 @@ def thirty_second_music():
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "Music Context" <<
+                \context MusicContext = "MusicContext" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
@@ -186,7 +186,7 @@ def thirty_second_music():
         ([6, 2, 3, 5, 9, 8, 0], [11], [10, 7, 9, 8, 0, 5])
         ([11], [10, 7, 9, 8, 0, 5], [4])
 
-        >>> voice_name = 'Guitar Music Voice 1'
+        >>> voice_name = 'GuitarMusicVoice1'
         >>> music_maker = dornen.thirty_second_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -249,7 +249,7 @@ def thirty_second_music():
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "Music Context" <<
+                \context MusicContext = "MusicContext" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {

@@ -22,7 +22,7 @@ def wave_music(denominator=64, inverted=False):
         ...         ],
         ...     ]
 
-        >>> voice_name = 'Guitar Music Voice 1'
+        >>> voice_name = 'GuitarMusicVoice1'
         >>> music_maker = dornen.wave_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -85,7 +85,7 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "Music Context" <<
+                \context MusicContext = "MusicContext" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             \override TupletNumber.text = \markup {
@@ -397,7 +397,7 @@ def wave_music(denominator=64, inverted=False):
         ...         ],
         ...     ]
 
-        >>> voice_name = 'Guitar Music Voice 1'
+        >>> voice_name = 'GuitarMusicVoice1'
         >>> music_maker = dornen.wave_music(
         ...     inverted=True,
         ...     )
@@ -462,7 +462,7 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "Music Context" <<
+                \context MusicContext = "MusicContext" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             \override TupletNumber.text = \markup {
@@ -774,7 +774,7 @@ def wave_music(denominator=64, inverted=False):
         ...         ],
         ...     ]
 
-        >>> voice_name = 'Guitar Music Voice 1'
+        >>> voice_name = 'GuitarMusicVoice1'
         >>> music_maker = dornen.wave_music(
         ...     denominator=32,
         ...     )
@@ -839,7 +839,7 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "Music Context" <<
+                \context MusicContext = "MusicContext" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             \override TupletNumber.text = \markup {

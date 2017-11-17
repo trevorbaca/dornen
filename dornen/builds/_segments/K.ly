@@ -230,9 +230,9 @@
             }
         }
     >>
-    \context MusicContext = "Music Context" {
-        \context GuitarMusicStaff = "Guitar Music Staff" <<
-            \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
+    \context MusicContext = "MusicContext" {
+        \context GuitarMusicStaff = "GuitarMusicStaff" <<
+            \context GuitarMusicVoiceOne = "GuitarMusicVoice1" {
                 {
                     \tweak edge-height #'(0.7 . 0)
                     \times 4/5 {
@@ -695,7 +695,7 @@
                     }
                 }
             }
-            \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
+            \context GuitarMusicVoiceTwo = "GuitarMusicVoice2" {
                 s1 * 2/5
                 s1 * 2/5
                 s1 * 1/3
@@ -723,7 +723,7 @@
                 s1 * 4/5
                 \bar "|"
             }
-            \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
+            \context GuitarMusicVoiceThree = "GuitarMusicVoice3" {
                 s1 * 2/5
                 s1 * 2/5
                 s1 * 1/3
@@ -751,7 +751,7 @@
                 s1 * 4/5
                 \bar "|"
             }
-            \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
+            \context GuitarMusicVoiceFour = "GuitarMusicVoice4" {
                 s1 * 2/5
                 s1 * 2/5
                 s1 * 1/3

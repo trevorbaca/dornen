@@ -36,7 +36,7 @@ def graced_rest_music():
         ([4, 3, 9, 8, None],)
         ([6, 11, 2, 5, None],)
 
-        >>> voice_name = 'Guitar Music Voice 1'
+        >>> voice_name = 'GuitarMusicVoice1'
         >>> music_maker = dornen.graced_rest_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -102,7 +102,7 @@ def graced_rest_music():
         ([8, 6, 11, 2, None], [4, 3, 9, 7, None], [6, 11, 2, 5, None])
         ([4, 3, 9, 7, None], [6, 11, 2, 5, None], [8])
 
-        >>> voice_name = 'Guitar Music Voice 1'
+        >>> voice_name = 'GuitarMusicVoice1'
         >>> music_maker = dornen.graced_rest_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:

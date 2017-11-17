@@ -19,7 +19,7 @@ def tremolo_music():
         ...     [[4, 4, 4, 4, 4, 4]],
         ...     ]
 
-        >>> voice_name = 'Guitar Music Voice 1'
+        >>> voice_name = 'GuitarMusicVoice1'
         >>> music_maker = dornen.tremolo_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -84,7 +84,7 @@ def tremolo_music():
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "Music Context" <<
+                \context MusicContext = "MusicContext" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             \tweak edge-height #'(0.7 . 0)
@@ -204,7 +204,7 @@ def tremolo_music():
         ([4], [4, 4, 4, 4, 4, 4], [4])
 
 
-        >>> voice_name = 'Guitar Music Voice 1'
+        >>> voice_name = 'GuitarMusicVoice1'
         >>> music_maker = dornen.tremolo_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -263,7 +263,7 @@ def tremolo_music():
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "Music Context" <<
+                \context MusicContext = "MusicContext" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             \tweak edge-height #'(0.7 . 0)

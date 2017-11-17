@@ -19,7 +19,7 @@ def anchor_music():
         ...     [[10, 7, 9, 8, 0, 5]],
         ...     ]
 
-        >>> voice_name = 'Guitar Music Voice 1'
+        >>> voice_name = 'GuitarMusicVoice1'
         >>> music_maker = dornen.anchor_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -84,7 +84,7 @@ def anchor_music():
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "Music Context" <<
+                \context MusicContext = "MusicContext" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {

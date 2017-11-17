@@ -12,15 +12,15 @@ class MusicAccumulator(baca.MusicAccumulator):
         >>> accumulator = dornen.MusicAccumulator(score_template)
         >>> segments = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
         >>> accumulator(
-        ...     'Guitar Music Voice 1',
+        ...     'GuitarMusicVoice1',
         ...     segments,
         ...     accumulator.delicatissimo_music_maker,
         ...     figure_name='D',
         ...     )
 
-        >>> selection = accumulator.assemble('Guitar Music Voice 1')
+        >>> selection = accumulator.assemble('GuitarMusicVoice1')
         >>> lilypond_file = accumulator.show(
-        ...     {'Guitar Music Voice 1': selection},
+        ...     {'GuitarMusicVoice1': selection},
         ...     accumulator.time_signatures,
         ...     )
         >>> abjad.show(lilypond_file) # doctest: +SKIP
@@ -29,7 +29,7 @@ class MusicAccumulator(baca.MusicAccumulator):
 
             >>> abjad.f(lilypond_file[abjad.Staff])
             \new Staff <<
-                \context Voice = "Guitar Music Voice 1" {
+                \context Voice = "GuitarMusicVoice1" {
                     {
                         {
                             \set stemLeftBeamCount = #0

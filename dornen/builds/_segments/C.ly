@@ -196,9 +196,9 @@
             }
         }
     >>
-    \context MusicContext = "Music Context" {
-        \context GuitarMusicStaff = "Guitar Music Staff" <<
-            \context GuitarMusicVoiceOne = "Guitar Music Voice 1" {
+    \context MusicContext = "MusicContext" {
+        \context GuitarMusicStaff = "GuitarMusicStaff" <<
+            \context GuitarMusicVoiceOne = "GuitarMusicVoice1" {
                 {
                     \override TupletNumber.text = \markup {
                         \scale
@@ -696,7 +696,7 @@
                 s1 * 571/320
                 \bar "|"
             }
-            \context GuitarMusicVoiceTwo = "Guitar Music Voice 2" {
+            \context GuitarMusicVoiceTwo = "GuitarMusicVoice2" {
                 s1 * 11/16
                 {
                     \tweak text #tuplet-number::calc-fraction-text
@@ -745,7 +745,7 @@
                 s1 * 531/320
                 \bar "|"
             }
-            \context GuitarMusicVoiceThree = "Guitar Music Voice 3" {
+            \context GuitarMusicVoiceThree = "GuitarMusicVoice3" {
                 s1 * 33/32
                 {
                     \tweak text #tuplet-number::calc-fraction-text
@@ -1046,7 +1046,7 @@
                     }
                 }
             }
-            \context GuitarMusicVoiceFour = "Guitar Music Voice 4" {
+            \context GuitarMusicVoiceFour = "GuitarMusicVoice4" {
                 s1 * 87/64
                 {
                     {

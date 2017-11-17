@@ -30,7 +30,7 @@ def sixteenth_music():
         Sequence([Sequence([3]), Sequence([9]), Sequence([8])])
         Sequence([Sequence([6]), Sequence([11]), Sequence([2]), Sequence([5])])
 
-        >>> voice_name = 'Guitar Music Voice 1'
+        >>> voice_name = 'GuitarMusicVoice1'
         >>> music_maker = dornen.sixteenth_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -105,7 +105,7 @@ def sixteenth_music():
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "Music Context" <<
+                \context MusicContext = "MusicContext" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
@@ -206,7 +206,7 @@ def sixteenth_music():
         Sequence([Sequence([3]), Sequence([9, 8])])
         Sequence([Sequence([6]), Sequence([11, 2]), Sequence([5])])
 
-        >>> voice_name = 'Guitar Music Voice 1'
+        >>> voice_name = 'GuitarMusicVoice1'
         >>> music_maker = dornen.sixteenth_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -281,7 +281,7 @@ def sixteenth_music():
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "Music Context" <<
+                \context MusicContext = "MusicContext" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {

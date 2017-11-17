@@ -36,7 +36,7 @@ def passepied_music():
         ([4, 3, 9, 8],)
         ([6, 11, 2, 5],)
 
-        >>> voice_name = 'Guitar Music Voice 1'
+        >>> voice_name = 'GuitarMusicVoice1'
         >>> music_maker = dornen.passepied_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -100,7 +100,7 @@ def passepied_music():
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "Music Context" <<
+                \context MusicContext = "MusicContext" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
@@ -198,7 +198,7 @@ def passepied_music():
         ([8, 6, 11, 2], [4, 3, 9, 7], [6, 11, 2, 5])
         ([4, 3, 9, 7], [6, 11, 2, 5], [8])
 
-        >>> voice_name = 'Guitar Music Voice 1'
+        >>> voice_name = 'GuitarMusicVoice1'
         >>> music_maker = dornen.passepied_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -258,7 +258,7 @@ def passepied_music():
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "Music Context" <<
+                \context MusicContext = "MusicContext" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {

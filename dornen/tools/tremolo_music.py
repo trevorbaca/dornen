@@ -56,27 +56,27 @@ def tremolo_music():
             >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalSkips = "Global Skips" {
+                    \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        %%% Global Skips [measure 1] %%%
+                        %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 1/11
                         \newSpacingSection
                         s1 * 1/11
             <BLANKLINE>
-                        %%% Global Skips [measure 2] %%%
+                        %%% GlobalSkips [measure 2] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 7/11
                         \newSpacingSection
                         s1 * 7/11
             <BLANKLINE>
-                        %%% Global Skips [measure 3] %%%
+                        %%% GlobalSkips [measure 3] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 1/11
                         \newSpacingSection
                         s1 * 1/11
             <BLANKLINE>
-                        %%% Global Skips [measure 4] %%%
+                        %%% GlobalSkips [measure 4] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 6/11
                         \newSpacingSection
@@ -241,21 +241,21 @@ def tremolo_music():
             >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalSkips = "Global Skips" {
+                    \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        %%% Global Skips [measure 1] %%%
+                        %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 9/11
                         \newSpacingSection
                         s1 * 9/11
             <BLANKLINE>
-                        %%% Global Skips [measure 2] %%%
+                        %%% GlobalSkips [measure 2] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 14/11
                         \newSpacingSection
                         s1 * 14/11
             <BLANKLINE>
-                        %%% Global Skips [measure 3] %%%
+                        %%% GlobalSkips [measure 3] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 8/11
                         \newSpacingSection

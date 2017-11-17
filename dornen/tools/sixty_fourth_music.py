@@ -56,27 +56,27 @@ def sixty_fourth_music():
             >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalSkips = "Global Skips" {
+                    \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        %%% Global Skips [measure 1] %%%
+                        %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                         \time 1/64
                         \newSpacingSection
                         s1 * 1/64
             <BLANKLINE>
-                        %%% Global Skips [measure 2] %%%
+                        %%% GlobalSkips [measure 2] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                         \time 7/64
                         \newSpacingSection
                         s1 * 7/64
             <BLANKLINE>
-                        %%% Global Skips [measure 3] %%%
+                        %%% GlobalSkips [measure 3] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                         \time 1/64
                         \newSpacingSection
                         s1 * 1/64
             <BLANKLINE>
-                        %%% Global Skips [measure 4] %%%
+                        %%% GlobalSkips [measure 4] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                         \time 6/64
                         \newSpacingSection

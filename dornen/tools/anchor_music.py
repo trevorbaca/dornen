@@ -56,27 +56,27 @@ def anchor_music():
             >>> abjad.f(lilypond_file[abjad.Score])
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalSkips = "Global Skips" {
+                    \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        %%% Global Skips [measure 1] %%%
+                        %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 3/16
                         \newSpacingSection
                         s1 * 3/16
             <BLANKLINE>
-                        %%% Global Skips [measure 2] %%%
+                        %%% GlobalSkips [measure 2] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 21/16
                         \newSpacingSection
                         s1 * 21/16
             <BLANKLINE>
-                        %%% Global Skips [measure 3] %%%
+                        %%% GlobalSkips [measure 3] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 3/16
                         \newSpacingSection
                         s1 * 3/16
             <BLANKLINE>
-                        %%% Global Skips [measure 4] %%%
+                        %%% GlobalSkips [measure 4] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 9/8
                         \newSpacingSection

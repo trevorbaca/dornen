@@ -2,7 +2,7 @@
     currentBarNumber = #155
 } <<
     \context GlobalContext = "Global Context" <<
-        \context GlobalRests = "Global Rests" {
+        \context GlobalRests = "GlobalRests" {
             {
                 \time 7/32
                 R1 * 7/32
@@ -52,7 +52,7 @@
                 R1 * 5/32
             }
         }
-        \context GlobalSkips = "Global Skips" {
+        \context GlobalSkips = "GlobalSkips" {
             {
                 \time 7/32
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)

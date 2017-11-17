@@ -77,27 +77,27 @@ def monad_music():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalSkips = "Global Skips" {
+                    \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        %%% Global Skips [measure 1] %%%
+                        %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                         \time 14/5
                         \newSpacingSection
                         s1 * 14/5
             <BLANKLINE>
-                        %%% Global Skips [measure 2] %%%
+                        %%% GlobalSkips [measure 2] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                         \time 4/5
                         \newSpacingSection
                         s1 * 4/5
             <BLANKLINE>
-                        %%% Global Skips [measure 3] %%%
+                        %%% GlobalSkips [measure 3] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                         \time 6/5
                         \newSpacingSection
                         s1 * 6/5
             <BLANKLINE>
-                        %%% Global Skips [measure 4] %%%
+                        %%% GlobalSkips [measure 4] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                         \time 8/5
                         \newSpacingSection
@@ -269,27 +269,27 @@ def monad_music():
                 \override TupletBracket.staff-padding = #1.5
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalSkips = "Global Skips" {
+                    \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        %%% Global Skips [measure 1] %%%
+                        %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                         \time 14/5
                         \newSpacingSection
                         s1 * 14/5
             <BLANKLINE>
-                        %%% Global Skips [measure 2] %%%
+                        %%% GlobalSkips [measure 2] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                         \time 2/5
                         \newSpacingSection
                         s1 * 2/5
             <BLANKLINE>
-                        %%% Global Skips [measure 3] %%%
+                        %%% GlobalSkips [measure 3] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                         \time 6/5
                         \newSpacingSection
                         s1 * 6/5
             <BLANKLINE>
-                        %%% Global Skips [measure 4] %%%
+                        %%% GlobalSkips [measure 4] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                         \time 8/5
                         \newSpacingSection

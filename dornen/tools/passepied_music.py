@@ -76,25 +76,25 @@ def passepied_music():
                 \override SpacingSpanner.strict-note-spacing = ##f
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalSkips = "Global Skips" {
+                    \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        %%% Global Skips [measure 1] %%%
+                        %%% GlobalSkips [measure 1] %%%
                         \time 1/32
                         s1 * 1/32
             <BLANKLINE>
-                        %%% Global Skips [measure 2] %%%
+                        %%% GlobalSkips [measure 2] %%%
                         \time 1/32
                         s1 * 1/32
             <BLANKLINE>
-                        %%% Global Skips [measure 3] %%%
+                        %%% GlobalSkips [measure 3] %%%
                         \time 1/32
                         s1 * 1/32
             <BLANKLINE>
-                        %%% Global Skips [measure 4] %%%
+                        %%% GlobalSkips [measure 4] %%%
                         \time 1/32
                         s1 * 1/32
             <BLANKLINE>
-                        %%% Global Skips [measure 5] %%%
+                        %%% GlobalSkips [measure 5] %%%
                         \time 1/32
                         s1 * 1/32
             <BLANKLINE>
@@ -238,21 +238,21 @@ def passepied_music():
                 \override SpacingSpanner.strict-note-spacing = ##f
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalSkips = "Global Skips" {
+                    \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        %%% Global Skips [measure 1] %%%
+                        %%% GlobalSkips [measure 1] %%%
                         \time 17/32
                         s1 * 17/32
             <BLANKLINE>
-                        %%% Global Skips [measure 2] %%%
+                        %%% GlobalSkips [measure 2] %%%
                         \time 17/32
                         s1 * 17/32
             <BLANKLINE>
-                        %%% Global Skips [measure 3] %%%
+                        %%% GlobalSkips [measure 3] %%%
                         \time 17/32
                         s1 * 17/32
             <BLANKLINE>
-                        %%% Global Skips [measure 4] %%%
+                        %%% GlobalSkips [measure 4] %%%
                         \time 11/32
                         s1 * 11/32
             <BLANKLINE>

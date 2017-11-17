@@ -12,7 +12,7 @@ design = dornen.design_3(start=20)
 assert len(design) == 20, (repr(design), len(design))
 
 accumulator(
-    'GuitarMusicVoice1',
+    'GuitarMusicVoiceOne',
     design[:1],
     accumulator.delicatissimo_music_maker,
     baca.register(-4, -20),
@@ -21,7 +21,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice1',
+    'GuitarMusicVoiceOne',
     design[1:2],
     accumulator.delicatissimo_music_maker,
     baca.register(-4, -20),
@@ -30,7 +30,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice3',
+    'GuitarMusicVoiceThree',
     design[2:3],
     accumulator.wave_32_music_maker,
     baca.register(0),
@@ -38,7 +38,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice1',
+    'GuitarMusicVoiceOne',
     design[3:4],
     accumulator.delicatissimo_music_maker,
     baca.register(-4, -20),
@@ -47,7 +47,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice1',
+    'GuitarMusicVoiceOne',
     design[4:5],
     accumulator.delicatissimo_music_maker,
     baca.register(-4, -20),
@@ -56,7 +56,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice1',
+    'GuitarMusicVoiceOne',
     design[5:6],
     accumulator.glissando_scatto_music_maker,
     baca.register(-20),
@@ -65,7 +65,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice3',
+    'GuitarMusicVoiceThree',
     design[6:7],
     accumulator.wave_32_music_maker,
     baca.register(0),
@@ -73,7 +73,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice3',
+    'GuitarMusicVoiceThree',
     design[6:7],
     accumulator.wave_32_music_maker,
     baca.register(0),
@@ -81,7 +81,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice1',
+    'GuitarMusicVoiceOne',
     design[7:8],
     accumulator.thirty_second_music_maker,
     baca.register(0),
@@ -90,7 +90,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice2',
+    'GuitarMusicVoiceTwo',
     design[8:9],
     accumulator.twenty_eighth_music_maker,
     baca.beam_positions(-5),
@@ -100,7 +100,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice2',
+    'GuitarMusicVoiceTwo',
     design[9:10],
     accumulator.forty_eighth_music_maker,
     baca.register(0),
@@ -109,7 +109,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice1',
+    'GuitarMusicVoiceOne',
     design[10:11],
     accumulator.thirty_second_music_maker,
     baca.register(0),
@@ -118,7 +118,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice2',
+    'GuitarMusicVoiceTwo',
     design[11:12],
     accumulator.twenty_eighth_music_maker,
     baca.register(0),
@@ -127,7 +127,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice2',
+    'GuitarMusicVoiceTwo',
     design[12:13],
     accumulator.forty_eighth_music_maker,
     baca.register(0),
@@ -136,7 +136,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice1',
+    'GuitarMusicVoiceOne',
     design[13:14],
     accumulator.thirty_second_music_maker,
     baca.register(0),
@@ -145,7 +145,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice2',
+    'GuitarMusicVoiceTwo',
     design[14:16],
     accumulator.graced_tuplet_music_maker,
     baca.register(0),
@@ -154,7 +154,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice1',
+    'GuitarMusicVoiceOne',
     design[16:19],
     accumulator.running_music_maker,
     baca.register(0),
@@ -162,7 +162,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice2',
+    'GuitarMusicVoiceTwo',
     design[19:20],
     accumulator.twentieth_music_maker,
     baca.register(0),
@@ -210,16 +210,16 @@ accumulator.populate_segment_maker(maker)
 ###############################################################################
 
 maker(
-    baca.scope('GuitarMusicVoice1', 1, 8),
+    baca.scope('GuitarMusicVoiceOne', 1, 8),
     baca.beam_positions(6),
     )
 
 maker(
-    baca.scope('GuitarMusicVoice1', 9, 18),
+    baca.scope('GuitarMusicVoiceOne', 9, 18),
     baca.beam_positions(8),
     )
 
 maker(
-    baca.scope('GuitarMusicVoice3', 1, 18),
+    baca.scope('GuitarMusicVoiceThree', 1, 18),
     baca.beam_positions(-4),
     )

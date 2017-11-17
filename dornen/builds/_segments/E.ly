@@ -155,7 +155,7 @@
     >>
     \context MusicContext = "MusicContext" {
         \context GuitarMusicStaff = "GuitarMusicStaff" <<
-            \context GuitarMusicVoiceOne = "GuitarMusicVoice1" {
+            \context GuitarMusicVoiceOne = "GuitarMusicVoiceOne" {
                 {
                     {
                         \set stemLeftBeamCount = #0
@@ -1263,7 +1263,7 @@
                     }
                 }
             }
-            \context GuitarMusicVoiceTwo = "GuitarMusicVoice2" {
+            \context GuitarMusicVoiceTwo = "GuitarMusicVoiceTwo" {
                 s1 * 3/32
                 s1 * 1/16
                 s1 * 3/16
@@ -1279,7 +1279,7 @@
                 s1 * 125/64
                 \bar "|"
             }
-            \context GuitarMusicVoiceThree = "GuitarMusicVoice3" {
+            \context GuitarMusicVoiceThree = "GuitarMusicVoiceThree" {
                 \override Script.direction = #down
                 s1 * 3/32
                 {
@@ -1301,7 +1301,7 @@
                 \bar "|"
                 \revert Script.direction
             }
-            \context GuitarMusicVoiceFour = "GuitarMusicVoice4" {
+            \context GuitarMusicVoiceFour = "GuitarMusicVoiceFour" {
                 \override Beam.positions = #'(5.5 . 5.5)
                 s1 * 11/32
                 {

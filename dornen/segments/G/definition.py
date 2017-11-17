@@ -12,7 +12,7 @@ design = dornen.design_2(start=28)
 assert len(design) == 12, (repr(design), len(design))
 
 accumulator(
-    'GuitarMusicVoice2',
+    'GuitarMusicVoiceTwo',
     design[:1],
     accumulator.ovoid_music_maker,
     baca.beam_positions(-7.5),
@@ -21,7 +21,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice1',
+    'GuitarMusicVoiceOne',
     design[1:2],
     accumulator.glissando_scatto_music_maker,
     baca.beam_positions(8),
@@ -29,7 +29,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice4',
+    'GuitarMusicVoiceFour',
     design[2:3],
     accumulator.graced_tuplet_music_maker,
     extend_beam=True,
@@ -37,7 +37,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice3',
+    'GuitarMusicVoiceThree',
     design[3:4],
     accumulator.delicatissimo_music_maker,
     baca.beam_positions(-7.5),
@@ -46,14 +46,14 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice4',
+    'GuitarMusicVoiceFour',
     design[4:5],
     accumulator.graced_tuplet_music_maker,
     figure_name='G2',
     )
 
 accumulator(
-    'GuitarMusicVoice2',
+    'GuitarMusicVoiceTwo',
     design[5:6],
     accumulator.ovoid_music_maker,
     baca.beam_positions(-7.5),
@@ -62,7 +62,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice1',
+    'GuitarMusicVoiceOne',
     design[6:7],
     accumulator.glissando_scatto_music_maker,
     baca.beam_positions(12),
@@ -71,7 +71,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice4',
+    'GuitarMusicVoiceFour',
     design[7:8],
     accumulator.graced_tuplet_music_maker,
     extend_beam=True,
@@ -79,7 +79,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice3',
+    'GuitarMusicVoiceThree',
     design[8:9],
     accumulator.delicatissimo_music_maker,
     baca.beam_positions(-6),
@@ -88,21 +88,21 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoice4',
+    'GuitarMusicVoiceFour',
     design[9:10],
     accumulator.graced_tuplet_music_maker,
     figure_name='G4',
     )
 
 accumulator(
-    'GuitarMusicVoice2',
+    'GuitarMusicVoiceTwo',
     design[10:11],
     accumulator.ovoid_music_maker,
     figure_name='O3',
     )
 
 accumulator(
-    'GuitarMusicVoice1',
+    'GuitarMusicVoiceOne',
     design[11:12],
     accumulator.glissando_scatto_music_maker,
     figure_name='L3',
@@ -150,25 +150,25 @@ accumulator.populate_segment_maker(maker)
 
 # glissando scatto
 maker(
-    baca.scope('GuitarMusicVoice1', 1, 12),
+    baca.scope('GuitarMusicVoiceOne', 1, 12),
     baca.register(-8),
     baca.displacement([0, 1]),
     )
 
 # ovoid
 maker(
-    baca.scope('GuitarMusicVoice2', 1, 12),
+    baca.scope('GuitarMusicVoiceTwo', 1, 12),
     baca.register(-20, 4),
     )
 
 # delicatissimo
 maker(
-    baca.scope('GuitarMusicVoice3', 1, 12),
+    baca.scope('GuitarMusicVoiceThree', 1, 12),
     )
 
 # graced tuplet
 maker(
-    baca.scope('GuitarMusicVoice4', 1, 12),
+    baca.scope('GuitarMusicVoiceFour', 1, 12),
     baca.beam_positions(8),
     baca.register(-18, 6),
     )

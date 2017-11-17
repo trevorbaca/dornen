@@ -144,7 +144,7 @@
     >>
     \context MusicContext = "MusicContext" {
         \context GuitarMusicStaff = "GuitarMusicStaff" <<
-            \context GuitarMusicVoiceOne = "GuitarMusicVoice1" {
+            \context GuitarMusicVoiceOne = "GuitarMusicVoiceOne" {
                 s1 * 7/32
                 {
                     {
@@ -204,7 +204,7 @@
                     }
                 }
             }
-            \context GuitarMusicVoiceTwo = "GuitarMusicVoice2" {
+            \context GuitarMusicVoiceTwo = "GuitarMusicVoiceTwo" {
                 {
                     {
                         \set stemLeftBeamCount = #0
@@ -260,7 +260,7 @@
                 s1 * 5/32
                 \bar "|"
             }
-            \context GuitarMusicVoiceThree = "GuitarMusicVoice3" {
+            \context GuitarMusicVoiceThree = "GuitarMusicVoiceThree" {
                 s1 * 109/224
                 {
                     {
@@ -362,7 +362,7 @@
                 s1 * 37/56
                 \bar "|"
             }
-            \context GuitarMusicVoiceFour = "GuitarMusicVoice4" {
+            \context GuitarMusicVoiceFour = "GuitarMusicVoiceFour" {
                 \override Beam.positions = #'(8 . 8)
                 s1 * 11/32
                 {

@@ -19,7 +19,7 @@ def glissando_scatto_music():
         ...     [[10, 7, 9, 8, 0, 5]],
         ...     ]
 
-        >>> voice_name = 'GuitarMusicVoice1'
+        >>> voice_name = 'GuitarMusicVoiceOne'
         >>> music_maker = dornen.glissando_scatto_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -42,7 +42,7 @@ def glissando_scatto_music():
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Music Voice', 1),
+        ...     baca.scope('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
@@ -85,18 +85,18 @@ def glissando_scatto_music():
                     }
                 >>
                 \context MusicContext = "MusicContext" <<
-                    \context Staff = "Music Staff" {
-                        \context Voice = "Music Voice" {
+                    \context Staff = "MusicStaff" {
+                        \context Voice = "MusicVoice" {
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 1] %%%
+                                %%% MusicVoice [measure 1] %%%
                                 \clef "treble"
                                 e'16
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 11/13 {
             <BLANKLINE>
-                                %%% Music Voice [measure 2] %%%
+                                %%% MusicVoice [measure 2] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 fs'16 [ \glissando
@@ -127,13 +127,13 @@ def glissando_scatto_music():
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 3] %%%
+                                %%% MusicVoice [measure 3] %%%
                                 b'16
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 9/11 {
             <BLANKLINE>
-                                %%% Music Voice [measure 4] %%%
+                                %%% MusicVoice [measure 4] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 bf'16 [ \glissando
@@ -188,7 +188,7 @@ def glissando_scatto_music():
         ([6, 2, 3, 5, 9, 8, 0], [11], [10, 7, 9, 8, 0, 5])
         ([11], [10, 7, 9, 8, 0, 5], [4])
 
-        >>> voice_name = 'GuitarMusicVoice1'
+        >>> voice_name = 'GuitarMusicVoiceOne'
         >>> music_maker = dornen.glissando_scatto_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -211,7 +211,7 @@ def glissando_scatto_music():
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Music Voice', 1),
+        ...     baca.scope('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
@@ -248,11 +248,11 @@ def glissando_scatto_music():
                     }
                 >>
                 \context MusicContext = "MusicContext" <<
-                    \context Staff = "Music Staff" {
-                        \context Voice = "Music Voice" {
+                    \context Staff = "MusicStaff" {
+                        \context Voice = "MusicVoice" {
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 1] %%%
+                                %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 \clef "treble"
@@ -298,7 +298,7 @@ def glissando_scatto_music():
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 11/13 {
             <BLANKLINE>
-                                %%% Music Voice [measure 2] %%%
+                                %%% MusicVoice [measure 2] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 fs'16 [ \glissando
@@ -362,7 +362,7 @@ def glissando_scatto_music():
                             }
                             {
             <BLANKLINE>
-                                %%% Music Voice [measure 3] %%%
+                                %%% MusicVoice [measure 3] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 b'16 [ \glissando

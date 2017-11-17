@@ -371,7 +371,7 @@
     >>
     \context MusicContext = "MusicContext" {
         \context GuitarMusicStaff = "GuitarMusicStaff" <<
-            \context GuitarMusicVoiceOne = "GuitarMusicVoice1" {
+            \context GuitarMusicVoiceOne = "GuitarMusicVoiceOne" {
                 {
                     \override TupletNumber.text = \markup {
                         \scale
@@ -983,7 +983,7 @@
                 s1 * 13/32
                 \bar "|"
             }
-            \context GuitarMusicVoiceTwo = "GuitarMusicVoice2" {
+            \context GuitarMusicVoiceTwo = "GuitarMusicVoiceTwo" {
                 s1 * 95/448
                 {
                     {
@@ -1198,7 +1198,7 @@
                     }
                 }
             }
-            \context GuitarMusicVoiceThree = "GuitarMusicVoice3" {
+            \context GuitarMusicVoiceThree = "GuitarMusicVoiceThree" {
                 s1 * 9/64
                 s1 * 1/14
                 s1 * 7/32
@@ -1237,7 +1237,7 @@
                 s1 * 3/16
                 \bar "|"
             }
-            \context GuitarMusicVoiceFour = "GuitarMusicVoice4" {
+            \context GuitarMusicVoiceFour = "GuitarMusicVoiceFour" {
                 s1 * 9/64
                 {
                     \tweak text #tuplet-number::calc-fraction-text

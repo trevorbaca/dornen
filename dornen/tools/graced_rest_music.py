@@ -36,7 +36,7 @@ def graced_rest_music():
         ([4, 3, 9, 8, None],)
         ([6, 11, 2, 5, None],)
 
-        >>> voice_name = 'GuitarMusicVoice1'
+        >>> voice_name = 'GuitarMusicVoiceOne'
         >>> music_maker = dornen.graced_rest_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -56,7 +56,7 @@ def graced_rest_music():
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Music Voice', 1),
+        ...     baca.scope('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
@@ -102,7 +102,7 @@ def graced_rest_music():
         ([8, 6, 11, 2, None], [4, 3, 9, 7, None], [6, 11, 2, 5, None])
         ([4, 3, 9, 7, None], [6, 11, 2, 5, None], [8])
 
-        >>> voice_name = 'GuitarMusicVoice1'
+        >>> voice_name = 'GuitarMusicVoiceOne'
         >>> music_maker = dornen.graced_rest_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -122,7 +122,7 @@ def graced_rest_music():
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('Music Voice', 1),
+        ...     baca.scope('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),

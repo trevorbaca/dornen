@@ -76,25 +76,25 @@ def ovoid_music():
                 \override SpacingSpanner.strict-note-spacing = ##f
             } <<
                 \context GlobalContext = "Global Context" <<
-                    \context GlobalSkips = "Global Skips" {
+                    \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        %%% Global Skips [measure 1] %%%
+                        %%% GlobalSkips [measure 1] %%%
                         \time 13/32
                         s1 * 13/32
             <BLANKLINE>
-                        %%% Global Skips [measure 2] %%%
+                        %%% GlobalSkips [measure 2] %%%
                         \time 7/16
                         s1 * 7/16
             <BLANKLINE>
-                        %%% Global Skips [measure 3] %%%
+                        %%% GlobalSkips [measure 3] %%%
                         \time 7/16
                         s1 * 7/16
             <BLANKLINE>
-                        %%% Global Skips [measure 4] %%%
+                        %%% GlobalSkips [measure 4] %%%
                         \time 7/16
                         s1 * 7/16
             <BLANKLINE>
-                        %%% Global Skips [measure 5] %%%
+                        %%% GlobalSkips [measure 5] %%%
                         \time 13/32
                         s1 * 13/32
             <BLANKLINE>

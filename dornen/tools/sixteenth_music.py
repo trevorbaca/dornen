@@ -78,84 +78,106 @@ def sixteenth_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        % measure 1
+            <BLANKLINE>
+                        %%% Global Skips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                         \time 7/16
                         \newSpacingSection
                         s1 * 7/16
-                        % measure 2
+            <BLANKLINE>
+                        %%% Global Skips [measure 2] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                         \time 2/16
                         \newSpacingSection
                         s1 * 1/8
-                        % measure 3
+            <BLANKLINE>
+                        %%% Global Skips [measure 3] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                         \time 3/16
                         \newSpacingSection
                         s1 * 3/16
-                        % measure 4
+            <BLANKLINE>
+                        %%% Global Skips [measure 4] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                         \time 4/16
                         \newSpacingSection
                         s1 * 1/4
+            <BLANKLINE>
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
-                                % measure 1
+            <BLANKLINE>
+                                %%% Music Voice [measure 1] %%%
                                 \clef "treble"
                                 cs'16
                             }
                             {
+            <BLANKLINE>
                                 c'16
                             }
                             {
+            <BLANKLINE>
                                 bf'16
                             }
                             {
+            <BLANKLINE>
                                 f'16
                             }
                             {
+            <BLANKLINE>
                                 af'16
                             }
                             {
+            <BLANKLINE>
                                 fs'16
                             }
                             {
+            <BLANKLINE>
                                 b'16
                             }
                             {
-                                % measure 2
+            <BLANKLINE>
+                                %%% Music Voice [measure 2] %%%
                                 d'16
                             }
                             {
+            <BLANKLINE>
                                 e'16
                             }
                             {
-                                % measure 3
+            <BLANKLINE>
+                                %%% Music Voice [measure 3] %%%
                                 ef'16
                             }
                             {
+            <BLANKLINE>
                                 a'16
                             }
                             {
+            <BLANKLINE>
                                 af'16
                             }
                             {
-                                % measure 4
+            <BLANKLINE>
+                                %%% Music Voice [measure 4] %%%
                                 fs'16
                             }
                             {
+            <BLANKLINE>
                                 b'16
                             }
                             {
+            <BLANKLINE>
                                 d'16
                             }
                             {
+            <BLANKLINE>
                                 f'16
                                 \bar "|"
+            <BLANKLINE>
                             }
                         }
                     }
@@ -232,73 +254,94 @@ def sixteenth_music():
             } <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        % measure 1
+            <BLANKLINE>
+                        %%% Global Skips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                         \time 7/16
                         \newSpacingSection
                         s1 * 7/16
-                        % measure 2
+            <BLANKLINE>
+                        %%% Global Skips [measure 2] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                         \time 1/16
                         \newSpacingSection
                         s1 * 1/16
-                        % measure 3
+            <BLANKLINE>
+                        %%% Global Skips [measure 3] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                         \time 3/16
                         \newSpacingSection
                         s1 * 3/16
-                        % measure 4
+            <BLANKLINE>
+                        %%% Global Skips [measure 4] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                         \time 4/16
                         \newSpacingSection
                         s1 * 1/4
+            <BLANKLINE>
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
-                                % measure 1
+            <BLANKLINE>
+                                %%% Music Voice [measure 1] %%%
                                 \clef "treble"
                                 cs'16
                             }
                             {
+            <BLANKLINE>
                                 c'16 [
+            <BLANKLINE>
                                 bf'16 ]
                             }
                             {
+            <BLANKLINE>
                                 f'16
                             }
                             {
+            <BLANKLINE>
                                 af'16 [
+            <BLANKLINE>
                                 fs'16 ]
                             }
                             {
+            <BLANKLINE>
                                 b'16
                             }
                             {
-                                % measure 2
+            <BLANKLINE>
+                                %%% Music Voice [measure 2] %%%
                                 d'16
                             }
                             {
-                                % measure 3
+            <BLANKLINE>
+                                %%% Music Voice [measure 3] %%%
                                 ef'16
                             }
                             {
+            <BLANKLINE>
                                 a'16 [
+            <BLANKLINE>
                                 af'16 ]
                             }
                             {
-                                % measure 4
+            <BLANKLINE>
+                                %%% Music Voice [measure 4] %%%
                                 fs'16
                             }
                             {
+            <BLANKLINE>
                                 b'16 [
+            <BLANKLINE>
                                 d'16 ]
                             }
                             {
+            <BLANKLINE>
                                 f'16
                                 \bar "|"
+            <BLANKLINE>
                             }
                         }
                     }

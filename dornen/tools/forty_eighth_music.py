@@ -57,59 +57,80 @@ def forty_eighth_music():
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        % measure 1
+            <BLANKLINE>
+                        %%% Global Skips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 3/64
                         \newSpacingSection
                         s1 * 3/64
-                        % measure 2
+            <BLANKLINE>
+                        %%% Global Skips [measure 2] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 21/64
                         \newSpacingSection
                         s1 * 21/64
-                        % measure 3
+            <BLANKLINE>
+                        %%% Global Skips [measure 3] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 3/64
                         \newSpacingSection
                         s1 * 3/64
-                        % measure 4
+            <BLANKLINE>
+                        %%% Global Skips [measure 4] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 9/32
                         \newSpacingSection
                         s1 * 9/32
+            <BLANKLINE>
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
-                                % measure 1
+            <BLANKLINE>
+                                %%% Music Voice [measure 1] %%%
                                 \clef "treble"
                                 e'32.
                             }
                             {
-                                % measure 2
+            <BLANKLINE>
+                                %%% Music Voice [measure 2] %%%
                                 fs'32. [
+            <BLANKLINE>
                                 d'32.
+            <BLANKLINE>
                                 ef'32.
+            <BLANKLINE>
                                 f'32.
+            <BLANKLINE>
                                 a'32.
+            <BLANKLINE>
                                 af'32.
+            <BLANKLINE>
                                 c'32. ]
                             }
                             {
-                                % measure 3
+            <BLANKLINE>
+                                %%% Music Voice [measure 3] %%%
                                 b'32.
                             }
                             {
-                                % measure 4
+            <BLANKLINE>
+                                %%% Music Voice [measure 4] %%%
                                 bf'32. [
+            <BLANKLINE>
                                 g'32.
+            <BLANKLINE>
                                 a'32.
+            <BLANKLINE>
                                 af'32.
+            <BLANKLINE>
                                 c'32.
+            <BLANKLINE>
                                 f'32. ]
                                 \bar "|"
+            <BLANKLINE>
                             }
                         }
                     }

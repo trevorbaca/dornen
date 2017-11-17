@@ -57,59 +57,80 @@ def anchor_music():
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        % measure 1
+            <BLANKLINE>
+                        %%% Global Skips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 3/16
                         \newSpacingSection
                         s1 * 3/16
-                        % measure 2
+            <BLANKLINE>
+                        %%% Global Skips [measure 2] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 21/16
                         \newSpacingSection
                         s1 * 21/16
-                        % measure 3
+            <BLANKLINE>
+                        %%% Global Skips [measure 3] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 3/16
                         \newSpacingSection
                         s1 * 3/16
-                        % measure 4
+            <BLANKLINE>
+                        %%% Global Skips [measure 4] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 9/8
                         \newSpacingSection
                         s1 * 9/8
+            <BLANKLINE>
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
-                                % measure 1
+            <BLANKLINE>
+                                %%% Music Voice [measure 1] %%%
                                 \clef "treble"
                                 e'8.
                             }
                             {
-                                % measure 2
+            <BLANKLINE>
+                                %%% Music Voice [measure 2] %%%
                                 fs'8. [
+            <BLANKLINE>
                                 d'8.
+            <BLANKLINE>
                                 ef'8.
+            <BLANKLINE>
                                 f'8.
+            <BLANKLINE>
                                 a'8.
+            <BLANKLINE>
                                 af'8.
+            <BLANKLINE>
                                 c'8. ]
                             }
                             {
-                                % measure 3
+            <BLANKLINE>
+                                %%% Music Voice [measure 3] %%%
                                 b'8.
                             }
                             {
-                                % measure 4
+            <BLANKLINE>
+                                %%% Music Voice [measure 4] %%%
                                 bf'8. [
+            <BLANKLINE>
                                 g'8.
+            <BLANKLINE>
                                 a'8.
+            <BLANKLINE>
                                 af'8.
+            <BLANKLINE>
                                 c'8.
+            <BLANKLINE>
                                 f'8. ]
                                 \bar "|"
+            <BLANKLINE>
                             }
                         }
                     }

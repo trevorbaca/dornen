@@ -75,6 +75,7 @@ def graced_rest_music():
             >>> abjad.f(lilypond_file[abjad.Score]) # doctest: +SKIP
 
 
+
     ..  container:: example
 
         Makes multistage graced rests:

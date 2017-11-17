@@ -57,85 +57,106 @@ def sixty_fourth_music():
             \context Score = "Score" <<
                 \context GlobalContext = "Global Context" <<
                     \context GlobalSkips = "Global Skips" {
-                        % measure 1
+            <BLANKLINE>
+                        %%% Global Skips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                         \time 1/64
                         \newSpacingSection
                         s1 * 1/64
-                        % measure 2
+            <BLANKLINE>
+                        %%% Global Skips [measure 2] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                         \time 7/64
                         \newSpacingSection
                         s1 * 7/64
-                        % measure 3
+            <BLANKLINE>
+                        %%% Global Skips [measure 3] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                         \time 1/64
                         \newSpacingSection
                         s1 * 1/64
-                        % measure 4
+            <BLANKLINE>
+                        %%% Global Skips [measure 4] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                         \time 6/64
                         \newSpacingSection
                         s1 * 3/32
+            <BLANKLINE>
                     }
                 >>
                 \context MusicContext = "Music Context" <<
                     \context Staff = "Music Staff" {
                         \context Voice = "Music Voice" {
                             {
-                                % measure 1
+            <BLANKLINE>
+                                %%% Music Voice [measure 1] %%%
                                 \clef "treble"
                                 e'64 -\staccato
                             }
                             {
-                                % measure 2
+            <BLANKLINE>
+                                %%% Music Voice [measure 2] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #4
                                 fs'64 -\staccato [
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 d'64 -\staccato
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 ef'64 -\staccato
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 f'64 -\staccato
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 a'64 -\staccato
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 af'64 -\staccato
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #0
                                 c'64 -\staccato ]
                             }
                             {
-                                % measure 3
+            <BLANKLINE>
+                                %%% Music Voice [measure 3] %%%
                                 b'64 -\staccato
                             }
                             {
-                                % measure 4
+            <BLANKLINE>
+                                %%% Music Voice [measure 4] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #4
                                 bf'64 -\staccato [
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 g'64 -\staccato
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 a'64 -\staccato
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 af'64 -\staccato
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #4
                                 c'64 -\staccato
+            <BLANKLINE>
                                 \set stemLeftBeamCount = #4
                                 \set stemRightBeamCount = #0
                                 f'64 -\staccato ]
                                 \bar "|"
+            <BLANKLINE>
                             }
                         }
                     }

@@ -18,7 +18,8 @@
                 \time 2/5
                 \once \override TextScript.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                 \newSpacingSection
-                s1 * 2/5 ^ \markup {
+                s1 * 2/5
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -200,7 +201,8 @@
                             \clef "treble"
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            f2 :32
+                            f2
+                            :32
                         }
                     }
                     {
@@ -228,7 +230,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \< \p \startTextSpan
+                            f2
+                            :32
+                            \repeatTie
+                            \<
+                            \p
+                            \startTextSpan
                         }
                     }
                     {
@@ -236,7 +243,12 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 234] %%%
-                            f2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
+                            f2
+                            :32
+                            \repeatTie
+                            \mp
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "kn. rasg."
@@ -268,7 +280,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \> \mp \startTextSpan
+                            f2
+                            :32
+                            \repeatTie
+                            \>
+                            \mp
+                            \startTextSpan
                         }
                     }
                     {
@@ -276,7 +293,12 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 236] %%%
-                            f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
+                            f2
+                            :32
+                            \repeatTie
+                            \p
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "tamb. tr."
@@ -288,15 +310,17 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 237] %%%
-                            f2 :32 \repeatTie
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            \override
-                                                #'(box-padding . 0.5)
-                                                \box
-                                                    "3 fingers"
-                                    }
+                            f2
+                            :32
+                            \repeatTie
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "3 fingers"
+                                }
                         }
                     }
                     {
@@ -324,7 +348,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \< \p \startTextSpan
+                            f2
+                            :32
+                            \repeatTie
+                            \<
+                            \p
+                            \startTextSpan
                         }
                     }
                     {
@@ -332,7 +361,12 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 239] %%%
-                            f2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
+                            f2
+                            :32
+                            \repeatTie
+                            \mf
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "kn. rasg."
@@ -364,7 +398,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \> \mf \startTextSpan
+                            f2
+                            :32
+                            \repeatTie
+                            \>
+                            \mf
+                            \startTextSpan
                         }
                     }
                     {
@@ -372,7 +411,12 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 241] %%%
-                            f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
+                            f2
+                            :32
+                            \repeatTie
+                            \p
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "tamb. tr."
@@ -384,15 +428,17 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 242] %%%
-                            f2 :32 \repeatTie
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            \override
-                                                #'(box-padding . 0.5)
-                                                \box
-                                                    "4 fingers"
-                                    }
+                            f2
+                            :32
+                            \repeatTie
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "4 fingers"
+                                }
                         }
                     }
                     {
@@ -420,7 +466,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \< \p \startTextSpan
+                            f2
+                            :32
+                            \repeatTie
+                            \<
+                            \p
+                            \startTextSpan
                         }
                     }
                     {
@@ -428,7 +479,12 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 244] %%%
-                            f2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
+                            f2
+                            :32
+                            \repeatTie
+                            \mp
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "kn. rasg."
@@ -460,7 +516,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \> \mp \startTextSpan
+                            f2
+                            :32
+                            \repeatTie
+                            \>
+                            \mp
+                            \startTextSpan
                         }
                     }
                     {
@@ -468,7 +529,12 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 246] %%%
-                            f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
+                            f2
+                            :32
+                            \repeatTie
+                            \p
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "tamb. tr."
@@ -500,7 +566,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \< \p \startTextSpan
+                            f2
+                            :32
+                            \repeatTie
+                            \<
+                            \p
+                            \startTextSpan
                         }
                     }
                     {
@@ -508,7 +579,12 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 248] %%%
-                            f2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
+                            f2
+                            :32
+                            \repeatTie
+                            \mf
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "kn. rasg."
@@ -540,7 +616,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \> \mf \startTextSpan
+                            f2
+                            :32
+                            \repeatTie
+                            \>
+                            \mf
+                            \startTextSpan
                         }
                     }
                     {
@@ -548,7 +629,12 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 250] %%%
-                            f2 :32 \repeatTie \p \stopTextSpan ^ \markup {
+                            f2
+                            :32
+                            \repeatTie
+                            \p
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "tamb. tr."
@@ -580,7 +666,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \< \p \startTextSpan
+                            f2
+                            :32
+                            \repeatTie
+                            \<
+                            \p
+                            \startTextSpan
                         }
                     }
                     {
@@ -588,7 +679,12 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 252] %%%
-                            f2 :32 \repeatTie \f \stopTextSpan ^ \markup {
+                            f2
+                            :32
+                            \repeatTie
+                            \f
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "kn. rasg."
@@ -620,7 +716,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            f2 :32 \repeatTie \> \f \startTextSpan
+                            f2
+                            :32
+                            \repeatTie
+                            \>
+                            \f
+                            \startTextSpan
                         }
                     }
                     {
@@ -628,7 +729,9 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 254] %%%
-                            f2 :32 \repeatTie
+                            f2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -636,17 +739,21 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 255] %%%
-                            f2 :32 \repeatTie
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            \override
-                                                #'(box-padding . 0.5)
-                                                \box
-                                                    "3 fingers"
-                                    }
+                            f2
+                            :32
+                            \repeatTie
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "3 fingers"
+                                }
                             
-                            f2 :32 \repeatTie
+                            f2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -654,17 +761,24 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 256] %%%
-                            f2 :32 \repeatTie
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            \override
-                                                #'(box-padding . 0.5)
-                                                \box
-                                                    "2 fingers"
-                                    }
+                            f2
+                            :32
+                            \repeatTie
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "2 fingers"
+                                }
                             
-                            f2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
+                            f2
+                            :32
+                            \repeatTie
+                            \mp
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "tamb. tr."

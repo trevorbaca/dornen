@@ -18,7 +18,8 @@
                 \time 6/32
                 \once \override TextScript.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                 \newSpacingSection
-                s1 * 3/16 ^ \markup {
+                s1 * 3/16
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -160,27 +161,34 @@
                             \clef "treble"
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            bf'32 -\staccato [
+                            bf'32
+                            -\staccato
+                            [
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            c''32 -\staccato
+                            c''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            b'32 -\staccato
+                            b'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            cs'32 -\staccato
+                            cs'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            fs'32 -\staccato
+                            fs'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
-                            g32 -\staccato
+                            g32
+                            -\staccato
                         }
                     }
                     {
@@ -189,27 +197,33 @@
                             %%% GuitarMusicVoiceOne [measure 168] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
-                            af'32 -\staccato
+                            af'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            a'32 -\staccato
+                            a'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            ef'32 -\staccato
+                            ef'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            d'32 -\staccato
+                            d'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            e'32 -\staccato
+                            e'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
-                            af32 -\staccato
+                            af32
+                            -\staccato
                         }
                     }
                     
@@ -221,27 +235,33 @@
                             %%% GuitarMusicVoiceOne [measure 170] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
-                            b'32 -\staccato
+                            b'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            cs''32 -\staccato
+                            cs''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            fs'32 -\staccato
+                            fs'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            bf'32 -\staccato
+                            bf'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            b32 -\staccato
+                            b32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
-                            cs'32 -\staccato
+                            cs'32
+                            -\staccato
                         }
                     }
                     {
@@ -250,27 +270,33 @@
                             %%% GuitarMusicVoiceOne [measure 171] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
-                            fs''32 -\staccato
+                            fs''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            bf'32 -\staccato
+                            bf'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            c''32 -\staccato
+                            c''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            a'32 -\staccato
+                            a'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            ef'32 -\staccato
+                            ef'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
-                            d'32 -\staccato
+                            d'32
+                            -\staccato
                         }
                     }
                     {
@@ -279,15 +305,18 @@
                             %%% GuitarMusicVoiceOne [measure 172] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
-                            e16 \glissando
+                            e16
+                            \glissando
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            g'16 \glissando
+                            g'16
+                            \glissando
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            af16 ]
+                            af16
+                            ]
                         }
                     }
                     
@@ -301,7 +330,8 @@
                             \override Beam.positions = #'(8 . 8)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            dqf''32 [
+                            dqf''32
+                            [
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -389,7 +419,8 @@
                             %%% GuitarMusicVoiceOne [measure 183] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            eqs''64 (
+                            eqs''64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -411,11 +442,13 @@
                             
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            ef''64 )
+                            ef''64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            d''64 (
+                            d''64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -423,11 +456,13 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            g''64 )
+                            g''64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            f''64 (
+                            f''64
+                            (
                         }
                         \times 4/5 {
                             
@@ -449,7 +484,9 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #0
-                            a''64 ] )
+                            a''64
+                            ]
+                            )
                         }
                     }
                     
@@ -471,7 +508,8 @@
                             \override Beam.positions = #'(-5 . -5)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            f''16 [
+                            f''16
+                            [
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
@@ -645,7 +683,8 @@
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            b''16 ]
+                            b''16
+                            ]
                             \bar "|"
                             
                         }
@@ -691,7 +730,8 @@
                             
                             %%% GuitarMusicVoiceThree [measure 169] %%%
                             \once \override Beam.grow-direction = #right
-                            a''32 * 1984/1024 [
+                            a''32 * 1984/1024
+                            [
                             
                             ef''32 * 1088/1024
                             
@@ -701,7 +741,8 @@
                             
                             g''32 * 704/1024
                             
-                            c''32 * 672/1024 ]
+                            c''32 * 672/1024
+                            ]
                         }
                         \revert TupletNumber.text
                     }
@@ -744,7 +785,8 @@
                             
                             %%% GuitarMusicVoiceThree [measure 173] %%%
                             \once \override Beam.grow-direction = #right
-                            cs''32 * 3264/1024 [
+                            cs''32 * 3264/1024
+                            [
                             
                             e''32 * 1760/1024
                             
@@ -786,7 +828,8 @@
                             
                             fs''32 * 672/1024
                             
-                            g''32 * 640/1024 ]
+                            g''32 * 640/1024
+                            ]
                         }
                         \revert TupletNumber.text
                     }
@@ -826,7 +869,8 @@
                             
                             %%% GuitarMusicVoiceThree [measure 174] %%%
                             \once \override Beam.grow-direction = #right
-                            cs''32 * 3264/1024 [
+                            cs''32 * 3264/1024
+                            [
                             
                             e''32 * 1760/1024
                             
@@ -868,7 +912,8 @@
                             
                             fs''32 * 672/1024
                             
-                            g''32 * 640/1024 ]
+                            g''32 * 640/1024
+                            ]
                         }
                         \revert TupletNumber.text
                     }

@@ -18,7 +18,8 @@
                 \time 3/8
                 \once \override TextScript.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                 \newSpacingSection
-                s1 * 3/8 ^ \markup {
+                s1 * 3/8
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -193,20 +194,25 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 186] %%%
-                            gf2 :32 \< \ppp
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            \override
-                                                #'(box-padding . 0.5)
-                                                \box
-                                                    "2-finger tamb. trill"
-                                    }
+                            gf2
+                            :32
+                            \<
+                            \ppp
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "2-finger tamb. trill"
+                                }
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             
-                            gf2 :32 \repeatTie
+                            gf2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -214,7 +220,10 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 187] %%%
-                            gf2 :32 \repeatTie \pp
+                            gf2
+                            :32
+                            \repeatTie
+                            \pp
                         }
                     }
                     {
@@ -222,7 +231,11 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 188] %%%
-                            gf2 :32 \repeatTie \> \pp
+                            gf2
+                            :32
+                            \repeatTie
+                            \>
+                            \pp
                         }
                     }
                     {
@@ -230,7 +243,10 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 189] %%%
-                            gf2 :32 \repeatTie \ppp
+                            gf2
+                            :32
+                            \repeatTie
+                            \ppp
                         }
                     }
                     {
@@ -238,7 +254,9 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 190] %%%
-                            gf2 :32 \repeatTie
+                            gf2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -246,15 +264,19 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 191] %%%
-                            gf2 :32 \repeatTie \< \ppp
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            \override
-                                                #'(box-padding . 0.5)
-                                                \box
-                                                    "3 fingers"
-                                    }
+                            gf2
+                            :32
+                            \repeatTie
+                            \<
+                            \ppp
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "3 fingers"
+                                }
                         }
                     }
                     {
@@ -262,7 +284,10 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 192] %%%
-                            gf2 :32 \repeatTie \p
+                            gf2
+                            :32
+                            \repeatTie
+                            \p
                         }
                     }
                     {
@@ -270,7 +295,11 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 193] %%%
-                            gf2 :32 \repeatTie \> \p
+                            gf2
+                            :32
+                            \repeatTie
+                            \>
+                            \p
                         }
                     }
                     {
@@ -278,7 +307,10 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 194] %%%
-                            gf2 :32 \repeatTie \ppp
+                            gf2
+                            :32
+                            \repeatTie
+                            \ppp
                         }
                     }
                     {
@@ -286,7 +318,9 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 195] %%%
-                            gf2 :32 \repeatTie
+                            gf2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -294,15 +328,19 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 196] %%%
-                            gf2 :32 \repeatTie \< \ppp
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            \override
-                                                #'(box-padding . 0.5)
-                                                \box
-                                                    "4 fingers"
-                                    }
+                            gf2
+                            :32
+                            \repeatTie
+                            \<
+                            \ppp
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "4 fingers"
+                                }
                         }
                     }
                     {
@@ -310,7 +348,10 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 197] %%%
-                            gf2 :32 \repeatTie \pp
+                            gf2
+                            :32
+                            \repeatTie
+                            \pp
                         }
                     }
                     {
@@ -318,7 +359,11 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 198] %%%
-                            gf2 :32 \repeatTie \< \pp
+                            gf2
+                            :32
+                            \repeatTie
+                            \<
+                            \pp
                         }
                     }
                     {
@@ -326,7 +371,10 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 199] %%%
-                            gf2 :32 \repeatTie \p
+                            gf2
+                            :32
+                            \repeatTie
+                            \p
                         }
                     }
                     {
@@ -334,7 +382,11 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 200] %%%
-                            gf2 :32 \repeatTie \< \p
+                            gf2
+                            :32
+                            \repeatTie
+                            \<
+                            \p
                         }
                     }
                     {
@@ -342,7 +394,10 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 201] %%%
-                            gf2 :32 \repeatTie \mp
+                            gf2
+                            :32
+                            \repeatTie
+                            \mp
                         }
                     }
                     {
@@ -350,7 +405,11 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 202] %%%
-                            gf2 :32 \repeatTie \> \mp
+                            gf2
+                            :32
+                            \repeatTie
+                            \>
+                            \mp
                         }
                     }
                     {
@@ -358,7 +417,9 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 203] %%%
-                            gf2 :32 \repeatTie
+                            gf2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -366,7 +427,9 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 204] %%%
-                            gf2 :32 \repeatTie
+                            gf2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -374,20 +437,25 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 205] %%%
-                            gf2 :32 \repeatTie
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            \override
-                                                #'(box-padding . 0.5)
-                                                \box
-                                                    "3 fingers"
-                                    }
+                            gf2
+                            :32
+                            \repeatTie
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "3 fingers"
+                                }
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             
-                            gf2 :32 \repeatTie \pp
+                            gf2
+                            :32
+                            \repeatTie
+                            \pp
                         }
                     }
                     {
@@ -395,20 +463,24 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 206] %%%
-                            gf2 :32 \repeatTie
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            \override
-                                                #'(box-padding . 0.5)
-                                                \box
-                                                    "2 fingers"
-                                    }
+                            gf2
+                            :32
+                            \repeatTie
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "2 fingers"
+                                }
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             
-                            gf2 :32 \repeatTie
+                            gf2
+                            :32
+                            \repeatTie
                             \bar "|"
                             
                         }

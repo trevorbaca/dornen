@@ -18,7 +18,8 @@
                 \time 4/16
                 \once \override TextScript.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                 \newSpacingSection
-                s1 * 1/4 ^ \markup {
+                s1 * 1/4
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -171,13 +172,15 @@
                             \clef "treble"
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            cs''64 * 448/1024 [
+                            cs''64 * 448/1024
+                            [
                             
                             c''64 * 896/1024
                             
                             bf''64 * 1216/1024
                             
-                            f''64 * 1536/1024 ]
+                            f''64 * 1536/1024
+                            ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -213,13 +216,15 @@
                         \times 1/1 {
                             
                             \once \override Beam.grow-direction = #right
-                            af''64 * 1664/1024 [
+                            af''64 * 1664/1024
+                            [
                             
                             fs''64 * 960/1024
                             
                             b'64 * 768/1024
                             
-                            d''64 * 704/1024 ]
+                            d''64 * 704/1024
+                            ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -255,13 +260,15 @@
                         \times 1/1 {
                             
                             \once \override Beam.grow-direction = #left
-                            e''64 * 448/1024 [
+                            e''64 * 448/1024
+                            [
                             
                             ef''64 * 896/1024
                             
                             a'64 * 1216/1024
                             
-                            af'64 * 1536/1024 ]
+                            af'64 * 1536/1024
+                            ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -297,13 +304,15 @@
                         \times 1/1 {
                             
                             \once \override Beam.grow-direction = #right
-                            fs'64 * 1664/1024 [
+                            fs'64 * 1664/1024
+                            [
                             
                             b'64 * 960/1024
                             
                             d'64 * 768/1024
                             
-                            f'64 * 704/1024 ]
+                            f'64 * 704/1024
+                            ]
                             \revert Beam.positions
                         }
                         \revert TupletNumber.text
@@ -317,7 +326,9 @@
                             %%% GuitarMusicVoiceOne [measure 22] %%%
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #4
-                            cs'64 [ (
+                            cs'64
+                            [
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -339,11 +350,13 @@
                             
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            cs''64 )
+                            cs''64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            c''64 (
+                            c''64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -351,11 +364,13 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            b'64 )
+                            b'64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            d''64 (
+                            d''64
+                            (
                         }
                         \times 4/5 {
                             
@@ -377,7 +392,8 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            bf''64 )
+                            bf''64
+                            )
                         }
                     }
                     
@@ -389,7 +405,8 @@
                             %%% GuitarMusicVoiceOne [measure 24] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            cs'64 (
+                            cs'64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -411,11 +428,13 @@
                             
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            f'64 )
+                            f'64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            af'64 (
+                            af'64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -423,11 +442,13 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            c''64 )
+                            c''64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            bf'64 (
+                            bf'64
+                            (
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
@@ -454,7 +475,8 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            e''64 )
+                            e''64
+                            )
                         }
                     }
                     
@@ -466,7 +488,8 @@
                             %%% GuitarMusicVoiceOne [measure 26] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            f'64 (
+                            f'64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -489,11 +512,13 @@
                             
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            b'64 )
+                            b'64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            d''64 (
+                            d''64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -505,11 +530,13 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            fs'64 )
+                            fs'64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            e''64 (
+                            e''64
+                            (
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
@@ -536,7 +563,8 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            fs''64 )
+                            fs''64
+                            )
                         }
                     }
                     
@@ -549,7 +577,8 @@
                             %%% GuitarMusicVoiceOne [measure 28] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            b64 (
+                            b64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -576,11 +605,13 @@
                             
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            ef'64 )
+                            ef'64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            a'64 (
+                            a'64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -592,11 +623,13 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            af'64 )
+                            af'64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            fs''64 (
+                            fs''64
+                            (
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
@@ -623,7 +656,8 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            bf''64 )
+                            bf''64
+                            )
                         }
                     }
                     
@@ -636,7 +670,8 @@
                             %%% GuitarMusicVoiceOne [measure 30] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            ef'64 (
+                            ef'64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -663,11 +698,13 @@
                             
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            b'64 )
+                            b'64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            ef''64 (
+                            ef''64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -706,11 +743,13 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            bf''64 )
+                            bf''64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            cs''64 (
+                            cs''64
+                            (
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
@@ -737,7 +776,9 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #0
-                            d'''64 ] )
+                            d'''64
+                            ]
+                            )
                         }
                     }
                     
@@ -750,91 +791,114 @@
                             \override TextScript.staff-padding = #9
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            f'''32 -\staccato [
+                            f'''32
+                            -\staccato
+                            [
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            a''32 -\staccato
+                            a''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            b''32 -\staccato
+                            b''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            bf''32 -\staccato
+                            bf''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            c'''32 -\staccato
+                            c'''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            fs''32 -\staccato
+                            fs''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            g''32 -\staccato
+                            g''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            af''32 -\staccato
+                            af''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            d''32 -\staccato
+                            d''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            cs''32 -\staccato
+                            cs''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            ef''32 -\staccato
+                            ef''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            g'32 -\staccato
+                            g'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            af'32 -\staccato
+                            af'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            d''32 -\staccato
+                            d''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            cs''32 -\staccato
+                            cs''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            ef'32 -\staccato
+                            ef'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            fs'32 -\staccato
+                            fs'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            a'32 -\staccato
+                            a'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            b32 -\staccato
+                            b32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            bf32 -\staccato
+                            bf32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            c'32 -\staccato
+                            c'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
-                            f'32 -\staccato
+                            f'32
+                            -\staccato
                             \revert TextScript.staff-padding
                         }
                     }
@@ -847,91 +911,114 @@
                             %%% GuitarMusicVoiceOne [measure 34] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
-                            f32 -\staccato
+                            f32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            a32 -\staccato
+                            a32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            b32 -\staccato
+                            b32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            bf32 -\staccato
+                            bf32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            c'32 -\staccato
+                            c'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            fs'32 -\staccato
+                            fs'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            g'32 -\staccato
+                            g'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            af'32 -\staccato
+                            af'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            d'32 -\staccato
+                            d'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            cs''32 -\staccato
+                            cs''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            ef''32 -\staccato
+                            ef''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            g'32 -\staccato
+                            g'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            af'32 -\staccato
+                            af'32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            d''32 -\staccato
+                            d''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            cs''32 -\staccato
+                            cs''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            ef''32 -\staccato
+                            ef''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            fs''32 -\staccato
+                            fs''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            a''32 -\staccato
+                            a''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            b''32 -\staccato
+                            b''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            bf''32 -\staccato
+                            bf''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
-                            c'''32 -\staccato
+                            c'''32
+                            -\staccato
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
-                            f''32 -\staccato ]
+                            f''32
+                            -\staccato
+                            ]
                             \bar "|"
                             
                         }
@@ -950,7 +1037,8 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
-                            ef'''16 [
+                            ef'''16
+                            [
                         }
                     }
                     
@@ -1041,7 +1129,8 @@
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            bf''16 ]
+                            bf''16
+                            ]
                         }
                     }
                     
@@ -1055,7 +1144,8 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
-                            ef'''16 [
+                            ef'''16
+                            [
                         }
                     }
                     
@@ -1072,7 +1162,8 @@
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            a''16 ]
+                            a''16
+                            ]
                         }
                     }
                     

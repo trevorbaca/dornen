@@ -18,7 +18,8 @@
                 \time 2/5
                 \once \override TextScript.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                 \newSpacingSection
-                s1 * 2/5 ^ \markup {
+                s1 * 2/5
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -326,7 +327,8 @@
                             \clef "treble"
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            e2 :32
+                            e2
+                            :32
                         }
                     }
                     {
@@ -354,7 +356,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            e2 :32 \repeatTie \< \mp \startTextSpan
+                            e2
+                            :32
+                            \repeatTie
+                            \<
+                            \mp
+                            \startTextSpan
                         }
                     }
                     {
@@ -362,7 +369,12 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 259] %%%
-                            e2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
+                            e2
+                            :32
+                            \repeatTie
+                            \mf
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "kn. rasg."
@@ -394,7 +406,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            e2 :32 \repeatTie \> \mf \startTextSpan
+                            e2
+                            :32
+                            \repeatTie
+                            \>
+                            \mf
+                            \startTextSpan
                         }
                     }
                     {
@@ -402,7 +419,12 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 261] %%%
-                            e2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
+                            e2
+                            :32
+                            \repeatTie
+                            \mp
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "tamb. tr."
@@ -414,15 +436,17 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 262] %%%
-                            e2 :32 \repeatTie
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            \override
-                                                #'(box-padding . 0.5)
-                                                \box
-                                                    "3 fingers"
-                                    }
+                            e2
+                            :32
+                            \repeatTie
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "3 fingers"
+                                }
                         }
                     }
                     {
@@ -450,7 +474,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            e2 :32 \repeatTie \< \mp \startTextSpan
+                            e2
+                            :32
+                            \repeatTie
+                            \<
+                            \mp
+                            \startTextSpan
                         }
                     }
                     {
@@ -458,7 +487,12 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 264] %%%
-                            e2 :32 \repeatTie \f \stopTextSpan ^ \markup {
+                            e2
+                            :32
+                            \repeatTie
+                            \f
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "kn. rasg."
@@ -490,7 +524,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            e2 :32 \repeatTie \> \f \startTextSpan
+                            e2
+                            :32
+                            \repeatTie
+                            \>
+                            \f
+                            \startTextSpan
                         }
                     }
                     {
@@ -498,7 +537,12 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 266] %%%
-                            e2 :32 \repeatTie \mp \stopTextSpan ^ \markup {
+                            e2
+                            :32
+                            \repeatTie
+                            \mp
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "tamb. tr."
@@ -510,15 +554,17 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 267] %%%
-                            e2 :32 \repeatTie
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            \override
-                                                #'(box-padding . 0.5)
-                                                \box
-                                                    "4 fingers"
-                                    }
+                            e2
+                            :32
+                            \repeatTie
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "4 fingers"
+                                }
                         }
                     }
                     {
@@ -546,7 +592,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            e2 :32 \repeatTie \< \mp \startTextSpan
+                            e2
+                            :32
+                            \repeatTie
+                            \<
+                            \mp
+                            \startTextSpan
                         }
                     }
                     {
@@ -554,7 +605,12 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 269] %%%
-                            e2 :32 \repeatTie \ff \stopTextSpan ^ \markup {
+                            e2
+                            :32
+                            \repeatTie
+                            \ff
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "kn. rasg."
@@ -566,7 +622,11 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 270] %%%
-                            e2 :32 \repeatTie \> \ff
+                            e2
+                            :32
+                            \repeatTie
+                            \>
+                            \ff
                         }
                     }
                     {
@@ -574,7 +634,10 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 271] %%%
-                            e2 :32 \repeatTie \mf
+                            e2
+                            :32
+                            \repeatTie
+                            \mf
                         }
                     }
                     {
@@ -602,7 +665,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            e2 :32 \repeatTie \< \mf \startTextSpan
+                            e2
+                            :32
+                            \repeatTie
+                            \<
+                            \mf
+                            \startTextSpan
                         }
                     }
                     {
@@ -610,13 +678,20 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 273] %%%
-                            e2 :32 \repeatTie \f \stopTextSpan ^ \markup {
+                            e2
+                            :32
+                            \repeatTie
+                            \f
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "nail rasg."
                                 }
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -644,7 +719,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            e2 :32 \repeatTie \> \f \startTextSpan
+                            e2
+                            :32
+                            \repeatTie
+                            \>
+                            \f
+                            \startTextSpan
                         }
                     }
                     {
@@ -652,7 +732,12 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 275] %%%
-                            e2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
+                            e2
+                            :32
+                            \repeatTie
+                            \mf
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "kn. rasg."
@@ -684,22 +769,36 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            e2 :32 \repeatTie \< \mf \startTextSpan
+                            e2
+                            :32
+                            \repeatTie
+                            \<
+                            \mf
+                            \startTextSpan
                         }
                     }
                     {
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 277] %%%
-                            e2 :32 \repeatTie \ff \stopTextSpan ^ \markup {
+                            e2
+                            :32
+                            \repeatTie
+                            \ff
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "nail rasg."
                                 }
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -727,7 +826,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            e2 :32 \repeatTie \> \ff \startTextSpan
+                            e2
+                            :32
+                            \repeatTie
+                            \>
+                            \ff
+                            \startTextSpan
                         }
                     }
                     {
@@ -735,7 +839,12 @@
                         \times 4/5 {
                             
                             %%% GuitarMusicVoiceOne [measure 279] %%%
-                            e2 :32 \repeatTie \mf \stopTextSpan ^ \markup {
+                            e2
+                            :32
+                            \repeatTie
+                            \mf
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "kn. rasg."
@@ -767,7 +876,12 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            e2 :32 \repeatTie \< \mf \startTextSpan
+                            e2
+                            :32
+                            \repeatTie
+                            \<
+                            \mf
+                            \startTextSpan
                         }
                     }
                     {
@@ -775,13 +889,21 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 281] %%%
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -789,19 +911,32 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 282] %%%
-                            e2 :32 \repeatTie \ffff \stopTextSpan ^ \markup {
+                            e2
+                            :32
+                            \repeatTie
+                            \ffff
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         "nail rasg."
                                 }
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -829,24 +964,44 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            e2 :32 \repeatTie \> \ffff \startTextSpan
+                            e2
+                            :32
+                            \repeatTie
+                            \>
+                            \ffff
+                            \startTextSpan
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 284] %%%
-                            e2 :32 \repeatTie \ff \< \ff
+                            e2
+                            :32
+                            \repeatTie
+                            \ff
+                            \<
+                            \ff
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -854,9 +1009,16 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 285] %%%
-                            e2 :32 \repeatTie \fff \> \fff
+                            e2
+                            :32
+                            \repeatTie
+                            \fff
+                            \>
+                            \fff
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -864,7 +1026,12 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 286] %%%
-                            e2 :32 \repeatTie \f \< \f
+                            e2
+                            :32
+                            \repeatTie
+                            \f
+                            \<
+                            \f
                         }
                     }
                     {
@@ -872,20 +1039,36 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 287] %%%
-                            e2 :32 \repeatTie \ff \> \ff
+                            e2
+                            :32
+                            \repeatTie
+                            \ff
+                            \>
+                            \ff
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 288] %%%
-                            e2 :32 \repeatTie \mf \< \mf
+                            e2
+                            :32
+                            \repeatTie
+                            \mf
+                            \<
+                            \mf
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -893,13 +1076,24 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 289] %%%
-                            e2 :32 \repeatTie \f \> \f
+                            e2
+                            :32
+                            \repeatTie
+                            \f
+                            \>
+                            \f
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -907,15 +1101,28 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 290] %%%
-                            e2 :32 \repeatTie \mp \< \mp
+                            e2
+                            :32
+                            \repeatTie
+                            \mp
+                            \<
+                            \mp
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -923,24 +1130,44 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 291] %%%
-                            e2 :32 \repeatTie \mf \> \mf
+                            e2
+                            :32
+                            \repeatTie
+                            \mf
+                            \>
+                            \mf
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 292] %%%
-                            e2 :32 \repeatTie \p \< \p
+                            e2
+                            :32
+                            \repeatTie
+                            \p
+                            \<
+                            \p
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -948,13 +1175,22 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 293] %%%
-                            e2 :32 \repeatTie \mp \stopTextSpan \> \mp ^ \markup {
+                            e2
+                            :32
+                            \repeatTie
+                            \mp
+                            \stopTextSpan
+                            \>
+                            \mp
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         ponticello
                                 }
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -962,7 +1198,12 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 294] %%%
-                            e2 :32 \repeatTie \pp \< \pp
+                            e2
+                            :32
+                            \repeatTie
+                            \pp
+                            \<
+                            \pp
                         }
                     }
                     {
@@ -970,20 +1211,36 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 295] %%%
-                            e2 :32 \repeatTie \p \> \p
+                            e2
+                            :32
+                            \repeatTie
+                            \p
+                            \>
+                            \p
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 296] %%%
-                            e2 :32 \repeatTie \ppp \< \ppp
+                            e2
+                            :32
+                            \repeatTie
+                            \ppp
+                            \<
+                            \ppp
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -1011,13 +1268,25 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
-                            e2 :32 \repeatTie \pp \> \pp \startTextSpan
+                            e2
+                            :32
+                            \repeatTie
+                            \pp
+                            \>
+                            \pp
+                            \startTextSpan
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -1025,26 +1294,48 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 298] %%%
-                            e2 :32 \repeatTie \pppp \< \pppp
+                            e2
+                            :32
+                            \repeatTie
+                            \pppp
+                            \<
+                            \pppp
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 299] %%%
-                            e2 :32 \repeatTie \ppp \> \ppp
+                            e2
+                            :32
+                            \repeatTie
+                            \ppp
+                            \>
+                            \ppp
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -1052,9 +1343,16 @@
                         \times 2/3 {
                             
                             %%% GuitarMusicVoiceOne [measure 300] %%%
-                            e2 :32 \repeatTie \ppppp \< \ppppp
+                            e2
+                            :32
+                            \repeatTie
+                            \ppppp
+                            \<
+                            \ppppp
                             
-                            e2 :32 \repeatTie
+                            e2
+                            :32
+                            \repeatTie
                         }
                     }
                     {
@@ -1063,7 +1361,12 @@
                             
                             %%% GuitarMusicVoiceOne [measure 301] %%%
                             \once \override Hairpin.circled-tip = ##t
-                            e2 :32 \repeatTie \pppp \> \pppp
+                            e2
+                            :32
+                            \repeatTie
+                            \pppp
+                            \>
+                            \pppp
                         }
                     }
                     {
@@ -1071,7 +1374,10 @@
                             
                             %%% GuitarMusicVoiceOne [measure 302] %%%
                             \once \override TextScript.staff-padding = #5.5
-                            r8 \! \stopTextSpan ^ \markup {
+                            r8
+                            \!
+                            \stopTextSpan
+                            ^ \markup {
                                 \whiteout
                                     \upright
                                         still

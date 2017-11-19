@@ -18,7 +18,8 @@
                 \time 11/32
                 \once \override TextScript.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                 \newSpacingSection
-                s1 * 11/32 ^ \markup {
+                s1 * 11/32
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -195,7 +196,8 @@
                             \clef "treble"
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            f32 * 1984/1024 [
+                            f32 * 1984/1024
+                            [
                             
                             a32 * 1088/1024
                             
@@ -205,7 +207,8 @@
                             
                             c'32 * 704/1024
                             
-                            fs'32 * 672/1024 ]
+                            fs'32 * 672/1024
+                            ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -242,7 +245,8 @@
                         \times 1/1 {
                             
                             \once \override Beam.grow-direction = #left
-                            g'32 * 384/1024 [
+                            g'32 * 384/1024
+                            [
                             
                             af'32 * 768/1024
                             
@@ -250,7 +254,8 @@
                             
                             cs'32 * 1344/1024
                             
-                            ef'32 * 1536/1024 ]
+                            ef'32 * 1536/1024
+                            ]
                         }
                         \revert TupletNumber.text
                     }
@@ -289,7 +294,8 @@
                             
                             %%% GuitarMusicVoiceOne [measure 72] %%%
                             \once \override Beam.grow-direction = #right
-                            f'64 * 2048/1024 [
+                            f'64 * 2048/1024
+                            [
                             
                             a'64 * 1088/1024
                             
@@ -299,7 +305,8 @@
                             
                             c''64 * 704/1024
                             
-                            fs'64 * 640/1024 ]
+                            fs'64 * 640/1024
+                            ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -336,7 +343,8 @@
                         \times 1/1 {
                             
                             \once \override Beam.grow-direction = #left
-                            g'64 * 384/1024 [
+                            g'64 * 384/1024
+                            [
                             
                             af'64 * 768/1024
                             
@@ -344,7 +352,8 @@
                             
                             cs''64 * 1344/1024
                             
-                            ef''64 * 1536/1024 ]
+                            ef''64 * 1536/1024
+                            ]
                         }
                         \revert TupletNumber.text
                     }
@@ -384,7 +393,8 @@
                             
                             %%% GuitarMusicVoiceOne [measure 73] %%%
                             \once \override Beam.grow-direction = #right
-                            f''64 * 2560/1024 [
+                            f''64 * 2560/1024
+                            [
                             
                             a'64 * 1344/1024
                             
@@ -404,7 +414,8 @@
                             
                             cs'''64 * 704/1024
                             
-                            ef''64 * 640/1024 ]
+                            ef''64 * 640/1024
+                            ]
                             \revert Beam.positions
                         }
                         \revert TupletNumber.text
@@ -448,11 +459,13 @@
                             
                             %%% GuitarMusicVoiceOne [measure 75] %%%
                             \once \override Beam.grow-direction = #left
-                            ef'32 * 512/1024 [
+                            ef'32 * 512/1024
+                            [
                             
                             fs32 * 1088/1024
                             
-                            a32 * 1472/1024 ]
+                            a32 * 1472/1024
+                            ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -488,9 +501,11 @@
                         \times 1/1 {
                             
                             \once \override Beam.grow-direction = #right
-                            b32 * 1312/1024 [
+                            b32 * 1312/1024
+                            [
                             
-                            bf'32 * 736/1024 ]
+                            bf'32 * 736/1024
+                            ]
                         }
                         \revert TupletNumber.text
                         {
@@ -537,7 +552,8 @@
                             
                             %%% GuitarMusicVoiceOne [measure 81] %%%
                             \once \override Beam.grow-direction = #right
-                            g'32 * 1856/1024 [
+                            g'32 * 1856/1024
+                            [
                             
                             af'32 * 1024/1024
                             
@@ -545,7 +561,8 @@
                             
                             cs''32 * 736/1024
                             
-                            ef''32 * 672/1024 ]
+                            ef''32 * 672/1024
+                            ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -581,13 +598,15 @@
                         \times 1/1 {
                             
                             \once \override Beam.grow-direction = #left
-                            g''32 * 416/1024 [
+                            g''32 * 416/1024
+                            [
                             
                             af''32 * 896/1024
                             
                             d''32 * 1248/1024
                             
-                            cs'''32 * 1536/1024 ]
+                            cs'''32 * 1536/1024
+                            ]
                         }
                         \revert TupletNumber.text
                     }
@@ -631,7 +650,8 @@
                             
                             %%% GuitarMusicVoiceOne [measure 83] %%%
                             \once \override Beam.grow-direction = #right
-                            g32 * 1856/1024 [
+                            g32 * 1856/1024
+                            [
                             
                             af32 * 1024/1024
                             
@@ -639,7 +659,8 @@
                             
                             cs'32 * 736/1024
                             
-                            ef'32 * 672/1024 ]
+                            ef'32 * 672/1024
+                            ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -675,13 +696,15 @@
                         \times 1/1 {
                             
                             \once \override Beam.grow-direction = #left
-                            g'32 * 416/1024 [
+                            g'32 * 416/1024
+                            [
                             
                             af'32 * 896/1024
                             
                             d'32 * 1248/1024
                             
-                            cs''32 * 1536/1024 ]
+                            cs''32 * 1536/1024
+                            ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -717,11 +740,13 @@
                         \times 1/1 {
                             
                             \once \override Beam.grow-direction = #right
-                            ef''32 * 1568/1024 [
+                            ef''32 * 1568/1024
+                            [
                             
                             fs'32 * 832/1024
                             
-                            a'32 * 672/1024 ]
+                            a'32 * 672/1024
+                            ]
                         }
                         \revert TupletNumber.text
                     }
@@ -743,20 +768,24 @@
                             \override Beam.positions = #'(-12 . -12)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
-                            g'16 [ \glissando
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "glissando: attack first note only"
-                                    }
+                            g'16
+                            [
+                            \glissando
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "glissando: attack first note only"
+                                }
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            af''16 \glissando
+                            af''16
+                            \glissando
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            d''16 \glissando
+                            d''16
+                            \glissando
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
@@ -773,11 +802,13 @@
                             %%% GuitarMusicVoiceTwo [measure 82] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
-                            ef''16 \glissando
+                            ef''16
+                            \glissando
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
-                            fs''16 \glissando
+                            fs''16
+                            \glissando
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
@@ -793,11 +824,13 @@
                             %%% GuitarMusicVoiceTwo [measure 84] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
-                            b'16 \glissando
+                            b'16
+                            \glissando
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
-                            bf''16 ]
+                            bf''16
+                            ]
                         }
                     }
                     
@@ -817,7 +850,9 @@
                             %%% GuitarMusicVoiceThree [measure 76] %%%
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #4
-                            f''64 [ (
+                            f''64
+                            [
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -843,11 +878,13 @@
                             
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            af'64 )
+                            af'64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            d''64 (
+                            d''64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -855,11 +892,13 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            ef''64 )
+                            ef''64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            fs'64 (
+                            fs'64
+                            (
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
@@ -878,7 +917,8 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            ef'64 )
+                            ef'64
+                            )
                         }
                     }
                     {
@@ -887,7 +927,8 @@
                             %%% GuitarMusicVoiceThree [measure 77] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            af'64 (
+                            af'64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -910,19 +951,23 @@
                             
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            g'64 )
+                            g'64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            d''64 (
+                            d''64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            cs''64 )
+                            cs''64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            ef''64 (
+                            ef''64
+                            (
                         }
                         \times 2/3 {
                             
@@ -936,7 +981,8 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            af''64 )
+                            af''64
+                            )
                         }
                     }
                     
@@ -949,7 +995,8 @@
                             %%% GuitarMusicVoiceThree [measure 80] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            g'64 (
+                            g'64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -967,7 +1014,8 @@
                             
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            fs'64 )
+                            fs'64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -975,7 +1023,8 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            af'64 (
+                            af'64
+                            (
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
@@ -1002,7 +1051,9 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #0
-                            fs''64 ] )
+                            fs''64
+                            ]
+                            )
                         }
                     }
                     
@@ -1014,18 +1065,22 @@
                             %%% GuitarMusicVoiceThree [measure 85] %%%
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #4
-                            c''64 [ (
+                            c''64
+                            [
+                            (
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
                             
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            f''64 )
+                            f''64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            b'64 (
+                            b'64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -1037,11 +1092,13 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            f''64 )
+                            f''64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            a'64 (
+                            a'64
+                            (
                         }
                         \times 4/5 {
                             
@@ -1063,7 +1120,8 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            fs'64 )
+                            fs'64
+                            )
                         }
                     }
                     {
@@ -1073,7 +1131,8 @@
                             %%% GuitarMusicVoiceThree [measure 86] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            f'64 (
+                            f'64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -1099,11 +1158,13 @@
                             
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            af'64 )
+                            af'64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            d''64 (
+                            d''64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -1111,11 +1172,13 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            ef''64 )
+                            ef''64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            fs''64 (
+                            fs''64
+                            (
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
@@ -1134,7 +1197,8 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            ef''64 )
+                            ef''64
+                            )
                         }
                     }
                     
@@ -1146,7 +1210,8 @@
                             %%% GuitarMusicVoiceThree [measure 89] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            af'64 (
+                            af'64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -1169,19 +1234,23 @@
                             
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #4
-                            g'64 )
+                            g'64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            d''64 (
+                            d''64
+                            (
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
-                            cs''64 )
+                            cs''64
+                            )
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #1
-                            ef''64 (
+                            ef''64
+                            (
                         }
                         \times 2/3 {
                             
@@ -1195,7 +1264,9 @@
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #0
-                            af''64 ] )
+                            af''64
+                            ]
+                            )
                             \bar "|"
                             
                         }
@@ -1225,20 +1296,23 @@
                             \override TupletBracket.staff-padding = #0
                             \once \override TupletBracket.extra-offset = #'(0 . -0.5)
                             \once \override TupletNumber.extra-offset = #'(0 . -0.5)
-                            gf2 :32
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            \override
-                                                #'(box-padding . 0.5)
-                                                \box
-                                                    "2-finger tamb. trill"
-                                    }
+                            gf2
+                            :32
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "2-finger tamb. trill"
+                                }
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             
-                            gf2 :32 \repeatTie
+                            gf2
+                            :32
+                            \repeatTie
                             \revert Stem.direction
                             \revert TupletBracket.staff-padding
                         }
@@ -1266,20 +1340,23 @@
                             \override TupletBracket.staff-padding = #0
                             \once \override TupletBracket.extra-offset = #'(0 . -0.5)
                             \once \override TupletNumber.extra-offset = #'(0 . -0.5)
-                            gf2 :32
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            \override
-                                                #'(box-padding . 0.5)
-                                                \box
-                                                    "2-finger tamb. trill"
-                                    }
+                            gf2
+                            :32
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                "2-finger tamb. trill"
+                                }
                         }
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/5 {
                             
-                            gf2 :32 \repeatTie
+                            gf2
+                            :32
+                            \repeatTie
                             \revert Stem.direction
                             \revert TupletBracket.staff-padding
                         }

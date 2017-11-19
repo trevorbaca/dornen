@@ -16,25 +16,25 @@
                 %%% GlobalSkips [measure 35] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                 \time 9/64
-                \once \override TextScript.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                \once \override TextScript.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
                 \newSpacingSection
                 s1 * 9/64
-                ^ \markup {
-                    \fontsize
-                        #-6
-                        \general-align
-                            #Y
-                            #DOWN
-                            \note-by-number
-                                #3
-                                #0
-                                #1
-                    \upright
-                        {
-                            =
-                            44
-                        }
-                    }
+                ^ \markup { % SEGMENT-ONLY
+                    \fontsize % SEGMENT-ONLY
+                        #-6 % SEGMENT-ONLY
+                        \general-align % SEGMENT-ONLY
+                            #Y % SEGMENT-ONLY
+                            #DOWN % SEGMENT-ONLY
+                            \note-by-number % SEGMENT-ONLY
+                                #3 % SEGMENT-ONLY
+                                #0 % SEGMENT-ONLY
+                                #1 % SEGMENT-ONLY
+                    \upright % SEGMENT-ONLY
+                        { % SEGMENT-ONLY
+                            = % SEGMENT-ONLY
+                            44 % SEGMENT-ONLY
+                        } % SEGMENT-ONLY
+                    } % SEGMENT-ONLY
                 
                 %%% GlobalSkips [measure 36] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
@@ -303,17 +303,17 @@
                             
                             %%% GuitarMusicVoiceOne [measure 35] %%%
                             \once \override Beam.grow-direction = #left
-                            \set GuitarMusicStaff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Guitar
-                                }
-                            \set GuitarMusicStaff.shortInstrumentName = \markup {
-                                \null
-                                }
-                            \clef "treble"
-                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                            \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT-ONLY
+                                \hcenter-in % SEGMENT-ONLY
+                                    #16 % SEGMENT-ONLY
+                                    Guitar % SEGMENT-ONLY
+                                } % SEGMENT-ONLY
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT-ONLY
+                                \null % SEGMENT-ONLY
+                                } % SEGMENT-ONLY
+                            \clef "treble" % SEGMENT-ONLY
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
+                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
                             b''64 * 256/1024
                             [
                             

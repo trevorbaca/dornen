@@ -68,6 +68,7 @@ def wave_music(denominator=64, inverted=False):
                         %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                         \time 7/64
+                        \bar "" % SEGMENT:EMPTY-BAR
                         \newSpacingSection
                         s1 * 7/64
             <BLANKLINE>
@@ -445,6 +446,7 @@ def wave_music(denominator=64, inverted=False):
                         %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                         \time 7/64
+                        \bar "" % SEGMENT:EMPTY-BAR
                         \newSpacingSection
                         s1 * 7/64
             <BLANKLINE>
@@ -822,6 +824,7 @@ def wave_music(denominator=64, inverted=False):
                         %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                         \time 7/32
+                        \bar "" % SEGMENT:EMPTY-BAR
                         \newSpacingSection
                         s1 * 7/32
             <BLANKLINE>

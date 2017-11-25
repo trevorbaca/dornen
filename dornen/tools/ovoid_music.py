@@ -80,6 +80,7 @@ def ovoid_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 13/32
+                        \bar "" % SEGMENT:EMPTY-BAR
                         s1 * 13/32
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%

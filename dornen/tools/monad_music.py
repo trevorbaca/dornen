@@ -82,6 +82,7 @@ def monad_music():
                         %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                         \time 14/5
+                        \bar "" % SEGMENT:EMPTY-BAR
                         \newSpacingSection
                         s1 * 14/5
             <BLANKLINE>
@@ -274,6 +275,7 @@ def monad_music():
                         %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)
                         \time 14/5
+                        \bar "" % SEGMENT:EMPTY-BAR
                         \newSpacingSection
                         s1 * 14/5
             <BLANKLINE>

@@ -82,6 +82,7 @@ def twentieth_music():
                         %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)
                         \time 7/20
+                        \bar "" % SEGMENT:EMPTY-BAR
                         \newSpacingSection
                         s1 * 7/20
             <BLANKLINE>
@@ -274,6 +275,7 @@ def twentieth_music():
                         %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)
                         \time 7/20
+                        \bar "" % SEGMENT:EMPTY-BAR
                         \newSpacingSection
                         s1 * 7/20
             <BLANKLINE>

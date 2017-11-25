@@ -61,6 +61,7 @@ def sixty_fourth_music():
                         %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                         \time 1/64
+                        \bar "" % SEGMENT:EMPTY-BAR
                         \newSpacingSection
                         s1 * 1/64
             <BLANKLINE>

@@ -69,6 +69,7 @@ def rest_music(duration=None):
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 1/8
+                        \bar "" % SEGMENT:EMPTY-BAR
                         s1 * 1/8
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
@@ -172,6 +173,7 @@ def rest_music(duration=None):
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 6/8
+                        \bar "" % SEGMENT:EMPTY-BAR
                         s1 * 3/4
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%

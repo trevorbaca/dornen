@@ -920,7 +920,34 @@
                     }
                     
                     %%% GuitarMusicVoiceThree [measure 175] %%%
-                    s1 * 4579/2240
+                    s1 * 5/32
+                    
+                    %%% GuitarMusicVoiceThree [measure 176] %%%
+                    s1 * 5/28
+                    
+                    %%% GuitarMusicVoiceThree [measure 177] %%%
+                    s1 * 15/64
+                    
+                    %%% GuitarMusicVoiceThree [measure 178] %%%
+                    s1 * 5/32
+                    
+                    %%% GuitarMusicVoiceThree [measure 179] %%%
+                    s1 * 3/14
+                    
+                    %%% GuitarMusicVoiceThree [measure 180] %%%
+                    s1 * 9/32
+                    
+                    %%% GuitarMusicVoiceThree [measure 181] %%%
+                    s1 * 3/16
+                    
+                    %%% GuitarMusicVoiceThree [measure 182] %%%
+                    s1 * 39/112
+                    
+                    %%% GuitarMusicVoiceThree [measure 183] %%%
+                    s1 * 3/16
+                    
+                    %%% GuitarMusicVoiceThree [measure 184] %%%
+                    s1 * 1/10
                     \bar "|"
                     \revert Beam.positions
                     

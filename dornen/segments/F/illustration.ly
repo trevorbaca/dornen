@@ -614,7 +614,10 @@
                     }
                     
                     %%% GuitarMusicVoiceThree [measure 153] %%%
-                    s1 * 1/6
+                    s1 * 1/24
+                    
+                    %%% GuitarMusicVoiceThree [measure 154] %%%
+                    s1 * 1/8
                     \bar "|"
                     \revert Beam.positions
                     

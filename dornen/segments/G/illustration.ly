@@ -468,7 +468,13 @@
                     }
                     
                     %%% GuitarMusicVoiceThree [measure 164] %%%
-                    s1 * 37/56
+                    s1 * 2/7
+                    
+                    %%% GuitarMusicVoiceThree [measure 165] %%%
+                    s1 * 7/32
+                    
+                    %%% GuitarMusicVoiceThree [measure 166] %%%
+                    s1 * 5/32
                     \bar "|"
                     
                 }
@@ -665,7 +671,10 @@
                     }
                     
                     %%% GuitarMusicVoiceFour [measure 165] %%%
-                    s1 * 3/8
+                    s1 * 7/32
+                    
+                    %%% GuitarMusicVoiceFour [measure 166] %%%
+                    s1 * 5/32
                     \bar "|"
                     \revert Beam.positions
                     

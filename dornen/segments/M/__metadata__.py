@@ -15,7 +15,10 @@ metadata = abjad.TypedOrderedDict(
             'end_dynamics_by_context',
             abjad.TypedOrderedDict(
                 [
+                    ('GuitarMusicVoiceFour', 'p'),
                     ('GuitarMusicVoiceOne', 'p'),
+                    ('GuitarMusicVoiceThree', 'p'),
+                    ('GuitarMusicVoiceTwo', 'p'),
                     ]
                 ),
             ),

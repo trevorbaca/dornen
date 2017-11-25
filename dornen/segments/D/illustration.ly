@@ -347,7 +347,13 @@
                     }
                     
                     %%% GuitarMusicVoiceOne [measure 117] %%%
-                    s1 * 29/80
+                    s1 * 3/20
+                    
+                    %%% GuitarMusicVoiceOne [measure 118] %%%
+                    s1 * 1/16
+                    
+                    %%% GuitarMusicVoiceOne [measure 119] %%%
+                    s1 * 3/20
                     \bar "|"
                     \revert Beam.positions
                     
@@ -505,7 +511,16 @@
                     }
                     
                     %%% GuitarMusicVoiceTwo [measure 116] %%%
-                    s1 * 73/160
+                    s1 * 3/32
+                    
+                    %%% GuitarMusicVoiceTwo [measure 117] %%%
+                    s1 * 3/20
+                    
+                    %%% GuitarMusicVoiceTwo [measure 118] %%%
+                    s1 * 1/16
+                    
+                    %%% GuitarMusicVoiceTwo [measure 119] %%%
+                    s1 * 3/20
                     \bar "|"
                     \revert Beam.positions
                     

@@ -1178,7 +1178,10 @@
                     }
                     
                     %%% GuitarMusicVoiceOne [measure 69] %%%
-                    s1 * 13/32
+                    s1 * 7/32
+                    
+                    %%% GuitarMusicVoiceOne [measure 70] %%%
+                    s1 * 3/16
                     \bar "|"
                     
                 }
@@ -1956,7 +1959,49 @@
                     }
                     
                     %%% GuitarMusicVoiceFour [measure 56] %%%
-                    s1 * 255/64
+                    s1 * 7/32
+                    
+                    %%% GuitarMusicVoiceFour [measure 57] %%%
+                    s1 * 5/16
+                    
+                    %%% GuitarMusicVoiceFour [measure 58] %%%
+                    s1 * 5/16
+                    
+                    %%% GuitarMusicVoiceFour [measure 59] %%%
+                    s1 * 1/2
+                    
+                    %%% GuitarMusicVoiceFour [measure 60] %%%
+                    s1 * 7/32
+                    
+                    %%% GuitarMusicVoiceFour [measure 61] %%%
+                    s1 * 7/32
+                    
+                    %%% GuitarMusicVoiceFour [measure 62] %%%
+                    s1 * 7/32
+                    
+                    %%% GuitarMusicVoiceFour [measure 63] %%%
+                    s1 * 7/32
+                    
+                    %%% GuitarMusicVoiceFour [measure 64] %%%
+                    s1 * 7/32
+                    
+                    %%% GuitarMusicVoiceFour [measure 65] %%%
+                    s1 * 7/32
+                    
+                    %%% GuitarMusicVoiceFour [measure 66] %%%
+                    s1 * 7/32
+                    
+                    %%% GuitarMusicVoiceFour [measure 67] %%%
+                    s1 * 13/64
+                    
+                    %%% GuitarMusicVoiceFour [measure 68] %%%
+                    s1 * 1/2
+                    
+                    %%% GuitarMusicVoiceFour [measure 69] %%%
+                    s1 * 7/32
+                    
+                    %%% GuitarMusicVoiceFour [measure 70] %%%
+                    s1 * 3/16
                     \bar "|"
                     
                 }

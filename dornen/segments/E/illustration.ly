@@ -1993,9 +1993,27 @@
                     }
                     
                     %%% GuitarMusicVoiceThree [measure 126] %%%
-                    s1 * 1693/320
-                    \bar "|"
+                    s1 * 3/20
                     \revert Script.direction
+                    
+                    %%% GuitarMusicVoiceThree [measure 127] %%%
+                    s1 * 3/8
+                    
+                    %%% GuitarMusicVoiceThree [measure 128] %%%
+                    s1 * 15/32
+                    
+                    %%% GuitarMusicVoiceThree [measure 129] %%%
+                    s1 * 5/8
+                    
+                    %%% GuitarMusicVoiceThree [measure 130] %%%
+                    s1 * 25/32
+                    
+                    %%% GuitarMusicVoiceThree [measure 131] %%%
+                    s1 * 15/16
+                    
+                    %%% GuitarMusicVoiceThree [measure 132] %%%
+                    s1 * 125/64
+                    \bar "|"
                     
                 }
                 \context GuitarMusicVoiceFour = "GuitarMusicVoiceFour" {
@@ -2043,7 +2061,22 @@
                     }
                     
                     %%% GuitarMusicVoiceFour [measure 127] %%%
-                    s1 * 329/64
+                    s1 * 3/8
+                    
+                    %%% GuitarMusicVoiceFour [measure 128] %%%
+                    s1 * 15/32
+                    
+                    %%% GuitarMusicVoiceFour [measure 129] %%%
+                    s1 * 5/8
+                    
+                    %%% GuitarMusicVoiceFour [measure 130] %%%
+                    s1 * 25/32
+                    
+                    %%% GuitarMusicVoiceFour [measure 131] %%%
+                    s1 * 15/16
+                    
+                    %%% GuitarMusicVoiceFour [measure 132] %%%
+                    s1 * 125/64
                     \bar "|"
                     
                 }

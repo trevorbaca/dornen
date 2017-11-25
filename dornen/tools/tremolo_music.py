@@ -61,6 +61,7 @@ def tremolo_music():
                         %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 1/11
+                        \bar "" % SEGMENT:EMPTY-BAR
                         \newSpacingSection
                         s1 * 1/11
             <BLANKLINE>
@@ -246,6 +247,7 @@ def tremolo_music():
                         %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                         \time 9/11
+                        \bar "" % SEGMENT:EMPTY-BAR
                         \newSpacingSection
                         s1 * 9/11
             <BLANKLINE>

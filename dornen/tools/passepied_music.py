@@ -80,6 +80,7 @@ def passepied_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 1/32
+                        \bar "" % SEGMENT:EMPTY-BAR
                         s1 * 1/32
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
@@ -242,6 +243,7 @@ def passepied_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 17/32
+                        \bar "" % SEGMENT:EMPTY-BAR
                         s1 * 17/32
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%

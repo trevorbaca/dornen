@@ -61,6 +61,7 @@ def running_music():
                         %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)
                         \time 1/64
+                        \bar "" % SEGMENT:EMPTY-BAR
                         \newSpacingSection
                         s1 * 1/64
             <BLANKLINE>
@@ -230,6 +231,7 @@ def running_music():
                         %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 3 224)
                         \time 1/8
+                        \bar "" % SEGMENT:EMPTY-BAR
                         \newSpacingSection
                         s1 * 1/8
             <BLANKLINE>

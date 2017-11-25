@@ -61,6 +61,7 @@ def delicatissimo_music():
                         %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                         \time 1/32
+                        \bar "" % SEGMENT:EMPTY-BAR
                         \newSpacingSection
                         s1 * 1/32
             <BLANKLINE>
@@ -233,6 +234,7 @@ def delicatissimo_music():
                         %%% GlobalSkips [measure 1] %%%
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                         \time 9/32
+                        \bar "" % SEGMENT:EMPTY-BAR
                         \newSpacingSection
                         s1 * 9/32
             <BLANKLINE>

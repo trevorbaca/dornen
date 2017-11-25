@@ -109,17 +109,17 @@
                 \context GuitarMusicVoiceOne = "GuitarMusicVoiceOne" {
                     
                     %%% GuitarMusicVoiceOne [measure 155] %%%
-                    \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT-ONLY
-                        \hcenter-in % SEGMENT-ONLY
-                            #16 % SEGMENT-ONLY
-                            Guitar % SEGMENT-ONLY
-                        } % SEGMENT-ONLY
-                    \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT-ONLY
-                        \null % SEGMENT-ONLY
-                        } % SEGMENT-ONLY
-                    \clef "treble" % SEGMENT-ONLY
-                    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
-                    \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
+                    \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:REMINDER-INSTRUMENT
+                        \hcenter-in % SEGMENT:REMINDER-INSTRUMENT
+                            #16 % SEGMENT:REMINDER-INSTRUMENT
+                            Guitar % SEGMENT:REMINDER-INSTRUMENT
+                        } % SEGMENT:REMINDER-INSTRUMENT
+                    \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:REMINDER-INSTRUMENT
+                        \null % SEGMENT:REMINDER-INSTRUMENT
+                        } % SEGMENT:REMINDER-INSTRUMENT
+                    \clef "treble" % SEGMENT:REMINDER-CLEF
+                    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-INSTRUMENT
+                    \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                     s1 * 7/32
                     {
                         {

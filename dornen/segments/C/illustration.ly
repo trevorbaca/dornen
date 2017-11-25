@@ -753,7 +753,22 @@
                     }
                     
                     %%% GuitarMusicVoiceOne [measure 84] %%%
-                    s1 * 571/320
+                    s1 * 1/8
+                    
+                    %%% GuitarMusicVoiceOne [measure 85] %%%
+                    s1 * 5/32
+                    
+                    %%% GuitarMusicVoiceOne [measure 86] %%%
+                    s1 * 3/16
+                    
+                    %%% GuitarMusicVoiceOne [measure 87] %%%
+                    s1 * 3/8
+                    
+                    %%% GuitarMusicVoiceOne [measure 88] %%%
+                    s1 * 4/5
+                    
+                    %%% GuitarMusicVoiceOne [measure 89] %%%
+                    s1 * 9/64
                     \bar "|"
                     
                 }
@@ -836,7 +851,19 @@
                     }
                     
                     %%% GuitarMusicVoiceTwo [measure 85] %%%
-                    s1 * 531/320
+                    s1 * 5/32
+                    
+                    %%% GuitarMusicVoiceTwo [measure 86] %%%
+                    s1 * 3/16
+                    
+                    %%% GuitarMusicVoiceTwo [measure 87] %%%
+                    s1 * 3/8
+                    
+                    %%% GuitarMusicVoiceTwo [measure 88] %%%
+                    s1 * 4/5
+                    
+                    %%% GuitarMusicVoiceTwo [measure 89] %%%
+                    s1 * 9/64
                     \bar "|"
                     
                 }

@@ -796,9 +796,12 @@
                     }
                     
                     %%% GuitarMusicVoiceTwo [measure 343] %%%
-                    s1 * 119/24
-                    \bar "|."
+                    s1 * 5/8
                     \revert Beam.positions
+                    
+                    %%% GuitarMusicVoiceTwo [measure 344] %%%
+                    s1 * 13/3
+                    \bar "|."
                     
                 }
                 \context GuitarMusicVoiceThree = "GuitarMusicVoiceThree" {
@@ -871,9 +874,18 @@
                     }
                     
                     %%% GuitarMusicVoiceThree [measure 341] %%%
-                    s1 * 157/30
-                    \bar "|."
+                    s1 * 3/20
+                    
+                    %%% GuitarMusicVoiceThree [measure 342] %%%
+                    s1 * 1/8
+                    
+                    %%% GuitarMusicVoiceThree [measure 343] %%%
+                    s1 * 5/8
                     \revert Script.direction
+                    
+                    %%% GuitarMusicVoiceThree [measure 344] %%%
+                    s1 * 13/3
+                    \bar "|."
                     
                 }
                 \context GuitarMusicVoiceFour = "GuitarMusicVoiceFour" {
@@ -1204,8 +1216,15 @@
                     }
                     
                     %%% GuitarMusicVoiceFour [measure 342] %%%
+                    s1 * 1/8
+                    
+                    %%% GuitarMusicVoiceFour [measure 343] %%%
+                    s1 * 5/8
+                    \revert Beam.positions
+                    
+                    %%% GuitarMusicVoiceFour [measure 344] %%%
                     \once \override TextScript.extra-offset = #'(124 . 0)
-                    s1 * 61/12
+                    s1 * 13/3
                     _ \markup {
                         \whiteout
                             \upright
@@ -1248,7 +1267,6 @@
                                         }
                         }
                     \bar "|."
-                    \revert Beam.positions
                     
                 }
             >>

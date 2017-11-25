@@ -16,6 +16,7 @@
                 %%% GlobalSkips [measure 71] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 11/32
+                \bar "" % SEGMENT
                 \once \override TextScript.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
                 \newSpacingSection
                 s1 * 11/32

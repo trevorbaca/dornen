@@ -17,25 +17,25 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 3/32
                 \bar "" % SEGMENT:EMPTY-BAR
-                \once \override TextScript.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
+                \once \override TextScript.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-METRONOME-MARK
                 \newSpacingSection
                 s1 * 3/32
-                ^ \markup { % SEGMENT-ONLY
-                    \fontsize % SEGMENT-ONLY
-                        #-6 % SEGMENT-ONLY
-                        \general-align % SEGMENT-ONLY
-                            #Y % SEGMENT-ONLY
-                            #DOWN % SEGMENT-ONLY
-                            \note-by-number % SEGMENT-ONLY
-                                #3 % SEGMENT-ONLY
-                                #0 % SEGMENT-ONLY
-                                #1 % SEGMENT-ONLY
-                    \upright % SEGMENT-ONLY
-                        { % SEGMENT-ONLY
-                            = % SEGMENT-ONLY
-                            66 % SEGMENT-ONLY
-                        } % SEGMENT-ONLY
-                    } % SEGMENT-ONLY
+                ^ \markup { % SEGMENT:REMINDER-METRONOME-MARK
+                    \fontsize % SEGMENT:REMINDER-METRONOME-MARK
+                        #-6 % SEGMENT:REMINDER-METRONOME-MARK
+                        \general-align % SEGMENT:REMINDER-METRONOME-MARK
+                            #Y % SEGMENT:REMINDER-METRONOME-MARK
+                            #DOWN % SEGMENT:REMINDER-METRONOME-MARK
+                            \note-by-number % SEGMENT:REMINDER-METRONOME-MARK
+                                #3 % SEGMENT:REMINDER-METRONOME-MARK
+                                #0 % SEGMENT:REMINDER-METRONOME-MARK
+                                #1 % SEGMENT:REMINDER-METRONOME-MARK
+                    \upright % SEGMENT:REMINDER-METRONOME-MARK
+                        { % SEGMENT:REMINDER-METRONOME-MARK
+                            = % SEGMENT:REMINDER-METRONOME-MARK
+                            66 % SEGMENT:REMINDER-METRONOME-MARK
+                        } % SEGMENT:REMINDER-METRONOME-MARK
+                    } % SEGMENT:REMINDER-METRONOME-MARK
                 
                 %%% GlobalSkips [measure 121] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
@@ -137,17 +137,17 @@
                             \override Beam.positions = #'(10 . 10)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT-ONLY
-                                \hcenter-in % SEGMENT-ONLY
-                                    #16 % SEGMENT-ONLY
-                                    Guitar % SEGMENT-ONLY
-                                } % SEGMENT-ONLY
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT-ONLY
-                                \null % SEGMENT-ONLY
-                                } % SEGMENT-ONLY
-                            \clef "treble" % SEGMENT-ONLY
-                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
-                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
+                            \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:REMINDER-INSTRUMENT
+                                \hcenter-in % SEGMENT:REMINDER-INSTRUMENT
+                                    #16 % SEGMENT:REMINDER-INSTRUMENT
+                                    Guitar % SEGMENT:REMINDER-INSTRUMENT
+                                } % SEGMENT:REMINDER-INSTRUMENT
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:REMINDER-INSTRUMENT
+                                \null % SEGMENT:REMINDER-INSTRUMENT
+                                } % SEGMENT:REMINDER-INSTRUMENT
+                            \clef "treble" % SEGMENT:REMINDER-CLEF
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-INSTRUMENT
+                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                             bf'32.
                             -\tenuto
                             [

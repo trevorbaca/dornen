@@ -15,7 +15,7 @@
                 %%% GlobalSkips [measure 1] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 3/16
-                \bar "" % SEGMENT:EMPTY-BAR
+                \bar "" % SEGMENT:EMPTY-BAR:1
                 \newSpacingSection
                 s1 * 3/16
                 ^ \markup {
@@ -163,8 +163,8 @@
                             \set GuitarMusicStaff.shortInstrumentName = \markup {
                                 \null
                                 }
-                            \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
-                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                            \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
+                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
                             e'8.
                             [
                         }

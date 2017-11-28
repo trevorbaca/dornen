@@ -76,7 +76,7 @@ def graced_tuplet_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 19/56
-                        \bar "" % SEGMENT:EMPTY-BAR
+                        \bar "" % SEGMENT:EMPTY-BAR:1
                         s1 * 19/56
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
@@ -99,8 +99,8 @@ def graced_tuplet_music():
                                 %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
-                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
-                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
                                 af'16 [
                             }
                             \tweak text #tuplet-number::calc-fraction-text

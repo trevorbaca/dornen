@@ -80,7 +80,7 @@ def ovoid_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 13/32
-                        \bar "" % SEGMENT:EMPTY-BAR
+                        \bar "" % SEGMENT:EMPTY-BAR:1
                         s1 * 13/32
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
@@ -109,8 +109,8 @@ def ovoid_music():
                                 %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
-                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
                                 af'8. [
                             }
                             {

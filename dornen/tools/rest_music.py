@@ -69,7 +69,7 @@ def rest_music(duration=None):
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 1/8
-                        \bar "" % SEGMENT:EMPTY-BAR
+                        \bar "" % SEGMENT:EMPTY-BAR:1
                         s1 * 1/8
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
@@ -88,8 +88,8 @@ def rest_music(duration=None):
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
-                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
-                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
                                 r8
                             }
                             {
@@ -174,7 +174,7 @@ def rest_music(duration=None):
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 6/8
-                        \bar "" % SEGMENT:EMPTY-BAR
+                        \bar "" % SEGMENT:EMPTY-BAR:1
                         s1 * 3/4
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
@@ -189,8 +189,8 @@ def rest_music(duration=None):
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
-                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
-                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
                                 r8
                             }
                             {

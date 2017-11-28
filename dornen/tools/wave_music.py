@@ -123,7 +123,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
                                 \once \override Beam.grow-direction = #right
-                                \clef "treble"
+                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                                 fs'64 * 2112/1024 [
             <BLANKLINE>
                                 d'64 * 1152/1024
@@ -501,7 +502,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
                                 \once \override Beam.grow-direction = #left
-                                \clef "treble"
+                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                                 fs'64 * 320/1024 [
             <BLANKLINE>
                                 d'64 * 640/1024
@@ -879,7 +881,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
                                 \once \override Beam.grow-direction = #right
-                                \clef "treble"
+                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                                 fs'32 * 2080/1024 [
             <BLANKLINE>
                                 d'32 * 1152/1024

@@ -17,7 +17,7 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 3/32
                 \bar "" % SEGMENT:EMPTY-BAR
-                \once \override TextScript.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-METRONOME-MARK
+                \once \override TextScript.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER-METRONOME-MARK
                 \newSpacingSection
                 s1 * 3/32
                 ^ \markup { % SEGMENT:REMINDER-METRONOME-MARK
@@ -223,18 +223,19 @@
                             \override Beam.positions = #'(10 . 10)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:REMINDER-INSTRUMENT
-                                \hcenter-in % SEGMENT:REMINDER-INSTRUMENT
-                                    #16 % SEGMENT:REMINDER-INSTRUMENT
-                                    Guitar % SEGMENT:REMINDER-INSTRUMENT
-                                } % SEGMENT:REMINDER-INSTRUMENT
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:REMINDER-INSTRUMENT
-                                \null % SEGMENT:REMINDER-INSTRUMENT
-                                } % SEGMENT:REMINDER-INSTRUMENT
-                            \clef "treble" % SEGMENT:REMINDER-CLEF
+                            \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT
+                                \hcenter-in % SEGMENT:RESTATED-INSTRUMENT
+                                    #16 % SEGMENT:RESTATED-INSTRUMENT
+                                    Guitar % SEGMENT:RESTATED-INSTRUMENT
+                                } % SEGMENT:RESTATED-INSTRUMENT
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT
+                                \null % SEGMENT:RESTATED-INSTRUMENT
+                                } % SEGMENT:RESTATED-INSTRUMENT
+                            \clef "treble" % SEGMENT:RESTATED-CLEF
                             \override Score.RehearsalMark.extra-offset = #'(-10 . -10)
-                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-INSTRUMENT
-                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-CLEF
+                            \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED-CLEF
                             d'32.
                             -\tenuto
                             [

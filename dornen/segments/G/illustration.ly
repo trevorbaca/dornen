@@ -16,7 +16,7 @@
                 %%% GlobalSkips [measure 155] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                 \time 7/32
-                \bar "" % SEGMENT:EMPTY-BAR
+                \bar "" % SEGMENT:EMPTY-BAR:1
                 \newSpacingSection
                 s1 * 7/32
                 ^ \markup {
@@ -109,18 +109,18 @@
                 \context GuitarMusicVoiceOne = "GuitarMusicVoiceOne" {
                     
                     %%% GuitarMusicVoiceOne [measure 155] %%%
-                    \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT
-                        \hcenter-in % SEGMENT:RESTATED-INSTRUMENT
-                            #16 % SEGMENT:RESTATED-INSTRUMENT
-                            Guitar % SEGMENT:RESTATED-INSTRUMENT
-                        } % SEGMENT:RESTATED-INSTRUMENT
-                    \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT
-                        \null % SEGMENT:RESTATED-INSTRUMENT
-                        } % SEGMENT:RESTATED-INSTRUMENT
-                    \clef "treble" % SEGMENT:RESTATED-CLEF
-                    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT
-                    \override GuitarMusicStaff.Clef.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-CLEF
-                    \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED-CLEF
+                    \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:2
+                        \hcenter-in % SEGMENT:RESTATED-INSTRUMENT:2
+                            #16 % SEGMENT:RESTATED-INSTRUMENT:2
+                            Guitar % SEGMENT:RESTATED-INSTRUMENT:2
+                        } % SEGMENT:RESTATED-INSTRUMENT:2
+                    \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:2
+                        \null % SEGMENT:RESTATED-INSTRUMENT:2
+                        } % SEGMENT:RESTATED-INSTRUMENT:2
+                    \clef "treble" % SEGMENT:RESTATED-CLEF:4
+                    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:1
+                    \override GuitarMusicStaff.Clef.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-CLEF:3
+                    \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED-CLEF:5
                     s1 * 7/32
                     {
                         {

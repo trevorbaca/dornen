@@ -387,7 +387,6 @@ maker = baca.SegmentMaker(
     allow_figure_names=False,
     instruments=dornen.instruments,
     label_clock_time=False,
-    label_stages=False,
     measures_per_stage=measures_per_stage,
     metronome_marks=dornen.metronome_marks,
     rehearsal_letter='',

@@ -319,20 +319,37 @@
                             %%% GuitarMusicVoiceOne [measure 71] %%%
                             \override Beam.positions = #'(9 . 9)
                             \once \override Beam.grow-direction = #right
-                            \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:2
-                                \hcenter-in % SEGMENT:RESTATED-INSTRUMENT:2
-                                    #16 % SEGMENT:RESTATED-INSTRUMENT:2
-                                    Guitar % SEGMENT:RESTATED-INSTRUMENT:2
-                                } % SEGMENT:RESTATED-INSTRUMENT:2
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:2
-                                \null % SEGMENT:RESTATED-INSTRUMENT:2
-                                } % SEGMENT:RESTATED-INSTRUMENT:2
-                            \clef "treble" % SEGMENT:RESTATED-CLEF:4
-                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:1
-                            \override GuitarMusicStaff.Clef.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-CLEF:3
-                            \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED-CLEF:5
+                            \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:3
+                                \hcenter-in % SEGMENT:RESTATED-INSTRUMENT:3
+                                    #16 % SEGMENT:RESTATED-INSTRUMENT:3
+                                    Guitar % SEGMENT:RESTATED-INSTRUMENT:3
+                                } % SEGMENT:RESTATED-INSTRUMENT:3
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:3
+                                \null % SEGMENT:RESTATED-INSTRUMENT:3
+                                } % SEGMENT:RESTATED-INSTRUMENT:3
+                            \clef "treble" % SEGMENT:RESTATED-CLEF:5
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:2
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-CLEF:4
+                            \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED-CLEF:6
                             f32 * 1984/1024
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% W1 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (0) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             a32 * 1088/1024
                             
@@ -431,6 +448,23 @@
                             \once \override Beam.grow-direction = #right
                             f'64 * 2048/1024
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% W2 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (1) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             a'64 * 1088/1024
                             
@@ -530,6 +564,23 @@
                             \once \override Beam.grow-direction = #right
                             f''64 * 2560/1024
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% W3 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (2) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             a'64 * 1344/1024
                             
@@ -596,6 +647,23 @@
                             \once \override Beam.grow-direction = #left
                             ef'32 * 512/1024
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% W4 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (4) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             fs32 * 1088/1024
                             
@@ -689,6 +757,23 @@
                             \once \override Beam.grow-direction = #right
                             g'32 * 1856/1024
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% W5 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (10) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             af'32 * 1024/1024
                             
@@ -787,6 +872,23 @@
                             \once \override Beam.grow-direction = #right
                             g32 * 1856/1024
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% W6 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (12) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             af32 * 1024/1024
                             
@@ -922,9 +1024,33 @@
                             [
                             \glissando
                             ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "glissando: attack first note only"
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "glissando: attack first note only"
+                                            }
+                                        %%% \line % FIGURE-NAME:1
+                                            %%% { % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #2 % FIGURE-NAME:1
+                                                    %%% \concat % FIGURE-NAME:1
+                                                        %%% { % FIGURE-NAME:1
+                                                            %%% [ % FIGURE-NAME:1
+                                                            %%% G1 % FIGURE-NAME:1
+                                                            %%% \hspace % FIGURE-NAME:1
+                                                                %%% #1 % FIGURE-NAME:1
+                                                            %%% \raise % FIGURE-NAME:1
+                                                                %%% #0.25 % FIGURE-NAME:1
+                                                                %%% \fontsize % FIGURE-NAME:1
+                                                                    %%% #-2 % FIGURE-NAME:1
+                                                                    %%% (3) % FIGURE-NAME:1
+                                                            %%% ] % FIGURE-NAME:1
+                                                        %%% } % FIGURE-NAME:1
+                                            %%% } % FIGURE-NAME:1
+                                    }
                                 }
                             
                             \set stemLeftBeamCount = #2
@@ -954,6 +1080,23 @@
                             \set stemRightBeamCount = #2
                             ef''16
                             \glissando
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% G2 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (11) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
@@ -976,6 +1119,23 @@
                             \set stemRightBeamCount = #2
                             b'16
                             \glissando
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% G3 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (13) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
@@ -1015,6 +1175,23 @@
                             f''64
                             [
                             (
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% R1 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (5) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -1091,6 +1268,23 @@
                             \set stemRightBeamCount = #4
                             af'64
                             (
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% R2 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (6) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -1159,6 +1353,23 @@
                             \set stemRightBeamCount = #4
                             g'64
                             (
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% R3 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (9) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -1230,6 +1441,23 @@
                             c''64
                             [
                             (
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% R4 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (14) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
@@ -1295,6 +1523,23 @@
                             \set stemRightBeamCount = #4
                             f'64
                             (
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% R5 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (15) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -1374,6 +1619,23 @@
                             \set stemRightBeamCount = #4
                             af'64
                             (
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% R6 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (18) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \set stemLeftBeamCount = #4
                             \set stemRightBeamCount = #4
@@ -1443,6 +1705,23 @@
                             
                             %%% GuitarMusicVoiceFour [measure 78] %%%
                             r8
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% S1 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (7) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             r8
                             
@@ -1461,12 +1740,36 @@
                             gf2
                             :32
                             ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "2-finger tamb. trill"
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        \override
+                                                            #'(box-padding . 0.5)
+                                                            \box
+                                                                "2-finger tamb. trill"
+                                            }
+                                        %%% \line % FIGURE-NAME:1
+                                            %%% { % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #2 % FIGURE-NAME:1
+                                                    %%% \concat % FIGURE-NAME:1
+                                                        %%% { % FIGURE-NAME:1
+                                                            %%% [ % FIGURE-NAME:1
+                                                            %%% T1 % FIGURE-NAME:1
+                                                            %%% \hspace % FIGURE-NAME:1
+                                                                %%% #1 % FIGURE-NAME:1
+                                                            %%% \raise % FIGURE-NAME:1
+                                                                %%% #0.25 % FIGURE-NAME:1
+                                                                %%% \fontsize % FIGURE-NAME:1
+                                                                    %%% #-2 % FIGURE-NAME:1
+                                                                    %%% (8) % FIGURE-NAME:1
+                                                            %%% ] % FIGURE-NAME:1
+                                                        %%% } % FIGURE-NAME:1
+                                            %%% } % FIGURE-NAME:1
+                                    }
                                 }
                         }
                         \tweak edge-height #'(0.7 . 0)
@@ -1487,6 +1790,23 @@
                             
                             %%% GuitarMusicVoiceFour [measure 87] %%%
                             r8
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% S2 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (16) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             r8
                             
@@ -1505,12 +1825,36 @@
                             gf2
                             :32
                             ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "2-finger tamb. trill"
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        \override
+                                                            #'(box-padding . 0.5)
+                                                            \box
+                                                                "2-finger tamb. trill"
+                                            }
+                                        %%% \line % FIGURE-NAME:1
+                                            %%% { % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #2 % FIGURE-NAME:1
+                                                    %%% \concat % FIGURE-NAME:1
+                                                        %%% { % FIGURE-NAME:1
+                                                            %%% [ % FIGURE-NAME:1
+                                                            %%% T2 % FIGURE-NAME:1
+                                                            %%% \hspace % FIGURE-NAME:1
+                                                                %%% #1 % FIGURE-NAME:1
+                                                            %%% \raise % FIGURE-NAME:1
+                                                                %%% #0.25 % FIGURE-NAME:1
+                                                                %%% \fontsize % FIGURE-NAME:1
+                                                                    %%% #-2 % FIGURE-NAME:1
+                                                                    %%% (17) % FIGURE-NAME:1
+                                                            %%% ] % FIGURE-NAME:1
+                                                        %%% } % FIGURE-NAME:1
+                                            %%% } % FIGURE-NAME:1
+                                    }
                                 }
                         }
                         \tweak edge-height #'(0.7 . 0)

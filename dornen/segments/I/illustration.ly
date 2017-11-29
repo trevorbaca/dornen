@@ -326,19 +326,41 @@
                         {
                             
                             %%% GuitarMusicVoiceOne [measure 185] %%%
-                            \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:2
-                                \hcenter-in % SEGMENT:RESTATED-INSTRUMENT:2
-                                    #16 % SEGMENT:RESTATED-INSTRUMENT:2
-                                    Guitar % SEGMENT:RESTATED-INSTRUMENT:2
-                                } % SEGMENT:RESTATED-INSTRUMENT:2
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:2
-                                \null % SEGMENT:RESTATED-INSTRUMENT:2
-                                } % SEGMENT:RESTATED-INSTRUMENT:2
-                            \clef "treble" % SEGMENT:RESTATED-CLEF:4
-                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:1
-                            \override GuitarMusicStaff.Clef.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-CLEF:3
-                            \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED-CLEF:5
+                            \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:3
+                                \hcenter-in % SEGMENT:RESTATED-INSTRUMENT:3
+                                    #16 % SEGMENT:RESTATED-INSTRUMENT:3
+                                    Guitar % SEGMENT:RESTATED-INSTRUMENT:3
+                                } % SEGMENT:RESTATED-INSTRUMENT:3
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:3
+                                \null % SEGMENT:RESTATED-INSTRUMENT:3
+                                } % SEGMENT:RESTATED-INSTRUMENT:3
+                            \clef "treble" % SEGMENT:RESTATED-CLEF:5
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:2
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-CLEF:4
+                            \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED-CLEF:6
                             r8
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% R % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 1 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (0) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             r8
                             
@@ -355,12 +377,41 @@
                             \<
                             \ppp
                             ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "2-finger tamb. trill"
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        \override
+                                                            #'(box-padding . 0.5)
+                                                            \box
+                                                                "2-finger tamb. trill"
+                                            }
+                                        %%% \line % FIGURE-NAME:1
+                                            %%% { % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #2 % FIGURE-NAME:1
+                                                    %%% \concat % FIGURE-NAME:1
+                                                        %%% { % FIGURE-NAME:1
+                                                            %%% [ % FIGURE-NAME:1
+                                                            %%% \concat % FIGURE-NAME:1
+                                                                %%% { % FIGURE-NAME:1
+                                                                    %%% 2 % FIGURE-NAME:1
+                                                                    %%% \sub % FIGURE-NAME:1
+                                                                        %%% 1 % FIGURE-NAME:1
+                                                                %%% } % FIGURE-NAME:1
+                                                            %%% \hspace % FIGURE-NAME:1
+                                                                %%% #1 % FIGURE-NAME:1
+                                                            %%% \raise % FIGURE-NAME:1
+                                                                %%% #0.25 % FIGURE-NAME:1
+                                                                %%% \fontsize % FIGURE-NAME:1
+                                                                    %%% #-2 % FIGURE-NAME:1
+                                                                    %%% (1) % FIGURE-NAME:1
+                                                            %%% ] % FIGURE-NAME:1
+                                                        %%% } % FIGURE-NAME:1
+                                            %%% } % FIGURE-NAME:1
+                                    }
                                 }
                         }
                         \tweak edge-height #'(0.7 . 0)
@@ -380,6 +431,28 @@
                             :32
                             \repeatTie
                             \pp
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% 2 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 2 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (2) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     {
@@ -392,6 +465,28 @@
                             \repeatTie
                             \>
                             \pp
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% 2 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 3 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (3) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     {
@@ -403,6 +498,28 @@
                             :32
                             \repeatTie
                             \ppp
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% 2 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 4 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (4) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     {
@@ -413,6 +530,28 @@
                             gf2
                             :32
                             \repeatTie
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% 2 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 5 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (5) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     {
@@ -426,12 +565,41 @@
                             \<
                             \ppp
                             ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "3 fingers"
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        \override
+                                                            #'(box-padding . 0.5)
+                                                            \box
+                                                                "3 fingers"
+                                            }
+                                        %%% \line % FIGURE-NAME:1
+                                            %%% { % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #2 % FIGURE-NAME:1
+                                                    %%% \concat % FIGURE-NAME:1
+                                                        %%% { % FIGURE-NAME:1
+                                                            %%% [ % FIGURE-NAME:1
+                                                            %%% \concat % FIGURE-NAME:1
+                                                                %%% { % FIGURE-NAME:1
+                                                                    %%% 3 % FIGURE-NAME:1
+                                                                    %%% \sub % FIGURE-NAME:1
+                                                                        %%% 1 % FIGURE-NAME:1
+                                                                %%% } % FIGURE-NAME:1
+                                                            %%% \hspace % FIGURE-NAME:1
+                                                                %%% #1 % FIGURE-NAME:1
+                                                            %%% \raise % FIGURE-NAME:1
+                                                                %%% #0.25 % FIGURE-NAME:1
+                                                                %%% \fontsize % FIGURE-NAME:1
+                                                                    %%% #-2 % FIGURE-NAME:1
+                                                                    %%% (6) % FIGURE-NAME:1
+                                                            %%% ] % FIGURE-NAME:1
+                                                        %%% } % FIGURE-NAME:1
+                                            %%% } % FIGURE-NAME:1
+                                    }
                                 }
                         }
                     }
@@ -444,6 +612,28 @@
                             :32
                             \repeatTie
                             \p
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% 3 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 2 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (7) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     {
@@ -456,6 +646,28 @@
                             \repeatTie
                             \>
                             \p
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% 3 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 3 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (8) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     {
@@ -467,6 +679,28 @@
                             :32
                             \repeatTie
                             \ppp
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% 3 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 4 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (9) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     {
@@ -477,6 +711,28 @@
                             gf2
                             :32
                             \repeatTie
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% 3 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 5 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (10) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     {
@@ -490,12 +746,41 @@
                             \<
                             \ppp
                             ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "4 fingers"
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        \override
+                                                            #'(box-padding . 0.5)
+                                                            \box
+                                                                "4 fingers"
+                                            }
+                                        %%% \line % FIGURE-NAME:1
+                                            %%% { % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #2 % FIGURE-NAME:1
+                                                    %%% \concat % FIGURE-NAME:1
+                                                        %%% { % FIGURE-NAME:1
+                                                            %%% [ % FIGURE-NAME:1
+                                                            %%% \concat % FIGURE-NAME:1
+                                                                %%% { % FIGURE-NAME:1
+                                                                    %%% 4 % FIGURE-NAME:1
+                                                                    %%% \sub % FIGURE-NAME:1
+                                                                        %%% 1 % FIGURE-NAME:1
+                                                                %%% } % FIGURE-NAME:1
+                                                            %%% \hspace % FIGURE-NAME:1
+                                                                %%% #1 % FIGURE-NAME:1
+                                                            %%% \raise % FIGURE-NAME:1
+                                                                %%% #0.25 % FIGURE-NAME:1
+                                                                %%% \fontsize % FIGURE-NAME:1
+                                                                    %%% #-2 % FIGURE-NAME:1
+                                                                    %%% (11) % FIGURE-NAME:1
+                                                            %%% ] % FIGURE-NAME:1
+                                                        %%% } % FIGURE-NAME:1
+                                            %%% } % FIGURE-NAME:1
+                                    }
                                 }
                         }
                     }
@@ -508,6 +793,28 @@
                             :32
                             \repeatTie
                             \pp
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% 4 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 2 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (12) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     {
@@ -520,6 +827,28 @@
                             \repeatTie
                             \<
                             \pp
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% 4 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 3 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (13) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     {
@@ -531,6 +860,28 @@
                             :32
                             \repeatTie
                             \p
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% 4 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 4 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (14) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     {
@@ -543,6 +894,28 @@
                             \repeatTie
                             \<
                             \p
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% 4 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 5 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (15) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     {
@@ -554,6 +927,28 @@
                             :32
                             \repeatTie
                             \mp
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% 4 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 6 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (16) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     {
@@ -566,6 +961,28 @@
                             \repeatTie
                             \>
                             \mp
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% 4 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 7 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (17) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     {
@@ -576,6 +993,28 @@
                             gf2
                             :32
                             \repeatTie
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% 4 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 8 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (18) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     {
@@ -586,6 +1025,28 @@
                             gf2
                             :32
                             \repeatTie
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% 4 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 9 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (19) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     {
@@ -597,12 +1058,41 @@
                             :32
                             \repeatTie
                             ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "3 fingers"
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        \override
+                                                            #'(box-padding . 0.5)
+                                                            \box
+                                                                "3 fingers"
+                                            }
+                                        %%% \line % FIGURE-NAME:1
+                                            %%% { % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #2 % FIGURE-NAME:1
+                                                    %%% \concat % FIGURE-NAME:1
+                                                        %%% { % FIGURE-NAME:1
+                                                            %%% [ % FIGURE-NAME:1
+                                                            %%% \concat % FIGURE-NAME:1
+                                                                %%% { % FIGURE-NAME:1
+                                                                    %%% 4 % FIGURE-NAME:1
+                                                                    %%% \sub % FIGURE-NAME:1
+                                                                        %%% 10 % FIGURE-NAME:1
+                                                                %%% } % FIGURE-NAME:1
+                                                            %%% \hspace % FIGURE-NAME:1
+                                                                %%% #1 % FIGURE-NAME:1
+                                                            %%% \raise % FIGURE-NAME:1
+                                                                %%% #0.25 % FIGURE-NAME:1
+                                                                %%% \fontsize % FIGURE-NAME:1
+                                                                    %%% #-2 % FIGURE-NAME:1
+                                                                    %%% (20) % FIGURE-NAME:1
+                                                            %%% ] % FIGURE-NAME:1
+                                                        %%% } % FIGURE-NAME:1
+                                            %%% } % FIGURE-NAME:1
+                                    }
                                 }
                         }
                         \tweak edge-height #'(0.7 . 0)
@@ -623,12 +1113,41 @@
                             :32
                             \repeatTie
                             ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                "2 fingers"
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        \override
+                                                            #'(box-padding . 0.5)
+                                                            \box
+                                                                "2 fingers"
+                                            }
+                                        %%% \line % FIGURE-NAME:1
+                                            %%% { % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #2 % FIGURE-NAME:1
+                                                    %%% \concat % FIGURE-NAME:1
+                                                        %%% { % FIGURE-NAME:1
+                                                            %%% [ % FIGURE-NAME:1
+                                                            %%% \concat % FIGURE-NAME:1
+                                                                %%% { % FIGURE-NAME:1
+                                                                    %%% 4 % FIGURE-NAME:1
+                                                                    %%% \sub % FIGURE-NAME:1
+                                                                        %%% 11 % FIGURE-NAME:1
+                                                                %%% } % FIGURE-NAME:1
+                                                            %%% \hspace % FIGURE-NAME:1
+                                                                %%% #1 % FIGURE-NAME:1
+                                                            %%% \raise % FIGURE-NAME:1
+                                                                %%% #0.25 % FIGURE-NAME:1
+                                                                %%% \fontsize % FIGURE-NAME:1
+                                                                    %%% #-2 % FIGURE-NAME:1
+                                                                    %%% (21) % FIGURE-NAME:1
+                                                            %%% ] % FIGURE-NAME:1
+                                                        %%% } % FIGURE-NAME:1
+                                            %%% } % FIGURE-NAME:1
+                                    }
                                 }
                         }
                         \tweak edge-height #'(0.7 . 0)

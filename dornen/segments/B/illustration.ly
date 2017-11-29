@@ -556,20 +556,37 @@
                             
                             %%% GuitarMusicVoiceOne [measure 35] %%%
                             \once \override Beam.grow-direction = #left
-                            \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:2
-                                \hcenter-in % SEGMENT:RESTATED-INSTRUMENT:2
-                                    #16 % SEGMENT:RESTATED-INSTRUMENT:2
-                                    Guitar % SEGMENT:RESTATED-INSTRUMENT:2
-                                } % SEGMENT:RESTATED-INSTRUMENT:2
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:2
-                                \null % SEGMENT:RESTATED-INSTRUMENT:2
-                                } % SEGMENT:RESTATED-INSTRUMENT:2
-                            \clef "treble" % SEGMENT:RESTATED-CLEF:4
-                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:1
-                            \override GuitarMusicStaff.Clef.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-CLEF:3
-                            \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED-CLEF:5
+                            \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:3
+                                \hcenter-in % SEGMENT:RESTATED-INSTRUMENT:3
+                                    #16 % SEGMENT:RESTATED-INSTRUMENT:3
+                                    Guitar % SEGMENT:RESTATED-INSTRUMENT:3
+                                } % SEGMENT:RESTATED-INSTRUMENT:3
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:3
+                                \null % SEGMENT:RESTATED-INSTRUMENT:3
+                                } % SEGMENT:RESTATED-INSTRUMENT:3
+                            \clef "treble" % SEGMENT:RESTATED-CLEF:5
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:2
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-CLEF:4
+                            \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED-CLEF:6
                             b''64 * 256/1024
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% W1 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (0) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             g''64 * 512/1024
                             
@@ -631,6 +648,23 @@
                             \once \override Beam.grow-direction = #left
                             a''64 * 320/1024
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% W2 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (4) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             cs''64 * 640/1024
                             
@@ -710,6 +744,28 @@
                             b'32
                             -\staccato
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% D1 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 1 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (8) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -742,6 +798,28 @@
                             \set stemRightBeamCount = #3
                             b''32
                             -\staccato
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% D1 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 2 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (10) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -769,6 +847,28 @@
                             \set stemRightBeamCount = #3
                             b''32
                             -\staccato
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% D1 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 3 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (12) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -862,6 +962,23 @@
                             \once \override Beam.grow-direction = #right
                             a'64 * 2688/1024
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% W2* % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (15) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             cs'64 * 1472/1024
                             
@@ -903,6 +1020,28 @@
                             b''32
                             -\staccato
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% D1 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 4 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (16) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -990,6 +1129,28 @@
                             \set stemRightBeamCount = #3
                             b''32
                             -\staccato
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% D1 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 5 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (18) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -1034,6 +1195,28 @@
                             b'32
                             -\staccato
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% D1 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 6 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (22) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -1097,6 +1280,28 @@
                                 c''32
                                 -\staccato
                                 [
+                                %%% ^ \markup { % FIGURE-NAME:1
+                                    %%% \fontsize % FIGURE-NAME:1
+                                        %%% #2 % FIGURE-NAME:1
+                                        %%% \concat % FIGURE-NAME:1
+                                            %%% { % FIGURE-NAME:1
+                                                %%% [ % FIGURE-NAME:1
+                                                %%% \concat % FIGURE-NAME:1
+                                                    %%% { % FIGURE-NAME:1
+                                                        %%% D1 % FIGURE-NAME:1
+                                                        %%% \sub % FIGURE-NAME:1
+                                                            %%% 7 % FIGURE-NAME:1
+                                                    %%% } % FIGURE-NAME:1
+                                                %%% \hspace % FIGURE-NAME:1
+                                                    %%% #1 % FIGURE-NAME:1
+                                                %%% \raise % FIGURE-NAME:1
+                                                    %%% #0.25 % FIGURE-NAME:1
+                                                    %%% \fontsize % FIGURE-NAME:1
+                                                        %%% #-2 % FIGURE-NAME:1
+                                                        %%% (23) % FIGURE-NAME:1
+                                                %%% ] % FIGURE-NAME:1
+                                            %%% } % FIGURE-NAME:1
+                                    %%% } % FIGURE-NAME:1
                                 
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
@@ -1185,6 +1390,23 @@
                             af''32
                             -\staccato
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% D2 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (24) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -1308,6 +1530,23 @@
                             \once \override Beam.grow-direction = #right
                             a''64 * 2688/1024
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% W2** % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (32) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             cs''64 * 1472/1024
                             
@@ -1349,6 +1588,23 @@
                             af''32
                             -\staccato
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% D2* % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (33) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -1451,6 +1707,23 @@
                             \set stemRightBeamCount = #1
                             ef'8.
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% O1 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (2) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -1476,6 +1749,23 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             cs'8.
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% O2 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (6) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -1503,6 +1793,23 @@
                             \set stemRightBeamCount = #1
                             ef'8.
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% O1* % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (13) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -1528,6 +1835,23 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             cs'8.
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% O2* % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (19) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -1555,6 +1879,23 @@
                             \set stemRightBeamCount = #1
                             ef'8.
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% O1** % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (21) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -1580,6 +1921,23 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             cs'8.
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% O2** % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (25) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -1601,6 +1959,23 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             fs'8.
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% O3 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (26) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -1624,6 +1999,23 @@
                             \set stemRightBeamCount = #1
                             g'8.
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% O4 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (27) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -1645,6 +2037,23 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             af'8.
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% O5 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (28) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -1665,6 +2074,23 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             ef'8.
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% O6 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (29) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -1685,6 +2111,23 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             a'8.
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% O7 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (30) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -1708,6 +2151,23 @@
                             \set stemRightBeamCount = #1
                             b8.
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% O8 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (31) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -1732,6 +2192,23 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             e'8.
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% O9 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (34) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -1753,6 +2230,23 @@
                             \set stemRightBeamCount = #0
                             bf8.
                             ]
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% O10 % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (35) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             \bar "|"
                             
                         }
@@ -1887,6 +2381,28 @@
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 42)
                             f''16
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% G1 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 1 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (1) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     
@@ -1903,6 +2419,28 @@
                             \set stemRightBeamCount = #1
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 42)
                             f''16
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% G1 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 1* % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (3) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     
@@ -1918,6 +2456,28 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             f''16
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% G1 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 2 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (5) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -1943,6 +2503,28 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             f''16
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% G1 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 3 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (7) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -1972,6 +2554,28 @@
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 42)
                             f''16
                             [
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% G1 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 4 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (9) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                         }
                     }
                     
@@ -1987,6 +2591,28 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             f''16
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% G1 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 5 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (11) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -2021,6 +2647,28 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             f''16
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% G1 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 6 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (14) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -2047,6 +2695,28 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             f''16
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% G1 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 7 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (17) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 
@@ -2100,6 +2770,28 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             f''16
+                            %%% ^ \markup { % FIGURE-NAME:1
+                                %%% \fontsize % FIGURE-NAME:1
+                                    %%% #2 % FIGURE-NAME:1
+                                    %%% \concat % FIGURE-NAME:1
+                                        %%% { % FIGURE-NAME:1
+                                            %%% [ % FIGURE-NAME:1
+                                            %%% \concat % FIGURE-NAME:1
+                                                %%% { % FIGURE-NAME:1
+                                                    %%% G1 % FIGURE-NAME:1
+                                                    %%% \sub % FIGURE-NAME:1
+                                                        %%% 8 % FIGURE-NAME:1
+                                                %%% } % FIGURE-NAME:1
+                                            %%% \hspace % FIGURE-NAME:1
+                                                %%% #1 % FIGURE-NAME:1
+                                            %%% \raise % FIGURE-NAME:1
+                                                %%% #0.25 % FIGURE-NAME:1
+                                                %%% \fontsize % FIGURE-NAME:1
+                                                    %%% #-2 % FIGURE-NAME:1
+                                                    %%% (20) % FIGURE-NAME:1
+                                            %%% ] % FIGURE-NAME:1
+                                        %%% } % FIGURE-NAME:1
+                                %%% } % FIGURE-NAME:1
                             
                             \acciaccatura {
                                 

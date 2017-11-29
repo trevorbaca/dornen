@@ -35,23 +35,23 @@ class MusicAccumulator(baca.MusicAccumulator):
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             c'32 -\staccato [
-                                ^ \markup {
-                                    \fontsize
-                                        #2
-                                        \concat
-                                            {
-                                                [
-                                                D
-                                                \hspace
-                                                    #1
-                                                \raise
-                                                    #0.25
-                                                    \fontsize
-                                                        #-2
-                                                        (0)
-                                                ]
-                                            }
-                                    }
+                                ^ \markup { % FIGURE-NAME:1
+                                    \fontsize % FIGURE-NAME:1
+                                        #2 % FIGURE-NAME:1
+                                        \concat % FIGURE-NAME:1
+                                            { % FIGURE-NAME:1
+                                                [ % FIGURE-NAME:1
+                                                D % FIGURE-NAME:1
+                                                \hspace % FIGURE-NAME:1
+                                                    #1 % FIGURE-NAME:1
+                                                \raise % FIGURE-NAME:1
+                                                    #0.25 % FIGURE-NAME:1
+                                                    \fontsize % FIGURE-NAME:1
+                                                        #-2 % FIGURE-NAME:1
+                                                        (0) % FIGURE-NAME:1
+                                                ] % FIGURE-NAME:1
+                                            } % FIGURE-NAME:1
+                                    } % FIGURE-NAME:1
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             cs'32 -\staccato

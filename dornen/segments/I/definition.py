@@ -190,7 +190,6 @@ measures_per_stage = len(accumulator.time_signatures) * [1]
 
 maker = baca.SegmentMaker(
     instruments=dornen.instruments,
-    label_clock_time=False,
     measures_per_stage=measures_per_stage,
     metronome_marks=dornen.metronome_marks,
     rehearsal_letter='',

@@ -82,6 +82,13 @@ def passepied_music():
                         \time 1/32
                         \bar "" % SEGMENT:EMPTY-BAR:1
                         s1 * 1/32
+                            - \markup { % STAGE-NUMBER:2
+                                \fontsize % STAGE-NUMBER:2
+                                    #-3 % STAGE-NUMBER:2
+                                    \with-color % STAGE-NUMBER:2
+                                        #(x11-color 'DarkCyan) % STAGE-NUMBER:2
+                                        [1] % STAGE-NUMBER:2
+                                } % STAGE-NUMBER:2
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
                         \time 1/32
@@ -246,6 +253,13 @@ def passepied_music():
                         \time 17/32
                         \bar "" % SEGMENT:EMPTY-BAR:1
                         s1 * 17/32
+                            - \markup { % STAGE-NUMBER:2
+                                \fontsize % STAGE-NUMBER:2
+                                    #-3 % STAGE-NUMBER:2
+                                    \with-color % STAGE-NUMBER:2
+                                        #(x11-color 'DarkCyan) % STAGE-NUMBER:2
+                                        [1] % STAGE-NUMBER:2
+                                } % STAGE-NUMBER:2
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
                         \time 17/32

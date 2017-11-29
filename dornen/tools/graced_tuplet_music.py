@@ -4,7 +4,7 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def graced_tuplet_music():
-    '''Makes graced tuplet music-maker.
+    r'''Makes graced tuplet music-maker.
 
     >>> import dornen
 
@@ -318,6 +318,7 @@ def graced_tuplet_music():
                     }
                 >>
             >>
+
 
     Returns music-maker.
     '''

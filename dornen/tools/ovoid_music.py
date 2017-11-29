@@ -4,7 +4,7 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def ovoid_music():
-    '''Makes ovoid music-maker.
+    r'''Makes ovoid music-maker.
 
     >>> import dornen
 
@@ -272,7 +272,6 @@ def ovoid_music():
                     }
                 >>
             >>
-
 
     Returns music-maker.
     '''

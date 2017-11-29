@@ -91,8 +91,8 @@ def glissando_scatto_music():
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
-                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                                \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                                 e'16
                             }
                             \tweak text #tuplet-number::calc-fraction-text
@@ -258,8 +258,8 @@ def glissando_scatto_music():
                                 %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
-                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                                \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                                 e'16 [ \glissando
                             }
                             \tweak text #tuplet-number::calc-fraction-text

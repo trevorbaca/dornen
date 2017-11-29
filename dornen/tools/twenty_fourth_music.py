@@ -113,8 +113,8 @@ def twenty_fourth_music():
                             \times 2/3 {
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
-                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                                \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                                 cs'16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -307,8 +307,8 @@ def twenty_fourth_music():
                             \times 2/3 {
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
-                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                                \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                                 cs'16
                             }
                             \tweak edge-height #'(0.7 . 0)

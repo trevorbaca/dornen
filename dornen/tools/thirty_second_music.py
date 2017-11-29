@@ -91,8 +91,8 @@ def thirty_second_music():
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
-                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                                \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                                 e'32
                             }
                             {
@@ -260,8 +260,8 @@ def thirty_second_music():
                                 %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                                \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                                 e'32 [
                             }
                             {

@@ -92,8 +92,8 @@ def tremolo_music():
                             \times 8/11 {
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
-                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                                \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                                 e'8 :32
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -275,8 +275,8 @@ def tremolo_music():
                                 %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                                \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                                 e'8 :32 [
                             }
                             \tweak edge-height #'(0.7 . 0)

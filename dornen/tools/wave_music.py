@@ -123,8 +123,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
                                 \once \override Beam.grow-direction = #right
-                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                                \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                                 fs'64 * 2112/1024 [
             <BLANKLINE>
                                 d'64 * 1152/1024
@@ -502,8 +502,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
                                 \once \override Beam.grow-direction = #left
-                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                                \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                                 fs'64 * 320/1024 [
             <BLANKLINE>
                                 d'64 * 640/1024
@@ -881,8 +881,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
                                 \once \override Beam.grow-direction = #right
-                                \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                                \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                                \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                                 fs'32 * 2080/1024 [
             <BLANKLINE>
                                 d'32 * 1152/1024

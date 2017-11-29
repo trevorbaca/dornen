@@ -343,7 +343,6 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
 measures_per_stage = len(accumulator.time_signatures) * [1]
 
 maker = baca.SegmentMaker(
-    allow_figure_names=False,
     final_markup=(
         ['Cambridge, MA', 'Madison, WI', 'Palo Alto, CA.'],
         ['November 2015', 'July 2016.'],

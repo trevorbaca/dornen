@@ -69,15 +69,15 @@ def rest_music(duration=None):
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 1/8
-                        \bar "" % SEGMENT:EMPTY-BAR:1
+                        \bar "" % SEGMENT:EMPTY_BAR:1
                         s1 * 1/8
-                            - \markup { % STAGE-NUMBER:2
-                                \fontsize % STAGE-NUMBER:2
-                                    #-3 % STAGE-NUMBER:2
-                                    \with-color % STAGE-NUMBER:2
-                                        #(x11-color 'DarkCyan) % STAGE-NUMBER:2
-                                        [1] % STAGE-NUMBER:2
-                                } % STAGE-NUMBER:2
+                            - \markup { % STAGE_NUMBER:2
+                                \fontsize % STAGE_NUMBER:2
+                                    #-3 % STAGE_NUMBER:2
+                                    \with-color % STAGE_NUMBER:2
+                                        #(x11-color 'DarkCyan) % STAGE_NUMBER:2
+                                        [1] % STAGE_NUMBER:2
+                                } % STAGE_NUMBER:2
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
                         \time 2/8
@@ -181,15 +181,15 @@ def rest_music(duration=None):
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 6/8
-                        \bar "" % SEGMENT:EMPTY-BAR:1
+                        \bar "" % SEGMENT:EMPTY_BAR:1
                         s1 * 3/4
-                            - \markup { % STAGE-NUMBER:2
-                                \fontsize % STAGE-NUMBER:2
-                                    #-3 % STAGE-NUMBER:2
-                                    \with-color % STAGE-NUMBER:2
-                                        #(x11-color 'DarkCyan) % STAGE-NUMBER:2
-                                        [1] % STAGE-NUMBER:2
-                                } % STAGE-NUMBER:2
+                            - \markup { % STAGE_NUMBER:2
+                                \fontsize % STAGE_NUMBER:2
+                                    #-3 % STAGE_NUMBER:2
+                                    \with-color % STAGE_NUMBER:2
+                                        #(x11-color 'DarkCyan) % STAGE_NUMBER:2
+                                        [1] % STAGE_NUMBER:2
+                                } % STAGE_NUMBER:2
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
                         \time 6/8

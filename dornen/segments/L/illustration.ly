@@ -15,27 +15,27 @@
                 
                 %%% GlobalSkips [measure 257] %%%
                 \time 2/5
-                \bar "" % SEGMENT:EMPTY-BAR:1
+                \bar "" % SEGMENT:EMPTY_BAR:1
                 \once \override TextScript.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER-METRONOME-MARK:3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:5
                 s1 * 2/5
-                %%% ^ \markup { % CLOCK-TIME:7
-                    %%% \fontsize % CLOCK-TIME:7
-                        %%% #-2 % CLOCK-TIME:7
-                        %%% 9'35'' % CLOCK-TIME:7
-                    %%% } % CLOCK-TIME:7
+                %%% ^ \markup { % CLOCK_TIME:7
+                    %%% \fontsize % CLOCK_TIME:7
+                        %%% #-2 % CLOCK_TIME:7
+                        %%% 9'35'' % CLOCK_TIME:7
+                    %%% } % CLOCK_TIME:7
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:2
-                                %%% { % STAGE-NUMBER:2
-                                    %%% \fontsize % STAGE-NUMBER:2
-                                        %%% #-3 % STAGE-NUMBER:2
-                                        %%% \with-color % STAGE-NUMBER:2
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:2
-                                            %%% [L.1] % STAGE-NUMBER:2
-                                %%% } % STAGE-NUMBER:2
+                            %%% \line % STAGE_NUMBER:2
+                                %%% { % STAGE_NUMBER:2
+                                    %%% \fontsize % STAGE_NUMBER:2
+                                        %%% #-3 % STAGE_NUMBER:2
+                                        %%% \with-color % STAGE_NUMBER:2
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:2
+                                            %%% [L.1] % STAGE_NUMBER:2
+                                %%% } % STAGE_NUMBER:2
                             %%% \line % SEGMENT:SPACING:MARKUP:6
                                 %%% { % SEGMENT:SPACING:MARKUP:6
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:6
@@ -68,22 +68,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/5
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 9'37'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 9'37'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.2] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.2] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -100,22 +100,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 9'40'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 9'40'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.3] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.3] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -132,22 +132,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 9'43'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 9'43'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.4] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.4] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -164,22 +164,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 9'45'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 9'45'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.5] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.5] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -196,22 +196,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/5
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 9'48'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 9'48'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.6] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.6] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -228,22 +228,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/5
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 9'51'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 9'51'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.7] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.7] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -260,22 +260,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 9'53'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 9'53'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.8] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.8] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -292,22 +292,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 9'56'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 9'56'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.9] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.9] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -324,22 +324,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 9'58'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 9'58'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.10] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.10] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -356,22 +356,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/5
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 10'01'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 10'01'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.11] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.11] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -388,22 +388,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/5
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 10'04'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 10'04'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.12] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.12] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -420,22 +420,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 10'07'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 10'07'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.13] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.13] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -452,22 +452,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 10'09'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 10'09'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.14] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.14] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -484,22 +484,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 10'11'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 10'11'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.15] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.15] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -516,22 +516,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/5
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 10'14'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 10'14'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.16] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.16] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -548,22 +548,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 10'17'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 10'17'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.17] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.17] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -580,22 +580,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/5
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 10'22'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 10'22'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.18] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.18] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -612,22 +612,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/5
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 10'24'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 10'24'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.19] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.19] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -644,22 +644,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/5
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 10'27'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 10'27'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.20] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.20] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -676,22 +676,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 10'30'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 10'30'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.21] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.21] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -708,22 +708,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/5
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 10'38'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 10'38'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.22] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.22] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -740,22 +740,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/5
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 10'40'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 10'40'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.23] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.23] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -772,22 +772,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/5
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 10'43'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 10'43'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.24] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.24] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -804,22 +804,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 4/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 10'46'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 10'46'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.25] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.25] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -836,22 +836,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 5/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 10'56'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 10'56'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.26] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.26] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -868,22 +868,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 4/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 11'08'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 11'08'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.27] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.27] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -900,22 +900,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 11'18'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 11'18'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.28] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.28] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -932,22 +932,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 11'25'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 11'25'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.29] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.29] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -964,22 +964,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 11'30'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 11'30'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.30] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.30] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -996,22 +996,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 11'32'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 11'32'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.31] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.31] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -1028,22 +1028,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 11'37'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 11'37'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.32] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.32] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -1060,22 +1060,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 4/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 11'44'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 11'44'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.33] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.33] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -1092,22 +1092,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 5/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 11'54'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 11'54'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.34] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.34] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -1124,22 +1124,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 4/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 12'06'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 12'06'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.35] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.35] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -1156,22 +1156,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 12'16'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 12'16'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.36] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.36] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -1188,22 +1188,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 12'23'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 12'23'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.37] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.37] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -1220,22 +1220,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 12'28'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 12'28'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.38] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.38] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -1252,22 +1252,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 12'31'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 12'31'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.39] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.39] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -1284,22 +1284,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 12'35'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 12'35'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.40] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.40] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -1316,22 +1316,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 4/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 12'43'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 12'43'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.41] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.41] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -1348,22 +1348,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 5/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 12'52'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 12'52'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.42] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.42] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -1380,22 +1380,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 13'04'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 13'04'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.43] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.43] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -1412,22 +1412,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 2/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 13'12'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 13'12'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.44] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.44] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -1444,22 +1444,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 1/3
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 13'17'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 13'17'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.45] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.45] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -1476,22 +1476,22 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:2
                 s1 * 5/8
-                %%% ^ \markup { % CLOCK-TIME:4
-                    %%% \fontsize % CLOCK-TIME:4
-                        %%% #-2 % CLOCK-TIME:4
-                        %%% 13'19'' % CLOCK-TIME:4
-                    %%% } % CLOCK-TIME:4
+                %%% ^ \markup { % CLOCK_TIME:4
+                    %%% \fontsize % CLOCK_TIME:4
+                        %%% #-2 % CLOCK_TIME:4
+                        %%% 13'19'' % CLOCK_TIME:4
+                    %%% } % CLOCK_TIME:4
                 - \markup {
                     \column
                         {
-                            %%% \line % STAGE-NUMBER:1
-                                %%% { % STAGE-NUMBER:1
-                                    %%% \fontsize % STAGE-NUMBER:1
-                                        %%% #-3 % STAGE-NUMBER:1
-                                        %%% \with-color % STAGE-NUMBER:1
-                                            %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
-                                            %%% [L.46] % STAGE-NUMBER:1
-                                %%% } % STAGE-NUMBER:1
+                            %%% \line % STAGE_NUMBER:1
+                                %%% { % STAGE_NUMBER:1
+                                    %%% \fontsize % STAGE_NUMBER:1
+                                        %%% #-3 % STAGE_NUMBER:1
+                                        %%% \with-color % STAGE_NUMBER:1
+                                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
+                                            %%% [L.46] % STAGE_NUMBER:1
+                                %%% } % STAGE_NUMBER:1
                             %%% \line % SEGMENT:SPACING:MARKUP:3
                                 %%% { % SEGMENT:SPACING:MARKUP:3
                                     %%% \with-color % SEGMENT:SPACING:MARKUP:3
@@ -1527,28 +1527,28 @@
                             \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED-CLEF:6
                             e2
                             :32
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 2 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 1 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (0) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 2 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 1 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (0) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                         }
                     }
                     {
@@ -1582,28 +1582,28 @@
                             \<
                             \mp
                             \startTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 2 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 2 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (1) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 2 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 2 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (1) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                         }
                     }
                     {
@@ -1616,28 +1616,28 @@
                             \repeatTie
                             \mf
                             \stopTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 2 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 3 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (2) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 2 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 3 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (2) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -1676,28 +1676,28 @@
                             \>
                             \mf
                             \startTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 2 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 4 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (3) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 2 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 4 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (3) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                         }
                     }
                     {
@@ -1710,28 +1710,28 @@
                             \repeatTie
                             \mp
                             \stopTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 2 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 5 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (4) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 2 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 5 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (4) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -1759,29 +1759,29 @@
                                                             \box
                                                                 "3 fingers"
                                             }
-                                        %%% \line % FIGURE-NAME:1
-                                            %%% { % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #2 % FIGURE-NAME:1
-                                                    %%% \concat % FIGURE-NAME:1
-                                                        %%% { % FIGURE-NAME:1
-                                                            %%% [ % FIGURE-NAME:1
-                                                            %%% \concat % FIGURE-NAME:1
-                                                                %%% { % FIGURE-NAME:1
-                                                                    %%% 3 % FIGURE-NAME:1
-                                                                    %%% \sub % FIGURE-NAME:1
-                                                                        %%% 1 % FIGURE-NAME:1
-                                                                %%% } % FIGURE-NAME:1
-                                                            %%% \hspace % FIGURE-NAME:1
-                                                                %%% #1 % FIGURE-NAME:1
-                                                            %%% \raise % FIGURE-NAME:1
-                                                                %%% #0.25 % FIGURE-NAME:1
-                                                                %%% \fontsize % FIGURE-NAME:1
-                                                                    %%% #-2 % FIGURE-NAME:1
-                                                                    %%% (5) % FIGURE-NAME:1
-                                                            %%% ] % FIGURE-NAME:1
-                                                        %%% } % FIGURE-NAME:1
-                                            %%% } % FIGURE-NAME:1
+                                        %%% \line % FIGURE_NAME:1
+                                            %%% { % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #2 % FIGURE_NAME:1
+                                                    %%% \concat % FIGURE_NAME:1
+                                                        %%% { % FIGURE_NAME:1
+                                                            %%% [ % FIGURE_NAME:1
+                                                            %%% \concat % FIGURE_NAME:1
+                                                                %%% { % FIGURE_NAME:1
+                                                                    %%% 3 % FIGURE_NAME:1
+                                                                    %%% \sub % FIGURE_NAME:1
+                                                                        %%% 1 % FIGURE_NAME:1
+                                                                %%% } % FIGURE_NAME:1
+                                                            %%% \hspace % FIGURE_NAME:1
+                                                                %%% #1 % FIGURE_NAME:1
+                                                            %%% \raise % FIGURE_NAME:1
+                                                                %%% #0.25 % FIGURE_NAME:1
+                                                                %%% \fontsize % FIGURE_NAME:1
+                                                                    %%% #-2 % FIGURE_NAME:1
+                                                                    %%% (5) % FIGURE_NAME:1
+                                                            %%% ] % FIGURE_NAME:1
+                                                        %%% } % FIGURE_NAME:1
+                                            %%% } % FIGURE_NAME:1
                                     }
                                 }
                         }
@@ -1817,28 +1817,28 @@
                             \<
                             \mp
                             \startTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 3 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 2 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (6) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 3 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 2 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (6) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                         }
                     }
                     {
@@ -1851,28 +1851,28 @@
                             \repeatTie
                             \f
                             \stopTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 3 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 3 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (7) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 3 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 3 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (7) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -1911,28 +1911,28 @@
                             \>
                             \f
                             \startTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 3 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 4 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (8) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 3 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 4 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (8) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                         }
                     }
                     {
@@ -1945,28 +1945,28 @@
                             \repeatTie
                             \mp
                             \stopTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 3 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 5 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (9) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 3 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 5 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (9) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -1994,29 +1994,29 @@
                                                             \box
                                                                 "4 fingers"
                                             }
-                                        %%% \line % FIGURE-NAME:1
-                                            %%% { % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #2 % FIGURE-NAME:1
-                                                    %%% \concat % FIGURE-NAME:1
-                                                        %%% { % FIGURE-NAME:1
-                                                            %%% [ % FIGURE-NAME:1
-                                                            %%% \concat % FIGURE-NAME:1
-                                                                %%% { % FIGURE-NAME:1
-                                                                    %%% 4 % FIGURE-NAME:1
-                                                                    %%% \sub % FIGURE-NAME:1
-                                                                        %%% 1 % FIGURE-NAME:1
-                                                                %%% } % FIGURE-NAME:1
-                                                            %%% \hspace % FIGURE-NAME:1
-                                                                %%% #1 % FIGURE-NAME:1
-                                                            %%% \raise % FIGURE-NAME:1
-                                                                %%% #0.25 % FIGURE-NAME:1
-                                                                %%% \fontsize % FIGURE-NAME:1
-                                                                    %%% #-2 % FIGURE-NAME:1
-                                                                    %%% (10) % FIGURE-NAME:1
-                                                            %%% ] % FIGURE-NAME:1
-                                                        %%% } % FIGURE-NAME:1
-                                            %%% } % FIGURE-NAME:1
+                                        %%% \line % FIGURE_NAME:1
+                                            %%% { % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #2 % FIGURE_NAME:1
+                                                    %%% \concat % FIGURE_NAME:1
+                                                        %%% { % FIGURE_NAME:1
+                                                            %%% [ % FIGURE_NAME:1
+                                                            %%% \concat % FIGURE_NAME:1
+                                                                %%% { % FIGURE_NAME:1
+                                                                    %%% 4 % FIGURE_NAME:1
+                                                                    %%% \sub % FIGURE_NAME:1
+                                                                        %%% 1 % FIGURE_NAME:1
+                                                                %%% } % FIGURE_NAME:1
+                                                            %%% \hspace % FIGURE_NAME:1
+                                                                %%% #1 % FIGURE_NAME:1
+                                                            %%% \raise % FIGURE_NAME:1
+                                                                %%% #0.25 % FIGURE_NAME:1
+                                                                %%% \fontsize % FIGURE_NAME:1
+                                                                    %%% #-2 % FIGURE_NAME:1
+                                                                    %%% (10) % FIGURE_NAME:1
+                                                            %%% ] % FIGURE_NAME:1
+                                                        %%% } % FIGURE_NAME:1
+                                            %%% } % FIGURE_NAME:1
                                     }
                                 }
                         }
@@ -2052,28 +2052,28 @@
                             \<
                             \mp
                             \startTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 2 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (11) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 2 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (11) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                         }
                     }
                     {
@@ -2086,28 +2086,28 @@
                             \repeatTie
                             \ff
                             \stopTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 3 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (12) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 3 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (12) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -2125,28 +2125,28 @@
                             \repeatTie
                             \>
                             \ff
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 4 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (13) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 4 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (13) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                         }
                     }
                     {
@@ -2158,28 +2158,28 @@
                             :32
                             \repeatTie
                             \mf
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 5 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (14) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 5 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (14) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                         }
                     }
                     {
@@ -2213,28 +2213,28 @@
                             \<
                             \mf
                             \startTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 6 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (15) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 6 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (15) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                         }
                     }
                     {
@@ -2247,28 +2247,28 @@
                             \repeatTie
                             \f
                             \stopTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 7 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (16) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 7 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (16) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -2311,28 +2311,28 @@
                             \>
                             \f
                             \startTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 8 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (17) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 8 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (17) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                         }
                     }
                     {
@@ -2345,28 +2345,28 @@
                             \repeatTie
                             \mf
                             \stopTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 9 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (18) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 9 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (18) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -2405,28 +2405,28 @@
                             \<
                             \mf
                             \startTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 10 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (19) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 10 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (19) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                         }
                     }
                     {
@@ -2438,28 +2438,28 @@
                             \repeatTie
                             \ff
                             \stopTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 11 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (20) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 11 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (20) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -2506,28 +2506,28 @@
                             \>
                             \ff
                             \startTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 12 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (21) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 12 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (21) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                         }
                     }
                     {
@@ -2540,28 +2540,28 @@
                             \repeatTie
                             \mf
                             \stopTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 13 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (22) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 13 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (22) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -2600,28 +2600,28 @@
                             \<
                             \mf
                             \startTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 14 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (23) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 14 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (23) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                         }
                     }
                     {
@@ -2632,28 +2632,28 @@
                             e2
                             :32
                             \repeatTie
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 15 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (24) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 15 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (24) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             
                             e2
                             :32
@@ -2678,28 +2678,28 @@
                             \repeatTie
                             \ffff
                             \stopTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 16 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (25) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 16 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (25) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -2754,28 +2754,28 @@
                             \>
                             \ffff
                             \startTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 17 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (26) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 17 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (26) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             
                             e2
                             :32
@@ -2800,28 +2800,28 @@
                             \ff
                             \<
                             \ff
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 18 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (27) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 18 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (27) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             
                             e2
                             :32
@@ -2843,28 +2843,28 @@
                             \fff
                             \>
                             \fff
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 19 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (28) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 19 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (28) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             
                             e2
                             :32
@@ -2882,28 +2882,28 @@
                             \f
                             \<
                             \f
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 20 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (29) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 20 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (29) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                         }
                     }
                     {
@@ -2917,28 +2917,28 @@
                             \ff
                             \>
                             \ff
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 21 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (30) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 21 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (30) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             
                             e2
                             :32
@@ -2955,28 +2955,28 @@
                             \mf
                             \<
                             \mf
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 22 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (31) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 22 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (31) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             
                             e2
                             :32
@@ -2998,28 +2998,28 @@
                             \f
                             \>
                             \f
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 23 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (32) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 23 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (32) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             
                             e2
                             :32
@@ -3045,28 +3045,28 @@
                             \mp
                             \<
                             \mp
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 24 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (33) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 24 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (33) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             
                             e2
                             :32
@@ -3096,28 +3096,28 @@
                             \mf
                             \>
                             \mf
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 25 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (34) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 25 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (34) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             
                             e2
                             :32
@@ -3142,28 +3142,28 @@
                             \p
                             \<
                             \p
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 26 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (35) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 26 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (35) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             
                             e2
                             :32
@@ -3186,28 +3186,28 @@
                             \stopTextSpan
                             \>
                             \mp
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 27 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (36) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 27 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (36) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -3230,28 +3230,28 @@
                             \pp
                             \<
                             \pp
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 28 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (37) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 28 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (37) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                         }
                     }
                     {
@@ -3265,28 +3265,28 @@
                             \p
                             \>
                             \p
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 29 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (38) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 29 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (38) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             
                             e2
                             :32
@@ -3303,28 +3303,28 @@
                             \ppp
                             \<
                             \ppp
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 30 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (39) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 30 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (39) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             
                             e2
                             :32
@@ -3367,28 +3367,28 @@
                             \>
                             \pp
                             \startTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 31 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (40) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 31 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (40) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             
                             e2
                             :32
@@ -3414,28 +3414,28 @@
                             \pppp
                             \<
                             \pppp
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 32 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (41) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 32 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (41) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             
                             e2
                             :32
@@ -3464,28 +3464,28 @@
                             \ppp
                             \>
                             \ppp
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 33 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (42) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 33 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (42) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             
                             e2
                             :32
@@ -3507,28 +3507,28 @@
                             \ppppp
                             \<
                             \ppppp
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 34 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (43) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 34 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (43) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             
                             e2
                             :32
@@ -3547,28 +3547,28 @@
                             \pppp
                             \>
                             \pppp
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 35 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (44) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 35 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (44) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                         }
                     }
                     {
@@ -3579,28 +3579,28 @@
                             r8
                             \!
                             \stopTextSpan
-                            %%% ^ \markup { % FIGURE-NAME:1
-                                %%% \fontsize % FIGURE-NAME:1
-                                    %%% #2 % FIGURE-NAME:1
-                                    %%% \concat % FIGURE-NAME:1
-                                        %%% { % FIGURE-NAME:1
-                                            %%% [ % FIGURE-NAME:1
-                                            %%% \concat % FIGURE-NAME:1
-                                                %%% { % FIGURE-NAME:1
-                                                    %%% 4 % FIGURE-NAME:1
-                                                    %%% \sub % FIGURE-NAME:1
-                                                        %%% 36 % FIGURE-NAME:1
-                                                %%% } % FIGURE-NAME:1
-                                            %%% \hspace % FIGURE-NAME:1
-                                                %%% #1 % FIGURE-NAME:1
-                                            %%% \raise % FIGURE-NAME:1
-                                                %%% #0.25 % FIGURE-NAME:1
-                                                %%% \fontsize % FIGURE-NAME:1
-                                                    %%% #-2 % FIGURE-NAME:1
-                                                    %%% (45) % FIGURE-NAME:1
-                                            %%% ] % FIGURE-NAME:1
-                                        %%% } % FIGURE-NAME:1
-                                %%% } % FIGURE-NAME:1
+                            %%% ^ \markup { % FIGURE_NAME:1
+                                %%% \fontsize % FIGURE_NAME:1
+                                    %%% #2 % FIGURE_NAME:1
+                                    %%% \concat % FIGURE_NAME:1
+                                        %%% { % FIGURE_NAME:1
+                                            %%% [ % FIGURE_NAME:1
+                                            %%% \concat % FIGURE_NAME:1
+                                                %%% { % FIGURE_NAME:1
+                                                    %%% 4 % FIGURE_NAME:1
+                                                    %%% \sub % FIGURE_NAME:1
+                                                        %%% 36 % FIGURE_NAME:1
+                                                %%% } % FIGURE_NAME:1
+                                            %%% \hspace % FIGURE_NAME:1
+                                                %%% #1 % FIGURE_NAME:1
+                                            %%% \raise % FIGURE_NAME:1
+                                                %%% #0.25 % FIGURE_NAME:1
+                                                %%% \fontsize % FIGURE_NAME:1
+                                                    %%% #-2 % FIGURE_NAME:1
+                                                    %%% (45) % FIGURE_NAME:1
+                                            %%% ] % FIGURE_NAME:1
+                                        %%% } % FIGURE_NAME:1
+                                %%% } % FIGURE_NAME:1
                             ^ \markup {
                                 \whiteout
                                     \upright

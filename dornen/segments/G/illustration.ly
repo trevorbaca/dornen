@@ -421,18 +421,18 @@
                 \context GuitarMusicVoiceOne = "GuitarMusicVoiceOne" {
                     
                     %%% GuitarMusicVoiceOne [measure 155] %%%
-                    \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED-INSTRUMENT:2
-                            #16 % SEGMENT:RESTATED-INSTRUMENT:2
-                            Guitar % SEGMENT:RESTATED-INSTRUMENT:2
-                        } % SEGMENT:RESTATED-INSTRUMENT:2
-                    \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:2
-                        \null % SEGMENT:RESTATED-INSTRUMENT:2
-                        } % SEGMENT:RESTATED-INSTRUMENT:2
-                    \clef "treble" % SEGMENT:RESTATED-CLEF:4
-                    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:1
-                    \override GuitarMusicStaff.Clef.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-CLEF:3
-                    \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED-CLEF:5
+                    \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
+                            #16 % SEGMENT:RESTATED_INSTRUMENT:2
+                            Guitar % SEGMENT:RESTATED_INSTRUMENT:2
+                        } % SEGMENT:RESTATED_INSTRUMENT:2
+                    \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
+                        \null % SEGMENT:RESTATED_INSTRUMENT:2
+                        } % SEGMENT:RESTATED_INSTRUMENT:2
+                    \clef "treble" % SEGMENT:RESTATED_CLEF:4
+                    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED_INSTRUMENT:1
+                    \override GuitarMusicStaff.Clef.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED_CLEF:3
+                    \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED_CLEF:5
                     s1 * 7/32
                     {
                         {

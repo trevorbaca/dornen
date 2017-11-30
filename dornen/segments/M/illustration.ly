@@ -16,7 +16,7 @@
                 %%% GlobalSkips [measure 303] %%%
                 \time 3/32
                 \bar "" % SEGMENT:EMPTY_START_BAR:1
-                \once \override TextScript.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER-METRONOME-MARK:3
+                \once \override TextScript.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER_METRONOME_MARK:3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:5
                 s1 * 3/32
@@ -46,22 +46,22 @@
                                 %%% } % SEGMENT:SPACING_MARKUP:6
                         }
                     }
-                ^ \markup { % SEGMENT:REMINDER-METRONOME-MARK:4
-                    \fontsize % SEGMENT:REMINDER-METRONOME-MARK:4
-                        #-6 % SEGMENT:REMINDER-METRONOME-MARK:4
-                        \general-align % SEGMENT:REMINDER-METRONOME-MARK:4
-                            #Y % SEGMENT:REMINDER-METRONOME-MARK:4
-                            #DOWN % SEGMENT:REMINDER-METRONOME-MARK:4
-                            \note-by-number % SEGMENT:REMINDER-METRONOME-MARK:4
-                                #3 % SEGMENT:REMINDER-METRONOME-MARK:4
-                                #0 % SEGMENT:REMINDER-METRONOME-MARK:4
-                                #1 % SEGMENT:REMINDER-METRONOME-MARK:4
-                    \upright % SEGMENT:REMINDER-METRONOME-MARK:4
-                        { % SEGMENT:REMINDER-METRONOME-MARK:4
-                            = % SEGMENT:REMINDER-METRONOME-MARK:4
-                            66 % SEGMENT:REMINDER-METRONOME-MARK:4
-                        } % SEGMENT:REMINDER-METRONOME-MARK:4
-                    } % SEGMENT:REMINDER-METRONOME-MARK:4
+                ^ \markup { % SEGMENT:REMINDER_METRONOME_MARK:4
+                    \fontsize % SEGMENT:REMINDER_METRONOME_MARK:4
+                        #-6 % SEGMENT:REMINDER_METRONOME_MARK:4
+                        \general-align % SEGMENT:REMINDER_METRONOME_MARK:4
+                            #Y % SEGMENT:REMINDER_METRONOME_MARK:4
+                            #DOWN % SEGMENT:REMINDER_METRONOME_MARK:4
+                            \note-by-number % SEGMENT:REMINDER_METRONOME_MARK:4
+                                #3 % SEGMENT:REMINDER_METRONOME_MARK:4
+                                #0 % SEGMENT:REMINDER_METRONOME_MARK:4
+                                #1 % SEGMENT:REMINDER_METRONOME_MARK:4
+                    \upright % SEGMENT:REMINDER_METRONOME_MARK:4
+                        { % SEGMENT:REMINDER_METRONOME_MARK:4
+                            = % SEGMENT:REMINDER_METRONOME_MARK:4
+                            66 % SEGMENT:REMINDER_METRONOME_MARK:4
+                        } % SEGMENT:REMINDER_METRONOME_MARK:4
+                    } % SEGMENT:REMINDER_METRONOME_MARK:4
                 
                 %%% GlobalSkips [measure 304] %%%
                 \time 3/20
@@ -1387,18 +1387,18 @@
                             \override Beam.positions = #'(10 . 10)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:2
-                                \hcenter-in % SEGMENT:RESTATED-INSTRUMENT:2
-                                    #16 % SEGMENT:RESTATED-INSTRUMENT:2
-                                    Guitar % SEGMENT:RESTATED-INSTRUMENT:2
-                                } % SEGMENT:RESTATED-INSTRUMENT:2
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED-INSTRUMENT:2
-                                \null % SEGMENT:RESTATED-INSTRUMENT:2
-                                } % SEGMENT:RESTATED-INSTRUMENT:2
-                            \clef "treble" % SEGMENT:RESTATED-CLEF:4
-                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:1
-                            \override GuitarMusicStaff.Clef.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-CLEF:3
-                            \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED-CLEF:5
+                            \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
+                                \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
+                                    #16 % SEGMENT:RESTATED_INSTRUMENT:2
+                                    Guitar % SEGMENT:RESTATED_INSTRUMENT:2
+                                } % SEGMENT:RESTATED_INSTRUMENT:2
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
+                                \null % SEGMENT:RESTATED_INSTRUMENT:2
+                                } % SEGMENT:RESTATED_INSTRUMENT:2
+                            \clef "treble" % SEGMENT:RESTATED_CLEF:4
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED_INSTRUMENT:1
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED_CLEF:3
+                            \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED_CLEF:5
                             d'32.
                             -\tenuto
                             [

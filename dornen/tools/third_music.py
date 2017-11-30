@@ -81,7 +81,7 @@ def third_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 7/3
-                        \bar "" % SEGMENT:EMPTY_BAR:1
+                        \bar "" % SEGMENT:EMPTY_START_BAR:1
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 2 15) % SEGMENT:SPACING:COMMAND:3
                         s1 * 7/3
@@ -317,7 +317,7 @@ def third_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 7/3
-                        \bar "" % SEGMENT:EMPTY_BAR:1
+                        \bar "" % SEGMENT:EMPTY_START_BAR:1
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 2 15) % SEGMENT:SPACING:COMMAND:3
                         s1 * 7/3

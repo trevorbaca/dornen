@@ -69,7 +69,7 @@ def rest_music(duration=None):
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 1/8
-                        \bar "" % SEGMENT:EMPTY_BAR:1
+                        \bar "" % SEGMENT:EMPTY_START_BAR:1
                         s1 * 1/8
                             - \markup { % STAGE_NUMBER:2
                                 \fontsize % STAGE_NUMBER:2
@@ -181,7 +181,7 @@ def rest_music(duration=None):
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 6/8
-                        \bar "" % SEGMENT:EMPTY_BAR:1
+                        \bar "" % SEGMENT:EMPTY_START_BAR:1
                         s1 * 3/4
                             - \markup { % STAGE_NUMBER:2
                                 \fontsize % STAGE_NUMBER:2

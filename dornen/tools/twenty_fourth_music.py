@@ -81,7 +81,7 @@ def twenty_fourth_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 7/24
-                        \bar "" % SEGMENT:EMPTY_BAR:1
+                        \bar "" % SEGMENT:EMPTY_START_BAR:1
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 60) % SEGMENT:SPACING:COMMAND:3
                         s1 * 7/24
@@ -317,7 +317,7 @@ def twenty_fourth_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 7/24
-                        \bar "" % SEGMENT:EMPTY_BAR:1
+                        \bar "" % SEGMENT:EMPTY_START_BAR:1
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 60) % SEGMENT:SPACING:COMMAND:3
                         s1 * 7/24

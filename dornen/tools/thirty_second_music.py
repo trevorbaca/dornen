@@ -133,10 +133,11 @@ def thirty_second_music():
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
-                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                                 \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                                \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                                 e'32
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                             }
                             {
             <BLANKLINE>
@@ -338,10 +339,11 @@ def thirty_second_music():
                                 %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                                 \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                                \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                                 e'32 [
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                             }
                             {
             <BLANKLINE>

@@ -1011,11 +1011,11 @@
                             \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:3
                                 \null % SEGMENT:RESTATED_INSTRUMENT:3
                                 } % SEGMENT:RESTATED_INSTRUMENT:3
-                            \clef "treble" % SEGMENT:RESTATED_CLEF:5
+                            \clef "treble" % SEGMENT:RESTATED_CLEF_COMMAND:5
                             \override Score.RehearsalMark.extra-offset = #'(-10 . -10)
-                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED_INSTRUMENT:2
-                            \override GuitarMusicStaff.Clef.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED_CLEF:4
-                            \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED_CLEF:6
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green) % SEGMENT:RESTATED_INSTRUMENT:2
+                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) % SEGMENT:RESTATED_CLEF_COLOR:4
+                            \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED_CLEF_COMMAND:6
                             d'32.
                             -\tenuto
                             [
@@ -1053,6 +1053,7 @@
                                             %%% } % FIGURE_NAME:1
                                     }
                                 }
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) % SEGMENT:RESTATED_CLEF_SHADOW:7
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1

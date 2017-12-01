@@ -60,9 +60,9 @@ def delicatissimo_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 1/32
-                        \bar "" % SEGMENT:EMPTY_START_BAR:1
+                        \bar "" %! SEGMENT:EMPTY_START_BAR:1
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) % SEGMENT:SPACING_COMMAND:3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
                         s1 * 1/32
                             - \markup {
                                 \column
@@ -89,41 +89,41 @@ def delicatissimo_music():
                         %%% GlobalSkips [measure 2] %%%
                         \time 7/32
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) % SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:1
                         s1 * 7/32
-                            - \markup { % SEGMENT:SPACING_MARKUP:2
-                                \with-color % SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) % SEGMENT:SPACING_MARKUP:2
-                                    \fontsize % SEGMENT:SPACING_MARKUP:2
-                                        #-3 % SEGMENT:SPACING_MARKUP:2
-                                        (1/32) % SEGMENT:SPACING_MARKUP:2
-                                } % SEGMENT:SPACING_MARKUP:2
+                            - \markup { %! SEGMENT:SPACING_MARKUP:2
+                                \with-color %! SEGMENT:SPACING_MARKUP:2
+                                    #(x11-color 'DarkCyan) %! SEGMENT:SPACING_MARKUP:2
+                                    \fontsize %! SEGMENT:SPACING_MARKUP:2
+                                        #-3 %! SEGMENT:SPACING_MARKUP:2
+                                        (1/32) %! SEGMENT:SPACING_MARKUP:2
+                                } %! SEGMENT:SPACING_MARKUP:2
             <BLANKLINE>
                         %%% GlobalSkips [measure 3] %%%
                         \time 1/32
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) % SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:1
                         s1 * 1/32
-                            - \markup { % SEGMENT:SPACING_MARKUP:2
-                                \with-color % SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) % SEGMENT:SPACING_MARKUP:2
-                                    \fontsize % SEGMENT:SPACING_MARKUP:2
-                                        #-3 % SEGMENT:SPACING_MARKUP:2
-                                        (1/32) % SEGMENT:SPACING_MARKUP:2
-                                } % SEGMENT:SPACING_MARKUP:2
+                            - \markup { %! SEGMENT:SPACING_MARKUP:2
+                                \with-color %! SEGMENT:SPACING_MARKUP:2
+                                    #(x11-color 'DarkCyan) %! SEGMENT:SPACING_MARKUP:2
+                                    \fontsize %! SEGMENT:SPACING_MARKUP:2
+                                        #-3 %! SEGMENT:SPACING_MARKUP:2
+                                        (1/32) %! SEGMENT:SPACING_MARKUP:2
+                                } %! SEGMENT:SPACING_MARKUP:2
             <BLANKLINE>
                         %%% GlobalSkips [measure 4] %%%
                         \time 6/32
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) % SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:1
                         s1 * 3/16
-                            - \markup { % SEGMENT:SPACING_MARKUP:2
-                                \with-color % SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) % SEGMENT:SPACING_MARKUP:2
-                                    \fontsize % SEGMENT:SPACING_MARKUP:2
-                                        #-3 % SEGMENT:SPACING_MARKUP:2
-                                        (1/32) % SEGMENT:SPACING_MARKUP:2
-                                } % SEGMENT:SPACING_MARKUP:2
+                            - \markup { %! SEGMENT:SPACING_MARKUP:2
+                                \with-color %! SEGMENT:SPACING_MARKUP:2
+                                    #(x11-color 'DarkCyan) %! SEGMENT:SPACING_MARKUP:2
+                                    \fontsize %! SEGMENT:SPACING_MARKUP:2
+                                        #-3 %! SEGMENT:SPACING_MARKUP:2
+                                        (1/32) %! SEGMENT:SPACING_MARKUP:2
+                                } %! SEGMENT:SPACING_MARKUP:2
             <BLANKLINE>
                     }
                 >>
@@ -133,10 +133,10 @@ def delicatissimo_music():
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
-                                \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                                \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                                \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                                 e'32 -\staccato
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                             }
                             {
             <BLANKLINE>
@@ -277,9 +277,9 @@ def delicatissimo_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 9/32
-                        \bar "" % SEGMENT:EMPTY_START_BAR:1
+                        \bar "" %! SEGMENT:EMPTY_START_BAR:1
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) % SEGMENT:SPACING_COMMAND:3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
                         s1 * 9/32
                             - \markup {
                                 \column
@@ -306,28 +306,28 @@ def delicatissimo_music():
                         %%% GlobalSkips [measure 2] %%%
                         \time 14/32
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) % SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:1
                         s1 * 7/16
-                            - \markup { % SEGMENT:SPACING_MARKUP:2
-                                \with-color % SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) % SEGMENT:SPACING_MARKUP:2
-                                    \fontsize % SEGMENT:SPACING_MARKUP:2
-                                        #-3 % SEGMENT:SPACING_MARKUP:2
-                                        (1/32) % SEGMENT:SPACING_MARKUP:2
-                                } % SEGMENT:SPACING_MARKUP:2
+                            - \markup { %! SEGMENT:SPACING_MARKUP:2
+                                \with-color %! SEGMENT:SPACING_MARKUP:2
+                                    #(x11-color 'DarkCyan) %! SEGMENT:SPACING_MARKUP:2
+                                    \fontsize %! SEGMENT:SPACING_MARKUP:2
+                                        #-3 %! SEGMENT:SPACING_MARKUP:2
+                                        (1/32) %! SEGMENT:SPACING_MARKUP:2
+                                } %! SEGMENT:SPACING_MARKUP:2
             <BLANKLINE>
                         %%% GlobalSkips [measure 3] %%%
                         \time 8/32
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) % SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:1
                         s1 * 1/4
-                            - \markup { % SEGMENT:SPACING_MARKUP:2
-                                \with-color % SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) % SEGMENT:SPACING_MARKUP:2
-                                    \fontsize % SEGMENT:SPACING_MARKUP:2
-                                        #-3 % SEGMENT:SPACING_MARKUP:2
-                                        (1/32) % SEGMENT:SPACING_MARKUP:2
-                                } % SEGMENT:SPACING_MARKUP:2
+                            - \markup { %! SEGMENT:SPACING_MARKUP:2
+                                \with-color %! SEGMENT:SPACING_MARKUP:2
+                                    #(x11-color 'DarkCyan) %! SEGMENT:SPACING_MARKUP:2
+                                    \fontsize %! SEGMENT:SPACING_MARKUP:2
+                                        #-3 %! SEGMENT:SPACING_MARKUP:2
+                                        (1/32) %! SEGMENT:SPACING_MARKUP:2
+                                } %! SEGMENT:SPACING_MARKUP:2
             <BLANKLINE>
                     }
                 >>
@@ -339,10 +339,10 @@ def delicatissimo_music():
                                 %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                                \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                                \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                                 e'32 -\staccato [
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                             }
                             {
             <BLANKLINE>

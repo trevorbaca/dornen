@@ -659,7 +659,7 @@
                                 }
                             \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
                             \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:2
-                            \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:3
+                            %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:3
                             e'8.
                             [
                             %%% ^ \markup { %! FIGURE_NAME_MARKUP:1

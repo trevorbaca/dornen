@@ -60,9 +60,9 @@ def glissando_scatto_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 1/16
-                        \bar "" % SEGMENT:EMPTY_START_BAR:1
+                        \bar "" %! SEGMENT:EMPTY_START_BAR:1
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:3
                         s1 * 1/16
                             - \markup {
                                 \column
@@ -89,41 +89,41 @@ def glissando_scatto_music():
                         %%% GlobalSkips [measure 2] %%%
                         \time 11/32
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 11 416) % SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 11 416) %! SEGMENT:SPACING_COMMAND:1
                         s1 * 11/32
-                            - \markup { % SEGMENT:SPACING_MARKUP:2
-                                \with-color % SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) % SEGMENT:SPACING_MARKUP:2
-                                    \fontsize % SEGMENT:SPACING_MARKUP:2
-                                        #-3 % SEGMENT:SPACING_MARKUP:2
-                                        (11/416) % SEGMENT:SPACING_MARKUP:2
-                                } % SEGMENT:SPACING_MARKUP:2
+                            - \markup { %! SEGMENT:SPACING_MARKUP:2
+                                \with-color %! SEGMENT:SPACING_MARKUP:2
+                                    #(x11-color 'DarkCyan) %! SEGMENT:SPACING_MARKUP:2
+                                    \fontsize %! SEGMENT:SPACING_MARKUP:2
+                                        #-3 %! SEGMENT:SPACING_MARKUP:2
+                                        (11/416) %! SEGMENT:SPACING_MARKUP:2
+                                } %! SEGMENT:SPACING_MARKUP:2
             <BLANKLINE>
                         %%% GlobalSkips [measure 3] %%%
                         \time 1/16
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:1
                         s1 * 1/16
-                            - \markup { % SEGMENT:SPACING_MARKUP:2
-                                \with-color % SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) % SEGMENT:SPACING_MARKUP:2
-                                    \fontsize % SEGMENT:SPACING_MARKUP:2
-                                        #-3 % SEGMENT:SPACING_MARKUP:2
-                                        (1/24) % SEGMENT:SPACING_MARKUP:2
-                                } % SEGMENT:SPACING_MARKUP:2
+                            - \markup { %! SEGMENT:SPACING_MARKUP:2
+                                \with-color %! SEGMENT:SPACING_MARKUP:2
+                                    #(x11-color 'DarkCyan) %! SEGMENT:SPACING_MARKUP:2
+                                    \fontsize %! SEGMENT:SPACING_MARKUP:2
+                                        #-3 %! SEGMENT:SPACING_MARKUP:2
+                                        (1/24) %! SEGMENT:SPACING_MARKUP:2
+                                } %! SEGMENT:SPACING_MARKUP:2
             <BLANKLINE>
                         %%% GlobalSkips [measure 4] %%%
                         \time 9/32
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 9 352) % SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 9 352) %! SEGMENT:SPACING_COMMAND:1
                         s1 * 9/32
-                            - \markup { % SEGMENT:SPACING_MARKUP:2
-                                \with-color % SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) % SEGMENT:SPACING_MARKUP:2
-                                    \fontsize % SEGMENT:SPACING_MARKUP:2
-                                        #-3 % SEGMENT:SPACING_MARKUP:2
-                                        (9/352) % SEGMENT:SPACING_MARKUP:2
-                                } % SEGMENT:SPACING_MARKUP:2
+                            - \markup { %! SEGMENT:SPACING_MARKUP:2
+                                \with-color %! SEGMENT:SPACING_MARKUP:2
+                                    #(x11-color 'DarkCyan) %! SEGMENT:SPACING_MARKUP:2
+                                    \fontsize %! SEGMENT:SPACING_MARKUP:2
+                                        #-3 %! SEGMENT:SPACING_MARKUP:2
+                                        (9/352) %! SEGMENT:SPACING_MARKUP:2
+                                } %! SEGMENT:SPACING_MARKUP:2
             <BLANKLINE>
                     }
                 >>
@@ -133,10 +133,10 @@ def glissando_scatto_music():
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
-                                \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                                \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                                \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                                 e'16
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 11/13 {
@@ -274,9 +274,9 @@ def glissando_scatto_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 15/32
-                        \bar "" % SEGMENT:EMPTY_START_BAR:1
+                        \bar "" %! SEGMENT:EMPTY_START_BAR:1
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 11 416) % SEGMENT:SPACING_COMMAND:3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 11 416) %! SEGMENT:SPACING_COMMAND:3
                         s1 * 15/32
                             - \markup {
                                 \column
@@ -303,28 +303,28 @@ def glissando_scatto_music():
                         %%% GlobalSkips [measure 2] %%%
                         \time 11/16
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 9 352) % SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 9 352) %! SEGMENT:SPACING_COMMAND:1
                         s1 * 11/16
-                            - \markup { % SEGMENT:SPACING_MARKUP:2
-                                \with-color % SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) % SEGMENT:SPACING_MARKUP:2
-                                    \fontsize % SEGMENT:SPACING_MARKUP:2
-                                        #-3 % SEGMENT:SPACING_MARKUP:2
-                                        (9/352) % SEGMENT:SPACING_MARKUP:2
-                                } % SEGMENT:SPACING_MARKUP:2
+                            - \markup { %! SEGMENT:SPACING_MARKUP:2
+                                \with-color %! SEGMENT:SPACING_MARKUP:2
+                                    #(x11-color 'DarkCyan) %! SEGMENT:SPACING_MARKUP:2
+                                    \fontsize %! SEGMENT:SPACING_MARKUP:2
+                                        #-3 %! SEGMENT:SPACING_MARKUP:2
+                                        (9/352) %! SEGMENT:SPACING_MARKUP:2
+                                } %! SEGMENT:SPACING_MARKUP:2
             <BLANKLINE>
                         %%% GlobalSkips [measure 3] %%%
                         \time 13/32
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 9 352) % SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 9 352) %! SEGMENT:SPACING_COMMAND:1
                         s1 * 13/32
-                            - \markup { % SEGMENT:SPACING_MARKUP:2
-                                \with-color % SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) % SEGMENT:SPACING_MARKUP:2
-                                    \fontsize % SEGMENT:SPACING_MARKUP:2
-                                        #-3 % SEGMENT:SPACING_MARKUP:2
-                                        (9/352) % SEGMENT:SPACING_MARKUP:2
-                                } % SEGMENT:SPACING_MARKUP:2
+                            - \markup { %! SEGMENT:SPACING_MARKUP:2
+                                \with-color %! SEGMENT:SPACING_MARKUP:2
+                                    #(x11-color 'DarkCyan) %! SEGMENT:SPACING_MARKUP:2
+                                    \fontsize %! SEGMENT:SPACING_MARKUP:2
+                                        #-3 %! SEGMENT:SPACING_MARKUP:2
+                                        (9/352) %! SEGMENT:SPACING_MARKUP:2
+                                } %! SEGMENT:SPACING_MARKUP:2
             <BLANKLINE>
                     }
                 >>
@@ -336,10 +336,10 @@ def glissando_scatto_music():
                                 %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
-                                \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                                \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                                \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                                 e'16 [ \glissando
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 11/13 {

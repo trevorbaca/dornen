@@ -15,16 +15,16 @@
                 
                 %%% GlobalSkips [measure 90] %%%
                 \time 3/32
-                \bar "" % SEGMENT:EMPTY_START_BAR:1
-                \once \override TextScript.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER_METRONOME_MARK:3
+                \bar "" %! SEGMENT:EMPTY_START_BAR:1
+                \once \override TextScript.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_METRONOME_MARK:3
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:5
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:5
                 s1 * 3/32
-                %%% ^ \markup { % CLOCK_TIME:7
-                    %%% \fontsize % CLOCK_TIME:7
-                        %%% #-2 % CLOCK_TIME:7
-                        %%% 3'19'' % CLOCK_TIME:7
-                    %%% } % CLOCK_TIME:7
+                %%% ^ \markup { %! CLOCK_TIME:7
+                    %%% \fontsize %! CLOCK_TIME:7
+                        %%% #-2 %! CLOCK_TIME:7
+                        %%% 3'19'' %! CLOCK_TIME:7
+                    %%% } %! CLOCK_TIME:7
                 - \markup {
                     \column
                         {
@@ -66,13 +66,13 @@
                 %%% GlobalSkips [measure 91] %%%
                 \time 3/20
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/20
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'19'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'19'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -98,13 +98,13 @@
                 %%% GlobalSkips [measure 92] %%%
                 \time 1/16
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 1/16
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'20'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'20'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -130,13 +130,13 @@
                 %%% GlobalSkips [measure 93] %%%
                 \time 3/20
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/20
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'21'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'21'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -162,13 +162,13 @@
                 %%% GlobalSkips [measure 94] %%%
                 \time 4/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 1/8
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'22'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'22'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -194,13 +194,13 @@
                 %%% GlobalSkips [measure 95] %%%
                 \time 3/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/32
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'23'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'23'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -226,13 +226,13 @@
                 %%% GlobalSkips [measure 96] %%%
                 \time 3/20
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/20
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'23'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'23'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -258,13 +258,13 @@
                 %%% GlobalSkips [measure 97] %%%
                 \time 1/16
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 1/16
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'25'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'25'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -290,13 +290,13 @@
                 %%% GlobalSkips [measure 98] %%%
                 \time 3/20
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/20
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'25'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'25'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -322,13 +322,13 @@
                 %%% GlobalSkips [measure 99] %%%
                 \time 4/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 1/8
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'26'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'26'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -354,13 +354,13 @@
                 %%% GlobalSkips [measure 100] %%%
                 \time 3/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/32
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'27'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'27'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -386,13 +386,13 @@
                 %%% GlobalSkips [measure 101] %%%
                 \time 3/20
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/20
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'28'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'28'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -418,13 +418,13 @@
                 %%% GlobalSkips [measure 102] %%%
                 \time 1/16
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 1/16
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'29'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'29'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -450,13 +450,13 @@
                 %%% GlobalSkips [measure 103] %%%
                 \time 3/20
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/20
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'29'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'29'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -482,13 +482,13 @@
                 %%% GlobalSkips [measure 104] %%%
                 \time 3/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/32
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'30'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'30'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -514,13 +514,13 @@
                 %%% GlobalSkips [measure 105] %%%
                 \time 3/20
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/20
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'31'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'31'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -546,13 +546,13 @@
                 %%% GlobalSkips [measure 106] %%%
                 \time 1/16
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 1/16
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'32'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'32'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -578,13 +578,13 @@
                 %%% GlobalSkips [measure 107] %%%
                 \time 3/20
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/20
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'33'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'33'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -610,13 +610,13 @@
                 %%% GlobalSkips [measure 108] %%%
                 \time 4/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 1/8
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'34'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'34'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -642,13 +642,13 @@
                 %%% GlobalSkips [measure 109] %%%
                 \time 3/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/32
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'35'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'35'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -674,13 +674,13 @@
                 %%% GlobalSkips [measure 110] %%%
                 \time 3/20
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/20
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'35'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'35'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -706,13 +706,13 @@
                 %%% GlobalSkips [measure 111] %%%
                 \time 1/16
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 1/16
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'36'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'36'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -738,13 +738,13 @@
                 %%% GlobalSkips [measure 112] %%%
                 \time 3/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/8
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'37'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'37'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -770,13 +770,13 @@
                 %%% GlobalSkips [measure 113] %%%
                 \time 2/5
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 2/5
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'39'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'39'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -802,13 +802,13 @@
                 %%% GlobalSkips [measure 114] %%%
                 \time 3/20
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/20
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'42'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'42'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -834,13 +834,13 @@
                 %%% GlobalSkips [measure 115] %%%
                 \time 4/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 1/8
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'43'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'43'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -866,13 +866,13 @@
                 %%% GlobalSkips [measure 116] %%%
                 \time 3/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/32
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'44'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'44'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -898,13 +898,13 @@
                 %%% GlobalSkips [measure 117] %%%
                 \time 3/20
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/20
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'45'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'45'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -930,13 +930,13 @@
                 %%% GlobalSkips [measure 118] %%%
                 \time 1/16
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 1/16
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'46'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'46'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -962,13 +962,13 @@
                 %%% GlobalSkips [measure 119] %%%
                 \time 3/20
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) % SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:2
                 s1 * 3/20
-                %%% ^ \markup { % CLOCK_TIME:4
-                    %%% \fontsize % CLOCK_TIME:4
-                        %%% #-2 % CLOCK_TIME:4
-                        %%% 3'47'' % CLOCK_TIME:4
-                    %%% } % CLOCK_TIME:4
+                %%% ^ \markup { %! CLOCK_TIME:4
+                    %%% \fontsize %! CLOCK_TIME:4
+                        %%% #-2 %! CLOCK_TIME:4
+                        %%% 3'47'' %! CLOCK_TIME:4
+                    %%% } %! CLOCK_TIME:4
                 - \markup {
                     \column
                         {
@@ -1003,19 +1003,19 @@
                             \override Beam.positions = #'(10 . 10)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:3
-                                \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:3
-                                    #16 % SEGMENT:RESTATED_INSTRUMENT:3
-                                    Guitar % SEGMENT:RESTATED_INSTRUMENT:3
-                                } % SEGMENT:RESTATED_INSTRUMENT:3
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:3
-                                \null % SEGMENT:RESTATED_INSTRUMENT:3
-                                } % SEGMENT:RESTATED_INSTRUMENT:3
-                            \clef "treble" % SEGMENT:RESTATED_CLEF_COMMAND:5
+                            \set GuitarMusicStaff.instrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:3
+                                \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:3
+                                    #16 %! SEGMENT:RESTATED_INSTRUMENT:3
+                                    Guitar %! SEGMENT:RESTATED_INSTRUMENT:3
+                                } %! SEGMENT:RESTATED_INSTRUMENT:3
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:3
+                                \null %! SEGMENT:RESTATED_INSTRUMENT:3
+                                } %! SEGMENT:RESTATED_INSTRUMENT:3
+                            \clef "treble" %! SEGMENT:RESTATED_CLEF_COMMAND:5
                             \override Score.RehearsalMark.extra-offset = #'(-10 . -10)
-                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green) % SEGMENT:RESTATED_INSTRUMENT:2
-                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) % SEGMENT:RESTATED_CLEF_COLOR:4
-                            \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED_CLEF_COMMAND:6
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:RESTATED_INSTRUMENT:2
+                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:RESTATED_CLEF_COLOR:4
+                            \set GuitarMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:6
                             d'32.
                             -\tenuto
                             [
@@ -1053,7 +1053,7 @@
                                             %%% } % FIGURE_NAME:1
                                     }
                                 }
-                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) % SEGMENT:RESTATED_CLEF_SHADOW:7
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:7
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
@@ -1072,28 +1072,28 @@
                             \set stemRightBeamCount = #3
                             ef'32.
                             -\tenuto
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 48 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 2 % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (5) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 48 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 2 %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (5) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
@@ -1114,28 +1114,28 @@
                             d'32.
                             -\tenuto
                             [
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 48 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 3 % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (10) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 48 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 3 %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (10) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
@@ -1154,28 +1154,28 @@
                             \set stemRightBeamCount = #3
                             d'32.
                             -\tenuto
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 48 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 1* % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (14) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 48 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 1* %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (14) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
@@ -1196,28 +1196,28 @@
                             ef'32.
                             -\tenuto
                             [
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 48 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 2* % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (19) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 48 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 2* %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (19) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
@@ -1236,28 +1236,28 @@
                             \set stemRightBeamCount = #3
                             d'32.
                             -\tenuto
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 48 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 3* % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (26) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 48 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 3* %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (26) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
@@ -1293,28 +1293,28 @@
                             e''32
                             [
                             (
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 32 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 1 % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (4) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 32 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 1 %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (4) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -1343,28 +1343,28 @@
                             bf''32
                             [
                             (
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 32 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 2 % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (9) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 32 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 2 %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (9) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -1393,28 +1393,28 @@
                             e''32
                             [
                             (
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 32 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 1* % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (18) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 32 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 1* %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (18) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -1440,23 +1440,23 @@
                             
                             %%% GuitarMusicVoiceTwo [measure 112] %%%
                             r8
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% R1 % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (22) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% R1 %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (22) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             r8
                             
@@ -1526,28 +1526,28 @@
                             bf''32
                             [
                             (
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 32 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 2* % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (25) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 32 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 2* %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (25) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
@@ -1594,28 +1594,28 @@
                             c'16
                             -\accent
                             [
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 16 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 1 % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (2) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 16 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 1 %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (2) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                         }
                     }
                     
@@ -1629,28 +1629,28 @@
                             \set stemRightBeamCount = #1
                             f16
                             -\accent
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 16 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 2 % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (7) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 16 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 2 %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (7) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                         }
                     }
                     
@@ -1665,28 +1665,28 @@
                             a16
                             -\accent
                             ]
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 16 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 3 % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (12) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 16 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 3 %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (12) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                         }
                     }
                     
@@ -1701,28 +1701,28 @@
                             c'16
                             -\accent
                             [
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 16 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 1* % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (16) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 16 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 1* %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (16) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                         }
                     }
                     
@@ -1736,28 +1736,28 @@
                             \set stemRightBeamCount = #1
                             f16
                             -\accent
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 16 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 2* % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (21) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 16 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 2* %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (21) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                         }
                     }
                     
@@ -1772,28 +1772,28 @@
                             a16
                             -\accent
                             ]
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 16 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 3* % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (28) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 16 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 3* %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (28) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                         }
                     }
                     
@@ -1818,28 +1818,28 @@
                             b'16
                             -\staccato
                             [
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 20 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 1 % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (1) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 20 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 1 %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (1) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
@@ -1866,28 +1866,28 @@
                             \set stemRightBeamCount = #2
                             ef''16
                             -\staccato
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 20 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 2 % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (3) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 20 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 2 %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (3) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
@@ -1916,28 +1916,28 @@
                             a'16
                             -\staccato
                             [
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 20 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 3 % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (6) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 20 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 3 %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (6) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
@@ -1962,28 +1962,28 @@
                             \set stemRightBeamCount = #2
                             cs''16
                             -\staccato
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 20 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 4 % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (8) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 20 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 4 %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (8) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
@@ -2010,28 +2010,28 @@
                             c''16
                             -\staccato
                             [
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 20 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 5 % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (11) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 20 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 5 %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (11) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
@@ -2056,28 +2056,28 @@
                             \set stemRightBeamCount = #2
                             g''16
                             -\staccato
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 20 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 6 % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (13) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 20 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 6 %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (13) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
@@ -2104,28 +2104,28 @@
                             b'16
                             -\staccato
                             [
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 20 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 1* % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (15) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 20 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 1* %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (15) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
@@ -2152,28 +2152,28 @@
                             \set stemRightBeamCount = #2
                             ef''16
                             -\staccato
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 20 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 2* % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (17) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 20 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 2* %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (17) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
@@ -2202,28 +2202,28 @@
                             a'16
                             -\staccato
                             [
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 20 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 3* % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (20) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 20 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 3* %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (20) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
@@ -2248,28 +2248,28 @@
                             \set stemRightBeamCount = #2
                             cs''16
                             -\staccato
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 20 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 4* % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (24) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 20 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 4* %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (24) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
@@ -2296,28 +2296,28 @@
                             c''16
                             -\staccato
                             [
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 20 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 5* % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (27) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 20 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 5* %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (27) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
@@ -2342,28 +2342,28 @@
                             \set stemRightBeamCount = #2
                             g''16
                             -\staccato
-                            %%% ^ \markup { % FIGURE_NAME:1
-                                %%% \fontsize % FIGURE_NAME:1
-                                    %%% #2 % FIGURE_NAME:1
-                                    %%% \concat % FIGURE_NAME:1
-                                        %%% { % FIGURE_NAME:1
-                                            %%% [ % FIGURE_NAME:1
-                                            %%% \concat % FIGURE_NAME:1
-                                                %%% { % FIGURE_NAME:1
-                                                    %%% 20 % FIGURE_NAME:1
-                                                    %%% \sub % FIGURE_NAME:1
-                                                        %%% 6* % FIGURE_NAME:1
-                                                %%% } % FIGURE_NAME:1
-                                            %%% \hspace % FIGURE_NAME:1
-                                                %%% #1 % FIGURE_NAME:1
-                                            %%% \raise % FIGURE_NAME:1
-                                                %%% #0.25 % FIGURE_NAME:1
-                                                %%% \fontsize % FIGURE_NAME:1
-                                                    %%% #-2 % FIGURE_NAME:1
-                                                    %%% (29) % FIGURE_NAME:1
-                                            %%% ] % FIGURE_NAME:1
-                                        %%% } % FIGURE_NAME:1
-                                %%% } % FIGURE_NAME:1
+                            %%% ^ \markup { %! FIGURE_NAME:1
+                                %%% \fontsize %! FIGURE_NAME:1
+                                    %%% #2 %! FIGURE_NAME:1
+                                    %%% \concat %! FIGURE_NAME:1
+                                        %%% { %! FIGURE_NAME:1
+                                            %%% [ %! FIGURE_NAME:1
+                                            %%% \concat %! FIGURE_NAME:1
+                                                %%% { %! FIGURE_NAME:1
+                                                    %%% 20 %! FIGURE_NAME:1
+                                                    %%% \sub %! FIGURE_NAME:1
+                                                        %%% 6* %! FIGURE_NAME:1
+                                                %%% } %! FIGURE_NAME:1
+                                            %%% \hspace %! FIGURE_NAME:1
+                                                %%% #1 %! FIGURE_NAME:1
+                                            %%% \raise %! FIGURE_NAME:1
+                                                %%% #0.25 %! FIGURE_NAME:1
+                                                %%% \fontsize %! FIGURE_NAME:1
+                                                    %%% #-2 %! FIGURE_NAME:1
+                                                    %%% (29) %! FIGURE_NAME:1
+                                            %%% ] %! FIGURE_NAME:1
+                                        %%% } %! FIGURE_NAME:1
+                                %%% } %! FIGURE_NAME:1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2

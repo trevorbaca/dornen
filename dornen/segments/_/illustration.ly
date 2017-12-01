@@ -657,8 +657,8 @@
                             \set GuitarMusicStaff.shortInstrumentName = \markup {
                                 \null
                                 }
-                            \clef "treble" % SEGMENT:EXPLICIT_CLEF:3
-                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:2
+                            \clef "treble" % EXPLICIT_CLEF_COMMAND:3
+                            \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:2
                             e'8.
                             [
                             %%% ^ \markup { % FIGURE_NAME:1
@@ -678,6 +678,7 @@
                                             %%% ] % FIGURE_NAME:1
                                         %%% } % FIGURE_NAME:1
                                 %%% } % FIGURE_NAME:1
+                            \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:4
                         }
                     }
                     

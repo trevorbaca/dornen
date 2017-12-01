@@ -133,10 +133,11 @@ def running_music():
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
-                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                                 \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                                \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                                 e'64
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {
@@ -336,10 +337,11 @@ def running_music():
                                 %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #4
-                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                                 \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                                \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                                 e'64 [ (
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {

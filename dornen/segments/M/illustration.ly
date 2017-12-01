@@ -1395,10 +1395,11 @@
                             \set GuitarMusicStaff.shortInstrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
                                 \null %! SEGMENT:RESTATED_INSTRUMENT:2
                                 } %! SEGMENT:RESTATED_INSTRUMENT:2
-                            \clef "treble" %! SEGMENT:RESTATED_CLEF_COMMAND:4
+                            \clef "treble" %! SEGMENT:RESTATED_CLEF_COMMAND:5
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:RESTATED_INSTRUMENT:1
                             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:RESTATED_CLEF_COLOR:3
-                            \set GuitarMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:5
+                            \override GuitarMusicStaff.Clef.color = ##f %! SEGMENT:RESTATED_CLEF_UNCOLOR:4
+                            \set GuitarMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:6
                             d'32.
                             -\tenuto
                             [
@@ -1407,7 +1408,7 @@
                                     \upright
                                         "LH only until rascado! (RH tacet; encourage whisks) ..."
                                 }
-                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:6
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:7
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1

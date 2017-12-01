@@ -158,10 +158,11 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
                                 \once \override Beam.grow-direction = #right
-                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                                 \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                                \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                                 fs'64 * 2112/1024 [
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
             <BLANKLINE>
                                 d'64 * 1152/1024
             <BLANKLINE>
@@ -573,10 +574,11 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
                                 \once \override Beam.grow-direction = #left
-                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                                 \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                                \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                                 fs'64 * 320/1024 [
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
             <BLANKLINE>
                                 d'64 * 640/1024
             <BLANKLINE>
@@ -988,10 +990,11 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
                                 \once \override Beam.grow-direction = #right
-                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                                 \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                                \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                                 fs'32 * 2080/1024 [
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
             <BLANKLINE>
                                 d'32 * 1152/1024
             <BLANKLINE>

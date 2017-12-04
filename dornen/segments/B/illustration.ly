@@ -1240,19 +1240,19 @@
                             
                             %%% GuitarMusicVoiceOne [measure 35] %%%
                             \once \override Beam.grow-direction = #left
-                            \set GuitarMusicStaff.instrumentName = \markup { %! SEGMENT:REAPPLIED_INSTRUMENT:3
-                                \hcenter-in %! SEGMENT:REAPPLIED_INSTRUMENT:3
-                                    #16 %! SEGMENT:REAPPLIED_INSTRUMENT:3
-                                    Guitar %! SEGMENT:REAPPLIED_INSTRUMENT:3
-                                } %! SEGMENT:REAPPLIED_INSTRUMENT:3
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! SEGMENT:REAPPLIED_INSTRUMENT:3
-                                \null %! SEGMENT:REAPPLIED_INSTRUMENT:3
-                                } %! SEGMENT:REAPPLIED_INSTRUMENT:3
-                            \clef "treble" %! SEGMENT:REAPPLIED_CLEF_COMMAND:6
-                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:REAPPLIED_INSTRUMENT:2
-                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:REAPPLIED_CLEF_COLOR:4
-                            %%% \override GuitarMusicStaff.Clef.color = ##f %! SEGMENT:REAPPLIED_CLEF_UNCOLOR:5
-                            \set GuitarMusicStaff.forceClef = ##t %! SEGMENT:REAPPLIED_CLEF_COMMAND:7
+                            \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT:3
+                                \hcenter-in %! REAPPLIED_INSTRUMENT:3
+                                    #16 %! REAPPLIED_INSTRUMENT:3
+                                    Guitar %! REAPPLIED_INSTRUMENT:3
+                                } %! REAPPLIED_INSTRUMENT:3
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT:3
+                                \null %! REAPPLIED_INSTRUMENT:3
+                                } %! REAPPLIED_INSTRUMENT:3
+                            \clef "treble" %! REAPPLIED_CLEF_COMMAND:6
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT:2
+                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:4
+                            %%% \override GuitarMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:5
+                            \set GuitarMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:7
                             b''64 * 256/1024
                             [
                             %%% ^ \markup { %! FIGURE_NAME_MARKUP:1
@@ -1272,7 +1272,7 @@
                                             %%% ] %! FIGURE_NAME_MARKUP:1
                                         %%% } %! FIGURE_NAME_MARKUP:1
                                 %%% } %! FIGURE_NAME_MARKUP:1
-                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:REAPPLIED_CLEF_SHADOW:8
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:8
                             
                             g''64 * 512/1024
                             

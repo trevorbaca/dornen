@@ -76,7 +76,7 @@ def graced_tuplet_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 19/56
-                        \bar "" %! SEGMENT:EMPTY_START_BAR:1
+                        \bar "" %! EMPTY_START_BAR:1
                         s1 * 19/56
                             - \markup { %! STAGE_NUMBER_MARKUP:2
                                 \fontsize %! STAGE_NUMBER_MARKUP:2

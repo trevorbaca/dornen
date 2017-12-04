@@ -60,7 +60,7 @@ def glissando_scatto_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 1/16
-                        \bar "" %! SEGMENT:EMPTY_START_BAR:1
+                        \bar "" %! EMPTY_START_BAR:1
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:3
                         s1 * 1/16
@@ -275,7 +275,7 @@ def glissando_scatto_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 15/32
-                        \bar "" %! SEGMENT:EMPTY_START_BAR:1
+                        \bar "" %! EMPTY_START_BAR:1
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 11 416) %! SEGMENT:SPACING_COMMAND:3
                         s1 * 15/32

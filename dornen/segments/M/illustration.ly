@@ -16,7 +16,7 @@
                 %%% GlobalSkips [measure 303] %%%
                 \time 3/32
                 \bar "" %! SEGMENT:EMPTY_START_BAR:1
-                \once \override TextScript.color = #(x11-color 'DarkCyan) %! REMINDER_METRONOME_MARK:3
+                \once \override TextScript.color = #(x11-color 'DarkCyan) %! REMINDER_METRONOME_MARK_COLOR:3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:5
                 s1 * 3/32
@@ -46,22 +46,22 @@
                                 %%% } %! SEGMENT:SPACING_MARKUP:6
                         }
                     }
-                ^ \markup { % REMINDER_METRONOME_MARK:4
-                    \fontsize % REMINDER_METRONOME_MARK:4
-                        #-6 % REMINDER_METRONOME_MARK:4
-                        \general-align % REMINDER_METRONOME_MARK:4
-                            #Y % REMINDER_METRONOME_MARK:4
-                            #DOWN % REMINDER_METRONOME_MARK:4
-                            \note-by-number % REMINDER_METRONOME_MARK:4
-                                #3 % REMINDER_METRONOME_MARK:4
-                                #0 % REMINDER_METRONOME_MARK:4
-                                #1 % REMINDER_METRONOME_MARK:4
-                    \upright % REMINDER_METRONOME_MARK:4
-                        { % REMINDER_METRONOME_MARK:4
-                            = % REMINDER_METRONOME_MARK:4
-                            66 % REMINDER_METRONOME_MARK:4
-                        } % REMINDER_METRONOME_MARK:4
-                    } % REMINDER_METRONOME_MARK:4
+                ^ \markup { % REMINDER_METRONOME_MARK_COMMAND:4
+                    \fontsize % REMINDER_METRONOME_MARK_COMMAND:4
+                        #-6 % REMINDER_METRONOME_MARK_COMMAND:4
+                        \general-align % REMINDER_METRONOME_MARK_COMMAND:4
+                            #Y % REMINDER_METRONOME_MARK_COMMAND:4
+                            #DOWN % REMINDER_METRONOME_MARK_COMMAND:4
+                            \note-by-number % REMINDER_METRONOME_MARK_COMMAND:4
+                                #3 % REMINDER_METRONOME_MARK_COMMAND:4
+                                #0 % REMINDER_METRONOME_MARK_COMMAND:4
+                                #1 % REMINDER_METRONOME_MARK_COMMAND:4
+                    \upright % REMINDER_METRONOME_MARK_COMMAND:4
+                        { % REMINDER_METRONOME_MARK_COMMAND:4
+                            = % REMINDER_METRONOME_MARK_COMMAND:4
+                            66 % REMINDER_METRONOME_MARK_COMMAND:4
+                        } % REMINDER_METRONOME_MARK_COMMAND:4
+                    } % REMINDER_METRONOME_MARK_COMMAND:4
                 
                 %%% GlobalSkips [measure 304] %%%
                 \time 3/20
@@ -1387,16 +1387,16 @@
                             \override Beam.positions = #'(10 . 10)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
-                            \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT:2
-                                \hcenter-in %! REAPPLIED_INSTRUMENT:2
-                                    #16 %! REAPPLIED_INSTRUMENT:2
-                                    Guitar %! REAPPLIED_INSTRUMENT:2
-                                } %! REAPPLIED_INSTRUMENT:2
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT:2
-                                \null %! REAPPLIED_INSTRUMENT:2
-                                } %! REAPPLIED_INSTRUMENT:2
+                            \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                    #16 %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                    Guitar %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                } %! REAPPLIED_INSTRUMENT_COMMAND:2
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                \null %! REAPPLIED_INSTRUMENT_COMMAND:2
+                                } %! REAPPLIED_INSTRUMENT_COMMAND:2
                             \clef "treble" %! REAPPLIED_CLEF_COMMAND:5
-                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT:1
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:3
                             %%% \override GuitarMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:4
                             \set GuitarMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:6

@@ -756,11 +756,11 @@
                             \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:3
                                 \null %! REAPPLIED_INSTRUMENT_COMMAND:3
                                 } %! REAPPLIED_INSTRUMENT_COMMAND:3
-                            \clef "treble" %! REAPPLIED_CLEF_COMMAND:6
+                            \clef "treble" %! REAPPLIED_CLEF_COMMAND:7
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:2
                             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:4
                             %%% \override GuitarMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:5
-                            \set GuitarMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:7
+                            \set GuitarMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:6
                             a'16
                             [
                             (

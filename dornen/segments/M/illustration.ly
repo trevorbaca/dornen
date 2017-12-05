@@ -1395,20 +1395,42 @@
                             \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
                                 \null %! REAPPLIED_INSTRUMENT_COMMAND:2
                                 } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                            \clef "treble" %! REAPPLIED_CLEF_COMMAND:6
+                            \clef "treble" %! REAPPLIED_CLEF_COMMAND:8
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
-                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:3
-                            %%% \override GuitarMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:4
-                            \set GuitarMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:5
+                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:5
+                            %%% \override GuitarMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:6
+                            \set GuitarMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:7
                             d'32.
                             -\tenuto
                             [
                             ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "LH only until rascado! (RH tacet; encourage whisks) ..."
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "LH only until rascado! (RH tacet; encourage whisks) ..."
+                                            }
+                                        %%% \line %! INSTRUMENT_CHANGE_MARKUP:3
+                                        %%%     { %! INSTRUMENT_CHANGE_MARKUP:3
+                                        %%%         \override %! INSTRUMENT_CHANGE_MARKUP:3
+                                        %%%             #'(box-padding . 0.75) %! INSTRUMENT_CHANGE_MARKUP:3
+                                        %%%             \box %! INSTRUMENT_CHANGE_MARKUP:3
+                                        %%%                 guitar %! INSTRUMENT_CHANGE_MARKUP:3
+                                        %%%     } %! INSTRUMENT_CHANGE_MARKUP:3
+                                        \line %! INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                            { %! INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                                \with-color %! INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                                    #(x11-color 'green) %! INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                                    \override %! INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                                        #'(box-padding . 0.75) %! INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                                        \box %! INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                                            guitar %! INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                            } %! INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                    }
                                 }
-                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:7
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:9
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1

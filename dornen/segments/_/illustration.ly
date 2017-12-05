@@ -649,18 +649,19 @@
                             \once \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
-                            \set GuitarMusicStaff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    Guitar
-                                }
-                            \set GuitarMusicStaff.shortInstrumentName = \markup {
-                                \null
-                                }
-                            \clef "treble" %! EXPLICIT_CLEF_COMMAND:5
-                            \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:2
-                            %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:3
-                            \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:4
+                            \set GuitarMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:3
+                                \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:3
+                                    #16 %! EXPLICIT_INSTRUMENT_COMMAND:3
+                                    Guitar %! EXPLICIT_INSTRUMENT_COMMAND:3
+                                } %! EXPLICIT_INSTRUMENT_COMMAND:3
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:3
+                                \null %! EXPLICIT_INSTRUMENT_COMMAND:3
+                                } %! EXPLICIT_INSTRUMENT_COMMAND:3
+                            \clef "treble" %! EXPLICIT_CLEF_COMMAND:7
+                            \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:2
+                            \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:4
+                            %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:5
+                            \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:6
                             e'8.
                             [
                             %%% ^ \markup { %! FIGURE_NAME_MARKUP:1
@@ -680,7 +681,7 @@
                                             %%% ] %! FIGURE_NAME_MARKUP:1
                                         %%% } %! FIGURE_NAME_MARKUP:1
                                 %%% } %! FIGURE_NAME_MARKUP:1
-                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:6
+                            \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:8
                         }
                     }
                     

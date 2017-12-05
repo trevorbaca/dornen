@@ -688,11 +688,11 @@
                             \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:3
                                 \null %! REAPPLIED_INSTRUMENT_COMMAND:3
                                 } %! REAPPLIED_INSTRUMENT_COMMAND:3
-                            \clef "treble" %! REAPPLIED_CLEF_COMMAND:9
+                            \clef "treble" %! REAPPLIED_CLEF_COMMAND:11
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:2
-                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:6
-                            %%% \override GuitarMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:7
-                            \set GuitarMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:8
+                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:8
+                            %%% \override GuitarMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:9
+                            \set GuitarMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:10
                             f32 * 1984/1024
                             [
                             ^ \markup {
@@ -716,25 +716,34 @@
                                                             %%% ] %! FIGURE_NAME_MARKUP:1
                                                         %%% } %! FIGURE_NAME_MARKUP:1
                                             %%% } %! FIGURE_NAME_MARKUP:1
-                                        %%% \line %! INSTRUMENT_CHANGE_MARKUP:4
-                                        %%%     { %! INSTRUMENT_CHANGE_MARKUP:4
-                                        %%%         \override %! INSTRUMENT_CHANGE_MARKUP:4
-                                        %%%             #'(box-padding . 0.75) %! INSTRUMENT_CHANGE_MARKUP:4
-                                        %%%             \box %! INSTRUMENT_CHANGE_MARKUP:4
-                                        %%%                 guitar %! INSTRUMENT_CHANGE_MARKUP:4
-                                        %%%     } %! INSTRUMENT_CHANGE_MARKUP:4
-                                        \line %! INSTRUMENT_CHANGE_COLORED_MARKUP:5
-                                            { %! INSTRUMENT_CHANGE_COLORED_MARKUP:5
-                                                \with-color %! INSTRUMENT_CHANGE_COLORED_MARKUP:5
-                                                    #(x11-color 'green) %! INSTRUMENT_CHANGE_COLORED_MARKUP:5
-                                                    \override %! INSTRUMENT_CHANGE_COLORED_MARKUP:5
-                                                        #'(box-padding . 0.75) %! INSTRUMENT_CHANGE_COLORED_MARKUP:5
-                                                        \box %! INSTRUMENT_CHANGE_COLORED_MARKUP:5
-                                                            guitar %! INSTRUMENT_CHANGE_COLORED_MARKUP:5
-                                            } %! INSTRUMENT_CHANGE_COLORED_MARKUP:5
+                                        %%% \line %! INSTRUMENT_CHANGE_MARKUP:6
+                                        %%%     { %! INSTRUMENT_CHANGE_MARKUP:6
+                                        %%%         \override %! INSTRUMENT_CHANGE_MARKUP:6
+                                        %%%             #'(box-padding . 0.75) %! INSTRUMENT_CHANGE_MARKUP:6
+                                        %%%             \box %! INSTRUMENT_CHANGE_MARKUP:6
+                                        %%%                 guitar %! INSTRUMENT_CHANGE_MARKUP:6
+                                        %%%     } %! INSTRUMENT_CHANGE_MARKUP:6
+                                        \line %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
+                                            { %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
+                                                \with-color %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
+                                                    #(x11-color 'green) %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
+                                                    \override %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
+                                                        #'(box-padding . 0.75) %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
+                                                        \box %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
+                                                            guitar %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
+                                            } %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
                                     }
                                 }
-                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:10
+                            \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
+                                \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
+                                    #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
+                                    Guitar %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
+                                } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
+                            \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
+                                \null %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
+                                } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
+                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW:4
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:12
                             
                             a32 * 1088/1024
                             

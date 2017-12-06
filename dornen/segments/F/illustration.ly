@@ -790,30 +790,30 @@
                                                             %%% ] %! FIGURE_NAME_MARKUP:1
                                                         %%% } %! FIGURE_NAME_MARKUP:1
                                             %%% } %! FIGURE_NAME_MARKUP:1
-                                        %%% \line %! INSTRUMENT_CHANGE_MARKUP:6
-                                        %%%     { %! INSTRUMENT_CHANGE_MARKUP:6
-                                        %%%         \override %! INSTRUMENT_CHANGE_MARKUP:6
-                                        %%%             #'(box-padding . 0.75) %! INSTRUMENT_CHANGE_MARKUP:6
-                                        %%%             \box %! INSTRUMENT_CHANGE_MARKUP:6
-                                        %%%                 guitar %! INSTRUMENT_CHANGE_MARKUP:6
-                                        %%%     } %! INSTRUMENT_CHANGE_MARKUP:6
-                                        \line %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
-                                            { %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
-                                                \with-color %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
-                                                    #(x11-color 'green) %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
-                                                    \override %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
-                                                        #'(box-padding . 0.75) %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
-                                                        \box %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
-                                                            guitar %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
-                                            } %! INSTRUMENT_CHANGE_COLORED_MARKUP:7
+                                        %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:6
+                                        %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:6
+                                        %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:6
+                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:6
+                                        %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:6
+                                        %%%                 guitar %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:6
+                                        %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:6
+                                        \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:7
+                                            { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:7
+                                                \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:7
+                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:7
+                                                    \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:7
+                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:7
+                                                        \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:7
+                                                            guitar %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:7
+                                            } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:7
                                     }
                                 }
-                            \set Staff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
+                            \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
                                 \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
                                     #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
                                     Guitar %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
                                 } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
-                            \set Staff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
                                 \null %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
                                 } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:5
                             \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:4

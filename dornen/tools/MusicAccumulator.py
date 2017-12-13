@@ -88,6 +88,8 @@ class MusicAccumulator(baca.MusicAccumulator):
 
     ### CLASS VARIABLES ###
 
+    __documentation_section__ = None
+
     __slots__ = (
         'anchor_music_maker',
         'delicatissimo_music_maker',

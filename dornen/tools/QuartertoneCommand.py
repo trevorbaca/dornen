@@ -3,13 +3,17 @@ import baca
 
 
 class QuartertoneCommand(baca.Command):
-    r'''Quartertone manager.
+    r'''Quartertone command.
     '''
+
+    ### CLASS VARIABLES ###
+
+    __documentation_section__ = None
 
     ### SPECIAL METHODS ###
 
     def __call__(self, argument=None):
-        r'''Calls quartertone manager on `argument`.
+        r'''Calls quartertone command on `argument`.
 
         Returns none.
         '''

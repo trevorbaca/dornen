@@ -55,6 +55,10 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     '''
 
+    ### CLASS VARIABLES ###
+
+    __documentation_section__ = None
+
     ### SPECIAL METHODS ###
 
     def __call__(self):
@@ -62,25 +66,24 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         Returns score.
         '''
+
+        # GLOBAL CONTEXT
         global_context = self._make_global_context()
+
         # GUITAR
         guitar_music_voice_1 = abjad.Voice(
-            [],
             context_name='GuitarMusicVoiceOne',
             name='GuitarMusicVoiceOne',
             )
         guitar_music_voice_2 = abjad.Voice(
-            [],
             context_name='GuitarMusicVoiceTwo',
             name='GuitarMusicVoiceTwo',
             )
         guitar_music_voice_3 = abjad.Voice(
-            [],
             context_name='GuitarMusicVoiceThree',
             name='GuitarMusicVoiceThree',
             )
         guitar_music_voice_4 = abjad.Voice(
-            [],
             context_name='GuitarMusicVoiceFour',
             name='GuitarMusicVoiceFour',
             )
@@ -100,6 +103,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             dornen.instruments['guitar'],
             )
+
         # SCORE
         music_context = abjad.Context(
             [
@@ -115,4 +119,5 @@ class ScoreTemplate(baca.ScoreTemplate):
                 ],
             name='Score',
             )
+
         return score

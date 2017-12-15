@@ -13,7 +13,7 @@ assert len(design) == 22
 design = baca.Cursor(source=design)
 
 accumulator(
-    'GuitarMusicVoiceOne',
+    'GuitarMusicVoiceI',
     design.next(),
     accumulator.anchor_music_maker,
     baca.beam_positions(6),
@@ -23,7 +23,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceTwo',
+    'GuitarMusicVoiceII',
     design.next(),
     accumulator.passepied_music_maker,
     baca.beam_positions(-10),
@@ -34,7 +34,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceOne',
+    'GuitarMusicVoiceI',
     design.next(),
     accumulator.anchor_music_maker,
     baca.register(-10),
@@ -43,7 +43,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceTwo',
+    'GuitarMusicVoiceII',
     design.next(),
     accumulator.passepied_music_maker,
     baca.time_signature_extra_offset((-2.5, 0)),
@@ -53,7 +53,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceOne',
+    'GuitarMusicVoiceI',
     design.next(),
     accumulator.anchor_music_maker,
     baca.register(-12),
@@ -61,7 +61,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceTwo',
+    'GuitarMusicVoiceII',
     design.next(),
     accumulator.passepied_music_maker,
     baca.time_signature_extra_offset((-2.5, 0)),
@@ -70,7 +70,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceOne',
+    'GuitarMusicVoiceI',
     design.next(),
     accumulator.anchor_music_maker,
     baca.beam_positions(9),
@@ -80,7 +80,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceTwo',
+    'GuitarMusicVoiceII',
     design.next(),
     accumulator.passepied_music_maker,
     baca.beam_positions(-10),
@@ -91,7 +91,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceFour',
+    'GuitarMusicVoiceIV',
     design.next(2),
     accumulator.running_music_maker,
     baca.register(-12),
@@ -99,7 +99,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceOne',
+    'GuitarMusicVoiceI',
     design.next(),
     accumulator.anchor_music_maker,
     baca.register(-16),
@@ -107,7 +107,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceFour',
+    'GuitarMusicVoiceIV',
     design.next(2),
     accumulator.running_music_maker,
     baca.register(-6),
@@ -115,7 +115,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceOne',
+    'GuitarMusicVoiceI',
     design.next(),
     accumulator.anchor_music_maker,
     baca.beam_positions(6),
@@ -125,7 +125,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceTwo',
+    'GuitarMusicVoiceII',
     design.next(),
     accumulator.passepied_music_maker,
     baca.time_signature_extra_offset((-2.5, 0)),
@@ -134,7 +134,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceOne',
+    'GuitarMusicVoiceI',
     design.next(),
     accumulator.anchor_music_maker,
     baca.register(-20),
@@ -142,7 +142,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceTwo',
+    'GuitarMusicVoiceII',
     design.next(),
     accumulator.passepied_music_maker,
     baca.beam_positions(-10),
@@ -153,7 +153,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceTwo',
+    'GuitarMusicVoiceII',
     design.next(),
     accumulator.passepied_music_maker,
     baca.time_signature_extra_offset((-2.5, 0)),
@@ -162,7 +162,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceFour',
+    'GuitarMusicVoiceIV',
     design.next(2),
     accumulator.running_music_maker,
     baca.register(-12, 0),
@@ -170,7 +170,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceThree',
+    'GuitarMusicVoiceIII',
     design.next(),
     accumulator.inverted_wave_64_music_maker,
     baca.beam_positions(-6),
@@ -178,7 +178,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceThree',
+    'GuitarMusicVoiceIII',
     design.next(),
     accumulator.inverted_wave_64_music_maker,
     baca.beam_positions(-6),
@@ -224,6 +224,6 @@ accumulator.populate_segment_maker(maker)
 ###############################################################################
 
 maker(
-    baca.scope('GuitarMusicVoiceThree', 18, 19),
+    baca.scope('GuitarMusicVoiceIII', 18, 19),
     baca.register(0, -12),
     )

@@ -22,7 +22,7 @@ def wave_music(denominator=64, inverted=False):
         ...         ],
         ...     ]
 
-        >>> voice_name = 'GuitarMusicVoiceOne'
+        >>> voice_name = 'GuitarMusicVoiceI'
         >>> music_maker = dornen.wave_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -437,7 +437,7 @@ def wave_music(denominator=64, inverted=False):
         ...         ],
         ...     ]
 
-        >>> voice_name = 'GuitarMusicVoiceOne'
+        >>> voice_name = 'GuitarMusicVoiceI'
         >>> music_maker = dornen.wave_music(
         ...     inverted=True,
         ...     )
@@ -854,7 +854,7 @@ def wave_music(denominator=64, inverted=False):
         ...         ],
         ...     ]
 
-        >>> voice_name = 'GuitarMusicVoiceOne'
+        >>> voice_name = 'GuitarMusicVoiceI'
         >>> music_maker = dornen.wave_music(
         ...     denominator=32,
         ...     )

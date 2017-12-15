@@ -157,11 +157,11 @@
     >>
     \context MusicContext = "MusicContext" {
         \context GuitarMusicStaff = "GuitarMusicStaff" <<
-            \context GuitarMusicVoiceOne = "GuitarMusicVoiceOne" {
+            \context GuitarMusicVoiceI = "GuitarMusicVoiceI" {
                 {
                     {
                         
-                        %%% GuitarMusicVoiceOne [measure 185] %%%
+                        %%% GuitarMusicVoiceI [measure 185] %%%
                         \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT-ONLY
                             \hcenter-in % SEGMENT-ONLY
                                 #16 % SEGMENT-ONLY
@@ -184,7 +184,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 4/5 {
                         
-                        %%% GuitarMusicVoiceOne [measure 186] %%%
+                        %%% GuitarMusicVoiceI [measure 186] %%%
                         gf2
                         :32
                         \<
@@ -210,7 +210,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 4/5 {
                         
-                        %%% GuitarMusicVoiceOne [measure 187] %%%
+                        %%% GuitarMusicVoiceI [measure 187] %%%
                         gf2
                         :32
                         \repeatTie
@@ -221,7 +221,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 2/3 {
                         
-                        %%% GuitarMusicVoiceOne [measure 188] %%%
+                        %%% GuitarMusicVoiceI [measure 188] %%%
                         gf2
                         :32
                         \repeatTie
@@ -233,7 +233,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 2/3 {
                         
-                        %%% GuitarMusicVoiceOne [measure 189] %%%
+                        %%% GuitarMusicVoiceI [measure 189] %%%
                         gf2
                         :32
                         \repeatTie
@@ -244,7 +244,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 2/3 {
                         
-                        %%% GuitarMusicVoiceOne [measure 190] %%%
+                        %%% GuitarMusicVoiceI [measure 190] %%%
                         gf2
                         :32
                         \repeatTie
@@ -254,7 +254,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 4/5 {
                         
-                        %%% GuitarMusicVoiceOne [measure 191] %%%
+                        %%% GuitarMusicVoiceI [measure 191] %%%
                         gf2
                         :32
                         \repeatTie
@@ -274,7 +274,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 4/5 {
                         
-                        %%% GuitarMusicVoiceOne [measure 192] %%%
+                        %%% GuitarMusicVoiceI [measure 192] %%%
                         gf2
                         :32
                         \repeatTie
@@ -285,7 +285,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 2/3 {
                         
-                        %%% GuitarMusicVoiceOne [measure 193] %%%
+                        %%% GuitarMusicVoiceI [measure 193] %%%
                         gf2
                         :32
                         \repeatTie
@@ -297,7 +297,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 2/3 {
                         
-                        %%% GuitarMusicVoiceOne [measure 194] %%%
+                        %%% GuitarMusicVoiceI [measure 194] %%%
                         gf2
                         :32
                         \repeatTie
@@ -308,7 +308,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 2/3 {
                         
-                        %%% GuitarMusicVoiceOne [measure 195] %%%
+                        %%% GuitarMusicVoiceI [measure 195] %%%
                         gf2
                         :32
                         \repeatTie
@@ -318,7 +318,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 4/5 {
                         
-                        %%% GuitarMusicVoiceOne [measure 196] %%%
+                        %%% GuitarMusicVoiceI [measure 196] %%%
                         gf2
                         :32
                         \repeatTie
@@ -338,7 +338,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 4/5 {
                         
-                        %%% GuitarMusicVoiceOne [measure 197] %%%
+                        %%% GuitarMusicVoiceI [measure 197] %%%
                         gf2
                         :32
                         \repeatTie
@@ -349,7 +349,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 2/3 {
                         
-                        %%% GuitarMusicVoiceOne [measure 198] %%%
+                        %%% GuitarMusicVoiceI [measure 198] %%%
                         gf2
                         :32
                         \repeatTie
@@ -361,7 +361,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 4/5 {
                         
-                        %%% GuitarMusicVoiceOne [measure 199] %%%
+                        %%% GuitarMusicVoiceI [measure 199] %%%
                         gf2
                         :32
                         \repeatTie
@@ -372,7 +372,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 2/3 {
                         
-                        %%% GuitarMusicVoiceOne [measure 200] %%%
+                        %%% GuitarMusicVoiceI [measure 200] %%%
                         gf2
                         :32
                         \repeatTie
@@ -384,7 +384,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 4/5 {
                         
-                        %%% GuitarMusicVoiceOne [measure 201] %%%
+                        %%% GuitarMusicVoiceI [measure 201] %%%
                         gf2
                         :32
                         \repeatTie
@@ -395,7 +395,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 2/3 {
                         
-                        %%% GuitarMusicVoiceOne [measure 202] %%%
+                        %%% GuitarMusicVoiceI [measure 202] %%%
                         gf2
                         :32
                         \repeatTie
@@ -407,7 +407,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 2/3 {
                         
-                        %%% GuitarMusicVoiceOne [measure 203] %%%
+                        %%% GuitarMusicVoiceI [measure 203] %%%
                         gf2
                         :32
                         \repeatTie
@@ -417,7 +417,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 2/3 {
                         
-                        %%% GuitarMusicVoiceOne [measure 204] %%%
+                        %%% GuitarMusicVoiceI [measure 204] %%%
                         gf2
                         :32
                         \repeatTie
@@ -427,7 +427,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 4/5 {
                         
-                        %%% GuitarMusicVoiceOne [measure 205] %%%
+                        %%% GuitarMusicVoiceI [measure 205] %%%
                         gf2
                         :32
                         \repeatTie
@@ -453,7 +453,7 @@
                     \tweak edge-height #'(0.7 . 0)
                     \times 4/5 {
                         
-                        %%% GuitarMusicVoiceOne [measure 206] %%%
+                        %%% GuitarMusicVoiceI [measure 206] %%%
                         gf2
                         :32
                         \repeatTie
@@ -477,212 +477,212 @@
                     }
                 }
             }
-            \context GuitarMusicVoiceTwo = "GuitarMusicVoiceTwo" {
+            \context GuitarMusicVoiceII = "GuitarMusicVoiceII" {
                 
-                %%% GuitarMusicVoiceTwo [measure 185] %%%
+                %%% GuitarMusicVoiceII [measure 185] %%%
                 s1 * 3/8
                 
-                %%% GuitarMusicVoiceTwo [measure 186] %%%
+                %%% GuitarMusicVoiceII [measure 186] %%%
                 s1 * 4/5
                 
-                %%% GuitarMusicVoiceTwo [measure 187] %%%
+                %%% GuitarMusicVoiceII [measure 187] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceTwo [measure 188] %%%
+                %%% GuitarMusicVoiceII [measure 188] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceTwo [measure 189] %%%
+                %%% GuitarMusicVoiceII [measure 189] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceTwo [measure 190] %%%
+                %%% GuitarMusicVoiceII [measure 190] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceTwo [measure 191] %%%
+                %%% GuitarMusicVoiceII [measure 191] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceTwo [measure 192] %%%
+                %%% GuitarMusicVoiceII [measure 192] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceTwo [measure 193] %%%
+                %%% GuitarMusicVoiceII [measure 193] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceTwo [measure 194] %%%
+                %%% GuitarMusicVoiceII [measure 194] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceTwo [measure 195] %%%
+                %%% GuitarMusicVoiceII [measure 195] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceTwo [measure 196] %%%
+                %%% GuitarMusicVoiceII [measure 196] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceTwo [measure 197] %%%
+                %%% GuitarMusicVoiceII [measure 197] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceTwo [measure 198] %%%
+                %%% GuitarMusicVoiceII [measure 198] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceTwo [measure 199] %%%
+                %%% GuitarMusicVoiceII [measure 199] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceTwo [measure 200] %%%
+                %%% GuitarMusicVoiceII [measure 200] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceTwo [measure 201] %%%
+                %%% GuitarMusicVoiceII [measure 201] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceTwo [measure 202] %%%
+                %%% GuitarMusicVoiceII [measure 202] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceTwo [measure 203] %%%
+                %%% GuitarMusicVoiceII [measure 203] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceTwo [measure 204] %%%
+                %%% GuitarMusicVoiceII [measure 204] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceTwo [measure 205] %%%
+                %%% GuitarMusicVoiceII [measure 205] %%%
                 s1 * 4/5
                 
-                %%% GuitarMusicVoiceTwo [measure 206] %%%
+                %%% GuitarMusicVoiceII [measure 206] %%%
                 s1 * 4/5
                 \bar "|"
                 
             }
-            \context GuitarMusicVoiceThree = "GuitarMusicVoiceThree" {
+            \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII" {
                 
-                %%% GuitarMusicVoiceThree [measure 185] %%%
+                %%% GuitarMusicVoiceIII [measure 185] %%%
                 s1 * 3/8
                 
-                %%% GuitarMusicVoiceThree [measure 186] %%%
+                %%% GuitarMusicVoiceIII [measure 186] %%%
                 s1 * 4/5
                 
-                %%% GuitarMusicVoiceThree [measure 187] %%%
+                %%% GuitarMusicVoiceIII [measure 187] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceThree [measure 188] %%%
+                %%% GuitarMusicVoiceIII [measure 188] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceThree [measure 189] %%%
+                %%% GuitarMusicVoiceIII [measure 189] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceThree [measure 190] %%%
+                %%% GuitarMusicVoiceIII [measure 190] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceThree [measure 191] %%%
+                %%% GuitarMusicVoiceIII [measure 191] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceThree [measure 192] %%%
+                %%% GuitarMusicVoiceIII [measure 192] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceThree [measure 193] %%%
+                %%% GuitarMusicVoiceIII [measure 193] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceThree [measure 194] %%%
+                %%% GuitarMusicVoiceIII [measure 194] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceThree [measure 195] %%%
+                %%% GuitarMusicVoiceIII [measure 195] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceThree [measure 196] %%%
+                %%% GuitarMusicVoiceIII [measure 196] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceThree [measure 197] %%%
+                %%% GuitarMusicVoiceIII [measure 197] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceThree [measure 198] %%%
+                %%% GuitarMusicVoiceIII [measure 198] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceThree [measure 199] %%%
+                %%% GuitarMusicVoiceIII [measure 199] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceThree [measure 200] %%%
+                %%% GuitarMusicVoiceIII [measure 200] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceThree [measure 201] %%%
+                %%% GuitarMusicVoiceIII [measure 201] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceThree [measure 202] %%%
+                %%% GuitarMusicVoiceIII [measure 202] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceThree [measure 203] %%%
+                %%% GuitarMusicVoiceIII [measure 203] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceThree [measure 204] %%%
+                %%% GuitarMusicVoiceIII [measure 204] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceThree [measure 205] %%%
+                %%% GuitarMusicVoiceIII [measure 205] %%%
                 s1 * 4/5
                 
-                %%% GuitarMusicVoiceThree [measure 206] %%%
+                %%% GuitarMusicVoiceIII [measure 206] %%%
                 s1 * 4/5
                 \bar "|"
                 
             }
-            \context GuitarMusicVoiceFour = "GuitarMusicVoiceFour" {
+            \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV" {
                 
-                %%% GuitarMusicVoiceFour [measure 185] %%%
+                %%% GuitarMusicVoiceIV [measure 185] %%%
                 s1 * 3/8
                 
-                %%% GuitarMusicVoiceFour [measure 186] %%%
+                %%% GuitarMusicVoiceIV [measure 186] %%%
                 s1 * 4/5
                 
-                %%% GuitarMusicVoiceFour [measure 187] %%%
+                %%% GuitarMusicVoiceIV [measure 187] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceFour [measure 188] %%%
+                %%% GuitarMusicVoiceIV [measure 188] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceFour [measure 189] %%%
+                %%% GuitarMusicVoiceIV [measure 189] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceFour [measure 190] %%%
+                %%% GuitarMusicVoiceIV [measure 190] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceFour [measure 191] %%%
+                %%% GuitarMusicVoiceIV [measure 191] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceFour [measure 192] %%%
+                %%% GuitarMusicVoiceIV [measure 192] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceFour [measure 193] %%%
+                %%% GuitarMusicVoiceIV [measure 193] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceFour [measure 194] %%%
+                %%% GuitarMusicVoiceIV [measure 194] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceFour [measure 195] %%%
+                %%% GuitarMusicVoiceIV [measure 195] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceFour [measure 196] %%%
+                %%% GuitarMusicVoiceIV [measure 196] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceFour [measure 197] %%%
+                %%% GuitarMusicVoiceIV [measure 197] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceFour [measure 198] %%%
+                %%% GuitarMusicVoiceIV [measure 198] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceFour [measure 199] %%%
+                %%% GuitarMusicVoiceIV [measure 199] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceFour [measure 200] %%%
+                %%% GuitarMusicVoiceIV [measure 200] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceFour [measure 201] %%%
+                %%% GuitarMusicVoiceIV [measure 201] %%%
                 s1 * 2/5
                 
-                %%% GuitarMusicVoiceFour [measure 202] %%%
+                %%% GuitarMusicVoiceIV [measure 202] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceFour [measure 203] %%%
+                %%% GuitarMusicVoiceIV [measure 203] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceFour [measure 204] %%%
+                %%% GuitarMusicVoiceIV [measure 204] %%%
                 s1 * 1/3
                 
-                %%% GuitarMusicVoiceFour [measure 205] %%%
+                %%% GuitarMusicVoiceIV [measure 205] %%%
                 s1 * 4/5
                 
-                %%% GuitarMusicVoiceFour [measure 206] %%%
+                %%% GuitarMusicVoiceIV [measure 206] %%%
                 s1 * 4/5
                 \bar "|"
                 

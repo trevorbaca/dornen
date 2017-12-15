@@ -28,7 +28,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>
             \context MusicContext = "MusicContext" {
                 \context GuitarMusicStaff = "GuitarMusicStaff" <<
-                    \context GuitarMusicVoiceOne = "GuitarMusicVoiceOne" {
+                    \context GuitarMusicVoiceI = "GuitarMusicVoiceI" {
                         \set GuitarMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -40,13 +40,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                         \clef "treble"
                         s1
                     }
-                    \context GuitarMusicVoiceTwo = "GuitarMusicVoiceTwo" {
+                    \context GuitarMusicVoiceII = "GuitarMusicVoiceII" {
                         s1
                     }
-                    \context GuitarMusicVoiceThree = "GuitarMusicVoiceThree" {
+                    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII" {
                         s1
                     }
-                    \context GuitarMusicVoiceFour = "GuitarMusicVoiceFour" {
+                    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV" {
                         s1
                     }
                 >>
@@ -72,20 +72,20 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         # GUITAR
         guitar_music_voice_1 = abjad.Voice(
-            context_name='GuitarMusicVoiceOne',
-            name='GuitarMusicVoiceOne',
+            context_name='GuitarMusicVoiceI',
+            name='GuitarMusicVoiceI',
             )
         guitar_music_voice_2 = abjad.Voice(
-            context_name='GuitarMusicVoiceTwo',
-            name='GuitarMusicVoiceTwo',
+            context_name='GuitarMusicVoiceII',
+            name='GuitarMusicVoiceII',
             )
         guitar_music_voice_3 = abjad.Voice(
-            context_name='GuitarMusicVoiceThree',
-            name='GuitarMusicVoiceThree',
+            context_name='GuitarMusicVoiceIII',
+            name='GuitarMusicVoiceIII',
             )
         guitar_music_voice_4 = abjad.Voice(
-            context_name='GuitarMusicVoiceFour',
-            name='GuitarMusicVoiceFour',
+            context_name='GuitarMusicVoiceIV',
+            name='GuitarMusicVoiceIV',
             )
         guitar_music_staff = abjad.Staff(
             [
@@ -106,18 +106,15 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         # SCORE
         music_context = abjad.Context(
-            [
-                guitar_music_staff,
-                ],
+            [guitar_music_staff],
             context_name='MusicContext',
             name='MusicContext',
             )
         score = abjad.Score(
-            [
-                global_context,
-                music_context,
-                ],
+            [global_context, music_context],
             name='Score',
             )
-
+        self._assert_lilypond_identifiers(score)
+        self._assert_unique_context_names(score)
+        self._assert_matching_custom_context_names(score)
         return score

@@ -36,7 +36,7 @@ def passepied_music():
         ([4, 3, 9, 8],)
         ([6, 11, 2, 5],)
 
-        >>> voice_name = 'GuitarMusicVoiceOne'
+        >>> voice_name = 'GuitarMusicVoiceI'
         >>> music_maker = dornen.passepied_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -210,7 +210,7 @@ def passepied_music():
         ([8, 6, 11, 2], [4, 3, 9, 7], [6, 11, 2, 5])
         ([4, 3, 9, 7], [6, 11, 2, 5], [8])
 
-        >>> voice_name = 'GuitarMusicVoiceOne'
+        >>> voice_name = 'GuitarMusicVoiceI'
         >>> music_maker = dornen.passepied_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:

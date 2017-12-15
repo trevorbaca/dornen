@@ -641,11 +641,11 @@
         >>
         \context MusicContext = "MusicContext" {
             \context GuitarMusicStaff = "GuitarMusicStaff" <<
-                \context GuitarMusicVoiceOne = "GuitarMusicVoiceOne" {
+                \context GuitarMusicVoiceI = "GuitarMusicVoiceI" {
                     {
                         {
                             
-                            %%% GuitarMusicVoiceOne [measure 1] %%%
+                            %%% GuitarMusicVoiceI [measure 1] %%%
                             \once \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
@@ -694,12 +694,12 @@
                         }
                     }
                     
-                    %%% GuitarMusicVoiceOne [measure 2] %%%
+                    %%% GuitarMusicVoiceI [measure 2] %%%
                     s1 * 1/32
                     {
                         {
                             
-                            %%% GuitarMusicVoiceOne [measure 3] %%%
+                            %%% GuitarMusicVoiceI [measure 3] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             b'8.
@@ -723,12 +723,12 @@
                         }
                     }
                     
-                    %%% GuitarMusicVoiceOne [measure 4] %%%
+                    %%% GuitarMusicVoiceI [measure 4] %%%
                     s1 * 1/32
                     {
                         {
                             
-                            %%% GuitarMusicVoiceOne [measure 5] %%%
+                            %%% GuitarMusicVoiceI [measure 5] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             bf'8.
@@ -757,12 +757,12 @@
                         }
                     }
                     
-                    %%% GuitarMusicVoiceOne [measure 6] %%%
+                    %%% GuitarMusicVoiceI [measure 6] %%%
                     s1 * 1/32
                     {
                         {
                             
-                            %%% GuitarMusicVoiceOne [measure 7] %%%
+                            %%% GuitarMusicVoiceI [measure 7] %%%
                             \override Beam.positions = #'(9 . 9)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
@@ -793,12 +793,12 @@
                         }
                     }
                     
-                    %%% GuitarMusicVoiceOne [measure 8] %%%
+                    %%% GuitarMusicVoiceI [measure 8] %%%
                     s1 * 1/8
                     {
                         {
                             
-                            %%% GuitarMusicVoiceOne [measure 10] %%%
+                            %%% GuitarMusicVoiceI [measure 10] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             c'8.
@@ -835,12 +835,12 @@
                         }
                     }
                     
-                    %%% GuitarMusicVoiceOne [measure 11] %%%
+                    %%% GuitarMusicVoiceI [measure 11] %%%
                     s1 * 17/64
                     {
                         {
                             
-                            %%% GuitarMusicVoiceOne [measure 12] %%%
+                            %%% GuitarMusicVoiceI [measure 12] %%%
                             \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
@@ -871,12 +871,12 @@
                         }
                     }
                     
-                    %%% GuitarMusicVoiceOne [measure 13] %%%
+                    %%% GuitarMusicVoiceI [measure 13] %%%
                     s1 * 1/32
                     {
                         {
                             
-                            %%% GuitarMusicVoiceOne [measure 14] %%%
+                            %%% GuitarMusicVoiceI [measure 14] %%%
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             af8.
@@ -905,31 +905,31 @@
                         }
                     }
                     
-                    %%% GuitarMusicVoiceOne [measure 15] %%%
+                    %%% GuitarMusicVoiceI [measure 15] %%%
                     s1 * 1/32
                     
-                    %%% GuitarMusicVoiceOne [measure 16] %%%
+                    %%% GuitarMusicVoiceI [measure 16] %%%
                     s1 * 1/32
                     
-                    %%% GuitarMusicVoiceOne [measure 17] %%%
+                    %%% GuitarMusicVoiceI [measure 17] %%%
                     s1 * 9/64
                     
-                    %%% GuitarMusicVoiceOne [measure 18] %%%
+                    %%% GuitarMusicVoiceI [measure 18] %%%
                     s1 * 7/64
                     
-                    %%% GuitarMusicVoiceOne [measure 19] %%%
+                    %%% GuitarMusicVoiceI [measure 19] %%%
                     s1 * 3/16
                     \bar "|"
                     
                 }
-                \context GuitarMusicVoiceTwo = "GuitarMusicVoiceTwo" {
+                \context GuitarMusicVoiceII = "GuitarMusicVoiceII" {
                     
-                    %%% GuitarMusicVoiceTwo [measure 1] %%%
+                    %%% GuitarMusicVoiceII [measure 1] %%%
                     s1 * 3/16
                     {
                         {
                             
-                            %%% GuitarMusicVoiceTwo [measure 2] %%%
+                            %%% GuitarMusicVoiceII [measure 2] %%%
                             \acciaccatura {
                                 
                                 fs'16 [
@@ -971,12 +971,12 @@
                         }
                     }
                     
-                    %%% GuitarMusicVoiceTwo [measure 3] %%%
+                    %%% GuitarMusicVoiceII [measure 3] %%%
                     s1 * 3/16
                     {
                         {
                             
-                            %%% GuitarMusicVoiceTwo [measure 4] %%%
+                            %%% GuitarMusicVoiceII [measure 4] %%%
                             \acciaccatura {
                                 
                                 bf'16 [
@@ -1014,12 +1014,12 @@
                         }
                     }
                     
-                    %%% GuitarMusicVoiceTwo [measure 5] %%%
+                    %%% GuitarMusicVoiceII [measure 5] %%%
                     s1 * 3/8
                     {
                         {
                             
-                            %%% GuitarMusicVoiceTwo [measure 6] %%%
+                            %%% GuitarMusicVoiceII [measure 6] %%%
                             \acciaccatura {
                                 
                                 b'16 [
@@ -1056,12 +1056,12 @@
                         }
                     }
                     
-                    %%% GuitarMusicVoiceTwo [measure 7] %%%
+                    %%% GuitarMusicVoiceII [measure 7] %%%
                     s1 * 3/8
                     {
                         {
                             
-                            %%% GuitarMusicVoiceTwo [measure 8] %%%
+                            %%% GuitarMusicVoiceII [measure 8] %%%
                             \acciaccatura {
                                 
                                 bf'16 [
@@ -1099,12 +1099,12 @@
                         }
                     }
                     
-                    %%% GuitarMusicVoiceTwo [measure 9] %%%
+                    %%% GuitarMusicVoiceII [measure 9] %%%
                     s1 * 95/64
                     {
                         {
                             
-                            %%% GuitarMusicVoiceTwo [measure 13] %%%
+                            %%% GuitarMusicVoiceII [measure 13] %%%
                             \acciaccatura {
                                 
                                 a''16 [
@@ -1149,12 +1149,12 @@
                         }
                     }
                     
-                    %%% GuitarMusicVoiceTwo [measure 14] %%%
+                    %%% GuitarMusicVoiceII [measure 14] %%%
                     s1 * 3/8
                     {
                         {
                             
-                            %%% GuitarMusicVoiceTwo [measure 15] %%%
+                            %%% GuitarMusicVoiceII [measure 15] %%%
                             \acciaccatura {
                                 
                                 b''16 [
@@ -1202,7 +1202,7 @@
                     {
                         {
                             
-                            %%% GuitarMusicVoiceTwo [measure 16] %%%
+                            %%% GuitarMusicVoiceII [measure 16] %%%
                             \acciaccatura {
                                 
                                 ef''16 [
@@ -1237,20 +1237,20 @@
                         }
                     }
                     
-                    %%% GuitarMusicVoiceTwo [measure 17] %%%
+                    %%% GuitarMusicVoiceII [measure 17] %%%
                     s1 * 9/64
                     
-                    %%% GuitarMusicVoiceTwo [measure 18] %%%
+                    %%% GuitarMusicVoiceII [measure 18] %%%
                     s1 * 7/64
                     
-                    %%% GuitarMusicVoiceTwo [measure 19] %%%
+                    %%% GuitarMusicVoiceII [measure 19] %%%
                     s1 * 3/16
                     \bar "|"
                     
                 }
-                \context GuitarMusicVoiceThree = "GuitarMusicVoiceThree" {
+                \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII" {
                     
-                    %%% GuitarMusicVoiceThree [measure 1] %%%
+                    %%% GuitarMusicVoiceIII [measure 1] %%%
                     s1 * 107/32
                     {
                         \override TupletNumber.text = \markup {
@@ -1285,7 +1285,7 @@
                             }
                         \times 1/1 {
                             
-                            %%% GuitarMusicVoiceThree [measure 18] %%%
+                            %%% GuitarMusicVoiceIII [measure 18] %%%
                             \override Beam.positions = #'(-6 . -6)
                             \once \override Beam.grow-direction = #left
                             b''64 * 320/1024
@@ -1357,7 +1357,7 @@
                             }
                         \times 1/1 {
                             
-                            %%% GuitarMusicVoiceThree [measure 19] %%%
+                            %%% GuitarMusicVoiceIII [measure 19] %%%
                             \override Beam.positions = #'(-6 . -6)
                             \once \override Beam.grow-direction = #left
                             f''64 * 192/1024
@@ -1409,15 +1409,15 @@
                         \revert TupletNumber.text
                     }
                 }
-                \context GuitarMusicVoiceFour = "GuitarMusicVoiceFour" {
+                \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV" {
                     
-                    %%% GuitarMusicVoiceFour [measure 1] %%%
+                    %%% GuitarMusicVoiceIV [measure 1] %%%
                     s1 * 5/4
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             
-                            %%% GuitarMusicVoiceFour [measure 9] %%%
+                            %%% GuitarMusicVoiceIV [measure 9] %%%
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #4
                             af'64
@@ -1478,12 +1478,12 @@
                         }
                     }
                     
-                    %%% GuitarMusicVoiceFour [measure 10] %%%
+                    %%% GuitarMusicVoiceIV [measure 10] %%%
                     s1 * 3/4
                     {
                         \times 2/3 {
                             
-                            %%% GuitarMusicVoiceFour [measure 11] %%%
+                            %%% GuitarMusicVoiceIV [measure 11] %%%
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #4
                             b'64
@@ -1588,13 +1588,13 @@
                         }
                     }
                     
-                    %%% GuitarMusicVoiceFour [measure 12] %%%
+                    %%% GuitarMusicVoiceIV [measure 12] %%%
                     s1 * 27/32
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
                             
-                            %%% GuitarMusicVoiceFour [measure 17] %%%
+                            %%% GuitarMusicVoiceIV [measure 17] %%%
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #4
                             a'64
@@ -1667,10 +1667,10 @@
                         }
                     }
                     
-                    %%% GuitarMusicVoiceFour [measure 18] %%%
+                    %%% GuitarMusicVoiceIV [measure 18] %%%
                     s1 * 7/64
                     
-                    %%% GuitarMusicVoiceFour [measure 19] %%%
+                    %%% GuitarMusicVoiceIV [measure 19] %%%
                     s1 * 3/16
                     \bar "|"
                     

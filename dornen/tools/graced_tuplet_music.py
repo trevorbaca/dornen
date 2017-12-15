@@ -30,7 +30,7 @@ def graced_tuplet_music():
         ([1, 0, 10, 5, 8, 6, 11, 2, 4, 3], [9, 8, 1, 0, 10, 5, 8, 6, 11, 2])
         ([9, 8, 1, 0, 10, 5, 8, 6, 11, 2], [8])
 
-        >>> voice_name = 'GuitarMusicVoiceOne'
+        >>> voice_name = 'GuitarMusicVoiceI'
         >>> music_maker = dornen.graced_tuplet_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:

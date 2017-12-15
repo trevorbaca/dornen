@@ -9,7 +9,7 @@ metadata = abjad.TypedOrderedDict(
                 [
                     (
                         'GuitarMusicStaff',
-                        ('treble', 'GuitarMusicVoiceOne'),
+                        ('treble', 'GuitarMusicVoiceI'),
                         ),
                     ]
                 ),
@@ -19,10 +19,10 @@ metadata = abjad.TypedOrderedDict(
             'end_dynamics_by_context',
             abjad.TypedOrderedDict(
                 [
-                    ('GuitarMusicVoiceFour', 'p'),
-                    ('GuitarMusicVoiceOne', 'p'),
-                    ('GuitarMusicVoiceThree', 'p'),
-                    ('GuitarMusicVoiceTwo', 'p'),
+                    ('GuitarMusicVoiceI', 'p'),
+                    ('GuitarMusicVoiceII', 'p'),
+                    ('GuitarMusicVoiceIII', 'p'),
+                    ('GuitarMusicVoiceIV', 'p'),
                     ]
                 ),
             ),

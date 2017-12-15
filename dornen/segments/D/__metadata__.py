@@ -9,7 +9,7 @@ metadata = abjad.TypedOrderedDict(
                 [
                     (
                         'GuitarMusicStaff',
-                        ('treble', 'GuitarMusicVoiceOne'),
+                        ('treble', 'GuitarMusicVoiceI'),
                         ),
                     ]
                 ),

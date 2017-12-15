@@ -19,7 +19,7 @@ def running_music():
         ...     [[10, 7, 9, 8, 0, 5]],
         ...     ]
 
-        >>> voice_name = 'GuitarMusicVoiceOne'
+        >>> voice_name = 'GuitarMusicVoiceI'
         >>> music_maker = dornen.running_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -235,7 +235,7 @@ def running_music():
         ([6, 2, 3, 5, 9, 8, 0], [11], [10, 7, 9, 8, 0, 5])
         ([11], [10, 7, 9, 8, 0, 5], [4])
 
-        >>> voice_name = 'GuitarMusicVoiceOne'
+        >>> voice_name = 'GuitarMusicVoiceI'
         >>> music_maker = dornen.running_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:

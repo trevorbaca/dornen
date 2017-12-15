@@ -13,7 +13,7 @@ design = design_2[:14]
 assert len(design) == 14
 
 accumulator(
-    'GuitarMusicVoiceOne',
+    'GuitarMusicVoiceI',
     design[:4],
     accumulator.inverted_wave_64_music_maker,
     baca.beam_positions(8),
@@ -23,7 +23,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceTwo',
+    'GuitarMusicVoiceII',
     accumulator.reveal(design[4:5], 1),
     accumulator.twentieth_music_maker,
     baca.beam_positions(-8),
@@ -34,7 +34,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceOne',
+    'GuitarMusicVoiceI',
     design[5:8],
     accumulator.running_music_maker,
     baca.register(-14, 0),
@@ -43,7 +43,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceTwo',
+    'GuitarMusicVoiceII',
     accumulator.reveal(design[4:5], 2),
     accumulator.twentieth_music_maker,
     baca.register(6),
@@ -52,7 +52,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceOne',
+    'GuitarMusicVoiceI',
     design[6:9],
     accumulator.running_music_maker,
     baca.register(-14, 0),
@@ -61,7 +61,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceTwo',
+    'GuitarMusicVoiceII',
     accumulator.reveal(design[4:5], 3),
     accumulator.twentieth_music_maker,
     baca.register(6),
@@ -70,7 +70,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceOne',
+    'GuitarMusicVoiceI',
     design[7:10],
     accumulator.running_music_maker,
     baca.register(-14, 0),
@@ -79,7 +79,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceTwo',
+    'GuitarMusicVoiceII',
     accumulator.reveal(design[4:5], 4),
     accumulator.twentieth_music_maker,
     baca.register(6),
@@ -88,7 +88,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceOne',
+    'GuitarMusicVoiceI',
     design[8:11],
     accumulator.running_music_maker,
     baca.register(-14, 0),
@@ -97,7 +97,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceTwo',
+    'GuitarMusicVoiceII',
     accumulator.reveal(design[4:5], 5),
     accumulator.twentieth_music_maker,
     baca.register(6),
@@ -105,7 +105,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceOne',
+    'GuitarMusicVoiceI',
     design[9:13],
     accumulator.running_music_maker,
     baca.register(-14, 6),
@@ -113,7 +113,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceTwo',
+    'GuitarMusicVoiceII',
     accumulator.reveal(design[4:5], 1),
     accumulator.twentieth_music_maker,
     baca.proportional_notation_duration((1, 40)),
@@ -123,7 +123,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceOne',
+    'GuitarMusicVoiceI',
     design[13:],
     accumulator.delicatissimo_music_maker,
     baca.text_script_staff_padding(9),
@@ -133,7 +133,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceTwo',
+    'GuitarMusicVoiceII',
     accumulator.reveal(design[4:5], 2),
     accumulator.twentieth_music_maker,
     baca.register(6),
@@ -141,7 +141,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceOne',
+    'GuitarMusicVoiceI',
     design[13:],
     accumulator.delicatissimo_music_maker,
     baca.register(-20, 6),
@@ -187,22 +187,22 @@ accumulator.populate_segment_maker(maker)
 ###############################################################################
 
 #maker(
-#    baca.scope('GuitarMusicVoiceOne', 1, 15),
+#    baca.scope('GuitarMusicVoiceI', 1, 15),
 #    baca.dynamic_line_spanner_up(),
 #    baca.dynamic_line_spanner_staff_padding(12),
 #    )
 
 #maker(
-#    baca.scope('GuitarMusicVoiceOne', 13, 15),
+#    baca.scope('GuitarMusicVoiceI', 13, 15),
 #    baca.hairpin('p > ppp'),
 #    )
 
 #maker(
-#    baca.scope('GuitarMusicVoiceTwo', 2, 10),
+#    baca.scope('GuitarMusicVoiceII', 2, 10),
 #    baca.hairpin('f < fff'),
 #    )
 
 #maker(
-#    baca.scope('GuitarMusicVoiceTwo', 12, 14),
+#    baca.scope('GuitarMusicVoiceII', 12, 14),
 #    baca.hairpin('fff > f'),
 #    )

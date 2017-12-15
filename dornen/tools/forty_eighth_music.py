@@ -19,7 +19,7 @@ def forty_eighth_music():
         ...     [[10, 7, 9, 8, 0, 5]],
         ...     ]
 
-        >>> voice_name = 'GuitarMusicVoiceOne'
+        >>> voice_name = 'GuitarMusicVoiceI'
         >>> music_maker = dornen.forty_eighth_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:

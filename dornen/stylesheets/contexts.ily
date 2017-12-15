@@ -78,7 +78,7 @@
     % GUITAR
     \context {
         \Voice
-        \name GuitarMusicVoiceOne
+        \name GuitarMusicVoiceI
         \type Engraver_group
         \alias Voice
         \override Stem.direction = #up
@@ -87,7 +87,7 @@
     }
     \context {
         \Voice
-        \name GuitarMusicVoiceTwo
+        \name GuitarMusicVoiceII
         \type Engraver_group
         \alias Voice
         \dynamicUp
@@ -111,14 +111,14 @@
     }
     \context {
         \Voice
-        \name GuitarMusicVoiceThree
+        \name GuitarMusicVoiceIII
         \type Engraver_group
         \alias Voice
         \override Stem.direction = #down
     }
     \context {
         \Voice
-        \name GuitarMusicVoiceFour
+        \name GuitarMusicVoiceIV
         \type Engraver_group
         \alias Voice
         \dynamicUp
@@ -146,10 +146,10 @@
         \name GuitarMusicStaff
         \type Engraver_group
         \alias Staff
-        \accepts GuitarMusicVoiceOne
-        \accepts GuitarMusicVoiceTwo
-        \accepts GuitarMusicVoiceThree
-        \accepts GuitarMusicVoiceFour
+        \accepts GuitarMusicVoiceI
+        \accepts GuitarMusicVoiceII
+        \accepts GuitarMusicVoiceIII
+        \accepts GuitarMusicVoiceIV
     }
     % MUSIC
     \context {

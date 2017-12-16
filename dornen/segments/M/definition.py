@@ -350,6 +350,7 @@ maker = baca.SegmentMaker(
     final_markup_extra_offset=(124, 0),
     ignore_repeat_pitch_classes=False,
     instruments=dornen.instruments,
+    last_segment=True,
     measures_per_stage=measures_per_stage,
     metronome_marks=dornen.metronome_marks,
     rehearsal_letter='',

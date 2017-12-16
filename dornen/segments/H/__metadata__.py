@@ -27,10 +27,7 @@ metadata = abjad.TypedOrderedDict(
         ('end_margin_markup', None),
         ('end_metronome_mark', '66'),
         ('end_staff_lines', None),
-        ('end_time_signature', '2/20'),
         ('first_bar_number', 167),
-        ('measure_count', 18),
-        ('segment_count', 14),
         ('segment_number', 9),
         (
             'time_signatures',

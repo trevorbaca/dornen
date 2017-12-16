@@ -6,9 +6,7 @@
 \include "../../stylesheets/stylesheet.ily"
 
 \score {
-    \context Score = "Score" \with {
-        currentBarNumber = #1
-    } <<
+    \context Score = "Score" <<
         \context GlobalContext = "GlobalContext" <<
             \context GlobalSkips = "GlobalSkips" {
                 

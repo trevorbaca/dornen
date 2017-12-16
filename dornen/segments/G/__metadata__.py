@@ -20,12 +20,25 @@ metadata = abjad.TypedOrderedDict(
             'end_instruments',
             abjad.TypedOrderedDict(
                 [
-                    ('GuitarMusicStaff', 'guitar'),
+                    (
+                        'GuitarMusicStaff',
+                        ('guitar', 'GuitarMusicVoiceI'),
+                        ),
                     ]
                 ),
             ),
         ('end_margin_markup', None),
-        ('end_metronome_mark', '66'),
+        (
+            'end_metronome_marks',
+            abjad.TypedOrderedDict(
+                [
+                    (
+                        'Score',
+                        ('66', 'GlobalSkips'),
+                        ),
+                    ]
+                ),
+            ),
         ('end_staff_lines', None),
         ('first_measure_number', 155),
         ('segment_number', 8),

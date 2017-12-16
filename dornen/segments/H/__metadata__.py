@@ -15,12 +15,7 @@ metadata = abjad.TypedOrderedDict(
                 ),
             ),
         ('end_clock_time', "6'06''"),
-        (
-            'end_dynamics',
-            abjad.TypedOrderedDict(
-                []
-                ),
-            ),
+        ('end_dynamics', None),
         (
             'end_instruments',
             abjad.TypedOrderedDict(
@@ -29,13 +24,9 @@ metadata = abjad.TypedOrderedDict(
                     ]
                 ),
             ),
+        ('end_margin_markup', None),
         ('end_metronome_mark', '66'),
-        (
-            'end_staff_lines',
-            abjad.TypedOrderedDict(
-                []
-                ),
-            ),
+        ('end_staff_lines', None),
         ('end_time_signature', '2/20'),
         ('first_bar_number', 167),
         ('measure_count', 18),

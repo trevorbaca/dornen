@@ -4,7 +4,7 @@ import abjad
 metadata = abjad.TypedOrderedDict(
     [
         (
-            'end_clefs_by_context',
+            'end_clefs',
             abjad.TypedOrderedDict(
                 [
                     (
@@ -16,7 +16,7 @@ metadata = abjad.TypedOrderedDict(
             ),
         ('end_clock_time', "14'29''"),
         (
-            'end_dynamics_by_context',
+            'end_dynamics',
             abjad.TypedOrderedDict(
                 [
                     ('GuitarMusicVoiceI', 'p'),
@@ -27,7 +27,7 @@ metadata = abjad.TypedOrderedDict(
                 ),
             ),
         (
-            'end_instruments_by_context',
+            'end_instruments',
             abjad.TypedOrderedDict(
                 [
                     ('GuitarMusicStaff', 'guitar'),
@@ -36,7 +36,7 @@ metadata = abjad.TypedOrderedDict(
             ),
         ('end_metronome_mark', '66'),
         (
-            'end_staff_lines_by_staff',
+            'end_staff_lines',
             abjad.TypedOrderedDict(
                 []
                 ),

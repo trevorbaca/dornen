@@ -374,7 +374,7 @@ accumulator.populate_segment_maker(maker)
 ###############################################################################
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 1, Infinity),
+    baca.scope('GuitarMusicVoiceI', 1, abjad.Infinity),
     baca.register(-20),
     baca.stem_tremolo(),
     baca.tie(repeat=True),

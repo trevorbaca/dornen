@@ -30,7 +30,7 @@ accumulator(
     accumulator.sixteenth_music_maker,
     baca.markup(
         'dull (but beautiful) thud with RH muting for each red note',
-        direction=Down,
+        direction=abjad.Down,
         ),
     baca.text_scripts_down(),
     extend_beam=True,

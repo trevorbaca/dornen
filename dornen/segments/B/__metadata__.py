@@ -40,6 +40,17 @@ metadata = abjad.TypedOrderedDict(
                 ),
             ),
         ('end_staff_lines', None),
+        (
+            'end_time_signatures',
+            abjad.TypedOrderedDict(
+                [
+                    (
+                        'Score',
+                        ('3/16', 'GlobalSkips'),
+                        ),
+                    ]
+                ),
+            ),
         ('first_measure_number', 35),
         ('segment_number', 3),
         ('start_clock_time', "1'19''"),

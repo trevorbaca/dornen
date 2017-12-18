@@ -2,7 +2,8 @@
 
 
 \layout {
-    % TIME SIGNATURE CONTEXT
+
+    % GLOBAL SKIPS
     \context {
         \name GlobalSkips
         \type Engraver_group
@@ -18,6 +19,8 @@
         \override TextSpanner.font-size = 6
         \override TextSpanner.staff-padding = 4
         }
+
+    % GLOBAL RESTS
     \context {
         \name GlobalRests
         \type Engraver_group
@@ -27,6 +30,8 @@
         \override MultiMeasureRestText.outside-staff-priority = 0
         \override MultiMeasureRestText.padding = 0
         }
+
+    % GLOBAL CONTEXT
     \context {
         \name GlobalContext
         \type Engraver_group
@@ -62,20 +67,25 @@
         \override VerticalAxisGroup.default-staff-staff-spacing.minimum-distance = 20
         \override VerticalAxisGroup.minimum-Y-extent = #'(-4 . 4)
     }
-    % GENERIC CONTEXTS
+
+    % PIANO STAFF
     \context {
         \PianoStaff
         \remove "Keep_alive_together_engraver" 
     }
+    % STAFF
     \context {
         \Staff
         \remove Time_signature_engraver
     }
+
+    % VOICE
     \context {
         \Voice
         \remove Forbid_line_break_engraver
     }
-    % GUITAR
+
+    % GUITAR CONTEXTS
     \context {
         \Voice
         \name GuitarMusicVoiceI
@@ -151,7 +161,8 @@
         \accepts GuitarMusicVoiceIII
         \accepts GuitarMusicVoiceIV
     }
-    % MUSIC
+
+    % MUSIC CONTEXT
     \context {
         %\StaffGroup
         \name MusicContext
@@ -161,6 +172,7 @@
         \accepts GuitarMusicStaff
         %systemStartDelimiter = 'SystemStartBar
     }
+
     % SCORE
     \context {
         \Score

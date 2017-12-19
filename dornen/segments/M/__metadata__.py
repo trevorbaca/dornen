@@ -3,62 +3,6 @@ import abjad
 
 metadata = abjad.TypedOrderedDict(
     [
-        (
-            'abjad.Clef',
-            abjad.TypedOrderedDict(
-                [
-                    (
-                        'GuitarMusicStaff',
-                        ('treble', 'GuitarMusicVoiceI'),
-                        ),
-                    ]
-                ),
-            ),
-        (
-            'abjad.Dynamic',
-            abjad.TypedOrderedDict(
-                [
-                    (
-                        'GuitarMusicVoiceI',
-                        ('p', 'GuitarMusicVoiceI'),
-                        ),
-                    ]
-                ),
-            ),
-        (
-            'abjad.Instrument',
-            abjad.TypedOrderedDict(
-                [
-                    (
-                        'GuitarMusicStaff',
-                        ('Guitar', 'GuitarMusicVoiceI'),
-                        ),
-                    ]
-                ),
-            ),
-        (
-            'abjad.MetronomeMark',
-            abjad.TypedOrderedDict(
-                [
-                    (
-                        'Score',
-                        ('66', 'GlobalSkips'),
-                        ),
-                    ]
-                ),
-            ),
-        (
-            'abjad.TimeSignature',
-            abjad.TypedOrderedDict(
-                [
-                    (
-                        'Score',
-                        ('13/3', 'GlobalSkips'),
-                        ),
-                    ]
-                ),
-            ),
-        ('baca.MarginMarkup', None),
         ('baca.StaffLines', None),
         ('duration', "1'05''"),
         ('first_measure_number', 303),

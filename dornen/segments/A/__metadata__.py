@@ -3,7 +3,6 @@ import abjad
 
 metadata = abjad.TypedOrderedDict(
     [
-        ('baca.StaffLines', None),
         ('duration', "0'40''"),
         ('first_measure_number', 20),
         (

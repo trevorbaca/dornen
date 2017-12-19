@@ -101,7 +101,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             guitar_music_staff,
             'default_instrument',
-            dornen.instruments['guitar'],
+            dornen.instruments['Guitar'],
             )
 
         # SCORE

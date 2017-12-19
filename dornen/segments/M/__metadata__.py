@@ -31,7 +31,7 @@ metadata = abjad.TypedOrderedDict(
                 [
                     (
                         'GuitarMusicStaff',
-                        ('guitar', 'GuitarMusicVoiceI'),
+                        ('Guitar', 'GuitarMusicVoiceI'),
                         ),
                     ]
                 ),
@@ -77,7 +77,7 @@ metadata = abjad.TypedOrderedDict(
                             abjad.Momento(
                                 context='GuitarMusicVoiceI',
                                 prototype='abjad.Instrument',
-                                value='guitar',
+                                value='Guitar',
                                 ),
                             ],
                         ),

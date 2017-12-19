@@ -16,7 +16,7 @@
                 %%% GlobalSkips [measure 185] %%%
                 \time 3/8
                 \bar "" %! EMPTY_START_BAR:1
-                \once \override TextScript.color = #(x11-color 'green) %! REMINDER_METRONOME_MARK_COLOR:3
+                \once \override TextScript.color = #(x11-color 'green) %! PERSISTENT_METRONOME_MARK_COLOR:3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:5
                 s1 * 3/8
@@ -46,22 +46,22 @@
                                 %%% } %! SEGMENT:SPACING_MARKUP:6
                         }
                     }
-                ^ \markup { % REMINDER_METRONOME_MARK_COMMAND:4
-                    \fontsize % REMINDER_METRONOME_MARK_COMMAND:4
-                        #-6 % REMINDER_METRONOME_MARK_COMMAND:4
-                        \general-align % REMINDER_METRONOME_MARK_COMMAND:4
-                            #Y % REMINDER_METRONOME_MARK_COMMAND:4
-                            #DOWN % REMINDER_METRONOME_MARK_COMMAND:4
-                            \note-by-number % REMINDER_METRONOME_MARK_COMMAND:4
-                                #3 % REMINDER_METRONOME_MARK_COMMAND:4
-                                #0 % REMINDER_METRONOME_MARK_COMMAND:4
-                                #1 % REMINDER_METRONOME_MARK_COMMAND:4
-                    \upright % REMINDER_METRONOME_MARK_COMMAND:4
-                        { % REMINDER_METRONOME_MARK_COMMAND:4
-                            = % REMINDER_METRONOME_MARK_COMMAND:4
-                            66 % REMINDER_METRONOME_MARK_COMMAND:4
-                        } % REMINDER_METRONOME_MARK_COMMAND:4
-                    } % REMINDER_METRONOME_MARK_COMMAND:4
+                ^ \markup { % PERSISTENT_METRONOME_MARK_COMMAND:4
+                    \fontsize % PERSISTENT_METRONOME_MARK_COMMAND:4
+                        #-6 % PERSISTENT_METRONOME_MARK_COMMAND:4
+                        \general-align % PERSISTENT_METRONOME_MARK_COMMAND:4
+                            #Y % PERSISTENT_METRONOME_MARK_COMMAND:4
+                            #DOWN % PERSISTENT_METRONOME_MARK_COMMAND:4
+                            \note-by-number % PERSISTENT_METRONOME_MARK_COMMAND:4
+                                #3 % PERSISTENT_METRONOME_MARK_COMMAND:4
+                                #0 % PERSISTENT_METRONOME_MARK_COMMAND:4
+                                #1 % PERSISTENT_METRONOME_MARK_COMMAND:4
+                    \upright % PERSISTENT_METRONOME_MARK_COMMAND:4
+                        { % PERSISTENT_METRONOME_MARK_COMMAND:4
+                            = % PERSISTENT_METRONOME_MARK_COMMAND:4
+                            66 % PERSISTENT_METRONOME_MARK_COMMAND:4
+                        } % PERSISTENT_METRONOME_MARK_COMMAND:4
+                    } % PERSISTENT_METRONOME_MARK_COMMAND:4
                 
                 %%% GlobalSkips [measure 186] %%%
                 \time 4/5
@@ -744,19 +744,19 @@
                         {
                             
                             %%% GuitarMusicVoiceI [measure 185] %%%
-                            \set GuitarMusicStaff.instrumentName = \markup { %! REMINDER_INSTRUMENT_COMMAND:8
-                                \hcenter-in %! REMINDER_INSTRUMENT_COMMAND:8
-                                    #16 %! REMINDER_INSTRUMENT_COMMAND:8
-                                    Guitar %! REMINDER_INSTRUMENT_COMMAND:8
-                                } %! REMINDER_INSTRUMENT_COMMAND:8
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! REMINDER_INSTRUMENT_COMMAND:8
-                                \null %! REMINDER_INSTRUMENT_COMMAND:8
-                                } %! REMINDER_INSTRUMENT_COMMAND:8
-                            \clef "treble" %! REMINDER_CLEF_COMMAND:5
-                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! REMINDER_CLEF_COLOR:2
-                            %%% \override GuitarMusicStaff.Clef.color = ##f %! REMINDER_CLEF_UNCOLOR:3
-                            \set GuitarMusicStaff.forceClef = ##t %! REMINDER_CLEF_COMMAND:4
-                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green) %! REMINDER_INSTRUMENT_COLOR:7
+                            \set GuitarMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:8
+                                \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:8
+                                    #16 %! PERSISTENT_INSTRUMENT_COMMAND:8
+                                    Guitar %! PERSISTENT_INSTRUMENT_COMMAND:8
+                                } %! PERSISTENT_INSTRUMENT_COMMAND:8
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:8
+                                \null %! PERSISTENT_INSTRUMENT_COMMAND:8
+                                } %! PERSISTENT_INSTRUMENT_COMMAND:8
+                            \clef "treble" %! PERSISTENT_CLEF_COMMAND:5
+                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:2
+                            %%% \override GuitarMusicStaff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:3
+                            \set GuitarMusicStaff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:4
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:7
                             r8
                             ^ \markup {
                                 \column
@@ -784,34 +784,34 @@
                                                             %%% ] %! FIGURE_NAME_MARKUP:1
                                                         %%% } %! FIGURE_NAME_MARKUP:1
                                             %%% } %! FIGURE_NAME_MARKUP:1
-                                        %%% \line %! REMINDER_INSTRUMENT_CHANGE_MARKUP:11
-                                        %%%     { %! REMINDER_INSTRUMENT_CHANGE_MARKUP:11
-                                        %%%         \override %! REMINDER_INSTRUMENT_CHANGE_MARKUP:11
-                                        %%%             #'(box-padding . 0.75) %! REMINDER_INSTRUMENT_CHANGE_MARKUP:11
-                                        %%%             \box %! REMINDER_INSTRUMENT_CHANGE_MARKUP:11
-                                        %%%                 guitar %! REMINDER_INSTRUMENT_CHANGE_MARKUP:11
-                                        %%%     } %! REMINDER_INSTRUMENT_CHANGE_MARKUP:11
-                                        \line %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:12
-                                            { %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:12
-                                                \with-color %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:12
-                                                    #(x11-color 'green) %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:12
-                                                    \override %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:12
-                                                        #'(box-padding . 0.75) %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:12
-                                                        \box %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:12
-                                                            guitar %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:12
-                                            } %! REMINDER_INSTRUMENT_CHANGE_COLORED_MARKUP:12
+                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:11
+                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:11
+                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:11
+                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:11
+                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:11
+                                        %%%                 guitar %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:11
+                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:11
+                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:12
+                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:12
+                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:12
+                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:12
+                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:12
+                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:12
+                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:12
+                                                            guitar %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:12
+                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:12
                                     }
                                 }
-                            \set GuitarMusicStaff.instrumentName = \markup { %! REMINDER_INSTRUMENT_SHADOW_COMMAND:10
-                                \hcenter-in %! REMINDER_INSTRUMENT_SHADOW_COMMAND:10
-                                    #16 %! REMINDER_INSTRUMENT_SHADOW_COMMAND:10
-                                    Guitar %! REMINDER_INSTRUMENT_SHADOW_COMMAND:10
-                                } %! REMINDER_INSTRUMENT_SHADOW_COMMAND:10
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! REMINDER_INSTRUMENT_SHADOW_COMMAND:10
-                                \null %! REMINDER_INSTRUMENT_SHADOW_COMMAND:10
-                                } %! REMINDER_INSTRUMENT_SHADOW_COMMAND:10
-                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REMINDER_CLEF_SHADOW_COLOR:6
-                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REMINDER_INSTRUMENT_SHADOW_COLOR:9
+                            \set GuitarMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:10
+                                \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:10
+                                    #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:10
+                                    Guitar %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:10
+                                } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:10
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:10
+                                \null %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:10
+                                } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:10
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:6
+                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:9
                             
                             r8
                             

@@ -421,14 +421,14 @@
                 \context GuitarMusicVoiceI = "GuitarMusicVoiceI" {
                     
                     %%% GuitarMusicVoiceI [measure 155] %%%
-                    \set GuitarMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            Guitar %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:7
-                    \set GuitarMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        \null %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:7
+                    \set GuitarMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            Guitar %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
+                    \set GuitarMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        \null %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
                     \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
                     \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
                     %%% \override GuitarMusicStaff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
@@ -438,34 +438,34 @@
                     ^ \markup {
                         \column
                             {
-                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%                 guitar %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    guitar %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%                 guitar %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    guitar %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                             }
                         }
-                    \set GuitarMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            Guitar %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                    \set GuitarMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        \null %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
+                    \set GuitarMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            Guitar %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                    \set GuitarMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        \null %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
                     \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
+                    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:10
                     {
                         {
                             

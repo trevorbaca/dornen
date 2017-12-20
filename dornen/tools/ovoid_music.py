@@ -95,11 +95,9 @@ def ovoid_music():
                         s1 * 7/16
             <BLANKLINE>
                         %%% GlobalSkips [measure 3] %%%
-                        \time 7/16
                         s1 * 7/16
             <BLANKLINE>
                         %%% GlobalSkips [measure 4] %%%
-                        \time 7/16
                         s1 * 7/16
             <BLANKLINE>
                         %%% GlobalSkips [measure 5] %%%

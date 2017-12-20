@@ -195,7 +195,6 @@ def rest_music(duration=None):
                                 } %! STAGE_NUMBER_MARKUP:2
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
-                        \time 6/8
                         s1 * 3/4
             <BLANKLINE>
                     }

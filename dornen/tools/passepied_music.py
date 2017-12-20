@@ -91,19 +91,15 @@ def passepied_music():
                                 } %! STAGE_NUMBER_MARKUP:2
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
-                        \time 1/32
                         s1 * 1/32
             <BLANKLINE>
                         %%% GlobalSkips [measure 3] %%%
-                        \time 1/32
                         s1 * 1/32
             <BLANKLINE>
                         %%% GlobalSkips [measure 4] %%%
-                        \time 1/32
                         s1 * 1/32
             <BLANKLINE>
                         %%% GlobalSkips [measure 5] %%%
-                        \time 1/32
                         s1 * 1/32
             <BLANKLINE>
                     }
@@ -265,11 +261,9 @@ def passepied_music():
                                 } %! STAGE_NUMBER_MARKUP:2
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
-                        \time 17/32
                         s1 * 17/32
             <BLANKLINE>
                         %%% GlobalSkips [measure 3] %%%
-                        \time 17/32
                         s1 * 17/32
             <BLANKLINE>
                         %%% GlobalSkips [measure 4] %%%

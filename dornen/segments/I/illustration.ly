@@ -802,16 +802,16 @@
                                             } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
                                     }
                                 }
-                            \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:12
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:12
-                                    #16 %! REAPPLIED_INSTRUMENT_REDRAW:12
-                                    Guitar %! REAPPLIED_INSTRUMENT_REDRAW:12
-                                } %! REAPPLIED_INSTRUMENT_REDRAW:12
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:12
-                                \null %! REAPPLIED_INSTRUMENT_REDRAW:12
-                                } %! REAPPLIED_INSTRUMENT_REDRAW:12
+                            \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_REDRAW_INSTRUMENT:12
+                                \hcenter-in %! REAPPLIED_REDRAW_INSTRUMENT:12
+                                    #16 %! REAPPLIED_REDRAW_INSTRUMENT:12
+                                    Guitar %! REAPPLIED_REDRAW_INSTRUMENT:12
+                                } %! REAPPLIED_REDRAW_INSTRUMENT:12
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_REDRAW_INSTRUMENT:12
+                                \null %! REAPPLIED_REDRAW_INSTRUMENT:12
+                                } %! REAPPLIED_REDRAW_INSTRUMENT:12
                             \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:6
-                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_COLOR_REDRAW:11
+                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:11
                             
                             r8
                             

@@ -685,19 +685,13 @@
                                             %%% } %! FIGURE_NAME_MARKUP:1
                                         %%% \line %! EXPLICIT_INSTRUMENT_ALERT:8
                                         %%%     { %! EXPLICIT_INSTRUMENT_ALERT:8
-                                        %%%         \override %! EXPLICIT_INSTRUMENT_ALERT:8
-                                        %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT:8
-                                        %%%             \box %! EXPLICIT_INSTRUMENT_ALERT:8
-                                        %%%                 guitar %! EXPLICIT_INSTRUMENT_ALERT:8
+                                        %%%         [Guitar] %! EXPLICIT_INSTRUMENT_ALERT:8
                                         %%%     } %! EXPLICIT_INSTRUMENT_ALERT:8
                                         \line %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
                                             { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
                                                 \with-color %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
                                                     #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
-                                                    \override %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
-                                                        #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
-                                                        \box %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
-                                                            guitar %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                    [Guitar] %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
                                             } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
                                     }
                                 }

@@ -456,16 +456,16 @@
                                     } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                             }
                         }
-                    \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
-                        \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
-                            #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
-                            Guitar %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
-                        } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
-                    \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
-                        \null %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
-                        } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
-                    \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:5
-                    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:10
+                    \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
+                        \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
+                            #16 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
+                            Guitar %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
+                        } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
+                    \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
+                        \null %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
+                        } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
+                    \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_REDRAW_COLOR:5
+                    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_REDRAW_COLOR:10
                     {
                         {
                             

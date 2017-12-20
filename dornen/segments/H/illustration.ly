@@ -674,16 +674,16 @@
                                             } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:9
                                     }
                                 }
-                            \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:12
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:12
-                                    #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:12
-                                    Guitar %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:12
-                                } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:12
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:12
-                                \null %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:12
-                                } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:12
-                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:6
-                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:11
+                            \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:12
+                                \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:12
+                                    #16 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:12
+                                    Guitar %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:12
+                                } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:12
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:12
+                                \null %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:12
+                                } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:12
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_REDRAW_COLOR:6
+                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_REDRAW_COLOR:11
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3

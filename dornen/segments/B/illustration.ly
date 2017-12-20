@@ -768,7 +768,6 @@
                     }
                 
                 %%% GlobalSkips [measure 58] %%%
-                \time 10/32
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 48) %! SEGMENT:SPACING:3
                 s1 * 5/16
@@ -880,7 +879,6 @@
                     }
                 
                 %%% GlobalSkips [measure 61] %%%
-                \time 7/32
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
@@ -912,7 +910,6 @@
                     }
                 
                 %%% GlobalSkips [measure 62] %%%
-                \time 7/32
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
@@ -944,7 +941,6 @@
                     }
                 
                 %%% GlobalSkips [measure 63] %%%
-                \time 7/32
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
@@ -976,7 +972,6 @@
                     }
                 
                 %%% GlobalSkips [measure 64] %%%
-                \time 7/32
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
@@ -1008,7 +1003,6 @@
                     }
                 
                 %%% GlobalSkips [measure 65] %%%
-                \time 7/32
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
@@ -1040,7 +1034,6 @@
                     }
                 
                 %%% GlobalSkips [measure 66] %%%
-                \time 7/32
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32

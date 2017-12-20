@@ -64,7 +64,6 @@
                     } % REAPPLIED_METRONOME_MARK:4
                 
                 %%% GlobalSkips [measure 168] %%%
-                \time 6/32
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 3/16
@@ -96,7 +95,6 @@
                     }
                 
                 %%% GlobalSkips [measure 169] %%%
-                \time 6/32
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 3/16
@@ -128,7 +126,6 @@
                     }
                 
                 %%% GlobalSkips [measure 170] %%%
-                \time 6/32
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 3/16
@@ -160,7 +157,6 @@
                     }
                 
                 %%% GlobalSkips [measure 171] %%%
-                \time 6/32
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 3/16
@@ -256,7 +252,6 @@
                     }
                 
                 %%% GlobalSkips [measure 174] %%%
-                \time 22/32
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 11/16

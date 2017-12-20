@@ -96,7 +96,6 @@
                     }
                 
                 %%% GlobalSkips [measure 73] %%%
-                \time 11/64
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %! SEGMENT:SPACING:3
                 s1 * 11/64

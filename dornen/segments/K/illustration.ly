@@ -64,7 +64,6 @@
                     } % REAPPLIED_METRONOME_MARK:4
                 
                 %%% GlobalSkips [measure 233] %%%
-                \time 2/5
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 2/5
@@ -128,7 +127,6 @@
                     }
                 
                 %%% GlobalSkips [measure 235] %%%
-                \time 1/3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 1/3
@@ -160,7 +158,6 @@
                     }
                 
                 %%% GlobalSkips [measure 236] %%%
-                \time 1/3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 1/3
@@ -224,7 +221,6 @@
                     }
                 
                 %%% GlobalSkips [measure 238] %%%
-                \time 2/5
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 2/5
@@ -288,7 +284,6 @@
                     }
                 
                 %%% GlobalSkips [measure 240] %%%
-                \time 1/3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 1/3
@@ -320,7 +315,6 @@
                     }
                 
                 %%% GlobalSkips [measure 241] %%%
-                \time 1/3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 1/3
@@ -384,7 +378,6 @@
                     }
                 
                 %%% GlobalSkips [measure 243] %%%
-                \time 2/5
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 2/5
@@ -448,7 +441,6 @@
                     }
                 
                 %%% GlobalSkips [measure 245] %%%
-                \time 1/3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 1/3
@@ -480,7 +472,6 @@
                     }
                 
                 %%% GlobalSkips [measure 246] %%%
-                \time 1/3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 1/3
@@ -576,7 +567,6 @@
                     }
                 
                 %%% GlobalSkips [measure 249] %%%
-                \time 1/3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 1/3
@@ -608,7 +598,6 @@
                     }
                 
                 %%% GlobalSkips [measure 250] %%%
-                \time 1/3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 1/3
@@ -704,7 +693,6 @@
                     }
                 
                 %%% GlobalSkips [measure 253] %%%
-                \time 1/3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 1/3
@@ -736,7 +724,6 @@
                     }
                 
                 %%% GlobalSkips [measure 254] %%%
-                \time 1/3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 1/3
@@ -800,7 +787,6 @@
                     }
                 
                 %%% GlobalSkips [measure 256] %%%
-                \time 4/5
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 4/5

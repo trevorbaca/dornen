@@ -701,16 +701,16 @@
                                             } %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:9
                                     }
                                 }
-                            \set GuitarMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:12
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:12
-                                    #16 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:12
-                                    Guitar %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:12
-                                } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:12
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:12
-                                \null %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:12
-                                } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:12
-                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:6
-                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:11
+                            \set GuitarMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_REDRAW_COMMAND:12
+                                \hcenter-in %! EXPLICIT_INSTRUMENT_REDRAW_COMMAND:12
+                                    #16 %! EXPLICIT_INSTRUMENT_REDRAW_COMMAND:12
+                                    Guitar %! EXPLICIT_INSTRUMENT_REDRAW_COMMAND:12
+                                } %! EXPLICIT_INSTRUMENT_REDRAW_COMMAND:12
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_REDRAW_COMMAND:12
+                                \null %! EXPLICIT_INSTRUMENT_REDRAW_COMMAND:12
+                                } %! EXPLICIT_INSTRUMENT_REDRAW_COMMAND:12
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:6
+                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_REDRAW_COLOR:11
                         }
                     }
                     

@@ -163,7 +163,7 @@ def wave_music(denominator=64, inverted=False):
                                 %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                                 \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                                 fs'64 * 2112/1024 [
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:5
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
             <BLANKLINE>
                                 d'64 * 1152/1024
             <BLANKLINE>
@@ -580,7 +580,7 @@ def wave_music(denominator=64, inverted=False):
                                 %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                                 \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                                 fs'64 * 320/1024 [
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:5
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
             <BLANKLINE>
                                 d'64 * 640/1024
             <BLANKLINE>
@@ -997,7 +997,7 @@ def wave_music(denominator=64, inverted=False):
                                 %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                                 \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                                 fs'32 * 2080/1024 [
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:5
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
             <BLANKLINE>
                                 d'32 * 1152/1024
             <BLANKLINE>

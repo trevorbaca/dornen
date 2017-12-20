@@ -1412,22 +1412,22 @@
                                                     \upright
                                                         "LH only until rascado! (RH tacet; encourage whisks) ..."
                                             }
-                                        %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%                 guitar %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                            guitar %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        %%% \line %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%     { %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%         \override %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%             \box %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%                 guitar %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%     } %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \override %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        \box %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            guitar %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                     }
                                 }
                             \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:11

@@ -588,22 +588,22 @@
                                                             %%% ] %! FIGURE_NAME_MARKUP:1
                                                         %%% } %! FIGURE_NAME_MARKUP:1
                                             %%% } %! FIGURE_NAME_MARKUP:1
-                                        %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:8
-                                        %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:8
-                                        %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:8
-                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:8
-                                        %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:8
-                                        %%%                 guitar %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:8
-                                        %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:8
-                                        \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:9
-                                            { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:9
-                                                \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:9
-                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:9
-                                                    \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:9
-                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:9
-                                                        \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:9
-                                                            guitar %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:9
-                                            } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:9
+                                        %%% \line %! REAPPLIED_INSTRUMENT_ALERT:8
+                                        %%%     { %! REAPPLIED_INSTRUMENT_ALERT:8
+                                        %%%         \override %! REAPPLIED_INSTRUMENT_ALERT:8
+                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_ALERT:8
+                                        %%%             \box %! REAPPLIED_INSTRUMENT_ALERT:8
+                                        %%%                 guitar %! REAPPLIED_INSTRUMENT_ALERT:8
+                                        %%%     } %! REAPPLIED_INSTRUMENT_ALERT:8
+                                        \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
+                                            { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                    \override %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                        \box %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                            guitar %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
+                                            } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
                                     }
                                 }
                             \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:12

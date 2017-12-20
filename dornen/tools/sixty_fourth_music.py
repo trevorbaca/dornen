@@ -62,7 +62,7 @@ def sixty_fourth_music():
                         \time 1/64
                         \bar "" %! EMPTY_START_BAR:1
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %! SEGMENT:SPACING_COMMAND:3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %! SEGMENT:SPACING:3
                         s1 * 1/64
                             - \markup {
                                 \column
@@ -89,7 +89,7 @@ def sixty_fourth_music():
                         %%% GlobalSkips [measure 2] %%%
                         \time 7/64
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %! SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %! SEGMENT:SPACING:1
                         s1 * 7/64
                             - \markup { %! SEGMENT:SPACING_MARKUP:2
                                 \with-color %! SEGMENT:SPACING_MARKUP:2
@@ -102,7 +102,7 @@ def sixty_fourth_music():
                         %%% GlobalSkips [measure 3] %%%
                         \time 1/64
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %! SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %! SEGMENT:SPACING:1
                         s1 * 1/64
                             - \markup { %! SEGMENT:SPACING_MARKUP:2
                                 \with-color %! SEGMENT:SPACING_MARKUP:2
@@ -115,7 +115,7 @@ def sixty_fourth_music():
                         %%% GlobalSkips [measure 4] %%%
                         \time 6/64
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %! SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %! SEGMENT:SPACING:1
                         s1 * 3/32
                             - \markup { %! SEGMENT:SPACING_MARKUP:2
                                 \with-color %! SEGMENT:SPACING_MARKUP:2
@@ -133,12 +133,12 @@ def sixty_fourth_music():
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
-                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
+                                \clef "treble" %! EXPLICIT_CLEF:4
                                 \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                                 %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
-                                \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
+                                \set Staff.forceClef = ##t %! EXPLICIT_CLEF:3
                                 e'64 -\staccato
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:5
                             }
                             {
             <BLANKLINE>

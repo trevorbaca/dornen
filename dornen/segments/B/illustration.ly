@@ -18,7 +18,7 @@
                 \bar "" %! EMPTY_START_BAR:1
                 \once \override TextScript.color = #(x11-color 'green) %! REAPPLIED_METRONOME_MARK_COLOR:3
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %! SEGMENT:SPACING_COMMAND:6
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %! SEGMENT:SPACING:6
                 s1 * 9/64
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:5
                     %%% \fontsize %! CLOCK_TIME_MARKUP:5
@@ -46,27 +46,27 @@
                                 %%% } %! SEGMENT:SPACING_MARKUP:7
                         }
                     }
-                ^ \markup { % REAPPLIED_METRONOME_MARK_COMMAND:4
-                    \fontsize % REAPPLIED_METRONOME_MARK_COMMAND:4
-                        #-6 % REAPPLIED_METRONOME_MARK_COMMAND:4
-                        \general-align % REAPPLIED_METRONOME_MARK_COMMAND:4
-                            #Y % REAPPLIED_METRONOME_MARK_COMMAND:4
-                            #DOWN % REAPPLIED_METRONOME_MARK_COMMAND:4
-                            \note-by-number % REAPPLIED_METRONOME_MARK_COMMAND:4
-                                #3 % REAPPLIED_METRONOME_MARK_COMMAND:4
-                                #0 % REAPPLIED_METRONOME_MARK_COMMAND:4
-                                #1 % REAPPLIED_METRONOME_MARK_COMMAND:4
-                    \upright % REAPPLIED_METRONOME_MARK_COMMAND:4
-                        { % REAPPLIED_METRONOME_MARK_COMMAND:4
-                            = % REAPPLIED_METRONOME_MARK_COMMAND:4
-                            44 % REAPPLIED_METRONOME_MARK_COMMAND:4
-                        } % REAPPLIED_METRONOME_MARK_COMMAND:4
-                    } % REAPPLIED_METRONOME_MARK_COMMAND:4
+                ^ \markup { % REAPPLIED_METRONOME_MARK:4
+                    \fontsize % REAPPLIED_METRONOME_MARK:4
+                        #-6 % REAPPLIED_METRONOME_MARK:4
+                        \general-align % REAPPLIED_METRONOME_MARK:4
+                            #Y % REAPPLIED_METRONOME_MARK:4
+                            #DOWN % REAPPLIED_METRONOME_MARK:4
+                            \note-by-number % REAPPLIED_METRONOME_MARK:4
+                                #3 % REAPPLIED_METRONOME_MARK:4
+                                #0 % REAPPLIED_METRONOME_MARK:4
+                                #1 % REAPPLIED_METRONOME_MARK:4
+                    \upright % REAPPLIED_METRONOME_MARK:4
+                        { % REAPPLIED_METRONOME_MARK:4
+                            = % REAPPLIED_METRONOME_MARK:4
+                            44 % REAPPLIED_METRONOME_MARK:4
+                        } % REAPPLIED_METRONOME_MARK:4
+                    } % REAPPLIED_METRONOME_MARK:4
                 
                 %%% GlobalSkips [measure 36] %%%
                 \time 1/14
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING:3
                 s1 * 1/14
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -98,7 +98,7 @@
                 %%% GlobalSkips [measure 37] %%%
                 \time 7/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -130,7 +130,7 @@
                 %%% GlobalSkips [measure 38] %%%
                 \time 1/14
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING:3
                 s1 * 1/14
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -162,7 +162,7 @@
                 %%% GlobalSkips [measure 39] %%%
                 \time 13/64
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %! SEGMENT:SPACING:3
                 s1 * 13/64
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -194,7 +194,7 @@
                 %%% GlobalSkips [measure 40] %%%
                 \time 2/14
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING:3
                 s1 * 1/7
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -226,7 +226,7 @@
                 %%% GlobalSkips [measure 41] %%%
                 \time 7/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -258,7 +258,7 @@
                 %%% GlobalSkips [measure 42] %%%
                 \time 2/14
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING:3
                 s1 * 1/7
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -290,7 +290,7 @@
                 %%% GlobalSkips [measure 43] %%%
                 \time 4/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 1/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -322,7 +322,7 @@
                 %%% GlobalSkips [measure 44] %%%
                 \time 1/14
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING:3
                 s1 * 1/14
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -354,7 +354,7 @@
                 %%% GlobalSkips [measure 45] %%%
                 \time 3/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 3/32
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -386,7 +386,7 @@
                 %%% GlobalSkips [measure 46] %%%
                 \time 3/14
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING:3
                 s1 * 3/14
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -418,7 +418,7 @@
                 %%% GlobalSkips [measure 47] %%%
                 \time 10/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 5/16
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -450,7 +450,7 @@
                 %%% GlobalSkips [measure 48] %%%
                 \time 7/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -482,7 +482,7 @@
                 %%% GlobalSkips [measure 49] %%%
                 \time 2/14
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING:3
                 s1 * 1/7
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -514,7 +514,7 @@
                 %%% GlobalSkips [measure 50] %%%
                 \time 13/64
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %! SEGMENT:SPACING:3
                 s1 * 13/64
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -546,7 +546,7 @@
                 %%% GlobalSkips [measure 51] %%%
                 \time 15/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 15/32
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -578,7 +578,7 @@
                 %%% GlobalSkips [measure 52] %%%
                 \time 5/14
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING:3
                 s1 * 5/14
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -610,7 +610,7 @@
                 %%% GlobalSkips [measure 53] %%%
                 \time 6/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 3/16
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -642,7 +642,7 @@
                 %%% GlobalSkips [measure 54] %%%
                 \time 7/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -674,7 +674,7 @@
                 %%% GlobalSkips [measure 55] %%%
                 \time 13/16
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING:3
                 s1 * 13/16
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -706,7 +706,7 @@
                 %%% GlobalSkips [measure 56] %%%
                 \time 7/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -738,7 +738,7 @@
                 %%% GlobalSkips [measure 57] %%%
                 \time 10/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 5/16
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -770,7 +770,7 @@
                 %%% GlobalSkips [measure 58] %%%
                 \time 10/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 48) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 48) %! SEGMENT:SPACING:3
                 s1 * 5/16
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -802,7 +802,7 @@
                 %%% GlobalSkips [measure 59] %%%
                 \time 16/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 1/2
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -850,7 +850,7 @@
                 %%% GlobalSkips [measure 60] %%%
                 \time 7/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -882,7 +882,7 @@
                 %%% GlobalSkips [measure 61] %%%
                 \time 7/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -914,7 +914,7 @@
                 %%% GlobalSkips [measure 62] %%%
                 \time 7/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -946,7 +946,7 @@
                 %%% GlobalSkips [measure 63] %%%
                 \time 7/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -978,7 +978,7 @@
                 %%% GlobalSkips [measure 64] %%%
                 \time 7/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -1010,7 +1010,7 @@
                 %%% GlobalSkips [measure 65] %%%
                 \time 7/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -1042,7 +1042,7 @@
                 %%% GlobalSkips [measure 66] %%%
                 \time 7/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -1074,7 +1074,7 @@
                 %%% GlobalSkips [measure 67] %%%
                 \time 13/64
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %! SEGMENT:SPACING:3
                 s1 * 13/64
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -1106,7 +1106,7 @@
                 %%% GlobalSkips [measure 68] %%%
                 \time 16/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 1/2
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -1138,7 +1138,7 @@
                 %%% GlobalSkips [measure 69] %%%
                 \time 7/32
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %! SEGMENT:SPACING:3
                 s1 * 7/32
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -1170,7 +1170,7 @@
                 %%% GlobalSkips [measure 70] %%%
                 \time 3/16
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING:3
                 s1 * 3/16
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -1240,18 +1240,18 @@
                             
                             %%% GuitarMusicVoiceI [measure 35] %%%
                             \once \override Beam.grow-direction = #left
-                            \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:10
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:10
-                                    #16 %! REAPPLIED_INSTRUMENT_COMMAND:10
-                                    Guitar %! REAPPLIED_INSTRUMENT_COMMAND:10
-                                } %! REAPPLIED_INSTRUMENT_COMMAND:10
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:10
-                                \null %! REAPPLIED_INSTRUMENT_COMMAND:10
-                                } %! REAPPLIED_INSTRUMENT_COMMAND:10
-                            \clef "treble" %! REAPPLIED_CLEF_COMMAND:5
+                            \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT:10
+                                \hcenter-in %! REAPPLIED_INSTRUMENT:10
+                                    #16 %! REAPPLIED_INSTRUMENT:10
+                                    Guitar %! REAPPLIED_INSTRUMENT:10
+                                } %! REAPPLIED_INSTRUMENT:10
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT:10
+                                \null %! REAPPLIED_INSTRUMENT:10
+                                } %! REAPPLIED_INSTRUMENT:10
+                            \clef "treble" %! REAPPLIED_CLEF:5
                             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:2
                             %%% \override GuitarMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:3
-                            \set GuitarMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:4
+                            \set GuitarMusicStaff.forceClef = ##t %! REAPPLIED_CLEF:4
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:7
                             b''64 * 256/1024
                             [
@@ -1294,16 +1294,16 @@
                                             } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:9
                                     }
                                 }
-                            \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:12
-                                \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:12
-                                    #16 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:12
-                                    Guitar %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:12
-                                } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:12
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:12
-                                \null %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:12
-                                } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:12
-                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_REDRAW_COLOR:6
-                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_REDRAW_COLOR:11
+                            \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:12
+                                \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:12
+                                    #16 %! REAPPLIED_INSTRUMENT_REDRAW:12
+                                    Guitar %! REAPPLIED_INSTRUMENT_REDRAW:12
+                                } %! REAPPLIED_INSTRUMENT_REDRAW:12
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:12
+                                \null %! REAPPLIED_INSTRUMENT_REDRAW:12
+                                } %! REAPPLIED_INSTRUMENT_REDRAW:12
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:6
+                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_COLOR_REDRAW:11
                             
                             g''64 * 512/1024
                             

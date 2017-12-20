@@ -83,7 +83,7 @@ def twentieth_music():
                         \time 7/20
                         \bar "" %! EMPTY_START_BAR:1
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50) %! SEGMENT:SPACING_COMMAND:3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50) %! SEGMENT:SPACING:3
                         s1 * 7/20
                             - \markup {
                                 \column
@@ -110,7 +110,7 @@ def twentieth_music():
                         %%% GlobalSkips [measure 2] %%%
                         \time 2/20
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50) %! SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50) %! SEGMENT:SPACING:1
                         s1 * 1/10
                             - \markup { %! SEGMENT:SPACING_MARKUP:2
                                 \with-color %! SEGMENT:SPACING_MARKUP:2
@@ -123,7 +123,7 @@ def twentieth_music():
                         %%% GlobalSkips [measure 3] %%%
                         \time 3/20
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50) %! SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50) %! SEGMENT:SPACING:1
                         s1 * 3/20
                             - \markup { %! SEGMENT:SPACING_MARKUP:2
                                 \with-color %! SEGMENT:SPACING_MARKUP:2
@@ -136,7 +136,7 @@ def twentieth_music():
                         %%% GlobalSkips [measure 4] %%%
                         \time 4/20
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50) %! SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50) %! SEGMENT:SPACING:1
                         s1 * 1/5
                             - \markup { %! SEGMENT:SPACING_MARKUP:2
                                 \with-color %! SEGMENT:SPACING_MARKUP:2
@@ -155,12 +155,12 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
-                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
+                                \clef "treble" %! EXPLICIT_CLEF:4
                                 \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                                 %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
-                                \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
+                                \set Staff.forceClef = ##t %! EXPLICIT_CLEF:3
                                 cs'16
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:5
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
@@ -322,7 +322,7 @@ def twentieth_music():
                         \time 7/20
                         \bar "" %! EMPTY_START_BAR:1
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50) %! SEGMENT:SPACING_COMMAND:3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50) %! SEGMENT:SPACING:3
                         s1 * 7/20
                             - \markup {
                                 \column
@@ -349,7 +349,7 @@ def twentieth_music():
                         %%% GlobalSkips [measure 2] %%%
                         \time 1/20
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50) %! SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50) %! SEGMENT:SPACING:1
                         s1 * 1/20
                             - \markup { %! SEGMENT:SPACING_MARKUP:2
                                 \with-color %! SEGMENT:SPACING_MARKUP:2
@@ -362,7 +362,7 @@ def twentieth_music():
                         %%% GlobalSkips [measure 3] %%%
                         \time 3/20
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50) %! SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50) %! SEGMENT:SPACING:1
                         s1 * 3/20
                             - \markup { %! SEGMENT:SPACING_MARKUP:2
                                 \with-color %! SEGMENT:SPACING_MARKUP:2
@@ -375,7 +375,7 @@ def twentieth_music():
                         %%% GlobalSkips [measure 4] %%%
                         \time 4/20
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50) %! SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50) %! SEGMENT:SPACING:1
                         s1 * 1/5
                             - \markup { %! SEGMENT:SPACING_MARKUP:2
                                 \with-color %! SEGMENT:SPACING_MARKUP:2
@@ -394,12 +394,12 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
-                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
+                                \clef "treble" %! EXPLICIT_CLEF:4
                                 \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                                 %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
-                                \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
+                                \set Staff.forceClef = ##t %! EXPLICIT_CLEF:3
                                 cs'16
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:5
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {

@@ -62,7 +62,7 @@ def anchor_music():
                         \time 3/16
                         \bar "" %! EMPTY_START_BAR:1
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING:3
                         s1 * 3/16
                             - \markup {
                                 \column
@@ -89,7 +89,7 @@ def anchor_music():
                         %%% GlobalSkips [measure 2] %%%
                         \time 21/16
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING:1
                         s1 * 21/16
                             - \markup { %! SEGMENT:SPACING_MARKUP:2
                                 \with-color %! SEGMENT:SPACING_MARKUP:2
@@ -102,7 +102,7 @@ def anchor_music():
                         %%% GlobalSkips [measure 3] %%%
                         \time 3/16
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING:1
                         s1 * 3/16
                             - \markup { %! SEGMENT:SPACING_MARKUP:2
                                 \with-color %! SEGMENT:SPACING_MARKUP:2
@@ -115,7 +115,7 @@ def anchor_music():
                         %%% GlobalSkips [measure 4] %%%
                         \time 9/8
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING:1
                         s1 * 9/8
                             - \markup { %! SEGMENT:SPACING_MARKUP:2
                                 \with-color %! SEGMENT:SPACING_MARKUP:2
@@ -133,12 +133,12 @@ def anchor_music():
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
-                                \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
+                                \clef "treble" %! EXPLICIT_CLEF:4
                                 \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                                 %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
-                                \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
+                                \set Staff.forceClef = ##t %! EXPLICIT_CLEF:3
                                 e'8.
-                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
+                                \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:5
                             }
                             {
             <BLANKLINE>

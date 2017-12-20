@@ -647,48 +647,70 @@
                             \once \override Beam.positions = #'(6 . 6)
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
-                            \set GuitarMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:3
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:3
-                                    #16 %! EXPLICIT_INSTRUMENT_COMMAND:3
-                                    Guitar %! EXPLICIT_INSTRUMENT_COMMAND:3
-                                } %! EXPLICIT_INSTRUMENT_COMMAND:3
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:3
-                                \null %! EXPLICIT_INSTRUMENT_COMMAND:3
-                                } %! EXPLICIT_INSTRUMENT_COMMAND:3
-                            \clef "treble" %! EXPLICIT_CLEF_COMMAND:9
+                            \set GuitarMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:5
+                                \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:5
+                                    #16 %! EXPLICIT_INSTRUMENT_COMMAND:5
+                                    Guitar %! EXPLICIT_INSTRUMENT_COMMAND:5
+                                } %! EXPLICIT_INSTRUMENT_COMMAND:5
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:5
+                                \null %! EXPLICIT_INSTRUMENT_COMMAND:5
+                                } %! EXPLICIT_INSTRUMENT_COMMAND:5
+                            \clef "treble" %! EXPLICIT_CLEF_COMMAND:11
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:2
-                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:6
-                            %%% \override GuitarMusicStaff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:7
-                            \set GuitarMusicStaff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:8
+                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:8
+                            %%% \override GuitarMusicStaff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:9
+                            \set GuitarMusicStaff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:10
                             e'8.
                             [
-                            %%% ^ \markup { %! FIGURE_NAME_MARKUP:1
-                                %%% \fontsize %! FIGURE_NAME_MARKUP:1
-                                    %%% #2 %! FIGURE_NAME_MARKUP:1
-                                    %%% \concat %! FIGURE_NAME_MARKUP:1
-                                        %%% { %! FIGURE_NAME_MARKUP:1
-                                            %%% [ %! FIGURE_NAME_MARKUP:1
-                                            %%% 1 %! FIGURE_NAME_MARKUP:1
-                                            %%% \hspace %! FIGURE_NAME_MARKUP:1
-                                                %%% #1 %! FIGURE_NAME_MARKUP:1
-                                            %%% \raise %! FIGURE_NAME_MARKUP:1
-                                                %%% #0.25 %! FIGURE_NAME_MARKUP:1
+                            ^ \markup {
+                                \column
+                                    {
+                                        %%% \line %! FIGURE_NAME_MARKUP:1
+                                            %%% { %! FIGURE_NAME_MARKUP:1
                                                 %%% \fontsize %! FIGURE_NAME_MARKUP:1
-                                                    %%% #-2 %! FIGURE_NAME_MARKUP:1
-                                                    %%% (0) %! FIGURE_NAME_MARKUP:1
-                                            %%% ] %! FIGURE_NAME_MARKUP:1
-                                        %%% } %! FIGURE_NAME_MARKUP:1
-                                %%% } %! FIGURE_NAME_MARKUP:1
-                            \set GuitarMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:5
-                                \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:5
-                                    #16 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:5
-                                    Guitar %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:5
-                                } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:5
-                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:5
-                                \null %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:5
-                                } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:5
-                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:4
-                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:10
+                                                    %%% #2 %! FIGURE_NAME_MARKUP:1
+                                                    %%% \concat %! FIGURE_NAME_MARKUP:1
+                                                        %%% { %! FIGURE_NAME_MARKUP:1
+                                                            %%% [ %! FIGURE_NAME_MARKUP:1
+                                                            %%% 1 %! FIGURE_NAME_MARKUP:1
+                                                            %%% \hspace %! FIGURE_NAME_MARKUP:1
+                                                                %%% #1 %! FIGURE_NAME_MARKUP:1
+                                                            %%% \raise %! FIGURE_NAME_MARKUP:1
+                                                                %%% #0.25 %! FIGURE_NAME_MARKUP:1
+                                                                %%% \fontsize %! FIGURE_NAME_MARKUP:1
+                                                                    %%% #-2 %! FIGURE_NAME_MARKUP:1
+                                                                    %%% (0) %! FIGURE_NAME_MARKUP:1
+                                                            %%% ] %! FIGURE_NAME_MARKUP:1
+                                                        %%% } %! FIGURE_NAME_MARKUP:1
+                                            %%% } %! FIGURE_NAME_MARKUP:1
+                                        %%% \line %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:3
+                                        %%%     { %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:3
+                                        %%%         \override %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:3
+                                        %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:3
+                                        %%%             \box %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:3
+                                        %%%                 guitar %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:3
+                                        %%%     } %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:3
+                                        \line %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                            { %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                                \with-color %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                                    #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                                    \override %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                                        #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                                        \box %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                                            guitar %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                            } %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:4
+                                    }
+                                }
+                            \set GuitarMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:7
+                                \hcenter-in %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:7
+                                    #16 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:7
+                                    Guitar %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:7
+                                } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:7
+                            \set GuitarMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:7
+                                \null %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:7
+                                } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:7
+                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:6
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:12
                         }
                     }
                     

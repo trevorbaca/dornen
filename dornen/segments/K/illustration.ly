@@ -16,7 +16,7 @@
                 %%% GlobalSkips [measure 232] %%%
                 \time 2/5
                 \bar "" %! EMPTY_START_BAR:1
-                \once \override TextScript.color = #(x11-color 'green) %! REAPPLIED_METRONOME_MARK_COLOR:3
+                \once \override TextScript.color = #(x11-color 'green4) %! REAPPLIED_METRONOME_MARK_COLOR:3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:6
                 s1 * 2/5
@@ -836,10 +836,10 @@
                                 \null %! REAPPLIED_INSTRUMENT:10
                                 } %! REAPPLIED_INSTRUMENT:10
                             \clef "treble" %! REAPPLIED_CLEF:5
-                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:2
+                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:2
                             %%% \override GuitarMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:3
                             \set GuitarMusicStaff.forceClef = ##t %! REAPPLIED_CLEF:4
-                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:7
+                            \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:7
                             f2
                             :32
                             ^ \markup {
@@ -887,7 +887,7 @@
                                         \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
                                             { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
                                                 \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
-                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                    #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
                                                     { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
                                                         \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
                                                             (“Guitar” %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:9
@@ -914,8 +914,8 @@
                             \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_REDRAW_INSTRUMENT:12
                                 \null %! REAPPLIED_REDRAW_INSTRUMENT:12
                                 } %! REAPPLIED_REDRAW_INSTRUMENT:12
-                            \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:6
-                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:11
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:6
+                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:11
                         }
                     }
                     {

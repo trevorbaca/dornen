@@ -440,13 +440,39 @@
                             {
                                 %%% \line %! REAPPLIED_INSTRUMENT_ALERT:7
                                 %%%     { %! REAPPLIED_INSTRUMENT_ALERT:7
-                                %%%         [Guitar] %! REAPPLIED_INSTRUMENT_ALERT:7
+                                %%%         \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                %%%             (“Guitar” %! REAPPLIED_INSTRUMENT_ALERT:7
+                                %%%         \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                %%%             \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT:7
+                                %%%                 #16 %! REAPPLIED_INSTRUMENT_ALERT:7
+                                %%%                 Guitar %! REAPPLIED_INSTRUMENT_ALERT:7
+                                %%%         \concat %! REAPPLIED_INSTRUMENT_ALERT:7
+                                %%%             { %! REAPPLIED_INSTRUMENT_ALERT:7
+                                %%%                 \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                %%%                     \null %! REAPPLIED_INSTRUMENT_ALERT:7
+                                %%%                 \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                %%%                     ) %! REAPPLIED_INSTRUMENT_ALERT:7
+                                %%%             } %! REAPPLIED_INSTRUMENT_ALERT:7
                                 %%%     } %! REAPPLIED_INSTRUMENT_ALERT:7
                                 \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                     { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                         \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                             #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                            [Guitar] %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    (“Guitar” %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        #16 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        Guitar %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \concat %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            \null %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            ) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                     } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                             }
                         }

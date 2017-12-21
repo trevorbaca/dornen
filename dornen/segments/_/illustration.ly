@@ -684,13 +684,39 @@
                                             %%% } %! FIGURE_NAME_MARKUP:1
                                         %%% \line %! EXPLICIT_INSTRUMENT_ALERT:8
                                         %%%     { %! EXPLICIT_INSTRUMENT_ALERT:8
-                                        %%%         [Guitar] %! EXPLICIT_INSTRUMENT_ALERT:8
+                                        %%%         \vcenter %! EXPLICIT_INSTRUMENT_ALERT:8
+                                        %%%             (“Guitar” %! EXPLICIT_INSTRUMENT_ALERT:8
+                                        %%%         \vcenter %! EXPLICIT_INSTRUMENT_ALERT:8
+                                        %%%             \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT:8
+                                        %%%                 #16 %! EXPLICIT_INSTRUMENT_ALERT:8
+                                        %%%                 Guitar %! EXPLICIT_INSTRUMENT_ALERT:8
+                                        %%%         \concat %! EXPLICIT_INSTRUMENT_ALERT:8
+                                        %%%             { %! EXPLICIT_INSTRUMENT_ALERT:8
+                                        %%%                 \vcenter %! EXPLICIT_INSTRUMENT_ALERT:8
+                                        %%%                     \null %! EXPLICIT_INSTRUMENT_ALERT:8
+                                        %%%                 \vcenter %! EXPLICIT_INSTRUMENT_ALERT:8
+                                        %%%                     ) %! EXPLICIT_INSTRUMENT_ALERT:8
+                                        %%%             } %! EXPLICIT_INSTRUMENT_ALERT:8
                                         %%%     } %! EXPLICIT_INSTRUMENT_ALERT:8
                                         \line %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
                                             { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
                                                 \with-color %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
                                                     #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
-                                                    [Guitar] %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                        \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                            (“Guitar” %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                        \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                            \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                                #16 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                                Guitar %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                        \concat %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                            { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                                \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                                    \null %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                                \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                                    ) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                            } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
+                                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
                                             } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:9
                                     }
                                 }

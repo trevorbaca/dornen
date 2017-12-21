@@ -6,8 +6,8 @@ instruments = abjad.InstrumentDictionary([
     (
         'Guitar',
         abjad.Guitar(
-            name_markup=baca.markup.instrument('Guitar'),
-            short_name_markup=abjad.Markup.null(),
+            markup=baca.markup.instrument('Guitar'),
+            short_markup=abjad.Markup.null(),
             ),
         ),
     ])

@@ -654,11 +654,7 @@
                             \set GuitarMusicStaff.shortInstrumentName = \markup { %! TEMPLATE_INSTRUMENT:5
                                 \null %! TEMPLATE_INSTRUMENT:5
                                 } %! TEMPLATE_INSTRUMENT:5
-                            \clef "treble" %! TEMPLATE_CLEF:11
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_INSTRUMENT_COLOR:2
-                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:8
-                            %%% \override GuitarMusicStaff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:9
-                            \set GuitarMusicStaff.forceClef = ##t %! TEMPLATE_CLEF:10
                             e'8.
                             [
                             ^ \markup {
@@ -729,7 +725,6 @@
                                 \null %! TEMPLATE_REDRAW_INSTRUMENT:7
                                 } %! TEMPLATE_REDRAW_INSTRUMENT:7
                             \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'violet) %! TEMPLATE_REDRAW_INSTRUMENT_COLOR:6
-                            \override GuitarMusicStaff.Clef.color = #(x11-color 'violet) %! TEMPLATE_CLEF_COLOR_REDRAW:12
                         }
                     }
                     

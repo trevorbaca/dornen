@@ -37,7 +37,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                         \set GuitarMusicStaff.shortInstrumentName = \markup {
                             \null
                             }
-                        \clef "treble"
                         s1
                     }
                     \context GuitarMusicVoiceII = "GuitarMusicVoiceII" {

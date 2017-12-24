@@ -421,71 +421,66 @@
                 \context GuitarMusicVoiceI = "GuitarMusicVoiceI" {
                     
                     %%% GuitarMusicVoiceI [measure 155] %%%
-                    \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT:9
-                        \hcenter-in %! REAPPLIED_INSTRUMENT:9
-                            #16 %! REAPPLIED_INSTRUMENT:9
-                            Guitar %! REAPPLIED_INSTRUMENT:9
-                        } %! REAPPLIED_INSTRUMENT:9
-                    \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT:9
-                        \null %! REAPPLIED_INSTRUMENT:9
-                        } %! REAPPLIED_INSTRUMENT:9
-                    \clef "treble" %! REAPPLIED_CLEF:4
-                    \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:1
-                    %%% \override GuitarMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
-                    \set GuitarMusicStaff.forceClef = ##t %! REAPPLIED_CLEF:3
-                    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:6
+                    \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT:4
+                        \hcenter-in %! REAPPLIED_INSTRUMENT:4
+                            #16 %! REAPPLIED_INSTRUMENT:4
+                            Guitar %! REAPPLIED_INSTRUMENT:4
+                        } %! REAPPLIED_INSTRUMENT:4
+                    \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT:4
+                        \null %! REAPPLIED_INSTRUMENT:4
+                        } %! REAPPLIED_INSTRUMENT:4
+                    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:1
                     s1 * 7/32
                     ^ \markup {
                         \column
                             {
-                                %%% \line %! REAPPLIED_INSTRUMENT_ALERT:7
-                                %%%     { %! REAPPLIED_INSTRUMENT_ALERT:7
-                                %%%         \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
-                                %%%             (“Guitar” %! REAPPLIED_INSTRUMENT_ALERT:7
-                                %%%         \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
-                                %%%             \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT:7
-                                %%%                 #16 %! REAPPLIED_INSTRUMENT_ALERT:7
-                                %%%                 Guitar %! REAPPLIED_INSTRUMENT_ALERT:7
-                                %%%         \concat %! REAPPLIED_INSTRUMENT_ALERT:7
-                                %%%             { %! REAPPLIED_INSTRUMENT_ALERT:7
-                                %%%                 \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
-                                %%%                     \null %! REAPPLIED_INSTRUMENT_ALERT:7
-                                %%%                 \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
-                                %%%                     ) %! REAPPLIED_INSTRUMENT_ALERT:7
-                                %%%             } %! REAPPLIED_INSTRUMENT_ALERT:7
-                                %%%     } %! REAPPLIED_INSTRUMENT_ALERT:7
-                                \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                    { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                        \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                            #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                            { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                    (“Guitar” %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                    \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                        #16 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                        Guitar %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                \concat %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                    { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                        \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                            \null %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                        \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                            ) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                    } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                            } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                    } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                %%% \line %! REAPPLIED_INSTRUMENT_ALERT:2
+                                %%%     { %! REAPPLIED_INSTRUMENT_ALERT:2
+                                %%%         \vcenter %! REAPPLIED_INSTRUMENT_ALERT:2
+                                %%%             (“Guitar” %! REAPPLIED_INSTRUMENT_ALERT:2
+                                %%%         \vcenter %! REAPPLIED_INSTRUMENT_ALERT:2
+                                %%%             \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT:2
+                                %%%                 #16 %! REAPPLIED_INSTRUMENT_ALERT:2
+                                %%%                 Guitar %! REAPPLIED_INSTRUMENT_ALERT:2
+                                %%%         \concat %! REAPPLIED_INSTRUMENT_ALERT:2
+                                %%%             { %! REAPPLIED_INSTRUMENT_ALERT:2
+                                %%%                 \vcenter %! REAPPLIED_INSTRUMENT_ALERT:2
+                                %%%                     \null %! REAPPLIED_INSTRUMENT_ALERT:2
+                                %%%                 \vcenter %! REAPPLIED_INSTRUMENT_ALERT:2
+                                %%%                     ) %! REAPPLIED_INSTRUMENT_ALERT:2
+                                %%%             } %! REAPPLIED_INSTRUMENT_ALERT:2
+                                %%%     } %! REAPPLIED_INSTRUMENT_ALERT:2
+                                \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                    { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                        \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                            #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                            { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                    (“Guitar” %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                    \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                        #16 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                        Guitar %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                \concat %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                    { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                        \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                            \null %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                        \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                            ) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                    } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                            } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                    } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
                             }
                         }
-                    \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_REDRAW_INSTRUMENT:11
-                        \hcenter-in %! REAPPLIED_REDRAW_INSTRUMENT:11
-                            #16 %! REAPPLIED_REDRAW_INSTRUMENT:11
-                            Guitar %! REAPPLIED_REDRAW_INSTRUMENT:11
-                        } %! REAPPLIED_REDRAW_INSTRUMENT:11
-                    \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_REDRAW_INSTRUMENT:11
-                        \null %! REAPPLIED_REDRAW_INSTRUMENT:11
-                        } %! REAPPLIED_REDRAW_INSTRUMENT:11
-                    \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:5
-                    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:10
+                    \set GuitarMusicStaff.instrumentName = \markup { %! REAPPLIED_REDRAW_INSTRUMENT:6
+                        \hcenter-in %! REAPPLIED_REDRAW_INSTRUMENT:6
+                            #16 %! REAPPLIED_REDRAW_INSTRUMENT:6
+                            Guitar %! REAPPLIED_REDRAW_INSTRUMENT:6
+                        } %! REAPPLIED_REDRAW_INSTRUMENT:6
+                    \set GuitarMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_REDRAW_INSTRUMENT:6
+                        \null %! REAPPLIED_REDRAW_INSTRUMENT:6
+                        } %! REAPPLIED_REDRAW_INSTRUMENT:6
+                    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:5
                     {
                         {
                             

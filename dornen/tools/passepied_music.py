@@ -80,15 +80,15 @@ def passepied_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 1/32
-                        \bar "" %%! EMPTY_START_BAR:1
+                        \bar ""                                                            %%! EMPTY_START_BAR
                         s1 * 1/32
-                            - \markup {                        %%! STAGE_NUMBER_MARKUP:2
-                                \fontsize                      %%! STAGE_NUMBER_MARKUP:2
-                                    #-3                        %%! STAGE_NUMBER_MARKUP:2
-                                    \with-color                %%! STAGE_NUMBER_MARKUP:2
-                                        #(x11-color 'DarkCyan) %%! STAGE_NUMBER_MARKUP:2
-                                        [1]                    %%! STAGE_NUMBER_MARKUP:2
-                                }                              %%! STAGE_NUMBER_MARKUP:2
+                        - \markup {                                                        %%! STAGE_NUMBER_MARKUP
+                            \fontsize                                                      %%! STAGE_NUMBER_MARKUP
+                                #-3                                                        %%! STAGE_NUMBER_MARKUP
+                                \with-color                                                %%! STAGE_NUMBER_MARKUP
+                                    #(x11-color 'DarkCyan)                                 %%! STAGE_NUMBER_MARKUP
+                                    [1]                                                    %%! STAGE_NUMBER_MARKUP
+                            }                                                              %%! STAGE_NUMBER_MARKUP
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
                         s1 * 1/32
@@ -245,15 +245,15 @@ def passepied_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 17/32
-                        \bar "" %%! EMPTY_START_BAR:1
+                        \bar ""                                                            %%! EMPTY_START_BAR
                         s1 * 17/32
-                            - \markup {                        %%! STAGE_NUMBER_MARKUP:2
-                                \fontsize                      %%! STAGE_NUMBER_MARKUP:2
-                                    #-3                        %%! STAGE_NUMBER_MARKUP:2
-                                    \with-color                %%! STAGE_NUMBER_MARKUP:2
-                                        #(x11-color 'DarkCyan) %%! STAGE_NUMBER_MARKUP:2
-                                        [1]                    %%! STAGE_NUMBER_MARKUP:2
-                                }                              %%! STAGE_NUMBER_MARKUP:2
+                        - \markup {                                                        %%! STAGE_NUMBER_MARKUP
+                            \fontsize                                                      %%! STAGE_NUMBER_MARKUP
+                                #-3                                                        %%! STAGE_NUMBER_MARKUP
+                                \with-color                                                %%! STAGE_NUMBER_MARKUP
+                                    #(x11-color 'DarkCyan)                                 %%! STAGE_NUMBER_MARKUP
+                                    [1]                                                    %%! STAGE_NUMBER_MARKUP
+                            }                                                              %%! STAGE_NUMBER_MARKUP
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
                         s1 * 17/32
@@ -275,7 +275,8 @@ def passepied_music():
                                 %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                af'32 [
+                                af'32
+                                [
                             }
                             {
             <BLANKLINE>
@@ -311,7 +312,8 @@ def passepied_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #0
-                                d'16 ]
+                                d'16
+                                ]
                             }
                             {
             <BLANKLINE>
@@ -327,7 +329,8 @@ def passepied_music():
                                 }
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                f'32 [
+                                f'32
+                                [
                             }
                             {
             <BLANKLINE>
@@ -363,7 +366,8 @@ def passepied_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #0
-                                g'16 ]
+                                g'16
+                                ]
                             }
                             {
             <BLANKLINE>
@@ -379,7 +383,8 @@ def passepied_music():
                                 }
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                d'32 [
+                                d'32
+                                [
                             }
                             {
             <BLANKLINE>
@@ -415,7 +420,8 @@ def passepied_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #0
-                                f'16 ]
+                                f'16
+                                ]
                             }
                             {
             <BLANKLINE>
@@ -431,7 +437,8 @@ def passepied_music():
                                 }
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                g'32 [
+                                g'32
+                                [
                             }
                             {
             <BLANKLINE>
@@ -455,7 +462,8 @@ def passepied_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #0
-                                af'16 ]
+                                af'16
+                                ]
                                 \bar "|"
             <BLANKLINE>
                             }

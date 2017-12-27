@@ -67,57 +67,57 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 7/64
-                        \bar "" %%! EMPTY_START_BAR:1
+                        \bar ""                                                            %%! EMPTY_START_BAR
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %%! SEGMENT:SPACING:3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %%! SEGMENT:SPACING
                         s1 * 7/64
-                            - \markup {
-                                \column
-                                    {
-                                        \line                                  %%! STAGE_NUMBER_MARKUP:2
-                                            {                                  %%! STAGE_NUMBER_MARKUP:2
-                                                \fontsize                      %%! STAGE_NUMBER_MARKUP:2
-                                                    #-3                        %%! STAGE_NUMBER_MARKUP:2
-                                                    \with-color                %%! STAGE_NUMBER_MARKUP:2
-                                                        #(x11-color 'DarkCyan) %%! STAGE_NUMBER_MARKUP:2
-                                                        [1]                    %%! STAGE_NUMBER_MARKUP:2
-                                            }                                  %%! STAGE_NUMBER_MARKUP:2
-                                        \line                              %%! SEGMENT:SPACING_MARKUP:4
-                                            {                              %%! SEGMENT:SPACING_MARKUP:4
-                                                \with-color                %%! SEGMENT:SPACING_MARKUP:4
-                                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:4
-                                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:4
-                                                        #-3                %%! SEGMENT:SPACING_MARKUP:4
-                                                        (16/1024)          %%! SEGMENT:SPACING_MARKUP:4
-                                            }                              %%! SEGMENT:SPACING_MARKUP:4
-                                    }
+                        - \markup {
+                            \column
+                                {
+                                    \line                                                  %%! STAGE_NUMBER_MARKUP
+                                        {                                                  %%! STAGE_NUMBER_MARKUP
+                                            \fontsize                                      %%! STAGE_NUMBER_MARKUP
+                                                #-3                                        %%! STAGE_NUMBER_MARKUP
+                                                \with-color                                %%! STAGE_NUMBER_MARKUP
+                                                    #(x11-color 'DarkCyan)                 %%! STAGE_NUMBER_MARKUP
+                                                    [1]                                    %%! STAGE_NUMBER_MARKUP
+                                        }                                                  %%! STAGE_NUMBER_MARKUP
+                                    \line                                                  %%! SEGMENT:SPACING_MARKUP
+                                        {                                                  %%! SEGMENT:SPACING_MARKUP
+                                            \with-color                                    %%! SEGMENT:SPACING_MARKUP
+                                                #(x11-color 'DarkCyan)                     %%! SEGMENT:SPACING_MARKUP
+                                                \fontsize                                  %%! SEGMENT:SPACING_MARKUP
+                                                    #-3                                    %%! SEGMENT:SPACING_MARKUP
+                                                    (16/1024)                              %%! SEGMENT:SPACING_MARKUP
+                                        }                                                  %%! SEGMENT:SPACING_MARKUP
                                 }
+                            }
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
                         \time 13/64
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %%! SEGMENT:SPACING:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %%! SEGMENT:SPACING
                         s1 * 13/64
-                            - \markup {                    %%! SEGMENT:SPACING_MARKUP:2
-                                \with-color                %%! SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:2
-                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:2
-                                        #-3                %%! SEGMENT:SPACING_MARKUP:2
-                                        (16/1024)          %%! SEGMENT:SPACING_MARKUP:2
-                                }                          %%! SEGMENT:SPACING_MARKUP:2
+                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
+                                    (16/1024)                                              %%! SEGMENT:SPACING_MARKUP
+                            }                                                              %%! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
                         %%% GlobalSkips [measure 3] %%%
                         \time 20/64
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %%! SEGMENT:SPACING:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %%! SEGMENT:SPACING
                         s1 * 5/16
-                            - \markup {                    %%! SEGMENT:SPACING_MARKUP:2
-                                \with-color                %%! SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:2
-                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:2
-                                        #-3                %%! SEGMENT:SPACING_MARKUP:2
-                                        (16/1024)          %%! SEGMENT:SPACING_MARKUP:2
-                                }                          %%! SEGMENT:SPACING_MARKUP:2
+                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
+                                    (16/1024)                                              %%! SEGMENT:SPACING_MARKUP
+                            }                                                              %%! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
                     }
                 >>
@@ -158,7 +158,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
                                 \once \override Beam.grow-direction = #right
-                                fs'64 * 2112/1024 [
+                                fs'64 * 2112/1024
+                                [
             <BLANKLINE>
                                 d'64 * 1152/1024
             <BLANKLINE>
@@ -170,7 +171,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 af'64 * 704/1024
             <BLANKLINE>
-                                c'64 * 640/1024 ]
+                                c'64 * 640/1024
+                                ]
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -207,7 +209,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 2] %%%
                                 \once \override Beam.grow-direction = #right
-                                fs'64 * 2112/1024 [
+                                fs'64 * 2112/1024
+                                [
             <BLANKLINE>
                                 d'64 * 1152/1024
             <BLANKLINE>
@@ -219,7 +222,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 af'64 * 704/1024
             <BLANKLINE>
-                                c'64 * 640/1024 ]
+                                c'64 * 640/1024
+                                ]
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -255,7 +259,8 @@ def wave_music(denominator=64, inverted=False):
                             \times 1/1 {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #left
-                                bf'64 * 320/1024 [
+                                bf'64 * 320/1024
+                                [
             <BLANKLINE>
                                 g'64 * 704/1024
             <BLANKLINE>
@@ -265,7 +270,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 c'64 * 1408/1024
             <BLANKLINE>
-                                f'64 * 1536/1024 ]
+                                f'64 * 1536/1024
+                                ]
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -302,7 +308,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 3] %%%
                                 \once \override Beam.grow-direction = #right
-                                fs'64 * 2112/1024 [
+                                fs'64 * 2112/1024
+                                [
             <BLANKLINE>
                                 d'64 * 1152/1024
             <BLANKLINE>
@@ -314,7 +321,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 af'64 * 704/1024
             <BLANKLINE>
-                                c'64 * 640/1024 ]
+                                c'64 * 640/1024
+                                ]
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -350,7 +358,8 @@ def wave_music(denominator=64, inverted=False):
                             \times 1/1 {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #left
-                                bf'64 * 320/1024 [
+                                bf'64 * 320/1024
+                                [
             <BLANKLINE>
                                 g'64 * 704/1024
             <BLANKLINE>
@@ -360,7 +369,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 c'64 * 1408/1024
             <BLANKLINE>
-                                f'64 * 1536/1024 ]
+                                f'64 * 1536/1024
+                                ]
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -396,7 +406,8 @@ def wave_music(denominator=64, inverted=False):
                             \times 1/1 {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #right
-                                fs'64 * 2112/1024 [
+                                fs'64 * 2112/1024
+                                [
             <BLANKLINE>
                                 d'64 * 1152/1024
             <BLANKLINE>
@@ -408,7 +419,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 af'64 * 704/1024
             <BLANKLINE>
-                                c'64 * 640/1024 ]
+                                c'64 * 640/1024
+                                ]
                                 \bar "|"
             <BLANKLINE>
                             }
@@ -479,57 +491,57 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 7/64
-                        \bar "" %%! EMPTY_START_BAR:1
+                        \bar ""                                                            %%! EMPTY_START_BAR
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %%! SEGMENT:SPACING:3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %%! SEGMENT:SPACING
                         s1 * 7/64
-                            - \markup {
-                                \column
-                                    {
-                                        \line                                  %%! STAGE_NUMBER_MARKUP:2
-                                            {                                  %%! STAGE_NUMBER_MARKUP:2
-                                                \fontsize                      %%! STAGE_NUMBER_MARKUP:2
-                                                    #-3                        %%! STAGE_NUMBER_MARKUP:2
-                                                    \with-color                %%! STAGE_NUMBER_MARKUP:2
-                                                        #(x11-color 'DarkCyan) %%! STAGE_NUMBER_MARKUP:2
-                                                        [1]                    %%! STAGE_NUMBER_MARKUP:2
-                                            }                                  %%! STAGE_NUMBER_MARKUP:2
-                                        \line                              %%! SEGMENT:SPACING_MARKUP:4
-                                            {                              %%! SEGMENT:SPACING_MARKUP:4
-                                                \with-color                %%! SEGMENT:SPACING_MARKUP:4
-                                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:4
-                                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:4
-                                                        #-3                %%! SEGMENT:SPACING_MARKUP:4
-                                                        (16/1024)          %%! SEGMENT:SPACING_MARKUP:4
-                                            }                              %%! SEGMENT:SPACING_MARKUP:4
-                                    }
+                        - \markup {
+                            \column
+                                {
+                                    \line                                                  %%! STAGE_NUMBER_MARKUP
+                                        {                                                  %%! STAGE_NUMBER_MARKUP
+                                            \fontsize                                      %%! STAGE_NUMBER_MARKUP
+                                                #-3                                        %%! STAGE_NUMBER_MARKUP
+                                                \with-color                                %%! STAGE_NUMBER_MARKUP
+                                                    #(x11-color 'DarkCyan)                 %%! STAGE_NUMBER_MARKUP
+                                                    [1]                                    %%! STAGE_NUMBER_MARKUP
+                                        }                                                  %%! STAGE_NUMBER_MARKUP
+                                    \line                                                  %%! SEGMENT:SPACING_MARKUP
+                                        {                                                  %%! SEGMENT:SPACING_MARKUP
+                                            \with-color                                    %%! SEGMENT:SPACING_MARKUP
+                                                #(x11-color 'DarkCyan)                     %%! SEGMENT:SPACING_MARKUP
+                                                \fontsize                                  %%! SEGMENT:SPACING_MARKUP
+                                                    #-3                                    %%! SEGMENT:SPACING_MARKUP
+                                                    (16/1024)                              %%! SEGMENT:SPACING_MARKUP
+                                        }                                                  %%! SEGMENT:SPACING_MARKUP
                                 }
+                            }
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
                         \time 13/64
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %%! SEGMENT:SPACING:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %%! SEGMENT:SPACING
                         s1 * 13/64
-                            - \markup {                    %%! SEGMENT:SPACING_MARKUP:2
-                                \with-color                %%! SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:2
-                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:2
-                                        #-3                %%! SEGMENT:SPACING_MARKUP:2
-                                        (16/1024)          %%! SEGMENT:SPACING_MARKUP:2
-                                }                          %%! SEGMENT:SPACING_MARKUP:2
+                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
+                                    (16/1024)                                              %%! SEGMENT:SPACING_MARKUP
+                            }                                                              %%! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
                         %%% GlobalSkips [measure 3] %%%
                         \time 20/64
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64) %%! SEGMENT:SPACING:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %%! SEGMENT:SPACING
                         s1 * 5/16
-                            - \markup {                    %%! SEGMENT:SPACING_MARKUP:2
-                                \with-color                %%! SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:2
-                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:2
-                                        #-3                %%! SEGMENT:SPACING_MARKUP:2
-                                        (16/1024)          %%! SEGMENT:SPACING_MARKUP:2
-                                }                          %%! SEGMENT:SPACING_MARKUP:2
+                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
+                                    (16/1024)                                              %%! SEGMENT:SPACING_MARKUP
+                            }                                                              %%! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
                     }
                 >>
@@ -570,7 +582,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
                                 \once \override Beam.grow-direction = #left
-                                fs'64 * 320/1024 [
+                                fs'64 * 320/1024
+                                [
             <BLANKLINE>
                                 d'64 * 640/1024
             <BLANKLINE>
@@ -582,7 +595,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 af'64 * 1408/1024
             <BLANKLINE>
-                                c'64 * 1536/1024 ]
+                                c'64 * 1536/1024
+                                ]
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -619,7 +633,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 2] %%%
                                 \once \override Beam.grow-direction = #left
-                                fs'64 * 320/1024 [
+                                fs'64 * 320/1024
+                                [
             <BLANKLINE>
                                 d'64 * 640/1024
             <BLANKLINE>
@@ -631,7 +646,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 af'64 * 1408/1024
             <BLANKLINE>
-                                c'64 * 1536/1024 ]
+                                c'64 * 1536/1024
+                                ]
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -667,7 +683,8 @@ def wave_music(denominator=64, inverted=False):
                             \times 1/1 {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #right
-                                bf'64 * 2048/1024 [
+                                bf'64 * 2048/1024
+                                [
             <BLANKLINE>
                                 g'64 * 1088/1024
             <BLANKLINE>
@@ -677,7 +694,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 c'64 * 704/1024
             <BLANKLINE>
-                                f'64 * 640/1024 ]
+                                f'64 * 640/1024
+                                ]
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -714,7 +732,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 3] %%%
                                 \once \override Beam.grow-direction = #left
-                                fs'64 * 320/1024 [
+                                fs'64 * 320/1024
+                                [
             <BLANKLINE>
                                 d'64 * 640/1024
             <BLANKLINE>
@@ -726,7 +745,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 af'64 * 1408/1024
             <BLANKLINE>
-                                c'64 * 1536/1024 ]
+                                c'64 * 1536/1024
+                                ]
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -762,7 +782,8 @@ def wave_music(denominator=64, inverted=False):
                             \times 1/1 {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #right
-                                bf'64 * 2048/1024 [
+                                bf'64 * 2048/1024
+                                [
             <BLANKLINE>
                                 g'64 * 1088/1024
             <BLANKLINE>
@@ -772,7 +793,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 c'64 * 704/1024
             <BLANKLINE>
-                                f'64 * 640/1024 ]
+                                f'64 * 640/1024
+                                ]
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -808,7 +830,8 @@ def wave_music(denominator=64, inverted=False):
                             \times 1/1 {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #left
-                                fs'64 * 320/1024 [
+                                fs'64 * 320/1024
+                                [
             <BLANKLINE>
                                 d'64 * 640/1024
             <BLANKLINE>
@@ -820,7 +843,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 af'64 * 1408/1024
             <BLANKLINE>
-                                c'64 * 1536/1024 ]
+                                c'64 * 1536/1024
+                                ]
                                 \bar "|"
             <BLANKLINE>
                             }
@@ -891,57 +915,57 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 7/32
-                        \bar "" %%! EMPTY_START_BAR:1
+                        \bar ""                                                            %%! EMPTY_START_BAR
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %%! SEGMENT:SPACING:3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %%! SEGMENT:SPACING
                         s1 * 7/32
-                            - \markup {
-                                \column
-                                    {
-                                        \line                                  %%! STAGE_NUMBER_MARKUP:2
-                                            {                                  %%! STAGE_NUMBER_MARKUP:2
-                                                \fontsize                      %%! STAGE_NUMBER_MARKUP:2
-                                                    #-3                        %%! STAGE_NUMBER_MARKUP:2
-                                                    \with-color                %%! STAGE_NUMBER_MARKUP:2
-                                                        #(x11-color 'DarkCyan) %%! STAGE_NUMBER_MARKUP:2
-                                                        [1]                    %%! STAGE_NUMBER_MARKUP:2
-                                            }                                  %%! STAGE_NUMBER_MARKUP:2
-                                        \line                              %%! SEGMENT:SPACING_MARKUP:4
-                                            {                              %%! SEGMENT:SPACING_MARKUP:4
-                                                \with-color                %%! SEGMENT:SPACING_MARKUP:4
-                                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:4
-                                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:4
-                                                        #-3                %%! SEGMENT:SPACING_MARKUP:4
-                                                        (32/1024)          %%! SEGMENT:SPACING_MARKUP:4
-                                            }                              %%! SEGMENT:SPACING_MARKUP:4
-                                    }
+                        - \markup {
+                            \column
+                                {
+                                    \line                                                  %%! STAGE_NUMBER_MARKUP
+                                        {                                                  %%! STAGE_NUMBER_MARKUP
+                                            \fontsize                                      %%! STAGE_NUMBER_MARKUP
+                                                #-3                                        %%! STAGE_NUMBER_MARKUP
+                                                \with-color                                %%! STAGE_NUMBER_MARKUP
+                                                    #(x11-color 'DarkCyan)                 %%! STAGE_NUMBER_MARKUP
+                                                    [1]                                    %%! STAGE_NUMBER_MARKUP
+                                        }                                                  %%! STAGE_NUMBER_MARKUP
+                                    \line                                                  %%! SEGMENT:SPACING_MARKUP
+                                        {                                                  %%! SEGMENT:SPACING_MARKUP
+                                            \with-color                                    %%! SEGMENT:SPACING_MARKUP
+                                                #(x11-color 'DarkCyan)                     %%! SEGMENT:SPACING_MARKUP
+                                                \fontsize                                  %%! SEGMENT:SPACING_MARKUP
+                                                    #-3                                    %%! SEGMENT:SPACING_MARKUP
+                                                    (32/1024)                              %%! SEGMENT:SPACING_MARKUP
+                                        }                                                  %%! SEGMENT:SPACING_MARKUP
                                 }
+                            }
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
                         \time 13/32
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %%! SEGMENT:SPACING:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %%! SEGMENT:SPACING
                         s1 * 13/32
-                            - \markup {                    %%! SEGMENT:SPACING_MARKUP:2
-                                \with-color                %%! SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:2
-                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:2
-                                        #-3                %%! SEGMENT:SPACING_MARKUP:2
-                                        (32/1024)          %%! SEGMENT:SPACING_MARKUP:2
-                                }                          %%! SEGMENT:SPACING_MARKUP:2
+                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
+                                    (32/1024)                                              %%! SEGMENT:SPACING_MARKUP
+                            }                                                              %%! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
                         %%% GlobalSkips [measure 3] %%%
                         \time 20/32
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %%! SEGMENT:SPACING:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %%! SEGMENT:SPACING
                         s1 * 5/8
-                            - \markup {                    %%! SEGMENT:SPACING_MARKUP:2
-                                \with-color                %%! SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:2
-                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:2
-                                        #-3                %%! SEGMENT:SPACING_MARKUP:2
-                                        (32/1024)          %%! SEGMENT:SPACING_MARKUP:2
-                                }                          %%! SEGMENT:SPACING_MARKUP:2
+                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
+                                    (32/1024)                                              %%! SEGMENT:SPACING_MARKUP
+                            }                                                              %%! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
                     }
                 >>
@@ -982,7 +1006,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
                                 \once \override Beam.grow-direction = #right
-                                fs'32 * 2080/1024 [
+                                fs'32 * 2080/1024
+                                [
             <BLANKLINE>
                                 d'32 * 1152/1024
             <BLANKLINE>
@@ -994,7 +1019,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 af'32 * 704/1024
             <BLANKLINE>
-                                c'32 * 672/1024 ]
+                                c'32 * 672/1024
+                                ]
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -1031,7 +1057,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 2] %%%
                                 \once \override Beam.grow-direction = #right
-                                fs'32 * 2080/1024 [
+                                fs'32 * 2080/1024
+                                [
             <BLANKLINE>
                                 d'32 * 1152/1024
             <BLANKLINE>
@@ -1043,7 +1070,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 af'32 * 704/1024
             <BLANKLINE>
-                                c'32 * 672/1024 ]
+                                c'32 * 672/1024
+                                ]
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -1079,7 +1107,8 @@ def wave_music(denominator=64, inverted=False):
                             \times 1/1 {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #left
-                                bf'32 * 320/1024 [
+                                bf'32 * 320/1024
+                                [
             <BLANKLINE>
                                 g'32 * 704/1024
             <BLANKLINE>
@@ -1089,7 +1118,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 c'32 * 1376/1024
             <BLANKLINE>
-                                f'32 * 1600/1024 ]
+                                f'32 * 1600/1024
+                                ]
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -1126,7 +1156,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 %%% MusicVoice [measure 3] %%%
                                 \once \override Beam.grow-direction = #right
-                                fs'32 * 2080/1024 [
+                                fs'32 * 2080/1024
+                                [
             <BLANKLINE>
                                 d'32 * 1152/1024
             <BLANKLINE>
@@ -1138,7 +1169,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 af'32 * 704/1024
             <BLANKLINE>
-                                c'32 * 672/1024 ]
+                                c'32 * 672/1024
+                                ]
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -1174,7 +1206,8 @@ def wave_music(denominator=64, inverted=False):
                             \times 1/1 {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #left
-                                bf'32 * 320/1024 [
+                                bf'32 * 320/1024
+                                [
             <BLANKLINE>
                                 g'32 * 704/1024
             <BLANKLINE>
@@ -1184,7 +1217,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 c'32 * 1376/1024
             <BLANKLINE>
-                                f'32 * 1600/1024 ]
+                                f'32 * 1600/1024
+                                ]
                             }
                             \revert TupletNumber.text
                             \override TupletNumber.text = \markup {
@@ -1220,7 +1254,8 @@ def wave_music(denominator=64, inverted=False):
                             \times 1/1 {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #right
-                                fs'32 * 2080/1024 [
+                                fs'32 * 2080/1024
+                                [
             <BLANKLINE>
                                 d'32 * 1152/1024
             <BLANKLINE>
@@ -1232,7 +1267,8 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 af'32 * 704/1024
             <BLANKLINE>
-                                c'32 * 672/1024 ]
+                                c'32 * 672/1024
+                                ]
                                 \bar "|"
             <BLANKLINE>
                             }

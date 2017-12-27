@@ -60,70 +60,70 @@ def delicatissimo_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 1/32
-                        \bar "" %%! EMPTY_START_BAR:1
+                        \bar ""                                                            %%! EMPTY_START_BAR
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %%! SEGMENT:SPACING:3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %%! SEGMENT:SPACING
                         s1 * 1/32
-                            - \markup {
-                                \column
-                                    {
-                                        \line                                  %%! STAGE_NUMBER_MARKUP:2
-                                            {                                  %%! STAGE_NUMBER_MARKUP:2
-                                                \fontsize                      %%! STAGE_NUMBER_MARKUP:2
-                                                    #-3                        %%! STAGE_NUMBER_MARKUP:2
-                                                    \with-color                %%! STAGE_NUMBER_MARKUP:2
-                                                        #(x11-color 'DarkCyan) %%! STAGE_NUMBER_MARKUP:2
-                                                        [1]                    %%! STAGE_NUMBER_MARKUP:2
-                                            }                                  %%! STAGE_NUMBER_MARKUP:2
-                                        \line                              %%! SEGMENT:SPACING_MARKUP:4
-                                            {                              %%! SEGMENT:SPACING_MARKUP:4
-                                                \with-color                %%! SEGMENT:SPACING_MARKUP:4
-                                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:4
-                                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:4
-                                                        #-3                %%! SEGMENT:SPACING_MARKUP:4
-                                                        (1/32)             %%! SEGMENT:SPACING_MARKUP:4
-                                            }                              %%! SEGMENT:SPACING_MARKUP:4
-                                    }
+                        - \markup {
+                            \column
+                                {
+                                    \line                                                  %%! STAGE_NUMBER_MARKUP
+                                        {                                                  %%! STAGE_NUMBER_MARKUP
+                                            \fontsize                                      %%! STAGE_NUMBER_MARKUP
+                                                #-3                                        %%! STAGE_NUMBER_MARKUP
+                                                \with-color                                %%! STAGE_NUMBER_MARKUP
+                                                    #(x11-color 'DarkCyan)                 %%! STAGE_NUMBER_MARKUP
+                                                    [1]                                    %%! STAGE_NUMBER_MARKUP
+                                        }                                                  %%! STAGE_NUMBER_MARKUP
+                                    \line                                                  %%! SEGMENT:SPACING_MARKUP
+                                        {                                                  %%! SEGMENT:SPACING_MARKUP
+                                            \with-color                                    %%! SEGMENT:SPACING_MARKUP
+                                                #(x11-color 'DarkCyan)                     %%! SEGMENT:SPACING_MARKUP
+                                                \fontsize                                  %%! SEGMENT:SPACING_MARKUP
+                                                    #-3                                    %%! SEGMENT:SPACING_MARKUP
+                                                    (1/32)                                 %%! SEGMENT:SPACING_MARKUP
+                                        }                                                  %%! SEGMENT:SPACING_MARKUP
                                 }
+                            }
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
                         \time 7/32
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %%! SEGMENT:SPACING:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %%! SEGMENT:SPACING
                         s1 * 7/32
-                            - \markup {                    %%! SEGMENT:SPACING_MARKUP:2
-                                \with-color                %%! SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:2
-                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:2
-                                        #-3                %%! SEGMENT:SPACING_MARKUP:2
-                                        (1/32)             %%! SEGMENT:SPACING_MARKUP:2
-                                }                          %%! SEGMENT:SPACING_MARKUP:2
+                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
+                                    (1/32)                                                 %%! SEGMENT:SPACING_MARKUP
+                            }                                                              %%! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
                         %%% GlobalSkips [measure 3] %%%
                         \time 1/32
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %%! SEGMENT:SPACING:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %%! SEGMENT:SPACING
                         s1 * 1/32
-                            - \markup {                    %%! SEGMENT:SPACING_MARKUP:2
-                                \with-color                %%! SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:2
-                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:2
-                                        #-3                %%! SEGMENT:SPACING_MARKUP:2
-                                        (1/32)             %%! SEGMENT:SPACING_MARKUP:2
-                                }                          %%! SEGMENT:SPACING_MARKUP:2
+                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
+                                    (1/32)                                                 %%! SEGMENT:SPACING_MARKUP
+                            }                                                              %%! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
                         %%% GlobalSkips [measure 4] %%%
                         \time 6/32
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %%! SEGMENT:SPACING:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %%! SEGMENT:SPACING
                         s1 * 3/16
-                            - \markup {                    %%! SEGMENT:SPACING_MARKUP:2
-                                \with-color                %%! SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:2
-                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:2
-                                        #-3                %%! SEGMENT:SPACING_MARKUP:2
-                                        (1/32)             %%! SEGMENT:SPACING_MARKUP:2
-                                }                          %%! SEGMENT:SPACING_MARKUP:2
+                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
+                                    (1/32)                                                 %%! SEGMENT:SPACING_MARKUP
+                            }                                                              %%! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
                     }
                 >>
@@ -133,70 +133,89 @@ def delicatissimo_music():
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
-                                e'32 -\staccato
+                                e'32
+                                -\staccato
                             }
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 2] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                fs'32 -\staccato [
+                                fs'32
+                                -\staccato
+                                [
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                d'32 -\staccato
+                                d'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                ef'32 -\staccato
+                                ef'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                f'32 -\staccato
+                                f'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                a'32 -\staccato
+                                a'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                af'32 -\staccato
+                                af'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                c'32 -\staccato ]
+                                c'32
+                                -\staccato
+                                ]
                             }
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 3] %%%
-                                b'32 -\staccato
+                                b'32
+                                -\staccato
                             }
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 4] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                bf'32 -\staccato [
+                                bf'32
+                                -\staccato
+                                [
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                g'32 -\staccato
+                                g'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                a'32 -\staccato
+                                a'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                af'32 -\staccato
+                                af'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                c'32 -\staccato
+                                c'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                f'32 -\staccato ]
+                                f'32
+                                -\staccato
+                                ]
                                 \bar "|"
             <BLANKLINE>
                             }
@@ -274,57 +293,57 @@ def delicatissimo_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 9/32
-                        \bar "" %%! EMPTY_START_BAR:1
+                        \bar ""                                                            %%! EMPTY_START_BAR
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %%! SEGMENT:SPACING:3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %%! SEGMENT:SPACING
                         s1 * 9/32
-                            - \markup {
-                                \column
-                                    {
-                                        \line                                  %%! STAGE_NUMBER_MARKUP:2
-                                            {                                  %%! STAGE_NUMBER_MARKUP:2
-                                                \fontsize                      %%! STAGE_NUMBER_MARKUP:2
-                                                    #-3                        %%! STAGE_NUMBER_MARKUP:2
-                                                    \with-color                %%! STAGE_NUMBER_MARKUP:2
-                                                        #(x11-color 'DarkCyan) %%! STAGE_NUMBER_MARKUP:2
-                                                        [1]                    %%! STAGE_NUMBER_MARKUP:2
-                                            }                                  %%! STAGE_NUMBER_MARKUP:2
-                                        \line                              %%! SEGMENT:SPACING_MARKUP:4
-                                            {                              %%! SEGMENT:SPACING_MARKUP:4
-                                                \with-color                %%! SEGMENT:SPACING_MARKUP:4
-                                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:4
-                                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:4
-                                                        #-3                %%! SEGMENT:SPACING_MARKUP:4
-                                                        (1/32)             %%! SEGMENT:SPACING_MARKUP:4
-                                            }                              %%! SEGMENT:SPACING_MARKUP:4
-                                    }
+                        - \markup {
+                            \column
+                                {
+                                    \line                                                  %%! STAGE_NUMBER_MARKUP
+                                        {                                                  %%! STAGE_NUMBER_MARKUP
+                                            \fontsize                                      %%! STAGE_NUMBER_MARKUP
+                                                #-3                                        %%! STAGE_NUMBER_MARKUP
+                                                \with-color                                %%! STAGE_NUMBER_MARKUP
+                                                    #(x11-color 'DarkCyan)                 %%! STAGE_NUMBER_MARKUP
+                                                    [1]                                    %%! STAGE_NUMBER_MARKUP
+                                        }                                                  %%! STAGE_NUMBER_MARKUP
+                                    \line                                                  %%! SEGMENT:SPACING_MARKUP
+                                        {                                                  %%! SEGMENT:SPACING_MARKUP
+                                            \with-color                                    %%! SEGMENT:SPACING_MARKUP
+                                                #(x11-color 'DarkCyan)                     %%! SEGMENT:SPACING_MARKUP
+                                                \fontsize                                  %%! SEGMENT:SPACING_MARKUP
+                                                    #-3                                    %%! SEGMENT:SPACING_MARKUP
+                                                    (1/32)                                 %%! SEGMENT:SPACING_MARKUP
+                                        }                                                  %%! SEGMENT:SPACING_MARKUP
                                 }
+                            }
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
                         \time 14/32
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %%! SEGMENT:SPACING:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %%! SEGMENT:SPACING
                         s1 * 7/16
-                            - \markup {                    %%! SEGMENT:SPACING_MARKUP:2
-                                \with-color                %%! SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:2
-                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:2
-                                        #-3                %%! SEGMENT:SPACING_MARKUP:2
-                                        (1/32)             %%! SEGMENT:SPACING_MARKUP:2
-                                }                          %%! SEGMENT:SPACING_MARKUP:2
+                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
+                                    (1/32)                                                 %%! SEGMENT:SPACING_MARKUP
+                            }                                                              %%! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
                         %%% GlobalSkips [measure 3] %%%
                         \time 8/32
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32) %%! SEGMENT:SPACING:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %%! SEGMENT:SPACING
                         s1 * 1/4
-                            - \markup {                    %%! SEGMENT:SPACING_MARKUP:2
-                                \with-color                %%! SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:2
-                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:2
-                                        #-3                %%! SEGMENT:SPACING_MARKUP:2
-                                        (1/32)             %%! SEGMENT:SPACING_MARKUP:2
-                                }                          %%! SEGMENT:SPACING_MARKUP:2
+                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
+                                    (1/32)                                                 %%! SEGMENT:SPACING_MARKUP
+                            }                                                              %%! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
                     }
                 >>
@@ -336,145 +355,182 @@ def delicatissimo_music():
                                 %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                e'32 -\staccato [
+                                e'32
+                                -\staccato
+                                [
                             }
                             {
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #3
-                                fs'32 -\staccato
+                                fs'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                d'32 -\staccato
+                                d'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                ef'32 -\staccato
+                                ef'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                f'32 -\staccato
+                                f'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                a'32 -\staccato
+                                a'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                af'32 -\staccato
+                                af'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #1
-                                c'32 -\staccato
+                                c'32
+                                -\staccato
                             }
                             {
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                b'32 -\staccato ]
+                                b'32
+                                -\staccato
+                                ]
                             }
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 2] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                fs'32 -\staccato [
+                                fs'32
+                                -\staccato
+                                [
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                d'32 -\staccato
+                                d'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                ef'32 -\staccato
+                                ef'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                f'32 -\staccato
+                                f'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                a'32 -\staccato
+                                a'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                af'32 -\staccato
+                                af'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #1
-                                c'32 -\staccato
+                                c'32
+                                -\staccato
                             }
                             {
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #1
-                                b'32 -\staccato
+                                b'32
+                                -\staccato
                             }
                             {
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #3
-                                bf'32 -\staccato
+                                bf'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                g'32 -\staccato
+                                g'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                a'32 -\staccato
+                                a'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                af'32 -\staccato
+                                af'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                c'32 -\staccato
+                                c'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                f'32 -\staccato ]
+                                f'32
+                                -\staccato
+                                ]
                             }
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 3] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #3
-                                b'32 -\staccato [
+                                b'32
+                                -\staccato
+                                [
                             }
                             {
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #3
-                                bf'32 -\staccato
+                                bf'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                g'32 -\staccato
+                                g'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                a'32 -\staccato
+                                a'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                af'32 -\staccato
+                                af'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #3
-                                c'32 -\staccato
+                                c'32
+                                -\staccato
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #1
-                                f'32 -\staccato
+                                f'32
+                                -\staccato
                             }
                             {
             <BLANKLINE>
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                e'32 -\staccato ]
+                                e'32
+                                -\staccato
+                                ]
                                 \bar "|"
             <BLANKLINE>
                             }

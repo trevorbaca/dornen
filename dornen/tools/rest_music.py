@@ -58,11 +58,11 @@ def rest_music(duration=None):
 
         >>> lilypond_file = maker.run(environment='docs')
         >>> score = lilypond_file[abjad.Score]
-        >>> abjad.show(lilypond_file) # doctest: +SKIP
+        >>> abjad.show(lilypond_file, strict=79) # doctest: +SKIP
 
         ..  docs::
 
-            >>> abjad.f(lilypond_file[abjad.Score])
+            >>> abjad.f(lilypond_file[abjad.Score], strict=79)
             \context Score = "Score" <<
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
@@ -168,11 +168,11 @@ def rest_music(duration=None):
 
         >>> lilypond_file = maker.run(environment='docs')
         >>> score = lilypond_file[abjad.Score]
-        >>> abjad.show(lilypond_file) # doctest: +SKIP
+        >>> abjad.show(lilypond_file, strict=79) # doctest: +SKIP
 
         ..  docs::
 
-            >>> abjad.f(lilypond_file[abjad.Score])
+            >>> abjad.f(lilypond_file[abjad.Score], strict=79)
             \context Score = "Score" <<
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {

@@ -49,11 +49,11 @@ def tremolo_music():
         ...     )
 
         >>> lilypond_file = maker.run(environment='docs')
-        >>> abjad.show(lilypond_file) # doctest: +SKIP
+        >>> abjad.show(lilypond_file, strict=79) # doctest: +SKIP
 
         ..  docs::
 
-            >>> abjad.f(lilypond_file[abjad.Score])
+            >>> abjad.f(lilypond_file[abjad.Score], strict=79)
             \context Score = "Score" <<
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
@@ -280,7 +280,7 @@ def tremolo_music():
 
         ..  docs::
 
-            >>> abjad.f(lilypond_file[abjad.Score])
+            >>> abjad.f(lilypond_file[abjad.Score], strict=79)
             \context Score = "Score" <<
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {

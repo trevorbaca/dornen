@@ -65,11 +65,11 @@ def twenty_eighth_music():
         >>> abjad.override(score).spacing_spanner.strict_note_spacing = False
         >>> abjad.override(score).tuplet_bracket.direction = Up
         >>> abjad.override(score).tuplet_bracket.staff_padding = 1.5
-        >>> abjad.show(lilypond_file) # doctest: +SKIP
+        >>> abjad.show(lilypond_file, strict=79) # doctest: +SKIP
 
         ..  docs::
 
-            >>> abjad.f(lilypond_file[abjad.Score])
+            >>> abjad.f(lilypond_file[abjad.Score], strict=79)
             \context Score = "Score" \with {
                 \override SpacingSpanner.strict-grace-spacing = ##f
                 \override SpacingSpanner.strict-note-spacing = ##f
@@ -299,11 +299,11 @@ def twenty_eighth_music():
         >>> abjad.override(score).spacing_spanner.strict_note_spacing = False
         >>> abjad.override(score).tuplet_bracket.direction = Up
         >>> abjad.override(score).tuplet_bracket.staff_padding = 1.5
-        >>> abjad.show(lilypond_file) # doctest: +SKIP
+        >>> abjad.show(lilypond_file, strict=79) # doctest: +SKIP
 
         ..  docs::
 
-            >>> abjad.f(lilypond_file[abjad.Score])
+            >>> abjad.f(lilypond_file[abjad.Score], strict=79)
             \context Score = "Score" \with {
                 \override SpacingSpanner.strict-grace-spacing = ##f
                 \override SpacingSpanner.strict-note-spacing = ##f

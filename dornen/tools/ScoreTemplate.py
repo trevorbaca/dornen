@@ -16,9 +16,9 @@ class ScoreTemplate(baca.ScoreTemplate):
         ...     global_staff_size=16,
         ...     includes=[path],
         ...     )
-        >>> abjad.show(lilypond_file) # doctest: +SKIP
+        >>> abjad.show(lilypond_file, strict=79) # doctest: +SKIP
 
-        >>> abjad.f(lilypond_file[abjad.Score])
+        >>> abjad.f(lilypond_file[abjad.Score], strict=79)
         \context Score = "Score" <<
             \context GlobalContext = "GlobalContext" <<
                 \context GlobalRests = "GlobalRests" {

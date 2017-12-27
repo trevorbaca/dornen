@@ -80,15 +80,15 @@ def ovoid_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 13/32
-                        \bar "" %%! EMPTY_START_BAR:1
+                        \bar ""                                                            %%! EMPTY_START_BAR
                         s1 * 13/32
-                            - \markup {                        %%! STAGE_NUMBER_MARKUP:2
-                                \fontsize                      %%! STAGE_NUMBER_MARKUP:2
-                                    #-3                        %%! STAGE_NUMBER_MARKUP:2
-                                    \with-color                %%! STAGE_NUMBER_MARKUP:2
-                                        #(x11-color 'DarkCyan) %%! STAGE_NUMBER_MARKUP:2
-                                        [1]                    %%! STAGE_NUMBER_MARKUP:2
-                                }                              %%! STAGE_NUMBER_MARKUP:2
+                        - \markup {                                                        %%! STAGE_NUMBER_MARKUP
+                            \fontsize                                                      %%! STAGE_NUMBER_MARKUP
+                                #-3                                                        %%! STAGE_NUMBER_MARKUP
+                                \with-color                                                %%! STAGE_NUMBER_MARKUP
+                                    #(x11-color 'DarkCyan)                                 %%! STAGE_NUMBER_MARKUP
+                                    [1]                                                    %%! STAGE_NUMBER_MARKUP
+                            }                                                              %%! STAGE_NUMBER_MARKUP
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
                         \time 7/16
@@ -114,7 +114,8 @@ def ovoid_music():
                                 %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                af'8. [
+                                af'8.
+                                [
                             }
                             {
             <BLANKLINE>
@@ -131,14 +132,16 @@ def ovoid_music():
                                 }
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                f'32 ]
+                                f'32
+                                ]
                             }
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 2] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                cs'8. [
+                                cs'8.
+                                [
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
@@ -166,14 +169,16 @@ def ovoid_music():
                                 }
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                d'32 ]
+                                d'32
+                                ]
                             }
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 3] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                af'8. [
+                                af'8.
+                                [
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
@@ -201,14 +206,16 @@ def ovoid_music():
                                 }
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                af'32 ]
+                                af'32
+                                ]
                             }
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 4] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                e'8. [
+                                e'8.
+                                [
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
@@ -236,14 +243,16 @@ def ovoid_music():
                                 }
                                 \set stemLeftBeamCount = #3
                                 \set stemRightBeamCount = #0
-                                f'32 ]
+                                f'32
+                                ]
                             }
                             {
             <BLANKLINE>
                                 %%% MusicVoice [measure 5] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                fs'8. [
+                                fs'8.
+                                [
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
@@ -260,7 +269,8 @@ def ovoid_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #0
-                                af'8. ]
+                                af'8.
+                                ]
                                 \bar "|"
             <BLANKLINE>
                             }

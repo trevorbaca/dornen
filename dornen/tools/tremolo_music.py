@@ -60,70 +60,70 @@ def tremolo_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 1/11
-                        \bar "" %%! EMPTY_START_BAR:1
+                        \bar ""                                                            %%! EMPTY_START_BAR
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %%! SEGMENT:SPACING:3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %%! SEGMENT:SPACING
                         s1 * 1/11
-                            - \markup {
-                                \column
-                                    {
-                                        \line                                  %%! STAGE_NUMBER_MARKUP:2
-                                            {                                  %%! STAGE_NUMBER_MARKUP:2
-                                                \fontsize                      %%! STAGE_NUMBER_MARKUP:2
-                                                    #-3                        %%! STAGE_NUMBER_MARKUP:2
-                                                    \with-color                %%! STAGE_NUMBER_MARKUP:2
-                                                        #(x11-color 'DarkCyan) %%! STAGE_NUMBER_MARKUP:2
-                                                        [1]                    %%! STAGE_NUMBER_MARKUP:2
-                                            }                                  %%! STAGE_NUMBER_MARKUP:2
-                                        \line                              %%! SEGMENT:SPACING_MARKUP:4
-                                            {                              %%! SEGMENT:SPACING_MARKUP:4
-                                                \with-color                %%! SEGMENT:SPACING_MARKUP:4
-                                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:4
-                                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:4
-                                                        #-3                %%! SEGMENT:SPACING_MARKUP:4
-                                                        (1/24)             %%! SEGMENT:SPACING_MARKUP:4
-                                            }                              %%! SEGMENT:SPACING_MARKUP:4
-                                    }
+                        - \markup {
+                            \column
+                                {
+                                    \line                                                  %%! STAGE_NUMBER_MARKUP
+                                        {                                                  %%! STAGE_NUMBER_MARKUP
+                                            \fontsize                                      %%! STAGE_NUMBER_MARKUP
+                                                #-3                                        %%! STAGE_NUMBER_MARKUP
+                                                \with-color                                %%! STAGE_NUMBER_MARKUP
+                                                    #(x11-color 'DarkCyan)                 %%! STAGE_NUMBER_MARKUP
+                                                    [1]                                    %%! STAGE_NUMBER_MARKUP
+                                        }                                                  %%! STAGE_NUMBER_MARKUP
+                                    \line                                                  %%! SEGMENT:SPACING_MARKUP
+                                        {                                                  %%! SEGMENT:SPACING_MARKUP
+                                            \with-color                                    %%! SEGMENT:SPACING_MARKUP
+                                                #(x11-color 'DarkCyan)                     %%! SEGMENT:SPACING_MARKUP
+                                                \fontsize                                  %%! SEGMENT:SPACING_MARKUP
+                                                    #-3                                    %%! SEGMENT:SPACING_MARKUP
+                                                    (1/24)                                 %%! SEGMENT:SPACING_MARKUP
+                                        }                                                  %%! SEGMENT:SPACING_MARKUP
                                 }
+                            }
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
                         \time 7/11
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %%! SEGMENT:SPACING:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %%! SEGMENT:SPACING
                         s1 * 7/11
-                            - \markup {                    %%! SEGMENT:SPACING_MARKUP:2
-                                \with-color                %%! SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:2
-                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:2
-                                        #-3                %%! SEGMENT:SPACING_MARKUP:2
-                                        (1/24)             %%! SEGMENT:SPACING_MARKUP:2
-                                }                          %%! SEGMENT:SPACING_MARKUP:2
+                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
+                                    (1/24)                                                 %%! SEGMENT:SPACING_MARKUP
+                            }                                                              %%! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
                         %%% GlobalSkips [measure 3] %%%
                         \time 1/11
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %%! SEGMENT:SPACING:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %%! SEGMENT:SPACING
                         s1 * 1/11
-                            - \markup {                    %%! SEGMENT:SPACING_MARKUP:2
-                                \with-color                %%! SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:2
-                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:2
-                                        #-3                %%! SEGMENT:SPACING_MARKUP:2
-                                        (1/24)             %%! SEGMENT:SPACING_MARKUP:2
-                                }                          %%! SEGMENT:SPACING_MARKUP:2
+                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
+                                    (1/24)                                                 %%! SEGMENT:SPACING_MARKUP
+                            }                                                              %%! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
                         %%% GlobalSkips [measure 4] %%%
                         \time 6/11
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %%! SEGMENT:SPACING:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %%! SEGMENT:SPACING
                         s1 * 6/11
-                            - \markup {                    %%! SEGMENT:SPACING_MARKUP:2
-                                \with-color                %%! SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:2
-                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:2
-                                        #-3                %%! SEGMENT:SPACING_MARKUP:2
-                                        (1/24)             %%! SEGMENT:SPACING_MARKUP:2
-                                }                          %%! SEGMENT:SPACING_MARKUP:2
+                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
+                                    (1/24)                                                 %%! SEGMENT:SPACING_MARKUP
+                            }                                                              %%! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
                     }
                 >>
@@ -134,7 +134,8 @@ def tremolo_music():
                             \times 8/11 {
             <BLANKLINE>
                                 %%% MusicVoice [measure 1] %%%
-                                e'8 :32
+                                e'8
+                                :32
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
@@ -143,43 +144,59 @@ def tremolo_music():
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 [
+                                e'8
+                                :32
+                                [
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #0
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie ]
+                                e'8
+                                :32
+                                \repeatTie
+                                ]
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
                                 %%% MusicVoice [measure 3] %%%
-                                e'8 :32
+                                e'8
+                                :32
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
@@ -188,32 +205,45 @@ def tremolo_music():
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 [
+                                e'8
+                                :32
+                                [
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #0
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie ]
+                                e'8
+                                :32
+                                \repeatTie
+                                ]
                                 \bar "|"
             <BLANKLINE>
                             }
@@ -287,57 +317,57 @@ def tremolo_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 9/11
-                        \bar "" %%! EMPTY_START_BAR:1
+                        \bar ""                                                            %%! EMPTY_START_BAR
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %%! SEGMENT:SPACING:3
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %%! SEGMENT:SPACING
                         s1 * 9/11
-                            - \markup {
-                                \column
-                                    {
-                                        \line                                  %%! STAGE_NUMBER_MARKUP:2
-                                            {                                  %%! STAGE_NUMBER_MARKUP:2
-                                                \fontsize                      %%! STAGE_NUMBER_MARKUP:2
-                                                    #-3                        %%! STAGE_NUMBER_MARKUP:2
-                                                    \with-color                %%! STAGE_NUMBER_MARKUP:2
-                                                        #(x11-color 'DarkCyan) %%! STAGE_NUMBER_MARKUP:2
-                                                        [1]                    %%! STAGE_NUMBER_MARKUP:2
-                                            }                                  %%! STAGE_NUMBER_MARKUP:2
-                                        \line                              %%! SEGMENT:SPACING_MARKUP:4
-                                            {                              %%! SEGMENT:SPACING_MARKUP:4
-                                                \with-color                %%! SEGMENT:SPACING_MARKUP:4
-                                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:4
-                                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:4
-                                                        #-3                %%! SEGMENT:SPACING_MARKUP:4
-                                                        (1/24)             %%! SEGMENT:SPACING_MARKUP:4
-                                            }                              %%! SEGMENT:SPACING_MARKUP:4
-                                    }
+                        - \markup {
+                            \column
+                                {
+                                    \line                                                  %%! STAGE_NUMBER_MARKUP
+                                        {                                                  %%! STAGE_NUMBER_MARKUP
+                                            \fontsize                                      %%! STAGE_NUMBER_MARKUP
+                                                #-3                                        %%! STAGE_NUMBER_MARKUP
+                                                \with-color                                %%! STAGE_NUMBER_MARKUP
+                                                    #(x11-color 'DarkCyan)                 %%! STAGE_NUMBER_MARKUP
+                                                    [1]                                    %%! STAGE_NUMBER_MARKUP
+                                        }                                                  %%! STAGE_NUMBER_MARKUP
+                                    \line                                                  %%! SEGMENT:SPACING_MARKUP
+                                        {                                                  %%! SEGMENT:SPACING_MARKUP
+                                            \with-color                                    %%! SEGMENT:SPACING_MARKUP
+                                                #(x11-color 'DarkCyan)                     %%! SEGMENT:SPACING_MARKUP
+                                                \fontsize                                  %%! SEGMENT:SPACING_MARKUP
+                                                    #-3                                    %%! SEGMENT:SPACING_MARKUP
+                                                    (1/24)                                 %%! SEGMENT:SPACING_MARKUP
+                                        }                                                  %%! SEGMENT:SPACING_MARKUP
                                 }
+                            }
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
                         \time 14/11
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %%! SEGMENT:SPACING:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %%! SEGMENT:SPACING
                         s1 * 14/11
-                            - \markup {                    %%! SEGMENT:SPACING_MARKUP:2
-                                \with-color                %%! SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:2
-                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:2
-                                        #-3                %%! SEGMENT:SPACING_MARKUP:2
-                                        (1/24)             %%! SEGMENT:SPACING_MARKUP:2
-                                }                          %%! SEGMENT:SPACING_MARKUP:2
+                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
+                                    (1/24)                                                 %%! SEGMENT:SPACING_MARKUP
+                            }                                                              %%! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
                         %%% GlobalSkips [measure 3] %%%
                         \time 8/11
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %%! SEGMENT:SPACING:1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %%! SEGMENT:SPACING
                         s1 * 8/11
-                            - \markup {                    %%! SEGMENT:SPACING_MARKUP:2
-                                \with-color                %%! SEGMENT:SPACING_MARKUP:2
-                                    #(x11-color 'DarkCyan) %%! SEGMENT:SPACING_MARKUP:2
-                                    \fontsize              %%! SEGMENT:SPACING_MARKUP:2
-                                        #-3                %%! SEGMENT:SPACING_MARKUP:2
-                                        (1/24)             %%! SEGMENT:SPACING_MARKUP:2
-                                }                          %%! SEGMENT:SPACING_MARKUP:2
+                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
+                                    (1/24)                                                 %%! SEGMENT:SPACING_MARKUP
+                            }                                                              %%! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
                     }
                 >>
@@ -350,7 +380,9 @@ def tremolo_music():
                                 %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
-                                e'8 :32 [
+                                e'8
+                                :32
+                                [
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
@@ -358,37 +390,51 @@ def tremolo_music():
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
@@ -396,7 +442,10 @@ def tremolo_music():
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #0
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie ]
+                                e'8
+                                :32
+                                \repeatTie
+                                ]
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
@@ -405,37 +454,51 @@ def tremolo_music():
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 [
+                                e'8
+                                :32
+                                [
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
@@ -443,7 +506,9 @@ def tremolo_music():
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
@@ -451,32 +516,45 @@ def tremolo_music():
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #0
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie ]
+                                e'8
+                                :32
+                                \repeatTie
+                                ]
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
@@ -485,7 +563,9 @@ def tremolo_music():
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 [
+                                e'8
+                                :32
+                                [
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
@@ -493,32 +573,44 @@ def tremolo_music():
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
             <BLANKLINE>
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie
+                                e'8
+                                :32
+                                \repeatTie
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
@@ -526,7 +618,10 @@ def tremolo_music():
                                 \set stemLeftBeamCount = #1
                                 \set stemRightBeamCount = #0
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                                e'8 :32 \repeatTie ]
+                                e'8
+                                :32
+                                \repeatTie
+                                ]
                                 \bar "|"
             <BLANKLINE>
                             }

@@ -76,15 +76,15 @@ def graced_tuplet_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 19/56
-                        \bar "" %%! EMPTY_START_BAR:1
+                        \bar ""                                                            %%! EMPTY_START_BAR
                         s1 * 19/56
-                            - \markup {                        %%! STAGE_NUMBER_MARKUP:2
-                                \fontsize                      %%! STAGE_NUMBER_MARKUP:2
-                                    #-3                        %%! STAGE_NUMBER_MARKUP:2
-                                    \with-color                %%! STAGE_NUMBER_MARKUP:2
-                                        #(x11-color 'DarkCyan) %%! STAGE_NUMBER_MARKUP:2
-                                        [1]                    %%! STAGE_NUMBER_MARKUP:2
-                                }                              %%! STAGE_NUMBER_MARKUP:2
+                        - \markup {                                                        %%! STAGE_NUMBER_MARKUP
+                            \fontsize                                                      %%! STAGE_NUMBER_MARKUP
+                                #-3                                                        %%! STAGE_NUMBER_MARKUP
+                                \with-color                                                %%! STAGE_NUMBER_MARKUP
+                                    #(x11-color 'DarkCyan)                                 %%! STAGE_NUMBER_MARKUP
+                                    [1]                                                    %%! STAGE_NUMBER_MARKUP
+                            }                                                              %%! STAGE_NUMBER_MARKUP
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
                         \time 39/56
@@ -106,7 +106,8 @@ def graced_tuplet_music():
                                 %%% MusicVoice [measure 1] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
-                                af'16 [
+                                af'16
+                                [
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \tweak edge-height #'(0.7 . 0)
@@ -154,7 +155,8 @@ def graced_tuplet_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #0
-                                ef'16 ]
+                                ef'16
+                                ]
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \tweak edge-height #'(0.7 . 0)
@@ -163,7 +165,8 @@ def graced_tuplet_music():
                                 %%% MusicVoice [measure 2] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
-                                cs'16 [
+                                cs'16
+                                [
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
@@ -251,7 +254,8 @@ def graced_tuplet_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #0
-                                d'16 ]
+                                d'16
+                                ]
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \tweak edge-height #'(0.7 . 0)
@@ -260,7 +264,8 @@ def graced_tuplet_music():
                                 %%% MusicVoice [measure 3] %%%
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
-                                a'16 [
+                                a'16
+                                [
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
@@ -308,7 +313,8 @@ def graced_tuplet_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = #2
                                 \set stemRightBeamCount = #0
-                                af'16 ]
+                                af'16
+                                ]
                                 \bar "|"
             <BLANKLINE>
                             }

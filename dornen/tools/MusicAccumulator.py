@@ -23,7 +23,7 @@ class MusicAccumulator(baca.MusicAccumulator):
         ...     {'GuitarMusicVoiceI': selection},
         ...     accumulator.time_signatures,
         ...     )
-        >>> abjad.show(lilypond_file) # doctest: +SKIP
+        >>> abjad.show(lilypond_file, strict=79) # doctest: +SKIP
 
         ..  docs::
 

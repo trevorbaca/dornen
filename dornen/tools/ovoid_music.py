@@ -66,11 +66,11 @@ def ovoid_music():
         >>> score = lilypond_file[abjad.Score]
         >>> abjad.override(score).spacing_spanner.strict_grace_spacing = False
         >>> abjad.override(score).spacing_spanner.strict_note_spacing = False
-        >>> abjad.show(lilypond_file) # doctest: +SKIP
+        >>> abjad.show(lilypond_file, strict=79) # doctest: +SKIP
 
         ..  docs::
 
-            >>> abjad.f(lilypond_file[abjad.Score])
+            >>> abjad.f(lilypond_file[abjad.Score], strict=79)
             \context Score = "Score" \with {
                 \override SpacingSpanner.strict-grace-spacing = ##f
                 \override SpacingSpanner.strict-note-spacing = ##f

@@ -80,15 +80,15 @@ def ovoid_music():
             <BLANKLINE>
                         %%% GlobalSkips [measure 1] %%%
                         \time 13/32
-                        \bar "" %! EMPTY_START_BAR:1
+                        \bar "" %%! EMPTY_START_BAR:1
                         s1 * 13/32
-                            - \markup { %! STAGE_NUMBER_MARKUP:2
-                                \fontsize %! STAGE_NUMBER_MARKUP:2
-                                    #-3 %! STAGE_NUMBER_MARKUP:2
-                                    \with-color %! STAGE_NUMBER_MARKUP:2
-                                        #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:2
-                                        [1] %! STAGE_NUMBER_MARKUP:2
-                                } %! STAGE_NUMBER_MARKUP:2
+                            - \markup {                        %%! STAGE_NUMBER_MARKUP:2
+                                \fontsize                      %%! STAGE_NUMBER_MARKUP:2
+                                    #-3                        %%! STAGE_NUMBER_MARKUP:2
+                                    \with-color                %%! STAGE_NUMBER_MARKUP:2
+                                        #(x11-color 'DarkCyan) %%! STAGE_NUMBER_MARKUP:2
+                                        [1]                    %%! STAGE_NUMBER_MARKUP:2
+                                }                              %%! STAGE_NUMBER_MARKUP:2
             <BLANKLINE>
                         %%% GlobalSkips [measure 2] %%%
                         \time 7/16

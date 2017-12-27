@@ -16,7 +16,6 @@
                 %%% GlobalSkips [measure 90] %%%
                 \time 3/32
                 \bar "" %! EMPTY_START_BAR:1
-                \once \override TextScript.color = #(x11-color 'green4) %! REAPPLIED_METRONOME_MARK_COLOR:3
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING:6
                 s1 * 3/32
@@ -36,6 +35,27 @@
                                             %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:2
                                             %%% [D.1] %! STAGE_NUMBER_MARKUP:2
                                 %%% } %! STAGE_NUMBER_MARKUP:2
+                            \line %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                { %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                    \with-color %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                        #(x11-color 'green4) %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                        { %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                            \fontsize %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                #-6 %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                \general-align %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                    #Y %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                    #DOWN %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                    \note-by-number %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                        #3 %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                        #0 %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                        #1 %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                            \upright %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                { %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                    = %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                    66 %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                } %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                        } %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                } %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
                             %%% \line %! SEGMENT:SPACING_MARKUP:7
                                 %%% { %! SEGMENT:SPACING_MARKUP:7
                                     %%% \with-color %! SEGMENT:SPACING_MARKUP:7
@@ -46,22 +66,22 @@
                                 %%% } %! SEGMENT:SPACING_MARKUP:7
                         }
                     }
-                ^ \markup { % REAPPLIED_METRONOME_MARK:4
-                    \fontsize % REAPPLIED_METRONOME_MARK:4
-                        #-6 % REAPPLIED_METRONOME_MARK:4
-                        \general-align % REAPPLIED_METRONOME_MARK:4
-                            #Y % REAPPLIED_METRONOME_MARK:4
-                            #DOWN % REAPPLIED_METRONOME_MARK:4
-                            \note-by-number % REAPPLIED_METRONOME_MARK:4
-                                #3 % REAPPLIED_METRONOME_MARK:4
-                                #0 % REAPPLIED_METRONOME_MARK:4
-                                #1 % REAPPLIED_METRONOME_MARK:4
-                    \upright % REAPPLIED_METRONOME_MARK:4
-                        { % REAPPLIED_METRONOME_MARK:4
-                            = % REAPPLIED_METRONOME_MARK:4
-                            66 % REAPPLIED_METRONOME_MARK:4
-                        } % REAPPLIED_METRONOME_MARK:4
-                    } % REAPPLIED_METRONOME_MARK:4
+                %%% ^ \markup { %! REAPPLIED_METRONOME_MARK:4
+                %%%     \fontsize %! REAPPLIED_METRONOME_MARK:4
+                %%%         #-6 %! REAPPLIED_METRONOME_MARK:4
+                %%%         \general-align %! REAPPLIED_METRONOME_MARK:4
+                %%%             #Y %! REAPPLIED_METRONOME_MARK:4
+                %%%             #DOWN %! REAPPLIED_METRONOME_MARK:4
+                %%%             \note-by-number %! REAPPLIED_METRONOME_MARK:4
+                %%%                 #3 %! REAPPLIED_METRONOME_MARK:4
+                %%%                 #0 %! REAPPLIED_METRONOME_MARK:4
+                %%%                 #1 %! REAPPLIED_METRONOME_MARK:4
+                %%%     \upright %! REAPPLIED_METRONOME_MARK:4
+                %%%         { %! REAPPLIED_METRONOME_MARK:4
+                %%%             = %! REAPPLIED_METRONOME_MARK:4
+                %%%             66 %! REAPPLIED_METRONOME_MARK:4
+                %%%         } %! REAPPLIED_METRONOME_MARK:4
+                %%%     } %! REAPPLIED_METRONOME_MARK:4
                 
                 %%% GlobalSkips [measure 91] %%%
                 \time 3/20

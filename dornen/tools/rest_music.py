@@ -86,6 +86,8 @@ def rest_music(duration=None):
                         % GlobalSkips [measure 3]                                          %! SM4
                         \time 3/8                                                          %! SM1
                         s1 * 3/8
+                        \override Score.BarLine.transparent = ##f                          %! SM5
+                        \bar "|"                                                           %! SM5
             <BLANKLINE>
                     }
                 >>
@@ -112,7 +114,6 @@ def rest_music(duration=None):
                                 r8
             <BLANKLINE>
                                 r8
-                                \bar "|"
             <BLANKLINE>
                             }
                         }
@@ -191,6 +192,8 @@ def rest_music(duration=None):
             <BLANKLINE>
                         % GlobalSkips [measure 2]                                          %! SM4
                         s1 * 3/4
+                        \override Score.BarLine.transparent = ##f                          %! SM5
+                        \bar "|"                                                           %! SM5
             <BLANKLINE>
                     }
                 >>
@@ -234,7 +237,6 @@ def rest_music(duration=None):
                             {
             <BLANKLINE>
                                 r8
-                                \bar "|"
             <BLANKLINE>
                             }
                         }

@@ -103,6 +103,8 @@ def ovoid_music():
                         % GlobalSkips [measure 5]                                          %! SM4
                         \time 13/32                                                        %! SM1
                         s1 * 13/32
+                        \override Score.BarLine.transparent = ##f                          %! SM5
+                        \bar "|"                                                           %! SM5
             <BLANKLINE>
                     }
                 >>
@@ -271,7 +273,6 @@ def ovoid_music():
                                 \set stemRightBeamCount = #0
                                 af'8.
                                 ]
-                                \bar "|"
             <BLANKLINE>
                             }
                         }

@@ -82,8 +82,8 @@ def twentieth_music():
                         % GlobalSkips [measure 1]                                          %! SM4
                         \time 7/20                                                         %! SM1
                         \bar ""                                                            %! EMPTY_START_BAR:SM2
-                        \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING
+                        \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING:HSS1
                         s1 * 7/20
                         ^ \markup {
                             \column
@@ -96,55 +96,57 @@ def twentieth_music():
                                                     #(x11-color 'DarkCyan)                 %! STAGE_NUMBER_MARKUP:SM3
                                                     [1]                                    %! STAGE_NUMBER_MARKUP:SM3
                                         }                                                  %! STAGE_NUMBER_MARKUP:SM3
-                                    \line                                                  %! SEGMENT:SPACING_MARKUP
-                                        {                                                  %! SEGMENT:SPACING_MARKUP
-                                            \with-color                                    %! SEGMENT:SPACING_MARKUP
-                                                #(x11-color 'DarkCyan)                     %! SEGMENT:SPACING_MARKUP
-                                                \fontsize                                  %! SEGMENT:SPACING_MARKUP
-                                                    #-3                                    %! SEGMENT:SPACING_MARKUP
-                                                    (1/50)                                 %! SEGMENT:SPACING_MARKUP
-                                        }                                                  %! SEGMENT:SPACING_MARKUP
+                                    \line                                                  %! SEGMENT:SPACING_MARKUP:HSS2
+                                        {                                                  %! SEGMENT:SPACING_MARKUP:HSS2
+                                            \with-color                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                                                #(x11-color 'DarkCyan)                     %! SEGMENT:SPACING_MARKUP:HSS2
+                                                \fontsize                                  %! SEGMENT:SPACING_MARKUP:HSS2
+                                                    #-3                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                                                    (1/50)                                 %! SEGMENT:SPACING_MARKUP:HSS2
+                                        }                                                  %! SEGMENT:SPACING_MARKUP:HSS2
                                 }
                             }
             <BLANKLINE>
                         % GlobalSkips [measure 2]                                          %! SM4
                         \time 2/20                                                         %! SM1
-                        \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING
+                        \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING:HSS1
                         s1 * 1/10
-                        ^ \markup {                                                        %! SEGMENT:SPACING_MARKUP
-                            \with-color                                                    %! SEGMENT:SPACING_MARKUP
-                                #(x11-color 'DarkCyan)                                     %! SEGMENT:SPACING_MARKUP
-                                \fontsize                                                  %! SEGMENT:SPACING_MARKUP
-                                    #-3                                                    %! SEGMENT:SPACING_MARKUP
-                                    (1/50)                                                 %! SEGMENT:SPACING_MARKUP
-                            }                                                              %! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                            \with-color                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                                #(x11-color 'DarkCyan)                                     %! SEGMENT:SPACING_MARKUP:HSS2
+                                \fontsize                                                  %! SEGMENT:SPACING_MARKUP:HSS2
+                                    #-3                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                                    (1/50)                                                 %! SEGMENT:SPACING_MARKUP:HSS2
+                            }                                                              %! SEGMENT:SPACING_MARKUP:HSS2
             <BLANKLINE>
                         % GlobalSkips [measure 3]                                          %! SM4
                         \time 3/20                                                         %! SM1
-                        \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING
+                        \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING:HSS1
                         s1 * 3/20
-                        ^ \markup {                                                        %! SEGMENT:SPACING_MARKUP
-                            \with-color                                                    %! SEGMENT:SPACING_MARKUP
-                                #(x11-color 'DarkCyan)                                     %! SEGMENT:SPACING_MARKUP
-                                \fontsize                                                  %! SEGMENT:SPACING_MARKUP
-                                    #-3                                                    %! SEGMENT:SPACING_MARKUP
-                                    (1/50)                                                 %! SEGMENT:SPACING_MARKUP
-                            }                                                              %! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                            \with-color                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                                #(x11-color 'DarkCyan)                                     %! SEGMENT:SPACING_MARKUP:HSS2
+                                \fontsize                                                  %! SEGMENT:SPACING_MARKUP:HSS2
+                                    #-3                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                                    (1/50)                                                 %! SEGMENT:SPACING_MARKUP:HSS2
+                            }                                                              %! SEGMENT:SPACING_MARKUP:HSS2
             <BLANKLINE>
                         % GlobalSkips [measure 4]                                          %! SM4
                         \time 4/20                                                         %! SM1
-                        \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING
+                        \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING:HSS1
                         s1 * 1/5
-                        ^ \markup {                                                        %! SEGMENT:SPACING_MARKUP
-                            \with-color                                                    %! SEGMENT:SPACING_MARKUP
-                                #(x11-color 'DarkCyan)                                     %! SEGMENT:SPACING_MARKUP
-                                \fontsize                                                  %! SEGMENT:SPACING_MARKUP
-                                    #-3                                                    %! SEGMENT:SPACING_MARKUP
-                                    (1/50)                                                 %! SEGMENT:SPACING_MARKUP
-                            }                                                              %! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                            \with-color                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                                #(x11-color 'DarkCyan)                                     %! SEGMENT:SPACING_MARKUP:HSS2
+                                \fontsize                                                  %! SEGMENT:SPACING_MARKUP:HSS2
+                                    #-3                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                                    (1/50)                                                 %! SEGMENT:SPACING_MARKUP:HSS2
+                            }                                                              %! SEGMENT:SPACING_MARKUP:HSS2
+                        \override Score.BarLine.transparent = ##f                          %! SM5
+                        \bar "|"                                                           %! SM5
             <BLANKLINE>
                     }
                 >>
@@ -234,7 +236,6 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 f'16
-                                \bar "|"
             <BLANKLINE>
                             }
                         }
@@ -316,8 +317,8 @@ def twentieth_music():
                         % GlobalSkips [measure 1]                                          %! SM4
                         \time 7/20                                                         %! SM1
                         \bar ""                                                            %! EMPTY_START_BAR:SM2
-                        \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING
+                        \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING:HSS1
                         s1 * 7/20
                         ^ \markup {
                             \column
@@ -330,55 +331,57 @@ def twentieth_music():
                                                     #(x11-color 'DarkCyan)                 %! STAGE_NUMBER_MARKUP:SM3
                                                     [1]                                    %! STAGE_NUMBER_MARKUP:SM3
                                         }                                                  %! STAGE_NUMBER_MARKUP:SM3
-                                    \line                                                  %! SEGMENT:SPACING_MARKUP
-                                        {                                                  %! SEGMENT:SPACING_MARKUP
-                                            \with-color                                    %! SEGMENT:SPACING_MARKUP
-                                                #(x11-color 'DarkCyan)                     %! SEGMENT:SPACING_MARKUP
-                                                \fontsize                                  %! SEGMENT:SPACING_MARKUP
-                                                    #-3                                    %! SEGMENT:SPACING_MARKUP
-                                                    (1/50)                                 %! SEGMENT:SPACING_MARKUP
-                                        }                                                  %! SEGMENT:SPACING_MARKUP
+                                    \line                                                  %! SEGMENT:SPACING_MARKUP:HSS2
+                                        {                                                  %! SEGMENT:SPACING_MARKUP:HSS2
+                                            \with-color                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                                                #(x11-color 'DarkCyan)                     %! SEGMENT:SPACING_MARKUP:HSS2
+                                                \fontsize                                  %! SEGMENT:SPACING_MARKUP:HSS2
+                                                    #-3                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                                                    (1/50)                                 %! SEGMENT:SPACING_MARKUP:HSS2
+                                        }                                                  %! SEGMENT:SPACING_MARKUP:HSS2
                                 }
                             }
             <BLANKLINE>
                         % GlobalSkips [measure 2]                                          %! SM4
                         \time 1/20                                                         %! SM1
-                        \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING
+                        \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING:HSS1
                         s1 * 1/20
-                        ^ \markup {                                                        %! SEGMENT:SPACING_MARKUP
-                            \with-color                                                    %! SEGMENT:SPACING_MARKUP
-                                #(x11-color 'DarkCyan)                                     %! SEGMENT:SPACING_MARKUP
-                                \fontsize                                                  %! SEGMENT:SPACING_MARKUP
-                                    #-3                                                    %! SEGMENT:SPACING_MARKUP
-                                    (1/50)                                                 %! SEGMENT:SPACING_MARKUP
-                            }                                                              %! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                            \with-color                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                                #(x11-color 'DarkCyan)                                     %! SEGMENT:SPACING_MARKUP:HSS2
+                                \fontsize                                                  %! SEGMENT:SPACING_MARKUP:HSS2
+                                    #-3                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                                    (1/50)                                                 %! SEGMENT:SPACING_MARKUP:HSS2
+                            }                                                              %! SEGMENT:SPACING_MARKUP:HSS2
             <BLANKLINE>
                         % GlobalSkips [measure 3]                                          %! SM4
                         \time 3/20                                                         %! SM1
-                        \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING
+                        \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING:HSS1
                         s1 * 3/20
-                        ^ \markup {                                                        %! SEGMENT:SPACING_MARKUP
-                            \with-color                                                    %! SEGMENT:SPACING_MARKUP
-                                #(x11-color 'DarkCyan)                                     %! SEGMENT:SPACING_MARKUP
-                                \fontsize                                                  %! SEGMENT:SPACING_MARKUP
-                                    #-3                                                    %! SEGMENT:SPACING_MARKUP
-                                    (1/50)                                                 %! SEGMENT:SPACING_MARKUP
-                            }                                                              %! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                            \with-color                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                                #(x11-color 'DarkCyan)                                     %! SEGMENT:SPACING_MARKUP:HSS2
+                                \fontsize                                                  %! SEGMENT:SPACING_MARKUP:HSS2
+                                    #-3                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                                    (1/50)                                                 %! SEGMENT:SPACING_MARKUP:HSS2
+                            }                                                              %! SEGMENT:SPACING_MARKUP:HSS2
             <BLANKLINE>
                         % GlobalSkips [measure 4]                                          %! SM4
                         \time 4/20                                                         %! SM1
-                        \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING
+                        \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING:HSS1
                         s1 * 1/5
-                        ^ \markup {                                                        %! SEGMENT:SPACING_MARKUP
-                            \with-color                                                    %! SEGMENT:SPACING_MARKUP
-                                #(x11-color 'DarkCyan)                                     %! SEGMENT:SPACING_MARKUP
-                                \fontsize                                                  %! SEGMENT:SPACING_MARKUP
-                                    #-3                                                    %! SEGMENT:SPACING_MARKUP
-                                    (1/50)                                                 %! SEGMENT:SPACING_MARKUP
-                            }                                                              %! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                            \with-color                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                                #(x11-color 'DarkCyan)                                     %! SEGMENT:SPACING_MARKUP:HSS2
+                                \fontsize                                                  %! SEGMENT:SPACING_MARKUP:HSS2
+                                    #-3                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                                    (1/50)                                                 %! SEGMENT:SPACING_MARKUP:HSS2
+                            }                                                              %! SEGMENT:SPACING_MARKUP:HSS2
+                        \override Score.BarLine.transparent = ##f                          %! SM5
+                        \bar "|"                                                           %! SM5
             <BLANKLINE>
                     }
                 >>
@@ -459,7 +462,6 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 f'16
-                                \bar "|"
             <BLANKLINE>
                             }
                         }

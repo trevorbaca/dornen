@@ -93,6 +93,8 @@ def graced_tuplet_music():
                         % GlobalSkips [measure 3]                                          %! SM4
                         \time 53/112                                                       %! SM1
                         s1 * 53/112
+                        \override Score.BarLine.transparent = ##f                          %! SM5
+                        \bar "|"                                                           %! SM5
             <BLANKLINE>
                     }
                 >>
@@ -315,7 +317,6 @@ def graced_tuplet_music():
                                 \set stemRightBeamCount = #0
                                 af'16
                                 ]
-                                \bar "|"
             <BLANKLINE>
                             }
                         }

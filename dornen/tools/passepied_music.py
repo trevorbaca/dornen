@@ -101,6 +101,8 @@ def passepied_music():
             <BLANKLINE>
                         % GlobalSkips [measure 5]                                          %! SM4
                         s1 * 1/32
+                        \override Score.BarLine.transparent = ##f                          %! SM5
+                        \bar "|"                                                           %! SM5
             <BLANKLINE>
                     }
                 >>
@@ -167,7 +169,6 @@ def passepied_music():
             <BLANKLINE>
                                 }
                                 f'32
-                                \bar "|"
             <BLANKLINE>
                             }
                         }
@@ -264,6 +265,8 @@ def passepied_music():
                         % GlobalSkips [measure 4]                                          %! SM4
                         \time 11/32                                                        %! SM1
                         s1 * 11/32
+                        \override Score.BarLine.transparent = ##f                          %! SM5
+                        \bar "|"                                                           %! SM5
             <BLANKLINE>
                     }
                 >>
@@ -464,7 +467,6 @@ def passepied_music():
                                 \set stemRightBeamCount = #0
                                 af'16
                                 ]
-                                \bar "|"
             <BLANKLINE>
                             }
                         }

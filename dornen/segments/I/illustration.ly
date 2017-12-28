@@ -30,27 +30,27 @@
                             %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
                             %%%                 [I.1]                          %! STAGE_NUMBER_MARKUP:SM3
                             %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
-                            \line                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                {                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                    \with-color                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                        #(x11-color 'green4)                   %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                        {                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                            \fontsize                          %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                #-6                            %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                \general-align                 %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                    #Y                         %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                    #DOWN                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                    \note-by-number            %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                        #3                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                        #0                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                        #1                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                            \upright                           %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                {                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                    =                          %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                    66                         %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                }                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                        }                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                }                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR
+                            \line                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                {                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                    \with-color                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                        #(x11-color 'green4)                   %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                        {                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                            \fontsize                          %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                #-6                            %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                \general-align                 %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #Y                         %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #DOWN                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                    \note-by-number            %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #3                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #0                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #1                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                            \upright                           %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                {                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                    =                          %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                    66                         %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                }                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                        }                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                }                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
                             %%% \line                                          %! CLOCK_TIME_MARKUP
                             %%%     {                                          %! CLOCK_TIME_MARKUP
                             %%%         \fontsize                              %! CLOCK_TIME_MARKUP
@@ -815,42 +815,42 @@
                                         %%%                     ]              %! FIGURE_NAME_MARKUP
                                         %%%                 }                  %! FIGURE_NAME_MARKUP
                                         %%%     }                              %! FIGURE_NAME_MARKUP
-                                        %%% \line                              %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%     {                              %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%         \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%             (“Guitar”              %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%         \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%             \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                 #16                %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                 Guitar             %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%         \concat                    %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%             {                      %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                 \vcenter           %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                     \null          %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                 \vcenter           %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                     )              %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%             }                      %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%     }                              %! REAPPLIED_INSTRUMENT_ALERT
-                                        \line                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            {                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                \with-color                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    #(x11-color 'green4)       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    {                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        \vcenter               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            (“Guitar”          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        \vcenter               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                #16            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                Guitar         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        \concat                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            {                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                \vcenter       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    \null      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                \vcenter       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    )          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            }                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    }                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            }                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                        %%% \line                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%     {                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%         \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%             (“Guitar”              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%         \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%             \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                 #16                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                 Guitar             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%         \concat                    %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%             {                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                 \vcenter           %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                     \null          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                 \vcenter           %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                     )              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%             }                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%     }                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        \line                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            {                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \with-color                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    #(x11-color 'green4)       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    {                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            (“Guitar”          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                #16            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                Guitar         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \concat                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            {                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \vcenter       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    \null      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \vcenter       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    )          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            }                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    }                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            }                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }
                                 }
                             \set GuitarMusicStaff.instrumentName = \markup {   %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -874,21 +874,21 @@
                             
                             % GuitarMusicVoiceI [measure 186]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \<
                             \ppp
                             ^ \markup {
                                 \column
                                     {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        \override
-                                                            #'(box-padding . 0.5)
-                                                            \box
-                                                                "2-finger tamb. trill"
-                                            }
+                                        \line                                  %! IC1
+                                            {                                  %! IC1
+                                                \whiteout                      %! IC1
+                                                    \upright                   %! IC1
+                                                        \override              %! IC1
+                                                            #'(box-padding . 0.5) %! IC1
+                                                            \box               %! IC1
+                                                                "2-finger tamb. trill" %! IC1
+                                            }                                  %! IC1
                                         %%% \line                              %! FIGURE_NAME_MARKUP
                                         %%%     {                              %! FIGURE_NAME_MARKUP
                                         %%%         \fontsize                  %! FIGURE_NAME_MARKUP
@@ -919,7 +919,7 @@
                         \times 4/5 {
                             
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -929,7 +929,7 @@
                             
                             % GuitarMusicVoiceI [measure 187]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \pp
                             %%% ^ \markup {                                    %! FIGURE_NAME_MARKUP
@@ -962,7 +962,7 @@
                             
                             % GuitarMusicVoiceI [measure 188]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \>
                             \pp
@@ -996,7 +996,7 @@
                             
                             % GuitarMusicVoiceI [measure 189]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \ppp
                             %%% ^ \markup {                                    %! FIGURE_NAME_MARKUP
@@ -1029,7 +1029,7 @@
                             
                             % GuitarMusicVoiceI [measure 190]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             %%% ^ \markup {                                    %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                  %! FIGURE_NAME_MARKUP
@@ -1061,22 +1061,22 @@
                             
                             % GuitarMusicVoiceI [measure 191]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \<
                             \ppp
                             ^ \markup {
                                 \column
                                     {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        \override
-                                                            #'(box-padding . 0.5)
-                                                            \box
-                                                                "3 fingers"
-                                            }
+                                        \line                                  %! IC1
+                                            {                                  %! IC1
+                                                \whiteout                      %! IC1
+                                                    \upright                   %! IC1
+                                                        \override              %! IC1
+                                                            #'(box-padding . 0.5) %! IC1
+                                                            \box               %! IC1
+                                                                "3 fingers"    %! IC1
+                                            }                                  %! IC1
                                         %%% \line                              %! FIGURE_NAME_MARKUP
                                         %%%     {                              %! FIGURE_NAME_MARKUP
                                         %%%         \fontsize                  %! FIGURE_NAME_MARKUP
@@ -1110,7 +1110,7 @@
                             
                             % GuitarMusicVoiceI [measure 192]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \p
                             %%% ^ \markup {                                    %! FIGURE_NAME_MARKUP
@@ -1143,7 +1143,7 @@
                             
                             % GuitarMusicVoiceI [measure 193]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \>
                             \p
@@ -1177,7 +1177,7 @@
                             
                             % GuitarMusicVoiceI [measure 194]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \ppp
                             %%% ^ \markup {                                    %! FIGURE_NAME_MARKUP
@@ -1210,7 +1210,7 @@
                             
                             % GuitarMusicVoiceI [measure 195]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             %%% ^ \markup {                                    %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                  %! FIGURE_NAME_MARKUP
@@ -1242,22 +1242,22 @@
                             
                             % GuitarMusicVoiceI [measure 196]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \<
                             \ppp
                             ^ \markup {
                                 \column
                                     {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        \override
-                                                            #'(box-padding . 0.5)
-                                                            \box
-                                                                "4 fingers"
-                                            }
+                                        \line                                  %! IC1
+                                            {                                  %! IC1
+                                                \whiteout                      %! IC1
+                                                    \upright                   %! IC1
+                                                        \override              %! IC1
+                                                            #'(box-padding . 0.5) %! IC1
+                                                            \box               %! IC1
+                                                                "4 fingers"    %! IC1
+                                            }                                  %! IC1
                                         %%% \line                              %! FIGURE_NAME_MARKUP
                                         %%%     {                              %! FIGURE_NAME_MARKUP
                                         %%%         \fontsize                  %! FIGURE_NAME_MARKUP
@@ -1291,7 +1291,7 @@
                             
                             % GuitarMusicVoiceI [measure 197]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \pp
                             %%% ^ \markup {                                    %! FIGURE_NAME_MARKUP
@@ -1324,7 +1324,7 @@
                             
                             % GuitarMusicVoiceI [measure 198]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \<
                             \pp
@@ -1358,7 +1358,7 @@
                             
                             % GuitarMusicVoiceI [measure 199]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \p
                             %%% ^ \markup {                                    %! FIGURE_NAME_MARKUP
@@ -1391,7 +1391,7 @@
                             
                             % GuitarMusicVoiceI [measure 200]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \<
                             \p
@@ -1425,7 +1425,7 @@
                             
                             % GuitarMusicVoiceI [measure 201]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \mp
                             %%% ^ \markup {                                    %! FIGURE_NAME_MARKUP
@@ -1458,7 +1458,7 @@
                             
                             % GuitarMusicVoiceI [measure 202]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \>
                             \mp
@@ -1492,7 +1492,7 @@
                             
                             % GuitarMusicVoiceI [measure 203]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             %%% ^ \markup {                                    %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                  %! FIGURE_NAME_MARKUP
@@ -1524,7 +1524,7 @@
                             
                             % GuitarMusicVoiceI [measure 204]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             %%% ^ \markup {                                    %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                  %! FIGURE_NAME_MARKUP
@@ -1556,20 +1556,20 @@
                             
                             % GuitarMusicVoiceI [measure 205]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             ^ \markup {
                                 \column
                                     {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        \override
-                                                            #'(box-padding . 0.5)
-                                                            \box
-                                                                "3 fingers"
-                                            }
+                                        \line                                  %! IC1
+                                            {                                  %! IC1
+                                                \whiteout                      %! IC1
+                                                    \upright                   %! IC1
+                                                        \override              %! IC1
+                                                            #'(box-padding . 0.5) %! IC1
+                                                            \box               %! IC1
+                                                                "3 fingers"    %! IC1
+                                            }                                  %! IC1
                                         %%% \line                              %! FIGURE_NAME_MARKUP
                                         %%%     {                              %! FIGURE_NAME_MARKUP
                                         %%%         \fontsize                  %! FIGURE_NAME_MARKUP
@@ -1600,7 +1600,7 @@
                         \times 4/5 {
                             
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \pp
                         }
@@ -1611,20 +1611,20 @@
                             
                             % GuitarMusicVoiceI [measure 206]                  %! SM4
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             ^ \markup {
                                 \column
                                     {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        \override
-                                                            #'(box-padding . 0.5)
-                                                            \box
-                                                                "2 fingers"
-                                            }
+                                        \line                                  %! IC1
+                                            {                                  %! IC1
+                                                \whiteout                      %! IC1
+                                                    \upright                   %! IC1
+                                                        \override              %! IC1
+                                                            #'(box-padding . 0.5) %! IC1
+                                                            \box               %! IC1
+                                                                "2 fingers"    %! IC1
+                                            }                                  %! IC1
                                         %%% \line                              %! FIGURE_NAME_MARKUP
                                         %%%     {                              %! FIGURE_NAME_MARKUP
                                         %%%         \fontsize                  %! FIGURE_NAME_MARKUP
@@ -1655,7 +1655,7 @@
                         \times 4/5 {
                             
                             gf2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                         }

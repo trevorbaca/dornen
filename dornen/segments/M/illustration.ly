@@ -30,27 +30,27 @@
                             %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
                             %%%                 [M.1]                          %! STAGE_NUMBER_MARKUP:SM3
                             %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
-                            \line                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                {                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                    \with-color                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                        #(x11-color 'green4)                   %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                        {                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                            \fontsize                          %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                #-6                            %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                \general-align                 %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                    #Y                         %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                    #DOWN                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                    \note-by-number            %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                        #3                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                        #0                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                        #1                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                            \upright                           %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                {                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                    =                          %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                    66                         %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                }                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                        }                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                }                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR
+                            \line                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                {                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                    \with-color                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                        #(x11-color 'green4)                   %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                        {                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                            \fontsize                          %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                #-6                            %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                \general-align                 %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #Y                         %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #DOWN                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                    \note-by-number            %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #3                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #0                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #1                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                            \upright                           %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                {                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                    =                          %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                    66                         %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                }                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                        }                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                }                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
                             %%% \line                                          %! CLOCK_TIME_MARKUP
                             %%%     {                                          %! CLOCK_TIME_MARKUP
                             %%%         \fontsize                              %! CLOCK_TIME_MARKUP
@@ -1461,53 +1461,53 @@
                                 }                                              %! REAPPLIED_INSTRUMENT:SM8
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                             d'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                             [
                             ^ \markup {
                                 \column
                                     {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "LH only until rascado! (RH tacet; encourage whisks) ..."
-                                            }
-                                        %%% \line                              %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%     {                              %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%         \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%             (“Guitar”              %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%         \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%             \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                 #16                %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                 Guitar             %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%         \concat                    %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%             {                      %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                 \vcenter           %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                     \null          %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                 \vcenter           %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                     )              %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%             }                      %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%     }                              %! REAPPLIED_INSTRUMENT_ALERT
-                                        \line                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            {                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                \with-color                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    #(x11-color 'green4)       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    {                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        \vcenter               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            (“Guitar”          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        \vcenter               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                #16            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                Guitar         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        \concat                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            {                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                \vcenter       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    \null      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                \vcenter       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    )          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            }                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    }                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            }                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                        \line                                  %! IC1
+                                            {                                  %! IC1
+                                                \whiteout                      %! IC1
+                                                    \upright                   %! IC1
+                                                        "LH only until rascado! (RH tacet; encourage whisks) ..." %! IC1
+                                            }                                  %! IC1
+                                        %%% \line                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%     {                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%         \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%             (“Guitar”              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%         \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%             \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                 #16                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                 Guitar             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%         \concat                    %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%             {                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                 \vcenter           %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                     \null          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                 \vcenter           %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                     )              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%             }                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%     }                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        \line                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            {                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \with-color                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    #(x11-color 'green4)       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    {                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            (“Guitar”          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                #16            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                Guitar         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \concat                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            {                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \vcenter       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    \null      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \vcenter       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    )          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            }                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    }                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            }                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }
                                 }
                             \set GuitarMusicStaff.instrumentName = \markup {   %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -1523,7 +1523,7 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             cs'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                         }
                     }
                     
@@ -1536,12 +1536,12 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             ef'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             fs'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                             ]
                         }
                     }
@@ -1559,18 +1559,18 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             d'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                             [
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "RH reaches for screw ..."
-                                }
+                            ^ \markup {                                        %! IC1
+                                \whiteout                                      %! IC1
+                                    \upright                                   %! IC1
+                                        "RH reaches for screw ..."             %! IC1
+                                }                                              %! IC1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             cs'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                         }
                     }
                     
@@ -1583,12 +1583,12 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             ef'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             fs'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                             ]
                         }
                     }
@@ -1606,18 +1606,18 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             d'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                             [
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "RH places screw on string ..."
-                                }
+                            ^ \markup {                                        %! IC1
+                                \whiteout                                      %! IC1
+                                    \upright                                   %! IC1
+                                        "RH places screw on string ..."        %! IC1
+                                }                                              %! IC1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             cs'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                         }
                     }
                     
@@ -1630,12 +1630,12 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             ef'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             fs'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                             ]
                         }
                     }
@@ -1653,13 +1653,13 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             d'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                             [
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             cs'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                         }
                     }
                     
@@ -1672,12 +1672,12 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             ef'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             fs'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                             ]
                         }
                     }
@@ -1695,13 +1695,13 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             d'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                             [
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             cs'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                         }
                     }
                     
@@ -1714,12 +1714,12 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             ef'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             fs'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                             ]
                         }
                     }
@@ -1735,11 +1735,11 @@
                             
                             % GuitarMusicVoiceI [measure 338]                  %! SM4
                             d'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                             [
                             
                             cs'32.
-                            -\tenuto
+                            -\tenuto                                           %! IC1
                             ]
                         }
                     }
@@ -1769,60 +1769,60 @@
                             % GuitarMusicVoiceI [measure 344]                  %! SM4
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                             e2
-                            :32
-                            \p
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke."
-                                }
+                            :32                                                %! IC1
+                            \p                                                 %! IC1
+                            ^ \markup {                                        %! IC1
+                                \whiteout                                      %! IC1
+                                    \upright                                   %! IC1
+                                        "RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke." %! IC1
+                                }                                              %! IC1
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                         }
@@ -2017,7 +2017,7 @@
                             
                             % GuitarMusicVoiceIII [measure 305]                %! SM4
                             c'16
-                            -\accent
+                            -\accent                                           %! IC1
                         }
                     }
                     
@@ -2028,7 +2028,7 @@
                             
                             % GuitarMusicVoiceIII [measure 312]                %! SM4
                             c'16
-                            -\accent
+                            -\accent                                           %! IC1
                         }
                     }
                     
@@ -2039,7 +2039,7 @@
                             
                             % GuitarMusicVoiceIII [measure 319]                %! SM4
                             c'16
-                            -\accent
+                            -\accent                                           %! IC1
                         }
                     }
                     
@@ -2050,7 +2050,7 @@
                             
                             % GuitarMusicVoiceIII [measure 326]                %! SM4
                             c'16
-                            -\accent
+                            -\accent                                           %! IC1
                         }
                     }
                     
@@ -2061,7 +2061,7 @@
                             
                             % GuitarMusicVoiceIII [measure 333]                %! SM4
                             c'16
-                            -\accent
+                            -\accent                                           %! IC1
                         }
                     }
                     
@@ -2072,7 +2072,7 @@
                             
                             % GuitarMusicVoiceIII [measure 340]                %! SM4
                             c'16
-                            -\accent
+                            -\accent                                           %! IC1
                         }
                     }
                     
@@ -2103,18 +2103,18 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             b'16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             a'16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             g''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                         }
                     }
                     
@@ -2130,17 +2130,17 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             fs''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             f''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                             \revert Beam.positions
                             \revert Stem.direction
@@ -2157,18 +2157,18 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             b'16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             a'16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             g''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                         }
                     }
                     
@@ -2184,17 +2184,17 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             fs''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             f''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                             \revert Beam.positions
                             \revert Stem.direction
@@ -2211,18 +2211,18 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             b'16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             a'16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             g''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                         }
                     }
                     
@@ -2238,17 +2238,17 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             fs''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             f''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                             \revert Beam.positions
                             \revert Stem.direction
@@ -2265,18 +2265,18 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             b'16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             a'16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             g''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                         }
                     }
                     
@@ -2292,17 +2292,17 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             fs''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             f''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                             \revert Beam.positions
                             \revert Stem.direction
@@ -2319,18 +2319,18 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             b'16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             a'16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             g''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                         }
                     }
                     
@@ -2346,17 +2346,17 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             fs''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             f''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                             \revert Beam.positions
                             \revert Stem.direction
@@ -2373,18 +2373,18 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             b'16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             a'16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             g''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                         }
                     }
                     
@@ -2400,17 +2400,17 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             fs''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             f''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                             \revert Beam.positions
                             \revert Stem.direction
@@ -2427,47 +2427,47 @@
                     % GuitarMusicVoiceIV [measure 344]                         %! SM4
                     \once \override TextScript.extra-offset = #'(124 . 0)
                     s1 * 13/3
-                    _ \markup {
-                        \whiteout
-                            \upright
-                                \with-color
-                                    #black
-                                    \right-column
-                                        {
-                                            \line
-                                                {
-                                                    Cambridge,
-                                                    MA
-                                                    \hspace
-                                                        #0.75
-                                                    –
-                                                    \hspace
-                                                        #0.75
-                                                    Madison,
-                                                    WI
-                                                    \hspace
-                                                        #0.75
-                                                    –
-                                                    \hspace
-                                                        #0.75
-                                                    Palo
-                                                    Alto,
-                                                    CA.
-                                                }
-                                            \line
-                                                {
-                                                    November
-                                                    2015
-                                                    \hspace
-                                                        #0.75
-                                                    –
-                                                    \hspace
-                                                        #0.75
-                                                    July
-                                                    2016.
-                                                }
-                                        }
-                        }
+                    _ \markup {                                                %! SCORE2
+                        \whiteout                                              %! SCORE2
+                            \upright                                           %! SCORE2
+                                \with-color                                    %! SCORE2
+                                    #black                                     %! SCORE2
+                                    \right-column                              %! SCORE2
+                                        {                                      %! SCORE2
+                                            \line                              %! SCORE2
+                                                {                              %! SCORE2
+                                                    Cambridge,                 %! SCORE2
+                                                    MA                         %! SCORE2
+                                                    \hspace                    %! SCORE2
+                                                        #0.75                  %! SCORE2
+                                                    –                          %! SCORE2
+                                                    \hspace                    %! SCORE2
+                                                        #0.75                  %! SCORE2
+                                                    Madison,                   %! SCORE2
+                                                    WI                         %! SCORE2
+                                                    \hspace                    %! SCORE2
+                                                        #0.75                  %! SCORE2
+                                                    –                          %! SCORE2
+                                                    \hspace                    %! SCORE2
+                                                        #0.75                  %! SCORE2
+                                                    Palo                       %! SCORE2
+                                                    Alto,                      %! SCORE2
+                                                    CA.                        %! SCORE2
+                                                }                              %! SCORE2
+                                            \line                              %! SCORE2
+                                                {                              %! SCORE2
+                                                    November                   %! SCORE2
+                                                    2015                       %! SCORE2
+                                                    \hspace                    %! SCORE2
+                                                        #0.75                  %! SCORE2
+                                                    –                          %! SCORE2
+                                                    \hspace                    %! SCORE2
+                                                        #0.75                  %! SCORE2
+                                                    July                       %! SCORE2
+                                                    2016.                      %! SCORE2
+                                                }                              %! SCORE2
+                                        }                                      %! SCORE2
+                        }                                                      %! SCORE2
                     
                 }
             >>

@@ -30,27 +30,27 @@
                             %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
                             %%%                 [L.1]                          %! STAGE_NUMBER_MARKUP:SM3
                             %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
-                            \line                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                {                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                    \with-color                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                        #(x11-color 'green4)                   %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                        {                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                            \fontsize                          %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                #-6                            %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                \general-align                 %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                    #Y                         %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                    #DOWN                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                    \note-by-number            %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                        #3                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                        #0                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                        #1                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                            \upright                           %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                {                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                    =                          %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                    66                         %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                                }                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                        }                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-                                }                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR
+                            \line                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                {                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                    \with-color                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                        #(x11-color 'green4)                   %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                        {                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                            \fontsize                          %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                #-6                            %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                \general-align                 %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #Y                         %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #DOWN                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                    \note-by-number            %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #3                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #0                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #1                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                            \upright                           %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                {                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                    =                          %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                    66                         %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                                }                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                        }                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                }                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
                             %%% \line                                          %! CLOCK_TIME_MARKUP
                             %%%     {                                          %! CLOCK_TIME_MARKUP
                             %%%         \fontsize                              %! CLOCK_TIME_MARKUP
@@ -1578,7 +1578,7 @@
                                 }                                              %! REAPPLIED_INSTRUMENT:SM8
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                             e2
-                            :32
+                            :32                                                %! IC1
                             ^ \markup {
                                 \column
                                     {
@@ -1605,42 +1605,42 @@
                                         %%%                     ]              %! FIGURE_NAME_MARKUP
                                         %%%                 }                  %! FIGURE_NAME_MARKUP
                                         %%%     }                              %! FIGURE_NAME_MARKUP
-                                        %%% \line                              %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%     {                              %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%         \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%             (“Guitar”              %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%         \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%             \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                 #16                %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                 Guitar             %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%         \concat                    %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%             {                      %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                 \vcenter           %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                     \null          %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                 \vcenter           %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%                     )              %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%             }                      %! REAPPLIED_INSTRUMENT_ALERT
-                                        %%%     }                              %! REAPPLIED_INSTRUMENT_ALERT
-                                        \line                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            {                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                \with-color                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    #(x11-color 'green4)       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    {                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        \vcenter               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            (“Guitar”          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        \vcenter               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                #16            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                Guitar         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        \concat                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            {                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                \vcenter       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    \null      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                \vcenter       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    )          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            }                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    }                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            }                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                        %%% \line                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%     {                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%         \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%             (“Guitar”              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%         \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%             \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                 #16                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                 Guitar             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%         \concat                    %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%             {                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                 \vcenter           %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                     \null          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                 \vcenter           %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%                     )              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%             }                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        %%%     }                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                        \line                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            {                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \with-color                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    #(x11-color 'green4)       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    {                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            (“Guitar”          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                #16            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                Guitar         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \concat                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            {                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \vcenter       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    \null      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \vcenter       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    )          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            }                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    }                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            }                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }
                                 }
                             \set GuitarMusicStaff.instrumentName = \markup {   %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -1680,7 +1680,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \<
                             \mp
@@ -1715,7 +1715,7 @@
                             
                             % GuitarMusicVoiceI [measure 259]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \mf
                             \stopTextSpan
@@ -1774,7 +1774,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \>
                             \mf
@@ -1809,7 +1809,7 @@
                             
                             % GuitarMusicVoiceI [measure 261]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \mp
                             \stopTextSpan
@@ -1848,20 +1848,20 @@
                             
                             % GuitarMusicVoiceI [measure 262]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             ^ \markup {
                                 \column
                                     {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        \override
-                                                            #'(box-padding . 0.5)
-                                                            \box
-                                                                "3 fingers"
-                                            }
+                                        \line                                  %! IC1
+                                            {                                  %! IC1
+                                                \whiteout                      %! IC1
+                                                    \upright                   %! IC1
+                                                        \override              %! IC1
+                                                            #'(box-padding . 0.5) %! IC1
+                                                            \box               %! IC1
+                                                                "3 fingers"    %! IC1
+                                            }                                  %! IC1
                                         %%% \line                              %! FIGURE_NAME_MARKUP
                                         %%%     {                              %! FIGURE_NAME_MARKUP
                                         %%%         \fontsize                  %! FIGURE_NAME_MARKUP
@@ -1915,7 +1915,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \<
                             \mp
@@ -1950,7 +1950,7 @@
                             
                             % GuitarMusicVoiceI [measure 264]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \f
                             \stopTextSpan
@@ -2009,7 +2009,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \>
                             \f
@@ -2044,7 +2044,7 @@
                             
                             % GuitarMusicVoiceI [measure 266]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \mp
                             \stopTextSpan
@@ -2083,20 +2083,20 @@
                             
                             % GuitarMusicVoiceI [measure 267]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             ^ \markup {
                                 \column
                                     {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        \override
-                                                            #'(box-padding . 0.5)
-                                                            \box
-                                                                "4 fingers"
-                                            }
+                                        \line                                  %! IC1
+                                            {                                  %! IC1
+                                                \whiteout                      %! IC1
+                                                    \upright                   %! IC1
+                                                        \override              %! IC1
+                                                            #'(box-padding . 0.5) %! IC1
+                                                            \box               %! IC1
+                                                                "4 fingers"    %! IC1
+                                            }                                  %! IC1
                                         %%% \line                              %! FIGURE_NAME_MARKUP
                                         %%%     {                              %! FIGURE_NAME_MARKUP
                                         %%%         \fontsize                  %! FIGURE_NAME_MARKUP
@@ -2150,7 +2150,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \<
                             \mp
@@ -2185,7 +2185,7 @@
                             
                             % GuitarMusicVoiceI [measure 269]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \ff
                             \stopTextSpan
@@ -2224,7 +2224,7 @@
                             
                             % GuitarMusicVoiceI [measure 270]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \>
                             \ff
@@ -2258,7 +2258,7 @@
                             
                             % GuitarMusicVoiceI [measure 271]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \mf
                             %%% ^ \markup {                                    %! FIGURE_NAME_MARKUP
@@ -2311,7 +2311,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \<
                             \mf
@@ -2346,7 +2346,7 @@
                             
                             % GuitarMusicVoiceI [measure 273]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \f
                             \stopTextSpan
@@ -2379,7 +2379,7 @@
                                 }
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -2409,7 +2409,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \>
                             \f
@@ -2444,7 +2444,7 @@
                             
                             % GuitarMusicVoiceI [measure 275]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \mf
                             \stopTextSpan
@@ -2503,7 +2503,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \<
                             \mf
@@ -2537,7 +2537,7 @@
                             
                             % GuitarMusicVoiceI [measure 277]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \ff
                             \stopTextSpan
@@ -2570,11 +2570,11 @@
                                 }
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -2604,7 +2604,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \>
                             \ff
@@ -2639,7 +2639,7 @@
                             
                             % GuitarMusicVoiceI [measure 279]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \mf
                             \stopTextSpan
@@ -2698,7 +2698,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \<
                             \mf
@@ -2733,7 +2733,7 @@
                             
                             % GuitarMusicVoiceI [measure 281]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             %%% ^ \markup {                                    %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                  %! FIGURE_NAME_MARKUP
@@ -2759,15 +2759,15 @@
                             %%%     }                                          %! FIGURE_NAME_MARKUP
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -2777,7 +2777,7 @@
                             
                             % GuitarMusicVoiceI [measure 282]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \ffff
                             \stopTextSpan
@@ -2810,19 +2810,19 @@
                                 }
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -2852,7 +2852,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \>
                             \ffff
@@ -2881,15 +2881,15 @@
                             %%%     }                                          %! FIGURE_NAME_MARKUP
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -2898,7 +2898,7 @@
                             
                             % GuitarMusicVoiceI [measure 284]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \ff
                             \<
@@ -2927,11 +2927,11 @@
                             %%%     }                                          %! FIGURE_NAME_MARKUP
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -2941,7 +2941,7 @@
                             
                             % GuitarMusicVoiceI [measure 285]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \fff
                             \>
@@ -2970,7 +2970,7 @@
                             %%%     }                                          %! FIGURE_NAME_MARKUP
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -2980,7 +2980,7 @@
                             
                             % GuitarMusicVoiceI [measure 286]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \f
                             \<
@@ -3015,7 +3015,7 @@
                             
                             % GuitarMusicVoiceI [measure 287]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \ff
                             \>
@@ -3044,7 +3044,7 @@
                             %%%     }                                          %! FIGURE_NAME_MARKUP
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -3053,7 +3053,7 @@
                             
                             % GuitarMusicVoiceI [measure 288]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \mf
                             \<
@@ -3082,11 +3082,11 @@
                             %%%     }                                          %! FIGURE_NAME_MARKUP
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -3096,7 +3096,7 @@
                             
                             % GuitarMusicVoiceI [measure 289]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \f
                             \>
@@ -3125,15 +3125,15 @@
                             %%%     }                                          %! FIGURE_NAME_MARKUP
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -3143,7 +3143,7 @@
                             
                             % GuitarMusicVoiceI [measure 290]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \mp
                             \<
@@ -3172,19 +3172,19 @@
                             %%%     }                                          %! FIGURE_NAME_MARKUP
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -3194,7 +3194,7 @@
                             
                             % GuitarMusicVoiceI [measure 291]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \mf
                             \>
@@ -3223,15 +3223,15 @@
                             %%%     }                                          %! FIGURE_NAME_MARKUP
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -3240,7 +3240,7 @@
                             
                             % GuitarMusicVoiceI [measure 292]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \p
                             \<
@@ -3269,11 +3269,11 @@
                             %%%     }                                          %! FIGURE_NAME_MARKUP
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -3283,7 +3283,7 @@
                             
                             % GuitarMusicVoiceI [measure 293]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \mp
                             \stopTextSpan
@@ -3318,7 +3318,7 @@
                                 }
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -3328,7 +3328,7 @@
                             
                             % GuitarMusicVoiceI [measure 294]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \pp
                             \<
@@ -3363,7 +3363,7 @@
                             
                             % GuitarMusicVoiceI [measure 295]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \p
                             \>
@@ -3392,7 +3392,7 @@
                             %%%     }                                          %! FIGURE_NAME_MARKUP
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -3401,7 +3401,7 @@
                             
                             % GuitarMusicVoiceI [measure 296]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \ppp
                             \<
@@ -3430,11 +3430,11 @@
                             %%%     }                                          %! FIGURE_NAME_MARKUP
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -3464,7 +3464,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \pp
                             \>
@@ -3494,15 +3494,15 @@
                             %%%     }                                          %! FIGURE_NAME_MARKUP
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -3512,7 +3512,7 @@
                             
                             % GuitarMusicVoiceI [measure 298]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \pppp
                             \<
@@ -3541,19 +3541,19 @@
                             %%%     }                                          %! FIGURE_NAME_MARKUP
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -3562,7 +3562,7 @@
                             
                             % GuitarMusicVoiceI [measure 299]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \ppp
                             \>
@@ -3591,11 +3591,11 @@
                             %%%     }                                          %! FIGURE_NAME_MARKUP
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -3605,7 +3605,7 @@
                             
                             % GuitarMusicVoiceI [measure 300]                  %! SM4
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \ppppp
                             \<
@@ -3634,7 +3634,7 @@
                             %%%     }                                          %! FIGURE_NAME_MARKUP
                             
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                         }
                     }
@@ -3645,7 +3645,7 @@
                             % GuitarMusicVoiceI [measure 301]                  %! SM4
                             \once \override Hairpin.circled-tip = ##t
                             e2
-                            :32
+                            :32                                                %! IC1
                             \repeatTie
                             \pppp
                             \>

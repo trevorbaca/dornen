@@ -278,7 +278,7 @@ def design_3(start=None, stop=None):
                 bqf'8 \startGroup ^ \markup { 39 }
                 b'8 \stopGroup
                 s8
-                \bar "|."
+                \bar "|." %! SCORE1
                 \override Score.BarLine.transparent = ##f
             }
 

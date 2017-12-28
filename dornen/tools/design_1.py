@@ -272,7 +272,7 @@ def design_1(start=None, stop=None):
                 \once \override Stem.color = #red
                 e'8 \stopGroup
                 s8
-                \bar "|."
+                \bar "|." %! SCORE1
                 \override Score.BarLine.transparent = ##f
             }
 

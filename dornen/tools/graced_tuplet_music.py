@@ -78,7 +78,7 @@ def graced_tuplet_music():
                         \time 19/56
                         \bar ""                                                            %%! EMPTY_START_BAR
                         s1 * 19/56
-                        - \markup {                                                        %%! STAGE_NUMBER_MARKUP
+                        ^ \markup {                                                        %%! STAGE_NUMBER_MARKUP
                             \fontsize                                                      %%! STAGE_NUMBER_MARKUP
                                 #-3                                                        %%! STAGE_NUMBER_MARKUP
                                 \with-color                                                %%! STAGE_NUMBER_MARKUP

@@ -64,7 +64,7 @@ def glissando_scatto_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %%! SEGMENT:SPACING
                         s1 * 1/16
-                        - \markup {
+                        ^ \markup {
                             \column
                                 {
                                     \line                                                  %%! STAGE_NUMBER_MARKUP
@@ -91,7 +91,7 @@ def glissando_scatto_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 11 416) %%! SEGMENT:SPACING
                         s1 * 11/32
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -104,7 +104,7 @@ def glissando_scatto_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %%! SEGMENT:SPACING
                         s1 * 1/16
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -117,7 +117,7 @@ def glissando_scatto_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 9 352)  %%! SEGMENT:SPACING
                         s1 * 9/32
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -290,7 +290,7 @@ def glissando_scatto_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 11 416) %%! SEGMENT:SPACING
                         s1 * 15/32
-                        - \markup {
+                        ^ \markup {
                             \column
                                 {
                                     \line                                                  %%! STAGE_NUMBER_MARKUP
@@ -317,7 +317,7 @@ def glissando_scatto_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 9 352)  %%! SEGMENT:SPACING
                         s1 * 11/16
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -330,7 +330,7 @@ def glissando_scatto_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 9 352)  %%! SEGMENT:SPACING
                         s1 * 13/32
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP

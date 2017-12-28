@@ -64,7 +64,7 @@ def anchor_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %%! SEGMENT:SPACING
                         s1 * 3/16
-                        - \markup {
+                        ^ \markup {
                             \column
                                 {
                                     \line                                                  %%! STAGE_NUMBER_MARKUP
@@ -91,7 +91,7 @@ def anchor_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %%! SEGMENT:SPACING
                         s1 * 21/16
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -104,7 +104,7 @@ def anchor_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %%! SEGMENT:SPACING
                         s1 * 3/16
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -117,7 +117,7 @@ def anchor_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %%! SEGMENT:SPACING
                         s1 * 9/8
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP

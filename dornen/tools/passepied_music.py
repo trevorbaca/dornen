@@ -82,7 +82,7 @@ def passepied_music():
                         \time 1/32
                         \bar ""                                                            %%! EMPTY_START_BAR
                         s1 * 1/32
-                        - \markup {                                                        %%! STAGE_NUMBER_MARKUP
+                        ^ \markup {                                                        %%! STAGE_NUMBER_MARKUP
                             \fontsize                                                      %%! STAGE_NUMBER_MARKUP
                                 #-3                                                        %%! STAGE_NUMBER_MARKUP
                                 \with-color                                                %%! STAGE_NUMBER_MARKUP
@@ -247,7 +247,7 @@ def passepied_music():
                         \time 17/32
                         \bar ""                                                            %%! EMPTY_START_BAR
                         s1 * 17/32
-                        - \markup {                                                        %%! STAGE_NUMBER_MARKUP
+                        ^ \markup {                                                        %%! STAGE_NUMBER_MARKUP
                             \fontsize                                                      %%! STAGE_NUMBER_MARKUP
                                 #-3                                                        %%! STAGE_NUMBER_MARKUP
                                 \with-color                                                %%! STAGE_NUMBER_MARKUP

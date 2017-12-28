@@ -85,7 +85,7 @@ def twenty_eighth_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)   %%! SEGMENT:SPACING
                         s1 * 1/4
-                        - \markup {
+                        ^ \markup {
                             \column
                                 {
                                     \line                                                  %%! STAGE_NUMBER_MARKUP
@@ -112,7 +112,7 @@ def twenty_eighth_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)   %%! SEGMENT:SPACING
                         s1 * 1/14
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -125,7 +125,7 @@ def twenty_eighth_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)   %%! SEGMENT:SPACING
                         s1 * 3/28
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -138,7 +138,7 @@ def twenty_eighth_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)   %%! SEGMENT:SPACING
                         s1 * 1/7
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -319,7 +319,7 @@ def twenty_eighth_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)   %%! SEGMENT:SPACING
                         s1 * 1/4
-                        - \markup {
+                        ^ \markup {
                             \column
                                 {
                                     \line                                                  %%! STAGE_NUMBER_MARKUP
@@ -346,7 +346,7 @@ def twenty_eighth_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)   %%! SEGMENT:SPACING
                         s1 * 1/28
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -359,7 +359,7 @@ def twenty_eighth_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)   %%! SEGMENT:SPACING
                         s1 * 3/28
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -372,7 +372,7 @@ def twenty_eighth_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)   %%! SEGMENT:SPACING
                         s1 * 1/7
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP

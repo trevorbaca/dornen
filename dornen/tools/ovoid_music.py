@@ -82,7 +82,7 @@ def ovoid_music():
                         \time 13/32
                         \bar ""                                                            %%! EMPTY_START_BAR
                         s1 * 13/32
-                        - \markup {                                                        %%! STAGE_NUMBER_MARKUP
+                        ^ \markup {                                                        %%! STAGE_NUMBER_MARKUP
                             \fontsize                                                      %%! STAGE_NUMBER_MARKUP
                                 #-3                                                        %%! STAGE_NUMBER_MARKUP
                                 \with-color                                                %%! STAGE_NUMBER_MARKUP

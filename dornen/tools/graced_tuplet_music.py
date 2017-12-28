@@ -74,24 +74,24 @@ def graced_tuplet_music():
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        %%% GlobalSkips [measure 1] %%%
-                        \time 19/56
-                        \bar ""                                                            %%! EMPTY_START_BAR
+                        % GlobalSkips [measure 1]                                          %! SM4
+                        \time 19/56                                                        %! SM1
+                        \bar ""                                                            %! EMPTY_START_BAR:SM2
                         s1 * 19/56
-                        ^ \markup {                                                        %%! STAGE_NUMBER_MARKUP
-                            \fontsize                                                      %%! STAGE_NUMBER_MARKUP
-                                #-3                                                        %%! STAGE_NUMBER_MARKUP
-                                \with-color                                                %%! STAGE_NUMBER_MARKUP
-                                    #(x11-color 'DarkCyan)                                 %%! STAGE_NUMBER_MARKUP
-                                    [1]                                                    %%! STAGE_NUMBER_MARKUP
-                            }                                                              %%! STAGE_NUMBER_MARKUP
+                        ^ \markup {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                            \fontsize                                                      %! STAGE_NUMBER_MARKUP:SM3
+                                #-3                                                        %! STAGE_NUMBER_MARKUP:SM3
+                                \with-color                                                %! STAGE_NUMBER_MARKUP:SM3
+                                    #(x11-color 'DarkCyan)                                 %! STAGE_NUMBER_MARKUP:SM3
+                                    [1]                                                    %! STAGE_NUMBER_MARKUP:SM3
+                            }                                                              %! STAGE_NUMBER_MARKUP:SM3
             <BLANKLINE>
-                        %%% GlobalSkips [measure 2] %%%
-                        \time 39/56
+                        % GlobalSkips [measure 2]                                          %! SM4
+                        \time 39/56                                                        %! SM1
                         s1 * 39/56
             <BLANKLINE>
-                        %%% GlobalSkips [measure 3] %%%
-                        \time 53/112
+                        % GlobalSkips [measure 3]                                          %! SM4
+                        \time 53/112                                                       %! SM1
                         s1 * 53/112
             <BLANKLINE>
                     }
@@ -103,7 +103,7 @@ def graced_tuplet_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                %%% MusicVoice [measure 1] %%%
+                                % MusicVoice [measure 1]                                   %! SM4
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 af'16
@@ -162,7 +162,7 @@ def graced_tuplet_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                %%% MusicVoice [measure 2] %%%
+                                % MusicVoice [measure 2]                                   %! SM4
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 cs'16
@@ -261,7 +261,7 @@ def graced_tuplet_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                %%% MusicVoice [measure 3] %%%
+                                % MusicVoice [measure 3]                                   %! SM4
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #2
                                 a'16

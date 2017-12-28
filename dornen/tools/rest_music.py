@@ -67,24 +67,24 @@ def rest_music(duration=None):
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        %%% GlobalSkips [measure 1] %%%
-                        \time 1/8
-                        \bar ""                                                            %%! EMPTY_START_BAR
+                        % GlobalSkips [measure 1]                                          %! SM4
+                        \time 1/8                                                          %! SM1
+                        \bar ""                                                            %! EMPTY_START_BAR:SM2
                         s1 * 1/8
-                        ^ \markup {                                                        %%! STAGE_NUMBER_MARKUP
-                            \fontsize                                                      %%! STAGE_NUMBER_MARKUP
-                                #-3                                                        %%! STAGE_NUMBER_MARKUP
-                                \with-color                                                %%! STAGE_NUMBER_MARKUP
-                                    #(x11-color 'DarkCyan)                                 %%! STAGE_NUMBER_MARKUP
-                                    [1]                                                    %%! STAGE_NUMBER_MARKUP
-                            }                                                              %%! STAGE_NUMBER_MARKUP
+                        ^ \markup {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                            \fontsize                                                      %! STAGE_NUMBER_MARKUP:SM3
+                                #-3                                                        %! STAGE_NUMBER_MARKUP:SM3
+                                \with-color                                                %! STAGE_NUMBER_MARKUP:SM3
+                                    #(x11-color 'DarkCyan)                                 %! STAGE_NUMBER_MARKUP:SM3
+                                    [1]                                                    %! STAGE_NUMBER_MARKUP:SM3
+                            }                                                              %! STAGE_NUMBER_MARKUP:SM3
             <BLANKLINE>
-                        %%% GlobalSkips [measure 2] %%%
-                        \time 2/8
+                        % GlobalSkips [measure 2]                                          %! SM4
+                        \time 2/8                                                          %! SM1
                         s1 * 1/4
             <BLANKLINE>
-                        %%% GlobalSkips [measure 3] %%%
-                        \time 3/8
+                        % GlobalSkips [measure 3]                                          %! SM4
+                        \time 3/8                                                          %! SM1
                         s1 * 3/8
             <BLANKLINE>
                     }
@@ -94,19 +94,19 @@ def rest_music(duration=None):
                         \context Voice = "MusicVoice" {
                             {
             <BLANKLINE>
-                                %%% MusicVoice [measure 1] %%%
+                                % MusicVoice [measure 1]                                   %! SM4
                                 r8
                             }
                             {
             <BLANKLINE>
-                                %%% MusicVoice [measure 2] %%%
+                                % MusicVoice [measure 2]                                   %! SM4
                                 r8
             <BLANKLINE>
                                 r8
                             }
                             {
             <BLANKLINE>
-                                %%% MusicVoice [measure 3] %%%
+                                % MusicVoice [measure 3]                                   %! SM4
                                 r8
             <BLANKLINE>
                                 r8
@@ -177,19 +177,19 @@ def rest_music(duration=None):
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        %%% GlobalSkips [measure 1] %%%
-                        \time 6/8
-                        \bar ""                                                            %%! EMPTY_START_BAR
+                        % GlobalSkips [measure 1]                                          %! SM4
+                        \time 6/8                                                          %! SM1
+                        \bar ""                                                            %! EMPTY_START_BAR:SM2
                         s1 * 3/4
-                        ^ \markup {                                                        %%! STAGE_NUMBER_MARKUP
-                            \fontsize                                                      %%! STAGE_NUMBER_MARKUP
-                                #-3                                                        %%! STAGE_NUMBER_MARKUP
-                                \with-color                                                %%! STAGE_NUMBER_MARKUP
-                                    #(x11-color 'DarkCyan)                                 %%! STAGE_NUMBER_MARKUP
-                                    [1]                                                    %%! STAGE_NUMBER_MARKUP
-                            }                                                              %%! STAGE_NUMBER_MARKUP
+                        ^ \markup {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                            \fontsize                                                      %! STAGE_NUMBER_MARKUP:SM3
+                                #-3                                                        %! STAGE_NUMBER_MARKUP:SM3
+                                \with-color                                                %! STAGE_NUMBER_MARKUP:SM3
+                                    #(x11-color 'DarkCyan)                                 %! STAGE_NUMBER_MARKUP:SM3
+                                    [1]                                                    %! STAGE_NUMBER_MARKUP:SM3
+                            }                                                              %! STAGE_NUMBER_MARKUP:SM3
             <BLANKLINE>
-                        %%% GlobalSkips [measure 2] %%%
+                        % GlobalSkips [measure 2]                                          %! SM4
                         s1 * 3/4
             <BLANKLINE>
                     }
@@ -199,7 +199,7 @@ def rest_music(duration=None):
                         \context Voice = "MusicVoice" {
                             {
             <BLANKLINE>
-                                %%% MusicVoice [measure 1] %%%
+                                % MusicVoice [measure 1]                                   %! SM4
                                 r8
                             }
                             {
@@ -218,7 +218,7 @@ def rest_music(duration=None):
                             }
                             {
             <BLANKLINE>
-                                %%% MusicVoice [measure 2] %%%
+                                % MusicVoice [measure 2]                                   %! SM4
                                 r8
             <BLANKLINE>
                                 r8

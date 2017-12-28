@@ -58,72 +58,72 @@ def sixty_fourth_music():
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        %%% GlobalSkips [measure 1] %%%
-                        \time 1/64
-                        \bar ""                                                            %%! EMPTY_START_BAR
+                        % GlobalSkips [measure 1]                                          %! SM4
+                        \time 1/64                                                         %! SM1
+                        \bar ""                                                            %! EMPTY_START_BAR:SM2
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %%! SEGMENT:SPACING
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %! SEGMENT:SPACING
                         s1 * 1/64
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                  %%! STAGE_NUMBER_MARKUP
-                                        {                                                  %%! STAGE_NUMBER_MARKUP
-                                            \fontsize                                      %%! STAGE_NUMBER_MARKUP
-                                                #-3                                        %%! STAGE_NUMBER_MARKUP
-                                                \with-color                                %%! STAGE_NUMBER_MARKUP
-                                                    #(x11-color 'DarkCyan)                 %%! STAGE_NUMBER_MARKUP
-                                                    [1]                                    %%! STAGE_NUMBER_MARKUP
-                                        }                                                  %%! STAGE_NUMBER_MARKUP
-                                    \line                                                  %%! SEGMENT:SPACING_MARKUP
-                                        {                                                  %%! SEGMENT:SPACING_MARKUP
-                                            \with-color                                    %%! SEGMENT:SPACING_MARKUP
-                                                #(x11-color 'DarkCyan)                     %%! SEGMENT:SPACING_MARKUP
-                                                \fontsize                                  %%! SEGMENT:SPACING_MARKUP
-                                                    #-3                                    %%! SEGMENT:SPACING_MARKUP
-                                                    (1/64)                                 %%! SEGMENT:SPACING_MARKUP
-                                        }                                                  %%! SEGMENT:SPACING_MARKUP
+                                    \line                                                  %! STAGE_NUMBER_MARKUP:SM3
+                                        {                                                  %! STAGE_NUMBER_MARKUP:SM3
+                                            \fontsize                                      %! STAGE_NUMBER_MARKUP:SM3
+                                                #-3                                        %! STAGE_NUMBER_MARKUP:SM3
+                                                \with-color                                %! STAGE_NUMBER_MARKUP:SM3
+                                                    #(x11-color 'DarkCyan)                 %! STAGE_NUMBER_MARKUP:SM3
+                                                    [1]                                    %! STAGE_NUMBER_MARKUP:SM3
+                                        }                                                  %! STAGE_NUMBER_MARKUP:SM3
+                                    \line                                                  %! SEGMENT:SPACING_MARKUP
+                                        {                                                  %! SEGMENT:SPACING_MARKUP
+                                            \with-color                                    %! SEGMENT:SPACING_MARKUP
+                                                #(x11-color 'DarkCyan)                     %! SEGMENT:SPACING_MARKUP
+                                                \fontsize                                  %! SEGMENT:SPACING_MARKUP
+                                                    #-3                                    %! SEGMENT:SPACING_MARKUP
+                                                    (1/64)                                 %! SEGMENT:SPACING_MARKUP
+                                        }                                                  %! SEGMENT:SPACING_MARKUP
                                 }
                             }
             <BLANKLINE>
-                        %%% GlobalSkips [measure 2] %%%
-                        \time 7/64
+                        % GlobalSkips [measure 2]                                          %! SM4
+                        \time 7/64                                                         %! SM1
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %%! SEGMENT:SPACING
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %! SEGMENT:SPACING
                         s1 * 7/64
-                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
-                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
-                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
-                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
-                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
-                                    (1/64)                                                 %%! SEGMENT:SPACING_MARKUP
-                            }                                                              %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %! SEGMENT:SPACING_MARKUP
+                                    (1/64)                                                 %! SEGMENT:SPACING_MARKUP
+                            }                                                              %! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
-                        %%% GlobalSkips [measure 3] %%%
-                        \time 1/64
+                        % GlobalSkips [measure 3]                                          %! SM4
+                        \time 1/64                                                         %! SM1
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %%! SEGMENT:SPACING
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %! SEGMENT:SPACING
                         s1 * 1/64
-                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
-                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
-                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
-                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
-                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
-                                    (1/64)                                                 %%! SEGMENT:SPACING_MARKUP
-                            }                                                              %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %! SEGMENT:SPACING_MARKUP
+                                    (1/64)                                                 %! SEGMENT:SPACING_MARKUP
+                            }                                                              %! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
-                        %%% GlobalSkips [measure 4] %%%
-                        \time 6/64
+                        % GlobalSkips [measure 4]                                          %! SM4
+                        \time 6/64                                                         %! SM1
                         \newSpacingSection
-                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %%! SEGMENT:SPACING
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %! SEGMENT:SPACING
                         s1 * 3/32
-                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
-                            \with-color                                                    %%! SEGMENT:SPACING_MARKUP
-                                #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
-                                \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
-                                    #-3                                                    %%! SEGMENT:SPACING_MARKUP
-                                    (1/64)                                                 %%! SEGMENT:SPACING_MARKUP
-                            }                                                              %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %! SEGMENT:SPACING_MARKUP
+                            \with-color                                                    %! SEGMENT:SPACING_MARKUP
+                                #(x11-color 'DarkCyan)                                     %! SEGMENT:SPACING_MARKUP
+                                \fontsize                                                  %! SEGMENT:SPACING_MARKUP
+                                    #-3                                                    %! SEGMENT:SPACING_MARKUP
+                                    (1/64)                                                 %! SEGMENT:SPACING_MARKUP
+                            }                                                              %! SEGMENT:SPACING_MARKUP
             <BLANKLINE>
                     }
                 >>
@@ -132,13 +132,13 @@ def sixty_fourth_music():
                         \context Voice = "MusicVoice" {
                             {
             <BLANKLINE>
-                                %%% MusicVoice [measure 1] %%%
+                                % MusicVoice [measure 1]                                   %! SM4
                                 e'64
                                 -\staccato
                             }
                             {
             <BLANKLINE>
-                                %%% MusicVoice [measure 2] %%%
+                                % MusicVoice [measure 2]                                   %! SM4
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #4
                                 fs'64
@@ -178,13 +178,13 @@ def sixty_fourth_music():
                             }
                             {
             <BLANKLINE>
-                                %%% MusicVoice [measure 3] %%%
+                                % MusicVoice [measure 3]                                   %! SM4
                                 b'64
                                 -\staccato
                             }
                             {
             <BLANKLINE>
-                                %%% MusicVoice [measure 4] %%%
+                                % MusicVoice [measure 4]                                   %! SM4
                                 \set stemLeftBeamCount = #0
                                 \set stemRightBeamCount = #4
                                 bf'64

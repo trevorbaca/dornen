@@ -71,7 +71,7 @@ def wave_music(denominator=64, inverted=False):
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %%! SEGMENT:SPACING
                         s1 * 7/64
-                        - \markup {
+                        ^ \markup {
                             \column
                                 {
                                     \line                                                  %%! STAGE_NUMBER_MARKUP
@@ -98,7 +98,7 @@ def wave_music(denominator=64, inverted=False):
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %%! SEGMENT:SPACING
                         s1 * 13/64
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -111,7 +111,7 @@ def wave_music(denominator=64, inverted=False):
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %%! SEGMENT:SPACING
                         s1 * 5/16
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -495,7 +495,7 @@ def wave_music(denominator=64, inverted=False):
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %%! SEGMENT:SPACING
                         s1 * 7/64
-                        - \markup {
+                        ^ \markup {
                             \column
                                 {
                                     \line                                                  %%! STAGE_NUMBER_MARKUP
@@ -522,7 +522,7 @@ def wave_music(denominator=64, inverted=False):
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %%! SEGMENT:SPACING
                         s1 * 13/64
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -535,7 +535,7 @@ def wave_music(denominator=64, inverted=False):
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)   %%! SEGMENT:SPACING
                         s1 * 5/16
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -919,7 +919,7 @@ def wave_music(denominator=64, inverted=False):
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %%! SEGMENT:SPACING
                         s1 * 7/32
-                        - \markup {
+                        ^ \markup {
                             \column
                                 {
                                     \line                                                  %%! STAGE_NUMBER_MARKUP
@@ -946,7 +946,7 @@ def wave_music(denominator=64, inverted=False):
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %%! SEGMENT:SPACING
                         s1 * 13/32
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -959,7 +959,7 @@ def wave_music(denominator=64, inverted=False):
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %%! SEGMENT:SPACING
                         s1 * 5/8
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP

@@ -85,7 +85,7 @@ def monad_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %%! SEGMENT:SPACING
                         s1 * 14/5
-                        - \markup {
+                        ^ \markup {
                             \column
                                 {
                                     \line                                                  %%! STAGE_NUMBER_MARKUP
@@ -112,7 +112,7 @@ def monad_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %%! SEGMENT:SPACING
                         s1 * 4/5
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -125,7 +125,7 @@ def monad_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %%! SEGMENT:SPACING
                         s1 * 6/5
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -138,7 +138,7 @@ def monad_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %%! SEGMENT:SPACING
                         s1 * 8/5
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -319,7 +319,7 @@ def monad_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %%! SEGMENT:SPACING
                         s1 * 14/5
-                        - \markup {
+                        ^ \markup {
                             \column
                                 {
                                     \line                                                  %%! STAGE_NUMBER_MARKUP
@@ -346,7 +346,7 @@ def monad_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %%! SEGMENT:SPACING
                         s1 * 2/5
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -359,7 +359,7 @@ def monad_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %%! SEGMENT:SPACING
                         s1 * 6/5
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP
@@ -372,7 +372,7 @@ def monad_music():
                         \newSpacingSection
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %%! SEGMENT:SPACING
                         s1 * 8/5
-                        - \markup {                                                        %%! SEGMENT:SPACING_MARKUP
+                        ^ \markup {                                                        %%! SEGMENT:SPACING_MARKUP
                             \with-color                                                    %%! SEGMENT:SPACING_MARKUP
                                 #(x11-color 'DarkCyan)                                     %%! SEGMENT:SPACING_MARKUP
                                 \fontsize                                                  %%! SEGMENT:SPACING_MARKUP

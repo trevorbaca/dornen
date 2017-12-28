@@ -71,7 +71,7 @@ def rest_music(duration=None):
                         \time 1/8
                         \bar ""                                                            %%! EMPTY_START_BAR
                         s1 * 1/8
-                        - \markup {                                                        %%! STAGE_NUMBER_MARKUP
+                        ^ \markup {                                                        %%! STAGE_NUMBER_MARKUP
                             \fontsize                                                      %%! STAGE_NUMBER_MARKUP
                                 #-3                                                        %%! STAGE_NUMBER_MARKUP
                                 \with-color                                                %%! STAGE_NUMBER_MARKUP
@@ -181,7 +181,7 @@ def rest_music(duration=None):
                         \time 6/8
                         \bar ""                                                            %%! EMPTY_START_BAR
                         s1 * 3/4
-                        - \markup {                                                        %%! STAGE_NUMBER_MARKUP
+                        ^ \markup {                                                        %%! STAGE_NUMBER_MARKUP
                             \fontsize                                                      %%! STAGE_NUMBER_MARKUP
                                 #-3                                                        %%! STAGE_NUMBER_MARKUP
                                 \with-color                                                %%! STAGE_NUMBER_MARKUP

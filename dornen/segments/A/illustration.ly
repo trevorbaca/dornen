@@ -587,7 +587,7 @@
                         \times 1/1 {
                             
                             % GuitarMusicVoiceI [measure 20]                             %! SM4
-                            \override Beam.positions = #'(8 . 8)
+                            \override Beam.positions = #'(8 . 8)                         %! OC
                             \once \override Beam.grow-direction = #left
                             \set GuitarMusicStaff.instrumentName = \markup {             %! REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
@@ -807,7 +807,7 @@
                             
                             f'64 * 704/1024
                             ]
-                            \revert Beam.positions
+                            \revert Beam.positions                                       %! OC
                         }
                         \revert TupletNumber.text
                     }
@@ -1367,11 +1367,11 @@
                         {
                             
                             % GuitarMusicVoiceI [measure 32]                             %! SM4
-                            \override TextScript.staff-padding = #9
+                            \override TextScript.staff-padding = #9                      %! OC
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             f'''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1394,108 +1394,108 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             a''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             b''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             bf''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             c'''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             fs''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             g''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             af''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             d''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             cs''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             ef''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             g'32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             af'32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             d''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             cs''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             ef'32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             fs'32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             a'32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             b32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             bf32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             c'32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             f'32
-                            -\staccato                                                   %! IC1
-                            \revert TextScript.staff-padding
+                            -\staccato                                                   %! IC
+                            \revert TextScript.staff-padding                             %! OC
                         }
                     }
                     
@@ -1508,7 +1508,7 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             f32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1530,107 +1530,107 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             a32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             b32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             bf32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             c'32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             fs'32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             g'32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             af'32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             d'32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             cs''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             ef''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             g'32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             af'32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             d''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             cs''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             ef''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             fs''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             a''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             b''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             bf''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #3
                             c'''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             f''32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                             
                         }
@@ -1645,7 +1645,7 @@
                         \times 4/5 {
                             
                             % GuitarMusicVoiceII [measure 21]                            %! SM4
-                            \once \override Beam.positions = #'(-8 . -8)
+                            \once \override Beam.positions = #'(-8 . -8)                 %! OC
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)

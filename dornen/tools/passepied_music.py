@@ -79,8 +79,9 @@ def passepied_music():
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         % GlobalSkips [measure 1]                                          %! SM4
-                        \time 1/32                                                         %! SM1
+                        \time 1/32                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \bar ""                                                            %! EMPTY_START_BAR:SM2
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/32
                         ^ \markup {                                                        %! STAGE_NUMBER_MARKUP:SM3
                             \fontsize                                                      %! STAGE_NUMBER_MARKUP:SM3
@@ -91,15 +92,19 @@ def passepied_music():
                             }                                                              %! STAGE_NUMBER_MARKUP:SM3
             <BLANKLINE>
                         % GlobalSkips [measure 2]                                          %! SM4
+                        \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/32
             <BLANKLINE>
                         % GlobalSkips [measure 3]                                          %! SM4
+                        \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/32
             <BLANKLINE>
                         % GlobalSkips [measure 4]                                          %! SM4
+                        \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/32
             <BLANKLINE>
                         % GlobalSkips [measure 5]                                          %! SM4
+                        \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/32
                         \override Score.BarLine.transparent = ##f                          %! SM5
                         \bar "|"                                                           %! SM5
@@ -245,8 +250,9 @@ def passepied_music():
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         % GlobalSkips [measure 1]                                          %! SM4
-                        \time 17/32                                                        %! SM1
+                        \time 17/32                                                        %! EXPLICIT_TIME_SIGNATURE:SM8
                         \bar ""                                                            %! EMPTY_START_BAR:SM2
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 17/32
                         ^ \markup {                                                        %! STAGE_NUMBER_MARKUP:SM3
                             \fontsize                                                      %! STAGE_NUMBER_MARKUP:SM3
@@ -257,13 +263,16 @@ def passepied_music():
                             }                                                              %! STAGE_NUMBER_MARKUP:SM3
             <BLANKLINE>
                         % GlobalSkips [measure 2]                                          %! SM4
+                        \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 17/32
             <BLANKLINE>
                         % GlobalSkips [measure 3]                                          %! SM4
+                        \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 17/32
             <BLANKLINE>
                         % GlobalSkips [measure 4]                                          %! SM4
-                        \time 11/32                                                        %! SM1
+                        \time 11/32                                                        %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 11/32
                         \override Score.BarLine.transparent = ##f                          %! SM5
                         \bar "|"                                                           %! SM5

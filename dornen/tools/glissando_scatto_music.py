@@ -59,8 +59,9 @@ def glissando_scatto_music():
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         % GlobalSkips [measure 1]                                          %! SM4
-                        \time 1/16                                                         %! SM1
+                        \time 1/16                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \bar ""                                                            %! EMPTY_START_BAR:SM2
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %! SEGMENT:SPACING:HSS1
                         s1 * 1/16
@@ -87,7 +88,8 @@ def glissando_scatto_music():
                             }
             <BLANKLINE>
                         % GlobalSkips [measure 2]                                          %! SM4
-                        \time 11/32                                                        %! SM1
+                        \time 11/32                                                        %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 11 416) %! SEGMENT:SPACING:HSS1
                         s1 * 11/32
@@ -100,7 +102,8 @@ def glissando_scatto_music():
                             }                                                              %! SEGMENT:SPACING_MARKUP:HSS2
             <BLANKLINE>
                         % GlobalSkips [measure 3]                                          %! SM4
-                        \time 1/16                                                         %! SM1
+                        \time 1/16                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %! SEGMENT:SPACING:HSS1
                         s1 * 1/16
@@ -113,7 +116,8 @@ def glissando_scatto_music():
                             }                                                              %! SEGMENT:SPACING_MARKUP:HSS2
             <BLANKLINE>
                         % GlobalSkips [measure 4]                                          %! SM4
-                        \time 9/32                                                         %! SM1
+                        \time 9/32                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 9 352)  %! SEGMENT:SPACING:HSS1
                         s1 * 9/32
@@ -286,8 +290,9 @@ def glissando_scatto_music():
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         % GlobalSkips [measure 1]                                          %! SM4
-                        \time 15/32                                                        %! SM1
+                        \time 15/32                                                        %! EXPLICIT_TIME_SIGNATURE:SM8
                         \bar ""                                                            %! EMPTY_START_BAR:SM2
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 11 416) %! SEGMENT:SPACING:HSS1
                         s1 * 15/32
@@ -314,7 +319,8 @@ def glissando_scatto_music():
                             }
             <BLANKLINE>
                         % GlobalSkips [measure 2]                                          %! SM4
-                        \time 11/16                                                        %! SM1
+                        \time 11/16                                                        %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 9 352)  %! SEGMENT:SPACING:HSS1
                         s1 * 11/16
@@ -327,7 +333,8 @@ def glissando_scatto_music():
                             }                                                              %! SEGMENT:SPACING_MARKUP:HSS2
             <BLANKLINE>
                         % GlobalSkips [measure 3]                                          %! SM4
-                        \time 13/32                                                        %! SM1
+                        \time 13/32                                                        %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 9 352)  %! SEGMENT:SPACING:HSS1
                         s1 * 13/32

@@ -145,35 +145,35 @@ def running_music():
                             \times 6/7 {
             <BLANKLINE>
                                 % MusicVoice [measure 2]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 4
                                 fs'64
                                 [
                                 (
                                 (
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 d'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 ef'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 f'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 a'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 af'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 0
                                 c'64
                                 ]
                                 )
@@ -188,31 +188,31 @@ def running_music():
                             \times 5/6 {
             <BLANKLINE>
                                 % MusicVoice [measure 4]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 4
                                 bf'64
                                 [
                                 (
                                 (
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 g'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 a'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 af'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 c'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 0
                                 f'64
                                 ]
                                 )
@@ -353,8 +353,8 @@ def running_music():
                             {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 4
                                 e'64
                                 [
                                 (
@@ -362,42 +362,42 @@ def running_music():
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 4
                                 fs'64
                                 )
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 d'64
                                 (
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 ef'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 f'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 a'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 af'64
                                 )
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 1
                                 c'64
                                 (
                             }
                             {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 0
                                 b'64
                                 ]
                                 )
@@ -406,40 +406,40 @@ def running_music():
                             \times 6/7 {
             <BLANKLINE>
                                 % MusicVoice [measure 2]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 4
                                 fs'64
                                 [
                                 (
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 d'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 ef'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 f'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 a'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 af'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 1
                                 c'64
                             }
                             {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 1
                                 b'64
                                 )
                                 (
@@ -447,28 +447,28 @@ def running_music():
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 5/6 {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 4
                                 bf'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 g'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 a'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 af'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 c'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 0
                                 f'64
                                 ]
                                 )
@@ -476,8 +476,8 @@ def running_music():
                             {
             <BLANKLINE>
                                 % MusicVoice [measure 3]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 4
                                 b'64
                                 [
                                 (
@@ -485,38 +485,38 @@ def running_music():
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 5/6 {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 4
                                 bf'64
                                 )
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 g'64
                                 (
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 a'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 af'64
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #4
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 4
                                 c'64
                                 )
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 1
                                 f'64
                                 (
                             }
                             {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #4
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 4
+                                \set stemRightBeamCount = 0
                                 e'64
                                 ]
                                 )

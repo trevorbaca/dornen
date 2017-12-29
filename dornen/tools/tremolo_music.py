@@ -147,50 +147,50 @@ def tremolo_music():
                             \times 8/11 {
             <BLANKLINE>
                                 % MusicVoice [measure 2]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 [
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 0
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
@@ -208,43 +208,43 @@ def tremolo_music():
                             \times 8/11 {
             <BLANKLINE>
                                 % MusicVoice [measure 4]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 [
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 0
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
@@ -388,8 +388,8 @@ def tremolo_music():
                             \times 8/11 {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 1
                                 e'8
                                 :32                                                        %! IC
                                 [
@@ -397,50 +397,50 @@ def tremolo_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
@@ -449,8 +449,8 @@ def tremolo_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 0
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
@@ -461,60 +461,50 @@ def tremolo_music():
                             \times 8/11 {
             <BLANKLINE>
                                 % MusicVoice [measure 2]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 [
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
-                                e'8
-                                :32                                                        %! IC
-                                \repeatTie
-                            }
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 8/11 {
-            <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
@@ -523,43 +513,53 @@ def tremolo_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
+                                e'8
+                                :32                                                        %! IC
+                                \repeatTie
+                            }
+                            \tweak edge-height #'(0.7 . 0)
+                            \times 8/11 {
+            <BLANKLINE>
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 0
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
@@ -570,8 +570,8 @@ def tremolo_music():
                             \times 8/11 {
             <BLANKLINE>
                                 % MusicVoice [measure 3]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
@@ -580,43 +580,43 @@ def tremolo_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
                                 \repeatTie
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC
@@ -625,8 +625,8 @@ def tremolo_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 0
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM26
                                 e'8
                                 :32                                                        %! IC

@@ -119,15 +119,15 @@ def ovoid_music():
                             {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 1
                                 af'8.
                                 [
                             }
                             {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 cs'8.
             <BLANKLINE>
                                 \acciaccatura {
@@ -137,16 +137,16 @@ def ovoid_music():
                                     bf'16 ]
             <BLANKLINE>
                                 }
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 0
                                 f'32
                                 ]
                             }
                             {
             <BLANKLINE>
                                 % MusicVoice [measure 2]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 1
                                 cs'8.
                                 [
             <BLANKLINE>
@@ -157,14 +157,14 @@ def ovoid_music():
                                     bf'16 ]
             <BLANKLINE>
                                 }
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 1
                                 f'32
                             }
                             {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 af'8.
             <BLANKLINE>
                                 \acciaccatura {
@@ -174,16 +174,16 @@ def ovoid_music():
                                     b'16 ]
             <BLANKLINE>
                                 }
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 0
                                 d'32
                                 ]
                             }
                             {
             <BLANKLINE>
                                 % MusicVoice [measure 3]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 1
                                 af'8.
                                 [
             <BLANKLINE>
@@ -194,14 +194,14 @@ def ovoid_music():
                                     b'16 ]
             <BLANKLINE>
                                 }
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 1
                                 d'32
                             }
                             {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 e'8.
             <BLANKLINE>
                                 \acciaccatura {
@@ -211,16 +211,16 @@ def ovoid_music():
                                     a'16 ]
             <BLANKLINE>
                                 }
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 0
                                 af'32
                                 ]
                             }
                             {
             <BLANKLINE>
                                 % MusicVoice [measure 4]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 1
                                 e'8.
                                 [
             <BLANKLINE>
@@ -231,14 +231,14 @@ def ovoid_music():
                                     a'16 ]
             <BLANKLINE>
                                 }
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 1
                                 af'32
                             }
                             {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 1
                                 fs'8.
             <BLANKLINE>
                                 \acciaccatura {
@@ -248,16 +248,16 @@ def ovoid_music():
                                     d'16 ]
             <BLANKLINE>
                                 }
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 0
                                 f'32
                                 ]
                             }
                             {
             <BLANKLINE>
                                 % MusicVoice [measure 5]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 1
                                 fs'8.
                                 [
             <BLANKLINE>
@@ -268,14 +268,14 @@ def ovoid_music():
                                     d'16 ]
             <BLANKLINE>
                                 }
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 1
                                 f'32
                             }
                             {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 0
                                 af'8.
                                 ]
             <BLANKLINE>

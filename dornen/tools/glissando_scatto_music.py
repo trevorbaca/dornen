@@ -145,39 +145,39 @@ def glissando_scatto_music():
                             \times 11/13 {
             <BLANKLINE>
                                 % MusicVoice [measure 2]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 2
                                 fs'16
                                 [
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 d'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 ef'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 2
                                 f'32
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 a'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 af'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 0
                                 c'16
                                 ]
                             }
@@ -190,34 +190,34 @@ def glissando_scatto_music():
                             \times 9/11 {
             <BLANKLINE>
                                 % MusicVoice [measure 4]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 2
                                 bf'16
                                 [
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 g'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 a'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 2
                                 af'32
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 c'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 0
                                 f'16
                                 ]
             <BLANKLINE>
@@ -356,8 +356,8 @@ def glissando_scatto_music():
                             {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 2
                                 e'16
                                 [
                                 \glissando
@@ -365,45 +365,45 @@ def glissando_scatto_music():
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 11/13 {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 2
                                 fs'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 d'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 ef'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 2
                                 f'32
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 a'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 af'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 1
                                 c'16
                                 \glissando
                             }
                             {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 0
                                 b'16
                                 ]
                             }
@@ -411,87 +411,87 @@ def glissando_scatto_music():
                             \times 11/13 {
             <BLANKLINE>
                                 % MusicVoice [measure 2]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 2
                                 fs'16
                                 [
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 d'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 ef'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 2
                                 f'32
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 a'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 af'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 1
                                 c'16
                                 \glissando
                             }
                             {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 1
                                 b'16
                                 \glissando
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 9/11 {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 2
                                 bf'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 g'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 a'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 2
                                 af'32
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 c'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 0
                                 f'16
                                 ]
                             }
                             {
             <BLANKLINE>
                                 % MusicVoice [measure 3]                                   %! SM4
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 2
                                 b'16
                                 [
                                 \glissando
@@ -499,40 +499,40 @@ def glissando_scatto_music():
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 9/11 {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #1
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 1
+                                \set stemRightBeamCount = 2
                                 bf'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 g'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 a'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 2
                                 af'32
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 2
                                 c'16
                                 \glissando
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #1
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 1
                                 f'16
                                 \glissando
                             }
                             {
             <BLANKLINE>
-                                \set stemLeftBeamCount = #2
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 0
                                 e'16
                                 ]
             <BLANKLINE>

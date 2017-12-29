@@ -812,8 +812,8 @@
                             
                             % GuitarMusicVoiceI [measure 133]                            %! SM4
                             \override Beam.positions = #'(8 . 8)                         %! OC
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 2
                             \set GuitarMusicStaff.instrumentName = \markup {             %! REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
                                     #16                                                  %! REAPPLIED_INSTRUMENT:SM8
@@ -900,12 +900,12 @@
                                 }                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                             \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
                             cs''16
                             
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
                             g''16
                             )
                         }
@@ -918,8 +918,8 @@
                         \times 4/5 {
                             
                             % GuitarMusicVoiceI [measure 137]                            %! SM4
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 2
                             cs'16
                             (
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -945,12 +945,12 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
                             e'16
                             
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
                             bf'16
                             )
                         }
@@ -963,8 +963,8 @@
                         \times 4/5 {
                             
                             % GuitarMusicVoiceI [measure 141]                            %! SM4
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 2
                             af'16
                             (
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -990,12 +990,12 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
                             b'16
                             
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 0
                             fs''16
                             ]
                             )
@@ -1008,8 +1008,8 @@
                         {
                             
                             % GuitarMusicVoiceI [measure 144]                            %! SM4
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 3
                             e'32
                             [
                             (
@@ -1036,16 +1036,16 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             a'32
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             g'32
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 1
                             bf'32
                             )
                         }
@@ -1057,8 +1057,8 @@
                         {
                             
                             % GuitarMusicVoiceI [measure 148]                            %! SM4
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 3
                             af'32
                             (
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1084,16 +1084,16 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             f'32
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             d''32
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 1
                             b'32
                             )
                         }
@@ -1105,8 +1105,8 @@
                         {
                             
                             % GuitarMusicVoiceI [measure 150]                            %! SM4
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 3
                             cs'32
                             (
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1132,16 +1132,16 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             e'32
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             a'32
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 1
                             g''32
                             )
                         }
@@ -1153,8 +1153,8 @@
                         {
                             
                             % GuitarMusicVoiceI [measure 154]                            %! SM4
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 3
                             g'32
                             (
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1180,16 +1180,16 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             bf'32
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             ef''32
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 0
                             e''32
                             ]
                             )
@@ -1209,8 +1209,8 @@
                             
                             % GuitarMusicVoiceII [measure 134]                           %! SM4
                             \once \override TextScript.direction = #down                 %! OC
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 2
                             ef'16
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1249,8 +1249,8 @@
                         {
                             
                             % GuitarMusicVoiceII [measure 136]                           %! SM4
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
                             a16
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1283,8 +1283,8 @@
                         {
                             
                             % GuitarMusicVoiceII [measure 138]                           %! SM4
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
                             b16
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1317,8 +1317,8 @@
                         {
                             
                             % GuitarMusicVoiceII [measure 140]                           %! SM4
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
                             e'16
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1351,8 +1351,8 @@
                         {
                             
                             % GuitarMusicVoiceII [measure 142]                           %! SM4
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 0
                             bf16
                             ]
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1386,8 +1386,8 @@
                             
                             % GuitarMusicVoiceII [measure 143]                           %! SM4
                             \override Beam.positions = #'(-7 . -7)                       %! OC
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 2
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                             ef'16
                             [
@@ -1423,8 +1423,8 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceII [measure 145]                           %! SM4
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
                             d'16
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1458,8 +1458,8 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceII [measure 147]                           %! SM4
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
                             c'16
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1493,8 +1493,8 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceII [measure 149]                           %! SM4
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
                             c'16
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1528,8 +1528,8 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceII [measure 151]                           %! SM4
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
                             bf16
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1563,8 +1563,8 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceII [measure 153]                           %! SM4
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 0
                             a16
                             ]
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP

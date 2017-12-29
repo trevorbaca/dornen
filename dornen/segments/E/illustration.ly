@@ -542,8 +542,8 @@
                             
                             % GuitarMusicVoiceI [measure 120]                            %! SM4
                             \override Beam.positions = #'(10 . 10)                       %! OC
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 3
                             \set GuitarMusicStaff.instrumentName = \markup {             %! REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
                                     #16                                                  %! REAPPLIED_INSTRUMENT:SM8
@@ -630,8 +630,8 @@
                                 }                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                             \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 1
                             c'32.
                             -\tenuto                                                     %! IC
                             \revert Beam.positions                                       %! OC
@@ -645,8 +645,8 @@
                         \times 5/6 {
                             
                             % GuitarMusicVoiceI [measure 122]                            %! SM4
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             a'64
                             (
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -667,69 +667,69 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             b64
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             c'64
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f'64
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             a'64
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             b'64
                         }
                         \times 4/5 {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             bf'64
                             )
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             cs''64
                             (
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             ef''64
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fs''64
                             )
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             g''64
                             (
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             af''64
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             d''64
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             ef''64
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             fs''64
                             )
                         }
@@ -741,8 +741,8 @@
                         {
                             
                             % GuitarMusicVoiceI [measure 124]                            %! SM4
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 3
                             cs'32.
                             -\tenuto                                                     %! IC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -768,8 +768,8 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 0
                             f'32.
                             -\tenuto                                                     %! IC
                             ]
@@ -822,8 +822,8 @@
                         {
                             
                             % GuitarMusicVoiceI [measure 128]                            %! SM4
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             [
@@ -845,166 +845,166 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             f''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             f''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             f''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             f''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             f''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             f''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             f''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             f''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             f''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 0
                             f''64
                             -\staccato                                                   %! IC
                             ]
@@ -1014,8 +1014,8 @@
                         {
                             
                             % GuitarMusicVoiceI [measure 129]                            %! SM4
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             [
@@ -1037,216 +1037,216 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             fqs''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             fqs''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             fqs''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             fqs''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             fqs''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             fqs''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             fqs''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             fqs''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             fqs''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 0
                             fqs''64
                             -\staccato                                                   %! IC
                             ]
@@ -1256,8 +1256,8 @@
                         {
                             
                             % GuitarMusicVoiceI [measure 130]                            %! SM4
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             [
@@ -1279,266 +1279,266 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             gqf''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             gqf''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             gqf''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             gqf''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             gqf''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             gqf''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             gqf''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             gqf''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             gqf''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 0
                             gqf''64
                             -\staccato                                                   %! IC
                             ]
@@ -1548,8 +1548,8 @@
                         {
                             
                             % GuitarMusicVoiceI [measure 131]                            %! SM4
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             [
@@ -1571,316 +1571,316 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             a''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             a''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             a''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             a''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             a''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             a''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             a''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             a''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             a''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 0
                             a''64
                             -\staccato                                                   %! IC
                             ]
@@ -1890,8 +1890,8 @@
                         {
                             
                             % GuitarMusicVoiceI [measure 132]                            %! SM4
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 4
                             fs''64
                             -\staccato                                                   %! IC
                             [
@@ -1913,629 +1913,629 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             a''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             g''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             af''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             dqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             eqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             b''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             d''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             ef''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             g''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             af''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             eqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             b''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             d''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             ef''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             dqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             a''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             fs''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             a''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             dqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             ef''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             d''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             b''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             eqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             af''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             g''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             ef''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             d''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             b''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             eqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             dqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             af''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             g''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             a''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             fs''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             a''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             g''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             af''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             dqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             eqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             b''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             d''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             ef''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             g''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             af''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             eqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             b''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             d''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             ef''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             dqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             a''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 1
                             fs''64
                             -\staccato                                                   %! IC
                         }
                         {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 4
                             a''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             dqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             ef''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             d''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             b''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             eqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             af''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             g''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             ef''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             d''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             b''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             eqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             dqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             af''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             g''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             bf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             a''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             gqf''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             fqs''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             f''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #4
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 4
                             e''64
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #4
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 4
+                            \set stemRightBeamCount = 0
                             fs''64
                             -\staccato                                                   %! IC
                             ]
@@ -2594,8 +2594,8 @@
                         {
                             
                             % GuitarMusicVoiceIII [measure 121]                          %! SM4
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 2
                             f16
                             -\accent                                                     %! IC
                             [
@@ -2630,8 +2630,8 @@
                         {
                             
                             % GuitarMusicVoiceIII [measure 125]                          %! SM4
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 0
                             a16
                             -\accent                                                     %! IC
                             ]

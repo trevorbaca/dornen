@@ -1579,8 +1579,8 @@
                             % GuitarMusicVoiceI [measure 43]                             %! SM4
                             \override Beam.positions = #'(-6.5 . -6.5)                   %! OC
                             \override Stem.direction = #down                             %! OC
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 3
                             b'32
                             -\staccato                                                   %! IC
                             [
@@ -1607,18 +1607,18 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             af'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             c'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 1
                             e'32
                             -\staccato                                                   %! IC
                             \revert Beam.positions                                       %! OC
@@ -1634,8 +1634,8 @@
                             % GuitarMusicVoiceI [measure 45]                             %! SM4
                             \override Beam.positions = #'(-6.5 . -6.5)                   %! OC
                             \override Stem.direction = #down                             %! OC
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 3
                             b''32
                             -\staccato                                                   %! IC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1661,13 +1661,13 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             af''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 1
                             c''32
                             -\staccato                                                   %! IC
                             \revert Beam.positions                                       %! OC
@@ -1683,8 +1683,8 @@
                             % GuitarMusicVoiceI [measure 47]                             %! SM4
                             \override Beam.positions = #'(-6.5 . -6.5)                   %! OC
                             \override Stem.direction = #down                             %! OC
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 3
                             b''32
                             -\staccato                                                   %! IC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1710,48 +1710,48 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             af'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             c'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             e'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             f'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             g''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             ef''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             g''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             f''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 0
                             e'32
                             -\staccato                                                   %! IC
                             ]
@@ -1855,8 +1855,8 @@
                             % GuitarMusicVoiceI [measure 51]                             %! SM4
                             \override Beam.positions = #'(-6.5 . -6.5)                   %! OC
                             \override Stem.direction = #down                             %! OC
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 3
                             b''32
                             -\staccato                                                   %! IC
                             [
@@ -1883,73 +1883,73 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             af''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             c'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             e'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             f'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             g'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             ef''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             g''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             f''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             e''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             c'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             af'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             b'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             af'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 1
                             c''32
                             -\staccato                                                   %! IC
                             \revert Beam.positions                                       %! OC
@@ -1965,8 +1965,8 @@
                             % GuitarMusicVoiceI [measure 53]                             %! SM4
                             \override Beam.positions = #'(-6.5 . -6.5)                   %! OC
                             \override Stem.direction = #down                             %! OC
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 3
                             b''32
                             -\staccato                                                   %! IC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1992,28 +1992,28 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             af''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             c''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             e'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             f'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 0
                             g'32
                             -\staccato                                                   %! IC
                             ]
@@ -2030,8 +2030,8 @@
                             % GuitarMusicVoiceI [measure 57]                             %! SM4
                             \override Beam.positions = #'(-6.5 . -6.5)                   %! OC
                             \override Stem.direction = #down                             %! OC
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 3
                             b'32
                             -\staccato                                                   %! IC
                             [
@@ -2058,48 +2058,48 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             af''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             c''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             e''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             f''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             g'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             ef'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             g'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             f'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 0
                             e''32
                             -\staccato                                                   %! IC
                             ]
@@ -2115,8 +2115,8 @@
                                 \override Beam.positions = #'(-6.5 . -6.5)               %! OC
                                 \override Stem.direction = #down                         %! OC
                                 \override TupletBracket.direction = #up                  %! OC
-                                \set stemLeftBeamCount = #0
-                                \set stemRightBeamCount = #3
+                                \set stemLeftBeamCount = 0
+                                \set stemRightBeamCount = 3
                                 c''32
                                 -\staccato                                               %! IC
                                 [
@@ -2143,73 +2143,73 @@
                                 %%%             }                                        %! FIGURE_NAME_MARKUP
                                 %%%     }                                                %! FIGURE_NAME_MARKUP
                                 
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #3
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 3
                                 af''32
                                 -\staccato                                               %! IC
                                 
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #3
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 3
                                 b''32
                                 -\staccato                                               %! IC
                                 
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #3
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 3
                                 af'32
                                 -\staccato                                               %! IC
                                 
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #3
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 3
                                 c'32
                                 -\staccato                                               %! IC
                                 
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #3
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 3
                                 e'32
                                 -\staccato                                               %! IC
                                 
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #3
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 3
                                 f'32
                                 -\staccato                                               %! IC
                                 
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #3
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 3
                                 g''32
                                 -\staccato                                               %! IC
                                 
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #3
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 3
                                 ef''32
                                 -\staccato                                               %! IC
                                 
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #3
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 3
                                 g''32
                                 -\staccato                                               %! IC
                                 
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #3
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 3
                                 f''32
                                 -\staccato                                               %! IC
                                 
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #3
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 3
                                 e'32
                                 -\staccato                                               %! IC
                                 
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #3
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 3
                                 c'32
                                 -\staccato                                               %! IC
                                 
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #3
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 3
                                 af'32
                                 -\staccato                                               %! IC
                                 
-                                \set stemLeftBeamCount = #3
-                                \set stemRightBeamCount = #0
+                                \set stemLeftBeamCount = 3
+                                \set stemRightBeamCount = 0
                                 b'32
                                 -\staccato                                               %! IC
                                 ]
@@ -2225,8 +2225,8 @@
                             % GuitarMusicVoiceI [measure 59]                             %! SM4
                             \override Beam.positions = #'(-6.5 . -6.5)                   %! OC
                             \override Stem.direction = #down                             %! OC
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 3
                             af''32
                             -\staccato                                                   %! IC
                             [
@@ -2248,78 +2248,78 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             cs'''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             e''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             g''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             bf''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             ef''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             d''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             c''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             cs''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             e'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             g'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             bf'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             af'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             fs'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             f'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 0
                             b32
                             -\staccato                                                   %! IC
                             ]
@@ -2423,8 +2423,8 @@
                             % GuitarMusicVoiceI [measure 68]                             %! SM4
                             \override Beam.positions = #'(-6.5 . -6.5)                   %! OC
                             \override Stem.direction = #down                             %! OC
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 3
                             af''32
                             -\staccato                                                   %! IC
                             [
@@ -2446,78 +2446,78 @@
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             cs'''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             e''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             g''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             bf''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             ef''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             d''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             c''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             cs''32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             e'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             g'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             bf'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             af'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             fs'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             f'32
                             -\staccato                                                   %! IC
                             
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 0
                             b32
                             -\staccato                                                   %! IC
                             ]
@@ -2542,8 +2542,8 @@
                             
                             % GuitarMusicVoiceII [measure 37]                            %! SM4
                             \override Beam.positions = #'(-8 . -8)                       %! OC
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 1
                             ef'8.
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -2571,8 +2571,8 @@
                                 f'16 ]
                                 
                             }
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 1
                             g'32
                             \revert Beam.positions                                       %! OC
                         }
@@ -2585,8 +2585,8 @@
                             
                             % GuitarMusicVoiceII [measure 41]                            %! SM4
                             \override TextScript.color = #red                            %! OC
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
                             cs'8.
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2613,8 +2613,8 @@
                                 bf'16 ]
                                 
                             }
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 0
                             a'32
                             ]
                             \revert TextScript.color                                     %! OC
@@ -2628,8 +2628,8 @@
                             
                             % GuitarMusicVoiceII [measure 48]                            %! SM4
                             \override Beam.positions = #'(-8 . -8)                       %! OC
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 1
                             ef'8.
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -2657,8 +2657,8 @@
                                 f'16 ]
                                 
                             }
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 1
                             g'32
                             \revert Beam.positions                                       %! OC
                         }
@@ -2671,8 +2671,8 @@
                             
                             % GuitarMusicVoiceII [measure 54]                            %! SM4
                             \override TextScript.color = #red                            %! OC
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
                             cs'8.
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2699,8 +2699,8 @@
                                 bf'16 ]
                                 
                             }
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 0
                             a'32
                             ]
                             \revert TextScript.color                                     %! OC
@@ -2714,8 +2714,8 @@
                             
                             % GuitarMusicVoiceII [measure 56]                            %! SM4
                             \override Beam.positions = #'(-8 . -8)                       %! OC
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 1
                             ef'8.
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -2743,8 +2743,8 @@
                                 f'16 ]
                                 
                             }
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 1
                             g'32
                             \revert Beam.positions                                       %! OC
                         }
@@ -2757,8 +2757,8 @@
                             
                             % GuitarMusicVoiceII [measure 60]                            %! SM4
                             \override TextScript.color = #red                            %! OC
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
                             cs'8.
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2785,8 +2785,8 @@
                                 bf'16 ]
                                 
                             }
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 1
                             a'32
                             \revert TextScript.color                                     %! OC
                         }
@@ -2795,8 +2795,8 @@
                         {
                             
                             % GuitarMusicVoiceII [measure 61]                            %! SM4
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
                             fs'8.
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2823,8 +2823,8 @@
                                 b'16 ]
                                 
                             }
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 0
                             f'32
                             ]
                         }
@@ -2834,8 +2834,8 @@
                             
                             % GuitarMusicVoiceII [measure 62]                            %! SM4
                             \override Beam.positions = #'(-8 . -8)                       %! OC
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 1
                             g'8.
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -2863,8 +2863,8 @@
                                 d'16 ]
                                 
                             }
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 1
                             e'32
                             \revert Beam.positions                                       %! OC
                         }
@@ -2873,8 +2873,8 @@
                         {
                             
                             % GuitarMusicVoiceII [measure 63]                            %! SM4
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
                             af'8.
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2901,8 +2901,8 @@
                                 cs''16 ]
                                 
                             }
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 1
                             g'32
                         }
                     }
@@ -2910,8 +2910,8 @@
                         {
                             
                             % GuitarMusicVoiceII [measure 64]                            %! SM4
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
                             ef'8.
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2938,8 +2938,8 @@
                                 f'16 ]
                                 
                             }
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 1
                             af'32
                         }
                     }
@@ -2947,8 +2947,8 @@
                         {
                             
                             % GuitarMusicVoiceII [measure 65]                            %! SM4
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
                             a'8.
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2975,8 +2975,8 @@
                                 e'16 ]
                                 
                             }
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 0
                             bf'32
                             ]
                         }
@@ -2986,8 +2986,8 @@
                             
                             % GuitarMusicVoiceII [measure 66]                            %! SM4
                             \override Beam.positions = #'(-8 . -8)                       %! OC
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 1
                             b8.
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -3015,8 +3015,8 @@
                                 a'16 ]
                                 
                             }
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 1
                             cs''32
                             \revert Beam.positions                                       %! OC
                         }
@@ -3028,8 +3028,8 @@
                         {
                             
                             % GuitarMusicVoiceII [measure 69]                            %! SM4
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
                             e'8.
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3056,8 +3056,8 @@
                                 b'16 ]
                                 
                             }
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 1
                             fs'32
                         }
                     }
@@ -3065,8 +3065,8 @@
                         {
                             
                             % GuitarMusicVoiceII [measure 70]                            %! SM4
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 0
                             bf8.
                             ]
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -3213,8 +3213,8 @@
                             % GuitarMusicVoiceIV [measure 36]                            %! SM4
                             \once \override Beam.positions = #'(12 . 12)                 %! OC
                             \once \override Stem.direction = #up                         %! OC
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 2
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 42)
                             f''16
                             [
@@ -3252,8 +3252,8 @@
                             
                             % GuitarMusicVoiceIV [measure 38]                            %! SM4
                             \once \override Stem.direction = #up                         %! OC
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 42)
                             f''16
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -3290,8 +3290,8 @@
                             
                             % GuitarMusicVoiceIV [measure 40]                            %! SM4
                             \override Stem.direction = #up                               %! OC
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 2
                             f''16
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3321,8 +3321,8 @@
                                 b''16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
                             fs''16
                             \revert Stem.direction                                       %! OC
                         }
@@ -3337,8 +3337,8 @@
                             
                             % GuitarMusicVoiceIV [measure 42]                            %! SM4
                             \override Stem.direction = #up                               %! OC
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 2
                             f''16
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3368,8 +3368,8 @@
                                 b''16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 0
                             fs''16
                             ]
                             \revert Stem.direction                                       %! OC
@@ -3386,8 +3386,8 @@
                             % GuitarMusicVoiceIV [measure 44]                            %! SM4
                             \once \override Beam.positions = #'(12 . 12)                 %! OC
                             \once \override Stem.direction = #up                         %! OC
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 2
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 42)
                             f''16
                             [
@@ -3425,8 +3425,8 @@
                             
                             % GuitarMusicVoiceIV [measure 46]                            %! SM4
                             \override Stem.direction = #up                               %! OC
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 2
                             f''16
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3456,8 +3456,8 @@
                                 b''16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
                             fs''16
                             
                             \acciaccatura {
@@ -3465,8 +3465,8 @@
                                 d''16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
                             c''16
                             \revert Stem.direction                                       %! OC
                         }
@@ -3481,8 +3481,8 @@
                             
                             % GuitarMusicVoiceIV [measure 49]                            %! SM4
                             \override Stem.direction = #up                               %! OC
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 2
                             f''16
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3512,8 +3512,8 @@
                                 b''16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
                             fs''16
                             \revert Stem.direction                                       %! OC
                         }
@@ -3529,8 +3529,8 @@
                             % GuitarMusicVoiceIV [measure 52]                            %! SM4
                             \override Beam.positions = #'(6 . 6)                         %! OC
                             \override Stem.direction = #up                               %! OC
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 2
                             f''16
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3560,8 +3560,8 @@
                                 b'16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
                             fs''16
                             
                             \acciaccatura {
@@ -3569,8 +3569,8 @@
                                 d''16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
                             c''16
                             
                             \acciaccatura {
@@ -3578,8 +3578,8 @@
                                 ef''16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
                             b'16
                             
                             \acciaccatura {
@@ -3587,8 +3587,8 @@
                                 fs'16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
                             f'16
                             \revert Beam.positions                                       %! OC
                             \revert Stem.direction                                       %! OC
@@ -3604,8 +3604,8 @@
                             % GuitarMusicVoiceIV [measure 55]                            %! SM4
                             \override Beam.positions = #'(6 . 6)                         %! OC
                             \override Stem.direction = #up                               %! OC
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 2
                             f''16
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3635,8 +3635,8 @@
                                 b''16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
                             fs''16
                             
                             \acciaccatura {
@@ -3644,8 +3644,8 @@
                                 d''16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
                             c''16
                             
                             \acciaccatura {
@@ -3653,8 +3653,8 @@
                                 ef''16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
                             b'16
                             
                             \acciaccatura {
@@ -3662,8 +3662,8 @@
                                 fs''16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
                             f''16
                             
                             \acciaccatura {
@@ -3671,19 +3671,19 @@
                                 c''16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
                             ef''16
                             
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #1
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
                             d''16
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/7 {
                             
-                            \set stemLeftBeamCount = #1
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 2
                             f'16
                             
                             \acciaccatura {
@@ -3691,8 +3691,8 @@
                                 b'16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
                             fs'16
                             
                             \acciaccatura {
@@ -3700,8 +3700,8 @@
                                 d''16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
                             c''16
                             
                             \acciaccatura {
@@ -3709,8 +3709,8 @@
                                 ef'16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
                             b'16
                             
                             \acciaccatura {
@@ -3718,8 +3718,8 @@
                                 fs'16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
                             f'16
                             
                             \acciaccatura {
@@ -3727,12 +3727,12 @@
                                 c'16
                                 
                             }
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #2
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
                             ef'16
                             
-                            \set stemLeftBeamCount = #2
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 0
                             d'16
                             ]
                             \revert Beam.positions                                       %! OC

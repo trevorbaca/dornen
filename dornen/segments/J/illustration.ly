@@ -884,7 +884,7 @@
                                 }                                                        %! REAPPLIED_INSTRUMENT:SM8
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             ^ \markup {
                                 \column
                                     {
@@ -966,7 +966,7 @@
                             
                             % GuitarMusicVoiceI [measure 208]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \<
                             \pp
@@ -1000,7 +1000,7 @@
                             
                             % GuitarMusicVoiceI [measure 209]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \p
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1033,7 +1033,7 @@
                             
                             % GuitarMusicVoiceI [measure 210]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \>
                             \p
@@ -1067,7 +1067,7 @@
                             
                             % GuitarMusicVoiceI [measure 211]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \pp
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1100,20 +1100,20 @@
                             
                             % GuitarMusicVoiceI [measure 212]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        \override                        %! IC1
-                                                            #'(box-padding . 0.5)        %! IC1
-                                                            \box                         %! IC1
-                                                                "3 fingers"              %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        \override                        %! IC
+                                                            #'(box-padding . 0.5)        %! IC
+                                                            \box                         %! IC
+                                                                "3 fingers"              %! IC
+                                            }                                            %! IC
                                         %%% \line                                        %! FIGURE_NAME_MARKUP
                                         %%%     {                                        %! FIGURE_NAME_MARKUP
                                         %%%         \fontsize                            %! FIGURE_NAME_MARKUP
@@ -1147,7 +1147,7 @@
                             
                             % GuitarMusicVoiceI [measure 213]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \<
                             \pp
@@ -1181,7 +1181,7 @@
                             
                             % GuitarMusicVoiceI [measure 214]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \mp
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1214,7 +1214,7 @@
                             
                             % GuitarMusicVoiceI [measure 215]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \>
                             \mp
@@ -1248,7 +1248,7 @@
                             
                             % GuitarMusicVoiceI [measure 216]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \pp
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1281,20 +1281,20 @@
                             
                             % GuitarMusicVoiceI [measure 217]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        \override                        %! IC1
-                                                            #'(box-padding . 0.5)        %! IC1
-                                                            \box                         %! IC1
-                                                                "4 fingers"              %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        \override                        %! IC
+                                                            #'(box-padding . 0.5)        %! IC
+                                                            \box                         %! IC
+                                                                "4 fingers"              %! IC
+                                            }                                            %! IC
                                         %%% \line                                        %! FIGURE_NAME_MARKUP
                                         %%%     {                                        %! FIGURE_NAME_MARKUP
                                         %%%         \fontsize                            %! FIGURE_NAME_MARKUP
@@ -1348,7 +1348,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \<
                             \pp
@@ -1383,7 +1383,7 @@
                             
                             % GuitarMusicVoiceI [measure 219]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \p
                             \stopTextSpan
@@ -1442,7 +1442,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \>
                             \p
@@ -1477,7 +1477,7 @@
                             
                             % GuitarMusicVoiceI [measure 221]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \pp
                             \stopTextSpan
@@ -1536,7 +1536,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \<
                             \pp
@@ -1571,7 +1571,7 @@
                             
                             % GuitarMusicVoiceI [measure 223]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \mp
                             \stopTextSpan
@@ -1630,7 +1630,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \>
                             \mp
@@ -1665,7 +1665,7 @@
                             
                             % GuitarMusicVoiceI [measure 225]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \pp
                             \stopTextSpan
@@ -1724,7 +1724,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \<
                             \pp
@@ -1759,7 +1759,7 @@
                             
                             % GuitarMusicVoiceI [measure 227]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \mf
                             \stopTextSpan
@@ -1818,7 +1818,7 @@
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \>
                             \mf
@@ -1853,7 +1853,7 @@
                             
                             % GuitarMusicVoiceI [measure 229]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1885,20 +1885,20 @@
                             
                             % GuitarMusicVoiceI [measure 230]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        \override                        %! IC1
-                                                            #'(box-padding . 0.5)        %! IC1
-                                                            \box                         %! IC1
-                                                                "3 fingers"              %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        \override                        %! IC
+                                                            #'(box-padding . 0.5)        %! IC
+                                                            \box                         %! IC
+                                                                "3 fingers"              %! IC
+                                            }                                            %! IC
                                         %%% \line                                        %! FIGURE_NAME_MARKUP
                                         %%%     {                                        %! FIGURE_NAME_MARKUP
                                         %%%         \fontsize                            %! FIGURE_NAME_MARKUP
@@ -1926,7 +1926,7 @@
                                 }
                             
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                         }
                     }
@@ -1936,20 +1936,20 @@
                             
                             % GuitarMusicVoiceI [measure 231]                            %! SM4
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        \override                        %! IC1
-                                                            #'(box-padding . 0.5)        %! IC1
-                                                            \box                         %! IC1
-                                                                "2 fingers"              %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        \override                        %! IC
+                                                            #'(box-padding . 0.5)        %! IC
+                                                            \box                         %! IC
+                                                                "2 fingers"              %! IC
+                                            }                                            %! IC
                                         %%% \line                                        %! FIGURE_NAME_MARKUP
                                         %%%     {                                        %! FIGURE_NAME_MARKUP
                                         %%%         \fontsize                            %! FIGURE_NAME_MARKUP
@@ -1977,7 +1977,7 @@
                                 }
                             
                             gtqf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
                             \p
                             \stopTextSpan

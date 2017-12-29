@@ -685,7 +685,7 @@
                         {
                             
                             % GuitarMusicVoiceI [measure 1]                              %! SM4
-                            \once \override Beam.positions = #'(6 . 6)
+                            \once \override Beam.positions = #'(6 . 6)                   %! OC
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
                             \set GuitarMusicStaff.instrumentName = \markup {             %! DEFAULT_INSTRUMENT:SM8
@@ -839,7 +839,7 @@
                         {
                             
                             % GuitarMusicVoiceI [measure 7]                              %! SM4
-                            \override Beam.positions = #'(9 . 9)
+                            \override Beam.positions = #'(9 . 9)                         %! OC
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
                             g'8.
@@ -865,7 +865,7 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             b8.
-                            \revert Beam.positions
+                            \revert Beam.positions                                       %! OC
                         }
                     }
                     
@@ -917,7 +917,7 @@
                         {
                             
                             % GuitarMusicVoiceI [measure 12]                             %! SM4
-                            \override Beam.positions = #'(6 . 6)
+                            \override Beam.positions = #'(6 . 6)                         %! OC
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #1
                             fs8.
@@ -943,7 +943,7 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #1
                             bf8.
-                            \revert Beam.positions
+                            \revert Beam.positions                                       %! OC
                         }
                     }
                     
@@ -1037,8 +1037,8 @@
                                 af'16 ]
                                 
                             }
-                            \once \override Beam.positions = #'(-10 . -10)
-                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+                            \once \override Beam.positions = #'(-10 . -10)               %! OC
+                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0) %! OC
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             c''32
@@ -1082,7 +1082,7 @@
                                 c''16 ]
                                 
                             }
-                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0) %! OC
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             f'32
@@ -1123,7 +1123,7 @@
                                 ef''16 ]
                                 
                             }
-                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0) %! OC
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             e''32
@@ -1165,8 +1165,8 @@
                                 e''16 ]
                                 
                             }
-                            \once \override Beam.positions = #'(-10 . -10)
-                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+                            \once \override Beam.positions = #'(-10 . -10)               %! OC
+                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0) %! OC
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             fs''32
@@ -1216,7 +1216,7 @@
                                 ef''16 ]
                                 
                             }
-                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0) %! OC
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             e''32
@@ -1266,8 +1266,8 @@
                                 cs''16 ]
                                 
                             }
-                            \once \override Beam.positions = #'(-10 . -10)
-                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+                            \once \override Beam.positions = #'(-10 . -10)               %! OC
+                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0) %! OC
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             fs''32
@@ -1304,7 +1304,7 @@
                                 f''16 ]
                                 
                             }
-                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+                            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0) %! OC
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             g''32
@@ -1360,7 +1360,7 @@
                         \times 1/1 {
                             
                             % GuitarMusicVoiceIII [measure 18]                           %! SM4
-                            \override Beam.positions = #'(-6 . -6)
+                            \override Beam.positions = #'(-6 . -6)                       %! OC
                             \once \override Beam.grow-direction = #left
                             b''64 * 320/1024
                             [
@@ -1394,7 +1394,7 @@
                             
                             ef''64 * 1536/1024
                             ]
-                            \revert Beam.positions
+                            \revert Beam.positions                                       %! OC
                         }
                         \revert TupletNumber.text
                     }
@@ -1432,7 +1432,7 @@
                         \times 1/1 {
                             
                             % GuitarMusicVoiceIII [measure 19]                           %! SM4
-                            \override Beam.positions = #'(-6 . -6)
+                            \override Beam.positions = #'(-6 . -6)                       %! OC
                             \once \override Beam.grow-direction = #left
                             f''64 * 192/1024
                             [
@@ -1476,7 +1476,7 @@
                             
                             d'64 * 1664/1024
                             ]
-                            \revert Beam.positions
+                            \revert Beam.positions                                       %! OC
                             
                         }
                         \revert TupletNumber.text

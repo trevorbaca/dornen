@@ -718,7 +718,7 @@
                         \times 1/1 {
                             
                             % GuitarMusicVoiceI [measure 71]                             %! SM4
-                            \override Beam.positions = #'(9 . 9)
+                            \override Beam.positions = #'(9 . 9)                         %! OC
                             \once \override Beam.grow-direction = #right
                             \set GuitarMusicStaff.instrumentName = \markup {             %! REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
@@ -1051,13 +1051,13 @@
                             
                             ef''64 * 640/1024
                             ]
-                            \revert Beam.positions
+                            \revert Beam.positions                                       %! OC
                         }
                         \revert TupletNumber.text
                     }
                     
                     % GuitarMusicVoiceI [measure 74]                                     %! SM4
-                    \override Beam.positions = #'(6 . 6)
+                    \override Beam.positions = #'(6 . 6)                                 %! OC
                     s1 * 5/32
                     {
                         \override TupletNumber.text = \markup {
@@ -1282,7 +1282,7 @@
                     
                     % GuitarMusicVoiceI [measure 82]                                     %! SM4
                     s1 * 1/8
-                    \revert Beam.positions
+                    \revert Beam.positions                                               %! OC
                     {
                         \override TupletNumber.text = \markup {
                             \scale
@@ -1465,7 +1465,7 @@
                         \times 5/7 {
                             
                             % GuitarMusicVoiceII [measure 74]                            %! SM4
-                            \override Beam.positions = #'(-12 . -12)
+                            \override Beam.positions = #'(-12 . -12)                     %! OC
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             g'16
@@ -1474,12 +1474,12 @@
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        "glissando: attack first note only" %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        "glissando: attack first note only" %! IC
+                                            }                                            %! IC
                                         %%% \line                                        %! FIGURE_NAME_MARKUP
                                         %%%     {                                        %! FIGURE_NAME_MARKUP
                                         %%%         \fontsize                            %! FIGURE_NAME_MARKUP
@@ -1514,7 +1514,7 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             cs'''32
-                            \revert Beam.positions
+                            \revert Beam.positions                                       %! OC
                         }
                     }
                     
@@ -2179,24 +2179,24 @@
                         \times 4/5 {
                             
                             % GuitarMusicVoiceIV [measure 79]                            %! SM4
-                            \override Stem.direction = #up
-                            \override TupletBracket.staff-padding = #0
-                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
-                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
+                            \override Stem.direction = #up                               %! OC
+                            \override TupletBracket.staff-padding = #0                   %! OC
+                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)    %! OC
+                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)     %! OC
                             gf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        \override                        %! IC1
-                                                            #'(box-padding . 0.5)        %! IC1
-                                                            \box                         %! IC1
-                                                                "2-finger tamb. trill"   %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        \override                        %! IC
+                                                            #'(box-padding . 0.5)        %! IC
+                                                            \box                         %! IC
+                                                                "2-finger tamb. trill"   %! IC
+                                            }                                            %! IC
                                         %%% \line                                        %! FIGURE_NAME_MARKUP
                                         %%%     {                                        %! FIGURE_NAME_MARKUP
                                         %%%         \fontsize                            %! FIGURE_NAME_MARKUP
@@ -2222,10 +2222,10 @@
                         \times 4/5 {
                             
                             gf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
-                            \revert Stem.direction
-                            \revert TupletBracket.staff-padding
+                            \revert Stem.direction                                       %! OC
+                            \revert TupletBracket.staff-padding                          %! OC
                         }
                     }
                     
@@ -2264,24 +2264,24 @@
                         \times 4/5 {
                             
                             % GuitarMusicVoiceIV [measure 88]                            %! SM4
-                            \override Stem.direction = #up
-                            \override TupletBracket.staff-padding = #0
-                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
-                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
+                            \override Stem.direction = #up                               %! OC
+                            \override TupletBracket.staff-padding = #0                   %! OC
+                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)    %! OC
+                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)     %! OC
                             gf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        \override                        %! IC1
-                                                            #'(box-padding . 0.5)        %! IC1
-                                                            \box                         %! IC1
-                                                                "2-finger tamb. trill"   %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        \override                        %! IC
+                                                            #'(box-padding . 0.5)        %! IC
+                                                            \box                         %! IC
+                                                                "2-finger tamb. trill"   %! IC
+                                            }                                            %! IC
                                         %%% \line                                        %! FIGURE_NAME_MARKUP
                                         %%%     {                                        %! FIGURE_NAME_MARKUP
                                         %%%         \fontsize                            %! FIGURE_NAME_MARKUP
@@ -2307,10 +2307,10 @@
                         \times 4/5 {
                             
                             gf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             \repeatTie
-                            \revert Stem.direction
-                            \revert TupletBracket.staff-padding
+                            \revert Stem.direction                                       %! OC
+                            \revert TupletBracket.staff-padding                          %! OC
                         }
                     }
                     

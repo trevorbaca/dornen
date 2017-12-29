@@ -1052,7 +1052,7 @@
                         {
                             
                             % GuitarMusicVoiceI [measure 90]                             %! SM4
-                            \override Beam.positions = #'(10 . 10)
+                            \override Beam.positions = #'(10 . 10)                       %! OC
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             \set GuitarMusicStaff.instrumentName = \markup {             %! REAPPLIED_INSTRUMENT:SM8
@@ -1063,20 +1063,20 @@
                             \set GuitarMusicStaff.shortInstrumentName = \markup {        %! REAPPLIED_INSTRUMENT:SM8
                                 \null                                                    %! REAPPLIED_INSTRUMENT:SM8
                                 }                                                        %! REAPPLIED_INSTRUMENT:SM8
-                            \override Score.RehearsalMark.extra-offset = #'(-10 . -10)   %! IC1
+                            \override Score.RehearsalMark.extra-offset = #'(-10 . -10)   %! IC
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                             d'32.
-                            -\tenuto                                                     %! IC1
+                            -\tenuto                                                     %! IC
                             [
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        "slurs fluid; all other parts mechanically precise" %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        "slurs fluid; all other parts mechanically precise" %! IC
+                                            }                                            %! IC
                                         %%% \line                                        %! FIGURE_NAME_MARKUP
                                         %%%     {                                        %! FIGURE_NAME_MARKUP
                                         %%%         \fontsize                            %! FIGURE_NAME_MARKUP
@@ -1151,7 +1151,7 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             cs'32.
-                            -\tenuto                                                     %! IC1
+                            -\tenuto                                                     %! IC
                         }
                     }
                     
@@ -1164,7 +1164,7 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             ef'32.
-                            -\tenuto                                                     %! IC1
+                            -\tenuto                                                     %! IC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1191,7 +1191,7 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             fs'32.
-                            -\tenuto                                                     %! IC1
+                            -\tenuto                                                     %! IC
                             ]
                         }
                     }
@@ -1205,7 +1205,7 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             d'32.
-                            -\tenuto                                                     %! IC1
+                            -\tenuto                                                     %! IC
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1233,7 +1233,7 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             cs'32.
-                            -\tenuto                                                     %! IC1
+                            -\tenuto                                                     %! IC
                         }
                     }
                     
@@ -1246,7 +1246,7 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             d'32.
-                            -\tenuto                                                     %! IC1
+                            -\tenuto                                                     %! IC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1273,7 +1273,7 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             cs'32.
-                            -\tenuto                                                     %! IC1
+                            -\tenuto                                                     %! IC
                             ]
                         }
                     }
@@ -1287,7 +1287,7 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #3
                             ef'32.
-                            -\tenuto                                                     %! IC1
+                            -\tenuto                                                     %! IC
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1315,7 +1315,7 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #1
                             fs'32.
-                            -\tenuto                                                     %! IC1
+                            -\tenuto                                                     %! IC
                         }
                     }
                     
@@ -1328,7 +1328,7 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #3
                             d'32.
-                            -\tenuto                                                     %! IC1
+                            -\tenuto                                                     %! IC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1355,7 +1355,7 @@
                             \set stemLeftBeamCount = #3
                             \set stemRightBeamCount = #0
                             cs'32.
-                            -\tenuto                                                     %! IC1
+                            -\tenuto                                                     %! IC
                             ]
                         }
                     }
@@ -1368,13 +1368,13 @@
                     
                     % GuitarMusicVoiceI [measure 119]                                    %! SM4
                     s1 * 3/20
-                    \revert Beam.positions
+                    \revert Beam.positions                                               %! OC
                     
                 }
                 \context GuitarMusicVoiceII = "GuitarMusicVoiceII" {
                     
                     % GuitarMusicVoiceII [measure 90]                                    %! SM4
-                    \override Beam.positions = #'(-5.5 . -5.5)
+                    \override Beam.positions = #'(-5.5 . -5.5)                           %! OC
                     s1 * 73/160
                     {
                         {
@@ -1526,7 +1526,7 @@
                     
                     % GuitarMusicVoiceII [measure 109]                                   %! SM4
                     s1 * 49/160
-                    \revert Beam.positions
+                    \revert Beam.positions                                               %! OC
                     {
                         {
                             
@@ -1560,24 +1560,24 @@
                         \times 4/5 {
                             
                             % GuitarMusicVoiceII [measure 113]                           %! SM4
-                            \once \override Stem.direction = #up
-                            \once \override TupletBracket.staff-padding = #0
-                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)
-                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)
+                            \once \override Stem.direction = #up                         %! OC
+                            \once \override TupletBracket.staff-padding = #0             %! OC
+                            \once \override TupletBracket.extra-offset = #'(0 . -0.5)    %! OC
+                            \once \override TupletNumber.extra-offset = #'(0 . -0.5)     %! OC
                             gf2
-                            :32                                                          %! IC1
+                            :32                                                          %! IC
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        \override                        %! IC1
-                                                            #'(box-padding . 0.5)        %! IC1
-                                                            \box                         %! IC1
-                                                                "2-finger tamb. trill"   %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        \override                        %! IC
+                                                            #'(box-padding . 0.5)        %! IC
+                                                            \box                         %! IC
+                                                                "2-finger tamb. trill"   %! IC
+                                            }                                            %! IC
                                         %%% \line                                        %! FIGURE_NAME_MARKUP
                                         %%%     {                                        %! FIGURE_NAME_MARKUP
                                         %%%         \fontsize                            %! FIGURE_NAME_MARKUP
@@ -1607,7 +1607,7 @@
                     }
                     
                     % GuitarMusicVoiceII [measure 114]                                   %! SM4
-                    \override Beam.positions = #'(-5.5 . -5.5)
+                    \override Beam.positions = #'(-5.5 . -5.5)                           %! OC
                     s1 * 3/20
                     {
                         {
@@ -1668,13 +1668,13 @@
                     
                     % GuitarMusicVoiceII [measure 119]                                   %! SM4
                     s1 * 3/20
-                    \revert Beam.positions
+                    \revert Beam.positions                                               %! OC
                     
                 }
                 \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII" {
                     
                     % GuitarMusicVoiceIII [measure 90]                                   %! SM4
-                    \override Script.direction = #down
+                    \override Script.direction = #down                                   %! OC
                     s1 * 39/160
                     {
                         {
@@ -1683,7 +1683,7 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             c'16
-                            -\accent                                                     %! IC1
+                            -\accent                                                     %! IC
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1719,7 +1719,7 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             f16
-                            -\accent                                                     %! IC1
+                            -\accent                                                     %! IC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1754,7 +1754,7 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             a16
-                            -\accent                                                     %! IC1
+                            -\accent                                                     %! IC
                             ]
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1790,7 +1790,7 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             c'16
-                            -\accent                                                     %! IC1
+                            -\accent                                                     %! IC
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1826,7 +1826,7 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             f16
-                            -\accent                                                     %! IC1
+                            -\accent                                                     %! IC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1861,7 +1861,7 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             a16
-                            -\accent                                                     %! IC1
+                            -\accent                                                     %! IC
                             ]
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1890,13 +1890,13 @@
                     
                     % GuitarMusicVoiceIII [measure 119]                                  %! SM4
                     s1 * 3/20
-                    \revert Script.direction
+                    \revert Script.direction                                             %! OC
                     
                 }
                 \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV" {
                     
                     % GuitarMusicVoiceIV [measure 90]                                    %! SM4
-                    \override Beam.positions = #'(5.5 . 5.5)
+                    \override Beam.positions = #'(5.5 . 5.5)                             %! OC
                     s1 * 3/32
                     {
                         \tweak edge-height #'(0.7 . 0)
@@ -1906,7 +1906,7 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1934,12 +1934,12 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                         }
                     }
                     
@@ -1950,12 +1950,12 @@
                         \times 4/5 {
                             
                             % GuitarMusicVoiceIV [measure 93]                            %! SM4
-                            \override Beam.positions = #'(6 . 6)
-                            \override Stem.direction = #up
+                            \override Beam.positions = #'(6 . 6)                         %! OC
+                            \override Stem.direction = #up                               %! OC
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1982,15 +1982,15 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
-                            \revert Beam.positions
-                            \revert Stem.direction
+                            \revert Beam.positions                                       %! OC
+                            \revert Stem.direction                                       %! OC
                         }
                     }
                     
@@ -2004,7 +2004,7 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2032,12 +2032,12 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                         }
                     }
                     
@@ -2051,7 +2051,7 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2078,12 +2078,12 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                     }
@@ -2098,7 +2098,7 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2126,12 +2126,12 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                         }
                     }
                     
@@ -2145,7 +2145,7 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2172,12 +2172,12 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                     }
@@ -2192,7 +2192,7 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2220,12 +2220,12 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                         }
                     }
                     
@@ -2236,12 +2236,12 @@
                         \times 4/5 {
                             
                             % GuitarMusicVoiceIV [measure 107]                           %! SM4
-                            \override Beam.positions = #'(6 . 6)
-                            \override Stem.direction = #up
+                            \override Beam.positions = #'(6 . 6)                         %! OC
+                            \override Stem.direction = #up                               %! OC
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2268,15 +2268,15 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
-                            \revert Beam.positions
-                            \revert Stem.direction
+                            \revert Beam.positions                                       %! OC
+                            \revert Stem.direction                                       %! OC
                         }
                     }
                     
@@ -2290,7 +2290,7 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2318,12 +2318,12 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                         }
                     }
                     
@@ -2337,7 +2337,7 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2364,12 +2364,12 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                     }
@@ -2384,7 +2384,7 @@
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2412,12 +2412,12 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #1
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                         }
                     }
                     
@@ -2431,7 +2431,7 @@
                             \set stemLeftBeamCount = #1
                             \set stemRightBeamCount = #2
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2458,14 +2458,14 @@
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #2
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             \set stemLeftBeamCount = #2
                             \set stemRightBeamCount = #0
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
-                            \revert Beam.positions
+                            \revert Beam.positions                                       %! OC
                             
                         }
                     }

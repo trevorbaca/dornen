@@ -789,7 +789,7 @@
                         \times 4/5 {
                             
                             % GuitarMusicVoiceI [measure 133]                            %! SM4
-                            \override Beam.positions = #'(8 . 8)
+                            \override Beam.positions = #'(8 . 8)                         %! OC
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             \set GuitarMusicStaff.instrumentName = \markup {             %! REAPPLIED_INSTRUMENT:SM8
@@ -1171,7 +1171,7 @@
                             e''32
                             ]
                             )
-                            \revert Beam.positions
+                            \revert Beam.positions                                       %! OC
                             
                         }
                     }
@@ -1179,14 +1179,14 @@
                 \context GuitarMusicVoiceII = "GuitarMusicVoiceII" {
                     
                     % GuitarMusicVoiceII [measure 133]                                   %! SM4
-                    \override Beam.positions = #'(-7 . -7)
+                    \override Beam.positions = #'(-7 . -7)                               %! OC
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                     s1 * 3/20
                     {
                         {
                             
                             % GuitarMusicVoiceII [measure 134]                           %! SM4
-                            \once \override TextScript.direction = #down
+                            \once \override TextScript.direction = #down                 %! OC
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             ef'16
@@ -1213,11 +1213,11 @@
                             %%%                 ]                                        %! FIGURE_NAME_MARKUP
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
-                            _ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        "dull (but beautiful) thud with RH muting for each red note" %! IC1
-                                }                                                        %! IC1
+                            _ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        "dull (but beautiful) thud with RH muting for each red note" %! IC
+                                }                                                        %! IC
                         }
                     }
                     
@@ -1355,7 +1355,7 @@
                             %%%                 ]                                        %! FIGURE_NAME_MARKUP
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
-                            \revert Beam.positions
+                            \revert Beam.positions                                       %! OC
                         }
                     }
                     {
@@ -1363,7 +1363,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceII [measure 143]                           %! SM4
-                            \override Beam.positions = #'(-7 . -7)
+                            \override Beam.positions = #'(-7 . -7)                       %! OC
                             \set stemLeftBeamCount = #0
                             \set stemRightBeamCount = #2
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
@@ -1572,22 +1572,22 @@
                     
                     % GuitarMusicVoiceII [measure 154]                                   %! SM4
                     s1 * 1/8
-                    \revert Beam.positions
+                    \revert Beam.positions                                               %! OC
                     
                 }
                 \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII" {
                     
                     % GuitarMusicVoiceIII [measure 133]                                  %! SM4
-                    \override Beam.positions = #'(4 . 4)
+                    \override Beam.positions = #'(4 . 4)                                 %! OC
                     s1 * 17/80
                     {
                         \tweak edge-height #'(0.7 . 0)
                         \times 4/7 {
                             
                             % GuitarMusicVoiceIII [measure 135]                          %! SM4
-                            \override Stem.direction = #up
+                            \override Stem.direction = #up                               %! OC
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1613,12 +1613,12 @@
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
-                            \revert Stem.direction
+                            \revert Stem.direction                                       %! OC
                         }
                     }
                     
@@ -1629,9 +1629,9 @@
                         \times 4/7 {
                             
                             % GuitarMusicVoiceIII [measure 139]                          %! SM4
-                            \override Stem.direction = #up
+                            \override Stem.direction = #up                               %! OC
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1657,12 +1657,12 @@
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
-                            \revert Stem.direction
+                            \revert Stem.direction                                       %! OC
                         }
                     }
                     
@@ -1673,9 +1673,9 @@
                         \times 4/7 {
                             
                             % GuitarMusicVoiceIII [measure 146]                          %! SM4
-                            \override Stem.direction = #up
+                            \override Stem.direction = #up                               %! OC
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1701,15 +1701,15 @@
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
-                            \revert Stem.direction
+                            \revert Stem.direction                                       %! OC
                         }
                     }
                     
@@ -1720,9 +1720,9 @@
                         \times 4/7 {
                             
                             % GuitarMusicVoiceIII [measure 152]                          %! SM4
-                            \override Stem.direction = #up
+                            \override Stem.direction = #up                               %! OC
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1748,15 +1748,15 @@
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
-                            \revert Stem.direction
+                            \revert Stem.direction                                       %! OC
                         }
                     }
                     
@@ -1765,7 +1765,7 @@
                     
                     % GuitarMusicVoiceIII [measure 154]                                  %! SM4
                     s1 * 1/8
-                    \revert Beam.positions
+                    \revert Beam.positions                                               %! OC
                     
                 }
                 \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV" {

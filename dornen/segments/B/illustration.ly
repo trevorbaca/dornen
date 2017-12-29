@@ -1382,15 +1382,15 @@
                                             }                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }
                                 }
-                            \set GuitarMusicStaff.instrumentName = \markup {             %! REAPPLIED_REDRAW_INSTRUMENT:SM8
-                                \hcenter-in                                              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
-                                    #16                                                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
-                                    Guitar                                               %! REAPPLIED_REDRAW_INSTRUMENT:SM8
-                                }                                                        %! REAPPLIED_REDRAW_INSTRUMENT:SM8
-                            \set GuitarMusicStaff.shortInstrumentName = \markup {        %! REAPPLIED_REDRAW_INSTRUMENT:SM8
-                                \null                                                    %! REAPPLIED_REDRAW_INSTRUMENT:SM8
-                                }                                                        %! REAPPLIED_REDRAW_INSTRUMENT:SM8
-                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
+                            \set GuitarMusicStaff.instrumentName = \markup {             %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                \hcenter-in                                              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                    #16                                                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                    Guitar                                               %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                            \set GuitarMusicStaff.shortInstrumentName = \markup {        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                \null                                                    %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
                             g''64 * 512/1024
                             

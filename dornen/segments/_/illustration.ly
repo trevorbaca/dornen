@@ -758,15 +758,15 @@
                                             }                                            %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }
                                 }
-                            \set GuitarMusicStaff.instrumentName = \markup {             %! DEFAULT_REDRAW_INSTRUMENT:SM8
-                                \hcenter-in                                              %! DEFAULT_REDRAW_INSTRUMENT:SM8
-                                    #16                                                  %! DEFAULT_REDRAW_INSTRUMENT:SM8
-                                    Guitar                                               %! DEFAULT_REDRAW_INSTRUMENT:SM8
-                                }                                                        %! DEFAULT_REDRAW_INSTRUMENT:SM8
-                            \set GuitarMusicStaff.shortInstrumentName = \markup {        %! DEFAULT_REDRAW_INSTRUMENT:SM8
-                                \null                                                    %! DEFAULT_REDRAW_INSTRUMENT:SM8
-                                }                                                        %! DEFAULT_REDRAW_INSTRUMENT:SM8
-                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'violet) %! DEFAULT_REDRAW_INSTRUMENT_COLOR:SM6
+                            \set GuitarMusicStaff.instrumentName = \markup {             %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+                                \hcenter-in                                              %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+                                    #16                                                  %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+                                    Guitar                                               %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+                            \set GuitarMusicStaff.shortInstrumentName = \markup {        %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+                                \null                                                    %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_DEFAULT_INSTRUMENT:SM8
+                            \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
                         }
                     }
                     

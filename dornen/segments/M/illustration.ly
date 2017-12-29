@@ -1810,9 +1810,10 @@
                             
                             % GuitarMusicVoiceI [measure 344]                            %! SM4
                             \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \p                                                           %! IC
+                            \p                                                           %! EXPLICIT_DYNAMIC:SM8
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC

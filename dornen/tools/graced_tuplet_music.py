@@ -75,8 +75,9 @@ def graced_tuplet_music():
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         % GlobalSkips [measure 1]                                          %! SM4
-                        \time 19/56                                                        %! SM1
+                        \time 19/56                                                        %! EXPLICIT_TIME_SIGNATURE:SM8
                         \bar ""                                                            %! EMPTY_START_BAR:SM2
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 19/56
                         ^ \markup {                                                        %! STAGE_NUMBER_MARKUP:SM3
                             \fontsize                                                      %! STAGE_NUMBER_MARKUP:SM3
@@ -87,11 +88,13 @@ def graced_tuplet_music():
                             }                                                              %! STAGE_NUMBER_MARKUP:SM3
             <BLANKLINE>
                         % GlobalSkips [measure 2]                                          %! SM4
-                        \time 39/56                                                        %! SM1
+                        \time 39/56                                                        %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 39/56
             <BLANKLINE>
                         % GlobalSkips [measure 3]                                          %! SM4
-                        \time 53/112                                                       %! SM1
+                        \time 53/112                                                       %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 53/112
                         \override Score.BarLine.transparent = ##f                          %! SM5
                         \bar "|"                                                           %! SM5

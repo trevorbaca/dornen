@@ -59,8 +59,9 @@ def tremolo_music():
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         % GlobalSkips [measure 1]                                          %! SM4
-                        \time 1/11                                                         %! SM1
+                        \time 1/11                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \bar ""                                                            %! EMPTY_START_BAR:SM2
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %! SEGMENT:SPACING:HSS1
                         s1 * 1/11
@@ -87,7 +88,8 @@ def tremolo_music():
                             }
             <BLANKLINE>
                         % GlobalSkips [measure 2]                                          %! SM4
-                        \time 7/11                                                         %! SM1
+                        \time 7/11                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %! SEGMENT:SPACING:HSS1
                         s1 * 7/11
@@ -100,7 +102,8 @@ def tremolo_music():
                             }                                                              %! SEGMENT:SPACING_MARKUP:HSS2
             <BLANKLINE>
                         % GlobalSkips [measure 3]                                          %! SM4
-                        \time 1/11                                                         %! SM1
+                        \time 1/11                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %! SEGMENT:SPACING:HSS1
                         s1 * 1/11
@@ -113,7 +116,8 @@ def tremolo_music():
                             }                                                              %! SEGMENT:SPACING_MARKUP:HSS2
             <BLANKLINE>
                         % GlobalSkips [measure 4]                                          %! SM4
-                        \time 6/11                                                         %! SM1
+                        \time 6/11                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %! SEGMENT:SPACING:HSS1
                         s1 * 6/11
@@ -317,8 +321,9 @@ def tremolo_music():
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         % GlobalSkips [measure 1]                                          %! SM4
-                        \time 9/11                                                         %! SM1
+                        \time 9/11                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \bar ""                                                            %! EMPTY_START_BAR:SM2
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %! SEGMENT:SPACING:HSS1
                         s1 * 9/11
@@ -345,7 +350,8 @@ def tremolo_music():
                             }
             <BLANKLINE>
                         % GlobalSkips [measure 2]                                          %! SM4
-                        \time 14/11                                                        %! SM1
+                        \time 14/11                                                        %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %! SEGMENT:SPACING:HSS1
                         s1 * 14/11
@@ -358,7 +364,8 @@ def tremolo_music():
                             }                                                              %! SEGMENT:SPACING_MARKUP:HSS2
             <BLANKLINE>
                         % GlobalSkips [measure 3]                                          %! SM4
-                        \time 8/11                                                         %! SM1
+                        \time 8/11                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %! SEGMENT:SPACING:HSS1
                         s1 * 8/11

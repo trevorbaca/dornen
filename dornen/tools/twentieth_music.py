@@ -80,8 +80,9 @@ def twentieth_music():
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         % GlobalSkips [measure 1]                                          %! SM4
-                        \time 7/20                                                         %! SM1
+                        \time 7/20                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \bar ""                                                            %! EMPTY_START_BAR:SM2
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING:HSS1
                         s1 * 7/20
@@ -108,7 +109,8 @@ def twentieth_music():
                             }
             <BLANKLINE>
                         % GlobalSkips [measure 2]                                          %! SM4
-                        \time 2/20                                                         %! SM1
+                        \time 2/20                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING:HSS1
                         s1 * 1/10
@@ -121,7 +123,8 @@ def twentieth_music():
                             }                                                              %! SEGMENT:SPACING_MARKUP:HSS2
             <BLANKLINE>
                         % GlobalSkips [measure 3]                                          %! SM4
-                        \time 3/20                                                         %! SM1
+                        \time 3/20                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING:HSS1
                         s1 * 3/20
@@ -134,7 +137,8 @@ def twentieth_music():
                             }                                                              %! SEGMENT:SPACING_MARKUP:HSS2
             <BLANKLINE>
                         % GlobalSkips [measure 4]                                          %! SM4
-                        \time 4/20                                                         %! SM1
+                        \time 4/20                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING:HSS1
                         s1 * 1/5
@@ -315,8 +319,9 @@ def twentieth_music():
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         % GlobalSkips [measure 1]                                          %! SM4
-                        \time 7/20                                                         %! SM1
+                        \time 7/20                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \bar ""                                                            %! EMPTY_START_BAR:SM2
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING:HSS1
                         s1 * 7/20
@@ -343,7 +348,8 @@ def twentieth_music():
                             }
             <BLANKLINE>
                         % GlobalSkips [measure 2]                                          %! SM4
-                        \time 1/20                                                         %! SM1
+                        \time 1/20                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING:HSS1
                         s1 * 1/20
@@ -356,7 +362,8 @@ def twentieth_music():
                             }                                                              %! SEGMENT:SPACING_MARKUP:HSS2
             <BLANKLINE>
                         % GlobalSkips [measure 3]                                          %! SM4
-                        \time 3/20                                                         %! SM1
+                        \time 3/20                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING:HSS1
                         s1 * 3/20
@@ -369,7 +376,8 @@ def twentieth_music():
                             }                                                              %! SEGMENT:SPACING_MARKUP:HSS2
             <BLANKLINE>
                         % GlobalSkips [measure 4]                                          %! SM4
-                        \time 4/20                                                         %! SM1
+                        \time 4/20                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
+                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT:SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 50)   %! SEGMENT:SPACING:HSS1
                         s1 * 1/5

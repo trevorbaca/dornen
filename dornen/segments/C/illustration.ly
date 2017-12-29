@@ -14,8 +14,9 @@
             \context GlobalSkips = "GlobalSkips" {
                 
                 % GlobalSkips [measure 71]                                               %! SM4
-                \time 11/32                                                              %! SM1
+                \time 11/32                                                              %! EXPLICIT_TIME_SIGNATURE:SM8
                 \bar ""                                                                  %! EMPTY_START_BAR:SM2
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)         %! SEGMENT:SPACING:HSS1
                 s1 * 11/32
@@ -85,7 +86,8 @@
                 %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27
                 
                 % GlobalSkips [measure 72]                                               %! SM4
-                \time 11/64                                                              %! SM1
+                \time 11/64                                                              %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)         %! SEGMENT:SPACING:HSS1
                 s1 * 11/64
@@ -118,6 +120,7 @@
                     }
                 
                 % GlobalSkips [measure 73]                                               %! SM4
+                \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)         %! SEGMENT:SPACING:HSS1
                 s1 * 11/64
@@ -150,7 +153,8 @@
                     }
                 
                 % GlobalSkips [measure 74]                                               %! SM4
-                \time 5/32                                                               %! SM1
+                \time 5/32                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 5 224)        %! SEGMENT:SPACING:HSS1
                 s1 * 5/32
@@ -183,7 +187,8 @@
                     }
                 
                 % GlobalSkips [measure 75]                                               %! SM4
-                \time 6/32                                                               %! SM1
+                \time 6/32                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)         %! SEGMENT:SPACING:HSS1
                 s1 * 3/16
@@ -216,7 +221,8 @@
                     }
                 
                 % GlobalSkips [measure 76]                                               %! SM4
-                \time 3/16                                                               %! SM1
+                \time 3/16                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 3 256)        %! SEGMENT:SPACING:HSS1
                 s1 * 3/16
@@ -249,7 +255,8 @@
                     }
                 
                 % GlobalSkips [measure 77]                                               %! SM4
-                \time 9/64                                                               %! SM1
+                \time 9/64                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 96)         %! SEGMENT:SPACING:HSS1
                 s1 * 9/64
@@ -282,7 +289,8 @@
                     }
                 
                 % GlobalSkips [measure 78]                                               %! SM4
-                \time 3/8                                                                %! SM1
+                \time 3/8                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)         %! SEGMENT:SPACING:HSS1
                 s1 * 3/8
@@ -315,7 +323,8 @@
                     }
                 
                 % GlobalSkips [measure 79]                                               %! SM4
-                \time 4/5                                                                %! SM1
+                \time 4/5                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)         %! SEGMENT:SPACING:HSS1
                 s1 * 4/5
@@ -348,7 +357,8 @@
                     }
                 
                 % GlobalSkips [measure 80]                                               %! SM4
-                \time 5/32                                                               %! SM1
+                \time 5/32                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 96)         %! SEGMENT:SPACING:HSS1
                 s1 * 5/32
@@ -381,7 +391,8 @@
                     }
                 
                 % GlobalSkips [measure 81]                                               %! SM4
-                \time 9/32                                                               %! SM1
+                \time 9/32                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)         %! SEGMENT:SPACING:HSS1
                 s1 * 9/32
@@ -414,7 +425,8 @@
                     }
                 
                 % GlobalSkips [measure 82]                                               %! SM4
-                \time 2/16                                                               %! SM1
+                \time 2/16                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)         %! SEGMENT:SPACING:HSS1
                 s1 * 1/8
@@ -447,7 +459,8 @@
                     }
                 
                 % GlobalSkips [measure 83]                                               %! SM4
-                \time 12/32                                                              %! SM1
+                \time 12/32                                                              %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)         %! SEGMENT:SPACING:HSS1
                 s1 * 3/8
@@ -480,7 +493,8 @@
                     }
                 
                 % GlobalSkips [measure 84]                                               %! SM4
-                \time 2/16                                                               %! SM1
+                \time 2/16                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)         %! SEGMENT:SPACING:HSS1
                 s1 * 1/8
@@ -513,7 +527,8 @@
                     }
                 
                 % GlobalSkips [measure 85]                                               %! SM4
-                \time 5/32                                                               %! SM1
+                \time 5/32                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 80)         %! SEGMENT:SPACING:HSS1
                 s1 * 5/32
@@ -546,7 +561,8 @@
                     }
                 
                 % GlobalSkips [measure 86]                                               %! SM4
-                \time 3/16                                                               %! SM1
+                \time 3/16                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 3 256)        %! SEGMENT:SPACING:HSS1
                 s1 * 3/16
@@ -579,7 +595,8 @@
                     }
                 
                 % GlobalSkips [measure 87]                                               %! SM4
-                \time 3/8                                                                %! SM1
+                \time 3/8                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)         %! SEGMENT:SPACING:HSS1
                 s1 * 3/8
@@ -612,7 +629,8 @@
                     }
                 
                 % GlobalSkips [measure 88]                                               %! SM4
-                \time 4/5                                                                %! SM1
+                \time 4/5                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)         %! SEGMENT:SPACING:HSS1
                 s1 * 4/5
@@ -645,7 +663,8 @@
                     }
                 
                 % GlobalSkips [measure 89]                                               %! SM4
-                \time 9/64                                                               %! SM1
+                \time 9/64                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
+                \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 96)         %! SEGMENT:SPACING:HSS1
                 s1 * 9/64

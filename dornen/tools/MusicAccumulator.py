@@ -32,8 +32,8 @@ class MusicAccumulator(baca.MusicAccumulator):
                 \context Voice = "GuitarMusicVoiceI" {
                     {
                         {
-                            \set stemLeftBeamCount = #0
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 0
+                            \set stemRightBeamCount = 3
                             c'32 -\staccato %! IC [
                                 ^ \markup {                   %! FIGURE_NAME_MARKUP
                                     \fontsize                 %! FIGURE_NAME_MARKUP
@@ -52,32 +52,32 @@ class MusicAccumulator(baca.MusicAccumulator):
                                                 ]             %! FIGURE_NAME_MARKUP
                                             }                 %! FIGURE_NAME_MARKUP
                                     }                         %! FIGURE_NAME_MARKUP
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             cs'32 -\staccato %! IC
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             d'32 -\staccato %! IC
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             ef'32 -\staccato %! IC
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             e'32 -\staccato %! IC
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             f'32 -\staccato %! IC
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             fs'32 -\staccato %! IC
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             g'32 -\staccato %! IC
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #3
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 3
                             af'32 -\staccato %! IC
-                            \set stemLeftBeamCount = #3
-                            \set stemRightBeamCount = #0
+                            \set stemLeftBeamCount = 3
+                            \set stemRightBeamCount = 0
                             a'32 -\staccato %! IC ]
                         }
                     }

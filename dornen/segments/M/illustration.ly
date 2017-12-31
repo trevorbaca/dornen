@@ -1493,8 +1493,10 @@
                             \override Beam.positions = #'(10 . 10)                       %! OC
                             \set stemLeftBeamCount = 0
                             \set stemRightBeamCount = 3
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                             d'32.
                             -\tenuto                                                     %! IC
+                            _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:SM8
                             [
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC

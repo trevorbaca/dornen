@@ -20,6 +20,16 @@ metadata = abjad.TypedOrderedDict(
                             ],
                         ),
                     (
+                        'GuitarMusicVoiceI',
+                        [
+                            abjad.Momento(
+                                context='GuitarMusicVoiceI',
+                                prototype='abjad.Dynamic',
+                                value='niente',
+                                ),
+                            ],
+                        ),
+                    (
                         'Score',
                         [
                             abjad.Momento(

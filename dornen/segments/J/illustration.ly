@@ -899,8 +899,10 @@
                         \times 4/5 {
                             
                             % GuitarMusicVoiceI [measure 207]                            %! SM4
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
+                            \pp                                                          %! REAPPLIED_DYNAMIC:SM8
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -930,6 +932,7 @@
                         \times 4/5 {
                             
                             % GuitarMusicVoiceI [measure 208]                            %! SM4
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -964,6 +967,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 209]                            %! SM4
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -997,6 +1001,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 210]                            %! SM4
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1031,6 +1036,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 211]                            %! SM4
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1111,6 +1117,7 @@
                         \times 4/5 {
                             
                             % GuitarMusicVoiceI [measure 213]                            %! SM4
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1145,6 +1152,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 214]                            %! SM4
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1178,6 +1186,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 215]                            %! SM4
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1212,6 +1221,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 216]                            %! SM4
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1312,6 +1322,7 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1347,6 +1358,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 219]                            %! SM4
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1406,6 +1418,7 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1441,6 +1454,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 221]                            %! SM4
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1500,6 +1514,7 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1535,6 +1550,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 223]                            %! SM4
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1594,6 +1610,7 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1629,6 +1646,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 225]                            %! SM4
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1688,6 +1706,7 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1723,6 +1742,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 227]                            %! SM4
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1782,6 +1802,7 @@
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1941,6 +1962,7 @@
                                     }
                                 }
                             
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gtqf2
                             :32                                                          %! IC
                             \repeatTie

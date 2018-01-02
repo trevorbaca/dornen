@@ -925,7 +925,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 188]                            %! SM4
-                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1026,7 +1026,7 @@
                         \times 4/5 {
                             
                             % GuitarMusicVoiceI [measure 191]                            %! SM4
-                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1110,7 +1110,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 193]                            %! SM4
-                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1211,7 +1211,7 @@
                         \times 4/5 {
                             
                             % GuitarMusicVoiceI [measure 196]                            %! SM4
-                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1295,7 +1295,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 198]                            %! SM4
-                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1364,7 +1364,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 200]                            %! SM4
-                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gf2
                             :32                                                          %! IC
                             \repeatTie
@@ -1433,7 +1433,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 202]                            %! SM4
-                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             gf2
                             :32                                                          %! IC
                             \repeatTie

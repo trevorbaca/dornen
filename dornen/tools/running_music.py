@@ -149,8 +149,8 @@ def running_music():
                                 \set stemRightBeamCount = 4
                                 fs'64
                                 [
-                                (
-                                (
+                                (                                                          %! SC
+                                (                                                          %! SC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -176,8 +176,8 @@ def running_music():
                                 \set stemRightBeamCount = 0
                                 c'64
                                 ]
-                                )
-                                )
+                                )                                                          %! SC
+                                )                                                          %! SC
                             }
                             {
             <BLANKLINE>
@@ -192,8 +192,8 @@ def running_music():
                                 \set stemRightBeamCount = 4
                                 bf'64
                                 [
-                                (
-                                (
+                                (                                                          %! SC
+                                (                                                          %! SC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -215,8 +215,8 @@ def running_music():
                                 \set stemRightBeamCount = 0
                                 f'64
                                 ]
-                                )
-                                )
+                                )                                                          %! SC
+                                )                                                          %! SC
             <BLANKLINE>
                             }
                         }
@@ -357,7 +357,7 @@ def running_music():
                                 \set stemRightBeamCount = 4
                                 e'64
                                 [
-                                (
+                                (                                                          %! SC
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {
@@ -365,12 +365,12 @@ def running_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
                                 fs'64
-                                )
+                                )                                                          %! SC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 d'64
-                                (
+                                (                                                          %! SC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -387,12 +387,12 @@ def running_music():
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 af'64
-                                )
+                                )                                                          %! SC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 1
                                 c'64
-                                (
+                                (                                                          %! SC
                             }
                             {
             <BLANKLINE>
@@ -400,7 +400,7 @@ def running_music():
                                 \set stemRightBeamCount = 0
                                 b'64
                                 ]
-                                )
+                                )                                                          %! SC
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {
@@ -410,7 +410,7 @@ def running_music():
                                 \set stemRightBeamCount = 4
                                 fs'64
                                 [
-                                (
+                                (                                                          %! SC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -441,8 +441,8 @@ def running_music():
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 1
                                 b'64
-                                )
-                                (
+                                )                                                          %! SC
+                                (                                                          %! SC
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 5/6 {
@@ -471,7 +471,7 @@ def running_music():
                                 \set stemRightBeamCount = 0
                                 f'64
                                 ]
-                                )
+                                )                                                          %! SC
                             }
                             {
             <BLANKLINE>
@@ -480,7 +480,7 @@ def running_music():
                                 \set stemRightBeamCount = 4
                                 b'64
                                 [
-                                (
+                                (                                                          %! SC
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 5/6 {
@@ -488,12 +488,12 @@ def running_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
                                 bf'64
-                                )
+                                )                                                          %! SC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 g'64
-                                (
+                                (                                                          %! SC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -506,12 +506,12 @@ def running_music():
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 c'64
-                                )
+                                )                                                          %! SC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 1
                                 f'64
-                                (
+                                (                                                          %! SC
                             }
                             {
             <BLANKLINE>
@@ -519,7 +519,7 @@ def running_music():
                                 \set stemRightBeamCount = 0
                                 e'64
                                 ]
-                                )
+                                )                                                          %! SC
             <BLANKLINE>
                             }
                         }

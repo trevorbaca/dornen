@@ -83,7 +83,7 @@
                 %%%             =                                                        %! REAPPLIED_METRONOME_MARK:SM27
                 %%%             66                                                       %! REAPPLIED_METRONOME_MARK:SM27
                 %%%         }                                                            %! REAPPLIED_METRONOME_MARK:SM27
-                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27
+                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 304]                                              %! SM4
                 \time 3/20                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1764,51 +1764,51 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                         }
                     }
@@ -1826,7 +1826,7 @@
                             \set stemRightBeamCount = 3
                             e''32
                             [
-                            (
+                            (                                                            %! SC
                             
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
@@ -1840,7 +1840,7 @@
                             \set stemRightBeamCount = 0
                             c'''32
                             ]
-                            )
+                            )                                                            %! SC
                         }
                     }
                     
@@ -1854,7 +1854,7 @@
                             \set stemRightBeamCount = 3
                             e''32
                             [
-                            (
+                            (                                                            %! SC
                             
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
@@ -1868,7 +1868,7 @@
                             \set stemRightBeamCount = 0
                             c'''32
                             ]
-                            )
+                            )                                                            %! SC
                         }
                     }
                     
@@ -1882,7 +1882,7 @@
                             \set stemRightBeamCount = 3
                             e''32
                             [
-                            (
+                            (                                                            %! SC
                             
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
@@ -1896,7 +1896,7 @@
                             \set stemRightBeamCount = 0
                             c'''32
                             ]
-                            )
+                            )                                                            %! SC
                         }
                     }
                     
@@ -1910,7 +1910,7 @@
                             \set stemRightBeamCount = 3
                             e''32
                             [
-                            (
+                            (                                                            %! SC
                             
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
@@ -1924,7 +1924,7 @@
                             \set stemRightBeamCount = 0
                             c'''32
                             ]
-                            )
+                            )                                                            %! SC
                         }
                     }
                     
@@ -1938,7 +1938,7 @@
                             \set stemRightBeamCount = 3
                             e''32
                             [
-                            (
+                            (                                                            %! SC
                             
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
@@ -1952,7 +1952,7 @@
                             \set stemRightBeamCount = 0
                             c'''32
                             ]
-                            )
+                            )                                                            %! SC
                         }
                     }
                     
@@ -1966,7 +1966,7 @@
                             \set stemRightBeamCount = 3
                             e''32
                             [
-                            (
+                            (                                                            %! SC
                             
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
@@ -1980,7 +1980,7 @@
                             \set stemRightBeamCount = 0
                             c'''32
                             ]
-                            )
+                            )                                                            %! SC
                         }
                     }
                     

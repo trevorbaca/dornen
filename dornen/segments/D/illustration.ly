@@ -83,7 +83,7 @@
                 %%%             =                                                        %! REAPPLIED_METRONOME_MARK:SM27
                 %%%             66                                                       %! REAPPLIED_METRONOME_MARK:SM27
                 %%%         }                                                            %! REAPPLIED_METRONOME_MARK:SM27
-                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27
+                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 91]                                               %! SM4
                 \time 3/20                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1360,7 +1360,7 @@
                             \set stemRightBeamCount = 3
                             e''32
                             [
-                            (
+                            (                                                            %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1396,7 +1396,7 @@
                             \set stemRightBeamCount = 0
                             c'''32
                             ]
-                            )
+                            )                                                            %! SC
                         }
                     }
                     
@@ -1410,7 +1410,7 @@
                             \set stemRightBeamCount = 3
                             bf''32
                             [
-                            (
+                            (                                                            %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1446,7 +1446,7 @@
                             \set stemRightBeamCount = 0
                             b''32
                             ]
-                            )
+                            )                                                            %! SC
                         }
                     }
                     
@@ -1460,7 +1460,7 @@
                             \set stemRightBeamCount = 3
                             e''32
                             [
-                            (
+                            (                                                            %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1496,7 +1496,7 @@
                             \set stemRightBeamCount = 0
                             c'''32
                             ]
-                            )
+                            )                                                            %! SC
                         }
                     }
                     
@@ -1593,7 +1593,7 @@
                             \set stemRightBeamCount = 3
                             bf''32
                             [
-                            (
+                            (                                                            %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1629,7 +1629,7 @@
                             \set stemRightBeamCount = 0
                             b''32
                             ]
-                            )
+                            )                                                            %! SC
                         }
                     }
                     

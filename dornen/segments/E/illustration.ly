@@ -83,7 +83,7 @@
                 %%%             =                                                        %! REAPPLIED_METRONOME_MARK:SM27
                 %%%             66                                                       %! REAPPLIED_METRONOME_MARK:SM27
                 %%%         }                                                            %! REAPPLIED_METRONOME_MARK:SM27
-                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27
+                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 121]                                              %! SM4
                 \time 1/16                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -392,7 +392,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             44                                                       %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 129]                                              %! SM4
                 \time 40/64                                                              %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -588,7 +588,7 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 4
                             a'64
-                            (
+                            (                                                            %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -632,12 +632,12 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 4
                             bf'64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
                             cs''64
-                            (
+                            (                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
@@ -646,12 +646,12 @@
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
                             fs''64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 1
                             g''64
-                            (
+                            (                                                            %! SC
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
@@ -671,7 +671,7 @@
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 1
                             fs''64
-                            )
+                            )                                                            %! SC
                         }
                     }
                     

@@ -132,9 +132,9 @@ def ovoid_music():
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    c'16 [
+                                    c'16 [                                                 %! ACC1
             <BLANKLINE>
-                                    bf'16 ]
+                                    bf'16 ]                                                %! ACC1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
@@ -152,9 +152,9 @@ def ovoid_music():
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    c'16 [
+                                    c'16 [                                                 %! ACC1
             <BLANKLINE>
-                                    bf'16 ]
+                                    bf'16 ]                                                %! ACC1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
@@ -169,9 +169,9 @@ def ovoid_music():
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    fs'16 [
+                                    fs'16 [                                                %! ACC1
             <BLANKLINE>
-                                    b'16 ]
+                                    b'16 ]                                                 %! ACC1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
@@ -189,9 +189,9 @@ def ovoid_music():
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    fs'16 [
+                                    fs'16 [                                                %! ACC1
             <BLANKLINE>
-                                    b'16 ]
+                                    b'16 ]                                                 %! ACC1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
@@ -206,9 +206,9 @@ def ovoid_music():
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    ef'16 [
+                                    ef'16 [                                                %! ACC1
             <BLANKLINE>
-                                    a'16 ]
+                                    a'16 ]                                                 %! ACC1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
@@ -226,9 +226,9 @@ def ovoid_music():
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    ef'16 [
+                                    ef'16 [                                                %! ACC1
             <BLANKLINE>
-                                    a'16 ]
+                                    a'16 ]                                                 %! ACC1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
@@ -243,9 +243,9 @@ def ovoid_music():
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    b'16 [
+                                    b'16 [                                                 %! ACC1
             <BLANKLINE>
-                                    d'16 ]
+                                    d'16 ]                                                 %! ACC1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
@@ -263,9 +263,9 @@ def ovoid_music():
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    b'16 [
+                                    b'16 [                                                 %! ACC1
             <BLANKLINE>
-                                    d'16 ]
+                                    d'16 ]                                                 %! ACC1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3

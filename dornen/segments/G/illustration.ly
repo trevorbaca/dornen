@@ -83,7 +83,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             66                                                       %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 156]                                              %! SM4
                 \time 2/16                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -478,7 +478,7 @@
                             \set stemRightBeamCount = 2
                             g'16
                             [
-                            \glissando
+                            \glissando                                                   %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -517,7 +517,7 @@
                             \set stemRightBeamCount = 2
                             af'16
                             [
-                            \glissando
+                            \glissando                                                   %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -539,22 +539,22 @@
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             f''16
-                            \glissando
+                            \glissando                                                   %! SC
                             
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             cs''16
-                            \glissando
+                            \glissando                                                   %! SC
                             
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 2
                             b''32
-                            \glissando
+                            \glissando                                                   %! SC
                             
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             c''16
-                            \glissando
+                            \glissando                                                   %! SC
                             
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 1
@@ -573,7 +573,7 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 2
                             b'16
-                            \glissando
+                            \glissando                                                   %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -595,12 +595,12 @@
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             cs'''16
-                            \glissando
+                            \glissando                                                   %! SC
                             
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             e'16
-                            \glissando
+                            \glissando                                                   %! SC
                             
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 0
@@ -640,9 +640,9 @@
                             
                             \acciaccatura {
                                 
-                                ef'16 [
+                                ef'16 [                                                  %! ACC1
                                 
-                                fs'16 ]
+                                fs'16 ]                                                  %! ACC1
                                 
                             }
                             \set stemLeftBeamCount = 3
@@ -684,13 +684,13 @@
                             
                             \acciaccatura {
                                 
-                                a'16 [
+                                a'16 [                                                   %! ACC1
                                 
                                 g'16
                                 
                                 bf'16
                                 
-                                ef''16 ]
+                                ef''16 ]                                                 %! ACC1
                                 
                             }
                             \set stemLeftBeamCount = 3
@@ -729,13 +729,13 @@
                             
                             \acciaccatura {
                                 
-                                ef''16 [
+                                ef''16 [                                                 %! ACC1
                                 
                                 c''16
                                 
                                 d''16
                                 
-                                g''16 ]
+                                g''16 ]                                                  %! ACC1
                                 
                             }
                             \set stemLeftBeamCount = 3

@@ -23,67 +23,66 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.1]                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            \line                                                        %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                {                                                        %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                    \with-color                                          %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                        #(x11-color 'green4)                             %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                        {                                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                            \fontsize                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                                #-6                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                                \general-align                           %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                                    #Y                                   %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                                    #DOWN                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                                    \note-by-number                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                                        #3                               %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                                        #0                               %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                                        #1                               %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                            \upright                                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                                {                                        %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                                    =                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                                    66                                   %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                                }                                        %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                        }                                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                }                                                        %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'06''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.1]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'06''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
-                %%% ^ \markup {                                                          %! REAPPLIED_METRONOME_MARK:SM27
-                %%%     \fontsize                                                        %! REAPPLIED_METRONOME_MARK:SM27
-                %%%         #-6                                                          %! REAPPLIED_METRONOME_MARK:SM27
-                %%%         \general-align                                               %! REAPPLIED_METRONOME_MARK:SM27
-                %%%             #Y                                                       %! REAPPLIED_METRONOME_MARK:SM27
-                %%%             #DOWN                                                    %! REAPPLIED_METRONOME_MARK:SM27
-                %%%             \note-by-number                                          %! REAPPLIED_METRONOME_MARK:SM27
-                %%%                 #3                                                   %! REAPPLIED_METRONOME_MARK:SM27
-                %%%                 #0                                                   %! REAPPLIED_METRONOME_MARK:SM27
-                %%%                 #1                                                   %! REAPPLIED_METRONOME_MARK:SM27
-                %%%     \upright                                                         %! REAPPLIED_METRONOME_MARK:SM27
-                %%%         {                                                            %! REAPPLIED_METRONOME_MARK:SM27
-                %%%             =                                                        %! REAPPLIED_METRONOME_MARK:SM27
-                %%%             66                                                       %! REAPPLIED_METRONOME_MARK:SM27
-                %%%         }                                                            %! REAPPLIED_METRONOME_MARK:SM27
-                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27 %! SM29
+                %%% ^ \markup {                                                          %! REAPPLIED_METRONOME_MARK:SM27                %! SM29
+                %%%     \fontsize                                                        %! REAPPLIED_METRONOME_MARK:SM27                %! SM29
+                %%%         #-6                                                          %! REAPPLIED_METRONOME_MARK:SM27                %! SM29
+                %%%         \general-align                                               %! REAPPLIED_METRONOME_MARK:SM27                %! SM29
+                %%%             #Y                                                       %! REAPPLIED_METRONOME_MARK:SM27                %! SM29
+                %%%             #DOWN                                                    %! REAPPLIED_METRONOME_MARK:SM27                %! SM29
+                %%%             \note-by-number                                          %! REAPPLIED_METRONOME_MARK:SM27                %! SM29
+                %%%                 #3                                                   %! REAPPLIED_METRONOME_MARK:SM27                %! SM29
+                %%%                 #0                                                   %! REAPPLIED_METRONOME_MARK:SM27                %! SM29
+                %%%                 #1                                                   %! REAPPLIED_METRONOME_MARK:SM27                %! SM29
+                %%%     \upright                                                         %! REAPPLIED_METRONOME_MARK:SM27                %! SM29
+                %%%         {                                                            %! REAPPLIED_METRONOME_MARK:SM27                %! SM29
+                %%%             =                                                        %! REAPPLIED_METRONOME_MARK:SM27                %! SM29
+                %%%             66                                                       %! REAPPLIED_METRONOME_MARK:SM27                %! SM29
+                %%%         }                                                            %! REAPPLIED_METRONOME_MARK:SM27                %! SM29
+                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27                %! SM29
+                ^ \markup {                                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                    \with-color                                                          %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                        #(x11-color 'green4)                                             %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                        {                                                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                            \fontsize                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                                #-6                                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                                \general-align                                           %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                                    #Y                                                   %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                                    #DOWN                                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                                    \note-by-number                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                                        #3                                               %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                                        #0                                               %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                                        #1                                               %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                            \upright                                                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                                {                                                        %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                                    =                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                                    66                                                   %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                                }                                                        %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                        }                                                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                    }                                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
                 
                 % GlobalSkips [measure 186]                                              %! SM4
                 \time 4/5                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -94,28 +93,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.2]                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'08''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.2]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'08''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -128,28 +127,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.3]                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'14''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.3]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'14''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -162,28 +161,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.4]                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'17''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.4]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'17''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -195,28 +194,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.5]                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'19''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.5]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'19''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -228,28 +227,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.6]                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'22''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.6]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'22''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -262,28 +261,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.7]                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'24''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.7]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'24''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -295,28 +294,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.8]                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'27''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.8]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'27''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -329,28 +328,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.9]                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'30''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.9]                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'30''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -362,28 +361,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.10]                                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'32''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.10]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'32''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -395,28 +394,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.11]                                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'35''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.11]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'35''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -429,28 +428,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.12]                                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'37''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.12]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'37''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -462,28 +461,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.13]                                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'40''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.13]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'40''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -496,28 +495,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.14]                                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'43''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.14]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'43''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -530,28 +529,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.15]                                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'46''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.15]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'46''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -564,28 +563,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.16]                                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'48''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.16]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'48''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -598,28 +597,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.17]                                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'51''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.17]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'51''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -632,28 +631,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.18]                                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'54''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.18]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'54''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -665,28 +664,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.19]                                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'56''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.19]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'56''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -698,28 +697,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.20]                                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             6'59''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.20]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'59''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -732,28 +731,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.21]                                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             7'01''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.21]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             7'01''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 
@@ -765,28 +764,28 @@
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     {                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%%         \fontsize                                        %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             #-3                                          %! STAGE_NUMBER_MARKUP:SM3
-                            %%%             \with-color                                  %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%                 [I.22]                                   %! STAGE_NUMBER_MARKUP:SM3
-                            %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-                            %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
-                            %%%             #-2                                          %! CLOCK_TIME_MARKUP:SM28
-                            %%%             7'07''                                       %! CLOCK_TIME_MARKUP:SM28
-                            %%%     }                                                    %! CLOCK_TIME_MARKUP:SM28
-                            %%% \line                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     {                                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%         \with-color                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             #(x11-color 'DarkCyan)                       %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%             \fontsize                                    %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 #-3                                      %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%                 (1/12)                                   %! SEGMENT:SPACING_MARKUP:HSS2
-                            %%%     }                                                    %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%                 [I.22]                                       %! STAGE_NUMBER_MARKUP:SM3
+                        %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             7'07''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%% \line                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     {                                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%         \with-color                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             #(x11-color 'DarkCyan)                           %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%             \fontsize                                        %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 #-3                                          %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%                 (1/12)                                       %! SEGMENT:SPACING_MARKUP:HSS2
+                        %%%     }                                                        %! SEGMENT:SPACING_MARKUP:HSS2
                         }
                     }
                 \override Score.BarLine.transparent = ##f                                %! SM5
@@ -802,28 +801,28 @@
                             
                             % GuitarMusicVoiceI [measure 185]                            %! SM4
                             r8
-                            %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-                            %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-                            %%%         #2                                               %! FIGURE_NAME_MARKUP
-                            %%%         \concat                                          %! FIGURE_NAME_MARKUP
-                            %%%             {                                            %! FIGURE_NAME_MARKUP
-                            %%%                 [                                        %! FIGURE_NAME_MARKUP
-                            %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-                            %%%                     {                                    %! FIGURE_NAME_MARKUP
-                            %%%                         R                                %! FIGURE_NAME_MARKUP
-                            %%%                         \sub                             %! FIGURE_NAME_MARKUP
-                            %%%                             1                            %! FIGURE_NAME_MARKUP
-                            %%%                     }                                    %! FIGURE_NAME_MARKUP
-                            %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-                            %%%                     #1                                   %! FIGURE_NAME_MARKUP
-                            %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-                            %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-                            %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-                            %%%                         #-2                              %! FIGURE_NAME_MARKUP
-                            %%%                         (0)                              %! FIGURE_NAME_MARKUP
-                            %%%                 ]                                        %! FIGURE_NAME_MARKUP
-                            %%%             }                                            %! FIGURE_NAME_MARKUP
-                            %%%     }                                                    %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 \concat                                      %! FIGURE_NAME_MARKUP
+                        %%%                     {                                        %! FIGURE_NAME_MARKUP
+                        %%%                         R                                    %! FIGURE_NAME_MARKUP
+                        %%%                         \sub                                 %! FIGURE_NAME_MARKUP
+                        %%%                             1                                %! FIGURE_NAME_MARKUP
+                        %%%                     }                                        %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (0)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                             
                             r8
                             
@@ -852,29 +851,29 @@
                                                             \box                         %! IC
                                                                 "2-finger tamb. trill"   %! IC
                                             }                                            %! IC
-                                        %%% \line                                        %! FIGURE_NAME_MARKUP
-                                        %%%     {                                        %! FIGURE_NAME_MARKUP
-                                        %%%         \fontsize                            %! FIGURE_NAME_MARKUP
-                                        %%%             #2                               %! FIGURE_NAME_MARKUP
-                                        %%%             \concat                          %! FIGURE_NAME_MARKUP
-                                        %%%                 {                            %! FIGURE_NAME_MARKUP
-                                        %%%                     [                        %! FIGURE_NAME_MARKUP
-                                        %%%                     \concat                  %! FIGURE_NAME_MARKUP
-                                        %%%                         {                    %! FIGURE_NAME_MARKUP
-                                        %%%                             2                %! FIGURE_NAME_MARKUP
-                                        %%%                             \sub             %! FIGURE_NAME_MARKUP
-                                        %%%                                 1            %! FIGURE_NAME_MARKUP
-                                        %%%                         }                    %! FIGURE_NAME_MARKUP
-                                        %%%                     \hspace                  %! FIGURE_NAME_MARKUP
-                                        %%%                         #1                   %! FIGURE_NAME_MARKUP
-                                        %%%                     \raise                   %! FIGURE_NAME_MARKUP
-                                        %%%                         #0.25                %! FIGURE_NAME_MARKUP
-                                        %%%                         \fontsize            %! FIGURE_NAME_MARKUP
-                                        %%%                             #-2              %! FIGURE_NAME_MARKUP
-                                        %%%                             (1)              %! FIGURE_NAME_MARKUP
-                                        %%%                     ]                        %! FIGURE_NAME_MARKUP
-                                        %%%                 }                            %! FIGURE_NAME_MARKUP
-                                        %%%     }                                        %! FIGURE_NAME_MARKUP
+                                    %%% \line                                            %! FIGURE_NAME_MARKUP
+                                    %%%     {                                            %! FIGURE_NAME_MARKUP
+                                    %%%         \fontsize                                %! FIGURE_NAME_MARKUP
+                                    %%%             #2                                   %! FIGURE_NAME_MARKUP
+                                    %%%             \concat                              %! FIGURE_NAME_MARKUP
+                                    %%%                 {                                %! FIGURE_NAME_MARKUP
+                                    %%%                     [                            %! FIGURE_NAME_MARKUP
+                                    %%%                     \concat                      %! FIGURE_NAME_MARKUP
+                                    %%%                         {                        %! FIGURE_NAME_MARKUP
+                                    %%%                             2                    %! FIGURE_NAME_MARKUP
+                                    %%%                             \sub                 %! FIGURE_NAME_MARKUP
+                                    %%%                                 1                %! FIGURE_NAME_MARKUP
+                                    %%%                         }                        %! FIGURE_NAME_MARKUP
+                                    %%%                     \hspace                      %! FIGURE_NAME_MARKUP
+                                    %%%                         #1                       %! FIGURE_NAME_MARKUP
+                                    %%%                     \raise                       %! FIGURE_NAME_MARKUP
+                                    %%%                         #0.25                    %! FIGURE_NAME_MARKUP
+                                    %%%                         \fontsize                %! FIGURE_NAME_MARKUP
+                                    %%%                             #-2                  %! FIGURE_NAME_MARKUP
+                                    %%%                             (1)                  %! FIGURE_NAME_MARKUP
+                                    %%%                     ]                            %! FIGURE_NAME_MARKUP
+                                    %%%                 }                                %! FIGURE_NAME_MARKUP
+                                    %%%     }                                            %! FIGURE_NAME_MARKUP
                                     }
                                 }
                         }
@@ -896,28 +895,28 @@
                             :32                                                          %! IC
                             \repeatTie                                                   %! SC
                             \pp
-                            %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-                            %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-                            %%%         #2                                               %! FIGURE_NAME_MARKUP
-                            %%%         \concat                                          %! FIGURE_NAME_MARKUP
-                            %%%             {                                            %! FIGURE_NAME_MARKUP
-                            %%%                 [                                        %! FIGURE_NAME_MARKUP
-                            %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-                            %%%                     {                                    %! FIGURE_NAME_MARKUP
-                            %%%                         2                                %! FIGURE_NAME_MARKUP
-                            %%%                         \sub                             %! FIGURE_NAME_MARKUP
-                            %%%                             2                            %! FIGURE_NAME_MARKUP
-                            %%%                     }                                    %! FIGURE_NAME_MARKUP
-                            %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-                            %%%                     #1                                   %! FIGURE_NAME_MARKUP
-                            %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-                            %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-                            %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-                            %%%                         #-2                              %! FIGURE_NAME_MARKUP
-                            %%%                         (2)                              %! FIGURE_NAME_MARKUP
-                            %%%                 ]                                        %! FIGURE_NAME_MARKUP
-                            %%%             }                                            %! FIGURE_NAME_MARKUP
-                            %%%     }                                                    %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 \concat                                      %! FIGURE_NAME_MARKUP
+                        %%%                     {                                        %! FIGURE_NAME_MARKUP
+                        %%%                         2                                    %! FIGURE_NAME_MARKUP
+                        %%%                         \sub                                 %! FIGURE_NAME_MARKUP
+                        %%%                             2                                %! FIGURE_NAME_MARKUP
+                        %%%                     }                                        %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (2)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                         }
                     }
                     {
@@ -931,28 +930,28 @@
                             \repeatTie                                                   %! SC
                             \>
                             \pp
-                            %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-                            %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-                            %%%         #2                                               %! FIGURE_NAME_MARKUP
-                            %%%         \concat                                          %! FIGURE_NAME_MARKUP
-                            %%%             {                                            %! FIGURE_NAME_MARKUP
-                            %%%                 [                                        %! FIGURE_NAME_MARKUP
-                            %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-                            %%%                     {                                    %! FIGURE_NAME_MARKUP
-                            %%%                         2                                %! FIGURE_NAME_MARKUP
-                            %%%                         \sub                             %! FIGURE_NAME_MARKUP
-                            %%%                             3                            %! FIGURE_NAME_MARKUP
-                            %%%                     }                                    %! FIGURE_NAME_MARKUP
-                            %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-                            %%%                     #1                                   %! FIGURE_NAME_MARKUP
-                            %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-                            %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-                            %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-                            %%%                         #-2                              %! FIGURE_NAME_MARKUP
-                            %%%                         (3)                              %! FIGURE_NAME_MARKUP
-                            %%%                 ]                                        %! FIGURE_NAME_MARKUP
-                            %%%             }                                            %! FIGURE_NAME_MARKUP
-                            %%%     }                                                    %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 \concat                                      %! FIGURE_NAME_MARKUP
+                        %%%                     {                                        %! FIGURE_NAME_MARKUP
+                        %%%                         2                                    %! FIGURE_NAME_MARKUP
+                        %%%                         \sub                                 %! FIGURE_NAME_MARKUP
+                        %%%                             3                                %! FIGURE_NAME_MARKUP
+                        %%%                     }                                        %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (3)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                         }
                     }
                     {
@@ -965,28 +964,28 @@
                             :32                                                          %! IC
                             \repeatTie                                                   %! SC
                             \ppp
-                            %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-                            %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-                            %%%         #2                                               %! FIGURE_NAME_MARKUP
-                            %%%         \concat                                          %! FIGURE_NAME_MARKUP
-                            %%%             {                                            %! FIGURE_NAME_MARKUP
-                            %%%                 [                                        %! FIGURE_NAME_MARKUP
-                            %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-                            %%%                     {                                    %! FIGURE_NAME_MARKUP
-                            %%%                         2                                %! FIGURE_NAME_MARKUP
-                            %%%                         \sub                             %! FIGURE_NAME_MARKUP
-                            %%%                             4                            %! FIGURE_NAME_MARKUP
-                            %%%                     }                                    %! FIGURE_NAME_MARKUP
-                            %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-                            %%%                     #1                                   %! FIGURE_NAME_MARKUP
-                            %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-                            %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-                            %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-                            %%%                         #-2                              %! FIGURE_NAME_MARKUP
-                            %%%                         (4)                              %! FIGURE_NAME_MARKUP
-                            %%%                 ]                                        %! FIGURE_NAME_MARKUP
-                            %%%             }                                            %! FIGURE_NAME_MARKUP
-                            %%%     }                                                    %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 \concat                                      %! FIGURE_NAME_MARKUP
+                        %%%                     {                                        %! FIGURE_NAME_MARKUP
+                        %%%                         2                                    %! FIGURE_NAME_MARKUP
+                        %%%                         \sub                                 %! FIGURE_NAME_MARKUP
+                        %%%                             4                                %! FIGURE_NAME_MARKUP
+                        %%%                     }                                        %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (4)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                         }
                     }
                     {
@@ -997,28 +996,28 @@
                             gf2
                             :32                                                          %! IC
                             \repeatTie                                                   %! SC
-                            %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-                            %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-                            %%%         #2                                               %! FIGURE_NAME_MARKUP
-                            %%%         \concat                                          %! FIGURE_NAME_MARKUP
-                            %%%             {                                            %! FIGURE_NAME_MARKUP
-                            %%%                 [                                        %! FIGURE_NAME_MARKUP
-                            %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-                            %%%                     {                                    %! FIGURE_NAME_MARKUP
-                            %%%                         2                                %! FIGURE_NAME_MARKUP
-                            %%%                         \sub                             %! FIGURE_NAME_MARKUP
-                            %%%                             5                            %! FIGURE_NAME_MARKUP
-                            %%%                     }                                    %! FIGURE_NAME_MARKUP
-                            %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-                            %%%                     #1                                   %! FIGURE_NAME_MARKUP
-                            %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-                            %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-                            %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-                            %%%                         #-2                              %! FIGURE_NAME_MARKUP
-                            %%%                         (5)                              %! FIGURE_NAME_MARKUP
-                            %%%                 ]                                        %! FIGURE_NAME_MARKUP
-                            %%%             }                                            %! FIGURE_NAME_MARKUP
-                            %%%     }                                                    %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 \concat                                      %! FIGURE_NAME_MARKUP
+                        %%%                     {                                        %! FIGURE_NAME_MARKUP
+                        %%%                         2                                    %! FIGURE_NAME_MARKUP
+                        %%%                         \sub                                 %! FIGURE_NAME_MARKUP
+                        %%%                             5                                %! FIGURE_NAME_MARKUP
+                        %%%                     }                                        %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (5)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                         }
                     }
                     {
@@ -1044,29 +1043,29 @@
                                                             \box                         %! IC
                                                                 "3 fingers"              %! IC
                                             }                                            %! IC
-                                        %%% \line                                        %! FIGURE_NAME_MARKUP
-                                        %%%     {                                        %! FIGURE_NAME_MARKUP
-                                        %%%         \fontsize                            %! FIGURE_NAME_MARKUP
-                                        %%%             #2                               %! FIGURE_NAME_MARKUP
-                                        %%%             \concat                          %! FIGURE_NAME_MARKUP
-                                        %%%                 {                            %! FIGURE_NAME_MARKUP
-                                        %%%                     [                        %! FIGURE_NAME_MARKUP
-                                        %%%                     \concat                  %! FIGURE_NAME_MARKUP
-                                        %%%                         {                    %! FIGURE_NAME_MARKUP
-                                        %%%                             3                %! FIGURE_NAME_MARKUP
-                                        %%%                             \sub             %! FIGURE_NAME_MARKUP
-                                        %%%                                 1            %! FIGURE_NAME_MARKUP
-                                        %%%                         }                    %! FIGURE_NAME_MARKUP
-                                        %%%                     \hspace                  %! FIGURE_NAME_MARKUP
-                                        %%%                         #1                   %! FIGURE_NAME_MARKUP
-                                        %%%                     \raise                   %! FIGURE_NAME_MARKUP
-                                        %%%                         #0.25                %! FIGURE_NAME_MARKUP
-                                        %%%                         \fontsize            %! FIGURE_NAME_MARKUP
-                                        %%%                             #-2              %! FIGURE_NAME_MARKUP
-                                        %%%                             (6)              %! FIGURE_NAME_MARKUP
-                                        %%%                     ]                        %! FIGURE_NAME_MARKUP
-                                        %%%                 }                            %! FIGURE_NAME_MARKUP
-                                        %%%     }                                        %! FIGURE_NAME_MARKUP
+                                    %%% \line                                            %! FIGURE_NAME_MARKUP
+                                    %%%     {                                            %! FIGURE_NAME_MARKUP
+                                    %%%         \fontsize                                %! FIGURE_NAME_MARKUP
+                                    %%%             #2                                   %! FIGURE_NAME_MARKUP
+                                    %%%             \concat                              %! FIGURE_NAME_MARKUP
+                                    %%%                 {                                %! FIGURE_NAME_MARKUP
+                                    %%%                     [                            %! FIGURE_NAME_MARKUP
+                                    %%%                     \concat                      %! FIGURE_NAME_MARKUP
+                                    %%%                         {                        %! FIGURE_NAME_MARKUP
+                                    %%%                             3                    %! FIGURE_NAME_MARKUP
+                                    %%%                             \sub                 %! FIGURE_NAME_MARKUP
+                                    %%%                                 1                %! FIGURE_NAME_MARKUP
+                                    %%%                         }                        %! FIGURE_NAME_MARKUP
+                                    %%%                     \hspace                      %! FIGURE_NAME_MARKUP
+                                    %%%                         #1                       %! FIGURE_NAME_MARKUP
+                                    %%%                     \raise                       %! FIGURE_NAME_MARKUP
+                                    %%%                         #0.25                    %! FIGURE_NAME_MARKUP
+                                    %%%                         \fontsize                %! FIGURE_NAME_MARKUP
+                                    %%%                             #-2                  %! FIGURE_NAME_MARKUP
+                                    %%%                             (6)                  %! FIGURE_NAME_MARKUP
+                                    %%%                     ]                            %! FIGURE_NAME_MARKUP
+                                    %%%                 }                                %! FIGURE_NAME_MARKUP
+                                    %%%     }                                            %! FIGURE_NAME_MARKUP
                                     }
                                 }
                         }
@@ -1081,28 +1080,28 @@
                             :32                                                          %! IC
                             \repeatTie                                                   %! SC
                             \p
-                            %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-                            %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-                            %%%         #2                                               %! FIGURE_NAME_MARKUP
-                            %%%         \concat                                          %! FIGURE_NAME_MARKUP
-                            %%%             {                                            %! FIGURE_NAME_MARKUP
-                            %%%                 [                                        %! FIGURE_NAME_MARKUP
-                            %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-                            %%%                     {                                    %! FIGURE_NAME_MARKUP
-                            %%%                         3                                %! FIGURE_NAME_MARKUP
-                            %%%                         \sub                             %! FIGURE_NAME_MARKUP
-                            %%%                             2                            %! FIGURE_NAME_MARKUP
-                            %%%                     }                                    %! FIGURE_NAME_MARKUP
-                            %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-                            %%%                     #1                                   %! FIGURE_NAME_MARKUP
-                            %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-                            %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-                            %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-                            %%%                         #-2                              %! FIGURE_NAME_MARKUP
-                            %%%                         (7)                              %! FIGURE_NAME_MARKUP
-                            %%%                 ]                                        %! FIGURE_NAME_MARKUP
-                            %%%             }                                            %! FIGURE_NAME_MARKUP
-                            %%%     }                                                    %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 \concat                                      %! FIGURE_NAME_MARKUP
+                        %%%                     {                                        %! FIGURE_NAME_MARKUP
+                        %%%                         3                                    %! FIGURE_NAME_MARKUP
+                        %%%                         \sub                                 %! FIGURE_NAME_MARKUP
+                        %%%                             2                                %! FIGURE_NAME_MARKUP
+                        %%%                     }                                        %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (7)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                         }
                     }
                     {
@@ -1116,28 +1115,28 @@
                             \repeatTie                                                   %! SC
                             \>
                             \p
-                            %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-                            %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-                            %%%         #2                                               %! FIGURE_NAME_MARKUP
-                            %%%         \concat                                          %! FIGURE_NAME_MARKUP
-                            %%%             {                                            %! FIGURE_NAME_MARKUP
-                            %%%                 [                                        %! FIGURE_NAME_MARKUP
-                            %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-                            %%%                     {                                    %! FIGURE_NAME_MARKUP
-                            %%%                         3                                %! FIGURE_NAME_MARKUP
-                            %%%                         \sub                             %! FIGURE_NAME_MARKUP
-                            %%%                             3                            %! FIGURE_NAME_MARKUP
-                            %%%                     }                                    %! FIGURE_NAME_MARKUP
-                            %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-                            %%%                     #1                                   %! FIGURE_NAME_MARKUP
-                            %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-                            %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-                            %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-                            %%%                         #-2                              %! FIGURE_NAME_MARKUP
-                            %%%                         (8)                              %! FIGURE_NAME_MARKUP
-                            %%%                 ]                                        %! FIGURE_NAME_MARKUP
-                            %%%             }                                            %! FIGURE_NAME_MARKUP
-                            %%%     }                                                    %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 \concat                                      %! FIGURE_NAME_MARKUP
+                        %%%                     {                                        %! FIGURE_NAME_MARKUP
+                        %%%                         3                                    %! FIGURE_NAME_MARKUP
+                        %%%                         \sub                                 %! FIGURE_NAME_MARKUP
+                        %%%                             3                                %! FIGURE_NAME_MARKUP
+                        %%%                     }                                        %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (8)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                         }
                     }
                     {
@@ -1150,28 +1149,28 @@
                             :32                                                          %! IC
                             \repeatTie                                                   %! SC
                             \ppp
-                            %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-                            %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-                            %%%         #2                                               %! FIGURE_NAME_MARKUP
-                            %%%         \concat                                          %! FIGURE_NAME_MARKUP
-                            %%%             {                                            %! FIGURE_NAME_MARKUP
-                            %%%                 [                                        %! FIGURE_NAME_MARKUP
-                            %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-                            %%%                     {                                    %! FIGURE_NAME_MARKUP
-                            %%%                         3                                %! FIGURE_NAME_MARKUP
-                            %%%                         \sub                             %! FIGURE_NAME_MARKUP
-                            %%%                             4                            %! FIGURE_NAME_MARKUP
-                            %%%                     }                                    %! FIGURE_NAME_MARKUP
-                            %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-                            %%%                     #1                                   %! FIGURE_NAME_MARKUP
-                            %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-                            %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-                            %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-                            %%%                         #-2                              %! FIGURE_NAME_MARKUP
-                            %%%                         (9)                              %! FIGURE_NAME_MARKUP
-                            %%%                 ]                                        %! FIGURE_NAME_MARKUP
-                            %%%             }                                            %! FIGURE_NAME_MARKUP
-                            %%%     }                                                    %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 \concat                                      %! FIGURE_NAME_MARKUP
+                        %%%                     {                                        %! FIGURE_NAME_MARKUP
+                        %%%                         3                                    %! FIGURE_NAME_MARKUP
+                        %%%                         \sub                                 %! FIGURE_NAME_MARKUP
+                        %%%                             4                                %! FIGURE_NAME_MARKUP
+                        %%%                     }                                        %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (9)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                         }
                     }
                     {
@@ -1182,28 +1181,28 @@
                             gf2
                             :32                                                          %! IC
                             \repeatTie                                                   %! SC
-                            %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-                            %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-                            %%%         #2                                               %! FIGURE_NAME_MARKUP
-                            %%%         \concat                                          %! FIGURE_NAME_MARKUP
-                            %%%             {                                            %! FIGURE_NAME_MARKUP
-                            %%%                 [                                        %! FIGURE_NAME_MARKUP
-                            %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-                            %%%                     {                                    %! FIGURE_NAME_MARKUP
-                            %%%                         3                                %! FIGURE_NAME_MARKUP
-                            %%%                         \sub                             %! FIGURE_NAME_MARKUP
-                            %%%                             5                            %! FIGURE_NAME_MARKUP
-                            %%%                     }                                    %! FIGURE_NAME_MARKUP
-                            %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-                            %%%                     #1                                   %! FIGURE_NAME_MARKUP
-                            %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-                            %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-                            %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-                            %%%                         #-2                              %! FIGURE_NAME_MARKUP
-                            %%%                         (10)                             %! FIGURE_NAME_MARKUP
-                            %%%                 ]                                        %! FIGURE_NAME_MARKUP
-                            %%%             }                                            %! FIGURE_NAME_MARKUP
-                            %%%     }                                                    %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 \concat                                      %! FIGURE_NAME_MARKUP
+                        %%%                     {                                        %! FIGURE_NAME_MARKUP
+                        %%%                         3                                    %! FIGURE_NAME_MARKUP
+                        %%%                         \sub                                 %! FIGURE_NAME_MARKUP
+                        %%%                             5                                %! FIGURE_NAME_MARKUP
+                        %%%                     }                                        %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (10)                                 %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                         }
                     }
                     {
@@ -1229,29 +1228,29 @@
                                                             \box                         %! IC
                                                                 "4 fingers"              %! IC
                                             }                                            %! IC
-                                        %%% \line                                        %! FIGURE_NAME_MARKUP
-                                        %%%     {                                        %! FIGURE_NAME_MARKUP
-                                        %%%         \fontsize                            %! FIGURE_NAME_MARKUP
-                                        %%%             #2                               %! FIGURE_NAME_MARKUP
-                                        %%%             \concat                          %! FIGURE_NAME_MARKUP
-                                        %%%                 {                            %! FIGURE_NAME_MARKUP
-                                        %%%                     [                        %! FIGURE_NAME_MARKUP
-                                        %%%                     \concat                  %! FIGURE_NAME_MARKUP
-                                        %%%                         {                    %! FIGURE_NAME_MARKUP
-                                        %%%                             4                %! FIGURE_NAME_MARKUP
-                                        %%%                             \sub             %! FIGURE_NAME_MARKUP
-                                        %%%                                 1            %! FIGURE_NAME_MARKUP
-                                        %%%                         }                    %! FIGURE_NAME_MARKUP
-                                        %%%                     \hspace                  %! FIGURE_NAME_MARKUP
-                                        %%%                         #1                   %! FIGURE_NAME_MARKUP
-                                        %%%                     \raise                   %! FIGURE_NAME_MARKUP
-                                        %%%                         #0.25                %! FIGURE_NAME_MARKUP
-                                        %%%                         \fontsize            %! FIGURE_NAME_MARKUP
-                                        %%%                             #-2              %! FIGURE_NAME_MARKUP
-                                        %%%                             (11)             %! FIGURE_NAME_MARKUP
-                                        %%%                     ]                        %! FIGURE_NAME_MARKUP
-                                        %%%                 }                            %! FIGURE_NAME_MARKUP
-                                        %%%     }                                        %! FIGURE_NAME_MARKUP
+                                    %%% \line                                            %! FIGURE_NAME_MARKUP
+                                    %%%     {                                            %! FIGURE_NAME_MARKUP
+                                    %%%         \fontsize                                %! FIGURE_NAME_MARKUP
+                                    %%%             #2                                   %! FIGURE_NAME_MARKUP
+                                    %%%             \concat                              %! FIGURE_NAME_MARKUP
+                                    %%%                 {                                %! FIGURE_NAME_MARKUP
+                                    %%%                     [                            %! FIGURE_NAME_MARKUP
+                                    %%%                     \concat                      %! FIGURE_NAME_MARKUP
+                                    %%%                         {                        %! FIGURE_NAME_MARKUP
+                                    %%%                             4                    %! FIGURE_NAME_MARKUP
+                                    %%%                             \sub                 %! FIGURE_NAME_MARKUP
+                                    %%%                                 1                %! FIGURE_NAME_MARKUP
+                                    %%%                         }                        %! FIGURE_NAME_MARKUP
+                                    %%%                     \hspace                      %! FIGURE_NAME_MARKUP
+                                    %%%                         #1                       %! FIGURE_NAME_MARKUP
+                                    %%%                     \raise                       %! FIGURE_NAME_MARKUP
+                                    %%%                         #0.25                    %! FIGURE_NAME_MARKUP
+                                    %%%                         \fontsize                %! FIGURE_NAME_MARKUP
+                                    %%%                             #-2                  %! FIGURE_NAME_MARKUP
+                                    %%%                             (11)                 %! FIGURE_NAME_MARKUP
+                                    %%%                     ]                            %! FIGURE_NAME_MARKUP
+                                    %%%                 }                                %! FIGURE_NAME_MARKUP
+                                    %%%     }                                            %! FIGURE_NAME_MARKUP
                                     }
                                 }
                         }
@@ -1266,28 +1265,28 @@
                             :32                                                          %! IC
                             \repeatTie                                                   %! SC
                             \pp
-                            %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-                            %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-                            %%%         #2                                               %! FIGURE_NAME_MARKUP
-                            %%%         \concat                                          %! FIGURE_NAME_MARKUP
-                            %%%             {                                            %! FIGURE_NAME_MARKUP
-                            %%%                 [                                        %! FIGURE_NAME_MARKUP
-                            %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-                            %%%                     {                                    %! FIGURE_NAME_MARKUP
-                            %%%                         4                                %! FIGURE_NAME_MARKUP
-                            %%%                         \sub                             %! FIGURE_NAME_MARKUP
-                            %%%                             2                            %! FIGURE_NAME_MARKUP
-                            %%%                     }                                    %! FIGURE_NAME_MARKUP
-                            %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-                            %%%                     #1                                   %! FIGURE_NAME_MARKUP
-                            %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-                            %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-                            %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-                            %%%                         #-2                              %! FIGURE_NAME_MARKUP
-                            %%%                         (12)                             %! FIGURE_NAME_MARKUP
-                            %%%                 ]                                        %! FIGURE_NAME_MARKUP
-                            %%%             }                                            %! FIGURE_NAME_MARKUP
-                            %%%     }                                                    %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 \concat                                      %! FIGURE_NAME_MARKUP
+                        %%%                     {                                        %! FIGURE_NAME_MARKUP
+                        %%%                         4                                    %! FIGURE_NAME_MARKUP
+                        %%%                         \sub                                 %! FIGURE_NAME_MARKUP
+                        %%%                             2                                %! FIGURE_NAME_MARKUP
+                        %%%                     }                                        %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (12)                                 %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                         }
                     }
                     {
@@ -1301,28 +1300,28 @@
                             \repeatTie                                                   %! SC
                             \<
                             \pp
-                            %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-                            %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-                            %%%         #2                                               %! FIGURE_NAME_MARKUP
-                            %%%         \concat                                          %! FIGURE_NAME_MARKUP
-                            %%%             {                                            %! FIGURE_NAME_MARKUP
-                            %%%                 [                                        %! FIGURE_NAME_MARKUP
-                            %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-                            %%%                     {                                    %! FIGURE_NAME_MARKUP
-                            %%%                         4                                %! FIGURE_NAME_MARKUP
-                            %%%                         \sub                             %! FIGURE_NAME_MARKUP
-                            %%%                             3                            %! FIGURE_NAME_MARKUP
-                            %%%                     }                                    %! FIGURE_NAME_MARKUP
-                            %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-                            %%%                     #1                                   %! FIGURE_NAME_MARKUP
-                            %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-                            %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-                            %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-                            %%%                         #-2                              %! FIGURE_NAME_MARKUP
-                            %%%                         (13)                             %! FIGURE_NAME_MARKUP
-                            %%%                 ]                                        %! FIGURE_NAME_MARKUP
-                            %%%             }                                            %! FIGURE_NAME_MARKUP
-                            %%%     }                                                    %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 \concat                                      %! FIGURE_NAME_MARKUP
+                        %%%                     {                                        %! FIGURE_NAME_MARKUP
+                        %%%                         4                                    %! FIGURE_NAME_MARKUP
+                        %%%                         \sub                                 %! FIGURE_NAME_MARKUP
+                        %%%                             3                                %! FIGURE_NAME_MARKUP
+                        %%%                     }                                        %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (13)                                 %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                         }
                     }
                     {
@@ -1335,28 +1334,28 @@
                             :32                                                          %! IC
                             \repeatTie                                                   %! SC
                             \p
-                            %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-                            %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-                            %%%         #2                                               %! FIGURE_NAME_MARKUP
-                            %%%         \concat                                          %! FIGURE_NAME_MARKUP
-                            %%%             {                                            %! FIGURE_NAME_MARKUP
-                            %%%                 [                                        %! FIGURE_NAME_MARKUP
-                            %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-                            %%%                     {                                    %! FIGURE_NAME_MARKUP
-                            %%%                         4                                %! FIGURE_NAME_MARKUP
-                            %%%                         \sub                             %! FIGURE_NAME_MARKUP
-                            %%%                             4                            %! FIGURE_NAME_MARKUP
-                            %%%                     }                                    %! FIGURE_NAME_MARKUP
-                            %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-                            %%%                     #1                                   %! FIGURE_NAME_MARKUP
-                            %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-                            %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-                            %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-                            %%%                         #-2                              %! FIGURE_NAME_MARKUP
-                            %%%                         (14)                             %! FIGURE_NAME_MARKUP
-                            %%%                 ]                                        %! FIGURE_NAME_MARKUP
-                            %%%             }                                            %! FIGURE_NAME_MARKUP
-                            %%%     }                                                    %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 \concat                                      %! FIGURE_NAME_MARKUP
+                        %%%                     {                                        %! FIGURE_NAME_MARKUP
+                        %%%                         4                                    %! FIGURE_NAME_MARKUP
+                        %%%                         \sub                                 %! FIGURE_NAME_MARKUP
+                        %%%                             4                                %! FIGURE_NAME_MARKUP
+                        %%%                     }                                        %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (14)                                 %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                         }
                     }
                     {
@@ -1370,28 +1369,28 @@
                             \repeatTie                                                   %! SC
                             \<
                             \p
-                            %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-                            %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-                            %%%         #2                                               %! FIGURE_NAME_MARKUP
-                            %%%         \concat                                          %! FIGURE_NAME_MARKUP
-                            %%%             {                                            %! FIGURE_NAME_MARKUP
-                            %%%                 [                                        %! FIGURE_NAME_MARKUP
-                            %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-                            %%%                     {                                    %! FIGURE_NAME_MARKUP
-                            %%%                         4                                %! FIGURE_NAME_MARKUP
-                            %%%                         \sub                             %! FIGURE_NAME_MARKUP
-                            %%%                             5                            %! FIGURE_NAME_MARKUP
-                            %%%                     }                                    %! FIGURE_NAME_MARKUP
-                            %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-                            %%%                     #1                                   %! FIGURE_NAME_MARKUP
-                            %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-                            %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-                            %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-                            %%%                         #-2                              %! FIGURE_NAME_MARKUP
-                            %%%                         (15)                             %! FIGURE_NAME_MARKUP
-                            %%%                 ]                                        %! FIGURE_NAME_MARKUP
-                            %%%             }                                            %! FIGURE_NAME_MARKUP
-                            %%%     }                                                    %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 \concat                                      %! FIGURE_NAME_MARKUP
+                        %%%                     {                                        %! FIGURE_NAME_MARKUP
+                        %%%                         4                                    %! FIGURE_NAME_MARKUP
+                        %%%                         \sub                                 %! FIGURE_NAME_MARKUP
+                        %%%                             5                                %! FIGURE_NAME_MARKUP
+                        %%%                     }                                        %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (15)                                 %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                         }
                     }
                     {
@@ -1404,28 +1403,28 @@
                             :32                                                          %! IC
                             \repeatTie                                                   %! SC
                             \mp
-                            %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-                            %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-                            %%%         #2                                               %! FIGURE_NAME_MARKUP
-                            %%%         \concat                                          %! FIGURE_NAME_MARKUP
-                            %%%             {                                            %! FIGURE_NAME_MARKUP
-                            %%%                 [                                        %! FIGURE_NAME_MARKUP
-                            %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-                            %%%                     {                                    %! FIGURE_NAME_MARKUP
-                            %%%                         4                                %! FIGURE_NAME_MARKUP
-                            %%%                         \sub                             %! FIGURE_NAME_MARKUP
-                            %%%                             6                            %! FIGURE_NAME_MARKUP
-                            %%%                     }                                    %! FIGURE_NAME_MARKUP
-                            %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-                            %%%                     #1                                   %! FIGURE_NAME_MARKUP
-                            %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-                            %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-                            %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-                            %%%                         #-2                              %! FIGURE_NAME_MARKUP
-                            %%%                         (16)                             %! FIGURE_NAME_MARKUP
-                            %%%                 ]                                        %! FIGURE_NAME_MARKUP
-                            %%%             }                                            %! FIGURE_NAME_MARKUP
-                            %%%     }                                                    %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 \concat                                      %! FIGURE_NAME_MARKUP
+                        %%%                     {                                        %! FIGURE_NAME_MARKUP
+                        %%%                         4                                    %! FIGURE_NAME_MARKUP
+                        %%%                         \sub                                 %! FIGURE_NAME_MARKUP
+                        %%%                             6                                %! FIGURE_NAME_MARKUP
+                        %%%                     }                                        %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (16)                                 %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                         }
                     }
                     {
@@ -1439,28 +1438,28 @@
                             \repeatTie                                                   %! SC
                             \>
                             \mp
-                            %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-                            %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-                            %%%         #2                                               %! FIGURE_NAME_MARKUP
-                            %%%         \concat                                          %! FIGURE_NAME_MARKUP
-                            %%%             {                                            %! FIGURE_NAME_MARKUP
-                            %%%                 [                                        %! FIGURE_NAME_MARKUP
-                            %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-                            %%%                     {                                    %! FIGURE_NAME_MARKUP
-                            %%%                         4                                %! FIGURE_NAME_MARKUP
-                            %%%                         \sub                             %! FIGURE_NAME_MARKUP
-                            %%%                             7                            %! FIGURE_NAME_MARKUP
-                            %%%                     }                                    %! FIGURE_NAME_MARKUP
-                            %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-                            %%%                     #1                                   %! FIGURE_NAME_MARKUP
-                            %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-                            %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-                            %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-                            %%%                         #-2                              %! FIGURE_NAME_MARKUP
-                            %%%                         (17)                             %! FIGURE_NAME_MARKUP
-                            %%%                 ]                                        %! FIGURE_NAME_MARKUP
-                            %%%             }                                            %! FIGURE_NAME_MARKUP
-                            %%%     }                                                    %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 \concat                                      %! FIGURE_NAME_MARKUP
+                        %%%                     {                                        %! FIGURE_NAME_MARKUP
+                        %%%                         4                                    %! FIGURE_NAME_MARKUP
+                        %%%                         \sub                                 %! FIGURE_NAME_MARKUP
+                        %%%                             7                                %! FIGURE_NAME_MARKUP
+                        %%%                     }                                        %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (17)                                 %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                         }
                     }
                     {
@@ -1471,28 +1470,28 @@
                             gf2
                             :32                                                          %! IC
                             \repeatTie                                                   %! SC
-                            %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-                            %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-                            %%%         #2                                               %! FIGURE_NAME_MARKUP
-                            %%%         \concat                                          %! FIGURE_NAME_MARKUP
-                            %%%             {                                            %! FIGURE_NAME_MARKUP
-                            %%%                 [                                        %! FIGURE_NAME_MARKUP
-                            %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-                            %%%                     {                                    %! FIGURE_NAME_MARKUP
-                            %%%                         4                                %! FIGURE_NAME_MARKUP
-                            %%%                         \sub                             %! FIGURE_NAME_MARKUP
-                            %%%                             8                            %! FIGURE_NAME_MARKUP
-                            %%%                     }                                    %! FIGURE_NAME_MARKUP
-                            %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-                            %%%                     #1                                   %! FIGURE_NAME_MARKUP
-                            %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-                            %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-                            %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-                            %%%                         #-2                              %! FIGURE_NAME_MARKUP
-                            %%%                         (18)                             %! FIGURE_NAME_MARKUP
-                            %%%                 ]                                        %! FIGURE_NAME_MARKUP
-                            %%%             }                                            %! FIGURE_NAME_MARKUP
-                            %%%     }                                                    %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 \concat                                      %! FIGURE_NAME_MARKUP
+                        %%%                     {                                        %! FIGURE_NAME_MARKUP
+                        %%%                         4                                    %! FIGURE_NAME_MARKUP
+                        %%%                         \sub                                 %! FIGURE_NAME_MARKUP
+                        %%%                             8                                %! FIGURE_NAME_MARKUP
+                        %%%                     }                                        %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (18)                                 %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                         }
                     }
                     {
@@ -1503,28 +1502,28 @@
                             gf2
                             :32                                                          %! IC
                             \repeatTie                                                   %! SC
-                            %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-                            %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-                            %%%         #2                                               %! FIGURE_NAME_MARKUP
-                            %%%         \concat                                          %! FIGURE_NAME_MARKUP
-                            %%%             {                                            %! FIGURE_NAME_MARKUP
-                            %%%                 [                                        %! FIGURE_NAME_MARKUP
-                            %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-                            %%%                     {                                    %! FIGURE_NAME_MARKUP
-                            %%%                         4                                %! FIGURE_NAME_MARKUP
-                            %%%                         \sub                             %! FIGURE_NAME_MARKUP
-                            %%%                             9                            %! FIGURE_NAME_MARKUP
-                            %%%                     }                                    %! FIGURE_NAME_MARKUP
-                            %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-                            %%%                     #1                                   %! FIGURE_NAME_MARKUP
-                            %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-                            %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-                            %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-                            %%%                         #-2                              %! FIGURE_NAME_MARKUP
-                            %%%                         (19)                             %! FIGURE_NAME_MARKUP
-                            %%%                 ]                                        %! FIGURE_NAME_MARKUP
-                            %%%             }                                            %! FIGURE_NAME_MARKUP
-                            %%%     }                                                    %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 \concat                                      %! FIGURE_NAME_MARKUP
+                        %%%                     {                                        %! FIGURE_NAME_MARKUP
+                        %%%                         4                                    %! FIGURE_NAME_MARKUP
+                        %%%                         \sub                                 %! FIGURE_NAME_MARKUP
+                        %%%                             9                                %! FIGURE_NAME_MARKUP
+                        %%%                     }                                        %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (19)                                 %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                         }
                     }
                     {
@@ -1547,29 +1546,29 @@
                                                             \box                         %! IC
                                                                 "3 fingers"              %! IC
                                             }                                            %! IC
-                                        %%% \line                                        %! FIGURE_NAME_MARKUP
-                                        %%%     {                                        %! FIGURE_NAME_MARKUP
-                                        %%%         \fontsize                            %! FIGURE_NAME_MARKUP
-                                        %%%             #2                               %! FIGURE_NAME_MARKUP
-                                        %%%             \concat                          %! FIGURE_NAME_MARKUP
-                                        %%%                 {                            %! FIGURE_NAME_MARKUP
-                                        %%%                     [                        %! FIGURE_NAME_MARKUP
-                                        %%%                     \concat                  %! FIGURE_NAME_MARKUP
-                                        %%%                         {                    %! FIGURE_NAME_MARKUP
-                                        %%%                             4                %! FIGURE_NAME_MARKUP
-                                        %%%                             \sub             %! FIGURE_NAME_MARKUP
-                                        %%%                                 10           %! FIGURE_NAME_MARKUP
-                                        %%%                         }                    %! FIGURE_NAME_MARKUP
-                                        %%%                     \hspace                  %! FIGURE_NAME_MARKUP
-                                        %%%                         #1                   %! FIGURE_NAME_MARKUP
-                                        %%%                     \raise                   %! FIGURE_NAME_MARKUP
-                                        %%%                         #0.25                %! FIGURE_NAME_MARKUP
-                                        %%%                         \fontsize            %! FIGURE_NAME_MARKUP
-                                        %%%                             #-2              %! FIGURE_NAME_MARKUP
-                                        %%%                             (20)             %! FIGURE_NAME_MARKUP
-                                        %%%                     ]                        %! FIGURE_NAME_MARKUP
-                                        %%%                 }                            %! FIGURE_NAME_MARKUP
-                                        %%%     }                                        %! FIGURE_NAME_MARKUP
+                                    %%% \line                                            %! FIGURE_NAME_MARKUP
+                                    %%%     {                                            %! FIGURE_NAME_MARKUP
+                                    %%%         \fontsize                                %! FIGURE_NAME_MARKUP
+                                    %%%             #2                                   %! FIGURE_NAME_MARKUP
+                                    %%%             \concat                              %! FIGURE_NAME_MARKUP
+                                    %%%                 {                                %! FIGURE_NAME_MARKUP
+                                    %%%                     [                            %! FIGURE_NAME_MARKUP
+                                    %%%                     \concat                      %! FIGURE_NAME_MARKUP
+                                    %%%                         {                        %! FIGURE_NAME_MARKUP
+                                    %%%                             4                    %! FIGURE_NAME_MARKUP
+                                    %%%                             \sub                 %! FIGURE_NAME_MARKUP
+                                    %%%                                 10               %! FIGURE_NAME_MARKUP
+                                    %%%                         }                        %! FIGURE_NAME_MARKUP
+                                    %%%                     \hspace                      %! FIGURE_NAME_MARKUP
+                                    %%%                         #1                       %! FIGURE_NAME_MARKUP
+                                    %%%                     \raise                       %! FIGURE_NAME_MARKUP
+                                    %%%                         #0.25                    %! FIGURE_NAME_MARKUP
+                                    %%%                         \fontsize                %! FIGURE_NAME_MARKUP
+                                    %%%                             #-2                  %! FIGURE_NAME_MARKUP
+                                    %%%                             (20)                 %! FIGURE_NAME_MARKUP
+                                    %%%                     ]                            %! FIGURE_NAME_MARKUP
+                                    %%%                 }                                %! FIGURE_NAME_MARKUP
+                                    %%%     }                                            %! FIGURE_NAME_MARKUP
                                     }
                                 }
                         }
@@ -1603,29 +1602,29 @@
                                                             \box                         %! IC
                                                                 "2 fingers"              %! IC
                                             }                                            %! IC
-                                        %%% \line                                        %! FIGURE_NAME_MARKUP
-                                        %%%     {                                        %! FIGURE_NAME_MARKUP
-                                        %%%         \fontsize                            %! FIGURE_NAME_MARKUP
-                                        %%%             #2                               %! FIGURE_NAME_MARKUP
-                                        %%%             \concat                          %! FIGURE_NAME_MARKUP
-                                        %%%                 {                            %! FIGURE_NAME_MARKUP
-                                        %%%                     [                        %! FIGURE_NAME_MARKUP
-                                        %%%                     \concat                  %! FIGURE_NAME_MARKUP
-                                        %%%                         {                    %! FIGURE_NAME_MARKUP
-                                        %%%                             4                %! FIGURE_NAME_MARKUP
-                                        %%%                             \sub             %! FIGURE_NAME_MARKUP
-                                        %%%                                 11           %! FIGURE_NAME_MARKUP
-                                        %%%                         }                    %! FIGURE_NAME_MARKUP
-                                        %%%                     \hspace                  %! FIGURE_NAME_MARKUP
-                                        %%%                         #1                   %! FIGURE_NAME_MARKUP
-                                        %%%                     \raise                   %! FIGURE_NAME_MARKUP
-                                        %%%                         #0.25                %! FIGURE_NAME_MARKUP
-                                        %%%                         \fontsize            %! FIGURE_NAME_MARKUP
-                                        %%%                             #-2              %! FIGURE_NAME_MARKUP
-                                        %%%                             (21)             %! FIGURE_NAME_MARKUP
-                                        %%%                     ]                        %! FIGURE_NAME_MARKUP
-                                        %%%                 }                            %! FIGURE_NAME_MARKUP
-                                        %%%     }                                        %! FIGURE_NAME_MARKUP
+                                    %%% \line                                            %! FIGURE_NAME_MARKUP
+                                    %%%     {                                            %! FIGURE_NAME_MARKUP
+                                    %%%         \fontsize                                %! FIGURE_NAME_MARKUP
+                                    %%%             #2                                   %! FIGURE_NAME_MARKUP
+                                    %%%             \concat                              %! FIGURE_NAME_MARKUP
+                                    %%%                 {                                %! FIGURE_NAME_MARKUP
+                                    %%%                     [                            %! FIGURE_NAME_MARKUP
+                                    %%%                     \concat                      %! FIGURE_NAME_MARKUP
+                                    %%%                         {                        %! FIGURE_NAME_MARKUP
+                                    %%%                             4                    %! FIGURE_NAME_MARKUP
+                                    %%%                             \sub                 %! FIGURE_NAME_MARKUP
+                                    %%%                                 11               %! FIGURE_NAME_MARKUP
+                                    %%%                         }                        %! FIGURE_NAME_MARKUP
+                                    %%%                     \hspace                      %! FIGURE_NAME_MARKUP
+                                    %%%                         #1                       %! FIGURE_NAME_MARKUP
+                                    %%%                     \raise                       %! FIGURE_NAME_MARKUP
+                                    %%%                         #0.25                    %! FIGURE_NAME_MARKUP
+                                    %%%                         \fontsize                %! FIGURE_NAME_MARKUP
+                                    %%%                             #-2                  %! FIGURE_NAME_MARKUP
+                                    %%%                             (21)                 %! FIGURE_NAME_MARKUP
+                                    %%%                     ]                            %! FIGURE_NAME_MARKUP
+                                    %%%                 }                                %! FIGURE_NAME_MARKUP
+                                    %%%     }                                            %! FIGURE_NAME_MARKUP
                                     }
                                 }
                         }

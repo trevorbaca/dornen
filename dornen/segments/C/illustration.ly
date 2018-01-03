@@ -83,7 +83,7 @@
                 %%%             =                                                        %! REAPPLIED_METRONOME_MARK:SM27
                 %%%             66                                                       %! REAPPLIED_METRONOME_MARK:SM27
                 %%%         }                                                            %! REAPPLIED_METRONOME_MARK:SM27
-                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27
+                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 72]                                               %! SM4
                 \time 11/64                                                              %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1429,7 +1429,7 @@
                             \set stemRightBeamCount = 2
                             g'16
                             [
-                            \glissando
+                            \glissando                                                   %! SC
                             ^ \markup {
                                 \column
                                     {
@@ -1463,12 +1463,12 @@
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             af''16
-                            \glissando
+                            \glissando                                                   %! SC
                             
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             d''16
-                            \glissando
+                            \glissando                                                   %! SC
                             
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 1
@@ -1486,7 +1486,7 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 2
                             ef''16
-                            \glissando
+                            \glissando                                                   %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1508,7 +1508,7 @@
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             fs''16
-                            \glissando
+                            \glissando                                                   %! SC
                             
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 1
@@ -1525,7 +1525,7 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 2
                             b'16
-                            \glissando
+                            \glissando                                                   %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1580,7 +1580,7 @@
                             \set stemRightBeamCount = 4
                             f''64
                             [
-                            (
+                            (                                                            %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1624,12 +1624,12 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 4
                             af'64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
                             d''64
-                            (
+                            (                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
@@ -1638,12 +1638,12 @@
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
                             ef''64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 1
                             fs'64
-                            (
+                            (                                                            %! SC
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
@@ -1663,7 +1663,7 @@
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 1
                             ef'64
-                            )
+                            )                                                            %! SC
                         }
                     }
                     {
@@ -1673,7 +1673,7 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 4
                             af'64
-                            (
+                            (                                                            %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1714,22 +1714,22 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 4
                             g'64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
                             d''64
-                            (
+                            (                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
                             cs''64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 1
                             ef''64
-                            (
+                            (                                                            %! SC
                         }
                         \times 2/3 {
                             
@@ -1744,7 +1744,7 @@
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 1
                             af''64
-                            )
+                            )                                                            %! SC
                         }
                     }
                     
@@ -1758,7 +1758,7 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 4
                             g'64
-                            (
+                            (                                                            %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1794,7 +1794,7 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 4
                             fs'64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
@@ -1803,7 +1803,7 @@
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 1
                             af'64
-                            (
+                            (                                                            %! SC
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
@@ -1832,7 +1832,7 @@
                             \set stemRightBeamCount = 0
                             fs''64
                             ]
-                            )
+                            )                                                            %! SC
                         }
                     }
                     
@@ -1846,7 +1846,7 @@
                             \set stemRightBeamCount = 4
                             c''64
                             [
-                            (
+                            (                                                            %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1871,12 +1871,12 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 4
                             f''64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
                             b'64
-                            (
+                            (                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
@@ -1889,12 +1889,12 @@
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
                             f''64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 1
                             a'64
-                            (
+                            (                                                            %! SC
                         }
                         \times 4/5 {
                             
@@ -1917,7 +1917,7 @@
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 1
                             fs'64
-                            )
+                            )                                                            %! SC
                         }
                     }
                     {
@@ -1928,7 +1928,7 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 4
                             f'64
-                            (
+                            (                                                            %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1972,12 +1972,12 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 4
                             af'64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
                             d''64
-                            (
+                            (                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
@@ -1986,12 +1986,12 @@
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
                             ef''64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 1
                             fs''64
-                            (
+                            (                                                            %! SC
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
@@ -2011,7 +2011,7 @@
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 1
                             ef''64
-                            )
+                            )                                                            %! SC
                         }
                     }
                     
@@ -2024,7 +2024,7 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 4
                             af'64
-                            (
+                            (                                                            %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2065,22 +2065,22 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 4
                             g'64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
                             d''64
-                            (
+                            (                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
                             cs''64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 1
                             ef''64
-                            (
+                            (                                                            %! SC
                         }
                         \times 2/3 {
                             
@@ -2096,7 +2096,7 @@
                             \set stemRightBeamCount = 0
                             af''64
                             ]
-                            )
+                            )                                                            %! SC
                             
                         }
                     }
@@ -2241,7 +2241,7 @@
                             
                             gf2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \revert Stem.direction                                       %! OC
                             \revert TupletBracket.staff-padding                          %! OC
                         }
@@ -2326,7 +2326,7 @@
                             
                             gf2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \revert Stem.direction                                       %! OC
                             \revert TupletBracket.staff-padding                          %! OC
                         }

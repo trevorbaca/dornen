@@ -124,11 +124,11 @@ def passepied_music():
                                 % MusicVoice [measure 2]                                   %! SM4
                                 \acciaccatura {
             <BLANKLINE>
-                                    cs'16 [
+                                    cs'16 [                                                %! ACC1
             <BLANKLINE>
                                     c'16
             <BLANKLINE>
-                                    bf'16 ]
+                                    bf'16 ]                                                %! ACC1
             <BLANKLINE>
                                 }
                                 f'32
@@ -138,11 +138,11 @@ def passepied_music():
                                 % MusicVoice [measure 3]                                   %! SM4
                                 \acciaccatura {
             <BLANKLINE>
-                                    af'16 [
+                                    af'16 [                                                %! ACC1
             <BLANKLINE>
                                     fs'16
             <BLANKLINE>
-                                    b'16 ]
+                                    b'16 ]                                                 %! ACC1
             <BLANKLINE>
                                 }
                                 d'32
@@ -152,11 +152,11 @@ def passepied_music():
                                 % MusicVoice [measure 4]                                   %! SM4
                                 \acciaccatura {
             <BLANKLINE>
-                                    e'16 [
+                                    e'16 [                                                 %! ACC1
             <BLANKLINE>
                                     ef'16
             <BLANKLINE>
-                                    a'16 ]
+                                    a'16 ]                                                 %! ACC1
             <BLANKLINE>
                                 }
                                 af'32
@@ -166,11 +166,11 @@ def passepied_music():
                                 % MusicVoice [measure 5]                                   %! SM4
                                 \acciaccatura {
             <BLANKLINE>
-                                    fs'16 [
+                                    fs'16 [                                                %! ACC1
             <BLANKLINE>
                                     b'16
             <BLANKLINE>
-                                    d'16 ]
+                                    d'16 ]                                                 %! ACC1
             <BLANKLINE>
                                 }
                                 f'32
@@ -332,11 +332,11 @@ def passepied_music():
                                 % MusicVoice [measure 2]                                   %! SM4
                                 \acciaccatura {
             <BLANKLINE>
-                                    cs'16 [
+                                    cs'16 [                                                %! ACC1
             <BLANKLINE>
                                     c'16
             <BLANKLINE>
-                                    bf'16 ]
+                                    bf'16 ]                                                %! ACC1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 0
@@ -386,11 +386,11 @@ def passepied_music():
                                 % MusicVoice [measure 3]                                   %! SM4
                                 \acciaccatura {
             <BLANKLINE>
-                                    af'16 [
+                                    af'16 [                                                %! ACC1
             <BLANKLINE>
                                     fs'16
             <BLANKLINE>
-                                    b'16 ]
+                                    b'16 ]                                                 %! ACC1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 0
@@ -440,11 +440,11 @@ def passepied_music():
                                 % MusicVoice [measure 4]                                   %! SM4
                                 \acciaccatura {
             <BLANKLINE>
-                                    e'16 [
+                                    e'16 [                                                 %! ACC1
             <BLANKLINE>
                                     ef'16
             <BLANKLINE>
-                                    a'16 ]
+                                    a'16 ]                                                 %! ACC1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 0

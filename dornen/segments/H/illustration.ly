@@ -83,7 +83,7 @@
                 %%%             =                                                        %! REAPPLIED_METRONOME_MARK:SM27
                 %%%             66                                                       %! REAPPLIED_METRONOME_MARK:SM27
                 %%%         }                                                            %! REAPPLIED_METRONOME_MARK:SM27
-                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27
+                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 168]                                              %! SM4
                 \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -885,7 +885,7 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 2
                             e16
-                            \glissando
+                            \glissando                                                   %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -907,7 +907,7 @@
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             g'16
-                            \glissando
+                            \glissando                                                   %! SC
                             
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 0
@@ -1082,7 +1082,7 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 4
                             eqs''64
-                            (
+                            (                                                            %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1122,12 +1122,12 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 4
                             ef''64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
                             d''64
-                            (
+                            (                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
@@ -1136,12 +1136,12 @@
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
                             g''64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 1
                             f''64
-                            (
+                            (                                                            %! SC
                         }
                         \times 4/5 {
                             
@@ -1165,7 +1165,7 @@
                             \set stemRightBeamCount = 0
                             a''64
                             ]
-                            )
+                            )                                                            %! SC
                         }
                     }
                     

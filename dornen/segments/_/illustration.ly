@@ -80,7 +80,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             44                                                       %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 2]                                                %! SM4
                 \time 1/32                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -966,7 +966,7 @@
                             % GuitarMusicVoiceII [measure 2]                             %! SM4
                             \acciaccatura {
                                 
-                                fs'16 [
+                                fs'16 [                                                  %! ACC1
                                     %%% ^ \markup {                                      %! FIGURE_NAME_MARKUP
                                     %%%     \fontsize                                    %! FIGURE_NAME_MARKUP
                                     %%%         #2                                       %! FIGURE_NAME_MARKUP
@@ -993,7 +993,7 @@
                                 
                                 a'16
                                 
-                                af'16 ]
+                                af'16 ]                                                  %! ACC1
                                 
                             }
                             \once \override Beam.positions = #'(-10 . -10)               %! OC
@@ -1013,7 +1013,7 @@
                             % GuitarMusicVoiceII [measure 4]                             %! SM4
                             \acciaccatura {
                                 
-                                bf'16 [
+                                bf'16 [                                                  %! ACC1
                                     %%% ^ \markup {                                      %! FIGURE_NAME_MARKUP
                                     %%%     \fontsize                                    %! FIGURE_NAME_MARKUP
                                     %%%         #2                                       %! FIGURE_NAME_MARKUP
@@ -1038,7 +1038,7 @@
                                 
                                 af'16
                                 
-                                c''16 ]
+                                c''16 ]                                                  %! ACC1
                                 
                             }
                             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0) %! OC
@@ -1056,7 +1056,7 @@
                             % GuitarMusicVoiceII [measure 6]                             %! SM4
                             \acciaccatura {
                                 
-                                b'16 [
+                                b'16 [                                                   %! ACC1
                                     %%% ^ \markup {                                      %! FIGURE_NAME_MARKUP
                                     %%%     \fontsize                                    %! FIGURE_NAME_MARKUP
                                     %%%         #2                                       %! FIGURE_NAME_MARKUP
@@ -1079,7 +1079,7 @@
                                 
                                 d''16
                                 
-                                ef''16 ]
+                                ef''16 ]                                                 %! ACC1
                                 
                             }
                             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0) %! OC
@@ -1098,7 +1098,7 @@
                             % GuitarMusicVoiceII [measure 8]                             %! SM4
                             \acciaccatura {
                                 
-                                bf'16 [
+                                bf'16 [                                                  %! ACC1
                                     %%% ^ \markup {                                      %! FIGURE_NAME_MARKUP
                                     %%%     \fontsize                                    %! FIGURE_NAME_MARKUP
                                     %%%         #2                                       %! FIGURE_NAME_MARKUP
@@ -1121,7 +1121,7 @@
                                 
                                 ef''16
                                 
-                                e''16 ]
+                                e''16 ]                                                  %! ACC1
                                 
                             }
                             \once \override Beam.positions = #'(-10 . -10)               %! OC
@@ -1141,7 +1141,7 @@
                             % GuitarMusicVoiceII [measure 13]                            %! SM4
                             \acciaccatura {
                                 
-                                a''16 [
+                                a''16 [                                                  %! ACC1
                                     %%% ^ \markup {                                      %! FIGURE_NAME_MARKUP
                                     %%%     \fontsize                                    %! FIGURE_NAME_MARKUP
                                     %%%         #2                                       %! FIGURE_NAME_MARKUP
@@ -1172,7 +1172,7 @@
                                 
                                 g''16
                                 
-                                ef''16 ]
+                                ef''16 ]                                                 %! ACC1
                                 
                             }
                             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0) %! OC
@@ -1191,7 +1191,7 @@
                             % GuitarMusicVoiceII [measure 15]                            %! SM4
                             \acciaccatura {
                                 
-                                b''16 [
+                                b''16 [                                                  %! ACC1
                                     %%% ^ \markup {                                      %! FIGURE_NAME_MARKUP
                                     %%%     \fontsize                                    %! FIGURE_NAME_MARKUP
                                     %%%         #2                                       %! FIGURE_NAME_MARKUP
@@ -1222,7 +1222,7 @@
                                 
                                 a''16
                                 
-                                cs''16 ]
+                                cs''16 ]                                                 %! ACC1
                                 
                             }
                             \once \override Beam.positions = #'(-10 . -10)               %! OC
@@ -1239,7 +1239,7 @@
                             % GuitarMusicVoiceII [measure 16]                            %! SM4
                             \acciaccatura {
                                 
-                                ef''16 [
+                                ef''16 [                                                 %! ACC1
                                     %%% ^ \markup {                                      %! FIGURE_NAME_MARKUP
                                     %%%     \fontsize                                    %! FIGURE_NAME_MARKUP
                                     %%%         #2                                       %! FIGURE_NAME_MARKUP
@@ -1260,7 +1260,7 @@
                                 
                                 e''16
                                 
-                                f''16 ]
+                                f''16 ]                                                  %! ACC1
                                 
                             }
                             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0) %! OC
@@ -1513,7 +1513,7 @@
                             \set stemRightBeamCount = 4
                             af'64
                             [
-                            (
+                            (                                                            %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1543,7 +1543,7 @@
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 1
                             a'64
-                            (
+                            (                                                            %! SC
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
@@ -1551,7 +1551,7 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 4
                             ef'64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
@@ -1565,7 +1565,7 @@
                             \set stemRightBeamCount = 0
                             d'64
                             ]
-                            )
+                            )                                                            %! SC
                         }
                     }
                     
@@ -1579,7 +1579,7 @@
                             \set stemRightBeamCount = 4
                             b'64
                             [
-                            (
+                            (                                                            %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1605,7 +1605,7 @@
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 1
                             g'64
-                            (
+                            (                                                            %! SC
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 15/16 {
@@ -1613,7 +1613,7 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 4
                             cs''64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
@@ -1675,7 +1675,7 @@
                             \set stemRightBeamCount = 0
                             f''64
                             ]
-                            )
+                            )                                                            %! SC
                         }
                     }
                     
@@ -1690,7 +1690,7 @@
                             \set stemRightBeamCount = 4
                             a'64
                             [
-                            (
+                            (                                                            %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1732,7 +1732,7 @@
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 1
                             af'64
-                            (
+                            (                                                            %! SC
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
@@ -1740,7 +1740,7 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 4
                             cs''64
-                            )
+                            )                                                            %! SC
                             
                             \set stemLeftBeamCount = 4
                             \set stemRightBeamCount = 4
@@ -1754,7 +1754,7 @@
                             \set stemRightBeamCount = 0
                             a''64
                             ]
-                            )
+                            )                                                            %! SC
                         }
                     }
                     

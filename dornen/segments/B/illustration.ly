@@ -83,7 +83,7 @@
                 %%%             =                                                        %! REAPPLIED_METRONOME_MARK:SM27
                 %%%             44                                                       %! REAPPLIED_METRONOME_MARK:SM27
                 %%%         }                                                            %! REAPPLIED_METRONOME_MARK:SM27
-                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27
+                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 36]                                               %! SM4
                 \time 1/14                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -935,7 +935,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             66                                                       %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 60]                                               %! SM4
                 \time 7/32                                                               %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2506,9 +2506,9 @@
                             
                             \acciaccatura {
                                 
-                                e'16 [
+                                e'16 [                                                   %! ACC1
                                 
-                                f'16 ]
+                                f'16 ]                                                   %! ACC1
                                 
                             }
                             \set stemLeftBeamCount = 3
@@ -2548,9 +2548,9 @@
                             
                             \acciaccatura {
                                 
-                                fs'16 [
+                                fs'16 [                                                  %! ACC1
                                 
-                                bf'16 ]
+                                bf'16 ]                                                  %! ACC1
                                 
                             }
                             \set stemLeftBeamCount = 3
@@ -2592,9 +2592,9 @@
                             
                             \acciaccatura {
                                 
-                                e'16 [
+                                e'16 [                                                   %! ACC1
                                 
-                                f'16 ]
+                                f'16 ]                                                   %! ACC1
                                 
                             }
                             \set stemLeftBeamCount = 3
@@ -2634,9 +2634,9 @@
                             
                             \acciaccatura {
                                 
-                                fs'16 [
+                                fs'16 [                                                  %! ACC1
                                 
-                                bf'16 ]
+                                bf'16 ]                                                  %! ACC1
                                 
                             }
                             \set stemLeftBeamCount = 3
@@ -2678,9 +2678,9 @@
                             
                             \acciaccatura {
                                 
-                                e'16 [
+                                e'16 [                                                   %! ACC1
                                 
-                                f'16 ]
+                                f'16 ]                                                   %! ACC1
                                 
                             }
                             \set stemLeftBeamCount = 3
@@ -2720,9 +2720,9 @@
                             
                             \acciaccatura {
                                 
-                                fs'16 [
+                                fs'16 [                                                  %! ACC1
                                 
-                                bf'16 ]
+                                bf'16 ]                                                  %! ACC1
                                 
                             }
                             \set stemLeftBeamCount = 3
@@ -2758,9 +2758,9 @@
                             
                             \acciaccatura {
                                 
-                                bf'16 [
+                                bf'16 [                                                  %! ACC1
                                 
-                                b'16 ]
+                                b'16 ]                                                   %! ACC1
                                 
                             }
                             \set stemLeftBeamCount = 3
@@ -2798,9 +2798,9 @@
                             
                             \acciaccatura {
                                 
-                                ef'16 [
+                                ef'16 [                                                  %! ACC1
                                 
-                                d'16 ]
+                                d'16 ]                                                   %! ACC1
                                 
                             }
                             \set stemLeftBeamCount = 3
@@ -2836,9 +2836,9 @@
                             
                             \acciaccatura {
                                 
-                                a'16 [
+                                a'16 [                                                   %! ACC1
                                 
-                                cs''16 ]
+                                cs''16 ]                                                 %! ACC1
                                 
                             }
                             \set stemLeftBeamCount = 3
@@ -2873,9 +2873,9 @@
                             
                             \acciaccatura {
                                 
-                                d'16 [
+                                d'16 [                                                   %! ACC1
                                 
-                                f'16 ]
+                                f'16 ]                                                   %! ACC1
                                 
                             }
                             \set stemLeftBeamCount = 3
@@ -2910,9 +2910,9 @@
                             
                             \acciaccatura {
                                 
-                                cs'16 [
+                                cs'16 [                                                  %! ACC1
                                 
-                                e'16 ]
+                                e'16 ]                                                   %! ACC1
                                 
                             }
                             \set stemLeftBeamCount = 3
@@ -2950,9 +2950,9 @@
                             
                             \acciaccatura {
                                 
-                                fs'16 [
+                                fs'16 [                                                  %! ACC1
                                 
-                                a'16 ]
+                                a'16 ]                                                   %! ACC1
                                 
                             }
                             \set stemLeftBeamCount = 3
@@ -2991,9 +2991,9 @@
                             
                             \acciaccatura {
                                 
-                                af'16 [
+                                af'16 [                                                  %! ACC1
                                 
-                                b'16 ]
+                                b'16 ]                                                   %! ACC1
                                 
                             }
                             \set stemLeftBeamCount = 3

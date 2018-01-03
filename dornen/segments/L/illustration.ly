@@ -83,7 +83,7 @@
                 %%%             =                                                        %! REAPPLIED_METRONOME_MARK:SM27
                 %%%             66                                                       %! REAPPLIED_METRONOME_MARK:SM27
                 %%%         }                                                            %! REAPPLIED_METRONOME_MARK:SM27
-                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27
+                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 258]                                              %! SM4
                 \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -1670,7 +1670,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \<
                             \mp
                             \startTextSpan
@@ -1706,7 +1706,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \mf
                             \stopTextSpan
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1766,7 +1766,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \>
                             \mf
                             \startTextSpan
@@ -1802,7 +1802,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \mp
                             \stopTextSpan
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1841,7 +1841,7 @@
                             % GuitarMusicVoiceI [measure 262]                            %! SM4
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             ^ \markup {
                                 \column
                                     {
@@ -1909,7 +1909,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \<
                             \mp
                             \startTextSpan
@@ -1945,7 +1945,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \f
                             \stopTextSpan
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -2005,7 +2005,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \>
                             \f
                             \startTextSpan
@@ -2041,7 +2041,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \mp
                             \stopTextSpan
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -2080,7 +2080,7 @@
                             % GuitarMusicVoiceI [measure 267]                            %! SM4
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             ^ \markup {
                                 \column
                                     {
@@ -2148,7 +2148,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \<
                             \mp
                             \startTextSpan
@@ -2184,7 +2184,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \ff
                             \stopTextSpan
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -2224,7 +2224,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \>
                             \ff
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -2259,7 +2259,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \mf
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2313,7 +2313,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \<
                             \mf
                             \startTextSpan
@@ -2349,7 +2349,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \f
                             \stopTextSpan
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -2382,7 +2382,7 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -2413,7 +2413,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \>
                             \f
                             \startTextSpan
@@ -2449,7 +2449,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \mf
                             \stopTextSpan
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -2509,7 +2509,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \<
                             \mf
                             \startTextSpan
@@ -2544,7 +2544,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \ff
                             \stopTextSpan
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -2577,11 +2577,11 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -2612,7 +2612,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \>
                             \ff
                             \startTextSpan
@@ -2648,7 +2648,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \mf
                             \stopTextSpan
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -2708,7 +2708,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \<
                             \mf
                             \startTextSpan
@@ -2743,7 +2743,7 @@
                             % GuitarMusicVoiceI [measure 281]                            %! SM4
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
                             %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2769,15 +2769,15 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -2788,7 +2788,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \ffff
                             \stopTextSpan
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -2821,19 +2821,19 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -2864,7 +2864,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \ffff
                             \startTextSpan
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -2892,15 +2892,15 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -2910,7 +2910,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \ff
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2937,11 +2937,11 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -2952,7 +2952,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \fff
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2979,7 +2979,7 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -2990,7 +2990,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \f
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3024,7 +3024,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \ff
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3051,7 +3051,7 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -3061,7 +3061,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \mf
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3088,11 +3088,11 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -3103,7 +3103,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \f
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3130,15 +3130,15 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -3149,7 +3149,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \mp
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3176,19 +3176,19 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -3199,7 +3199,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \mf
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3226,15 +3226,15 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -3244,7 +3244,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \p
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3271,11 +3271,11 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -3286,7 +3286,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \stopTextSpan
                             \mp
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -3319,7 +3319,7 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -3330,7 +3330,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \pp
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3364,7 +3364,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \p
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3391,7 +3391,7 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -3401,7 +3401,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \ppp
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3428,11 +3428,11 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -3463,7 +3463,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \pp
                             \startTextSpan
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -3491,15 +3491,15 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -3510,7 +3510,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \pppp
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3537,19 +3537,19 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -3559,7 +3559,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \ppp
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3586,11 +3586,11 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -3601,7 +3601,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \ppppp
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
                             %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3628,7 +3628,7 @@
                             
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                         }
                     }
                     {
@@ -3640,7 +3640,7 @@
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e2
                             :32                                                          %! IC
-                            \repeatTie
+                            \repeatTie                                                   %! SC
                             \>
                             \pppp
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP

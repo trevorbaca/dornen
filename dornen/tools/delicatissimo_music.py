@@ -59,12 +59,21 @@ def delicatissimo_music():
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         % GlobalSkips [measure 1]                                          %! SM4
+                        \once \override TextSpanner.Y-extent = ##f                         %! SM29
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f   %! SM29
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0 %! SM29
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f  %! SM29
+                        \once \override TextSpanner.bound-details.right.padding = 1        %! SM29
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29
+                        \once \override TextSpanner.dash-period = 0                        %! SM29
                         \time 1/32                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \bar ""                                                            %! EMPTY_START_BAR:SM2
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT_SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %! SEGMENT_SPACING:HSS1
                         s1 * 1/32
+                        \startTextSpan                                                     %! SM29
                         ^ \markup {
                             \column
                                 {
@@ -121,6 +130,7 @@ def delicatissimo_music():
                         \newSpacingSection                                                 %! SEGMENT_SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %! SEGMENT_SPACING:HSS1
                         s1 * 3/16
+                        \stopTextSpan                                                      %! SM29
                         ^ \markup {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                             \with-color                                                    %! SEGMENT_SPACING_MARKUP:HSS2
                                 #(x11-color 'DarkCyan)                                     %! SEGMENT_SPACING_MARKUP:HSS2
@@ -297,12 +307,21 @@ def delicatissimo_music():
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
                         % GlobalSkips [measure 1]                                          %! SM4
+                        \once \override TextSpanner.Y-extent = ##f                         %! SM29
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f   %! SM29
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0 %! SM29
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f  %! SM29
+                        \once \override TextSpanner.bound-details.right.padding = 1        %! SM29
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29
+                        \once \override TextSpanner.dash-period = 0                        %! SM29
                         \time 9/32                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \bar ""                                                            %! EMPTY_START_BAR:SM2
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         \newSpacingSection                                                 %! SEGMENT_SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %! SEGMENT_SPACING:HSS1
                         s1 * 9/32
+                        \startTextSpan                                                     %! SM29
                         ^ \markup {
                             \column
                                 {
@@ -345,6 +364,7 @@ def delicatissimo_music():
                         \newSpacingSection                                                 %! SEGMENT_SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %! SEGMENT_SPACING:HSS1
                         s1 * 1/4
+                        \stopTextSpan                                                      %! SM29
                         ^ \markup {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                             \with-color                                                    %! SEGMENT_SPACING_MARKUP:HSS2
                                 #(x11-color 'DarkCyan)                                     %! SEGMENT_SPACING_MARKUP:HSS2

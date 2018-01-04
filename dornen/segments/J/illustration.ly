@@ -1301,6 +1301,7 @@
                         \times 4/5 {
                             
                             % GuitarMusicVoiceI [measure 218]                            %! SM4
+                            \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1316,9 +1317,20 @@
                                 }
                             \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                             \once \override TextSpanner.bound-details.right-broken.padding = 0
+                            \once \override TextSpanner.bound-details.right-broken.text = ##f
                             \once \override TextSpanner.bound-details.right.arrow = ##t
-                            \once \override TextSpanner.bound-details.right.padding = 1.75
+                            \once \override TextSpanner.bound-details.right.padding = 0.5
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                            \once \override TextSpanner.bound-details.right.text = \markup {
+                                \concat
+                                    {
+                                        \hspace
+                                            #0.0
+                                        \whiteout
+                                            \upright
+                                                "kn. rasg."
+                                    }
+                                }
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1385,11 +1397,6 @@
                         %%%                 ]                                            %! FIGURE_NAME_MARKUP
                         %%%             }                                                %! FIGURE_NAME_MARKUP
                         %%%     }                                                        %! FIGURE_NAME_MARKUP
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "kn. rasg."
-                                }
                         }
                     }
                     {
@@ -1397,6 +1404,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 220]                            %! SM4
+                            \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1412,9 +1420,20 @@
                                 }
                             \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                             \once \override TextSpanner.bound-details.right-broken.padding = 0
+                            \once \override TextSpanner.bound-details.right-broken.text = ##f
                             \once \override TextSpanner.bound-details.right.arrow = ##t
-                            \once \override TextSpanner.bound-details.right.padding = 1.75
+                            \once \override TextSpanner.bound-details.right.padding = 0.5
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                            \once \override TextSpanner.bound-details.right.text = \markup {
+                                \concat
+                                    {
+                                        \hspace
+                                            #0.0
+                                        \whiteout
+                                            \upright
+                                                "tamb. tr."
+                                    }
+                                }
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1481,11 +1500,6 @@
                         %%%                 ]                                            %! FIGURE_NAME_MARKUP
                         %%%             }                                                %! FIGURE_NAME_MARKUP
                         %%%     }                                                        %! FIGURE_NAME_MARKUP
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "tamb. tr."
-                                }
                         }
                     }
                     {
@@ -1493,6 +1507,7 @@
                         \times 4/5 {
                             
                             % GuitarMusicVoiceI [measure 222]                            %! SM4
+                            \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1508,9 +1523,20 @@
                                 }
                             \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                             \once \override TextSpanner.bound-details.right-broken.padding = 0
+                            \once \override TextSpanner.bound-details.right-broken.text = ##f
                             \once \override TextSpanner.bound-details.right.arrow = ##t
-                            \once \override TextSpanner.bound-details.right.padding = 1.75
+                            \once \override TextSpanner.bound-details.right.padding = 0.5
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                            \once \override TextSpanner.bound-details.right.text = \markup {
+                                \concat
+                                    {
+                                        \hspace
+                                            #0.0
+                                        \whiteout
+                                            \upright
+                                                "kn. rasg."
+                                    }
+                                }
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1577,11 +1603,6 @@
                         %%%                 ]                                            %! FIGURE_NAME_MARKUP
                         %%%             }                                                %! FIGURE_NAME_MARKUP
                         %%%     }                                                        %! FIGURE_NAME_MARKUP
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "kn. rasg."
-                                }
                         }
                     }
                     {
@@ -1589,6 +1610,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 224]                            %! SM4
+                            \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1604,9 +1626,20 @@
                                 }
                             \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                             \once \override TextSpanner.bound-details.right-broken.padding = 0
+                            \once \override TextSpanner.bound-details.right-broken.text = ##f
                             \once \override TextSpanner.bound-details.right.arrow = ##t
-                            \once \override TextSpanner.bound-details.right.padding = 1.75
+                            \once \override TextSpanner.bound-details.right.padding = 0.5
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                            \once \override TextSpanner.bound-details.right.text = \markup {
+                                \concat
+                                    {
+                                        \hspace
+                                            #0.0
+                                        \whiteout
+                                            \upright
+                                                "tamb. tr."
+                                    }
+                                }
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1673,11 +1706,6 @@
                         %%%                 ]                                            %! FIGURE_NAME_MARKUP
                         %%%             }                                                %! FIGURE_NAME_MARKUP
                         %%%     }                                                        %! FIGURE_NAME_MARKUP
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "tamb. tr."
-                                }
                         }
                     }
                     {
@@ -1685,6 +1713,7 @@
                         \times 4/5 {
                             
                             % GuitarMusicVoiceI [measure 226]                            %! SM4
+                            \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1700,9 +1729,20 @@
                                 }
                             \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                             \once \override TextSpanner.bound-details.right-broken.padding = 0
+                            \once \override TextSpanner.bound-details.right-broken.text = ##f
                             \once \override TextSpanner.bound-details.right.arrow = ##t
-                            \once \override TextSpanner.bound-details.right.padding = 1.75
+                            \once \override TextSpanner.bound-details.right.padding = 0.5
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                            \once \override TextSpanner.bound-details.right.text = \markup {
+                                \concat
+                                    {
+                                        \hspace
+                                            #0.0
+                                        \whiteout
+                                            \upright
+                                                "kn. rasg."
+                                    }
+                                }
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1769,11 +1809,6 @@
                         %%%                 ]                                            %! FIGURE_NAME_MARKUP
                         %%%             }                                                %! FIGURE_NAME_MARKUP
                         %%%     }                                                        %! FIGURE_NAME_MARKUP
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "kn. rasg."
-                                }
                         }
                     }
                     {
@@ -1781,6 +1816,7 @@
                         \times 2/3 {
                             
                             % GuitarMusicVoiceI [measure 228]                            %! SM4
+                            \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
                             \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1796,9 +1832,20 @@
                                 }
                             \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                             \once \override TextSpanner.bound-details.right-broken.padding = 0
+                            \once \override TextSpanner.bound-details.right-broken.text = ##f
                             \once \override TextSpanner.bound-details.right.arrow = ##t
-                            \once \override TextSpanner.bound-details.right.padding = 1.75
+                            \once \override TextSpanner.bound-details.right.padding = 0.5
                             \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                            \once \override TextSpanner.bound-details.right.text = \markup {
+                                \concat
+                                    {
+                                        \hspace
+                                            #0.0
+                                        \whiteout
+                                            \upright
+                                                "tamb. tr."
+                                    }
+                                }
                             \once \override TextSpanner.dash-fraction = 0.25
                             \once \override TextSpanner.dash-period = 1.5
                             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1967,11 +2014,6 @@
                             \repeatTie                                                   %! SC
                             \p
                             \stopTextSpan
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "tamb. tr."
-                                }
                             
                         }
                     }

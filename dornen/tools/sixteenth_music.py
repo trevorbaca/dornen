@@ -85,7 +85,7 @@ def sixteenth_music():
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29
                         \once \override TextSpanner.bound-details.right-broken.padding = 0 %! SM29
                         \once \override TextSpanner.bound-details.right-broken.text = ##f  %! SM29
-                        \once \override TextSpanner.bound-details.right.padding = 1        %! SM29
+                        \once \override TextSpanner.bound-details.right.padding = 0        %! SM29
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29
                         \once \override TextSpanner.dash-period = 0                        %! SM29
                         \time 7/16                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -318,7 +318,7 @@ def sixteenth_music():
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29
                         \once \override TextSpanner.bound-details.right-broken.padding = 0 %! SM29
                         \once \override TextSpanner.bound-details.right-broken.text = ##f  %! SM29
-                        \once \override TextSpanner.bound-details.right.padding = 1        %! SM29
+                        \once \override TextSpanner.bound-details.right.padding = 0        %! SM29
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29
                         \once \override TextSpanner.dash-period = 0                        %! SM29
                         \time 7/16                                                         %! EXPLICIT_TIME_SIGNATURE:SM8

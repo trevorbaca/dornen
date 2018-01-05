@@ -24,7 +24,7 @@
             %F%             \note-by-number                                              %! REAPPLIED_METRONOME_MARK:SM27
             %F%                 #3                                                       %! REAPPLIED_METRONOME_MARK:SM27
             %F%                 #0                                                       %! REAPPLIED_METRONOME_MARK:SM27
-            %F%                 #1                                                       %! REAPPLIED_METRONOME_MARK:SM27
+            %F%                 #1.5                                                     %! REAPPLIED_METRONOME_MARK:SM27
             %F%     \upright                                                             %! REAPPLIED_METRONOME_MARK:SM27
             %F%         {                                                                %! REAPPLIED_METRONOME_MARK:SM27
             %F%             =                                                            %! REAPPLIED_METRONOME_MARK:SM27
@@ -52,7 +52,7 @@
                                     \note-by-number                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
                                         #3                                               %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
                                         #0                                               %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                                        #1                                               %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                                        #1.5                                             %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
                             \upright                                                     %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
                                 {                                                        %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
                                     =                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
@@ -64,7 +64,7 @@
                     }                                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
                 \once \override TextSpanner.bound-details.right-broken.padding = 0       %! SM29
                 \once \override TextSpanner.bound-details.right-broken.text = ##f        %! SM29
-                \once \override TextSpanner.bound-details.right.padding = 1              %! SM29
+                \once \override TextSpanner.bound-details.right.padding = 0              %! SM29
                 \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29
                 \once \override TextSpanner.dash-period = 0                              %! SM29
                 \time 3/8                                                                %! EXPLICIT_TIME_SIGNATURE:SM8

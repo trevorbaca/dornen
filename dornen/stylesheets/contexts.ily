@@ -50,8 +50,7 @@
         \override MetronomeMark.extra-offset = #'(0 . 4)
         \override MetronomeMark.font-size = 3
         \override RehearsalMark.X-extent = #'(0 . 0)
-        \override RehearsalMark.Y-offset = -2.25
-        \override RehearsalMark.X-offset = 6
+        \override RehearsalMark.Y-extent = #'(0 . 0)
         \override RehearsalMark.break-align-symbols = #'(time-signature)
         \override RehearsalMark.break-visibility = #end-of-line-invisible
         \override RehearsalMark.font-name = "Didot"
@@ -164,11 +163,10 @@
 
     % MUSIC CONTEXT
     \context {
-        %\StaffGroup
+        \ChoirStaff
         \name MusicContext
         \type Engraver_group
-        %\alias StaffGroup
-        \consists System_start_delimiter_engraver
+        \alias ChoirStaff
         \accepts GuitarMusicStaff
         %systemStartDelimiter = 'SystemStartBar
     }

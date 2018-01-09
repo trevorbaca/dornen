@@ -89,9 +89,10 @@ def sixty_fourth_music():
                                         {                                                  %! SEGMENT_SPACING_MARKUP:HSS2
                                             \with-color                                    %! SEGMENT_SPACING_MARKUP:HSS2
                                                 #(x11-color 'DarkCyan)                     %! SEGMENT_SPACING_MARKUP:HSS2
-                                                \fontsize                                  %! SEGMENT_SPACING_MARKUP:HSS2
-                                                    #-3                                    %! SEGMENT_SPACING_MARKUP:HSS2
-                                                    (1/64)                                 %! SEGMENT_SPACING_MARKUP:HSS2
+                                                \bold                                      %! SEGMENT_SPACING_MARKUP:HSS2
+                                                    \fontsize                              %! SEGMENT_SPACING_MARKUP:HSS2
+                                                        #3                                 %! SEGMENT_SPACING_MARKUP:HSS2
+                                                        (1/64)                             %! SEGMENT_SPACING_MARKUP:HSS2
                                         }                                                  %! SEGMENT_SPACING_MARKUP:HSS2
                                 }
                             }
@@ -105,9 +106,10 @@ def sixty_fourth_music():
                         ^ \markup {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                             \with-color                                                    %! SEGMENT_SPACING_MARKUP:HSS2
                                 #(x11-color 'DarkCyan)                                     %! SEGMENT_SPACING_MARKUP:HSS2
-                                \fontsize                                                  %! SEGMENT_SPACING_MARKUP:HSS2
-                                    #-3                                                    %! SEGMENT_SPACING_MARKUP:HSS2
-                                    (1/64)                                                 %! SEGMENT_SPACING_MARKUP:HSS2
+                                \bold                                                      %! SEGMENT_SPACING_MARKUP:HSS2
+                                    \fontsize                                              %! SEGMENT_SPACING_MARKUP:HSS2
+                                        #3                                                 %! SEGMENT_SPACING_MARKUP:HSS2
+                                        (1/64)                                             %! SEGMENT_SPACING_MARKUP:HSS2
                             }                                                              %! SEGMENT_SPACING_MARKUP:HSS2
             <BLANKLINE>
                         % GlobalSkips [measure 3]                                          %! SM4
@@ -119,9 +121,10 @@ def sixty_fourth_music():
                         ^ \markup {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                             \with-color                                                    %! SEGMENT_SPACING_MARKUP:HSS2
                                 #(x11-color 'DarkCyan)                                     %! SEGMENT_SPACING_MARKUP:HSS2
-                                \fontsize                                                  %! SEGMENT_SPACING_MARKUP:HSS2
-                                    #-3                                                    %! SEGMENT_SPACING_MARKUP:HSS2
-                                    (1/64)                                                 %! SEGMENT_SPACING_MARKUP:HSS2
+                                \bold                                                      %! SEGMENT_SPACING_MARKUP:HSS2
+                                    \fontsize                                              %! SEGMENT_SPACING_MARKUP:HSS2
+                                        #3                                                 %! SEGMENT_SPACING_MARKUP:HSS2
+                                        (1/64)                                             %! SEGMENT_SPACING_MARKUP:HSS2
                             }                                                              %! SEGMENT_SPACING_MARKUP:HSS2
             <BLANKLINE>
                         % GlobalSkips [measure 4]                                          %! SM4
@@ -134,9 +137,10 @@ def sixty_fourth_music():
                         ^ \markup {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                             \with-color                                                    %! SEGMENT_SPACING_MARKUP:HSS2
                                 #(x11-color 'DarkCyan)                                     %! SEGMENT_SPACING_MARKUP:HSS2
-                                \fontsize                                                  %! SEGMENT_SPACING_MARKUP:HSS2
-                                    #-3                                                    %! SEGMENT_SPACING_MARKUP:HSS2
-                                    (1/64)                                                 %! SEGMENT_SPACING_MARKUP:HSS2
+                                \bold                                                      %! SEGMENT_SPACING_MARKUP:HSS2
+                                    \fontsize                                              %! SEGMENT_SPACING_MARKUP:HSS2
+                                        #3                                                 %! SEGMENT_SPACING_MARKUP:HSS2
+                                        (1/64)                                             %! SEGMENT_SPACING_MARKUP:HSS2
                             }                                                              %! SEGMENT_SPACING_MARKUP:HSS2
                         \override Score.BarLine.transparent = ##f                          %! SM5
                         \bar "|"                                                           %! SM5

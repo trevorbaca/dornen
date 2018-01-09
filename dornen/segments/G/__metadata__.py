@@ -32,6 +32,11 @@ metadata = abjad.TypedOrderedDict(
                                 prototype='abjad.TimeSignature',
                                 value='5/32',
                                 ),
+                            abjad.Momento(
+                                context='GlobalSkips',
+                                prototype='baca.SpacingSection',
+                                value='5/224',
+                                ),
                             ],
                         ),
                     ]

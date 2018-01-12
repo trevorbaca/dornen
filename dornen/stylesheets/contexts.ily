@@ -12,10 +12,7 @@
         \consists Text_engraver
         \consists Text_spanner_engraver
         \override StaffSymbol.stencil = ##f
-        \override TextScript.font-size = 6
-        \override TextScript.outside-staff-priority = 600
-        \override TextScript.staff-padding = 3
-        \override TextSpanner.bound-details.right.attach-dir = #LEFT
+        \override TextSpanner.bound-details.right.attach-dir = #left
         \override TextSpanner.font-size = 6
         \override TextSpanner.staff-padding = 4
         }

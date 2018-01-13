@@ -73,35 +73,6 @@ def running_music():
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/64
                         \startTextSpan                                                     %! SM29
-                        ^ \markup {
-                            \column
-                                {
-                                %@% \line                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@%     {                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@%         \fontsize                                      %! MEASURE_INDEX_MARKUP:SM31
-                                %@%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
-                                %@%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 [00]                                   %! MEASURE_INDEX_MARKUP:SM31
-                                %@%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@% \line                                                  %! STAGE_NUMBER_MARKUP:SM3
-                                %@%     {                                                  %! STAGE_NUMBER_MARKUP:SM3
-                                %@%         \fontsize                                      %! STAGE_NUMBER_MARKUP:SM3
-                                %@%             #3                                         %! STAGE_NUMBER_MARKUP:SM3
-                                %@%             \with-color                                %! STAGE_NUMBER_MARKUP:SM3
-                                %@%                 #(x11-color 'DarkCyan)                 %! STAGE_NUMBER_MARKUP:SM3
-                                %@%                 [1]                                    %! STAGE_NUMBER_MARKUP:SM3
-                                %@%     }                                                  %! STAGE_NUMBER_MARKUP:SM3
-                                %@% \line                                                  %! SPACING_MARKUP:HSS2
-                                %@%     {                                                  %! SPACING_MARKUP:HSS2
-                                %@%         \with-color                                    %! SPACING_MARKUP:HSS2
-                                %@%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
-                                %@%             \fontsize                                  %! SPACING_MARKUP:HSS2
-                                %@%                 #3                                     %! SPACING_MARKUP:HSS2
-                                %@%                 [1/64]                                 %! SPACING_MARKUP:HSS2
-                                %@%     }                                                  %! SPACING_MARKUP:HSS2
-                                }
-                            }
             <BLANKLINE>
                         % GlobalSkips [measure 2]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
@@ -109,27 +80,6 @@ def running_music():
                         \time 3/32                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 3/32
-                        ^ \markup {
-                            \column
-                                {
-                                %@% \line                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@%     {                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@%         \fontsize                                      %! MEASURE_INDEX_MARKUP:SM31
-                                %@%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
-                                %@%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 [01]                                   %! MEASURE_INDEX_MARKUP:SM31
-                                %@%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@% \line                                                  %! SPACING_MARKUP:HSS2
-                                %@%     {                                                  %! SPACING_MARKUP:HSS2
-                                %@%         \with-color                                    %! SPACING_MARKUP:HSS2
-                                %@%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
-                                %@%             \fontsize                                  %! SPACING_MARKUP:HSS2
-                                %@%                 #3                                     %! SPACING_MARKUP:HSS2
-                                %@%                 [3/224]                                %! SPACING_MARKUP:HSS2
-                                %@%     }                                                  %! SPACING_MARKUP:HSS2
-                                }
-                            }
             <BLANKLINE>
                         % GlobalSkips [measure 3]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
@@ -137,27 +87,6 @@ def running_music():
                         \time 1/64                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/64
-                        ^ \markup {
-                            \column
-                                {
-                                %@% \line                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@%     {                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@%         \fontsize                                      %! MEASURE_INDEX_MARKUP:SM31
-                                %@%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
-                                %@%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 [02]                                   %! MEASURE_INDEX_MARKUP:SM31
-                                %@%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@% \line                                                  %! SPACING_MARKUP:HSS2
-                                %@%     {                                                  %! SPACING_MARKUP:HSS2
-                                %@%         \with-color                                    %! SPACING_MARKUP:HSS2
-                                %@%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
-                                %@%             \fontsize                                  %! SPACING_MARKUP:HSS2
-                                %@%                 #3                                     %! SPACING_MARKUP:HSS2
-                                %@%                 [1/64]                                 %! SPACING_MARKUP:HSS2
-                                %@%     }                                                  %! SPACING_MARKUP:HSS2
-                                }
-                            }
             <BLANKLINE>
                         % GlobalSkips [measure 4]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
@@ -166,27 +95,6 @@ def running_music():
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 5/64
                         \stopTextSpan                                                      %! SM29
-                        ^ \markup {
-                            \column
-                                {
-                                %@% \line                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@%     {                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@%         \fontsize                                      %! MEASURE_INDEX_MARKUP:SM31
-                                %@%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
-                                %@%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 [03]                                   %! MEASURE_INDEX_MARKUP:SM31
-                                %@%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@% \line                                                  %! SPACING_MARKUP:HSS2
-                                %@%     {                                                  %! SPACING_MARKUP:HSS2
-                                %@%         \with-color                                    %! SPACING_MARKUP:HSS2
-                                %@%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
-                                %@%             \fontsize                                  %! SPACING_MARKUP:HSS2
-                                %@%                 #3                                     %! SPACING_MARKUP:HSS2
-                                %@%                 [5/384]                                %! SPACING_MARKUP:HSS2
-                                %@%     }                                                  %! SPACING_MARKUP:HSS2
-                                }
-                            }
                         \override Score.BarLine.transparent = ##f                          %! SM5
                         \bar "|"                                                           %! SM5
             <BLANKLINE>
@@ -360,35 +268,6 @@ def running_music():
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/8
                         \startTextSpan                                                     %! SM29
-                        ^ \markup {
-                            \column
-                                {
-                                %@% \line                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@%     {                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@%         \fontsize                                      %! MEASURE_INDEX_MARKUP:SM31
-                                %@%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
-                                %@%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 [00]                                   %! MEASURE_INDEX_MARKUP:SM31
-                                %@%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@% \line                                                  %! STAGE_NUMBER_MARKUP:SM3
-                                %@%     {                                                  %! STAGE_NUMBER_MARKUP:SM3
-                                %@%         \fontsize                                      %! STAGE_NUMBER_MARKUP:SM3
-                                %@%             #3                                         %! STAGE_NUMBER_MARKUP:SM3
-                                %@%             \with-color                                %! STAGE_NUMBER_MARKUP:SM3
-                                %@%                 #(x11-color 'DarkCyan)                 %! STAGE_NUMBER_MARKUP:SM3
-                                %@%                 [1]                                    %! STAGE_NUMBER_MARKUP:SM3
-                                %@%     }                                                  %! STAGE_NUMBER_MARKUP:SM3
-                                %@% \line                                                  %! SPACING_MARKUP:HSS2
-                                %@%     {                                                  %! SPACING_MARKUP:HSS2
-                                %@%         \with-color                                    %! SPACING_MARKUP:HSS2
-                                %@%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
-                                %@%             \fontsize                                  %! SPACING_MARKUP:HSS2
-                                %@%                 #3                                     %! SPACING_MARKUP:HSS2
-                                %@%                 [3/224]                                %! SPACING_MARKUP:HSS2
-                                %@%     }                                                  %! SPACING_MARKUP:HSS2
-                                }
-                            }
             <BLANKLINE>
                         % GlobalSkips [measure 2]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
@@ -396,27 +275,6 @@ def running_music():
                         \time 3/16                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 3/16
-                        ^ \markup {
-                            \column
-                                {
-                                %@% \line                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@%     {                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@%         \fontsize                                      %! MEASURE_INDEX_MARKUP:SM31
-                                %@%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
-                                %@%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 [01]                                   %! MEASURE_INDEX_MARKUP:SM31
-                                %@%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@% \line                                                  %! SPACING_MARKUP:HSS2
-                                %@%     {                                                  %! SPACING_MARKUP:HSS2
-                                %@%         \with-color                                    %! SPACING_MARKUP:HSS2
-                                %@%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
-                                %@%             \fontsize                                  %! SPACING_MARKUP:HSS2
-                                %@%                 #3                                     %! SPACING_MARKUP:HSS2
-                                %@%                 [5/384]                                %! SPACING_MARKUP:HSS2
-                                %@%     }                                                  %! SPACING_MARKUP:HSS2
-                                }
-                            }
             <BLANKLINE>
                         % GlobalSkips [measure 3]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
@@ -425,27 +283,6 @@ def running_music():
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 7/64
                         \stopTextSpan                                                      %! SM29
-                        ^ \markup {
-                            \column
-                                {
-                                %@% \line                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@%     {                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@%         \fontsize                                      %! MEASURE_INDEX_MARKUP:SM31
-                                %@%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
-                                %@%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 [02]                                   %! MEASURE_INDEX_MARKUP:SM31
-                                %@%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
-                                %@% \line                                                  %! SPACING_MARKUP:HSS2
-                                %@%     {                                                  %! SPACING_MARKUP:HSS2
-                                %@%         \with-color                                    %! SPACING_MARKUP:HSS2
-                                %@%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
-                                %@%             \fontsize                                  %! SPACING_MARKUP:HSS2
-                                %@%                 #3                                     %! SPACING_MARKUP:HSS2
-                                %@%                 [5/384]                                %! SPACING_MARKUP:HSS2
-                                %@%     }                                                  %! SPACING_MARKUP:HSS2
-                                }
-                            }
                         \override Score.BarLine.transparent = ##f                          %! SM5
                         \bar "|"                                                           %! SM5
             <BLANKLINE>

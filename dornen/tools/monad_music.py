@@ -97,23 +97,31 @@ def monad_music():
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                  %! STAGE_NUMBER_MARKUP:SM3
-                                        {                                                  %! STAGE_NUMBER_MARKUP:SM3
-                                            \fontsize                                      %! STAGE_NUMBER_MARKUP:SM3
-                                                #3                                         %! STAGE_NUMBER_MARKUP:SM3
-                                                \with-color                                %! STAGE_NUMBER_MARKUP:SM3
-                                                    #(x11-color 'DarkCyan)                 %! STAGE_NUMBER_MARKUP:SM3
-                                                    [1]                                    %! STAGE_NUMBER_MARKUP:SM3
-                                        }                                                  %! STAGE_NUMBER_MARKUP:SM3
-                                    \line                                                  %! SPACING_MARKUP:HSS2
-                                        {                                                  %! SPACING_MARKUP:HSS2
-                                            \with-color                                    %! SPACING_MARKUP:HSS2
-                                                #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
-                                                \bold                                      %! SPACING_MARKUP:HSS2
-                                                    \fontsize                              %! SPACING_MARKUP:HSS2
-                                                        #3                                 %! SPACING_MARKUP:HSS2
-                                                        (4/25)                             %! SPACING_MARKUP:HSS2
-                                        }                                                  %! SPACING_MARKUP:HSS2
+                                %F% \line                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F%     {                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F%         \fontsize                                      %! MEASURE_INDEX_MARKUP:SM31
+                                %F%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
+                                %F%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
+                                %F%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
+                                %F%                 m0                                     %! MEASURE_INDEX_MARKUP:SM31
+                                %F%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F% \line                                                  %! STAGE_NUMBER_MARKUP:SM3
+                                %F%     {                                                  %! STAGE_NUMBER_MARKUP:SM3
+                                %F%         \fontsize                                      %! STAGE_NUMBER_MARKUP:SM3
+                                %F%             #3                                         %! STAGE_NUMBER_MARKUP:SM3
+                                %F%             \with-color                                %! STAGE_NUMBER_MARKUP:SM3
+                                %F%                 #(x11-color 'DarkCyan)                 %! STAGE_NUMBER_MARKUP:SM3
+                                %F%                 [1]                                    %! STAGE_NUMBER_MARKUP:SM3
+                                %F%     }                                                  %! STAGE_NUMBER_MARKUP:SM3
+                                %F% \line                                                  %! SPACING_MARKUP:HSS2
+                                %F%     {                                                  %! SPACING_MARKUP:HSS2
+                                %F%         \with-color                                    %! SPACING_MARKUP:HSS2
+                                %F%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
+                                %F%             \bold                                      %! SPACING_MARKUP:HSS2
+                                %F%                 \fontsize                              %! SPACING_MARKUP:HSS2
+                                %F%                     #3                                 %! SPACING_MARKUP:HSS2
+                                %F%                     (4/25)                             %! SPACING_MARKUP:HSS2
+                                %F%     }                                                  %! SPACING_MARKUP:HSS2
                                 }
                             }
             <BLANKLINE>
@@ -123,14 +131,28 @@ def monad_music():
                         \time 4/5                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 4/5
-                        ^ \markup {                                                        %! SPACING_MARKUP:HSS2
-                            \with-color                                                    %! SPACING_MARKUP:HSS2
-                                #(x11-color 'DarkCyan)                                     %! SPACING_MARKUP:HSS2
-                                \bold                                                      %! SPACING_MARKUP:HSS2
-                                    \fontsize                                              %! SPACING_MARKUP:HSS2
-                                        #3                                                 %! SPACING_MARKUP:HSS2
-                                        (4/25)                                             %! SPACING_MARKUP:HSS2
-                            }                                                              %! SPACING_MARKUP:HSS2
+                        ^ \markup {
+                            \column
+                                {
+                                %F% \line                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F%     {                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F%         \fontsize                                      %! MEASURE_INDEX_MARKUP:SM31
+                                %F%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
+                                %F%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
+                                %F%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
+                                %F%                 m1                                     %! MEASURE_INDEX_MARKUP:SM31
+                                %F%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F% \line                                                  %! SPACING_MARKUP:HSS2
+                                %F%     {                                                  %! SPACING_MARKUP:HSS2
+                                %F%         \with-color                                    %! SPACING_MARKUP:HSS2
+                                %F%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
+                                %F%             \bold                                      %! SPACING_MARKUP:HSS2
+                                %F%                 \fontsize                              %! SPACING_MARKUP:HSS2
+                                %F%                     #3                                 %! SPACING_MARKUP:HSS2
+                                %F%                     (4/25)                             %! SPACING_MARKUP:HSS2
+                                %F%     }                                                  %! SPACING_MARKUP:HSS2
+                                }
+                            }
             <BLANKLINE>
                         % GlobalSkips [measure 3]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
@@ -138,14 +160,28 @@ def monad_music():
                         \time 6/5                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 6/5
-                        ^ \markup {                                                        %! SPACING_MARKUP:HSS2
-                            \with-color                                                    %! SPACING_MARKUP:HSS2
-                                #(x11-color 'DarkCyan)                                     %! SPACING_MARKUP:HSS2
-                                \bold                                                      %! SPACING_MARKUP:HSS2
-                                    \fontsize                                              %! SPACING_MARKUP:HSS2
-                                        #3                                                 %! SPACING_MARKUP:HSS2
-                                        (4/25)                                             %! SPACING_MARKUP:HSS2
-                            }                                                              %! SPACING_MARKUP:HSS2
+                        ^ \markup {
+                            \column
+                                {
+                                %F% \line                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F%     {                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F%         \fontsize                                      %! MEASURE_INDEX_MARKUP:SM31
+                                %F%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
+                                %F%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
+                                %F%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
+                                %F%                 m2                                     %! MEASURE_INDEX_MARKUP:SM31
+                                %F%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F% \line                                                  %! SPACING_MARKUP:HSS2
+                                %F%     {                                                  %! SPACING_MARKUP:HSS2
+                                %F%         \with-color                                    %! SPACING_MARKUP:HSS2
+                                %F%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
+                                %F%             \bold                                      %! SPACING_MARKUP:HSS2
+                                %F%                 \fontsize                              %! SPACING_MARKUP:HSS2
+                                %F%                     #3                                 %! SPACING_MARKUP:HSS2
+                                %F%                     (4/25)                             %! SPACING_MARKUP:HSS2
+                                %F%     }                                                  %! SPACING_MARKUP:HSS2
+                                }
+                            }
             <BLANKLINE>
                         % GlobalSkips [measure 4]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
@@ -154,14 +190,28 @@ def monad_music():
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 8/5
                         \stopTextSpan                                                      %! SM29
-                        ^ \markup {                                                        %! SPACING_MARKUP:HSS2
-                            \with-color                                                    %! SPACING_MARKUP:HSS2
-                                #(x11-color 'DarkCyan)                                     %! SPACING_MARKUP:HSS2
-                                \bold                                                      %! SPACING_MARKUP:HSS2
-                                    \fontsize                                              %! SPACING_MARKUP:HSS2
-                                        #3                                                 %! SPACING_MARKUP:HSS2
-                                        (4/25)                                             %! SPACING_MARKUP:HSS2
-                            }                                                              %! SPACING_MARKUP:HSS2
+                        ^ \markup {
+                            \column
+                                {
+                                %F% \line                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F%     {                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F%         \fontsize                                      %! MEASURE_INDEX_MARKUP:SM31
+                                %F%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
+                                %F%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
+                                %F%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
+                                %F%                 m3                                     %! MEASURE_INDEX_MARKUP:SM31
+                                %F%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F% \line                                                  %! SPACING_MARKUP:HSS2
+                                %F%     {                                                  %! SPACING_MARKUP:HSS2
+                                %F%         \with-color                                    %! SPACING_MARKUP:HSS2
+                                %F%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
+                                %F%             \bold                                      %! SPACING_MARKUP:HSS2
+                                %F%                 \fontsize                              %! SPACING_MARKUP:HSS2
+                                %F%                     #3                                 %! SPACING_MARKUP:HSS2
+                                %F%                     (4/25)                             %! SPACING_MARKUP:HSS2
+                                %F%     }                                                  %! SPACING_MARKUP:HSS2
+                                }
+                            }
                         \override Score.BarLine.transparent = ##f                          %! SM5
                         \bar "|"                                                           %! SM5
             <BLANKLINE>
@@ -349,23 +399,31 @@ def monad_music():
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                  %! STAGE_NUMBER_MARKUP:SM3
-                                        {                                                  %! STAGE_NUMBER_MARKUP:SM3
-                                            \fontsize                                      %! STAGE_NUMBER_MARKUP:SM3
-                                                #3                                         %! STAGE_NUMBER_MARKUP:SM3
-                                                \with-color                                %! STAGE_NUMBER_MARKUP:SM3
-                                                    #(x11-color 'DarkCyan)                 %! STAGE_NUMBER_MARKUP:SM3
-                                                    [1]                                    %! STAGE_NUMBER_MARKUP:SM3
-                                        }                                                  %! STAGE_NUMBER_MARKUP:SM3
-                                    \line                                                  %! SPACING_MARKUP:HSS2
-                                        {                                                  %! SPACING_MARKUP:HSS2
-                                            \with-color                                    %! SPACING_MARKUP:HSS2
-                                                #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
-                                                \bold                                      %! SPACING_MARKUP:HSS2
-                                                    \fontsize                              %! SPACING_MARKUP:HSS2
-                                                        #3                                 %! SPACING_MARKUP:HSS2
-                                                        (4/25)                             %! SPACING_MARKUP:HSS2
-                                        }                                                  %! SPACING_MARKUP:HSS2
+                                %F% \line                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F%     {                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F%         \fontsize                                      %! MEASURE_INDEX_MARKUP:SM31
+                                %F%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
+                                %F%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
+                                %F%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
+                                %F%                 m0                                     %! MEASURE_INDEX_MARKUP:SM31
+                                %F%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F% \line                                                  %! STAGE_NUMBER_MARKUP:SM3
+                                %F%     {                                                  %! STAGE_NUMBER_MARKUP:SM3
+                                %F%         \fontsize                                      %! STAGE_NUMBER_MARKUP:SM3
+                                %F%             #3                                         %! STAGE_NUMBER_MARKUP:SM3
+                                %F%             \with-color                                %! STAGE_NUMBER_MARKUP:SM3
+                                %F%                 #(x11-color 'DarkCyan)                 %! STAGE_NUMBER_MARKUP:SM3
+                                %F%                 [1]                                    %! STAGE_NUMBER_MARKUP:SM3
+                                %F%     }                                                  %! STAGE_NUMBER_MARKUP:SM3
+                                %F% \line                                                  %! SPACING_MARKUP:HSS2
+                                %F%     {                                                  %! SPACING_MARKUP:HSS2
+                                %F%         \with-color                                    %! SPACING_MARKUP:HSS2
+                                %F%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
+                                %F%             \bold                                      %! SPACING_MARKUP:HSS2
+                                %F%                 \fontsize                              %! SPACING_MARKUP:HSS2
+                                %F%                     #3                                 %! SPACING_MARKUP:HSS2
+                                %F%                     (4/25)                             %! SPACING_MARKUP:HSS2
+                                %F%     }                                                  %! SPACING_MARKUP:HSS2
                                 }
                             }
             <BLANKLINE>
@@ -375,14 +433,28 @@ def monad_music():
                         \time 2/5                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 2/5
-                        ^ \markup {                                                        %! SPACING_MARKUP:HSS2
-                            \with-color                                                    %! SPACING_MARKUP:HSS2
-                                #(x11-color 'DarkCyan)                                     %! SPACING_MARKUP:HSS2
-                                \bold                                                      %! SPACING_MARKUP:HSS2
-                                    \fontsize                                              %! SPACING_MARKUP:HSS2
-                                        #3                                                 %! SPACING_MARKUP:HSS2
-                                        (4/25)                                             %! SPACING_MARKUP:HSS2
-                            }                                                              %! SPACING_MARKUP:HSS2
+                        ^ \markup {
+                            \column
+                                {
+                                %F% \line                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F%     {                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F%         \fontsize                                      %! MEASURE_INDEX_MARKUP:SM31
+                                %F%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
+                                %F%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
+                                %F%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
+                                %F%                 m1                                     %! MEASURE_INDEX_MARKUP:SM31
+                                %F%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F% \line                                                  %! SPACING_MARKUP:HSS2
+                                %F%     {                                                  %! SPACING_MARKUP:HSS2
+                                %F%         \with-color                                    %! SPACING_MARKUP:HSS2
+                                %F%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
+                                %F%             \bold                                      %! SPACING_MARKUP:HSS2
+                                %F%                 \fontsize                              %! SPACING_MARKUP:HSS2
+                                %F%                     #3                                 %! SPACING_MARKUP:HSS2
+                                %F%                     (4/25)                             %! SPACING_MARKUP:HSS2
+                                %F%     }                                                  %! SPACING_MARKUP:HSS2
+                                }
+                            }
             <BLANKLINE>
                         % GlobalSkips [measure 3]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
@@ -390,14 +462,28 @@ def monad_music():
                         \time 6/5                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 6/5
-                        ^ \markup {                                                        %! SPACING_MARKUP:HSS2
-                            \with-color                                                    %! SPACING_MARKUP:HSS2
-                                #(x11-color 'DarkCyan)                                     %! SPACING_MARKUP:HSS2
-                                \bold                                                      %! SPACING_MARKUP:HSS2
-                                    \fontsize                                              %! SPACING_MARKUP:HSS2
-                                        #3                                                 %! SPACING_MARKUP:HSS2
-                                        (4/25)                                             %! SPACING_MARKUP:HSS2
-                            }                                                              %! SPACING_MARKUP:HSS2
+                        ^ \markup {
+                            \column
+                                {
+                                %F% \line                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F%     {                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F%         \fontsize                                      %! MEASURE_INDEX_MARKUP:SM31
+                                %F%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
+                                %F%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
+                                %F%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
+                                %F%                 m2                                     %! MEASURE_INDEX_MARKUP:SM31
+                                %F%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F% \line                                                  %! SPACING_MARKUP:HSS2
+                                %F%     {                                                  %! SPACING_MARKUP:HSS2
+                                %F%         \with-color                                    %! SPACING_MARKUP:HSS2
+                                %F%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
+                                %F%             \bold                                      %! SPACING_MARKUP:HSS2
+                                %F%                 \fontsize                              %! SPACING_MARKUP:HSS2
+                                %F%                     #3                                 %! SPACING_MARKUP:HSS2
+                                %F%                     (4/25)                             %! SPACING_MARKUP:HSS2
+                                %F%     }                                                  %! SPACING_MARKUP:HSS2
+                                }
+                            }
             <BLANKLINE>
                         % GlobalSkips [measure 4]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
@@ -406,14 +492,28 @@ def monad_music():
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 8/5
                         \stopTextSpan                                                      %! SM29
-                        ^ \markup {                                                        %! SPACING_MARKUP:HSS2
-                            \with-color                                                    %! SPACING_MARKUP:HSS2
-                                #(x11-color 'DarkCyan)                                     %! SPACING_MARKUP:HSS2
-                                \bold                                                      %! SPACING_MARKUP:HSS2
-                                    \fontsize                                              %! SPACING_MARKUP:HSS2
-                                        #3                                                 %! SPACING_MARKUP:HSS2
-                                        (4/25)                                             %! SPACING_MARKUP:HSS2
-                            }                                                              %! SPACING_MARKUP:HSS2
+                        ^ \markup {
+                            \column
+                                {
+                                %F% \line                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F%     {                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F%         \fontsize                                      %! MEASURE_INDEX_MARKUP:SM31
+                                %F%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
+                                %F%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
+                                %F%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
+                                %F%                 m3                                     %! MEASURE_INDEX_MARKUP:SM31
+                                %F%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
+                                %F% \line                                                  %! SPACING_MARKUP:HSS2
+                                %F%     {                                                  %! SPACING_MARKUP:HSS2
+                                %F%         \with-color                                    %! SPACING_MARKUP:HSS2
+                                %F%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
+                                %F%             \bold                                      %! SPACING_MARKUP:HSS2
+                                %F%                 \fontsize                              %! SPACING_MARKUP:HSS2
+                                %F%                     #3                                 %! SPACING_MARKUP:HSS2
+                                %F%                     (4/25)                             %! SPACING_MARKUP:HSS2
+                                %F%     }                                                  %! SPACING_MARKUP:HSS2
+                                }
+                            }
                         \override Score.BarLine.transparent = ##f                          %! SM5
                         \bar "|"                                                           %! SM5
             <BLANKLINE>

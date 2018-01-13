@@ -82,7 +82,7 @@ def running_music():
                                 %@%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
                                 %@%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
                                 %@%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 m0                                     %! MEASURE_INDEX_MARKUP:SM31
+                                %@%                 [00]                                   %! MEASURE_INDEX_MARKUP:SM31
                                 %@%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
                                 %@% \line                                                  %! STAGE_NUMBER_MARKUP:SM3
                                 %@%     {                                                  %! STAGE_NUMBER_MARKUP:SM3
@@ -96,10 +96,9 @@ def running_music():
                                 %@%     {                                                  %! SPACING_MARKUP:HSS2
                                 %@%         \with-color                                    %! SPACING_MARKUP:HSS2
                                 %@%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
-                                %@%             \bold                                      %! SPACING_MARKUP:HSS2
-                                %@%                 \fontsize                              %! SPACING_MARKUP:HSS2
-                                %@%                     #3                                 %! SPACING_MARKUP:HSS2
-                                %@%                     (1/64)                             %! SPACING_MARKUP:HSS2
+                                %@%             \fontsize                                  %! SPACING_MARKUP:HSS2
+                                %@%                 #3                                     %! SPACING_MARKUP:HSS2
+                                %@%                 [1/64]                                 %! SPACING_MARKUP:HSS2
                                 %@%     }                                                  %! SPACING_MARKUP:HSS2
                                 }
                             }
@@ -119,16 +118,15 @@ def running_music():
                                 %@%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
                                 %@%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
                                 %@%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 m1                                     %! MEASURE_INDEX_MARKUP:SM31
+                                %@%                 [01]                                   %! MEASURE_INDEX_MARKUP:SM31
                                 %@%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
                                 %@% \line                                                  %! SPACING_MARKUP:HSS2
                                 %@%     {                                                  %! SPACING_MARKUP:HSS2
                                 %@%         \with-color                                    %! SPACING_MARKUP:HSS2
                                 %@%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
-                                %@%             \bold                                      %! SPACING_MARKUP:HSS2
-                                %@%                 \fontsize                              %! SPACING_MARKUP:HSS2
-                                %@%                     #3                                 %! SPACING_MARKUP:HSS2
-                                %@%                     (3/224)                            %! SPACING_MARKUP:HSS2
+                                %@%             \fontsize                                  %! SPACING_MARKUP:HSS2
+                                %@%                 #3                                     %! SPACING_MARKUP:HSS2
+                                %@%                 [3/224]                                %! SPACING_MARKUP:HSS2
                                 %@%     }                                                  %! SPACING_MARKUP:HSS2
                                 }
                             }
@@ -148,16 +146,15 @@ def running_music():
                                 %@%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
                                 %@%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
                                 %@%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 m2                                     %! MEASURE_INDEX_MARKUP:SM31
+                                %@%                 [02]                                   %! MEASURE_INDEX_MARKUP:SM31
                                 %@%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
                                 %@% \line                                                  %! SPACING_MARKUP:HSS2
                                 %@%     {                                                  %! SPACING_MARKUP:HSS2
                                 %@%         \with-color                                    %! SPACING_MARKUP:HSS2
                                 %@%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
-                                %@%             \bold                                      %! SPACING_MARKUP:HSS2
-                                %@%                 \fontsize                              %! SPACING_MARKUP:HSS2
-                                %@%                     #3                                 %! SPACING_MARKUP:HSS2
-                                %@%                     (1/64)                             %! SPACING_MARKUP:HSS2
+                                %@%             \fontsize                                  %! SPACING_MARKUP:HSS2
+                                %@%                 #3                                     %! SPACING_MARKUP:HSS2
+                                %@%                 [1/64]                                 %! SPACING_MARKUP:HSS2
                                 %@%     }                                                  %! SPACING_MARKUP:HSS2
                                 }
                             }
@@ -178,16 +175,15 @@ def running_music():
                                 %@%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
                                 %@%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
                                 %@%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 m3                                     %! MEASURE_INDEX_MARKUP:SM31
+                                %@%                 [03]                                   %! MEASURE_INDEX_MARKUP:SM31
                                 %@%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
                                 %@% \line                                                  %! SPACING_MARKUP:HSS2
                                 %@%     {                                                  %! SPACING_MARKUP:HSS2
                                 %@%         \with-color                                    %! SPACING_MARKUP:HSS2
                                 %@%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
-                                %@%             \bold                                      %! SPACING_MARKUP:HSS2
-                                %@%                 \fontsize                              %! SPACING_MARKUP:HSS2
-                                %@%                     #3                                 %! SPACING_MARKUP:HSS2
-                                %@%                     (5/384)                            %! SPACING_MARKUP:HSS2
+                                %@%             \fontsize                                  %! SPACING_MARKUP:HSS2
+                                %@%                 #3                                     %! SPACING_MARKUP:HSS2
+                                %@%                 [5/384]                                %! SPACING_MARKUP:HSS2
                                 %@%     }                                                  %! SPACING_MARKUP:HSS2
                                 }
                             }
@@ -373,7 +369,7 @@ def running_music():
                                 %@%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
                                 %@%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
                                 %@%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 m0                                     %! MEASURE_INDEX_MARKUP:SM31
+                                %@%                 [00]                                   %! MEASURE_INDEX_MARKUP:SM31
                                 %@%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
                                 %@% \line                                                  %! STAGE_NUMBER_MARKUP:SM3
                                 %@%     {                                                  %! STAGE_NUMBER_MARKUP:SM3
@@ -387,10 +383,9 @@ def running_music():
                                 %@%     {                                                  %! SPACING_MARKUP:HSS2
                                 %@%         \with-color                                    %! SPACING_MARKUP:HSS2
                                 %@%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
-                                %@%             \bold                                      %! SPACING_MARKUP:HSS2
-                                %@%                 \fontsize                              %! SPACING_MARKUP:HSS2
-                                %@%                     #3                                 %! SPACING_MARKUP:HSS2
-                                %@%                     (3/224)                            %! SPACING_MARKUP:HSS2
+                                %@%             \fontsize                                  %! SPACING_MARKUP:HSS2
+                                %@%                 #3                                     %! SPACING_MARKUP:HSS2
+                                %@%                 [3/224]                                %! SPACING_MARKUP:HSS2
                                 %@%     }                                                  %! SPACING_MARKUP:HSS2
                                 }
                             }
@@ -410,16 +405,15 @@ def running_music():
                                 %@%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
                                 %@%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
                                 %@%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 m1                                     %! MEASURE_INDEX_MARKUP:SM31
+                                %@%                 [01]                                   %! MEASURE_INDEX_MARKUP:SM31
                                 %@%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
                                 %@% \line                                                  %! SPACING_MARKUP:HSS2
                                 %@%     {                                                  %! SPACING_MARKUP:HSS2
                                 %@%         \with-color                                    %! SPACING_MARKUP:HSS2
                                 %@%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
-                                %@%             \bold                                      %! SPACING_MARKUP:HSS2
-                                %@%                 \fontsize                              %! SPACING_MARKUP:HSS2
-                                %@%                     #3                                 %! SPACING_MARKUP:HSS2
-                                %@%                     (5/384)                            %! SPACING_MARKUP:HSS2
+                                %@%             \fontsize                                  %! SPACING_MARKUP:HSS2
+                                %@%                 #3                                     %! SPACING_MARKUP:HSS2
+                                %@%                 [5/384]                                %! SPACING_MARKUP:HSS2
                                 %@%     }                                                  %! SPACING_MARKUP:HSS2
                                 }
                             }
@@ -440,16 +434,15 @@ def running_music():
                                 %@%             #3                                         %! MEASURE_INDEX_MARKUP:SM31
                                 %@%             \with-color                                %! MEASURE_INDEX_MARKUP:SM31
                                 %@%                 #(x11-color 'DarkCyan)                 %! MEASURE_INDEX_MARKUP:SM31
-                                %@%                 m2                                     %! MEASURE_INDEX_MARKUP:SM31
+                                %@%                 [02]                                   %! MEASURE_INDEX_MARKUP:SM31
                                 %@%     }                                                  %! MEASURE_INDEX_MARKUP:SM31
                                 %@% \line                                                  %! SPACING_MARKUP:HSS2
                                 %@%     {                                                  %! SPACING_MARKUP:HSS2
                                 %@%         \with-color                                    %! SPACING_MARKUP:HSS2
                                 %@%             #(x11-color 'DarkCyan)                     %! SPACING_MARKUP:HSS2
-                                %@%             \bold                                      %! SPACING_MARKUP:HSS2
-                                %@%                 \fontsize                              %! SPACING_MARKUP:HSS2
-                                %@%                     #3                                 %! SPACING_MARKUP:HSS2
-                                %@%                     (5/384)                            %! SPACING_MARKUP:HSS2
+                                %@%             \fontsize                                  %! SPACING_MARKUP:HSS2
+                                %@%                 #3                                     %! SPACING_MARKUP:HSS2
+                                %@%                 [5/384]                                %! SPACING_MARKUP:HSS2
                                 %@%     }                                                  %! SPACING_MARKUP:HSS2
                                 }
                             }

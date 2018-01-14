@@ -617,23 +617,23 @@
                             g'16
                             [
                             \glissando                                                   %! SC
-                            ^ \markup {                                                  %! FIGURE_NAME_MARKUP
-                                \fontsize                                                %! FIGURE_NAME_MARKUP
-                                    #2                                                   %! FIGURE_NAME_MARKUP
-                                    \concat                                              %! FIGURE_NAME_MARKUP
-                                        {                                                %! FIGURE_NAME_MARKUP
-                                            [                                            %! FIGURE_NAME_MARKUP
-                                            L1                                           %! FIGURE_NAME_MARKUP
-                                            \hspace                                      %! FIGURE_NAME_MARKUP
-                                                #1                                       %! FIGURE_NAME_MARKUP
-                                            \raise                                       %! FIGURE_NAME_MARKUP
-                                                #0.25                                    %! FIGURE_NAME_MARKUP
-                                                \fontsize                                %! FIGURE_NAME_MARKUP
-                                                    #-2                                  %! FIGURE_NAME_MARKUP
-                                                    (1)                                  %! FIGURE_NAME_MARKUP
-                                            ]                                            %! FIGURE_NAME_MARKUP
-                                        }                                                %! FIGURE_NAME_MARKUP
-                                }                                                        %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 L1                                           %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (1)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                             
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 0
@@ -656,23 +656,23 @@
                             af'16
                             [
                             \glissando                                                   %! SC
-                            ^ \markup {                                                  %! FIGURE_NAME_MARKUP
-                                \fontsize                                                %! FIGURE_NAME_MARKUP
-                                    #2                                                   %! FIGURE_NAME_MARKUP
-                                    \concat                                              %! FIGURE_NAME_MARKUP
-                                        {                                                %! FIGURE_NAME_MARKUP
-                                            [                                            %! FIGURE_NAME_MARKUP
-                                            L2                                           %! FIGURE_NAME_MARKUP
-                                            \hspace                                      %! FIGURE_NAME_MARKUP
-                                                #1                                       %! FIGURE_NAME_MARKUP
-                                            \raise                                       %! FIGURE_NAME_MARKUP
-                                                #0.25                                    %! FIGURE_NAME_MARKUP
-                                                \fontsize                                %! FIGURE_NAME_MARKUP
-                                                    #-2                                  %! FIGURE_NAME_MARKUP
-                                                    (6)                                  %! FIGURE_NAME_MARKUP
-                                            ]                                            %! FIGURE_NAME_MARKUP
-                                        }                                                %! FIGURE_NAME_MARKUP
-                                }                                                        %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 L2                                           %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (6)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                             
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
@@ -712,23 +712,23 @@
                             \set stemRightBeamCount = 2
                             b'16
                             \glissando                                                   %! SC
-                            ^ \markup {                                                  %! FIGURE_NAME_MARKUP
-                                \fontsize                                                %! FIGURE_NAME_MARKUP
-                                    #2                                                   %! FIGURE_NAME_MARKUP
-                                    \concat                                              %! FIGURE_NAME_MARKUP
-                                        {                                                %! FIGURE_NAME_MARKUP
-                                            [                                            %! FIGURE_NAME_MARKUP
-                                            L3                                           %! FIGURE_NAME_MARKUP
-                                            \hspace                                      %! FIGURE_NAME_MARKUP
-                                                #1                                       %! FIGURE_NAME_MARKUP
-                                            \raise                                       %! FIGURE_NAME_MARKUP
-                                                #0.25                                    %! FIGURE_NAME_MARKUP
-                                                \fontsize                                %! FIGURE_NAME_MARKUP
-                                                    #-2                                  %! FIGURE_NAME_MARKUP
-                                                    (11)                                 %! FIGURE_NAME_MARKUP
-                                            ]                                            %! FIGURE_NAME_MARKUP
-                                        }                                                %! FIGURE_NAME_MARKUP
-                                }                                                        %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 L3                                           %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (11)                                 %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                             
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
@@ -758,23 +758,23 @@
                             \set stemRightBeamCount = 1
                             b8.
                             [
-                            ^ \markup {                                                  %! FIGURE_NAME_MARKUP
-                                \fontsize                                                %! FIGURE_NAME_MARKUP
-                                    #2                                                   %! FIGURE_NAME_MARKUP
-                                    \concat                                              %! FIGURE_NAME_MARKUP
-                                        {                                                %! FIGURE_NAME_MARKUP
-                                            [                                            %! FIGURE_NAME_MARKUP
-                                            O1                                           %! FIGURE_NAME_MARKUP
-                                            \hspace                                      %! FIGURE_NAME_MARKUP
-                                                #1                                       %! FIGURE_NAME_MARKUP
-                                            \raise                                       %! FIGURE_NAME_MARKUP
-                                                #0.25                                    %! FIGURE_NAME_MARKUP
-                                                \fontsize                                %! FIGURE_NAME_MARKUP
-                                                    #-2                                  %! FIGURE_NAME_MARKUP
-                                                    (0)                                  %! FIGURE_NAME_MARKUP
-                                            ]                                            %! FIGURE_NAME_MARKUP
-                                        }                                                %! FIGURE_NAME_MARKUP
-                                }                                                        %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 O1                                           %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (0)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                             
                             \acciaccatura {
                                 
@@ -802,23 +802,23 @@
                             \set stemRightBeamCount = 1
                             e'8.
                             [
-                            ^ \markup {                                                  %! FIGURE_NAME_MARKUP
-                                \fontsize                                                %! FIGURE_NAME_MARKUP
-                                    #2                                                   %! FIGURE_NAME_MARKUP
-                                    \concat                                              %! FIGURE_NAME_MARKUP
-                                        {                                                %! FIGURE_NAME_MARKUP
-                                            [                                            %! FIGURE_NAME_MARKUP
-                                            O2                                           %! FIGURE_NAME_MARKUP
-                                            \hspace                                      %! FIGURE_NAME_MARKUP
-                                                #1                                       %! FIGURE_NAME_MARKUP
-                                            \raise                                       %! FIGURE_NAME_MARKUP
-                                                #0.25                                    %! FIGURE_NAME_MARKUP
-                                                \fontsize                                %! FIGURE_NAME_MARKUP
-                                                    #-2                                  %! FIGURE_NAME_MARKUP
-                                                    (5)                                  %! FIGURE_NAME_MARKUP
-                                            ]                                            %! FIGURE_NAME_MARKUP
-                                        }                                                %! FIGURE_NAME_MARKUP
-                                }                                                        %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 O2                                           %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (5)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                             
                             \acciaccatura {
                                 
@@ -847,23 +847,23 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 1
                             a'8.
-                            ^ \markup {                                                  %! FIGURE_NAME_MARKUP
-                                \fontsize                                                %! FIGURE_NAME_MARKUP
-                                    #2                                                   %! FIGURE_NAME_MARKUP
-                                    \concat                                              %! FIGURE_NAME_MARKUP
-                                        {                                                %! FIGURE_NAME_MARKUP
-                                            [                                            %! FIGURE_NAME_MARKUP
-                                            O3                                           %! FIGURE_NAME_MARKUP
-                                            \hspace                                      %! FIGURE_NAME_MARKUP
-                                                #1                                       %! FIGURE_NAME_MARKUP
-                                            \raise                                       %! FIGURE_NAME_MARKUP
-                                                #0.25                                    %! FIGURE_NAME_MARKUP
-                                                \fontsize                                %! FIGURE_NAME_MARKUP
-                                                    #-2                                  %! FIGURE_NAME_MARKUP
-                                                    (10)                                 %! FIGURE_NAME_MARKUP
-                                            ]                                            %! FIGURE_NAME_MARKUP
-                                        }                                                %! FIGURE_NAME_MARKUP
-                                }                                                        %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 O3                                           %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (10)                                 %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                             
                             \acciaccatura {
                                 
@@ -901,23 +901,23 @@
                             cs'''32
                             -\staccato                                                   %! IC
                             [
-                            ^ \markup {                                                  %! FIGURE_NAME_MARKUP
-                                \fontsize                                                %! FIGURE_NAME_MARKUP
-                                    #2                                                   %! FIGURE_NAME_MARKUP
-                                    \concat                                              %! FIGURE_NAME_MARKUP
-                                        {                                                %! FIGURE_NAME_MARKUP
-                                            [                                            %! FIGURE_NAME_MARKUP
-                                            D1                                           %! FIGURE_NAME_MARKUP
-                                            \hspace                                      %! FIGURE_NAME_MARKUP
-                                                #1                                       %! FIGURE_NAME_MARKUP
-                                            \raise                                       %! FIGURE_NAME_MARKUP
-                                                #0.25                                    %! FIGURE_NAME_MARKUP
-                                                \fontsize                                %! FIGURE_NAME_MARKUP
-                                                    #-2                                  %! FIGURE_NAME_MARKUP
-                                                    (3)                                  %! FIGURE_NAME_MARKUP
-                                            ]                                            %! FIGURE_NAME_MARKUP
-                                        }                                                %! FIGURE_NAME_MARKUP
-                                }                                                        %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 D1                                           %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (3)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                             
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
@@ -1040,23 +1040,23 @@
                             af''32
                             -\staccato                                                   %! IC
                             [
-                            ^ \markup {                                                  %! FIGURE_NAME_MARKUP
-                                \fontsize                                                %! FIGURE_NAME_MARKUP
-                                    #2                                                   %! FIGURE_NAME_MARKUP
-                                    \concat                                              %! FIGURE_NAME_MARKUP
-                                        {                                                %! FIGURE_NAME_MARKUP
-                                            [                                            %! FIGURE_NAME_MARKUP
-                                            D2                                           %! FIGURE_NAME_MARKUP
-                                            \hspace                                      %! FIGURE_NAME_MARKUP
-                                                #1                                       %! FIGURE_NAME_MARKUP
-                                            \raise                                       %! FIGURE_NAME_MARKUP
-                                                #0.25                                    %! FIGURE_NAME_MARKUP
-                                                \fontsize                                %! FIGURE_NAME_MARKUP
-                                                    #-2                                  %! FIGURE_NAME_MARKUP
-                                                    (8)                                  %! FIGURE_NAME_MARKUP
-                                            ]                                            %! FIGURE_NAME_MARKUP
-                                        }                                                %! FIGURE_NAME_MARKUP
-                                }                                                        %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 D2                                           %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (8)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                             
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
@@ -1171,23 +1171,23 @@
                             \set stemRightBeamCount = 2
                             f'16
                             [
-                            ^ \markup {                                                  %! FIGURE_NAME_MARKUP
-                                \fontsize                                                %! FIGURE_NAME_MARKUP
-                                    #2                                                   %! FIGURE_NAME_MARKUP
-                                    \concat                                              %! FIGURE_NAME_MARKUP
-                                        {                                                %! FIGURE_NAME_MARKUP
-                                            [                                            %! FIGURE_NAME_MARKUP
-                                            G1                                           %! FIGURE_NAME_MARKUP
-                                            \hspace                                      %! FIGURE_NAME_MARKUP
-                                                #1                                       %! FIGURE_NAME_MARKUP
-                                            \raise                                       %! FIGURE_NAME_MARKUP
-                                                #0.25                                    %! FIGURE_NAME_MARKUP
-                                                \fontsize                                %! FIGURE_NAME_MARKUP
-                                                    #-2                                  %! FIGURE_NAME_MARKUP
-                                                    (2)                                  %! FIGURE_NAME_MARKUP
-                                            ]                                            %! FIGURE_NAME_MARKUP
-                                        }                                                %! FIGURE_NAME_MARKUP
-                                }                                                        %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 G1                                           %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (2)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                             
                             \acciaccatura {
                                 
@@ -1211,23 +1211,23 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 2
                             d'16
-                            ^ \markup {                                                  %! FIGURE_NAME_MARKUP
-                                \fontsize                                                %! FIGURE_NAME_MARKUP
-                                    #2                                                   %! FIGURE_NAME_MARKUP
-                                    \concat                                              %! FIGURE_NAME_MARKUP
-                                        {                                                %! FIGURE_NAME_MARKUP
-                                            [                                            %! FIGURE_NAME_MARKUP
-                                            G2                                           %! FIGURE_NAME_MARKUP
-                                            \hspace                                      %! FIGURE_NAME_MARKUP
-                                                #1                                       %! FIGURE_NAME_MARKUP
-                                            \raise                                       %! FIGURE_NAME_MARKUP
-                                                #0.25                                    %! FIGURE_NAME_MARKUP
-                                                \fontsize                                %! FIGURE_NAME_MARKUP
-                                                    #-2                                  %! FIGURE_NAME_MARKUP
-                                                    (4)                                  %! FIGURE_NAME_MARKUP
-                                            ]                                            %! FIGURE_NAME_MARKUP
-                                        }                                                %! FIGURE_NAME_MARKUP
-                                }                                                        %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 G2                                           %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (4)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                             
                             \acciaccatura {
                                 
@@ -1338,23 +1338,23 @@
                             \set stemRightBeamCount = 2
                             f''16
                             [
-                            ^ \markup {                                                  %! FIGURE_NAME_MARKUP
-                                \fontsize                                                %! FIGURE_NAME_MARKUP
-                                    #2                                                   %! FIGURE_NAME_MARKUP
-                                    \concat                                              %! FIGURE_NAME_MARKUP
-                                        {                                                %! FIGURE_NAME_MARKUP
-                                            [                                            %! FIGURE_NAME_MARKUP
-                                            G3                                           %! FIGURE_NAME_MARKUP
-                                            \hspace                                      %! FIGURE_NAME_MARKUP
-                                                #1                                       %! FIGURE_NAME_MARKUP
-                                            \raise                                       %! FIGURE_NAME_MARKUP
-                                                #0.25                                    %! FIGURE_NAME_MARKUP
-                                                \fontsize                                %! FIGURE_NAME_MARKUP
-                                                    #-2                                  %! FIGURE_NAME_MARKUP
-                                                    (7)                                  %! FIGURE_NAME_MARKUP
-                                            ]                                            %! FIGURE_NAME_MARKUP
-                                        }                                                %! FIGURE_NAME_MARKUP
-                                }                                                        %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 G3                                           %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (7)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                             
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 1
@@ -1373,23 +1373,23 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 2
                             fs''16
-                            ^ \markup {                                                  %! FIGURE_NAME_MARKUP
-                                \fontsize                                                %! FIGURE_NAME_MARKUP
-                                    #2                                                   %! FIGURE_NAME_MARKUP
-                                    \concat                                              %! FIGURE_NAME_MARKUP
-                                        {                                                %! FIGURE_NAME_MARKUP
-                                            [                                            %! FIGURE_NAME_MARKUP
-                                            G4                                           %! FIGURE_NAME_MARKUP
-                                            \hspace                                      %! FIGURE_NAME_MARKUP
-                                                #1                                       %! FIGURE_NAME_MARKUP
-                                            \raise                                       %! FIGURE_NAME_MARKUP
-                                                #0.25                                    %! FIGURE_NAME_MARKUP
-                                                \fontsize                                %! FIGURE_NAME_MARKUP
-                                                    #-2                                  %! FIGURE_NAME_MARKUP
-                                                    (9)                                  %! FIGURE_NAME_MARKUP
-                                            ]                                            %! FIGURE_NAME_MARKUP
-                                        }                                                %! FIGURE_NAME_MARKUP
-                                }                                                        %! FIGURE_NAME_MARKUP
+                        %%% ^ \markup {                                                  %! FIGURE_NAME_MARKUP
+                        %%%     \fontsize                                                %! FIGURE_NAME_MARKUP
+                        %%%         #2                                                   %! FIGURE_NAME_MARKUP
+                        %%%         \concat                                              %! FIGURE_NAME_MARKUP
+                        %%%             {                                                %! FIGURE_NAME_MARKUP
+                        %%%                 [                                            %! FIGURE_NAME_MARKUP
+                        %%%                 G4                                           %! FIGURE_NAME_MARKUP
+                        %%%                 \hspace                                      %! FIGURE_NAME_MARKUP
+                        %%%                     #1                                       %! FIGURE_NAME_MARKUP
+                        %%%                 \raise                                       %! FIGURE_NAME_MARKUP
+                        %%%                     #0.25                                    %! FIGURE_NAME_MARKUP
+                        %%%                     \fontsize                                %! FIGURE_NAME_MARKUP
+                        %%%                         #-2                                  %! FIGURE_NAME_MARKUP
+                        %%%                         (9)                                  %! FIGURE_NAME_MARKUP
+                        %%%                 ]                                            %! FIGURE_NAME_MARKUP
+                        %%%             }                                                %! FIGURE_NAME_MARKUP
+                        %%%     }                                                        %! FIGURE_NAME_MARKUP
                             
                             \acciaccatura {
                                 

@@ -82,18 +82,9 @@ def monad_music():
                         % GlobalSkips [measure 1]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %! SPACING:HSS1
-                        \once \override TextSpanner.Y-extent = ##f                         %! SM29
-                        \once \override TextSpanner.bound-details.left-broken.text = ##f   %! SM29
-                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29
-                        \once \override TextSpanner.bound-details.right-broken.padding = 0 %! SM29
-                        \once \override TextSpanner.bound-details.right-broken.text = ##f  %! SM29
-                        \once \override TextSpanner.bound-details.right.padding = 0        %! SM29
-                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29
-                        \once \override TextSpanner.dash-period = 0                        %! SM29
                         \time 14/5                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 14/5
-                        \startTextSpan                                                     %! SM29
             <BLANKLINE>
                         % GlobalSkips [measure 2]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
@@ -115,7 +106,6 @@ def monad_music():
                         \time 8/5                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 8/5
-                        \stopTextSpan                                                      %! SM29
                         \override Score.BarLine.transparent = ##f                          %! SM5
                         \bar "|"                                                           %! SM5
             <BLANKLINE>
@@ -288,18 +278,9 @@ def monad_music():
                         % GlobalSkips [measure 1]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %! SPACING:HSS1
-                        \once \override TextSpanner.Y-extent = ##f                         %! SM29
-                        \once \override TextSpanner.bound-details.left-broken.text = ##f   %! SM29
-                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29
-                        \once \override TextSpanner.bound-details.right-broken.padding = 0 %! SM29
-                        \once \override TextSpanner.bound-details.right-broken.text = ##f  %! SM29
-                        \once \override TextSpanner.bound-details.right.padding = 0        %! SM29
-                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29
-                        \once \override TextSpanner.dash-period = 0                        %! SM29
                         \time 14/5                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 14/5
-                        \startTextSpan                                                     %! SM29
             <BLANKLINE>
                         % GlobalSkips [measure 2]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
@@ -321,7 +302,6 @@ def monad_music():
                         \time 8/5                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 8/5
-                        \stopTextSpan                                                      %! SM29
                         \override Score.BarLine.transparent = ##f                          %! SM5
                         \bar "|"                                                           %! SM5
             <BLANKLINE>

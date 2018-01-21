@@ -71,19 +71,19 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         # GUITAR
         guitar_music_voice_1 = abjad.Voice(
-            context_name='GuitarMusicVoiceI',
+            lilypond_type='GuitarMusicVoiceI',
             name='GuitarMusicVoiceI',
             )
         guitar_music_voice_2 = abjad.Voice(
-            context_name='GuitarMusicVoiceII',
+            lilypond_type='GuitarMusicVoiceII',
             name='GuitarMusicVoiceII',
             )
         guitar_music_voice_3 = abjad.Voice(
-            context_name='GuitarMusicVoiceIII',
+            lilypond_type='GuitarMusicVoiceIII',
             name='GuitarMusicVoiceIII',
             )
         guitar_music_voice_4 = abjad.Voice(
-            context_name='GuitarMusicVoiceIV',
+            lilypond_type='GuitarMusicVoiceIV',
             name='GuitarMusicVoiceIV',
             )
         guitar_music_staff = abjad.Staff(
@@ -93,7 +93,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                 guitar_music_voice_3,
                 guitar_music_voice_4,
                 ],
-            context_name='GuitarMusicStaff',
+            lilypond_type='GuitarMusicStaff',
             is_simultaneous=True,
             name='GuitarMusicStaff',
             )
@@ -106,7 +106,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         # SCORE
         music_context = abjad.Context(
             [guitar_music_staff],
-            context_name='MusicContext',
+            lilypond_type='MusicContext',
             name='MusicContext',
             )
         score = abjad.Score(

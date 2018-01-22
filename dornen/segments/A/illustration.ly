@@ -776,6 +776,10 @@
                                 % GuitarMusicVoiceI [measure 20]                         %! SM4
                                 \override Beam.positions = #'(8 . 8)                     %! OC
                                 \once \override Beam.grow-direction = #left
+                                \set GuitarMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8
+                                \clef "treble"                                           %! REAPPLIED_CLEF:SM8
+                                \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
+                            %@% \override GuitarMusicStaff.Clef.color = ##f              %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                                 cs''64 * 448/1024
                                 [
                             %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -795,6 +799,7 @@
                             %%%                 ]                                        %! FIGURE_NAME_MARKUP
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
+                                \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                 
                                 c''64 * 896/1024
                                 

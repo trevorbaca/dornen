@@ -1935,6 +1935,10 @@
                                 \override Beam.positions = #'(10 . 10)                   %! OC
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
+                                \set GuitarMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8
+                                \clef "treble"                                           %! REAPPLIED_CLEF:SM8
+                                \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
+                            %@% \override GuitarMusicStaff.Clef.color = ##f              %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                                 d'32.
                                 -\tenuto                                                 %! IC
@@ -1945,6 +1949,7 @@
                                         \upright                                         %! IC
                                             "LH only until rascado! (RH tacet; encourage whisks) ..." %! IC
                                     }                                                    %! IC
+                                \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                 
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 1

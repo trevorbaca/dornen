@@ -37,6 +37,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                         \set GuitarMusicStaff.shortInstrumentName = \markup {          %! ST1
                             \null                                                      %! ST1
                             }                                                          %! ST1
+                        \clef "treble"                                                 %! ST3
                         s1
                     }
                     \context GuitarMusicVoiceII = "GuitarMusicVoiceII" {
@@ -101,6 +102,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             guitar_music_staff,
             'default_instrument',
             dornen.instruments['Guitar'],
+            )
+        abjad.annotate(
+            guitar_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
             )
 
         # SCORE

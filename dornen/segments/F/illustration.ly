@@ -1056,6 +1056,10 @@
                                 \override Beam.positions = #'(8 . 8)                     %! OC
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
+                                \set GuitarMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8
+                                \clef "treble"                                           %! REAPPLIED_CLEF:SM8
+                                \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
+                            %@% \override GuitarMusicStaff.Clef.color = ##f              %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                                 a'16
                                 [
                                 (                                                        %! SC
@@ -1081,6 +1085,7 @@
                             %%%                 ]                                        %! FIGURE_NAME_MARKUP
                             %%%             }                                            %! FIGURE_NAME_MARKUP
                             %%%     }                                                    %! FIGURE_NAME_MARKUP
+                                \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                                 
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2

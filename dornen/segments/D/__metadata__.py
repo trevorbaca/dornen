@@ -14,6 +14,11 @@ metadata = abjad.TypedOrderedDict(
                         'GuitarMusicStaff',
                         [
                             abjad.Momento(
+                                context='GuitarMusicVoiceI',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
+                            abjad.Momento(
                                 context='GuitarMusicVoiceIV',
                                 prototype='abjad.Instrument',
                                 value='Guitar',

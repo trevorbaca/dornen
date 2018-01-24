@@ -1192,7 +1192,7 @@
                         % GuitarMusicVoiceI [measure 142]                                %! SM4
                         s1 * 5/48
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 144]                        %! SM4
                                 \set stemLeftBeamCount = 0
@@ -1241,7 +1241,7 @@
                         % GuitarMusicVoiceI [measure 145]                                %! SM4
                         s1 * 19/84
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 148]                        %! SM4
                                 \set stemLeftBeamCount = 1
@@ -1289,7 +1289,7 @@
                         % GuitarMusicVoiceI [measure 149]                                %! SM4
                         s1 * 1/24
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 150]                        %! SM4
                                 \set stemLeftBeamCount = 1
@@ -1337,7 +1337,7 @@
                         % GuitarMusicVoiceI [measure 151]                                %! SM4
                         s1 * 19/84
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 154]                        %! SM4
                                 \set stemLeftBeamCount = 1
@@ -1392,7 +1392,7 @@
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
                         s1 * 3/20
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceII [measure 134]                       %! SM4
                                 \once \override TextScript.direction = #down             %! OC
@@ -1433,7 +1433,7 @@
                         % GuitarMusicVoiceII [measure 135]                               %! SM4
                         s1 * 3/28
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceII [measure 136]                       %! SM4
                                 \set stemLeftBeamCount = 2
@@ -1467,7 +1467,7 @@
                         % GuitarMusicVoiceII [measure 137]                               %! SM4
                         s1 * 3/20
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceII [measure 138]                       %! SM4
                                 \set stemLeftBeamCount = 2
@@ -1501,7 +1501,7 @@
                         % GuitarMusicVoiceII [measure 139]                               %! SM4
                         s1 * 3/28
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceII [measure 140]                       %! SM4
                                 \set stemLeftBeamCount = 2
@@ -1535,7 +1535,7 @@
                         % GuitarMusicVoiceII [measure 141]                               %! SM4
                         s1 * 3/20
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceII [measure 142]                       %! SM4
                                 \set stemLeftBeamCount = 2

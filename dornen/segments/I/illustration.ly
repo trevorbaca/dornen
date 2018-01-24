@@ -1040,7 +1040,7 @@
                 \context GuitarMusicStaff = "GuitarMusicStaff" <<
                     \context GuitarMusicVoiceI = "GuitarMusicVoiceI" {
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 185]                        %! SM4
                                 \set GuitarMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8

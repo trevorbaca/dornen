@@ -89,19 +89,19 @@ def rest_music(duration=None):
                 \context MusicContext = "MusicContext" <<
                     \context Staff = "MusicStaff" {
                         \context Voice = "MusicVoice" {
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
                                 r8
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 2]                                   %! SM4
                                 r8
             <BLANKLINE>
                                 r8
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 3]                                   %! SM4
                                 r8
@@ -189,18 +189,18 @@ def rest_music(duration=None):
                 \context MusicContext = "MusicContext" <<
                     \context Staff = "MusicStaff" {
                         \context Voice = "MusicVoice" {
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
                                 r8
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 r8
             <BLANKLINE>
                                 r8
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 r8
             <BLANKLINE>
@@ -208,14 +208,14 @@ def rest_music(duration=None):
             <BLANKLINE>
                                 r8
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 2]                                   %! SM4
                                 r8
             <BLANKLINE>
                                 r8
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 r8
             <BLANKLINE>
@@ -223,7 +223,7 @@ def rest_music(duration=None):
             <BLANKLINE>
                                 r8
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 r8
             <BLANKLINE>

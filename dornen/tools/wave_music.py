@@ -123,7 +123,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
                                 \once \override Beam.grow-direction = #right
@@ -174,7 +174,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 2]                                   %! SM4
                                 \once \override Beam.grow-direction = #right
@@ -225,7 +225,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #left
                                 bf'64 * 320/1024
@@ -273,7 +273,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 3]                                   %! SM4
                                 \once \override Beam.grow-direction = #right
@@ -324,7 +324,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #left
                                 bf'64 * 320/1024
@@ -372,7 +372,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #right
                                 fs'64 * 2112/1024
@@ -515,7 +515,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
                                 \once \override Beam.grow-direction = #left
@@ -566,7 +566,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 2]                                   %! SM4
                                 \once \override Beam.grow-direction = #left
@@ -617,7 +617,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #right
                                 bf'64 * 2048/1024
@@ -665,7 +665,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 3]                                   %! SM4
                                 \once \override Beam.grow-direction = #left
@@ -716,7 +716,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #right
                                 bf'64 * 2048/1024
@@ -764,7 +764,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #left
                                 fs'64 * 320/1024
@@ -907,7 +907,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
                                 \once \override Beam.grow-direction = #right
@@ -958,7 +958,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 2]                                   %! SM4
                                 \once \override Beam.grow-direction = #right
@@ -1009,7 +1009,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #left
                                 bf'32 * 320/1024
@@ -1057,7 +1057,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 3]                                   %! SM4
                                 \once \override Beam.grow-direction = #right
@@ -1108,7 +1108,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #left
                                 bf'32 * 320/1024
@@ -1156,7 +1156,7 @@ def wave_music(denominator=64, inverted=False):
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #right
                                 fs'32 * 2080/1024

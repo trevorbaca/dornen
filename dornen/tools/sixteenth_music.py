@@ -114,71 +114,71 @@ def sixteenth_music():
                 \context MusicContext = "MusicContext" <<
                     \context Staff = "MusicStaff" {
                         \context Voice = "MusicVoice" {
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
                                 cs'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 c'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 bf'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 f'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 af'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 fs'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 b'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 2]                                   %! SM4
                                 d'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 e'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 3]                                   %! SM4
                                 ef'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 a'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 af'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 4]                                   %! SM4
                                 fs'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 b'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 d'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 f'16
             <BLANKLINE>
@@ -294,12 +294,12 @@ def sixteenth_music():
                 \context MusicContext = "MusicContext" <<
                     \context Staff = "MusicStaff" {
                         \context Voice = "MusicVoice" {
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
                                 cs'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 c'16
                                 [
@@ -307,11 +307,11 @@ def sixteenth_music():
                                 bf'16
                                 ]
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 f'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 af'16
                                 [
@@ -319,21 +319,21 @@ def sixteenth_music():
                                 fs'16
                                 ]
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 b'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 2]                                   %! SM4
                                 d'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 3]                                   %! SM4
                                 ef'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 a'16
                                 [
@@ -341,12 +341,12 @@ def sixteenth_music():
                                 af'16
                                 ]
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 4]                                   %! SM4
                                 fs'16
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 b'16
                                 [
@@ -354,7 +354,7 @@ def sixteenth_music():
                                 d'16
                                 ]
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 f'16
             <BLANKLINE>

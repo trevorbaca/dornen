@@ -617,7 +617,7 @@
                         s1 * 7/32
                         \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)  %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 156]                        %! SM4
                                 \override Beam.positions = #'(8 . 8)                     %! OC
@@ -759,7 +759,7 @@
                     }
                     \context GuitarMusicVoiceII = "GuitarMusicVoiceII" {
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceII [measure 155]                       %! SM4
                                 \override Beam.positions = #'(-7.5 . -7.5)               %! OC
@@ -803,7 +803,7 @@
                         % GuitarMusicVoiceII [measure 156]                               %! SM4
                         s1 * 29/16
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceII [measure 160]                       %! SM4
                                 \override Beam.positions = #'(-7.5 . -7.5)               %! OC
@@ -850,7 +850,7 @@
                         % GuitarMusicVoiceII [measure 161]                               %! SM4
                         s1 * 201/224
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceII [measure 165]                       %! SM4
                                 \set stemLeftBeamCount = 1
@@ -901,7 +901,7 @@
                         % GuitarMusicVoiceIII [measure 155]                              %! SM4
                         s1 * 109/224
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceIII [measure 158]                      %! SM4
                                 \override Beam.positions = #'(-7.5 . -7.5)               %! OC
@@ -1040,7 +1040,7 @@
                         % GuitarMusicVoiceIII [measure 159]                              %! SM4
                         s1 * 3/2
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceIII [measure 163]                      %! SM4
                                 \override Beam.positions = #'(-6 . -6)                   %! OC

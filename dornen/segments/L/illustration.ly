@@ -4244,7 +4244,7 @@
                             }
                         }
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 302]                        %! SM4
                                 \once \override TextScript.staff-padding = #5.5          %! OC

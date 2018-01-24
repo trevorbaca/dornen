@@ -93,12 +93,12 @@ def thirty_second_music():
                 \context MusicContext = "MusicContext" <<
                     \context Staff = "MusicStaff" {
                         \context Voice = "MusicVoice" {
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
                                 e'32
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 2]                                   %! SM4
                                 \set stemLeftBeamCount = 0
@@ -131,12 +131,12 @@ def thirty_second_music():
                                 c'32
                                 ]
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 3]                                   %! SM4
                                 b'32
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 4]                                   %! SM4
                                 \set stemLeftBeamCount = 0
@@ -265,7 +265,7 @@ def thirty_second_music():
                 \context MusicContext = "MusicContext" <<
                     \context Staff = "MusicStaff" {
                         \context Voice = "MusicVoice" {
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
                                 \set stemLeftBeamCount = 0
@@ -273,7 +273,7 @@ def thirty_second_music():
                                 e'32
                                 [
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 3
@@ -303,14 +303,14 @@ def thirty_second_music():
                                 \set stemRightBeamCount = 1
                                 c'32
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0
                                 b'32
                                 ]
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 2]                                   %! SM4
                                 \set stemLeftBeamCount = 0
@@ -342,13 +342,13 @@ def thirty_second_music():
                                 \set stemRightBeamCount = 1
                                 c'32
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 1
                                 b'32
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 3
@@ -375,7 +375,7 @@ def thirty_second_music():
                                 f'32
                                 ]
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 3]                                   %! SM4
                                 \set stemLeftBeamCount = 0
@@ -383,7 +383,7 @@ def thirty_second_music():
                                 b'32
                                 [
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 3
@@ -409,7 +409,7 @@ def thirty_second_music():
                                 \set stemRightBeamCount = 1
                                 f'32
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0

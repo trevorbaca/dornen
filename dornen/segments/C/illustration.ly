@@ -946,7 +946,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 71]                         %! SM4
                                 \override Beam.positions = #'(9 . 9)                     %! OC
@@ -1019,7 +1019,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \once \override Beam.grow-direction = #left
                                 g'32 * 384/1024
@@ -1067,7 +1067,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 72]                         %! SM4
                                 \once \override Beam.grow-direction = #right
@@ -1134,7 +1134,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \once \override Beam.grow-direction = #left
                                 g'64 * 384/1024
@@ -1183,7 +1183,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 73]                         %! SM4
                                 \once \override Beam.grow-direction = #right
@@ -1266,7 +1266,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 75]                         %! SM4
                                 \once \override Beam.grow-direction = #left
@@ -1326,7 +1326,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \once \override Beam.grow-direction = #right
                                 b32 * 1312/1024
@@ -1336,7 +1336,7 @@
                                 ]
                             }
                             \revert TupletNumber.text
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 c'32
                             }
@@ -1376,7 +1376,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 81]                         %! SM4
                                 \once \override Beam.grow-direction = #right
@@ -1440,7 +1440,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \once \override Beam.grow-direction = #left
                                 g''32 * 416/1024
@@ -1491,7 +1491,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 83]                         %! SM4
                                 \once \override Beam.grow-direction = #right
@@ -1555,7 +1555,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \once \override Beam.grow-direction = #left
                                 g'32 * 416/1024
@@ -1599,7 +1599,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \once \override Beam.grow-direction = #right
                                 ef''32 * 1568/1024
@@ -1736,7 +1736,7 @@
                         % GuitarMusicVoiceII [measure 83]                                %! SM4
                         s1 * 3/8
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceII [measure 84]                        %! SM4
                                 \set stemLeftBeamCount = 1
@@ -2056,7 +2056,7 @@
                         % GuitarMusicVoiceIII [measure 81]                               %! SM4
                         s1 * 29/32
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceIII [measure 85]                       %! SM4
                                 \set stemLeftBeamCount = 0
@@ -2382,7 +2382,7 @@
                             }                                                            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                         \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceIV [measure 78]                        %! SM4
                                 r8
@@ -2467,7 +2467,7 @@
                         % GuitarMusicVoiceIV [measure 80]                                %! SM4
                         s1 * 45/32
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceIV [measure 87]                        %! SM4
                                 r8

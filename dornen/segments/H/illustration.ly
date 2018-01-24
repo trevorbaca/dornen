@@ -868,7 +868,7 @@
                 \context GuitarMusicStaff = "GuitarMusicStaff" <<
                     \context GuitarMusicVoiceI = "GuitarMusicVoiceI" {
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 167]                        %! SM4
                                 \override Beam.positions = #'(6 . 6)                     %! OC
@@ -927,7 +927,7 @@
                             }
                         }
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 168]                        %! SM4
                                 \set stemLeftBeamCount = 1
@@ -982,7 +982,7 @@
                         % GuitarMusicVoiceI [measure 169]                                %! SM4
                         s1 * 3/16
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 170]                        %! SM4
                                 \set stemLeftBeamCount = 1
@@ -1034,7 +1034,7 @@
                             }
                         }
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 171]                        %! SM4
                                 \set stemLeftBeamCount = 1
@@ -1127,7 +1127,7 @@
                         s1 * 11/8
                         \revert Beam.positions                                           %! OC
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 175]                        %! SM4
                                 \override Beam.positions = #'(8 . 8)                     %! OC
@@ -1179,7 +1179,7 @@
                         % GuitarMusicVoiceI [measure 176]                                %! SM4
                         s1 * 185/448
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 178]                        %! SM4
                                 \set stemLeftBeamCount = 1
@@ -1229,7 +1229,7 @@
                         % GuitarMusicVoiceI [measure 179]                                %! SM4
                         s1 * 111/224
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 181]                        %! SM4
                                 \set stemLeftBeamCount = 1
@@ -1437,7 +1437,7 @@
                             }
                         }
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceII [measure 177]                       %! SM4
                                 \set stemLeftBeamCount = 1
@@ -1539,7 +1539,7 @@
                             }
                         }
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceII [measure 180]                       %! SM4
                                 \set stemLeftBeamCount = 1
@@ -1737,7 +1737,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceIII [measure 169]                      %! SM4
                                 \once \override Beam.grow-direction = #right
@@ -1809,7 +1809,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceIII [measure 173]                      %! SM4
                                 \once \override Beam.grow-direction = #right
@@ -1910,7 +1910,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceIII [measure 174]                      %! SM4
                                 \once \override Beam.grow-direction = #right

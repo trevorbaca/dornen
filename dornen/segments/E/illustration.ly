@@ -708,7 +708,7 @@
                 \context GuitarMusicStaff = "GuitarMusicStaff" <<
                     \context GuitarMusicVoiceI = "GuitarMusicVoiceI" {
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 120]                        %! SM4
                                 \override Beam.positions = #'(10 . 10)                   %! OC
@@ -853,7 +853,7 @@
                         % GuitarMusicVoiceI [measure 123]                                %! SM4
                         s1 * 3/20
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 124]                        %! SM4
                                 \set stemLeftBeamCount = 1
@@ -894,7 +894,7 @@
                         % GuitarMusicVoiceI [measure 125]                                %! SM4
                         s1 * 17/80
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 127]                        %! SM4
                                 r8
@@ -934,7 +934,7 @@
                             }
                         }
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 128]                        %! SM4
                                 \set stemLeftBeamCount = 0
@@ -970,7 +970,7 @@
                                 f''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -987,7 +987,7 @@
                                 f''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1004,7 +1004,7 @@
                                 f''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1021,7 +1021,7 @@
                                 f''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1038,7 +1038,7 @@
                                 f''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1055,7 +1055,7 @@
                                 f''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1072,7 +1072,7 @@
                                 f''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1089,7 +1089,7 @@
                                 f''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1106,7 +1106,7 @@
                                 f''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1126,7 +1126,7 @@
                             }
                         }
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 129]                        %! SM4
                                 \set stemLeftBeamCount = 0
@@ -1167,7 +1167,7 @@
                                 fqs''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1189,7 +1189,7 @@
                                 fqs''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1211,7 +1211,7 @@
                                 fqs''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1233,7 +1233,7 @@
                                 fqs''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1255,7 +1255,7 @@
                                 fqs''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1277,7 +1277,7 @@
                                 fqs''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1299,7 +1299,7 @@
                                 fqs''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1321,7 +1321,7 @@
                                 fqs''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1343,7 +1343,7 @@
                                 fqs''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1368,7 +1368,7 @@
                             }
                         }
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 130]                        %! SM4
                                 \set stemLeftBeamCount = 0
@@ -1414,7 +1414,7 @@
                                 gqf''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1441,7 +1441,7 @@
                                 gqf''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1468,7 +1468,7 @@
                                 gqf''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1495,7 +1495,7 @@
                                 gqf''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1522,7 +1522,7 @@
                                 gqf''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1549,7 +1549,7 @@
                                 gqf''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1576,7 +1576,7 @@
                                 gqf''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1603,7 +1603,7 @@
                                 gqf''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1630,7 +1630,7 @@
                                 gqf''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1660,7 +1660,7 @@
                             }
                         }
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 131]                        %! SM4
                                 \set stemLeftBeamCount = 0
@@ -1711,7 +1711,7 @@
                                 a''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1743,7 +1743,7 @@
                                 a''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1775,7 +1775,7 @@
                                 a''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1807,7 +1807,7 @@
                                 a''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1839,7 +1839,7 @@
                                 a''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1871,7 +1871,7 @@
                                 a''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1903,7 +1903,7 @@
                                 a''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1935,7 +1935,7 @@
                                 a''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -1967,7 +1967,7 @@
                                 a''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -2002,7 +2002,7 @@
                             }
                         }
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 132]                        %! SM4
                                 \set stemLeftBeamCount = 0
@@ -2183,7 +2183,7 @@
                                 fs''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -2340,7 +2340,7 @@
                                 fs''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -2497,7 +2497,7 @@
                                 fs''64
                                 -\staccato                                               %! IC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
@@ -2706,7 +2706,7 @@
                         \override Script.direction = #down                               %! OC
                         s1 * 3/32
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceIII [measure 121]                      %! SM4
                                 \set stemLeftBeamCount = 0
@@ -2742,7 +2742,7 @@
                         % GuitarMusicVoiceIII [measure 122]                              %! SM4
                         s1 * 69/160
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceIII [measure 125]                      %! SM4
                                 \set stemLeftBeamCount = 2

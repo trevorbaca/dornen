@@ -93,7 +93,7 @@ def glissando_scatto_music():
                 \context MusicContext = "MusicContext" <<
                     \context Staff = "MusicStaff" {
                         \context Voice = "MusicVoice" {
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
                                 e'16
@@ -138,7 +138,7 @@ def glissando_scatto_music():
                                 c'16
                                 ]
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 3]                                   %! SM4
                                 b'16
@@ -274,7 +274,7 @@ def glissando_scatto_music():
                 \context MusicContext = "MusicContext" <<
                     \context Staff = "MusicStaff" {
                         \context Voice = "MusicVoice" {
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
                                 \set stemLeftBeamCount = 0
@@ -321,7 +321,7 @@ def glissando_scatto_music():
                                 c'16
                                 \glissando                                                 %! SC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 0
@@ -368,7 +368,7 @@ def glissando_scatto_music():
                                 c'16
                                 \glissando                                                 %! SC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 1
@@ -408,7 +408,7 @@ def glissando_scatto_music():
                                 f'16
                                 ]
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 3]                                   %! SM4
                                 \set stemLeftBeamCount = 0
@@ -450,7 +450,7 @@ def glissando_scatto_music():
                                 f'16
                                 \glissando                                                 %! SC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 0

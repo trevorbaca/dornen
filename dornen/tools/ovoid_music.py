@@ -108,7 +108,7 @@ def ovoid_music():
                 \context MusicContext = "MusicContext" <<
                     \context Staff = "MusicStaff" {
                         \context Voice = "MusicVoice" {
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
                                 \set stemLeftBeamCount = 0
@@ -116,7 +116,7 @@ def ovoid_music():
                                 af'8.
                                 [
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
@@ -134,7 +134,7 @@ def ovoid_music():
                                 f'32
                                 ]
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 2]                                   %! SM4
                                 \set stemLeftBeamCount = 0
@@ -153,7 +153,7 @@ def ovoid_music():
                                 \set stemRightBeamCount = 1
                                 f'32
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
@@ -171,7 +171,7 @@ def ovoid_music():
                                 d'32
                                 ]
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 3]                                   %! SM4
                                 \set stemLeftBeamCount = 0
@@ -190,7 +190,7 @@ def ovoid_music():
                                 \set stemRightBeamCount = 1
                                 d'32
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
@@ -208,7 +208,7 @@ def ovoid_music():
                                 af'32
                                 ]
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 4]                                   %! SM4
                                 \set stemLeftBeamCount = 0
@@ -227,7 +227,7 @@ def ovoid_music():
                                 \set stemRightBeamCount = 1
                                 af'32
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
@@ -245,7 +245,7 @@ def ovoid_music():
                                 f'32
                                 ]
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 5]                                   %! SM4
                                 \set stemLeftBeamCount = 0
@@ -264,7 +264,7 @@ def ovoid_music():
                                 \set stemRightBeamCount = 1
                                 f'32
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 0

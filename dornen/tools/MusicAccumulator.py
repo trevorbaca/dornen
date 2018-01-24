@@ -31,7 +31,7 @@ class MusicAccumulator(baca.MusicAccumulator):
             \new Staff <<
                 \context Voice = "GuitarMusicVoiceI" {
                     {
-                        {
+                        \scaleDurations #'(1 . 1) {
                             \set stemLeftBeamCount = 0
                             \set stemRightBeamCount = 3
                             c'32 -\staccato %! IC [

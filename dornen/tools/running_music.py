@@ -93,7 +93,7 @@ def running_music():
                 \context MusicContext = "MusicContext" <<
                     \context Staff = "MusicStaff" {
                         \context Voice = "MusicVoice" {
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
                                 e'64
@@ -136,7 +136,7 @@ def running_music():
                                 )                                                          %! SC
                                 )                                                          %! SC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 3]                                   %! SM4
                                 b'64
@@ -271,7 +271,7 @@ def running_music():
                 \context MusicContext = "MusicContext" <<
                     \context Staff = "MusicStaff" {
                         \context Voice = "MusicVoice" {
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 1]                                   %! SM4
                                 \set stemLeftBeamCount = 0
@@ -315,7 +315,7 @@ def running_music():
                                 c'64
                                 (                                                          %! SC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 0
@@ -357,7 +357,7 @@ def running_music():
                                 \set stemRightBeamCount = 1
                                 c'64
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 1
@@ -394,7 +394,7 @@ def running_music():
                                 ]
                                 )                                                          %! SC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % MusicVoice [measure 3]                                   %! SM4
                                 \set stemLeftBeamCount = 0
@@ -434,7 +434,7 @@ def running_music():
                                 f'64
                                 (                                                          %! SC
                             }
-                            {
+                            \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 0

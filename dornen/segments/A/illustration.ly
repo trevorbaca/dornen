@@ -771,7 +771,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 20]                         %! SM4
                                 \override Beam.positions = #'(8 . 8)                     %! OC
@@ -839,7 +839,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \once \override Beam.grow-direction = #right
                                 af''64 * 1664/1024
@@ -883,7 +883,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \once \override Beam.grow-direction = #left
                                 e''64 * 448/1024
@@ -927,7 +927,7 @@
                                             }
                                         }
                                 }
-                            \times 1/1 {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 \once \override Beam.grow-direction = #right
                                 fs'64 * 1664/1024
@@ -1496,7 +1496,7 @@
                         % GuitarMusicVoiceI [measure 31]                                 %! SM4
                         s1 * 1/20
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 32]                         %! SM4
                                 \override TextScript.staff-padding = #9                  %! OC
@@ -1634,7 +1634,7 @@
                         % GuitarMusicVoiceI [measure 33]                                 %! SM4
                         s1 * 1/10
                         {
-                            {
+                            \scaleDurations #'(1 . 1) {
                                 
                                 % GuitarMusicVoiceI [measure 34]                         %! SM4
                                 \set stemLeftBeamCount = 1

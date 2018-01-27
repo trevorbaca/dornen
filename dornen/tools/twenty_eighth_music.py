@@ -47,7 +47,7 @@ def twenty_eighth_music():
         >>> maker = baca.tools.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
         ...     score_template=baca.tools.SingleStaffScoreTemplate(),
-        ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
+        ...     spacing=baca.tools.HorizontalSpacingSpecifier(
         ...         multiplier=abjad.Multiplier((5, 2)),
         ...         ),
         ...     time_signatures=time_signatures,
@@ -243,7 +243,7 @@ def twenty_eighth_music():
         >>> maker = baca.tools.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
         ...     score_template=baca.tools.SingleStaffScoreTemplate(),
-        ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
+        ...     spacing=baca.tools.HorizontalSpacingSpecifier(
         ...         multiplier=abjad.Multiplier((5, 2)),
         ...         ),
         ...     time_signatures=time_signatures,

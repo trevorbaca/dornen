@@ -215,8 +215,6 @@ maker = baca.SegmentMaker(
     transpose_score=True,
     )
 
-#maker.validate_stage_count()
-#maker.validate_measure_count()
 maker.validate_measures_per_stage()
 accumulator.populate_segment_maker(maker)
 

@@ -193,7 +193,7 @@ metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
     (1, dornen.metronome_marks['44']),
     ])
 
-spacing_specifier = baca.HorizontalSpacingSpecifier(
+spacing = baca.HorizontalSpacingSpecifier(
     fermata_measure_width=(1, 4),
     minimum_width=(1, 24),
     )
@@ -207,7 +207,7 @@ maker = baca.SegmentMaker(
     rehearsal_letter='',
     score_template=dornen.ScoreTemplate(),
     skips_instead_of_rests=True,
-    spacing_specifier=spacing_specifier,
+    spacing=spacing,
     stage_label_base_string='I',
     metronome_mark_measure_map=metronome_mark_measure_map,
     time_signatures=accumulator.time_signatures,

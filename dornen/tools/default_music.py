@@ -36,7 +36,7 @@ def default_music():
         >>> maker = baca.tools.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
         ...     score_template=baca.tools.SingleStaffScoreTemplate(),
-        ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
+        ...     spacing=baca.tools.HorizontalSpacingSpecifier(
         ...         minimum_width=(1, 24),
         ...         ),
         ...     time_signatures=time_signatures,
@@ -215,7 +215,7 @@ def default_music():
         >>> maker = baca.tools.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
         ...     score_template=baca.tools.SingleStaffScoreTemplate(),
-        ...     spacing_specifier=baca.tools.HorizontalSpacingSpecifier(
+        ...     spacing=baca.tools.HorizontalSpacingSpecifier(
         ...         minimum_width=(1, 24),
         ...         ),
         ...     time_signatures=time_signatures,

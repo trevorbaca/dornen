@@ -197,7 +197,6 @@ accumulator(
 ###############################################################################
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    #(1, dornen.metronome_marks['66']),
     ])
 
 spacing = baca.HorizontalSpacingSpecifier(
@@ -210,11 +209,12 @@ measures_per_stage = len(accumulator.time_signatures) * [1]
 maker = baca.SegmentMaker(
     instruments=dornen.instruments,
     measures_per_stage=measures_per_stage,
+    metronome_mark_measure_map=metronome_mark_measure_map,
     metronome_marks=dornen.metronome_marks,
     score_template=dornen.ScoreTemplate(),
     skips_instead_of_rests=True,
     spacing=spacing,
-    metronome_mark_measure_map=metronome_mark_measure_map,
+    stage_label_base_string='J',
     time_signatures=accumulator.time_signatures,
     transpose_score=True,
     )

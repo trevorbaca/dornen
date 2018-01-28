@@ -289,7 +289,6 @@ maker = baca.SegmentMaker(
     metronome_marks=dornen.metronome_marks,
     skips_instead_of_rests=True,
     spacing=spacing,
-    stage_label_base_string='D',
     score_template=dornen.ScoreTemplate(),
     time_signatures=accumulator.time_signatures,
     transpose_score=True,

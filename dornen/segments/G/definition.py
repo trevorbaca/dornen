@@ -131,7 +131,6 @@ maker = baca.SegmentMaker(
     score_template=dornen.ScoreTemplate(),
     skips_instead_of_rests=True,
     spacing=spacing,
-    stage_label_base_string='G',
     time_signatures=accumulator.time_signatures,
     transpose_score=True,
     )

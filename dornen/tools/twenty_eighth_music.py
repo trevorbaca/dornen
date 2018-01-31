@@ -79,28 +79,28 @@ def twenty_eighth_music():
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        % GlobalSkips [measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)   %! SPACING:HSS1
                         \time 7/28                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/4
             <BLANKLINE>
-                        % GlobalSkips [measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)   %! SPACING:HSS1
                         \time 2/28                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/14
             <BLANKLINE>
-                        % GlobalSkips [measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)   %! SPACING:HSS1
                         \time 3/28                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 3/28
             <BLANKLINE>
-                        % GlobalSkips [measure 4]                                          %! SM4
+                        % [GlobalSkips measure 4]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)   %! SPACING:HSS1
                         \time 4/28                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -117,7 +117,7 @@ def twenty_eighth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
             <BLANKLINE>
-                                % MusicVoice [measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM4
                                 cs'16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -153,7 +153,7 @@ def twenty_eighth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
             <BLANKLINE>
-                                % MusicVoice [measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM4
                                 d'16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -164,7 +164,7 @@ def twenty_eighth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
             <BLANKLINE>
-                                % MusicVoice [measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM4
                                 ef'16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -180,7 +180,7 @@ def twenty_eighth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
             <BLANKLINE>
-                                % MusicVoice [measure 4]                                   %! SM4
+                                % [MusicVoice measure 4]                                   %! SM4
                                 fs'16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -275,28 +275,28 @@ def twenty_eighth_music():
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        % GlobalSkips [measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)   %! SPACING:HSS1
                         \time 7/28                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/4
             <BLANKLINE>
-                        % GlobalSkips [measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)   %! SPACING:HSS1
                         \time 1/28                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/28
             <BLANKLINE>
-                        % GlobalSkips [measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)   %! SPACING:HSS1
                         \time 3/28                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 3/28
             <BLANKLINE>
-                        % GlobalSkips [measure 4]                                          %! SM4
+                        % [GlobalSkips measure 4]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 70)   %! SPACING:HSS1
                         \time 4/28                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -313,7 +313,7 @@ def twenty_eighth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
             <BLANKLINE>
-                                % MusicVoice [measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM4
                                 cs'16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -347,13 +347,13 @@ def twenty_eighth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
             <BLANKLINE>
-                                % MusicVoice [measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM4
                                 d'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
             <BLANKLINE>
-                                % MusicVoice [measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM4
                                 ef'16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -368,7 +368,7 @@ def twenty_eighth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
             <BLANKLINE>
-                                % MusicVoice [measure 4]                                   %! SM4
+                                % [MusicVoice measure 4]                                   %! SM4
                                 fs'16
                             }
                             \tweak edge-height #'(0.7 . 0)

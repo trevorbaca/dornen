@@ -58,28 +58,28 @@ def thirty_second_music():
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        % GlobalSkips [measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %! SPACING:HSS1
                         \time 1/32                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/32
             <BLANKLINE>
-                        % GlobalSkips [measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %! SPACING:HSS1
                         \time 7/32                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 7/32
             <BLANKLINE>
-                        % GlobalSkips [measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %! SPACING:HSS1
                         \time 1/32                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/32
             <BLANKLINE>
-                        % GlobalSkips [measure 4]                                          %! SM4
+                        % [GlobalSkips measure 4]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %! SPACING:HSS1
                         \time 6/32                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -95,12 +95,12 @@ def thirty_second_music():
                         \context Voice = "MusicVoice" {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM4
                                 e'32
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
                                 fs'32
@@ -133,12 +133,12 @@ def thirty_second_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM4
                                 b'32
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 4]                                   %! SM4
+                                % [MusicVoice measure 4]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
                                 bf'32
@@ -237,21 +237,21 @@ def thirty_second_music():
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        % GlobalSkips [measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %! SPACING:HSS1
                         \time 9/32                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 9/32
             <BLANKLINE>
-                        % GlobalSkips [measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %! SPACING:HSS1
                         \time 14/32                                                        %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 7/16
             <BLANKLINE>
-                        % GlobalSkips [measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)   %! SPACING:HSS1
                         \time 8/32                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -267,7 +267,7 @@ def thirty_second_music():
                         \context Voice = "MusicVoice" {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
                                 e'32
@@ -312,7 +312,7 @@ def thirty_second_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
                                 fs'32
@@ -377,7 +377,7 @@ def thirty_second_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
                                 b'32

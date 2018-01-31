@@ -78,24 +78,24 @@ def passepied_music():
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        % GlobalSkips [measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM4
                         \time 1/32                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/32
             <BLANKLINE>
-                        % GlobalSkips [measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM4
                         \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/32
             <BLANKLINE>
-                        % GlobalSkips [measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM4
                         \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/32
             <BLANKLINE>
-                        % GlobalSkips [measure 4]                                          %! SM4
+                        % [GlobalSkips measure 4]                                          %! SM4
                         \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/32
             <BLANKLINE>
-                        % GlobalSkips [measure 5]                                          %! SM4
+                        % [GlobalSkips measure 5]                                          %! SM4
                         \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/32
                         \override Score.BarLine.transparent = ##f                          %! SM5
@@ -108,12 +108,12 @@ def passepied_music():
                         \context Voice = "MusicVoice" {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM4
                                 af'32
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM4
                                 \acciaccatura {
             <BLANKLINE>
                                     cs'16 [                                                %! ACC1
@@ -127,7 +127,7 @@ def passepied_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM4
                                 \acciaccatura {
             <BLANKLINE>
                                     af'16 [                                                %! ACC1
@@ -141,7 +141,7 @@ def passepied_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 4]                                   %! SM4
+                                % [MusicVoice measure 4]                                   %! SM4
                                 \acciaccatura {
             <BLANKLINE>
                                     e'16 [                                                 %! ACC1
@@ -155,7 +155,7 @@ def passepied_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 5]                                   %! SM4
+                                % [MusicVoice measure 5]                                   %! SM4
                                 \acciaccatura {
             <BLANKLINE>
                                     fs'16 [                                                %! ACC1
@@ -241,20 +241,20 @@ def passepied_music():
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        % GlobalSkips [measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM4
                         \time 17/32                                                        %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 17/32
             <BLANKLINE>
-                        % GlobalSkips [measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM4
                         \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 17/32
             <BLANKLINE>
-                        % GlobalSkips [measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM4
                         \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 17/32
             <BLANKLINE>
-                        % GlobalSkips [measure 4]                                          %! SM4
+                        % [GlobalSkips measure 4]                                          %! SM4
                         \time 11/32                                                        %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 11/32
@@ -268,7 +268,7 @@ def passepied_music():
                         \context Voice = "MusicVoice" {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
                                 af'32
@@ -313,7 +313,7 @@ def passepied_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM4
                                 \acciaccatura {
             <BLANKLINE>
                                     cs'16 [                                                %! ACC1
@@ -367,7 +367,7 @@ def passepied_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM4
                                 \acciaccatura {
             <BLANKLINE>
                                     af'16 [                                                %! ACC1
@@ -421,7 +421,7 @@ def passepied_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 4]                                   %! SM4
+                                % [MusicVoice measure 4]                                   %! SM4
                                 \acciaccatura {
             <BLANKLINE>
                                     e'16 [                                                 %! ACC1

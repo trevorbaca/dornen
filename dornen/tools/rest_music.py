@@ -67,17 +67,17 @@ def rest_music(duration=None):
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        % GlobalSkips [measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM4
                         \time 1/8                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/8
             <BLANKLINE>
-                        % GlobalSkips [measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM4
                         \time 2/8                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 1/4
             <BLANKLINE>
-                        % GlobalSkips [measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM4
                         \time 3/8                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 3/8
@@ -91,19 +91,19 @@ def rest_music(duration=None):
                         \context Voice = "MusicVoice" {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM4
                                 r8
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM4
                                 r8
             <BLANKLINE>
                                 r8
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM4
                                 r8
             <BLANKLINE>
                                 r8
@@ -173,12 +173,12 @@ def rest_music(duration=None):
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        % GlobalSkips [measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM4
                         \time 6/8                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 3/4
             <BLANKLINE>
-                        % GlobalSkips [measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM4
                         \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 3/4
                         \override Score.BarLine.transparent = ##f                          %! SM5
@@ -191,7 +191,7 @@ def rest_music(duration=None):
                         \context Voice = "MusicVoice" {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM4
                                 r8
                             }
                             \scaleDurations #'(1 . 1) {
@@ -210,7 +210,7 @@ def rest_music(duration=None):
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM4
                                 r8
             <BLANKLINE>
                                 r8

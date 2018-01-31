@@ -74,17 +74,17 @@ def graced_tuplet_music():
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        % GlobalSkips [measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM4
                         \time 19/56                                                        %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 19/56
             <BLANKLINE>
-                        % GlobalSkips [measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM4
                         \time 39/56                                                        %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 39/56
             <BLANKLINE>
-                        % GlobalSkips [measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM4
                         \time 53/112                                                       %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 53/112
@@ -100,7 +100,7 @@ def graced_tuplet_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                % MusicVoice [measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
                                 af'16
@@ -159,7 +159,7 @@ def graced_tuplet_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                % MusicVoice [measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
                                 cs'16
@@ -258,7 +258,7 @@ def graced_tuplet_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                % MusicVoice [measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
                                 a'16

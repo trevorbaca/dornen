@@ -79,28 +79,28 @@ def monad_music():
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        % GlobalSkips [measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %! SPACING:HSS1
                         \time 14/5                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 14/5
             <BLANKLINE>
-                        % GlobalSkips [measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %! SPACING:HSS1
                         \time 4/5                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 4/5
             <BLANKLINE>
-                        % GlobalSkips [measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %! SPACING:HSS1
                         \time 6/5                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 6/5
             <BLANKLINE>
-                        % GlobalSkips [measure 4]                                          %! SM4
+                        % [GlobalSkips measure 4]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %! SPACING:HSS1
                         \time 8/5                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -117,7 +117,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % MusicVoice [measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM4
                                 cs'2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -153,7 +153,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % MusicVoice [measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM4
                                 d'2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -164,7 +164,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % MusicVoice [measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM4
                                 ef'2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -180,7 +180,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % MusicVoice [measure 4]                                   %! SM4
+                                % [MusicVoice measure 4]                                   %! SM4
                                 fs'2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -275,28 +275,28 @@ def monad_music():
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        % GlobalSkips [measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %! SPACING:HSS1
                         \time 14/5                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 14/5
             <BLANKLINE>
-                        % GlobalSkips [measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %! SPACING:HSS1
                         \time 2/5                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 2/5
             <BLANKLINE>
-                        % GlobalSkips [measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %! SPACING:HSS1
                         \time 6/5                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 6/5
             <BLANKLINE>
-                        % GlobalSkips [measure 4]                                          %! SM4
+                        % [GlobalSkips measure 4]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 4 25)   %! SPACING:HSS1
                         \time 8/5                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -313,7 +313,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % MusicVoice [measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM4
                                 cs'2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -343,13 +343,13 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % MusicVoice [measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM4
                                 d'2
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % MusicVoice [measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM4
                                 ef'2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -362,7 +362,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % MusicVoice [measure 4]                                   %! SM4
+                                % [MusicVoice measure 4]                                   %! SM4
                                 fs'2
                             }
                             \tweak edge-height #'(0.7 . 0)

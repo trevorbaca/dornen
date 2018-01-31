@@ -58,28 +58,28 @@ def forty_eighth_music():
                 \context GlobalContext = "GlobalContext" <<
                     \context GlobalSkips = "GlobalSkips" {
             <BLANKLINE>
-                        % GlobalSkips [measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %! SPACING:HSS1
                         \time 3/64                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 3/64
             <BLANKLINE>
-                        % GlobalSkips [measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %! SPACING:HSS1
                         \time 21/64                                                        %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 21/64
             <BLANKLINE>
-                        % GlobalSkips [measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %! SPACING:HSS1
                         \time 3/64                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
                         \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                         s1 * 3/64
             <BLANKLINE>
-                        % GlobalSkips [measure 4]                                          %! SM4
+                        % [GlobalSkips measure 4]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)   %! SPACING:HSS1
                         \time 9/32                                                         %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -95,12 +95,12 @@ def forty_eighth_music():
                         \context Voice = "MusicVoice" {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM4
                                 e'32.
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM4
                                 fs'32.
                                 [
             <BLANKLINE>
@@ -119,12 +119,12 @@ def forty_eighth_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM4
                                 b'32.
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % MusicVoice [measure 4]                                   %! SM4
+                                % [MusicVoice measure 4]                                   %! SM4
                                 bf'32.
                                 [
             <BLANKLINE>

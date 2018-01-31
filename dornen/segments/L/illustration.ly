@@ -17,7 +17,7 @@
             \context GlobalContext = "GlobalContext" <<
                 \context GlobalSkips = "GlobalSkips" {
                     
-                    % GlobalSkips [measure 257]                                          %! SM4
+                    % [GlobalSkips measure 257]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                 %@% \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK:SM27
@@ -124,7 +124,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 258]                                          %! SM4
+                    % [GlobalSkips measure 258]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -175,7 +175,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 259]                                          %! SM4
+                    % [GlobalSkips measure 259]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 1/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -227,7 +227,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 260]                                          %! SM4
+                    % [GlobalSkips measure 260]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -278,7 +278,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 261]                                          %! SM4
+                    % [GlobalSkips measure 261]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -329,7 +329,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 262]                                          %! SM4
+                    % [GlobalSkips measure 262]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 2/5                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -381,7 +381,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 263]                                          %! SM4
+                    % [GlobalSkips measure 263]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -432,7 +432,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 264]                                          %! SM4
+                    % [GlobalSkips measure 264]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 1/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -484,7 +484,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 265]                                          %! SM4
+                    % [GlobalSkips measure 265]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -535,7 +535,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 266]                                          %! SM4
+                    % [GlobalSkips measure 266]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -586,7 +586,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 267]                                          %! SM4
+                    % [GlobalSkips measure 267]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 2/5                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -638,7 +638,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 268]                                          %! SM4
+                    % [GlobalSkips measure 268]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -689,7 +689,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 269]                                          %! SM4
+                    % [GlobalSkips measure 269]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 1/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -741,7 +741,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 270]                                          %! SM4
+                    % [GlobalSkips measure 270]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -792,7 +792,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 271]                                          %! SM4
+                    % [GlobalSkips measure 271]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -843,7 +843,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 272]                                          %! SM4
+                    % [GlobalSkips measure 272]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 2/5                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -895,7 +895,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 273]                                          %! SM4
+                    % [GlobalSkips measure 273]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 2/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -947,7 +947,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 274]                                          %! SM4
+                    % [GlobalSkips measure 274]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 2/5                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -999,7 +999,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 275]                                          %! SM4
+                    % [GlobalSkips measure 275]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -1050,7 +1050,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 276]                                          %! SM4
+                    % [GlobalSkips measure 276]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -1101,7 +1101,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 277]                                          %! SM4
+                    % [GlobalSkips measure 277]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 3/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1153,7 +1153,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 278]                                          %! SM4
+                    % [GlobalSkips measure 278]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 2/5                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1205,7 +1205,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 279]                                          %! SM4
+                    % [GlobalSkips measure 279]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -1256,7 +1256,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 280]                                          %! SM4
+                    % [GlobalSkips measure 280]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -1307,7 +1307,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 281]                                          %! SM4
+                    % [GlobalSkips measure 281]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1359,7 +1359,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 282]                                          %! SM4
+                    % [GlobalSkips measure 282]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 5/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1411,7 +1411,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 283]                                          %! SM4
+                    % [GlobalSkips measure 283]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1463,7 +1463,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 284]                                          %! SM4
+                    % [GlobalSkips measure 284]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 3/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1515,7 +1515,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 285]                                          %! SM4
+                    % [GlobalSkips measure 285]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 2/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1567,7 +1567,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 286]                                          %! SM4
+                    % [GlobalSkips measure 286]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 1/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1619,7 +1619,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 287]                                          %! SM4
+                    % [GlobalSkips measure 287]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 2/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1671,7 +1671,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 288]                                          %! SM4
+                    % [GlobalSkips measure 288]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 3/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1723,7 +1723,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 289]                                          %! SM4
+                    % [GlobalSkips measure 289]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1775,7 +1775,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 290]                                          %! SM4
+                    % [GlobalSkips measure 290]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 5/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1827,7 +1827,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 291]                                          %! SM4
+                    % [GlobalSkips measure 291]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1879,7 +1879,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 292]                                          %! SM4
+                    % [GlobalSkips measure 292]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 3/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1931,7 +1931,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 293]                                          %! SM4
+                    % [GlobalSkips measure 293]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 2/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1983,7 +1983,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 294]                                          %! SM4
+                    % [GlobalSkips measure 294]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 1/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2035,7 +2035,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 295]                                          %! SM4
+                    % [GlobalSkips measure 295]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 2/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2087,7 +2087,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 296]                                          %! SM4
+                    % [GlobalSkips measure 296]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 3/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2139,7 +2139,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 297]                                          %! SM4
+                    % [GlobalSkips measure 297]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2191,7 +2191,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 298]                                          %! SM4
+                    % [GlobalSkips measure 298]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 5/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2243,7 +2243,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 299]                                          %! SM4
+                    % [GlobalSkips measure 299]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 3/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2295,7 +2295,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 300]                                          %! SM4
+                    % [GlobalSkips measure 300]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 2/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2347,7 +2347,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 301]                                          %! SM4
+                    % [GlobalSkips measure 301]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 1/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2399,7 +2399,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 302]                                          %! SM4
+                    % [GlobalSkips measure 302]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 5/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2463,7 +2463,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % GuitarMusicVoiceI [measure 257]                        %! SM4
+                                % [GuitarMusicVoiceI measure 257]                        %! SM4
                                 \set GuitarMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8
                                 \clef "treble"                                           %! REAPPLIED_CLEF:SM8
                                 \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
@@ -2501,7 +2501,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % GuitarMusicVoiceI [measure 258]                        %! SM4
+                                % [GuitarMusicVoiceI measure 258]                        %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2569,7 +2569,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 259]                        %! SM4
+                                % [GuitarMusicVoiceI measure 259]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -2604,7 +2604,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 260]                        %! SM4
+                                % [GuitarMusicVoiceI measure 260]                        %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2672,7 +2672,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 261]                        %! SM4
+                                % [GuitarMusicVoiceI measure 261]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -2707,7 +2707,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % GuitarMusicVoiceI [measure 262]                        %! SM4
+                                % [GuitarMusicVoiceI measure 262]                        %! SM4
                                 e2
                                 :32                                                      %! IC
                                 \repeatTie                                               %! SC
@@ -2754,7 +2754,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % GuitarMusicVoiceI [measure 263]                        %! SM4
+                                % [GuitarMusicVoiceI measure 263]                        %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2822,7 +2822,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 264]                        %! SM4
+                                % [GuitarMusicVoiceI measure 264]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -2857,7 +2857,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 265]                        %! SM4
+                                % [GuitarMusicVoiceI measure 265]                        %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2925,7 +2925,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 266]                        %! SM4
+                                % [GuitarMusicVoiceI measure 266]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -2960,7 +2960,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % GuitarMusicVoiceI [measure 267]                        %! SM4
+                                % [GuitarMusicVoiceI measure 267]                        %! SM4
                                 e2
                                 :32                                                      %! IC
                                 \repeatTie                                               %! SC
@@ -3007,7 +3007,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % GuitarMusicVoiceI [measure 268]                        %! SM4
+                                % [GuitarMusicVoiceI measure 268]                        %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -3075,7 +3075,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 269]                        %! SM4
+                                % [GuitarMusicVoiceI measure 269]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -3110,7 +3110,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 270]                        %! SM4
+                                % [GuitarMusicVoiceI measure 270]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -3145,7 +3145,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 271]                        %! SM4
+                                % [GuitarMusicVoiceI measure 271]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -3179,7 +3179,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % GuitarMusicVoiceI [measure 272]                        %! SM4
+                                % [GuitarMusicVoiceI measure 272]                        %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -3247,7 +3247,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 273]                        %! SM4
+                                % [GuitarMusicVoiceI measure 273]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -3286,7 +3286,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % GuitarMusicVoiceI [measure 274]                        %! SM4
+                                % [GuitarMusicVoiceI measure 274]                        %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -3354,7 +3354,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % GuitarMusicVoiceI [measure 275]                        %! SM4
+                                % [GuitarMusicVoiceI measure 275]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -3389,7 +3389,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % GuitarMusicVoiceI [measure 276]                        %! SM4
+                                % [GuitarMusicVoiceI measure 276]                        %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -3456,7 +3456,7 @@
                         {
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 277]                        %! SM4
+                                % [GuitarMusicVoiceI measure 277]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -3499,7 +3499,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % GuitarMusicVoiceI [measure 278]                        %! SM4
+                                % [GuitarMusicVoiceI measure 278]                        %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -3567,7 +3567,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % GuitarMusicVoiceI [measure 279]                        %! SM4
+                                % [GuitarMusicVoiceI measure 279]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -3602,7 +3602,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % GuitarMusicVoiceI [measure 280]                        %! SM4
+                                % [GuitarMusicVoiceI measure 280]                        %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -3670,7 +3670,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 281]                        %! SM4
+                                % [GuitarMusicVoiceI measure 281]                        %! SM4
                                 e2
                                 :32                                                      %! IC
                                 \repeatTie                                               %! SC
@@ -3714,7 +3714,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 282]                        %! SM4
+                                % [GuitarMusicVoiceI measure 282]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -3765,7 +3765,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 283]                        %! SM4
+                                % [GuitarMusicVoiceI measure 283]                        %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -3843,7 +3843,7 @@
                         {
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 284]                        %! SM4
+                                % [GuitarMusicVoiceI measure 284]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -3885,7 +3885,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 285]                        %! SM4
+                                % [GuitarMusicVoiceI measure 285]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -3923,7 +3923,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 286]                        %! SM4
+                                % [GuitarMusicVoiceI measure 286]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -3957,7 +3957,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 287]                        %! SM4
+                                % [GuitarMusicVoiceI measure 287]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -3994,7 +3994,7 @@
                         {
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 288]                        %! SM4
+                                % [GuitarMusicVoiceI measure 288]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -4036,7 +4036,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 289]                        %! SM4
+                                % [GuitarMusicVoiceI measure 289]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -4082,7 +4082,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 290]                        %! SM4
+                                % [GuitarMusicVoiceI measure 290]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -4132,7 +4132,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 291]                        %! SM4
+                                % [GuitarMusicVoiceI measure 291]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -4177,7 +4177,7 @@
                         {
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 292]                        %! SM4
+                                % [GuitarMusicVoiceI measure 292]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -4219,7 +4219,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 293]                        %! SM4
+                                % [GuitarMusicVoiceI measure 293]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -4258,7 +4258,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 294]                        %! SM4
+                                % [GuitarMusicVoiceI measure 294]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -4292,7 +4292,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 295]                        %! SM4
+                                % [GuitarMusicVoiceI measure 295]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -4329,7 +4329,7 @@
                         {
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 296]                        %! SM4
+                                % [GuitarMusicVoiceI measure 296]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -4371,7 +4371,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 297]                        %! SM4
+                                % [GuitarMusicVoiceI measure 297]                        %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -4450,7 +4450,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 298]                        %! SM4
+                                % [GuitarMusicVoiceI measure 298]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -4499,7 +4499,7 @@
                         {
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 299]                        %! SM4
+                                % [GuitarMusicVoiceI measure 299]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -4541,7 +4541,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 300]                        %! SM4
+                                % [GuitarMusicVoiceI measure 300]                        %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
                                 :32                                                      %! IC
@@ -4579,7 +4579,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % GuitarMusicVoiceI [measure 301]                        %! SM4
+                                % [GuitarMusicVoiceI measure 301]                        %! SM4
                                 \once \override Hairpin.circled-tip = ##t
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 e2
@@ -4614,7 +4614,7 @@
                         {
                             \scaleDurations #'(1 . 1) {
                                 
-                                % GuitarMusicVoiceI [measure 302]                        %! SM4
+                                % [GuitarMusicVoiceI measure 302]                        %! SM4
                                 \once \override TextScript.staff-padding = #5.5          %! OC
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 r8
@@ -4656,289 +4656,289 @@
                     }
                     \context GuitarMusicVoiceII = "GuitarMusicVoiceII" {
                         
-                        % GuitarMusicVoiceII [measure 257]                               %! SM4
+                        % [GuitarMusicVoiceII measure 257]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceII [measure 258]                               %! SM4
+                        % [GuitarMusicVoiceII measure 258]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceII [measure 259]                               %! SM4
+                        % [GuitarMusicVoiceII measure 259]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceII [measure 260]                               %! SM4
+                        % [GuitarMusicVoiceII measure 260]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceII [measure 261]                               %! SM4
+                        % [GuitarMusicVoiceII measure 261]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceII [measure 262]                               %! SM4
+                        % [GuitarMusicVoiceII measure 262]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceII [measure 263]                               %! SM4
+                        % [GuitarMusicVoiceII measure 263]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceII [measure 264]                               %! SM4
+                        % [GuitarMusicVoiceII measure 264]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceII [measure 265]                               %! SM4
+                        % [GuitarMusicVoiceII measure 265]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceII [measure 266]                               %! SM4
+                        % [GuitarMusicVoiceII measure 266]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceII [measure 267]                               %! SM4
+                        % [GuitarMusicVoiceII measure 267]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceII [measure 268]                               %! SM4
+                        % [GuitarMusicVoiceII measure 268]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceII [measure 269]                               %! SM4
+                        % [GuitarMusicVoiceII measure 269]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceII [measure 270]                               %! SM4
+                        % [GuitarMusicVoiceII measure 270]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceII [measure 271]                               %! SM4
+                        % [GuitarMusicVoiceII measure 271]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceII [measure 272]                               %! SM4
+                        % [GuitarMusicVoiceII measure 272]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceII [measure 273]                               %! SM4
+                        % [GuitarMusicVoiceII measure 273]                               %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceII [measure 274]                               %! SM4
+                        % [GuitarMusicVoiceII measure 274]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceII [measure 275]                               %! SM4
+                        % [GuitarMusicVoiceII measure 275]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceII [measure 276]                               %! SM4
+                        % [GuitarMusicVoiceII measure 276]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceII [measure 277]                               %! SM4
+                        % [GuitarMusicVoiceII measure 277]                               %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceII [measure 278]                               %! SM4
+                        % [GuitarMusicVoiceII measure 278]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceII [measure 279]                               %! SM4
+                        % [GuitarMusicVoiceII measure 279]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceII [measure 280]                               %! SM4
+                        % [GuitarMusicVoiceII measure 280]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceII [measure 281]                               %! SM4
+                        % [GuitarMusicVoiceII measure 281]                               %! SM4
                         s1 * 4/3
                         
-                        % GuitarMusicVoiceII [measure 282]                               %! SM4
+                        % [GuitarMusicVoiceII measure 282]                               %! SM4
                         s1 * 5/3
                         
-                        % GuitarMusicVoiceII [measure 283]                               %! SM4
+                        % [GuitarMusicVoiceII measure 283]                               %! SM4
                         s1 * 4/3
                         
-                        % GuitarMusicVoiceII [measure 284]                               %! SM4
+                        % [GuitarMusicVoiceII measure 284]                               %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceII [measure 285]                               %! SM4
+                        % [GuitarMusicVoiceII measure 285]                               %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceII [measure 286]                               %! SM4
+                        % [GuitarMusicVoiceII measure 286]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceII [measure 287]                               %! SM4
+                        % [GuitarMusicVoiceII measure 287]                               %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceII [measure 288]                               %! SM4
+                        % [GuitarMusicVoiceII measure 288]                               %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceII [measure 289]                               %! SM4
+                        % [GuitarMusicVoiceII measure 289]                               %! SM4
                         s1 * 4/3
                         
-                        % GuitarMusicVoiceII [measure 290]                               %! SM4
+                        % [GuitarMusicVoiceII measure 290]                               %! SM4
                         s1 * 5/3
                         
-                        % GuitarMusicVoiceII [measure 291]                               %! SM4
+                        % [GuitarMusicVoiceII measure 291]                               %! SM4
                         s1 * 4/3
                         
-                        % GuitarMusicVoiceII [measure 292]                               %! SM4
+                        % [GuitarMusicVoiceII measure 292]                               %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceII [measure 293]                               %! SM4
+                        % [GuitarMusicVoiceII measure 293]                               %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceII [measure 294]                               %! SM4
+                        % [GuitarMusicVoiceII measure 294]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceII [measure 295]                               %! SM4
+                        % [GuitarMusicVoiceII measure 295]                               %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceII [measure 296]                               %! SM4
+                        % [GuitarMusicVoiceII measure 296]                               %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceII [measure 297]                               %! SM4
+                        % [GuitarMusicVoiceII measure 297]                               %! SM4
                         s1 * 4/3
                         
-                        % GuitarMusicVoiceII [measure 298]                               %! SM4
+                        % [GuitarMusicVoiceII measure 298]                               %! SM4
                         s1 * 5/3
                         
-                        % GuitarMusicVoiceII [measure 299]                               %! SM4
+                        % [GuitarMusicVoiceII measure 299]                               %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceII [measure 300]                               %! SM4
+                        % [GuitarMusicVoiceII measure 300]                               %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceII [measure 301]                               %! SM4
+                        % [GuitarMusicVoiceII measure 301]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceII [measure 302]                               %! SM4
+                        % [GuitarMusicVoiceII measure 302]                               %! SM4
                         s1 * 5/8
                         
                     }
                     \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII" {
                         
-                        % GuitarMusicVoiceIII [measure 257]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 257]                              %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIII [measure 258]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 258]                              %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIII [measure 259]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 259]                              %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIII [measure 260]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 260]                              %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIII [measure 261]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 261]                              %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIII [measure 262]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 262]                              %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIII [measure 263]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 263]                              %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIII [measure 264]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 264]                              %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIII [measure 265]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 265]                              %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIII [measure 266]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 266]                              %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIII [measure 267]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 267]                              %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIII [measure 268]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 268]                              %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIII [measure 269]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 269]                              %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIII [measure 270]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 270]                              %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIII [measure 271]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 271]                              %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIII [measure 272]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 272]                              %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIII [measure 273]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 273]                              %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceIII [measure 274]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 274]                              %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIII [measure 275]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 275]                              %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIII [measure 276]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 276]                              %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIII [measure 277]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 277]                              %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceIII [measure 278]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 278]                              %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIII [measure 279]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 279]                              %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIII [measure 280]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 280]                              %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIII [measure 281]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 281]                              %! SM4
                         s1 * 4/3
                         
-                        % GuitarMusicVoiceIII [measure 282]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 282]                              %! SM4
                         s1 * 5/3
                         
-                        % GuitarMusicVoiceIII [measure 283]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 283]                              %! SM4
                         s1 * 4/3
                         
-                        % GuitarMusicVoiceIII [measure 284]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 284]                              %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceIII [measure 285]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 285]                              %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceIII [measure 286]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 286]                              %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIII [measure 287]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 287]                              %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceIII [measure 288]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 288]                              %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceIII [measure 289]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 289]                              %! SM4
                         s1 * 4/3
                         
-                        % GuitarMusicVoiceIII [measure 290]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 290]                              %! SM4
                         s1 * 5/3
                         
-                        % GuitarMusicVoiceIII [measure 291]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 291]                              %! SM4
                         s1 * 4/3
                         
-                        % GuitarMusicVoiceIII [measure 292]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 292]                              %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceIII [measure 293]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 293]                              %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceIII [measure 294]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 294]                              %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIII [measure 295]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 295]                              %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceIII [measure 296]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 296]                              %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceIII [measure 297]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 297]                              %! SM4
                         s1 * 4/3
                         
-                        % GuitarMusicVoiceIII [measure 298]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 298]                              %! SM4
                         s1 * 5/3
                         
-                        % GuitarMusicVoiceIII [measure 299]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 299]                              %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceIII [measure 300]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 300]                              %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceIII [measure 301]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 301]                              %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIII [measure 302]                              %! SM4
+                        % [GuitarMusicVoiceIII measure 302]                              %! SM4
                         s1 * 5/8
                         
                     }
                     \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV" {
                         
-                        % GuitarMusicVoiceIV [measure 257]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 257]                               %! SM4
                         \set GuitarMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_INSTRUMENT:SM8
@@ -4978,139 +4978,139 @@
                             }                                                            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                         \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                         
-                        % GuitarMusicVoiceIV [measure 258]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 258]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIV [measure 259]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 259]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIV [measure 260]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 260]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIV [measure 261]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 261]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIV [measure 262]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 262]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIV [measure 263]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 263]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIV [measure 264]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 264]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIV [measure 265]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 265]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIV [measure 266]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 266]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIV [measure 267]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 267]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIV [measure 268]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 268]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIV [measure 269]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 269]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIV [measure 270]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 270]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIV [measure 271]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 271]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIV [measure 272]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 272]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIV [measure 273]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 273]                               %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceIV [measure 274]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 274]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIV [measure 275]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 275]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIV [measure 276]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 276]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIV [measure 277]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 277]                               %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceIV [measure 278]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 278]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIV [measure 279]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 279]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIV [measure 280]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 280]                               %! SM4
                         s1 * 2/5
                         
-                        % GuitarMusicVoiceIV [measure 281]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 281]                               %! SM4
                         s1 * 4/3
                         
-                        % GuitarMusicVoiceIV [measure 282]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 282]                               %! SM4
                         s1 * 5/3
                         
-                        % GuitarMusicVoiceIV [measure 283]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 283]                               %! SM4
                         s1 * 4/3
                         
-                        % GuitarMusicVoiceIV [measure 284]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 284]                               %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceIV [measure 285]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 285]                               %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceIV [measure 286]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 286]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIV [measure 287]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 287]                               %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceIV [measure 288]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 288]                               %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceIV [measure 289]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 289]                               %! SM4
                         s1 * 4/3
                         
-                        % GuitarMusicVoiceIV [measure 290]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 290]                               %! SM4
                         s1 * 5/3
                         
-                        % GuitarMusicVoiceIV [measure 291]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 291]                               %! SM4
                         s1 * 4/3
                         
-                        % GuitarMusicVoiceIV [measure 292]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 292]                               %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceIV [measure 293]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 293]                               %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceIV [measure 294]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 294]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIV [measure 295]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 295]                               %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceIV [measure 296]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 296]                               %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceIV [measure 297]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 297]                               %! SM4
                         s1 * 4/3
                         
-                        % GuitarMusicVoiceIV [measure 298]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 298]                               %! SM4
                         s1 * 5/3
                         
-                        % GuitarMusicVoiceIV [measure 299]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 299]                               %! SM4
                         s1 * 1
                         
-                        % GuitarMusicVoiceIV [measure 300]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 300]                               %! SM4
                         s1 * 2/3
                         
-                        % GuitarMusicVoiceIV [measure 301]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 301]                               %! SM4
                         s1 * 1/3
                         
-                        % GuitarMusicVoiceIV [measure 302]                               %! SM4
+                        % [GuitarMusicVoiceIV measure 302]                               %! SM4
                         s1 * 5/8
                         
                     }

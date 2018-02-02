@@ -11,11 +11,16 @@
         {
             \include "layout.ly"
         }
-        \context Score = "Score" \with {
+        \context Score = "Score"
+        \with
+        {
             currentBarNumber = #207
-        } <<
-            \context GlobalContext = "GlobalContext" <<
-                \context GlobalSkips = "GlobalSkips" {
+        }
+        <<
+            \context GlobalContext = "GlobalContext"
+            <<
+                \context GlobalSkips = "GlobalSkips"
+                {
                     
                     % [J GlobalSkips measure 207]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1363,9 +1368,12 @@
                     
                 }
             >>
-            \context MusicContext = "MusicContext" {
-                \context GuitarMusicStaff = "GuitarMusicStaff" <<
-                    \context GuitarMusicVoiceI = "GuitarMusicVoiceI" {
+            \context MusicContext = "MusicContext"
+            {
+                \context GuitarMusicStaff = "GuitarMusicStaff"
+                <<
+                    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
+                    {
                         {
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
@@ -2496,7 +2504,8 @@
                             }
                         }
                     }
-                    \context GuitarMusicVoiceII = "GuitarMusicVoiceII" {
+                    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
+                    {
                         
                         % [J GuitarMusicVoiceII measure 207]                             %! SM4
                         s1 * 2/5
@@ -2574,7 +2583,8 @@
                         s1 * 4/5
                         
                     }
-                    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII" {
+                    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
+                    {
                         
                         % [J GuitarMusicVoiceIII measure 207]                            %! SM4
                         s1 * 2/5
@@ -2652,7 +2662,8 @@
                         s1 * 4/5
                         
                     }
-                    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV" {
+                    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
+                    {
                         
                         % [J GuitarMusicVoiceIV measure 207]                             %! SM4
                         \set GuitarMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8

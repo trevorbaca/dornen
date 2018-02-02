@@ -11,11 +11,16 @@
         {
             \include "layout.ly"
         }
-        \context Score = "Score" \with {
+        \context Score = "Score"
+        \with
+        {
             currentBarNumber = #167
-        } <<
-            \context GlobalContext = "GlobalContext" <<
-                \context GlobalSkips = "GlobalSkips" {
+        }
+        <<
+            \context GlobalContext = "GlobalContext"
+            <<
+                \context GlobalSkips = "GlobalSkips"
+                {
                     
                     % [H GlobalSkips measure 167]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1008,9 +1013,12 @@
                     
                 }
             >>
-            \context MusicContext = "MusicContext" {
-                \context GuitarMusicStaff = "GuitarMusicStaff" <<
-                    \context GuitarMusicVoiceI = "GuitarMusicVoiceI" {
+            \context MusicContext = "MusicContext"
+            {
+                \context GuitarMusicStaff = "GuitarMusicStaff"
+                <<
+                    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
+                    {
                         {
                             \scaleDurations #'(1 . 1) {
                                 
@@ -1525,7 +1533,8 @@
                         \revert Beam.positions                                           %! OC
                         
                     }
-                    \context GuitarMusicVoiceII = "GuitarMusicVoiceII" {
+                    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
+                    {
                         
                         % [H GuitarMusicVoiceII measure 167]                             %! SM4
                         s1 * 83/32
@@ -1845,7 +1854,8 @@
                             }
                         }
                     }
-                    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII" {
+                    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
+                    {
                         
                         % [H GuitarMusicVoiceIII measure 167]                            %! SM4
                         \override Beam.positions = #'(-4 . -4)                           %! OC
@@ -1856,11 +1866,16 @@
                                     #'(0.75 . 0.75)
                                     \score
                                         {
-                                            \new Score \with {
+                                            \new Score
+                                            \with
+                                            {
                                                 \override SpacingSpanner.spacing-increment = #0.5
                                                 proportionalNotationDuration = ##f
-                                            } <<
-                                                \new RhythmicStaff \with {
+                                            }
+                                            <<
+                                                \new RhythmicStaff
+                                                \with
+                                                {
                                                     \remove Time_signature_engraver
                                                     \remove Staff_symbol_engraver
                                                     \override Stem.direction = #up
@@ -1871,7 +1886,8 @@
                                                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                                                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                                     tupletFullLength = ##t
-                                                } {
+                                                }
+                                                {
                                                     c'8.
                                                 }
                                             >>
@@ -1927,11 +1943,16 @@
                                     #'(0.75 . 0.75)
                                     \score
                                         {
-                                            \new Score \with {
+                                            \new Score
+                                            \with
+                                            {
                                                 \override SpacingSpanner.spacing-increment = #0.5
                                                 proportionalNotationDuration = ##f
-                                            } <<
-                                                \new RhythmicStaff \with {
+                                            }
+                                            <<
+                                                \new RhythmicStaff
+                                                \with
+                                                {
                                                     \remove Time_signature_engraver
                                                     \remove Staff_symbol_engraver
                                                     \override Stem.direction = #up
@@ -1942,7 +1963,8 @@
                                                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                                                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                                     tupletFullLength = ##t
-                                                } {
+                                                }
+                                                {
                                                     c'2 ~
                                                     c'8.
                                                 }
@@ -2028,11 +2050,16 @@
                                     #'(0.75 . 0.75)
                                     \score
                                         {
-                                            \new Score \with {
+                                            \new Score
+                                            \with
+                                            {
                                                 \override SpacingSpanner.spacing-increment = #0.5
                                                 proportionalNotationDuration = ##f
-                                            } <<
-                                                \new RhythmicStaff \with {
+                                            }
+                                            <<
+                                                \new RhythmicStaff
+                                                \with
+                                                {
                                                     \remove Time_signature_engraver
                                                     \remove Staff_symbol_engraver
                                                     \override Stem.direction = #up
@@ -2043,7 +2070,8 @@
                                                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                                                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                                     tupletFullLength = ##t
-                                                } {
+                                                }
+                                                {
                                                     c'2 ~
                                                     c'8.
                                                 }
@@ -2156,7 +2184,8 @@
                         \revert Beam.positions                                           %! OC
                         
                     }
-                    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV" {
+                    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
+                    {
                         
                         % [H GuitarMusicVoiceIV measure 167]                             %! SM4
                         \set GuitarMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8

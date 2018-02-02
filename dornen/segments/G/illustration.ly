@@ -11,11 +11,16 @@
         {
             \include "layout.ly"
         }
-        \context Score = "Score" \with {
+        \context Score = "Score"
+        \with
+        {
             currentBarNumber = #155
-        } <<
-            \context GlobalContext = "GlobalContext" <<
-                \context GlobalSkips = "GlobalSkips" {
+        }
+        <<
+            \context GlobalContext = "GlobalContext"
+            <<
+                \context GlobalSkips = "GlobalSkips"
+                {
                     
                     % [G GlobalSkips measure 155]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -701,9 +706,12 @@
                     
                 }
             >>
-            \context MusicContext = "MusicContext" {
-                \context GuitarMusicStaff = "GuitarMusicStaff" <<
-                    \context GuitarMusicVoiceI = "GuitarMusicVoiceI" {
+            \context MusicContext = "MusicContext"
+            {
+                \context GuitarMusicStaff = "GuitarMusicStaff"
+                <<
+                    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
+                    {
                         
                         % [G GuitarMusicVoiceI measure 155]                              %! SM4
                         \set GuitarMusicStaff.forceClef = ##t                            %! REAPPLIED_CLEF:SM8
@@ -853,7 +861,8 @@
                             }
                         }
                     }
-                    \context GuitarMusicVoiceII = "GuitarMusicVoiceII" {
+                    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
+                    {
                         {
                             \scaleDurations #'(1 . 1) {
                                 
@@ -992,7 +1001,8 @@
                         s1 * 5/32
                         
                     }
-                    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII" {
+                    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
+                    {
                         
                         % [G GuitarMusicVoiceIII measure 155]                            %! SM4
                         s1 * 109/224
@@ -1202,7 +1212,8 @@
                         s1 * 5/32
                         
                     }
-                    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV" {
+                    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
+                    {
                         
                         % [G GuitarMusicVoiceIV measure 155]                             %! SM4
                         \override Beam.positions = #'(8 . 8)                             %! OC

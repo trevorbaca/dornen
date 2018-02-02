@@ -11,11 +11,16 @@
         {
             \include "layout.ly"
         }
-        \context Score = "Score" \with {
+        \context Score = "Score"
+        \with
+        {
             currentBarNumber = #120
-        } <<
-            \context GlobalContext = "GlobalContext" <<
-                \context GlobalSkips = "GlobalSkips" {
+        }
+        <<
+            \context GlobalContext = "GlobalContext"
+            <<
+                \context GlobalSkips = "GlobalSkips"
+                {
                     
                     % [E GlobalSkips measure 120]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -808,9 +813,12 @@
                     
                 }
             >>
-            \context MusicContext = "MusicContext" {
-                \context GuitarMusicStaff = "GuitarMusicStaff" <<
-                    \context GuitarMusicVoiceI = "GuitarMusicVoiceI" {
+            \context MusicContext = "MusicContext"
+            {
+                \context GuitarMusicStaff = "GuitarMusicStaff"
+                <<
+                    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
+                    {
                         {
                             \scaleDurations #'(1 . 1) {
                                 
@@ -2762,7 +2770,8 @@
                             }
                         }
                     }
-                    \context GuitarMusicVoiceII = "GuitarMusicVoiceII" {
+                    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
+                    {
                         
                         % [E GuitarMusicVoiceII measure 120]                             %! SM4
                         s1 * 3/32
@@ -2804,7 +2813,8 @@
                         s1 * 125/64
                         
                     }
-                    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII" {
+                    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
+                    {
                         
                         % [E GuitarMusicVoiceIII measure 120]                            %! SM4
                         \override Script.direction = #down                               %! OC
@@ -2902,7 +2912,8 @@
                         s1 * 125/64
                         
                     }
-                    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV" {
+                    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
+                    {
                         
                         % [E GuitarMusicVoiceIV measure 120]                             %! SM4
                         \override Beam.positions = #'(5.5 . 5.5)                         %! OC

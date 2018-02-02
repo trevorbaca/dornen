@@ -17,7 +17,7 @@
             \context GlobalContext = "GlobalContext" <<
                 \context GlobalSkips = "GlobalSkips" {
                     
-                    % [GlobalSkips measure 207]                                          %! SM4
+                    % [J GlobalSkips measure 207]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                 %@% \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK:SM27
@@ -124,7 +124,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 208]                                          %! SM4
+                    % [J GlobalSkips measure 208]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -175,7 +175,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 209]                                          %! SM4
+                    % [J GlobalSkips measure 209]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 1/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -227,7 +227,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 210]                                          %! SM4
+                    % [J GlobalSkips measure 210]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -278,7 +278,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 211]                                          %! SM4
+                    % [J GlobalSkips measure 211]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -329,7 +329,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 212]                                          %! SM4
+                    % [J GlobalSkips measure 212]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 2/5                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -381,7 +381,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 213]                                          %! SM4
+                    % [J GlobalSkips measure 213]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -432,7 +432,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 214]                                          %! SM4
+                    % [J GlobalSkips measure 214]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 1/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -484,7 +484,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 215]                                          %! SM4
+                    % [J GlobalSkips measure 215]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -535,7 +535,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 216]                                          %! SM4
+                    % [J GlobalSkips measure 216]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -586,7 +586,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 217]                                          %! SM4
+                    % [J GlobalSkips measure 217]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 2/5                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -638,7 +638,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 218]                                          %! SM4
+                    % [J GlobalSkips measure 218]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -689,7 +689,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 219]                                          %! SM4
+                    % [J GlobalSkips measure 219]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 1/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -741,7 +741,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 220]                                          %! SM4
+                    % [J GlobalSkips measure 220]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -792,7 +792,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 221]                                          %! SM4
+                    % [J GlobalSkips measure 221]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -843,7 +843,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 222]                                          %! SM4
+                    % [J GlobalSkips measure 222]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 2/5                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -895,7 +895,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 223]                                          %! SM4
+                    % [J GlobalSkips measure 223]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 1/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -947,7 +947,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 224]                                          %! SM4
+                    % [J GlobalSkips measure 224]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -998,7 +998,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 225]                                          %! SM4
+                    % [J GlobalSkips measure 225]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -1049,7 +1049,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 226]                                          %! SM4
+                    % [J GlobalSkips measure 226]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 2/5                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1101,7 +1101,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 227]                                          %! SM4
+                    % [J GlobalSkips measure 227]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 1/3                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1153,7 +1153,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 228]                                          %! SM4
+                    % [J GlobalSkips measure 228]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -1204,7 +1204,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 229]                                          %! SM4
+                    % [J GlobalSkips measure 229]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -1255,7 +1255,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 230]                                          %! SM4
+                    % [J GlobalSkips measure 230]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/5                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1307,7 +1307,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 231]                                          %! SM4
+                    % [J GlobalSkips measure 231]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -1370,7 +1370,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % [GuitarMusicVoiceI measure 207]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 207]                      %! SM4
                                 \set GuitarMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8
                                 \clef "treble"                                           %! REAPPLIED_CLEF:SM8
                                 \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
@@ -1408,7 +1408,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % [GuitarMusicVoiceI measure 208]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 208]                      %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 gtqf2
                                 :32                                                      %! IC
@@ -1443,7 +1443,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % [GuitarMusicVoiceI measure 209]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 209]                      %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 gtqf2
                                 :32                                                      %! IC
@@ -1477,7 +1477,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % [GuitarMusicVoiceI measure 210]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 210]                      %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 gtqf2
                                 :32                                                      %! IC
@@ -1512,7 +1512,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % [GuitarMusicVoiceI measure 211]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 211]                      %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 gtqf2
                                 :32                                                      %! IC
@@ -1546,7 +1546,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % [GuitarMusicVoiceI measure 212]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 212]                      %! SM4
                                 gtqf2
                                 :32                                                      %! IC
                                 \repeatTie                                               %! SC
@@ -1593,7 +1593,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % [GuitarMusicVoiceI measure 213]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 213]                      %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 gtqf2
                                 :32                                                      %! IC
@@ -1628,7 +1628,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % [GuitarMusicVoiceI measure 214]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 214]                      %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 gtqf2
                                 :32                                                      %! IC
@@ -1662,7 +1662,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % [GuitarMusicVoiceI measure 215]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 215]                      %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 gtqf2
                                 :32                                                      %! IC
@@ -1697,7 +1697,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % [GuitarMusicVoiceI measure 216]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 216]                      %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 gtqf2
                                 :32                                                      %! IC
@@ -1731,7 +1731,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % [GuitarMusicVoiceI measure 217]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 217]                      %! SM4
                                 gtqf2
                                 :32                                                      %! IC
                                 \repeatTie                                               %! SC
@@ -1778,7 +1778,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % [GuitarMusicVoiceI measure 218]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 218]                      %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1846,7 +1846,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % [GuitarMusicVoiceI measure 219]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 219]                      %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 gtqf2
                                 :32                                                      %! IC
@@ -1881,7 +1881,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % [GuitarMusicVoiceI measure 220]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 220]                      %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1949,7 +1949,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % [GuitarMusicVoiceI measure 221]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 221]                      %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 gtqf2
                                 :32                                                      %! IC
@@ -1984,7 +1984,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % [GuitarMusicVoiceI measure 222]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 222]                      %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2052,7 +2052,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % [GuitarMusicVoiceI measure 223]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 223]                      %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 gtqf2
                                 :32                                                      %! IC
@@ -2087,7 +2087,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % [GuitarMusicVoiceI measure 224]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 224]                      %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2155,7 +2155,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % [GuitarMusicVoiceI measure 225]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 225]                      %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 gtqf2
                                 :32                                                      %! IC
@@ -2190,7 +2190,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % [GuitarMusicVoiceI measure 226]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 226]                      %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2258,7 +2258,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % [GuitarMusicVoiceI measure 227]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 227]                      %! SM4
                                 \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                                 gtqf2
                                 :32                                                      %! IC
@@ -2293,7 +2293,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % [GuitarMusicVoiceI measure 228]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 228]                      %! SM4
                                 \once \override TextSpanner.Y-extent = ##f
                                 \once \override TextSpanner.arrow-width = 0.25
                                 \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2361,7 +2361,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
                                 
-                                % [GuitarMusicVoiceI measure 229]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 229]                      %! SM4
                                 gtqf2
                                 :32                                                      %! IC
                                 \repeatTie                                               %! SC
@@ -2393,7 +2393,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % [GuitarMusicVoiceI measure 230]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 230]                      %! SM4
                                 gtqf2
                                 :32                                                      %! IC
                                 \repeatTie                                               %! SC
@@ -2444,7 +2444,7 @@
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
                                 
-                                % [GuitarMusicVoiceI measure 231]                        %! SM4
+                                % [J GuitarMusicVoiceI measure 231]                      %! SM4
                                 gtqf2
                                 :32                                                      %! IC
                                 \repeatTie                                               %! SC
@@ -2498,163 +2498,163 @@
                     }
                     \context GuitarMusicVoiceII = "GuitarMusicVoiceII" {
                         
-                        % [GuitarMusicVoiceII measure 207]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 207]                             %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceII measure 208]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 208]                             %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceII measure 209]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 209]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceII measure 210]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 210]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceII measure 211]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 211]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceII measure 212]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 212]                             %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceII measure 213]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 213]                             %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceII measure 214]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 214]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceII measure 215]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 215]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceII measure 216]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 216]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceII measure 217]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 217]                             %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceII measure 218]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 218]                             %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceII measure 219]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 219]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceII measure 220]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 220]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceII measure 221]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 221]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceII measure 222]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 222]                             %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceII measure 223]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 223]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceII measure 224]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 224]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceII measure 225]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 225]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceII measure 226]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 226]                             %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceII measure 227]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 227]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceII measure 228]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 228]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceII measure 229]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 229]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceII measure 230]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 230]                             %! SM4
                         s1 * 4/5
                         
-                        % [GuitarMusicVoiceII measure 231]                               %! SM4
+                        % [J GuitarMusicVoiceII measure 231]                             %! SM4
                         s1 * 4/5
                         
                     }
                     \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII" {
                         
-                        % [GuitarMusicVoiceIII measure 207]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 207]                            %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceIII measure 208]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 208]                            %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceIII measure 209]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 209]                            %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIII measure 210]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 210]                            %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIII measure 211]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 211]                            %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIII measure 212]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 212]                            %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceIII measure 213]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 213]                            %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceIII measure 214]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 214]                            %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIII measure 215]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 215]                            %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIII measure 216]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 216]                            %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIII measure 217]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 217]                            %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceIII measure 218]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 218]                            %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceIII measure 219]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 219]                            %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIII measure 220]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 220]                            %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIII measure 221]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 221]                            %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIII measure 222]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 222]                            %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceIII measure 223]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 223]                            %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIII measure 224]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 224]                            %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIII measure 225]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 225]                            %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIII measure 226]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 226]                            %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceIII measure 227]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 227]                            %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIII measure 228]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 228]                            %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIII measure 229]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 229]                            %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIII measure 230]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 230]                            %! SM4
                         s1 * 4/5
                         
-                        % [GuitarMusicVoiceIII measure 231]                              %! SM4
+                        % [J GuitarMusicVoiceIII measure 231]                            %! SM4
                         s1 * 4/5
                         
                     }
                     \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV" {
                         
-                        % [GuitarMusicVoiceIV measure 207]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 207]                             %! SM4
                         \set GuitarMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_INSTRUMENT:SM8
@@ -2694,76 +2694,76 @@
                             }                                                            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                         \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                         
-                        % [GuitarMusicVoiceIV measure 208]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 208]                             %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceIV measure 209]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 209]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIV measure 210]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 210]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIV measure 211]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 211]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIV measure 212]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 212]                             %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceIV measure 213]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 213]                             %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceIV measure 214]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 214]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIV measure 215]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 215]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIV measure 216]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 216]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIV measure 217]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 217]                             %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceIV measure 218]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 218]                             %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceIV measure 219]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 219]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIV measure 220]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 220]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIV measure 221]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 221]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIV measure 222]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 222]                             %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceIV measure 223]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 223]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIV measure 224]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 224]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIV measure 225]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 225]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIV measure 226]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 226]                             %! SM4
                         s1 * 2/5
                         
-                        % [GuitarMusicVoiceIV measure 227]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 227]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIV measure 228]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 228]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIV measure 229]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 229]                             %! SM4
                         s1 * 1/3
                         
-                        % [GuitarMusicVoiceIV measure 230]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 230]                             %! SM4
                         s1 * 4/5
                         
-                        % [GuitarMusicVoiceIV measure 231]                               %! SM4
+                        % [J GuitarMusicVoiceIV measure 231]                             %! SM4
                         s1 * 4/5
                         
                     }

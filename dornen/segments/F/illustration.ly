@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% FGlobalSkips
                     
                     % [F GlobalSkips measure 133]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1224,14 +1224,14 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|"                                                             %! SM5
                     
-                }
+                }   %*% FGlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
                 \context GuitarMusicStaff = "GuitarMusicStaff"
                 <<
                     \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
-                    {
+                    {   %*% FGuitarMusicVoiceI
                         {
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
@@ -1568,9 +1568,9 @@
                                 
                             }
                         }
-                    }
+                    }   %*% FGuitarMusicVoiceI
                     \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
-                    {
+                    {   %*% FGuitarMusicVoiceII
                         
                         % [F GuitarMusicVoiceII measure 133]                             %! SM4
                         \override Beam.positions = #'(-7 . -7)                           %! OC
@@ -1968,9 +1968,9 @@
                         s1 * 1/8
                         \revert Beam.positions                                           %! OC
                         
-                    }
+                    }   %*% FGuitarMusicVoiceII
                     \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
-                    {
+                    {   %*% FGuitarMusicVoiceIII
                         
                         % [F GuitarMusicVoiceIII measure 133]                            %! SM4
                         \override Beam.positions = #'(4 . 4)                             %! OC
@@ -2162,9 +2162,9 @@
                         s1 * 1/8
                         \revert Beam.positions                                           %! OC
                         
-                    }
+                    }   %*% FGuitarMusicVoiceIII
                     \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
-                    {
+                    {   %*% FGuitarMusicVoiceIV
                         
                         % [F GuitarMusicVoiceIV measure 133]                             %! SM4
                         \set GuitarMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8
@@ -2269,7 +2269,7 @@
                         % [F GuitarMusicVoiceIV measure 154]                             %! SM4
                         s1 * 1/8
                         
-                    }
+                    }   %*% FGuitarMusicVoiceIV
                 >>
             }
         >>

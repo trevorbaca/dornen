@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% KGlobalSkips
                     
                     % [K GlobalSkips measure 232]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1366,14 +1366,14 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|"                                                             %! SM5
                     
-                }
+                }   %*% KGlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
                 \context GuitarMusicStaff = "GuitarMusicStaff"
                 <<
                     \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
-                    {
+                    {   %*% KGuitarMusicVoiceI
                         {
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
@@ -2639,9 +2639,9 @@
                                 
                             }
                         }
-                    }
+                    }   %*% KGuitarMusicVoiceI
                     \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
-                    {
+                    {   %*% KGuitarMusicVoiceII
                         
                         % [K GuitarMusicVoiceII measure 232]                             %! SM4
                         s1 * 2/5
@@ -2718,9 +2718,9 @@
                         % [K GuitarMusicVoiceII measure 256]                             %! SM4
                         s1 * 4/5
                         
-                    }
+                    }   %*% KGuitarMusicVoiceII
                     \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
-                    {
+                    {   %*% KGuitarMusicVoiceIII
                         
                         % [K GuitarMusicVoiceIII measure 232]                            %! SM4
                         s1 * 2/5
@@ -2797,9 +2797,9 @@
                         % [K GuitarMusicVoiceIII measure 256]                            %! SM4
                         s1 * 4/5
                         
-                    }
+                    }   %*% KGuitarMusicVoiceIII
                     \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
-                    {
+                    {   %*% KGuitarMusicVoiceIV
                         
                         % [K GuitarMusicVoiceIV measure 232]                             %! SM4
                         \set GuitarMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8
@@ -2913,7 +2913,7 @@
                         % [K GuitarMusicVoiceIV measure 256]                             %! SM4
                         s1 * 4/5
                         
-                    }
+                    }   %*% KGuitarMusicVoiceIV
                 >>
             }
         >>

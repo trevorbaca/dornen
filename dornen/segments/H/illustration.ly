@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% HGlobalSkips
                     
                     % [H GlobalSkips measure 167]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1011,14 +1011,14 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|"                                                             %! SM5
                     
-                }
+                }   %*% HGlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
                 \context GuitarMusicStaff = "GuitarMusicStaff"
                 <<
                     \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
-                    {
+                    {   %*% HGuitarMusicVoiceI
                         {
                             \scaleDurations #'(1 . 1) {
                                 
@@ -1532,9 +1532,9 @@
                         s1 * 1/10
                         \revert Beam.positions                                           %! OC
                         
-                    }
+                    }   %*% HGuitarMusicVoiceI
                     \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
-                    {
+                    {   %*% HGuitarMusicVoiceII
                         
                         % [H GuitarMusicVoiceII measure 167]                             %! SM4
                         s1 * 83/32
@@ -1853,9 +1853,9 @@
                                 
                             }
                         }
-                    }
+                    }   %*% HGuitarMusicVoiceII
                     \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
-                    {
+                    {   %*% HGuitarMusicVoiceIII
                         
                         % [H GuitarMusicVoiceIII measure 167]                            %! SM4
                         \override Beam.positions = #'(-4 . -4)                           %! OC
@@ -2183,9 +2183,9 @@
                         s1 * 1/10
                         \revert Beam.positions                                           %! OC
                         
-                    }
+                    }   %*% HGuitarMusicVoiceIII
                     \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
-                    {
+                    {   %*% HGuitarMusicVoiceIV
                         
                         % [H GuitarMusicVoiceIV measure 167]                             %! SM4
                         \set GuitarMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8
@@ -2278,7 +2278,7 @@
                         % [H GuitarMusicVoiceIV measure 184]                             %! SM4
                         s1 * 1/10
                         
-                    }
+                    }   %*% HGuitarMusicVoiceIV
                 >>
             }
         >>

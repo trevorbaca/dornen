@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% BGlobalSkips
                     
                     % [B GlobalSkips measure 35]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -2000,14 +2000,14 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|"                                                             %! SM5
                     
-                }
+                }   %*% BGlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
                 \context GuitarMusicStaff = "GuitarMusicStaff"
                 <<
                     \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
-                    {
+                    {   %*% BGuitarMusicVoiceI
                         {
                             \override TupletNumber.text = \markup {
                                 \scale
@@ -3203,9 +3203,9 @@
                         % [B GuitarMusicVoiceI measure 70]                               %! SM4
                         s1 * 3/16
                         
-                    }
+                    }   %*% BGuitarMusicVoiceI
                     \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
-                    {
+                    {   %*% BGuitarMusicVoiceII
                         
                         % [B GuitarMusicVoiceII measure 35]                              %! SM4
                         s1 * 95/448
@@ -3761,9 +3761,9 @@
                                 
                             }
                         }
-                    }
+                    }   %*% BGuitarMusicVoiceII
                     \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
-                    {
+                    {   %*% BGuitarMusicVoiceIII
                         
                         % [B GuitarMusicVoiceIII measure 35]                             %! SM4
                         s1 * 9/64
@@ -3873,9 +3873,9 @@
                         % [B GuitarMusicVoiceIII measure 70]                             %! SM4
                         s1 * 3/16
                         
-                    }
+                    }   %*% BGuitarMusicVoiceIII
                     \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
-                    {
+                    {   %*% BGuitarMusicVoiceIV
                         
                         % [B GuitarMusicVoiceIV measure 35]                              %! SM4
                         \set GuitarMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8
@@ -4496,7 +4496,7 @@
                         % [B GuitarMusicVoiceIV measure 70]                              %! SM4
                         s1 * 3/16
                         
-                    }
+                    }   %*% BGuitarMusicVoiceIV
                 >>
             }
         >>

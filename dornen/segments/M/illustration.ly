@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% MGlobalSkips
                     
                     % [M GlobalSkips measure 303]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -2264,14 +2264,14 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|."                                                            %! SM5
                     
-                }
+                }   %*% MGlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
                 \context GuitarMusicStaff = "GuitarMusicStaff"
                 <<
                     \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
-                    {
+                    {   %*% MGuitarMusicVoiceI
                         {
                             \scaleDurations #'(1 . 1) {
                                 
@@ -2603,9 +2603,9 @@
                                 
                             }
                         }
-                    }
+                    }   %*% MGuitarMusicVoiceI
                     \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
-                    {
+                    {   %*% MGuitarMusicVoiceII
                         
                         % [M GuitarMusicVoiceII measure 303]                             %! SM4
                         \override Beam.positions = #'(-5.5 . -5.5)                       %! OC
@@ -2783,9 +2783,9 @@
                         % [M GuitarMusicVoiceII measure 344]                             %! SM4
                         s1 * 13/3
                         
-                    }
+                    }   %*% MGuitarMusicVoiceII
                     \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
-                    {
+                    {   %*% MGuitarMusicVoiceIII
                         
                         % [M GuitarMusicVoiceIII measure 303]                            %! SM4
                         \override Script.direction = #down                               %! OC
@@ -2867,9 +2867,9 @@
                         % [M GuitarMusicVoiceIII measure 344]                            %! SM4
                         s1 * 13/3
                         
-                    }
+                    }   %*% MGuitarMusicVoiceIII
                     \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
-                    {
+                    {   %*% MGuitarMusicVoiceIV
                         
                         % [M GuitarMusicVoiceIV measure 303]                             %! SM4
                         \override Beam.positions = #'(5.5 . 5.5)                         %! OC
@@ -3285,7 +3285,7 @@
                                             }                                            %! SCORE2
                             }                                                            %! SCORE2
                         
-                    }
+                    }   %*% MGuitarMusicVoiceIV
                 >>
             }
         >>

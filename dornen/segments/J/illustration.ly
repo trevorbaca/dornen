@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% JGlobalSkips
                     
                     % [J GlobalSkips measure 207]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1366,14 +1366,14 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|"                                                             %! SM5
                     
-                }
+                }   %*% JGlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
                 \context GuitarMusicStaff = "GuitarMusicStaff"
                 <<
                     \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
-                    {
+                    {   %*% JGuitarMusicVoiceI
                         {
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
@@ -2503,9 +2503,9 @@
                                 
                             }
                         }
-                    }
+                    }   %*% JGuitarMusicVoiceI
                     \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
-                    {
+                    {   %*% JGuitarMusicVoiceII
                         
                         % [J GuitarMusicVoiceII measure 207]                             %! SM4
                         s1 * 2/5
@@ -2582,9 +2582,9 @@
                         % [J GuitarMusicVoiceII measure 231]                             %! SM4
                         s1 * 4/5
                         
-                    }
+                    }   %*% JGuitarMusicVoiceII
                     \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
-                    {
+                    {   %*% JGuitarMusicVoiceIII
                         
                         % [J GuitarMusicVoiceIII measure 207]                            %! SM4
                         s1 * 2/5
@@ -2661,9 +2661,9 @@
                         % [J GuitarMusicVoiceIII measure 231]                            %! SM4
                         s1 * 4/5
                         
-                    }
+                    }   %*% JGuitarMusicVoiceIII
                     \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
-                    {
+                    {   %*% JGuitarMusicVoiceIV
                         
                         % [J GuitarMusicVoiceIV measure 207]                             %! SM4
                         \set GuitarMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8
@@ -2777,7 +2777,7 @@
                         % [J GuitarMusicVoiceIV measure 231]                             %! SM4
                         s1 * 4/5
                         
-                    }
+                    }   %*% JGuitarMusicVoiceIV
                 >>
             }
         >>

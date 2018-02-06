@@ -22,20 +22,20 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalSkips = "GlobalSkips"
-                \JGlobalSkips
+                \J_GlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
                 \context GuitarMusicStaff = "GuitarMusicStaff"
                 <<
                     \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
-                    \JGuitarMusicVoiceI
+                    \J_GuitarMusicVoiceI
                     \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
-                    \JGuitarMusicVoiceII
+                    \J_GuitarMusicVoiceII
                     \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
-                    \JGuitarMusicVoiceIII
+                    \J_GuitarMusicVoiceIII
                     \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
-                    \JGuitarMusicVoiceIV
+                    \J_GuitarMusicVoiceIV
                 >>
             }
         >>

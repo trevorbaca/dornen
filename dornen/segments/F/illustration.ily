@@ -1,4 +1,4 @@
-FGlobalSkips = {
+F_GlobalSkips = {
     
     % [F GlobalSkips measure 133]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1205,7 +1205,7 @@ FGlobalSkips = {
 }
 
 
-FGuitarMusicVoiceI = {
+F_GuitarMusicVoiceI = {
     {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
@@ -1545,7 +1545,7 @@ FGuitarMusicVoiceI = {
 }
 
 
-FGuitarMusicVoiceII = {
+F_GuitarMusicVoiceII = {
     
     % [F GuitarMusicVoiceII measure 133]                             %! SM4
     \override Beam.positions = #'(-7 . -7)                           %! OC
@@ -1946,7 +1946,7 @@ FGuitarMusicVoiceII = {
 }
 
 
-FGuitarMusicVoiceIII = {
+F_GuitarMusicVoiceIII = {
     
     % [F GuitarMusicVoiceIII measure 133]                            %! SM4
     \override Beam.positions = #'(4 . 4)                             %! OC
@@ -2141,7 +2141,7 @@ FGuitarMusicVoiceIII = {
 }
 
 
-FGuitarMusicVoiceIV = {
+F_GuitarMusicVoiceIV = {
     
     % [F GuitarMusicVoiceIV measure 133]                             %! SM4
     \set GuitarMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8

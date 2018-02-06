@@ -1,4 +1,4 @@
-iGlobalSkips = {
+i_GlobalSkips = {
     
     % [_ GlobalSkips measure 1]                                          %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1047,7 +1047,7 @@ iGlobalSkips = {
 }
 
 
-iGuitarMusicVoiceI = {
+i_GuitarMusicVoiceI = {
     {
         \scaleDurations #'(1 . 1) {
             
@@ -1311,7 +1311,7 @@ iGuitarMusicVoiceI = {
 }
 
 
-iGuitarMusicVoiceII = {
+i_GuitarMusicVoiceII = {
     
     % [_ GuitarMusicVoiceII measure 1]                               %! SM4
     s1 * 3/16
@@ -1638,7 +1638,7 @@ iGuitarMusicVoiceII = {
 }
 
 
-iGuitarMusicVoiceIII = {
+i_GuitarMusicVoiceIII = {
     
     % [_ GuitarMusicVoiceIII measure 1]                              %! SM4
     s1 * 107/32
@@ -1812,7 +1812,7 @@ iGuitarMusicVoiceIII = {
 }
 
 
-iGuitarMusicVoiceIV = {
+i_GuitarMusicVoiceIV = {
     
     % [_ GuitarMusicVoiceIV measure 1]                               %! SM4
     \set GuitarMusicStaff.instrumentName = \markup {                 %! DEFAULT_INSTRUMENT:SM8

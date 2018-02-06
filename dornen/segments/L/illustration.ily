@@ -1,4 +1,4 @@
-LGlobalSkips = {
+L_GlobalSkips = {
     
     % [L GlobalSkips measure 257]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -2440,7 +2440,7 @@ LGlobalSkips = {
 }
 
 
-LGuitarMusicVoiceI = {
+L_GuitarMusicVoiceI = {
     {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
@@ -4638,7 +4638,7 @@ LGuitarMusicVoiceI = {
 }
 
 
-LGuitarMusicVoiceII = {
+L_GuitarMusicVoiceII = {
     
     % [L GuitarMusicVoiceII measure 257]                             %! SM4
     s1 * 2/5
@@ -4781,7 +4781,7 @@ LGuitarMusicVoiceII = {
 }
 
 
-LGuitarMusicVoiceIII = {
+L_GuitarMusicVoiceIII = {
     
     % [L GuitarMusicVoiceIII measure 257]                            %! SM4
     s1 * 2/5
@@ -4924,7 +4924,7 @@ LGuitarMusicVoiceIII = {
 }
 
 
-LGuitarMusicVoiceIV = {
+L_GuitarMusicVoiceIV = {
     
     % [L GuitarMusicVoiceIV measure 257]                             %! SM4
     \set GuitarMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8

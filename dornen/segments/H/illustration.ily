@@ -1,4 +1,4 @@
-HGlobalSkips = {
+H_GlobalSkips = {
     
     % [H GlobalSkips measure 167]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -992,7 +992,7 @@ HGlobalSkips = {
 }
 
 
-HGuitarMusicVoiceI = {
+H_GuitarMusicVoiceI = {
     {
         \scaleDurations #'(1 . 1) {
             
@@ -1509,7 +1509,7 @@ HGuitarMusicVoiceI = {
 }
 
 
-HGuitarMusicVoiceII = {
+H_GuitarMusicVoiceII = {
     
     % [H GuitarMusicVoiceII measure 167]                             %! SM4
     s1 * 83/32
@@ -1831,7 +1831,7 @@ HGuitarMusicVoiceII = {
 }
 
 
-HGuitarMusicVoiceIII = {
+H_GuitarMusicVoiceIII = {
     
     % [H GuitarMusicVoiceIII measure 167]                            %! SM4
     \override Beam.positions = #'(-4 . -4)                           %! OC
@@ -2162,7 +2162,7 @@ HGuitarMusicVoiceIII = {
 }
 
 
-HGuitarMusicVoiceIV = {
+H_GuitarMusicVoiceIV = {
     
     % [H GuitarMusicVoiceIV measure 167]                             %! SM4
     \set GuitarMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8

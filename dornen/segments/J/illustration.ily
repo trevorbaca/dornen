@@ -1,4 +1,4 @@
-JGlobalSkips = {
+J_GlobalSkips = {
     
     % [J GlobalSkips measure 207]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1347,7 +1347,7 @@ JGlobalSkips = {
 }
 
 
-JGuitarMusicVoiceI = {
+J_GuitarMusicVoiceI = {
     {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
@@ -2480,7 +2480,7 @@ JGuitarMusicVoiceI = {
 }
 
 
-JGuitarMusicVoiceII = {
+J_GuitarMusicVoiceII = {
     
     % [J GuitarMusicVoiceII measure 207]                             %! SM4
     s1 * 2/5
@@ -2560,7 +2560,7 @@ JGuitarMusicVoiceII = {
 }
 
 
-JGuitarMusicVoiceIII = {
+J_GuitarMusicVoiceIII = {
     
     % [J GuitarMusicVoiceIII measure 207]                            %! SM4
     s1 * 2/5
@@ -2640,7 +2640,7 @@ JGuitarMusicVoiceIII = {
 }
 
 
-JGuitarMusicVoiceIV = {
+J_GuitarMusicVoiceIV = {
     
     % [J GuitarMusicVoiceIV measure 207]                             %! SM4
     \set GuitarMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8

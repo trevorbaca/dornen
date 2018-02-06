@@ -3,6 +3,20 @@ import abjad
 
 metadata = abjad.OrderedDict(
     [
+        (
+            'alive_during_segment',
+            [
+                'Score',
+                'GlobalContext',
+                'GlobalSkips',
+                'MusicContext',
+                'GuitarMusicStaff',
+                'GuitarMusicVoiceI',
+                'GuitarMusicVoiceII',
+                'GuitarMusicVoiceIII',
+                'GuitarMusicVoiceIV',
+                ],
+            ),
         ('duration', "1'00''"),
         ('first_measure_number', 120),
         ('last_measure_number', 132),

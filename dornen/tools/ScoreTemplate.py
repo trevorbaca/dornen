@@ -19,16 +19,23 @@ class ScoreTemplate(baca.ScoreTemplate):
         >>> abjad.show(lilypond_file, strict=79) # doctest: +SKIP
 
         >>> abjad.f(lilypond_file[abjad.Score], strict=79)
-        \context Score = "Score" <<
-            \context GlobalContext = "GlobalContext" <<
-                \context GlobalRests = "GlobalRests" {
+        \context Score = "Score"
+        <<
+            \context GlobalContext = "GlobalContext"
+            <<
+                \context GlobalRests = "GlobalRests"
+                {
                 }
-                \context GlobalSkips = "GlobalSkips" {
+                \context GlobalSkips = "GlobalSkips"
+                {
                 }
             >>
-            \context MusicContext = "MusicContext" {
-                \context GuitarMusicStaff = "GuitarMusicStaff" <<
-                    \context GuitarMusicVoiceI = "GuitarMusicVoiceI" {
+            \context MusicContext = "MusicContext"
+            {
+                \context GuitarMusicStaff = "GuitarMusicStaff"
+                <<
+                    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
+                    {
                         \set GuitarMusicStaff.instrumentName = \markup {               %! ST1
                             \hcenter-in                                                %! ST1
                                 #16                                                    %! ST1
@@ -40,18 +47,22 @@ class ScoreTemplate(baca.ScoreTemplate):
                         \clef "treble"                                                 %! ST3
                         s1
                     }
-                    \context GuitarMusicVoiceII = "GuitarMusicVoiceII" {
+                    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
+                    {
                         s1
                     }
-                    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII" {
+                    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
+                    {
                         s1
                     }
-                    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV" {
+                    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
+                    {
                         s1
                     }
                 >>
             }
         >>
+
 
     '''
 

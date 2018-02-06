@@ -165,7 +165,6 @@
         \type Engraver_group
         \alias ChoirStaff
         \accepts GuitarMusicStaff
-        %systemStartDelimiter = 'SystemStartBar
     }
 
     % SCORE

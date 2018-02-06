@@ -1,4 +1,4 @@
-KGlobalSkips = {
+K_GlobalSkips = {
     
     % [K GlobalSkips measure 232]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1347,7 +1347,7 @@ KGlobalSkips = {
 }
 
 
-KGuitarMusicVoiceI = {
+K_GuitarMusicVoiceI = {
     {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
@@ -2616,7 +2616,7 @@ KGuitarMusicVoiceI = {
 }
 
 
-KGuitarMusicVoiceII = {
+K_GuitarMusicVoiceII = {
     
     % [K GuitarMusicVoiceII measure 232]                             %! SM4
     s1 * 2/5
@@ -2696,7 +2696,7 @@ KGuitarMusicVoiceII = {
 }
 
 
-KGuitarMusicVoiceIII = {
+K_GuitarMusicVoiceIII = {
     
     % [K GuitarMusicVoiceIII measure 232]                            %! SM4
     s1 * 2/5
@@ -2776,7 +2776,7 @@ KGuitarMusicVoiceIII = {
 }
 
 
-KGuitarMusicVoiceIV = {
+K_GuitarMusicVoiceIV = {
     
     % [K GuitarMusicVoiceIV measure 232]                             %! SM4
     \set GuitarMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8

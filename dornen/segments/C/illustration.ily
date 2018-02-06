@@ -1,4 +1,4 @@
-CGlobalSkips = {
+C_GlobalSkips = {
     
     % [C GlobalSkips measure 71]                                         %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1048,7 +1048,7 @@ CGlobalSkips = {
 }
 
 
-CGuitarMusicVoiceI = {
+C_GuitarMusicVoiceI = {
     {
         \override TupletNumber.text = \markup {
             \scale
@@ -1840,7 +1840,7 @@ CGuitarMusicVoiceI = {
 }
 
 
-CGuitarMusicVoiceII = {
+C_GuitarMusicVoiceII = {
     
     % [C GuitarMusicVoiceII measure 71]                              %! SM4
     s1 * 11/16
@@ -1994,7 +1994,7 @@ CGuitarMusicVoiceII = {
 }
 
 
-CGuitarMusicVoiceIII = {
+C_GuitarMusicVoiceIII = {
     
     % [C GuitarMusicVoiceIII measure 71]                             %! SM4
     s1 * 33/32
@@ -2530,7 +2530,7 @@ CGuitarMusicVoiceIII = {
 }
 
 
-CGuitarMusicVoiceIV = {
+C_GuitarMusicVoiceIV = {
     
     % [C GuitarMusicVoiceIV measure 71]                              %! SM4
     \set GuitarMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8

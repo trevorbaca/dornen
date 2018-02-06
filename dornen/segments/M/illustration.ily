@@ -1,4 +1,4 @@
-MGlobalSkips = {
+M_GlobalSkips = {
     
     % [M GlobalSkips measure 303]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -2245,7 +2245,7 @@ MGlobalSkips = {
 }
 
 
-MGuitarMusicVoiceI = {
+M_GuitarMusicVoiceI = {
     {
         \scaleDurations #'(1 . 1) {
             
@@ -2580,7 +2580,7 @@ MGuitarMusicVoiceI = {
 }
 
 
-MGuitarMusicVoiceII = {
+M_GuitarMusicVoiceII = {
     
     % [M GuitarMusicVoiceII measure 303]                             %! SM4
     \override Beam.positions = #'(-5.5 . -5.5)                       %! OC
@@ -2761,7 +2761,7 @@ MGuitarMusicVoiceII = {
 }
 
 
-MGuitarMusicVoiceIII = {
+M_GuitarMusicVoiceIII = {
     
     % [M GuitarMusicVoiceIII measure 303]                            %! SM4
     \override Script.direction = #down                               %! OC
@@ -2846,7 +2846,7 @@ MGuitarMusicVoiceIII = {
 }
 
 
-MGuitarMusicVoiceIV = {
+M_GuitarMusicVoiceIV = {
     
     % [M GuitarMusicVoiceIV measure 303]                             %! SM4
     \override Beam.positions = #'(5.5 . 5.5)                         %! OC

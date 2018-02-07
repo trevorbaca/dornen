@@ -1055,10 +1055,10 @@ i_GuitarMusicVoiceI = {
             \once \override Beam.positions = #'(6 . 6)               %! OC
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 1
-            \set GuitarMusicStaff.forceClef = ##t                    %! DEFAULT_CLEF:SM8
-            \clef "treble"                                           %! DEFAULT_CLEF:SM8
-            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
-        %@% \override GuitarMusicStaff.Clef.color = ##f              %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+            \set GuitarMusicStaff.forceClef = ##t                    %! ST3:DEFAULT_CLEF:SM8
+            \clef "treble"                                           %! ST3:DEFAULT_CLEF:SM8
+            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
+        %@% \override GuitarMusicStaff.Clef.color = ##f              %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
             e'8.
             [
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1078,7 +1078,7 @@ i_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \override GuitarMusicStaff.Clef.color = #(x11-color 'violet) %! DEFAULT_CLEF_REDRAW_COLOR:SM6
+            \override GuitarMusicStaff.Clef.color = #(x11-color 'violet) %! ST3:DEFAULT_CLEF_REDRAW_COLOR:SM6
         }
     }
     
@@ -1815,30 +1815,30 @@ i_GuitarMusicVoiceIII = {
 i_GuitarMusicVoiceIV = {
     
     % [_ GuitarMusicVoiceIV measure 1]                               %! SM4
-    \set GuitarMusicStaff.instrumentName = \markup {                 %! DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                                  %! DEFAULT_INSTRUMENT:SM8
-            #16                                                      %! DEFAULT_INSTRUMENT:SM8
-            Guitar                                                   %! DEFAULT_INSTRUMENT:SM8
-        }                                                            %! DEFAULT_INSTRUMENT:SM8
-    \set GuitarMusicStaff.shortInstrumentName = \markup {            %! DEFAULT_INSTRUMENT:SM8
-        \null                                                        %! DEFAULT_INSTRUMENT:SM8
-        }                                                            %! DEFAULT_INSTRUMENT:SM8
-    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
+    \set GuitarMusicStaff.instrumentName = \markup {                 %! ST1:DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
+            #16                                                      %! ST1:DEFAULT_INSTRUMENT:SM8
+            Guitar                                                   %! ST1:DEFAULT_INSTRUMENT:SM8
+        }                                                            %! ST1:DEFAULT_INSTRUMENT:SM8
+    \set GuitarMusicStaff.shortInstrumentName = \markup {            %! ST1:DEFAULT_INSTRUMENT:SM8
+        \null                                                        %! ST1:DEFAULT_INSTRUMENT:SM8
+        }                                                            %! ST1:DEFAULT_INSTRUMENT:SM8
+    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! ST1:DEFAULT_INSTRUMENT_COLOR:SM6
     s1 * 5/4
-    ^ \markup {                                                      %! DEFAULT_INSTRUMENT_ALERT:SM11
-        \with-color                                                  %! DEFAULT_INSTRUMENT_ALERT:SM11
-            #(x11-color 'DarkViolet)                                 %! DEFAULT_INSTRUMENT_ALERT:SM11
-            (“Guitar”)                                               %! DEFAULT_INSTRUMENT_ALERT:SM11
-        }                                                            %! DEFAULT_INSTRUMENT_ALERT:SM11
-    \set GuitarMusicStaff.instrumentName = \markup {                 %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \hcenter-in                                                  %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-            #16                                                      %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-            Guitar                                                   %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                            %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \set GuitarMusicStaff.shortInstrumentName = \markup {            %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-        \null                                                        %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-        }                                                            %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
+    ^ \markup {                                                      %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+        \with-color                                                  %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+            #(x11-color 'DarkViolet)                                 %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+            (“Guitar”)                                               %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+        }                                                            %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+    \set GuitarMusicStaff.instrumentName = \markup {                 %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \hcenter-in                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            #16                                                      %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
+            Guitar                                                   %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                            %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \set GuitarMusicStaff.shortInstrumentName = \markup {            %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        \null                                                        %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
+        }                                                            %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
+    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
     {
         \tweak text #tuplet-number::calc-fraction-text
         \times 3/4 {

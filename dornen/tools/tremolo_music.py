@@ -54,9 +54,12 @@ def tremolo_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
-            \context Score = "Score" <<
-                \context GlobalContext = "GlobalContext" <<
-                    \context GlobalSkips = "GlobalSkips" {
+            \context Score = "Score"
+            <<
+                \context GlobalContext = "GlobalContext"
+                <<
+                    \context GlobalSkips = "GlobalSkips"
+                    {
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
@@ -90,9 +93,12 @@ def tremolo_music():
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "MusicContext" <<
-                    \context Staff = "MusicStaff" {
-                        \context Voice = "MusicVoice" {
+                \context MusicContext = "MusicContext"
+                <<
+                    \context Staff = "MusicStaff"
+                    {
+                        \context Voice = "MusicVoice"
+                        {
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
@@ -273,9 +279,12 @@ def tremolo_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
-            \context Score = "Score" <<
-                \context GlobalContext = "GlobalContext" <<
-                    \context GlobalSkips = "GlobalSkips" {
+            \context Score = "Score"
+            <<
+                \context GlobalContext = "GlobalContext"
+                <<
+                    \context GlobalSkips = "GlobalSkips"
+                    {
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! SM4
                         \newSpacingSection                                                 %! SPACING:HSS1
@@ -302,9 +311,12 @@ def tremolo_music():
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "MusicContext" <<
-                    \context Staff = "MusicStaff" {
-                        \context Voice = "MusicVoice" {
+                \context MusicContext = "MusicContext"
+                <<
+                    \context Staff = "MusicStaff"
+                    {
+                        \context Voice = "MusicVoice"
+                        {
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>

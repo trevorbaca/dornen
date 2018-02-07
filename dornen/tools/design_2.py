@@ -17,9 +17,12 @@ def design_2(start=None, stop=None):
 
             >>> lilypond_file = design_2.__illustrate__()
             >>> abjad.f(lilypond_file[abjad.Voice])
-            \new Voice \with {
+            \new Voice
+            \with
+            {
                 \consists Horizontal_bracket_engraver
-            } {
+            }
+            {
                 \time 1/8
                 cs'8 \startGroup ^ \markup { 0 }
                 c'8

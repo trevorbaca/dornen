@@ -63,9 +63,12 @@ def rest_music(duration=None):
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
-            \context Score = "Score" <<
-                \context GlobalContext = "GlobalContext" <<
-                    \context GlobalSkips = "GlobalSkips" {
+            \context Score = "Score"
+            <<
+                \context GlobalContext = "GlobalContext"
+                <<
+                    \context GlobalSkips = "GlobalSkips"
+                    {
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! SM4
                         \time 1/8                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -86,9 +89,12 @@ def rest_music(duration=None):
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "MusicContext" <<
-                    \context Staff = "MusicStaff" {
-                        \context Voice = "MusicVoice" {
+                \context MusicContext = "MusicContext"
+                <<
+                    \context Staff = "MusicStaff"
+                    {
+                        \context Voice = "MusicVoice"
+                        {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! SM4
@@ -169,9 +175,12 @@ def rest_music(duration=None):
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
-            \context Score = "Score" <<
-                \context GlobalContext = "GlobalContext" <<
-                    \context GlobalSkips = "GlobalSkips" {
+            \context Score = "Score"
+            <<
+                \context GlobalContext = "GlobalContext"
+                <<
+                    \context GlobalSkips = "GlobalSkips"
+                    {
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! SM4
                         \time 6/8                                                          %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -186,9 +195,12 @@ def rest_music(duration=None):
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "MusicContext" <<
-                    \context Staff = "MusicStaff" {
-                        \context Voice = "MusicVoice" {
+                \context MusicContext = "MusicContext"
+                <<
+                    \context Staff = "MusicStaff"
+                    {
+                        \context Voice = "MusicVoice"
+                        {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! SM4

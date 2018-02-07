@@ -71,12 +71,17 @@ def ovoid_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
-            \context Score = "Score" \with {
+            \context Score = "Score"
+            \with
+            {
                 \override SpacingSpanner.strict-grace-spacing = ##f
                 \override SpacingSpanner.strict-note-spacing = ##f
-            } <<
-                \context GlobalContext = "GlobalContext" <<
-                    \context GlobalSkips = "GlobalSkips" {
+            }
+            <<
+                \context GlobalContext = "GlobalContext"
+                <<
+                    \context GlobalSkips = "GlobalSkips"
+                    {
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! SM4
                         \time 13/32                                                        %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -105,9 +110,12 @@ def ovoid_music():
             <BLANKLINE>
                     }
                 >>
-                \context MusicContext = "MusicContext" <<
-                    \context Staff = "MusicStaff" {
-                        \context Voice = "MusicVoice" {
+                \context MusicContext = "MusicContext"
+                <<
+                    \context Staff = "MusicStaff"
+                    {
+                        \context Voice = "MusicVoice"
+                        {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! SM4

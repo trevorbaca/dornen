@@ -17,9 +17,12 @@ def design_1(start=None, stop=None):
 
             >>> lilypond_file = design_1.__illustrate__()
             >>> abjad.f(lilypond_file[abjad.Voice])
-            \new Voice \with {
+            \new Voice
+            \with
+            {
                 \consists Horizontal_bracket_engraver
-            } {
+            }
+            {
                 \once \override Accidental.color = #red
                 \once \override Beam.color = #red
                 \once \override Dots.color = #red

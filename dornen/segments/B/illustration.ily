@@ -4460,3 +4460,15 @@ B_GuitarMusicVoiceIV = {
     s1 * 3/16
     
 }
+
+
+B_GuitarMusicStaff = <<
+    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
+    \B_GuitarMusicVoiceI
+    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
+    \B_GuitarMusicVoiceII
+    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
+    \B_GuitarMusicVoiceIII
+    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
+    \B_GuitarMusicVoiceIV
+>>

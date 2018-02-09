@@ -2729,3 +2729,15 @@ C_GuitarMusicVoiceIV = {
     s1 * 9/64
     
 }
+
+
+C_GuitarMusicStaff = <<
+    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
+    \C_GuitarMusicVoiceI
+    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
+    \C_GuitarMusicVoiceII
+    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
+    \C_GuitarMusicVoiceIII
+    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
+    \C_GuitarMusicVoiceIV
+>>

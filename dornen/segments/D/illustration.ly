@@ -27,16 +27,7 @@
             \context MusicContext = "MusicContext"
             {
                 \context GuitarMusicStaff = "GuitarMusicStaff"
-                <<
-                    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
-                    \D_GuitarMusicVoiceI
-                    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
-                    \D_GuitarMusicVoiceII
-                    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
-                    \D_GuitarMusicVoiceIII
-                    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
-                    \D_GuitarMusicVoiceIV
-                >>
+                \D_GuitarMusicStaff
             }
         >>
     >>

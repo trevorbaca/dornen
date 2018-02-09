@@ -3249,3 +3249,15 @@ M_GuitarMusicVoiceIV = {
         }                                                            %! SCORE2
     
 }
+
+
+M_GuitarMusicStaff = <<
+    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
+    \M_GuitarMusicVoiceI
+    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
+    \M_GuitarMusicVoiceII
+    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
+    \M_GuitarMusicVoiceIII
+    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
+    \M_GuitarMusicVoiceIV
+>>

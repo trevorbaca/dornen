@@ -2024,10 +2024,10 @@ B_GuitarMusicVoiceI = {
             
             % [B GuitarMusicVoiceI measure 35]                       %! SM4
             \once \override Beam.grow-direction = #left
-            \set GuitarMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8
             \clef "treble"                                           %! REAPPLIED_CLEF:SM8
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
         %@% \override GuitarMusicStaff.Clef.color = ##f              %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+            \set GuitarMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8
             b''64 * 256/1024
             [
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP

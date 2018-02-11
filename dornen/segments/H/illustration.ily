@@ -1000,10 +1000,10 @@ H_GuitarMusicVoiceI = {
             \override Beam.positions = #'(6 . 6)                     %! OC
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
-            \set GuitarMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8
             \clef "treble"                                           %! REAPPLIED_CLEF:SM8
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
         %@% \override GuitarMusicStaff.Clef.color = ##f              %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+            \set GuitarMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8
             bf'32
             -\staccato                                               %! IC
             [

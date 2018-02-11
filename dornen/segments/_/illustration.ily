@@ -1055,10 +1055,10 @@ i_GuitarMusicVoiceI = {
             \once \override Beam.positions = #'(6 . 6)               %! OC
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 1
-            \set GuitarMusicStaff.forceClef = ##t                    %! ST3:DEFAULT_CLEF:SM8
             \clef "treble"                                           %! ST3:DEFAULT_CLEF:SM8
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! ST3:DEFAULT_CLEF_COLOR:SM6
         %@% \override GuitarMusicStaff.Clef.color = ##f              %! ST3:DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+            \set GuitarMusicStaff.forceClef = ##t                    %! ST3:DEFAULT_CLEF:SM8
             e'8.
             [
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP

@@ -3,54 +3,54 @@ J_GlobalSkips = {
     % [J GlobalSkips measure 207]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
-%@% \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK:SM27
-%@% \markup {                                                            %! REAPPLIED_METRONOME_MARK:SM27
-%@%     \fontsize                                                        %! REAPPLIED_METRONOME_MARK:SM27
-%@%         #-6                                                          %! REAPPLIED_METRONOME_MARK:SM27
-%@%         \general-align                                               %! REAPPLIED_METRONOME_MARK:SM27
-%@%             #Y                                                       %! REAPPLIED_METRONOME_MARK:SM27
-%@%             #DOWN                                                    %! REAPPLIED_METRONOME_MARK:SM27
-%@%             \note-by-number                                          %! REAPPLIED_METRONOME_MARK:SM27
-%@%                 #3                                                   %! REAPPLIED_METRONOME_MARK:SM27
-%@%                 #0                                                   %! REAPPLIED_METRONOME_MARK:SM27
-%@%                 #1.5                                                 %! REAPPLIED_METRONOME_MARK:SM27
-%@%     \upright                                                         %! REAPPLIED_METRONOME_MARK:SM27
-%@%         {                                                            %! REAPPLIED_METRONOME_MARK:SM27
-%@%             =                                                        %! REAPPLIED_METRONOME_MARK:SM27
-%@%             66                                                       %! REAPPLIED_METRONOME_MARK:SM27
-%@%         }                                                            %! REAPPLIED_METRONOME_MARK:SM27
-%@%     \hspace                                                          %! REAPPLIED_METRONOME_MARK:SM27
-%@%         #1                                                           %! REAPPLIED_METRONOME_MARK:SM27
-%@%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27 %! METRONOME_MARK_SPANNER:SM29
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@% \markup {                                                            %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%     \fontsize                                                        %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%         #-6                                                          %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%         \general-align                                               %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%             #Y                                                       %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%             #DOWN                                                    %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%             \note-by-number                                          %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%                 #3                                                   %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%                 #0                                                   %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%                 #1.5                                                 %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%     \upright                                                         %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%         {                                                            %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%             =                                                        %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%             66                                                       %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%         }                                                            %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%     \hspace                                                          %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%         #1                                                           %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%     }                                                                %! SM36:REAPPLIED_METRONOME_MARK:SM27 %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.Y-extent = ##f                           %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.left-broken.text = ##f     %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.left-broken.text = \markup {
         \null
         }                                                                %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! METRONOME_MARK_SPANNER:SM29
-    \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-    \markup {                                                            %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-        \with-color                                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-            #(x11-color 'green4)                                         %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-            {                                                            %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                \fontsize                                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                    #-6                                                  %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                    \general-align                                       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                        #Y                                               %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                        #DOWN                                            %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                        \note-by-number                                  %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                            #3                                           %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                            #0                                           %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                            #1.5                                         %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                \upright                                                 %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                    {                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                        =                                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                        66                                               %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                    }                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                \hspace                                                  %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                    #1                                                   %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-            }                                                            %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-        }                                                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! METRONOME_MARK_SPANNER:SM29
+    \once \override TextSpanner.bound-details.left.text =                %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+    \markup {                                                            %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+        \with-color                                                      %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+            #(x11-color 'green4)                                         %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+            {                                                            %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                \fontsize                                                %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                    #-6                                                  %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                    \general-align                                       %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                        #Y                                               %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                        #DOWN                                            %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                        \note-by-number                                  %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                            #3                                           %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                            #0                                           %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                            #1.5                                         %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                \upright                                                 %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                    {                                                    %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                        =                                                %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                        66                                               %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                    }                                                    %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                \hspace                                                  %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                    #1                                                   %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+            }                                                            %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+        }                                                                %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right-broken.padding = 0   %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right-broken.text = ##f    %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right.padding = 0          %! METRONOME_MARK_SPANNER:SM29
@@ -1353,14 +1353,14 @@ J_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [J GuitarMusicVoiceI measure 207]                      %! SM4
-            \clef "treble"                                           %! REAPPLIED_CLEF:SM8
-            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
-        %@% \override GuitarMusicStaff.Clef.color = ##f              %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
-            \set GuitarMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
+            \clef "treble"                                           %! SM37:REAPPLIED_CLEF:SM8
+            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! SM37:REAPPLIED_CLEF_COLOR:SM6
+        %@% \override GuitarMusicStaff.Clef.color = ##f              %! SM37:REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+            \set GuitarMusicStaff.forceClef = ##t                    %! SM37:SM33:REAPPLIED_CLEF:SM8
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'green4) %! SM37:REAPPLIED_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
-            \pp                                                      %! REAPPLIED_DYNAMIC:SM8
+            \pp                                                      %! SM37:REAPPLIED_DYNAMIC:SM8
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1383,7 +1383,7 @@ J_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
+            \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM37:REAPPLIED_CLEF_REDRAW_COLOR:SM6
         }
     }
     {
@@ -1391,12 +1391,12 @@ J_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [J GuitarMusicVoiceI measure 208]                      %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC2:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<
-            \pp
+            \<                                                       %! HC1
+            \pp                                                      %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1426,11 +1426,11 @@ J_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [J GuitarMusicVoiceI measure 209]                      %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC3:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \p
+            \p                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1460,12 +1460,12 @@ J_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [J GuitarMusicVoiceI measure 210]                      %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC2:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>
-            \p
+            \>                                                       %! HC1
+            \p                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1495,11 +1495,11 @@ J_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [J GuitarMusicVoiceI measure 211]                      %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC3:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \pp
+            \pp                                                      %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1576,12 +1576,12 @@ J_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [J GuitarMusicVoiceI measure 213]                      %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC2:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<
-            \pp
+            \<                                                       %! HC1
+            \pp                                                      %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1611,11 +1611,11 @@ J_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [J GuitarMusicVoiceI measure 214]                      %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC3:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \mp
+            \mp                                                      %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1645,12 +1645,12 @@ J_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [J GuitarMusicVoiceI measure 215]                      %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC2:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>
-            \mp
+            \>                                                       %! HC1
+            \mp                                                      %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1680,11 +1680,11 @@ J_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [J GuitarMusicVoiceI measure 216]                      %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC3:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \pp
+            \pp                                                      %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1761,10 +1761,10 @@ J_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [J GuitarMusicVoiceI measure 218]                      %! SM4
-            \once \override TextSpanner.Y-extent = ##f
-            \once \override TextSpanner.arrow-width = 0.25
-            \once \override TextSpanner.bound-details.left-broken.text = ##f
-            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+            \once \override TextSpanner.Y-extent = ##f               %! PCW1
+            \once \override TextSpanner.arrow-width = 0.25           %! PCW1
+            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
+            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
             \once \override TextSpanner.bound-details.left.text = \markup {
                 \concat
                     {
@@ -1774,13 +1774,13 @@ J_GuitarMusicVoiceI = {
                         \hspace
                             #0.5
                     }
-                }
-            \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-            \once \override TextSpanner.bound-details.right-broken.padding = 0
-            \once \override TextSpanner.bound-details.right-broken.text = ##f
-            \once \override TextSpanner.bound-details.right.arrow = ##t
-            \once \override TextSpanner.bound-details.right.padding = 0.5
-            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                }                                                    %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
+            \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
+            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
+            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
             \once \override TextSpanner.bound-details.right.text = \markup {
                 \concat
                     {
@@ -1790,16 +1790,16 @@ J_GuitarMusicVoiceI = {
                             \upright
                                 "kn. rasg."
                     }
-                }
-            \once \override TextSpanner.dash-fraction = 0.25
-            \once \override TextSpanner.dash-period = 1.5
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+                }                                                    %! PCW1
+            \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
+            \once \override TextSpanner.dash-period = 1.5            %! PCW1
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC2:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<
-            \pp
-            \startTextSpan
+            \<                                                       %! HC1
+            \pp                                                      %! HC1
+            \startTextSpan                                           %! PCW1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1829,12 +1829,12 @@ J_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [J GuitarMusicVoiceI measure 219]                      %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC3:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \p
-            \stopTextSpan
+            \p                                                       %! HC1
+            \stopTextSpan                                            %! PCW1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1864,10 +1864,10 @@ J_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [J GuitarMusicVoiceI measure 220]                      %! SM4
-            \once \override TextSpanner.Y-extent = ##f
-            \once \override TextSpanner.arrow-width = 0.25
-            \once \override TextSpanner.bound-details.left-broken.text = ##f
-            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+            \once \override TextSpanner.Y-extent = ##f               %! PCW1
+            \once \override TextSpanner.arrow-width = 0.25           %! PCW1
+            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
+            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
             \once \override TextSpanner.bound-details.left.text = \markup {
                 \concat
                     {
@@ -1877,13 +1877,13 @@ J_GuitarMusicVoiceI = {
                         \hspace
                             #0.5
                     }
-                }
-            \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-            \once \override TextSpanner.bound-details.right-broken.padding = 0
-            \once \override TextSpanner.bound-details.right-broken.text = ##f
-            \once \override TextSpanner.bound-details.right.arrow = ##t
-            \once \override TextSpanner.bound-details.right.padding = 0.5
-            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                }                                                    %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
+            \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
+            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
+            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
             \once \override TextSpanner.bound-details.right.text = \markup {
                 \concat
                     {
@@ -1893,16 +1893,16 @@ J_GuitarMusicVoiceI = {
                             \upright
                                 "tamb. tr."
                     }
-                }
-            \once \override TextSpanner.dash-fraction = 0.25
-            \once \override TextSpanner.dash-period = 1.5
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+                }                                                    %! PCW1
+            \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
+            \once \override TextSpanner.dash-period = 1.5            %! PCW1
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC2:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>
-            \p
-            \startTextSpan
+            \>                                                       %! HC1
+            \p                                                       %! HC1
+            \startTextSpan                                           %! PCW1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1932,12 +1932,12 @@ J_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [J GuitarMusicVoiceI measure 221]                      %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC3:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \pp
-            \stopTextSpan
+            \pp                                                      %! HC1
+            \stopTextSpan                                            %! PCW1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1967,10 +1967,10 @@ J_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [J GuitarMusicVoiceI measure 222]                      %! SM4
-            \once \override TextSpanner.Y-extent = ##f
-            \once \override TextSpanner.arrow-width = 0.25
-            \once \override TextSpanner.bound-details.left-broken.text = ##f
-            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+            \once \override TextSpanner.Y-extent = ##f               %! PCW1
+            \once \override TextSpanner.arrow-width = 0.25           %! PCW1
+            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
+            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
             \once \override TextSpanner.bound-details.left.text = \markup {
                 \concat
                     {
@@ -1980,13 +1980,13 @@ J_GuitarMusicVoiceI = {
                         \hspace
                             #0.5
                     }
-                }
-            \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-            \once \override TextSpanner.bound-details.right-broken.padding = 0
-            \once \override TextSpanner.bound-details.right-broken.text = ##f
-            \once \override TextSpanner.bound-details.right.arrow = ##t
-            \once \override TextSpanner.bound-details.right.padding = 0.5
-            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                }                                                    %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
+            \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
+            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
+            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
             \once \override TextSpanner.bound-details.right.text = \markup {
                 \concat
                     {
@@ -1996,16 +1996,16 @@ J_GuitarMusicVoiceI = {
                             \upright
                                 "kn. rasg."
                     }
-                }
-            \once \override TextSpanner.dash-fraction = 0.25
-            \once \override TextSpanner.dash-period = 1.5
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+                }                                                    %! PCW1
+            \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
+            \once \override TextSpanner.dash-period = 1.5            %! PCW1
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC2:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<
-            \pp
-            \startTextSpan
+            \<                                                       %! HC1
+            \pp                                                      %! HC1
+            \startTextSpan                                           %! PCW1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2035,12 +2035,12 @@ J_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [J GuitarMusicVoiceI measure 223]                      %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC3:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \mp
-            \stopTextSpan
+            \mp                                                      %! HC1
+            \stopTextSpan                                            %! PCW1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2070,10 +2070,10 @@ J_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [J GuitarMusicVoiceI measure 224]                      %! SM4
-            \once \override TextSpanner.Y-extent = ##f
-            \once \override TextSpanner.arrow-width = 0.25
-            \once \override TextSpanner.bound-details.left-broken.text = ##f
-            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+            \once \override TextSpanner.Y-extent = ##f               %! PCW1
+            \once \override TextSpanner.arrow-width = 0.25           %! PCW1
+            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
+            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
             \once \override TextSpanner.bound-details.left.text = \markup {
                 \concat
                     {
@@ -2083,13 +2083,13 @@ J_GuitarMusicVoiceI = {
                         \hspace
                             #0.5
                     }
-                }
-            \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-            \once \override TextSpanner.bound-details.right-broken.padding = 0
-            \once \override TextSpanner.bound-details.right-broken.text = ##f
-            \once \override TextSpanner.bound-details.right.arrow = ##t
-            \once \override TextSpanner.bound-details.right.padding = 0.5
-            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                }                                                    %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
+            \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
+            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
+            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
             \once \override TextSpanner.bound-details.right.text = \markup {
                 \concat
                     {
@@ -2099,16 +2099,16 @@ J_GuitarMusicVoiceI = {
                             \upright
                                 "tamb. tr."
                     }
-                }
-            \once \override TextSpanner.dash-fraction = 0.25
-            \once \override TextSpanner.dash-period = 1.5
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+                }                                                    %! PCW1
+            \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
+            \once \override TextSpanner.dash-period = 1.5            %! PCW1
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC2:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>
-            \mp
-            \startTextSpan
+            \>                                                       %! HC1
+            \mp                                                      %! HC1
+            \startTextSpan                                           %! PCW1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2138,12 +2138,12 @@ J_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [J GuitarMusicVoiceI measure 225]                      %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC3:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \pp
-            \stopTextSpan
+            \pp                                                      %! HC1
+            \stopTextSpan                                            %! PCW1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2173,10 +2173,10 @@ J_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [J GuitarMusicVoiceI measure 226]                      %! SM4
-            \once \override TextSpanner.Y-extent = ##f
-            \once \override TextSpanner.arrow-width = 0.25
-            \once \override TextSpanner.bound-details.left-broken.text = ##f
-            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+            \once \override TextSpanner.Y-extent = ##f               %! PCW1
+            \once \override TextSpanner.arrow-width = 0.25           %! PCW1
+            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
+            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
             \once \override TextSpanner.bound-details.left.text = \markup {
                 \concat
                     {
@@ -2186,13 +2186,13 @@ J_GuitarMusicVoiceI = {
                         \hspace
                             #0.5
                     }
-                }
-            \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-            \once \override TextSpanner.bound-details.right-broken.padding = 0
-            \once \override TextSpanner.bound-details.right-broken.text = ##f
-            \once \override TextSpanner.bound-details.right.arrow = ##t
-            \once \override TextSpanner.bound-details.right.padding = 0.5
-            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                }                                                    %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
+            \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
+            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
+            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
             \once \override TextSpanner.bound-details.right.text = \markup {
                 \concat
                     {
@@ -2202,16 +2202,16 @@ J_GuitarMusicVoiceI = {
                             \upright
                                 "kn. rasg."
                     }
-                }
-            \once \override TextSpanner.dash-fraction = 0.25
-            \once \override TextSpanner.dash-period = 1.5
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+                }                                                    %! PCW1
+            \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
+            \once \override TextSpanner.dash-period = 1.5            %! PCW1
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC2:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<
-            \pp
-            \startTextSpan
+            \<                                                       %! HC1
+            \pp                                                      %! HC1
+            \startTextSpan                                           %! PCW1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2241,12 +2241,12 @@ J_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [J GuitarMusicVoiceI measure 227]                      %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC3:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \mf
-            \stopTextSpan
+            \mf                                                      %! HC1
+            \stopTextSpan                                            %! PCW1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2276,10 +2276,10 @@ J_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [J GuitarMusicVoiceI measure 228]                      %! SM4
-            \once \override TextSpanner.Y-extent = ##f
-            \once \override TextSpanner.arrow-width = 0.25
-            \once \override TextSpanner.bound-details.left-broken.text = ##f
-            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+            \once \override TextSpanner.Y-extent = ##f               %! PCW1
+            \once \override TextSpanner.arrow-width = 0.25           %! PCW1
+            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
+            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
             \once \override TextSpanner.bound-details.left.text = \markup {
                 \concat
                     {
@@ -2289,13 +2289,13 @@ J_GuitarMusicVoiceI = {
                         \hspace
                             #0.5
                     }
-                }
-            \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-            \once \override TextSpanner.bound-details.right-broken.padding = 0
-            \once \override TextSpanner.bound-details.right-broken.text = ##f
-            \once \override TextSpanner.bound-details.right.arrow = ##t
-            \once \override TextSpanner.bound-details.right.padding = 0.5
-            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                }                                                    %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
+            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
+            \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
+            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
+            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
             \once \override TextSpanner.bound-details.right.text = \markup {
                 \concat
                     {
@@ -2305,16 +2305,16 @@ J_GuitarMusicVoiceI = {
                             \upright
                                 "tamb. tr."
                     }
-                }
-            \once \override TextSpanner.dash-fraction = 0.25
-            \once \override TextSpanner.dash-period = 1.5
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+                }                                                    %! PCW1
+            \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
+            \once \override TextSpanner.dash-period = 1.5            %! PCW1
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC2:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>
-            \mf
-            \startTextSpan
+            \>                                                       %! HC1
+            \mf                                                      %! HC1
+            \startTextSpan                                           %! PCW1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2468,12 +2468,12 @@ J_GuitarMusicVoiceI = {
                     }
                 }
             
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC3:EXPLICIT_DYNAMIC_COLOR:SM6
             gtqf2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \p
-            \stopTextSpan
+            \p                                                       %! HC1
+            \stopTextSpan                                            %! PCW1
             
         }
     }
@@ -2643,30 +2643,30 @@ J_GuitarMusicVoiceIII = {
 J_GuitarMusicVoiceIV = {
     
     % [J GuitarMusicVoiceIV measure 207]                             %! SM4
-    \set GuitarMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8
-        \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
-            #16                                                      %! REAPPLIED_INSTRUMENT:SM8
-            Guitar                                                   %! REAPPLIED_INSTRUMENT:SM8
-        }                                                            %! REAPPLIED_INSTRUMENT:SM8
-    \set GuitarMusicStaff.shortInstrumentName = \markup {            %! REAPPLIED_INSTRUMENT:SM8
-        \null                                                        %! REAPPLIED_INSTRUMENT:SM8
-        }                                                            %! REAPPLIED_INSTRUMENT:SM8
-    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+    \set GuitarMusicStaff.instrumentName = \markup {                 %! SM37:REAPPLIED_INSTRUMENT:SM8
+        \hcenter-in                                                  %! SM37:REAPPLIED_INSTRUMENT:SM8
+            #16                                                      %! SM37:REAPPLIED_INSTRUMENT:SM8
+            Guitar                                                   %! SM37:REAPPLIED_INSTRUMENT:SM8
+        }                                                            %! SM37:REAPPLIED_INSTRUMENT:SM8
+    \set GuitarMusicStaff.shortInstrumentName = \markup {            %! SM37:REAPPLIED_INSTRUMENT:SM8
+        \null                                                        %! SM37:REAPPLIED_INSTRUMENT:SM8
+        }                                                            %! SM37:REAPPLIED_INSTRUMENT:SM8
+    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM37:REAPPLIED_INSTRUMENT_COLOR:SM6
     s1 * 2/5
-    ^ \markup {                                                      %! REAPPLIED_INSTRUMENT_ALERT:SM11
-        \with-color                                                  %! REAPPLIED_INSTRUMENT_ALERT:SM11
-            #(x11-color 'green4)                                     %! REAPPLIED_INSTRUMENT_ALERT:SM11
-            (“Guitar”)                                               %! REAPPLIED_INSTRUMENT_ALERT:SM11
-        }                                                            %! REAPPLIED_INSTRUMENT_ALERT:SM11
-    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
-    \set GuitarMusicStaff.instrumentName = \markup {                 %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-        \hcenter-in                                                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-            #16                                                      %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-            Guitar                                                   %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-        }                                                            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-    \set GuitarMusicStaff.shortInstrumentName = \markup {            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-        \null                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-        }                                                            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+    ^ \markup {                                                      %! SM37:REAPPLIED_INSTRUMENT_ALERT:SM11
+        \with-color                                                  %! SM37:REAPPLIED_INSTRUMENT_ALERT:SM11
+            #(x11-color 'green4)                                     %! SM37:REAPPLIED_INSTRUMENT_ALERT:SM11
+            (“Guitar”)                                               %! SM37:REAPPLIED_INSTRUMENT_ALERT:SM11
+        }                                                            %! SM37:REAPPLIED_INSTRUMENT_ALERT:SM11
+    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM37:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
+    \set GuitarMusicStaff.instrumentName = \markup {                 %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
+        \hcenter-in                                                  %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
+            #16                                                      %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
+            Guitar                                                   %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
+        }                                                            %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
+    \set GuitarMusicStaff.shortInstrumentName = \markup {            %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
+        \null                                                        %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
+        }                                                            %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
     
     % [J GuitarMusicVoiceIV measure 208]                             %! SM4
     s1 * 2/5

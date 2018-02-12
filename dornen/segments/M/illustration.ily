@@ -3,54 +3,54 @@ M_GlobalSkips = {
     % [M GlobalSkips measure 303]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)     %! SPACING:HSS1
-%@% \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK:SM27
-%@% \markup {                                                            %! REAPPLIED_METRONOME_MARK:SM27
-%@%     \fontsize                                                        %! REAPPLIED_METRONOME_MARK:SM27
-%@%         #-6                                                          %! REAPPLIED_METRONOME_MARK:SM27
-%@%         \general-align                                               %! REAPPLIED_METRONOME_MARK:SM27
-%@%             #Y                                                       %! REAPPLIED_METRONOME_MARK:SM27
-%@%             #DOWN                                                    %! REAPPLIED_METRONOME_MARK:SM27
-%@%             \note-by-number                                          %! REAPPLIED_METRONOME_MARK:SM27
-%@%                 #3                                                   %! REAPPLIED_METRONOME_MARK:SM27
-%@%                 #0                                                   %! REAPPLIED_METRONOME_MARK:SM27
-%@%                 #1.5                                                 %! REAPPLIED_METRONOME_MARK:SM27
-%@%     \upright                                                         %! REAPPLIED_METRONOME_MARK:SM27
-%@%         {                                                            %! REAPPLIED_METRONOME_MARK:SM27
-%@%             =                                                        %! REAPPLIED_METRONOME_MARK:SM27
-%@%             66                                                       %! REAPPLIED_METRONOME_MARK:SM27
-%@%         }                                                            %! REAPPLIED_METRONOME_MARK:SM27
-%@%     \hspace                                                          %! REAPPLIED_METRONOME_MARK:SM27
-%@%         #1                                                           %! REAPPLIED_METRONOME_MARK:SM27
-%@%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27 %! METRONOME_MARK_SPANNER:SM29
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@% \markup {                                                            %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%     \fontsize                                                        %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%         #-6                                                          %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%         \general-align                                               %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%             #Y                                                       %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%             #DOWN                                                    %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%             \note-by-number                                          %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%                 #3                                                   %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%                 #0                                                   %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%                 #1.5                                                 %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%     \upright                                                         %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%         {                                                            %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%             =                                                        %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%             66                                                       %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%         }                                                            %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%     \hspace                                                          %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%         #1                                                           %! SM36:REAPPLIED_METRONOME_MARK:SM27
+%@%     }                                                                %! SM36:REAPPLIED_METRONOME_MARK:SM27 %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.Y-extent = ##f                           %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.left-broken.text = ##f     %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.left-broken.text = \markup {
         \null
         }                                                                %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! METRONOME_MARK_SPANNER:SM29
-    \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-    \markup {                                                            %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-        \with-color                                                      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-            #(x11-color 'green4)                                         %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-            {                                                            %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                \fontsize                                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                    #-6                                                  %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                    \general-align                                       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                        #Y                                               %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                        #DOWN                                            %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                        \note-by-number                                  %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                            #3                                           %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                            #0                                           %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                            #1.5                                         %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                \upright                                                 %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                    {                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                        =                                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                        66                                               %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                    }                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                \hspace                                                  %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-                    #1                                                   %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-            }                                                            %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
-        }                                                                %! REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! METRONOME_MARK_SPANNER:SM29
+    \once \override TextSpanner.bound-details.left.text =                %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+    \markup {                                                            %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+        \with-color                                                      %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+            #(x11-color 'green4)                                         %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+            {                                                            %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                \fontsize                                                %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                    #-6                                                  %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                    \general-align                                       %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                        #Y                                               %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                        #DOWN                                            %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                        \note-by-number                                  %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                            #3                                           %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                            #0                                           %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                            #1.5                                         %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                \upright                                                 %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                    {                                                    %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                        =                                                %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                        66                                               %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                    }                                                    %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                \hspace                                                  %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+                    #1                                                   %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+            }                                                            %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15
+        }                                                                %! SM36:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM15 %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right-broken.padding = 0   %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right-broken.text = ##f    %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right.padding = 0          %! METRONOME_MARK_SPANNER:SM29
@@ -2251,26 +2251,26 @@ M_GuitarMusicVoiceI = {
             
             % [M GuitarMusicVoiceI measure 303]                      %! SM4
             \override Beam.positions = #'(10 . 10)                   %! OC
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 3
-            \clef "treble"                                           %! REAPPLIED_CLEF:SM8
-            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
-        %@% \override GuitarMusicStaff.Clef.color = ##f              %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
-            \set GuitarMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
+            \set stemLeftBeamCount = 0                               %! SM35
+            \set stemRightBeamCount = 3                              %! SM35
+            \clef "treble"                                           %! SM37:REAPPLIED_CLEF:SM8
+            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! SM37:REAPPLIED_CLEF_COLOR:SM6
+        %@% \override GuitarMusicStaff.Clef.color = ##f              %! SM37:REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+            \set GuitarMusicStaff.forceClef = ##t                    %! SM37:SM33:REAPPLIED_CLEF:SM8
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'green4) %! SM37:REAPPLIED_DYNAMIC_COLOR:SM6
             d'32.
             -\tenuto                                                 %! IC
-            _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:SM8
-            [
+            _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM37:REAPPLIED_DYNAMIC:SM8
+            [                                                        %! SM35
             ^ \markup {                                              %! IC
                 \whiteout                                            %! IC
                     \upright                                         %! IC
                         "LH only until rascado! (RH tacet; encourage whisks) ..." %! IC
                 }                                                    %! IC
-            \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
+            \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM37:REAPPLIED_CLEF_REDRAW_COLOR:SM6
             
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 1
+            \set stemLeftBeamCount = 3                               %! SM35
+            \set stemRightBeamCount = 1                              %! SM35
             cs'32.
             -\tenuto                                                 %! IC
         }
@@ -2282,16 +2282,16 @@ M_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [M GuitarMusicVoiceI measure 308]                      %! SM4
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 3
+            \set stemLeftBeamCount = 1                               %! SM35
+            \set stemRightBeamCount = 3                              %! SM35
             ef'32.
             -\tenuto                                                 %! IC
             
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 0
+            \set stemLeftBeamCount = 3                               %! SM35
+            \set stemRightBeamCount = 0                              %! SM35
             fs'32.
             -\tenuto                                                 %! IC
-            ]
+            ]                                                        %! SM35
         }
     }
     {
@@ -2305,19 +2305,19 @@ M_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [M GuitarMusicVoiceI measure 310]                      %! SM4
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 3
+            \set stemLeftBeamCount = 0                               %! SM35
+            \set stemRightBeamCount = 3                              %! SM35
             d'32.
             -\tenuto                                                 %! IC
-            [
+            [                                                        %! SM35
             ^ \markup {                                              %! IC
                 \whiteout                                            %! IC
                     \upright                                         %! IC
                         "RH reaches for screw ..."                   %! IC
                 }                                                    %! IC
             
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 1
+            \set stemLeftBeamCount = 3                               %! SM35
+            \set stemRightBeamCount = 1                              %! SM35
             cs'32.
             -\tenuto                                                 %! IC
         }
@@ -2329,16 +2329,16 @@ M_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [M GuitarMusicVoiceI measure 315]                      %! SM4
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 3
+            \set stemLeftBeamCount = 1                               %! SM35
+            \set stemRightBeamCount = 3                              %! SM35
             ef'32.
             -\tenuto                                                 %! IC
             
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 0
+            \set stemLeftBeamCount = 3                               %! SM35
+            \set stemRightBeamCount = 0                              %! SM35
             fs'32.
             -\tenuto                                                 %! IC
-            ]
+            ]                                                        %! SM35
         }
     }
     {
@@ -2352,19 +2352,19 @@ M_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [M GuitarMusicVoiceI measure 317]                      %! SM4
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 3
+            \set stemLeftBeamCount = 0                               %! SM35
+            \set stemRightBeamCount = 3                              %! SM35
             d'32.
             -\tenuto                                                 %! IC
-            [
+            [                                                        %! SM35
             ^ \markup {                                              %! IC
                 \whiteout                                            %! IC
                     \upright                                         %! IC
                         "RH places screw on string ..."              %! IC
                 }                                                    %! IC
             
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 1
+            \set stemLeftBeamCount = 3                               %! SM35
+            \set stemRightBeamCount = 1                              %! SM35
             cs'32.
             -\tenuto                                                 %! IC
         }
@@ -2376,16 +2376,16 @@ M_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [M GuitarMusicVoiceI measure 322]                      %! SM4
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 3
+            \set stemLeftBeamCount = 1                               %! SM35
+            \set stemRightBeamCount = 3                              %! SM35
             ef'32.
             -\tenuto                                                 %! IC
             
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 0
+            \set stemLeftBeamCount = 3                               %! SM35
+            \set stemRightBeamCount = 0                              %! SM35
             fs'32.
             -\tenuto                                                 %! IC
-            ]
+            ]                                                        %! SM35
         }
     }
     {
@@ -2399,14 +2399,14 @@ M_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [M GuitarMusicVoiceI measure 324]                      %! SM4
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 3
+            \set stemLeftBeamCount = 0                               %! SM35
+            \set stemRightBeamCount = 3                              %! SM35
             d'32.
             -\tenuto                                                 %! IC
-            [
+            [                                                        %! SM35
             
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 1
+            \set stemLeftBeamCount = 3                               %! SM35
+            \set stemRightBeamCount = 1                              %! SM35
             cs'32.
             -\tenuto                                                 %! IC
         }
@@ -2418,16 +2418,16 @@ M_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [M GuitarMusicVoiceI measure 329]                      %! SM4
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 3
+            \set stemLeftBeamCount = 1                               %! SM35
+            \set stemRightBeamCount = 3                              %! SM35
             ef'32.
             -\tenuto                                                 %! IC
             
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 0
+            \set stemLeftBeamCount = 3                               %! SM35
+            \set stemRightBeamCount = 0                              %! SM35
             fs'32.
             -\tenuto                                                 %! IC
-            ]
+            ]                                                        %! SM35
         }
     }
     {
@@ -2441,14 +2441,14 @@ M_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [M GuitarMusicVoiceI measure 331]                      %! SM4
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 3
+            \set stemLeftBeamCount = 0                               %! SM35
+            \set stemRightBeamCount = 3                              %! SM35
             d'32.
             -\tenuto                                                 %! IC
-            [
+            [                                                        %! SM35
             
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 1
+            \set stemLeftBeamCount = 3                               %! SM35
+            \set stemRightBeamCount = 1                              %! SM35
             cs'32.
             -\tenuto                                                 %! IC
         }
@@ -2460,16 +2460,16 @@ M_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [M GuitarMusicVoiceI measure 336]                      %! SM4
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 3
+            \set stemLeftBeamCount = 1                               %! SM35
+            \set stemRightBeamCount = 3                              %! SM35
             ef'32.
             -\tenuto                                                 %! IC
             
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 0
+            \set stemLeftBeamCount = 3                               %! SM35
+            \set stemRightBeamCount = 0                              %! SM35
             fs'32.
             -\tenuto                                                 %! IC
-            ]
+            ]                                                        %! SM35
         }
     }
     {
@@ -2850,48 +2850,48 @@ M_GuitarMusicVoiceIV = {
     
     % [M GuitarMusicVoiceIV measure 303]                             %! SM4
     \override Beam.positions = #'(5.5 . 5.5)                         %! OC
-    \set GuitarMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8
-        \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
-            #16                                                      %! REAPPLIED_INSTRUMENT:SM8
-            Guitar                                                   %! REAPPLIED_INSTRUMENT:SM8
-        }                                                            %! REAPPLIED_INSTRUMENT:SM8
-    \set GuitarMusicStaff.shortInstrumentName = \markup {            %! REAPPLIED_INSTRUMENT:SM8
-        \null                                                        %! REAPPLIED_INSTRUMENT:SM8
-        }                                                            %! REAPPLIED_INSTRUMENT:SM8
-    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+    \set GuitarMusicStaff.instrumentName = \markup {                 %! SM37:REAPPLIED_INSTRUMENT:SM8
+        \hcenter-in                                                  %! SM37:REAPPLIED_INSTRUMENT:SM8
+            #16                                                      %! SM37:REAPPLIED_INSTRUMENT:SM8
+            Guitar                                                   %! SM37:REAPPLIED_INSTRUMENT:SM8
+        }                                                            %! SM37:REAPPLIED_INSTRUMENT:SM8
+    \set GuitarMusicStaff.shortInstrumentName = \markup {            %! SM37:REAPPLIED_INSTRUMENT:SM8
+        \null                                                        %! SM37:REAPPLIED_INSTRUMENT:SM8
+        }                                                            %! SM37:REAPPLIED_INSTRUMENT:SM8
+    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM37:REAPPLIED_INSTRUMENT_COLOR:SM6
     s1 * 3/32
-    ^ \markup {                                                      %! REAPPLIED_INSTRUMENT_ALERT:SM11
-        \with-color                                                  %! REAPPLIED_INSTRUMENT_ALERT:SM11
-            #(x11-color 'green4)                                     %! REAPPLIED_INSTRUMENT_ALERT:SM11
-            (“Guitar”)                                               %! REAPPLIED_INSTRUMENT_ALERT:SM11
-        }                                                            %! REAPPLIED_INSTRUMENT_ALERT:SM11
-    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
-    \set GuitarMusicStaff.instrumentName = \markup {                 %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-        \hcenter-in                                                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-            #16                                                      %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-            Guitar                                                   %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-        }                                                            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-    \set GuitarMusicStaff.shortInstrumentName = \markup {            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-        \null                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-        }                                                            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+    ^ \markup {                                                      %! SM37:REAPPLIED_INSTRUMENT_ALERT:SM11
+        \with-color                                                  %! SM37:REAPPLIED_INSTRUMENT_ALERT:SM11
+            #(x11-color 'green4)                                     %! SM37:REAPPLIED_INSTRUMENT_ALERT:SM11
+            (“Guitar”)                                               %! SM37:REAPPLIED_INSTRUMENT_ALERT:SM11
+        }                                                            %! SM37:REAPPLIED_INSTRUMENT_ALERT:SM11
+    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM37:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
+    \set GuitarMusicStaff.instrumentName = \markup {                 %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
+        \hcenter-in                                                  %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
+            #16                                                      %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
+            Guitar                                                   %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
+        }                                                            %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
+    \set GuitarMusicStaff.shortInstrumentName = \markup {            %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
+        \null                                                        %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
+        }                                                            %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
     {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
             % [M GuitarMusicVoiceIV measure 304]                     %! SM4
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 0                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             b'16
             -\staccato                                               %! IC
-            [
+            [                                                        %! SM35
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             a'16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 1
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 1                              %! SM35
             g''16
             -\staccato                                               %! IC
         }
@@ -2906,21 +2906,21 @@ M_GuitarMusicVoiceIV = {
             % [M GuitarMusicVoiceIV measure 306]                     %! SM4
             \override Beam.positions = #'(6 . 6)                     %! OC
             \override Stem.direction = #up                           %! OC
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 1                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             ef''16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             fs''16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 0
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 0                              %! SM35
             f''16
             -\staccato                                               %! IC
-            ]
+            ]                                                        %! SM35
             \revert Beam.positions                                   %! OC
             \revert Stem.direction                                   %! OC
         }
@@ -2933,19 +2933,19 @@ M_GuitarMusicVoiceIV = {
         \times 4/5 {
             
             % [M GuitarMusicVoiceIV measure 311]                     %! SM4
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 0                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             b'16
             -\staccato                                               %! IC
-            [
+            [                                                        %! SM35
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             a'16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 1
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 1                              %! SM35
             g''16
             -\staccato                                               %! IC
         }
@@ -2960,21 +2960,21 @@ M_GuitarMusicVoiceIV = {
             % [M GuitarMusicVoiceIV measure 313]                     %! SM4
             \override Beam.positions = #'(6 . 6)                     %! OC
             \override Stem.direction = #up                           %! OC
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 1                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             ef''16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             fs''16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 0
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 0                              %! SM35
             f''16
             -\staccato                                               %! IC
-            ]
+            ]                                                        %! SM35
             \revert Beam.positions                                   %! OC
             \revert Stem.direction                                   %! OC
         }
@@ -2987,19 +2987,19 @@ M_GuitarMusicVoiceIV = {
         \times 4/5 {
             
             % [M GuitarMusicVoiceIV measure 318]                     %! SM4
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 0                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             b'16
             -\staccato                                               %! IC
-            [
+            [                                                        %! SM35
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             a'16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 1
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 1                              %! SM35
             g''16
             -\staccato                                               %! IC
         }
@@ -3014,21 +3014,21 @@ M_GuitarMusicVoiceIV = {
             % [M GuitarMusicVoiceIV measure 320]                     %! SM4
             \override Beam.positions = #'(6 . 6)                     %! OC
             \override Stem.direction = #up                           %! OC
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 1                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             ef''16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             fs''16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 0
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 0                              %! SM35
             f''16
             -\staccato                                               %! IC
-            ]
+            ]                                                        %! SM35
             \revert Beam.positions                                   %! OC
             \revert Stem.direction                                   %! OC
         }
@@ -3041,19 +3041,19 @@ M_GuitarMusicVoiceIV = {
         \times 4/5 {
             
             % [M GuitarMusicVoiceIV measure 325]                     %! SM4
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 0                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             b'16
             -\staccato                                               %! IC
-            [
+            [                                                        %! SM35
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             a'16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 1
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 1                              %! SM35
             g''16
             -\staccato                                               %! IC
         }
@@ -3068,21 +3068,21 @@ M_GuitarMusicVoiceIV = {
             % [M GuitarMusicVoiceIV measure 327]                     %! SM4
             \override Beam.positions = #'(6 . 6)                     %! OC
             \override Stem.direction = #up                           %! OC
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 1                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             ef''16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             fs''16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 0
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 0                              %! SM35
             f''16
             -\staccato                                               %! IC
-            ]
+            ]                                                        %! SM35
             \revert Beam.positions                                   %! OC
             \revert Stem.direction                                   %! OC
         }
@@ -3095,19 +3095,19 @@ M_GuitarMusicVoiceIV = {
         \times 4/5 {
             
             % [M GuitarMusicVoiceIV measure 332]                     %! SM4
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 0                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             b'16
             -\staccato                                               %! IC
-            [
+            [                                                        %! SM35
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             a'16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 1
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 1                              %! SM35
             g''16
             -\staccato                                               %! IC
         }
@@ -3122,21 +3122,21 @@ M_GuitarMusicVoiceIV = {
             % [M GuitarMusicVoiceIV measure 334]                     %! SM4
             \override Beam.positions = #'(6 . 6)                     %! OC
             \override Stem.direction = #up                           %! OC
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 1                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             ef''16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             fs''16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 0
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 0                              %! SM35
             f''16
             -\staccato                                               %! IC
-            ]
+            ]                                                        %! SM35
             \revert Beam.positions                                   %! OC
             \revert Stem.direction                                   %! OC
         }
@@ -3149,19 +3149,19 @@ M_GuitarMusicVoiceIV = {
         \times 4/5 {
             
             % [M GuitarMusicVoiceIV measure 339]                     %! SM4
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 0                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             b'16
             -\staccato                                               %! IC
-            [
+            [                                                        %! SM35
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             a'16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 1
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 1                              %! SM35
             g''16
             -\staccato                                               %! IC
         }
@@ -3176,21 +3176,21 @@ M_GuitarMusicVoiceIV = {
             % [M GuitarMusicVoiceIV measure 341]                     %! SM4
             \override Beam.positions = #'(6 . 6)                     %! OC
             \override Stem.direction = #up                           %! OC
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 1                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             ef''16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 2                              %! SM35
             fs''16
             -\staccato                                               %! IC
             
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 0
+            \set stemLeftBeamCount = 2                               %! SM35
+            \set stemRightBeamCount = 0                              %! SM35
             f''16
             -\staccato                                               %! IC
-            ]
+            ]                                                        %! SM35
             \revert Beam.positions                                   %! OC
             \revert Stem.direction                                   %! OC
         }

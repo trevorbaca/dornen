@@ -3784,6 +3784,7 @@ L_GuitarMusicVoiceI = {
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \>
             \ffff
             \startTextSpan
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -3827,9 +3828,12 @@ L_GuitarMusicVoiceI = {
             
             % [L GuitarMusicVoiceI measure 284]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \ff
+            \<
             \ff
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3869,9 +3873,12 @@ L_GuitarMusicVoiceI = {
             
             % [L GuitarMusicVoiceI measure 285]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \fff
+            \>
             \fff
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3907,9 +3914,12 @@ L_GuitarMusicVoiceI = {
             
             % [L GuitarMusicVoiceI measure 286]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \f
+            \<
             \f
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3941,9 +3951,12 @@ L_GuitarMusicVoiceI = {
             
             % [L GuitarMusicVoiceI measure 287]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \ff
+            \>
             \ff
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3978,9 +3991,12 @@ L_GuitarMusicVoiceI = {
             
             % [L GuitarMusicVoiceI measure 288]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \mf
+            \<
             \mf
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -4020,9 +4036,12 @@ L_GuitarMusicVoiceI = {
             
             % [L GuitarMusicVoiceI measure 289]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \f
+            \>
             \f
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -4066,9 +4085,12 @@ L_GuitarMusicVoiceI = {
             
             % [L GuitarMusicVoiceI measure 290]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \mp
+            \<
             \mp
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -4116,9 +4138,12 @@ L_GuitarMusicVoiceI = {
             
             % [L GuitarMusicVoiceI measure 291]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \mf
+            \>
             \mf
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -4161,9 +4186,12 @@ L_GuitarMusicVoiceI = {
             
             % [L GuitarMusicVoiceI measure 292]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \p
+            \<
             \p
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -4203,10 +4231,13 @@ L_GuitarMusicVoiceI = {
             
             % [L GuitarMusicVoiceI measure 293]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \mp
             \stopTextSpan
+            \>
             \mp
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -4242,9 +4273,12 @@ L_GuitarMusicVoiceI = {
             
             % [L GuitarMusicVoiceI measure 294]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \pp
+            \<
             \pp
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -4276,9 +4310,12 @@ L_GuitarMusicVoiceI = {
             
             % [L GuitarMusicVoiceI measure 295]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \p
+            \>
             \p
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -4313,9 +4350,12 @@ L_GuitarMusicVoiceI = {
             
             % [L GuitarMusicVoiceI measure 296]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \ppp
+            \<
             \ppp
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -4387,9 +4427,12 @@ L_GuitarMusicVoiceI = {
             \once \override TextSpanner.dash-fraction = 0.25
             \once \override TextSpanner.dash-period = 1.5
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \pp
+            \>
             \pp
             \startTextSpan
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -4434,9 +4477,12 @@ L_GuitarMusicVoiceI = {
             
             % [L GuitarMusicVoiceI measure 298]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \pppp
+            \<
             \pppp
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -4483,9 +4529,12 @@ L_GuitarMusicVoiceI = {
             
             % [L GuitarMusicVoiceI measure 299]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \ppp
+            \>
             \ppp
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -4525,9 +4574,12 @@ L_GuitarMusicVoiceI = {
             
             % [L GuitarMusicVoiceI measure 300]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \ppppp
+            \<
             \ppppp
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -4564,9 +4616,11 @@ L_GuitarMusicVoiceI = {
             % [L GuitarMusicVoiceI measure 301]                      %! SM4
             \once \override Hairpin.circled-tip = ##t
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
+            \pppp
             \>
             \pppp
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP

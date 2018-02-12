@@ -1830,6 +1830,7 @@ i_GuitarMusicVoiceIV = {
             #(x11-color 'DarkViolet)                                 %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
             (“Guitar”)                                               %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
         }                                                            %! ST1:DEFAULT_INSTRUMENT_ALERT:SM11
+    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
     \set GuitarMusicStaff.instrumentName = \markup {                 %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
         \hcenter-in                                                  %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
             #16                                                      %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
@@ -1838,7 +1839,6 @@ i_GuitarMusicVoiceIV = {
     \set GuitarMusicStaff.shortInstrumentName = \markup {            %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
         \null                                                        %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
         }                                                            %! ST1:REDRAWN_DEFAULT_INSTRUMENT:SM8
-    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'violet) %! ST1:REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
     {
         \tweak text #tuplet-number::calc-fraction-text
         \times 3/4 {

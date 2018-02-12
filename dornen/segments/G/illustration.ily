@@ -1209,6 +1209,7 @@ G_GuitarMusicVoiceIV = {
             #(x11-color 'green4)                                     %! REAPPLIED_INSTRUMENT_ALERT:SM11
             (“Guitar”)                                               %! REAPPLIED_INSTRUMENT_ALERT:SM11
         }                                                            %! REAPPLIED_INSTRUMENT_ALERT:SM11
+    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
     \set GuitarMusicStaff.instrumentName = \markup {                 %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
         \hcenter-in                                                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
             #16                                                      %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
@@ -1217,7 +1218,6 @@ G_GuitarMusicVoiceIV = {
     \set GuitarMusicStaff.shortInstrumentName = \markup {            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
         \null                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
         }                                                            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
     {
         \tweak text #tuplet-number::calc-fraction-text
         \tweak edge-height #'(0.7 . 0)

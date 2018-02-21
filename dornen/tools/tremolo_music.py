@@ -590,7 +590,7 @@ def tremolo_music():
             ),
         baca.map(baca.tie(repeat=True), baca.qruns().nontrivial()),
         baca.stem_tremolo(),
-        allow_repeat_pitches=True,
+        allow_repeats=True,
         color_unregistered_pitches=True,
         denominator=11,
         )

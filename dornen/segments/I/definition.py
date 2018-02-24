@@ -248,6 +248,6 @@ maker(
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 18, 21),
+    baca.scope('GuitarMusicVoiceI', (18, 21)),
     baca.hairpin('mp > pp', baca.leaves()),
     )

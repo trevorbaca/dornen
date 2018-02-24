@@ -220,13 +220,13 @@ accumulator.populate_segment_maker(maker)
 ###############################################################################
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 1, 3),
+    baca.scope('GuitarMusicVoiceI', (1, 3)),
     baca.beam_positions(9),
     baca.register(-20, 4),
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 4, 12),
+    baca.scope('GuitarMusicVoiceI', (4, 12)),
     baca.beam_positions(6),
     baca.register(-20, 4),
     )

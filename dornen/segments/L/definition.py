@@ -471,7 +471,7 @@ maker(
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 24, 25),
+    baca.scope('GuitarMusicVoiceI', (24, 25)),
     baca.hairpin('mf < ffff', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -576,7 +576,7 @@ maker(
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 27, 36),
+    baca.scope('GuitarMusicVoiceI', (27, 36)),
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.ponticello(),
@@ -585,7 +585,7 @@ maker(
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 41, 45),
+    baca.scope('GuitarMusicVoiceI', (41, 45)),
     baca.single_segment_transition(
         baca.markup('gradually slow rasgueado'),
         baca.markup.still(),

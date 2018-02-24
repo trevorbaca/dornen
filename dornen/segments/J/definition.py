@@ -302,7 +302,7 @@ maker(
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 22, 25),
+    baca.scope('GuitarMusicVoiceI', (22, 25)),
     baca.hairpin('mf > p', baca.leaves()),
     baca.single_segment_transition(
         baca.markup.trans(),

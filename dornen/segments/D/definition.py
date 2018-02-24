@@ -308,7 +308,7 @@ maker(
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceII', 1, 22),
+    baca.scope('GuitarMusicVoiceII', (1, 22)),
     baca.beam_positions(-5.5),
     baca.register(4),
     )

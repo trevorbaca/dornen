@@ -143,25 +143,25 @@ accumulator.populate_segment_maker(maker)
 
 # glissando scatto
 maker(
-    baca.scope('GuitarMusicVoiceI', 1, 12),
+    baca.scope('GuitarMusicVoiceI', (1, 12)),
     baca.register(-8),
     baca.displacement([0, 1]),
     )
 
 # ovoid
 maker(
-    baca.scope('GuitarMusicVoiceII', 1, 12),
+    baca.scope('GuitarMusicVoiceII', (1, 12)),
     baca.register(-20, 4),
     )
 
 # delicatissimo
 maker(
-    baca.scope('GuitarMusicVoiceIII', 1, 12),
+    baca.scope('GuitarMusicVoiceIII', (1, 12)),
     )
 
 # graced tuplet
 maker(
-    baca.scope('GuitarMusicVoiceIV', 1, 12),
+    baca.scope('GuitarMusicVoiceIV', (1, 12)),
     baca.beam_positions(8),
     baca.register(-18, 6),
     )

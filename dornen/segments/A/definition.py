@@ -184,8 +184,8 @@ accumulator.populate_segment_maker(maker)
 
 #maker(
 #    baca.scope('GuitarMusicVoiceI', (1, 15)),
-#    baca.dynamic_line_spanner_up(),
-#    baca.dynamic_line_spanner_staff_padding(12),
+#    baca.dls_up(),
+#    baca.dls_staff_padding(12),
 #    )
 
 #maker(

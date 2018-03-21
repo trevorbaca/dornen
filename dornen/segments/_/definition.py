@@ -216,6 +216,6 @@ accumulator.populate_segment_maker(maker)
 ###############################################################################
 
 maker(
-    baca.scope('GuitarMusicVoiceIII', (18, 19)),
+    ('GuitarMusicVoiceIII', (18, 19)),
     baca.register(0, -12),
     )

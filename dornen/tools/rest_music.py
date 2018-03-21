@@ -50,7 +50,7 @@ def rest_music(duration=None):
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('MusicVoice', 1),
+        ...     ('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
@@ -162,7 +162,7 @@ def rest_music(duration=None):
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     baca.scope('MusicVoice', 1),
+        ...     ('MusicVoice', 1),
         ...     baca.tools.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),

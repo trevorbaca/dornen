@@ -364,27 +364,27 @@ accumulator.populate_segment_maker(maker)
 ###############################################################################
 
 maker(
-    baca.scope('GuitarMusicVoiceI', (1, 41)),
+    ('GuitarMusicVoiceI', (1, 41)),
     baca.beam_positions(10),
     baca.register(-12),
     baca.tenuti(),
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceII', (1, 41)),
+    ('GuitarMusicVoiceII', (1, 41)),
     baca.beam_positions(-5.5),
     baca.register(4),
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceIII', (1, 41)),
+    ('GuitarMusicVoiceIII', (1, 41)),
     baca.accents(),
     baca.register(-20),
     baca.scripts_down(),
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceIV', (1, 41)),
+    ('GuitarMusicVoiceIV', (1, 41)),
     baca.beam_positions(5.5),
     baca.register(-4),
     baca.staccati(),

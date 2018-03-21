@@ -220,14 +220,14 @@ accumulator.populate_segment_maker(maker)
 ###############################################################################
 
 maker(
-    baca.scope('GuitarMusicVoiceI', (1, -1)),
+    'GuitarMusicVoiceI',
     baca.register(-20),
     baca.stem_tremolo(),
     baca.tie(repeat=True),
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 2),
+    ('GuitarMusicVoiceI', 2),
     baca.hairpin('p < mp', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.tamb_tr(is_new=False),
@@ -237,7 +237,7 @@ maker(
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 4),
+    ('GuitarMusicVoiceI', 4),
     baca.hairpin('mp > p', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -247,7 +247,7 @@ maker(
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 7),
+    ('GuitarMusicVoiceI', 7),
     baca.hairpin('p < mf', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -257,7 +257,7 @@ maker(
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 9),
+    ('GuitarMusicVoiceI', 9),
     baca.hairpin('mf > p', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -267,7 +267,7 @@ maker(
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 12),
+    ('GuitarMusicVoiceI', 12),
     baca.hairpin('p < mp', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -277,7 +277,7 @@ maker(
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 14),
+    ('GuitarMusicVoiceI', 14),
     baca.hairpin('mp > p', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -287,7 +287,7 @@ maker(
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 16),
+    ('GuitarMusicVoiceI', 16),
     baca.hairpin('p < mf', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -297,7 +297,7 @@ maker(
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 18),
+    ('GuitarMusicVoiceI', 18),
     baca.hairpin('mf > p', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -307,7 +307,7 @@ maker(
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 20),
+    ('GuitarMusicVoiceI', 20),
     baca.hairpin('p < f', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -317,7 +317,7 @@ maker(
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', (22, 25)),
+    ('GuitarMusicVoiceI', (22, 25)),
     baca.hairpin('f > mp', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),

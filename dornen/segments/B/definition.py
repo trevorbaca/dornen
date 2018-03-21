@@ -398,7 +398,7 @@ accumulator.populate_segment_maker(maker)
 ###############################################################################
 
 maker(
-    baca.scope('GuitarMusicVoiceI', (9, 24)),
+    ('GuitarMusicVoiceI', (9, 24)),
     baca.register(-12),
     baca.displacement([0, 0, 0, 0, 1, 1, 1, 1]),
     )

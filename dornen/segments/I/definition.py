@@ -203,48 +203,48 @@ accumulator.populate_segment_maker(maker)
 ###############################################################################
 
 maker(
-    baca.scope('GuitarMusicVoiceI', (1, -1)),
+    'GuitarMusicVoiceI',
     baca.register(-20),
     baca.stem_tremolo(),
     baca.tie(repeat=True),
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 2),
+    ('GuitarMusicVoiceI', 2),
     baca.hairpin('ppp < pp', baca.rleaves()),
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 4),
+    ('GuitarMusicVoiceI', 4),
     baca.hairpin('pp > ppp', baca.rleaves()),
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 7),
+    ('GuitarMusicVoiceI', 7),
     baca.hairpin('ppp < p', baca.rleaves()),
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 9),
+    ('GuitarMusicVoiceI', 9),
     baca.hairpin('p > ppp', baca.rleaves()),
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 12),
+    ('GuitarMusicVoiceI', 12),
     baca.hairpin('ppp < pp', baca.rleaves()),
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 14),
+    ('GuitarMusicVoiceI', 14),
     baca.hairpin('pp < p', baca.rleaves()),
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', 16),
+    ('GuitarMusicVoiceI', 16),
     baca.hairpin('p < mp', baca.rleaves()),
     )
 
 maker(
-    baca.scope('GuitarMusicVoiceI', (18, 21)),
+    ('GuitarMusicVoiceI', (18, 21)),
     baca.hairpin('mp > pp', baca.leaves()),
     )

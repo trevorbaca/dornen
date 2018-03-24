@@ -72,12 +72,9 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     ### SPECIAL METHODS ###
 
-    def __call__(self):
+    def __call__(self) -> abjad.Score:
         r'''Calls score template.
-
-        Returns score.
         '''
-
         # GLOBAL CONTEXT
         global_context = self._make_global_context()
 

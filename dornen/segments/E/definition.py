@@ -165,14 +165,11 @@ maker(
     baca.register(-4),
     )
 
-all_voices = [
-    'GuitarMusicVoiceI',
-    #'GuitarMusicVoiceII',
-    'GuitarMusicVoiceIII',
-    'GuitarMusicVoiceIV',
-    ]
-
 maker(
-    baca.make_scopes(all_voices, [(1, 9)]),
+    [
+        ('GuitarMusicVoiceI', (1, 9)),
+        ('GuitarMusicVoiceIII', (1, 9)),
+        ('GuitarMusicVoiceIV', (1, 9)),
+        ],
     dornen.QuartertoneCommand(),
     )

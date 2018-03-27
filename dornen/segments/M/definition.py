@@ -1,6 +1,7 @@
 import abjad
 import baca
 import dornen
+import os
 
 
 ###############################################################################
@@ -351,6 +352,7 @@ maker = baca.SegmentMaker(
     last_segment=True,
     metronome_mark_measure_map=metronome_mark_measure_map,
     measures_per_stage=measures_per_stage,
+    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     skips_instead_of_rests=True,
     spacing=spacing,
     time_signatures=accumulator.time_signatures,

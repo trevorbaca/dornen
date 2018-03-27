@@ -70,6 +70,17 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     __documentation_section__ = None
 
+    ### INITIALIZER ###
+
+    def __init__(self):
+        super(ScoreTemplate, self).__init__()
+        self.voice_abbreviations.update({
+            'v1': 'GuitarMusicVoiceI',
+            'v2': 'GuitarMusicVoiceII',
+            'v3': 'GuitarMusicVoiceIII',
+            'v4': 'GuitarMusicVoiceIV',
+            })
+
     ### SPECIAL METHODS ###
 
     def __call__(self) -> abjad.Score:
@@ -131,3 +142,25 @@ class ScoreTemplate(baca.ScoreTemplate):
         self._assert_unique_context_names(score)
         self._assert_matching_custom_context_names(score)
         return score
+
+    ### PUBLIC PROPERTIES ###
+
+    @property
+    def voice_abbreviations(self):
+        r'''Gets voice abbreviations.
+
+        ..  container:: example
+
+            >>> score_template = dornen.ScoreTemplate()
+            >>> abjad.f(score_template.voice_abbreviations)
+            abjad.OrderedDict(
+                [
+                    ('v1', 'GuitarMusicVoiceI'),
+                    ('v2', 'GuitarMusicVoiceII'),
+                    ('v3', 'GuitarMusicVoiceIII'),
+                    ('v4', 'GuitarMusicVoiceIV'),
+                    ]
+                )
+
+        '''
+        return super(ScoreTemplate, self).voice_abbreviations

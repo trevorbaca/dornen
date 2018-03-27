@@ -15,7 +15,7 @@ assert len(design) == 14
 ### 1 ###
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[:1],
     accumulator.forty_eighth_music_maker,
     baca.markup(
@@ -25,20 +25,20 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     design[1:2],
     accumulator.twentieth_music_maker,
     extend_beam=True,
     )
 
 accumulator(
-    'GuitarMusicVoiceIII',
+    'v3',
     design[2:3],
     accumulator.sixteenth_music_maker,
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     design[3:4],
     accumulator.twentieth_music_maker,
     baca.beam_positions(6),
@@ -46,20 +46,20 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceII',
+    'v2',
     design[4:5],
     accumulator.thirty_second_music_maker,
     baca.slur(),
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[5:6],
     accumulator.forty_eighth_music_maker,
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['C4']],
     accumulator.thirty_second_music_maker,
     logical_tie_masks=abjad.silence([0], 1),
@@ -68,7 +68,7 @@ accumulator(
 ### 2 ###
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[:1],
     accumulator.forty_eighth_music_maker,
     baca.markup('RH reaches for screw ...'),
@@ -76,20 +76,20 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     design[1:2],
     accumulator.twentieth_music_maker,
     extend_beam=True,
     )
 
 accumulator(
-    'GuitarMusicVoiceIII',
+    'v3',
     design[2:3],
     accumulator.sixteenth_music_maker,
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     design[3:4],
     accumulator.twentieth_music_maker,
     baca.beam_positions(6),
@@ -97,20 +97,20 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceII',
+    'v2',
     design[4:5],
     accumulator.thirty_second_music_maker,
     baca.slur(),
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[5:6],
     accumulator.forty_eighth_music_maker,
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['C4']],
     accumulator.thirty_second_music_maker,
     logical_tie_masks=abjad.silence([0], 1),
@@ -119,7 +119,7 @@ accumulator(
 ### 3 ###
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[:1],
     accumulator.forty_eighth_music_maker,
     baca.markup('RH places screw on string ...'),
@@ -127,20 +127,20 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     design[1:2],
     accumulator.twentieth_music_maker,
     extend_beam=True,
     )
 
 accumulator(
-    'GuitarMusicVoiceIII',
+    'v3',
     design[2:3],
     accumulator.sixteenth_music_maker,
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     design[3:4],
     accumulator.twentieth_music_maker,
     baca.beam_positions(6),
@@ -148,20 +148,20 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceII',
+    'v2',
     design[4:5],
     accumulator.thirty_second_music_maker,
     baca.slur(),
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[5:6],
     accumulator.forty_eighth_music_maker,
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['C4']],
     accumulator.thirty_second_music_maker,
     logical_tie_masks=abjad.silence([0], 1),
@@ -170,27 +170,27 @@ accumulator(
 ### 4 ###
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[:1],
     accumulator.forty_eighth_music_maker,
     extend_beam=True,
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     design[1:2],
     accumulator.twentieth_music_maker,
     extend_beam=True,
     )
 
 accumulator(
-    'GuitarMusicVoiceIII',
+    'v3',
     design[2:3],
     accumulator.sixteenth_music_maker,
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     design[3:4],
     accumulator.twentieth_music_maker,
     baca.beam_positions(6),
@@ -198,20 +198,20 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceII',
+    'v2',
     design[4:5],
     accumulator.thirty_second_music_maker,
     baca.slur(),
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[5:6],
     accumulator.forty_eighth_music_maker,
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['C4']],
     accumulator.thirty_second_music_maker,
     logical_tie_masks=abjad.silence([0], 1),
@@ -220,27 +220,27 @@ accumulator(
 ### 5 ###
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[:1],
     accumulator.forty_eighth_music_maker,
     extend_beam=True,
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     design[1:2],
     accumulator.twentieth_music_maker,
     extend_beam=True,
     )
 
 accumulator(
-    'GuitarMusicVoiceIII',
+    'v3',
     design[2:3],
     accumulator.sixteenth_music_maker,
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     design[3:4],
     accumulator.twentieth_music_maker,
     baca.beam_positions(6),
@@ -248,20 +248,20 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceII',
+    'v2',
     design[4:5],
     accumulator.thirty_second_music_maker,
     baca.slur(),
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[5:6],
     accumulator.forty_eighth_music_maker,
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['C4']],
     accumulator.thirty_second_music_maker,
     logical_tie_masks=abjad.silence([0], 1),
@@ -270,26 +270,26 @@ accumulator(
 ### 6 ###
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[:1],
     accumulator.forty_eighth_music_maker,
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     design[1:2],
     accumulator.twentieth_music_maker,
     extend_beam=True,
     )
 
 accumulator(
-    'GuitarMusicVoiceIII',
+    'v3',
     design[2:3],
     accumulator.sixteenth_music_maker,
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     design[3:4],
     accumulator.twentieth_music_maker,
     baca.beam_positions(6),
@@ -297,7 +297,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceII',
+    'v2',
     design[4:5],
     accumulator.thirty_second_music_maker,
     baca.slur(),
@@ -306,14 +306,14 @@ accumulator(
 ### rascado ###
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [5 * ['C4']],
     accumulator.rest_music_maker,
     logical_tie_masks=abjad.silence([0], 1),
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [13 * ['E2']],
     accumulator.third_music_maker,
     baca.dynamic('p'),
@@ -366,27 +366,27 @@ accumulator.populate_segment_maker(maker)
 ###############################################################################
 
 maker(
-    ('GuitarMusicVoiceI', (1, 41)),
+    ('v1', (1, 41)),
     baca.beam_positions(10),
     baca.register(-12),
     baca.tenuti(),
     )
 
 maker(
-    ('GuitarMusicVoiceII', (1, 41)),
+    ('v2', (1, 41)),
     baca.beam_positions(-5.5),
     baca.register(4),
     )
 
 maker(
-    ('GuitarMusicVoiceIII', (1, 41)),
+    ('v3', (1, 41)),
     baca.accents(),
     baca.register(-20),
     baca.scripts_down(),
     )
 
 maker(
-    ('GuitarMusicVoiceIV', (1, 41)),
+    ('v4', (1, 41)),
     baca.beam_positions(5.5),
     baca.register(-4),
     baca.staccati(),

@@ -19,7 +19,7 @@ def delicatissimo_music():
         ...     [[10, 7, 9, 8, 0, 5]],
         ...     ]
 
-        >>> voice_name = 'GuitarMusicVoiceI'
+        >>> voice_name = 'v1'
         >>> music_maker = dornen.delicatissimo_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -216,7 +216,7 @@ def delicatissimo_music():
         ([6, 2, 3, 5, 9, 8, 0], [11], [10, 7, 9, 8, 0, 5])
         ([11], [10, 7, 9, 8, 0, 5], [4])
 
-        >>> voice_name = 'GuitarMusicVoiceI'
+        >>> voice_name = 'v1'
         >>> music_maker = dornen.delicatissimo_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:

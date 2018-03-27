@@ -30,7 +30,7 @@ def monad_music():
         Sequence([Sequence([3]), Sequence([9]), Sequence([8])])
         Sequence([Sequence([6]), Sequence([11]), Sequence([2]), Sequence([5])])
 
-        >>> voice_name = 'GuitarMusicVoiceI'
+        >>> voice_name = 'v1'
         >>> music_maker = dornen.monad_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -234,7 +234,7 @@ def monad_music():
         Sequence([Sequence([3]), Sequence([9, 8])])
         Sequence([Sequence([6]), Sequence([11, 2]), Sequence([5])])
 
-        >>> voice_name = 'GuitarMusicVoiceI'
+        >>> voice_name = 'v1'
         >>> music_maker = dornen.monad_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:

@@ -12,7 +12,7 @@ class MusicAccumulator(baca.MusicAccumulator):
         >>> accumulator = dornen.MusicAccumulator(score_template)
         >>> segments = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
         >>> accumulator(
-        ...     'GuitarMusicVoiceI',
+        ...     'v1',
         ...     segments,
         ...     accumulator.delicatissimo_music_maker,
         ...     figure_name='D',
@@ -214,6 +214,10 @@ class MusicAccumulator(baca.MusicAccumulator):
             'tuplet_denominator': tuplet_denominator,
             }
         keywords['figure_index'] = self._figure_index
+        voice_name = self.score_template.voice_abbreviations.get(
+            voice_name,
+            voice_name,
+            )
         return superclass.__call__(
             music_maker(
                 voice_name,

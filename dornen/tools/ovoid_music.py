@@ -36,7 +36,7 @@ def ovoid_music():
         ([4, 3, 9, 8], [6, 11, 2, 5])
         ([6, 11, 2, 5], [8])
 
-        >>> voice_name = 'GuitarMusicVoiceI'
+        >>> voice_name = 'v1'
         >>> music_maker = dornen.ovoid_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:

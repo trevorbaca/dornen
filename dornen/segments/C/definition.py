@@ -13,21 +13,21 @@ design = dornen.design_3(stop=10)
 assert len(design) == 10
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[:2],
     accumulator.wave_32_music_maker,
     figure_name='W1',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[:2],
     accumulator.wave_64_music_maker,
     figure_name='W2',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     accumulator.merge(design[:2]),
     accumulator.wave_64_music_maker,
     figure_name='W3',
@@ -35,7 +35,7 @@ accumulator(
 
 
 accumulator(
-    'GuitarMusicVoiceII',
+    'v2',
     design[2:3],
     accumulator.glissando_scatto_music_maker,
     baca.markup('glissando: attack first note only'),
@@ -47,7 +47,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[3:6],
     accumulator.inverted_wave_32_music_maker,
     baca.register(-8),
@@ -55,7 +55,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceIII',
+    'v3',
     design[6:9],
     accumulator.running_music_maker,
     baca.register(0, -14),
@@ -64,7 +64,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceIII',
+    'v3',
     design[7:10],
     accumulator.running_music_maker,
     baca.register(-14, 0),
@@ -73,7 +73,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     [3 * ['C4']],
     accumulator.rest_music_maker,
     logical_tie_masks=abjad.silence([0], 1),
@@ -81,7 +81,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     2 * [['Gb2']],
     accumulator.monad_music_maker,
     baca.markup.boxed('2-finger tamb. trill'),
@@ -96,7 +96,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceIII',
+    'v3',
     design[8:] + design[:1],
     accumulator.running_music_maker,
     baca.register(-14, 0),
@@ -104,7 +104,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[1:3],
     accumulator.wave_32_music_maker,
     baca.register(-20),
@@ -112,7 +112,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceII',
+    'v2',
     design[3:4],
     accumulator.glissando_scatto_music_maker,
     baca.register(-8),
@@ -122,7 +122,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[1:4],
     accumulator.wave_32_music_maker,
     baca.register(-20, -4),
@@ -130,7 +130,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceII',
+    'v2',
     design[4:5],
     accumulator.glissando_scatto_music_maker,
     baca.register(-8),
@@ -139,7 +139,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceIII',
+    'v3',
     design[5:8],
     accumulator.running_music_maker,
     baca.register(0, -14),
@@ -148,7 +148,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceIII',
+    'v3',
     design[6:9],
     accumulator.running_music_maker,
     baca.register(-14, 0),
@@ -157,7 +157,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     [3 * ['C4']],
     accumulator.rest_music_maker,
     figure_name='S2',
@@ -165,7 +165,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     2 * [['Gb2']],
     accumulator.monad_music_maker,
     baca.markup.boxed('2-finger tamb. trill'),
@@ -180,7 +180,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceIII',
+    'v3',
     design[7:10],
     accumulator.running_music_maker,
     baca.register(-14, 0),
@@ -219,13 +219,13 @@ accumulator.populate_segment_maker(maker)
 ###############################################################################
 
 maker(
-    ('GuitarMusicVoiceI', (1, 3)),
+    ('v1', (1, 3)),
     baca.beam_positions(9),
     baca.register(-20, 4),
     )
 
 maker(
-    ('GuitarMusicVoiceI', (4, 12)),
+    ('v1', (4, 12)),
     baca.beam_positions(6),
     baca.register(-20, 4),
     )

@@ -30,7 +30,7 @@ def rest_music(duration=None):
         ([None, None],)
         ([None, None, None],)
 
-        >>> voice_name = 'GuitarMusicVoiceI'
+        >>> voice_name = 'v1'
         >>> music_maker = dornen.rest_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -142,7 +142,7 @@ def rest_music(duration=None):
         ([None], [None, None], [None, None, None])
         ([None, None], [None, None, None], [None])
 
-        >>> voice_name = 'GuitarMusicVoiceI'
+        >>> voice_name = 'v1'
         >>> music_maker = dornen.rest_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:

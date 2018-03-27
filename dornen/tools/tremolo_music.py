@@ -19,7 +19,7 @@ def tremolo_music():
         ...     [[4, 4, 4, 4, 4, 4]],
         ...     ]
 
-        >>> voice_name = 'GuitarMusicVoiceI'
+        >>> voice_name = 'v1'
         >>> music_maker = dornen.tremolo_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:
@@ -244,7 +244,7 @@ def tremolo_music():
         ([4], [4, 4, 4, 4, 4, 4], [4])
 
 
-        >>> voice_name = 'GuitarMusicVoiceI'
+        >>> voice_name = 'v1'
         >>> music_maker = dornen.tremolo_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:

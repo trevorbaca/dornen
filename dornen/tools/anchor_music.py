@@ -19,7 +19,7 @@ def anchor_music():
         ...     [[10, 7, 9, 8, 0, 5]],
         ...     ]
 
-        >>> voice_name = 'GuitarMusicVoiceI'
+        >>> voice_name = 'v1'
         >>> music_maker = dornen.anchor_music()
         >>> figures, time_signatures = [], []
         >>> for segments in segment_lists:

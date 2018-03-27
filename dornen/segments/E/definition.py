@@ -13,7 +13,7 @@ design = dornen.design_3(start=10, stop=30)
 assert len(design) == 20
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[:1],
     accumulator.forty_eighth_music_maker,
     baca.tenuti(),
@@ -24,7 +24,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceIII',
+    'v3',
     design[1:2],
     accumulator.sixteenth_music_maker,
     extend_beam=True,
@@ -32,7 +32,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[2:5],
     accumulator.running_music_maker,
     baca.register(-14, 0),
@@ -41,14 +41,14 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     design[5:6],
     accumulator.twentieth_music_maker,
     figure_name='20_1',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     design[6:7],
     accumulator.forty_eighth_music_maker,
     baca.tenuti(),
@@ -57,21 +57,21 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceIII',
+    'v3',
     design[7:8],
     accumulator.sixteenth_music_maker,
     figure_name='16_2',
     )
 
 accumulator(
-    'GuitarMusicVoiceIV',
+    'v4',
     design[8:9],
     accumulator.twentieth_music_maker,
     figure_name='20_2',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [3 * ['C4']],
     accumulator.rest_music_maker,
     baca.markup(
@@ -83,7 +83,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     10 * accumulator.reveal(design[9:10], 3),
     accumulator.sixty_fourth_music_maker,
     baca.register(0),
@@ -91,7 +91,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     10 * accumulator.reveal(design[9:10], 4),
     accumulator.sixty_fourth_music_maker,
     baca.register(0),
@@ -99,7 +99,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     10 * accumulator.reveal(design[9:10], 5),
     accumulator.sixty_fourth_music_maker,
     baca.register(0),
@@ -107,7 +107,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     10 * accumulator.reveal(design[9:10], 6),
     accumulator.sixty_fourth_music_maker,
     baca.register(0),
@@ -115,7 +115,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     accumulator.boustrophedon(design[9:10], 4),
     accumulator.sixty_fourth_music_maker,
     baca.register(0),
@@ -154,14 +154,14 @@ accumulator.populate_segment_maker(maker)
 ###############################################################################
 
 maker(
-    ('GuitarMusicVoiceIII', (1, 7)),
+    ('v3', (1, 7)),
     baca.accents(),
     baca.scripts_down(),
     baca.register(-20),
     )
 
 maker(
-    ('GuitarMusicVoiceIV', (1, 7)),
+    ('v4', (1, 7)),
     baca.staccati(),
     baca.beam_positions(5.5),
     baca.register(-4),
@@ -169,9 +169,9 @@ maker(
 
 maker(
     [
-        ('GuitarMusicVoiceI', (1, 9)),
-        ('GuitarMusicVoiceIII', (1, 9)),
-        ('GuitarMusicVoiceIV', (1, 9)),
+        ('v1', (1, 9)),
+        ('v3', (1, 9)),
+        ('v4', (1, 9)),
         ],
     dornen.QuartertoneCommand(),
     )

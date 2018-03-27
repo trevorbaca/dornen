@@ -11,42 +11,42 @@ import os
 accumulator = dornen.MusicAccumulator(dornen.ScoreTemplate())
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.monad_music_maker,
     figure_name='2_1',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.monad_music_maker,
     figure_name='2_2',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.third_music_maker,
     figure_name='2_3',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.third_music_maker,
     figure_name='2_4',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.third_music_maker,
     figure_name='2_5',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.monad_music_maker,
     baca.markup.boxed('3 fingers'),
@@ -54,28 +54,28 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.monad_music_maker,
     figure_name='3_2',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.third_music_maker,
     figure_name='3_3',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.third_music_maker,
     figure_name='3_4',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.third_music_maker,
     figure_name='3_5',
@@ -84,7 +84,7 @@ accumulator(
 ###
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.monad_music_maker,
     baca.markup.boxed('4 fingers'),
@@ -92,91 +92,91 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.monad_music_maker,
     figure_name='4_2',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.third_music_maker,
     figure_name='4_3',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.third_music_maker,
     figure_name='4_4',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.third_music_maker,
     figure_name='4_5',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.monad_music_maker,
     figure_name='4_6',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.third_music_maker,
     figure_name='4_7',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.third_music_maker,
     figure_name='4_8',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.third_music_maker,
     figure_name='4_9',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.monad_music_maker,
     figure_name='4_10',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.third_music_maker,
     figure_name='4_11',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.third_music_maker,
     figure_name='4_12',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [['F2']],
     accumulator.third_music_maker,
     figure_name='4_13',
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [2 * ['F2']],
     accumulator.monad_music_maker,
     baca.markup.boxed('3 fingers'),
@@ -184,7 +184,7 @@ accumulator(
     )
 
 accumulator(
-    'GuitarMusicVoiceI',
+    'v1',
     [2 * ['F2']],
     accumulator.monad_music_maker,
     baca.markup.boxed('2 fingers'),
@@ -222,14 +222,14 @@ accumulator.populate_segment_maker(maker)
 ###############################################################################
 
 maker(
-    'GuitarMusicVoiceI',
+    'v1',
     baca.register(-20),
     baca.stem_tremolo(),
     baca.tie(repeat=True),
     )
 
 maker(
-    ('GuitarMusicVoiceI', 2),
+    ('v1', 2),
     baca.hairpin('p < mp', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.tamb_tr(is_new=False),
@@ -239,7 +239,7 @@ maker(
     )
 
 maker(
-    ('GuitarMusicVoiceI', 4),
+    ('v1', 4),
     baca.hairpin('mp > p', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -249,7 +249,7 @@ maker(
     )
 
 maker(
-    ('GuitarMusicVoiceI', 7),
+    ('v1', 7),
     baca.hairpin('p < mf', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -259,7 +259,7 @@ maker(
     )
 
 maker(
-    ('GuitarMusicVoiceI', 9),
+    ('v1', 9),
     baca.hairpin('mf > p', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -269,7 +269,7 @@ maker(
     )
 
 maker(
-    ('GuitarMusicVoiceI', 12),
+    ('v1', 12),
     baca.hairpin('p < mp', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -279,7 +279,7 @@ maker(
     )
 
 maker(
-    ('GuitarMusicVoiceI', 14),
+    ('v1', 14),
     baca.hairpin('mp > p', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -289,7 +289,7 @@ maker(
     )
 
 maker(
-    ('GuitarMusicVoiceI', 16),
+    ('v1', 16),
     baca.hairpin('p < mf', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -299,7 +299,7 @@ maker(
     )
 
 maker(
-    ('GuitarMusicVoiceI', 18),
+    ('v1', 18),
     baca.hairpin('mf > p', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -309,7 +309,7 @@ maker(
     )
 
 maker(
-    ('GuitarMusicVoiceI', 20),
+    ('v1', 20),
     baca.hairpin('p < f', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -319,7 +319,7 @@ maker(
     )
 
 maker(
-    ('GuitarMusicVoiceI', (22, 25)),
+    ('v1', (22, 25)),
     baca.hairpin('f > mp', baca.rleaves()),
     baca.single_segment_transition(
         baca.markup.trans(),

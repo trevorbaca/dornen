@@ -110,7 +110,6 @@ accumulator(
     'v2',
     design[10:11],
     accumulator.twenty_fourth_music_maker,
-    baca.proportional_notation_duration((1, 48)),
     extend_beam=True,
     figure_name='24_1',
     )
@@ -235,14 +234,12 @@ maker(
 maker(
     ('v2', (1, 10)),
     baca.beam_positions(-7),
-    baca.proportional_notation_duration((1, 32)),
     lower_register,
     )
 
 maker(
     ('v2', (11, 22)),
     baca.beam_positions(-7),
-    baca.proportional_notation_duration((1, 48)),
     lower_register,
     )
 

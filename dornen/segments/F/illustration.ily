@@ -1238,7 +1238,6 @@ F_GuitarMusicVoiceII = {
     
     % [F GuitarMusicVoiceII measure 133]                             %! SM4
     \override Beam.positions = #'(-7 . -7)                           %! OC1
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
     s1 * 3/20
     {
         \scaleDurations #'(1 . 1) {
@@ -1424,7 +1423,6 @@ F_GuitarMusicVoiceII = {
             \override Beam.positions = #'(-7 . -7)                   %! OC1
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 2                              %! SM35
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
             ef'16
             [                                                        %! SM35
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP

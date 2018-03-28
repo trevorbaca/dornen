@@ -1695,7 +1695,6 @@ A_GuitarMusicVoiceII = {
             \once \override Beam.positions = #'(-8 . -8)             %! OC1
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 2                              %! SM35
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
             ef'''16
             [                                                        %! SM35
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1907,7 +1906,6 @@ A_GuitarMusicVoiceII = {
             % [A GuitarMusicVoiceII measure 31]                      %! SM4
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 2                              %! SM35
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
             ef'''16
             [                                                        %! SM35
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP

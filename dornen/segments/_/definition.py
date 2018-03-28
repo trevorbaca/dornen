@@ -186,10 +186,6 @@ accumulator(
     figure_name=19,
     )
 
-###############################################################################
-################################ SEGMENT-MAKER ################################
-###############################################################################
-
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
     (1, dornen.metronome_marks['44']),
     ])
@@ -204,6 +200,7 @@ measures_per_stage = len(accumulator.time_signatures) * [1]
 maker = baca.SegmentMaker(
     measures_per_stage=measures_per_stage,
     metronome_mark_measure_map=metronome_mark_measure_map,
+    metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     skips_instead_of_rests=True,
     spacing=spacing,
@@ -213,11 +210,12 @@ maker = baca.SegmentMaker(
 
 accumulator.populate_segment_maker(maker)
 
-###############################################################################
-############################# CROSS-STAGE COMMANDS ############################
-###############################################################################
-
 maker(
     ('v3', (18, 19)),
     baca.register(0, -12),
+    )
+
+maker(
+    'v1',
+    baca.start_markup('GUITAR', hcenter_in=14),
     )

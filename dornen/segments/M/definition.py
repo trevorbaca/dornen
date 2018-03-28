@@ -328,13 +328,6 @@ accumulator(
     baca.tie(repeat=True),
     )
 
-###############################################################################
-################################ SEGMENT-MAKER ################################
-###############################################################################
-
-metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    ])
-
 spacing = baca.HorizontalSpacingSpecifier(
     fermata_measure_width=(1, 4),
     minimum_width=(1, 24),
@@ -350,7 +343,7 @@ maker = baca.SegmentMaker(
     final_markup_extra_offset=(124, 0),
     ignore_repeat_pitch_classes=False,
     last_segment=True,
-    metronome_mark_measure_map=metronome_mark_measure_map,
+    metronome_mark_stem_height=1.5,
     measures_per_stage=measures_per_stage,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     skips_instead_of_rests=True,
@@ -360,10 +353,6 @@ maker = baca.SegmentMaker(
     )
 
 accumulator.populate_segment_maker(maker)
-
-###############################################################################
-############################# CROSS-STAGE COMMANDS ############################
-###############################################################################
 
 maker(
     ('v1', (1, 41)),

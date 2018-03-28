@@ -3361,7 +3361,6 @@ B_GuitarMusicVoiceIV = {
             \once \override Stem.direction = #up                     %! OC1
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 2                              %! SM35
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 42)
             f''16
             [                                                        %! SM35
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -3400,7 +3399,6 @@ B_GuitarMusicVoiceIV = {
             \once \override Stem.direction = #up                     %! OC1
             \set stemLeftBeamCount = 2                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 42)
             f''16
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3534,7 +3532,6 @@ B_GuitarMusicVoiceIV = {
             \once \override Stem.direction = #up                     %! OC1
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 2                              %! SM35
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 42)
             f''16
             [                                                        %! SM35
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP

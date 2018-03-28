@@ -1925,7 +1925,6 @@ M_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [M GuitarMusicVoiceI measure 344]                      %! SM4
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
             e2
             :32                                                      %! IC

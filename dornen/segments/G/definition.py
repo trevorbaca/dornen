@@ -109,10 +109,6 @@ accumulator(
     figure_name='L3',
     )
 
-###############################################################################
-################################ SEGMENT-MAKER ################################
-###############################################################################
-
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
     (1, dornen.metronome_marks['66']),
     ])
@@ -128,6 +124,7 @@ maker = baca.SegmentMaker(
     instruments=dornen.instruments,
     measures_per_stage=measures_per_stage,
     metronome_mark_measure_map=metronome_mark_measure_map,
+    metronome_mark_stem_height=1.5,
     metronome_marks=dornen.metronome_marks,
     score_template=dornen.ScoreTemplate(),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -138,10 +135,6 @@ maker = baca.SegmentMaker(
     )
 
 accumulator.populate_segment_maker(maker)
-
-###############################################################################
-############################# CROSS-STAGE COMMANDS ############################
-###############################################################################
 
 # glissando scatto
 maker(

@@ -13,7 +13,7 @@ K_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:REAPPLIED_METRONOME_MARK:SM36
 %@%                 #3                                                   %! SM27:REAPPLIED_METRONOME_MARK:SM36
 %@%                 #0                                                   %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%                 #1                                                   %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%                 #1.5                                                 %! SM27:REAPPLIED_METRONOME_MARK:SM36
 %@%     \upright                                                         %! SM27:REAPPLIED_METRONOME_MARK:SM36
 %@%         {                                                            %! SM27:REAPPLIED_METRONOME_MARK:SM36
 %@%             =                                                        %! SM27:REAPPLIED_METRONOME_MARK:SM36
@@ -38,7 +38,7 @@ K_GlobalSkips = {
                         \note-by-number                                  %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
                             #3                                           %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
                             #0                                           %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                            #1                                           %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                            #1.5                                         %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
                 \upright                                                 %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
                     {                                                    %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
                         =                                                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
@@ -2426,30 +2426,12 @@ K_GuitarMusicVoiceIII = {
 K_GuitarMusicVoiceIV = {
     
     % [K GuitarMusicVoiceIV measure 232]                             %! SM4
-    \set GuitarMusicStaff.instrumentName = \markup {                 %! SM8:REAPPLIED_INSTRUMENT:SM37
-        \hcenter-in                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
-            #16                                                      %! SM8:REAPPLIED_INSTRUMENT:SM37
-            Guitar                                                   %! SM8:REAPPLIED_INSTRUMENT:SM37
-        }                                                            %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set GuitarMusicStaff.shortInstrumentName = \markup {            %! SM8:REAPPLIED_INSTRUMENT:SM37
-        \null                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-        }                                                            %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
     s1 * 2/5
     ^ \markup {                                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Guitar”)                                               %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set GuitarMusicStaff.instrumentName = \markup {                 %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-        \hcenter-in                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            #16                                                      %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            Guitar                                                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-        }                                                            %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set GuitarMusicStaff.shortInstrumentName = \markup {            %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-        \null                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-        }                                                            %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
     % [K GuitarMusicVoiceIV measure 233]                             %! SM4
     s1 * 2/5

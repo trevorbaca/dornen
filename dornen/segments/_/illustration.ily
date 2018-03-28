@@ -13,7 +13,7 @@ i_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%                 #3                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
@@ -38,7 +38,7 @@ i_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                             #3                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
@@ -783,6 +783,12 @@ i_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [_ GuitarMusicVoiceI measure 1]                        %! SM4
+            \set Staff.instrumentName =                              %! IC:STMK:-PARTS
+            \markup {                                                %! IC:STMK:-PARTS
+                \hcenter-in                                          %! IC:STMK:-PARTS
+                    #14                                              %! IC:STMK:-PARTS
+                    GUITAR                                           %! IC:STMK:-PARTS
+                }                                                    %! IC:STMK:-PARTS
             \once \override Beam.positions = #'(6 . 6)               %! OC1
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
@@ -1546,30 +1552,12 @@ i_GuitarMusicVoiceIII = {
 i_GuitarMusicVoiceIV = {
     
     % [_ GuitarMusicVoiceIV measure 1]                               %! SM4
-    \set GuitarMusicStaff.instrumentName = \markup {                 %! SM8:DEFAULT_INSTRUMENT:ST1
-        \hcenter-in                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
-            #16                                                      %! SM8:DEFAULT_INSTRUMENT:ST1
-            Guitar                                                   %! SM8:DEFAULT_INSTRUMENT:ST1
-        }                                                            %! SM8:DEFAULT_INSTRUMENT:ST1
-    \set GuitarMusicStaff.shortInstrumentName = \markup {            %! SM8:DEFAULT_INSTRUMENT:ST1
-        \null                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
-        }                                                            %! SM8:DEFAULT_INSTRUMENT:ST1
-    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_INSTRUMENT_COLOR:ST1
     s1 * 5/4
     ^ \markup {                                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         \with-color                                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             #(x11-color 'DarkViolet)                                 %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             (“Guitar”)                                               %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         }                                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'violet) %! SM6:REDRAWN_DEFAULT_INSTRUMENT_COLOR:ST1
-    \set GuitarMusicStaff.instrumentName = \markup {                 %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-        \hcenter-in                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-            #16                                                      %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-            Guitar                                                   %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-        }                                                            %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-    \set GuitarMusicStaff.shortInstrumentName = \markup {            %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-        \null                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-        }                                                            %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
     {
         \tweak text #tuplet-number::calc-fraction-text
         \times 3/4 {

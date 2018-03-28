@@ -192,11 +192,8 @@ spacing = baca.HorizontalSpacingSpecifier(
     minimum_width=(1, 24),
     )
 
-measures_per_stage = len(accumulator.time_signatures) * [1]
-
 maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
-    measures_per_stage=measures_per_stage,
     metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     skips_instead_of_rests=True,

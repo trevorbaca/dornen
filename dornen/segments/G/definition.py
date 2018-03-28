@@ -118,11 +118,8 @@ spacing = baca.HorizontalSpacingSpecifier(
     minimum_width=(1, 24),
     )
 
-measures_per_stage = len(accumulator.time_signatures) * [1]
-
 maker = baca.SegmentMaker(
     instruments=dornen.instruments,
-    measures_per_stage=measures_per_stage,
     metronome_mark_measure_map=metronome_mark_measure_map,
     metronome_mark_stem_height=1.5,
     metronome_marks=dornen.metronome_marks,

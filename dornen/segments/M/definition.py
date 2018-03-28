@@ -333,8 +333,6 @@ spacing = baca.HorizontalSpacingSpecifier(
     minimum_width=(1, 24),
     )
 
-measures_per_stage = len(accumulator.time_signatures) * [1]
-
 maker = baca.SegmentMaker(
     final_markup=(
         ['Cambridge, MA', 'Madison, WI', 'Palo Alto, CA.'],
@@ -344,7 +342,6 @@ maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=False,
     last_segment=True,
     metronome_mark_stem_height=1.5,
-    measures_per_stage=measures_per_stage,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     skips_instead_of_rests=True,
     spacing=spacing,

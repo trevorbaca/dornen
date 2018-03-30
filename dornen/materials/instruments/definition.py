@@ -5,11 +5,6 @@ import baca
 instruments = abjad.OrderedDict([
     (
         'Guitar',
-        abjad.Guitar(
-            hide=True,
-            markup=baca.markup.instrument('Guitar'),
-            pitch_range='[E2, F5]',
-            short_markup=abjad.Markup.null(),
-            ),
+        abjad.Guitar(hide=True, pitch_range='[E2, F5]'),
         ),
     ])

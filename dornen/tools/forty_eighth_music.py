@@ -37,7 +37,7 @@ def forty_eighth_music():
         ...     ignore_unregistered_pitches=True,
         ...     score_template=baca.tools.SingleStaffScoreTemplate(),
         ...     spacing=baca.tools.HorizontalSpacingSpecifier(
-        ...         minimum_width=(1, 24),
+        ...         minimum_duration=(1, 24),
         ...         ),
         ...     time_signatures=time_signatures,
         ...     )

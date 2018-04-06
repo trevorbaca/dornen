@@ -194,7 +194,7 @@ accumulator(
     )
 
 spacing = baca.HorizontalSpacingSpecifier(
-    minimum_width=(1, 12),
+    minimum_duration=(1, 12),
     )
 
 maker = baca.SegmentMaker(

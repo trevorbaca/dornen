@@ -191,7 +191,6 @@ metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
     ])
 
 spacing = baca.HorizontalSpacingSpecifier(
-    fermata_measure_width=(1, 4),
     minimum_width=(1, 24),
     )
 

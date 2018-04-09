@@ -1846,7 +1846,7 @@ L_GuitarMusicVoiceI = {
                     {
                         \whiteout
                             \upright
-                                "(tamb. tr.)"
+                                "tamb. tr."
                         \hspace
                             #0.5
                     }

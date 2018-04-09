@@ -363,7 +363,7 @@ maker(
     ('v1', 2),
     baca.hairpin('mp < mf', baca.rleaves()),
     baca.single_segment_transition(
-        baca.markup.tamb_tr(is_new=False),
+        baca.markup.tamb_tr(),
         baca.markup.kn_rasg(),
         baca.rleaves().group(),
         ),

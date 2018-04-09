@@ -1038,10 +1038,10 @@ K_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [K GuitarMusicVoiceI measure 233]                      %! SM4
-            \once \override TextSpanner.Y-extent = ##f               %! PCW1
-            \once \override TextSpanner.arrow-width = 0.25           %! PCW1
-            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+            \once \override TextSpanner.Y-extent = ##f               %! PWC1
+            \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.left.text = \markup {
                 \concat
                     {
@@ -1051,13 +1051,13 @@ K_GuitarMusicVoiceI = {
                         \hspace
                             #0.5
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.right.text = \markup {
                 \concat
                     {
@@ -1067,16 +1067,16 @@ K_GuitarMusicVoiceI = {
                             \upright
                                 "kn. rasg."
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
-            \once \override TextSpanner.dash-period = 1.5            %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+            \once \override TextSpanner.dash-period = 1.5            %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \<                                                       %! HC1
             \p                                                       %! HC1
-            \startTextSpan                                           %! PCW1
+            \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1111,7 +1111,7 @@ K_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \mp                                                      %! HC1
-            \stopTextSpan                                            %! PCW1
+            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1141,10 +1141,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 235]                      %! SM4
-            \once \override TextSpanner.Y-extent = ##f               %! PCW1
-            \once \override TextSpanner.arrow-width = 0.25           %! PCW1
-            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+            \once \override TextSpanner.Y-extent = ##f               %! PWC1
+            \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.left.text = \markup {
                 \concat
                     {
@@ -1154,13 +1154,13 @@ K_GuitarMusicVoiceI = {
                         \hspace
                             #0.5
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.right.text = \markup {
                 \concat
                     {
@@ -1170,16 +1170,16 @@ K_GuitarMusicVoiceI = {
                             \upright
                                 "tamb. tr."
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
-            \once \override TextSpanner.dash-period = 1.5            %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+            \once \override TextSpanner.dash-period = 1.5            %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \>                                                       %! HC1
             \mp                                                      %! HC1
-            \startTextSpan                                           %! PCW1
+            \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1214,7 +1214,7 @@ K_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \p                                                       %! HC1
-            \stopTextSpan                                            %! PCW1
+            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1291,10 +1291,10 @@ K_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [K GuitarMusicVoiceI measure 238]                      %! SM4
-            \once \override TextSpanner.Y-extent = ##f               %! PCW1
-            \once \override TextSpanner.arrow-width = 0.25           %! PCW1
-            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+            \once \override TextSpanner.Y-extent = ##f               %! PWC1
+            \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.left.text = \markup {
                 \concat
                     {
@@ -1304,13 +1304,13 @@ K_GuitarMusicVoiceI = {
                         \hspace
                             #0.5
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.right.text = \markup {
                 \concat
                     {
@@ -1320,16 +1320,16 @@ K_GuitarMusicVoiceI = {
                             \upright
                                 "kn. rasg."
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
-            \once \override TextSpanner.dash-period = 1.5            %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+            \once \override TextSpanner.dash-period = 1.5            %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \<                                                       %! HC1
             \p                                                       %! HC1
-            \startTextSpan                                           %! PCW1
+            \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1364,7 +1364,7 @@ K_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \mf                                                      %! HC1
-            \stopTextSpan                                            %! PCW1
+            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1394,10 +1394,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 240]                      %! SM4
-            \once \override TextSpanner.Y-extent = ##f               %! PCW1
-            \once \override TextSpanner.arrow-width = 0.25           %! PCW1
-            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+            \once \override TextSpanner.Y-extent = ##f               %! PWC1
+            \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.left.text = \markup {
                 \concat
                     {
@@ -1407,13 +1407,13 @@ K_GuitarMusicVoiceI = {
                         \hspace
                             #0.5
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.right.text = \markup {
                 \concat
                     {
@@ -1423,16 +1423,16 @@ K_GuitarMusicVoiceI = {
                             \upright
                                 "tamb. tr."
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
-            \once \override TextSpanner.dash-period = 1.5            %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+            \once \override TextSpanner.dash-period = 1.5            %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \>                                                       %! HC1
             \mf                                                      %! HC1
-            \startTextSpan                                           %! PCW1
+            \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1467,7 +1467,7 @@ K_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \p                                                       %! HC1
-            \stopTextSpan                                            %! PCW1
+            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1544,10 +1544,10 @@ K_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [K GuitarMusicVoiceI measure 243]                      %! SM4
-            \once \override TextSpanner.Y-extent = ##f               %! PCW1
-            \once \override TextSpanner.arrow-width = 0.25           %! PCW1
-            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+            \once \override TextSpanner.Y-extent = ##f               %! PWC1
+            \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.left.text = \markup {
                 \concat
                     {
@@ -1557,13 +1557,13 @@ K_GuitarMusicVoiceI = {
                         \hspace
                             #0.5
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.right.text = \markup {
                 \concat
                     {
@@ -1573,16 +1573,16 @@ K_GuitarMusicVoiceI = {
                             \upright
                                 "kn. rasg."
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
-            \once \override TextSpanner.dash-period = 1.5            %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+            \once \override TextSpanner.dash-period = 1.5            %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \<                                                       %! HC1
             \p                                                       %! HC1
-            \startTextSpan                                           %! PCW1
+            \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1617,7 +1617,7 @@ K_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \mp                                                      %! HC1
-            \stopTextSpan                                            %! PCW1
+            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1647,10 +1647,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 245]                      %! SM4
-            \once \override TextSpanner.Y-extent = ##f               %! PCW1
-            \once \override TextSpanner.arrow-width = 0.25           %! PCW1
-            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+            \once \override TextSpanner.Y-extent = ##f               %! PWC1
+            \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.left.text = \markup {
                 \concat
                     {
@@ -1660,13 +1660,13 @@ K_GuitarMusicVoiceI = {
                         \hspace
                             #0.5
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.right.text = \markup {
                 \concat
                     {
@@ -1676,16 +1676,16 @@ K_GuitarMusicVoiceI = {
                             \upright
                                 "tamb. tr."
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
-            \once \override TextSpanner.dash-period = 1.5            %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+            \once \override TextSpanner.dash-period = 1.5            %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \>                                                       %! HC1
             \mp                                                      %! HC1
-            \startTextSpan                                           %! PCW1
+            \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1720,7 +1720,7 @@ K_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \p                                                       %! HC1
-            \stopTextSpan                                            %! PCW1
+            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1750,10 +1750,10 @@ K_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [K GuitarMusicVoiceI measure 247]                      %! SM4
-            \once \override TextSpanner.Y-extent = ##f               %! PCW1
-            \once \override TextSpanner.arrow-width = 0.25           %! PCW1
-            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+            \once \override TextSpanner.Y-extent = ##f               %! PWC1
+            \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.left.text = \markup {
                 \concat
                     {
@@ -1763,13 +1763,13 @@ K_GuitarMusicVoiceI = {
                         \hspace
                             #0.5
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.right.text = \markup {
                 \concat
                     {
@@ -1779,16 +1779,16 @@ K_GuitarMusicVoiceI = {
                             \upright
                                 "kn. rasg."
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
-            \once \override TextSpanner.dash-period = 1.5            %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+            \once \override TextSpanner.dash-period = 1.5            %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \<                                                       %! HC1
             \p                                                       %! HC1
-            \startTextSpan                                           %! PCW1
+            \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1823,7 +1823,7 @@ K_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \mf                                                      %! HC1
-            \stopTextSpan                                            %! PCW1
+            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1853,10 +1853,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 249]                      %! SM4
-            \once \override TextSpanner.Y-extent = ##f               %! PCW1
-            \once \override TextSpanner.arrow-width = 0.25           %! PCW1
-            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+            \once \override TextSpanner.Y-extent = ##f               %! PWC1
+            \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.left.text = \markup {
                 \concat
                     {
@@ -1866,13 +1866,13 @@ K_GuitarMusicVoiceI = {
                         \hspace
                             #0.5
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.right.text = \markup {
                 \concat
                     {
@@ -1882,16 +1882,16 @@ K_GuitarMusicVoiceI = {
                             \upright
                                 "tamb. tr."
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
-            \once \override TextSpanner.dash-period = 1.5            %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+            \once \override TextSpanner.dash-period = 1.5            %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \>                                                       %! HC1
             \mf                                                      %! HC1
-            \startTextSpan                                           %! PCW1
+            \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1926,7 +1926,7 @@ K_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \p                                                       %! HC1
-            \stopTextSpan                                            %! PCW1
+            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1956,10 +1956,10 @@ K_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [K GuitarMusicVoiceI measure 251]                      %! SM4
-            \once \override TextSpanner.Y-extent = ##f               %! PCW1
-            \once \override TextSpanner.arrow-width = 0.25           %! PCW1
-            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+            \once \override TextSpanner.Y-extent = ##f               %! PWC1
+            \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.left.text = \markup {
                 \concat
                     {
@@ -1969,13 +1969,13 @@ K_GuitarMusicVoiceI = {
                         \hspace
                             #0.5
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.right.text = \markup {
                 \concat
                     {
@@ -1985,16 +1985,16 @@ K_GuitarMusicVoiceI = {
                             \upright
                                 "kn. rasg."
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
-            \once \override TextSpanner.dash-period = 1.5            %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+            \once \override TextSpanner.dash-period = 1.5            %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \<                                                       %! HC1
             \p                                                       %! HC1
-            \startTextSpan                                           %! PCW1
+            \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2029,7 +2029,7 @@ K_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \f                                                       %! HC1
-            \stopTextSpan                                            %! PCW1
+            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2059,10 +2059,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 253]                      %! SM4
-            \once \override TextSpanner.Y-extent = ##f               %! PCW1
-            \once \override TextSpanner.arrow-width = 0.25           %! PCW1
-            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PCW1
+            \once \override TextSpanner.Y-extent = ##f               %! PWC1
+            \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+            \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.left.text = \markup {
                 \concat
                     {
@@ -2072,13 +2072,13 @@ K_GuitarMusicVoiceI = {
                         \hspace
                             #0.5
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PCW1
-            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PCW1
-            \once \override TextSpanner.bound-details.right.arrow = ##t %! PCW1
-            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PCW1
-            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+            \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+            \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+            \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+            \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
             \once \override TextSpanner.bound-details.right.text = \markup {
                 \concat
                     {
@@ -2088,16 +2088,16 @@ K_GuitarMusicVoiceI = {
                             \upright
                                 "tamb. tr."
                     }
-                }                                                    %! PCW1
-            \once \override TextSpanner.dash-fraction = 0.25         %! PCW1
-            \once \override TextSpanner.dash-period = 1.5            %! PCW1
+                }                                                    %! PWC1
+            \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+            \once \override TextSpanner.dash-period = 1.5            %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \>                                                       %! HC1
             \f                                                       %! HC1
-            \startTextSpan                                           %! PCW1
+            \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2256,7 +2256,7 @@ K_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \mp                                                      %! HC1
-            \stopTextSpan                                            %! PCW1
+            \stopTextSpan                                            %! PWC1
             
         }
     }

@@ -238,59 +238,59 @@ maker(
 maker(
     ('v1', 12),
     baca.hairpin('pp < p', baca.rleaves()),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
 maker(
     ('v1', 14),
     baca.hairpin('p > pp', baca.rleaves()),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
 maker(
     ('v1', 16),
     baca.hairpin('pp < mp', baca.rleaves()),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
 maker(
     ('v1', 18),
     baca.hairpin('mp > pp', baca.rleaves()),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
 maker(
     ('v1', 20),
     baca.hairpin('pp < mf', baca.rleaves()),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
 maker(
     ('v1', (22, 25)),
     baca.hairpin('mf > p', baca.leaves()),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )

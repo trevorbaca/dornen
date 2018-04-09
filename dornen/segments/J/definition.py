@@ -238,7 +238,7 @@ maker(
 maker(
     ('v1', 12),
     baca.hairpin('pp < p', baca.rleaves()),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
         selector=baca.rleaves().group(),
@@ -248,7 +248,7 @@ maker(
 maker(
     ('v1', 14),
     baca.hairpin('p > pp', baca.rleaves()),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
         selector=baca.rleaves().group(),
@@ -258,7 +258,7 @@ maker(
 maker(
     ('v1', 16),
     baca.hairpin('pp < mp', baca.rleaves()),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
         selector=baca.rleaves().group(),
@@ -268,7 +268,7 @@ maker(
 maker(
     ('v1', 18),
     baca.hairpin('mp > pp', baca.rleaves()),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
         selector=baca.rleaves().group(),
@@ -278,7 +278,7 @@ maker(
 maker(
     ('v1', 20),
     baca.hairpin('pp < mf', baca.rleaves()),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
         selector=baca.rleaves().group(),
@@ -288,7 +288,7 @@ maker(
 maker(
     ('v1', (22, 25)),
     baca.hairpin('mf > p', baca.leaves()),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
         selector=baca.rleaves().group(),

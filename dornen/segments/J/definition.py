@@ -212,7 +212,7 @@ maker(
     'v1',
     baca.register(-20),
     baca.stem_tremolo(),
-    baca.tie(repeat=True),
+    baca.repeat_tie(),
     )
 
 maker(

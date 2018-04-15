@@ -588,7 +588,7 @@ def tremolo_music():
         rhythmos.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.map(baca.tie(repeat=True), baca.qruns().nontrivial()),
+        baca.map(baca.repeat_tie(), baca.qruns().nontrivial()),
         baca.stem_tremolo(),
         allow_repeats=True,
         color_unregistered_pitches=True,

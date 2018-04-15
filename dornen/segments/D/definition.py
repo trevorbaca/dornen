@@ -217,7 +217,7 @@ accumulator(
     baca.markup.boxed('2-finger tamb. trill'),
     baca.stem_tremolo(),
     baca.stems_up(),
-    baca.tie(repeat=True),
+    baca.repeat_tie(),
     baca.tuplet_bracket_staff_padding(0),
     baca.tuplet_bracket_extra_offset((0, -0.5)),
     baca.tuplet_number_extra_offset((0, -0.5)),

@@ -930,7 +930,7 @@ I_GuitarMusicVoiceI = {
             
             % [I GuitarMusicVoiceI measure 186]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-            gf2
+            gf!2
             :32                                                      %! IC
             \<                                                       %! HC1
             \ppp                                                     %! HC1
@@ -975,7 +975,7 @@ I_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
         }
@@ -986,7 +986,7 @@ I_GuitarMusicVoiceI = {
             
             % [I GuitarMusicVoiceI measure 187]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \pp                                                      %! HC1
@@ -1020,7 +1020,7 @@ I_GuitarMusicVoiceI = {
             
             % [I GuitarMusicVoiceI measure 188]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \>                                                       %! HC1
@@ -1055,7 +1055,7 @@ I_GuitarMusicVoiceI = {
             
             % [I GuitarMusicVoiceI measure 189]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \ppp                                                     %! HC1
@@ -1088,7 +1088,7 @@ I_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [I GuitarMusicVoiceI measure 190]                      %! SM4
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1121,7 +1121,7 @@ I_GuitarMusicVoiceI = {
             
             % [I GuitarMusicVoiceI measure 191]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \<                                                       %! HC1
@@ -1171,7 +1171,7 @@ I_GuitarMusicVoiceI = {
             
             % [I GuitarMusicVoiceI measure 192]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \p                                                       %! HC1
@@ -1205,7 +1205,7 @@ I_GuitarMusicVoiceI = {
             
             % [I GuitarMusicVoiceI measure 193]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \>                                                       %! HC1
@@ -1240,7 +1240,7 @@ I_GuitarMusicVoiceI = {
             
             % [I GuitarMusicVoiceI measure 194]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \ppp                                                     %! HC1
@@ -1273,7 +1273,7 @@ I_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [I GuitarMusicVoiceI measure 195]                      %! SM4
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1306,7 +1306,7 @@ I_GuitarMusicVoiceI = {
             
             % [I GuitarMusicVoiceI measure 196]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \<                                                       %! HC1
@@ -1356,7 +1356,7 @@ I_GuitarMusicVoiceI = {
             
             % [I GuitarMusicVoiceI measure 197]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \pp                                                      %! HC1
@@ -1390,7 +1390,7 @@ I_GuitarMusicVoiceI = {
             
             % [I GuitarMusicVoiceI measure 198]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \<                                                       %! HC1
@@ -1425,7 +1425,7 @@ I_GuitarMusicVoiceI = {
             
             % [I GuitarMusicVoiceI measure 199]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \p                                                       %! HC1
@@ -1459,7 +1459,7 @@ I_GuitarMusicVoiceI = {
             
             % [I GuitarMusicVoiceI measure 200]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \<                                                       %! HC1
@@ -1494,7 +1494,7 @@ I_GuitarMusicVoiceI = {
             
             % [I GuitarMusicVoiceI measure 201]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \mp                                                      %! HC1
@@ -1528,7 +1528,7 @@ I_GuitarMusicVoiceI = {
             
             % [I GuitarMusicVoiceI measure 202]                      %! SM4
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \>                                                       %! HC1
@@ -1562,7 +1562,7 @@ I_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [I GuitarMusicVoiceI measure 203]                      %! SM4
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1594,7 +1594,7 @@ I_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [I GuitarMusicVoiceI measure 204]                      %! SM4
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1626,7 +1626,7 @@ I_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [I GuitarMusicVoiceI measure 205]                      %! SM4
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             ^ \markup {
@@ -1671,7 +1671,7 @@ I_GuitarMusicVoiceI = {
         \times 4/5 {
             
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \pp                                                      %! HC1
@@ -1682,7 +1682,7 @@ I_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [I GuitarMusicVoiceI measure 206]                      %! SM4
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             ^ \markup {
@@ -1726,7 +1726,7 @@ I_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             

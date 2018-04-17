@@ -126,7 +126,7 @@ def monad_music():
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! SM4
-                                cs'2
+                                cs'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
@@ -136,7 +136,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                bf'2
+                                bf'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
@@ -146,12 +146,12 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                af'2
+                                af'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                fs'2
+                                fs'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
@@ -173,7 +173,7 @@ def monad_music():
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! SM4
-                                ef'2
+                                ef'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
@@ -183,13 +183,13 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                af'2
+                                af'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 4]                                   %! SM4
-                                fs'2
+                                fs'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
@@ -330,14 +330,14 @@ def monad_music():
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! SM4
-                                cs'2
+                                cs'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 c'2
             <BLANKLINE>
-                                bf'2
+                                bf'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
@@ -347,9 +347,9 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                af'2
+                                af'!2
             <BLANKLINE>
-                                fs'2
+                                fs'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
@@ -366,20 +366,20 @@ def monad_music():
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! SM4
-                                ef'2
+                                ef'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 a'2
             <BLANKLINE>
-                                af'2
+                                af'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 4]                                   %! SM4
-                                fs'2
+                                fs'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {

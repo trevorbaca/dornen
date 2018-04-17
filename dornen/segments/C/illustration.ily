@@ -851,11 +851,11 @@ C_GuitarMusicVoiceI = {
             
             b32 * 896/1024
             
-            bf32 * 800/1024
+            bf!32 * 800/1024
             
             c'32 * 704/1024
             
-            fs'32 * 672/1024
+            fs'!32 * 672/1024
             ]
         }
         \revert TupletNumber.text
@@ -902,13 +902,13 @@ C_GuitarMusicVoiceI = {
             g'32 * 384/1024
             [
             
-            af'32 * 768/1024
+            af'!32 * 768/1024
             
             d'32 * 1088/1024
             
-            cs'32 * 1344/1024
+            cs'!32 * 1344/1024
             
-            ef'32 * 1536/1024
+            ef'!32 * 1536/1024
             ]
         }
         \revert TupletNumber.text
@@ -978,11 +978,11 @@ C_GuitarMusicVoiceI = {
             
             b'64 * 896/1024
             
-            bf'64 * 768/1024
+            bf'!64 * 768/1024
             
             c''64 * 704/1024
             
-            fs'64 * 640/1024
+            fs'!64 * 640/1024
             ]
         }
         \revert TupletNumber.text
@@ -1029,13 +1029,13 @@ C_GuitarMusicVoiceI = {
             g'64 * 384/1024
             [
             
-            af'64 * 768/1024
+            af'!64 * 768/1024
             
             d''64 * 1088/1024
             
-            cs''64 * 1344/1024
+            cs''!64 * 1344/1024
             
-            ef''64 * 1536/1024
+            ef''!64 * 1536/1024
             ]
         }
         \revert TupletNumber.text
@@ -1106,21 +1106,21 @@ C_GuitarMusicVoiceI = {
             
             b'64 * 1088/1024
             
-            bf''64 * 960/1024
+            bf''!64 * 960/1024
             
             c''64 * 896/1024
             
-            fs''64 * 832/1024
+            fs''!64 * 832/1024
             
             g''64 * 768/1024
             
-            af''64 * 768/1024
+            af''!64 * 768/1024
             
             d''64 * 704/1024
             
-            cs'''64 * 704/1024
+            cs'''!64 * 704/1024
             
-            ef''64 * 640/1024
+            ef''!64 * 640/1024
             ]
             \revert Beam.positions                                   %! OC2
         }
@@ -1171,7 +1171,7 @@ C_GuitarMusicVoiceI = {
             
             % [C GuitarMusicVoiceI measure 75]                       %! SM4
             \once \override Beam.grow-direction = #left
-            ef'32 * 512/1024
+            ef'!32 * 512/1024
             [
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1191,7 +1191,7 @@ C_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             
-            fs32 * 1088/1024
+            fs!32 * 1088/1024
             
             a32 * 1472/1024
             ]
@@ -1239,7 +1239,7 @@ C_GuitarMusicVoiceI = {
             b32 * 1312/1024
             [
             
-            bf'32 * 736/1024
+            bf'!32 * 736/1024
             ]
         }
         \revert TupletNumber.text
@@ -1313,13 +1313,13 @@ C_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             
-            af'32 * 1024/1024
+            af'!32 * 1024/1024
             
             d''32 * 832/1024
             
-            cs''32 * 736/1024
+            cs''!32 * 736/1024
             
-            ef''32 * 672/1024
+            ef''!32 * 672/1024
             ]
         }
         \revert TupletNumber.text
@@ -1365,11 +1365,11 @@ C_GuitarMusicVoiceI = {
             g''32 * 416/1024
             [
             
-            af''32 * 896/1024
+            af''!32 * 896/1024
             
             d''32 * 1248/1024
             
-            cs'''32 * 1536/1024
+            cs'''!32 * 1536/1024
             ]
         }
         \revert TupletNumber.text
@@ -1440,13 +1440,13 @@ C_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             
-            af32 * 1024/1024
+            af!32 * 1024/1024
             
             d'32 * 832/1024
             
-            cs'32 * 736/1024
+            cs'!32 * 736/1024
             
-            ef'32 * 672/1024
+            ef'!32 * 672/1024
             ]
         }
         \revert TupletNumber.text
@@ -1492,11 +1492,11 @@ C_GuitarMusicVoiceI = {
             g'32 * 416/1024
             [
             
-            af'32 * 896/1024
+            af'!32 * 896/1024
             
             d'32 * 1248/1024
             
-            cs''32 * 1536/1024
+            cs''!32 * 1536/1024
             ]
         }
         \revert TupletNumber.text
@@ -1539,10 +1539,10 @@ C_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             \once \override Beam.grow-direction = #right
-            ef''32 * 1568/1024
+            ef''!32 * 1568/1024
             [
             
-            fs'32 * 832/1024
+            fs'!32 * 832/1024
             
             a'32 * 672/1024
             ]
@@ -1618,7 +1618,7 @@ C_GuitarMusicVoiceII = {
             
             \set stemLeftBeamCount = 2                               %! SM35
             \set stemRightBeamCount = 2                              %! SM35
-            af''16
+            af''!16
             \glissando                                               %! SC
             
             \set stemLeftBeamCount = 2                               %! SM35
@@ -1628,7 +1628,7 @@ C_GuitarMusicVoiceII = {
             
             \set stemLeftBeamCount = 3                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            cs'''32
+            cs'''!32
             \revert Beam.positions                                   %! OC2
         }
     }
@@ -1641,7 +1641,7 @@ C_GuitarMusicVoiceII = {
             % [C GuitarMusicVoiceII measure 82]                      %! SM4
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 2                              %! SM35
-            ef''16
+            ef''!16
             \glissando                                               %! SC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1663,7 +1663,7 @@ C_GuitarMusicVoiceII = {
             
             \set stemLeftBeamCount = 2                               %! SM35
             \set stemRightBeamCount = 2                              %! SM35
-            fs''16
+            fs''!16
             \glissando                                               %! SC
             
             \set stemLeftBeamCount = 2                               %! SM35
@@ -1702,7 +1702,7 @@ C_GuitarMusicVoiceII = {
             
             \set stemLeftBeamCount = 2                               %! SM35
             \set stemRightBeamCount = 0                              %! SM35
-            bf''16
+            bf''!16
             ]                                                        %! SM35
         }
     }
@@ -1763,7 +1763,7 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            bf''64
+            bf''!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
@@ -1781,7 +1781,7 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            af'64
+            af'!64
             )                                                        %! SC
             
             \set stemLeftBeamCount = 4                               %! SM35
@@ -1791,16 +1791,16 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            cs''64
+            cs''!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            ef''64
+            ef''!64
             )                                                        %! SC
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            fs'64
+            fs'!64
             (                                                        %! SC
         }
         \tweak text #tuplet-number::calc-fraction-text
@@ -1816,11 +1816,11 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            cs'64
+            cs'!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            ef'64
+            ef'!64
             )                                                        %! SC
         }
     }
@@ -1830,7 +1830,7 @@ C_GuitarMusicVoiceIII = {
             % [C GuitarMusicVoiceIII measure 77]                     %! SM4
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            af'64
+            af'!64
             (                                                        %! SC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1856,15 +1856,15 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            cs'64
+            cs'!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            ef'64
+            ef'!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            fs'64
+            fs'!64
         }
         \tweak text #tuplet-number::calc-fraction-text
         \times 3/4 {
@@ -1881,19 +1881,19 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            cs''64
+            cs''!64
             )                                                        %! SC
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            ef''64
+            ef''!64
             (                                                        %! SC
         }
         \times 2/3 {
             
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            fs''64
+            fs''!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
@@ -1901,7 +1901,7 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            af''64
+            af''!64
             )                                                        %! SC
         }
     }
@@ -1941,17 +1941,17 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            cs'64
+            cs'!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            ef'64
+            ef'!64
         }
         \times 2/3 {
             
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            fs'64
+            fs'!64
             )                                                        %! SC
             
             \set stemLeftBeamCount = 4                               %! SM35
@@ -1960,7 +1960,7 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            af'64
+            af'!64
             (                                                        %! SC
         }
         \tweak text #tuplet-number::calc-fraction-text
@@ -1980,7 +1980,7 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            bf'64
+            bf'!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
@@ -1988,7 +1988,7 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 0                              %! SM35
-            fs''64
+            fs''!64
             ]                                                        %! SM35
             )                                                        %! SC
         }
@@ -2038,7 +2038,7 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            bf'64
+            bf'!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
@@ -2058,7 +2058,7 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            af'64
+            af'!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
@@ -2066,15 +2066,15 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            cs''64
+            cs''!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            ef'64
+            ef'!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            fs'64
+            fs'!64
             )                                                        %! SC
         }
     }
@@ -2111,7 +2111,7 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            bf'64
+            bf'!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
@@ -2129,7 +2129,7 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            af'64
+            af'!64
             )                                                        %! SC
             
             \set stemLeftBeamCount = 4                               %! SM35
@@ -2139,16 +2139,16 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            cs''64
+            cs''!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            ef''64
+            ef''!64
             )                                                        %! SC
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            fs''64
+            fs''!64
             (                                                        %! SC
         }
         \tweak text #tuplet-number::calc-fraction-text
@@ -2164,11 +2164,11 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            cs''64
+            cs''!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            ef''64
+            ef''!64
             )                                                        %! SC
         }
     }
@@ -2181,7 +2181,7 @@ C_GuitarMusicVoiceIII = {
             % [C GuitarMusicVoiceIII measure 89]                     %! SM4
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            af'64
+            af'!64
             (                                                        %! SC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2207,15 +2207,15 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            cs'64
+            cs'!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            ef'64
+            ef'!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            fs'64
+            fs'!64
         }
         \tweak text #tuplet-number::calc-fraction-text
         \times 3/4 {
@@ -2232,19 +2232,19 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            cs''64
+            cs''!64
             )                                                        %! SC
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            ef''64
+            ef''!64
             (                                                        %! SC
         }
         \times 2/3 {
             
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            fs''64
+            fs''!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
@@ -2252,7 +2252,7 @@ C_GuitarMusicVoiceIII = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 0                              %! SM35
-            af''64
+            af''!64
             ]                                                        %! SM35
             )                                                        %! SC
             
@@ -2307,7 +2307,7 @@ C_GuitarMusicVoiceIV = {
             \override TupletBracket.staff-padding = #0               %! OC1
             \once \override TupletBracket.extra-offset = #'(0 . -0.5) %! OC1
             \once \override TupletNumber.extra-offset = #'(0 . -0.5) %! OC1
-            gf2
+            gf!2
             :32                                                      %! IC
             ^ \markup {
                 \column
@@ -2345,7 +2345,7 @@ C_GuitarMusicVoiceIV = {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \revert Stem.direction                                   %! OC2
@@ -2392,7 +2392,7 @@ C_GuitarMusicVoiceIV = {
             \override TupletBracket.staff-padding = #0               %! OC1
             \once \override TupletBracket.extra-offset = #'(0 . -0.5) %! OC1
             \once \override TupletNumber.extra-offset = #'(0 . -0.5) %! OC1
-            gf2
+            gf!2
             :32                                                      %! IC
             ^ \markup {
                 \column
@@ -2430,7 +2430,7 @@ C_GuitarMusicVoiceIV = {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            gf2
+            gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \revert Stem.direction                                   %! OC2

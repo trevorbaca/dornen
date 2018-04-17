@@ -107,18 +107,18 @@ def forty_eighth_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 2]                                   %! SM4
-                                fs'32.
+                                fs'!32.
                                 [
             <BLANKLINE>
                                 d'32.
             <BLANKLINE>
-                                ef'32.
+                                ef'!32.
             <BLANKLINE>
                                 f'32.
             <BLANKLINE>
                                 a'32.
             <BLANKLINE>
-                                af'32.
+                                af'!32.
             <BLANKLINE>
                                 c'32.
                                 ]
@@ -131,14 +131,14 @@ def forty_eighth_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 4]                                   %! SM4
-                                bf'32.
+                                bf'!32.
                                 [
             <BLANKLINE>
                                 g'32.
             <BLANKLINE>
                                 a'32.
             <BLANKLINE>
-                                af'32.
+                                af'!32.
             <BLANKLINE>
                                 c'32.
             <BLANKLINE>

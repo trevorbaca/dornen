@@ -616,7 +616,7 @@ E_GuitarMusicVoiceI = {
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
         %@% \override GuitarMusicStaff.Clef.color = ##f              %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
             \set GuitarMusicStaff.forceClef = ##t                    %! SM8:REAPPLIED_CLEF:SM33:SM37
-            bf'32.
+            bf'!32.
             -\tenuto                                                 %! IC
             [                                                        %! SM35
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -704,21 +704,21 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            bf'64
+            bf'!64
             )                                                        %! SC
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            cs''64
+            cs''!64
             (                                                        %! SC
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            ef''64
+            ef''!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            fs''64
+            fs''!64
             )                                                        %! SC
             
             \set stemLeftBeamCount = 4                               %! SM35
@@ -731,7 +731,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            af''64
+            af''!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
@@ -739,11 +739,11 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
-            ef''64
+            ef''!64
             
             \set stemLeftBeamCount = 4                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            fs''64
+            fs''!64
             )                                                        %! SC
         }
     }
@@ -756,7 +756,7 @@ E_GuitarMusicVoiceI = {
             % [E GuitarMusicVoiceI measure 124]                      %! SM4
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 3                              %! SM35
-            cs'32.
+            cs'!32.
             -\tenuto                                                 %! IC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -837,7 +837,7 @@ E_GuitarMusicVoiceI = {
             % [E GuitarMusicVoiceI measure 128]                      %! SM4
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             [
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -872,7 +872,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -889,7 +889,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -906,7 +906,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -923,7 +923,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -940,7 +940,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -957,7 +957,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -974,7 +974,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -991,7 +991,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1008,7 +1008,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1029,7 +1029,7 @@ E_GuitarMusicVoiceI = {
             % [E GuitarMusicVoiceI measure 129]                      %! SM4
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             [
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1062,14 +1062,14 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1084,14 +1084,14 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1106,14 +1106,14 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1128,14 +1128,14 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1150,14 +1150,14 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1172,14 +1172,14 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1194,14 +1194,14 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1216,14 +1216,14 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1238,14 +1238,14 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1260,7 +1260,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             ]
         }
@@ -1271,7 +1271,7 @@ E_GuitarMusicVoiceI = {
             % [E GuitarMusicVoiceI measure 130]                      %! SM4
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             [
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1304,19 +1304,19 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1331,19 +1331,19 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1358,19 +1358,19 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1385,19 +1385,19 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1412,19 +1412,19 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1439,19 +1439,19 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1466,19 +1466,19 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1493,19 +1493,19 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1520,19 +1520,19 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1547,12 +1547,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             ]
         }
@@ -1563,7 +1563,7 @@ E_GuitarMusicVoiceI = {
             % [E GuitarMusicVoiceI measure 131]                      %! SM4
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             [
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1596,12 +1596,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1613,7 +1613,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1628,12 +1628,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1645,7 +1645,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1660,12 +1660,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1677,7 +1677,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1692,12 +1692,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1709,7 +1709,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1724,12 +1724,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1741,7 +1741,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1756,12 +1756,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1773,7 +1773,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1788,12 +1788,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1805,7 +1805,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1820,12 +1820,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1837,7 +1837,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1852,12 +1852,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1869,7 +1869,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1884,12 +1884,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1905,7 +1905,7 @@ E_GuitarMusicVoiceI = {
             % [E GuitarMusicVoiceI measure 132]                      %! SM4
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             [
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1938,12 +1938,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1953,7 +1953,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bf''64
+            bf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1963,22 +1963,22 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            af''64
+            af''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bqs''64
+            bqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            dqs''64
+            dqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            eqf''64
+            eqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -1993,12 +1993,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            ef''64
+            ef''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bqf''64
+            bqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2008,22 +2008,22 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            af''64
+            af''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bqs''64
+            bqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bf''64
+            bf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            eqf''64
+            eqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2038,17 +2038,17 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            ef''64
+            ef''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bqf''64
+            bqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            dqs''64
+            dqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2063,12 +2063,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2078,7 +2078,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
@@ -2090,12 +2090,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2110,62 +2110,17 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            dqs''64
+            dqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bqf''64
+            bqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            ef''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            d''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            b''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            eqf''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bf''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqs''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            af''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            g''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqf''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            ef''64
+            ef''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2180,22 +2135,22 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            eqf''64
+            eqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            dqs''64
+            bf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bqs''64
+            bqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            af''64
+            af''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2205,7 +2160,52 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bf''64
+            bqf''!64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            ef''!64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            d''64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            b''64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            eqf''!64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            dqs''!64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            bqs''!64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            af''!64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            g''64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            bf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2215,12 +2215,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2235,7 +2235,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
@@ -2252,12 +2252,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2267,7 +2267,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bf''64
+            bf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2277,22 +2277,22 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            af''64
+            af''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bqs''64
+            bqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            dqs''64
+            dqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            eqf''64
+            eqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2307,12 +2307,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            ef''64
+            ef''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bqf''64
+            bqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2322,22 +2322,22 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            af''64
+            af''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bqs''64
+            bqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bf''64
+            bf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            eqf''64
+            eqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2352,17 +2352,17 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            ef''64
+            ef''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bqf''64
+            bqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            dqs''64
+            dqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2377,12 +2377,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2392,7 +2392,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
         }
         \scaleDurations #'(1 . 1) {
@@ -2404,12 +2404,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2424,62 +2424,17 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            dqs''64
+            dqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bqf''64
+            bqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            ef''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            d''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            b''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            eqf''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bf''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqs''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            af''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            g''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqf''64
-            -\staccato                                               %! IC
-            
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            ef''64
+            ef''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2494,22 +2449,22 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            eqf''64
+            eqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            dqs''64
+            bf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bqs''64
+            bqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            af''64
+            af''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2519,7 +2474,52 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            bf''64
+            bqf''!64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            ef''!64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            d''64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            b''64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            eqf''!64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            dqs''!64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            bqs''!64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            af''!64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            g''64
+            -\staccato                                               %! IC
+            
+            \set stemLeftBeamCount = 4
+            \set stemRightBeamCount = 4
+            bf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2529,12 +2529,12 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            gqf''64
+            gqf''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
-            fqs''64
+            fqs''!64
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 4
@@ -2549,7 +2549,7 @@ E_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
-            fs''64
+            fs''!64
             -\staccato                                               %! IC
             ]
             
@@ -2743,7 +2743,7 @@ E_GuitarMusicVoiceIV = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             
-            af'16
+            af'!16
             -\staccato                                               %! IC
             
             d''16
@@ -2785,7 +2785,7 @@ E_GuitarMusicVoiceIV = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             
-            bf'16
+            bf'!16
             -\staccato                                               %! IC
             
             c''16

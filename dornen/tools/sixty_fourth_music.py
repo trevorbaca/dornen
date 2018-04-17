@@ -110,7 +110,7 @@ def sixty_fourth_music():
                                 % [MusicVoice measure 2]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
-                                fs'64
+                                fs'!64
                                 -\staccato                                                 %! IC
                                 [
             <BLANKLINE>
@@ -121,7 +121,7 @@ def sixty_fourth_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                ef'64
+                                ef'!64
                                 -\staccato                                                 %! IC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
@@ -136,7 +136,7 @@ def sixty_fourth_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                af'64
+                                af'!64
                                 -\staccato                                                 %! IC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
@@ -156,7 +156,7 @@ def sixty_fourth_music():
                                 % [MusicVoice measure 4]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
-                                bf'64
+                                bf'!64
                                 -\staccato                                                 %! IC
                                 [
             <BLANKLINE>
@@ -172,7 +172,7 @@ def sixty_fourth_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                af'64
+                                af'!64
                                 -\staccato                                                 %! IC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4

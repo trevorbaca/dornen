@@ -109,7 +109,7 @@ def thirty_second_music():
                                 % [MusicVoice measure 2]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
-                                fs'32
+                                fs'!32
                                 [
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
@@ -118,7 +118,7 @@ def thirty_second_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                ef'32
+                                ef'!32
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
@@ -130,7 +130,7 @@ def thirty_second_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'32
+                                af'!32
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0
@@ -147,7 +147,7 @@ def thirty_second_music():
                                 % [MusicVoice measure 4]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
-                                bf'32
+                                bf'!32
                                 [
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
@@ -160,7 +160,7 @@ def thirty_second_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'32
+                                af'!32
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
@@ -291,7 +291,7 @@ def thirty_second_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 3
-                                fs'32
+                                fs'!32
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
@@ -299,7 +299,7 @@ def thirty_second_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                ef'32
+                                ef'!32
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
@@ -311,7 +311,7 @@ def thirty_second_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'32
+                                af'!32
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 1
@@ -329,7 +329,7 @@ def thirty_second_music():
                                 % [MusicVoice measure 2]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
-                                fs'32
+                                fs'!32
                                 [
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
@@ -338,7 +338,7 @@ def thirty_second_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                ef'32
+                                ef'!32
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
@@ -350,7 +350,7 @@ def thirty_second_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'32
+                                af'!32
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 1
@@ -366,7 +366,7 @@ def thirty_second_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 3
-                                bf'32
+                                bf'!32
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
@@ -378,7 +378,7 @@ def thirty_second_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'32
+                                af'!32
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
@@ -401,7 +401,7 @@ def thirty_second_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 3
-                                bf'32
+                                bf'!32
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
@@ -413,7 +413,7 @@ def thirty_second_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'32
+                                af'!32
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3

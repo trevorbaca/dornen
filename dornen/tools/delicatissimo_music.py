@@ -110,7 +110,7 @@ def delicatissimo_music():
                                 % [MusicVoice measure 2]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
-                                fs'32
+                                fs'!32
                                 -\staccato                                                 %! IC
                                 [
             <BLANKLINE>
@@ -121,7 +121,7 @@ def delicatissimo_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                ef'32
+                                ef'!32
                                 -\staccato                                                 %! IC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
@@ -136,7 +136,7 @@ def delicatissimo_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'32
+                                af'!32
                                 -\staccato                                                 %! IC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
@@ -156,7 +156,7 @@ def delicatissimo_music():
                                 % [MusicVoice measure 4]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
-                                bf'32
+                                bf'!32
                                 -\staccato                                                 %! IC
                                 [
             <BLANKLINE>
@@ -172,7 +172,7 @@ def delicatissimo_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'32
+                                af'!32
                                 -\staccato                                                 %! IC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
@@ -308,7 +308,7 @@ def delicatissimo_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 3
-                                fs'32
+                                fs'!32
                                 -\staccato                                                 %! IC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
@@ -318,7 +318,7 @@ def delicatissimo_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                ef'32
+                                ef'!32
                                 -\staccato                                                 %! IC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
@@ -333,7 +333,7 @@ def delicatissimo_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'32
+                                af'!32
                                 -\staccato                                                 %! IC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
@@ -354,7 +354,7 @@ def delicatissimo_music():
                                 % [MusicVoice measure 2]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
-                                fs'32
+                                fs'!32
                                 -\staccato                                                 %! IC
                                 [
             <BLANKLINE>
@@ -365,7 +365,7 @@ def delicatissimo_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                ef'32
+                                ef'!32
                                 -\staccato                                                 %! IC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
@@ -380,7 +380,7 @@ def delicatissimo_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'32
+                                af'!32
                                 -\staccato                                                 %! IC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
@@ -399,7 +399,7 @@ def delicatissimo_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 3
-                                bf'32
+                                bf'!32
                                 -\staccato                                                 %! IC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
@@ -414,7 +414,7 @@ def delicatissimo_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'32
+                                af'!32
                                 -\staccato                                                 %! IC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
@@ -441,7 +441,7 @@ def delicatissimo_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 3
-                                bf'32
+                                bf'!32
                                 -\staccato                                                 %! IC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
@@ -456,7 +456,7 @@ def delicatissimo_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'32
+                                af'!32
                                 -\staccato                                                 %! IC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3

@@ -126,7 +126,7 @@ def twenty_eighth_music():
                             \times 4/7 {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! SM4
-                                cs'16
+                                cs'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
@@ -136,7 +136,7 @@ def twenty_eighth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
             <BLANKLINE>
-                                bf'16
+                                bf'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
@@ -146,12 +146,12 @@ def twenty_eighth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
             <BLANKLINE>
-                                af'16
+                                af'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
             <BLANKLINE>
-                                fs'16
+                                fs'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
@@ -173,7 +173,7 @@ def twenty_eighth_music():
                             \times 4/7 {
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! SM4
-                                ef'16
+                                ef'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
@@ -183,13 +183,13 @@ def twenty_eighth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
             <BLANKLINE>
-                                af'16
+                                af'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
             <BLANKLINE>
                                 % [MusicVoice measure 4]                                   %! SM4
-                                fs'16
+                                fs'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
@@ -330,7 +330,7 @@ def twenty_eighth_music():
                             \times 4/7 {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! SM4
-                                cs'16
+                                cs'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
@@ -338,7 +338,7 @@ def twenty_eighth_music():
                                 c'16
                                 [
             <BLANKLINE>
-                                bf'16
+                                bf'!16
                                 ]
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -349,10 +349,10 @@ def twenty_eighth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
             <BLANKLINE>
-                                af'16
+                                af'!16
                                 [
             <BLANKLINE>
-                                fs'16
+                                fs'!16
                                 ]
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -370,7 +370,7 @@ def twenty_eighth_music():
                             \times 4/7 {
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! SM4
-                                ef'16
+                                ef'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
@@ -378,14 +378,14 @@ def twenty_eighth_music():
                                 a'16
                                 [
             <BLANKLINE>
-                                af'16
+                                af'!16
                                 ]
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {
             <BLANKLINE>
                                 % [MusicVoice measure 4]                                   %! SM4
-                                fs'16
+                                fs'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/7 {

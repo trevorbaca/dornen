@@ -107,18 +107,18 @@ def anchor_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 2]                                   %! SM4
-                                fs'8.
+                                fs'!8.
                                 [
             <BLANKLINE>
                                 d'8.
             <BLANKLINE>
-                                ef'8.
+                                ef'!8.
             <BLANKLINE>
                                 f'8.
             <BLANKLINE>
                                 a'8.
             <BLANKLINE>
-                                af'8.
+                                af'!8.
             <BLANKLINE>
                                 c'8.
                                 ]
@@ -131,14 +131,14 @@ def anchor_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 4]                                   %! SM4
-                                bf'8.
+                                bf'!8.
                                 [
             <BLANKLINE>
                                 g'8.
             <BLANKLINE>
                                 a'8.
             <BLANKLINE>
-                                af'8.
+                                af'!8.
             <BLANKLINE>
                                 c'8.
             <BLANKLINE>

@@ -110,7 +110,7 @@ def running_music():
                                 % [MusicVoice measure 2]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
-                                fs'64
+                                fs'!64
                                 [
                                 (                                                          %! SC
                                 (                                                          %! SC
@@ -121,7 +121,7 @@ def running_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                ef'64
+                                ef'!64
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -133,7 +133,7 @@ def running_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                af'64
+                                af'!64
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 0
@@ -153,7 +153,7 @@ def running_music():
                                 % [MusicVoice measure 4]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
-                                bf'64
+                                bf'!64
                                 [
                                 (                                                          %! SC
                                 (                                                          %! SC
@@ -168,7 +168,7 @@ def running_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                af'64
+                                af'!64
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -297,7 +297,7 @@ def running_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
-                                fs'64
+                                fs'!64
                                 )                                                          %! SC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
@@ -307,7 +307,7 @@ def running_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                ef'64
+                                ef'!64
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -319,7 +319,7 @@ def running_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                af'64
+                                af'!64
                                 )                                                          %! SC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
@@ -341,7 +341,7 @@ def running_music():
                                 % [MusicVoice measure 2]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
-                                fs'64
+                                fs'!64
                                 [
                                 (                                                          %! SC
             <BLANKLINE>
@@ -351,7 +351,7 @@ def running_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                ef'64
+                                ef'!64
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -363,7 +363,7 @@ def running_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                af'64
+                                af'!64
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 1
@@ -382,7 +382,7 @@ def running_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
-                                bf'64
+                                bf'!64
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -394,7 +394,7 @@ def running_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                af'64
+                                af'!64
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -420,7 +420,7 @@ def running_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
-                                bf'64
+                                bf'!64
                                 )                                                          %! SC
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
@@ -434,7 +434,7 @@ def running_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                af'64
+                                af'!64
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4

@@ -1252,7 +1252,7 @@ D_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 3                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            cs'32.
+            cs'!32.
             -\tenuto                                                 %! IC
         }
     }
@@ -1265,7 +1265,7 @@ D_GuitarMusicVoiceI = {
             % [D GuitarMusicVoiceI measure 95]                       %! SM4
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 3                              %! SM35
-            ef'32.
+            ef'!32.
             -\tenuto                                                 %! IC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1292,7 +1292,7 @@ D_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 3                               %! SM35
             \set stemRightBeamCount = 0                              %! SM35
-            fs'32.
+            fs'!32.
             -\tenuto                                                 %! IC
             ]                                                        %! SM35
         }
@@ -1334,7 +1334,7 @@ D_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 3                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            cs'32.
+            cs'!32.
             -\tenuto                                                 %! IC
         }
     }
@@ -1374,7 +1374,7 @@ D_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 3                               %! SM35
             \set stemRightBeamCount = 0                              %! SM35
-            cs'32.
+            cs'!32.
             -\tenuto                                                 %! IC
             ]                                                        %! SM35
         }
@@ -1388,7 +1388,7 @@ D_GuitarMusicVoiceI = {
             % [D GuitarMusicVoiceI measure 109]                      %! SM4
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 3                              %! SM35
-            ef'32.
+            ef'!32.
             -\tenuto                                                 %! IC
             [                                                        %! SM35
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1416,7 +1416,7 @@ D_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 3                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            fs'32.
+            fs'!32.
             -\tenuto                                                 %! IC
         }
     }
@@ -1456,7 +1456,7 @@ D_GuitarMusicVoiceI = {
             
             \set stemLeftBeamCount = 3                               %! SM35
             \set stemRightBeamCount = 0                              %! SM35
-            cs'32.
+            cs'!32.
             -\tenuto                                                 %! IC
             ]                                                        %! SM35
         }
@@ -1514,7 +1514,7 @@ D_GuitarMusicVoiceII = {
             
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-            bf''32
+            bf''!32
             
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -1536,7 +1536,7 @@ D_GuitarMusicVoiceII = {
             % [D GuitarMusicVoiceII measure 99]                      %! SM4
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
-            bf''32
+            bf''!32
             [
             (                                                        %! SC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -1614,7 +1614,7 @@ D_GuitarMusicVoiceII = {
             
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-            bf''32
+            bf''!32
             
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -1668,7 +1668,7 @@ D_GuitarMusicVoiceII = {
             \once \override TupletBracket.staff-padding = #0         %! OC1
             \once \override TupletBracket.extra-offset = #'(0 . -0.5) %! OC1
             \once \override TupletNumber.extra-offset = #'(0 . -0.5) %! OC1
-            gf2
+            gf!2
             :32                                                      %! IC
             ^ \markup {
                 \column
@@ -1719,7 +1719,7 @@ D_GuitarMusicVoiceII = {
             % [D GuitarMusicVoiceII measure 115]                     %! SM4
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
-            bf''32
+            bf''!32
             [
             (                                                        %! SC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
@@ -2067,7 +2067,7 @@ D_GuitarMusicVoiceIV = {
             \override Stem.direction = #up                           %! OC1
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 2                              %! SM35
-            ef''16
+            ef''!16
             -\staccato                                               %! IC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2094,7 +2094,7 @@ D_GuitarMusicVoiceIV = {
             
             \set stemLeftBeamCount = 2                               %! SM35
             \set stemRightBeamCount = 2                              %! SM35
-            fs''16
+            fs''!16
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 2                               %! SM35
@@ -2149,7 +2149,7 @@ D_GuitarMusicVoiceIV = {
             
             \set stemLeftBeamCount = 2                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            bf'16
+            bf'!16
             -\staccato                                               %! IC
         }
     }
@@ -2163,7 +2163,7 @@ D_GuitarMusicVoiceIV = {
             % [D GuitarMusicVoiceIV measure 98]                      %! SM4
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 2                              %! SM35
-            cs''16
+            cs''!16
             -\staccato                                               %! IC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2238,12 +2238,12 @@ D_GuitarMusicVoiceIV = {
             
             \set stemLeftBeamCount = 2                               %! SM35
             \set stemRightBeamCount = 2                              %! SM35
-            ef''16
+            ef''!16
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 2                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            fs''16
+            fs''!16
             -\staccato                                               %! IC
         }
     }
@@ -2289,7 +2289,7 @@ D_GuitarMusicVoiceIV = {
             
             \set stemLeftBeamCount = 2                               %! SM35
             \set stemRightBeamCount = 0                              %! SM35
-            cs''16
+            cs''!16
             -\staccato                                               %! IC
             ]                                                        %! SM35
         }
@@ -2353,7 +2353,7 @@ D_GuitarMusicVoiceIV = {
             \override Stem.direction = #up                           %! OC1
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 2                              %! SM35
-            ef''16
+            ef''!16
             -\staccato                                               %! IC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2380,7 +2380,7 @@ D_GuitarMusicVoiceIV = {
             
             \set stemLeftBeamCount = 2                               %! SM35
             \set stemRightBeamCount = 2                              %! SM35
-            fs''16
+            fs''!16
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 2                               %! SM35
@@ -2435,7 +2435,7 @@ D_GuitarMusicVoiceIV = {
             
             \set stemLeftBeamCount = 2                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            bf'16
+            bf'!16
             -\staccato                                               %! IC
         }
     }
@@ -2449,7 +2449,7 @@ D_GuitarMusicVoiceIV = {
             % [D GuitarMusicVoiceIV measure 114]                     %! SM4
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 2                              %! SM35
-            cs''16
+            cs''!16
             -\staccato                                               %! IC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2524,12 +2524,12 @@ D_GuitarMusicVoiceIV = {
             
             \set stemLeftBeamCount = 2                               %! SM35
             \set stemRightBeamCount = 2                              %! SM35
-            ef''16
+            ef''!16
             -\staccato                                               %! IC
             
             \set stemLeftBeamCount = 2                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
-            fs''16
+            fs''!16
             -\staccato                                               %! IC
         }
     }
@@ -2575,7 +2575,7 @@ D_GuitarMusicVoiceIV = {
             
             \set stemLeftBeamCount = 2                               %! SM35
             \set stemRightBeamCount = 0                              %! SM35
-            cs''16
+            cs''!16
             -\staccato                                               %! IC
             ]                                                        %! SM35
             \revert Beam.positions                                   %! OC2

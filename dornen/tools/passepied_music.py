@@ -117,7 +117,7 @@ def passepied_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! SM4
-                                af'32
+                                af'!32
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -159,7 +159,7 @@ def passepied_music():
                                     a'16 ]                                                 %! ACC1
             <BLANKLINE>
                                 }
-                                af'32
+                                af'!32
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -287,14 +287,14 @@ def passepied_music():
                                 % [MusicVoice measure 1]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
-                                af'32
+                                af'!32
                                 [
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
-                                cs'16
+                                cs'!16
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -302,7 +302,7 @@ def passepied_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                bf'16
+                                bf'!16
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 1
@@ -312,11 +312,11 @@ def passepied_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
-                                af'16
+                                af'!16
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                fs'16
+                                fs'!16
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -348,11 +348,11 @@ def passepied_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
-                                af'16
+                                af'!16
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                fs'16
+                                fs'!16
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -370,7 +370,7 @@ def passepied_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                ef'16
+                                ef'!16
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -406,7 +406,7 @@ def passepied_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                ef'16
+                                ef'!16
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -420,7 +420,7 @@ def passepied_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
-                                fs'16
+                                fs'!16
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -456,7 +456,7 @@ def passepied_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
-                                fs'16
+                                fs'!16
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -474,7 +474,7 @@ def passepied_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 0
-                                af'16
+                                af'!16
                                 ]
             <BLANKLINE>
                             }

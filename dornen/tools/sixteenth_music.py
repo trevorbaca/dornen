@@ -125,7 +125,7 @@ def sixteenth_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! SM4
-                                cs'16
+                                cs'!16
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -133,7 +133,7 @@ def sixteenth_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                bf'16
+                                bf'!16
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -141,11 +141,11 @@ def sixteenth_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                af'16
+                                af'!16
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                fs'16
+                                fs'!16
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -163,7 +163,7 @@ def sixteenth_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! SM4
-                                ef'16
+                                ef'!16
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -171,12 +171,12 @@ def sixteenth_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                af'16
+                                af'!16
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 4]                                   %! SM4
-                                fs'16
+                                fs'!16
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -313,14 +313,14 @@ def sixteenth_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! SM4
-                                cs'16
+                                cs'!16
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 c'16
                                 [
             <BLANKLINE>
-                                bf'16
+                                bf'!16
                                 ]
                             }
                             \scaleDurations #'(1 . 1) {
@@ -329,10 +329,10 @@ def sixteenth_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                af'16
+                                af'!16
                                 [
             <BLANKLINE>
-                                fs'16
+                                fs'!16
                                 ]
                             }
                             \scaleDurations #'(1 . 1) {
@@ -347,20 +347,20 @@ def sixteenth_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! SM4
-                                ef'16
+                                ef'!16
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 a'16
                                 [
             <BLANKLINE>
-                                af'16
+                                af'!16
                                 ]
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 4]                                   %! SM4
-                                fs'16
+                                fs'!16
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>

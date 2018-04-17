@@ -121,14 +121,14 @@ def ovoid_music():
                                 % [MusicVoice measure 1]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 1
-                                af'8.
+                                af'!8.
                                 [
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                cs'8.
+                                cs'!8.
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
@@ -147,7 +147,7 @@ def ovoid_music():
                                 % [MusicVoice measure 2]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 1
-                                cs'8.
+                                cs'!8.
                                 [
             <BLANKLINE>
                                 \acciaccatura {
@@ -165,7 +165,7 @@ def ovoid_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                af'8.
+                                af'!8.
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
@@ -184,7 +184,7 @@ def ovoid_music():
                                 % [MusicVoice measure 3]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 1
-                                af'8.
+                                af'!8.
                                 [
             <BLANKLINE>
                                 \acciaccatura {
@@ -213,7 +213,7 @@ def ovoid_music():
                                 }
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0
-                                af'32
+                                af'!32
                                 ]
                             }
                             \scaleDurations #'(1 . 1) {
@@ -233,13 +233,13 @@ def ovoid_music():
                                 }
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 1
-                                af'32
+                                af'!32
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                fs'8.
+                                fs'!8.
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
@@ -258,7 +258,7 @@ def ovoid_music():
                                 % [MusicVoice measure 5]                                   %! SM4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 1
-                                fs'8.
+                                fs'!8.
                                 [
             <BLANKLINE>
                                 \acciaccatura {
@@ -276,7 +276,7 @@ def ovoid_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 0
-                                af'8.
+                                af'!8.
                                 ]
             <BLANKLINE>
                             }

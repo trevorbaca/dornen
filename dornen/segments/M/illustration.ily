@@ -2599,43 +2599,45 @@ M_GuitarMusicVoiceIV = {
     _ \markup {                                                      %! SCORE2
         \whiteout                                                    %! SCORE2
             \upright                                                 %! SCORE2
-                \with-color                                          %! SCORE2
-                    #black                                           %! SCORE2
-                    \right-column                                    %! SCORE2
-                        {                                            %! SCORE2
-                            \line                                    %! SCORE2
-                                {                                    %! SCORE2
-                                    Cambridge,                       %! SCORE2
-                                    MA                               %! SCORE2
-                                    \hspace                          %! SCORE2
-                                        #0.75                        %! SCORE2
-                                    –                                %! SCORE2
-                                    \hspace                          %! SCORE2
-                                        #0.75                        %! SCORE2
-                                    Madison,                         %! SCORE2
-                                    WI                               %! SCORE2
-                                    \hspace                          %! SCORE2
-                                        #0.75                        %! SCORE2
-                                    –                                %! SCORE2
-                                    \hspace                          %! SCORE2
-                                        #0.75                        %! SCORE2
-                                    Palo                             %! SCORE2
-                                    Alto,                            %! SCORE2
-                                    CA.                              %! SCORE2
-                                }                                    %! SCORE2
-                            \line                                    %! SCORE2
-                                {                                    %! SCORE2
-                                    November                         %! SCORE2
-                                    2015                             %! SCORE2
-                                    \hspace                          %! SCORE2
-                                        #0.75                        %! SCORE2
-                                    –                                %! SCORE2
-                                    \hspace                          %! SCORE2
-                                        #0.75                        %! SCORE2
-                                    July                             %! SCORE2
-                                    2016.                            %! SCORE2
-                                }                                    %! SCORE2
-                        }                                            %! SCORE2
+                \override                                            %! SCORE2
+                    #'(font-name . "Palatino")                       %! SCORE2
+                    \with-color                                      %! SCORE2
+                        #black                                       %! SCORE2
+                        \right-column                                %! SCORE2
+                            {                                        %! SCORE2
+                                \line                                %! SCORE2
+                                    {                                %! SCORE2
+                                        Cambridge,                   %! SCORE2
+                                        MA                           %! SCORE2
+                                        \hspace                      %! SCORE2
+                                            #0.75                    %! SCORE2
+                                        –                            %! SCORE2
+                                        \hspace                      %! SCORE2
+                                            #0.75                    %! SCORE2
+                                        Madison,                     %! SCORE2
+                                        WI                           %! SCORE2
+                                        \hspace                      %! SCORE2
+                                            #0.75                    %! SCORE2
+                                        –                            %! SCORE2
+                                        \hspace                      %! SCORE2
+                                            #0.75                    %! SCORE2
+                                        Palo                         %! SCORE2
+                                        Alto,                        %! SCORE2
+                                        CA.                          %! SCORE2
+                                    }                                %! SCORE2
+                                \line                                %! SCORE2
+                                    {                                %! SCORE2
+                                        November                     %! SCORE2
+                                        2015                         %! SCORE2
+                                        \hspace                      %! SCORE2
+                                            #0.75                    %! SCORE2
+                                        –                            %! SCORE2
+                                        \hspace                      %! SCORE2
+                                            #0.75                    %! SCORE2
+                                        July                         %! SCORE2
+                                        2016.                        %! SCORE2
+                                    }                                %! SCORE2
+                            }                                        %! SCORE2
         }                                                            %! SCORE2
     
 }

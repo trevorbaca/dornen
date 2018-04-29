@@ -33,7 +33,7 @@ accumulator(
         'dull (but beautiful) thud with RH muting for each red note',
         direction=abjad.Down,
         ),
-    baca.text_scripts_down(),
+    baca.text_script_down(),
     extend_beam=True,
     figure_name='16_1',
     )
@@ -42,7 +42,7 @@ accumulator(
     'v3',
     design[2:3],
     accumulator.twenty_eighth_music_maker,
-    baca.stems_up(),
+    baca.stem_up(),
     middle_register,
     figure_name='28_1',
     )
@@ -77,7 +77,7 @@ accumulator(
     'v3',
     design[6:7],
     accumulator.twenty_eighth_music_maker,
-    baca.stems_up(),
+    baca.stem_up(),
     middle_register,
     figure_name='28_2',
     )
@@ -136,7 +136,7 @@ accumulator(
     'v3',
     design[13:14],
     accumulator.twenty_eighth_music_maker,
-    baca.stems_up(),
+    baca.stem_up(),
     middle_register,
     figure_name='28_3',
     )
@@ -189,7 +189,7 @@ accumulator(
     'v3',
     design[19:20],
     accumulator.twenty_eighth_music_maker,
-    baca.stems_up(),
+    baca.stem_up(),
     middle_register,
     figure_name='28_4',
     )
@@ -245,5 +245,5 @@ maker(
 maker(
     ('v3', (1, 22)),
     baca.beam_positions(4),
-    baca.staccati(),
+    baca.staccato(),
     )

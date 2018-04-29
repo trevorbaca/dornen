@@ -44,7 +44,7 @@ accumulator(
     design[3:4],
     accumulator.twentieth_music_maker,
     baca.beam_positions(6),
-    baca.stems_up(),
+    baca.stem_up(),
     figure_name='20_2',
     )
 
@@ -154,7 +154,7 @@ accumulator(
     design[3:4],
     accumulator.twentieth_music_maker,
     baca.beam_positions(6),
-    baca.stems_up(),
+    baca.stem_up(),
     figure_name='20_2*',
     )
 
@@ -202,7 +202,7 @@ accumulator(
 #    'v2',
 #    [[6, 6, 6, 6, 6]],
 #    accumulator.tremolo_music_maker,
-#    baca.stems_up(),
+#    baca.stem_up(),
 #    baca.tuplet_bracket_staff_padding(0),
 #    baca.tuplet_bracket_extra_offset((0, -0.5)),
 #    baca.tuplet_number_extra_offset((0, -0.5)),
@@ -216,7 +216,7 @@ accumulator(
     accumulator.monad_music_maker,
     baca.markup.boxed('2-finger tamb. trill'),
     baca.stem_tremolo(),
-    baca.stems_up(),
+    baca.stem_up(),
     baca.repeat_tie(),
     baca.tuplet_bracket_staff_padding(0),
     baca.tuplet_bracket_extra_offset((0, -0.5)),
@@ -286,7 +286,7 @@ accumulator.populate_segment_maker(maker)
 
 maker(
     'v1',
-    baca.tenuti(),
+    baca.tenuto(),
     baca.beam_positions(10),
     baca.register(-12),
     )
@@ -305,14 +305,14 @@ maker(
 
 maker(
     'v3',
-    baca.accents(),
-    baca.scripts_down(),
+    baca.accent(),
+    baca.script_down(),
     baca.register(-20),
     )
 
 maker(
     'v4',
-    baca.staccati(),
+    baca.staccato(),
     baca.beam_positions(5.5),
     baca.register(-4),
     )

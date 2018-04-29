@@ -42,7 +42,7 @@ accumulator(
     design[3:4],
     accumulator.twentieth_music_maker,
     baca.beam_positions(6),
-    baca.stems_up(),
+    baca.stem_up(),
     )
 
 accumulator(
@@ -93,7 +93,7 @@ accumulator(
     design[3:4],
     accumulator.twentieth_music_maker,
     baca.beam_positions(6),
-    baca.stems_up(),
+    baca.stem_up(),
     )
 
 accumulator(
@@ -144,7 +144,7 @@ accumulator(
     design[3:4],
     accumulator.twentieth_music_maker,
     baca.beam_positions(6),
-    baca.stems_up(),
+    baca.stem_up(),
     )
 
 accumulator(
@@ -194,7 +194,7 @@ accumulator(
     design[3:4],
     accumulator.twentieth_music_maker,
     baca.beam_positions(6),
-    baca.stems_up(),
+    baca.stem_up(),
     )
 
 accumulator(
@@ -244,7 +244,7 @@ accumulator(
     design[3:4],
     accumulator.twentieth_music_maker,
     baca.beam_positions(6),
-    baca.stems_up(),
+    baca.stem_up(),
     )
 
 accumulator(
@@ -293,7 +293,7 @@ accumulator(
     design[3:4],
     accumulator.twentieth_music_maker,
     baca.beam_positions(6),
-    baca.stems_up(),
+    baca.stem_up(),
     )
 
 accumulator(
@@ -353,7 +353,7 @@ maker(
     ('v1', (1, 41)),
     baca.beam_positions(10),
     baca.register(-12),
-    baca.tenuti(),
+    baca.tenuto(),
     )
 
 maker(
@@ -364,14 +364,14 @@ maker(
 
 maker(
     ('v3', (1, 41)),
-    baca.accents(),
+    baca.accent(),
     baca.register(-20),
-    baca.scripts_down(),
+    baca.script_down(),
     )
 
 maker(
     ('v4', (1, 41)),
     baca.beam_positions(5.5),
     baca.register(-4),
-    baca.staccati(),
+    baca.staccato(),
     )

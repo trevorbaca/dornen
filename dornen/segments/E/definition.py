@@ -16,7 +16,7 @@ accumulator(
     'v1',
     design[:1],
     accumulator.forty_eighth_music_maker,
-    baca.tenuti(),
+    baca.tenuto(),
     baca.beam_positions(10),
     baca.register(-12),
     extend_beam=True,
@@ -51,7 +51,7 @@ accumulator(
     'v1',
     design[6:7],
     accumulator.forty_eighth_music_maker,
-    baca.tenuti(),
+    baca.tenuto(),
     baca.register(-12),
     figure_name='48_2',
     )
@@ -144,14 +144,14 @@ accumulator.populate_segment_maker(maker)
 
 maker(
     ('v3', (1, 7)),
-    baca.accents(),
-    baca.scripts_down(),
+    baca.accent(),
+    baca.script_down(),
     baca.register(-20),
     )
 
 maker(
     ('v4', (1, 7)),
-    baca.staccati(),
+    baca.staccato(),
     baca.beam_positions(5.5),
     baca.register(-4),
     )

@@ -245,5 +245,5 @@ maker(
 maker(
     ('v3', (1, 22)),
     baca.beam_positions(4),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     )

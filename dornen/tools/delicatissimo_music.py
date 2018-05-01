@@ -489,7 +489,7 @@ def delicatissimo_music():
         rhythmos.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.staccato(),
+        baca.staccato(baca.pheads()),
         baca.tools.PitchFirstRhythmCommand(
             rhythm_maker=baca.tools.PitchFirstRhythmMaker(
                 talea=rhythmos.Talea(

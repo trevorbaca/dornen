@@ -312,7 +312,7 @@ maker(
 
 maker(
     'v4',
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     baca.beam_positions(5.5),
     baca.register(-4),
     )

@@ -16,7 +16,7 @@ accumulator(
     'v1',
     design[:1],
     accumulator.forty_eighth_music_maker,
-    baca.tenuto(),
+    baca.tenuto(baca.pheads()),
     baca.beam_positions(10),
     baca.register(-12),
     extend_beam=True,
@@ -51,7 +51,7 @@ accumulator(
     'v1',
     design[6:7],
     accumulator.forty_eighth_music_maker,
-    baca.tenuto(),
+    baca.tenuto(baca.pheads()),
     baca.register(-12),
     figure_name='48_2',
     )

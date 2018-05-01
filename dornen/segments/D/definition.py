@@ -215,9 +215,9 @@ accumulator(
     [['Gb2']],
     accumulator.monad_music_maker,
     baca.markup.boxed('2-finger tamb. trill'),
-    baca.stem_tremolo(),
-    baca.stem_up(),
     baca.repeat_tie(),
+    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_up(),
     baca.tuplet_bracket_staff_padding(0),
     baca.tuplet_bracket_extra_offset((0, -0.5)),
     baca.tuplet_number_extra_offset((0, -0.5)),
@@ -286,7 +286,7 @@ accumulator.populate_segment_maker(maker)
 
 maker(
     'v1',
-    baca.tenuto(),
+    baca.tenuto(baca.pheads()),
     baca.beam_positions(10),
     baca.register(-12),
     )

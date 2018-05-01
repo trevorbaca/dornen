@@ -305,7 +305,7 @@ maker(
 
 maker(
     'v3',
-    baca.accent(),
+    baca.accent(baca.pheads()),
     baca.script_down(),
     baca.register(-20),
     )

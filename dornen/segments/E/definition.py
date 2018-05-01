@@ -144,7 +144,7 @@ accumulator.populate_segment_maker(maker)
 
 maker(
     ('v3', (1, 7)),
-    baca.accent(),
+    baca.accent(baca.pheads()),
     baca.script_down(),
     baca.register(-20),
     )

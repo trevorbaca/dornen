@@ -323,8 +323,8 @@ accumulator(
         direction=abjad.Up,
         ),
     baca.register(-20),
-    baca.stem_tremolo(),
     baca.repeat_tie(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 spacing = baca.HorizontalSpacingSpecifier(
@@ -353,7 +353,7 @@ maker(
     ('v1', (1, 41)),
     baca.beam_positions(10),
     baca.register(-12),
-    baca.tenuto(),
+    baca.tenuto(baca.pheads()),
     )
 
 maker(

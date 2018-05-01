@@ -192,8 +192,8 @@ accumulator.populate_segment_maker(maker)
 maker(
     'v1',
     baca.register(-20),
-    baca.stem_tremolo(),
     baca.repeat_tie(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 maker(

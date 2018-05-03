@@ -886,7 +886,8 @@ C_GuitarMusicVoiceI = {
                                 tupletFullLength = ##t
                             }
                             {
-                                c'8 ~
+                                c'8
+                                ~
                                 c'32
                             }
                         >>
@@ -1013,7 +1014,8 @@ C_GuitarMusicVoiceI = {
                                 tupletFullLength = ##t
                             }
                             {
-                                c'16 ~
+                                c'16
+                                ~
                                 c'64
                             }
                         >>
@@ -1068,7 +1070,8 @@ C_GuitarMusicVoiceI = {
                                 tupletFullLength = ##t
                             }
                             {
-                                c'8 ~
+                                c'8
+                                ~
                                 c'32.
                             }
                         >>
@@ -1279,7 +1282,8 @@ C_GuitarMusicVoiceI = {
                                 tupletFullLength = ##t
                             }
                             {
-                                c'8 ~
+                                c'8
+                                ~
                                 c'32
                             }
                         >>
@@ -1406,7 +1410,8 @@ C_GuitarMusicVoiceI = {
                                 tupletFullLength = ##t
                             }
                             {
-                                c'8 ~
+                                c'8
+                                ~
                                 c'32
                             }
                         >>

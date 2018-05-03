@@ -1686,7 +1686,8 @@ H_GuitarMusicVoiceIII = {
                                 tupletFullLength = ##t
                             }
                             {
-                                c'2 ~
+                                c'2
+                                ~
                                 c'8.
                             }
                         >>
@@ -1793,7 +1794,8 @@ H_GuitarMusicVoiceIII = {
                                 tupletFullLength = ##t
                             }
                             {
-                                c'2 ~
+                                c'2
+                                ~
                                 c'8.
                             }
                         >>

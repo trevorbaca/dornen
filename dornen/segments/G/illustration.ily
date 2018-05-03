@@ -696,9 +696,11 @@ G_GuitarMusicVoiceII = {
             
             \acciaccatura {
                 
-                ef'16 [                                              %! ACC1
+                ef'16
+                [                                                    %! ACC1
                 
-                fs'16 ]                                              %! ACC1
+                fs'16
+                ]                                                    %! ACC1
                 
             }
             \set stemLeftBeamCount = 3
@@ -740,13 +742,15 @@ G_GuitarMusicVoiceII = {
             
             \acciaccatura {
                 
-                a'16 [                                               %! ACC1
+                a'16
+                [                                                    %! ACC1
                 
                 g'16
                 
                 bf'16
                 
-                ef''16 ]                                             %! ACC1
+                ef''16
+                ]                                                    %! ACC1
                 
             }
             \set stemLeftBeamCount = 3                               %! SM35
@@ -785,13 +789,15 @@ G_GuitarMusicVoiceII = {
             
             \acciaccatura {
                 
-                ef''16 [                                             %! ACC1
+                ef''16
+                [                                                    %! ACC1
                 
                 c''16
                 
                 d''16
                 
-                g''16 ]                                              %! ACC1
+                g''16
+                ]                                                    %! ACC1
                 
             }
             \set stemLeftBeamCount = 3                               %! SM35

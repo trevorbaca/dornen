@@ -1058,24 +1058,25 @@ i_GuitarMusicVoiceII = {
             % [_ GuitarMusicVoiceII measure 2]                       %! SM4
             \acciaccatura {
                 
-                fs'16 [                                              %! ACC1
-                %%% ^ \markup {                                      %! FIGURE_NAME_MARKUP
-                %%%     \fontsize                                    %! FIGURE_NAME_MARKUP
-                %%%         #2                                       %! FIGURE_NAME_MARKUP
-                %%%         \concat                                  %! FIGURE_NAME_MARKUP
-                %%%             {                                    %! FIGURE_NAME_MARKUP
-                %%%                 [                                %! FIGURE_NAME_MARKUP
-                %%%                 2                                %! FIGURE_NAME_MARKUP
-                %%%                 \hspace                          %! FIGURE_NAME_MARKUP
-                %%%                     #1                           %! FIGURE_NAME_MARKUP
-                %%%                 \raise                           %! FIGURE_NAME_MARKUP
-                %%%                     #0.25                        %! FIGURE_NAME_MARKUP
-                %%%                     \fontsize                    %! FIGURE_NAME_MARKUP
-                %%%                         #-2                      %! FIGURE_NAME_MARKUP
-                %%%                         (1)                      %! FIGURE_NAME_MARKUP
-                %%%                 ]                                %! FIGURE_NAME_MARKUP
-                %%%             }                                    %! FIGURE_NAME_MARKUP
-                %%%     }                                            %! FIGURE_NAME_MARKUP
+                fs'16
+                [                                                    %! ACC1
+            %%% ^ \markup {                                          %! FIGURE_NAME_MARKUP
+            %%%     \fontsize                                        %! FIGURE_NAME_MARKUP
+            %%%         #2                                           %! FIGURE_NAME_MARKUP
+            %%%         \concat                                      %! FIGURE_NAME_MARKUP
+            %%%             {                                        %! FIGURE_NAME_MARKUP
+            %%%                 [                                    %! FIGURE_NAME_MARKUP
+            %%%                 2                                    %! FIGURE_NAME_MARKUP
+            %%%                 \hspace                              %! FIGURE_NAME_MARKUP
+            %%%                     #1                               %! FIGURE_NAME_MARKUP
+            %%%                 \raise                               %! FIGURE_NAME_MARKUP
+            %%%                     #0.25                            %! FIGURE_NAME_MARKUP
+            %%%                     \fontsize                        %! FIGURE_NAME_MARKUP
+            %%%                         #-2                          %! FIGURE_NAME_MARKUP
+            %%%                         (1)                          %! FIGURE_NAME_MARKUP
+            %%%                 ]                                    %! FIGURE_NAME_MARKUP
+            %%%             }                                        %! FIGURE_NAME_MARKUP
+            %%%     }                                                %! FIGURE_NAME_MARKUP
                 
                 d'16
                 
@@ -1085,7 +1086,8 @@ i_GuitarMusicVoiceII = {
                 
                 a'16
                 
-                af'16 ]                                              %! ACC1
+                af'16
+                ]                                                    %! ACC1
                 
             }
             \once \override Beam.positions = #'(-10 . -10)           %! OC1
@@ -1105,24 +1107,25 @@ i_GuitarMusicVoiceII = {
             % [_ GuitarMusicVoiceII measure 4]                       %! SM4
             \acciaccatura {
                 
-                bf'16 [                                              %! ACC1
-                %%% ^ \markup {                                      %! FIGURE_NAME_MARKUP
-                %%%     \fontsize                                    %! FIGURE_NAME_MARKUP
-                %%%         #2                                       %! FIGURE_NAME_MARKUP
-                %%%         \concat                                  %! FIGURE_NAME_MARKUP
-                %%%             {                                    %! FIGURE_NAME_MARKUP
-                %%%                 [                                %! FIGURE_NAME_MARKUP
-                %%%                 4                                %! FIGURE_NAME_MARKUP
-                %%%                 \hspace                          %! FIGURE_NAME_MARKUP
-                %%%                     #1                           %! FIGURE_NAME_MARKUP
-                %%%                 \raise                           %! FIGURE_NAME_MARKUP
-                %%%                     #0.25                        %! FIGURE_NAME_MARKUP
-                %%%                     \fontsize                    %! FIGURE_NAME_MARKUP
-                %%%                         #-2                      %! FIGURE_NAME_MARKUP
-                %%%                         (3)                      %! FIGURE_NAME_MARKUP
-                %%%                 ]                                %! FIGURE_NAME_MARKUP
-                %%%             }                                    %! FIGURE_NAME_MARKUP
-                %%%     }                                            %! FIGURE_NAME_MARKUP
+                bf'16
+                [                                                    %! ACC1
+            %%% ^ \markup {                                          %! FIGURE_NAME_MARKUP
+            %%%     \fontsize                                        %! FIGURE_NAME_MARKUP
+            %%%         #2                                           %! FIGURE_NAME_MARKUP
+            %%%         \concat                                      %! FIGURE_NAME_MARKUP
+            %%%             {                                        %! FIGURE_NAME_MARKUP
+            %%%                 [                                    %! FIGURE_NAME_MARKUP
+            %%%                 4                                    %! FIGURE_NAME_MARKUP
+            %%%                 \hspace                              %! FIGURE_NAME_MARKUP
+            %%%                     #1                               %! FIGURE_NAME_MARKUP
+            %%%                 \raise                               %! FIGURE_NAME_MARKUP
+            %%%                     #0.25                            %! FIGURE_NAME_MARKUP
+            %%%                     \fontsize                        %! FIGURE_NAME_MARKUP
+            %%%                         #-2                          %! FIGURE_NAME_MARKUP
+            %%%                         (3)                          %! FIGURE_NAME_MARKUP
+            %%%                 ]                                    %! FIGURE_NAME_MARKUP
+            %%%             }                                        %! FIGURE_NAME_MARKUP
+            %%%     }                                                %! FIGURE_NAME_MARKUP
                 
                 g'16
                 
@@ -1130,7 +1133,8 @@ i_GuitarMusicVoiceII = {
                 
                 af'16
                 
-                c''16 ]                                              %! ACC1
+                c''16
+                ]                                                    %! ACC1
                 
             }
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0) %! OC1
@@ -1148,30 +1152,32 @@ i_GuitarMusicVoiceII = {
             % [_ GuitarMusicVoiceII measure 6]                       %! SM4
             \acciaccatura {
                 
-                b'16 [                                               %! ACC1
-                %%% ^ \markup {                                      %! FIGURE_NAME_MARKUP
-                %%%     \fontsize                                    %! FIGURE_NAME_MARKUP
-                %%%         #2                                       %! FIGURE_NAME_MARKUP
-                %%%         \concat                                  %! FIGURE_NAME_MARKUP
-                %%%             {                                    %! FIGURE_NAME_MARKUP
-                %%%                 [                                %! FIGURE_NAME_MARKUP
-                %%%                 6                                %! FIGURE_NAME_MARKUP
-                %%%                 \hspace                          %! FIGURE_NAME_MARKUP
-                %%%                     #1                           %! FIGURE_NAME_MARKUP
-                %%%                 \raise                           %! FIGURE_NAME_MARKUP
-                %%%                     #0.25                        %! FIGURE_NAME_MARKUP
-                %%%                     \fontsize                    %! FIGURE_NAME_MARKUP
-                %%%                         #-2                      %! FIGURE_NAME_MARKUP
-                %%%                         (5)                      %! FIGURE_NAME_MARKUP
-                %%%                 ]                                %! FIGURE_NAME_MARKUP
-                %%%             }                                    %! FIGURE_NAME_MARKUP
-                %%%     }                                            %! FIGURE_NAME_MARKUP
+                b'16
+                [                                                    %! ACC1
+            %%% ^ \markup {                                          %! FIGURE_NAME_MARKUP
+            %%%     \fontsize                                        %! FIGURE_NAME_MARKUP
+            %%%         #2                                           %! FIGURE_NAME_MARKUP
+            %%%         \concat                                      %! FIGURE_NAME_MARKUP
+            %%%             {                                        %! FIGURE_NAME_MARKUP
+            %%%                 [                                    %! FIGURE_NAME_MARKUP
+            %%%                 6                                    %! FIGURE_NAME_MARKUP
+            %%%                 \hspace                              %! FIGURE_NAME_MARKUP
+            %%%                     #1                               %! FIGURE_NAME_MARKUP
+            %%%                 \raise                               %! FIGURE_NAME_MARKUP
+            %%%                     #0.25                            %! FIGURE_NAME_MARKUP
+            %%%                     \fontsize                        %! FIGURE_NAME_MARKUP
+            %%%                         #-2                          %! FIGURE_NAME_MARKUP
+            %%%                         (5)                          %! FIGURE_NAME_MARKUP
+            %%%                 ]                                    %! FIGURE_NAME_MARKUP
+            %%%             }                                        %! FIGURE_NAME_MARKUP
+            %%%     }                                                %! FIGURE_NAME_MARKUP
                 
                 fs'16
                 
                 d''16
                 
-                ef''16 ]                                             %! ACC1
+                ef''16
+                ]                                                    %! ACC1
                 
             }
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0) %! OC1
@@ -1190,30 +1196,32 @@ i_GuitarMusicVoiceII = {
             % [_ GuitarMusicVoiceII measure 8]                       %! SM4
             \acciaccatura {
                 
-                bf'16 [                                              %! ACC1
-                %%% ^ \markup {                                      %! FIGURE_NAME_MARKUP
-                %%%     \fontsize                                    %! FIGURE_NAME_MARKUP
-                %%%         #2                                       %! FIGURE_NAME_MARKUP
-                %%%         \concat                                  %! FIGURE_NAME_MARKUP
-                %%%             {                                    %! FIGURE_NAME_MARKUP
-                %%%                 [                                %! FIGURE_NAME_MARKUP
-                %%%                 8                                %! FIGURE_NAME_MARKUP
-                %%%                 \hspace                          %! FIGURE_NAME_MARKUP
-                %%%                     #1                           %! FIGURE_NAME_MARKUP
-                %%%                 \raise                           %! FIGURE_NAME_MARKUP
-                %%%                     #0.25                        %! FIGURE_NAME_MARKUP
-                %%%                     \fontsize                    %! FIGURE_NAME_MARKUP
-                %%%                         #-2                      %! FIGURE_NAME_MARKUP
-                %%%                         (7)                      %! FIGURE_NAME_MARKUP
-                %%%                 ]                                %! FIGURE_NAME_MARKUP
-                %%%             }                                    %! FIGURE_NAME_MARKUP
-                %%%     }                                            %! FIGURE_NAME_MARKUP
+                bf'16
+                [                                                    %! ACC1
+            %%% ^ \markup {                                          %! FIGURE_NAME_MARKUP
+            %%%     \fontsize                                        %! FIGURE_NAME_MARKUP
+            %%%         #2                                           %! FIGURE_NAME_MARKUP
+            %%%         \concat                                      %! FIGURE_NAME_MARKUP
+            %%%             {                                        %! FIGURE_NAME_MARKUP
+            %%%                 [                                    %! FIGURE_NAME_MARKUP
+            %%%                 8                                    %! FIGURE_NAME_MARKUP
+            %%%                 \hspace                              %! FIGURE_NAME_MARKUP
+            %%%                     #1                               %! FIGURE_NAME_MARKUP
+            %%%                 \raise                               %! FIGURE_NAME_MARKUP
+            %%%                     #0.25                            %! FIGURE_NAME_MARKUP
+            %%%                     \fontsize                        %! FIGURE_NAME_MARKUP
+            %%%                         #-2                          %! FIGURE_NAME_MARKUP
+            %%%                         (7)                          %! FIGURE_NAME_MARKUP
+            %%%                 ]                                    %! FIGURE_NAME_MARKUP
+            %%%             }                                        %! FIGURE_NAME_MARKUP
+            %%%     }                                                %! FIGURE_NAME_MARKUP
                 
                 d''16
                 
                 ef''16
                 
-                e''16 ]                                              %! ACC1
+                e''16
+                ]                                                    %! ACC1
                 
             }
             \once \override Beam.positions = #'(-10 . -10)           %! OC1
@@ -1233,24 +1241,25 @@ i_GuitarMusicVoiceII = {
             % [_ GuitarMusicVoiceII measure 13]                      %! SM4
             \acciaccatura {
                 
-                a''16 [                                              %! ACC1
-                %%% ^ \markup {                                      %! FIGURE_NAME_MARKUP
-                %%%     \fontsize                                    %! FIGURE_NAME_MARKUP
-                %%%         #2                                       %! FIGURE_NAME_MARKUP
-                %%%         \concat                                  %! FIGURE_NAME_MARKUP
-                %%%             {                                    %! FIGURE_NAME_MARKUP
-                %%%                 [                                %! FIGURE_NAME_MARKUP
-                %%%                 13                               %! FIGURE_NAME_MARKUP
-                %%%                 \hspace                          %! FIGURE_NAME_MARKUP
-                %%%                     #1                           %! FIGURE_NAME_MARKUP
-                %%%                 \raise                           %! FIGURE_NAME_MARKUP
-                %%%                     #0.25                        %! FIGURE_NAME_MARKUP
-                %%%                     \fontsize                    %! FIGURE_NAME_MARKUP
-                %%%                         #-2                      %! FIGURE_NAME_MARKUP
-                %%%                         (12)                     %! FIGURE_NAME_MARKUP
-                %%%                 ]                                %! FIGURE_NAME_MARKUP
-                %%%             }                                    %! FIGURE_NAME_MARKUP
-                %%%     }                                            %! FIGURE_NAME_MARKUP
+                a''16
+                [                                                    %! ACC1
+            %%% ^ \markup {                                          %! FIGURE_NAME_MARKUP
+            %%%     \fontsize                                        %! FIGURE_NAME_MARKUP
+            %%%         #2                                           %! FIGURE_NAME_MARKUP
+            %%%         \concat                                      %! FIGURE_NAME_MARKUP
+            %%%             {                                        %! FIGURE_NAME_MARKUP
+            %%%                 [                                    %! FIGURE_NAME_MARKUP
+            %%%                 13                                   %! FIGURE_NAME_MARKUP
+            %%%                 \hspace                              %! FIGURE_NAME_MARKUP
+            %%%                     #1                               %! FIGURE_NAME_MARKUP
+            %%%                 \raise                               %! FIGURE_NAME_MARKUP
+            %%%                     #0.25                            %! FIGURE_NAME_MARKUP
+            %%%                     \fontsize                        %! FIGURE_NAME_MARKUP
+            %%%                         #-2                          %! FIGURE_NAME_MARKUP
+            %%%                         (12)                         %! FIGURE_NAME_MARKUP
+            %%%                 ]                                    %! FIGURE_NAME_MARKUP
+            %%%             }                                        %! FIGURE_NAME_MARKUP
+            %%%     }                                                %! FIGURE_NAME_MARKUP
                 
                 cs''16
                 
@@ -1264,7 +1273,8 @@ i_GuitarMusicVoiceII = {
                 
                 g''16
                 
-                ef''16 ]                                             %! ACC1
+                ef''16
+                ]                                                    %! ACC1
                 
             }
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0) %! OC1
@@ -1283,24 +1293,25 @@ i_GuitarMusicVoiceII = {
             % [_ GuitarMusicVoiceII measure 15]                      %! SM4
             \acciaccatura {
                 
-                b''16 [                                              %! ACC1
-                %%% ^ \markup {                                      %! FIGURE_NAME_MARKUP
-                %%%     \fontsize                                    %! FIGURE_NAME_MARKUP
-                %%%         #2                                       %! FIGURE_NAME_MARKUP
-                %%%         \concat                                  %! FIGURE_NAME_MARKUP
-                %%%             {                                    %! FIGURE_NAME_MARKUP
-                %%%                 [                                %! FIGURE_NAME_MARKUP
-                %%%                 15                               %! FIGURE_NAME_MARKUP
-                %%%                 \hspace                          %! FIGURE_NAME_MARKUP
-                %%%                     #1                           %! FIGURE_NAME_MARKUP
-                %%%                 \raise                           %! FIGURE_NAME_MARKUP
-                %%%                     #0.25                        %! FIGURE_NAME_MARKUP
-                %%%                     \fontsize                    %! FIGURE_NAME_MARKUP
-                %%%                         #-2                      %! FIGURE_NAME_MARKUP
-                %%%                         (14)                     %! FIGURE_NAME_MARKUP
-                %%%                 ]                                %! FIGURE_NAME_MARKUP
-                %%%             }                                    %! FIGURE_NAME_MARKUP
-                %%%     }                                            %! FIGURE_NAME_MARKUP
+                b''16
+                [                                                    %! ACC1
+            %%% ^ \markup {                                          %! FIGURE_NAME_MARKUP
+            %%%     \fontsize                                        %! FIGURE_NAME_MARKUP
+            %%%         #2                                           %! FIGURE_NAME_MARKUP
+            %%%         \concat                                      %! FIGURE_NAME_MARKUP
+            %%%             {                                        %! FIGURE_NAME_MARKUP
+            %%%                 [                                    %! FIGURE_NAME_MARKUP
+            %%%                 15                                   %! FIGURE_NAME_MARKUP
+            %%%                 \hspace                              %! FIGURE_NAME_MARKUP
+            %%%                     #1                               %! FIGURE_NAME_MARKUP
+            %%%                 \raise                               %! FIGURE_NAME_MARKUP
+            %%%                     #0.25                            %! FIGURE_NAME_MARKUP
+            %%%                     \fontsize                        %! FIGURE_NAME_MARKUP
+            %%%                         #-2                          %! FIGURE_NAME_MARKUP
+            %%%                         (14)                         %! FIGURE_NAME_MARKUP
+            %%%                 ]                                    %! FIGURE_NAME_MARKUP
+            %%%             }                                        %! FIGURE_NAME_MARKUP
+            %%%     }                                                %! FIGURE_NAME_MARKUP
                 
                 g''16
                 
@@ -1314,7 +1325,8 @@ i_GuitarMusicVoiceII = {
                 
                 a''16
                 
-                cs''16 ]                                             %! ACC1
+                cs''16
+                ]                                                    %! ACC1
                 
             }
             \once \override Beam.positions = #'(-10 . -10)           %! OC1
@@ -1331,28 +1343,30 @@ i_GuitarMusicVoiceII = {
             % [_ GuitarMusicVoiceII measure 16]                      %! SM4
             \acciaccatura {
                 
-                ef''16 [                                             %! ACC1
-                %%% ^ \markup {                                      %! FIGURE_NAME_MARKUP
-                %%%     \fontsize                                    %! FIGURE_NAME_MARKUP
-                %%%         #2                                       %! FIGURE_NAME_MARKUP
-                %%%         \concat                                  %! FIGURE_NAME_MARKUP
-                %%%             {                                    %! FIGURE_NAME_MARKUP
-                %%%                 [                                %! FIGURE_NAME_MARKUP
-                %%%                 16                               %! FIGURE_NAME_MARKUP
-                %%%                 \hspace                          %! FIGURE_NAME_MARKUP
-                %%%                     #1                           %! FIGURE_NAME_MARKUP
-                %%%                 \raise                           %! FIGURE_NAME_MARKUP
-                %%%                     #0.25                        %! FIGURE_NAME_MARKUP
-                %%%                     \fontsize                    %! FIGURE_NAME_MARKUP
-                %%%                         #-2                      %! FIGURE_NAME_MARKUP
-                %%%                         (15)                     %! FIGURE_NAME_MARKUP
-                %%%                 ]                                %! FIGURE_NAME_MARKUP
-                %%%             }                                    %! FIGURE_NAME_MARKUP
-                %%%     }                                            %! FIGURE_NAME_MARKUP
+                ef''16
+                [                                                    %! ACC1
+            %%% ^ \markup {                                          %! FIGURE_NAME_MARKUP
+            %%%     \fontsize                                        %! FIGURE_NAME_MARKUP
+            %%%         #2                                           %! FIGURE_NAME_MARKUP
+            %%%         \concat                                      %! FIGURE_NAME_MARKUP
+            %%%             {                                        %! FIGURE_NAME_MARKUP
+            %%%                 [                                    %! FIGURE_NAME_MARKUP
+            %%%                 16                                   %! FIGURE_NAME_MARKUP
+            %%%                 \hspace                              %! FIGURE_NAME_MARKUP
+            %%%                     #1                               %! FIGURE_NAME_MARKUP
+            %%%                 \raise                               %! FIGURE_NAME_MARKUP
+            %%%                     #0.25                            %! FIGURE_NAME_MARKUP
+            %%%                     \fontsize                        %! FIGURE_NAME_MARKUP
+            %%%                         #-2                          %! FIGURE_NAME_MARKUP
+            %%%                         (15)                         %! FIGURE_NAME_MARKUP
+            %%%                 ]                                    %! FIGURE_NAME_MARKUP
+            %%%             }                                        %! FIGURE_NAME_MARKUP
+            %%%     }                                                %! FIGURE_NAME_MARKUP
                 
                 e''16
                 
-                f''16 ]                                              %! ACC1
+                f''16
+                ]                                                    %! ACC1
                 
             }
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0) %! OC1

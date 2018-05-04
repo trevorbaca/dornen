@@ -1837,16 +1837,6 @@ L_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [L GuitarMusicVoiceI measure 258]                      %! SM4
-            \once \override TextSpanner.bound-details.right.text = \markup {
-                \concat
-                    {
-                        \hspace
-                            #0.0
-                        \whiteout
-                            \upright
-                                "kn. rasg."
-                    }
-                }                                                    %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
@@ -1875,6 +1865,16 @@ L_GuitarMusicVoiceI = {
             -\tweak bound-details.right-broken.text ##f              %! PWC1
             -\tweak bound-details.right.padding 0.5                  %! PWC1
             -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+            -\tweak bound-details.right.text \markup {
+                \concat
+                    {
+                        \hspace
+                            #0.0
+                        \whiteout
+                            \upright
+                                "kn. rasg."
+                    }
+                }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -1940,16 +1940,6 @@ L_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [L GuitarMusicVoiceI measure 260]                      %! SM4
-            \once \override TextSpanner.bound-details.right.text = \markup {
-                \concat
-                    {
-                        \hspace
-                            #0.0
-                        \whiteout
-                            \upright
-                                "tamb. tr."
-                    }
-                }                                                    %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
@@ -1978,6 +1968,16 @@ L_GuitarMusicVoiceI = {
             -\tweak bound-details.right-broken.text ##f              %! PWC1
             -\tweak bound-details.right.padding 0.5                  %! PWC1
             -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+            -\tweak bound-details.right.text \markup {
+                \concat
+                    {
+                        \hspace
+                            #0.0
+                        \whiteout
+                            \upright
+                                "tamb. tr."
+                    }
+                }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2090,16 +2090,6 @@ L_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [L GuitarMusicVoiceI measure 263]                      %! SM4
-            \once \override TextSpanner.bound-details.right.text = \markup {
-                \concat
-                    {
-                        \hspace
-                            #0.0
-                        \whiteout
-                            \upright
-                                "kn. rasg."
-                    }
-                }                                                    %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
@@ -2128,6 +2118,16 @@ L_GuitarMusicVoiceI = {
             -\tweak bound-details.right-broken.text ##f              %! PWC1
             -\tweak bound-details.right.padding 0.5                  %! PWC1
             -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+            -\tweak bound-details.right.text \markup {
+                \concat
+                    {
+                        \hspace
+                            #0.0
+                        \whiteout
+                            \upright
+                                "kn. rasg."
+                    }
+                }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2193,16 +2193,6 @@ L_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [L GuitarMusicVoiceI measure 265]                      %! SM4
-            \once \override TextSpanner.bound-details.right.text = \markup {
-                \concat
-                    {
-                        \hspace
-                            #0.0
-                        \whiteout
-                            \upright
-                                "tamb. tr."
-                    }
-                }                                                    %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
@@ -2231,6 +2221,16 @@ L_GuitarMusicVoiceI = {
             -\tweak bound-details.right-broken.text ##f              %! PWC1
             -\tweak bound-details.right.padding 0.5                  %! PWC1
             -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+            -\tweak bound-details.right.text \markup {
+                \concat
+                    {
+                        \hspace
+                            #0.0
+                        \whiteout
+                            \upright
+                                "tamb. tr."
+                    }
+                }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2343,16 +2343,6 @@ L_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [L GuitarMusicVoiceI measure 268]                      %! SM4
-            \once \override TextSpanner.bound-details.right.text = \markup {
-                \concat
-                    {
-                        \hspace
-                            #0.0
-                        \whiteout
-                            \upright
-                                "kn. rasg."
-                    }
-                }                                                    %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
@@ -2381,6 +2371,16 @@ L_GuitarMusicVoiceI = {
             -\tweak bound-details.right-broken.text ##f              %! PWC1
             -\tweak bound-details.right.padding 0.5                  %! PWC1
             -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+            -\tweak bound-details.right.text \markup {
+                \concat
+                    {
+                        \hspace
+                            #0.0
+                        \whiteout
+                            \upright
+                                "kn. rasg."
+                    }
+                }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2515,16 +2515,6 @@ L_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [L GuitarMusicVoiceI measure 272]                      %! SM4
-            \once \override TextSpanner.bound-details.right.text = \markup {
-                \concat
-                    {
-                        \hspace
-                            #0.0
-                        \whiteout
-                            \upright
-                                "nail rasg."
-                    }
-                }                                                    %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
@@ -2553,6 +2543,16 @@ L_GuitarMusicVoiceI = {
             -\tweak bound-details.right-broken.text ##f              %! PWC1
             -\tweak bound-details.right.padding 0.5                  %! PWC1
             -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+            -\tweak bound-details.right.text \markup {
+                \concat
+                    {
+                        \hspace
+                            #0.0
+                        \whiteout
+                            \upright
+                                "nail rasg."
+                    }
+                }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2622,16 +2622,6 @@ L_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [L GuitarMusicVoiceI measure 274]                      %! SM4
-            \once \override TextSpanner.bound-details.right.text = \markup {
-                \concat
-                    {
-                        \hspace
-                            #0.0
-                        \whiteout
-                            \upright
-                                "kn. rasg."
-                    }
-                }                                                    %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
@@ -2660,6 +2650,16 @@ L_GuitarMusicVoiceI = {
             -\tweak bound-details.right-broken.text ##f              %! PWC1
             -\tweak bound-details.right.padding 0.5                  %! PWC1
             -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+            -\tweak bound-details.right.text \markup {
+                \concat
+                    {
+                        \hspace
+                            #0.0
+                        \whiteout
+                            \upright
+                                "kn. rasg."
+                    }
+                }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2725,16 +2725,6 @@ L_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [L GuitarMusicVoiceI measure 276]                      %! SM4
-            \once \override TextSpanner.bound-details.right.text = \markup {
-                \concat
-                    {
-                        \hspace
-                            #0.0
-                        \whiteout
-                            \upright
-                                "nail rasg."
-                    }
-                }                                                    %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
@@ -2763,6 +2753,16 @@ L_GuitarMusicVoiceI = {
             -\tweak bound-details.right-broken.text ##f              %! PWC1
             -\tweak bound-details.right.padding 0.5                  %! PWC1
             -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+            -\tweak bound-details.right.text \markup {
+                \concat
+                    {
+                        \hspace
+                            #0.0
+                        \whiteout
+                            \upright
+                                "nail rasg."
+                    }
+                }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2835,16 +2835,6 @@ L_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [L GuitarMusicVoiceI measure 278]                      %! SM4
-            \once \override TextSpanner.bound-details.right.text = \markup {
-                \concat
-                    {
-                        \hspace
-                            #0.0
-                        \whiteout
-                            \upright
-                                "kn. rasg."
-                    }
-                }                                                    %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
@@ -2873,6 +2863,16 @@ L_GuitarMusicVoiceI = {
             -\tweak bound-details.right-broken.text ##f              %! PWC1
             -\tweak bound-details.right.padding 0.5                  %! PWC1
             -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+            -\tweak bound-details.right.text \markup {
+                \concat
+                    {
+                        \hspace
+                            #0.0
+                        \whiteout
+                            \upright
+                                "kn. rasg."
+                    }
+                }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -2938,16 +2938,6 @@ L_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [L GuitarMusicVoiceI measure 280]                      %! SM4
-            \once \override TextSpanner.bound-details.right.text = \markup {
-                \concat
-                    {
-                        \hspace
-                            #0.0
-                        \whiteout
-                            \upright
-                                "nail rasg."
-                    }
-                }                                                    %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
@@ -2976,6 +2966,16 @@ L_GuitarMusicVoiceI = {
             -\tweak bound-details.right-broken.text ##f              %! PWC1
             -\tweak bound-details.right.padding 0.5                  %! PWC1
             -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+            -\tweak bound-details.right.text \markup {
+                \concat
+                    {
+                        \hspace
+                            #0.0
+                        \whiteout
+                            \upright
+                                "nail rasg."
+                    }
+                }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3101,16 +3101,6 @@ L_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [L GuitarMusicVoiceI measure 283]                      %! SM4
-            \once \override TextSpanner.bound-details.right.text = \markup {
-                \concat
-                    {
-                        \hspace
-                            #0.0
-                        \whiteout
-                            \upright
-                                ponticello
-                    }
-                }                                                    %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
@@ -3139,6 +3129,16 @@ L_GuitarMusicVoiceI = {
             -\tweak bound-details.right-broken.text ##f              %! PWC1
             -\tweak bound-details.right.padding 0.5                  %! PWC1
             -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+            -\tweak bound-details.right.text \markup {
+                \concat
+                    {
+                        \hspace
+                            #0.0
+                        \whiteout
+                            \upright
+                                ponticello
+                    }
+                }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
@@ -3747,16 +3747,6 @@ L_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [L GuitarMusicVoiceI measure 297]                      %! SM4
-            \once \override TextSpanner.bound-details.right.text = \markup {
-                \concat
-                    {
-                        \hspace
-                            #0.0
-                        \whiteout
-                            \upright
-                                still
-                    }
-                }                                                    %! PWC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
@@ -3787,6 +3777,16 @@ L_GuitarMusicVoiceI = {
             -\tweak bound-details.right-broken.text ##f              %! PWC1
             -\tweak bound-details.right.padding 0.5                  %! PWC1
             -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+            -\tweak bound-details.right.text \markup {
+                \concat
+                    {
+                        \hspace
+                            #0.0
+                        \whiteout
+                            \upright
+                                still
+                    }
+                }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP

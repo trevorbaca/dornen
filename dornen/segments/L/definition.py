@@ -365,7 +365,7 @@ maker(
     baca.transition(
         baca.markup.tamb_tr(),
         baca.markup.kn_rasg(),
-        selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     )
 
@@ -375,7 +375,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
-        selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     )
 
@@ -385,7 +385,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     )
 
@@ -395,7 +395,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
-        selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     )
 
@@ -405,7 +405,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     )
 
@@ -420,7 +420,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.nail_rasg(),
-        selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     )
 
@@ -430,7 +430,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     )
 
@@ -440,7 +440,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.nail_rasg(),
-        selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     )
 
@@ -450,7 +450,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     )
 
@@ -460,7 +460,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.nail_rasg(),
-        selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     )
 
@@ -564,7 +564,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.ponticello(),
-        selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     )
 
@@ -573,7 +573,7 @@ maker(
     baca.transition(
         baca.markup('gradually slow rasgueado'),
         baca.markup.still(),
-        selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     baca.text_script_staff_padding(
         5.5,

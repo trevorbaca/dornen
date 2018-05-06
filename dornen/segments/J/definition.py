@@ -241,7 +241,8 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        selector=baca.rleaves().group(),
+        #selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     )
 
@@ -251,7 +252,8 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
-        selector=baca.rleaves().group(),
+        #selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     )
 
@@ -261,7 +263,8 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        selector=baca.rleaves().group(),
+        #selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     )
 
@@ -271,7 +274,8 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
-        selector=baca.rleaves().group(),
+        #selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     )
 
@@ -281,7 +285,8 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        selector=baca.rleaves().group(),
+        #selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     )
 
@@ -291,6 +296,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
-        selector=baca.rleaves().group(),
+        #selector=baca.rleaves().group(),
+        spanner_selector=baca.rleaves(),
         ),
     )

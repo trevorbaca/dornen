@@ -3965,13 +3965,13 @@ L_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [L GuitarMusicVoiceI measure 301]                      %! SM4
-            \once \override Hairpin.circled-tip = ##t                %! HC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \pppp                                                    %! HC1
+            - \tweak circled-tip ##t                                 %! HC1
             \>                                                       %! HC1
             \pppp                                                    %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP

@@ -1666,8 +1666,8 @@ M_GuitarMusicVoiceI = {
             \set GuitarMusicStaff.forceClef = ##t                    %! SM8:REAPPLIED_CLEF:SM33:SM37
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
             d'32.
-            -\tenuto                                                 %! IC
             _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+            -\tenuto                                                 %! IC
             [                                                        %! SM35
             ^ \markup {                                              %! IC
                 \whiteout                                            %! IC

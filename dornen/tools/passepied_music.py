@@ -50,14 +50,14 @@ def passepied_music():
         ...
         >>> figures = abjad.select(figures_)
 
-        >>> maker = baca.tools.SegmentMaker(
+        >>> maker = baca.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
-        ...     score_template=baca.tools.SingleStaffScoreTemplate(),
+        ...     score_template=baca.SingleStaffScoreTemplate(),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.tools.RhythmCommand(
+        ...     baca.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )
@@ -221,14 +221,14 @@ def passepied_music():
         ...
         >>> figures = abjad.select(figures_)
 
-        >>> maker = baca.tools.SegmentMaker(
+        >>> maker = baca.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
-        ...     score_template=baca.tools.SingleStaffScoreTemplate(),
+        ...     score_template=baca.SingleStaffScoreTemplate(),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.tools.RhythmCommand(
+        ...     baca.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )

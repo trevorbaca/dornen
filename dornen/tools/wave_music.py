@@ -36,17 +36,17 @@ def wave_music(denominator=64, inverted=False):
         ...
         >>> figures = abjad.select(figures_)
 
-        >>> maker = baca.tools.SegmentMaker(
+        >>> maker = baca.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
-        ...     score_template=baca.tools.SingleStaffScoreTemplate(),
-        ...     spacing=baca.tools.HorizontalSpacingSpecifier(
+        ...     score_template=baca.SingleStaffScoreTemplate(),
+        ...     spacing=baca.HorizontalSpacingSpecifier(
         ...         minimum_duration=(1, 24),
         ...         ),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.tools.RhythmCommand(
+        ...     baca.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )
@@ -472,17 +472,17 @@ def wave_music(denominator=64, inverted=False):
         ...
         >>> figures = abjad.select(figures_)
 
-        >>> maker = baca.tools.SegmentMaker(
+        >>> maker = baca.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
-        ...     score_template=baca.tools.SingleStaffScoreTemplate(),
-        ...     spacing=baca.tools.HorizontalSpacingSpecifier(
+        ...     score_template=baca.SingleStaffScoreTemplate(),
+        ...     spacing=baca.HorizontalSpacingSpecifier(
         ...         minimum_duration=(1, 24),
         ...         ),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.tools.RhythmCommand(
+        ...     baca.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )
@@ -908,17 +908,17 @@ def wave_music(denominator=64, inverted=False):
         ...
         >>> figures = abjad.select(figures_)
 
-        >>> maker = baca.tools.SegmentMaker(
+        >>> maker = baca.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
-        ...     score_template=baca.tools.SingleStaffScoreTemplate(),
-        ...     spacing=baca.tools.HorizontalSpacingSpecifier(
+        ...     score_template=baca.SingleStaffScoreTemplate(),
+        ...     spacing=baca.HorizontalSpacingSpecifier(
         ...         minimum_duration=(1, 24),
         ...         ),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.tools.RhythmCommand(
+        ...     baca.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )
@@ -1318,14 +1318,14 @@ def wave_music(denominator=64, inverted=False):
     '''
     assert abjad.mathtools.is_positive_integer_power_of_two(denominator)
     assert 16 <= denominator, repr(denominator)
-    accelerando_rhythm_maker = baca.tools.PitchFirstRhythmMaker(
+    accelerando_rhythm_maker = baca.PitchFirstRhythmMaker(
         talea=rhythmos.Talea(
             counts=[1],
             denominator=denominator,
             ),
         time_treatments=['accel'],
         )
-    ritardando_rhythm_maker = baca.tools.PitchFirstRhythmMaker(
+    ritardando_rhythm_maker = baca.PitchFirstRhythmMaker(
         talea=rhythmos.Talea(
             counts=[1],
             denominator=denominator,
@@ -1337,12 +1337,12 @@ def wave_music(denominator=64, inverted=False):
     if inverted:
         rhythm_maker_1 = ritardando_rhythm_maker
         rhythm_maker_2 = accelerando_rhythm_maker
-    music_maker = baca.tools.MusicMaker(
-        baca.tools.PitchFirstRhythmCommand(
+    music_maker = baca.MusicMaker(
+        baca.PitchFirstRhythmCommand(
             pattern=abjad.index([0], 2),
             rhythm_maker=rhythm_maker_1,
             ),
-        baca.tools.PitchFirstRhythmCommand(
+        baca.PitchFirstRhythmCommand(
             pattern=abjad.index([1], 2),
             rhythm_maker=rhythm_maker_2,
             ),

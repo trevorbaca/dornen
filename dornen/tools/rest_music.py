@@ -44,14 +44,14 @@ def rest_music(duration=None):
         ...
         >>> figures = abjad.select(figures_)
 
-        >>> maker = baca.tools.SegmentMaker(
+        >>> maker = baca.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
-        ...     score_template=baca.tools.SingleStaffScoreTemplate(),
+        ...     score_template=baca.SingleStaffScoreTemplate(),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.tools.RhythmCommand(
+        ...     baca.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )
@@ -156,14 +156,14 @@ def rest_music(duration=None):
         ...
         >>> figures = abjad.select(figures_)
 
-        >>> maker = baca.tools.SegmentMaker(
+        >>> maker = baca.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
-        ...     score_template=baca.tools.SingleStaffScoreTemplate(),
+        ...     score_template=baca.SingleStaffScoreTemplate(),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.tools.RhythmCommand(
+        ...     baca.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )
@@ -248,9 +248,9 @@ def rest_music(duration=None):
     Returns music-maker.
     '''
     duration = duration or abjad.Duration(1, 8)
-    music_maker = baca.tools.MusicMaker(
-        baca.tools.PitchFirstRhythmCommand(
-            rhythm_maker=baca.tools.PitchFirstRhythmMaker(
+    music_maker = baca.MusicMaker(
+        baca.PitchFirstRhythmCommand(
+            rhythm_maker=baca.PitchFirstRhythmMaker(
                 logical_tie_masks=abjad.silence([0], 1),
                 talea=rhythmos.Talea(
                     counts=[duration.numerator],

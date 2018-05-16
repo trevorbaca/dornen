@@ -44,14 +44,14 @@ def graced_tuplet_music():
         ...
         >>> figures = abjad.select(figures_)
 
-        >>> maker = baca.tools.SegmentMaker(
+        >>> maker = baca.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
-        ...     score_template=baca.tools.SingleStaffScoreTemplate(),
+        ...     score_template=baca.SingleStaffScoreTemplate(),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.tools.RhythmCommand(
+        ...     baca.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )
@@ -330,16 +330,16 @@ def graced_tuplet_music():
 
     Returns music-maker.
     '''
-    music_maker = baca.tools.MusicMaker(
+    music_maker = baca.MusicMaker(
         rhythmos.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.tools.PitchFirstRhythmCommand(
+        baca.PitchFirstRhythmCommand(
             pattern=abjad.index([0], 2),
-            rhythm_maker=baca.tools.PitchFirstRhythmMaker(
+            rhythm_maker=baca.PitchFirstRhythmMaker(
                 acciaccatura_specifiers=[
-                    baca.tools.AcciaccaturaSpecifier(
-                        lmr_specifier=baca.tools.LMRSpecifier(
+                    baca.AcciaccaturaSpecifier(
+                        lmr_specifier=baca.LMRSpecifier(
                             left_length=1,
                             right_counts=[2],
                             right_cyclic=True,
@@ -354,12 +354,12 @@ def graced_tuplet_music():
                 time_treatments=[abjad.Multiplier((8, 7))],
                 )
             ),
-        baca.tools.PitchFirstRhythmCommand(
+        baca.PitchFirstRhythmCommand(
             pattern=abjad.index([1], 2),
-            rhythm_maker=baca.tools.PitchFirstRhythmMaker(
+            rhythm_maker=baca.PitchFirstRhythmMaker(
                 acciaccatura_specifiers=[
-                    baca.tools.AcciaccaturaSpecifier(
-                        lmr_specifier=baca.tools.LMRSpecifier(
+                    baca.AcciaccaturaSpecifier(
+                        lmr_specifier=baca.LMRSpecifier(
                             left_length=1,
                             right_counts=[2],
                             right_cyclic=True,

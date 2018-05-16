@@ -33,17 +33,17 @@ def glissando_scatto_music():
         ...
         >>> figures = abjad.select(figures_)
 
-        >>> maker = baca.tools.SegmentMaker(
+        >>> maker = baca.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
-        ...     score_template=baca.tools.SingleStaffScoreTemplate(),
-        ...     spacing=baca.tools.HorizontalSpacingSpecifier(
+        ...     score_template=baca.SingleStaffScoreTemplate(),
+        ...     spacing=baca.HorizontalSpacingSpecifier(
         ...         minimum_duration=(1, 24),
         ...         ),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.tools.RhythmCommand(
+        ...     baca.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )
@@ -227,17 +227,17 @@ def glissando_scatto_music():
         ...
         >>> figures = abjad.select(figures_)
 
-        >>> maker = baca.tools.SegmentMaker(
+        >>> maker = baca.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
-        ...     score_template=baca.tools.SingleStaffScoreTemplate(),
-        ...     spacing=baca.tools.HorizontalSpacingSpecifier(
+        ...     score_template=baca.SingleStaffScoreTemplate(),
+        ...     spacing=baca.HorizontalSpacingSpecifier(
         ...         minimum_duration=(1, 24),
         ...         ),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.tools.RhythmCommand(
+        ...     baca.RhythmCommand(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )
@@ -477,12 +477,12 @@ def glissando_scatto_music():
 
     Returns music-maker.
     '''
-    music_maker = baca.tools.MusicMaker(
+    music_maker = baca.MusicMaker(
         rhythmos.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.tools.PitchFirstRhythmCommand(
-            rhythm_maker=baca.tools.PitchFirstRhythmMaker(
+        baca.PitchFirstRhythmCommand(
+            rhythm_maker=baca.PitchFirstRhythmMaker(
                 talea=rhythmos.Talea(
                     counts=[2, 2, 2, 1, 2, 2, 2],
                     denominator=32,

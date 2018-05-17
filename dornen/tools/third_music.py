@@ -4,7 +4,8 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def third_music():
-    r'''Makes third music-maker.
+    r"""
+    Makes third music-maker.
 
     >>> import dornen
 
@@ -400,7 +401,7 @@ def third_music():
             >>
 
     Returns music-maker.
-    '''
+    """
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(

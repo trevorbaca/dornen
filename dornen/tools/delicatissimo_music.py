@@ -4,7 +4,8 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def delicatissimo_music():
-    r'''Makes delicatissimo music-maker.
+    r"""
+    Makes delicatissimo music-maker.
 
     >>> import dornen
 
@@ -484,12 +485,12 @@ def delicatissimo_music():
             >>
 
     Returns music-maker.
-    '''
+    """
     music_maker = baca.MusicMaker(
         rhythmos.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.staccato(baca.pheads()),
+        baca.staccato(selector=baca.pheads()),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
                 talea=rhythmos.Talea(

@@ -4,7 +4,8 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def passepied_music():
-    r'''Makes passepied music-maker.
+    r"""
+    Makes passepied music-maker.
 
     >>> import dornen
 
@@ -484,7 +485,7 @@ def passepied_music():
             >>
 
     Returns music-maker.
-    '''
+    """
     music_maker = baca.MusicMaker(
         rhythmos.BeamSpecifier(
             beam_divisions_together=True,

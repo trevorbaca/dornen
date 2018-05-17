@@ -212,32 +212,32 @@ maker(
     'v1',
     baca.register(-20),
     baca.repeat_tie(),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 maker(
     ('v1', 2),
-    baca.hairpin('pp < p', baca.rleaves()),
+    baca.hairpin('pp < p', selector=baca.rleaves()),
     )
 
 maker(
     ('v1', 4),
-    baca.hairpin('p > pp', baca.rleaves()),
+    baca.hairpin('p > pp', selector=baca.rleaves()),
     )
 
 maker(
     ('v1', 7),
-    baca.hairpin('pp < mp', baca.rleaves()),
+    baca.hairpin('pp < mp', selector=baca.rleaves()),
     )
 
 maker(
     ('v1', 9),
-    baca.hairpin('mp > pp', baca.rleaves()),
+    baca.hairpin('mp > pp', selector=baca.rleaves()),
     )
 
 maker(
     ('v1', 12),
-    baca.hairpin('pp < p', baca.rleaves()),
+    baca.hairpin('pp < p', selector=baca.rleaves()),
     baca.transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
@@ -248,7 +248,7 @@ maker(
 
 maker(
     ('v1', 14),
-    baca.hairpin('p > pp', baca.rleaves()),
+    baca.hairpin('p > pp', selector=baca.rleaves()),
     baca.transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
@@ -259,7 +259,7 @@ maker(
 
 maker(
     ('v1', 16),
-    baca.hairpin('pp < mp', baca.rleaves()),
+    baca.hairpin('pp < mp', selector=baca.rleaves()),
     baca.transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
@@ -270,7 +270,7 @@ maker(
 
 maker(
     ('v1', 18),
-    baca.hairpin('mp > pp', baca.rleaves()),
+    baca.hairpin('mp > pp', selector=baca.rleaves()),
     baca.transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
@@ -281,7 +281,7 @@ maker(
 
 maker(
     ('v1', 20),
-    baca.hairpin('pp < mf', baca.rleaves()),
+    baca.hairpin('pp < mf', selector=baca.rleaves()),
     baca.transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
@@ -292,7 +292,7 @@ maker(
 
 maker(
     ('v1', (22, 25)),
-    baca.hairpin('mf > p', baca.leaves()),
+    baca.hairpin('mf > p', selector=baca.leaves()),
     baca.transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),

@@ -4,7 +4,8 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def thirty_second_music():
-    r'''Makes thirty-second music-maker.
+    r"""
+    Makes thirty-second music-maker.
 
     >>> import dornen
 
@@ -437,7 +438,7 @@ def thirty_second_music():
             >>
 
     Returns music-maker.
-    '''
+    """
     music_maker = baca.MusicMaker(
         rhythmos.BeamSpecifier(
             beam_divisions_together=True,

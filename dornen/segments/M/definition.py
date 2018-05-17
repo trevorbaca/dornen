@@ -324,7 +324,7 @@ accumulator(
         ),
     baca.register(-20),
     baca.repeat_tie(),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 spacing = baca.HorizontalSpacingSpecifier(
@@ -353,7 +353,7 @@ maker(
     ('v1', (1, 41)),
     baca.beam_positions(10),
     baca.register(-12),
-    baca.tenuto(baca.pheads()),
+    baca.tenuto(selector=baca.pheads()),
     )
 
 maker(
@@ -364,7 +364,7 @@ maker(
 
 maker(
     ('v3', (1, 41)),
-    baca.accent(baca.pheads()),
+    baca.accent(selector=baca.pheads()),
     baca.register(-20),
     baca.script_down(),
     )
@@ -373,5 +373,5 @@ maker(
     ('v4', (1, 41)),
     baca.beam_positions(5.5),
     baca.register(-4),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )

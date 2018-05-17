@@ -4,7 +4,8 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def forty_eighth_music():
-    r'''Makes forty-eighth music-maker.
+    r"""
+    Makes forty-eighth music-maker.
 
     >>> import dornen
 
@@ -152,7 +153,7 @@ def forty_eighth_music():
             >>
 
     Returns music-maker.
-    '''
+    """
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(

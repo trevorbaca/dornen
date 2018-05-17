@@ -4,7 +4,8 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def wave_music(denominator=64, inverted=False):
-    r'''Makes wave music-maker.
+    r"""
+    Makes wave music-maker.
 
     >>> import dornen
 
@@ -1315,7 +1316,7 @@ def wave_music(denominator=64, inverted=False):
             >>
 
     Returns music-maker.
-    '''
+    """
     assert abjad.mathtools.is_positive_integer_power_of_two(denominator)
     assert 16 <= denominator, repr(denominator)
     accelerando_rhythm_maker = baca.PitchFirstRhythmMaker(

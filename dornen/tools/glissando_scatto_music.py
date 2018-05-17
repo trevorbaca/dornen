@@ -4,7 +4,8 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def glissando_scatto_music():
-    r'''Makes glissando scatto music-maker.
+    r"""
+    Makes glissando scatto music-maker.
 
     >>> import dornen
 
@@ -476,7 +477,7 @@ def glissando_scatto_music():
             >>
 
     Returns music-maker.
-    '''
+    """
     music_maker = baca.MusicMaker(
         rhythmos.BeamSpecifier(
             beam_divisions_together=True,

@@ -2,8 +2,9 @@ import abjad
 
 
 class DesignChecker(abjad.AbjadObject):
-    r'''Design-checker.
-    '''
+    """
+    Design-checker.
+    """
 
     ### CLASS VARIABLES ###
 
@@ -76,12 +77,13 @@ class DesignChecker(abjad.AbjadObject):
 
     @property
     def design(self):
-        r'''Gets design.
+        """
+        Gets design.
 
         Defaults to none.
 
         Set to design or none.
 
         Returns design or none.
-        '''
+        """
         return self._design

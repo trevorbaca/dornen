@@ -4,7 +4,8 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def graced_tuplet_music():
-    r'''Makes graced tuplet music-maker.
+    r"""
+    Makes graced tuplet music-maker.
 
     >>> import dornen
 
@@ -329,7 +330,7 @@ def graced_tuplet_music():
 
 
     Returns music-maker.
-    '''
+    """
     music_maker = baca.MusicMaker(
         rhythmos.BeamSpecifier(
             beam_divisions_together=True,

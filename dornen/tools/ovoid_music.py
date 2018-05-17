@@ -4,7 +4,8 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def ovoid_music():
-    r'''Makes ovoid music-maker.
+    r"""
+    Makes ovoid music-maker.
 
     >>> import dornen
 
@@ -286,7 +287,7 @@ def ovoid_music():
             >>
 
     Returns music-maker.
-    '''
+    """
     music_maker = baca.MusicMaker(
         rhythmos.BeamSpecifier(
             beam_divisions_together=True,

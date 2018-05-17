@@ -2,7 +2,8 @@ import baca
 
 
 class MusicAccumulator(baca.MusicAccumulator):
-    r'''Music-accumulator.
+    r"""
+    Music-accumulator.
 
     >>> import dornen
 
@@ -86,7 +87,7 @@ class MusicAccumulator(baca.MusicAccumulator):
                 }
             >>
 
-    '''
+    """
 
     ### CLASS VARIABLES ###
 
@@ -231,10 +232,11 @@ class MusicAccumulator(baca.MusicAccumulator):
 
     @staticmethod
     def boustrophedon(cells, count=2, flatten=False):
-        r'''Concatenates cells back to back.
+        """
+        Concatenates cells back to back.
 
         Returns new list.
-        '''
+        """
         result = []
         for i in range(count):
             if i == 0:
@@ -254,10 +256,11 @@ class MusicAccumulator(baca.MusicAccumulator):
 
     @staticmethod
     def merge(cells):
-        r'''Merges cells.
+        """
+        Merges cells.
 
         Returns new list.
-        '''
+        """
         cell_ = []
         for cell in cells:
             cell_.extend(cell)
@@ -266,10 +269,11 @@ class MusicAccumulator(baca.MusicAccumulator):
 
     @staticmethod
     def repeat(cells, n=1, flatten=False):
-        r'''Repeats cells.
+        """
+        Repeats cells.
 
         Returns new list.
-        '''
+        """
         result = []
         for i in range(n):
             for cell in cells:
@@ -280,10 +284,11 @@ class MusicAccumulator(baca.MusicAccumulator):
 
     @classmethod
     def reveal(class_, cells, total=None):
-        r'''Reveals `cells` to `total`.
+        """
+        Reveals ``cells`` to ``total``.
 
         Returns new list.
-        '''
+        """
         if total is None:
             return cells
         current = 0
@@ -305,10 +310,11 @@ class MusicAccumulator(baca.MusicAccumulator):
 
     @staticmethod
     def reverse(cells):
-        r'''Reverses `cells`.
+        """
+        Reverses ``cells``.
 
         Returns new list.
-        '''
+        """
         result = []
         for cell in reversed(cells):
             cell = cell[:]

@@ -3,8 +3,9 @@ import baca
 
 
 class QuartertoneCommand(baca.Command):
-    r'''Quartertone command.
-    '''
+    """
+    Quartertone command.
+    """
 
     ### CLASS VARIABLES ###
 
@@ -13,10 +14,11 @@ class QuartertoneCommand(baca.Command):
     ### SPECIAL METHODS ###
 
     def __call__(self, argument=None):
-        r'''Calls quartertone command on `argument`.
+        """
+        Calls quartertone command on ``argument``.
 
         Returns none.
-        '''
+        """
         lowest_quartertone = abjad.NamedPitch('C4')
         for note in abjad.iterate(argument).leaves(pitched=True):
             number = note.written_pitch.number

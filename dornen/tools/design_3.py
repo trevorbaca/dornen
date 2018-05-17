@@ -2,7 +2,8 @@ import baca
 
 
 def design_3(start=None, stop=None):
-    r'''Makes design III.
+    r"""
+    Makes design III.
 
     >>> import dornen
 
@@ -285,7 +286,7 @@ def design_3(start=None, stop=None):
                 \override Score.BarLine.transparent = ##f
             }
 
-    '''
+    """
     import dornen
     green_pitch_classes = dornen.green_pitch_classes
     green_cursor = baca.Cursor.from_pitch_class_segments(

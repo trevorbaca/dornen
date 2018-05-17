@@ -4,7 +4,8 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def tremolo_music():
-    r'''Makes tremolo music-maker.
+    r"""
+    Makes tremolo music-maker.
 
     >>> import dornen
 
@@ -573,7 +574,7 @@ def tremolo_music():
             >>
 
     Returns music-maker.
-    '''
+    """
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
@@ -589,7 +590,7 @@ def tremolo_music():
             beam_divisions_together=True,
             ),
         baca.map(baca.repeat_tie(), baca.qruns().nontrivial()),
-        baca.stem_tremolo(baca.pleaves()),
+        baca.stem_tremolo(selector=baca.pleaves()),
         allow_repeats=True,
         color_unregistered_pitches=True,
         denominator=11,

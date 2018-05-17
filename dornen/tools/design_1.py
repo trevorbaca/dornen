@@ -2,7 +2,8 @@ import baca
 
 
 def design_1(start=None, stop=None):
-    r'''Makes design I.
+    r"""
+    Makes design I.
 
     >>> import dornen
 
@@ -279,7 +280,7 @@ def design_1(start=None, stop=None):
                 \override Score.BarLine.transparent = ##f
             }
 
-    '''
+    """
     import dornen
     design_maker = baca.DesignMaker()
     magenta_pitch_classes = dornen.magenta_pitch_classes

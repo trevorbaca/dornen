@@ -4,7 +4,8 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def graced_rest_music():
-    r'''Makes graced rest music-maker.
+    r"""
+    Makes graced rest music-maker.
 
     >>> import dornen
 
@@ -142,7 +143,7 @@ def graced_rest_music():
 
 
     Returns music-maker.
-    '''
+    """
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(

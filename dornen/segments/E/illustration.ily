@@ -1,6 +1,6 @@
 E_GlobalSkips = {
     
-    % [E GlobalSkips measure 120]                                        %! SM4
+    % [E GlobalSkips measure 120 / measure 1]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)     %! HSS1:SPACING
     \time 3/32                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -88,7 +88,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/24]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 121]                                        %! SM4
+    % [E GlobalSkips measure 121 / measure 2]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)     %! HSS1:SPACING
     \time 1/16                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -126,7 +126,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/24]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 122]                                        %! SM4
+    % [E GlobalSkips measure 122 / measure 3]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 3 256)    %! HSS1:SPACING
     \time 3/16                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -164,7 +164,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[3/256]" }                              %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 123]                                        %! SM4
+    % [E GlobalSkips measure 123 / measure 4]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)     %! HSS1:SPACING
     \time 3/20                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -202,7 +202,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/24]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 124]                                        %! SM4
+    % [E GlobalSkips measure 124 / measure 5]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)     %! HSS1:SPACING
     \time 3/32                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -240,7 +240,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/24]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 125]                                        %! SM4
+    % [E GlobalSkips measure 125 / measure 6]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)     %! HSS1:SPACING
     \time 1/16                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -278,7 +278,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/24]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 126]                                        %! SM4
+    % [E GlobalSkips measure 126 / measure 7]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)     %! HSS1:SPACING
     \time 3/20                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -316,7 +316,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/24]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 127]                                        %! SM4
+    % [E GlobalSkips measure 127 / measure 8]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)     %! HSS1:SPACING
     \time 3/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -354,7 +354,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/24]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 128]                                        %! SM4
+    % [E GlobalSkips measure 128 / measure 9]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)     %! HSS1:SPACING
     \time 30/64                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -442,7 +442,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/64]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 129]                                        %! SM4
+    % [E GlobalSkips measure 129 / measure 10]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)     %! HSS1:SPACING
     \time 40/64                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -480,7 +480,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/64]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 130]                                        %! SM4
+    % [E GlobalSkips measure 130 / measure 11]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)     %! HSS1:SPACING
     \time 50/64                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -518,7 +518,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/64]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 131]                                        %! SM4
+    % [E GlobalSkips measure 131 / measure 12]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)     %! HSS1:SPACING
     \time 60/64                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -556,7 +556,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/64]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 132]                                        %! SM4
+    % [E GlobalSkips measure 132 / measure 13]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 64)     %! HSS1:SPACING
     \time 125/64                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -604,7 +604,7 @@ E_GuitarMusicVoiceI = {
     {
         \scaleDurations #'(1 . 1) {
             
-            % [E GuitarMusicVoiceI measure 120]                      %! SM4
+            % [E GuitarMusicVoiceI measure 120 / measure 1]          %! SM4
             \override Beam.positions = #'(10 . 10)                   %! OC1
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 3                              %! SM35
@@ -647,13 +647,13 @@ E_GuitarMusicVoiceI = {
         }
     }
     
-    % [E GuitarMusicVoiceI measure 121]                              %! SM4
+    % [E GuitarMusicVoiceI measure 121 / measure 2]                  %! SM4
     s1 * 1/16
     {
         \tweak text #tuplet-number::calc-fraction-text
         \times 5/6 {
             
-            % [E GuitarMusicVoiceI measure 122]                      %! SM4
+            % [E GuitarMusicVoiceI measure 122 / measure 3]          %! SM4
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 4                              %! SM35
             a'64
@@ -744,12 +744,12 @@ E_GuitarMusicVoiceI = {
         }
     }
     
-    % [E GuitarMusicVoiceI measure 123]                              %! SM4
+    % [E GuitarMusicVoiceI measure 123 / measure 4]                  %! SM4
     s1 * 3/20
     {
         \scaleDurations #'(1 . 1) {
             
-            % [E GuitarMusicVoiceI measure 124]                      %! SM4
+            % [E GuitarMusicVoiceI measure 124 / measure 5]          %! SM4
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 3                              %! SM35
             cs'!32.
@@ -785,12 +785,12 @@ E_GuitarMusicVoiceI = {
         }
     }
     
-    % [E GuitarMusicVoiceI measure 125]                              %! SM4
+    % [E GuitarMusicVoiceI measure 125 / measure 6]                  %! SM4
     s1 * 17/80
     {
         \scaleDurations #'(1 . 1) {
             
-            % [E GuitarMusicVoiceI measure 127]                      %! SM4
+            % [E GuitarMusicVoiceI measure 127 / measure 8]          %! SM4
             r8
             ^ \markup {
                 \column
@@ -830,7 +830,7 @@ E_GuitarMusicVoiceI = {
     {
         \scaleDurations #'(1 . 1) {
             
-            % [E GuitarMusicVoiceI measure 128]                      %! SM4
+            % [E GuitarMusicVoiceI measure 128 / measure 9]          %! SM4
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             fs''!64
@@ -1022,7 +1022,7 @@ E_GuitarMusicVoiceI = {
     {
         \scaleDurations #'(1 . 1) {
             
-            % [E GuitarMusicVoiceI measure 129]                      %! SM4
+            % [E GuitarMusicVoiceI measure 129 / measure 10]         %! SM4
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             fs''!64
@@ -1264,7 +1264,7 @@ E_GuitarMusicVoiceI = {
     {
         \scaleDurations #'(1 . 1) {
             
-            % [E GuitarMusicVoiceI measure 130]                      %! SM4
+            % [E GuitarMusicVoiceI measure 130 / measure 11]         %! SM4
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             fs''!64
@@ -1556,7 +1556,7 @@ E_GuitarMusicVoiceI = {
     {
         \scaleDurations #'(1 . 1) {
             
-            % [E GuitarMusicVoiceI measure 131]                      %! SM4
+            % [E GuitarMusicVoiceI measure 131 / measure 12]         %! SM4
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             fs''!64
@@ -1898,7 +1898,7 @@ E_GuitarMusicVoiceI = {
     {
         \scaleDurations #'(1 . 1) {
             
-            % [E GuitarMusicVoiceI measure 132]                      %! SM4
+            % [E GuitarMusicVoiceI measure 132 / measure 13]         %! SM4
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             fs''!64
@@ -2556,43 +2556,43 @@ E_GuitarMusicVoiceI = {
 
 E_GuitarMusicVoiceII = {
     
-    % [E GuitarMusicVoiceII measure 120]                             %! SM4
+    % [E GuitarMusicVoiceII measure 120 / measure 1]                 %! SM4
     s1 * 3/32
     
-    % [E GuitarMusicVoiceII measure 121]                             %! SM4
+    % [E GuitarMusicVoiceII measure 121 / measure 2]                 %! SM4
     s1 * 1/16
     
-    % [E GuitarMusicVoiceII measure 122]                             %! SM4
+    % [E GuitarMusicVoiceII measure 122 / measure 3]                 %! SM4
     s1 * 3/16
     
-    % [E GuitarMusicVoiceII measure 123]                             %! SM4
+    % [E GuitarMusicVoiceII measure 123 / measure 4]                 %! SM4
     s1 * 3/20
     
-    % [E GuitarMusicVoiceII measure 124]                             %! SM4
+    % [E GuitarMusicVoiceII measure 124 / measure 5]                 %! SM4
     s1 * 3/32
     
-    % [E GuitarMusicVoiceII measure 125]                             %! SM4
+    % [E GuitarMusicVoiceII measure 125 / measure 6]                 %! SM4
     s1 * 1/16
     
-    % [E GuitarMusicVoiceII measure 126]                             %! SM4
+    % [E GuitarMusicVoiceII measure 126 / measure 7]                 %! SM4
     s1 * 3/20
     
-    % [E GuitarMusicVoiceII measure 127]                             %! SM4
+    % [E GuitarMusicVoiceII measure 127 / measure 8]                 %! SM4
     s1 * 3/8
     
-    % [E GuitarMusicVoiceII measure 128]                             %! SM4
+    % [E GuitarMusicVoiceII measure 128 / measure 9]                 %! SM4
     s1 * 15/32
     
-    % [E GuitarMusicVoiceII measure 129]                             %! SM4
+    % [E GuitarMusicVoiceII measure 129 / measure 10]                %! SM4
     s1 * 5/8
     
-    % [E GuitarMusicVoiceII measure 130]                             %! SM4
+    % [E GuitarMusicVoiceII measure 130 / measure 11]                %! SM4
     s1 * 25/32
     
-    % [E GuitarMusicVoiceII measure 131]                             %! SM4
+    % [E GuitarMusicVoiceII measure 131 / measure 12]                %! SM4
     s1 * 15/16
     
-    % [E GuitarMusicVoiceII measure 132]                             %! SM4
+    % [E GuitarMusicVoiceII measure 132 / measure 13]                %! SM4
     s1 * 125/64
     
 }
@@ -2600,13 +2600,13 @@ E_GuitarMusicVoiceII = {
 
 E_GuitarMusicVoiceIII = {
     
-    % [E GuitarMusicVoiceIII measure 120]                            %! SM4
+    % [E GuitarMusicVoiceIII measure 120 / measure 1]                %! SM4
     \override Script.direction = #down                               %! OC1
     s1 * 3/32
     {
         \scaleDurations #'(1 . 1) {
             
-            % [E GuitarMusicVoiceIII measure 121]                    %! SM4
+            % [E GuitarMusicVoiceIII measure 121 / measure 2]        %! SM4
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 2                              %! SM35
             f16
@@ -2637,12 +2637,12 @@ E_GuitarMusicVoiceIII = {
         }
     }
     
-    % [E GuitarMusicVoiceIII measure 122]                            %! SM4
+    % [E GuitarMusicVoiceIII measure 122 / measure 3]                %! SM4
     s1 * 69/160
     {
         \scaleDurations #'(1 . 1) {
             
-            % [E GuitarMusicVoiceIII measure 125]                    %! SM4
+            % [E GuitarMusicVoiceIII measure 125 / measure 6]        %! SM4
             \set stemLeftBeamCount = 2                               %! SM35
             \set stemRightBeamCount = 0                              %! SM35
             a16
@@ -2673,26 +2673,26 @@ E_GuitarMusicVoiceIII = {
         }
     }
     
-    % [E GuitarMusicVoiceIII measure 126]                            %! SM4
+    % [E GuitarMusicVoiceIII measure 126 / measure 7]                %! SM4
     s1 * 3/20
     \revert Script.direction                                         %! OC2
     
-    % [E GuitarMusicVoiceIII measure 127]                            %! SM4
+    % [E GuitarMusicVoiceIII measure 127 / measure 8]                %! SM4
     s1 * 3/8
     
-    % [E GuitarMusicVoiceIII measure 128]                            %! SM4
+    % [E GuitarMusicVoiceIII measure 128 / measure 9]                %! SM4
     s1 * 15/32
     
-    % [E GuitarMusicVoiceIII measure 129]                            %! SM4
+    % [E GuitarMusicVoiceIII measure 129 / measure 10]               %! SM4
     s1 * 5/8
     
-    % [E GuitarMusicVoiceIII measure 130]                            %! SM4
+    % [E GuitarMusicVoiceIII measure 130 / measure 11]               %! SM4
     s1 * 25/32
     
-    % [E GuitarMusicVoiceIII measure 131]                            %! SM4
+    % [E GuitarMusicVoiceIII measure 131 / measure 12]               %! SM4
     s1 * 15/16
     
-    % [E GuitarMusicVoiceIII measure 132]                            %! SM4
+    % [E GuitarMusicVoiceIII measure 132 / measure 13]               %! SM4
     s1 * 125/64
     
 }
@@ -2700,7 +2700,7 @@ E_GuitarMusicVoiceIII = {
 
 E_GuitarMusicVoiceIV = {
     
-    % [E GuitarMusicVoiceIV measure 120]                             %! SM4
+    % [E GuitarMusicVoiceIV measure 120 / measure 1]                 %! SM4
     \override Beam.positions = #'(5.5 . 5.5)                         %! OC1
     s1 * 11/32
     ^ \markup {                                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2712,7 +2712,7 @@ E_GuitarMusicVoiceIV = {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            % [E GuitarMusicVoiceIV measure 123]                     %! SM4
+            % [E GuitarMusicVoiceIV measure 123 / measure 4]         %! SM4
             g''16
             -\staccato                                               %! IC
             [
@@ -2748,13 +2748,13 @@ E_GuitarMusicVoiceIV = {
         }
     }
     
-    % [E GuitarMusicVoiceIV measure 124]                             %! SM4
+    % [E GuitarMusicVoiceIV measure 124 / measure 5]                 %! SM4
     s1 * 5/32
     {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            % [E GuitarMusicVoiceIV measure 126]                     %! SM4
+            % [E GuitarMusicVoiceIV measure 126 / measure 7]         %! SM4
             b'16
             -\staccato                                               %! IC
             [
@@ -2791,22 +2791,22 @@ E_GuitarMusicVoiceIV = {
         }
     }
     
-    % [E GuitarMusicVoiceIV measure 127]                             %! SM4
+    % [E GuitarMusicVoiceIV measure 127 / measure 8]                 %! SM4
     s1 * 3/8
     
-    % [E GuitarMusicVoiceIV measure 128]                             %! SM4
+    % [E GuitarMusicVoiceIV measure 128 / measure 9]                 %! SM4
     s1 * 15/32
     
-    % [E GuitarMusicVoiceIV measure 129]                             %! SM4
+    % [E GuitarMusicVoiceIV measure 129 / measure 10]                %! SM4
     s1 * 5/8
     
-    % [E GuitarMusicVoiceIV measure 130]                             %! SM4
+    % [E GuitarMusicVoiceIV measure 130 / measure 11]                %! SM4
     s1 * 25/32
     
-    % [E GuitarMusicVoiceIV measure 131]                             %! SM4
+    % [E GuitarMusicVoiceIV measure 131 / measure 12]                %! SM4
     s1 * 15/16
     
-    % [E GuitarMusicVoiceIV measure 132]                             %! SM4
+    % [E GuitarMusicVoiceIV measure 132 / measure 13]                %! SM4
     s1 * 125/64
     
 }

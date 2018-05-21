@@ -44,7 +44,7 @@ def glissando_scatto_music():
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.RhythmCommand(
+        ...     baca.rhythm(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )
@@ -238,7 +238,7 @@ def glissando_scatto_music():
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.RhythmCommand(
+        ...     baca.rhythm(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )

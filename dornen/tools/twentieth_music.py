@@ -55,7 +55,7 @@ def twentieth_music():
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.RhythmCommand(
+        ...     baca.rhythm(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )
@@ -259,7 +259,7 @@ def twentieth_music():
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.RhythmCommand(
+        ...     baca.rhythm(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )

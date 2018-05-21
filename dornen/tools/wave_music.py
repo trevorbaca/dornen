@@ -47,7 +47,7 @@ def wave_music(denominator=64, inverted=False):
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.RhythmCommand(
+        ...     baca.rhythm(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )
@@ -483,7 +483,7 @@ def wave_music(denominator=64, inverted=False):
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.RhythmCommand(
+        ...     baca.rhythm(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )
@@ -919,7 +919,7 @@ def wave_music(denominator=64, inverted=False):
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.RhythmCommand(
+        ...     baca.rhythm(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )

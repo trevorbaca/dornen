@@ -52,7 +52,7 @@ def rest_music(duration=None):
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.RhythmCommand(
+        ...     baca.rhythm(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )
@@ -164,7 +164,7 @@ def rest_music(duration=None):
         ...     )
         >>> maker(
         ...     ('MusicVoice', 1),
-        ...     baca.RhythmCommand(
+        ...     baca.rhythm(
         ...         rhythm_maker=figures,
         ...         ),
         ...     )

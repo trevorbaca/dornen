@@ -478,16 +478,16 @@ def running_music():
                 ),
             ),
         baca.map(
-            baca.slur(),
             baca.tuplets()[:1].rleaves().group().nontrivial(),
+            baca.slur(),
             ),
         baca.map(
-            baca.slur(),
             baca.tuplets()[1:-1].leaves()[1:-1].group().nontrivial(),
+            baca.slur(),
             ),
         baca.map(
-            baca.slur(),
             baca.tuplets()[-1:].lleaves().group().nontrivial(),
+            baca.slur(),
             ),
         color_unregistered_pitches=True,
         )

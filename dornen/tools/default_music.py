@@ -460,7 +460,10 @@ def default_music():
 
                 ),
             ),
-        baca.map(baca.slur(), baca.ntruns()),
+        baca.map(
+            baca.ntruns(),
+            baca.slur(),
+            ),
         color_unregistered_pitches=True,
         denominator=32,
         )

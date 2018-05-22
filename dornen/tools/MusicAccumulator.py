@@ -10,7 +10,7 @@ class MusicAccumulator(baca.MusicAccumulator):
     ..  container:: example
 
         >>> score_template = dornen.ScoreTemplate()
-        >>> accumulator = dornen.MusicAccumulator(score_template=score_template)
+        >>> accumulator = dornen.MusicAccumulator(score_template)
         >>> segments = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
         >>> accumulator(
         ...     'v1',
@@ -124,7 +124,7 @@ class MusicAccumulator(baca.MusicAccumulator):
     def __init__(self, score_template):
         import dornen
         superclass = super(MusicAccumulator, self)
-        superclass.__init__(score_template=score_template)
+        superclass.__init__(score_template)
         self.anchor_music_maker = dornen.anchor_music()
         self.default_music_maker = dornen.default_music()
         self.delicatissimo_music_maker = \

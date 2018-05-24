@@ -1,7 +1,7 @@
 #(set-default-paper-size "a3landscape")
 #(set-global-staff-size 12)
 
-\include "/Users/trevorbaca/baca/baca/stylesheets/baca.ily"
+\include "/Users/trevorbaca/baca/baca/lilypond/baca.ily"
 \include "contexts.ily"
 
 \paper {

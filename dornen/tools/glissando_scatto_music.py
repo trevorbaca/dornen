@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def glissando_scatto_music():
@@ -479,12 +479,12 @@ def glissando_scatto_music():
     Returns music-maker.
     """
     music_maker = baca.MusicMaker(
-        rhythmos.BeamSpecifier(
+        rmakers.BeamSpecifier(
             beam_divisions_together=True,
             ),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rhythmos.Talea(
+                talea=rmakers.Talea(
                     counts=[2, 2, 2, 1, 2, 2, 2],
                     denominator=32,
                     ),

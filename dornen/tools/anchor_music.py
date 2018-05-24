@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def anchor_music():
@@ -157,7 +157,7 @@ def anchor_music():
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rhythmos.Talea(
+                talea=rmakers.Talea(
                     counts=[3],
                     denominator=16,
                     ),

@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def default_music():
@@ -450,10 +450,10 @@ def default_music():
     Returns music-maker.
     """
     music_maker = baca.MusicMaker(
-        rhythmos.BeamSpecifier(beam_divisions_together=True),
+        rmakers.BeamSpecifier(beam_divisions_together=True),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rhythmos.Talea(
+                talea=rmakers.Talea(
                     counts=[1],
                     denominator=32,
                     ),

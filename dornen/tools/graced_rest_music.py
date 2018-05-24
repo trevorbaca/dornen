@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def graced_rest_music():
@@ -150,7 +150,7 @@ def graced_rest_music():
                 acciaccatura_specifiers=[
                     baca.AcciaccaturaSpecifier(),
                     ],
-                talea=rhythmos.Talea(
+                talea=rmakers.Talea(
                     counts=[1],
                     denominator=8,
                     ),

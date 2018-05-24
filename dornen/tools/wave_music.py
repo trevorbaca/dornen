@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def wave_music(denominator=64, inverted=False):
@@ -1320,14 +1320,14 @@ def wave_music(denominator=64, inverted=False):
     assert abjad.mathtools.is_positive_integer_power_of_two(denominator)
     assert 16 <= denominator, repr(denominator)
     accelerando_rhythm_maker = baca.PitchFirstRhythmMaker(
-        talea=rhythmos.Talea(
+        talea=rmakers.Talea(
             counts=[1],
             denominator=denominator,
             ),
         time_treatments=['accel'],
         )
     ritardando_rhythm_maker = baca.PitchFirstRhythmMaker(
-        talea=rhythmos.Talea(
+        talea=rmakers.Talea(
             counts=[1],
             denominator=denominator,
             ),

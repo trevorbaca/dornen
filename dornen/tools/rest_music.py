@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def rest_music(duration=None):
@@ -252,7 +252,7 @@ def rest_music(duration=None):
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                logical_tie_masks=abjad.silence([0], 1),
+                logical_tie_masks=rmakers.silence([0], 1),
                 talea=rmakers.Talea(
                     counts=[duration.numerator],
                     denominator=duration.denominator,

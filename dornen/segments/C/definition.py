@@ -2,6 +2,7 @@ import abjad
 import baca
 import dornen
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -76,7 +77,7 @@ accumulator(
     'v4',
     [3 * ['C4']],
     accumulator.rest_music_maker,
-    logical_tie_masks=abjad.silence([0], 1),
+    logical_tie_masks=rmakers.silence([0], 1),
     figure_name='S1',
     )
 
@@ -161,7 +162,7 @@ accumulator(
     [3 * ['C4']],
     accumulator.rest_music_maker,
     figure_name='S2',
-    logical_tie_masks=abjad.silence([0], 1),
+    logical_tie_masks=rmakers.silence([0], 1),
     )
 
 accumulator(

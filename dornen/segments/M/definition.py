@@ -2,6 +2,7 @@ import abjad
 import baca
 import dornen
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -62,7 +63,7 @@ accumulator(
     'v1',
     [['C4']],
     accumulator.thirty_second_music_maker,
-    logical_tie_masks=abjad.silence([0], 1),
+    logical_tie_masks=rmakers.silence([0], 1),
     )
 
 ### 2 ###
@@ -113,7 +114,7 @@ accumulator(
     'v1',
     [['C4']],
     accumulator.thirty_second_music_maker,
-    logical_tie_masks=abjad.silence([0], 1),
+    logical_tie_masks=rmakers.silence([0], 1),
     )
 
 ### 3 ###
@@ -164,7 +165,7 @@ accumulator(
     'v1',
     [['C4']],
     accumulator.thirty_second_music_maker,
-    logical_tie_masks=abjad.silence([0], 1),
+    logical_tie_masks=rmakers.silence([0], 1),
     )
 
 ### 4 ###
@@ -214,7 +215,7 @@ accumulator(
     'v1',
     [['C4']],
     accumulator.thirty_second_music_maker,
-    logical_tie_masks=abjad.silence([0], 1),
+    logical_tie_masks=rmakers.silence([0], 1),
     )
 
 ### 5 ###
@@ -264,7 +265,7 @@ accumulator(
     'v1',
     [['C4']],
     accumulator.thirty_second_music_maker,
-    logical_tie_masks=abjad.silence([0], 1),
+    logical_tie_masks=rmakers.silence([0], 1),
     )
 
 ### 6 ###
@@ -309,7 +310,7 @@ accumulator(
     'v1',
     [5 * ['C4']],
     accumulator.rest_music_maker,
-    logical_tie_masks=abjad.silence([0], 1),
+    logical_tie_masks=rmakers.silence([0], 1),
     )
 
 accumulator(

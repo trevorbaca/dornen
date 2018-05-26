@@ -2,6 +2,7 @@ import abjad
 import baca
 import dornen
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -334,7 +335,7 @@ accumulator(
     [5 * ['C4']],
     accumulator.rest_music_maker,
     figure_name='4_36',
-    logical_tie_masks=abjad.silence([0], 1),
+    logical_tie_masks=rmakers.silence([0], 1),
     )
 
 spacing = baca.HorizontalSpacingSpecifier(

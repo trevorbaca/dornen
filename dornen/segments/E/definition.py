@@ -2,6 +2,7 @@ import abjad
 import baca
 import dornen
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -79,7 +80,7 @@ accumulator(
         baca.leaf(0),
         ),
     figure_name='S1',
-    logical_tie_masks=abjad.silence([0], 1),
+    logical_tie_masks=rmakers.silence([0], 1),
     )
 
 accumulator(

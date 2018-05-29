@@ -127,16 +127,11 @@ metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
     (9, dornen.metronome_marks['44']),
     ])
 
-spacing = baca.HorizontalSpacingSpecifier(
-    minimum_duration=(1, 24),
-    )
-
 maker = baca.SegmentMaker(
     metronome_mark_measure_map=metronome_mark_measure_map,
     metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     skips_instead_of_rests=True,
-    spacing=spacing,
     time_signatures=accumulator.time_signatures,
     transpose_score=True,
     )

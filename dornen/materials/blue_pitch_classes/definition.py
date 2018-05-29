@@ -9,7 +9,7 @@ blue_pitch_classes = [
 blue_pitch_classes = baca.helianthate(blue_pitch_classes, -1, -1)
 assert len(blue_pitch_classes) == 45
 
-r'''
+"""
 (0, [1, 0, 10])
 (1, [5, 8, 6, 11, 2])
 (2, [4, 3, 9])
@@ -55,4 +55,4 @@ r'''
 (42, [9, 4, 3])
 (43, [10, 1, 0])
 (44, [2, 5, 8, 6, 11])
-'''
+"""

@@ -9,7 +9,7 @@ magenta_pitch_classes = [
 magenta_pitch_classes = baca.helianthate(magenta_pitch_classes, -1, -1)
 assert len(magenta_pitch_classes) == 36
 
-r'''
+"""
 (0, [4, 6, 2, 3])
 (1, [5, 9, 8, 0])
 (2, [11, 10, 7])
@@ -46,4 +46,4 @@ r'''
 (33, [7, 11, 10])
 (34, [3, 4, 6, 2])
 (35, [0, 5, 9, 8])
-'''
+"""

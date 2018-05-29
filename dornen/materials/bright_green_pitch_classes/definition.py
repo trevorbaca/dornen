@@ -9,7 +9,7 @@ bright_green_pitch_classes = [
 bright_green_pitch_classes = baca.helianthate(bright_green_pitch_classes, -1, -1)
 assert len(bright_green_pitch_classes) == 36
 
-r'''
+"""
 (0, [6, 4, 5, 5.5, 6.5, 9])
 (1, [10, 7, 8, 11.5])
 (2, [2.5, 3.5, 11, 2, 3, 10.5])
@@ -46,4 +46,4 @@ r'''
 (33, [10.5, 2.5, 3.5, 11, 2, 3])
 (34, [9, 6, 4, 5, 5.5, 6.5])
 (35, [11.5, 10, 7, 8])
-'''
+"""

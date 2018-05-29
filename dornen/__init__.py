@@ -11,7 +11,7 @@ from dornen.tools import *
 from dornen.materials import *
 from dornen import segments
 
-r'''
+"""
 [intro]: 40"
     [A]: 40"
     [B]: 1'22"
@@ -20,4 +20,4 @@ r'''
     [E]: 1'
 
   total: 4'34"
-'''
+"""

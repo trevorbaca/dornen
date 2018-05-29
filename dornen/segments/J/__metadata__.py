@@ -17,6 +17,10 @@ metadata = abjad.OrderedDict(
                 'GuitarMusicVoiceIV',
                 ],
             ),
+        (
+            'bol_measure_numbers',
+            [207, 218, 230],
+            ),
         ('duration', "1'11''"),
         ('first_measure_number', 207),
         ('last_measure_number', 231),

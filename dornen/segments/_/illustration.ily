@@ -724,12 +724,6 @@ i_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [_ GuitarMusicVoiceI measure 1]                        %! SM4
-            \set Staff.instrumentName =                              %! IC:STMK:-PARTS
-            \markup {                                                %! IC:STMK:-PARTS
-                \hcenter-in                                          %! IC:STMK:-PARTS
-                    #14                                              %! IC:STMK:-PARTS
-                    GUITAR                                           %! IC:STMK:-PARTS
-                }                                                    %! IC:STMK:-PARTS
             \once \override Beam.positions = #'(6 . 6)               %! OC1
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35

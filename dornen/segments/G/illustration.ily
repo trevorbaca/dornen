@@ -633,7 +633,7 @@ G_GuitarMusicVoiceII = {
         \scaleDurations #'(1 . 1) {
             
             % [G GuitarMusicVoiceII measure 155 / measure 1]         %! SM4
-            \override Beam.positions = #'(-7.5 . -7.5)               %! OC1
+            \once \override Beam.positions = #'(-7.5 . -7.5)         %! OC1
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 1
             b8.
@@ -669,7 +669,6 @@ G_GuitarMusicVoiceII = {
             \set stemRightBeamCount = 0
             a32
             ]
-            \revert Beam.positions                                   %! OC2
         }
     }
     
@@ -679,7 +678,7 @@ G_GuitarMusicVoiceII = {
         \scaleDurations #'(1 . 1) {
             
             % [G GuitarMusicVoiceII measure 160 / measure 6]         %! SM4
-            \override Beam.positions = #'(-7.5 . -7.5)               %! OC1
+            \once \override Beam.positions = #'(-7.5 . -7.5)         %! OC1
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
             e'8.
@@ -718,7 +717,6 @@ G_GuitarMusicVoiceII = {
             \set stemLeftBeamCount = 3                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
             d''32
-            \revert Beam.positions                                   %! OC2
         }
     }
     

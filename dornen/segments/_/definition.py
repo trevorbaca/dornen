@@ -206,7 +206,7 @@ maker(
     baca.register(0, -12),
     )
 
-maker(
-    'v1',
-    baca.start_markup('GUITAR', hcenter_in=14),
-    )
+#maker(
+#    'v1',
+#    baca.start_markup('GUITAR', hcenter_in=14),
+#    )

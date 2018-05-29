@@ -31,6 +31,14 @@
         \override MultiMeasureRestText.padding = 0
         }
 
+    % PAGE LAYOUT
+    \context {
+        \name PageLayout
+        \type Engraver_group
+        \consists Text_engraver
+        \consists Text_spanner_engraver
+        }
+
     % GLOBAL CONTEXT
     \context {
         \name GlobalContext
@@ -42,7 +50,10 @@
         \consists Time_signature_engraver
         \accepts GlobalSkips
         \accepts GlobalRests
+        \accepts PageLayout
 
+        % TODO: hide in score:
+        \override BarNumber.break-visibility = #end-of-line-invisible
         \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
 
@@ -61,7 +72,7 @@
         \override RehearsalMark.outside-staff-priority = 200
         \override RehearsalMark.self-alignment-X = #center
 
-        \override TimeSignature.X-extent = #'(0 . 0)
+        \override TimeSignature.X-extent = ##f
         \override TimeSignature.break-align-symbol = #'left-edge
         \override TimeSignature.break-visibility = #end-of-line-invisible
         \override TimeSignature.font-size = 3
@@ -190,6 +201,10 @@
         \remove Metronome_mark_engraver
         \remove System_start_delimiter_engraver
 
+        % necessary for uniform overlapping polyrhythms with accidentals
+        % but commented out here to allow acciaccature to move bar lines:
+        %\override Accidental.X-extent = ##f
+
         \override BarLine.space-alist = #'(
             (time-signature extra-space . 0.0)
             (custos minimum-space . 0.0) 
@@ -205,8 +220,8 @@
         \override Beam.breakable = ##t
         \override Beam.damping = 99
 
-        \override DynamicLineSpanner.Y-extent = #'(-4 . 4)
-        \override DynamicLineSpanner.padding = #1.5
+        
+        \override DynamicLineSpanner.padding = 3
 
         \override Glissando.breakable = ##t
         \override Glissando.thickness = 3
@@ -227,23 +242,17 @@
         \override StemTremolo.slope = 0.5
 
         \override TextScript.font-name = #"Palatino"
-        \override TextScript.padding = 1
-        \override TextScript.X-extent = ##f
-        \override TextScript.Y-extent = #'(-1.5 . 1.5)
-        \override TextSpanner.staff-padding = 2
-
-        \override TrillSpanner.bound-details.right.padding = 2
 
         \override TupletBracket.breakable = ##t
         \override TupletBracket.full-length-to-extent = ##f
         \override TupletBracket.padding = 2
-        \override TupletBracket.staff-padding = 1.5
 
         \override TupletNumber.font-size = 1
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
 
         autoBeaming = ##f
-        barNumberFormatter = #baca-oval-bar-numbers
+        % TODO: activate in score:
+        %barNumberFormatter = #baca-oval-bar-numbers
         markFormatter = #format-mark-box-alphabet
         proportionalNotationDuration = #(ly:make-moment 1 24)
         tupletFullLength = ##t

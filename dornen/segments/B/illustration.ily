@@ -2569,7 +2569,7 @@ B_GuitarMusicVoiceII = {
         \scaleDurations #'(1 . 1) {
             
             % [B GuitarMusicVoiceII measure 37 / measure 3]          %! SM4
-            \override Beam.positions = #'(-8 . -8)                   %! OC1
+            \once \override Beam.positions = #'(-8 . -8)             %! OC1
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
             ef'!8.
@@ -2604,7 +2604,6 @@ B_GuitarMusicVoiceII = {
             \set stemLeftBeamCount = 3                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
             g'32
-            \revert Beam.positions                                   %! OC2
         }
     }
     
@@ -2659,7 +2658,7 @@ B_GuitarMusicVoiceII = {
         \scaleDurations #'(1 . 1) {
             
             % [B GuitarMusicVoiceII measure 48 / measure 14]         %! SM4
-            \override Beam.positions = #'(-8 . -8)                   %! OC1
+            \once \override Beam.positions = #'(-8 . -8)             %! OC1
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
             ef'!8.
@@ -2694,7 +2693,6 @@ B_GuitarMusicVoiceII = {
             \set stemLeftBeamCount = 3                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
             g'32
-            \revert Beam.positions                                   %! OC2
         }
     }
     
@@ -2749,7 +2747,7 @@ B_GuitarMusicVoiceII = {
         \scaleDurations #'(1 . 1) {
             
             % [B GuitarMusicVoiceII measure 56 / measure 22]         %! SM4
-            \override Beam.positions = #'(-8 . -8)                   %! OC1
+            \once \override Beam.positions = #'(-8 . -8)             %! OC1
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
             ef'!8.
@@ -2784,7 +2782,6 @@ B_GuitarMusicVoiceII = {
             \set stemLeftBeamCount = 3                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
             g'32
-            \revert Beam.positions                                   %! OC2
         }
     }
     
@@ -2875,7 +2872,7 @@ B_GuitarMusicVoiceII = {
         \scaleDurations #'(1 . 1) {
             
             % [B GuitarMusicVoiceII measure 62 / measure 28]         %! SM4
-            \override Beam.positions = #'(-8 . -8)                   %! OC1
+            \once \override Beam.positions = #'(-8 . -8)             %! OC1
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
             g'8.
@@ -2910,7 +2907,6 @@ B_GuitarMusicVoiceII = {
             \set stemLeftBeamCount = 3                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
             e'32
-            \revert Beam.positions                                   %! OC2
         }
     }
     {
@@ -3035,7 +3031,7 @@ B_GuitarMusicVoiceII = {
         \scaleDurations #'(1 . 1) {
             
             % [B GuitarMusicVoiceII measure 66 / measure 32]         %! SM4
-            \override Beam.positions = #'(-8 . -8)                   %! OC1
+            \once \override Beam.positions = #'(-8 . -8)             %! OC1
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
             b8.
@@ -3070,7 +3066,6 @@ B_GuitarMusicVoiceII = {
             \set stemLeftBeamCount = 3                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
             cs''!32
-            \revert Beam.positions                                   %! OC2
         }
     }
     

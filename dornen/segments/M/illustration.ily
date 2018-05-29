@@ -2466,7 +2466,7 @@ M_GuitarMusicVoiceIV = {
     \revert Beam.positions                                           %! OC2
     
     % [M GuitarMusicVoiceIV measure 344 / measure 42]                %! SM4
-    \once \override TextScript.extra-offset = #'(124 . 0)
+    \once \override TextScript.extra-offset = #'(260 . 0)
     s1 * 13/3
     _ \markup {                                                      %! SCORE2
         \whiteout                                                    %! SCORE2

@@ -333,7 +333,7 @@ maker = baca.SegmentMaker(
         ['Cambridge, MA', 'Madison, WI', 'Palo Alto, CA.'],
         ['November 2015', 'July 2016.'],
         ),
-    final_markup_extra_offset=(124, 0),
+    final_markup_extra_offset=(260, 0),
     ignore_repeat_pitch_classes=False,
     last_segment=True,
     metronome_mark_stem_height=1.5,

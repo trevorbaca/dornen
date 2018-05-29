@@ -16,7 +16,7 @@ accumulator(
     'v2',
     design[:1],
     accumulator.ovoid_music_maker,
-    baca.beam_positions(-7.5),
+    baca.beam_positions(-7.5, selector=baca.pleaf(0)),
     baca.register(-20, -8),
     figure_name='O1',
     )
@@ -57,7 +57,7 @@ accumulator(
     'v2',
     design[5:6],
     accumulator.ovoid_music_maker,
-    baca.beam_positions(-7.5),
+    baca.beam_positions(-7.5, selector=baca.pleaf(0)),
     extend_beam=True,
     figure_name='O2',
     )

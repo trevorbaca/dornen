@@ -37,9 +37,7 @@ def glissando_scatto_music():
         >>> maker = baca.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
         ...     score_template=baca.SingleStaffScoreTemplate(),
-        ...     spacing=baca.HorizontalSpacingSpecifier(
-        ...         minimum_duration=(1, 24),
-        ...         ),
+        ...     spacing=baca.minimum_duration((1, 24)),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
@@ -231,9 +229,7 @@ def glissando_scatto_music():
         >>> maker = baca.SegmentMaker(
         ...     ignore_unregistered_pitches=True,
         ...     score_template=baca.SingleStaffScoreTemplate(),
-        ...     spacing=baca.HorizontalSpacingSpecifier(
-        ...         minimum_duration=(1, 24),
-        ...         ),
+        ...     spacing=baca.minimum_duration((1, 24)),
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(

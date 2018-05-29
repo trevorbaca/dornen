@@ -113,10 +113,6 @@ metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
     (1, dornen.metronome_marks['66']),
     ])
 
-spacing = baca.HorizontalSpacingSpecifier(
-    minimum_duration=(1, 24),
-    )
-
 maker = baca.SegmentMaker(
     instruments=dornen.instruments,
     metronome_mark_measure_map=metronome_mark_measure_map,
@@ -125,7 +121,6 @@ maker = baca.SegmentMaker(
     score_template=dornen.ScoreTemplate(),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     skips_instead_of_rests=True,
-    spacing=spacing,
     time_signatures=accumulator.time_signatures,
     transpose_score=True,
     )

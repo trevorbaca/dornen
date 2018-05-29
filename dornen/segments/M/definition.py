@@ -328,10 +328,6 @@ accumulator(
     baca.stem_tremolo(selector=baca.pleaves()),
     )
 
-spacing = baca.HorizontalSpacingSpecifier(
-    minimum_duration=(1, 24),
-    )
-
 maker = baca.SegmentMaker(
     final_markup=(
         ['Cambridge, MA', 'Madison, WI', 'Palo Alto, CA.'],
@@ -343,7 +339,6 @@ maker = baca.SegmentMaker(
     metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     skips_instead_of_rests=True,
-    spacing=spacing,
     time_signatures=accumulator.time_signatures,
     transpose_score=True,
     )

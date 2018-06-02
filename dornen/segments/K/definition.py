@@ -214,7 +214,7 @@ maker(
     baca.transition(
         baca.markup.tamb_tr(),
         baca.markup.kn_rasg(),
-        spanner_selector=baca.rleaves(),
+        selector=baca.rleaves(),
         ),
     )
 
@@ -224,7 +224,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
-        spanner_selector=baca.rleaves(),
+        selector=baca.rleaves(),
         ),
     )
 
@@ -234,7 +234,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        spanner_selector=baca.rleaves(),
+        selector=baca.rleaves(),
         ),
     )
 
@@ -244,7 +244,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
-        spanner_selector=baca.rleaves(),
+        selector=baca.rleaves(),
         ),
     )
 
@@ -254,7 +254,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        spanner_selector=baca.rleaves(),
+        selector=baca.rleaves(),
         ),
     )
 
@@ -264,7 +264,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
-        spanner_selector=baca.rleaves(),
+        selector=baca.rleaves(),
         ),
     )
 
@@ -274,7 +274,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        spanner_selector=baca.rleaves(),
+        selector=baca.rleaves(),
         ),
     )
 
@@ -284,7 +284,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
-        spanner_selector=baca.rleaves(),
+        selector=baca.rleaves(),
         ),
     )
 
@@ -294,7 +294,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.kn_rasg(),
-        spanner_selector=baca.rleaves(),
+        selector=baca.rleaves(),
         ),
     )
 
@@ -304,6 +304,6 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.tamb_tr(),
-        spanner_selector=baca.rleaves(),
+        selector=baca.rleaves(),
         ),
     )

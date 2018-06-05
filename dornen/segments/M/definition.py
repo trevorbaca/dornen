@@ -19,7 +19,7 @@ accumulator(
     'v1',
     design[:1],
     accumulator.forty_eighth_music_maker,
-    baca.markup.markup(
+    baca.markups.markup(
         'LH only until rascado! (RH tacet; encourage whisks) ...'
         ),
     extend_beam=True,
@@ -72,7 +72,7 @@ accumulator(
     'v1',
     design[:1],
     accumulator.forty_eighth_music_maker,
-    baca.markup.markup('RH reaches for screw ...'),
+    baca.markups.markup('RH reaches for screw ...'),
     extend_beam=True,
     )
 
@@ -123,7 +123,7 @@ accumulator(
     'v1',
     design[:1],
     accumulator.forty_eighth_music_maker,
-    baca.markup.markup('RH places screw on string ...'),
+    baca.markups.markup('RH places screw on string ...'),
     extend_beam=True,
     )
 
@@ -318,7 +318,7 @@ accumulator(
     [13 * ['E2']],
     accumulator.third_music_maker,
     baca.dynamic('p'),
-    baca.markup.markup(
+    baca.markups.markup(
         'RASCADO: slowly draw extremely long metal screw over open string;'
         ' as close as possible to bridge; only one stroke.',
         direction=abjad.Up,

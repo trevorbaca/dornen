@@ -75,7 +75,7 @@ accumulator(
     'v1',
     [3 * ['C4']],
     accumulator.rest_music_maker,
-    baca.markup.markup(
+    baca.markups.markup(
         'raise string 2 one quartertone',
         baca.leaf(0),
         ),

@@ -51,7 +51,7 @@ accumulator(
     'v1',
     [['Gb~2']],
     accumulator.monad_music_maker,
-    baca.markup.boxed('3 fingers'),
+    baca.markups.boxed('3 fingers'),
     figure_name='3_1',
     )
 
@@ -89,7 +89,7 @@ accumulator(
     'v1',
     [['Gb~2']],
     accumulator.monad_music_maker,
-    baca.markup.boxed('4 fingers'),
+    baca.markups.boxed('4 fingers'),
     figure_name='4_1',
     )
 
@@ -181,7 +181,7 @@ accumulator(
     'v1',
     [2 * ['Gb~2']],
     accumulator.monad_music_maker,
-    baca.markup.boxed('3 fingers'),
+    baca.markups.boxed('3 fingers'),
     figure_name='4_14',
     )
 
@@ -189,7 +189,7 @@ accumulator(
     'v1',
     [2 * ['Gb~2']],
     accumulator.monad_music_maker,
-    baca.markup.boxed('2 fingers'),
+    baca.markups.boxed('2 fingers'),
     figure_name='4_15',
     )
 
@@ -234,8 +234,8 @@ maker(
     ('v1', 12),
     baca.hairpin('pp < p', selector=baca.rleaves()),
     baca.transition(
-        baca.markup.trans(),
-        baca.markup.kn_rasg(),
+        baca.markups.trans(),
+        baca.markups.kn_rasg(),
         selector=baca.rleaves(),
         ),
     )
@@ -244,8 +244,8 @@ maker(
     ('v1', 14),
     baca.hairpin('p > pp', selector=baca.rleaves()),
     baca.transition(
-        baca.markup.trans(),
-        baca.markup.tamb_tr(),
+        baca.markups.trans(),
+        baca.markups.tamb_tr(),
         selector=baca.rleaves(),
         ),
     )
@@ -254,8 +254,8 @@ maker(
     ('v1', 16),
     baca.hairpin('pp < mp', selector=baca.rleaves()),
     baca.transition(
-        baca.markup.trans(),
-        baca.markup.kn_rasg(),
+        baca.markups.trans(),
+        baca.markups.kn_rasg(),
         selector=baca.rleaves(),
         ),
     )
@@ -264,8 +264,8 @@ maker(
     ('v1', 18),
     baca.hairpin('mp > pp', selector=baca.rleaves()),
     baca.transition(
-        baca.markup.trans(),
-        baca.markup.tamb_tr(),
+        baca.markups.trans(),
+        baca.markups.tamb_tr(),
         selector=baca.rleaves(),
         ),
     )
@@ -274,8 +274,8 @@ maker(
     ('v1', 20),
     baca.hairpin('pp < mf', selector=baca.rleaves()),
     baca.transition(
-        baca.markup.trans(),
-        baca.markup.kn_rasg(),
+        baca.markups.trans(),
+        baca.markups.kn_rasg(),
         selector=baca.rleaves(),
         ),
     )
@@ -284,8 +284,8 @@ maker(
     ('v1', (22, 25)),
     baca.hairpin('mf > p', selector=baca.leaves()),
     baca.transition(
-        baca.markup.trans(),
-        baca.markup.tamb_tr(),
+        baca.markups.trans(),
+        baca.markups.tamb_tr(),
         selector=baca.rleaves(),
         ),
     )

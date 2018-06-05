@@ -567,8 +567,8 @@ maker(
 maker(
     ('v1', (41, 45)),
     baca.transition(
-        baca.markup('gradually slow rasgueado'),
-        baca.Markup('still').upright(),
+        baca.markups.markup('gradually slow rasgueado'),
+        baca.markups.still(),
         selector=baca.rleaves(),
         ),
     baca.text_script_staff_padding(

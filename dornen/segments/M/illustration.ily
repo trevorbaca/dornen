@@ -1543,11 +1543,7 @@ M_GuitarMusicVoiceI = {
             \niente                                                  %! SM8:REAPPLIED_DYNAMIC:SM37
             -\tenuto                                                 %! IC
             [                                                        %! SM35
-            ^ \markup {                                              %! IC
-                \whiteout                                            %! IC
-                    \upright                                         %! IC
-                        "LH only until rascado! (RH tacet; encourage whisks) ..." %! IC
-                }                                                    %! IC
+            ^ \markup { "LH only until rascado! (RH tacet; encourage whisks) ..." } %! IC
             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
             
             \set stemLeftBeamCount = 3                               %! SM35
@@ -1591,11 +1587,7 @@ M_GuitarMusicVoiceI = {
             d'32.
             -\tenuto                                                 %! IC
             [                                                        %! SM35
-            ^ \markup {                                              %! IC
-                \whiteout                                            %! IC
-                    \upright                                         %! IC
-                        "RH reaches for screw ..."                   %! IC
-                }                                                    %! IC
+            ^ \markup { "RH reaches for screw ..." }                 %! IC
             
             \set stemLeftBeamCount = 3                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
@@ -1638,11 +1630,7 @@ M_GuitarMusicVoiceI = {
             d'32.
             -\tenuto                                                 %! IC
             [                                                        %! SM35
-            ^ \markup {                                              %! IC
-                \whiteout                                            %! IC
-                    \upright                                         %! IC
-                        "RH places screw on string ..."              %! IC
-                }                                                    %! IC
+            ^ \markup { "RH places screw on string ..." }            %! IC
             
             \set stemLeftBeamCount = 3                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
@@ -1801,11 +1789,7 @@ M_GuitarMusicVoiceI = {
             e2
             :32                                                      %! IC
             \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-            ^ \markup {                                              %! IC
-                \whiteout                                            %! IC
-                    \upright                                         %! IC
-                        "RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke." %! IC
-                }                                                    %! IC
+            ^ \markup { "RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke." } %! IC
             
             e2
             :32                                                      %! IC
@@ -2469,47 +2453,45 @@ M_GuitarMusicVoiceIV = {
     \once \override TextScript.extra-offset = #'(260 . 0)
     s1 * 13/3
     _ \markup {                                                      %! SCORE2
-        \whiteout                                                    %! SCORE2
-            \upright                                                 %! SCORE2
-                \override                                            %! SCORE2
-                    #'(font-name . "Palatino")                       %! SCORE2
-                    \with-color                                      %! SCORE2
-                        #black                                       %! SCORE2
-                        \right-column                                %! SCORE2
+        \override                                                    %! SCORE2
+            #'(font-name . "Palatino")                               %! SCORE2
+            \with-color                                              %! SCORE2
+                #black                                               %! SCORE2
+                \right-column                                        %! SCORE2
+                    {                                                %! SCORE2
+                        \line                                        %! SCORE2
                             {                                        %! SCORE2
-                                \line                                %! SCORE2
-                                    {                                %! SCORE2
-                                        Cambridge,                   %! SCORE2
-                                        MA                           %! SCORE2
-                                        \hspace                      %! SCORE2
-                                            #0.75                    %! SCORE2
-                                        –                            %! SCORE2
-                                        \hspace                      %! SCORE2
-                                            #0.75                    %! SCORE2
-                                        Madison,                     %! SCORE2
-                                        WI                           %! SCORE2
-                                        \hspace                      %! SCORE2
-                                            #0.75                    %! SCORE2
-                                        –                            %! SCORE2
-                                        \hspace                      %! SCORE2
-                                            #0.75                    %! SCORE2
-                                        Palo                         %! SCORE2
-                                        Alto,                        %! SCORE2
-                                        CA.                          %! SCORE2
-                                    }                                %! SCORE2
-                                \line                                %! SCORE2
-                                    {                                %! SCORE2
-                                        November                     %! SCORE2
-                                        2015                         %! SCORE2
-                                        \hspace                      %! SCORE2
-                                            #0.75                    %! SCORE2
-                                        –                            %! SCORE2
-                                        \hspace                      %! SCORE2
-                                            #0.75                    %! SCORE2
-                                        July                         %! SCORE2
-                                        2016.                        %! SCORE2
-                                    }                                %! SCORE2
+                                Cambridge,                           %! SCORE2
+                                MA                                   %! SCORE2
+                                \hspace                              %! SCORE2
+                                    #0.75                            %! SCORE2
+                                –                                    %! SCORE2
+                                \hspace                              %! SCORE2
+                                    #0.75                            %! SCORE2
+                                Madison,                             %! SCORE2
+                                WI                                   %! SCORE2
+                                \hspace                              %! SCORE2
+                                    #0.75                            %! SCORE2
+                                –                                    %! SCORE2
+                                \hspace                              %! SCORE2
+                                    #0.75                            %! SCORE2
+                                Palo                                 %! SCORE2
+                                Alto,                                %! SCORE2
+                                CA.                                  %! SCORE2
                             }                                        %! SCORE2
+                        \line                                        %! SCORE2
+                            {                                        %! SCORE2
+                                November                             %! SCORE2
+                                2015                                 %! SCORE2
+                                \hspace                              %! SCORE2
+                                    #0.75                            %! SCORE2
+                                –                                    %! SCORE2
+                                \hspace                              %! SCORE2
+                                    #0.75                            %! SCORE2
+                                July                                 %! SCORE2
+                                2016.                                %! SCORE2
+                            }                                        %! SCORE2
+                    }                                                %! SCORE2
         }                                                            %! SCORE2
     
 }

@@ -1537,9 +1537,7 @@ C_GuitarMusicVoiceII = {
                     {
                         \line                                        %! IC
                             {                                        %! IC
-                                \whiteout                            %! IC
-                                    \upright                         %! IC
-                                        "glissando: attack first note only" %! IC
+                                "glissando: attack first note only"  %! IC
                             }                                        %! IC
                     %%% \line                                        %! FIGURE_NAME_MARKUP
                     %%%     {                                        %! FIGURE_NAME_MARKUP
@@ -2260,12 +2258,10 @@ C_GuitarMusicVoiceIV = {
                     {
                         \line                                        %! IC
                             {                                        %! IC
-                                \whiteout                            %! IC
-                                    \upright                         %! IC
-                                        \override                    %! IC
-                                            #'(box-padding . 0.5)    %! IC
-                                            \box                     %! IC
-                                                "2-finger tamb. trill" %! IC
+                                \override                            %! IC
+                                    #'(box-padding . 0.5)            %! IC
+                                    \box                             %! IC
+                                        "2-finger tamb. trill"       %! IC
                             }                                        %! IC
                     %%% \line                                        %! FIGURE_NAME_MARKUP
                     %%%     {                                        %! FIGURE_NAME_MARKUP
@@ -2345,12 +2341,10 @@ C_GuitarMusicVoiceIV = {
                     {
                         \line                                        %! IC
                             {                                        %! IC
-                                \whiteout                            %! IC
-                                    \upright                         %! IC
-                                        \override                    %! IC
-                                            #'(box-padding . 0.5)    %! IC
-                                            \box                     %! IC
-                                                "2-finger tamb. trill" %! IC
+                                \override                            %! IC
+                                    #'(box-padding . 0.5)            %! IC
+                                    \box                             %! IC
+                                        "2-finger tamb. trill"       %! IC
                             }                                        %! IC
                     %%% \line                                        %! FIGURE_NAME_MARKUP
                     %%%     {                                        %! FIGURE_NAME_MARKUP

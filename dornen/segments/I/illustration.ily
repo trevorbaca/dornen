@@ -871,12 +871,10 @@ I_GuitarMusicVoiceI = {
                     {
                         \line                                        %! IC
                             {                                        %! IC
-                                \whiteout                            %! IC
-                                    \upright                         %! IC
-                                        \override                    %! IC
-                                            #'(box-padding . 0.5)    %! IC
-                                            \box                     %! IC
-                                                "2-finger tamb. trill" %! IC
+                                \override                            %! IC
+                                    #'(box-padding . 0.5)            %! IC
+                                    \box                             %! IC
+                                        "2-finger tamb. trill"       %! IC
                             }                                        %! IC
                     %%% \line                                        %! FIGURE_NAME_MARKUP
                     %%%     {                                        %! FIGURE_NAME_MARKUP
@@ -1063,12 +1061,10 @@ I_GuitarMusicVoiceI = {
                     {
                         \line                                        %! IC
                             {                                        %! IC
-                                \whiteout                            %! IC
-                                    \upright                         %! IC
-                                        \override                    %! IC
-                                            #'(box-padding . 0.5)    %! IC
-                                            \box                     %! IC
-                                                "3 fingers"          %! IC
+                                \override                            %! IC
+                                    #'(box-padding . 0.5)            %! IC
+                                    \box                             %! IC
+                                        "3 fingers"                  %! IC
                             }                                        %! IC
                     %%% \line                                        %! FIGURE_NAME_MARKUP
                     %%%     {                                        %! FIGURE_NAME_MARKUP
@@ -1248,12 +1244,10 @@ I_GuitarMusicVoiceI = {
                     {
                         \line                                        %! IC
                             {                                        %! IC
-                                \whiteout                            %! IC
-                                    \upright                         %! IC
-                                        \override                    %! IC
-                                            #'(box-padding . 0.5)    %! IC
-                                            \box                     %! IC
-                                                "4 fingers"          %! IC
+                                \override                            %! IC
+                                    #'(box-padding . 0.5)            %! IC
+                                    \box                             %! IC
+                                        "4 fingers"                  %! IC
                             }                                        %! IC
                     %%% \line                                        %! FIGURE_NAME_MARKUP
                     %%%     {                                        %! FIGURE_NAME_MARKUP
@@ -1566,12 +1560,10 @@ I_GuitarMusicVoiceI = {
                     {
                         \line                                        %! IC
                             {                                        %! IC
-                                \whiteout                            %! IC
-                                    \upright                         %! IC
-                                        \override                    %! IC
-                                            #'(box-padding . 0.5)    %! IC
-                                            \box                     %! IC
-                                                "3 fingers"          %! IC
+                                \override                            %! IC
+                                    #'(box-padding . 0.5)            %! IC
+                                    \box                             %! IC
+                                        "3 fingers"                  %! IC
                             }                                        %! IC
                     %%% \line                                        %! FIGURE_NAME_MARKUP
                     %%%     {                                        %! FIGURE_NAME_MARKUP
@@ -1622,12 +1614,10 @@ I_GuitarMusicVoiceI = {
                     {
                         \line                                        %! IC
                             {                                        %! IC
-                                \whiteout                            %! IC
-                                    \upright                         %! IC
-                                        \override                    %! IC
-                                            #'(box-padding . 0.5)    %! IC
-                                            \box                     %! IC
-                                                "2 fingers"          %! IC
+                                \override                            %! IC
+                                    #'(box-padding . 0.5)            %! IC
+                                    \box                             %! IC
+                                        "2 fingers"                  %! IC
                             }                                        %! IC
                     %%% \line                                        %! FIGURE_NAME_MARKUP
                     %%%     {                                        %! FIGURE_NAME_MARKUP

@@ -758,9 +758,7 @@ E_GuitarMusicVoiceI = {
                     {
                         \line                                        %! IC
                             {                                        %! IC
-                                \whiteout                            %! IC
-                                    \upright                         %! IC
-                                        "raise string 2 one quartertone" %! IC
+                                "raise string 2 one quartertone"     %! IC
                             }                                        %! IC
                     %%% \line                                        %! FIGURE_NAME_MARKUP
                     %%%     {                                        %! FIGURE_NAME_MARKUP

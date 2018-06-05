@@ -1127,9 +1127,7 @@ D_GuitarMusicVoiceI = {
                     {
                         \line                                        %! IC
                             {                                        %! IC
-                                \whiteout                            %! IC
-                                    \upright                         %! IC
-                                        "slurs fluid; all other parts mechanically precise" %! IC
+                                "slurs fluid; all other parts mechanically precise" %! IC
                             }                                        %! IC
                     %%% \line                                        %! FIGURE_NAME_MARKUP
                     %%%     {                                        %! FIGURE_NAME_MARKUP
@@ -1583,12 +1581,10 @@ D_GuitarMusicVoiceII = {
                     {
                         \line                                        %! IC
                             {                                        %! IC
-                                \whiteout                            %! IC
-                                    \upright                         %! IC
-                                        \override                    %! IC
-                                            #'(box-padding . 0.5)    %! IC
-                                            \box                     %! IC
-                                                "2-finger tamb. trill" %! IC
+                                \override                            %! IC
+                                    #'(box-padding . 0.5)            %! IC
+                                    \box                             %! IC
+                                        "2-finger tamb. trill"       %! IC
                             }                                        %! IC
                     %%% \line                                        %! FIGURE_NAME_MARKUP
                     %%%     {                                        %! FIGURE_NAME_MARKUP

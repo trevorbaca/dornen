@@ -1202,11 +1202,7 @@ F_GuitarMusicVoiceII = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            _ \markup {                                              %! IC
-                \whiteout                                            %! IC
-                    \upright                                         %! IC
-                        "dull (but beautiful) thud with RH muting for each red note" %! IC
-                }                                                    %! IC
+            _ \markup { "dull (but beautiful) thud with RH muting for each red note" } %! IC
         }
     }
     

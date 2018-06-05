@@ -971,9 +971,8 @@ K_GuitarMusicVoiceI = {
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
                     {                                                %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                "tamb. tr."                          %! PWC1
+                        \upright                                     %! PWC1
+                            "tamb. tr."                              %! PWC1
                         \hspace                                      %! PWC1
                             #0.5                                     %! PWC1
                     }                                                %! PWC1
@@ -994,9 +993,8 @@ K_GuitarMusicVoiceI = {
                     {                                                %! PWC1
                         \hspace                                      %! PWC1
                             #0.0                                     %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                "kn. rasg."                          %! PWC1
+                        \upright                                     %! PWC1
+                            "kn. rasg."                              %! PWC1
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
@@ -1074,9 +1072,8 @@ K_GuitarMusicVoiceI = {
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
                     {                                                %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                trans.                               %! PWC1
+                        \upright                                     %! PWC1
+                            trans.                                   %! PWC1
                         \hspace                                      %! PWC1
                             #0.5                                     %! PWC1
                     }                                                %! PWC1
@@ -1097,9 +1094,8 @@ K_GuitarMusicVoiceI = {
                     {                                                %! PWC1
                         \hspace                                      %! PWC1
                             #0.0                                     %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                "tamb. tr."                          %! PWC1
+                        \upright                                     %! PWC1
+                            "tamb. tr."                              %! PWC1
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
@@ -1224,9 +1220,8 @@ K_GuitarMusicVoiceI = {
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
                     {                                                %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                trans.                               %! PWC1
+                        \upright                                     %! PWC1
+                            trans.                                   %! PWC1
                         \hspace                                      %! PWC1
                             #0.5                                     %! PWC1
                     }                                                %! PWC1
@@ -1247,9 +1242,8 @@ K_GuitarMusicVoiceI = {
                     {                                                %! PWC1
                         \hspace                                      %! PWC1
                             #0.0                                     %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                "kn. rasg."                          %! PWC1
+                        \upright                                     %! PWC1
+                            "kn. rasg."                              %! PWC1
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
@@ -1327,9 +1321,8 @@ K_GuitarMusicVoiceI = {
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
                     {                                                %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                trans.                               %! PWC1
+                        \upright                                     %! PWC1
+                            trans.                                   %! PWC1
                         \hspace                                      %! PWC1
                             #0.5                                     %! PWC1
                     }                                                %! PWC1
@@ -1350,9 +1343,8 @@ K_GuitarMusicVoiceI = {
                     {                                                %! PWC1
                         \hspace                                      %! PWC1
                             #0.0                                     %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                "tamb. tr."                          %! PWC1
+                        \upright                                     %! PWC1
+                            "tamb. tr."                              %! PWC1
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
@@ -1477,9 +1469,8 @@ K_GuitarMusicVoiceI = {
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
                     {                                                %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                trans.                               %! PWC1
+                        \upright                                     %! PWC1
+                            trans.                                   %! PWC1
                         \hspace                                      %! PWC1
                             #0.5                                     %! PWC1
                     }                                                %! PWC1
@@ -1500,9 +1491,8 @@ K_GuitarMusicVoiceI = {
                     {                                                %! PWC1
                         \hspace                                      %! PWC1
                             #0.0                                     %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                "kn. rasg."                          %! PWC1
+                        \upright                                     %! PWC1
+                            "kn. rasg."                              %! PWC1
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
@@ -1580,9 +1570,8 @@ K_GuitarMusicVoiceI = {
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
                     {                                                %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                trans.                               %! PWC1
+                        \upright                                     %! PWC1
+                            trans.                                   %! PWC1
                         \hspace                                      %! PWC1
                             #0.5                                     %! PWC1
                     }                                                %! PWC1
@@ -1603,9 +1592,8 @@ K_GuitarMusicVoiceI = {
                     {                                                %! PWC1
                         \hspace                                      %! PWC1
                             #0.0                                     %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                "tamb. tr."                          %! PWC1
+                        \upright                                     %! PWC1
+                            "tamb. tr."                              %! PWC1
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
@@ -1683,9 +1671,8 @@ K_GuitarMusicVoiceI = {
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
                     {                                                %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                trans.                               %! PWC1
+                        \upright                                     %! PWC1
+                            trans.                                   %! PWC1
                         \hspace                                      %! PWC1
                             #0.5                                     %! PWC1
                     }                                                %! PWC1
@@ -1706,9 +1693,8 @@ K_GuitarMusicVoiceI = {
                     {                                                %! PWC1
                         \hspace                                      %! PWC1
                             #0.0                                     %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                "kn. rasg."                          %! PWC1
+                        \upright                                     %! PWC1
+                            "kn. rasg."                              %! PWC1
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
@@ -1786,9 +1772,8 @@ K_GuitarMusicVoiceI = {
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
                     {                                                %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                trans.                               %! PWC1
+                        \upright                                     %! PWC1
+                            trans.                                   %! PWC1
                         \hspace                                      %! PWC1
                             #0.5                                     %! PWC1
                     }                                                %! PWC1
@@ -1809,9 +1794,8 @@ K_GuitarMusicVoiceI = {
                     {                                                %! PWC1
                         \hspace                                      %! PWC1
                             #0.0                                     %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                "tamb. tr."                          %! PWC1
+                        \upright                                     %! PWC1
+                            "tamb. tr."                              %! PWC1
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
@@ -1889,9 +1873,8 @@ K_GuitarMusicVoiceI = {
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
                     {                                                %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                trans.                               %! PWC1
+                        \upright                                     %! PWC1
+                            trans.                                   %! PWC1
                         \hspace                                      %! PWC1
                             #0.5                                     %! PWC1
                     }                                                %! PWC1
@@ -1912,9 +1895,8 @@ K_GuitarMusicVoiceI = {
                     {                                                %! PWC1
                         \hspace                                      %! PWC1
                             #0.0                                     %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                "kn. rasg."                          %! PWC1
+                        \upright                                     %! PWC1
+                            "kn. rasg."                              %! PWC1
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
@@ -1992,9 +1974,8 @@ K_GuitarMusicVoiceI = {
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
                     {                                                %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                trans.                               %! PWC1
+                        \upright                                     %! PWC1
+                            trans.                                   %! PWC1
                         \hspace                                      %! PWC1
                             #0.5                                     %! PWC1
                     }                                                %! PWC1
@@ -2015,9 +1996,8 @@ K_GuitarMusicVoiceI = {
                     {                                                %! PWC1
                         \hspace                                      %! PWC1
                             #0.0                                     %! PWC1
-                        \whiteout                                    %! PWC1
-                            \upright                                 %! PWC1
-                                "tamb. tr."                          %! PWC1
+                        \upright                                     %! PWC1
+                            "tamb. tr."                              %! PWC1
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1

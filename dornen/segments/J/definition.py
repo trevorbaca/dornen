@@ -234,8 +234,8 @@ maker(
     ('v1', 12),
     baca.hairpin('pp < p', selector=baca.rleaves()),
     baca.transition(
-        baca.markups.trans(),
-        baca.markups.kn_rasg(),
+        baca.markups.trans().upright(),
+        baca.markups.kn_rasg().upright(),
         selector=baca.rleaves(),
         ),
     )
@@ -244,8 +244,8 @@ maker(
     ('v1', 14),
     baca.hairpin('p > pp', selector=baca.rleaves()),
     baca.transition(
-        baca.markups.trans(),
-        baca.markups.tamb_tr(),
+        baca.markups.trans().upright(),
+        baca.markups.tamb_tr().upright(),
         selector=baca.rleaves(),
         ),
     )
@@ -254,8 +254,8 @@ maker(
     ('v1', 16),
     baca.hairpin('pp < mp', selector=baca.rleaves()),
     baca.transition(
-        baca.markups.trans(),
-        baca.markups.kn_rasg(),
+        baca.markups.trans().upright(),
+        baca.markups.kn_rasg().upright(),
         selector=baca.rleaves(),
         ),
     )
@@ -264,8 +264,8 @@ maker(
     ('v1', 18),
     baca.hairpin('mp > pp', selector=baca.rleaves()),
     baca.transition(
-        baca.markups.trans(),
-        baca.markups.tamb_tr(),
+        baca.markups.trans().upright(),
+        baca.markups.tamb_tr().upright(),
         selector=baca.rleaves(),
         ),
     )
@@ -274,8 +274,8 @@ maker(
     ('v1', 20),
     baca.hairpin('pp < mf', selector=baca.rleaves()),
     baca.transition(
-        baca.markups.trans(),
-        baca.markups.kn_rasg(),
+        baca.markups.trans().upright(),
+        baca.markups.kn_rasg().upright(),
         selector=baca.rleaves(),
         ),
     )
@@ -284,8 +284,8 @@ maker(
     ('v1', (22, 25)),
     baca.hairpin('mf > p', selector=baca.leaves()),
     baca.transition(
-        baca.markups.trans(),
-        baca.markups.tamb_tr(),
+        baca.markups.trans().upright(),
+        baca.markups.tamb_tr().upright(),
         selector=baca.rleaves(),
         ),
     )

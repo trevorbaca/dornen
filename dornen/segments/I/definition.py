@@ -23,7 +23,7 @@ accumulator(
     'v1',
     2 * [['Gb2']],
     accumulator.monad_music_maker,
-    baca.markup.boxed('2-finger tamb. trill'),
+    baca.markups.boxed('2-finger tamb. trill'),
     figure_name='2_1',
     )
 
@@ -61,7 +61,7 @@ accumulator(
     'v1',
     [['Gb2']],
     accumulator.monad_music_maker,
-    baca.markup.boxed('3 fingers'),
+    baca.markups.boxed('3 fingers'),
     figure_name='3_1',
     )
 
@@ -99,7 +99,7 @@ accumulator(
     'v1',
     [['Gb2']],
     accumulator.monad_music_maker,
-    baca.markup.boxed('4 fingers'),
+    baca.markups.boxed('4 fingers'),
     figure_name='4_1',
     )
 
@@ -163,7 +163,7 @@ accumulator(
     'v1',
     2 * [['Gb2']],
     accumulator.monad_music_maker,
-    baca.markup.boxed('3 fingers'),
+    baca.markups.boxed('3 fingers'),
     figure_name='4_10',
     )
 
@@ -171,7 +171,7 @@ accumulator(
     'v1',
     2 * [['Gb2']],
     accumulator.monad_music_maker,
-    baca.markup.boxed('2 fingers'),
+    baca.markups.boxed('2 fingers'),
     figure_name='4_11',
     )
 

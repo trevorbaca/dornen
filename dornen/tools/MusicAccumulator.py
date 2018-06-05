@@ -1,3 +1,4 @@
+import abjad
 import baca
 
 
@@ -209,6 +210,12 @@ class MusicAccumulator(baca.MusicAccumulator):
             voice_name,
             voice_name,
             )
+        specifiers_ = []
+        for specifier in specifiers:
+            if isinstance(specifier, abjad.Markup):
+                specifier = baca.markup(specifier)
+            specifiers_.append(specifier)
+        specifiers = specifiers_
         return superclass.__call__(
             music_maker(
                 voice_name,

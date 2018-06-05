@@ -18,7 +18,7 @@ accumulator(
     'v1',
     design[:1],
     accumulator.forty_eighth_music_maker,
-    baca.markups.markup('slurs fluid; all other parts mechanically precise'),
+    baca.markup('slurs fluid; all other parts mechanically precise'),
     baca.literal(string),
     extend_beam=True,
     figure_name='48_1',

@@ -567,7 +567,7 @@ maker(
 maker(
     ('v1', (41, 45)),
     baca.transition(
-        baca.markups.markup('gradually slow rasgueado'),
+        baca.markup('gradually slow rasgueado'),
         baca.markups.still(),
         selector=baca.rleaves(),
         ),

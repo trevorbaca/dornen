@@ -864,8 +864,8 @@ I_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             gf!2
             :32                                                      %! IC
-            \<                                                       %! HC1
             \ppp                                                     %! HC1
+            \<                                                       %! HC1
             ^ \markup {
                 \column
                     {
@@ -953,8 +953,8 @@ I_GuitarMusicVoiceI = {
             gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>                                                       %! HC1
             \pp                                                      %! HC1
+            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1054,8 +1054,8 @@ I_GuitarMusicVoiceI = {
             gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<                                                       %! HC1
             \ppp                                                     %! HC1
+            \<                                                       %! HC1
             ^ \markup {
                 \column
                     {
@@ -1136,8 +1136,8 @@ I_GuitarMusicVoiceI = {
             gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>                                                       %! HC1
             \p                                                       %! HC1
+            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1237,8 +1237,8 @@ I_GuitarMusicVoiceI = {
             gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<                                                       %! HC1
             \ppp                                                     %! HC1
+            \<                                                       %! HC1
             ^ \markup {
                 \column
                     {
@@ -1319,8 +1319,8 @@ I_GuitarMusicVoiceI = {
             gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<                                                       %! HC1
             \pp                                                      %! HC1
+            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1388,8 +1388,8 @@ I_GuitarMusicVoiceI = {
             gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<                                                       %! HC1
             \p                                                       %! HC1
+            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1457,8 +1457,8 @@ I_GuitarMusicVoiceI = {
             gf!2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>                                                       %! HC1
             \mp                                                      %! HC1
+            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP

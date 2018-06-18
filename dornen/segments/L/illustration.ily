@@ -1701,8 +1701,8 @@ L_GuitarMusicVoiceI = {
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<                                                       %! HC1
             \mp                                                      %! HC1
+            \<                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1802,8 +1802,8 @@ L_GuitarMusicVoiceI = {
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>                                                       %! HC1
             \mf                                                      %! HC1
+            \>                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1948,8 +1948,8 @@ L_GuitarMusicVoiceI = {
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<                                                       %! HC1
             \mp                                                      %! HC1
+            \<                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -2049,8 +2049,8 @@ L_GuitarMusicVoiceI = {
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>                                                       %! HC1
             \f                                                       %! HC1
+            \>                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -2195,8 +2195,8 @@ L_GuitarMusicVoiceI = {
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<                                                       %! HC1
             \mp                                                      %! HC1
+            \<                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -2296,8 +2296,8 @@ L_GuitarMusicVoiceI = {
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>                                                       %! HC1
             \ff                                                      %! HC1
+            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2365,8 +2365,8 @@ L_GuitarMusicVoiceI = {
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<                                                       %! HC1
             \mf                                                      %! HC1
+            \<                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -2470,8 +2470,8 @@ L_GuitarMusicVoiceI = {
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>                                                       %! HC1
             \f                                                       %! HC1
+            \>                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -2571,8 +2571,8 @@ L_GuitarMusicVoiceI = {
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<                                                       %! HC1
             \mf                                                      %! HC1
+            \<                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -2679,8 +2679,8 @@ L_GuitarMusicVoiceI = {
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>                                                       %! HC1
             \ff                                                      %! HC1
+            \>                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -2780,8 +2780,8 @@ L_GuitarMusicVoiceI = {
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<                                                       %! HC1
             \mf                                                      %! HC1
+            \<                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -2941,8 +2941,8 @@ L_GuitarMusicVoiceI = {
             e2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>                                                       %! HC1
             \ffff                                                    %! HC1
+            \>                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -3020,8 +3020,8 @@ L_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \ff                                                      %! HC1
-            \<                                                       %! HC1
             \ff                                                      %! HC1
+            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3065,8 +3065,8 @@ L_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \fff                                                     %! HC1
-            \>                                                       %! HC1
             \fff                                                     %! HC1
+            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3106,8 +3106,8 @@ L_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \f                                                       %! HC1
-            \<                                                       %! HC1
             \f                                                       %! HC1
+            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3143,8 +3143,8 @@ L_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \ff                                                      %! HC1
-            \>                                                       %! HC1
             \ff                                                      %! HC1
+            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3183,8 +3183,8 @@ L_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \mf                                                      %! HC1
-            \<                                                       %! HC1
             \mf                                                      %! HC1
+            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3228,8 +3228,8 @@ L_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \f                                                       %! HC1
-            \>                                                       %! HC1
             \f                                                       %! HC1
+            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3277,8 +3277,8 @@ L_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \mp                                                      %! HC1
-            \<                                                       %! HC1
             \mp                                                      %! HC1
+            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3330,8 +3330,8 @@ L_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \mf                                                      %! HC1
-            \>                                                       %! HC1
             \mf                                                      %! HC1
+            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3378,8 +3378,8 @@ L_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \p                                                       %! HC1
-            \<                                                       %! HC1
             \p                                                       %! HC1
+            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3424,8 +3424,8 @@ L_GuitarMusicVoiceI = {
             \repeatTie                                               %! SC
             \mp                                                      %! HC1
             \stopTextSpan                                            %! PWC1
-            \>                                                       %! HC1
             \mp                                                      %! HC1
+            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3465,8 +3465,8 @@ L_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \pp                                                      %! HC1
-            \<                                                       %! HC1
             \pp                                                      %! HC1
+            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3502,8 +3502,8 @@ L_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \p                                                       %! HC1
-            \>                                                       %! HC1
             \p                                                       %! HC1
+            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3542,8 +3542,8 @@ L_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \ppp                                                     %! HC1
-            \<                                                       %! HC1
             \ppp                                                     %! HC1
+            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3587,8 +3587,8 @@ L_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \pp                                                      %! HC1
-            \>                                                       %! HC1
             \pp                                                      %! HC1
+            \>                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -3667,8 +3667,8 @@ L_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \pppp                                                    %! HC1
-            \<                                                       %! HC1
             \pppp                                                    %! HC1
+            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3719,8 +3719,8 @@ L_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \ppp                                                     %! HC1
-            \>                                                       %! HC1
             \ppp                                                     %! HC1
+            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3764,8 +3764,8 @@ L_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \ppppp                                                   %! HC1
-            \<                                                       %! HC1
             \ppppp                                                   %! HC1
+            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3805,9 +3805,9 @@ L_GuitarMusicVoiceI = {
             :32                                                      %! IC
             \repeatTie                                               %! SC
             \pppp                                                    %! HC1
+            \pppp                                                    %! HC1
             - \tweak circled-tip ##t                                 %! HC1
             \>                                                       %! HC1
-            \pppp                                                    %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP

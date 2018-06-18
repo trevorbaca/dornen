@@ -965,8 +965,8 @@ K_GuitarMusicVoiceI = {
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<                                                       %! HC1
             \p                                                       %! HC1
+            \<                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1066,8 +1066,8 @@ K_GuitarMusicVoiceI = {
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>                                                       %! HC1
             \mp                                                      %! HC1
+            \>                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1212,8 +1212,8 @@ K_GuitarMusicVoiceI = {
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<                                                       %! HC1
             \p                                                       %! HC1
+            \<                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1313,8 +1313,8 @@ K_GuitarMusicVoiceI = {
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>                                                       %! HC1
             \mf                                                      %! HC1
+            \>                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1459,8 +1459,8 @@ K_GuitarMusicVoiceI = {
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<                                                       %! HC1
             \p                                                       %! HC1
+            \<                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1560,8 +1560,8 @@ K_GuitarMusicVoiceI = {
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>                                                       %! HC1
             \mp                                                      %! HC1
+            \>                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1661,8 +1661,8 @@ K_GuitarMusicVoiceI = {
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<                                                       %! HC1
             \p                                                       %! HC1
+            \<                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1762,8 +1762,8 @@ K_GuitarMusicVoiceI = {
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>                                                       %! HC1
             \mf                                                      %! HC1
+            \>                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1863,8 +1863,8 @@ K_GuitarMusicVoiceI = {
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \<                                                       %! HC1
             \p                                                       %! HC1
+            \<                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1964,8 +1964,8 @@ K_GuitarMusicVoiceI = {
             f2
             :32                                                      %! IC
             \repeatTie                                               %! SC
-            \>                                                       %! HC1
             \f                                                       %! HC1
+            \>                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1

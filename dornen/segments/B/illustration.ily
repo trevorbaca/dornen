@@ -856,7 +856,6 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 58 / measure 24]                            %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/16
     ^ \markup {
         \column
@@ -1010,7 +1009,6 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 61 / measure 27]                            %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/32
     ^ \markup {
         \column
@@ -1044,7 +1042,6 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 62 / measure 28]                            %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/32
     ^ \markup {
         \column
@@ -1078,7 +1075,6 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 63 / measure 29]                            %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/32
     ^ \markup {
         \column
@@ -1112,7 +1108,6 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 64 / measure 30]                            %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/32
     ^ \markup {
         \column
@@ -1146,7 +1141,6 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 65 / measure 31]                            %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/32
     ^ \markup {
         \column
@@ -1180,7 +1174,6 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 66 / measure 32]                            %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/32
     ^ \markup {
         \column

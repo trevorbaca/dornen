@@ -1,11 +1,11 @@
 import baca
 
 
-green_pitch_classes = [
+green_pitch_classes = baca.sequence([
     [5, 9, 11, 10, 0],
     [6, 7, 8, 2, 1, 3],
-    ]
-green_pitch_classes = baca.helianthate(green_pitch_classes, -1, -1)
+    ])
+green_pitch_classes = green_pitch_classes.helianthate(-1, -1)
 assert len(green_pitch_classes) == 60
 
 """

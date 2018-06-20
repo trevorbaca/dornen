@@ -1,12 +1,12 @@
 import baca
 
 
-magenta_pitch_classes = [
+magenta_pitch_classes = baca.sequence([
     [4, 6, 2, 3],
     [5, 9, 8, 0],
     [11, 10, 7],
-    ]
-magenta_pitch_classes = baca.helianthate(magenta_pitch_classes, -1, -1)
+    ])
+magenta_pitch_classes = magenta_pitch_classes.helianthate(-1, -1)
 assert len(magenta_pitch_classes) == 36
 
 """

@@ -189,7 +189,6 @@ def rest_music(duration=None):
                         s1 * 3/4
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! SM4
-                        \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 3/4
                         \override Score.BarLine.transparent = ##f                          %! SM5
                         \bar "|"                                                           %! SM5

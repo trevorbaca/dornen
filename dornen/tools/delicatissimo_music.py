@@ -103,6 +103,8 @@ def delicatissimo_music():
                                 % [MusicVoice measure 1]                                   %! SM4
                                 e'32
                                 -\staccato                                                 %! IC
+                                [
+                                ]
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -149,6 +151,8 @@ def delicatissimo_music():
                                 % [MusicVoice measure 3]                                   %! SM4
                                 b'32
                                 -\staccato                                                 %! IC
+                                [
+                                ]
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>

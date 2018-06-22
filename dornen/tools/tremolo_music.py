@@ -104,6 +104,8 @@ def tremolo_music():
                                 % [MusicVoice measure 1]                                   %! SM4
                                 e'8
                                 :32                                                        %! IC
+                                [
+                                ]
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
@@ -165,6 +167,8 @@ def tremolo_music():
                                 % [MusicVoice measure 3]                                   %! SM4
                                 e'8
                                 :32                                                        %! IC
+                                [
+                                ]
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {

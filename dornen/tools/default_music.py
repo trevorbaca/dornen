@@ -102,6 +102,8 @@ def default_music():
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! SM4
                                 e'32
+                                [
+                                ]
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -142,6 +144,8 @@ def default_music():
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! SM4
                                 b'32
+                                [
+                                ]
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -453,7 +457,6 @@ def default_music():
                     counts=[1],
                     denominator=32,
                     ),
-
                 ),
             ),
         baca.map(

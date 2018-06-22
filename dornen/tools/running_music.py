@@ -102,6 +102,8 @@ def running_music():
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! SM4
                                 e'64
+                                [
+                                ]
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {
@@ -145,6 +147,8 @@ def running_music():
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! SM4
                                 b'64
+                                [
+                                ]
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 5/6 {

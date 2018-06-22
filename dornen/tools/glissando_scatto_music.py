@@ -102,6 +102,8 @@ def glissando_scatto_music():
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! SM4
                                 e'16
+                                [
+                                ]
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 11/13 {
@@ -147,6 +149,8 @@ def glissando_scatto_music():
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! SM4
                                 b'16
+                                [
+                                ]
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 9/11 {

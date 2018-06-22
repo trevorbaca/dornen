@@ -102,6 +102,8 @@ def thirty_second_music():
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! SM4
                                 e'32
+                                [
+                                ]
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -140,6 +142,8 @@ def thirty_second_music():
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! SM4
                                 b'32
+                                [
+                                ]
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>

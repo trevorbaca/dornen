@@ -115,6 +115,8 @@ def passepied_music():
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! SM4
                                 af'!32
+                                [
+                                ]
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -131,6 +133,8 @@ def passepied_music():
             <BLANKLINE>
                                 }
                                 f'32
+                                [
+                                ]
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -147,6 +151,8 @@ def passepied_music():
             <BLANKLINE>
                                 }
                                 d'32
+                                [
+                                ]
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -163,6 +169,8 @@ def passepied_music():
             <BLANKLINE>
                                 }
                                 af'!32
+                                [
+                                ]
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -179,6 +187,8 @@ def passepied_music():
             <BLANKLINE>
                                 }
                                 f'32
+                                [
+                                ]
             <BLANKLINE>
                             }
                         }

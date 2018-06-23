@@ -25,86 +25,127 @@ def design_2(start=None, stop=None):
             }
             {
                 \time 1/8
-                cs'8 \startGroup ^ \markup { 0 }
+                cs'8
+                ^ \markup { 0 }
+                \startGroup
                 c'8
                 bf'8
-                f'8 \stopGroup
+                f'8
+                \stopGroup
                 s8
-                af'8 \startGroup ^ \markup { 1 }
+                af'8
+                ^ \markup { 1 }
+                \startGroup
                 fs'8
-                b'8
-                d'8 \stopGroup
-                s8
-                e'8 \startGroup ^ \markup { 2 }
-                ef'8
-                a'8
-                af'8 \stopGroup
-                s8
-                fs'8 \startGroup ^ \markup { 3 }
                 b'8
                 d'8
-                f'8 \stopGroup
+                \stopGroup
                 s8
-                ef'8 \startGroup ^ \markup { 4 }
+                e'8
+                ^ \markup { 2 }
+                \startGroup
+                ef'8
+                a'8
+                af'8
+                \stopGroup
+                s8
+                fs'8
+                ^ \markup { 3 }
+                \startGroup
+                b'8
+                d'8
+                f'8
+                \stopGroup
+                s8
+                ef'8
+                ^ \markup { 4 }
+                \startGroup
                 a'8
                 e'8
                 c'8
-                bf'8 \stopGroup
+                bf'8
+                \stopGroup
                 s8
-                cs'8 \startGroup ^ \markup { 5 }
+                cs'8
+                ^ \markup { 5 }
+                \startGroup
                 a'8
                 e'8
                 ef'8
-                bf'8 \stopGroup
+                bf'8
+                \stopGroup
                 s8
-                cs'8 \startGroup ^ \markup { 6 }
+                cs'8
+                ^ \markup { 6 }
+                \startGroup
                 c'8
                 fs'8
                 b'8
-                d'8 \stopGroup
+                d'8
+                \stopGroup
                 s8
-                f'8 \startGroup ^ \markup { 7 }
+                f'8
+                ^ \markup { 7 }
+                \startGroup
                 af'8
                 cs'8
                 c'8
-                bf'8 \stopGroup
+                bf'8
+                \stopGroup
                 s8
-                b'8 \startGroup ^ \markup { 8 }
+                b'8
+                ^ \markup { 8 }
+                \startGroup
                 d'8
                 f'8
                 af'8
                 fs'8
-                e'8 \stopGroup
+                e'8
+                \stopGroup
                 s8
-                ef'8 \startGroup ^ \markup { 9 }
+                ef'8
+                ^ \markup { 9 }
+                \startGroup
                 a'8
                 d'8
                 f'8
                 af'8
-                fs'8 \stopGroup
+                fs'8
+                \stopGroup
                 s8
-                b'8 \startGroup ^ \markup { 10 }
+                b'8
+                ^ \markup { 10 }
+                \startGroup
                 ef'8
                 a'8
                 e'8
                 c'8
-                bf'8 \stopGroup
+                bf'8
+                \stopGroup
                 s8
-                cs'8 \startGroup ^ \markup { 11 }
+                cs'8
+                ^ \markup { 11 }
+                \startGroup
                 a'8
                 e'8
                 ef'8
                 bf'8
-                cs'8 \stopGroup
+                cs'8
+                \stopGroup
                 s8
-                c'8 \startGroup ^ \markup { 12 }
+                c'8
+                ^ \markup { 12 }
+                \startGroup
                 f'8
                 af'8
                 fs'8
                 b'8
-                d'8 \stopGroup
+                d'8
+                \stopGroup
                 s8
-                f'8 \startGroup ^ \markup { 13 }
+                f'8
+                ^ \markup { 13 }
+                \startGroup
                 a'8
                 b'8
                 bf'8
@@ -125,70 +166,124 @@ def design_2(start=None, stop=None):
                 b'8
                 bf'8
                 c'8
-                f'8 \stopGroup
+                f'8
+                \stopGroup
                 s8
-                d'8 \startGroup ^ \markup { 14 }
-                cs'8 \stopGroup
+                d'8
+                ^ \markup { 14 }
+                \startGroup
+                cs'8
+                \stopGroup
                 s8
-                b'8 \startGroup ^ \markup { 15 }
+                b'8
+                ^ \markup { 15 }
+                \startGroup
                 a'8
-                g'8 \stopGroup
+                g'8
+                \stopGroup
                 s8
-                c'8 \stopGroup \startGroup ^ \markup { 16 }
+                c'8
+                ^ \markup { 16 }
+                \stopGroup
+                \startGroup
                 s8
-                ef'8 \startGroup ^ \markup { 17 }
+                ef'8
+                ^ \markup { 17 }
+                \startGroup
                 fs'8
-                f'8 \stopGroup
+                f'8
+                \stopGroup
                 s8
-                e'8 \startGroup ^ \markup { 18 }
+                e'8
+                ^ \markup { 18 }
+                \startGroup
                 bf'8
                 g'8
-                c'8 \stopGroup
+                c'8
+                \stopGroup
                 s8
-                ef'8 \startGroup ^ \markup { 19 }
-                fs'8 \stopGroup
+                ef'8
+                ^ \markup { 19 }
+                \startGroup
+                fs'8
+                \stopGroup
                 s8
-                a'8 \startGroup ^ \markup { 20 }
+                a'8
+                ^ \markup { 20 }
+                \startGroup
                 e'8
-                bf'8 \stopGroup
+                bf'8
+                \stopGroup
                 s8
-                f'8 \stopGroup \startGroup ^ \markup { 21 }
+                f'8
+                ^ \markup { 21 }
+                \stopGroup
+                \startGroup
                 s8
-                cs'8 \startGroup ^ \markup { 22 }
+                cs'8
+                ^ \markup { 22 }
+                \startGroup
                 b'8
-                d'8 \stopGroup
+                d'8
+                \stopGroup
                 s8
-                bf'8 \startGroup ^ \markup { 23 }
+                bf'8
+                ^ \markup { 23 }
+                \startGroup
                 f'8
                 e'8
-                b'8 \stopGroup
+                b'8
+                \stopGroup
                 s8
-                d'8 \startGroup ^ \markup { 24 }
-                cs'8 \stopGroup
-                s8
-                c'8 \startGroup ^ \markup { 25 }
-                ef'8
-                fs'8 \stopGroup
-                s8
-                a'8 \stopGroup \startGroup ^ \markup { 26 }
-                s8
-                g'8 \startGroup ^ \markup { 27 }
                 d'8
-                cs'8 \stopGroup
+                ^ \markup { 24 }
+                \startGroup
+                cs'8
+                \stopGroup
                 s8
-                b'8 \startGroup ^ \markup { 28 }
+                c'8
+                ^ \markup { 25 }
+                \startGroup
                 ef'8
                 fs'8
-                a'8 \stopGroup
+                \stopGroup
                 s8
-                g'8 \startGroup ^ \markup { 29 }
-                c'8 \stopGroup
+                a'8
+                ^ \markup { 26 }
+                \stopGroup
+                \startGroup
                 s8
-                f'8 \startGroup ^ \markup { 30 }
+                g'8
+                ^ \markup { 27 }
+                \startGroup
+                d'8
+                cs'8
+                \stopGroup
+                s8
+                b'8
+                ^ \markup { 28 }
+                \startGroup
+                ef'8
+                fs'8
+                a'8
+                \stopGroup
+                s8
+                g'8
+                ^ \markup { 29 }
+                \startGroup
+                c'8
+                \stopGroup
+                s8
+                f'8
+                ^ \markup { 30 }
+                \startGroup
                 e'8
-                bf'8 \stopGroup
+                bf'8
+                \stopGroup
                 s8
-                cs'8 \startGroup ^ \markup { 31 }
+                cs'8
+                ^ \markup { 31 }
+                \startGroup
                 c'8
                 d'8
                 g'8
@@ -209,9 +304,12 @@ def design_2(start=None, stop=None):
                 d'8
                 g'8
                 b'8
-                cs'8 \stopGroup
+                cs'8
+                \stopGroup
                 s8
-                d'8 \startGroup ^ \markup { 32 }
+                d'8
+                ^ \markup { 32 }
+                \startGroup
                 g'8
                 b'8
                 cs'8
@@ -232,50 +330,72 @@ def design_2(start=None, stop=None):
                 b'8
                 cs'8
                 c'8
-                d'8 \stopGroup
+                d'8
+                \stopGroup
                 s8
-                e'8 \startGroup ^ \markup { 33 }
+                e'8
+                ^ \markup { 33 }
+                \startGroup
                 a'8
                 g'8
                 bf'8
                 ef'8
-                d'8 \stopGroup
+                d'8
+                \stopGroup
                 s8
-                af'8 \startGroup ^ \markup { 34 }
+                af'8
+                ^ \markup { 34 }
+                \startGroup
                 f'8
                 cs'8
                 b'8
                 c'8
-                af'8 \stopGroup
+                af'8
+                \stopGroup
                 s8
-                f'8 \startGroup ^ \markup { 35 }
-                d'8 \stopGroup
+                f'8
+                ^ \markup { 35 }
+                \startGroup
+                d'8
+                \stopGroup
                 s8
-                af'8 \startGroup ^ \markup { 36 }
+                af'8
+                ^ \markup { 36 }
+                \startGroup
                 bf'8
                 b'8
                 cs'8
                 e'8
-                g'8 \stopGroup
+                g'8
+                \stopGroup
                 s8
-                fs'8 \startGroup ^ \markup { 37 }
+                fs'8
+                ^ \markup { 37 }
+                \startGroup
                 a'8
                 ef'8
                 c'8
                 d'8
-                fs'8 \stopGroup
+                fs'8
+                \stopGroup
                 s8
-                a'8 \startGroup ^ \markup { 38 }
+                a'8
+                ^ \markup { 38 }
+                \startGroup
                 ef'8
                 c'8
                 d'8
                 g'8
-                bf'8 \stopGroup
+                bf'8
+                \stopGroup
                 s8
-                b'8 \startGroup ^ \markup { 39 }
+                b'8
+                ^ \markup { 39 }
+                \startGroup
                 cs'8
                 e'8
-                af'8 \stopGroup
+                af'8
+                \stopGroup
                 s8
                 \bar "|." %! SCORE1
                 \override Score.BarLine.transparent = ##f

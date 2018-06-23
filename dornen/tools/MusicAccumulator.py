@@ -38,51 +38,63 @@ class MusicAccumulator(baca.MusicAccumulator):
                         \scaleDurations #'(1 . 1) {
                             \set stemLeftBeamCount = 0
                             \set stemRightBeamCount = 3
-                            c'32 -\staccato %! IC [
-                                ^ \markup {                   %! FIGURE_NAME_MARKUP
-                                    \fontsize                 %! FIGURE_NAME_MARKUP
-                                        #2                    %! FIGURE_NAME_MARKUP
-                                        \concat               %! FIGURE_NAME_MARKUP
-                                            {                 %! FIGURE_NAME_MARKUP
-                                                [             %! FIGURE_NAME_MARKUP
-                                                D             %! FIGURE_NAME_MARKUP
-                                                \hspace       %! FIGURE_NAME_MARKUP
-                                                    #1        %! FIGURE_NAME_MARKUP
-                                                \raise        %! FIGURE_NAME_MARKUP
-                                                    #0.25     %! FIGURE_NAME_MARKUP
-                                                    \fontsize %! FIGURE_NAME_MARKUP
-                                                        #-2   %! FIGURE_NAME_MARKUP
-                                                        (0)   %! FIGURE_NAME_MARKUP
-                                                ]             %! FIGURE_NAME_MARKUP
-                                            }                 %! FIGURE_NAME_MARKUP
-                                    }                         %! FIGURE_NAME_MARKUP
+                            c'32
+                            -\staccato %! IC
+                            ^ \markup {                   %! FIGURE_NAME_MARKUP
+                                \fontsize                 %! FIGURE_NAME_MARKUP
+                                    #2                    %! FIGURE_NAME_MARKUP
+                                    \concat               %! FIGURE_NAME_MARKUP
+                                        {                 %! FIGURE_NAME_MARKUP
+                                            [             %! FIGURE_NAME_MARKUP
+                                            D             %! FIGURE_NAME_MARKUP
+                                            \hspace       %! FIGURE_NAME_MARKUP
+                                                #1        %! FIGURE_NAME_MARKUP
+                                            \raise        %! FIGURE_NAME_MARKUP
+                                                #0.25     %! FIGURE_NAME_MARKUP
+                                                \fontsize %! FIGURE_NAME_MARKUP
+                                                    #-2   %! FIGURE_NAME_MARKUP
+                                                    (0)   %! FIGURE_NAME_MARKUP
+                                            ]             %! FIGURE_NAME_MARKUP
+                                        }                 %! FIGURE_NAME_MARKUP
+                                }                         %! FIGURE_NAME_MARKUP
+                            [
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
-                            cs'32 -\staccato %! IC
+                            cs'32
+                            -\staccato %! IC
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
-                            d'32 -\staccato %! IC
+                            d'32
+                            -\staccato %! IC
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
-                            ef'32 -\staccato %! IC
+                            ef'32
+                            -\staccato %! IC
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
-                            e'32 -\staccato %! IC
+                            e'32
+                            -\staccato %! IC
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
-                            f'32 -\staccato %! IC
+                            f'32
+                            -\staccato %! IC
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
-                            fs'32 -\staccato %! IC
+                            fs'32
+                            -\staccato %! IC
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
-                            g'32 -\staccato %! IC
+                            g'32
+                            -\staccato %! IC
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
-                            af'32 -\staccato %! IC
+                            af'32
+                            -\staccato %! IC
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 0
-                            a'32 -\staccato %! IC ]
+                            a'32
+                            -\staccato %! IC
+                            ]
                         }
                     }
                 }

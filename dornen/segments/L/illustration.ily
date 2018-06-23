@@ -5,6 +5,26 @@ L_GlobalSkips = {
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 2/5
+%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
+%@%         (257)                                                        %! SM31:MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
+%@%         <0>                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
+%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%         ((1))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
+%@%         [L.1]                                                        %! SM3:STAGE_NUMBER_MARKUP
+%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
+%@%         [9'35'']                                                     %! SM28:CLOCK_TIME_MARKUP
+%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
 %@% - \tweak bound-details.left.text \markup {                           %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
 %@%     \fontsize                                                        %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
@@ -54,26 +74,6 @@ L_GlobalSkips = {
     - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
-%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
-%@%         (257)                                                        %! SM31:MEASURE_NUMBER_MARKUP
-%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
-%@%         <0>                                                          %! SM32:MEASURE_INDEX_MARKUP
-%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%         ((1))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
-%@%         [L.1]                                                        %! SM3:STAGE_NUMBER_MARKUP
-%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
-%@%         [9'35'']                                                     %! SM28:CLOCK_TIME_MARKUP
-%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     
     % [L GlobalSkips measure 258 / measure 2]                            %! SM4
     s1 * 2/5
@@ -1153,7 +1153,6 @@ L_GlobalSkips = {
     \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/8
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
 %@%         (302)                                                        %! SM31:MEASURE_NUMBER_MARKUP
@@ -1174,6 +1173,7 @@ L_GlobalSkips = {
 %@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
 %@%         [13'19'']                                                    %! SM28:CLOCK_TIME_MARKUP
 %@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     \override Score.BarLine.transparent = ##f                            %! SM5
     \bar "|"                                                             %! SM5
     
@@ -1227,6 +1227,28 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
+        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
+        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
+        %%%         #2                                               %! FIGURE_NAME_MARKUP
+        %%%         \concat                                          %! FIGURE_NAME_MARKUP
+        %%%             {                                            %! FIGURE_NAME_MARKUP
+        %%%                 [                                        %! FIGURE_NAME_MARKUP
+        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
+        %%%                     {                                    %! FIGURE_NAME_MARKUP
+        %%%                         2                                %! FIGURE_NAME_MARKUP
+        %%%                         \sub                             %! FIGURE_NAME_MARKUP
+        %%%                             2                            %! FIGURE_NAME_MARKUP
+        %%%                     }                                    %! FIGURE_NAME_MARKUP
+        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
+        %%%                     #1                                   %! FIGURE_NAME_MARKUP
+        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
+        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
+        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
+        %%%                         #-2                              %! FIGURE_NAME_MARKUP
+        %%%                         (1)                              %! FIGURE_NAME_MARKUP
+        %%%                 ]                                        %! FIGURE_NAME_MARKUP
+        %%%             }                                            %! FIGURE_NAME_MARKUP
+        %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
             \mp                                                      %! HC1
             \<                                                       %! HC1
@@ -1261,28 +1283,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-        %%%         #2                                               %! FIGURE_NAME_MARKUP
-        %%%         \concat                                          %! FIGURE_NAME_MARKUP
-        %%%             {                                            %! FIGURE_NAME_MARKUP
-        %%%                 [                                        %! FIGURE_NAME_MARKUP
-        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-        %%%                     {                                    %! FIGURE_NAME_MARKUP
-        %%%                         2                                %! FIGURE_NAME_MARKUP
-        %%%                         \sub                             %! FIGURE_NAME_MARKUP
-        %%%                             2                            %! FIGURE_NAME_MARKUP
-        %%%                     }                                    %! FIGURE_NAME_MARKUP
-        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-        %%%                     #1                                   %! FIGURE_NAME_MARKUP
-        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-        %%%                         #-2                              %! FIGURE_NAME_MARKUP
-        %%%                         (1)                              %! FIGURE_NAME_MARKUP
-        %%%                 ]                                        %! FIGURE_NAME_MARKUP
-        %%%             }                                            %! FIGURE_NAME_MARKUP
-        %%%     }                                                    %! FIGURE_NAME_MARKUP
         }
     }
     {
@@ -1293,9 +1293,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \mf                                                      %! HC1
-            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1318,6 +1315,9 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \mf                                                      %! HC1
+            \stopTextSpan                                            %! PWC1
         }
     }
     {
@@ -1328,6 +1328,28 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
+        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
+        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
+        %%%         #2                                               %! FIGURE_NAME_MARKUP
+        %%%         \concat                                          %! FIGURE_NAME_MARKUP
+        %%%             {                                            %! FIGURE_NAME_MARKUP
+        %%%                 [                                        %! FIGURE_NAME_MARKUP
+        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
+        %%%                     {                                    %! FIGURE_NAME_MARKUP
+        %%%                         2                                %! FIGURE_NAME_MARKUP
+        %%%                         \sub                             %! FIGURE_NAME_MARKUP
+        %%%                             4                            %! FIGURE_NAME_MARKUP
+        %%%                     }                                    %! FIGURE_NAME_MARKUP
+        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
+        %%%                     #1                                   %! FIGURE_NAME_MARKUP
+        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
+        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
+        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
+        %%%                         #-2                              %! FIGURE_NAME_MARKUP
+        %%%                         (3)                              %! FIGURE_NAME_MARKUP
+        %%%                 ]                                        %! FIGURE_NAME_MARKUP
+        %%%             }                                            %! FIGURE_NAME_MARKUP
+        %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
             \mf                                                      %! HC1
             \>                                                       %! HC1
@@ -1362,28 +1384,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-        %%%         #2                                               %! FIGURE_NAME_MARKUP
-        %%%         \concat                                          %! FIGURE_NAME_MARKUP
-        %%%             {                                            %! FIGURE_NAME_MARKUP
-        %%%                 [                                        %! FIGURE_NAME_MARKUP
-        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-        %%%                     {                                    %! FIGURE_NAME_MARKUP
-        %%%                         2                                %! FIGURE_NAME_MARKUP
-        %%%                         \sub                             %! FIGURE_NAME_MARKUP
-        %%%                             4                            %! FIGURE_NAME_MARKUP
-        %%%                     }                                    %! FIGURE_NAME_MARKUP
-        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-        %%%                     #1                                   %! FIGURE_NAME_MARKUP
-        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-        %%%                         #-2                              %! FIGURE_NAME_MARKUP
-        %%%                         (3)                              %! FIGURE_NAME_MARKUP
-        %%%                 ]                                        %! FIGURE_NAME_MARKUP
-        %%%             }                                            %! FIGURE_NAME_MARKUP
-        %%%     }                                                    %! FIGURE_NAME_MARKUP
         }
     }
     {
@@ -1394,9 +1394,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \mp                                                      %! HC1
-            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1419,6 +1416,9 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \mp                                                      %! HC1
+            \stopTextSpan                                            %! PWC1
         }
     }
     {
@@ -1428,7 +1428,6 @@ L_GuitarMusicVoiceI = {
             % [L GuitarMusicVoiceI measure 262 / measure 6]          %! SM4
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
             ^ \markup {                                              %! IC
                 \override                                            %! IC
                     #'(box-padding . 0.5)                            %! IC
@@ -1457,6 +1456,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
         }
     }
     {
@@ -1467,6 +1467,28 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
+        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
+        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
+        %%%         #2                                               %! FIGURE_NAME_MARKUP
+        %%%         \concat                                          %! FIGURE_NAME_MARKUP
+        %%%             {                                            %! FIGURE_NAME_MARKUP
+        %%%                 [                                        %! FIGURE_NAME_MARKUP
+        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
+        %%%                     {                                    %! FIGURE_NAME_MARKUP
+        %%%                         3                                %! FIGURE_NAME_MARKUP
+        %%%                         \sub                             %! FIGURE_NAME_MARKUP
+        %%%                             2                            %! FIGURE_NAME_MARKUP
+        %%%                     }                                    %! FIGURE_NAME_MARKUP
+        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
+        %%%                     #1                                   %! FIGURE_NAME_MARKUP
+        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
+        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
+        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
+        %%%                         #-2                              %! FIGURE_NAME_MARKUP
+        %%%                         (6)                              %! FIGURE_NAME_MARKUP
+        %%%                 ]                                        %! FIGURE_NAME_MARKUP
+        %%%             }                                            %! FIGURE_NAME_MARKUP
+        %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
             \mp                                                      %! HC1
             \<                                                       %! HC1
@@ -1501,28 +1523,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-        %%%         #2                                               %! FIGURE_NAME_MARKUP
-        %%%         \concat                                          %! FIGURE_NAME_MARKUP
-        %%%             {                                            %! FIGURE_NAME_MARKUP
-        %%%                 [                                        %! FIGURE_NAME_MARKUP
-        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-        %%%                     {                                    %! FIGURE_NAME_MARKUP
-        %%%                         3                                %! FIGURE_NAME_MARKUP
-        %%%                         \sub                             %! FIGURE_NAME_MARKUP
-        %%%                             2                            %! FIGURE_NAME_MARKUP
-        %%%                     }                                    %! FIGURE_NAME_MARKUP
-        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-        %%%                     #1                                   %! FIGURE_NAME_MARKUP
-        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-        %%%                         #-2                              %! FIGURE_NAME_MARKUP
-        %%%                         (6)                              %! FIGURE_NAME_MARKUP
-        %%%                 ]                                        %! FIGURE_NAME_MARKUP
-        %%%             }                                            %! FIGURE_NAME_MARKUP
-        %%%     }                                                    %! FIGURE_NAME_MARKUP
         }
     }
     {
@@ -1533,9 +1533,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \f                                                       %! HC1
-            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1558,6 +1555,9 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \f                                                       %! HC1
+            \stopTextSpan                                            %! PWC1
         }
     }
     {
@@ -1568,6 +1568,28 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
+        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
+        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
+        %%%         #2                                               %! FIGURE_NAME_MARKUP
+        %%%         \concat                                          %! FIGURE_NAME_MARKUP
+        %%%             {                                            %! FIGURE_NAME_MARKUP
+        %%%                 [                                        %! FIGURE_NAME_MARKUP
+        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
+        %%%                     {                                    %! FIGURE_NAME_MARKUP
+        %%%                         3                                %! FIGURE_NAME_MARKUP
+        %%%                         \sub                             %! FIGURE_NAME_MARKUP
+        %%%                             4                            %! FIGURE_NAME_MARKUP
+        %%%                     }                                    %! FIGURE_NAME_MARKUP
+        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
+        %%%                     #1                                   %! FIGURE_NAME_MARKUP
+        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
+        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
+        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
+        %%%                         #-2                              %! FIGURE_NAME_MARKUP
+        %%%                         (8)                              %! FIGURE_NAME_MARKUP
+        %%%                 ]                                        %! FIGURE_NAME_MARKUP
+        %%%             }                                            %! FIGURE_NAME_MARKUP
+        %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
             \f                                                       %! HC1
             \>                                                       %! HC1
@@ -1602,28 +1624,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-        %%%         #2                                               %! FIGURE_NAME_MARKUP
-        %%%         \concat                                          %! FIGURE_NAME_MARKUP
-        %%%             {                                            %! FIGURE_NAME_MARKUP
-        %%%                 [                                        %! FIGURE_NAME_MARKUP
-        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-        %%%                     {                                    %! FIGURE_NAME_MARKUP
-        %%%                         3                                %! FIGURE_NAME_MARKUP
-        %%%                         \sub                             %! FIGURE_NAME_MARKUP
-        %%%                             4                            %! FIGURE_NAME_MARKUP
-        %%%                     }                                    %! FIGURE_NAME_MARKUP
-        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-        %%%                     #1                                   %! FIGURE_NAME_MARKUP
-        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-        %%%                         #-2                              %! FIGURE_NAME_MARKUP
-        %%%                         (8)                              %! FIGURE_NAME_MARKUP
-        %%%                 ]                                        %! FIGURE_NAME_MARKUP
-        %%%             }                                            %! FIGURE_NAME_MARKUP
-        %%%     }                                                    %! FIGURE_NAME_MARKUP
         }
     }
     {
@@ -1634,9 +1634,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \mp                                                      %! HC1
-            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1659,6 +1656,9 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \mp                                                      %! HC1
+            \stopTextSpan                                            %! PWC1
         }
     }
     {
@@ -1668,7 +1668,6 @@ L_GuitarMusicVoiceI = {
             % [L GuitarMusicVoiceI measure 267 / measure 11]         %! SM4
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
             ^ \markup {                                              %! IC
                 \override                                            %! IC
                     #'(box-padding . 0.5)                            %! IC
@@ -1697,6 +1696,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
         }
     }
     {
@@ -1707,6 +1707,28 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
+        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
+        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
+        %%%         #2                                               %! FIGURE_NAME_MARKUP
+        %%%         \concat                                          %! FIGURE_NAME_MARKUP
+        %%%             {                                            %! FIGURE_NAME_MARKUP
+        %%%                 [                                        %! FIGURE_NAME_MARKUP
+        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
+        %%%                     {                                    %! FIGURE_NAME_MARKUP
+        %%%                         4                                %! FIGURE_NAME_MARKUP
+        %%%                         \sub                             %! FIGURE_NAME_MARKUP
+        %%%                             2                            %! FIGURE_NAME_MARKUP
+        %%%                     }                                    %! FIGURE_NAME_MARKUP
+        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
+        %%%                     #1                                   %! FIGURE_NAME_MARKUP
+        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
+        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
+        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
+        %%%                         #-2                              %! FIGURE_NAME_MARKUP
+        %%%                         (11)                             %! FIGURE_NAME_MARKUP
+        %%%                 ]                                        %! FIGURE_NAME_MARKUP
+        %%%             }                                            %! FIGURE_NAME_MARKUP
+        %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
             \mp                                                      %! HC1
             \<                                                       %! HC1
@@ -1741,28 +1763,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-        %%%         #2                                               %! FIGURE_NAME_MARKUP
-        %%%         \concat                                          %! FIGURE_NAME_MARKUP
-        %%%             {                                            %! FIGURE_NAME_MARKUP
-        %%%                 [                                        %! FIGURE_NAME_MARKUP
-        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-        %%%                     {                                    %! FIGURE_NAME_MARKUP
-        %%%                         4                                %! FIGURE_NAME_MARKUP
-        %%%                         \sub                             %! FIGURE_NAME_MARKUP
-        %%%                             2                            %! FIGURE_NAME_MARKUP
-        %%%                     }                                    %! FIGURE_NAME_MARKUP
-        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-        %%%                     #1                                   %! FIGURE_NAME_MARKUP
-        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-        %%%                         #-2                              %! FIGURE_NAME_MARKUP
-        %%%                         (11)                             %! FIGURE_NAME_MARKUP
-        %%%                 ]                                        %! FIGURE_NAME_MARKUP
-        %%%             }                                            %! FIGURE_NAME_MARKUP
-        %%%     }                                                    %! FIGURE_NAME_MARKUP
         }
     }
     {
@@ -1773,9 +1773,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \ff                                                      %! HC1
-            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1798,6 +1795,9 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \ff                                                      %! HC1
+            \stopTextSpan                                            %! PWC1
         }
     }
     {
@@ -1808,9 +1808,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \ff                                                      %! HC1
-            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1833,6 +1830,9 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \ff                                                      %! HC1
+            \>                                                       %! HC1
         }
     }
     {
@@ -1843,8 +1843,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \mf                                                      %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1867,6 +1865,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \mf                                                      %! HC1
         }
     }
     {
@@ -1877,40 +1877,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \mf                                                      %! HC1
-            \<                                                       %! HC1
-            - \tweak Y-extent ##f                                    %! PWC1
-            - \tweak bound-details.left.text \markup {               %! PWC1
-                \concat                                              %! PWC1
-                    {                                                %! PWC1
-                        \upright                                     %! PWC1
-                            trans.                                   %! PWC1
-                        \hspace                                      %! PWC1
-                            #0.5                                     %! PWC1
-                    }                                                %! PWC1
-                }                                                    %! PWC1
-            - \tweak arrow-width 0.25                                %! PWC1
-            - \tweak dash-fraction 0.25                              %! PWC1
-            - \tweak dash-period 1.5                                 %! PWC1
-            - \tweak bound-details.left-broken.text ##f              %! PWC1
-            - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-            - \tweak bound-details.right.arrow ##t                   %! PWC1
-            - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-            - \tweak bound-details.right-broken.padding 0            %! PWC1
-            - \tweak bound-details.right-broken.text ##f             %! PWC1
-            - \tweak bound-details.right.padding 0.5                 %! PWC1
-            - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-            - \tweak bound-details.right.text \markup {              %! PWC1
-                \concat                                              %! PWC1
-                    {                                                %! PWC1
-                        \hspace                                      %! PWC1
-                            #0.0                                     %! PWC1
-                        \upright                                     %! PWC1
-                            "nail rasg."                             %! PWC1
-                    }                                                %! PWC1
-                }                                                    %! PWC1
-            \startTextSpan                                           %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1933,6 +1899,40 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \mf                                                      %! HC1
+            \<                                                       %! HC1
+            - \tweak Y-extent ##f                                    %! PWC1
+            - \tweak bound-details.left.text \markup {               %! PWC1
+                \concat                                              %! PWC1
+                    {                                                %! PWC1
+                        \upright                                     %! PWC1
+                            trans.                                   %! PWC1
+                        \hspace                                      %! PWC1
+                            #0.5                                     %! PWC1
+                    }                                                %! PWC1
+                }                                                    %! PWC1
+            - \tweak arrow-width 0.25                                %! PWC1
+            - \tweak dash-fraction 0.25                              %! PWC1
+            - \tweak dash-period 1.5                                 %! PWC1
+            - \tweak bound-details.left-broken.text ##f              %! PWC1
+            - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+            - \tweak bound-details.right.arrow ##t                   %! PWC1
+            - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+            - \tweak bound-details.right-broken.padding 0            %! PWC1
+            - \tweak bound-details.right-broken.text ##f             %! PWC1
+            - \tweak bound-details.right.padding 0.5                 %! PWC1
+            - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+            - \tweak bound-details.right.text \markup {              %! PWC1
+                \concat                                              %! PWC1
+                    {                                                %! PWC1
+                        \hspace                                      %! PWC1
+                            #0.0                                     %! PWC1
+                        \upright                                     %! PWC1
+                            "nail rasg."                             %! PWC1
+                    }                                                %! PWC1
+                }                                                    %! PWC1
+            \startTextSpan                                           %! PWC1
         }
     }
     {
@@ -1943,9 +1943,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \f                                                       %! HC1
-            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1968,6 +1965,9 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \f                                                       %! HC1
+            \stopTextSpan                                            %! PWC1
             
             e2
             :32                                                      %! IC
@@ -1982,6 +1982,28 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
+        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
+        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
+        %%%         #2                                               %! FIGURE_NAME_MARKUP
+        %%%         \concat                                          %! FIGURE_NAME_MARKUP
+        %%%             {                                            %! FIGURE_NAME_MARKUP
+        %%%                 [                                        %! FIGURE_NAME_MARKUP
+        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
+        %%%                     {                                    %! FIGURE_NAME_MARKUP
+        %%%                         4                                %! FIGURE_NAME_MARKUP
+        %%%                         \sub                             %! FIGURE_NAME_MARKUP
+        %%%                             8                            %! FIGURE_NAME_MARKUP
+        %%%                     }                                    %! FIGURE_NAME_MARKUP
+        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
+        %%%                     #1                                   %! FIGURE_NAME_MARKUP
+        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
+        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
+        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
+        %%%                         #-2                              %! FIGURE_NAME_MARKUP
+        %%%                         (17)                             %! FIGURE_NAME_MARKUP
+        %%%                 ]                                        %! FIGURE_NAME_MARKUP
+        %%%             }                                            %! FIGURE_NAME_MARKUP
+        %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
             \f                                                       %! HC1
             \>                                                       %! HC1
@@ -2016,28 +2038,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-        %%%         #2                                               %! FIGURE_NAME_MARKUP
-        %%%         \concat                                          %! FIGURE_NAME_MARKUP
-        %%%             {                                            %! FIGURE_NAME_MARKUP
-        %%%                 [                                        %! FIGURE_NAME_MARKUP
-        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-        %%%                     {                                    %! FIGURE_NAME_MARKUP
-        %%%                         4                                %! FIGURE_NAME_MARKUP
-        %%%                         \sub                             %! FIGURE_NAME_MARKUP
-        %%%                             8                            %! FIGURE_NAME_MARKUP
-        %%%                     }                                    %! FIGURE_NAME_MARKUP
-        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-        %%%                     #1                                   %! FIGURE_NAME_MARKUP
-        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-        %%%                         #-2                              %! FIGURE_NAME_MARKUP
-        %%%                         (17)                             %! FIGURE_NAME_MARKUP
-        %%%                 ]                                        %! FIGURE_NAME_MARKUP
-        %%%             }                                            %! FIGURE_NAME_MARKUP
-        %%%     }                                                    %! FIGURE_NAME_MARKUP
         }
     }
     {
@@ -2048,9 +2048,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \mf                                                      %! HC1
-            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2073,6 +2070,9 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \mf                                                      %! HC1
+            \stopTextSpan                                            %! PWC1
         }
     }
     {
@@ -2083,6 +2083,28 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
+        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
+        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
+        %%%         #2                                               %! FIGURE_NAME_MARKUP
+        %%%         \concat                                          %! FIGURE_NAME_MARKUP
+        %%%             {                                            %! FIGURE_NAME_MARKUP
+        %%%                 [                                        %! FIGURE_NAME_MARKUP
+        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
+        %%%                     {                                    %! FIGURE_NAME_MARKUP
+        %%%                         4                                %! FIGURE_NAME_MARKUP
+        %%%                         \sub                             %! FIGURE_NAME_MARKUP
+        %%%                             10                           %! FIGURE_NAME_MARKUP
+        %%%                     }                                    %! FIGURE_NAME_MARKUP
+        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
+        %%%                     #1                                   %! FIGURE_NAME_MARKUP
+        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
+        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
+        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
+        %%%                         #-2                              %! FIGURE_NAME_MARKUP
+        %%%                         (19)                             %! FIGURE_NAME_MARKUP
+        %%%                 ]                                        %! FIGURE_NAME_MARKUP
+        %%%             }                                            %! FIGURE_NAME_MARKUP
+        %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
             \mf                                                      %! HC1
             \<                                                       %! HC1
@@ -2117,28 +2139,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-        %%%         #2                                               %! FIGURE_NAME_MARKUP
-        %%%         \concat                                          %! FIGURE_NAME_MARKUP
-        %%%             {                                            %! FIGURE_NAME_MARKUP
-        %%%                 [                                        %! FIGURE_NAME_MARKUP
-        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-        %%%                     {                                    %! FIGURE_NAME_MARKUP
-        %%%                         4                                %! FIGURE_NAME_MARKUP
-        %%%                         \sub                             %! FIGURE_NAME_MARKUP
-        %%%                             10                           %! FIGURE_NAME_MARKUP
-        %%%                     }                                    %! FIGURE_NAME_MARKUP
-        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-        %%%                     #1                                   %! FIGURE_NAME_MARKUP
-        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-        %%%                         #-2                              %! FIGURE_NAME_MARKUP
-        %%%                         (19)                             %! FIGURE_NAME_MARKUP
-        %%%                 ]                                        %! FIGURE_NAME_MARKUP
-        %%%             }                                            %! FIGURE_NAME_MARKUP
-        %%%     }                                                    %! FIGURE_NAME_MARKUP
         }
     }
     {
@@ -2148,9 +2148,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \ff                                                      %! HC1
-            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2173,6 +2170,9 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \ff                                                      %! HC1
+            \stopTextSpan                                            %! PWC1
             
             e2
             :32                                                      %! IC
@@ -2191,6 +2191,28 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
+        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
+        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
+        %%%         #2                                               %! FIGURE_NAME_MARKUP
+        %%%         \concat                                          %! FIGURE_NAME_MARKUP
+        %%%             {                                            %! FIGURE_NAME_MARKUP
+        %%%                 [                                        %! FIGURE_NAME_MARKUP
+        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
+        %%%                     {                                    %! FIGURE_NAME_MARKUP
+        %%%                         4                                %! FIGURE_NAME_MARKUP
+        %%%                         \sub                             %! FIGURE_NAME_MARKUP
+        %%%                             12                           %! FIGURE_NAME_MARKUP
+        %%%                     }                                    %! FIGURE_NAME_MARKUP
+        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
+        %%%                     #1                                   %! FIGURE_NAME_MARKUP
+        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
+        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
+        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
+        %%%                         #-2                              %! FIGURE_NAME_MARKUP
+        %%%                         (21)                             %! FIGURE_NAME_MARKUP
+        %%%                 ]                                        %! FIGURE_NAME_MARKUP
+        %%%             }                                            %! FIGURE_NAME_MARKUP
+        %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
             \ff                                                      %! HC1
             \>                                                       %! HC1
@@ -2225,28 +2247,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-        %%%         #2                                               %! FIGURE_NAME_MARKUP
-        %%%         \concat                                          %! FIGURE_NAME_MARKUP
-        %%%             {                                            %! FIGURE_NAME_MARKUP
-        %%%                 [                                        %! FIGURE_NAME_MARKUP
-        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-        %%%                     {                                    %! FIGURE_NAME_MARKUP
-        %%%                         4                                %! FIGURE_NAME_MARKUP
-        %%%                         \sub                             %! FIGURE_NAME_MARKUP
-        %%%                             12                           %! FIGURE_NAME_MARKUP
-        %%%                     }                                    %! FIGURE_NAME_MARKUP
-        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-        %%%                     #1                                   %! FIGURE_NAME_MARKUP
-        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-        %%%                         #-2                              %! FIGURE_NAME_MARKUP
-        %%%                         (21)                             %! FIGURE_NAME_MARKUP
-        %%%                 ]                                        %! FIGURE_NAME_MARKUP
-        %%%             }                                            %! FIGURE_NAME_MARKUP
-        %%%     }                                                    %! FIGURE_NAME_MARKUP
         }
     }
     {
@@ -2257,9 +2257,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \mf                                                      %! HC1
-            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2282,6 +2279,9 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \mf                                                      %! HC1
+            \stopTextSpan                                            %! PWC1
         }
     }
     {
@@ -2292,6 +2292,28 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
+        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
+        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
+        %%%         #2                                               %! FIGURE_NAME_MARKUP
+        %%%         \concat                                          %! FIGURE_NAME_MARKUP
+        %%%             {                                            %! FIGURE_NAME_MARKUP
+        %%%                 [                                        %! FIGURE_NAME_MARKUP
+        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
+        %%%                     {                                    %! FIGURE_NAME_MARKUP
+        %%%                         4                                %! FIGURE_NAME_MARKUP
+        %%%                         \sub                             %! FIGURE_NAME_MARKUP
+        %%%                             14                           %! FIGURE_NAME_MARKUP
+        %%%                     }                                    %! FIGURE_NAME_MARKUP
+        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
+        %%%                     #1                                   %! FIGURE_NAME_MARKUP
+        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
+        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
+        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
+        %%%                         #-2                              %! FIGURE_NAME_MARKUP
+        %%%                         (23)                             %! FIGURE_NAME_MARKUP
+        %%%                 ]                                        %! FIGURE_NAME_MARKUP
+        %%%             }                                            %! FIGURE_NAME_MARKUP
+        %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
             \mf                                                      %! HC1
             \<                                                       %! HC1
@@ -2326,28 +2348,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-        %%%         #2                                               %! FIGURE_NAME_MARKUP
-        %%%         \concat                                          %! FIGURE_NAME_MARKUP
-        %%%             {                                            %! FIGURE_NAME_MARKUP
-        %%%                 [                                        %! FIGURE_NAME_MARKUP
-        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-        %%%                     {                                    %! FIGURE_NAME_MARKUP
-        %%%                         4                                %! FIGURE_NAME_MARKUP
-        %%%                         \sub                             %! FIGURE_NAME_MARKUP
-        %%%                             14                           %! FIGURE_NAME_MARKUP
-        %%%                     }                                    %! FIGURE_NAME_MARKUP
-        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-        %%%                     #1                                   %! FIGURE_NAME_MARKUP
-        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-        %%%                         #-2                              %! FIGURE_NAME_MARKUP
-        %%%                         (23)                             %! FIGURE_NAME_MARKUP
-        %%%                 ]                                        %! FIGURE_NAME_MARKUP
-        %%%             }                                            %! FIGURE_NAME_MARKUP
-        %%%     }                                                    %! FIGURE_NAME_MARKUP
         }
     }
     {
@@ -2357,7 +2357,6 @@ L_GuitarMusicVoiceI = {
             % [L GuitarMusicVoiceI measure 281 / measure 25]         %! SM4
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2380,6 +2379,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
             
             e2
             :32                                                      %! IC
@@ -2402,9 +2402,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \ffff                                                    %! HC1
-            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2427,6 +2424,9 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \ffff                                                    %! HC1
+            \stopTextSpan                                            %! PWC1
             
             e2
             :32                                                      %! IC
@@ -2453,6 +2453,28 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
+        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
+        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
+        %%%         #2                                               %! FIGURE_NAME_MARKUP
+        %%%         \concat                                          %! FIGURE_NAME_MARKUP
+        %%%             {                                            %! FIGURE_NAME_MARKUP
+        %%%                 [                                        %! FIGURE_NAME_MARKUP
+        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
+        %%%                     {                                    %! FIGURE_NAME_MARKUP
+        %%%                         4                                %! FIGURE_NAME_MARKUP
+        %%%                         \sub                             %! FIGURE_NAME_MARKUP
+        %%%                             17                           %! FIGURE_NAME_MARKUP
+        %%%                     }                                    %! FIGURE_NAME_MARKUP
+        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
+        %%%                     #1                                   %! FIGURE_NAME_MARKUP
+        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
+        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
+        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
+        %%%                         #-2                              %! FIGURE_NAME_MARKUP
+        %%%                         (26)                             %! FIGURE_NAME_MARKUP
+        %%%                 ]                                        %! FIGURE_NAME_MARKUP
+        %%%             }                                            %! FIGURE_NAME_MARKUP
+        %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
             \ffff                                                    %! HC1
             \>                                                       %! HC1
@@ -2487,28 +2509,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-        %%%         #2                                               %! FIGURE_NAME_MARKUP
-        %%%         \concat                                          %! FIGURE_NAME_MARKUP
-        %%%             {                                            %! FIGURE_NAME_MARKUP
-        %%%                 [                                        %! FIGURE_NAME_MARKUP
-        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-        %%%                     {                                    %! FIGURE_NAME_MARKUP
-        %%%                         4                                %! FIGURE_NAME_MARKUP
-        %%%                         \sub                             %! FIGURE_NAME_MARKUP
-        %%%                             17                           %! FIGURE_NAME_MARKUP
-        %%%                     }                                    %! FIGURE_NAME_MARKUP
-        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-        %%%                     #1                                   %! FIGURE_NAME_MARKUP
-        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-        %%%                         #-2                              %! FIGURE_NAME_MARKUP
-        %%%                         (26)                             %! FIGURE_NAME_MARKUP
-        %%%                 ]                                        %! FIGURE_NAME_MARKUP
-        %%%             }                                            %! FIGURE_NAME_MARKUP
-        %%%     }                                                    %! FIGURE_NAME_MARKUP
             
             e2
             :32                                                      %! IC
@@ -2531,10 +2531,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \ff                                                      %! HC1
-            \ff                                                      %! HC1
-            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2557,6 +2553,10 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \ff                                                      %! HC1
+            \ff                                                      %! HC1
+            \<                                                       %! HC1
             
             e2
             :32                                                      %! IC
@@ -2576,10 +2576,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \fff                                                     %! HC1
-            \fff                                                     %! HC1
-            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2602,6 +2598,10 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \fff                                                     %! HC1
+            \fff                                                     %! HC1
+            \>                                                       %! HC1
             
             e2
             :32                                                      %! IC
@@ -2617,10 +2617,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \f                                                       %! HC1
-            \f                                                       %! HC1
-            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2643,6 +2639,10 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \f                                                       %! HC1
+            \f                                                       %! HC1
+            \<                                                       %! HC1
         }
     }
     {
@@ -2654,10 +2654,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \ff                                                      %! HC1
-            \ff                                                      %! HC1
-            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2680,6 +2676,10 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \ff                                                      %! HC1
+            \ff                                                      %! HC1
+            \>                                                       %! HC1
             
             e2
             :32                                                      %! IC
@@ -2694,10 +2694,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \mf                                                      %! HC1
-            \mf                                                      %! HC1
-            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2720,6 +2716,10 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \mf                                                      %! HC1
+            \mf                                                      %! HC1
+            \<                                                       %! HC1
             
             e2
             :32                                                      %! IC
@@ -2739,10 +2739,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \f                                                       %! HC1
-            \f                                                       %! HC1
-            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2765,6 +2761,10 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \f                                                       %! HC1
+            \f                                                       %! HC1
+            \>                                                       %! HC1
             
             e2
             :32                                                      %! IC
@@ -2788,10 +2788,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \mp                                                      %! HC1
-            \mp                                                      %! HC1
-            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2814,6 +2810,10 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \mp                                                      %! HC1
+            \mp                                                      %! HC1
+            \<                                                       %! HC1
             
             e2
             :32                                                      %! IC
@@ -2841,10 +2841,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \mf                                                      %! HC1
-            \mf                                                      %! HC1
-            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2867,6 +2863,10 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \mf                                                      %! HC1
+            \mf                                                      %! HC1
+            \>                                                       %! HC1
             
             e2
             :32                                                      %! IC
@@ -2889,10 +2889,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \p                                                       %! HC1
-            \p                                                       %! HC1
-            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2915,6 +2911,10 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \p                                                       %! HC1
+            \p                                                       %! HC1
+            \<                                                       %! HC1
             
             e2
             :32                                                      %! IC
@@ -2934,11 +2934,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \mp                                                      %! HC1
-            \stopTextSpan                                            %! PWC1
-            \mp                                                      %! HC1
-            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -2961,6 +2956,11 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \mp                                                      %! HC1
+            \stopTextSpan                                            %! PWC1
+            \mp                                                      %! HC1
+            \>                                                       %! HC1
             
             e2
             :32                                                      %! IC
@@ -2976,10 +2976,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \pp                                                      %! HC1
-            \pp                                                      %! HC1
-            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3002,6 +2998,10 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \pp                                                      %! HC1
+            \pp                                                      %! HC1
+            \<                                                       %! HC1
         }
     }
     {
@@ -3013,10 +3013,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \p                                                       %! HC1
-            \p                                                       %! HC1
-            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3039,6 +3035,10 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \p                                                       %! HC1
+            \p                                                       %! HC1
+            \>                                                       %! HC1
             
             e2
             :32                                                      %! IC
@@ -3053,10 +3053,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \ppp                                                     %! HC1
-            \ppp                                                     %! HC1
-            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3079,6 +3075,10 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \ppp                                                     %! HC1
+            \ppp                                                     %! HC1
+            \<                                                       %! HC1
             
             e2
             :32                                                      %! IC
@@ -3098,6 +3098,28 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
+        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
+        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
+        %%%         #2                                               %! FIGURE_NAME_MARKUP
+        %%%         \concat                                          %! FIGURE_NAME_MARKUP
+        %%%             {                                            %! FIGURE_NAME_MARKUP
+        %%%                 [                                        %! FIGURE_NAME_MARKUP
+        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
+        %%%                     {                                    %! FIGURE_NAME_MARKUP
+        %%%                         4                                %! FIGURE_NAME_MARKUP
+        %%%                         \sub                             %! FIGURE_NAME_MARKUP
+        %%%                             31                           %! FIGURE_NAME_MARKUP
+        %%%                     }                                    %! FIGURE_NAME_MARKUP
+        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
+        %%%                     #1                                   %! FIGURE_NAME_MARKUP
+        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
+        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
+        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
+        %%%                         #-2                              %! FIGURE_NAME_MARKUP
+        %%%                         (40)                             %! FIGURE_NAME_MARKUP
+        %%%                 ]                                        %! FIGURE_NAME_MARKUP
+        %%%             }                                            %! FIGURE_NAME_MARKUP
+        %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
             \pp                                                      %! HC1
             \pp                                                      %! HC1
@@ -3133,28 +3155,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-        %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
-        %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
-        %%%         #2                                               %! FIGURE_NAME_MARKUP
-        %%%         \concat                                          %! FIGURE_NAME_MARKUP
-        %%%             {                                            %! FIGURE_NAME_MARKUP
-        %%%                 [                                        %! FIGURE_NAME_MARKUP
-        %%%                 \concat                                  %! FIGURE_NAME_MARKUP
-        %%%                     {                                    %! FIGURE_NAME_MARKUP
-        %%%                         4                                %! FIGURE_NAME_MARKUP
-        %%%                         \sub                             %! FIGURE_NAME_MARKUP
-        %%%                             31                           %! FIGURE_NAME_MARKUP
-        %%%                     }                                    %! FIGURE_NAME_MARKUP
-        %%%                 \hspace                                  %! FIGURE_NAME_MARKUP
-        %%%                     #1                                   %! FIGURE_NAME_MARKUP
-        %%%                 \raise                                   %! FIGURE_NAME_MARKUP
-        %%%                     #0.25                                %! FIGURE_NAME_MARKUP
-        %%%                     \fontsize                            %! FIGURE_NAME_MARKUP
-        %%%                         #-2                              %! FIGURE_NAME_MARKUP
-        %%%                         (40)                             %! FIGURE_NAME_MARKUP
-        %%%                 ]                                        %! FIGURE_NAME_MARKUP
-        %%%             }                                            %! FIGURE_NAME_MARKUP
-        %%%     }                                                    %! FIGURE_NAME_MARKUP
             
             e2
             :32                                                      %! IC
@@ -3178,10 +3178,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \pppp                                                    %! HC1
-            \pppp                                                    %! HC1
-            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3204,6 +3200,10 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \pppp                                                    %! HC1
+            \pppp                                                    %! HC1
+            \<                                                       %! HC1
             
             e2
             :32                                                      %! IC
@@ -3230,10 +3230,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \ppp                                                     %! HC1
-            \ppp                                                     %! HC1
-            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3256,6 +3252,10 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \ppp                                                     %! HC1
+            \ppp                                                     %! HC1
+            \>                                                       %! HC1
             
             e2
             :32                                                      %! IC
@@ -3275,10 +3275,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \ppppp                                                   %! HC1
-            \ppppp                                                   %! HC1
-            \<                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3301,6 +3297,10 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \ppppp                                                   %! HC1
+            \ppppp                                                   %! HC1
+            \<                                                       %! HC1
             
             e2
             :32                                                      %! IC
@@ -3316,11 +3316,6 @@ L_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
             e2
             :32                                                      %! IC
-            \repeatTie                                               %! SC
-            \pppp                                                    %! HC1
-            \pppp                                                    %! HC1
-            - \tweak circled-tip ##t                                 %! HC1
-            \>                                                       %! HC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3343,6 +3338,11 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \repeatTie                                               %! SC
+            \pppp                                                    %! HC1
+            \pppp                                                    %! HC1
+            - \tweak circled-tip ##t                                 %! HC1
+            \>                                                       %! HC1
         }
     }
     {
@@ -3352,8 +3352,6 @@ L_GuitarMusicVoiceI = {
             \once \override TextScript.staff-padding = #5.5          %! OC1
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
             r8
-            \!                                                       %! HC1
-            \stopTextSpan                                            %! PWC1
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -3376,6 +3374,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \!                                                       %! HC1
+            \stopTextSpan                                            %! PWC1
             
             r8
             

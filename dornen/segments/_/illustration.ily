@@ -4,6 +4,26 @@ i_GlobalSkips = {
     \time 3/16                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/16
+%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
+%@%         (1)                                                          %! SM31:MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
+%@%         <0>                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
+%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%         ((1))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
+%@%         [_.1]                                                        %! SM3:STAGE_NUMBER_MARKUP
+%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
+%@%         [0'00'']                                                     %! SM28:CLOCK_TIME_MARKUP
+%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
 %@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
@@ -53,26 +73,6 @@ i_GlobalSkips = {
     - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
-%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
-%@%         (1)                                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
-%@%         <0>                                                          %! SM32:MEASURE_INDEX_MARKUP
-%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%         ((1))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
-%@%         [_.1]                                                        %! SM3:STAGE_NUMBER_MARKUP
-%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
-%@%         [0'00'']                                                     %! SM28:CLOCK_TIME_MARKUP
-%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     
     % [_ GlobalSkips measure 2]                                          %! SM4
     \time 1/32                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -501,7 +501,6 @@ i_GlobalSkips = {
     \time 12/64                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/16
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
 %@%         (19)                                                         %! SM31:MEASURE_NUMBER_MARKUP
@@ -522,6 +521,7 @@ i_GlobalSkips = {
 %@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
 %@%         [0'37'']                                                     %! SM28:CLOCK_TIME_MARKUP
 %@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     \override Score.BarLine.transparent = ##f                            %! SM5
     \bar "|"                                                             %! SM5
     
@@ -541,7 +541,6 @@ i_GuitarMusicVoiceI = {
         %@% \override GuitarMusicStaff.Clef.color = ##f              %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
             \set GuitarMusicStaff.forceClef = ##t                    %! SM8:DEFAULT_CLEF:SM33:ST3
             e'8.
-            [                                                        %! SM35
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -559,6 +558,7 @@ i_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            [                                                        %! SM35
             \override GuitarMusicStaff.Clef.color = #(x11-color 'violet) %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
         }
     }
@@ -636,7 +636,6 @@ i_GuitarMusicVoiceI = {
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
             g'8.
-            [                                                        %! SM35
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -654,6 +653,7 @@ i_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            [                                                        %! SM35
             
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
@@ -714,7 +714,6 @@ i_GuitarMusicVoiceI = {
             \set stemLeftBeamCount = 0                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
             fs!8.
-            [                                                        %! SM35
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -732,6 +731,7 @@ i_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            [                                                        %! SM35
             
             \set stemLeftBeamCount = 1                               %! SM35
             \set stemRightBeamCount = 1                              %! SM35
@@ -803,7 +803,6 @@ i_GuitarMusicVoiceII = {
             \acciaccatura {
                 
                 fs'16
-                [                                                    %! ACC1
             %%% ^ \markup {                                          %! FIGURE_NAME_MARKUP
             %%%     \fontsize                                        %! FIGURE_NAME_MARKUP
             %%%         #2                                           %! FIGURE_NAME_MARKUP
@@ -821,6 +820,7 @@ i_GuitarMusicVoiceII = {
             %%%                 ]                                    %! FIGURE_NAME_MARKUP
             %%%             }                                        %! FIGURE_NAME_MARKUP
             %%%     }                                                %! FIGURE_NAME_MARKUP
+                [                                                    %! ACC1
                 
                 d'16
                 
@@ -852,7 +852,6 @@ i_GuitarMusicVoiceII = {
             \acciaccatura {
                 
                 bf'16
-                [                                                    %! ACC1
             %%% ^ \markup {                                          %! FIGURE_NAME_MARKUP
             %%%     \fontsize                                        %! FIGURE_NAME_MARKUP
             %%%         #2                                           %! FIGURE_NAME_MARKUP
@@ -870,6 +869,7 @@ i_GuitarMusicVoiceII = {
             %%%                 ]                                    %! FIGURE_NAME_MARKUP
             %%%             }                                        %! FIGURE_NAME_MARKUP
             %%%     }                                                %! FIGURE_NAME_MARKUP
+                [                                                    %! ACC1
                 
                 g'16
                 
@@ -897,7 +897,6 @@ i_GuitarMusicVoiceII = {
             \acciaccatura {
                 
                 b'16
-                [                                                    %! ACC1
             %%% ^ \markup {                                          %! FIGURE_NAME_MARKUP
             %%%     \fontsize                                        %! FIGURE_NAME_MARKUP
             %%%         #2                                           %! FIGURE_NAME_MARKUP
@@ -915,6 +914,7 @@ i_GuitarMusicVoiceII = {
             %%%                 ]                                    %! FIGURE_NAME_MARKUP
             %%%             }                                        %! FIGURE_NAME_MARKUP
             %%%     }                                                %! FIGURE_NAME_MARKUP
+                [                                                    %! ACC1
                 
                 fs'16
                 
@@ -941,7 +941,6 @@ i_GuitarMusicVoiceII = {
             \acciaccatura {
                 
                 bf'16
-                [                                                    %! ACC1
             %%% ^ \markup {                                          %! FIGURE_NAME_MARKUP
             %%%     \fontsize                                        %! FIGURE_NAME_MARKUP
             %%%         #2                                           %! FIGURE_NAME_MARKUP
@@ -959,6 +958,7 @@ i_GuitarMusicVoiceII = {
             %%%                 ]                                    %! FIGURE_NAME_MARKUP
             %%%             }                                        %! FIGURE_NAME_MARKUP
             %%%     }                                                %! FIGURE_NAME_MARKUP
+                [                                                    %! ACC1
                 
                 d''16
                 
@@ -986,7 +986,6 @@ i_GuitarMusicVoiceII = {
             \acciaccatura {
                 
                 a''16
-                [                                                    %! ACC1
             %%% ^ \markup {                                          %! FIGURE_NAME_MARKUP
             %%%     \fontsize                                        %! FIGURE_NAME_MARKUP
             %%%         #2                                           %! FIGURE_NAME_MARKUP
@@ -1004,6 +1003,7 @@ i_GuitarMusicVoiceII = {
             %%%                 ]                                    %! FIGURE_NAME_MARKUP
             %%%             }                                        %! FIGURE_NAME_MARKUP
             %%%     }                                                %! FIGURE_NAME_MARKUP
+                [                                                    %! ACC1
                 
                 cs''16
                 
@@ -1038,7 +1038,6 @@ i_GuitarMusicVoiceII = {
             \acciaccatura {
                 
                 b''16
-                [                                                    %! ACC1
             %%% ^ \markup {                                          %! FIGURE_NAME_MARKUP
             %%%     \fontsize                                        %! FIGURE_NAME_MARKUP
             %%%         #2                                           %! FIGURE_NAME_MARKUP
@@ -1056,6 +1055,7 @@ i_GuitarMusicVoiceII = {
             %%%                 ]                                    %! FIGURE_NAME_MARKUP
             %%%             }                                        %! FIGURE_NAME_MARKUP
             %%%     }                                                %! FIGURE_NAME_MARKUP
+                [                                                    %! ACC1
                 
                 g''16
                 
@@ -1088,7 +1088,6 @@ i_GuitarMusicVoiceII = {
             \acciaccatura {
                 
                 ef''16
-                [                                                    %! ACC1
             %%% ^ \markup {                                          %! FIGURE_NAME_MARKUP
             %%%     \fontsize                                        %! FIGURE_NAME_MARKUP
             %%%         #2                                           %! FIGURE_NAME_MARKUP
@@ -1106,6 +1105,7 @@ i_GuitarMusicVoiceII = {
             %%%                 ]                                    %! FIGURE_NAME_MARKUP
             %%%             }                                        %! FIGURE_NAME_MARKUP
             %%%     }                                                %! FIGURE_NAME_MARKUP
+                [                                                    %! ACC1
                 
                 e''16
                 
@@ -1180,7 +1180,6 @@ i_GuitarMusicVoiceIII = {
             \override Beam.positions = #'(-6 . -6)                   %! OC1
             \once \override Beam.grow-direction = #left
             b''64 * 320/1024
-            [
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1198,6 +1197,7 @@ i_GuitarMusicVoiceIII = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            [
             
             af''!64 * 640/1024
             
@@ -1258,7 +1258,6 @@ i_GuitarMusicVoiceIII = {
             \override Beam.positions = #'(-6 . -6)                   %! OC1
             \once \override Beam.grow-direction = #left
             f''64 * 192/1024
-            [
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1276,6 +1275,7 @@ i_GuitarMusicVoiceIII = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            [
             
             b'64 * 448/1024
             
@@ -1324,8 +1324,6 @@ i_GuitarMusicVoiceIV = {
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             af'!64
-            [
-            (                                                        %! SC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1343,6 +1341,8 @@ i_GuitarMusicVoiceIV = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            [
+            (                                                        %! SC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
@@ -1390,8 +1390,6 @@ i_GuitarMusicVoiceIV = {
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             b'64
-            [
-            (                                                        %! SC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1409,6 +1407,8 @@ i_GuitarMusicVoiceIV = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            [
+            (                                                        %! SC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
@@ -1501,8 +1501,6 @@ i_GuitarMusicVoiceIV = {
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             a'64
-            [
-            (                                                        %! SC
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1520,6 +1518,8 @@ i_GuitarMusicVoiceIV = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            [
+            (                                                        %! SC
             
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4

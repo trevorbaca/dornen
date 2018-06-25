@@ -49,7 +49,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='GuitarMusicVoiceI',
                                 prototype='abjad.Dynamic',
-                                value='\\niente',
+                                value='\\!',
                                 ),
                             ],
                         ),

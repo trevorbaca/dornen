@@ -659,6 +659,8 @@ K_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [K GuitarMusicVoiceI measure 232 / measure 1]          %! SM4
+            \override TextSpanner.staff-padding = #5                 %! OC1
+            \override TextScript.staff-padding = #8                  %! OC1
             \clef "treble"                                           %! SM8:REAPPLIED_CLEF:SM37
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
         %@% \override GuitarMusicStaff.Clef.color = ##f              %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -697,9 +699,10 @@ K_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [K GuitarMusicVoiceI measure 233 / measure 2]          %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -723,8 +726,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \p                                                       %! HC1
-            \<                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -756,6 +757,7 @@ K_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
+            \<                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -763,9 +765,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 234 / measure 3]          %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -789,7 +792,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \mp                                                      %! HC1
             \stopTextSpan                                            %! PWC1
         }
     }
@@ -798,9 +800,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 235 / measure 4]          %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \mp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -824,8 +827,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \mp                                                      %! HC1
-            \>                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -857,6 +858,7 @@ K_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
+            \>                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -864,9 +866,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 236 / measure 5]          %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -890,7 +893,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \p                                                       %! HC1
             \stopTextSpan                                            %! PWC1
         }
     }
@@ -937,9 +939,10 @@ K_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [K GuitarMusicVoiceI measure 238 / measure 7]          %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -963,8 +966,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \p                                                       %! HC1
-            \<                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -996,6 +997,7 @@ K_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
+            \<                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -1003,9 +1005,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 239 / measure 8]          %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1029,7 +1032,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \mf                                                      %! HC1
             \stopTextSpan                                            %! PWC1
         }
     }
@@ -1038,9 +1040,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 240 / measure 9]          %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \mf                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1064,8 +1067,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \mf                                                      %! HC1
-            \>                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1097,6 +1098,7 @@ K_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
+            \>                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -1104,9 +1106,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 241 / measure 10]         %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1130,7 +1133,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \p                                                       %! HC1
             \stopTextSpan                                            %! PWC1
         }
     }
@@ -1177,9 +1179,10 @@ K_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [K GuitarMusicVoiceI measure 243 / measure 12]         %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1203,8 +1206,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \p                                                       %! HC1
-            \<                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1236,6 +1237,7 @@ K_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
+            \<                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -1243,9 +1245,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 244 / measure 13]         %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1269,7 +1272,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \mp                                                      %! HC1
             \stopTextSpan                                            %! PWC1
         }
     }
@@ -1278,9 +1280,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 245 / measure 14]         %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \mp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1304,8 +1307,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \mp                                                      %! HC1
-            \>                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1337,6 +1338,7 @@ K_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
+            \>                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -1344,9 +1346,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 246 / measure 15]         %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1370,7 +1373,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \p                                                       %! HC1
             \stopTextSpan                                            %! PWC1
         }
     }
@@ -1379,9 +1381,10 @@ K_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [K GuitarMusicVoiceI measure 247 / measure 16]         %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1405,8 +1408,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \p                                                       %! HC1
-            \<                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1438,6 +1439,7 @@ K_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
+            \<                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -1445,9 +1447,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 248 / measure 17]         %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1471,7 +1474,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \mf                                                      %! HC1
             \stopTextSpan                                            %! PWC1
         }
     }
@@ -1480,9 +1482,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 249 / measure 18]         %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \mf                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1506,8 +1509,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \mf                                                      %! HC1
-            \>                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1539,6 +1540,7 @@ K_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
+            \>                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -1546,9 +1548,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 250 / measure 19]         %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1572,7 +1575,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \p                                                       %! HC1
             \stopTextSpan                                            %! PWC1
         }
     }
@@ -1581,9 +1583,10 @@ K_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [K GuitarMusicVoiceI measure 251 / measure 20]         %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1607,8 +1610,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \p                                                       %! HC1
-            \<                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1640,6 +1641,7 @@ K_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
+            \<                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -1647,9 +1649,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 252 / measure 21]         %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1673,7 +1676,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \f                                                       %! HC1
             \stopTextSpan                                            %! PWC1
         }
     }
@@ -1682,9 +1684,10 @@ K_GuitarMusicVoiceI = {
         \times 2/3 {
             
             % [K GuitarMusicVoiceI measure 253 / measure 22]         %! SM4
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \f                                                       %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
         %%% ^ \markup {                                              %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                            %! FIGURE_NAME_MARKUP
         %%%         #2                                               %! FIGURE_NAME_MARKUP
@@ -1708,8 +1711,6 @@ K_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \f                                                       %! HC1
-            \>                                                       %! HC1
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
                 \concat                                              %! PWC1
@@ -1741,6 +1742,7 @@ K_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
+            \>                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -1854,12 +1856,14 @@ K_GuitarMusicVoiceI = {
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
             
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
             f2
             :32                                                      %! IC
+            \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
             \repeatTie                                               %! SC
-            \mp                                                      %! HC1
             \stopTextSpan                                            %! PWC1
+            \revert TextSpanner.staff-padding                        %! OC2
+            \revert TextScript.staff-padding                         %! OC2
             
         }
     }

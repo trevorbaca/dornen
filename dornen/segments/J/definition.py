@@ -211,81 +211,87 @@ maker(
     )
 
 maker(
-    ('v1', 2),
-    baca.hairpin('pp < p', selector=baca.rleaves()),
+    ('v1', (2, 3)),
+    baca.new_hairpin('pp < p'),
     )
 
 maker(
-    ('v1', 4),
-    baca.hairpin('p > pp', selector=baca.rleaves()),
+    ('v1', (4, 5)),
+    baca.new_hairpin('p > pp'),
     )
 
 maker(
-    ('v1', 7),
-    baca.hairpin('pp < mp', selector=baca.rleaves()),
+    ('v1', (7, 8)),
+    baca.new_hairpin('pp < mp'),
     )
 
 maker(
-    ('v1', 9),
-    baca.hairpin('mp > pp', selector=baca.rleaves()),
+    ('v1', (9, 10)),
+    baca.new_hairpin('mp > pp'),
     )
 
 maker(
-    ('v1', 12),
-    baca.hairpin('pp < p', selector=baca.rleaves()),
+    ('v1', (12, 13)),
+    baca.new_hairpin('pp < p'),
     baca.transition(
         baca.markups.trans(),
         baca.markups.kn_rasg(),
-        selector=baca.rleaves(),
         ),
     )
 
 maker(
-    ('v1', 14),
-    baca.hairpin('p > pp', selector=baca.rleaves()),
+    ('v1', (14, 15)),
+    baca.hairpin('p > pp'),
     baca.transition(
         baca.markups.trans(),
         baca.markups.tamb_tr(),
-        selector=baca.rleaves(),
         ),
     )
 
 maker(
-    ('v1', 16),
-    baca.hairpin('pp < mp', selector=baca.rleaves()),
+    ('v1', (16, 17)),
+    baca.hairpin('pp < mp'),
     baca.transition(
         baca.markups.trans(),
         baca.markups.kn_rasg(),
-        selector=baca.rleaves(),
         ),
     )
 
 maker(
-    ('v1', 18),
-    baca.hairpin('mp > pp', selector=baca.rleaves()),
+    ('v1', (18, 19)),
+    baca.hairpin('mp > pp'),
     baca.transition(
         baca.markups.trans(),
         baca.markups.tamb_tr(),
-        selector=baca.rleaves(),
         ),
     )
 
 maker(
-    ('v1', 20),
-    baca.hairpin('pp < mf', selector=baca.rleaves()),
+    ('v1', (20, 21)),
     baca.transition(
         baca.markups.trans(),
         baca.markups.kn_rasg(),
-        selector=baca.rleaves(),
         ),
     )
 
 maker(
     ('v1', (22, 25)),
-    baca.hairpin('mf > p', selector=baca.leaves()),
+    baca.hairpin('mf > p'),
     baca.transition(
         baca.markups.trans(),
         baca.markups.tamb_tr(),
-        selector=baca.rleaves(),
+        ),
+    )
+
+maker(
+    'v1',
+    baca.measures(
+        (1, 11),
+        baca.text_script_staff_padding(5),
+        ),
+    baca.measures(
+        (12, -1),
+        baca.text_spanner_staff_padding(5),
+        baca.text_script_staff_padding(8),
         ),
     )

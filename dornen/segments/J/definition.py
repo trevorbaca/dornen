@@ -231,55 +231,73 @@ maker(
     )
 
 maker(
-    ('v1', (12, 13)),
-    baca.new_hairpin('pp < p'),
-    baca.transition(
-        baca.markups.trans(),
-        baca.markups.kn_rasg(),
+    ('v1', 12),
+    baca.map(
+        baca.rleaves().group(),
+        baca.new_hairpin('pp < p'),
+        baca.transition(
+            baca.markups.trans(),
+            baca.markups.kn_rasg(),
+            ),
         ),
     )
 
 maker(
-    ('v1', (14, 15)),
-    baca.hairpin('p > pp'),
-    baca.transition(
-        baca.markups.trans(),
-        baca.markups.tamb_tr(),
+    ('v1', 14),
+    baca.map(
+        baca.rleaves().group(),
+        baca.new_hairpin('p > pp'),
+        baca.transition(
+            baca.markups.trans(),
+            baca.markups.tamb_tr(),
+            ),
         ),
     )
 
 maker(
-    ('v1', (16, 17)),
-    baca.hairpin('pp < mp'),
-    baca.transition(
-        baca.markups.trans(),
-        baca.markups.kn_rasg(),
+    ('v1', 16),
+    baca.map(
+        baca.rleaves().group(),
+        baca.new_hairpin('pp < mp'),
+        baca.transition(
+            baca.markups.trans(),
+            baca.markups.kn_rasg(),
+            ),
         ),
     )
 
 maker(
-    ('v1', (18, 19)),
-    baca.hairpin('mp > pp'),
-    baca.transition(
-        baca.markups.trans(),
-        baca.markups.tamb_tr(),
+    ('v1', 18),
+    baca.map(
+        baca.rleaves().group(),
+        baca.new_hairpin('mp > pp'),
+        baca.transition(
+            baca.markups.trans(),
+            baca.markups.tamb_tr(),
+            ),
         ),
     )
 
 maker(
-    ('v1', (20, 21)),
-    baca.transition(
-        baca.markups.trans(),
-        baca.markups.kn_rasg(),
+    ('v1', 20),
+    baca.map(
+        baca.rleaves().group(),
+        baca.transition(
+            baca.markups.trans(),
+            baca.markups.kn_rasg(),
+            ),
         ),
     )
 
 maker(
-    ('v1', (22, 25)),
-    baca.hairpin('mf > p'),
-    baca.transition(
-        baca.markups.trans(),
-        baca.markups.tamb_tr(),
+    ('v1', (22, 24)),
+    baca.map(
+        baca.rleaves().group(),
+        baca.new_hairpin('mf > p'),
+        baca.transition(
+            baca.markups.trans(),
+            baca.markups.tamb_tr(),
+            ),
         ),
     )
 

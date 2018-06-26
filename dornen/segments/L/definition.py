@@ -575,11 +575,7 @@ maker(
 
 maker(
     ('v1', 45),
-    baca.new_hairpin(
-        'pppp >o niente',
-        selector=baca.rleaves(),
-        stop_selector=baca.rest(-1),
-        ),
+    baca.new_hairpin('pppp >o niente', selector=baca.rleaves()),
     )
 
 maker(

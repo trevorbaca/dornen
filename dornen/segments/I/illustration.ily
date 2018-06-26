@@ -740,8 +740,8 @@ I_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \>                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
         }
     }
     {
@@ -847,8 +847,8 @@ I_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \<                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
         }
     }
     {
@@ -916,8 +916,8 @@ I_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \>                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
         }
     }
     {
@@ -1023,8 +1023,8 @@ I_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \<                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
         }
     }
     {
@@ -1092,8 +1092,8 @@ I_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \<                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
         }
     }
     {
@@ -1161,8 +1161,8 @@ I_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \<                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
         }
     }
     {
@@ -1230,8 +1230,8 @@ I_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \>                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
         }
     }
     {

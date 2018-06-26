@@ -356,102 +356,130 @@ maker(
     )
 
 maker(
-    ('v1', (2, 3)),
-    baca.new_hairpin('mp < mf'),
-    baca.transition(
-        baca.markups.tamb_tr(),
-        baca.markups.kn_rasg(),
+    ('v1', 2),
+    baca.map(
+        baca.rleaves().group(),
+        baca.new_hairpin('mp < mf'),
+        baca.transition(
+            baca.markups.tamb_tr(),
+            baca.markups.kn_rasg(),
+            ),
         ),
     )
 
 maker(
-    ('v1', (4, 5)),
-    baca.new_hairpin('mf > mp'),
-    baca.transition(
-        baca.markups.trans(),
-        baca.markups.tamb_tr(),
+    ('v1', 4),
+    baca.map(
+        baca.rleaves().group(),
+        baca.new_hairpin('mf > mp'),
+        baca.transition(
+            baca.markups.trans(),
+            baca.markups.tamb_tr(),
+            ),
         ),
     )
 
 maker(
-    ('v1', (7, 8)),
-    baca.new_hairpin('mp < f'),
-    baca.transition(
-        baca.markups.trans(),
-        baca.markups.kn_rasg(),
+    ('v1', 7),
+    baca.map(
+        baca.rleaves().group(),
+        baca.new_hairpin('mp < f'),
+        baca.transition(
+            baca.markups.trans(),
+            baca.markups.kn_rasg(),
+            ),
         ),
     )
 
 maker(
-    ('v1', (9, 10)),
-    baca.new_hairpin('f > mp'),
-    baca.transition(
-        baca.markups.trans(),
-        baca.markups.tamb_tr(),
+    ('v1', 9),
+    baca.map(
+        baca.rleaves().group(),
+        baca.new_hairpin('f > mp'),
+        baca.transition(
+            baca.markups.trans(),
+            baca.markups.tamb_tr(),
+            ),
         ),
     )
 
 maker(
-    ('v1', (12, 13)),
-    baca.new_hairpin('mp < ff'),
-    baca.transition(
-        baca.markups.trans(),
-        baca.markups.kn_rasg(),
+    ('v1', 12),
+    baca.map(
+        baca.rleaves().group(),
+        baca.new_hairpin('mp < ff'),
+        baca.transition(
+            baca.markups.trans(),
+            baca.markups.kn_rasg(),
+            ),
         ),
     )
 
 maker(
-    ('v1', (14, 15)),
-    baca.new_hairpin('ff > mf'),
+    ('v1', 14),
+    baca.map(
+        baca.rleaves().group(),
+        baca.new_hairpin('ff > mf'),
+        ),
     )
 
 maker(
     ('v1', 16),
-    baca.new_hairpin('mf < f', selector=baca.rleaves()),
-    baca.transition(
-        baca.markups.trans(),
-        baca.markups.nail_rasg(),
-        selector=baca.rleaves(),
+    baca.map(
+        baca.rleaves().group(),
+        baca.new_hairpin('mf < f'),
+        baca.transition(
+            baca.markups.trans(),
+            baca.markups.nail_rasg(),
+            ),
         ),
     )
 
 maker(
     ('v1', 18),
-    baca.new_hairpin('f > mf', selector=baca.rleaves()),
-    baca.transition(
-        baca.markups.trans(),
-        baca.markups.kn_rasg(),
-        selector=baca.rleaves(),
+    baca.map(
+        baca.rleaves().group(),
+        baca.new_hairpin('f > mf'),
+        baca.transition(
+            baca.markups.trans(),
+            baca.markups.kn_rasg(),
+            ),
         ),
     )
 
 maker(
     ('v1', 20),
-    baca.new_hairpin('mf < ff', selector=baca.rleaves()),
-    baca.transition(
-        baca.markups.trans(),
-        baca.markups.nail_rasg(),
-        selector=baca.rleaves(),
+    baca.map(
+        baca.rleaves().group(),
+        baca.new_hairpin('mf < ff'),
+        baca.transition(
+            baca.markups.trans(),
+            baca.markups.nail_rasg(),
+            ),
         ),
     )
 
 maker(
     ('v1', 22),
-    baca.new_hairpin('ff > mf', selector=baca.rleaves()),
-    baca.transition(
-        baca.markups.trans(),
-        baca.markups.kn_rasg(),
-        selector=baca.rleaves(),
+    baca.map(
+        baca.rleaves().group(),
+        baca.new_hairpin('ff > mf'),
+        baca.transition(
+            baca.markups.trans(),
+            baca.markups.kn_rasg(),
+            ),
         ),
     )
 
 maker(
     ('v1', (24, 25)),
-    baca.new_hairpin('mf < ffff', selector=baca.rleaves()),
-    baca.transition(
-        baca.markups.trans(),
-        baca.markups.nail_rasg(),
-        selector=baca.rleaves(),
+    baca.map(
+        baca.rleaves().group(),
+        baca.new_hairpin('mf < ffff'),
+        baca.transition(
+            baca.markups.trans(),
+            baca.markups.nail_rasg(),
+            ),
         ),
     )
 

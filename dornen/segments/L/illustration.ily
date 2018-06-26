@@ -1252,6 +1252,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \<                                                       %! IC:BACA_HAIRPIN
             \repeatTie                                               %! SC
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
@@ -1284,7 +1285,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-            \<                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -1353,6 +1353,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \>                                                       %! IC:BACA_HAIRPIN
             \repeatTie                                               %! SC
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
@@ -1385,7 +1386,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-            \>                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -1492,6 +1492,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \<                                                       %! IC:BACA_HAIRPIN
             \repeatTie                                               %! SC
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
@@ -1524,7 +1525,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-            \<                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -1593,6 +1593,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \>                                                       %! IC:BACA_HAIRPIN
             \repeatTie                                               %! SC
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
@@ -1625,7 +1626,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-            \>                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -1732,6 +1732,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \<                                                       %! IC:BACA_HAIRPIN
             \repeatTie                                               %! SC
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
@@ -1764,7 +1765,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-            \<                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -1833,8 +1833,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \>                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
         }
     }
     {
@@ -1902,6 +1902,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \<                                                       %! IC:BACA_HAIRPIN
             \repeatTie                                               %! SC
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
@@ -1934,7 +1935,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-            \<                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -2007,6 +2007,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \>                                                       %! IC:BACA_HAIRPIN
             \repeatTie                                               %! SC
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
@@ -2039,7 +2040,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-            \>                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -2108,6 +2108,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \<                                                       %! IC:BACA_HAIRPIN
             \repeatTie                                               %! SC
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
@@ -2140,7 +2141,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-            \<                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -2216,6 +2216,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \>                                                       %! IC:BACA_HAIRPIN
             \repeatTie                                               %! SC
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
@@ -2248,7 +2249,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-            \>                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -2317,6 +2317,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \<                                                       %! IC:BACA_HAIRPIN
             \repeatTie                                               %! SC
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
@@ -2349,7 +2350,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-            \<                                                       %! IC:BACA_HAIRPIN
         }
     }
     {
@@ -2478,6 +2478,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \>                                                       %! IC:BACA_HAIRPIN
             \repeatTie                                               %! SC
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
@@ -2510,7 +2511,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-            \>                                                       %! IC:BACA_HAIRPIN
             
             e2
             :32                                                      %! IC
@@ -2555,8 +2555,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \<                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
             
             e2
             :32                                                      %! IC
@@ -2598,8 +2598,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \>                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
             
             e2
             :32                                                      %! IC
@@ -2637,8 +2637,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \<                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
         }
     }
     {
@@ -2672,8 +2672,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \>                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
             
             e2
             :32                                                      %! IC
@@ -2710,8 +2710,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \<                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
             
             e2
             :32                                                      %! IC
@@ -2753,8 +2753,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \>                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
             
             e2
             :32                                                      %! IC
@@ -2800,8 +2800,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \<                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
             
             e2
             :32                                                      %! IC
@@ -2851,8 +2851,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \>                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
             
             e2
             :32                                                      %! IC
@@ -2897,8 +2897,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \<                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
             
             e2
             :32                                                      %! IC
@@ -2940,9 +2940,9 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \>                                                       %! IC:BACA_HAIRPIN
             \repeatTie                                               %! SC
             \stopTextSpan                                            %! PWC1
-            \>                                                       %! IC:BACA_HAIRPIN
             
             e2
             :32                                                      %! IC
@@ -2980,8 +2980,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \<                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
         }
     }
     {
@@ -3015,8 +3015,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \>                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
             
             e2
             :32                                                      %! IC
@@ -3053,8 +3053,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \<                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
             
             e2
             :32                                                      %! IC
@@ -3096,6 +3096,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            \>                                                       %! IC:BACA_HAIRPIN
             \repeatTie                                               %! SC
             - \tweak Y-extent ##f                                    %! PWC1
             - \tweak bound-details.left.text \markup {               %! PWC1
@@ -3128,7 +3129,6 @@ L_GuitarMusicVoiceI = {
                     }                                                %! PWC1
                 }                                                    %! PWC1
             \startTextSpan                                           %! PWC1
-            \>                                                       %! IC:BACA_HAIRPIN
             
             e2
             :32                                                      %! IC
@@ -3174,8 +3174,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \<                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
             
             e2
             :32                                                      %! IC
@@ -3224,8 +3224,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \>                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
             
             e2
             :32                                                      %! IC
@@ -3267,8 +3267,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             \<                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
             
             e2
             :32                                                      %! IC
@@ -3306,9 +3306,9 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
-            \repeatTie                                               %! SC
             - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
             \>                                                       %! IC:BACA_HAIRPIN
+            \repeatTie                                               %! SC
         }
     }
     {

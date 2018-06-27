@@ -3306,6 +3306,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                        %! FIGURE_NAME_MARKUP
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
+            - \tweak to-barline ##t                                  %! IC:BACA_HAIRPIN
             - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
             \>                                                       %! IC:BACA_HAIRPIN
             \repeatTie                                               %! SC

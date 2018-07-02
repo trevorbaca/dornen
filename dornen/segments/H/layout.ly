@@ -14,8 +14,7 @@
         {   %*% PageLayout
             
             % [PageLayout measure 167]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 180)            %! HSS1:SPACING
+            \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \autoPageBreaksOff                                                           %! BMM1:BREAK
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
@@ -25,50 +24,43 @@
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 168]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 180)            %! HSS1:SPACING
+            \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/16
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 169]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 180)            %! HSS1:SPACING
+            \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/16
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 170]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 180)            %! HSS1:SPACING
+            \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/16
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 171]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 180)            %! HSS1:SPACING
+            \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/16
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 172]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 180)            %! HSS1:SPACING
+            \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/8
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 173]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 4320)          %! HSS1:SPACING
+            \baca_new_spacing_section #35 #4320                                          %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 11/16
         %@% ^ \markup { \baca-forest-green-markup "[[1/180 * 35/24]]" }                  %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 174]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 180)            %! HSS1:SPACING
+            \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
             #'((Y-offset . 80) (alignment-distances . (20)))                             %! IC:BREAK
@@ -77,57 +69,49 @@
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 175]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 180)            %! HSS1:SPACING
+            \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 5/32
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 176]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 180)            %! HSS1:SPACING
+            \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 5/28
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 177]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 180)            %! HSS1:SPACING
+            \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 15/64
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 178]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 180)            %! HSS1:SPACING
+            \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 5/32
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 179]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 180)            %! HSS1:SPACING
+            \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/14
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 180]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 180)            %! HSS1:SPACING
+            \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 9/32
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 181]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 4320)          %! HSS1:SPACING
+            \baca_new_spacing_section #35 #4320                                          %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/16
         %@% ^ \markup { \baca-forest-green-markup "[[1/180 * 35/24]]" }                  %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 182]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 180)            %! HSS1:SPACING
+            \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
             #'((Y-offset . 140) (alignment-distances . (20)))                            %! IC:BREAK
@@ -136,15 +120,13 @@
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 183]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 1 180)            %! HSS1:SPACING
+            \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/16
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 184]                                                   %! SM4
-            \newSpacingSection                                                           %! HSS1:SPACING
-            \set Score.proportionalNotationDuration = #(ly:make-moment 35 4320)          %! HSS1:SPACING
+            \baca_new_spacing_section #35 #4320                                          %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/10
         %@% ^ \markup { \baca-forest-green-markup "[[1/180 * 35/24]]" }                  %! HSS2:SPACING_MARKUP

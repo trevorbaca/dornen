@@ -1051,37 +1051,23 @@ J_GuitarMusicVoiceI = {
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \<                                                       %! PIC
             \repeatTie                                               %! SC
-            - \tweak Y-extent ##f                                    %! PSC1
-            - \tweak bound-details.left.text \markup {               %! PSC1
-                \concat                                              %! PSC1
-                    {                                                %! PSC1
-                        \upright                                     %! PSC1
-                            trans.                                   %! PSC1
-                        \hspace                                      %! PSC1
-                            #0.5                                     %! PSC1
-                    }                                                %! PSC1
-                }                                                    %! PSC1
-            - \tweak arrow-width 0.25                                %! PSC1
-            - \tweak dash-fraction 0.25                              %! PSC1
-            - \tweak dash-period 1.5                                 %! PSC1
-            - \tweak bound-details.left-broken.text ##f              %! PSC1
-            - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-            - \tweak bound-details.right.arrow ##t                   %! PSC1
-            - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-            - \tweak bound-details.right-broken.padding 0            %! PSC1
-            - \tweak bound-details.right-broken.text ##f             %! PSC1
-            - \tweak bound-details.right.padding 0.5                 %! PSC1
-            - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-            - \tweak bound-details.right.text \markup {              %! PSC1
-                \concat                                              %! PSC1
-                    {                                                %! PSC1
-                        \hspace                                      %! PSC1
-                            #0.0                                     %! PSC1
-                        \upright                                     %! PSC1
-                            "kn. rasg."                              %! PSC1
-                    }                                                %! PSC1
-                }                                                    %! PSC1
-            \startTextSpan                                           %! PSC1
+            - \abjad_dashed_line_with_arrow                          %! PIC
+            - \tweak bound-details.left.text \markup {               %! PIC
+                \concat                                              %! PIC
+                    {                                                %! PIC
+                        \upright                                     %! PIC
+                            trans.                                   %! PIC
+                        \hspace                                      %! PIC
+                            #0.5                                     %! PIC
+                    }                                                %! PIC
+                }                                                    %! PIC
+            - \tweak bound-details.right.text \markup {              %! PIC
+                \upright                                             %! PIC
+                    "kn. rasg."                                      %! PIC
+                }                                                    %! PIC
+            - \tweak bound-details.right.padding #0.5                %! PIC
+            - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
+            \startTextSpan                                           %! PIC
         }
     }
     {
@@ -1116,7 +1102,7 @@ J_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \stopTextSpan                                            %! PSC1
+            \stopTextSpan                                            %! PIC
         }
     }
     {
@@ -1152,37 +1138,23 @@ J_GuitarMusicVoiceI = {
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \>                                                       %! PIC
             \repeatTie                                               %! SC
-            - \tweak Y-extent ##f                                    %! PSC1
-            - \tweak bound-details.left.text \markup {               %! PSC1
-                \concat                                              %! PSC1
-                    {                                                %! PSC1
-                        \upright                                     %! PSC1
-                            trans.                                   %! PSC1
-                        \hspace                                      %! PSC1
-                            #0.5                                     %! PSC1
-                    }                                                %! PSC1
-                }                                                    %! PSC1
-            - \tweak arrow-width 0.25                                %! PSC1
-            - \tweak dash-fraction 0.25                              %! PSC1
-            - \tweak dash-period 1.5                                 %! PSC1
-            - \tweak bound-details.left-broken.text ##f              %! PSC1
-            - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-            - \tweak bound-details.right.arrow ##t                   %! PSC1
-            - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-            - \tweak bound-details.right-broken.padding 0            %! PSC1
-            - \tweak bound-details.right-broken.text ##f             %! PSC1
-            - \tweak bound-details.right.padding 0.5                 %! PSC1
-            - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-            - \tweak bound-details.right.text \markup {              %! PSC1
-                \concat                                              %! PSC1
-                    {                                                %! PSC1
-                        \hspace                                      %! PSC1
-                            #0.0                                     %! PSC1
-                        \upright                                     %! PSC1
-                            "tamb. tr."                              %! PSC1
-                    }                                                %! PSC1
-                }                                                    %! PSC1
-            \startTextSpan                                           %! PSC1
+            - \abjad_dashed_line_with_arrow                          %! PIC
+            - \tweak bound-details.left.text \markup {               %! PIC
+                \concat                                              %! PIC
+                    {                                                %! PIC
+                        \upright                                     %! PIC
+                            trans.                                   %! PIC
+                        \hspace                                      %! PIC
+                            #0.5                                     %! PIC
+                    }                                                %! PIC
+                }                                                    %! PIC
+            - \tweak bound-details.right.text \markup {              %! PIC
+                \upright                                             %! PIC
+                    "tamb. tr."                                      %! PIC
+                }                                                    %! PIC
+            - \tweak bound-details.right.padding #0.5                %! PIC
+            - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
+            \startTextSpan                                           %! PIC
         }
     }
     {
@@ -1217,7 +1189,7 @@ J_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \stopTextSpan                                            %! PSC1
+            \stopTextSpan                                            %! PIC
         }
     }
     {
@@ -1253,37 +1225,23 @@ J_GuitarMusicVoiceI = {
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \<                                                       %! PIC
             \repeatTie                                               %! SC
-            - \tweak Y-extent ##f                                    %! PSC1
-            - \tweak bound-details.left.text \markup {               %! PSC1
-                \concat                                              %! PSC1
-                    {                                                %! PSC1
-                        \upright                                     %! PSC1
-                            trans.                                   %! PSC1
-                        \hspace                                      %! PSC1
-                            #0.5                                     %! PSC1
-                    }                                                %! PSC1
-                }                                                    %! PSC1
-            - \tweak arrow-width 0.25                                %! PSC1
-            - \tweak dash-fraction 0.25                              %! PSC1
-            - \tweak dash-period 1.5                                 %! PSC1
-            - \tweak bound-details.left-broken.text ##f              %! PSC1
-            - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-            - \tweak bound-details.right.arrow ##t                   %! PSC1
-            - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-            - \tweak bound-details.right-broken.padding 0            %! PSC1
-            - \tweak bound-details.right-broken.text ##f             %! PSC1
-            - \tweak bound-details.right.padding 0.5                 %! PSC1
-            - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-            - \tweak bound-details.right.text \markup {              %! PSC1
-                \concat                                              %! PSC1
-                    {                                                %! PSC1
-                        \hspace                                      %! PSC1
-                            #0.0                                     %! PSC1
-                        \upright                                     %! PSC1
-                            "kn. rasg."                              %! PSC1
-                    }                                                %! PSC1
-                }                                                    %! PSC1
-            \startTextSpan                                           %! PSC1
+            - \abjad_dashed_line_with_arrow                          %! PIC
+            - \tweak bound-details.left.text \markup {               %! PIC
+                \concat                                              %! PIC
+                    {                                                %! PIC
+                        \upright                                     %! PIC
+                            trans.                                   %! PIC
+                        \hspace                                      %! PIC
+                            #0.5                                     %! PIC
+                    }                                                %! PIC
+                }                                                    %! PIC
+            - \tweak bound-details.right.text \markup {              %! PIC
+                \upright                                             %! PIC
+                    "kn. rasg."                                      %! PIC
+                }                                                    %! PIC
+            - \tweak bound-details.right.padding #0.5                %! PIC
+            - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
+            \startTextSpan                                           %! PIC
         }
     }
     {
@@ -1318,7 +1276,7 @@ J_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \stopTextSpan                                            %! PSC1
+            \stopTextSpan                                            %! PIC
         }
     }
     {
@@ -1354,37 +1312,23 @@ J_GuitarMusicVoiceI = {
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \>                                                       %! PIC
             \repeatTie                                               %! SC
-            - \tweak Y-extent ##f                                    %! PSC1
-            - \tweak bound-details.left.text \markup {               %! PSC1
-                \concat                                              %! PSC1
-                    {                                                %! PSC1
-                        \upright                                     %! PSC1
-                            trans.                                   %! PSC1
-                        \hspace                                      %! PSC1
-                            #0.5                                     %! PSC1
-                    }                                                %! PSC1
-                }                                                    %! PSC1
-            - \tweak arrow-width 0.25                                %! PSC1
-            - \tweak dash-fraction 0.25                              %! PSC1
-            - \tweak dash-period 1.5                                 %! PSC1
-            - \tweak bound-details.left-broken.text ##f              %! PSC1
-            - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-            - \tweak bound-details.right.arrow ##t                   %! PSC1
-            - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-            - \tweak bound-details.right-broken.padding 0            %! PSC1
-            - \tweak bound-details.right-broken.text ##f             %! PSC1
-            - \tweak bound-details.right.padding 0.5                 %! PSC1
-            - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-            - \tweak bound-details.right.text \markup {              %! PSC1
-                \concat                                              %! PSC1
-                    {                                                %! PSC1
-                        \hspace                                      %! PSC1
-                            #0.0                                     %! PSC1
-                        \upright                                     %! PSC1
-                            "tamb. tr."                              %! PSC1
-                    }                                                %! PSC1
-                }                                                    %! PSC1
-            \startTextSpan                                           %! PSC1
+            - \abjad_dashed_line_with_arrow                          %! PIC
+            - \tweak bound-details.left.text \markup {               %! PIC
+                \concat                                              %! PIC
+                    {                                                %! PIC
+                        \upright                                     %! PIC
+                            trans.                                   %! PIC
+                        \hspace                                      %! PIC
+                            #0.5                                     %! PIC
+                    }                                                %! PIC
+                }                                                    %! PIC
+            - \tweak bound-details.right.text \markup {              %! PIC
+                \upright                                             %! PIC
+                    "tamb. tr."                                      %! PIC
+                }                                                    %! PIC
+            - \tweak bound-details.right.padding #0.5                %! PIC
+            - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
+            \startTextSpan                                           %! PIC
         }
     }
     {
@@ -1419,7 +1363,7 @@ J_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \stopTextSpan                                            %! PSC1
+            \stopTextSpan                                            %! PIC
         }
     }
     {
@@ -1452,37 +1396,23 @@ J_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            - \tweak Y-extent ##f                                    %! PSC1
-            - \tweak bound-details.left.text \markup {               %! PSC1
-                \concat                                              %! PSC1
-                    {                                                %! PSC1
-                        \upright                                     %! PSC1
-                            trans.                                   %! PSC1
-                        \hspace                                      %! PSC1
-                            #0.5                                     %! PSC1
-                    }                                                %! PSC1
-                }                                                    %! PSC1
-            - \tweak arrow-width 0.25                                %! PSC1
-            - \tweak dash-fraction 0.25                              %! PSC1
-            - \tweak dash-period 1.5                                 %! PSC1
-            - \tweak bound-details.left-broken.text ##f              %! PSC1
-            - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-            - \tweak bound-details.right.arrow ##t                   %! PSC1
-            - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-            - \tweak bound-details.right-broken.padding 0            %! PSC1
-            - \tweak bound-details.right-broken.text ##f             %! PSC1
-            - \tweak bound-details.right.padding 0.5                 %! PSC1
-            - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-            - \tweak bound-details.right.text \markup {              %! PSC1
-                \concat                                              %! PSC1
-                    {                                                %! PSC1
-                        \hspace                                      %! PSC1
-                            #0.0                                     %! PSC1
-                        \upright                                     %! PSC1
-                            "kn. rasg."                              %! PSC1
-                    }                                                %! PSC1
-                }                                                    %! PSC1
-            \startTextSpan                                           %! PSC1
+            - \abjad_dashed_line_with_arrow                          %! PIC
+            - \tweak bound-details.left.text \markup {               %! PIC
+                \concat                                              %! PIC
+                    {                                                %! PIC
+                        \upright                                     %! PIC
+                            trans.                                   %! PIC
+                        \hspace                                      %! PIC
+                            #0.5                                     %! PIC
+                    }                                                %! PIC
+                }                                                    %! PIC
+            - \tweak bound-details.right.text \markup {              %! PIC
+                \upright                                             %! PIC
+                    "kn. rasg."                                      %! PIC
+                }                                                    %! PIC
+            - \tweak bound-details.right.padding #0.5                %! PIC
+            - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
+            \startTextSpan                                           %! PIC
         }
     }
     {
@@ -1515,7 +1445,7 @@ J_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \stopTextSpan                                            %! PSC1
+            \stopTextSpan                                            %! PIC
         }
     }
     {
@@ -1551,37 +1481,23 @@ J_GuitarMusicVoiceI = {
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \>                                                       %! PIC
             \repeatTie                                               %! SC
-            - \tweak Y-extent ##f                                    %! PSC1
-            - \tweak bound-details.left.text \markup {               %! PSC1
-                \concat                                              %! PSC1
-                    {                                                %! PSC1
-                        \upright                                     %! PSC1
-                            trans.                                   %! PSC1
-                        \hspace                                      %! PSC1
-                            #0.5                                     %! PSC1
-                    }                                                %! PSC1
-                }                                                    %! PSC1
-            - \tweak arrow-width 0.25                                %! PSC1
-            - \tweak dash-fraction 0.25                              %! PSC1
-            - \tweak dash-period 1.5                                 %! PSC1
-            - \tweak bound-details.left-broken.text ##f              %! PSC1
-            - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-            - \tweak bound-details.right.arrow ##t                   %! PSC1
-            - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-            - \tweak bound-details.right-broken.padding 0            %! PSC1
-            - \tweak bound-details.right-broken.text ##f             %! PSC1
-            - \tweak bound-details.right.padding 0.5                 %! PSC1
-            - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-            - \tweak bound-details.right.text \markup {              %! PSC1
-                \concat                                              %! PSC1
-                    {                                                %! PSC1
-                        \hspace                                      %! PSC1
-                            #0.0                                     %! PSC1
-                        \upright                                     %! PSC1
-                            "tamb. tr."                              %! PSC1
-                    }                                                %! PSC1
-                }                                                    %! PSC1
-            \startTextSpan                                           %! PSC1
+            - \abjad_dashed_line_with_arrow                          %! PIC
+            - \tweak bound-details.left.text \markup {               %! PIC
+                \concat                                              %! PIC
+                    {                                                %! PIC
+                        \upright                                     %! PIC
+                            trans.                                   %! PIC
+                        \hspace                                      %! PIC
+                            #0.5                                     %! PIC
+                    }                                                %! PIC
+                }                                                    %! PIC
+            - \tweak bound-details.right.text \markup {              %! PIC
+                \upright                                             %! PIC
+                    "tamb. tr."                                      %! PIC
+                }                                                    %! PIC
+            - \tweak bound-details.right.padding #0.5                %! PIC
+            - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
+            \startTextSpan                                           %! PIC
         }
     }
     {
@@ -1696,7 +1612,7 @@ J_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            \stopTextSpan                                            %! PSC1
+            \stopTextSpan                                            %! PIC
             
             gtqf!2
             :32                                                      %! IC

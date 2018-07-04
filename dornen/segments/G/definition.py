@@ -114,6 +114,7 @@ metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
     ])
 
 maker = baca.SegmentMaker(
+    do_not_attach_metronome_mark_spanner=True,
     instruments=dornen.instruments,
     metronome_mark_measure_map=metronome_mark_measure_map,
     metronome_mark_stem_height=1.5,

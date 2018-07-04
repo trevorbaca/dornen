@@ -25,25 +25,31 @@ B_GlobalSkips = {
 %@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
 %@%         [1'19'']                                                     %! SM28:CLOCK_TIME_MARKUP
 %@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
-    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
-%@% - \tweak bound-details.left.text \markup {                           %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
-%@%     \abjad-metronome-mark-markup #3 #0 #1.5 #"44"                    %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
-%@%     \hspace                                                          %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
-%@%         #1                                                           %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
-%@%     }                                                                %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.text \markup {                           %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36 %! SM29:METRONOME_MARK_SPANNER
-        \with-color                                                      %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36 %! SM29:METRONOME_MARK_SPANNER
-            #(x11-color 'green4)                                         %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36 %! SM29:METRONOME_MARK_SPANNER
-            {                                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36 %! SM29:METRONOME_MARK_SPANNER
-                \abjad-metronome-mark-markup #3 #0 #1.5 #"44"            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36 %! SM29:METRONOME_MARK_SPANNER
-                \hspace                                                  %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36 %! SM29:METRONOME_MARK_SPANNER
-                    #1                                                   %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36 %! SM29:METRONOME_MARK_SPANNER
-            }                                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36 %! SM29:METRONOME_MARK_SPANNER
-        }                                                                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36 %! SM29:METRONOME_MARK_SPANNER
-    - \baca_invisible_line_segment                                       %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    \stopTextSpan                                                        %! MMI1
+%@% - \abjad_invisible_line                                              %! MMI2
+%@% - \tweak bound-details.left.text \markup {                           %! MMI2
+%@%     \concat                                                          %! MMI2
+%@%         {                                                            %! MMI2
+%@%             \abjad-metronome-mark-markup #3 #0 #1 #"44"              %! MMI2
+%@%             \hspace                                                  %! MMI2
+%@%                 #0.5                                                 %! MMI2
+%@%         }                                                            %! MMI2
+%@%     }                                                                %! MMI2
+%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
+%@% \startTextSpan                                                       %! MMI2
+    - \abjad_invisible_line                                              %! MMI3
+    - \tweak bound-details.left.text \markup {                           %! MMI3
+        \concat                                                          %! MMI3
+            {                                                            %! MMI3
+                \with-color                                              %! MMI3
+                    #(x11-color 'green4)                                 %! MMI3
+                    \abjad-metronome-mark-markup #3 #0 #1 #"44"          %! MMI3
+                \hspace                                                  %! MMI3
+                    #0.5                                                 %! MMI3
+            }                                                            %! MMI3
+        }                                                                %! MMI3
+    - \tweak bound-details.left-broken.text ##f                          %! MMI3
+    \startTextSpan                                                       %! MMI3
     
     % [B GlobalSkips measure 36 / measure 2]                             %! SM4
     \time 1/14                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -642,26 +648,31 @@ B_GlobalSkips = {
 %@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
 %@%         [2'18'']                                                     %! SM28:CLOCK_TIME_MARKUP
 %@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
-%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
-%@%     \abjad-metronome-mark-markup #3 #0 #1.5 #"66"                    %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
-                \abjad-metronome-mark-markup #3 #0 #1.5 #"66"            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
-    - \baca_invisible_line_segment                                       %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    \stopTextSpan                                                        %! MMI1
+%@% - \abjad_invisible_line                                              %! MMI2
+%@% - \tweak bound-details.left.text \markup {                           %! MMI2
+%@%     \concat                                                          %! MMI2
+%@%         {                                                            %! MMI2
+%@%             \abjad-metronome-mark-markup #3 #0 #1 #"66"              %! MMI2
+%@%             \hspace                                                  %! MMI2
+%@%                 #0.5                                                 %! MMI2
+%@%         }                                                            %! MMI2
+%@%     }                                                                %! MMI2
+%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
+%@% \startTextSpan                                                       %! MMI2
+    - \abjad_invisible_line                                              %! MMI3
+    - \tweak bound-details.left.text \markup {                           %! MMI3
+        \concat                                                          %! MMI3
+            {                                                            %! MMI3
+                \with-color                                              %! MMI3
+                    #(x11-color 'blue)                                   %! MMI3
+                    \abjad-metronome-mark-markup #3 #0 #1 #"66"          %! MMI3
+                \hspace                                                  %! MMI3
+                    #0.5                                                 %! MMI3
+            }                                                            %! MMI3
+        }                                                                %! MMI3
+    - \tweak bound-details.left-broken.text ##f                          %! MMI3
+    \startTextSpan                                                       %! MMI3
     
     % [B GlobalSkips measure 60 / measure 26]                            %! SM4
     \time 7/32                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -925,7 +936,7 @@ B_GlobalSkips = {
 %@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
 %@%         [2'40'']                                                     %! SM28:CLOCK_TIME_MARKUP
 %@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \stopTextSpan                                                        %! MMI4
     \override Score.BarLine.transparent = ##f                            %! SM5
     \bar "|"                                                             %! SM5
     
@@ -955,8 +966,11 @@ B_GuitarMusicVoiceI = {
                                 \override Stem.length = #5
                                 \override TupletBracket.bracket-visibility = ##t
                                 \override TupletBracket.direction = #up
+                                \override TupletBracket.minimum-length = #4
                                 \override TupletBracket.padding = #1.25
                                 \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                                \override TupletNumber.font-size = #0
                                 \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                 tupletFullLength = ##t
                             }
@@ -1045,8 +1059,11 @@ B_GuitarMusicVoiceI = {
                                 \override Stem.length = #5
                                 \override TupletBracket.bracket-visibility = ##t
                                 \override TupletBracket.direction = #up
+                                \override TupletBracket.minimum-length = #4
                                 \override TupletBracket.padding = #1.25
                                 \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                                \override TupletNumber.font-size = #0
                                 \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                 tupletFullLength = ##t
                             }
@@ -1120,8 +1137,11 @@ B_GuitarMusicVoiceI = {
                                 \override Stem.length = #5
                                 \override TupletBracket.bracket-visibility = ##t
                                 \override TupletBracket.direction = #up
+                                \override TupletBracket.minimum-length = #4
                                 \override TupletBracket.padding = #1.25
                                 \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                                \override TupletNumber.font-size = #0
                                 \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                 tupletFullLength = ##t
                             }
@@ -1369,8 +1389,11 @@ B_GuitarMusicVoiceI = {
                                 \override Stem.length = #5
                                 \override TupletBracket.bracket-visibility = ##t
                                 \override TupletBracket.direction = #up
+                                \override TupletBracket.minimum-length = #4
                                 \override TupletBracket.padding = #1.25
                                 \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                                \override TupletNumber.font-size = #0
                                 \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                 tupletFullLength = ##t
                             }
@@ -1944,8 +1967,11 @@ B_GuitarMusicVoiceI = {
                                 \override Stem.length = #5
                                 \override TupletBracket.bracket-visibility = ##t
                                 \override TupletBracket.direction = #up
+                                \override TupletBracket.minimum-length = #4
                                 \override TupletBracket.padding = #1.25
                                 \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                                \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                                \override TupletNumber.font-size = #0
                                 \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                 tupletFullLength = ##t
                             }

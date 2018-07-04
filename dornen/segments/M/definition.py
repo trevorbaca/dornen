@@ -329,6 +329,7 @@ accumulator(
     )
 
 maker = baca.SegmentMaker(
+    do_not_attach_metronome_mark_spanner=True,
     final_markup=(
         ['Cambridge, MA', 'Madison, WI', 'Palo Alto, CA.'],
         ['November 2015', 'July 2016.'],

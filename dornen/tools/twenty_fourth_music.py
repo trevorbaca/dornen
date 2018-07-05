@@ -86,27 +86,27 @@ def twenty_fourth_music():
                         % [GlobalSkips measure 1]                                          %! SM4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 7/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 7/24
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! SM4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 2/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 1/12
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! SM4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 3/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 1/8
             <BLANKLINE>
                         % [GlobalSkips measure 4]                                          %! SM4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 4/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 1/6
-                        \override Score.BarLine.transparent = ##f                          %! SM5
+                        \baca_bar_line_visible                                             %! SM5
                         \bar "|"                                                           %! SM5
             <BLANKLINE>
                     }
@@ -284,27 +284,27 @@ def twenty_fourth_music():
                         % [GlobalSkips measure 1]                                          %! SM4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 7/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 7/24
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! SM4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 1/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 1/24
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! SM4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 3/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 1/8
             <BLANKLINE>
                         % [GlobalSkips measure 4]                                          %! SM4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 4/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 1/6
-                        \override Score.BarLine.transparent = ##f                          %! SM5
+                        \baca_bar_line_visible                                             %! SM5
                         \bar "|"                                                           %! SM5
             <BLANKLINE>
                     }

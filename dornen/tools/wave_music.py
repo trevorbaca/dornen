@@ -72,21 +72,21 @@ def wave_music(denominator=64, inverted=False):
                         % [GlobalSkips measure 1]                                          %! SM4
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
                         \time 7/64                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 7/64
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! SM4
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
                         \time 13/64                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 13/64
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! SM4
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
                         \time 20/64                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 5/16
-                        \override Score.BarLine.transparent = ##f                          %! SM5
+                        \baca_bar_line_visible                                             %! SM5
                         \bar "|"                                                           %! SM5
             <BLANKLINE>
                     }
@@ -521,21 +521,21 @@ def wave_music(denominator=64, inverted=False):
                         % [GlobalSkips measure 1]                                          %! SM4
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
                         \time 7/64                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 7/64
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! SM4
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
                         \time 13/64                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 13/64
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! SM4
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
                         \time 20/64                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 5/16
-                        \override Score.BarLine.transparent = ##f                          %! SM5
+                        \baca_bar_line_visible                                             %! SM5
                         \bar "|"                                                           %! SM5
             <BLANKLINE>
                     }
@@ -970,21 +970,21 @@ def wave_music(denominator=64, inverted=False):
                         % [GlobalSkips measure 1]                                          %! SM4
                         \baca_new_spacing_section #32 #1024                                %! HSS1:SPACING
                         \time 7/32                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 7/32
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! SM4
                         \baca_new_spacing_section #32 #1024                                %! HSS1:SPACING
                         \time 13/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 13/32
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! SM4
                         \baca_new_spacing_section #32 #1024                                %! HSS1:SPACING
                         \time 20/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \once \override Score.TimeSignature.color = #(x11-color 'blue)     %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 5/8
-                        \override Score.BarLine.transparent = ##f                          %! SM5
+                        \baca_bar_line_visible                                             %! SM5
                         \bar "|"                                                           %! SM5
             <BLANKLINE>
                     }

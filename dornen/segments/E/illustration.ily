@@ -35,7 +35,6 @@ E_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -48,7 +47,6 @@ E_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [E GlobalSkips measure 121 / measure 2]                            %! SM4
@@ -260,7 +258,6 @@ E_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -273,7 +270,6 @@ E_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [E GlobalSkips measure 129 / measure 10]                           %! SM4

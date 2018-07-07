@@ -2918,7 +2918,7 @@ L_GuitarMusicVoiceI = {
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \>                                                       %! PIC
             \repeatTie                                               %! SC
-            - \abjad_dashed_line_with_arrow                          %! PIC
+            - \abjad_invisible_line                                  %! PIC
             - \tweak bound-details.left.text \markup {               %! PIC
                 \concat                                              %! PIC
                     {                                                %! PIC

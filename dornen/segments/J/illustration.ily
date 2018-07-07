@@ -1056,19 +1056,8 @@ J_GuitarMusicVoiceI = {
             \<                                                       %! PIC
             \repeatTie                                               %! SC
             - \abjad_dashed_line_with_arrow                          %! PIC
-            - \tweak bound-details.left.text \markup {               %! PIC
-                \concat                                              %! PIC
-                    {                                                %! PIC
-                        \upright                                     %! PIC
-                            trans.                                   %! PIC
-                        \hspace                                      %! PIC
-                            #0.5                                     %! PIC
-                    }                                                %! PIC
-                }                                                    %! PIC
-            - \tweak bound-details.right.text \markup {              %! PIC
-                \upright                                             %! PIC
-                    "kn. rasg."                                      %! PIC
-                }                                                    %! PIC
+            - \tweak bound-details.left.text \markup \baca-left "trans." %! PIC
+            - \tweak bound-details.right.text \markup \baca-right "kn. rasg." %! PIC
             - \tweak bound-details.right.padding #0.5                %! PIC
             - \tweak bound-details.right.stencil-align-dir-y #center %! PIC
             \startTextSpan                                           %! PIC
@@ -1316,7 +1305,7 @@ J_GuitarMusicVoiceI = {
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \>                                                       %! PIC
             \repeatTie                                               %! SC
-            - \abjad_dashed_line_with_arrow                          %! PIC
+            - \abjad_invisible_line                                  %! PIC
             - \tweak bound-details.left.text \markup {               %! PIC
                 \concat                                              %! PIC
                     {                                                %! PIC
@@ -1400,7 +1389,7 @@ J_GuitarMusicVoiceI = {
         %%%             }                                            %! FIGURE_NAME_MARKUP
         %%%     }                                                    %! FIGURE_NAME_MARKUP
             \repeatTie                                               %! SC
-            - \abjad_dashed_line_with_arrow                          %! PIC
+            - \abjad_invisible_line                                  %! PIC
             - \tweak bound-details.left.text \markup {               %! PIC
                 \concat                                              %! PIC
                     {                                                %! PIC

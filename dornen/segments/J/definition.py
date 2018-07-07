@@ -234,9 +234,10 @@ maker(
     baca.map(
         baca.rleaves().group(),
         baca.hairpin('pp < p'),
-        baca.transition(
-            baca.markups.trans(),
-            baca.markups.kn_rasg(),
+        baca.new_text_spanner(
+            'trans.',
+            '=>',
+            'kn. rasg.',
             ),
         ),
     )
@@ -246,8 +247,9 @@ maker(
     baca.map(
         baca.rleaves().group(),
         baca.hairpin('p > pp'),
-        baca.transition(
+        baca.new_text_spanner(
             baca.markups.trans(),
+            '=>',
             baca.markups.tamb_tr(),
             ),
         ),
@@ -258,8 +260,9 @@ maker(
     baca.map(
         baca.rleaves().group(),
         baca.hairpin('pp < mp'),
-        baca.transition(
+        baca.new_text_spanner(
             baca.markups.trans(),
+            '=>',
             baca.markups.kn_rasg(),
             ),
         ),
@@ -270,7 +273,8 @@ maker(
     baca.map(
         baca.rleaves().group(),
         baca.hairpin('mp > pp'),
-        baca.transition(
+        baca.new_text_spanner(
+            '=>',
             baca.markups.trans(),
             baca.markups.tamb_tr(),
             ),
@@ -281,7 +285,7 @@ maker(
     ('v1', 20),
     baca.map(
         baca.rleaves().group(),
-        baca.transition(
+        baca.new_text_spanner(
             baca.markups.trans(),
             baca.markups.kn_rasg(),
             ),
@@ -293,8 +297,9 @@ maker(
     baca.map(
         baca.rleaves().group(),
         baca.hairpin('mf > p'),
-        baca.transition(
+        baca.new_text_spanner(
             baca.markups.trans(),
+            '=>',
             baca.markups.tamb_tr(),
             ),
         ),

@@ -359,7 +359,7 @@ maker(
     baca.map(
         baca.rleaves().group(),
         baca.hairpin('mp < mf'),
-        baca.new_text_spanner(
+        baca.text_spanner(
             baca.markups.tamb_tr(),
             '=>',
             baca.markups.kn_rasg(),
@@ -372,7 +372,7 @@ maker(
     baca.map(
         baca.rleaves().group(),
         baca.hairpin('mf > mp'),
-        baca.new_text_spanner(
+        baca.text_spanner(
             baca.markups.trans(),
             '=>',
             baca.markups.tamb_tr(),
@@ -385,7 +385,7 @@ maker(
     baca.map(
         baca.rleaves().group(),
         baca.hairpin('mp < f'),
-        baca.new_text_spanner(
+        baca.text_spanner(
             baca.markups.trans(),
             '=>',
             baca.markups.kn_rasg(),
@@ -398,7 +398,7 @@ maker(
     baca.map(
         baca.rleaves().group(),
         baca.hairpin('f > mp'),
-        baca.new_text_spanner(
+        baca.text_spanner(
             baca.markups.trans(),
             '=>',
             baca.markups.tamb_tr(),
@@ -411,7 +411,7 @@ maker(
     baca.map(
         baca.rleaves().group(),
         baca.hairpin('mp < ff'),
-        baca.new_text_spanner(
+        baca.text_spanner(
             baca.markups.trans(),
             '=>',
             baca.markups.kn_rasg(),
@@ -432,7 +432,7 @@ maker(
     baca.map(
         baca.rleaves().group(),
         baca.hairpin('mf < f'),
-        baca.new_text_spanner(
+        baca.text_spanner(
             baca.markups.trans(),
             '=>',
             baca.markups.nail_rasg(),
@@ -445,7 +445,7 @@ maker(
     baca.map(
         baca.rleaves().group(),
         baca.hairpin('f > mf'),
-        baca.new_text_spanner(
+        baca.text_spanner(
             baca.markups.trans(),
             '=>',
             baca.markups.kn_rasg(),
@@ -458,7 +458,7 @@ maker(
     baca.map(
         baca.rleaves().group(),
         baca.hairpin('mf < ff'),
-        baca.new_text_spanner(
+        baca.text_spanner(
             baca.markups.trans(),
             '=>',
             baca.markups.nail_rasg(),
@@ -471,7 +471,7 @@ maker(
     baca.map(
         baca.rleaves().group(),
         baca.hairpin('ff > mf'),
-        baca.new_text_spanner(
+        baca.text_spanner(
             baca.markups.trans(),
             '=>',
             baca.markups.kn_rasg(),
@@ -484,7 +484,7 @@ maker(
     baca.map(
         baca.rleaves().group(),
         baca.hairpin('mf < ffff'),
-        baca.new_text_spanner(
+        baca.text_spanner(
             baca.markups.trans(),
             '=>',
             baca.markups.nail_rasg(),
@@ -589,7 +589,7 @@ maker(
 
 maker(
     ('v1', (27, 36)),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.trans(),
         '=>',
         baca.markups.ponticello(),
@@ -599,7 +599,7 @@ maker(
 
 maker(
     ('v1', (41, 45)),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.markup('gradually slow rasgueado'),
         baca.markups.still(),
         selector=baca.rleaves(),

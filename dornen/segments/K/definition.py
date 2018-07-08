@@ -49,7 +49,7 @@ accumulator(
     'v1',
     [['F2']],
     accumulator.monad_music_maker,
-    baca.markups.markup('3 fingers').boxed(),
+    baca.markuplib.markup('3 fingers').boxed(),
     figure_name='3_1',
     )
 
@@ -87,7 +87,7 @@ accumulator(
     'v1',
     [['F2']],
     accumulator.monad_music_maker,
-    baca.markups.markup('4 fingers').boxed(),
+    baca.markuplib.markup('4 fingers').boxed(),
     figure_name='4_1',
     )
 
@@ -179,7 +179,7 @@ accumulator(
     'v1',
     [2 * ['F2']],
     accumulator.monad_music_maker,
-    baca.markups.markup('3 fingers').boxed(),
+    baca.markuplib.markup('3 fingers').boxed(),
     figure_name='4_14',
     )
 
@@ -187,7 +187,7 @@ accumulator(
     'v1',
     [2 * ['F2']],
     accumulator.monad_music_maker,
-    baca.markups.markup('2 fingers').boxed(),
+    baca.markuplib.markup('2 fingers').boxed(),
     figure_name='4_15',
     )
 
@@ -213,9 +213,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('p < mp'),
         baca.text_spanner(
-            baca.markups.tamb_tr(),
+            baca.markuplib.tamb_tr(),
             '=>',
-            baca.markups.kn_rasg(),
+            baca.markuplib.kn_rasg(),
             ),
         ),
     )
@@ -226,9 +226,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('mp > p'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.tamb_tr(),
+            baca.markuplib.tamb_tr(),
             ),
         ),
     )
@@ -239,9 +239,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('p < mf'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.kn_rasg(),
+            baca.markuplib.kn_rasg(),
             ),
         ),
     )
@@ -252,9 +252,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('mf > p'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.tamb_tr(),
+            baca.markuplib.tamb_tr(),
             ),
         ),
     )
@@ -265,9 +265,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('p < mp'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.kn_rasg(),
+            baca.markuplib.kn_rasg(),
             ),
         ),
     )
@@ -278,9 +278,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('mp > p'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.tamb_tr(),
+            baca.markuplib.tamb_tr(),
             ),
         ),
     )
@@ -291,9 +291,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('p < mf'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.kn_rasg(),
+            baca.markuplib.kn_rasg(),
             ),
         ),
     )
@@ -304,9 +304,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('mf > p'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.tamb_tr(),
+            baca.markuplib.tamb_tr(),
             ),
         ),
     )
@@ -317,9 +317,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('p < f'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.kn_rasg(),
+            baca.markuplib.kn_rasg(),
             ),
         ),
     )
@@ -330,9 +330,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('f > mp'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.tamb_tr(),
+            baca.markuplib.tamb_tr(),
             ),
         ),
     )

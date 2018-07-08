@@ -52,7 +52,7 @@ accumulator(
     'v1',
     [['E2']],
     accumulator.monad_music_maker,
-    baca.markups.markup('3 fingers').boxed(),
+    baca.markuplib.markup('3 fingers').boxed(),
     figure_name='3_1',
     )
 
@@ -88,7 +88,7 @@ accumulator(
     'v1',
     [['E2']],
     accumulator.monad_music_maker,
-    baca.markups.markup('4 fingers').boxed(),
+    baca.markuplib.markup('4 fingers').boxed(),
     figure_name='4_1',
     )
 
@@ -360,9 +360,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('mp < mf'),
         baca.text_spanner(
-            baca.markups.tamb_tr(),
+            baca.markuplib.tamb_tr(),
             '=>',
-            baca.markups.kn_rasg(),
+            baca.markuplib.kn_rasg(),
             ),
         ),
     )
@@ -373,9 +373,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('mf > mp'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.tamb_tr(),
+            baca.markuplib.tamb_tr(),
             ),
         ),
     )
@@ -386,9 +386,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('mp < f'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.kn_rasg(),
+            baca.markuplib.kn_rasg(),
             ),
         ),
     )
@@ -399,9 +399,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('f > mp'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.tamb_tr(),
+            baca.markuplib.tamb_tr(),
             ),
         ),
     )
@@ -412,9 +412,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('mp < ff'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.kn_rasg(),
+            baca.markuplib.kn_rasg(),
             ),
         ),
     )
@@ -433,9 +433,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('mf < f'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.nail_rasg(),
+            baca.markuplib.nail_rasg(),
             ),
         ),
     )
@@ -446,9 +446,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('f > mf'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.kn_rasg(),
+            baca.markuplib.kn_rasg(),
             ),
         ),
     )
@@ -459,9 +459,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('mf < ff'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.nail_rasg(),
+            baca.markuplib.nail_rasg(),
             ),
         ),
     )
@@ -472,9 +472,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('ff > mf'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.kn_rasg(),
+            baca.markuplib.kn_rasg(),
             ),
         ),
     )
@@ -485,9 +485,9 @@ maker(
         baca.rleaves().group(),
         baca.hairpin('mf < ffff'),
         baca.text_spanner(
-            baca.markups.trans(),
+            baca.markuplib.trans(),
             '=>',
-            baca.markups.nail_rasg(),
+            baca.markuplib.nail_rasg(),
             ),
         ),
     )
@@ -590,9 +590,9 @@ maker(
 maker(
     ('v1', (27, 36)),
     baca.text_spanner(
-        baca.markups.trans(),
+        baca.markuplib.trans(),
         '=>',
-        baca.markups.ponticello(),
+        baca.markuplib.ponticello(),
         selector=baca.rleaves(),
         ),
     )
@@ -600,8 +600,8 @@ maker(
 maker(
     ('v1', (41, 45)),
     baca.text_spanner(
-        baca.markups.markup('gradually slow rasgueado'),
-        baca.markups.still(),
+        baca.markuplib.markup('gradually slow rasgueado'),
+        baca.markuplib.still(),
         selector=baca.rleaves(),
         ),
     baca.text_script_staff_padding(

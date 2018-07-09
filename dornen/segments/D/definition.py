@@ -215,7 +215,7 @@ accumulator(
     'v2',
     [['Gb2']],
     accumulator.monad_music_maker,
-    baca.markups.markup('2-finger tamb. trill').boxed(),
+    baca.markup('2-finger tamb. trill', boxed=True),
     baca.repeat_tie(),
     baca.stem_tremolo(selector=baca.pleaves()),
     baca.stem_up(),

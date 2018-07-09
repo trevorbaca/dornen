@@ -19,9 +19,7 @@ accumulator(
     'v1',
     design[:1],
     accumulator.forty_eighth_music_maker,
-    baca.markup(
-        'LH only until rascado! (RH tacet; encourage whisks) ...'
-        ),
+    baca.markup('LH only until rascado! (RH tacet; encourage whisks) ...'),
     extend_beam=True,
     )
 

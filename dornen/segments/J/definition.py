@@ -51,7 +51,7 @@ accumulator(
     'v1',
     [['Gb~2']],
     accumulator.monad_music_maker,
-    baca.markups.markup('3 fingers').boxed(),
+    baca.markup('3 fingers', boxed=True),
     figure_name='3_1',
     )
 
@@ -89,7 +89,7 @@ accumulator(
     'v1',
     [['Gb~2']],
     accumulator.monad_music_maker,
-    baca.markups.markup('4 fingers').boxed(),
+    baca.markup('4 fingers', boxed=True),
     figure_name='4_1',
     )
 
@@ -181,7 +181,7 @@ accumulator(
     'v1',
     [2 * ['Gb~2']],
     accumulator.monad_music_maker,
-    baca.markups.markup('3 fingers').boxed(),
+    baca.markup('3 fingers', boxed=True),
     figure_name='4_14',
     )
 
@@ -189,7 +189,7 @@ accumulator(
     'v1',
     [2 * ['Gb~2']],
     accumulator.monad_music_maker,
-    baca.markups.markup('2 fingers').boxed(),
+    baca.markup('2 fingers', boxed=True),
     figure_name='4_15',
     )
 

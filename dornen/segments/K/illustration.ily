@@ -702,19 +702,8 @@ K_GuitarMusicVoiceI = {
             \<                                                                 %! PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
-            - \tweak bound-details.left.text \markup {                         %! PIC
-                \concat                                                        %! PIC
-                    {                                                          %! PIC
-                        \upright                                               %! PIC
-                            "tamb. tr."                                        %! PIC
-                        \hspace                                                %! PIC
-                            #0.5                                               %! PIC
-                    }                                                          %! PIC
-                }                                                              %! PIC
-            - \tweak bound-details.right.text \markup {                        %! PIC
-                \upright                                                       %! PIC
-                    "kn. rasg."                                                %! PIC
-                }                                                              %! PIC
+            - \tweak bound-details.left.text \markup \baca-left "tamb. tr."    %! PIC
+            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PIC
             - \tweak bound-details.right.padding #0.5                          %! PIC
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
             \startTextSpan                                                     %! PIC
@@ -789,19 +778,8 @@ K_GuitarMusicVoiceI = {
             \>                                                                 %! PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
-            - \tweak bound-details.left.text \markup {                         %! PIC
-                \concat                                                        %! PIC
-                    {                                                          %! PIC
-                        \upright                                               %! PIC
-                            trans.                                             %! PIC
-                        \hspace                                                %! PIC
-                            #0.5                                               %! PIC
-                    }                                                          %! PIC
-                }                                                              %! PIC
-            - \tweak bound-details.right.text \markup {                        %! PIC
-                \upright                                                       %! PIC
-                    "tamb. tr."                                                %! PIC
-                }                                                              %! PIC
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC
+            - \tweak bound-details.right.text \markup \baca-right "tamb. tr."  %! PIC
             - \tweak bound-details.right.padding #0.5                          %! PIC
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
             \startTextSpan                                                     %! PIC
@@ -914,19 +892,8 @@ K_GuitarMusicVoiceI = {
             \<                                                                 %! PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
-            - \tweak bound-details.left.text \markup {                         %! PIC
-                \concat                                                        %! PIC
-                    {                                                          %! PIC
-                        \upright                                               %! PIC
-                            trans.                                             %! PIC
-                        \hspace                                                %! PIC
-                            #0.5                                               %! PIC
-                    }                                                          %! PIC
-                }                                                              %! PIC
-            - \tweak bound-details.right.text \markup {                        %! PIC
-                \upright                                                       %! PIC
-                    "kn. rasg."                                                %! PIC
-                }                                                              %! PIC
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC
+            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PIC
             - \tweak bound-details.right.padding #0.5                          %! PIC
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
             \startTextSpan                                                     %! PIC
@@ -1001,19 +968,8 @@ K_GuitarMusicVoiceI = {
             \>                                                                 %! PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
-            - \tweak bound-details.left.text \markup {                         %! PIC
-                \concat                                                        %! PIC
-                    {                                                          %! PIC
-                        \upright                                               %! PIC
-                            trans.                                             %! PIC
-                        \hspace                                                %! PIC
-                            #0.5                                               %! PIC
-                    }                                                          %! PIC
-                }                                                              %! PIC
-            - \tweak bound-details.right.text \markup {                        %! PIC
-                \upright                                                       %! PIC
-                    "tamb. tr."                                                %! PIC
-                }                                                              %! PIC
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC
+            - \tweak bound-details.right.text \markup \baca-right "tamb. tr."  %! PIC
             - \tweak bound-details.right.padding #0.5                          %! PIC
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
             \startTextSpan                                                     %! PIC
@@ -1126,19 +1082,8 @@ K_GuitarMusicVoiceI = {
             \<                                                                 %! PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
-            - \tweak bound-details.left.text \markup {                         %! PIC
-                \concat                                                        %! PIC
-                    {                                                          %! PIC
-                        \upright                                               %! PIC
-                            trans.                                             %! PIC
-                        \hspace                                                %! PIC
-                            #0.5                                               %! PIC
-                    }                                                          %! PIC
-                }                                                              %! PIC
-            - \tweak bound-details.right.text \markup {                        %! PIC
-                \upright                                                       %! PIC
-                    "kn. rasg."                                                %! PIC
-                }                                                              %! PIC
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC
+            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PIC
             - \tweak bound-details.right.padding #0.5                          %! PIC
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
             \startTextSpan                                                     %! PIC
@@ -1213,19 +1158,8 @@ K_GuitarMusicVoiceI = {
             \>                                                                 %! PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
-            - \tweak bound-details.left.text \markup {                         %! PIC
-                \concat                                                        %! PIC
-                    {                                                          %! PIC
-                        \upright                                               %! PIC
-                            trans.                                             %! PIC
-                        \hspace                                                %! PIC
-                            #0.5                                               %! PIC
-                    }                                                          %! PIC
-                }                                                              %! PIC
-            - \tweak bound-details.right.text \markup {                        %! PIC
-                \upright                                                       %! PIC
-                    "tamb. tr."                                                %! PIC
-                }                                                              %! PIC
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC
+            - \tweak bound-details.right.text \markup \baca-right "tamb. tr."  %! PIC
             - \tweak bound-details.right.padding #0.5                          %! PIC
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
             \startTextSpan                                                     %! PIC
@@ -1300,19 +1234,8 @@ K_GuitarMusicVoiceI = {
             \<                                                                 %! PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
-            - \tweak bound-details.left.text \markup {                         %! PIC
-                \concat                                                        %! PIC
-                    {                                                          %! PIC
-                        \upright                                               %! PIC
-                            trans.                                             %! PIC
-                        \hspace                                                %! PIC
-                            #0.5                                               %! PIC
-                    }                                                          %! PIC
-                }                                                              %! PIC
-            - \tweak bound-details.right.text \markup {                        %! PIC
-                \upright                                                       %! PIC
-                    "kn. rasg."                                                %! PIC
-                }                                                              %! PIC
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC
+            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PIC
             - \tweak bound-details.right.padding #0.5                          %! PIC
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
             \startTextSpan                                                     %! PIC
@@ -1387,19 +1310,8 @@ K_GuitarMusicVoiceI = {
             \>                                                                 %! PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
-            - \tweak bound-details.left.text \markup {                         %! PIC
-                \concat                                                        %! PIC
-                    {                                                          %! PIC
-                        \upright                                               %! PIC
-                            trans.                                             %! PIC
-                        \hspace                                                %! PIC
-                            #0.5                                               %! PIC
-                    }                                                          %! PIC
-                }                                                              %! PIC
-            - \tweak bound-details.right.text \markup {                        %! PIC
-                \upright                                                       %! PIC
-                    "tamb. tr."                                                %! PIC
-                }                                                              %! PIC
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC
+            - \tweak bound-details.right.text \markup \baca-right "tamb. tr."  %! PIC
             - \tweak bound-details.right.padding #0.5                          %! PIC
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
             \startTextSpan                                                     %! PIC
@@ -1474,19 +1386,8 @@ K_GuitarMusicVoiceI = {
             \<                                                                 %! PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
-            - \tweak bound-details.left.text \markup {                         %! PIC
-                \concat                                                        %! PIC
-                    {                                                          %! PIC
-                        \upright                                               %! PIC
-                            trans.                                             %! PIC
-                        \hspace                                                %! PIC
-                            #0.5                                               %! PIC
-                    }                                                          %! PIC
-                }                                                              %! PIC
-            - \tweak bound-details.right.text \markup {                        %! PIC
-                \upright                                                       %! PIC
-                    "kn. rasg."                                                %! PIC
-                }                                                              %! PIC
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC
+            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PIC
             - \tweak bound-details.right.padding #0.5                          %! PIC
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
             \startTextSpan                                                     %! PIC
@@ -1561,19 +1462,8 @@ K_GuitarMusicVoiceI = {
             \>                                                                 %! PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
-            - \tweak bound-details.left.text \markup {                         %! PIC
-                \concat                                                        %! PIC
-                    {                                                          %! PIC
-                        \upright                                               %! PIC
-                            trans.                                             %! PIC
-                        \hspace                                                %! PIC
-                            #0.5                                               %! PIC
-                    }                                                          %! PIC
-                }                                                              %! PIC
-            - \tweak bound-details.right.text \markup {                        %! PIC
-                \upright                                                       %! PIC
-                    "tamb. tr."                                                %! PIC
-                }                                                              %! PIC
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC
+            - \tweak bound-details.right.text \markup \baca-right "tamb. tr."  %! PIC
             - \tweak bound-details.right.padding #0.5                          %! PIC
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
             \startTextSpan                                                     %! PIC

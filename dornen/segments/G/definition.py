@@ -109,15 +109,7 @@ accumulator(
     figure_name='L3',
     )
 
-metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (1, dornen.metronome_marks['66']),
-    ])
-
 maker = baca.SegmentMaker(
-    instruments=dornen.instruments,
-    metronome_mark_measure_map=metronome_mark_measure_map,
-    metronome_marks=dornen.metronome_marks,
-    score_template=dornen.ScoreTemplate(),
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     skips_instead_of_rests=True,
     time_signatures=accumulator.time_signatures,
@@ -125,6 +117,11 @@ maker = baca.SegmentMaker(
     )
 
 accumulator.populate_segment_maker(maker)
+
+maker(
+    'GlobalSkips',
+    baca.metronome_mark('66', selector=baca.leaf(1 - 1)),
+    )
 
 # glissando scatto
 maker(

@@ -123,12 +123,7 @@ accumulator(
     figure_name='D5',
     )
 
-metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (9, dornen.metronome_marks['44']),
-    ])
-
 maker = baca.SegmentMaker(
-    metronome_mark_measure_map=metronome_mark_measure_map,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     skips_instead_of_rests=True,
     time_signatures=accumulator.time_signatures,
@@ -136,6 +131,11 @@ maker = baca.SegmentMaker(
     )
 
 accumulator.populate_segment_maker(maker)
+
+maker(
+    'GlobalSkips',
+    baca.metronome_mark('44', selector=baca.leaf(9 - 1)),
+    )
 
 maker(
     ('v3', (1, 7)),

@@ -86,7 +86,7 @@ def passepied_music():
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! SM4
                         \time 1/32                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 1/32
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! SM4
@@ -271,7 +271,7 @@ def passepied_music():
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! SM4
                         \time 17/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 17/32
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! SM4
@@ -282,7 +282,7 @@ def passepied_music():
             <BLANKLINE>
                         % [GlobalSkips measure 4]                                          %! SM4
                         \time 11/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color #'blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \baca_time_signature_color blue                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
                         s1 * 11/32
                         \baca_bar_line_visible                                             %! SM5
                         \bar "|"                                                           %! SM5

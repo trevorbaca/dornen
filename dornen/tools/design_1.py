@@ -24,12 +24,8 @@ def design_1(start=None, stop=None):
                 \consists Horizontal_bracket_engraver
             }
             {
-                \once \override Accidental.color = #red
-                \once \override Beam.color = #red
-                \once \override Dots.color = #red
-                \once \override NoteHead.color = #red
-                \once \override Stem.color = #red
                 \time 1/8
+                \abjad_color_music "red"
                 e'8
                 ^ \markup { 0 }
                 \stopGroup
@@ -418,11 +414,7 @@ def design_1(start=None, stop=None):
                 \startGroup
                 bf'8
                 ef'8
-                \once \override Accidental.color = #red
-                \once \override Beam.color = #red
-                \once \override Dots.color = #red
-                \once \override NoteHead.color = #red
-                \once \override Stem.color = #red
+                \abjad_color_music "red"
                 e'8
                 \stopGroup
                 s8

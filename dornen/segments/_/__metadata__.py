@@ -38,7 +38,7 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='GuitarMusicVoiceIV',
-                                prototype='abjad.Instrument',
+                                manifest='instruments',
                                 value='Guitar',
                                 ),
                             ],
@@ -48,7 +48,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='GlobalSkips',
-                                prototype='abjad.MetronomeMark',
+                                manifest='metronome_marks',
                                 value='44',
                                 ),
                             abjad.Momento(

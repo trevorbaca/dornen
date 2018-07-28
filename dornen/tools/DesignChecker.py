@@ -62,12 +62,12 @@ class DesignChecker(abjad.AbjadObject):
         for note in abjad.iterate(score).components(grace_notes=None):
             if not isinstance(note, abjad.Note):
                 continue
-            if abjad.inspect(note).get_indicator(self._foreshadow_tag):
+            if abjad.inspect(note).indicator(self._foreshadow_tag):
                 continue
-            if abjad.inspect(note).get_indicator(self._recollection_tag):
+            if abjad.inspect(note).indicator(self._recollection_tag):
                 continue
             notes.append(note)
-        notes.sort(key=lambda _: abjad.inspect(_).get_timespan().start_offset)
+        notes.sort(key=lambda _: abjad.inspect(_).timespan().start_offset)
         for note in notes:
             pitch_class = note.written_pitch.numbered_pitch_class
             result.append(pitch_class)

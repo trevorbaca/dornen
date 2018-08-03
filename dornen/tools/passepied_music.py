@@ -84,24 +84,24 @@ def passepied_music():
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! SM4
-                        \time 1/32                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        % [GlobalSkips measure 1]                                          %! SM_4
+                        \time 1/32                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 1/32
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM_4
                         s1 * 1/32
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM_4
                         s1 * 1/32
             <BLANKLINE>
-                        % [GlobalSkips measure 4]                                          %! SM4
+                        % [GlobalSkips measure 4]                                          %! SM_4
                         s1 * 1/32
             <BLANKLINE>
-                        % [GlobalSkips measure 5]                                          %! SM4
+                        % [GlobalSkips measure 5]                                          %! SM_4
                         s1 * 1/32
-                        \baca_bar_line_visible                                             %! SM5
-                        \bar "|"                                                           %! SM5
+                        \baca_bar_line_visible                                             %! SM_5
+                        \bar "|"                                                           %! SM_5
             <BLANKLINE>
                     }
                 >>
@@ -113,23 +113,23 @@ def passepied_music():
                         {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM_4
                                 af'!32
                                 [
                                 ]
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM_4
                                 \acciaccatura {
             <BLANKLINE>
                                     cs'16
-                                    [                                                      %! ACC1
+                                    [                                                      %! ACC_1
             <BLANKLINE>
                                     c'16
             <BLANKLINE>
                                     bf'16
-                                    ]                                                      %! ACC1
+                                    ]                                                      %! ACC_1
             <BLANKLINE>
                                 }
                                 f'32
@@ -138,16 +138,16 @@ def passepied_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM_4
                                 \acciaccatura {
             <BLANKLINE>
                                     af'16
-                                    [                                                      %! ACC1
+                                    [                                                      %! ACC_1
             <BLANKLINE>
                                     fs'16
             <BLANKLINE>
                                     b'16
-                                    ]                                                      %! ACC1
+                                    ]                                                      %! ACC_1
             <BLANKLINE>
                                 }
                                 d'32
@@ -156,16 +156,16 @@ def passepied_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 4]                                   %! SM4
+                                % [MusicVoice measure 4]                                   %! SM_4
                                 \acciaccatura {
             <BLANKLINE>
                                     e'16
-                                    [                                                      %! ACC1
+                                    [                                                      %! ACC_1
             <BLANKLINE>
                                     ef'16
             <BLANKLINE>
                                     a'16
-                                    ]                                                      %! ACC1
+                                    ]                                                      %! ACC_1
             <BLANKLINE>
                                 }
                                 af'!32
@@ -174,16 +174,16 @@ def passepied_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 5]                                   %! SM4
+                                % [MusicVoice measure 5]                                   %! SM_4
                                 \acciaccatura {
             <BLANKLINE>
                                     fs'16
-                                    [                                                      %! ACC1
+                                    [                                                      %! ACC_1
             <BLANKLINE>
                                     b'16
             <BLANKLINE>
                                     d'16
-                                    ]                                                      %! ACC1
+                                    ]                                                      %! ACC_1
             <BLANKLINE>
                                 }
                                 f'32
@@ -269,23 +269,23 @@ def passepied_music():
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! SM4
-                        \time 17/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        % [GlobalSkips measure 1]                                          %! SM_4
+                        \time 17/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 17/32
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM_4
                         s1 * 17/32
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM_4
                         s1 * 17/32
             <BLANKLINE>
-                        % [GlobalSkips measure 4]                                          %! SM4
-                        \time 11/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        % [GlobalSkips measure 4]                                          %! SM_4
+                        \time 11/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 11/32
-                        \baca_bar_line_visible                                             %! SM5
-                        \bar "|"                                                           %! SM5
+                        \baca_bar_line_visible                                             %! SM_5
+                        \bar "|"                                                           %! SM_5
             <BLANKLINE>
                     }
                 >>
@@ -297,7 +297,7 @@ def passepied_music():
                         {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM_4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
                                 af'!32
@@ -342,16 +342,16 @@ def passepied_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM_4
                                 \acciaccatura {
             <BLANKLINE>
                                     cs'16
-                                    [                                                      %! ACC1
+                                    [                                                      %! ACC_1
             <BLANKLINE>
                                     c'16
             <BLANKLINE>
                                     bf'16
-                                    ]                                                      %! ACC1
+                                    ]                                                      %! ACC_1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 0
@@ -398,16 +398,16 @@ def passepied_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM_4
                                 \acciaccatura {
             <BLANKLINE>
                                     af'16
-                                    [                                                      %! ACC1
+                                    [                                                      %! ACC_1
             <BLANKLINE>
                                     fs'16
             <BLANKLINE>
                                     b'16
-                                    ]                                                      %! ACC1
+                                    ]                                                      %! ACC_1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 0
@@ -454,16 +454,16 @@ def passepied_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 4]                                   %! SM4
+                                % [MusicVoice measure 4]                                   %! SM_4
                                 \acciaccatura {
             <BLANKLINE>
                                     e'16
-                                    [                                                      %! ACC1
+                                    [                                                      %! ACC_1
             <BLANKLINE>
                                     ef'16
             <BLANKLINE>
                                     a'16
-                                    ]                                                      %! ACC1
+                                    ]                                                      %! ACC_1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 0

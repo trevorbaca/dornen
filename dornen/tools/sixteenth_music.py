@@ -83,31 +83,31 @@ def sixteenth_music():
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 7/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 7/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 7/16
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 2/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 2/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 1/8
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 3/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 3/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 3/16
             <BLANKLINE>
-                        % [GlobalSkips measure 4]                                          %! SM4
+                        % [GlobalSkips measure 4]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 4/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 4/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 1/4
-                        \baca_bar_line_visible                                             %! SM5
-                        \bar "|"                                                           %! SM5
+                        \baca_bar_line_visible                                             %! SM_5
+                        \bar "|"                                                           %! SM_5
             <BLANKLINE>
                     }
                 >>
@@ -119,7 +119,7 @@ def sixteenth_music():
                         {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM_4
                                 cs'!16
                             }
                             \scaleDurations #'(1 . 1) {
@@ -148,7 +148,7 @@ def sixteenth_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM_4
                                 d'16
                             }
                             \scaleDurations #'(1 . 1) {
@@ -157,7 +157,7 @@ def sixteenth_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM_4
                                 ef'!16
                             }
                             \scaleDurations #'(1 . 1) {
@@ -170,7 +170,7 @@ def sixteenth_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 4]                                   %! SM4
+                                % [MusicVoice measure 4]                                   %! SM_4
                                 fs'!16
                             }
                             \scaleDurations #'(1 . 1) {
@@ -265,31 +265,31 @@ def sixteenth_music():
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 7/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 7/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 7/16
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 1/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 1/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 1/16
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 3/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 3/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 3/16
             <BLANKLINE>
-                        % [GlobalSkips measure 4]                                          %! SM4
+                        % [GlobalSkips measure 4]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 4/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 4/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 1/4
-                        \baca_bar_line_visible                                             %! SM5
-                        \bar "|"                                                           %! SM5
+                        \baca_bar_line_visible                                             %! SM_5
+                        \bar "|"                                                           %! SM_5
             <BLANKLINE>
                     }
                 >>
@@ -301,7 +301,7 @@ def sixteenth_music():
                         {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM_4
                                 cs'!16
                             }
                             \scaleDurations #'(1 . 1) {
@@ -330,12 +330,12 @@ def sixteenth_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM_4
                                 d'16
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM_4
                                 ef'!16
                             }
                             \scaleDurations #'(1 . 1) {
@@ -348,7 +348,7 @@ def sixteenth_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 4]                                   %! SM4
+                                % [MusicVoice measure 4]                                   %! SM_4
                                 fs'!16
                             }
                             \scaleDurations #'(1 . 1) {

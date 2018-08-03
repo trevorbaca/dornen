@@ -83,31 +83,31 @@ def twenty_fourth_music():
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 7/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 7/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 7/24
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 2/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 2/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 1/12
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 3/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 3/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 1/8
             <BLANKLINE>
-                        % [GlobalSkips measure 4]                                          %! SM4
+                        % [GlobalSkips measure 4]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 4/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 4/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 1/6
-                        \baca_bar_line_visible                                             %! SM5
-                        \bar "|"                                                           %! SM5
+                        \baca_bar_line_visible                                             %! SM_5
+                        \bar "|"                                                           %! SM_5
             <BLANKLINE>
                     }
                 >>
@@ -120,7 +120,7 @@ def twenty_fourth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM_4
                                 cs'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -156,7 +156,7 @@ def twenty_fourth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM_4
                                 d'16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -167,7 +167,7 @@ def twenty_fourth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM_4
                                 ef'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -183,7 +183,7 @@ def twenty_fourth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
             <BLANKLINE>
-                                % [MusicVoice measure 4]                                   %! SM4
+                                % [MusicVoice measure 4]                                   %! SM_4
                                 fs'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -281,31 +281,31 @@ def twenty_fourth_music():
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 7/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 7/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 7/24
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 1/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 1/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 1/24
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 3/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 3/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 1/8
             <BLANKLINE>
-                        % [GlobalSkips measure 4]                                          %! SM4
+                        % [GlobalSkips measure 4]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 4/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 4/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 1/6
-                        \baca_bar_line_visible                                             %! SM5
-                        \bar "|"                                                           %! SM5
+                        \baca_bar_line_visible                                             %! SM_5
+                        \bar "|"                                                           %! SM_5
             <BLANKLINE>
                     }
                 >>
@@ -318,7 +318,7 @@ def twenty_fourth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM_4
                                 cs'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -352,13 +352,13 @@ def twenty_fourth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM_4
                                 d'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM_4
                                 ef'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -373,7 +373,7 @@ def twenty_fourth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 2/3 {
             <BLANKLINE>
-                                % [MusicVoice measure 4]                                   %! SM4
+                                % [MusicVoice measure 4]                                   %! SM_4
                                 fs'!16
                             }
                             \tweak edge-height #'(0.7 . 0)

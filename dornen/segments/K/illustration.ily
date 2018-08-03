@@ -324,7 +324,8 @@ K_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            \<                                                                 %! PIC
+            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
             - \tweak bound-details.left.text \markup \baca-left "tamb. tr."    %! PIC
@@ -400,7 +401,8 @@ K_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            \>                                                                 %! PIC
+            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
             - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC
@@ -514,7 +516,8 @@ K_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            \<                                                                 %! PIC
+            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
             - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC
@@ -590,7 +593,8 @@ K_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            \>                                                                 %! PIC
+            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
             - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC
@@ -704,7 +708,8 @@ K_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            \<                                                                 %! PIC
+            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
             - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC
@@ -780,7 +785,8 @@ K_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            \>                                                                 %! PIC
+            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
             - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC
@@ -856,7 +862,8 @@ K_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            \<                                                                 %! PIC
+            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
             - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC
@@ -932,7 +939,8 @@ K_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            \>                                                                 %! PIC
+            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
             - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC
@@ -1008,7 +1016,8 @@ K_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            \<                                                                 %! PIC
+            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
             - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC
@@ -1084,7 +1093,8 @@ K_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            \>                                                                 %! PIC
+            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
             - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC

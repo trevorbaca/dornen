@@ -309,7 +309,7 @@ I_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         }
         \tweak edge-height #'(0.7 . 0)
@@ -385,7 +385,7 @@ I_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
         }
@@ -493,7 +493,7 @@ I_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
         }
@@ -563,7 +563,7 @@ I_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
         }
@@ -671,7 +671,7 @@ I_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
         }
@@ -741,7 +741,7 @@ I_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
         }
@@ -811,7 +811,7 @@ I_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
         }
@@ -881,7 +881,7 @@ I_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
         }

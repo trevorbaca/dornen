@@ -536,7 +536,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -613,7 +613,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -728,7 +728,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -805,7 +805,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -920,7 +920,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -997,7 +997,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
         }
@@ -1067,7 +1067,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -1148,7 +1148,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -1225,7 +1225,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -1309,7 +1309,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -1386,7 +1386,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -1523,7 +1523,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -1576,7 +1576,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             
@@ -1620,7 +1620,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             
@@ -1660,7 +1660,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
         }
@@ -1696,7 +1696,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             
@@ -1735,7 +1735,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             
@@ -1779,7 +1779,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             
@@ -1827,7 +1827,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             
@@ -1879,7 +1879,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             
@@ -1926,7 +1926,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             
@@ -1970,7 +1970,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             \stopTextSpan                                                      %! PIC
@@ -2011,7 +2011,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
         }
@@ -2047,7 +2047,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             
@@ -2086,7 +2086,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             
@@ -2130,7 +2130,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             - \abjad_dashed_line_with_arrow                                    %! PIC
@@ -2184,7 +2184,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             
@@ -2235,7 +2235,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             
@@ -2279,7 +2279,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+            - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
             \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
             \repeatTie                                                         %! SC
             

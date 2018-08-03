@@ -69,25 +69,25 @@ def wave_music(denominator=64, inverted=False):
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM_4
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
-                        \time 7/64                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 7/64                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 7/64
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM_4
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
-                        \time 13/64                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 13/64                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 13/64
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM_4
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
-                        \time 20/64                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 20/64                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 5/16
-                        \baca_bar_line_visible                                             %! SM5
-                        \bar "|"                                                           %! SM5
+                        \baca_bar_line_visible                                             %! SM_5
+                        \bar "|"                                                           %! SM_5
             <BLANKLINE>
                     }
                 >>
@@ -138,7 +138,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM_4
                                 \once \override Beam.grow-direction = #right
                                 fs'!64 * 2112/1024
                                 [
@@ -198,7 +198,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM_4
                                 \once \override Beam.grow-direction = #right
                                 fs'!64 * 2112/1024
                                 [
@@ -315,7 +315,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM_4
                                 \once \override Beam.grow-direction = #right
                                 fs'!64 * 2112/1024
                                 [
@@ -518,25 +518,25 @@ def wave_music(denominator=64, inverted=False):
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM_4
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
-                        \time 7/64                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 7/64                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 7/64
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM_4
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
-                        \time 13/64                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 13/64                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 13/64
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM_4
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
-                        \time 20/64                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 20/64                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 5/16
-                        \baca_bar_line_visible                                             %! SM5
-                        \bar "|"                                                           %! SM5
+                        \baca_bar_line_visible                                             %! SM_5
+                        \bar "|"                                                           %! SM_5
             <BLANKLINE>
                     }
                 >>
@@ -587,7 +587,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM_4
                                 \once \override Beam.grow-direction = #left
                                 fs'!64 * 320/1024
                                 [
@@ -647,7 +647,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM_4
                                 \once \override Beam.grow-direction = #left
                                 fs'!64 * 320/1024
                                 [
@@ -764,7 +764,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM_4
                                 \once \override Beam.grow-direction = #left
                                 fs'!64 * 320/1024
                                 [
@@ -967,25 +967,25 @@ def wave_music(denominator=64, inverted=False):
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM_4
                         \baca_new_spacing_section #32 #1024                                %! HSS1:SPACING
-                        \time 7/32                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 7/32                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 7/32
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM_4
                         \baca_new_spacing_section #32 #1024                                %! HSS1:SPACING
-                        \time 13/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 13/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 13/32
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM_4
                         \baca_new_spacing_section #32 #1024                                %! HSS1:SPACING
-                        \time 20/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 20/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 5/8
-                        \baca_bar_line_visible                                             %! SM5
-                        \bar "|"                                                           %! SM5
+                        \baca_bar_line_visible                                             %! SM_5
+                        \bar "|"                                                           %! SM_5
             <BLANKLINE>
                     }
                 >>
@@ -1036,7 +1036,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM_4
                                 \once \override Beam.grow-direction = #right
                                 fs'!32 * 2080/1024
                                 [
@@ -1096,7 +1096,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM_4
                                 \once \override Beam.grow-direction = #right
                                 fs'!32 * 2080/1024
                                 [
@@ -1213,7 +1213,7 @@ def wave_music(denominator=64, inverted=False):
                                 }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM_4
                                 \once \override Beam.grow-direction = #right
                                 fs'!32 * 2080/1024
                                 [

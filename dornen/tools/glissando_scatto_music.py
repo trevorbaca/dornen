@@ -60,31 +60,31 @@ def glissando_scatto_music():
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 1/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 1/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 1/16
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM_4
                         \baca_new_spacing_section #11 #416                                 %! HSS1:SPACING
-                        \time 11/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 11/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 11/32
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 1/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 1/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 1/16
             <BLANKLINE>
-                        % [GlobalSkips measure 4]                                          %! SM4
+                        % [GlobalSkips measure 4]                                          %! SM_4
                         \baca_new_spacing_section #9 #352                                  %! HSS1:SPACING
-                        \time 9/32                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 9/32                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 9/32
-                        \baca_bar_line_visible                                             %! SM5
-                        \bar "|"                                                           %! SM5
+                        \baca_bar_line_visible                                             %! SM_5
+                        \bar "|"                                                           %! SM_5
             <BLANKLINE>
                     }
                 >>
@@ -96,7 +96,7 @@ def glissando_scatto_music():
                         {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM_4
                                 e'16
                                 [
                                 ]
@@ -104,7 +104,7 @@ def glissando_scatto_music():
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 11/13 {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM_4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
                                 fs'!16
@@ -143,7 +143,7 @@ def glissando_scatto_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM_4
                                 b'16
                                 [
                                 ]
@@ -151,7 +151,7 @@ def glissando_scatto_music():
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 9/11 {
             <BLANKLINE>
-                                % [MusicVoice measure 4]                                   %! SM4
+                                % [MusicVoice measure 4]                                   %! SM_4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
                                 bf'!16
@@ -252,25 +252,25 @@ def glissando_scatto_music():
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! SM4
+                        % [GlobalSkips measure 1]                                          %! SM_4
                         \baca_new_spacing_section #11 #416                                 %! HSS1:SPACING
-                        \time 15/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 15/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 15/32
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! SM4
+                        % [GlobalSkips measure 2]                                          %! SM_4
                         \baca_new_spacing_section #9 #352                                  %! HSS1:SPACING
-                        \time 11/16                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 11/16                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 11/16
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM_4
                         \baca_new_spacing_section #9 #352                                  %! HSS1:SPACING
-                        \time 13/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        \time 13/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 13/32
-                        \baca_bar_line_visible                                             %! SM5
-                        \bar "|"                                                           %! SM5
+                        \baca_bar_line_visible                                             %! SM_5
+                        \bar "|"                                                           %! SM_5
             <BLANKLINE>
                     }
                 >>
@@ -282,7 +282,7 @@ def glissando_scatto_music():
                         {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM_4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
                                 e'16
@@ -337,7 +337,7 @@ def glissando_scatto_music():
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 11/13 {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM_4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
                                 fs'!16
@@ -416,7 +416,7 @@ def glissando_scatto_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM_4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
                                 b'16

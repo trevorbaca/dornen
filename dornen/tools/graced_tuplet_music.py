@@ -80,22 +80,22 @@ def graced_tuplet_music():
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! SM4
-                        \time 19/56                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        % [GlobalSkips measure 1]                                          %! SM_4
+                        \time 19/56                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 19/56
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! SM4
-                        \time 39/56                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        % [GlobalSkips measure 2]                                          %! SM_4
+                        \time 39/56                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 39/56
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! SM4
-                        \time 53/112                                                       %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        % [GlobalSkips measure 3]                                          %! SM_4
+                        \time 53/112                                                       %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 53/112
-                        \baca_bar_line_visible                                             %! SM5
-                        \bar "|"                                                           %! SM5
+                        \baca_bar_line_visible                                             %! SM_5
+                        \bar "|"                                                           %! SM_5
             <BLANKLINE>
                     }
                 >>
@@ -109,7 +109,7 @@ def graced_tuplet_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM_4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
                                 af'!16
@@ -168,7 +168,7 @@ def graced_tuplet_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM_4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
                                 cs'!16
@@ -267,7 +267,7 @@ def graced_tuplet_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM_4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
                                 a'16

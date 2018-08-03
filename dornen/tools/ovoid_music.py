@@ -84,28 +84,28 @@ def ovoid_music():
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! SM4
-                        \time 13/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        % [GlobalSkips measure 1]                                          %! SM_4
+                        \time 13/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 13/32
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! SM4
-                        \time 7/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        % [GlobalSkips measure 2]                                          %! SM_4
+                        \time 7/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 7/16
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! SM4
+                        % [GlobalSkips measure 3]                                          %! SM_4
                         s1 * 7/16
             <BLANKLINE>
-                        % [GlobalSkips measure 4]                                          %! SM4
+                        % [GlobalSkips measure 4]                                          %! SM_4
                         s1 * 7/16
             <BLANKLINE>
-                        % [GlobalSkips measure 5]                                          %! SM4
-                        \time 13/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+                        % [GlobalSkips measure 5]                                          %! SM_4
+                        \time 13/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
                         s1 * 13/32
-                        \baca_bar_line_visible                                             %! SM5
-                        \bar "|"                                                           %! SM5
+                        \baca_bar_line_visible                                             %! SM_5
+                        \bar "|"                                                           %! SM_5
             <BLANKLINE>
                     }
                 >>
@@ -117,7 +117,7 @@ def ovoid_music():
                         {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! SM4
+                                % [MusicVoice measure 1]                                   %! SM_4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 1
                                 af'!8.
@@ -132,10 +132,10 @@ def ovoid_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     c'16
-                                    [                                                      %! ACC1
+                                    [                                                      %! ACC_1
             <BLANKLINE>
                                     bf'16
-                                    ]                                                      %! ACC1
+                                    ]                                                      %! ACC_1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
@@ -145,7 +145,7 @@ def ovoid_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! SM4
+                                % [MusicVoice measure 2]                                   %! SM_4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 1
                                 cs'!8.
@@ -154,10 +154,10 @@ def ovoid_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     c'16
-                                    [                                                      %! ACC1
+                                    [                                                      %! ACC_1
             <BLANKLINE>
                                     bf'16
-                                    ]                                                      %! ACC1
+                                    ]                                                      %! ACC_1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
@@ -173,10 +173,10 @@ def ovoid_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     fs'16
-                                    [                                                      %! ACC1
+                                    [                                                      %! ACC_1
             <BLANKLINE>
                                     b'16
-                                    ]                                                      %! ACC1
+                                    ]                                                      %! ACC_1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
@@ -186,7 +186,7 @@ def ovoid_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! SM4
+                                % [MusicVoice measure 3]                                   %! SM_4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 1
                                 af'!8.
@@ -195,10 +195,10 @@ def ovoid_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     fs'16
-                                    [                                                      %! ACC1
+                                    [                                                      %! ACC_1
             <BLANKLINE>
                                     b'16
-                                    ]                                                      %! ACC1
+                                    ]                                                      %! ACC_1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
@@ -214,10 +214,10 @@ def ovoid_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     ef'16
-                                    [                                                      %! ACC1
+                                    [                                                      %! ACC_1
             <BLANKLINE>
                                     a'16
-                                    ]                                                      %! ACC1
+                                    ]                                                      %! ACC_1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
@@ -227,7 +227,7 @@ def ovoid_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 4]                                   %! SM4
+                                % [MusicVoice measure 4]                                   %! SM_4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 1
                                 e'8.
@@ -236,10 +236,10 @@ def ovoid_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     ef'16
-                                    [                                                      %! ACC1
+                                    [                                                      %! ACC_1
             <BLANKLINE>
                                     a'16
-                                    ]                                                      %! ACC1
+                                    ]                                                      %! ACC_1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
@@ -255,10 +255,10 @@ def ovoid_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     b'16
-                                    [                                                      %! ACC1
+                                    [                                                      %! ACC_1
             <BLANKLINE>
                                     d'16
-                                    ]                                                      %! ACC1
+                                    ]                                                      %! ACC_1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
@@ -268,7 +268,7 @@ def ovoid_music():
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 5]                                   %! SM4
+                                % [MusicVoice measure 5]                                   %! SM_4
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 1
                                 fs'!8.
@@ -277,10 +277,10 @@ def ovoid_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     b'16
-                                    [                                                      %! ACC1
+                                    [                                                      %! ACC_1
             <BLANKLINE>
                                     d'16
-                                    ]                                                      %! ACC1
+                                    ]                                                      %! ACC_1
             <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3

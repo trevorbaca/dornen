@@ -402,7 +402,7 @@ def design_3(start=None, stop=None):
                 b'8
                 \stopGroup
                 s8
-                \bar "|." %! SCORE1
+                \bar "|." %! SCORE_1
                 \override Score.BarLine.transparent = ##f
             }
 

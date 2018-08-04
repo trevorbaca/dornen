@@ -64,25 +64,25 @@ def glissando_scatto_music():
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 1/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 1/16
+                        s1 * 1/16                                                          %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! SM_4
                         \baca_new_spacing_section #11 #416                                 %! HSS1:SPACING
                         \time 11/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 11/32
+                        s1 * 11/32                                                         %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 1/16                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 1/16
+                        s1 * 1/16                                                          %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 4]                                          %! SM_4
                         \baca_new_spacing_section #9 #352                                  %! HSS1:SPACING
                         \time 9/32                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 9/32
+                        s1 * 9/32                                                          %! MAKE_GLOBAL_SKIPS_1
                         \baca_bar_line_visible                                             %! SM_5
                         \bar "|"                                                           %! SM_5
             <BLANKLINE>
@@ -256,19 +256,19 @@ def glissando_scatto_music():
                         \baca_new_spacing_section #11 #416                                 %! HSS1:SPACING
                         \time 15/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 15/32
+                        s1 * 15/32                                                         %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! SM_4
                         \baca_new_spacing_section #9 #352                                  %! HSS1:SPACING
                         \time 11/16                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 11/16
+                        s1 * 11/16                                                         %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! SM_4
                         \baca_new_spacing_section #9 #352                                  %! HSS1:SPACING
                         \time 13/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 13/32
+                        s1 * 13/32                                                         %! MAKE_GLOBAL_SKIPS_1
                         \baca_bar_line_visible                                             %! SM_5
                         \bar "|"                                                           %! SM_5
             <BLANKLINE>

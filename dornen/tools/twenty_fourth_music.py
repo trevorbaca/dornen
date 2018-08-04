@@ -87,25 +87,25 @@ def twenty_fourth_music():
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 7/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 7/24
+                        s1 * 7/24                                                          %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 2/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 1/12
+                        s1 * 1/12                                                          %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 3/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 1/8
+                        s1 * 1/8                                                           %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 4]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 4/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 1/6
+                        s1 * 1/6                                                           %! MAKE_GLOBAL_SKIPS_1
                         \baca_bar_line_visible                                             %! SM_5
                         \bar "|"                                                           %! SM_5
             <BLANKLINE>
@@ -285,25 +285,25 @@ def twenty_fourth_music():
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 7/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 7/24
+                        s1 * 7/24                                                          %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 1/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 1/24
+                        s1 * 1/24                                                          %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 3/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 1/8
+                        s1 * 1/8                                                           %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 4]                                          %! SM_4
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
                         \time 4/24                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 1/6
+                        s1 * 1/6                                                           %! MAKE_GLOBAL_SKIPS_1
                         \baca_bar_line_visible                                             %! SM_5
                         \bar "|"                                                           %! SM_5
             <BLANKLINE>

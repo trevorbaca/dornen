@@ -1,41 +1,40 @@
 i_GlobalSkips = {
     
-    % [_ GlobalSkips measure 1]                                                    %! SM4
-    \time 3/16                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 1]                                                    %! SM_4
+    \time 3/16                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/16
 %@% ^ \markup \baca-dark-cyan-markup (1)                                           %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <0>                                           %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((1))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup [_.1]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'00'']"                                    %! SM28:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! MMI1
-%@% - \abjad_invisible_line                                                        %! MMI2
-%@% - \tweak bound-details.left.text \markup {                                     %! MMI2
-%@%     \concat                                                                    %! MMI2
-%@%         {                                                                      %! MMI2
-%@%             \abjad-metronome-mark-markup #3 #0 #1 #"44"                        %! MMI2
-%@%             \hspace                                                            %! MMI2
-%@%                 #0.5                                                           %! MMI2
-%@%         }                                                                      %! MMI2
-%@%     }                                                                          %! MMI2
-%@% \startTextSpan                                                                 %! MMI2
-    - \abjad_invisible_line                                                        %! MMI3
-    - \tweak bound-details.left.text \markup {                                     %! MMI3
-        \concat                                                                    %! MMI3
-            {                                                                      %! MMI3
-                \with-color                                                        %! MMI3
-                    #(x11-color 'blue)                                             %! MMI3
-                    \abjad-metronome-mark-markup #3 #0 #1 #"44"                    %! MMI3
-                \hspace                                                            %! MMI3
-                    #0.5                                                           %! MMI3
-            }                                                                      %! MMI3
-        }                                                                          %! MMI3
-    \startTextSpan                                                                 %! MMI3
+%@% - \abjad_invisible_line                                                        %! MMI_2
+%@% - \tweak bound-details.left.text \markup {                                     %! MMI_2
+%@%     \concat                                                                    %! MMI_2
+%@%         {                                                                      %! MMI_2
+%@%             \abjad-metronome-mark-markup #3 #0 #1 #"44"                        %! MMI_2
+%@%             \hspace                                                            %! MMI_2
+%@%                 #0.5                                                           %! MMI_2
+%@%         }                                                                      %! MMI_2
+%@%     }                                                                          %! MMI_2
+%@% \startTextSpan                                                                 %! MMI_2
+    - \abjad_invisible_line                                                        %! MMI_3
+    - \tweak bound-details.left.text \markup {                                     %! MMI_3
+        \concat                                                                    %! MMI_3
+            {                                                                      %! MMI_3
+                \with-color                                                        %! MMI_3
+                    #(x11-color 'blue)                                             %! MMI_3
+                    \abjad-metronome-mark-markup #3 #0 #1 #"44"                    %! MMI_3
+                \hspace                                                            %! MMI_3
+                    #0.5                                                           %! MMI_3
+            }                                                                      %! MMI_3
+        }                                                                          %! MMI_3
+    \startTextSpan                                                                 %! MMI_3
     
-    % [_ GlobalSkips measure 2]                                                    %! SM4
-    \time 1/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 2]                                                    %! SM_4
+    \time 1/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1/32
 %@% ^ \markup \baca-dark-cyan-markup (2)                                           %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <1>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -43,9 +42,9 @@ i_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [_.2]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'02'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [_ GlobalSkips measure 3]                                                    %! SM4
-    \time 3/16                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 3]                                                    %! SM_4
+    \time 3/16                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/16
 %@% ^ \markup \baca-dark-cyan-markup (3)                                           %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <2>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -53,9 +52,9 @@ i_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [_.3]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'02'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [_ GlobalSkips measure 4]                                                    %! SM4
-    \time 1/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 4]                                                    %! SM_4
+    \time 1/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1/32
 %@% ^ \markup \baca-dark-cyan-markup (4)                                           %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <3>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -63,9 +62,9 @@ i_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [_.4]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'04'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [_ GlobalSkips measure 5]                                                    %! SM4
-    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 5]                                                    %! SM_4
+    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/8
 %@% ^ \markup \baca-dark-cyan-markup (5)                                           %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <4>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -73,9 +72,9 @@ i_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [_.5]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'04'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [_ GlobalSkips measure 6]                                                    %! SM4
-    \time 1/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 6]                                                    %! SM_4
+    \time 1/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1/32
 %@% ^ \markup \baca-dark-cyan-markup (6)                                           %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <5>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -83,9 +82,9 @@ i_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [_.6]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'08'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [_ GlobalSkips measure 7]                                                    %! SM4
-    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 7]                                                    %! SM_4
+    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/8
 %@% ^ \markup \baca-dark-cyan-markup (7)                                           %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <6>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -93,9 +92,9 @@ i_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [_.7]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'09'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [_ GlobalSkips measure 8]                                                    %! SM4
-    \time 1/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 8]                                                    %! SM_4
+    \time 1/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1/32
 %@% ^ \markup \baca-dark-cyan-markup (8)                                           %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <7>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -103,9 +102,9 @@ i_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [_.8]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'13'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [_ GlobalSkips measure 9]                                                    %! SM4
-    \time 3/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 9]                                                    %! SM_4
+    \time 3/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/32
 %@% ^ \markup \baca-dark-cyan-markup (9)                                           %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <8>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -113,9 +112,9 @@ i_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [_.9]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'13'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [_ GlobalSkips measure 10]                                                   %! SM4
-    \time 6/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 10]                                                   %! SM_4
+    \time 6/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/4
 %@% ^ \markup \baca-dark-cyan-markup (10)                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <9>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -123,9 +122,9 @@ i_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [_.10]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'14'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [_ GlobalSkips measure 11]                                                   %! SM4
-    \time 17/64                                                                    %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 11]                                                   %! SM_4
+    \time 17/64                                                                    %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 17/64
 %@% ^ \markup \baca-dark-cyan-markup (11)                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <10>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -133,9 +132,9 @@ i_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [_.11]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'22'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [_ GlobalSkips measure 12]                                                   %! SM4
-    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 12]                                                   %! SM_4
+    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/8
 %@% ^ \markup \baca-dark-cyan-markup (12)                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <11>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -143,9 +142,9 @@ i_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [_.12]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'25'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [_ GlobalSkips measure 13]                                                   %! SM4
-    \time 1/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 13]                                                   %! SM_4
+    \time 1/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1/32
 %@% ^ \markup \baca-dark-cyan-markup (13)                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <12>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -153,9 +152,9 @@ i_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [_.13]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'29'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [_ GlobalSkips measure 14]                                                   %! SM4
-    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 14]                                                   %! SM_4
+    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/8
 %@% ^ \markup \baca-dark-cyan-markup (14)                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <13>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -163,9 +162,9 @@ i_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [_.14]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'30'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [_ GlobalSkips measure 15]                                                   %! SM4
-    \time 1/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 15]                                                   %! SM_4
+    \time 1/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1/32
 %@% ^ \markup \baca-dark-cyan-markup (15)                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <14>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -173,7 +172,7 @@ i_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [_.15]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'34'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [_ GlobalSkips measure 16]                                                   %! SM4
+    % [_ GlobalSkips measure 16]                                                   %! SM_4
     s1 * 1/32
 %@% ^ \markup \baca-dark-cyan-markup (16)                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <15>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -181,9 +180,9 @@ i_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [_.16]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'34'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [_ GlobalSkips measure 17]                                                   %! SM4
-    \time 9/64                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 17]                                                   %! SM_4
+    \time 9/64                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 9/64
 %@% ^ \markup \baca-dark-cyan-markup (17)                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <16>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -191,9 +190,9 @@ i_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [_.17]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'34'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [_ GlobalSkips measure 18]                                                   %! SM4
-    \time 7/64                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 18]                                                   %! SM_4
+    \time 7/64                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 7/64
 %@% ^ \markup \baca-dark-cyan-markup (18)                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <17>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -201,18 +200,18 @@ i_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [_.18]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'36'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
-    % [_ GlobalSkips measure 19]                                                   %! SM4
-    \time 12/64                                                                    %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [_ GlobalSkips measure 19]                                                   %! SM_4
+    \time 12/64                                                                    %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/16
 %@% ^ \markup \baca-dark-cyan-markup (19)                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <18>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((19))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup [_.19]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[0'37'']"                                    %! SM28:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! MMI4
-    \baca_bar_line_visible                                                         %! SM5
-    \bar "|"                                                                       %! SM5
+    \stopTextSpan                                                                  %! MMI_4
+    \baca_bar_line_visible                                                         %! SM_5
+    \bar "|"                                                                       %! SM_5
     
 }
 
@@ -221,14 +220,14 @@ i_GuitarMusicVoiceI = {
     {
         \scaleDurations #'(1 . 1) {
             
-            % [_ GuitarMusicVoiceI measure 1]                                  %! SM4
+            % [_ GuitarMusicVoiceI measure 1]                                  %! SM_4
             \once \override Beam.positions = #'(6 . 6)                         %! OC1
-            \set stemLeftBeamCount = 0                                         %! SM35
-            \set stemRightBeamCount = 1                                        %! SM35
-            \clef "treble"                                                     %! SM8:DEFAULT_CLEF:ST3
-            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
-        %@% \override GuitarMusicStaff.Clef.color = ##f                        %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
-            \set GuitarMusicStaff.forceClef = ##t                              %! SM8:DEFAULT_CLEF:SM33:ST3
+            \set stemLeftBeamCount = 0                                         %! SM_35
+            \set stemRightBeamCount = 1                                        %! SM_35
+            \clef "treble"                                                     %! SM8:DEFAULT_CLEF:ST_3
+            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST_3
+        %@% \override GuitarMusicStaff.Clef.color = ##f                        %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST_3
+            \set GuitarMusicStaff.forceClef = ##t                              %! SM8:DEFAULT_CLEF:SM33:ST_3
             e'8.
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -247,19 +246,19 @@ i_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            [                                                                  %! SM35
-            \override GuitarMusicStaff.Clef.color = #(x11-color 'violet)       %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
+            [                                                                  %! SM_35
+            \override GuitarMusicStaff.Clef.color = #(x11-color 'violet)       %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST_3
         }
     }
     
-    % [_ GuitarMusicVoiceI measure 2]                                          %! SM4
+    % [_ GuitarMusicVoiceI measure 2]                                          %! SM_4
     s1 * 1/32
     {
         \scaleDurations #'(1 . 1) {
             
-            % [_ GuitarMusicVoiceI measure 3]                                  %! SM4
-            \set stemLeftBeamCount = 1                                         %! SM35
-            \set stemRightBeamCount = 1                                        %! SM35
+            % [_ GuitarMusicVoiceI measure 3]                                  %! SM_4
+            \set stemLeftBeamCount = 1                                         %! SM_35
+            \set stemRightBeamCount = 1                                        %! SM_35
             b'8.
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -281,14 +280,14 @@ i_GuitarMusicVoiceI = {
         }
     }
     
-    % [_ GuitarMusicVoiceI measure 4]                                          %! SM4
+    % [_ GuitarMusicVoiceI measure 4]                                          %! SM_4
     s1 * 1/32
     {
         \scaleDurations #'(1 . 1) {
             
-            % [_ GuitarMusicVoiceI measure 5]                                  %! SM4
-            \set stemLeftBeamCount = 1                                         %! SM35
-            \set stemRightBeamCount = 1                                        %! SM35
+            % [_ GuitarMusicVoiceI measure 5]                                  %! SM_4
+            \set stemLeftBeamCount = 1                                         %! SM_35
+            \set stemRightBeamCount = 1                                        %! SM_35
             bf'!8.
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -308,22 +307,22 @@ i_GuitarMusicVoiceI = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             
-            \set stemLeftBeamCount = 1                                         %! SM35
-            \set stemRightBeamCount = 0                                        %! SM35
+            \set stemLeftBeamCount = 1                                         %! SM_35
+            \set stemRightBeamCount = 0                                        %! SM_35
             g'8.
-            ]                                                                  %! SM35
+            ]                                                                  %! SM_35
         }
     }
     
-    % [_ GuitarMusicVoiceI measure 6]                                          %! SM4
+    % [_ GuitarMusicVoiceI measure 6]                                          %! SM_4
     s1 * 1/32
     {
         \scaleDurations #'(1 . 1) {
             
-            % [_ GuitarMusicVoiceI measure 7]                                  %! SM4
+            % [_ GuitarMusicVoiceI measure 7]                                  %! SM_4
             \override Beam.positions = #'(9 . 9)                               %! OC1
-            \set stemLeftBeamCount = 0                                         %! SM35
-            \set stemRightBeamCount = 1                                        %! SM35
+            \set stemLeftBeamCount = 0                                         %! SM_35
+            \set stemRightBeamCount = 1                                        %! SM_35
             g'8.
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -342,23 +341,23 @@ i_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            [                                                                  %! SM35
+            [                                                                  %! SM_35
             
-            \set stemLeftBeamCount = 1                                         %! SM35
-            \set stemRightBeamCount = 1                                        %! SM35
+            \set stemLeftBeamCount = 1                                         %! SM_35
+            \set stemRightBeamCount = 1                                        %! SM_35
             b8.
             \revert Beam.positions                                             %! OC2
         }
     }
     
-    % [_ GuitarMusicVoiceI measure 8]                                          %! SM4
+    % [_ GuitarMusicVoiceI measure 8]                                          %! SM_4
     s1 * 1/8
     {
         \scaleDurations #'(1 . 1) {
             
-            % [_ GuitarMusicVoiceI measure 10]                                 %! SM4
-            \set stemLeftBeamCount = 1                                         %! SM35
-            \set stemRightBeamCount = 1                                        %! SM35
+            % [_ GuitarMusicVoiceI measure 10]                                 %! SM_4
+            \set stemLeftBeamCount = 1                                         %! SM_35
+            \set stemRightBeamCount = 1                                        %! SM_35
             c'8.
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -378,30 +377,30 @@ i_GuitarMusicVoiceI = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             
-            \set stemLeftBeamCount = 1                                         %! SM35
-            \set stemRightBeamCount = 1                                        %! SM35
+            \set stemLeftBeamCount = 1                                         %! SM_35
+            \set stemRightBeamCount = 1                                        %! SM_35
             f'8.
             
-            \set stemLeftBeamCount = 1                                         %! SM35
-            \set stemRightBeamCount = 1                                        %! SM35
+            \set stemLeftBeamCount = 1                                         %! SM_35
+            \set stemRightBeamCount = 1                                        %! SM_35
             a8.
             
-            \set stemLeftBeamCount = 1                                         %! SM35
-            \set stemRightBeamCount = 0                                        %! SM35
+            \set stemLeftBeamCount = 1                                         %! SM_35
+            \set stemRightBeamCount = 0                                        %! SM_35
             af!8.
-            ]                                                                  %! SM35
+            ]                                                                  %! SM_35
         }
     }
     
-    % [_ GuitarMusicVoiceI measure 11]                                         %! SM4
+    % [_ GuitarMusicVoiceI measure 11]                                         %! SM_4
     s1 * 17/64
     {
         \scaleDurations #'(1 . 1) {
             
-            % [_ GuitarMusicVoiceI measure 12]                                 %! SM4
+            % [_ GuitarMusicVoiceI measure 12]                                 %! SM_4
             \override Beam.positions = #'(6 . 6)                               %! OC1
-            \set stemLeftBeamCount = 0                                         %! SM35
-            \set stemRightBeamCount = 1                                        %! SM35
+            \set stemLeftBeamCount = 0                                         %! SM_35
+            \set stemRightBeamCount = 1                                        %! SM_35
             fs!8.
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -420,23 +419,23 @@ i_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            [                                                                  %! SM35
+            [                                                                  %! SM_35
             
-            \set stemLeftBeamCount = 1                                         %! SM35
-            \set stemRightBeamCount = 1                                        %! SM35
+            \set stemLeftBeamCount = 1                                         %! SM_35
+            \set stemRightBeamCount = 1                                        %! SM_35
             bf!8.
             \revert Beam.positions                                             %! OC2
         }
     }
     
-    % [_ GuitarMusicVoiceI measure 13]                                         %! SM4
+    % [_ GuitarMusicVoiceI measure 13]                                         %! SM_4
     s1 * 1/32
     {
         \scaleDurations #'(1 . 1) {
             
-            % [_ GuitarMusicVoiceI measure 14]                                 %! SM4
-            \set stemLeftBeamCount = 1                                         %! SM35
-            \set stemRightBeamCount = 1                                        %! SM35
+            % [_ GuitarMusicVoiceI measure 14]                                 %! SM_4
+            \set stemLeftBeamCount = 1                                         %! SM_35
+            \set stemRightBeamCount = 1                                        %! SM_35
             af!8.
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -456,26 +455,26 @@ i_GuitarMusicVoiceI = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             
-            \set stemLeftBeamCount = 1                                         %! SM35
-            \set stemRightBeamCount = 0                                        %! SM35
+            \set stemLeftBeamCount = 1                                         %! SM_35
+            \set stemRightBeamCount = 0                                        %! SM_35
             c'8.
-            ]                                                                  %! SM35
+            ]                                                                  %! SM_35
         }
     }
     
-    % [_ GuitarMusicVoiceI measure 15]                                         %! SM4
+    % [_ GuitarMusicVoiceI measure 15]                                         %! SM_4
     s1 * 1/32
     
-    % [_ GuitarMusicVoiceI measure 16]                                         %! SM4
+    % [_ GuitarMusicVoiceI measure 16]                                         %! SM_4
     s1 * 1/32
     
-    % [_ GuitarMusicVoiceI measure 17]                                         %! SM4
+    % [_ GuitarMusicVoiceI measure 17]                                         %! SM_4
     s1 * 9/64
     
-    % [_ GuitarMusicVoiceI measure 18]                                         %! SM4
+    % [_ GuitarMusicVoiceI measure 18]                                         %! SM_4
     s1 * 7/64
     
-    % [_ GuitarMusicVoiceI measure 19]                                         %! SM4
+    % [_ GuitarMusicVoiceI measure 19]                                         %! SM_4
     s1 * 3/16
     
 }
@@ -483,12 +482,12 @@ i_GuitarMusicVoiceI = {
 
 i_GuitarMusicVoiceII = {
     
-    % [_ GuitarMusicVoiceII measure 1]                                         %! SM4
+    % [_ GuitarMusicVoiceII measure 1]                                         %! SM_4
     s1 * 3/16
     {
         \scaleDurations #'(1 . 1) {
             
-            % [_ GuitarMusicVoiceII measure 2]                                 %! SM4
+            % [_ GuitarMusicVoiceII measure 2]                                 %! SM_4
             \acciaccatura {
                 
                 fs'16
@@ -509,7 +508,7 @@ i_GuitarMusicVoiceII = {
             %%%                 ]                                              %! FIGURE_NAME_MARKUP
             %%%             }                                                  %! FIGURE_NAME_MARKUP
             %%%     }                                                          %! FIGURE_NAME_MARKUP
-                [                                                              %! ACC1
+                [                                                              %! ACC_1
                 
                 d'16
                 
@@ -520,24 +519,24 @@ i_GuitarMusicVoiceII = {
                 a'16
                 
                 af'16
-                ]                                                              %! ACC1
+                ]                                                              %! ACC_1
                 
             }
             \once \override Beam.positions = #'(-10 . -10)                     %! OC1
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! OC1
-            \set stemLeftBeamCount = 0                                         %! SM35
-            \set stemRightBeamCount = 3                                        %! SM35
+            \set stemLeftBeamCount = 0                                         %! SM_35
+            \set stemRightBeamCount = 3                                        %! SM_35
             c''32
-            [                                                                  %! SM35
+            [                                                                  %! SM_35
         }
     }
     
-    % [_ GuitarMusicVoiceII measure 3]                                         %! SM4
+    % [_ GuitarMusicVoiceII measure 3]                                         %! SM_4
     s1 * 3/16
     {
         \scaleDurations #'(1 . 1) {
             
-            % [_ GuitarMusicVoiceII measure 4]                                 %! SM4
+            % [_ GuitarMusicVoiceII measure 4]                                 %! SM_4
             \acciaccatura {
                 
                 bf'16
@@ -558,7 +557,7 @@ i_GuitarMusicVoiceII = {
             %%%                 ]                                              %! FIGURE_NAME_MARKUP
             %%%             }                                                  %! FIGURE_NAME_MARKUP
             %%%     }                                                          %! FIGURE_NAME_MARKUP
-                [                                                              %! ACC1
+                [                                                              %! ACC_1
                 
                 g'16
                 
@@ -567,22 +566,22 @@ i_GuitarMusicVoiceII = {
                 af'16
                 
                 c''16
-                ]                                                              %! ACC1
+                ]                                                              %! ACC_1
                 
             }
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! OC1
-            \set stemLeftBeamCount = 3                                         %! SM35
-            \set stemRightBeamCount = 1                                        %! SM35
+            \set stemLeftBeamCount = 3                                         %! SM_35
+            \set stemRightBeamCount = 1                                        %! SM_35
             f'32
         }
     }
     
-    % [_ GuitarMusicVoiceII measure 5]                                         %! SM4
+    % [_ GuitarMusicVoiceII measure 5]                                         %! SM_4
     s1 * 3/8
     {
         \scaleDurations #'(1 . 1) {
             
-            % [_ GuitarMusicVoiceII measure 6]                                 %! SM4
+            % [_ GuitarMusicVoiceII measure 6]                                 %! SM_4
             \acciaccatura {
                 
                 b'16
@@ -603,30 +602,30 @@ i_GuitarMusicVoiceII = {
             %%%                 ]                                              %! FIGURE_NAME_MARKUP
             %%%             }                                                  %! FIGURE_NAME_MARKUP
             %%%     }                                                          %! FIGURE_NAME_MARKUP
-                [                                                              %! ACC1
+                [                                                              %! ACC_1
                 
                 fs'16
                 
                 d''16
                 
                 ef''16
-                ]                                                              %! ACC1
+                ]                                                              %! ACC_1
                 
             }
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! OC1
-            \set stemLeftBeamCount = 3                                         %! SM35
-            \set stemRightBeamCount = 0                                        %! SM35
+            \set stemLeftBeamCount = 3                                         %! SM_35
+            \set stemRightBeamCount = 0                                        %! SM_35
             e''32
-            ]                                                                  %! SM35
+            ]                                                                  %! SM_35
         }
     }
     
-    % [_ GuitarMusicVoiceII measure 7]                                         %! SM4
+    % [_ GuitarMusicVoiceII measure 7]                                         %! SM_4
     s1 * 3/8
     {
         \scaleDurations #'(1 . 1) {
             
-            % [_ GuitarMusicVoiceII measure 8]                                 %! SM4
+            % [_ GuitarMusicVoiceII measure 8]                                 %! SM_4
             \acciaccatura {
                 
                 bf'16
@@ -647,31 +646,31 @@ i_GuitarMusicVoiceII = {
             %%%                 ]                                              %! FIGURE_NAME_MARKUP
             %%%             }                                                  %! FIGURE_NAME_MARKUP
             %%%     }                                                          %! FIGURE_NAME_MARKUP
-                [                                                              %! ACC1
+                [                                                              %! ACC_1
                 
                 d''16
                 
                 ef''16
                 
                 e''16
-                ]                                                              %! ACC1
+                ]                                                              %! ACC_1
                 
             }
             \once \override Beam.positions = #'(-10 . -10)                     %! OC1
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! OC1
-            \set stemLeftBeamCount = 0                                         %! SM35
-            \set stemRightBeamCount = 3                                        %! SM35
+            \set stemLeftBeamCount = 0                                         %! SM_35
+            \set stemRightBeamCount = 3                                        %! SM_35
             fs''!32
-            [                                                                  %! SM35
+            [                                                                  %! SM_35
         }
     }
     
-    % [_ GuitarMusicVoiceII measure 9]                                         %! SM4
+    % [_ GuitarMusicVoiceII measure 9]                                         %! SM_4
     s1 * 95/64
     {
         \scaleDurations #'(1 . 1) {
             
-            % [_ GuitarMusicVoiceII measure 13]                                %! SM4
+            % [_ GuitarMusicVoiceII measure 13]                                %! SM_4
             \acciaccatura {
                 
                 a''16
@@ -692,7 +691,7 @@ i_GuitarMusicVoiceII = {
             %%%                 ]                                              %! FIGURE_NAME_MARKUP
             %%%             }                                                  %! FIGURE_NAME_MARKUP
             %%%     }                                                          %! FIGURE_NAME_MARKUP
-                [                                                              %! ACC1
+                [                                                              %! ACC_1
                 
                 cs''16
                 
@@ -707,23 +706,23 @@ i_GuitarMusicVoiceII = {
                 g''16
                 
                 ef''16
-                ]                                                              %! ACC1
+                ]                                                              %! ACC_1
                 
             }
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! OC1
-            \set stemLeftBeamCount = 3                                         %! SM35
-            \set stemRightBeamCount = 0                                        %! SM35
+            \set stemLeftBeamCount = 3                                         %! SM_35
+            \set stemRightBeamCount = 0                                        %! SM_35
             e''32
-            ]                                                                  %! SM35
+            ]                                                                  %! SM_35
         }
     }
     
-    % [_ GuitarMusicVoiceII measure 14]                                        %! SM4
+    % [_ GuitarMusicVoiceII measure 14]                                        %! SM_4
     s1 * 3/8
     {
         \scaleDurations #'(1 . 1) {
             
-            % [_ GuitarMusicVoiceII measure 15]                                %! SM4
+            % [_ GuitarMusicVoiceII measure 15]                                %! SM_4
             \acciaccatura {
                 
                 b''16
@@ -744,7 +743,7 @@ i_GuitarMusicVoiceII = {
             %%%                 ]                                              %! FIGURE_NAME_MARKUP
             %%%             }                                                  %! FIGURE_NAME_MARKUP
             %%%     }                                                          %! FIGURE_NAME_MARKUP
-                [                                                              %! ACC1
+                [                                                              %! ACC_1
                 
                 g''16
                 
@@ -759,21 +758,21 @@ i_GuitarMusicVoiceII = {
                 a''16
                 
                 cs''16
-                ]                                                              %! ACC1
+                ]                                                              %! ACC_1
                 
             }
             \once \override Beam.positions = #'(-10 . -10)                     %! OC1
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! OC1
-            \set stemLeftBeamCount = 0                                         %! SM35
-            \set stemRightBeamCount = 3                                        %! SM35
+            \set stemLeftBeamCount = 0                                         %! SM_35
+            \set stemRightBeamCount = 3                                        %! SM_35
             fs''!32
-            [                                                                  %! SM35
+            [                                                                  %! SM_35
         }
     }
     {
         \scaleDurations #'(1 . 1) {
             
-            % [_ GuitarMusicVoiceII measure 16]                                %! SM4
+            % [_ GuitarMusicVoiceII measure 16]                                %! SM_4
             \acciaccatura {
                 
                 ef''16
@@ -794,29 +793,29 @@ i_GuitarMusicVoiceII = {
             %%%                 ]                                              %! FIGURE_NAME_MARKUP
             %%%             }                                                  %! FIGURE_NAME_MARKUP
             %%%     }                                                          %! FIGURE_NAME_MARKUP
-                [                                                              %! ACC1
+                [                                                              %! ACC_1
                 
                 e''16
                 
                 f''16
-                ]                                                              %! ACC1
+                ]                                                              %! ACC_1
                 
             }
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! OC1
-            \set stemLeftBeamCount = 3                                         %! SM35
-            \set stemRightBeamCount = 0                                        %! SM35
+            \set stemLeftBeamCount = 3                                         %! SM_35
+            \set stemRightBeamCount = 0                                        %! SM_35
             g''32
-            ]                                                                  %! SM35
+            ]                                                                  %! SM_35
         }
     }
     
-    % [_ GuitarMusicVoiceII measure 17]                                        %! SM4
+    % [_ GuitarMusicVoiceII measure 17]                                        %! SM_4
     s1 * 9/64
     
-    % [_ GuitarMusicVoiceII measure 18]                                        %! SM4
+    % [_ GuitarMusicVoiceII measure 18]                                        %! SM_4
     s1 * 7/64
     
-    % [_ GuitarMusicVoiceII measure 19]                                        %! SM4
+    % [_ GuitarMusicVoiceII measure 19]                                        %! SM_4
     s1 * 3/16
     
 }
@@ -824,7 +823,7 @@ i_GuitarMusicVoiceII = {
 
 i_GuitarMusicVoiceIII = {
     
-    % [_ GuitarMusicVoiceIII measure 1]                                        %! SM4
+    % [_ GuitarMusicVoiceIII measure 1]                                        %! SM_4
     s1 * 107/32
     {
         \override TupletNumber.text = \markup {
@@ -868,7 +867,7 @@ i_GuitarMusicVoiceIII = {
             }
         \scaleDurations #'(1 . 1) {
             
-            % [_ GuitarMusicVoiceIII measure 18]                               %! SM4
+            % [_ GuitarMusicVoiceIII measure 18]                               %! SM_4
             \override Beam.positions = #'(-6 . -6)                             %! OC1
             \once \override Beam.grow-direction = #left
             b''64 * 320/1024
@@ -949,7 +948,7 @@ i_GuitarMusicVoiceIII = {
             }
         \scaleDurations #'(1 . 1) {
             
-            % [_ GuitarMusicVoiceIII measure 19]                               %! SM4
+            % [_ GuitarMusicVoiceIII measure 19]                               %! SM_4
             \override Beam.positions = #'(-6 . -6)                             %! OC1
             \once \override Beam.grow-direction = #left
             f''64 * 192/1024
@@ -1004,18 +1003,18 @@ i_GuitarMusicVoiceIII = {
 
 i_GuitarMusicVoiceIV = {
     
-    % [_ GuitarMusicVoiceIV measure 1]                                         %! SM4
+    % [_ GuitarMusicVoiceIV measure 1]                                         %! SM_4
     s1 * 5/4
-    ^ \markup {                                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        \with-color                                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            #(x11-color 'DarkViolet)                                           %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-            (“Guitar”)                                                         %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-        }                                                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    ^ \markup {                                                                %! SM11:DEFAULT_INSTRUMENT_ALERT:ST_1
+        \with-color                                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST_1
+            #(x11-color 'DarkViolet)                                           %! SM11:DEFAULT_INSTRUMENT_ALERT:ST_1
+            (“Guitar”)                                                         %! SM11:DEFAULT_INSTRUMENT_ALERT:ST_1
+        }                                                                      %! SM11:DEFAULT_INSTRUMENT_ALERT:ST_1
     {
         \tweak text #tuplet-number::calc-fraction-text
         \times 3/4 {
             
-            % [_ GuitarMusicVoiceIV measure 9]                                 %! SM4
+            % [_ GuitarMusicVoiceIV measure 9]                                 %! SM_4
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             af'!64
@@ -1076,12 +1075,12 @@ i_GuitarMusicVoiceIV = {
         }
     }
     
-    % [_ GuitarMusicVoiceIV measure 10]                                        %! SM4
+    % [_ GuitarMusicVoiceIV measure 10]                                        %! SM_4
     s1 * 3/4
     {
         \times 2/3 {
             
-            % [_ GuitarMusicVoiceIV measure 11]                                %! SM4
+            % [_ GuitarMusicVoiceIV measure 11]                                %! SM_4
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             b'64
@@ -1186,13 +1185,13 @@ i_GuitarMusicVoiceIV = {
         }
     }
     
-    % [_ GuitarMusicVoiceIV measure 12]                                        %! SM4
+    % [_ GuitarMusicVoiceIV measure 12]                                        %! SM_4
     s1 * 27/32
     {
         \tweak text #tuplet-number::calc-fraction-text
         \times 6/7 {
             
-            % [_ GuitarMusicVoiceIV measure 17]                                %! SM4
+            % [_ GuitarMusicVoiceIV measure 17]                                %! SM_4
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             a'64
@@ -1265,10 +1264,10 @@ i_GuitarMusicVoiceIV = {
         }
     }
     
-    % [_ GuitarMusicVoiceIV measure 18]                                        %! SM4
+    % [_ GuitarMusicVoiceIV measure 18]                                        %! SM_4
     s1 * 7/64
     
-    % [_ GuitarMusicVoiceIV measure 19]                                        %! SM4
+    % [_ GuitarMusicVoiceIV measure 19]                                        %! SM_4
     s1 * 3/16
     
 }

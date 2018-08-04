@@ -83,31 +83,31 @@ def monad_music():
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! SM_4
+                        % [GlobalSkips measure 1]                                          %! COMMENT_MEASURE_NUMBERS
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 14/5                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+                        \time 14/5                                                         %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
                         s1 * 14/5                                                          %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! SM_4
+                        % [GlobalSkips measure 2]                                          %! COMMENT_MEASURE_NUMBERS
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 4/5                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+                        \time 4/5                                                          %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
                         s1 * 4/5                                                           %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! SM_4
+                        % [GlobalSkips measure 3]                                          %! COMMENT_MEASURE_NUMBERS
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 6/5                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+                        \time 6/5                                                          %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
                         s1 * 6/5                                                           %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
-                        % [GlobalSkips measure 4]                                          %! SM_4
+                        % [GlobalSkips measure 4]                                          %! COMMENT_MEASURE_NUMBERS
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 8/5                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+                        \time 8/5                                                          %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
                         s1 * 8/5                                                           %! MAKE_GLOBAL_SKIPS_1
-                        \baca_bar_line_visible                                             %! SM_5
-                        \bar "|"                                                           %! SM_5
+                        \baca_bar_line_visible                                             %! ATTACH_FINAL_BAR_LINE
+                        \bar "|"                                                           %! ATTACH_FINAL_BAR_LINE
             <BLANKLINE>
                     }
                 >>
@@ -120,7 +120,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! SM_4
+                                % [MusicVoice measure 1]                                   %! COMMENT_MEASURE_NUMBERS
                                 cs'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -156,7 +156,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! SM_4
+                                % [MusicVoice measure 2]                                   %! COMMENT_MEASURE_NUMBERS
                                 d'2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -167,7 +167,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! SM_4
+                                % [MusicVoice measure 3]                                   %! COMMENT_MEASURE_NUMBERS
                                 ef'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -183,7 +183,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 4]                                   %! SM_4
+                                % [MusicVoice measure 4]                                   %! COMMENT_MEASURE_NUMBERS
                                 fs'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -281,31 +281,31 @@ def monad_music():
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! SM_4
+                        % [GlobalSkips measure 1]                                          %! COMMENT_MEASURE_NUMBERS
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 14/5                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+                        \time 14/5                                                         %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
                         s1 * 14/5                                                          %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! SM_4
+                        % [GlobalSkips measure 2]                                          %! COMMENT_MEASURE_NUMBERS
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 2/5                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+                        \time 2/5                                                          %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
                         s1 * 2/5                                                           %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! SM_4
+                        % [GlobalSkips measure 3]                                          %! COMMENT_MEASURE_NUMBERS
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 6/5                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+                        \time 6/5                                                          %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
                         s1 * 6/5                                                           %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
-                        % [GlobalSkips measure 4]                                          %! SM_4
+                        % [GlobalSkips measure 4]                                          %! COMMENT_MEASURE_NUMBERS
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 8/5                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+                        \time 8/5                                                          %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
                         s1 * 8/5                                                           %! MAKE_GLOBAL_SKIPS_1
-                        \baca_bar_line_visible                                             %! SM_5
-                        \bar "|"                                                           %! SM_5
+                        \baca_bar_line_visible                                             %! ATTACH_FINAL_BAR_LINE
+                        \bar "|"                                                           %! ATTACH_FINAL_BAR_LINE
             <BLANKLINE>
                     }
                 >>
@@ -318,7 +318,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! SM_4
+                                % [MusicVoice measure 1]                                   %! COMMENT_MEASURE_NUMBERS
                                 cs'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -348,13 +348,13 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! SM_4
+                                % [MusicVoice measure 2]                                   %! COMMENT_MEASURE_NUMBERS
                                 d'2
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! SM_4
+                                % [MusicVoice measure 3]                                   %! COMMENT_MEASURE_NUMBERS
                                 ef'!2
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -367,7 +367,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 4]                                   %! SM_4
+                                % [MusicVoice measure 4]                                   %! COMMENT_MEASURE_NUMBERS
                                 fs'!2
                             }
                             \tweak edge-height #'(0.7 . 0)

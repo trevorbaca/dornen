@@ -13,90 +13,90 @@
         \context PageLayout = "PageLayout"
         {   %*% PageLayout
             
-            % [PageLayout measure 120]                                                   %! SM_4
+            % [PageLayout measure 120]                                                   %! COMMENT_MEASURE_NUMBERS
             \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \autoPageBreaksOff                                                           %! BMM1:BREAK
             \noBreak                                                                     %! BMM2:BREAK
-            \baca_lbsd #20 #'(20)                                                        %! IC:BREAK
-            \pageBreak                                                                   %! IC:BREAK
+            \baca_lbsd #20 #'(20)                                                        %! INDICATOR_COMMAND:BREAK
+            \pageBreak                                                                   %! INDICATOR_COMMAND:BREAK
             s1 * 3/32                                                                    %! MAKE_GLOBAL_SKIPS_1
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 121]                                                   %! SM_4
+            % [PageLayout measure 121]                                                   %! COMMENT_MEASURE_NUMBERS
             \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/16                                                                    %! MAKE_GLOBAL_SKIPS_1
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 122]                                                   %! SM_4
+            % [PageLayout measure 122]                                                   %! COMMENT_MEASURE_NUMBERS
             \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/16                                                                    %! MAKE_GLOBAL_SKIPS_1
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 123]                                                   %! SM_4
+            % [PageLayout measure 123]                                                   %! COMMENT_MEASURE_NUMBERS
             \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/20                                                                    %! MAKE_GLOBAL_SKIPS_1
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 124]                                                   %! SM_4
+            % [PageLayout measure 124]                                                   %! COMMENT_MEASURE_NUMBERS
             \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/32                                                                    %! MAKE_GLOBAL_SKIPS_1
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 125]                                                   %! SM_4
+            % [PageLayout measure 125]                                                   %! COMMENT_MEASURE_NUMBERS
             \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/16                                                                    %! MAKE_GLOBAL_SKIPS_1
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 126]                                                   %! SM_4
+            % [PageLayout measure 126]                                                   %! COMMENT_MEASURE_NUMBERS
             \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/20                                                                    %! MAKE_GLOBAL_SKIPS_1
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 127]                                                   %! SM_4
+            % [PageLayout measure 127]                                                   %! COMMENT_MEASURE_NUMBERS
             \baca_new_spacing_section #35 #4320                                          %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/8                                                                     %! MAKE_GLOBAL_SKIPS_1
         %@% ^ \markup { \baca-forest-green-markup "[[1/180 * 35/24]]" }                  %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 128]                                                   %! SM_4
+            % [PageLayout measure 128]                                                   %! COMMENT_MEASURE_NUMBERS
             \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            \baca_lbsd #80 #'(20)                                                        %! IC:BREAK
-            \break                                                                       %! IC:BREAK
+            \baca_lbsd #80 #'(20)                                                        %! INDICATOR_COMMAND:BREAK
+            \break                                                                       %! INDICATOR_COMMAND:BREAK
             s1 * 15/32                                                                   %! MAKE_GLOBAL_SKIPS_1
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 129]                                                   %! SM_4
+            % [PageLayout measure 129]                                                   %! COMMENT_MEASURE_NUMBERS
             \baca_new_spacing_section #35 #4320                                          %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 5/8                                                                     %! MAKE_GLOBAL_SKIPS_1
         %@% ^ \markup { \baca-forest-green-markup "[[1/180 * 35/24]]" }                  %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 130]                                                   %! SM_4
+            % [PageLayout measure 130]                                                   %! COMMENT_MEASURE_NUMBERS
             \baca_new_spacing_section #1 #180                                            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            \baca_lbsd #140 #'(20)                                                       %! IC:BREAK
-            \break                                                                       %! IC:BREAK
+            \baca_lbsd #140 #'(20)                                                       %! INDICATOR_COMMAND:BREAK
+            \break                                                                       %! INDICATOR_COMMAND:BREAK
             s1 * 25/32                                                                   %! MAKE_GLOBAL_SKIPS_1
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 131]                                                   %! SM_4
+            % [PageLayout measure 131]                                                   %! COMMENT_MEASURE_NUMBERS
             \baca_new_spacing_section #35 #4320                                          %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 15/16                                                                   %! MAKE_GLOBAL_SKIPS_1
         %@% ^ \markup { \baca-forest-green-markup "[[1/180 * 35/24]]" }                  %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 132]                                                   %! SM_4
+            % [PageLayout measure 132]                                                   %! COMMENT_MEASURE_NUMBERS
             \baca_new_spacing_section #35 #4320                                          %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            \baca_lbsd #200 #'(20)                                                       %! IC:BREAK
-            \break                                                                       %! IC:BREAK
+            \baca_lbsd #200 #'(20)                                                       %! INDICATOR_COMMAND:BREAK
+            \break                                                                       %! INDICATOR_COMMAND:BREAK
             s1 * 125/64                                                                  %! MAKE_GLOBAL_SKIPS_1
         %@% ^ \markup { \baca-forest-green-markup "[[1/180 * 35/24]]" }                  %! HSS2:SPACING_MARKUP
             

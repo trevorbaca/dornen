@@ -71,22 +71,22 @@ def rest_music(duration=None):
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! SM_4
-                        \time 1/8                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+                        % [GlobalSkips measure 1]                                          %! COMMENT_MEASURE_NUMBERS
+                        \time 1/8                                                          %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
                         s1 * 1/8                                                           %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! SM_4
-                        \time 2/8                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+                        % [GlobalSkips measure 2]                                          %! COMMENT_MEASURE_NUMBERS
+                        \time 2/8                                                          %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
                         s1 * 1/4                                                           %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! SM_4
-                        \time 3/8                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+                        % [GlobalSkips measure 3]                                          %! COMMENT_MEASURE_NUMBERS
+                        \time 3/8                                                          %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
                         s1 * 3/8                                                           %! MAKE_GLOBAL_SKIPS_1
-                        \baca_bar_line_visible                                             %! SM_5
-                        \bar "|"                                                           %! SM_5
+                        \baca_bar_line_visible                                             %! ATTACH_FINAL_BAR_LINE
+                        \bar "|"                                                           %! ATTACH_FINAL_BAR_LINE
             <BLANKLINE>
                     }
                 >>
@@ -98,19 +98,19 @@ def rest_music(duration=None):
                         {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! SM_4
+                                % [MusicVoice measure 1]                                   %! COMMENT_MEASURE_NUMBERS
                                 r8
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! SM_4
+                                % [MusicVoice measure 2]                                   %! COMMENT_MEASURE_NUMBERS
                                 r8
             <BLANKLINE>
                                 r8
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! SM_4
+                                % [MusicVoice measure 3]                                   %! COMMENT_MEASURE_NUMBERS
                                 r8
             <BLANKLINE>
                                 r8
@@ -183,15 +183,15 @@ def rest_music(duration=None):
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! SM_4
-                        \time 6/8                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-                        \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+                        % [GlobalSkips measure 1]                                          %! COMMENT_MEASURE_NUMBERS
+                        \time 6/8                                                          %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
                         s1 * 3/4                                                           %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! SM_4
+                        % [GlobalSkips measure 2]                                          %! COMMENT_MEASURE_NUMBERS
                         s1 * 3/4                                                           %! MAKE_GLOBAL_SKIPS_1
-                        \baca_bar_line_visible                                             %! SM_5
-                        \bar "|"                                                           %! SM_5
+                        \baca_bar_line_visible                                             %! ATTACH_FINAL_BAR_LINE
+                        \bar "|"                                                           %! ATTACH_FINAL_BAR_LINE
             <BLANKLINE>
                     }
                 >>
@@ -203,7 +203,7 @@ def rest_music(duration=None):
                         {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! SM_4
+                                % [MusicVoice measure 1]                                   %! COMMENT_MEASURE_NUMBERS
                                 r8
                             }
                             \scaleDurations #'(1 . 1) {
@@ -222,7 +222,7 @@ def rest_music(duration=None):
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! SM_4
+                                % [MusicVoice measure 2]                                   %! COMMENT_MEASURE_NUMBERS
                                 r8
             <BLANKLINE>
                                 r8

@@ -1,218 +1,218 @@
 C_GlobalSkips = {
     
-    % [C GlobalSkips measure 71 / measure 1]                                       %! SM_4
-    \time 11/32                                                                    %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \bar ""                                                                        %! SM2:+SEGMENT:EMPTY_START_BAR
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 71 / measure 1]                                       %! COMMENT_MEASURE_NUMBERS
+    \time 11/32                                                                    %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \bar ""                                                                        %! MAKE_GLOBAL_SKIPS_3:+SEGMENT:EMPTY_START_BAR
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 11/32                                                                     %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (71)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <0>                                           %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((1))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.1]                                         %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[2'41'']"                                    %! SM28:CLOCK_TIME_MARKUP
-%@% - \abjad_invisible_line                                                        %! MMI_2
-%@% - \tweak bound-details.left.text \markup {                                     %! MMI_2
-%@%     \concat                                                                    %! MMI_2
-%@%         {                                                                      %! MMI_2
-%@%             \abjad-metronome-mark-markup #3 #0 #1 #"66"                        %! MMI_2
-%@%             \hspace                                                            %! MMI_2
-%@%                 #0.5                                                           %! MMI_2
-%@%         }                                                                      %! MMI_2
-%@%     }                                                                          %! MMI_2
-%@% \startTextSpan                                                                 %! MMI_2
-    - \abjad_invisible_line                                                        %! MMI_3
-    - \tweak bound-details.left.text \markup {                                     %! MMI_3
-        \concat                                                                    %! MMI_3
-            {                                                                      %! MMI_3
-                \with-color                                                        %! MMI_3
-                    #(x11-color 'green4)                                           %! MMI_3
-                    \abjad-metronome-mark-markup #3 #0 #1 #"66"                    %! MMI_3
-                \hspace                                                            %! MMI_3
-                    #0.5                                                           %! MMI_3
-            }                                                                      %! MMI_3
-        }                                                                          %! MMI_3
-    \startTextSpan                                                                 %! MMI_3
+%@% ^ \markup \baca-dark-cyan-markup (71)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <0>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((1))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.1]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[2'41'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+%@% - \abjad_invisible_line                                                        %! ATTACH_METRONOME_MARKS_2
+%@% - \tweak bound-details.left.text \markup {                                     %! ATTACH_METRONOME_MARKS_2
+%@%     \concat                                                                    %! ATTACH_METRONOME_MARKS_2
+%@%         {                                                                      %! ATTACH_METRONOME_MARKS_2
+%@%             \abjad-metronome-mark-markup #3 #0 #1 #"66"                        %! ATTACH_METRONOME_MARKS_2
+%@%             \hspace                                                            %! ATTACH_METRONOME_MARKS_2
+%@%                 #0.5                                                           %! ATTACH_METRONOME_MARKS_2
+%@%         }                                                                      %! ATTACH_METRONOME_MARKS_2
+%@%     }                                                                          %! ATTACH_METRONOME_MARKS_2
+%@% \startTextSpan                                                                 %! ATTACH_METRONOME_MARKS_2
+    - \abjad_invisible_line                                                        %! ATTACH_METRONOME_MARKS_3
+    - \tweak bound-details.left.text \markup {                                     %! ATTACH_METRONOME_MARKS_3
+        \concat                                                                    %! ATTACH_METRONOME_MARKS_3
+            {                                                                      %! ATTACH_METRONOME_MARKS_3
+                \with-color                                                        %! ATTACH_METRONOME_MARKS_3
+                    #(x11-color 'green4)                                           %! ATTACH_METRONOME_MARKS_3
+                    \abjad-metronome-mark-markup #3 #0 #1 #"66"                    %! ATTACH_METRONOME_MARKS_3
+                \hspace                                                            %! ATTACH_METRONOME_MARKS_3
+                    #0.5                                                           %! ATTACH_METRONOME_MARKS_3
+            }                                                                      %! ATTACH_METRONOME_MARKS_3
+        }                                                                          %! ATTACH_METRONOME_MARKS_3
+    \startTextSpan                                                                 %! ATTACH_METRONOME_MARKS_3
     
-    % [C GlobalSkips measure 72 / measure 2]                                       %! SM_4
-    \time 11/64                                                                    %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 72 / measure 2]                                       %! COMMENT_MEASURE_NUMBERS
+    \time 11/64                                                                    %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 11/64                                                                     %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (72)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <1>                                           %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((2))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.2]                                         %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[2'43'']"                                    %! SM28:CLOCK_TIME_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup (72)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <1>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((2))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.2]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[2'43'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
     
-    % [C GlobalSkips measure 73 / measure 3]                                       %! SM_4
+    % [C GlobalSkips measure 73 / measure 3]                                       %! COMMENT_MEASURE_NUMBERS
     s1 * 11/64                                                                     %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (73)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <2>                                           %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((3))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.3]                                         %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[2'44'']"                                    %! SM28:CLOCK_TIME_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup (73)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <2>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((3))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.3]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[2'44'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
     
-    % [C GlobalSkips measure 74 / measure 4]                                       %! SM_4
-    \time 5/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 74 / measure 4]                                       %! COMMENT_MEASURE_NUMBERS
+    \time 5/32                                                                     %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 5/32                                                                      %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (74)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <3>                                           %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((4))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.4]                                         %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[2'46'']"                                    %! SM28:CLOCK_TIME_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup (74)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <3>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((4))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.4]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[2'46'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
     
-    % [C GlobalSkips measure 75 / measure 5]                                       %! SM_4
-    \time 6/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 75 / measure 5]                                       %! COMMENT_MEASURE_NUMBERS
+    \time 6/32                                                                     %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 3/16                                                                      %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (75)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <4>                                           %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((5))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.5]                                         %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[2'47'']"                                    %! SM28:CLOCK_TIME_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup (75)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <4>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((5))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.5]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[2'47'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
     
-    % [C GlobalSkips measure 76 / measure 6]                                       %! SM_4
-    \time 3/16                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 76 / measure 6]                                       %! COMMENT_MEASURE_NUMBERS
+    \time 3/16                                                                     %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 3/16                                                                      %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (76)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <5>                                           %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((6))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.6]                                         %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[2'48'']"                                    %! SM28:CLOCK_TIME_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup (76)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <5>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((6))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.6]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[2'48'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
     
-    % [C GlobalSkips measure 77 / measure 7]                                       %! SM_4
-    \time 9/64                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 77 / measure 7]                                       %! COMMENT_MEASURE_NUMBERS
+    \time 9/64                                                                     %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 9/64                                                                      %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (77)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <6>                                           %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((7))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.7]                                         %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[2'49'']"                                    %! SM28:CLOCK_TIME_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup (77)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <6>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((7))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.7]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[2'49'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
     
-    % [C GlobalSkips measure 78 / measure 8]                                       %! SM_4
-    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 78 / measure 8]                                       %! COMMENT_MEASURE_NUMBERS
+    \time 3/8                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 3/8                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (78)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <7>                                           %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((8))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.8]                                         %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[2'50'']"                                    %! SM28:CLOCK_TIME_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup (78)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <7>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((8))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.8]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[2'50'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
     
-    % [C GlobalSkips measure 79 / measure 9]                                       %! SM_4
-    \time 4/5                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 79 / measure 9]                                       %! COMMENT_MEASURE_NUMBERS
+    \time 4/5                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 4/5                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (79)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <8>                                           %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((9))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.9]                                         %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[2'53'']"                                    %! SM28:CLOCK_TIME_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup (79)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <8>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((9))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.9]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[2'53'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
     
-    % [C GlobalSkips measure 80 / measure 10]                                      %! SM_4
-    \time 5/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 80 / measure 10]                                      %! COMMENT_MEASURE_NUMBERS
+    \time 5/32                                                                     %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 5/32                                                                      %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (80)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <9>                                           %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((10))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.10]                                        %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[2'59'']"                                    %! SM28:CLOCK_TIME_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup (80)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <9>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((10))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.10]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[2'59'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
     
-    % [C GlobalSkips measure 81 / measure 11]                                      %! SM_4
-    \time 9/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 81 / measure 11]                                      %! COMMENT_MEASURE_NUMBERS
+    \time 9/32                                                                     %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 9/32                                                                      %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (81)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <10>                                          %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((11))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.11]                                        %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[3'00'']"                                    %! SM28:CLOCK_TIME_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup (81)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <10>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((11))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.11]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[3'00'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
     
-    % [C GlobalSkips measure 82 / measure 12]                                      %! SM_4
-    \time 2/16                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 82 / measure 12]                                      %! COMMENT_MEASURE_NUMBERS
+    \time 2/16                                                                     %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 1/8                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (82)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <11>                                          %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((12))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.12]                                        %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[3'02'']"                                    %! SM28:CLOCK_TIME_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup (82)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <11>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((12))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.12]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[3'02'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
     
-    % [C GlobalSkips measure 83 / measure 13]                                      %! SM_4
-    \time 12/32                                                                    %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 83 / measure 13]                                      %! COMMENT_MEASURE_NUMBERS
+    \time 12/32                                                                    %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 3/8                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (83)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <12>                                          %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((13))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.13]                                        %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[3'03'']"                                    %! SM28:CLOCK_TIME_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup (83)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <12>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((13))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.13]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[3'03'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
     
-    % [C GlobalSkips measure 84 / measure 14]                                      %! SM_4
-    \time 2/16                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 84 / measure 14]                                      %! COMMENT_MEASURE_NUMBERS
+    \time 2/16                                                                     %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 1/8                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (84)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <13>                                          %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((14))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.14]                                        %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[3'06'']"                                    %! SM28:CLOCK_TIME_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup (84)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <13>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((14))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.14]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[3'06'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
     
-    % [C GlobalSkips measure 85 / measure 15]                                      %! SM_4
-    \time 5/32                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 85 / measure 15]                                      %! COMMENT_MEASURE_NUMBERS
+    \time 5/32                                                                     %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 5/32                                                                      %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (85)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <14>                                          %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((15))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.15]                                        %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[3'07'']"                                    %! SM28:CLOCK_TIME_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup (85)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <14>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((15))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.15]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[3'07'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
     
-    % [C GlobalSkips measure 86 / measure 16]                                      %! SM_4
-    \time 3/16                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 86 / measure 16]                                      %! COMMENT_MEASURE_NUMBERS
+    \time 3/16                                                                     %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 3/16                                                                      %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (86)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <15>                                          %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((16))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.16]                                        %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[3'08'']"                                    %! SM28:CLOCK_TIME_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup (86)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <15>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((16))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.16]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[3'08'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
     
-    % [C GlobalSkips measure 87 / measure 17]                                      %! SM_4
-    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 87 / measure 17]                                      %! COMMENT_MEASURE_NUMBERS
+    \time 3/8                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 3/8                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (87)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <16>                                          %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((17))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.17]                                        %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[3'09'']"                                    %! SM28:CLOCK_TIME_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup (87)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <16>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((17))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.17]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[3'09'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
     
-    % [C GlobalSkips measure 88 / measure 18]                                      %! SM_4
-    \time 4/5                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 88 / measure 18]                                      %! COMMENT_MEASURE_NUMBERS
+    \time 4/5                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 4/5                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (88)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <17>                                          %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((18))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.18]                                        %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[3'12'']"                                    %! SM28:CLOCK_TIME_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup (88)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <17>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((18))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.18]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[3'12'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
     
-    % [C GlobalSkips measure 89 / measure 19]                                      %! SM_4
-    \time 9/64                                                                     %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
+    % [C GlobalSkips measure 89 / measure 19]                                      %! COMMENT_MEASURE_NUMBERS
+    \time 9/64                                                                     %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
+    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
     s1 * 9/64                                                                      %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (89)                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <18>                                          %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((19))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [C.19]                                        %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[3'18'']"                                    %! SM28:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! MMI_4
-    \baca_bar_line_visible                                                         %! SM_5
-    \bar "|"                                                                       %! SM_5
+%@% ^ \markup \baca-dark-cyan-markup (89)                                          %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup <18>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup ((19))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup [C.19]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[3'18'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    \stopTextSpan                                                                  %! ATTACH_METRONOME_MARKS_4
+    \baca_bar_line_visible                                                         %! ATTACH_FINAL_BAR_LINE
+    \bar "|"                                                                       %! ATTACH_FINAL_BAR_LINE
     
 }
 
@@ -260,13 +260,13 @@ C_GuitarMusicVoiceI = {
             }
         \scaleDurations #'(1 . 1) {
             
-            % [C GuitarMusicVoiceI measure 71 / measure 1]                     %! SM_4
-            \override Beam.positions = #'(9 . 9)                               %! OC1
+            % [C GuitarMusicVoiceI measure 71 / measure 1]                     %! COMMENT_MEASURE_NUMBERS
+            \override Beam.positions = #'(9 . 9)                               %! OVERRIDE_COMMAND_1
             \once \override Beam.grow-direction = #right
-            \clef "treble"                                                     %! SM8:REAPPLIED_CLEF:SM37
-            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-        %@% \override GuitarMusicStaff.Clef.color = ##f                        %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-            \set GuitarMusicStaff.forceClef = ##t                              %! SM8:REAPPLIED_CLEF:SM33:SM37
+            \clef "treble"                                                     %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
+            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
+        %@% \override GuitarMusicStaff.Clef.color = ##f                        %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+            \set GuitarMusicStaff.forceClef = ##t                              %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
             f32 * 1984/1024
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -286,7 +286,7 @@ C_GuitarMusicVoiceI = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             [
-            \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)    %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+            \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)    %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
             
             a32 * 1088/1024
             
@@ -400,7 +400,7 @@ C_GuitarMusicVoiceI = {
             }
         \scaleDurations #'(1 . 1) {
             
-            % [C GuitarMusicVoiceI measure 72 / measure 2]                     %! SM_4
+            % [C GuitarMusicVoiceI measure 72 / measure 2]                     %! COMMENT_MEASURE_NUMBERS
             \once \override Beam.grow-direction = #right
             f'64 * 2048/1024
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
@@ -536,7 +536,7 @@ C_GuitarMusicVoiceI = {
             }
         \scaleDurations #'(1 . 1) {
             
-            % [C GuitarMusicVoiceI measure 73 / measure 3]                     %! SM_4
+            % [C GuitarMusicVoiceI measure 73 / measure 3]                     %! COMMENT_MEASURE_NUMBERS
             \once \override Beam.grow-direction = #right
             f''64 * 2560/1024
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
@@ -578,13 +578,13 @@ C_GuitarMusicVoiceI = {
             
             ef''!64 * 640/1024
             ]
-            \revert Beam.positions                                             %! OC2
+            \revert Beam.positions                                             %! OVERRIDE_COMMAND_2
         }
         \revert TupletNumber.text
     }
     
-    % [C GuitarMusicVoiceI measure 74 / measure 4]                             %! SM_4
-    \override Beam.positions = #'(6 . 6)                                       %! OC1
+    % [C GuitarMusicVoiceI measure 74 / measure 4]                             %! COMMENT_MEASURE_NUMBERS
+    \override Beam.positions = #'(6 . 6)                                       %! OVERRIDE_COMMAND_1
     s1 * 5/32
     {
         \override TupletNumber.text = \markup {
@@ -628,7 +628,7 @@ C_GuitarMusicVoiceI = {
             }
         \scaleDurations #'(1 . 1) {
             
-            % [C GuitarMusicVoiceI measure 75 / measure 5]                     %! SM_4
+            % [C GuitarMusicVoiceI measure 75 / measure 5]                     %! COMMENT_MEASURE_NUMBERS
             \once \override Beam.grow-direction = #left
             ef'!32 * 512/1024
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
@@ -711,7 +711,7 @@ C_GuitarMusicVoiceI = {
         }
     }
     
-    % [C GuitarMusicVoiceI measure 76 / measure 6]                             %! SM_4
+    % [C GuitarMusicVoiceI measure 76 / measure 6]                             %! COMMENT_MEASURE_NUMBERS
     s1 * 531/320
     {
         \override TupletNumber.text = \markup {
@@ -757,7 +757,7 @@ C_GuitarMusicVoiceI = {
             }
         \scaleDurations #'(1 . 1) {
             
-            % [C GuitarMusicVoiceI measure 81 / measure 11]                    %! SM_4
+            % [C GuitarMusicVoiceI measure 81 / measure 11]                    %! COMMENT_MEASURE_NUMBERS
             \once \override Beam.grow-direction = #right
             g'32 * 1856/1024
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
@@ -844,9 +844,9 @@ C_GuitarMusicVoiceI = {
         \revert TupletNumber.text
     }
     
-    % [C GuitarMusicVoiceI measure 82 / measure 12]                            %! SM_4
+    % [C GuitarMusicVoiceI measure 82 / measure 12]                            %! COMMENT_MEASURE_NUMBERS
     s1 * 1/8
-    \revert Beam.positions                                                     %! OC2
+    \revert Beam.positions                                                     %! OVERRIDE_COMMAND_2
     {
         \override TupletNumber.text = \markup {
             \scale
@@ -891,7 +891,7 @@ C_GuitarMusicVoiceI = {
             }
         \scaleDurations #'(1 . 1) {
             
-            % [C GuitarMusicVoiceI measure 83 / measure 13]                    %! SM_4
+            % [C GuitarMusicVoiceI measure 83 / measure 13]                    %! COMMENT_MEASURE_NUMBERS
             \once \override Beam.grow-direction = #right
             g32 * 1856/1024
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
@@ -1029,22 +1029,22 @@ C_GuitarMusicVoiceI = {
         \revert TupletNumber.text
     }
     
-    % [C GuitarMusicVoiceI measure 84 / measure 14]                            %! SM_4
+    % [C GuitarMusicVoiceI measure 84 / measure 14]                            %! COMMENT_MEASURE_NUMBERS
     s1 * 1/8
     
-    % [C GuitarMusicVoiceI measure 85 / measure 15]                            %! SM_4
+    % [C GuitarMusicVoiceI measure 85 / measure 15]                            %! COMMENT_MEASURE_NUMBERS
     s1 * 5/32
     
-    % [C GuitarMusicVoiceI measure 86 / measure 16]                            %! SM_4
+    % [C GuitarMusicVoiceI measure 86 / measure 16]                            %! COMMENT_MEASURE_NUMBERS
     s1 * 3/16
     
-    % [C GuitarMusicVoiceI measure 87 / measure 17]                            %! SM_4
+    % [C GuitarMusicVoiceI measure 87 / measure 17]                            %! COMMENT_MEASURE_NUMBERS
     s1 * 3/8
     
-    % [C GuitarMusicVoiceI measure 88 / measure 18]                            %! SM_4
+    % [C GuitarMusicVoiceI measure 88 / measure 18]                            %! COMMENT_MEASURE_NUMBERS
     s1 * 4/5
     
-    % [C GuitarMusicVoiceI measure 89 / measure 19]                            %! SM_4
+    % [C GuitarMusicVoiceI measure 89 / measure 19]                            %! COMMENT_MEASURE_NUMBERS
     s1 * 9/64
     
 }
@@ -1052,18 +1052,18 @@ C_GuitarMusicVoiceI = {
 
 C_GuitarMusicVoiceII = {
     
-    % [C GuitarMusicVoiceII measure 71 / measure 1]                            %! SM_4
+    % [C GuitarMusicVoiceII measure 71 / measure 1]                            %! COMMENT_MEASURE_NUMBERS
     s1 * 11/16
     {
         \tweak text #tuplet-number::calc-fraction-text
         \times 5/7 {
             
-            % [C GuitarMusicVoiceII measure 74 / measure 4]                    %! SM_4
-            \override Beam.positions = #'(-12 . -12)                           %! OC1
+            % [C GuitarMusicVoiceII measure 74 / measure 4]                    %! COMMENT_MEASURE_NUMBERS
+            \override Beam.positions = #'(-12 . -12)                           %! OVERRIDE_COMMAND_1
             \set stemLeftBeamCount = 0                                         %! SM_35
             \set stemRightBeamCount = 2                                        %! SM_35
             g'16
-            ^ \markup { "glissando: attack first note only" }                  %! IC
+            ^ \markup { "glissando: attack first note only" }                  %! INDICATOR_COMMAND
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1097,16 +1097,16 @@ C_GuitarMusicVoiceII = {
             \set stemLeftBeamCount = 3                                         %! SM_35
             \set stemRightBeamCount = 1                                        %! SM_35
             cs'''!32
-            \revert Beam.positions                                             %! OC2
+            \revert Beam.positions                                             %! OVERRIDE_COMMAND_2
         }
     }
     
-    % [C GuitarMusicVoiceII measure 75 / measure 5]                            %! SM_4
+    % [C GuitarMusicVoiceII measure 75 / measure 5]                            %! COMMENT_MEASURE_NUMBERS
     s1 * 681/320
     {
         \times 2/3 {
             
-            % [C GuitarMusicVoiceII measure 82 / measure 12]                   %! SM_4
+            % [C GuitarMusicVoiceII measure 82 / measure 12]                   %! COMMENT_MEASURE_NUMBERS
             \set stemLeftBeamCount = 1                                         %! SM_35
             \set stemRightBeamCount = 2                                        %! SM_35
             ef''!16
@@ -1140,12 +1140,12 @@ C_GuitarMusicVoiceII = {
         }
     }
     
-    % [C GuitarMusicVoiceII measure 83 / measure 13]                           %! SM_4
+    % [C GuitarMusicVoiceII measure 83 / measure 13]                           %! COMMENT_MEASURE_NUMBERS
     s1 * 3/8
     {
         \scaleDurations #'(1 . 1) {
             
-            % [C GuitarMusicVoiceII measure 84 / measure 14]                   %! SM_4
+            % [C GuitarMusicVoiceII measure 84 / measure 14]                   %! COMMENT_MEASURE_NUMBERS
             \set stemLeftBeamCount = 1                                         %! SM_35
             \set stemRightBeamCount = 2                                        %! SM_35
             b'16
@@ -1175,19 +1175,19 @@ C_GuitarMusicVoiceII = {
         }
     }
     
-    % [C GuitarMusicVoiceII measure 85 / measure 15]                           %! SM_4
+    % [C GuitarMusicVoiceII measure 85 / measure 15]                           %! COMMENT_MEASURE_NUMBERS
     s1 * 5/32
     
-    % [C GuitarMusicVoiceII measure 86 / measure 16]                           %! SM_4
+    % [C GuitarMusicVoiceII measure 86 / measure 16]                           %! COMMENT_MEASURE_NUMBERS
     s1 * 3/16
     
-    % [C GuitarMusicVoiceII measure 87 / measure 17]                           %! SM_4
+    % [C GuitarMusicVoiceII measure 87 / measure 17]                           %! COMMENT_MEASURE_NUMBERS
     s1 * 3/8
     
-    % [C GuitarMusicVoiceII measure 88 / measure 18]                           %! SM_4
+    % [C GuitarMusicVoiceII measure 88 / measure 18]                           %! COMMENT_MEASURE_NUMBERS
     s1 * 4/5
     
-    % [C GuitarMusicVoiceII measure 89 / measure 19]                           %! SM_4
+    % [C GuitarMusicVoiceII measure 89 / measure 19]                           %! COMMENT_MEASURE_NUMBERS
     s1 * 9/64
     
 }
@@ -1195,13 +1195,13 @@ C_GuitarMusicVoiceII = {
 
 C_GuitarMusicVoiceIII = {
     
-    % [C GuitarMusicVoiceIII measure 71 / measure 1]                           %! SM_4
+    % [C GuitarMusicVoiceIII measure 71 / measure 1]                           %! COMMENT_MEASURE_NUMBERS
     s1 * 33/32
     {
         \tweak text #tuplet-number::calc-fraction-text
         \times 5/6 {
             
-            % [C GuitarMusicVoiceIII measure 76 / measure 6]                   %! SM_4
+            % [C GuitarMusicVoiceIII measure 76 / measure 6]                   %! COMMENT_MEASURE_NUMBERS
             \set stemLeftBeamCount = 0                                         %! SM_35
             \set stemRightBeamCount = 4                                        %! SM_35
             f''64
@@ -1295,7 +1295,7 @@ C_GuitarMusicVoiceIII = {
     {
         \times 4/5 {
             
-            % [C GuitarMusicVoiceIII measure 77 / measure 7]                   %! SM_4
+            % [C GuitarMusicVoiceIII measure 77 / measure 7]                   %! COMMENT_MEASURE_NUMBERS
             \set stemLeftBeamCount = 1                                         %! SM_35
             \set stemRightBeamCount = 4                                        %! SM_35
             af'!64
@@ -1374,13 +1374,13 @@ C_GuitarMusicVoiceIII = {
         }
     }
     
-    % [C GuitarMusicVoiceIII measure 78 / measure 8]                           %! SM_4
+    % [C GuitarMusicVoiceIII measure 78 / measure 8]                           %! COMMENT_MEASURE_NUMBERS
     s1 * 47/40
     {
         \tweak text #tuplet-number::calc-fraction-text
         \times 3/4 {
             
-            % [C GuitarMusicVoiceIII measure 80 / measure 10]                  %! SM_4
+            % [C GuitarMusicVoiceIII measure 80 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
             \set stemLeftBeamCount = 1                                         %! SM_35
             \set stemRightBeamCount = 4                                        %! SM_35
             g'64
@@ -1462,12 +1462,12 @@ C_GuitarMusicVoiceIII = {
         }
     }
     
-    % [C GuitarMusicVoiceIII measure 81 / measure 11]                          %! SM_4
+    % [C GuitarMusicVoiceIII measure 81 / measure 11]                          %! COMMENT_MEASURE_NUMBERS
     s1 * 29/32
     {
         \scaleDurations #'(1 . 1) {
             
-            % [C GuitarMusicVoiceIII measure 85 / measure 15]                  %! SM_4
+            % [C GuitarMusicVoiceIII measure 85 / measure 15]                  %! COMMENT_MEASURE_NUMBERS
             \set stemLeftBeamCount = 0                                         %! SM_35
             \set stemRightBeamCount = 4                                        %! SM_35
             c''64
@@ -1550,7 +1550,7 @@ C_GuitarMusicVoiceIII = {
         \tweak text #tuplet-number::calc-fraction-text
         \times 5/6 {
             
-            % [C GuitarMusicVoiceIII measure 86 / measure 16]                  %! SM_4
+            % [C GuitarMusicVoiceIII measure 86 / measure 16]                  %! COMMENT_MEASURE_NUMBERS
             \set stemLeftBeamCount = 1                                         %! SM_35
             \set stemRightBeamCount = 4                                        %! SM_35
             f'64
@@ -1641,12 +1641,12 @@ C_GuitarMusicVoiceIII = {
         }
     }
     
-    % [C GuitarMusicVoiceIII measure 87 / measure 17]                          %! SM_4
+    % [C GuitarMusicVoiceIII measure 87 / measure 17]                          %! COMMENT_MEASURE_NUMBERS
     s1 * 47/40
     {
         \times 4/5 {
             
-            % [C GuitarMusicVoiceIII measure 89 / measure 19]                  %! SM_4
+            % [C GuitarMusicVoiceIII measure 89 / measure 19]                  %! COMMENT_MEASURE_NUMBERS
             \set stemLeftBeamCount = 1                                         %! SM_35
             \set stemRightBeamCount = 4                                        %! SM_35
             af'!64
@@ -1731,7 +1731,7 @@ C_GuitarMusicVoiceIII = {
 
 C_GuitarMusicVoiceIV = {
     
-    % [C GuitarMusicVoiceIV measure 71 / measure 1]                            %! SM_4
+    % [C GuitarMusicVoiceIV measure 71 / measure 1]                            %! COMMENT_MEASURE_NUMBERS
     s1 * 87/64
     ^ \markup {                                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1741,7 +1741,7 @@ C_GuitarMusicVoiceIV = {
     {
         \scaleDurations #'(1 . 1) {
             
-            % [C GuitarMusicVoiceIV measure 78 / measure 8]                    %! SM_4
+            % [C GuitarMusicVoiceIV measure 78 / measure 8]                    %! COMMENT_MEASURE_NUMBERS
             r8
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -1770,19 +1770,19 @@ C_GuitarMusicVoiceIV = {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            % [C GuitarMusicVoiceIV measure 79 / measure 9]                    %! SM_4
-            \override Stem.direction = #up                                     %! OC1
-            \override TupletBracket.staff-padding = #0                         %! OC1
-            \once \override TupletBracket.extra-offset = #'(0 . -0.5)          %! OC1
-            \once \override TupletNumber.extra-offset = #'(0 . -0.5)           %! OC1
+            % [C GuitarMusicVoiceIV measure 79 / measure 9]                    %! COMMENT_MEASURE_NUMBERS
+            \override Stem.direction = #up                                     %! OVERRIDE_COMMAND_1
+            \override TupletBracket.staff-padding = #0                         %! OVERRIDE_COMMAND_1
+            \once \override TupletBracket.extra-offset = #'(0 . -0.5)          %! OVERRIDE_COMMAND_1
+            \once \override TupletNumber.extra-offset = #'(0 . -0.5)           %! OVERRIDE_COMMAND_1
             gf!2
-            :32                                                                %! IC
-            ^ \markup {                                                        %! IC
-                \override                                                      %! IC
-                    #'(box-padding . 0.5)                                      %! IC
-                    \box                                                       %! IC
-                        "2-finger tamb. trill"                                 %! IC
-                }                                                              %! IC
+            :32                                                                %! INDICATOR_COMMAND
+            ^ \markup {                                                        %! INDICATOR_COMMAND
+                \override                                                      %! INDICATOR_COMMAND
+                    #'(box-padding . 0.5)                                      %! INDICATOR_COMMAND
+                    \box                                                       %! INDICATOR_COMMAND
+                        "2-finger tamb. trill"                                 %! INDICATOR_COMMAND
+                }                                                              %! INDICATOR_COMMAND
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1805,19 +1805,19 @@ C_GuitarMusicVoiceIV = {
         \times 4/5 {
             
             gf!2
-            :32                                                                %! IC
+            :32                                                                %! INDICATOR_COMMAND
             \repeatTie                                                         %! SC
-            \revert Stem.direction                                             %! OC2
-            \revert TupletBracket.staff-padding                                %! OC2
+            \revert Stem.direction                                             %! OVERRIDE_COMMAND_2
+            \revert TupletBracket.staff-padding                                %! OVERRIDE_COMMAND_2
         }
     }
     
-    % [C GuitarMusicVoiceIV measure 80 / measure 10]                           %! SM_4
+    % [C GuitarMusicVoiceIV measure 80 / measure 10]                           %! COMMENT_MEASURE_NUMBERS
     s1 * 45/32
     {
         \scaleDurations #'(1 . 1) {
             
-            % [C GuitarMusicVoiceIV measure 87 / measure 17]                   %! SM_4
+            % [C GuitarMusicVoiceIV measure 87 / measure 17]                   %! COMMENT_MEASURE_NUMBERS
             r8
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -1846,19 +1846,19 @@ C_GuitarMusicVoiceIV = {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            % [C GuitarMusicVoiceIV measure 88 / measure 18]                   %! SM_4
-            \override Stem.direction = #up                                     %! OC1
-            \override TupletBracket.staff-padding = #0                         %! OC1
-            \once \override TupletBracket.extra-offset = #'(0 . -0.5)          %! OC1
-            \once \override TupletNumber.extra-offset = #'(0 . -0.5)           %! OC1
+            % [C GuitarMusicVoiceIV measure 88 / measure 18]                   %! COMMENT_MEASURE_NUMBERS
+            \override Stem.direction = #up                                     %! OVERRIDE_COMMAND_1
+            \override TupletBracket.staff-padding = #0                         %! OVERRIDE_COMMAND_1
+            \once \override TupletBracket.extra-offset = #'(0 . -0.5)          %! OVERRIDE_COMMAND_1
+            \once \override TupletNumber.extra-offset = #'(0 . -0.5)           %! OVERRIDE_COMMAND_1
             gf!2
-            :32                                                                %! IC
-            ^ \markup {                                                        %! IC
-                \override                                                      %! IC
-                    #'(box-padding . 0.5)                                      %! IC
-                    \box                                                       %! IC
-                        "2-finger tamb. trill"                                 %! IC
-                }                                                              %! IC
+            :32                                                                %! INDICATOR_COMMAND
+            ^ \markup {                                                        %! INDICATOR_COMMAND
+                \override                                                      %! INDICATOR_COMMAND
+                    #'(box-padding . 0.5)                                      %! INDICATOR_COMMAND
+                    \box                                                       %! INDICATOR_COMMAND
+                        "2-finger tamb. trill"                                 %! INDICATOR_COMMAND
+                }                                                              %! INDICATOR_COMMAND
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1881,14 +1881,14 @@ C_GuitarMusicVoiceIV = {
         \times 4/5 {
             
             gf!2
-            :32                                                                %! IC
+            :32                                                                %! INDICATOR_COMMAND
             \repeatTie                                                         %! SC
-            \revert Stem.direction                                             %! OC2
-            \revert TupletBracket.staff-padding                                %! OC2
+            \revert Stem.direction                                             %! OVERRIDE_COMMAND_2
+            \revert TupletBracket.staff-padding                                %! OVERRIDE_COMMAND_2
         }
     }
     
-    % [C GuitarMusicVoiceIV measure 89 / measure 19]                           %! SM_4
+    % [C GuitarMusicVoiceIV measure 89 / measure 19]                           %! COMMENT_MEASURE_NUMBERS
     s1 * 9/64
     
 }

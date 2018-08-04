@@ -37,7 +37,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                 <<
                     \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
                     {
-                        \clef "treble"                                                 %! ST_3
+                        \clef "treble"                                                 %! ScoreTemplate(3)
                         s1
                     }
                     \context GuitarMusicVoiceII = "GuitarMusicVoiceII"

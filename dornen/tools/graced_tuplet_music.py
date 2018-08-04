@@ -80,22 +80,22 @@ def graced_tuplet_music():
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! COMMENT_MEASURE_NUMBERS
-                        \time 19/56                                                        %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-                        s1 * 19/56                                                         %! MAKE_GLOBAL_SKIPS_1
+                        % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
+                        \time 19/56                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        s1 * 19/56                                                         %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! COMMENT_MEASURE_NUMBERS
-                        \time 39/56                                                        %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-                        s1 * 39/56                                                         %! MAKE_GLOBAL_SKIPS_1
+                        % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
+                        \time 39/56                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        s1 * 39/56                                                         %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! COMMENT_MEASURE_NUMBERS
-                        \time 53/112                                                       %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-                        s1 * 53/112                                                        %! MAKE_GLOBAL_SKIPS_1
-                        \baca_bar_line_visible                                             %! ATTACH_FINAL_BAR_LINE
-                        \bar "|"                                                           %! ATTACH_FINAL_BAR_LINE
+                        % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
+                        \time 53/112                                                       %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        s1 * 53/112                                                        %! _make_global_skips(1)
+                        \baca_bar_line_visible                                             %! _attach_final_bar_line
+                        \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }
                 >>
@@ -109,7 +109,7 @@ def graced_tuplet_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! COMMENT_MEASURE_NUMBERS
+                                % [MusicVoice measure 1]                                   %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
                                 af'!16
@@ -168,7 +168,7 @@ def graced_tuplet_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! COMMENT_MEASURE_NUMBERS
+                                % [MusicVoice measure 2]                                   %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
                                 cs'!16
@@ -267,7 +267,7 @@ def graced_tuplet_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! COMMENT_MEASURE_NUMBERS
+                                % [MusicVoice measure 3]                                   %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
                                 a'16

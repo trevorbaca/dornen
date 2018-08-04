@@ -1,464 +1,464 @@
 L_GlobalSkips = {
     
-    % [L GlobalSkips measure 257 / measure 1]                                      %! COMMENT_MEASURE_NUMBERS
-    \time 2/5                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \bar ""                                                                        %! MAKE_GLOBAL_SKIPS_3:+SEGMENT:EMPTY_START_BAR
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (257)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <0>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((1))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.1]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[9'35'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
-%@% - \abjad_invisible_line                                                        %! ATTACH_METRONOME_MARKS_2
-%@% - \tweak bound-details.left.text \markup {                                     %! ATTACH_METRONOME_MARKS_2
-%@%     \concat                                                                    %! ATTACH_METRONOME_MARKS_2
-%@%         {                                                                      %! ATTACH_METRONOME_MARKS_2
-%@%             \abjad-metronome-mark-markup #3 #0 #1 #"66"                        %! ATTACH_METRONOME_MARKS_2
-%@%             \hspace                                                            %! ATTACH_METRONOME_MARKS_2
-%@%                 #0.5                                                           %! ATTACH_METRONOME_MARKS_2
-%@%         }                                                                      %! ATTACH_METRONOME_MARKS_2
-%@%     }                                                                          %! ATTACH_METRONOME_MARKS_2
-%@% \startTextSpan                                                                 %! ATTACH_METRONOME_MARKS_2
-    - \abjad_invisible_line                                                        %! ATTACH_METRONOME_MARKS_3
-    - \tweak bound-details.left.text \markup {                                     %! ATTACH_METRONOME_MARKS_3
-        \concat                                                                    %! ATTACH_METRONOME_MARKS_3
-            {                                                                      %! ATTACH_METRONOME_MARKS_3
-                \with-color                                                        %! ATTACH_METRONOME_MARKS_3
-                    #(x11-color 'green4)                                           %! ATTACH_METRONOME_MARKS_3
-                    \abjad-metronome-mark-markup #3 #0 #1 #"66"                    %! ATTACH_METRONOME_MARKS_3
-                \hspace                                                            %! ATTACH_METRONOME_MARKS_3
-                    #0.5                                                           %! ATTACH_METRONOME_MARKS_3
-            }                                                                      %! ATTACH_METRONOME_MARKS_3
-        }                                                                          %! ATTACH_METRONOME_MARKS_3
-    \startTextSpan                                                                 %! ATTACH_METRONOME_MARKS_3
+    % [L GlobalSkips measure 257 / measure 1]                                      %! _comment_measure_numbers
+    \time 2/5                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \bar ""                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 2/5                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (257)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <0>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((1))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.1]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[9'35'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% - \abjad_invisible_line                                                        %! _attach_metronome_marks(2)
+%@% - \tweak bound-details.left.text \markup {                                     %! _attach_metronome_marks(2)
+%@%     \concat                                                                    %! _attach_metronome_marks(2)
+%@%         {                                                                      %! _attach_metronome_marks(2)
+%@%             \abjad-metronome-mark-markup #3 #0 #1 #"66"                        %! _attach_metronome_marks(2)
+%@%             \hspace                                                            %! _attach_metronome_marks(2)
+%@%                 #0.5                                                           %! _attach_metronome_marks(2)
+%@%         }                                                                      %! _attach_metronome_marks(2)
+%@%     }                                                                          %! _attach_metronome_marks(2)
+%@% \startTextSpan                                                                 %! _attach_metronome_marks(2)
+    - \abjad_invisible_line                                                        %! _attach_metronome_marks(3)
+    - \tweak bound-details.left.text \markup {                                     %! _attach_metronome_marks(3)
+        \concat                                                                    %! _attach_metronome_marks(3)
+            {                                                                      %! _attach_metronome_marks(3)
+                \with-color                                                        %! _attach_metronome_marks(3)
+                    #(x11-color 'green4)                                           %! _attach_metronome_marks(3)
+                    \abjad-metronome-mark-markup #3 #0 #1 #"66"                    %! _attach_metronome_marks(3)
+                \hspace                                                            %! _attach_metronome_marks(3)
+                    #0.5                                                           %! _attach_metronome_marks(3)
+            }                                                                      %! _attach_metronome_marks(3)
+        }                                                                          %! _attach_metronome_marks(3)
+    \startTextSpan                                                                 %! _attach_metronome_marks(3)
     
-    % [L GlobalSkips measure 258 / measure 2]                                      %! COMMENT_MEASURE_NUMBERS
-    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (258)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <1>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((2))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.2]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[9'37'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 258 / measure 2]                                      %! _comment_measure_numbers
+    s1 * 2/5                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (258)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <1>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((2))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.2]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[9'37'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 259 / measure 3]                                      %! COMMENT_MEASURE_NUMBERS
-    \time 1/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (259)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <2>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((3))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.3]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[9'40'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 259 / measure 3]                                      %! _comment_measure_numbers
+    \time 1/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (259)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <2>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((3))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.3]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[9'40'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 260 / measure 4]                                      %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (260)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <3>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((4))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.4]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[9'43'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 260 / measure 4]                                      %! _comment_measure_numbers
+    s1 * 1/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (260)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <3>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((4))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.4]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[9'43'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 261 / measure 5]                                      %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (261)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <4>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((5))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.5]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[9'45'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 261 / measure 5]                                      %! _comment_measure_numbers
+    s1 * 1/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (261)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <4>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((5))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.5]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[9'45'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 262 / measure 6]                                      %! COMMENT_MEASURE_NUMBERS
-    \time 2/5                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (262)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <5>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((6))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.6]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[9'48'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 262 / measure 6]                                      %! _comment_measure_numbers
+    \time 2/5                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 2/5                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (262)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <5>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((6))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.6]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[9'48'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 263 / measure 7]                                      %! COMMENT_MEASURE_NUMBERS
-    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (263)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <6>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((7))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.7]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[9'51'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 263 / measure 7]                                      %! _comment_measure_numbers
+    s1 * 2/5                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (263)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <6>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((7))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.7]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[9'51'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 264 / measure 8]                                      %! COMMENT_MEASURE_NUMBERS
-    \time 1/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (264)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <7>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((8))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.8]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[9'53'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 264 / measure 8]                                      %! _comment_measure_numbers
+    \time 1/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (264)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <7>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((8))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.8]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[9'53'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 265 / measure 9]                                      %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (265)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <8>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((9))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.9]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[9'56'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 265 / measure 9]                                      %! _comment_measure_numbers
+    s1 * 1/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (265)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <8>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((9))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.9]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[9'56'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 266 / measure 10]                                     %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (266)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <9>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((10))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.10]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[9'58'']"                                    %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 266 / measure 10]                                     %! _comment_measure_numbers
+    s1 * 1/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (266)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <9>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((10))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.10]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[9'58'']"                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 267 / measure 11]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 2/5                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (267)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <10>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((11))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.11]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[10'01'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 267 / measure 11]                                     %! _comment_measure_numbers
+    \time 2/5                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 2/5                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (267)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <10>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((11))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.11]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[10'01'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 268 / measure 12]                                     %! COMMENT_MEASURE_NUMBERS
-    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (268)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <11>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((12))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.12]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[10'04'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 268 / measure 12]                                     %! _comment_measure_numbers
+    s1 * 2/5                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (268)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <11>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((12))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.12]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[10'04'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 269 / measure 13]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 1/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (269)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <12>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((13))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.13]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[10'07'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 269 / measure 13]                                     %! _comment_measure_numbers
+    \time 1/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (269)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <12>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((13))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.13]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[10'07'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 270 / measure 14]                                     %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (270)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <13>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((14))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.14]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[10'09'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 270 / measure 14]                                     %! _comment_measure_numbers
+    s1 * 1/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (270)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <13>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((14))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.14]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[10'09'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 271 / measure 15]                                     %! COMMENT_MEASURE_NUMBERS
-    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (271)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <14>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((15))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.15]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[10'11'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 271 / measure 15]                                     %! _comment_measure_numbers
+    s1 * 1/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (271)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <14>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((15))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.15]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[10'11'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 272 / measure 16]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 2/5                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (272)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <15>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((16))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.16]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[10'14'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 272 / measure 16]                                     %! _comment_measure_numbers
+    \time 2/5                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 2/5                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (272)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <15>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((16))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.16]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[10'14'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 273 / measure 17]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 2/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 2/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (273)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <16>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((17))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.17]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[10'17'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 273 / measure 17]                                     %! _comment_measure_numbers
+    \time 2/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 2/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (273)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <16>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((17))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.17]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[10'17'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 274 / measure 18]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 2/5                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (274)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <17>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((18))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.18]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[10'22'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 274 / measure 18]                                     %! _comment_measure_numbers
+    \time 2/5                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 2/5                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (274)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <17>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((18))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.18]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[10'22'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 275 / measure 19]                                     %! COMMENT_MEASURE_NUMBERS
-    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (275)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <18>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((19))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.19]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[10'24'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 275 / measure 19]                                     %! _comment_measure_numbers
+    s1 * 2/5                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (275)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <18>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((19))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.19]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[10'24'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 276 / measure 20]                                     %! COMMENT_MEASURE_NUMBERS
-    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (276)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <19>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((20))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.20]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[10'27'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 276 / measure 20]                                     %! _comment_measure_numbers
+    s1 * 2/5                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (276)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <19>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((20))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.20]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[10'27'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 277 / measure 21]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 3/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (277)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <20>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((21))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.21]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[10'30'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 277 / measure 21]                                     %! _comment_measure_numbers
+    \time 3/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (277)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <20>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((21))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.21]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[10'30'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 278 / measure 22]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 2/5                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (278)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <21>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((22))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.22]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[10'38'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 278 / measure 22]                                     %! _comment_measure_numbers
+    \time 2/5                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 2/5                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (278)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <21>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((22))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.22]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[10'38'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 279 / measure 23]                                     %! COMMENT_MEASURE_NUMBERS
-    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (279)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <22>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((23))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.23]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[10'40'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 279 / measure 23]                                     %! _comment_measure_numbers
+    s1 * 2/5                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (279)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <22>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((23))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.23]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[10'40'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 280 / measure 24]                                     %! COMMENT_MEASURE_NUMBERS
-    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (280)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <23>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((24))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.24]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[10'43'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 280 / measure 24]                                     %! _comment_measure_numbers
+    s1 * 2/5                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (280)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <23>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((24))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.24]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[10'43'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 281 / measure 25]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 4/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 4/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (281)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <24>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((25))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.25]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[10'46'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 281 / measure 25]                                     %! _comment_measure_numbers
+    \time 4/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 4/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (281)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <24>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((25))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.25]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[10'46'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 282 / measure 26]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 5/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 5/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (282)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <25>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((26))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.26]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[10'56'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 282 / measure 26]                                     %! _comment_measure_numbers
+    \time 5/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 5/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (282)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <25>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((26))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.26]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[10'56'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 283 / measure 27]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 4/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 4/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (283)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <26>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((27))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.27]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[11'08'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 283 / measure 27]                                     %! _comment_measure_numbers
+    \time 4/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 4/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (283)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <26>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((27))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.27]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[11'08'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 284 / measure 28]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 3/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (284)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <27>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((28))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.28]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[11'18'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 284 / measure 28]                                     %! _comment_measure_numbers
+    \time 3/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (284)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <27>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((28))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.28]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[11'18'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 285 / measure 29]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 2/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 2/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (285)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <28>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((29))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.29]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[11'25'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 285 / measure 29]                                     %! _comment_measure_numbers
+    \time 2/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 2/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (285)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <28>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((29))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.29]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[11'25'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 286 / measure 30]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 1/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (286)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <29>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((30))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.30]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[11'30'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 286 / measure 30]                                     %! _comment_measure_numbers
+    \time 1/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (286)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <29>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((30))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.30]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[11'30'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 287 / measure 31]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 2/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 2/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (287)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <30>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((31))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.31]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[11'32'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 287 / measure 31]                                     %! _comment_measure_numbers
+    \time 2/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 2/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (287)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <30>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((31))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.31]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[11'32'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 288 / measure 32]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 3/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (288)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <31>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((32))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.32]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[11'37'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 288 / measure 32]                                     %! _comment_measure_numbers
+    \time 3/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (288)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <31>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((32))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.32]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[11'37'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 289 / measure 33]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 4/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 4/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (289)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <32>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((33))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.33]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[11'44'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 289 / measure 33]                                     %! _comment_measure_numbers
+    \time 4/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 4/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (289)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <32>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((33))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.33]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[11'44'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 290 / measure 34]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 5/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 5/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (290)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <33>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((34))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.34]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[11'54'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 290 / measure 34]                                     %! _comment_measure_numbers
+    \time 5/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 5/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (290)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <33>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((34))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.34]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[11'54'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 291 / measure 35]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 4/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 4/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (291)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <34>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((35))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.35]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[12'06'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 291 / measure 35]                                     %! _comment_measure_numbers
+    \time 4/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 4/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (291)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <34>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((35))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.35]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[12'06'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 292 / measure 36]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 3/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (292)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <35>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((36))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.36]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[12'16'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 292 / measure 36]                                     %! _comment_measure_numbers
+    \time 3/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (292)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <35>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((36))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.36]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[12'16'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 293 / measure 37]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 2/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 2/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (293)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <36>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((37))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.37]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[12'23'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 293 / measure 37]                                     %! _comment_measure_numbers
+    \time 2/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 2/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (293)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <36>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((37))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.37]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[12'23'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 294 / measure 38]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 1/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (294)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <37>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((38))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.38]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[12'28'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 294 / measure 38]                                     %! _comment_measure_numbers
+    \time 1/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (294)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <37>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((38))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.38]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[12'28'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 295 / measure 39]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 2/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 2/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (295)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <38>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((39))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.39]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[12'31'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 295 / measure 39]                                     %! _comment_measure_numbers
+    \time 2/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 2/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (295)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <38>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((39))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.39]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[12'31'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 296 / measure 40]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 3/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (296)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <39>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((40))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.40]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[12'35'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 296 / measure 40]                                     %! _comment_measure_numbers
+    \time 3/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (296)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <39>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((40))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.40]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[12'35'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 297 / measure 41]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 4/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 4/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (297)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <40>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((41))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.41]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[12'43'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 297 / measure 41]                                     %! _comment_measure_numbers
+    \time 4/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 4/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (297)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <40>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((41))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.41]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[12'43'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 298 / measure 42]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 5/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 5/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (298)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <41>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((42))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.42]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[12'52'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 298 / measure 42]                                     %! _comment_measure_numbers
+    \time 5/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 5/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (298)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <41>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((42))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.42]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[12'52'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 299 / measure 43]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 3/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (299)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <42>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((43))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.43]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[13'04'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 299 / measure 43]                                     %! _comment_measure_numbers
+    \time 3/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (299)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <42>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((43))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.43]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[13'04'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 300 / measure 44]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 2/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 2/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (300)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <43>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((44))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.44]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[13'12'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 300 / measure 44]                                     %! _comment_measure_numbers
+    \time 2/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 2/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (300)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <43>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((44))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.44]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[13'12'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 301 / measure 45]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 1/3                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (301)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <44>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((45))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.45]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[13'17'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [L GlobalSkips measure 301 / measure 45]                                     %! _comment_measure_numbers
+    \time 1/3                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/3                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (301)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <44>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((45))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.45]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[13'17'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [L GlobalSkips measure 302 / measure 46]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 5/8                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 5/8                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (302)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <45>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((46))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [L.46]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[13'19'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! ATTACH_METRONOME_MARKS_4
-    \baca_bar_line_visible                                                         %! ATTACH_FINAL_BAR_LINE
-    \bar "|"                                                                       %! ATTACH_FINAL_BAR_LINE
+    % [L GlobalSkips measure 302 / measure 46]                                     %! _comment_measure_numbers
+    \time 5/8                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 5/8                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (302)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <45>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((46))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [L.46]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[13'19'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
+    \stopTextSpan                                                                  %! _attach_metronome_marks(4)
+    \baca_bar_line_visible                                                         %! _attach_final_bar_line
+    \bar "|"                                                                       %! _attach_final_bar_line
     
 }
 
@@ -468,17 +468,17 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            % [L GuitarMusicVoiceI measure 257 / measure 1]                    %! COMMENT_MEASURE_NUMBERS
-            \override TextSpanner.staff-padding = #5                           %! OVERRIDE_COMMAND_1
-            \override TextScript.staff-padding = #8                            %! OVERRIDE_COMMAND_1
-            \clef "treble"                                                     %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-        %@% \override GuitarMusicStaff.Clef.color = ##f                        %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-            \set GuitarMusicStaff.forceClef = ##t                              %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'green4) %! ATTACH_COLOR_LITERAL_2:REAPPLIED_DYNAMIC_COLOR:SM37
+            % [L GuitarMusicVoiceI measure 257 / measure 1]                    %! _comment_measure_numbers
+            \override TextSpanner.staff-padding = #5                           %! OverrideCommand(1)
+            \override TextScript.staff-padding = #8                            %! OverrideCommand(1)
+            \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+        %@% \override GuitarMusicStaff.Clef.color = ##f                        %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+            \set GuitarMusicStaff.forceClef = ##t                              %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mp                                                                %! SET_STATUS_TAG:REAPPLIED_DYNAMIC:SM37
+            :32                                                                %! IndicatorCommand
+            \mp                                                                %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -501,18 +501,18 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)    %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+            \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)    %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         }
     }
     {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            % [L GuitarMusicVoiceI measure 258 / measure 2]                    %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 258 / measure 2]                    %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mp                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -535,26 +535,26 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
-            - \abjad_dashed_line_with_arrow                                    %! PIC_1
-            - \tweak bound-details.left.text \markup \baca-left "tamb. tr."    %! PIC_1
-            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PIC_1
-            - \tweak bound-details.right.padding #0.5                          %! PIC_1
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
-            \startTextSpan                                                     %! PIC_1
+            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.left.text \markup \baca-left "tamb. tr."    %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
+            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         }
     }
     {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 259 / measure 3]                    %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+            % [L GuitarMusicVoiceI measure 259 / measure 3]                    %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mf                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+            :32                                                                %! IndicatorCommand
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -578,18 +578,18 @@ L_GuitarMusicVoiceI = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SC
-            \stopTextSpan                                                      %! PIC_2
+            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         }
     }
     {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 260 / measure 4]                    %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 260 / measure 4]                    %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mf                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -612,26 +612,26 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
-            - \abjad_dashed_line_with_arrow                                    %! PIC_1
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC_1
-            - \tweak bound-details.right.text \markup \baca-right "tamb. tr."  %! PIC_1
-            - \tweak bound-details.right.padding #0.5                          %! PIC_1
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
-            \startTextSpan                                                     %! PIC_1
+            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.text \markup \baca-right "tamb. tr."  %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
+            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         }
     }
     {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 261 / measure 5]                    %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+            % [L GuitarMusicVoiceI measure 261 / measure 5]                    %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mp                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+            :32                                                                %! IndicatorCommand
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -655,22 +655,22 @@ L_GuitarMusicVoiceI = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SC
-            \stopTextSpan                                                      %! PIC_2
+            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         }
     }
     {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            % [L GuitarMusicVoiceI measure 262 / measure 6]                    %! COMMENT_MEASURE_NUMBERS
+            % [L GuitarMusicVoiceI measure 262 / measure 6]                    %! _comment_measure_numbers
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            ^ \markup {                                                        %! INDICATOR_COMMAND
-                \override                                                      %! INDICATOR_COMMAND
-                    #'(box-padding . 0.5)                                      %! INDICATOR_COMMAND
-                    \box                                                       %! INDICATOR_COMMAND
-                        "3 fingers"                                            %! INDICATOR_COMMAND
-                }                                                              %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
+            ^ \markup {                                                        %! IndicatorCommand
+                \override                                                      %! IndicatorCommand
+                    #'(box-padding . 0.5)                                      %! IndicatorCommand
+                    \box                                                       %! IndicatorCommand
+                        "3 fingers"                                            %! IndicatorCommand
+                }                                                              %! IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -700,11 +700,11 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            % [L GuitarMusicVoiceI measure 263 / measure 7]                    %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 263 / measure 7]                    %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mp                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -727,26 +727,26 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
-            - \abjad_dashed_line_with_arrow                                    %! PIC_1
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC_1
-            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PIC_1
-            - \tweak bound-details.right.padding #0.5                          %! PIC_1
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
-            \startTextSpan                                                     %! PIC_1
+            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
+            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         }
     }
     {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 264 / measure 8]                    %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+            % [L GuitarMusicVoiceI measure 264 / measure 8]                    %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \f                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+            :32                                                                %! IndicatorCommand
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -770,18 +770,18 @@ L_GuitarMusicVoiceI = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SC
-            \stopTextSpan                                                      %! PIC_2
+            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         }
     }
     {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 265 / measure 9]                    %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 265 / measure 9]                    %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \f                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -804,26 +804,26 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
-            - \abjad_dashed_line_with_arrow                                    %! PIC_1
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC_1
-            - \tweak bound-details.right.text \markup \baca-right "tamb. tr."  %! PIC_1
-            - \tweak bound-details.right.padding #0.5                          %! PIC_1
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
-            \startTextSpan                                                     %! PIC_1
+            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.text \markup \baca-right "tamb. tr."  %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
+            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         }
     }
     {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 266 / measure 10]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+            % [L GuitarMusicVoiceI measure 266 / measure 10]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mp                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+            :32                                                                %! IndicatorCommand
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -847,22 +847,22 @@ L_GuitarMusicVoiceI = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SC
-            \stopTextSpan                                                      %! PIC_2
+            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         }
     }
     {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            % [L GuitarMusicVoiceI measure 267 / measure 11]                   %! COMMENT_MEASURE_NUMBERS
+            % [L GuitarMusicVoiceI measure 267 / measure 11]                   %! _comment_measure_numbers
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            ^ \markup {                                                        %! INDICATOR_COMMAND
-                \override                                                      %! INDICATOR_COMMAND
-                    #'(box-padding . 0.5)                                      %! INDICATOR_COMMAND
-                    \box                                                       %! INDICATOR_COMMAND
-                        "4 fingers"                                            %! INDICATOR_COMMAND
-                }                                                              %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
+            ^ \markup {                                                        %! IndicatorCommand
+                \override                                                      %! IndicatorCommand
+                    #'(box-padding . 0.5)                                      %! IndicatorCommand
+                    \box                                                       %! IndicatorCommand
+                        "4 fingers"                                            %! IndicatorCommand
+                }                                                              %! IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -892,11 +892,11 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            % [L GuitarMusicVoiceI measure 268 / measure 12]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 268 / measure 12]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mp                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -919,26 +919,26 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
-            - \abjad_dashed_line_with_arrow                                    %! PIC_1
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC_1
-            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PIC_1
-            - \tweak bound-details.right.padding #0.5                          %! PIC_1
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
-            \startTextSpan                                                     %! PIC_1
+            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
+            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         }
     }
     {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 269 / measure 13]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+            % [L GuitarMusicVoiceI measure 269 / measure 13]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \ff                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+            :32                                                                %! IndicatorCommand
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -962,18 +962,18 @@ L_GuitarMusicVoiceI = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SC
-            \stopTextSpan                                                      %! PIC_2
+            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         }
     }
     {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 270 / measure 14]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 270 / measure 14]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \ff                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -996,8 +996,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
         }
     }
@@ -1005,11 +1005,11 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 271 / measure 15]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+            % [L GuitarMusicVoiceI measure 271 / measure 15]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mf                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+            :32                                                                %! IndicatorCommand
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1039,11 +1039,11 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            % [L GuitarMusicVoiceI measure 272 / measure 16]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 272 / measure 16]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mf                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1066,26 +1066,26 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
-            - \abjad_dashed_line_with_arrow                                    %! PIC_1
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC_1
-            - \tweak bound-details.right.text \markup \baca-right "nail rasg." %! PIC_1
-            - \tweak bound-details.right.padding #0.5                          %! PIC_1
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
-            \startTextSpan                                                     %! PIC_1
+            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.text \markup \baca-right "nail rasg." %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
+            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         }
     }
     {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 273 / measure 17]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+            % [L GuitarMusicVoiceI measure 273 / measure 17]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \f                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+            :32                                                                %! IndicatorCommand
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1109,10 +1109,10 @@ L_GuitarMusicVoiceI = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SC
-            \stopTextSpan                                                      %! PIC_2
+            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
@@ -1120,11 +1120,11 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            % [L GuitarMusicVoiceI measure 274 / measure 18]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 274 / measure 18]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \f                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1147,26 +1147,26 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
-            - \abjad_dashed_line_with_arrow                                    %! PIC_1
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC_1
-            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PIC_1
-            - \tweak bound-details.right.padding #0.5                          %! PIC_1
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
-            \startTextSpan                                                     %! PIC_1
+            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
+            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         }
     }
     {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            % [L GuitarMusicVoiceI measure 275 / measure 19]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+            % [L GuitarMusicVoiceI measure 275 / measure 19]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mf                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+            :32                                                                %! IndicatorCommand
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1190,18 +1190,18 @@ L_GuitarMusicVoiceI = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SC
-            \stopTextSpan                                                      %! PIC_2
+            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         }
     }
     {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            % [L GuitarMusicVoiceI measure 276 / measure 20]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 276 / measure 20]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mf                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1224,25 +1224,25 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
-            - \abjad_dashed_line_with_arrow                                    %! PIC_1
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC_1
-            - \tweak bound-details.right.text \markup \baca-right "nail. rasg." %! PIC_1
-            - \tweak bound-details.right.padding #0.5                          %! PIC_1
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
-            \startTextSpan                                                     %! PIC_1
+            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.text \markup \baca-right "nail. rasg." %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
+            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         }
     }
     {
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 277 / measure 21]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+            % [L GuitarMusicVoiceI measure 277 / measure 21]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \ff                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+            :32                                                                %! IndicatorCommand
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1266,14 +1266,14 @@ L_GuitarMusicVoiceI = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SC
-            \stopTextSpan                                                      %! PIC_2
+            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
@@ -1281,11 +1281,11 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            % [L GuitarMusicVoiceI measure 278 / measure 22]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 278 / measure 22]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \ff                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1308,26 +1308,26 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
-            - \abjad_dashed_line_with_arrow                                    %! PIC_1
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC_1
-            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PIC_1
-            - \tweak bound-details.right.padding #0.5                          %! PIC_1
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
-            \startTextSpan                                                     %! PIC_1
+            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
+            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         }
     }
     {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            % [L GuitarMusicVoiceI measure 279 / measure 23]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+            % [L GuitarMusicVoiceI measure 279 / measure 23]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mf                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+            :32                                                                %! IndicatorCommand
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1351,18 +1351,18 @@ L_GuitarMusicVoiceI = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SC
-            \stopTextSpan                                                      %! PIC_2
+            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         }
     }
     {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
             
-            % [L GuitarMusicVoiceI measure 280 / measure 24]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 280 / measure 24]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mf                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1385,24 +1385,24 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
-            - \abjad_dashed_line_with_arrow                                    %! PIC_1
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC_1
-            - \tweak bound-details.right.text \markup \baca-right "nail rasg." %! PIC_1
-            - \tweak bound-details.right.padding #0.5                          %! PIC_1
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
-            \startTextSpan                                                     %! PIC_1
+            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.text \markup \baca-right "nail rasg." %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
+            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         }
     }
     {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 281 / measure 25]                   %! COMMENT_MEASURE_NUMBERS
+            % [L GuitarMusicVoiceI measure 281 / measure 25]                   %! _comment_measure_numbers
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1428,15 +1428,15 @@ L_GuitarMusicVoiceI = {
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
@@ -1444,11 +1444,11 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 282 / measure 26]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+            % [L GuitarMusicVoiceI measure 282 / measure 26]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \ffff                                                              %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+            :32                                                                %! IndicatorCommand
+            \ffff                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1472,22 +1472,22 @@ L_GuitarMusicVoiceI = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SC
-            \stopTextSpan                                                      %! PIC_2
+            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
@@ -1495,11 +1495,11 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 283 / measure 27]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 283 / measure 27]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \ffff                                                              %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \ffff                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1522,39 +1522,38 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
-            - \abjad_dashed_line_with_arrow                                    %! PIC_1
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PIC_1
-            - \tweak bound-details.right.text \markup \baca-right "ponticello" %! PIC_1
-            - \tweak bound-details.right.padding #0.5                          %! PIC_1
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
-            \startTextSpan                                                     %! PIC_1
+            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.text \markup \baca-right "ponticello" %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
+            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \repeatTie                                                         %! SC
-            
-            e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
+            \repeatTie                                                         %! SC
+            
+            e2
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
     {
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 284 / measure 28]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 284 / measure 28]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \ff                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \ff                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1577,16 +1576,16 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
@@ -1594,13 +1593,12 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 285 / measure 29]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 285 / measure 29]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \fff                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \fff                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \fff                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \fff                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1623,12 +1621,12 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
@@ -1636,13 +1634,12 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 286 / measure 30]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 286 / measure 30]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \f                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \f                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1665,8 +1662,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
         }
     }
@@ -1674,13 +1671,12 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 287 / measure 31]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 287 / measure 31]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \ff                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \ff                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1703,25 +1699,24 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
     {
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 288 / measure 32]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 288 / measure 32]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mf                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \mf                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1744,16 +1739,16 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
@@ -1761,13 +1756,12 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 289 / measure 33]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 289 / measure 33]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \f                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \f                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1790,20 +1784,20 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
@@ -1811,13 +1805,12 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 290 / measure 34]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 290 / measure 34]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mp                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \mp                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1840,24 +1833,24 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
@@ -1865,13 +1858,12 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 291 / measure 35]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 291 / measure 35]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mf                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \mf                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1894,33 +1886,32 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
     {
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 292 / measure 36]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 292 / measure 36]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1943,16 +1934,16 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
@@ -1960,13 +1951,12 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 293 / measure 37]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 293 / measure 37]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \mp                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \mp                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1989,13 +1979,13 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
-            \stopTextSpan                                                      %! PIC_2
+            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
@@ -2003,13 +1993,12 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 294 / measure 38]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 294 / measure 38]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \pp                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \pp                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2032,8 +2021,8 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
         }
     }
@@ -2041,13 +2030,12 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 295 / measure 39]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 295 / measure 39]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2070,25 +2058,24 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
     {
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 296 / measure 40]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 296 / measure 40]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2111,16 +2098,16 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
@@ -2128,13 +2115,12 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 297 / measure 41]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 297 / measure 41]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \pp                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \pp                                                                %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2157,26 +2143,26 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
-            - \abjad_dashed_line_with_arrow                                    %! PIC_1
-            - \tweak bound-details.left.text \markup \baca-left "gradually slow rasgueado" %! PIC_1
-            - \tweak bound-details.right.text \markup \baca-right "still"      %! PIC_1
-            - \tweak bound-details.right.padding #0.5                          %! PIC_1
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC_1
-            \startTextSpan                                                     %! PIC_1
+            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.left.text \markup \baca-left "gradually slow rasgueado" %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.text \markup \baca-right "still"      %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
+            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \repeatTie                                                         %! SC
-            
-            e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
+            \repeatTie                                                         %! SC
+            
+            e2
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
@@ -2184,13 +2170,12 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 298 / measure 42]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 298 / measure 42]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \pppp                                                              %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \pppp                                                              %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \pppp                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \pppp                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2213,37 +2198,36 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
     {
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 299 / measure 43]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 299 / measure 43]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2266,16 +2250,16 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
@@ -2283,13 +2267,12 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 300 / measure 44]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 300 / measure 44]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \ppppp                                                             %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \ppppp                                                             %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \ppppp                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \ppppp                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2312,12 +2295,12 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
             
             e2
-            :32                                                                %! INDICATOR_COMMAND
+            :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SC
         }
     }
@@ -2325,13 +2308,12 @@ L_GuitarMusicVoiceI = {
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
             
-            % [L GuitarMusicVoiceI measure 301 / measure 45]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+            % [L GuitarMusicVoiceI measure 301 / measure 45]                   %! _comment_measure_numbers
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             e2
-            :32                                                                %! INDICATOR_COMMAND
-            \pppp                                                              %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
-            \pppp                                                              %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            :32                                                                %! IndicatorCommand
+            \pppp                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            \pppp                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2354,21 +2336,21 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #blue                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            - \tweak to-barline ##t                                            %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            - \tweak circled-tip ##t                                           %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-            \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+            - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak to-barline ##t                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak circled-tip ##t                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SC
         }
     }
     {
         \scaleDurations #'(1 . 1) {
             
-            % [L GuitarMusicVoiceI measure 302 / measure 46]                   %! COMMENT_MEASURE_NUMBERS
-            \once \override TextScript.staff-padding = #5.5                    %! OVERRIDE_COMMAND_1
-            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+            % [L GuitarMusicVoiceI measure 302 / measure 46]                   %! _comment_measure_numbers
+            \once \override TextScript.staff-padding = #5.5                    %! OverrideCommand(1)
+            \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             r8
-            \!                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+            \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2391,7 +2373,7 @@ L_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            \stopTextSpan                                                      %! PIC_2
+            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
             
             r8
             
@@ -2400,8 +2382,8 @@ L_GuitarMusicVoiceI = {
             r8
             
             r8
-            \revert TextSpanner.staff-padding                                  %! OVERRIDE_COMMAND_2
-            \revert TextScript.staff-padding                                   %! OVERRIDE_COMMAND_2
+            \revert TextSpanner.staff-padding                                  %! OverrideCommand(2)
+            \revert TextScript.staff-padding                                   %! OverrideCommand(2)
             
         }
     }
@@ -2410,142 +2392,142 @@ L_GuitarMusicVoiceI = {
 
 L_GuitarMusicVoiceII = {
     
-    % [L GuitarMusicVoiceII measure 257 / measure 1]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 257 / measure 1]                           %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceII measure 258 / measure 2]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 258 / measure 2]                           %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceII measure 259 / measure 3]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 259 / measure 3]                           %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceII measure 260 / measure 4]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 260 / measure 4]                           %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceII measure 261 / measure 5]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 261 / measure 5]                           %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceII measure 262 / measure 6]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 262 / measure 6]                           %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceII measure 263 / measure 7]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 263 / measure 7]                           %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceII measure 264 / measure 8]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 264 / measure 8]                           %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceII measure 265 / measure 9]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 265 / measure 9]                           %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceII measure 266 / measure 10]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 266 / measure 10]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceII measure 267 / measure 11]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 267 / measure 11]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceII measure 268 / measure 12]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 268 / measure 12]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceII measure 269 / measure 13]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 269 / measure 13]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceII measure 270 / measure 14]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 270 / measure 14]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceII measure 271 / measure 15]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 271 / measure 15]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceII measure 272 / measure 16]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 272 / measure 16]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceII measure 273 / measure 17]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 273 / measure 17]                          %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceII measure 274 / measure 18]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 274 / measure 18]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceII measure 275 / measure 19]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 275 / measure 19]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceII measure 276 / measure 20]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 276 / measure 20]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceII measure 277 / measure 21]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 277 / measure 21]                          %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceII measure 278 / measure 22]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 278 / measure 22]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceII measure 279 / measure 23]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 279 / measure 23]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceII measure 280 / measure 24]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 280 / measure 24]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceII measure 281 / measure 25]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 281 / measure 25]                          %! _comment_measure_numbers
     s1 * 4/3
     
-    % [L GuitarMusicVoiceII measure 282 / measure 26]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 282 / measure 26]                          %! _comment_measure_numbers
     s1 * 5/3
     
-    % [L GuitarMusicVoiceII measure 283 / measure 27]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 283 / measure 27]                          %! _comment_measure_numbers
     s1 * 4/3
     
-    % [L GuitarMusicVoiceII measure 284 / measure 28]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 284 / measure 28]                          %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceII measure 285 / measure 29]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 285 / measure 29]                          %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceII measure 286 / measure 30]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 286 / measure 30]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceII measure 287 / measure 31]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 287 / measure 31]                          %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceII measure 288 / measure 32]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 288 / measure 32]                          %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceII measure 289 / measure 33]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 289 / measure 33]                          %! _comment_measure_numbers
     s1 * 4/3
     
-    % [L GuitarMusicVoiceII measure 290 / measure 34]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 290 / measure 34]                          %! _comment_measure_numbers
     s1 * 5/3
     
-    % [L GuitarMusicVoiceII measure 291 / measure 35]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 291 / measure 35]                          %! _comment_measure_numbers
     s1 * 4/3
     
-    % [L GuitarMusicVoiceII measure 292 / measure 36]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 292 / measure 36]                          %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceII measure 293 / measure 37]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 293 / measure 37]                          %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceII measure 294 / measure 38]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 294 / measure 38]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceII measure 295 / measure 39]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 295 / measure 39]                          %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceII measure 296 / measure 40]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 296 / measure 40]                          %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceII measure 297 / measure 41]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 297 / measure 41]                          %! _comment_measure_numbers
     s1 * 4/3
     
-    % [L GuitarMusicVoiceII measure 298 / measure 42]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 298 / measure 42]                          %! _comment_measure_numbers
     s1 * 5/3
     
-    % [L GuitarMusicVoiceII measure 299 / measure 43]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 299 / measure 43]                          %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceII measure 300 / measure 44]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 300 / measure 44]                          %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceII measure 301 / measure 45]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 301 / measure 45]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceII measure 302 / measure 46]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceII measure 302 / measure 46]                          %! _comment_measure_numbers
     s1 * 5/8
     
 }
@@ -2553,142 +2535,142 @@ L_GuitarMusicVoiceII = {
 
 L_GuitarMusicVoiceIII = {
     
-    % [L GuitarMusicVoiceIII measure 257 / measure 1]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 257 / measure 1]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIII measure 258 / measure 2]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 258 / measure 2]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIII measure 259 / measure 3]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 259 / measure 3]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIII measure 260 / measure 4]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 260 / measure 4]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIII measure 261 / measure 5]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 261 / measure 5]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIII measure 262 / measure 6]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 262 / measure 6]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIII measure 263 / measure 7]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 263 / measure 7]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIII measure 264 / measure 8]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 264 / measure 8]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIII measure 265 / measure 9]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 265 / measure 9]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIII measure 266 / measure 10]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 266 / measure 10]                         %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIII measure 267 / measure 11]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 267 / measure 11]                         %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIII measure 268 / measure 12]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 268 / measure 12]                         %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIII measure 269 / measure 13]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 269 / measure 13]                         %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIII measure 270 / measure 14]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 270 / measure 14]                         %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIII measure 271 / measure 15]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 271 / measure 15]                         %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIII measure 272 / measure 16]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 272 / measure 16]                         %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIII measure 273 / measure 17]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 273 / measure 17]                         %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceIII measure 274 / measure 18]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 274 / measure 18]                         %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIII measure 275 / measure 19]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 275 / measure 19]                         %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIII measure 276 / measure 20]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 276 / measure 20]                         %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIII measure 277 / measure 21]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 277 / measure 21]                         %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceIII measure 278 / measure 22]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 278 / measure 22]                         %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIII measure 279 / measure 23]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 279 / measure 23]                         %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIII measure 280 / measure 24]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 280 / measure 24]                         %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIII measure 281 / measure 25]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 281 / measure 25]                         %! _comment_measure_numbers
     s1 * 4/3
     
-    % [L GuitarMusicVoiceIII measure 282 / measure 26]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 282 / measure 26]                         %! _comment_measure_numbers
     s1 * 5/3
     
-    % [L GuitarMusicVoiceIII measure 283 / measure 27]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 283 / measure 27]                         %! _comment_measure_numbers
     s1 * 4/3
     
-    % [L GuitarMusicVoiceIII measure 284 / measure 28]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 284 / measure 28]                         %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceIII measure 285 / measure 29]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 285 / measure 29]                         %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceIII measure 286 / measure 30]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 286 / measure 30]                         %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIII measure 287 / measure 31]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 287 / measure 31]                         %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceIII measure 288 / measure 32]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 288 / measure 32]                         %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceIII measure 289 / measure 33]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 289 / measure 33]                         %! _comment_measure_numbers
     s1 * 4/3
     
-    % [L GuitarMusicVoiceIII measure 290 / measure 34]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 290 / measure 34]                         %! _comment_measure_numbers
     s1 * 5/3
     
-    % [L GuitarMusicVoiceIII measure 291 / measure 35]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 291 / measure 35]                         %! _comment_measure_numbers
     s1 * 4/3
     
-    % [L GuitarMusicVoiceIII measure 292 / measure 36]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 292 / measure 36]                         %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceIII measure 293 / measure 37]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 293 / measure 37]                         %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceIII measure 294 / measure 38]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 294 / measure 38]                         %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIII measure 295 / measure 39]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 295 / measure 39]                         %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceIII measure 296 / measure 40]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 296 / measure 40]                         %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceIII measure 297 / measure 41]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 297 / measure 41]                         %! _comment_measure_numbers
     s1 * 4/3
     
-    % [L GuitarMusicVoiceIII measure 298 / measure 42]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 298 / measure 42]                         %! _comment_measure_numbers
     s1 * 5/3
     
-    % [L GuitarMusicVoiceIII measure 299 / measure 43]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 299 / measure 43]                         %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceIII measure 300 / measure 44]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 300 / measure 44]                         %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceIII measure 301 / measure 45]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 301 / measure 45]                         %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIII measure 302 / measure 46]                         %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIII measure 302 / measure 46]                         %! _comment_measure_numbers
     s1 * 5/8
     
 }
@@ -2696,147 +2678,143 @@ L_GuitarMusicVoiceIII = {
 
 L_GuitarMusicVoiceIV = {
     
-    % [L GuitarMusicVoiceIV measure 257 / measure 1]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 257 / measure 1]                           %! _comment_measure_numbers
     s1 * 2/5
-    ^ \markup {                                                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                               %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Guitar”)                                                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    ^ \markup \baca-reapplied-indicator-markup "(“Guitar”)"                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     
-    % [L GuitarMusicVoiceIV measure 258 / measure 2]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 258 / measure 2]                           %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIV measure 259 / measure 3]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 259 / measure 3]                           %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIV measure 260 / measure 4]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 260 / measure 4]                           %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIV measure 261 / measure 5]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 261 / measure 5]                           %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIV measure 262 / measure 6]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 262 / measure 6]                           %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIV measure 263 / measure 7]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 263 / measure 7]                           %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIV measure 264 / measure 8]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 264 / measure 8]                           %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIV measure 265 / measure 9]                           %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 265 / measure 9]                           %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIV measure 266 / measure 10]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 266 / measure 10]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIV measure 267 / measure 11]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 267 / measure 11]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIV measure 268 / measure 12]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 268 / measure 12]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIV measure 269 / measure 13]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 269 / measure 13]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIV measure 270 / measure 14]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 270 / measure 14]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIV measure 271 / measure 15]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 271 / measure 15]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIV measure 272 / measure 16]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 272 / measure 16]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIV measure 273 / measure 17]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 273 / measure 17]                          %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceIV measure 274 / measure 18]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 274 / measure 18]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIV measure 275 / measure 19]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 275 / measure 19]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIV measure 276 / measure 20]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 276 / measure 20]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIV measure 277 / measure 21]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 277 / measure 21]                          %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceIV measure 278 / measure 22]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 278 / measure 22]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIV measure 279 / measure 23]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 279 / measure 23]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIV measure 280 / measure 24]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 280 / measure 24]                          %! _comment_measure_numbers
     s1 * 2/5
     
-    % [L GuitarMusicVoiceIV measure 281 / measure 25]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 281 / measure 25]                          %! _comment_measure_numbers
     s1 * 4/3
     
-    % [L GuitarMusicVoiceIV measure 282 / measure 26]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 282 / measure 26]                          %! _comment_measure_numbers
     s1 * 5/3
     
-    % [L GuitarMusicVoiceIV measure 283 / measure 27]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 283 / measure 27]                          %! _comment_measure_numbers
     s1 * 4/3
     
-    % [L GuitarMusicVoiceIV measure 284 / measure 28]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 284 / measure 28]                          %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceIV measure 285 / measure 29]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 285 / measure 29]                          %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceIV measure 286 / measure 30]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 286 / measure 30]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIV measure 287 / measure 31]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 287 / measure 31]                          %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceIV measure 288 / measure 32]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 288 / measure 32]                          %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceIV measure 289 / measure 33]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 289 / measure 33]                          %! _comment_measure_numbers
     s1 * 4/3
     
-    % [L GuitarMusicVoiceIV measure 290 / measure 34]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 290 / measure 34]                          %! _comment_measure_numbers
     s1 * 5/3
     
-    % [L GuitarMusicVoiceIV measure 291 / measure 35]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 291 / measure 35]                          %! _comment_measure_numbers
     s1 * 4/3
     
-    % [L GuitarMusicVoiceIV measure 292 / measure 36]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 292 / measure 36]                          %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceIV measure 293 / measure 37]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 293 / measure 37]                          %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceIV measure 294 / measure 38]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 294 / measure 38]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIV measure 295 / measure 39]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 295 / measure 39]                          %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceIV measure 296 / measure 40]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 296 / measure 40]                          %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceIV measure 297 / measure 41]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 297 / measure 41]                          %! _comment_measure_numbers
     s1 * 4/3
     
-    % [L GuitarMusicVoiceIV measure 298 / measure 42]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 298 / measure 42]                          %! _comment_measure_numbers
     s1 * 5/3
     
-    % [L GuitarMusicVoiceIV measure 299 / measure 43]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 299 / measure 43]                          %! _comment_measure_numbers
     s1 * 1
     
-    % [L GuitarMusicVoiceIV measure 300 / measure 44]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 300 / measure 44]                          %! _comment_measure_numbers
     s1 * 2/3
     
-    % [L GuitarMusicVoiceIV measure 301 / measure 45]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 301 / measure 45]                          %! _comment_measure_numbers
     s1 * 1/3
     
-    % [L GuitarMusicVoiceIV measure 302 / measure 46]                          %! COMMENT_MEASURE_NUMBERS
+    % [L GuitarMusicVoiceIV measure 302 / measure 46]                          %! _comment_measure_numbers
     s1 * 5/8
     
 }

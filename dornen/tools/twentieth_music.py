@@ -83,31 +83,31 @@ def twentieth_music():
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! COMMENT_MEASURE_NUMBERS
+                        % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 7/20                                                         %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-                        s1 * 7/20                                                          %! MAKE_GLOBAL_SKIPS_1
+                        \time 7/20                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        s1 * 7/20                                                          %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! COMMENT_MEASURE_NUMBERS
+                        % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 2/20                                                         %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-                        s1 * 1/10                                                          %! MAKE_GLOBAL_SKIPS_1
+                        \time 2/20                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        s1 * 1/10                                                          %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! COMMENT_MEASURE_NUMBERS
+                        % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 3/20                                                         %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-                        s1 * 3/20                                                          %! MAKE_GLOBAL_SKIPS_1
+                        \time 3/20                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        s1 * 3/20                                                          %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 4]                                          %! COMMENT_MEASURE_NUMBERS
+                        % [GlobalSkips measure 4]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 4/20                                                         %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-                        s1 * 1/5                                                           %! MAKE_GLOBAL_SKIPS_1
-                        \baca_bar_line_visible                                             %! ATTACH_FINAL_BAR_LINE
-                        \bar "|"                                                           %! ATTACH_FINAL_BAR_LINE
+                        \time 4/20                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        s1 * 1/5                                                           %! _make_global_skips(1)
+                        \baca_bar_line_visible                                             %! _attach_final_bar_line
+                        \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }
                 >>
@@ -120,7 +120,7 @@ def twentieth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! COMMENT_MEASURE_NUMBERS
+                                % [MusicVoice measure 1]                                   %! _comment_measure_numbers
                                 cs'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -156,7 +156,7 @@ def twentieth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! COMMENT_MEASURE_NUMBERS
+                                % [MusicVoice measure 2]                                   %! _comment_measure_numbers
                                 d'16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -167,7 +167,7 @@ def twentieth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! COMMENT_MEASURE_NUMBERS
+                                % [MusicVoice measure 3]                                   %! _comment_measure_numbers
                                 ef'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -183,7 +183,7 @@ def twentieth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 4]                                   %! COMMENT_MEASURE_NUMBERS
+                                % [MusicVoice measure 4]                                   %! _comment_measure_numbers
                                 fs'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -281,31 +281,31 @@ def twentieth_music():
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! COMMENT_MEASURE_NUMBERS
+                        % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 7/20                                                         %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-                        s1 * 7/20                                                          %! MAKE_GLOBAL_SKIPS_1
+                        \time 7/20                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        s1 * 7/20                                                          %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! COMMENT_MEASURE_NUMBERS
+                        % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 1/20                                                         %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-                        s1 * 1/20                                                          %! MAKE_GLOBAL_SKIPS_1
+                        \time 1/20                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        s1 * 1/20                                                          %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! COMMENT_MEASURE_NUMBERS
+                        % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 3/20                                                         %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-                        s1 * 3/20                                                          %! MAKE_GLOBAL_SKIPS_1
+                        \time 3/20                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        s1 * 3/20                                                          %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 4]                                          %! COMMENT_MEASURE_NUMBERS
+                        % [GlobalSkips measure 4]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
-                        \time 4/20                                                         %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-                        s1 * 1/5                                                           %! MAKE_GLOBAL_SKIPS_1
-                        \baca_bar_line_visible                                             %! ATTACH_FINAL_BAR_LINE
-                        \bar "|"                                                           %! ATTACH_FINAL_BAR_LINE
+                        \time 4/20                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        s1 * 1/5                                                           %! _make_global_skips(1)
+                        \baca_bar_line_visible                                             %! _attach_final_bar_line
+                        \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }
                 >>
@@ -318,7 +318,7 @@ def twentieth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! COMMENT_MEASURE_NUMBERS
+                                % [MusicVoice measure 1]                                   %! _comment_measure_numbers
                                 cs'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -352,13 +352,13 @@ def twentieth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! COMMENT_MEASURE_NUMBERS
+                                % [MusicVoice measure 2]                                   %! _comment_measure_numbers
                                 d'16
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! COMMENT_MEASURE_NUMBERS
+                                % [MusicVoice measure 3]                                   %! _comment_measure_numbers
                                 ef'!16
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -373,7 +373,7 @@ def twentieth_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 4]                                   %! COMMENT_MEASURE_NUMBERS
+                                % [MusicVoice measure 4]                                   %! _comment_measure_numbers
                                 fs'!16
                             }
                             \tweak edge-height #'(0.7 . 0)

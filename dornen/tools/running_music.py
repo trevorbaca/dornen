@@ -61,25 +61,25 @@ def running_music():
                     {
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #1 #64                                   %! HSS1:SPACING
+                        \baca_new_spacing_section #1 #64                                   %! HorizontalSpacingSpecifier(1):SPACING
                         \time 1/64                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/64                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #3 #224                                  %! HSS1:SPACING
+                        \baca_new_spacing_section #3 #224                                  %! HorizontalSpacingSpecifier(1):SPACING
                         \time 3/32                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 3/32                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #1 #64                                   %! HSS1:SPACING
+                        \baca_new_spacing_section #1 #64                                   %! HorizontalSpacingSpecifier(1):SPACING
                         \time 1/64                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/64                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 4]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #5 #384                                  %! HSS1:SPACING
+                        \baca_new_spacing_section #5 #384                                  %! HorizontalSpacingSpecifier(1):SPACING
                         \time 5/64                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 5/64                                                          %! _make_global_skips(1)
@@ -109,8 +109,8 @@ def running_music():
                                 \set stemRightBeamCount = 4
                                 fs'!64
                                 [
-                                (                                                          %! SC
-                                (                                                          %! SC
+                                (                                                          %! SpannerCommand
+                                (                                                          %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -136,8 +136,8 @@ def running_music():
                                 \set stemRightBeamCount = 0
                                 c'64
                                 ]
-                                )                                                          %! SC
-                                )                                                          %! SC
+                                )                                                          %! SpannerCommand
+                                )                                                          %! SpannerCommand
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -154,8 +154,8 @@ def running_music():
                                 \set stemRightBeamCount = 4
                                 bf'!64
                                 [
-                                (                                                          %! SC
-                                (                                                          %! SC
+                                (                                                          %! SpannerCommand
+                                (                                                          %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -177,8 +177,8 @@ def running_music():
                                 \set stemRightBeamCount = 0
                                 f'64
                                 ]
-                                )                                                          %! SC
-                                )                                                          %! SC
+                                )                                                          %! SpannerCommand
+                                )                                                          %! SpannerCommand
             <BLANKLINE>
                             }
                         }
@@ -250,19 +250,19 @@ def running_music():
                     {
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #3 #224                                  %! HSS1:SPACING
+                        \baca_new_spacing_section #3 #224                                  %! HorizontalSpacingSpecifier(1):SPACING
                         \time 1/8                                                          %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/8                                                           %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #5 #384                                  %! HSS1:SPACING
+                        \baca_new_spacing_section #5 #384                                  %! HorizontalSpacingSpecifier(1):SPACING
                         \time 3/16                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 3/16                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #5 #384                                  %! HSS1:SPACING
+                        \baca_new_spacing_section #5 #384                                  %! HorizontalSpacingSpecifier(1):SPACING
                         \time 7/64                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 7/64                                                          %! _make_global_skips(1)
@@ -284,7 +284,7 @@ def running_music():
                                 \set stemRightBeamCount = 4
                                 e'64
                                 [
-                                (                                                          %! SC
+                                (                                                          %! SpannerCommand
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {
@@ -292,12 +292,12 @@ def running_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
                                 fs'!64
-                                )                                                          %! SC
+                                )                                                          %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 d'64
-                                (                                                          %! SC
+                                (                                                          %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -314,12 +314,12 @@ def running_music():
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 af'!64
-                                )                                                          %! SC
+                                )                                                          %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 1
                                 c'64
-                                (                                                          %! SC
+                                (                                                          %! SpannerCommand
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -327,7 +327,7 @@ def running_music():
                                 \set stemRightBeamCount = 0
                                 b'64
                                 ]
-                                )                                                          %! SC
+                                )                                                          %! SpannerCommand
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {
@@ -337,7 +337,7 @@ def running_music():
                                 \set stemRightBeamCount = 4
                                 fs'!64
                                 [
-                                (                                                          %! SC
+                                (                                                          %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -368,8 +368,8 @@ def running_music():
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 1
                                 b'64
-                                )                                                          %! SC
-                                (                                                          %! SC
+                                )                                                          %! SpannerCommand
+                                (                                                          %! SpannerCommand
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 5/6 {
@@ -398,7 +398,7 @@ def running_music():
                                 \set stemRightBeamCount = 0
                                 f'64
                                 ]
-                                )                                                          %! SC
+                                )                                                          %! SpannerCommand
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -407,7 +407,7 @@ def running_music():
                                 \set stemRightBeamCount = 4
                                 b'64
                                 [
-                                (                                                          %! SC
+                                (                                                          %! SpannerCommand
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 5/6 {
@@ -415,12 +415,12 @@ def running_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
                                 bf'!64
-                                )                                                          %! SC
+                                )                                                          %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 g'64
-                                (                                                          %! SC
+                                (                                                          %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -433,12 +433,12 @@ def running_music():
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 c'64
-                                )                                                          %! SC
+                                )                                                          %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 1
                                 f'64
-                                (                                                          %! SC
+                                (                                                          %! SpannerCommand
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -446,7 +446,7 @@ def running_music():
                                 \set stemRightBeamCount = 0
                                 e'64
                                 ]
-                                )                                                          %! SC
+                                )                                                          %! SpannerCommand
             <BLANKLINE>
                             }
                         }

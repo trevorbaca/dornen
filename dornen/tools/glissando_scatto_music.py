@@ -61,25 +61,25 @@ def glissando_scatto_music():
                     {
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
+                        \baca_new_spacing_section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         \time 1/16                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/16                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #11 #416                                 %! HSS1:SPACING
+                        \baca_new_spacing_section #11 #416                                 %! HorizontalSpacingSpecifier(1):SPACING
                         \time 11/32                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 11/32                                                         %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
+                        \baca_new_spacing_section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         \time 1/16                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/16                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 4]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #9 #352                                  %! HSS1:SPACING
+                        \baca_new_spacing_section #9 #352                                  %! HorizontalSpacingSpecifier(1):SPACING
                         \time 9/32                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 9/32                                                          %! _make_global_skips(1)
@@ -109,32 +109,32 @@ def glissando_scatto_music():
                                 \set stemRightBeamCount = 2
                                 fs'!16
                                 [
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 d'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 ef'!16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 2
                                 f'32
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 a'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 af'!16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 0
@@ -156,27 +156,27 @@ def glissando_scatto_music():
                                 \set stemRightBeamCount = 2
                                 bf'!16
                                 [
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 g'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 a'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 2
                                 af'!32
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 c'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 0
@@ -253,19 +253,19 @@ def glissando_scatto_music():
                     {
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #11 #416                                 %! HSS1:SPACING
+                        \baca_new_spacing_section #11 #416                                 %! HorizontalSpacingSpecifier(1):SPACING
                         \time 15/32                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 15/32                                                         %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #9 #352                                  %! HSS1:SPACING
+                        \baca_new_spacing_section #9 #352                                  %! HorizontalSpacingSpecifier(1):SPACING
                         \time 11/16                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 11/16                                                         %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #9 #352                                  %! HSS1:SPACING
+                        \baca_new_spacing_section #9 #352                                  %! HorizontalSpacingSpecifier(1):SPACING
                         \time 13/32                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 13/32                                                         %! _make_global_skips(1)
@@ -287,7 +287,7 @@ def glissando_scatto_music():
                                 \set stemRightBeamCount = 2
                                 e'16
                                 [
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 11/13 {
@@ -295,37 +295,37 @@ def glissando_scatto_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
                                 fs'!16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 d'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 ef'!16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 2
                                 f'32
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 a'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 af'!16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 1
                                 c'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
@@ -342,44 +342,44 @@ def glissando_scatto_music():
                                 \set stemRightBeamCount = 2
                                 fs'!16
                                 [
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 d'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 ef'!16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 2
                                 f'32
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 a'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 af'!16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 1
                                 c'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 1
                                 b'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 9/11 {
@@ -387,27 +387,27 @@ def glissando_scatto_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
                                 bf'!16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 g'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 a'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 2
                                 af'!32
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 c'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 0
@@ -421,7 +421,7 @@ def glissando_scatto_music():
                                 \set stemRightBeamCount = 2
                                 b'16
                                 [
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
                             }
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 9/11 {
@@ -429,32 +429,32 @@ def glissando_scatto_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
                                 bf'!16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 g'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 a'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 2
                                 af'!32
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 c'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 1
                                 f'16
-                                \glissando                                                 %! SC
+                                \glissando                                                 %! SpannerCommand
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>

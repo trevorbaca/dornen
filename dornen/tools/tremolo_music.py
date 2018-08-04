@@ -61,25 +61,25 @@ def tremolo_music():
                     {
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
+                        \baca_new_spacing_section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         \time 1/11                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/11                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
+                        \baca_new_spacing_section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         \time 7/11                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 7/11                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
+                        \baca_new_spacing_section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         \time 1/11                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/11                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 4]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
+                        \baca_new_spacing_section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         \time 6/11                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 6/11                                                          %! _make_global_skips(1)
@@ -109,52 +109,52 @@ def tremolo_music():
                                 % [MusicVoice measure 2]                                   %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
                                 [
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 0
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
                                 ]
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -172,45 +172,45 @@ def tremolo_music():
                                 % [MusicVoice measure 4]                                   %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
                                 [
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 0
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
                                 ]
             <BLANKLINE>
                             }
@@ -284,19 +284,19 @@ def tremolo_music():
                     {
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
+                        \baca_new_spacing_section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         \time 9/11                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 9/11                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
+                        \baca_new_spacing_section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         \time 14/11                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 14/11                                                         %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
+                        \baca_new_spacing_section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         \time 8/11                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 8/11                                                          %! _make_global_skips(1)
@@ -326,62 +326,62 @@ def tremolo_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 0
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
                                 ]
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -390,107 +390,107 @@ def tremolo_music():
                                 % [MusicVoice measure 2]                                   %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
                                 [
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 0
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
                                 ]
                             }
                             \tweak edge-height #'(0.7 . 0)
@@ -499,7 +499,7 @@ def tremolo_music():
                                 % [MusicVoice measure 3]                                   %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
                                 [
@@ -509,55 +509,55 @@ def tremolo_music():
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
                             }
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 0
-                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! SM_26
+                                \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SC
+                                \repeatTie                                                 %! SpannerCommand
                                 ]
             <BLANKLINE>
                             }

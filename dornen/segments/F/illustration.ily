@@ -256,12 +256,12 @@ F_GuitarMusicVoiceI = {
             
             % [F GuitarMusicVoiceI measure 133 / measure 1]                    %! _comment_measure_numbers
             \override Beam.positions = #'(8 . 8)                               %! OverrideCommand(1)
-            \set stemLeftBeamCount = 0                                         %! SM_35
-            \set stemRightBeamCount = 2                                        %! SM_35
+            \set stemLeftBeamCount = 0                                         %! _extend_beam
+            \set stemRightBeamCount = 2                                        %! _extend_beam
             \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
         %@% \override GuitarMusicStaff.Clef.color = ##f                        %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-            \set GuitarMusicStaff.forceClef = ##t                              %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+            \set GuitarMusicStaff.forceClef = ##t                              %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
             a'16
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -285,18 +285,18 @@ F_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            [                                                                  %! SM_35
-            (                                                                  %! SC
+            [                                                                  %! _extend_beam
+            (                                                                  %! SpannerCommand
             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)    %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
             
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 2                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 2                                        %! _extend_beam
             cs''!16
             
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             g''16
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
         }
     }
     
@@ -307,8 +307,8 @@ F_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [F GuitarMusicVoiceI measure 137 / measure 5]                    %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 2                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 2                                        %! _extend_beam
             cs'!16
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -332,16 +332,16 @@ F_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 2                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 2                                        %! _extend_beam
             e'16
             
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             bf'!16
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
         }
     }
     
@@ -352,8 +352,8 @@ F_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [F GuitarMusicVoiceI measure 141 / measure 9]                    %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 2                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 2                                        %! _extend_beam
             af'!16
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -377,17 +377,17 @@ F_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 2                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 2                                        %! _extend_beam
             b'16
             
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 0                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 0                                        %! _extend_beam
             fs''!16
-            ]                                                                  %! SM_35
-            )                                                                  %! SC
+            ]                                                                  %! _extend_beam
+            )                                                                  %! SpannerCommand
         }
     }
     
@@ -397,8 +397,8 @@ F_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [F GuitarMusicVoiceI measure 144 / measure 12]                   %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0                                         %! SM_35
-            \set stemRightBeamCount = 3                                        %! SM_35
+            \set stemLeftBeamCount = 0                                         %! _extend_beam
+            \set stemRightBeamCount = 3                                        %! _extend_beam
             e'32
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -422,21 +422,21 @@ F_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            [                                                                  %! SM_35
-            (                                                                  %! SC
+            [                                                                  %! _extend_beam
+            (                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 3                                         %! SM_35
-            \set stemRightBeamCount = 3                                        %! SM_35
+            \set stemLeftBeamCount = 3                                         %! _extend_beam
+            \set stemRightBeamCount = 3                                        %! _extend_beam
             a'32
             
-            \set stemLeftBeamCount = 3                                         %! SM_35
-            \set stemRightBeamCount = 3                                        %! SM_35
+            \set stemLeftBeamCount = 3                                         %! _extend_beam
+            \set stemRightBeamCount = 3                                        %! _extend_beam
             g'32
             
-            \set stemLeftBeamCount = 3                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 3                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             bf'!32
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
         }
     }
     
@@ -446,8 +446,8 @@ F_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [F GuitarMusicVoiceI measure 148 / measure 16]                   %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 3                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 3                                        %! _extend_beam
             af'!32
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -471,20 +471,20 @@ F_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 3                                         %! SM_35
-            \set stemRightBeamCount = 3                                        %! SM_35
+            \set stemLeftBeamCount = 3                                         %! _extend_beam
+            \set stemRightBeamCount = 3                                        %! _extend_beam
             f'32
             
-            \set stemLeftBeamCount = 3                                         %! SM_35
-            \set stemRightBeamCount = 3                                        %! SM_35
+            \set stemLeftBeamCount = 3                                         %! _extend_beam
+            \set stemRightBeamCount = 3                                        %! _extend_beam
             d''32
             
-            \set stemLeftBeamCount = 3                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 3                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             b'32
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
         }
     }
     
@@ -494,8 +494,8 @@ F_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [F GuitarMusicVoiceI measure 150 / measure 18]                   %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 3                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 3                                        %! _extend_beam
             cs'!32
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -519,20 +519,20 @@ F_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 3                                         %! SM_35
-            \set stemRightBeamCount = 3                                        %! SM_35
+            \set stemLeftBeamCount = 3                                         %! _extend_beam
+            \set stemRightBeamCount = 3                                        %! _extend_beam
             e'32
             
-            \set stemLeftBeamCount = 3                                         %! SM_35
-            \set stemRightBeamCount = 3                                        %! SM_35
+            \set stemLeftBeamCount = 3                                         %! _extend_beam
+            \set stemRightBeamCount = 3                                        %! _extend_beam
             a'32
             
-            \set stemLeftBeamCount = 3                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 3                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             g''32
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
         }
     }
     
@@ -542,8 +542,8 @@ F_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [F GuitarMusicVoiceI measure 154 / measure 22]                   %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 3                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 3                                        %! _extend_beam
             g'32
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -567,21 +567,21 @@ F_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 3                                         %! SM_35
-            \set stemRightBeamCount = 3                                        %! SM_35
+            \set stemLeftBeamCount = 3                                         %! _extend_beam
+            \set stemRightBeamCount = 3                                        %! _extend_beam
             bf'!32
             
-            \set stemLeftBeamCount = 3                                         %! SM_35
-            \set stemRightBeamCount = 3                                        %! SM_35
+            \set stemLeftBeamCount = 3                                         %! _extend_beam
+            \set stemRightBeamCount = 3                                        %! _extend_beam
             ef''!32
             
-            \set stemLeftBeamCount = 3                                         %! SM_35
-            \set stemRightBeamCount = 0                                        %! SM_35
+            \set stemLeftBeamCount = 3                                         %! _extend_beam
+            \set stemRightBeamCount = 0                                        %! _extend_beam
             e''32
-            ]                                                                  %! SM_35
-            )                                                                  %! SC
+            ]                                                                  %! _extend_beam
+            )                                                                  %! SpannerCommand
             \revert Beam.positions                                             %! OverrideCommand(2)
             
         }
@@ -599,8 +599,8 @@ F_GuitarMusicVoiceII = {
             
             % [F GuitarMusicVoiceII measure 134 / measure 2]                   %! _comment_measure_numbers
             \once \override TextScript.direction = #down                       %! OverrideCommand(1)
-            \set stemLeftBeamCount = 0                                         %! SM_35
-            \set stemRightBeamCount = 2                                        %! SM_35
+            \set stemLeftBeamCount = 0                                         %! _extend_beam
+            \set stemRightBeamCount = 2                                        %! _extend_beam
             ef'!16
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -625,7 +625,7 @@ F_GuitarMusicVoiceII = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             _ \markup { "dull (but beautiful) thud with RH muting for each red note" } %! IndicatorCommand
-            [                                                                  %! SM_35
+            [                                                                  %! _extend_beam
         }
     }
     
@@ -635,8 +635,8 @@ F_GuitarMusicVoiceII = {
         \scaleDurations #'(1 . 1) {
             
             % [F GuitarMusicVoiceII measure 136 / measure 4]                   %! _comment_measure_numbers
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             a16
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -669,8 +669,8 @@ F_GuitarMusicVoiceII = {
         \scaleDurations #'(1 . 1) {
             
             % [F GuitarMusicVoiceII measure 138 / measure 6]                   %! _comment_measure_numbers
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             b16
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -703,8 +703,8 @@ F_GuitarMusicVoiceII = {
         \scaleDurations #'(1 . 1) {
             
             % [F GuitarMusicVoiceII measure 140 / measure 8]                   %! _comment_measure_numbers
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             e'16
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -737,8 +737,8 @@ F_GuitarMusicVoiceII = {
         \scaleDurations #'(1 . 1) {
             
             % [F GuitarMusicVoiceII measure 142 / measure 10]                  %! _comment_measure_numbers
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 0                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 0                                        %! _extend_beam
             bf!16
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -762,7 +762,7 @@ F_GuitarMusicVoiceII = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            ]                                                                  %! SM_35
+            ]                                                                  %! _extend_beam
             \revert Beam.positions                                             %! OverrideCommand(2)
         }
     }
@@ -772,8 +772,8 @@ F_GuitarMusicVoiceII = {
             
             % [F GuitarMusicVoiceII measure 143 / measure 11]                  %! _comment_measure_numbers
             \override Beam.positions = #'(-7 . -7)                             %! OverrideCommand(1)
-            \set stemLeftBeamCount = 0                                         %! SM_35
-            \set stemRightBeamCount = 2                                        %! SM_35
+            \set stemLeftBeamCount = 0                                         %! _extend_beam
+            \set stemRightBeamCount = 2                                        %! _extend_beam
             ef'!16
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -797,7 +797,7 @@ F_GuitarMusicVoiceII = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            [                                                                  %! SM_35
+            [                                                                  %! _extend_beam
         }
     }
     
@@ -808,8 +808,8 @@ F_GuitarMusicVoiceII = {
         \times 2/3 {
             
             % [F GuitarMusicVoiceII measure 145 / measure 13]                  %! _comment_measure_numbers
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             d'16
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -843,8 +843,8 @@ F_GuitarMusicVoiceII = {
         \times 2/3 {
             
             % [F GuitarMusicVoiceII measure 147 / measure 15]                  %! _comment_measure_numbers
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             c'16
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -878,8 +878,8 @@ F_GuitarMusicVoiceII = {
         \times 2/3 {
             
             % [F GuitarMusicVoiceII measure 149 / measure 17]                  %! _comment_measure_numbers
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             c'16
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -913,8 +913,8 @@ F_GuitarMusicVoiceII = {
         \times 2/3 {
             
             % [F GuitarMusicVoiceII measure 151 / measure 19]                  %! _comment_measure_numbers
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             bf!16
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -948,8 +948,8 @@ F_GuitarMusicVoiceII = {
         \times 2/3 {
             
             % [F GuitarMusicVoiceII measure 153 / measure 21]                  %! _comment_measure_numbers
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 0                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 0                                        %! _extend_beam
             a16
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -973,7 +973,7 @@ F_GuitarMusicVoiceII = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            ]                                                                  %! SM_35
+            ]                                                                  %! _extend_beam
         }
     }
     

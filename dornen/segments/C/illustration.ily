@@ -266,7 +266,7 @@ C_GuitarMusicVoiceI = {
             \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
         %@% \override GuitarMusicStaff.Clef.color = ##f                        %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-            \set GuitarMusicStaff.forceClef = ##t                              %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+            \set GuitarMusicStaff.forceClef = ##t                              %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
             f32 * 1984/1024
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -1060,8 +1060,8 @@ C_GuitarMusicVoiceII = {
             
             % [C GuitarMusicVoiceII measure 74 / measure 4]                    %! _comment_measure_numbers
             \override Beam.positions = #'(-12 . -12)                           %! OverrideCommand(1)
-            \set stemLeftBeamCount = 0                                         %! SM_35
-            \set stemRightBeamCount = 2                                        %! SM_35
+            \set stemLeftBeamCount = 0                                         %! _extend_beam
+            \set stemRightBeamCount = 2                                        %! _extend_beam
             g'16
             ^ \markup { "glissando: attack first note only" }                  %! IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
@@ -1081,21 +1081,21 @@ C_GuitarMusicVoiceII = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            [                                                                  %! SM_35
-            \glissando                                                         %! SC
+            [                                                                  %! _extend_beam
+            \glissando                                                         %! SpannerCommand
             
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 2                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 2                                        %! _extend_beam
             af''!16
-            \glissando                                                         %! SC
+            \glissando                                                         %! SpannerCommand
             
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 2                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 2                                        %! _extend_beam
             d''16
-            \glissando                                                         %! SC
+            \glissando                                                         %! SpannerCommand
             
-            \set stemLeftBeamCount = 3                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 3                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             cs'''!32
             \revert Beam.positions                                             %! OverrideCommand(2)
         }
@@ -1107,8 +1107,8 @@ C_GuitarMusicVoiceII = {
         \times 2/3 {
             
             % [C GuitarMusicVoiceII measure 82 / measure 12]                   %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 2                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 2                                        %! _extend_beam
             ef''!16
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -1127,15 +1127,15 @@ C_GuitarMusicVoiceII = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            \glissando                                                         %! SC
+            \glissando                                                         %! SpannerCommand
             
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 2                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 2                                        %! _extend_beam
             fs''!16
-            \glissando                                                         %! SC
+            \glissando                                                         %! SpannerCommand
             
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             a'16
         }
     }
@@ -1146,8 +1146,8 @@ C_GuitarMusicVoiceII = {
         \scaleDurations #'(1 . 1) {
             
             % [C GuitarMusicVoiceII measure 84 / measure 14]                   %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 2                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 2                                        %! _extend_beam
             b'16
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -1166,12 +1166,12 @@ C_GuitarMusicVoiceII = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            \glissando                                                         %! SC
+            \glissando                                                         %! SpannerCommand
             
-            \set stemLeftBeamCount = 2                                         %! SM_35
-            \set stemRightBeamCount = 0                                        %! SM_35
+            \set stemLeftBeamCount = 2                                         %! _extend_beam
+            \set stemRightBeamCount = 0                                        %! _extend_beam
             bf''!16
-            ]                                                                  %! SM_35
+            ]                                                                  %! _extend_beam
         }
     }
     
@@ -1202,8 +1202,8 @@ C_GuitarMusicVoiceIII = {
         \times 5/6 {
             
             % [C GuitarMusicVoiceIII measure 76 / measure 6]                   %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 0                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             f''64
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -1222,82 +1222,82 @@ C_GuitarMusicVoiceIII = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            [                                                                  %! SM_35
-            (                                                                  %! SC
+            [                                                                  %! _extend_beam
+            (                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             b''64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             bf''!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             c''64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             f''64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             a'64
         }
         \times 4/5 {
             
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             af'!64
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             d''64
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             cs''!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             ef''!64
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             fs'!64
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
         }
         \tweak text #tuplet-number::calc-fraction-text
         \times 3/4 {
             
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             g'64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             d'64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             cs'!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             ef'!64
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
         }
     }
     {
         \times 4/5 {
             
             % [C GuitarMusicVoiceIII measure 77 / measure 7]                   %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             af'!64
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -1316,61 +1316,61 @@ C_GuitarMusicVoiceIII = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             d'64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             cs'!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             ef'!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             fs'!64
         }
         \tweak text #tuplet-number::calc-fraction-text
         \times 3/4 {
             
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             g'64
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             d''64
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             cs''!64
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             ef''!64
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
         }
         \times 2/3 {
             
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             fs''!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             g''64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             af''!64
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
         }
     }
     
@@ -1381,8 +1381,8 @@ C_GuitarMusicVoiceIII = {
         \times 3/4 {
             
             % [C GuitarMusicVoiceIII measure 80 / measure 10]                  %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             g'64
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -1401,64 +1401,64 @@ C_GuitarMusicVoiceIII = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             d'64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             cs'!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             ef'!64
         }
         \times 2/3 {
             
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             fs'!64
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             g'64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             af'!64
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
         }
         \tweak text #tuplet-number::calc-fraction-text
         \times 5/6 {
             
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             f''64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             a'64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             b'64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             bf'!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             c''64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 0                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 0                                        %! _extend_beam
             fs''!64
-            ]                                                                  %! SM_35
-            )                                                                  %! SC
+            ]                                                                  %! _extend_beam
+            )                                                                  %! SpannerCommand
         }
     }
     
@@ -1468,8 +1468,8 @@ C_GuitarMusicVoiceIII = {
         \scaleDurations #'(1 . 1) {
             
             % [C GuitarMusicVoiceIII measure 85 / measure 15]                  %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 0                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             c''64
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -1488,62 +1488,62 @@ C_GuitarMusicVoiceIII = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            [                                                                  %! SM_35
-            (                                                                  %! SC
+            [                                                                  %! _extend_beam
+            (                                                                  %! SpannerCommand
         }
         \tweak text #tuplet-number::calc-fraction-text
         \times 5/6 {
             
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             f''64
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             b'64
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             bf'!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             c''64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             f''64
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             a'64
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
         }
         \times 4/5 {
             
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             af'!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             d''64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             cs''!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             ef'!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             fs'!64
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
         }
     }
     {
@@ -1551,8 +1551,8 @@ C_GuitarMusicVoiceIII = {
         \times 5/6 {
             
             % [C GuitarMusicVoiceIII measure 86 / measure 16]                  %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             f'64
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -1571,73 +1571,73 @@ C_GuitarMusicVoiceIII = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             b64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             bf'!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             c''64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             f'64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             a'64
         }
         \times 4/5 {
             
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             af'!64
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             d''64
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             cs''!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             ef''!64
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             fs''!64
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
         }
         \tweak text #tuplet-number::calc-fraction-text
         \times 3/4 {
             
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             g''64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             d''64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             cs''!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             ef''!64
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
         }
     }
     
@@ -1647,8 +1647,8 @@ C_GuitarMusicVoiceIII = {
         \times 4/5 {
             
             % [C GuitarMusicVoiceIII measure 89 / measure 19]                  %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             af'!64
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -1667,62 +1667,62 @@ C_GuitarMusicVoiceIII = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             d'64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             cs'!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             ef'!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             fs'!64
         }
         \tweak text #tuplet-number::calc-fraction-text
         \times 3/4 {
             
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             g'64
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             d''64
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             cs''!64
-            )                                                                  %! SC
+            )                                                                  %! SpannerCommand
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 1                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 1                                        %! _extend_beam
             ef''!64
-            (                                                                  %! SC
+            (                                                                  %! SpannerCommand
         }
         \times 2/3 {
             
-            \set stemLeftBeamCount = 1                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 1                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             fs''!64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 4                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 4                                        %! _extend_beam
             g''64
             
-            \set stemLeftBeamCount = 4                                         %! SM_35
-            \set stemRightBeamCount = 0                                        %! SM_35
+            \set stemLeftBeamCount = 4                                         %! _extend_beam
+            \set stemRightBeamCount = 0                                        %! _extend_beam
             af''!64
-            ]                                                                  %! SM_35
-            )                                                                  %! SC
+            ]                                                                  %! _extend_beam
+            )                                                                  %! SpannerCommand
             
         }
     }
@@ -1802,7 +1802,7 @@ C_GuitarMusicVoiceIV = {
             
             gf!2
             :32                                                                %! IndicatorCommand
-            \repeatTie                                                         %! SC
+            \repeatTie                                                         %! SpannerCommand
             \revert Stem.direction                                             %! OverrideCommand(2)
             \revert TupletBracket.staff-padding                                %! OverrideCommand(2)
         }
@@ -1878,7 +1878,7 @@ C_GuitarMusicVoiceIV = {
             
             gf!2
             :32                                                                %! IndicatorCommand
-            \repeatTie                                                         %! SC
+            \repeatTie                                                         %! SpannerCommand
             \revert Stem.direction                                             %! OverrideCommand(2)
             \revert TupletBracket.staff-padding                                %! OverrideCommand(2)
         }

@@ -61,25 +61,25 @@ def anchor_music():
                     {
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
+                        \baca_new_spacing_section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         \time 3/16                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 3/16                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
+                        \baca_new_spacing_section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         \time 21/16                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 21/16                                                         %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
+                        \baca_new_spacing_section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         \time 3/16                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 3/16                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 4]                                          %! _comment_measure_numbers
-                        \baca_new_spacing_section #1 #24                                   %! HSS1:SPACING
+                        \baca_new_spacing_section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         \time 9/8                                                          %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 9/8                                                           %! _make_global_skips(1)

@@ -87,19 +87,19 @@ def passepied_music():
                         % [GlobalSkips measure 1]                                          %! SM_4
                         \time 1/32                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 1/32
+                        s1 * 1/32                                                          %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! SM_4
-                        s1 * 1/32
+                        s1 * 1/32                                                          %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! SM_4
-                        s1 * 1/32
+                        s1 * 1/32                                                          %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 4]                                          %! SM_4
-                        s1 * 1/32
+                        s1 * 1/32                                                          %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 5]                                          %! SM_4
-                        s1 * 1/32
+                        s1 * 1/32                                                          %! MAKE_GLOBAL_SKIPS_1
                         \baca_bar_line_visible                                             %! SM_5
                         \bar "|"                                                           %! SM_5
             <BLANKLINE>
@@ -272,18 +272,18 @@ def passepied_music():
                         % [GlobalSkips measure 1]                                          %! SM_4
                         \time 17/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 17/32
+                        s1 * 17/32                                                         %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! SM_4
-                        s1 * 17/32
+                        s1 * 17/32                                                         %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! SM_4
-                        s1 * 17/32
+                        s1 * 17/32                                                         %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 4]                                          %! SM_4
                         \time 11/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 11/32
+                        s1 * 11/32                                                         %! MAKE_GLOBAL_SKIPS_1
                         \baca_bar_line_visible                                             %! SM_5
                         \bar "|"                                                           %! SM_5
             <BLANKLINE>

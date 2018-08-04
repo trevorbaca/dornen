@@ -73,19 +73,19 @@ def wave_music(denominator=64, inverted=False):
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
                         \time 7/64                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 7/64
+                        s1 * 7/64                                                          %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! SM_4
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
                         \time 13/64                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 13/64
+                        s1 * 13/64                                                         %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! SM_4
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
                         \time 20/64                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 5/16
+                        s1 * 5/16                                                          %! MAKE_GLOBAL_SKIPS_1
                         \baca_bar_line_visible                                             %! SM_5
                         \bar "|"                                                           %! SM_5
             <BLANKLINE>
@@ -522,19 +522,19 @@ def wave_music(denominator=64, inverted=False):
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
                         \time 7/64                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 7/64
+                        s1 * 7/64                                                          %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! SM_4
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
                         \time 13/64                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 13/64
+                        s1 * 13/64                                                         %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! SM_4
                         \baca_new_spacing_section #16 #1024                                %! HSS1:SPACING
                         \time 20/64                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 5/16
+                        s1 * 5/16                                                          %! MAKE_GLOBAL_SKIPS_1
                         \baca_bar_line_visible                                             %! SM_5
                         \bar "|"                                                           %! SM_5
             <BLANKLINE>
@@ -971,19 +971,19 @@ def wave_music(denominator=64, inverted=False):
                         \baca_new_spacing_section #32 #1024                                %! HSS1:SPACING
                         \time 7/32                                                         %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 7/32
+                        s1 * 7/32                                                          %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! SM_4
                         \baca_new_spacing_section #32 #1024                                %! HSS1:SPACING
                         \time 13/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 13/32
+                        s1 * 13/32                                                         %! MAKE_GLOBAL_SKIPS_1
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! SM_4
                         \baca_new_spacing_section #32 #1024                                %! HSS1:SPACING
                         \time 20/32                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
                         \baca_time_signature_color "blue"                                  %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-                        s1 * 5/8
+                        s1 * 5/8                                                           %! MAKE_GLOBAL_SKIPS_1
                         \baca_bar_line_visible                                             %! SM_5
                         \bar "|"                                                           %! SM_5
             <BLANKLINE>

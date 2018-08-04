@@ -4,7 +4,7 @@ K_GlobalSkips = {
     \time 2/5                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
     \bar ""                                                                        %! SM2:+SEGMENT:EMPTY_START_BAR
     \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-    s1 * 2/5
+    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (232)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <0>                                           %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((1))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -34,7 +34,7 @@ K_GlobalSkips = {
     \startTextSpan                                                                 %! MMI_3
     
     % [K GlobalSkips measure 233 / measure 2]                                      %! SM_4
-    s1 * 2/5
+    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (233)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <1>                                           %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((2))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -44,7 +44,7 @@ K_GlobalSkips = {
     % [K GlobalSkips measure 234 / measure 3]                                      %! SM_4
     \time 1/3                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
     \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-    s1 * 1/3
+    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (234)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <2>                                           %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((3))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -52,7 +52,7 @@ K_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup "[8'29'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
     % [K GlobalSkips measure 235 / measure 4]                                      %! SM_4
-    s1 * 1/3
+    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (235)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <3>                                           %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((4))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -60,7 +60,7 @@ K_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup "[8'32'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
     % [K GlobalSkips measure 236 / measure 5]                                      %! SM_4
-    s1 * 1/3
+    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (236)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <4>                                           %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((5))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -70,7 +70,7 @@ K_GlobalSkips = {
     % [K GlobalSkips measure 237 / measure 6]                                      %! SM_4
     \time 2/5                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
     \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-    s1 * 2/5
+    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (237)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <5>                                           %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((6))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -78,7 +78,7 @@ K_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup "[8'37'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
     % [K GlobalSkips measure 238 / measure 7]                                      %! SM_4
-    s1 * 2/5
+    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (238)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <6>                                           %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((7))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -88,7 +88,7 @@ K_GlobalSkips = {
     % [K GlobalSkips measure 239 / measure 8]                                      %! SM_4
     \time 1/3                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
     \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-    s1 * 1/3
+    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (239)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <7>                                           %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((8))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -96,7 +96,7 @@ K_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup "[8'42'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
     % [K GlobalSkips measure 240 / measure 9]                                      %! SM_4
-    s1 * 1/3
+    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (240)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <8>                                           %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((9))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -104,7 +104,7 @@ K_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup "[8'45'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
     % [K GlobalSkips measure 241 / measure 10]                                     %! SM_4
-    s1 * 1/3
+    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (241)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <9>                                           %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((10))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -114,7 +114,7 @@ K_GlobalSkips = {
     % [K GlobalSkips measure 242 / measure 11]                                     %! SM_4
     \time 2/5                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
     \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-    s1 * 2/5
+    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (242)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <10>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((11))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -122,7 +122,7 @@ K_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup "[8'50'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
     % [K GlobalSkips measure 243 / measure 12]                                     %! SM_4
-    s1 * 2/5
+    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (243)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <11>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((12))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -132,7 +132,7 @@ K_GlobalSkips = {
     % [K GlobalSkips measure 244 / measure 13]                                     %! SM_4
     \time 1/3                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
     \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-    s1 * 1/3
+    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (244)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <12>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((13))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -140,7 +140,7 @@ K_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup "[8'56'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
     % [K GlobalSkips measure 245 / measure 14]                                     %! SM_4
-    s1 * 1/3
+    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (245)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <13>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((14))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -148,7 +148,7 @@ K_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup "[8'58'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
     % [K GlobalSkips measure 246 / measure 15]                                     %! SM_4
-    s1 * 1/3
+    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (246)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <14>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((15))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -158,7 +158,7 @@ K_GlobalSkips = {
     % [K GlobalSkips measure 247 / measure 16]                                     %! SM_4
     \time 2/5                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
     \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-    s1 * 2/5
+    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (247)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <15>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((16))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -168,7 +168,7 @@ K_GlobalSkips = {
     % [K GlobalSkips measure 248 / measure 17]                                     %! SM_4
     \time 1/3                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
     \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-    s1 * 1/3
+    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (248)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <16>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((17))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -176,7 +176,7 @@ K_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup "[9'06'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
     % [K GlobalSkips measure 249 / measure 18]                                     %! SM_4
-    s1 * 1/3
+    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (249)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <17>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((18))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -184,7 +184,7 @@ K_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup "[9'08'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
     % [K GlobalSkips measure 250 / measure 19]                                     %! SM_4
-    s1 * 1/3
+    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (250)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <18>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((19))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -194,7 +194,7 @@ K_GlobalSkips = {
     % [K GlobalSkips measure 251 / measure 20]                                     %! SM_4
     \time 2/5                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
     \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-    s1 * 2/5
+    s1 * 2/5                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (251)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <19>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((20))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -204,7 +204,7 @@ K_GlobalSkips = {
     % [K GlobalSkips measure 252 / measure 21]                                     %! SM_4
     \time 1/3                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
     \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-    s1 * 1/3
+    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (252)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <20>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((21))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -212,7 +212,7 @@ K_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup "[9'16'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
     % [K GlobalSkips measure 253 / measure 22]                                     %! SM_4
-    s1 * 1/3
+    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (253)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <21>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((22))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -220,7 +220,7 @@ K_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup "[9'18'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
     % [K GlobalSkips measure 254 / measure 23]                                     %! SM_4
-    s1 * 1/3
+    s1 * 1/3                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (254)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <22>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((23))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -230,7 +230,7 @@ K_GlobalSkips = {
     % [K GlobalSkips measure 255 / measure 24]                                     %! SM_4
     \time 4/5                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
     \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
-    s1 * 4/5
+    s1 * 4/5                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (255)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <23>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((24))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -238,7 +238,7 @@ K_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup "[9'23'']"                                    %! SM28:CLOCK_TIME_MARKUP
     
     % [K GlobalSkips measure 256 / measure 25]                                     %! SM_4
-    s1 * 4/5
+    s1 * 4/5                                                                       %! MAKE_GLOBAL_SKIPS_1
 %@% ^ \markup \baca-dark-cyan-markup (256)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <24>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((25))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP

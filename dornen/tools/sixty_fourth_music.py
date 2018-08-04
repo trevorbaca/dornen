@@ -60,31 +60,31 @@ def sixty_fourth_music():
                     \context GlobalSkips = "GlobalSkips"
                     {
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! COMMENT_MEASURE_NUMBERS
+                        % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #1 #64                                   %! HSS1:SPACING
-                        \time 1/64                                                         %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-                        s1 * 1/64                                                          %! MAKE_GLOBAL_SKIPS_1
+                        \time 1/64                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        s1 * 1/64                                                          %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! COMMENT_MEASURE_NUMBERS
+                        % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #1 #64                                   %! HSS1:SPACING
-                        \time 7/64                                                         %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-                        s1 * 7/64                                                          %! MAKE_GLOBAL_SKIPS_1
+                        \time 7/64                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        s1 * 7/64                                                          %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! COMMENT_MEASURE_NUMBERS
+                        % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #1 #64                                   %! HSS1:SPACING
-                        \time 1/64                                                         %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-                        s1 * 1/64                                                          %! MAKE_GLOBAL_SKIPS_1
+                        \time 1/64                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        s1 * 1/64                                                          %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 4]                                          %! COMMENT_MEASURE_NUMBERS
+                        % [GlobalSkips measure 4]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #1 #64                                   %! HSS1:SPACING
-                        \time 6/64                                                         %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-                        \baca_time_signature_color "blue"                                  %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-                        s1 * 3/32                                                          %! MAKE_GLOBAL_SKIPS_1
-                        \baca_bar_line_visible                                             %! ATTACH_FINAL_BAR_LINE
-                        \bar "|"                                                           %! ATTACH_FINAL_BAR_LINE
+                        \time 6/64                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        s1 * 3/32                                                          %! _make_global_skips(1)
+                        \baca_bar_line_visible                                             %! _attach_final_bar_line
+                        \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }
                 >>
@@ -96,93 +96,93 @@ def sixty_fourth_music():
                         {
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! COMMENT_MEASURE_NUMBERS
+                                % [MusicVoice measure 1]                                   %! _comment_measure_numbers
                                 e'64
-                                -\staccato                                                 %! INDICATOR_COMMAND
+                                -\staccato                                                 %! IndicatorCommand
                                 [
                                 ]
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! COMMENT_MEASURE_NUMBERS
+                                % [MusicVoice measure 2]                                   %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
                                 fs'!64
-                                -\staccato                                                 %! INDICATOR_COMMAND
+                                -\staccato                                                 %! IndicatorCommand
                                 [
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 d'64
-                                -\staccato                                                 %! INDICATOR_COMMAND
+                                -\staccato                                                 %! IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 ef'!64
-                                -\staccato                                                 %! INDICATOR_COMMAND
+                                -\staccato                                                 %! IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 f'64
-                                -\staccato                                                 %! INDICATOR_COMMAND
+                                -\staccato                                                 %! IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 a'64
-                                -\staccato                                                 %! INDICATOR_COMMAND
+                                -\staccato                                                 %! IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 af'!64
-                                -\staccato                                                 %! INDICATOR_COMMAND
+                                -\staccato                                                 %! IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 0
                                 c'64
-                                -\staccato                                                 %! INDICATOR_COMMAND
+                                -\staccato                                                 %! IndicatorCommand
                                 ]
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! COMMENT_MEASURE_NUMBERS
+                                % [MusicVoice measure 3]                                   %! _comment_measure_numbers
                                 b'64
-                                -\staccato                                                 %! INDICATOR_COMMAND
+                                -\staccato                                                 %! IndicatorCommand
                                 [
                                 ]
                             }
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 4]                                   %! COMMENT_MEASURE_NUMBERS
+                                % [MusicVoice measure 4]                                   %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
                                 bf'!64
-                                -\staccato                                                 %! INDICATOR_COMMAND
+                                -\staccato                                                 %! IndicatorCommand
                                 [
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 g'64
-                                -\staccato                                                 %! INDICATOR_COMMAND
+                                -\staccato                                                 %! IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 a'64
-                                -\staccato                                                 %! INDICATOR_COMMAND
+                                -\staccato                                                 %! IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 af'!64
-                                -\staccato                                                 %! INDICATOR_COMMAND
+                                -\staccato                                                 %! IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 c'64
-                                -\staccato                                                 %! INDICATOR_COMMAND
+                                -\staccato                                                 %! IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 0
                                 f'64
-                                -\staccato                                                 %! INDICATOR_COMMAND
+                                -\staccato                                                 %! IndicatorCommand
                                 ]
             <BLANKLINE>
                             }

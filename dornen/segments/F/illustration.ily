@@ -996,7 +996,7 @@ F_GuitarMusicVoiceIII = {
             % [F GuitarMusicVoiceIII measure 135 / measure 3]                                      %! _comment_measure_numbers
             \override Stem.direction = #up                                                         %! OverrideCommand(1)
             d'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
         %%% ^ \markup {                                                                            %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                                          %! FIGURE_NAME_MARKUP
         %%%         #2                                                                             %! FIGURE_NAME_MARKUP
@@ -1022,10 +1022,10 @@ F_GuitarMusicVoiceIII = {
             [
             
             f'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             af'!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             ]
             \revert Stem.direction                                                                 %! OverrideCommand(2)
         }
@@ -1040,7 +1040,7 @@ F_GuitarMusicVoiceIII = {
             % [F GuitarMusicVoiceIII measure 139 / measure 7]                                      %! _comment_measure_numbers
             \override Stem.direction = #up                                                         %! OverrideCommand(1)
             fs'!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
         %%% ^ \markup {                                                                            %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                                          %! FIGURE_NAME_MARKUP
         %%%         #2                                                                             %! FIGURE_NAME_MARKUP
@@ -1066,10 +1066,10 @@ F_GuitarMusicVoiceIII = {
             [
             
             a'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             cs''!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             ]
             \revert Stem.direction                                                                 %! OverrideCommand(2)
         }
@@ -1084,7 +1084,7 @@ F_GuitarMusicVoiceIII = {
             % [F GuitarMusicVoiceIII measure 146 / measure 14]                                     %! _comment_measure_numbers
             \override Stem.direction = #up                                                         %! OverrideCommand(1)
             af'!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
         %%% ^ \markup {                                                                            %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                                          %! FIGURE_NAME_MARKUP
         %%%         #2                                                                             %! FIGURE_NAME_MARKUP
@@ -1110,13 +1110,13 @@ F_GuitarMusicVoiceIII = {
             [
             
             f'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             cs''!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             b'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             ]
             \revert Stem.direction                                                                 %! OverrideCommand(2)
         }
@@ -1131,7 +1131,7 @@ F_GuitarMusicVoiceIII = {
             % [F GuitarMusicVoiceIII measure 152 / measure 20]                                     %! _comment_measure_numbers
             \override Stem.direction = #up                                                         %! OverrideCommand(1)
             ef'!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
         %%% ^ \markup {                                                                            %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                                          %! FIGURE_NAME_MARKUP
         %%%         #2                                                                             %! FIGURE_NAME_MARKUP
@@ -1157,13 +1157,13 @@ F_GuitarMusicVoiceIII = {
             [
             
             c''16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             cs''!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             b'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             ]
             \revert Stem.direction                                                                 %! OverrideCommand(2)
         }

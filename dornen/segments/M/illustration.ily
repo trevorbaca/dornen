@@ -464,7 +464,7 @@ M_GuitarMusicVoiceI = {
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
             d'32.
             _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))           %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
             ^ \markup { "LH only until rascado! (RH tacet; encourage whisks) ..." }                %! IndicatorCommand
             [                                                                                      %! _extend_beam
             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)                        %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -472,7 +472,7 @@ M_GuitarMusicVoiceI = {
             \set stemLeftBeamCount = 3                                                             %! _extend_beam
             \set stemRightBeamCount = 1                                                            %! _extend_beam
             cs'!32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
         }
     }
     
@@ -485,12 +485,12 @@ M_GuitarMusicVoiceI = {
             \set stemLeftBeamCount = 1                                                             %! _extend_beam
             \set stemRightBeamCount = 3                                                            %! _extend_beam
             ef'!32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
             
             \set stemLeftBeamCount = 3                                                             %! _extend_beam
             \set stemRightBeamCount = 0                                                            %! _extend_beam
             fs'!32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
             ]                                                                                      %! _extend_beam
         }
     }
@@ -508,14 +508,14 @@ M_GuitarMusicVoiceI = {
             \set stemLeftBeamCount = 0                                                             %! _extend_beam
             \set stemRightBeamCount = 3                                                            %! _extend_beam
             d'32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
             ^ \markup { "RH reaches for screw ..." }                                               %! IndicatorCommand
             [                                                                                      %! _extend_beam
             
             \set stemLeftBeamCount = 3                                                             %! _extend_beam
             \set stemRightBeamCount = 1                                                            %! _extend_beam
             cs'!32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
         }
     }
     
@@ -528,12 +528,12 @@ M_GuitarMusicVoiceI = {
             \set stemLeftBeamCount = 1                                                             %! _extend_beam
             \set stemRightBeamCount = 3                                                            %! _extend_beam
             ef'!32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
             
             \set stemLeftBeamCount = 3                                                             %! _extend_beam
             \set stemRightBeamCount = 0                                                            %! _extend_beam
             fs'!32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
             ]                                                                                      %! _extend_beam
         }
     }
@@ -551,14 +551,14 @@ M_GuitarMusicVoiceI = {
             \set stemLeftBeamCount = 0                                                             %! _extend_beam
             \set stemRightBeamCount = 3                                                            %! _extend_beam
             d'32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
             ^ \markup { "RH places screw on string ..." }                                          %! IndicatorCommand
             [                                                                                      %! _extend_beam
             
             \set stemLeftBeamCount = 3                                                             %! _extend_beam
             \set stemRightBeamCount = 1                                                            %! _extend_beam
             cs'!32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
         }
     }
     
@@ -571,12 +571,12 @@ M_GuitarMusicVoiceI = {
             \set stemLeftBeamCount = 1                                                             %! _extend_beam
             \set stemRightBeamCount = 3                                                            %! _extend_beam
             ef'!32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
             
             \set stemLeftBeamCount = 3                                                             %! _extend_beam
             \set stemRightBeamCount = 0                                                            %! _extend_beam
             fs'!32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
             ]                                                                                      %! _extend_beam
         }
     }
@@ -594,13 +594,13 @@ M_GuitarMusicVoiceI = {
             \set stemLeftBeamCount = 0                                                             %! _extend_beam
             \set stemRightBeamCount = 3                                                            %! _extend_beam
             d'32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
             [                                                                                      %! _extend_beam
             
             \set stemLeftBeamCount = 3                                                             %! _extend_beam
             \set stemRightBeamCount = 1                                                            %! _extend_beam
             cs'!32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
         }
     }
     
@@ -613,12 +613,12 @@ M_GuitarMusicVoiceI = {
             \set stemLeftBeamCount = 1                                                             %! _extend_beam
             \set stemRightBeamCount = 3                                                            %! _extend_beam
             ef'!32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
             
             \set stemLeftBeamCount = 3                                                             %! _extend_beam
             \set stemRightBeamCount = 0                                                            %! _extend_beam
             fs'!32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
             ]                                                                                      %! _extend_beam
         }
     }
@@ -636,13 +636,13 @@ M_GuitarMusicVoiceI = {
             \set stemLeftBeamCount = 0                                                             %! _extend_beam
             \set stemRightBeamCount = 3                                                            %! _extend_beam
             d'32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
             [                                                                                      %! _extend_beam
             
             \set stemLeftBeamCount = 3                                                             %! _extend_beam
             \set stemRightBeamCount = 1                                                            %! _extend_beam
             cs'!32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
         }
     }
     
@@ -655,12 +655,12 @@ M_GuitarMusicVoiceI = {
             \set stemLeftBeamCount = 1                                                             %! _extend_beam
             \set stemRightBeamCount = 3                                                            %! _extend_beam
             ef'!32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
             
             \set stemLeftBeamCount = 3                                                             %! _extend_beam
             \set stemRightBeamCount = 0                                                            %! _extend_beam
             fs'!32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
             ]                                                                                      %! _extend_beam
         }
     }
@@ -676,11 +676,11 @@ M_GuitarMusicVoiceI = {
             
             % [M GuitarMusicVoiceI measure 338 / measure 36]                                       %! _comment_measure_numbers
             d'32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
             [
             
             cs'!32.
-            -\tenuto                                                                               %! IndicatorCommand
+            - \tenuto                                                                              %! IndicatorCommand
             ]
         }
     }
@@ -958,7 +958,7 @@ M_GuitarMusicVoiceIII = {
             
             % [M GuitarMusicVoiceIII measure 305 / measure 3]                                      %! _comment_measure_numbers
             c'16
-            -\accent                                                                               %! IndicatorCommand
+            - \accent                                                                              %! IndicatorCommand
         }
     }
     
@@ -969,7 +969,7 @@ M_GuitarMusicVoiceIII = {
             
             % [M GuitarMusicVoiceIII measure 312 / measure 10]                                     %! _comment_measure_numbers
             c'16
-            -\accent                                                                               %! IndicatorCommand
+            - \accent                                                                              %! IndicatorCommand
         }
     }
     
@@ -980,7 +980,7 @@ M_GuitarMusicVoiceIII = {
             
             % [M GuitarMusicVoiceIII measure 319 / measure 17]                                     %! _comment_measure_numbers
             c'16
-            -\accent                                                                               %! IndicatorCommand
+            - \accent                                                                              %! IndicatorCommand
         }
     }
     
@@ -991,7 +991,7 @@ M_GuitarMusicVoiceIII = {
             
             % [M GuitarMusicVoiceIII measure 326 / measure 24]                                     %! _comment_measure_numbers
             c'16
-            -\accent                                                                               %! IndicatorCommand
+            - \accent                                                                              %! IndicatorCommand
         }
     }
     
@@ -1002,7 +1002,7 @@ M_GuitarMusicVoiceIII = {
             
             % [M GuitarMusicVoiceIII measure 333 / measure 31]                                     %! _comment_measure_numbers
             c'16
-            -\accent                                                                               %! IndicatorCommand
+            - \accent                                                                              %! IndicatorCommand
         }
     }
     
@@ -1013,7 +1013,7 @@ M_GuitarMusicVoiceIII = {
             
             % [M GuitarMusicVoiceIII measure 340 / measure 38]                                     %! _comment_measure_numbers
             c'16
-            -\accent                                                                               %! IndicatorCommand
+            - \accent                                                                              %! IndicatorCommand
         }
     }
     
@@ -1047,18 +1047,18 @@ M_GuitarMusicVoiceIV = {
             \set stemLeftBeamCount = 0                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             b'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             [                                                                                      %! _extend_beam
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             a'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 1                                                            %! _extend_beam
             g''16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
         }
     }
     
@@ -1074,17 +1074,17 @@ M_GuitarMusicVoiceIV = {
             \set stemLeftBeamCount = 1                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             ef''!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             fs''!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 0                                                            %! _extend_beam
             f''16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             ]                                                                                      %! _extend_beam
             \revert Beam.positions                                                                 %! OverrideCommand(2)
             \revert Stem.direction                                                                 %! OverrideCommand(2)
@@ -1101,18 +1101,18 @@ M_GuitarMusicVoiceIV = {
             \set stemLeftBeamCount = 0                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             b'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             [                                                                                      %! _extend_beam
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             a'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 1                                                            %! _extend_beam
             g''16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
         }
     }
     
@@ -1128,17 +1128,17 @@ M_GuitarMusicVoiceIV = {
             \set stemLeftBeamCount = 1                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             ef''!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             fs''!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 0                                                            %! _extend_beam
             f''16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             ]                                                                                      %! _extend_beam
             \revert Beam.positions                                                                 %! OverrideCommand(2)
             \revert Stem.direction                                                                 %! OverrideCommand(2)
@@ -1155,18 +1155,18 @@ M_GuitarMusicVoiceIV = {
             \set stemLeftBeamCount = 0                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             b'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             [                                                                                      %! _extend_beam
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             a'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 1                                                            %! _extend_beam
             g''16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
         }
     }
     
@@ -1182,17 +1182,17 @@ M_GuitarMusicVoiceIV = {
             \set stemLeftBeamCount = 1                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             ef''!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             fs''!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 0                                                            %! _extend_beam
             f''16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             ]                                                                                      %! _extend_beam
             \revert Beam.positions                                                                 %! OverrideCommand(2)
             \revert Stem.direction                                                                 %! OverrideCommand(2)
@@ -1209,18 +1209,18 @@ M_GuitarMusicVoiceIV = {
             \set stemLeftBeamCount = 0                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             b'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             [                                                                                      %! _extend_beam
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             a'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 1                                                            %! _extend_beam
             g''16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
         }
     }
     
@@ -1236,17 +1236,17 @@ M_GuitarMusicVoiceIV = {
             \set stemLeftBeamCount = 1                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             ef''!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             fs''!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 0                                                            %! _extend_beam
             f''16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             ]                                                                                      %! _extend_beam
             \revert Beam.positions                                                                 %! OverrideCommand(2)
             \revert Stem.direction                                                                 %! OverrideCommand(2)
@@ -1263,18 +1263,18 @@ M_GuitarMusicVoiceIV = {
             \set stemLeftBeamCount = 0                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             b'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             [                                                                                      %! _extend_beam
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             a'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 1                                                            %! _extend_beam
             g''16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
         }
     }
     
@@ -1290,17 +1290,17 @@ M_GuitarMusicVoiceIV = {
             \set stemLeftBeamCount = 1                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             ef''!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             fs''!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 0                                                            %! _extend_beam
             f''16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             ]                                                                                      %! _extend_beam
             \revert Beam.positions                                                                 %! OverrideCommand(2)
             \revert Stem.direction                                                                 %! OverrideCommand(2)
@@ -1317,18 +1317,18 @@ M_GuitarMusicVoiceIV = {
             \set stemLeftBeamCount = 0                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             b'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             [                                                                                      %! _extend_beam
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             a'16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 1                                                            %! _extend_beam
             g''16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
         }
     }
     
@@ -1344,17 +1344,17 @@ M_GuitarMusicVoiceIV = {
             \set stemLeftBeamCount = 1                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             ef''!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             fs''!16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 0                                                            %! _extend_beam
             f''16
-            -\staccato                                                                             %! IndicatorCommand
+            - \staccato                                                                            %! IndicatorCommand
             ]                                                                                      %! _extend_beam
             \revert Beam.positions                                                                 %! OverrideCommand(2)
             \revert Stem.direction                                                                 %! OverrideCommand(2)

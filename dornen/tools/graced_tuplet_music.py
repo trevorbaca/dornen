@@ -67,18 +67,18 @@ def graced_tuplet_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.strict-grace-spacing = ##f
-                \override SpacingSpanner.strict-note-spacing = ##f
-                \override TupletBracket.staff-padding = #4
-            }
-            <<
-                \context GlobalContext = "GlobalContext"
-                <<
-                    \context GlobalSkips = "GlobalSkips"
-                    {
+            \context Score = "Score"                                                       %! SingleStaffScoreTemplate
+            \with                                                                          %! SingleStaffScoreTemplate
+            {                                                                              %! SingleStaffScoreTemplate
+                \override SpacingSpanner.strict-grace-spacing = ##f                        %! SingleStaffScoreTemplate
+                \override SpacingSpanner.strict-note-spacing = ##f                         %! SingleStaffScoreTemplate
+                \override TupletBracket.staff-padding = #4                                 %! SingleStaffScoreTemplate
+            }                                                                              %! SingleStaffScoreTemplate
+            <<                                                                             %! SingleStaffScoreTemplate
+                \context GlobalContext = "GlobalContext"                                   %! _make_global_context
+                <<                                                                         %! _make_global_context
+                    \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
+                    {                                                                      %! _make_global_context
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
                         \time 19/56                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -97,14 +97,14 @@ def graced_tuplet_music():
                         \baca_bar_line_visible                                             %! _attach_final_bar_line
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
-                    }
-                >>
-                \context MusicContext = "MusicContext"
-                <<
-                    \context Staff = "MusicStaff"
-                    {
-                        \context Voice = "MusicVoice"
-                        {
+                    }                                                                      %! _make_global_context
+                >>                                                                         %! _make_global_context
+                \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
+                <<                                                                         %! SingleStaffScoreTemplate
+                    \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
+                    {                                                                      %! SingleStaffScoreTemplate
+                        \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
+                        {                                                                  %! SingleStaffScoreTemplate
                             \tweak text #tuplet-number::calc-fraction-text
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
@@ -323,10 +323,10 @@ def graced_tuplet_music():
                                 ]
             <BLANKLINE>
                             }
-                        }
-                    }
-                >>
-            >>
+                        }                                                                  %! SingleStaffScoreTemplate
+                    }                                                                      %! SingleStaffScoreTemplate
+                >>                                                                         %! SingleStaffScoreTemplate
+            >>                                                                             %! SingleStaffScoreTemplate
 
 
     Returns music-maker.

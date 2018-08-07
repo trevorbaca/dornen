@@ -22,35 +22,35 @@ class ScoreTemplate(baca.ScoreTemplate):
         >>> abjad.f(lilypond_file[abjad.Score], strict=79)
         \context Score = "Score"
         <<
-            \context GlobalContext = "GlobalContext"
-            <<
-                \context GlobalRests = "GlobalRests"
-                {
-                }
-                \context GlobalSkips = "GlobalSkips"
-                {
-                }
-            >>
+            \context GlobalContext = "GlobalContext"                                   %! _make_global_context
+            <<                                                                         %! _make_global_context
+                \context GlobalRests = "GlobalRests"                                   %! _make_global_context
+                {                                                                      %! _make_global_context
+                }                                                                      %! _make_global_context
+                \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
+                {                                                                      %! _make_global_context
+                }                                                                      %! _make_global_context
+            >>                                                                         %! _make_global_context
             \context MusicContext = "MusicContext"
             {
                 \context GuitarMusicStaff = "GuitarMusicStaff"
                 <<
                     \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
                     {
-                        \clef "treble"                                                 %! ScoreTemplate(3)
-                        s1
+                        \clef "treble"                                                 %! attach_defaults
+                        s1                                                             %! ScoreTemplate.__illustrate__
                     }
                     \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
                     {
-                        s1
+                        s1                                                             %! ScoreTemplate.__illustrate__
                     }
                     \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
                     {
-                        s1
+                        s1                                                             %! ScoreTemplate.__illustrate__
                     }
                     \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
                     {
-                        s1
+                        s1                                                             %! ScoreTemplate.__illustrate__
                     }
                 >>
             }

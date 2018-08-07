@@ -53,12 +53,12 @@ def tremolo_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
-            \context Score = "Score"
-            <<
-                \context GlobalContext = "GlobalContext"
-                <<
-                    \context GlobalSkips = "GlobalSkips"
-                    {
+            \context Score = "Score"                                                       %! SingleStaffScoreTemplate
+            <<                                                                             %! SingleStaffScoreTemplate
+                \context GlobalContext = "GlobalContext"                                   %! _make_global_context
+                <<                                                                         %! _make_global_context
+                    \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
+                    {                                                                      %! _make_global_context
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
@@ -86,14 +86,14 @@ def tremolo_music():
                         \baca_bar_line_visible                                             %! _attach_final_bar_line
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
-                    }
-                >>
-                \context MusicContext = "MusicContext"
-                <<
-                    \context Staff = "MusicStaff"
-                    {
-                        \context Voice = "MusicVoice"
-                        {
+                    }                                                                      %! _make_global_context
+                >>                                                                         %! _make_global_context
+                \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
+                <<                                                                         %! SingleStaffScoreTemplate
+                    \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
+                    {                                                                      %! SingleStaffScoreTemplate
+                        \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
+                        {                                                                  %! SingleStaffScoreTemplate
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
@@ -214,10 +214,10 @@ def tremolo_music():
                                 ]
             <BLANKLINE>
                             }
-                        }
-                    }
-                >>
-            >>
+                        }                                                                  %! SingleStaffScoreTemplate
+                    }                                                                      %! SingleStaffScoreTemplate
+                >>                                                                         %! SingleStaffScoreTemplate
+            >>                                                                             %! SingleStaffScoreTemplate
 
     ..  container:: example
 
@@ -276,12 +276,12 @@ def tremolo_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
-            \context Score = "Score"
-            <<
-                \context GlobalContext = "GlobalContext"
-                <<
-                    \context GlobalSkips = "GlobalSkips"
-                    {
+            \context Score = "Score"                                                       %! SingleStaffScoreTemplate
+            <<                                                                             %! SingleStaffScoreTemplate
+                \context GlobalContext = "GlobalContext"                                   %! _make_global_context
+                <<                                                                         %! _make_global_context
+                    \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
+                    {                                                                      %! _make_global_context
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
@@ -303,14 +303,14 @@ def tremolo_music():
                         \baca_bar_line_visible                                             %! _attach_final_bar_line
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
-                    }
-                >>
-                \context MusicContext = "MusicContext"
-                <<
-                    \context Staff = "MusicStaff"
-                    {
-                        \context Voice = "MusicVoice"
-                        {
+                    }                                                                      %! _make_global_context
+                >>                                                                         %! _make_global_context
+                \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
+                <<                                                                         %! SingleStaffScoreTemplate
+                    \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
+                    {                                                                      %! SingleStaffScoreTemplate
+                        \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
+                        {                                                                  %! SingleStaffScoreTemplate
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
@@ -561,10 +561,10 @@ def tremolo_music():
                                 ]
             <BLANKLINE>
                             }
-                        }
-                    }
-                >>
-            >>
+                        }                                                                  %! SingleStaffScoreTemplate
+                    }                                                                      %! SingleStaffScoreTemplate
+                >>                                                                         %! SingleStaffScoreTemplate
+            >>                                                                             %! SingleStaffScoreTemplate
 
     Returns music-maker.
     """

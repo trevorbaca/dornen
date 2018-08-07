@@ -72,17 +72,17 @@ def ovoid_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
-            \context Score = "Score"
-            \with
-            {
-                \override SpacingSpanner.strict-grace-spacing = ##f
-                \override SpacingSpanner.strict-note-spacing = ##f
-            }
-            <<
-                \context GlobalContext = "GlobalContext"
-                <<
-                    \context GlobalSkips = "GlobalSkips"
-                    {
+            \context Score = "Score"                                                       %! SingleStaffScoreTemplate
+            \with                                                                          %! SingleStaffScoreTemplate
+            {                                                                              %! SingleStaffScoreTemplate
+                \override SpacingSpanner.strict-grace-spacing = ##f                        %! SingleStaffScoreTemplate
+                \override SpacingSpanner.strict-note-spacing = ##f                         %! SingleStaffScoreTemplate
+            }                                                                              %! SingleStaffScoreTemplate
+            <<                                                                             %! SingleStaffScoreTemplate
+                \context GlobalContext = "GlobalContext"                                   %! _make_global_context
+                <<                                                                         %! _make_global_context
+                    \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
+                    {                                                                      %! _make_global_context
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
                         \time 13/32                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -107,14 +107,14 @@ def ovoid_music():
                         \baca_bar_line_visible                                             %! _attach_final_bar_line
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
-                    }
-                >>
-                \context MusicContext = "MusicContext"
-                <<
-                    \context Staff = "MusicStaff"
-                    {
-                        \context Voice = "MusicVoice"
-                        {
+                    }                                                                      %! _make_global_context
+                >>                                                                         %! _make_global_context
+                \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
+                <<                                                                         %! SingleStaffScoreTemplate
+                    \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
+                    {                                                                      %! SingleStaffScoreTemplate
+                        \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
+                        {                                                                  %! SingleStaffScoreTemplate
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! _comment_measure_numbers
@@ -295,10 +295,10 @@ def ovoid_music():
                                 ]
             <BLANKLINE>
                             }
-                        }
-                    }
-                >>
-            >>
+                        }                                                                  %! SingleStaffScoreTemplate
+                    }                                                                      %! SingleStaffScoreTemplate
+                >>                                                                         %! SingleStaffScoreTemplate
+            >>                                                                             %! SingleStaffScoreTemplate
 
     Returns music-maker.
     """

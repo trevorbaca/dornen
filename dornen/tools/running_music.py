@@ -53,12 +53,12 @@ def running_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
-            \context Score = "Score"
-            <<
-                \context GlobalContext = "GlobalContext"
-                <<
-                    \context GlobalSkips = "GlobalSkips"
-                    {
+            \context Score = "Score"                                                       %! SingleStaffScoreTemplate
+            <<                                                                             %! SingleStaffScoreTemplate
+                \context GlobalContext = "GlobalContext"                                   %! _make_global_context
+                <<                                                                         %! _make_global_context
+                    \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
+                    {                                                                      %! _make_global_context
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #1 #64                                   %! HorizontalSpacingSpecifier(1):SPACING
@@ -86,14 +86,14 @@ def running_music():
                         \baca_bar_line_visible                                             %! _attach_final_bar_line
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
-                    }
-                >>
-                \context MusicContext = "MusicContext"
-                <<
-                    \context Staff = "MusicStaff"
-                    {
-                        \context Voice = "MusicVoice"
-                        {
+                    }                                                                      %! _make_global_context
+                >>                                                                         %! _make_global_context
+                \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
+                <<                                                                         %! SingleStaffScoreTemplate
+                    \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
+                    {                                                                      %! SingleStaffScoreTemplate
+                        \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
+                        {                                                                  %! SingleStaffScoreTemplate
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! _comment_measure_numbers
@@ -181,10 +181,10 @@ def running_music():
                                 )                                                          %! SpannerCommand
             <BLANKLINE>
                             }
-                        }
-                    }
-                >>
-            >>
+                        }                                                                  %! SingleStaffScoreTemplate
+                    }                                                                      %! SingleStaffScoreTemplate
+                >>                                                                         %! SingleStaffScoreTemplate
+            >>                                                                             %! SingleStaffScoreTemplate
 
     ..  container:: example
 
@@ -242,12 +242,12 @@ def running_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
-            \context Score = "Score"
-            <<
-                \context GlobalContext = "GlobalContext"
-                <<
-                    \context GlobalSkips = "GlobalSkips"
-                    {
+            \context Score = "Score"                                                       %! SingleStaffScoreTemplate
+            <<                                                                             %! SingleStaffScoreTemplate
+                \context GlobalContext = "GlobalContext"                                   %! _make_global_context
+                <<                                                                         %! _make_global_context
+                    \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
+                    {                                                                      %! _make_global_context
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #3 #224                                  %! HorizontalSpacingSpecifier(1):SPACING
@@ -269,14 +269,14 @@ def running_music():
                         \baca_bar_line_visible                                             %! _attach_final_bar_line
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
-                    }
-                >>
-                \context MusicContext = "MusicContext"
-                <<
-                    \context Staff = "MusicStaff"
-                    {
-                        \context Voice = "MusicVoice"
-                        {
+                    }                                                                      %! _make_global_context
+                >>                                                                         %! _make_global_context
+                \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
+                <<                                                                         %! SingleStaffScoreTemplate
+                    \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
+                    {                                                                      %! SingleStaffScoreTemplate
+                        \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
+                        {                                                                  %! SingleStaffScoreTemplate
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! _comment_measure_numbers
@@ -449,10 +449,10 @@ def running_music():
                                 )                                                          %! SpannerCommand
             <BLANKLINE>
                             }
-                        }
-                    }
-                >>
-            >>
+                        }                                                                  %! SingleStaffScoreTemplate
+                    }                                                                      %! SingleStaffScoreTemplate
+                >>                                                                         %! SingleStaffScoreTemplate
+            >>                                                                             %! SingleStaffScoreTemplate
 
     Returns music-maker.
     """

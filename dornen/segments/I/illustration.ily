@@ -1261,12 +1261,12 @@ I_GuitarMusicVoiceIV = {
 
 
 I_GuitarMusicStaff = <<
-    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
+    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"                                               %! ScoreTemplate
     \I_GuitarMusicVoiceI                                                                           %! extern
-    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
+    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"                                             %! ScoreTemplate
     \I_GuitarMusicVoiceII                                                                          %! extern
-    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
+    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"                                           %! ScoreTemplate
     \I_GuitarMusicVoiceIII                                                                         %! extern
-    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
+    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"                                             %! ScoreTemplate
     \I_GuitarMusicVoiceIV                                                                          %! extern
 >>

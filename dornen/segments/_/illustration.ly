@@ -10,18 +10,18 @@
         {                                                                                          %! _make_lilypond_file
             \include "layout.ly"                                                                   %! _make_lilypond_file
         }                                                                                          %! _make_lilypond_file
-        \context Score = "Score"
-        <<
+        \context Score = "Score"                                                                   %! ScoreTemplate
+        <<                                                                                         %! ScoreTemplate
             \context GlobalContext = "GlobalContext"                                               %! _make_global_context
             <<                                                                                     %! _make_global_context
                 \context GlobalSkips = "GlobalSkips"                                               %! _make_global_context
                 \i_GlobalSkips                                                                     %! extern
             >>                                                                                     %! _make_global_context
-            \context MusicContext = "MusicContext"
-            {
-                \context GuitarMusicStaff = "GuitarMusicStaff"
+            \context MusicContext = "MusicContext"                                                 %! ScoreTemplate
+            {                                                                                      %! ScoreTemplate
+                \context GuitarMusicStaff = "GuitarMusicStaff"                                     %! ScoreTemplate
                 \i_GuitarMusicStaff                                                                %! extern
-            }
-        >>
+            }                                                                                      %! ScoreTemplate
+        >>                                                                                         %! ScoreTemplate
     >>                                                                                             %! _make_lilypond_file
 }                                                                                                  %! _make_lilypond_file

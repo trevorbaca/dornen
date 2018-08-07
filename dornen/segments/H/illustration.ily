@@ -1441,12 +1441,12 @@ H_GuitarMusicVoiceIV = {
 
 
 H_GuitarMusicStaff = <<
-    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
+    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"                                               %! ScoreTemplate
     \H_GuitarMusicVoiceI                                                                           %! extern
-    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
+    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"                                             %! ScoreTemplate
     \H_GuitarMusicVoiceII                                                                          %! extern
-    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
+    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"                                           %! ScoreTemplate
     \H_GuitarMusicVoiceIII                                                                         %! extern
-    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
+    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"                                             %! ScoreTemplate
     \H_GuitarMusicVoiceIV                                                                          %! extern
 >>

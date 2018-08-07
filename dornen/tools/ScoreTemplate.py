@@ -20,8 +20,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         >>> abjad.show(lilypond_file, strict=79) # doctest: +SKIP
 
         >>> abjad.f(lilypond_file[abjad.Score], strict=79)
-        \context Score = "Score"
-        <<
+        \context Score = "Score"                                                       %! ScoreTemplate
+        <<                                                                             %! ScoreTemplate
             \context GlobalContext = "GlobalContext"                                   %! _make_global_context
             <<                                                                         %! _make_global_context
                 \context GlobalRests = "GlobalRests"                                   %! _make_global_context
@@ -31,30 +31,30 @@ class ScoreTemplate(baca.ScoreTemplate):
                 {                                                                      %! _make_global_context
                 }                                                                      %! _make_global_context
             >>                                                                         %! _make_global_context
-            \context MusicContext = "MusicContext"
-            {
-                \context GuitarMusicStaff = "GuitarMusicStaff"
-                <<
-                    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"
-                    {
+            \context MusicContext = "MusicContext"                                     %! ScoreTemplate
+            {                                                                          %! ScoreTemplate
+                \context GuitarMusicStaff = "GuitarMusicStaff"                         %! ScoreTemplate
+                <<                                                                     %! ScoreTemplate
+                    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"                   %! ScoreTemplate
+                    {                                                                  %! ScoreTemplate
                         \clef "treble"                                                 %! attach_defaults
                         s1                                                             %! ScoreTemplate.__illustrate__
-                    }
-                    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"
-                    {
+                    }                                                                  %! ScoreTemplate
+                    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"                 %! ScoreTemplate
+                    {                                                                  %! ScoreTemplate
                         s1                                                             %! ScoreTemplate.__illustrate__
-                    }
-                    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"
-                    {
+                    }                                                                  %! ScoreTemplate
+                    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"               %! ScoreTemplate
+                    {                                                                  %! ScoreTemplate
                         s1                                                             %! ScoreTemplate.__illustrate__
-                    }
-                    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"
-                    {
+                    }                                                                  %! ScoreTemplate
+                    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"                 %! ScoreTemplate
+                    {                                                                  %! ScoreTemplate
                         s1                                                             %! ScoreTemplate.__illustrate__
-                    }
-                >>
-            }
-        >>
+                    }                                                                  %! ScoreTemplate
+                >>                                                                     %! ScoreTemplate
+            }                                                                          %! ScoreTemplate
+        >>                                                                             %! ScoreTemplate
 
 
     """
@@ -82,6 +82,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         """
         Calls score template.
         """
+        tag = 'ScoreTemplate'
+
         # GLOBAL CONTEXT
         global_context = self._make_global_context()
 
@@ -89,18 +91,22 @@ class ScoreTemplate(baca.ScoreTemplate):
         guitar_music_voice_1 = abjad.Voice(
             lilypond_type='GuitarMusicVoiceI',
             name='GuitarMusicVoiceI',
+            tag=tag,
             )
         guitar_music_voice_2 = abjad.Voice(
             lilypond_type='GuitarMusicVoiceII',
             name='GuitarMusicVoiceII',
+            tag=tag,
             )
         guitar_music_voice_3 = abjad.Voice(
             lilypond_type='GuitarMusicVoiceIII',
             name='GuitarMusicVoiceIII',
+            tag=tag,
             )
         guitar_music_voice_4 = abjad.Voice(
             lilypond_type='GuitarMusicVoiceIV',
             name='GuitarMusicVoiceIV',
+            tag=tag,
             )
         guitar_music_staff = abjad.Staff(
             [
@@ -112,6 +118,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             lilypond_type='GuitarMusicStaff',
             is_simultaneous=True,
             name='GuitarMusicStaff',
+            tag=tag,
             )
         abjad.annotate(
             guitar_music_staff,
@@ -129,10 +136,12 @@ class ScoreTemplate(baca.ScoreTemplate):
             [guitar_music_staff],
             lilypond_type='MusicContext',
             name='MusicContext',
+            tag=tag,
             )
         score = abjad.Score(
             [global_context, music_context],
             name='Score',
+            tag=tag,
             )
         self._assert_lilypond_identifiers(score)
         self._assert_unique_context_names(score)

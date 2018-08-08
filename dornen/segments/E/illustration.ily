@@ -187,7 +187,7 @@ E_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [E GuitarMusicVoiceI measure 120 / measure 1]                                        %! _comment_measure_numbers
-            \override Beam.positions = #'(10 . 10)                                                 %! OverrideCommand(1)
+            \override Beam.positions = #'(10 . 10)                                                 %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                                             %! _extend_beam
             \set stemRightBeamCount = 3                                                            %! _extend_beam
             \clef "treble"                                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
@@ -225,7 +225,7 @@ E_GuitarMusicVoiceI = {
             \set stemRightBeamCount = 1                                                            %! _extend_beam
             c'32.
             - \tenuto                                                                              %! IndicatorCommand
-            \revert Beam.positions                                                                 %! OverrideCommand(2)
+            \revert Beam.positions                                                                 %! baca_beam_positions:OverrideCommand(2)
         }
     }
     
@@ -2172,7 +2172,7 @@ E_GuitarMusicVoiceII = {
 E_GuitarMusicVoiceIII = {
     
     % [E GuitarMusicVoiceIII measure 120 / measure 1]                                              %! _comment_measure_numbers
-    \override Script.direction = #down                                                             %! OverrideCommand(1)
+    \override Script.direction = #down                                                             %! baca_script_down:OverrideCommand(1)
     s1 * 3/32
     {
         \scaleDurations #'(1 . 1) {
@@ -2246,7 +2246,7 @@ E_GuitarMusicVoiceIII = {
     
     % [E GuitarMusicVoiceIII measure 126 / measure 7]                                              %! _comment_measure_numbers
     s1 * 3/20                                                                                      %! _make_measure_silences
-    \revert Script.direction                                                                       %! OverrideCommand(2)
+    \revert Script.direction                                                                       %! baca_script_down:OverrideCommand(2)
     
     % [E GuitarMusicVoiceIII measure 127 / measure 8]                                              %! _comment_measure_numbers
     s1 * 3/8                                                                                       %! _make_measure_silences
@@ -2272,7 +2272,7 @@ E_GuitarMusicVoiceIII = {
 E_GuitarMusicVoiceIV = {
     
     % [E GuitarMusicVoiceIV measure 120 / measure 1]                                               %! _comment_measure_numbers
-    \override Beam.positions = #'(5.5 . 5.5)                                                       %! OverrideCommand(1)
+    \override Beam.positions = #'(5.5 . 5.5)                                                       %! baca_beam_positions:OverrideCommand(1)
     s1 * 11/32
     ^ \markup \baca-reapplied-indicator-markup "(“Guitar”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     {
@@ -2354,7 +2354,7 @@ E_GuitarMusicVoiceIV = {
             c''16
             - \staccato                                                                            %! IndicatorCommand
             ]
-            \revert Beam.positions                                                                 %! OverrideCommand(2)
+            \revert Beam.positions                                                                 %! baca_beam_positions:OverrideCommand(2)
         }
     }
     

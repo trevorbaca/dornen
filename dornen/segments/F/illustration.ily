@@ -255,7 +255,7 @@ F_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [F GuitarMusicVoiceI measure 133 / measure 1]                                        %! _comment_measure_numbers
-            \override Beam.positions = #'(8 . 8)                                                   %! OverrideCommand(1)
+            \override Beam.positions = #'(8 . 8)                                                   %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             \clef "treble"                                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
@@ -582,7 +582,7 @@ F_GuitarMusicVoiceI = {
             e''32
             ]                                                                                      %! _extend_beam
             )                                                                                      %! SpannerCommand
-            \revert Beam.positions                                                                 %! OverrideCommand(2)
+            \revert Beam.positions                                                                 %! baca_beam_positions:OverrideCommand(2)
             
         }
     }
@@ -592,13 +592,13 @@ F_GuitarMusicVoiceI = {
 F_GuitarMusicVoiceII = {
     
     % [F GuitarMusicVoiceII measure 133 / measure 1]                                               %! _comment_measure_numbers
-    \override Beam.positions = #'(-7 . -7)                                                         %! OverrideCommand(1)
+    \override Beam.positions = #'(-7 . -7)                                                         %! baca_beam_positions:OverrideCommand(1)
     s1 * 3/20
     {
         \scaleDurations #'(1 . 1) {
             
             % [F GuitarMusicVoiceII measure 134 / measure 2]                                       %! _comment_measure_numbers
-            \once \override TextScript.direction = #down                                           %! OverrideCommand(1)
+            \once \override TextScript.direction = #down                                           %! baca_text_script_down:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             ef'!16
@@ -763,7 +763,7 @@ F_GuitarMusicVoiceII = {
         %%%             }                                                                          %! FIGURE_NAME_MARKUP
         %%%     }                                                                                  %! FIGURE_NAME_MARKUP
             ]                                                                                      %! _extend_beam
-            \revert Beam.positions                                                                 %! OverrideCommand(2)
+            \revert Beam.positions                                                                 %! baca_beam_positions:OverrideCommand(2)
         }
     }
     {
@@ -771,7 +771,7 @@ F_GuitarMusicVoiceII = {
         \times 2/3 {
             
             % [F GuitarMusicVoiceII measure 143 / measure 11]                                      %! _comment_measure_numbers
-            \override Beam.positions = #'(-7 . -7)                                                 %! OverrideCommand(1)
+            \override Beam.positions = #'(-7 . -7)                                                 %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             ef'!16
@@ -979,7 +979,7 @@ F_GuitarMusicVoiceII = {
     
     % [F GuitarMusicVoiceII measure 154 / measure 22]                                              %! _comment_measure_numbers
     s1 * 1/8                                                                                       %! _make_measure_silences
-    \revert Beam.positions                                                                         %! OverrideCommand(2)
+    \revert Beam.positions                                                                         %! baca_beam_positions:OverrideCommand(2)
     
 }
 
@@ -987,14 +987,14 @@ F_GuitarMusicVoiceII = {
 F_GuitarMusicVoiceIII = {
     
     % [F GuitarMusicVoiceIII measure 133 / measure 1]                                              %! _comment_measure_numbers
-    \override Beam.positions = #'(4 . 4)                                                           %! OverrideCommand(1)
+    \override Beam.positions = #'(4 . 4)                                                           %! baca_beam_positions:OverrideCommand(1)
     s1 * 17/80
     {
         \tweak edge-height #'(0.7 . 0)
         \times 4/7 {
             
             % [F GuitarMusicVoiceIII measure 135 / measure 3]                                      %! _comment_measure_numbers
-            \override Stem.direction = #up                                                         %! OverrideCommand(1)
+            \override Stem.direction = #up                                                         %! baca_stem_up:OverrideCommand(1)
             d'16
             - \staccato                                                                            %! IndicatorCommand
         %%% ^ \markup {                                                                            %! FIGURE_NAME_MARKUP
@@ -1027,7 +1027,7 @@ F_GuitarMusicVoiceIII = {
             af'!16
             - \staccato                                                                            %! IndicatorCommand
             ]
-            \revert Stem.direction                                                                 %! OverrideCommand(2)
+            \revert Stem.direction                                                                 %! baca_stem_up:OverrideCommand(2)
         }
     }
     
@@ -1038,7 +1038,7 @@ F_GuitarMusicVoiceIII = {
         \times 4/7 {
             
             % [F GuitarMusicVoiceIII measure 139 / measure 7]                                      %! _comment_measure_numbers
-            \override Stem.direction = #up                                                         %! OverrideCommand(1)
+            \override Stem.direction = #up                                                         %! baca_stem_up:OverrideCommand(1)
             fs'!16
             - \staccato                                                                            %! IndicatorCommand
         %%% ^ \markup {                                                                            %! FIGURE_NAME_MARKUP
@@ -1071,7 +1071,7 @@ F_GuitarMusicVoiceIII = {
             cs''!16
             - \staccato                                                                            %! IndicatorCommand
             ]
-            \revert Stem.direction                                                                 %! OverrideCommand(2)
+            \revert Stem.direction                                                                 %! baca_stem_up:OverrideCommand(2)
         }
     }
     
@@ -1082,7 +1082,7 @@ F_GuitarMusicVoiceIII = {
         \times 4/7 {
             
             % [F GuitarMusicVoiceIII measure 146 / measure 14]                                     %! _comment_measure_numbers
-            \override Stem.direction = #up                                                         %! OverrideCommand(1)
+            \override Stem.direction = #up                                                         %! baca_stem_up:OverrideCommand(1)
             af'!16
             - \staccato                                                                            %! IndicatorCommand
         %%% ^ \markup {                                                                            %! FIGURE_NAME_MARKUP
@@ -1118,7 +1118,7 @@ F_GuitarMusicVoiceIII = {
             b'16
             - \staccato                                                                            %! IndicatorCommand
             ]
-            \revert Stem.direction                                                                 %! OverrideCommand(2)
+            \revert Stem.direction                                                                 %! baca_stem_up:OverrideCommand(2)
         }
     }
     
@@ -1129,7 +1129,7 @@ F_GuitarMusicVoiceIII = {
         \times 4/7 {
             
             % [F GuitarMusicVoiceIII measure 152 / measure 20]                                     %! _comment_measure_numbers
-            \override Stem.direction = #up                                                         %! OverrideCommand(1)
+            \override Stem.direction = #up                                                         %! baca_stem_up:OverrideCommand(1)
             ef'!16
             - \staccato                                                                            %! IndicatorCommand
         %%% ^ \markup {                                                                            %! FIGURE_NAME_MARKUP
@@ -1165,7 +1165,7 @@ F_GuitarMusicVoiceIII = {
             b'16
             - \staccato                                                                            %! IndicatorCommand
             ]
-            \revert Stem.direction                                                                 %! OverrideCommand(2)
+            \revert Stem.direction                                                                 %! baca_stem_up:OverrideCommand(2)
         }
     }
     
@@ -1174,7 +1174,7 @@ F_GuitarMusicVoiceIII = {
     
     % [F GuitarMusicVoiceIII measure 154 / measure 22]                                             %! _comment_measure_numbers
     s1 * 1/8                                                                                       %! _make_measure_silences
-    \revert Beam.positions                                                                         %! OverrideCommand(2)
+    \revert Beam.positions                                                                         %! baca_beam_positions:OverrideCommand(2)
     
 }
 

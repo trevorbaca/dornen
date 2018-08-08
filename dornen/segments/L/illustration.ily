@@ -469,8 +469,8 @@ L_GuitarMusicVoiceI = {
         \times 4/5 {
             
             % [L GuitarMusicVoiceI measure 257 / measure 1]                                        %! _comment_measure_numbers
-            \override TextSpanner.staff-padding = #5                                               %! OverrideCommand(1)
-            \override TextScript.staff-padding = #8                                                %! OverrideCommand(1)
+            \override TextSpanner.staff-padding = #5                                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
+            \override TextScript.staff-padding = #8                                                %! baca_script_staff_padding:OverrideCommand(1)
             \clef "treble"                                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4)                     %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
         %@% \override GuitarMusicStaff.Clef.color = ##f                                            %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -2347,7 +2347,7 @@ L_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [L GuitarMusicVoiceI measure 302 / measure 46]                                       %! _comment_measure_numbers
-            \once \override TextScript.staff-padding = #5.5                                        %! OverrideCommand(1)
+            \once \override TextScript.staff-padding = #5.5                                        %! baca_script_staff_padding:OverrideCommand(1)
             \once \override GuitarMusicVoiceI.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
             r8
             \!                                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
@@ -2382,8 +2382,8 @@ L_GuitarMusicVoiceI = {
             r8
             
             r8
-            \revert TextSpanner.staff-padding                                                      %! OverrideCommand(2)
-            \revert TextScript.staff-padding                                                       %! OverrideCommand(2)
+            \revert TextSpanner.staff-padding                                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+            \revert TextScript.staff-padding                                                       %! baca_script_staff_padding:OverrideCommand(2)
             
         }
     }

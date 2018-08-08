@@ -204,7 +204,7 @@ H_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [H GuitarMusicVoiceI measure 167 / measure 1]                                        %! _comment_measure_numbers
-            \override Beam.positions = #'(6 . 6)                                                   %! OverrideCommand(1)
+            \override Beam.positions = #'(6 . 6)                                                   %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                                             %! _extend_beam
             \set stemRightBeamCount = 3                                                            %! _extend_beam
             \clef "treble"                                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
@@ -458,12 +458,12 @@ H_GuitarMusicVoiceI = {
     
     % [H GuitarMusicVoiceI measure 173 / measure 7]                                                %! _comment_measure_numbers
     s1 * 11/8
-    \revert Beam.positions                                                                         %! OverrideCommand(2)
+    \revert Beam.positions                                                                         %! baca_beam_positions:OverrideCommand(2)
     {
         \scaleDurations #'(1 . 1) {
             
             % [H GuitarMusicVoiceI measure 175 / measure 9]                                        %! _comment_measure_numbers
-            \override Beam.positions = #'(8 . 8)                                                   %! OverrideCommand(1)
+            \override Beam.positions = #'(8 . 8)                                                   %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                                             %! _extend_beam
             \set stemRightBeamCount = 3                                                            %! _extend_beam
             dqf''!32
@@ -711,7 +711,7 @@ H_GuitarMusicVoiceI = {
     
     % [H GuitarMusicVoiceI measure 184 / measure 18]                                               %! _comment_measure_numbers
     s1 * 1/10                                                                                      %! _make_measure_silences
-    \revert Beam.positions                                                                         %! OverrideCommand(2)
+    \revert Beam.positions                                                                         %! baca_beam_positions:OverrideCommand(2)
     
 }
 
@@ -725,7 +725,7 @@ H_GuitarMusicVoiceII = {
         \times 4/7 {
             
             % [H GuitarMusicVoiceII measure 176 / measure 10]                                      %! _comment_measure_numbers
-            \override Beam.positions = #'(-5 . -5)                                                 %! OverrideCommand(1)
+            \override Beam.positions = #'(-5 . -5)                                                 %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                                             %! _extend_beam
             \set stemRightBeamCount = 2                                                            %! _extend_beam
             f''16
@@ -768,7 +768,7 @@ H_GuitarMusicVoiceII = {
             \set stemLeftBeamCount = 2                                                             %! _extend_beam
             \set stemRightBeamCount = 1                                                            %! _extend_beam
             cs''!16
-            \revert Beam.positions                                                                 %! OverrideCommand(2)
+            \revert Beam.positions                                                                 %! baca_beam_positions:OverrideCommand(2)
         }
     }
     {
@@ -1041,7 +1041,7 @@ H_GuitarMusicVoiceII = {
 H_GuitarMusicVoiceIII = {
     
     % [H GuitarMusicVoiceIII measure 167 / measure 1]                                              %! _comment_measure_numbers
-    \override Beam.positions = #'(-4 . -4)                                                         %! OverrideCommand(1)
+    \override Beam.positions = #'(-4 . -4)                                                         %! baca_beam_positions:OverrideCommand(1)
     s1 * 3/8
     {
         \override TupletNumber.text = \markup {
@@ -1375,7 +1375,7 @@ H_GuitarMusicVoiceIII = {
     
     % [H GuitarMusicVoiceIII measure 184 / measure 18]                                             %! _comment_measure_numbers
     s1 * 1/10                                                                                      %! _make_measure_silences
-    \revert Beam.positions                                                                         %! OverrideCommand(2)
+    \revert Beam.positions                                                                         %! baca_beam_positions:OverrideCommand(2)
     
 }
 

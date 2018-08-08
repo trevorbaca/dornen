@@ -236,7 +236,7 @@ I_GuitarMusicVoiceI = {
         \scaleDurations #'(1 . 1) {
             
             % [I GuitarMusicVoiceI measure 185 / measure 1]                                        %! _comment_measure_numbers
-            \override TextScript.staff-padding = #5                                                %! OverrideCommand(1)
+            \override TextScript.staff-padding = #5                                                %! baca_script_staff_padding:OverrideCommand(1)
             \clef "treble"                                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4)                     %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
         %@% \override GuitarMusicStaff.Clef.color = ##f                                            %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -1039,7 +1039,7 @@ I_GuitarMusicVoiceI = {
             gf!2
             :32                                                                                    %! IndicatorCommand
             \repeatTie                                                                             %! SpannerCommand
-            \revert TextScript.staff-padding                                                       %! OverrideCommand(2)
+            \revert TextScript.staff-padding                                                       %! baca_script_staff_padding:OverrideCommand(2)
             
         }
     }

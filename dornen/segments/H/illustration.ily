@@ -1,5 +1,5 @@
-H_GlobalSkips = {
-    
+H_GlobalSkips = {                                                              %! extern
+
     % [H GlobalSkips measure 167 / measure 1]                                  %! _comment_measure_numbers
     \time 6/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -32,7 +32,7 @@ H_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [H GlobalSkips measure 168 / measure 2]                                  %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (168)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -40,7 +40,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((2))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.2]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'35'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 169 / measure 3]                                  %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (169)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -48,7 +48,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((3))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.3]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'36'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 170 / measure 4]                                  %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (170)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -56,7 +56,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((4))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.4]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'38'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 171 / measure 5]                                  %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (171)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -64,7 +64,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((5))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.5]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'39'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 172 / measure 6]                                  %! _comment_measure_numbers
     \time 2/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -74,7 +74,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((6))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.6]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'40'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 173 / measure 7]                                  %! _comment_measure_numbers
     \time 22/32                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -84,7 +84,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((7))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.7]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'41'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 174 / measure 8]                                  %! _comment_measure_numbers
     s1 * 11/16                                                                 %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (174)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -92,7 +92,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((8))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.8]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'46'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 175 / measure 9]                                  %! _comment_measure_numbers
     \time 5/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -102,7 +102,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((9))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.9]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'51'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 176 / measure 10]                                 %! _comment_measure_numbers
     \time 5/28                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -112,7 +112,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((10))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.10]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'52'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 177 / measure 11]                                 %! _comment_measure_numbers
     \time 15/64                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -122,7 +122,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((11))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.11]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'54'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 178 / measure 12]                                 %! _comment_measure_numbers
     \time 5/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -132,7 +132,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((12))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.12]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'55'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 179 / measure 13]                                 %! _comment_measure_numbers
     \time 6/28                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -142,7 +142,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((13))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.13]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'57'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 180 / measure 14]                                 %! _comment_measure_numbers
     \time 9/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -152,7 +152,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((14))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.14]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'58'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 181 / measure 15]                                 %! _comment_measure_numbers
     \time 6/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -162,7 +162,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((15))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.15]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[6'00'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 182 / measure 16]                                 %! _comment_measure_numbers
     \time 39/112                                                               %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -172,7 +172,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((16))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.16]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[6'01'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 183 / measure 17]                                 %! _comment_measure_numbers
     \time 3/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -182,7 +182,7 @@ H_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((17))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [H.17]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[6'04'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [H GlobalSkips measure 184 / measure 18]                                 %! _comment_measure_numbers
     \time 2/20                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -195,14 +195,14 @@ H_GlobalSkips = {
     \stopTextSpan                                                              %! _attach_metronome_marks(4)
     \baca_bar_line_visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
-    
-}
+
+}                                                                              %! extern
 
 
-H_GuitarMusicVoiceI = {
+H_GuitarMusicVoiceI = {                                                        %! extern
     {
         \scaleDurations #'(1 . 1) {
-            
+
             % [H GuitarMusicVoiceI measure 167 / measure 1]                    %! _comment_measure_numbers
             \override Beam.positions = #'(6 . 6)                               %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                         %! _extend_beam
@@ -232,27 +232,27 @@ H_GuitarMusicVoiceI = {
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             [                                                                  %! _extend_beam
             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)    %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             c''32
             - \staccato                                                        %! IndicatorCommand
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             b'32
             - \staccato                                                        %! IndicatorCommand
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             cs'!32
             - \staccato                                                        %! IndicatorCommand
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             fs'!32
             - \staccato                                                        %! IndicatorCommand
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             g32
@@ -261,7 +261,7 @@ H_GuitarMusicVoiceI = {
     }
     {
         \scaleDurations #'(1 . 1) {
-            
+
             % [H GuitarMusicVoiceI measure 168 / measure 2]                    %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
@@ -284,39 +284,39 @@ H_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             a'32
             - \staccato                                                        %! IndicatorCommand
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             ef'!32
             - \staccato                                                        %! IndicatorCommand
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             d'32
             - \staccato                                                        %! IndicatorCommand
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             e'32
             - \staccato                                                        %! IndicatorCommand
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             af!32
             - \staccato                                                        %! IndicatorCommand
         }
     }
-    
+
     % [H GuitarMusicVoiceI measure 169 / measure 3]                            %! _comment_measure_numbers
     s1 * 3/16
     {
         \scaleDurations #'(1 . 1) {
-            
+
             % [H GuitarMusicVoiceI measure 170 / measure 4]                    %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
@@ -339,27 +339,27 @@ H_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             cs''!32
             - \staccato                                                        %! IndicatorCommand
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             fs'!32
             - \staccato                                                        %! IndicatorCommand
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             bf'!32
             - \staccato                                                        %! IndicatorCommand
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             b32
             - \staccato                                                        %! IndicatorCommand
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             cs'!32
@@ -368,7 +368,7 @@ H_GuitarMusicVoiceI = {
     }
     {
         \scaleDurations #'(1 . 1) {
-            
+
             % [H GuitarMusicVoiceI measure 171 / measure 5]                    %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
@@ -391,27 +391,27 @@ H_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             bf'!32
             - \staccato                                                        %! IndicatorCommand
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             c''32
             - \staccato                                                        %! IndicatorCommand
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             a'32
             - \staccato                                                        %! IndicatorCommand
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             ef'!32
             - \staccato                                                        %! IndicatorCommand
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             d'32
@@ -420,7 +420,7 @@ H_GuitarMusicVoiceI = {
     }
     {
         \times 2/3 {
-            
+
             % [H GuitarMusicVoiceI measure 172 / measure 6]                    %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
@@ -443,25 +443,25 @@ H_GuitarMusicVoiceI = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \glissando                                                         %! SpannerCommand
-            
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             g'16
             \glissando                                                         %! SpannerCommand
-            
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             af!16
             ]                                                                  %! _extend_beam
         }
     }
-    
+
     % [H GuitarMusicVoiceI measure 173 / measure 7]                            %! _comment_measure_numbers
     s1 * 11/8
     \revert Beam.positions                                                     %! baca_beam_positions:OverrideCommand(2)
     {
         \scaleDurations #'(1 . 1) {
-            
+
             % [H GuitarMusicVoiceI measure 175 / measure 9]                    %! _comment_measure_numbers
             \override Beam.positions = #'(8 . 8)                               %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                         %! _extend_beam
@@ -490,30 +490,30 @@ H_GuitarMusicVoiceI = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             [                                                                  %! _extend_beam
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             c''32
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             a''32
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             bf''!32
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             e''32
         }
     }
-    
+
     % [H GuitarMusicVoiceI measure 176 / measure 10]                           %! _comment_measure_numbers
     s1 * 185/448
     {
         \scaleDurations #'(1 . 1) {
-            
+
             % [H GuitarMusicVoiceI measure 178 / measure 12]                   %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
@@ -540,30 +540,30 @@ H_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             eqs''!32
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             fqs''!32
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             cs''!32
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             e''32
         }
     }
-    
+
     % [H GuitarMusicVoiceI measure 179 / measure 13]                           %! _comment_measure_numbers
     s1 * 111/224
     {
         \scaleDurations #'(1 . 1) {
-            
+
             % [H GuitarMusicVoiceI measure 181 / measure 15]                   %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
@@ -590,34 +590,34 @@ H_GuitarMusicVoiceI = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             bf''!32
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             b''32
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             cs''!32
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             c''32
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             d''32
         }
     }
-    
+
     % [H GuitarMusicVoiceI measure 182 / measure 16]                           %! _comment_measure_numbers
     s1 * 39/112
     {
         \times 4/5 {
-            
+
             % [H GuitarMusicVoiceI measure 183 / measure 17]                   %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -640,67 +640,67 @@ H_GuitarMusicVoiceI = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             (                                                                  %! SpannerCommand
-            
+
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             bqs''!64
-            
+
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             eqf''!64
-            
+
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             dqs''!64
-            
+
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             bf''!64
         }
         \times 4/5 {
-            
+
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             ef''!64
             )                                                                  %! SpannerCommand
-            
+
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             d''64
             (                                                                  %! SpannerCommand
-            
+
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             af''!64
-            
+
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             g''64
             )                                                                  %! SpannerCommand
-            
+
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             f''64
             (                                                                  %! SpannerCommand
         }
         \times 4/5 {
-            
+
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             e''64
-            
+
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             eqs''!64
-            
+
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             gqs''!64
-            
+
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             fs''!64
-            
+
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             a''64
@@ -708,22 +708,22 @@ H_GuitarMusicVoiceI = {
             )                                                                  %! SpannerCommand
         }
     }
-    
+
     % [H GuitarMusicVoiceI measure 184 / measure 18]                           %! _comment_measure_numbers
     s1 * 1/10                                                                  %! _make_measure_silences
     \revert Beam.positions                                                     %! baca_beam_positions:OverrideCommand(2)
-    
-}
+
+}                                                                              %! extern
 
 
-H_GuitarMusicVoiceII = {
-    
+H_GuitarMusicVoiceII = {                                                       %! extern
+
     % [H GuitarMusicVoiceII measure 167 / measure 1]                           %! _comment_measure_numbers
     s1 * 83/32
     {
         \tweak edge-height #'(0.7 . 0)
         \times 4/7 {
-            
+
             % [H GuitarMusicVoiceII measure 176 / measure 10]                  %! _comment_measure_numbers
             \override Beam.positions = #'(-5 . -5)                             %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                         %! _extend_beam
@@ -752,19 +752,19 @@ H_GuitarMusicVoiceII = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             [                                                                  %! _extend_beam
-            
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             cqs''!16
-            
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             eqs''!16
-            
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             fqs''!16
-            
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             cs''!16
@@ -773,7 +773,7 @@ H_GuitarMusicVoiceII = {
     }
     {
         \scaleDurations #'(1 . 1) {
-            
+
             % [H GuitarMusicVoiceII measure 177 / measure 11]                  %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
@@ -800,31 +800,31 @@ H_GuitarMusicVoiceII = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             a''32.
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             bf''!32.
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             dqf''!32.
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             f''32.
         }
     }
-    
+
     % [H GuitarMusicVoiceII measure 178 / measure 12]                          %! _comment_measure_numbers
     s1 * 5/32
     {
         \tweak edge-height #'(0.7 . 0)
         \times 4/7 {
-            
+
             % [H GuitarMusicVoiceII measure 179 / measure 13]                  %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
@@ -851,23 +851,23 @@ H_GuitarMusicVoiceII = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             c''16
-            
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             d''16
-            
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             g''16
-            
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             fs''!16
-            
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             a''16
@@ -875,7 +875,7 @@ H_GuitarMusicVoiceII = {
     }
     {
         \scaleDurations #'(1 . 1) {
-            
+
             % [H GuitarMusicVoiceII measure 180 / measure 14]                  %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
@@ -902,36 +902,36 @@ H_GuitarMusicVoiceII = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             e''32.
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             af''!32.
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             bf''!32.
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             b''32.
-            
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             e''32.
         }
     }
-    
+
     % [H GuitarMusicVoiceII measure 181 / measure 15]                          %! _comment_measure_numbers
     s1 * 3/16
     {
         \tweak text #tuplet-number::calc-fraction-text
         \tweak edge-height #'(0.7 . 0)
         \times 8/7 {
-            
+
             % [H GuitarMusicVoiceII measure 182 / measure 16]                  %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
@@ -953,16 +953,16 @@ H_GuitarMusicVoiceII = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            
+
             \acciaccatura {
-                
+
                 fs''16
-                
+
             }
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             a''16
-            
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             ef''!16
@@ -970,37 +970,37 @@ H_GuitarMusicVoiceII = {
         \tweak text #tuplet-number::calc-fraction-text
         \tweak edge-height #'(0.7 . 0)
         \times 5/7 {
-            
+
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             gqs''!16
-            
+
             \acciaccatura {
-                
+
                 af''16
-                
+
             }
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             g''16
-            
+
             \acciaccatura {
-                
+
                 f''16
-                
+
             }
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             e''16
         }
     }
-    
+
     % [H GuitarMusicVoiceII measure 183 / measure 17]                          %! _comment_measure_numbers
     s1 * 3/16
     {
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
-            
+
             % [H GuitarMusicVoiceII measure 184 / measure 18]                  %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
@@ -1027,19 +1027,19 @@ H_GuitarMusicVoiceII = {
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             b''16
             ]                                                                  %! _extend_beam
-            
+
         }
     }
-}
+}                                                                              %! extern
 
 
-H_GuitarMusicVoiceIII = {
-    
+H_GuitarMusicVoiceIII = {                                                      %! extern
+
     % [H GuitarMusicVoiceIII measure 167 / measure 1]                          %! _comment_measure_numbers
     \override Beam.positions = #'(-4 . -4)                                     %! baca_beam_positions:OverrideCommand(1)
     s1 * 3/8
@@ -1084,7 +1084,7 @@ H_GuitarMusicVoiceIII = {
                     }
             }
         \scaleDurations #'(1 . 1) {
-            
+
             % [H GuitarMusicVoiceIII measure 169 / measure 3]                  %! _comment_measure_numbers
             \once \override Beam.grow-direction = #right
             a''32 * 1984/1024
@@ -1106,21 +1106,21 @@ H_GuitarMusicVoiceIII = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             [
-            
+
             ef''!32 * 1088/1024
-            
+
             d''32 * 896/1024
-            
+
             e''32 * 800/1024
-            
+
             g''32 * 704/1024
-            
+
             c''32 * 672/1024
             ]
         }
         \revert TupletNumber.text
     }
-    
+
     % [H GuitarMusicVoiceIII measure 170 / measure 4]                          %! _comment_measure_numbers
     s1 * 1/2
     {
@@ -1166,7 +1166,7 @@ H_GuitarMusicVoiceIII = {
                     }
             }
         \scaleDurations #'(1 . 1) {
-            
+
             % [H GuitarMusicVoiceIII measure 173 / measure 7]                  %! _comment_measure_numbers
             \once \override Beam.grow-direction = #right
             cs''!32 * 3264/1024
@@ -1188,47 +1188,47 @@ H_GuitarMusicVoiceIII = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             [
-            
+
             e''32 * 1760/1024
-            
+
             f''32 * 1440/1024
-            
+
             cqs''!32 * 1280/1024
-            
+
             eqs''!32 * 1152/1024
-            
+
             fqs''!32 * 1088/1024
-            
+
             g''32 * 1024/1024
-            
+
             gqs''!32 * 960/1024
-            
+
             aqf''!32 * 928/1024
-            
+
             b''32 * 864/1024
-            
+
             af''!32 * 832/1024
-            
+
             fs''!32 * 832/1024
-            
+
             bf''!32 * 800/1024
-            
+
             dqf''!32 * 768/1024
-            
+
             c''32 * 736/1024
-            
+
             a''32 * 736/1024
-            
+
             gqs''!32 * 704/1024
-            
+
             aqf''!32 * 704/1024
-            
+
             b''32 * 672/1024
-            
+
             af''!32 * 672/1024
-            
+
             fs''!32 * 672/1024
-            
+
             g''32 * 640/1024
             ]
         }
@@ -1277,7 +1277,7 @@ H_GuitarMusicVoiceIII = {
                     }
             }
         \scaleDurations #'(1 . 1) {
-            
+
             % [H GuitarMusicVoiceIII measure 174 / measure 8]                  %! _comment_measure_numbers
             \once \override Beam.grow-direction = #right
             cs''!32 * 3264/1024
@@ -1299,148 +1299,148 @@ H_GuitarMusicVoiceIII = {
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             [
-            
+
             e''32 * 1760/1024
-            
+
             f''32 * 1440/1024
-            
+
             cqs''!32 * 1280/1024
-            
+
             eqs''!32 * 1152/1024
-            
+
             fqs''!32 * 1088/1024
-            
+
             g''32 * 1024/1024
-            
+
             gqs''!32 * 960/1024
-            
+
             aqf''!32 * 928/1024
-            
+
             b''32 * 864/1024
-            
+
             af''!32 * 832/1024
-            
+
             fs''!32 * 832/1024
-            
+
             bf''!32 * 800/1024
-            
+
             dqf''!32 * 768/1024
-            
+
             c''32 * 736/1024
-            
+
             a''32 * 736/1024
-            
+
             gqs''!32 * 704/1024
-            
+
             aqf''!32 * 704/1024
-            
+
             b''32 * 672/1024
-            
+
             af''!32 * 672/1024
-            
+
             fs''!32 * 672/1024
-            
+
             g''32 * 640/1024
             ]
         }
         \revert TupletNumber.text
     }
-    
+
     % [H GuitarMusicVoiceIII measure 175 / measure 9]                          %! _comment_measure_numbers
     s1 * 5/32                                                                  %! _make_measure_silences
-    
+
     % [H GuitarMusicVoiceIII measure 176 / measure 10]                         %! _comment_measure_numbers
     s1 * 5/28                                                                  %! _make_measure_silences
-    
+
     % [H GuitarMusicVoiceIII measure 177 / measure 11]                         %! _comment_measure_numbers
     s1 * 15/64                                                                 %! _make_measure_silences
-    
+
     % [H GuitarMusicVoiceIII measure 178 / measure 12]                         %! _comment_measure_numbers
     s1 * 5/32                                                                  %! _make_measure_silences
-    
+
     % [H GuitarMusicVoiceIII measure 179 / measure 13]                         %! _comment_measure_numbers
     s1 * 3/14                                                                  %! _make_measure_silences
-    
+
     % [H GuitarMusicVoiceIII measure 180 / measure 14]                         %! _comment_measure_numbers
     s1 * 9/32                                                                  %! _make_measure_silences
-    
+
     % [H GuitarMusicVoiceIII measure 181 / measure 15]                         %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _make_measure_silences
-    
+
     % [H GuitarMusicVoiceIII measure 182 / measure 16]                         %! _comment_measure_numbers
     s1 * 39/112                                                                %! _make_measure_silences
-    
+
     % [H GuitarMusicVoiceIII measure 183 / measure 17]                         %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _make_measure_silences
-    
+
     % [H GuitarMusicVoiceIII measure 184 / measure 18]                         %! _comment_measure_numbers
     s1 * 1/10                                                                  %! _make_measure_silences
     \revert Beam.positions                                                     %! baca_beam_positions:OverrideCommand(2)
-    
-}
+
+}                                                                              %! extern
 
 
-H_GuitarMusicVoiceIV = {
-    
+H_GuitarMusicVoiceIV = {                                                       %! extern
+
     % [H GuitarMusicVoiceIV measure 167 / measure 1]                           %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands
     ^ \baca-reapplied-indicator-markup "(“Guitar”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    
+
     % [H GuitarMusicVoiceIV measure 168 / measure 2]                           %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands
-    
+
     % [H GuitarMusicVoiceIV measure 169 / measure 3]                           %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands
-    
+
     % [H GuitarMusicVoiceIV measure 170 / measure 4]                           %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands
-    
+
     % [H GuitarMusicVoiceIV measure 171 / measure 5]                           %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands
-    
+
     % [H GuitarMusicVoiceIV measure 172 / measure 6]                           %! _comment_measure_numbers
     s1 * 1/8                                                                   %! _call_rhythm_commands
-    
+
     % [H GuitarMusicVoiceIV measure 173 / measure 7]                           %! _comment_measure_numbers
     s1 * 11/16                                                                 %! _call_rhythm_commands
-    
+
     % [H GuitarMusicVoiceIV measure 174 / measure 8]                           %! _comment_measure_numbers
     s1 * 11/16                                                                 %! _call_rhythm_commands
-    
+
     % [H GuitarMusicVoiceIV measure 175 / measure 9]                           %! _comment_measure_numbers
     s1 * 5/32                                                                  %! _call_rhythm_commands
-    
+
     % [H GuitarMusicVoiceIV measure 176 / measure 10]                          %! _comment_measure_numbers
     s1 * 5/28                                                                  %! _call_rhythm_commands
-    
+
     % [H GuitarMusicVoiceIV measure 177 / measure 11]                          %! _comment_measure_numbers
     s1 * 15/64                                                                 %! _call_rhythm_commands
-    
+
     % [H GuitarMusicVoiceIV measure 178 / measure 12]                          %! _comment_measure_numbers
     s1 * 5/32                                                                  %! _call_rhythm_commands
-    
+
     % [H GuitarMusicVoiceIV measure 179 / measure 13]                          %! _comment_measure_numbers
     s1 * 3/14                                                                  %! _call_rhythm_commands
-    
+
     % [H GuitarMusicVoiceIV measure 180 / measure 14]                          %! _comment_measure_numbers
     s1 * 9/32                                                                  %! _call_rhythm_commands
-    
+
     % [H GuitarMusicVoiceIV measure 181 / measure 15]                          %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands
-    
+
     % [H GuitarMusicVoiceIV measure 182 / measure 16]                          %! _comment_measure_numbers
     s1 * 39/112                                                                %! _call_rhythm_commands
-    
+
     % [H GuitarMusicVoiceIV measure 183 / measure 17]                          %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands
-    
+
     % [H GuitarMusicVoiceIV measure 184 / measure 18]                          %! _comment_measure_numbers
     s1 * 1/10                                                                  %! _call_rhythm_commands
-    
-}
+
+}                                                                              %! extern
 
 
-H_GuitarMusicStaff = <<
+H_GuitarMusicStaff = <<                                                        %! extern
     \context GuitarMusicVoiceI = "GuitarMusicVoiceI"                           %! ScoreTemplate
     \H_GuitarMusicVoiceI                                                       %! extern
     \context GuitarMusicVoiceII = "GuitarMusicVoiceII"                         %! ScoreTemplate
@@ -1449,4 +1449,4 @@ H_GuitarMusicStaff = <<
     \H_GuitarMusicVoiceIII                                                     %! extern
     \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"                         %! ScoreTemplate
     \H_GuitarMusicVoiceIV                                                      %! extern
->>
+>>                                                                             %! extern

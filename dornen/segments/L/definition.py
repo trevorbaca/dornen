@@ -356,99 +356,99 @@ maker(
 
 maker(
     ('v1', 2),
-    baca.map(
-        baca.rleaves().group(),
+    baca.new(
         baca.hairpin('mp < mf'),
         baca.text_spanner('tamb. tr. => kn. rasg.'),
+        map=baca.rleaves().group(),
         ),
     )
 
 maker(
     ('v1', 4),
-    baca.map(
-        baca.rleaves().group(),
+    baca.new(
         baca.hairpin('mf > mp'),
         baca.text_spanner('trans. => tamb. tr.'),
+        map=baca.rleaves().group(),
         ),
     )
 
 maker(
     ('v1', 7),
-    baca.map(
-        baca.rleaves().group(),
+    baca.new(
         baca.hairpin('mp < f'),
         baca.text_spanner('trans. => kn. rasg.'),
+        map=baca.rleaves().group(),
         ),
     )
 
 maker(
     ('v1', 9),
-    baca.map(
-        baca.rleaves().group(),
+    baca.new(
         baca.hairpin('f > mp'),
         baca.text_spanner('trans. => tamb. tr.'),
+        map=baca.rleaves().group(),
         ),
     )
 
 maker(
     ('v1', 12),
-    baca.map(
-        baca.rleaves().group(),
+    baca.new(
         baca.hairpin('mp < ff'),
         baca.text_spanner('trans. => kn. rasg.'),
+        map=baca.rleaves().group(),
         ),
     )
 
 maker(
     ('v1', 14),
-    baca.map(
-        baca.rleaves().group(),
+    baca.new(
         baca.hairpin('ff > mf'),
+        map=baca.rleaves().group(),
         ),
     )
 
 maker(
     ('v1', 16),
-    baca.map(
-        baca.rleaves().group(),
+    baca.new(
         baca.hairpin('mf < f'),
         baca.text_spanner('trans. => nail rasg.'),
+        map=baca.rleaves().group(),
         ),
     )
 
 maker(
     ('v1', 18),
-    baca.map(
-        baca.rleaves().group(),
+    baca.new(
         baca.hairpin('f > mf'),
         baca.text_spanner('trans. => kn. rasg.'),
+        map=baca.rleaves().group(),
         ),
     )
 
 maker(
     ('v1', 20),
-    baca.map(
-        baca.rleaves().group(),
+    baca.new(
         baca.hairpin('mf < ff'),
         baca.text_spanner('trans. => nail. rasg.'),
+        map=baca.rleaves().group(),
         ),
     )
 
 maker(
     ('v1', 22),
-    baca.map(
-        baca.rleaves().group(),
+    baca.new(
         baca.hairpin('ff > mf'),
         baca.text_spanner('trans. => kn. rasg.'),
+        map=baca.rleaves().group(),
         ),
     )
 
 maker(
     ('v1', (24, 25)),
-    baca.map(
-        baca.rleaves().group(),
+    baca.new(
         baca.hairpin('mf < ffff'),
         baca.text_spanner('trans. => nail rasg.'),
+        map=baca.rleaves().group(),
         ),
     )
 

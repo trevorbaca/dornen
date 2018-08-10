@@ -539,7 +539,7 @@ L_GuitarMusicVoiceI = {                                                        %
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.left.text \markup \baca-left "tamb. tr."    %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_left_text "tamb. tr."                         %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
@@ -616,7 +616,7 @@ L_GuitarMusicVoiceI = {                                                        %
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.text \markup \baca-right "tamb. tr."  %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
@@ -731,7 +731,7 @@ L_GuitarMusicVoiceI = {                                                        %
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
@@ -808,7 +808,7 @@ L_GuitarMusicVoiceI = {                                                        %
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.text \markup \baca-right "tamb. tr."  %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
@@ -923,7 +923,7 @@ L_GuitarMusicVoiceI = {                                                        %
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
@@ -1070,7 +1070,7 @@ L_GuitarMusicVoiceI = {                                                        %
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.text \markup \baca-right "nail rasg." %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
@@ -1151,7 +1151,7 @@ L_GuitarMusicVoiceI = {                                                        %
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
@@ -1228,7 +1228,7 @@ L_GuitarMusicVoiceI = {                                                        %
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.text \markup \baca-right "nail. rasg." %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
@@ -1312,7 +1312,7 @@ L_GuitarMusicVoiceI = {                                                        %
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
@@ -1389,7 +1389,7 @@ L_GuitarMusicVoiceI = {                                                        %
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.text \markup \baca-right "nail rasg." %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
@@ -1526,7 +1526,7 @@ L_GuitarMusicVoiceI = {                                                        %
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.left.text \markup \baca-left "trans."       %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.text \markup \baca-right "ponticello" %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
@@ -2147,7 +2147,7 @@ L_GuitarMusicVoiceI = {                                                        %
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.left.text \markup \baca-left "gradually slow rasgueado" %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_left_text "gradually slow rasgueado"          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.text \markup \baca-right "still"      %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)

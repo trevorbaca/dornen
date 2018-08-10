@@ -582,9 +582,9 @@ def tremolo_music():
         rmakers.BeamSpecifier(
             beam_divisions_together=True,
             ),
-        baca.map(
-            baca.qruns().nontrivial(),
+        baca.new(
             baca.repeat_tie(),
+            map=baca.qruns().nontrivial(),
             ),
         baca.stem_tremolo(selector=baca.pleaves()),
         allow_repeats=True,

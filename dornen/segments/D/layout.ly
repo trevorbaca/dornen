@@ -17,8 +17,8 @@
             \baca_new_spacing_section #1 #180                                            %! HorizontalSpacingSpecifier(1):SPACING
             \autoPageBreaksOff                                                           %! BreakMeasureMap(1):BREAK
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            \baca_lbsd #20 #'(20)                                                        %! IndicatorCommand:BREAK
-            \pageBreak                                                                   %! IndicatorCommand:BREAK
+            \baca_lbsd #20 #'(20)                                                        %! BREAK:IndicatorCommand
+            \pageBreak                                                                   %! BREAK:IndicatorCommand
             s1 * 3/32                                                                    %! _make_global_skips(1)
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
 
@@ -109,8 +109,8 @@
             % [PageLayout measure 105]                                                   %! _comment_measure_numbers
             \baca_new_spacing_section #1 #180                                            %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            \baca_lbsd #80 #'(20)                                                        %! IndicatorCommand:BREAK
-            \break                                                                       %! IndicatorCommand:BREAK
+            \baca_lbsd #80 #'(20)                                                        %! BREAK:IndicatorCommand
+            \break                                                                       %! BREAK:IndicatorCommand
             s1 * 3/20                                                                    %! _make_global_skips(1)
         %@% ^ \markup { \baca-forest-green-markup "[1/180]" }                            %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
 

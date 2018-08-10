@@ -686,7 +686,7 @@ J_GuitarMusicVoiceI = {                                                        %
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
             - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_right_text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -763,7 +763,7 @@ J_GuitarMusicVoiceI = {                                                        %
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
             - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.text \markup \baca-right "tamb. tr."  %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_right_text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -840,7 +840,7 @@ J_GuitarMusicVoiceI = {                                                        %
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
             - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_right_text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -917,7 +917,7 @@ J_GuitarMusicVoiceI = {                                                        %
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
             - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.text \markup \baca-right "tamb. tr."  %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_right_text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -990,7 +990,7 @@ J_GuitarMusicVoiceI = {                                                        %
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
             - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.text \markup \baca-right "kn. rasg."  %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_right_text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -1065,7 +1065,7 @@ J_GuitarMusicVoiceI = {                                                        %
             \repeatTie                                                         %! SpannerCommand
             - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
             - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.text \markup \baca-right "tamb. tr."  %! PiecewiseIndicatorCommand(1)
+            - \baca_text_spanner_right_text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)

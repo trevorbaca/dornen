@@ -86,7 +86,7 @@ def passepied_music():
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
                         \time 1/32                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        \baca_time_signature_color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/32                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
@@ -271,7 +271,7 @@ def passepied_music():
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
                         \time 17/32                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        \baca_time_signature_color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 17/32                                                         %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
@@ -282,7 +282,7 @@ def passepied_music():
             <BLANKLINE>
                         % [GlobalSkips measure 4]                                          %! _comment_measure_numbers
                         \time 11/32                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        \baca_time_signature_color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 11/32                                                         %! _make_global_skips(1)
                         \baca_bar_line_visible                                             %! _attach_final_bar_line
                         \bar "|"                                                           %! _attach_final_bar_line

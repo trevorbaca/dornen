@@ -72,19 +72,19 @@ def wave_music(denominator=64, inverted=False):
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
                         \time 7/64                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        \baca_time_signature_color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 7/64                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
                         \time 13/64                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        \baca_time_signature_color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 13/64                                                         %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
                         \time 20/64                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        \baca_time_signature_color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 5/16                                                          %! _make_global_skips(1)
                         \baca_bar_line_visible                                             %! _attach_final_bar_line
                         \bar "|"                                                           %! _attach_final_bar_line
@@ -521,19 +521,19 @@ def wave_music(denominator=64, inverted=False):
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
                         \time 7/64                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        \baca_time_signature_color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 7/64                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
                         \time 13/64                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        \baca_time_signature_color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 13/64                                                         %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
                         \time 20/64                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        \baca_time_signature_color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 5/16                                                          %! _make_global_skips(1)
                         \baca_bar_line_visible                                             %! _attach_final_bar_line
                         \bar "|"                                                           %! _attach_final_bar_line
@@ -970,19 +970,19 @@ def wave_music(denominator=64, inverted=False):
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #32 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
                         \time 7/32                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        \baca_time_signature_color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 7/32                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #32 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
                         \time 13/32                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        \baca_time_signature_color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 13/32                                                         %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
                         \baca_new_spacing_section #32 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
                         \time 20/32                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-                        \baca_time_signature_color "blue"                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+                        \baca_time_signature_color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 5/8                                                           %! _make_global_skips(1)
                         \baca_bar_line_visible                                             %! _attach_final_bar_line
                         \bar "|"                                                           %! _attach_final_bar_line

@@ -284,13 +284,13 @@ maker(
 
 maker(
     'v1',
-    baca.measures(
-        (1, 11),
+    baca.new(
         baca.text_script_staff_padding(5),
+        measures=(1, 11),
         ),
-    baca.measures(
-        (12, -1),
+    baca.new(
         baca.text_spanner_staff_padding(5),
         baca.text_script_staff_padding(8),
+        measures=(12, -1),
         ),
     )

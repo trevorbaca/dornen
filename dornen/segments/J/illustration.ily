@@ -236,7 +236,9 @@ J_GlobalSkips = {                                                              %
 
 
 J_GuitarMusicVoiceI = {                                                        %! extern
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -273,9 +275,13 @@ J_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)    %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -309,9 +315,13 @@ J_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -343,9 +353,13 @@ J_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -379,9 +393,13 @@ J_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -413,9 +431,13 @@ J_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -451,9 +473,13 @@ J_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -487,9 +513,13 @@ J_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -521,9 +551,13 @@ J_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -557,9 +591,13 @@ J_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -591,9 +629,13 @@ J_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -630,9 +672,13 @@ J_GuitarMusicVoiceI = {                                                        %
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
             \revert TextScript.staff-padding                                   %! baca_script_staff_padding:OverrideCommand(2)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -674,9 +720,13 @@ J_GuitarMusicVoiceI = {                                                        %
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -709,9 +759,13 @@ J_GuitarMusicVoiceI = {                                                        %
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
             \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -751,9 +805,13 @@ J_GuitarMusicVoiceI = {                                                        %
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -786,9 +844,13 @@ J_GuitarMusicVoiceI = {                                                        %
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
             \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -828,9 +890,13 @@ J_GuitarMusicVoiceI = {                                                        %
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -863,9 +929,13 @@ J_GuitarMusicVoiceI = {                                                        %
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
             \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -905,9 +975,13 @@ J_GuitarMusicVoiceI = {                                                        %
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -940,9 +1014,13 @@ J_GuitarMusicVoiceI = {                                                        %
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
             \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -978,9 +1056,13 @@ J_GuitarMusicVoiceI = {                                                        %
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -1011,9 +1093,13 @@ J_GuitarMusicVoiceI = {                                                        %
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
             \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -1053,9 +1139,13 @@ J_GuitarMusicVoiceI = {                                                        %
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -1085,9 +1175,13 @@ J_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -1127,9 +1221,13 @@ J_GuitarMusicVoiceI = {                                                        %
             gtqf!2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -1176,7 +1274,9 @@ J_GuitarMusicVoiceI = {                                                        %
             \revert TextScript.staff-padding                                   %! baca_script_staff_padding:OverrideCommand(2)
 
         }
+
     }
+
 }                                                                              %! extern
 
 
@@ -1422,12 +1522,17 @@ J_GuitarMusicVoiceIV = {                                                       %
 
 
 J_GuitarMusicStaff = <<                                                        %! extern
+
     \context GuitarMusicVoiceI = "GuitarMusicVoiceI"                           %! ScoreTemplate
     \J_GuitarMusicVoiceI                                                       %! extern
+
     \context GuitarMusicVoiceII = "GuitarMusicVoiceII"                         %! ScoreTemplate
     \J_GuitarMusicVoiceII                                                      %! extern
+
     \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"                       %! ScoreTemplate
     \J_GuitarMusicVoiceIII                                                     %! extern
+
     \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"                         %! ScoreTemplate
     \J_GuitarMusicVoiceIV                                                      %! extern
+
 >>                                                                             %! extern

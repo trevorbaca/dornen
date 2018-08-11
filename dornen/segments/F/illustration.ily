@@ -234,7 +234,9 @@ F_GlobalSkips = {                                                              %
 
 
 F_GuitarMusicVoiceI = {                                                        %! extern
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -281,12 +283,16 @@ F_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1                                        %! _extend_beam
             g''16
             )                                                                  %! SpannerCommand
+
         }
+
     }
 
     % [F GuitarMusicVoiceI measure 134 / measure 2]                            %! _comment_measure_numbers
     s1 * 13/56
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -326,12 +332,16 @@ F_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1                                        %! _extend_beam
             bf'!16
             )                                                                  %! SpannerCommand
+
         }
+
     }
 
     % [F GuitarMusicVoiceI measure 138 / measure 6]                            %! _comment_measure_numbers
     s1 * 13/56
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -372,12 +382,16 @@ F_GuitarMusicVoiceI = {                                                        %
             fs''!16
             ]                                                                  %! _extend_beam
             )                                                                  %! SpannerCommand
+
         }
+
     }
 
     % [F GuitarMusicVoiceI measure 142 / measure 10]                           %! _comment_measure_numbers
     s1 * 5/48
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [F GuitarMusicVoiceI measure 144 / measure 12]                   %! _comment_measure_numbers
@@ -421,12 +435,16 @@ F_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1                                        %! _extend_beam
             bf'!32
             )                                                                  %! SpannerCommand
+
         }
+
     }
 
     % [F GuitarMusicVoiceI measure 145 / measure 13]                           %! _comment_measure_numbers
     s1 * 19/84
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [F GuitarMusicVoiceI measure 148 / measure 16]                   %! _comment_measure_numbers
@@ -469,12 +487,16 @@ F_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1                                        %! _extend_beam
             b'32
             )                                                                  %! SpannerCommand
+
         }
+
     }
 
     % [F GuitarMusicVoiceI measure 149 / measure 17]                           %! _comment_measure_numbers
     s1 * 1/24
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [F GuitarMusicVoiceI measure 150 / measure 18]                   %! _comment_measure_numbers
@@ -517,12 +539,16 @@ F_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1                                        %! _extend_beam
             g''32
             )                                                                  %! SpannerCommand
+
         }
+
     }
 
     % [F GuitarMusicVoiceI measure 151 / measure 19]                           %! _comment_measure_numbers
     s1 * 19/84
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [F GuitarMusicVoiceI measure 154 / measure 22]                   %! _comment_measure_numbers
@@ -569,7 +595,9 @@ F_GuitarMusicVoiceI = {                                                        %
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
 
         }
+
     }
+
 }                                                                              %! extern
 
 
@@ -578,7 +606,9 @@ F_GuitarMusicVoiceII = {                                                       %
     % [F GuitarMusicVoiceII measure 133 / measure 1]                           %! _comment_measure_numbers
     \override Beam.positions = #'(-7 . -7)                                     %! baca_beam_positions:OverrideCommand(1)
     s1 * 3/20
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [F GuitarMusicVoiceII measure 134 / measure 2]                   %! _comment_measure_numbers
@@ -610,12 +640,16 @@ F_GuitarMusicVoiceII = {                                                       %
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             _ \markup { "dull (but beautiful) thud with RH muting for each red note" } %! baca_markup:IndicatorCommand
             [                                                                  %! _extend_beam
+
         }
+
     }
 
     % [F GuitarMusicVoiceII measure 135 / measure 3]                           %! _comment_measure_numbers
     s1 * 3/28
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [F GuitarMusicVoiceII measure 136 / measure 4]                   %! _comment_measure_numbers
@@ -644,12 +678,16 @@ F_GuitarMusicVoiceII = {                                                       %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
+
         }
+
     }
 
     % [F GuitarMusicVoiceII measure 137 / measure 5]                           %! _comment_measure_numbers
     s1 * 3/20
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [F GuitarMusicVoiceII measure 138 / measure 6]                   %! _comment_measure_numbers
@@ -678,12 +716,16 @@ F_GuitarMusicVoiceII = {                                                       %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
+
         }
+
     }
 
     % [F GuitarMusicVoiceII measure 139 / measure 7]                           %! _comment_measure_numbers
     s1 * 3/28
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [F GuitarMusicVoiceII measure 140 / measure 8]                   %! _comment_measure_numbers
@@ -712,12 +754,16 @@ F_GuitarMusicVoiceII = {                                                       %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
+
         }
+
     }
 
     % [F GuitarMusicVoiceII measure 141 / measure 9]                           %! _comment_measure_numbers
     s1 * 3/20
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [F GuitarMusicVoiceII measure 142 / measure 10]                  %! _comment_measure_numbers
@@ -748,9 +794,13 @@ F_GuitarMusicVoiceII = {                                                       %
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             ]                                                                  %! _extend_beam
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -782,12 +832,16 @@ F_GuitarMusicVoiceII = {                                                       %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             [                                                                  %! _extend_beam
+
         }
+
     }
 
     % [F GuitarMusicVoiceII measure 144 / measure 12]                          %! _comment_measure_numbers
     s1 * 1/8
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -817,12 +871,16 @@ F_GuitarMusicVoiceII = {                                                       %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
+
         }
+
     }
 
     % [F GuitarMusicVoiceII measure 146 / measure 14]                          %! _comment_measure_numbers
     s1 * 1/7
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -852,12 +910,16 @@ F_GuitarMusicVoiceII = {                                                       %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
+
         }
+
     }
 
     % [F GuitarMusicVoiceII measure 148 / measure 16]                          %! _comment_measure_numbers
     s1 * 1/8
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -887,12 +949,16 @@ F_GuitarMusicVoiceII = {                                                       %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
+
         }
+
     }
 
     % [F GuitarMusicVoiceII measure 150 / measure 18]                          %! _comment_measure_numbers
     s1 * 1/8
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -922,12 +988,16 @@ F_GuitarMusicVoiceII = {                                                       %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
+
         }
+
     }
 
     % [F GuitarMusicVoiceII measure 152 / measure 20]                          %! _comment_measure_numbers
     s1 * 1/7
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -958,7 +1028,9 @@ F_GuitarMusicVoiceII = {                                                       %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             ]                                                                  %! _extend_beam
+
         }
+
     }
 
     % [F GuitarMusicVoiceII measure 154 / measure 22]                          %! _comment_measure_numbers
@@ -973,7 +1045,9 @@ F_GuitarMusicVoiceIII = {                                                      %
     % [F GuitarMusicVoiceIII measure 133 / measure 1]                          %! _comment_measure_numbers
     \override Beam.positions = #'(4 . 4)                                       %! baca_beam_positions:OverrideCommand(1)
     s1 * 17/80
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/7 {
 
@@ -1012,12 +1086,16 @@ F_GuitarMusicVoiceIII = {                                                      %
             - \staccato                                                        %! IndicatorCommand
             ]
             \revert Stem.direction                                             %! baca_stem_up:OverrideCommand(2)
+
         }
+
     }
 
     % [F GuitarMusicVoiceIII measure 136 / measure 4]                          %! _comment_measure_numbers
     s1 * 11/40
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/7 {
 
@@ -1056,12 +1134,16 @@ F_GuitarMusicVoiceIII = {                                                      %
             - \staccato                                                        %! IndicatorCommand
             ]
             \revert Stem.direction                                             %! baca_stem_up:OverrideCommand(2)
+
         }
+
     }
 
     % [F GuitarMusicVoiceIII measure 140 / measure 8]                          %! _comment_measure_numbers
     s1 * 29/60
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/7 {
 
@@ -1103,12 +1185,16 @@ F_GuitarMusicVoiceIII = {                                                      %
             - \staccato                                                        %! IndicatorCommand
             ]
             \revert Stem.direction                                             %! baca_stem_up:OverrideCommand(2)
+
         }
+
     }
 
     % [F GuitarMusicVoiceIII measure 147 / measure 15]                         %! _comment_measure_numbers
     s1 * 3/8
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/7 {
 
@@ -1150,7 +1236,9 @@ F_GuitarMusicVoiceIII = {                                                      %
             - \staccato                                                        %! IndicatorCommand
             ]
             \revert Stem.direction                                             %! baca_stem_up:OverrideCommand(2)
+
         }
+
     }
 
     % [F GuitarMusicVoiceIII measure 153 / measure 21]                         %! _comment_measure_numbers
@@ -1236,12 +1324,17 @@ F_GuitarMusicVoiceIV = {                                                       %
 
 
 F_GuitarMusicStaff = <<                                                        %! extern
+
     \context GuitarMusicVoiceI = "GuitarMusicVoiceI"                           %! ScoreTemplate
     \F_GuitarMusicVoiceI                                                       %! extern
+
     \context GuitarMusicVoiceII = "GuitarMusicVoiceII"                         %! ScoreTemplate
     \F_GuitarMusicVoiceII                                                      %! extern
+
     \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"                       %! ScoreTemplate
     \F_GuitarMusicVoiceIII                                                     %! extern
+
     \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"                         %! ScoreTemplate
     \F_GuitarMusicVoiceIV                                                      %! extern
+
 >>                                                                             %! extern

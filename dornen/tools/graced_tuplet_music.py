@@ -67,6 +67,7 @@ def graced_tuplet_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
+            <BLANKLINE>
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             \with                                                                          %! SingleStaffScoreTemplate
             {                                                                              %! SingleStaffScoreTemplate
@@ -75,8 +76,10 @@ def graced_tuplet_music():
                 \override TupletBracket.staff-padding = #4                                 %! SingleStaffScoreTemplate
             }                                                                              %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                   %! _make_global_context
                 <<                                                                         %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
@@ -98,13 +101,18 @@ def graced_tuplet_music():
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                      %! _make_global_context
+            <BLANKLINE>
                 >>                                                                         %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                         \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                             \tweak text #tuplet-number::calc-fraction-text
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
@@ -114,7 +122,9 @@ def graced_tuplet_music():
                                 \set stemRightBeamCount = 2
                                 af'!16
                                 [
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak text #tuplet-number::calc-fraction-text
                             \tweak edge-height #'(0.7 . 0)
                             \times 5/7 {
@@ -126,7 +136,6 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     c'16
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -135,7 +144,6 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     f'16
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -144,7 +152,6 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     fs'16
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -153,7 +160,6 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     d'16
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -163,7 +169,9 @@ def graced_tuplet_music():
                                 \set stemRightBeamCount = 0
                                 ef'!16
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak text #tuplet-number::calc-fraction-text
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
@@ -177,7 +185,6 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     c'16
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -186,7 +193,6 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     f'16
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -195,7 +201,6 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     fs'16
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -204,7 +209,6 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     d'16
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -213,7 +217,9 @@ def graced_tuplet_music():
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 1
                                 ef'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak text #tuplet-number::calc-fraction-text
                             \tweak edge-height #'(0.7 . 0)
                             \times 5/7 {
@@ -225,7 +231,6 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     af'16
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -234,7 +239,6 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     c'16
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -243,7 +247,6 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     f'16
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -252,7 +255,6 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     fs'16
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -262,7 +264,9 @@ def graced_tuplet_music():
                                 \set stemRightBeamCount = 0
                                 d'16
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak text #tuplet-number::calc-fraction-text
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
@@ -276,7 +280,6 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     af'16
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -285,7 +288,6 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     c'16
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -294,7 +296,6 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     f'16
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -303,7 +304,6 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     fs'16
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
@@ -312,7 +312,9 @@ def graced_tuplet_music():
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 1
                                 d'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak text #tuplet-number::calc-fraction-text
                             \tweak edge-height #'(0.7 . 0)
                             \times 5/7 {
@@ -323,9 +325,13 @@ def graced_tuplet_music():
                                 ]
             <BLANKLINE>
                             }
+            <BLANKLINE>
                         }                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     }                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 >>                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
             >>                                                                             %! SingleStaffScoreTemplate
 
 

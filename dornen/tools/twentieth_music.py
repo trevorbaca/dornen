@@ -69,6 +69,7 @@ def twentieth_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
+            <BLANKLINE>
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             \with                                                                          %! SingleStaffScoreTemplate
             {                                                                              %! SingleStaffScoreTemplate
@@ -78,8 +79,10 @@ def twentieth_music():
                 \override TupletBracket.staff-padding = #1.5                               %! SingleStaffScoreTemplate
             }                                                                              %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                   %! _make_global_context
                 <<                                                                         %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
@@ -110,101 +113,140 @@ def twentieth_music():
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                      %! _make_global_context
+            <BLANKLINE>
                 >>                                                                         %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                         \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! _comment_measure_numbers
                                 cs'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 c'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 bf'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 f'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 af'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 fs'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 b'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 2]                                   %! _comment_measure_numbers
                                 d'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 e'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! _comment_measure_numbers
                                 ef'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 a'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 af'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 4]                                   %! _comment_measure_numbers
                                 fs'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 b'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 d'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 f'16
             <BLANKLINE>
                             }
+            <BLANKLINE>
                         }                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     }                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 >>                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
             >>                                                                             %! SingleStaffScoreTemplate
 
     ..  container:: example
@@ -267,6 +309,7 @@ def twentieth_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
+            <BLANKLINE>
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             \with                                                                          %! SingleStaffScoreTemplate
             {                                                                              %! SingleStaffScoreTemplate
@@ -276,8 +319,10 @@ def twentieth_music():
                 \override TupletBracket.staff-padding = #1.5                               %! SingleStaffScoreTemplate
             }                                                                              %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                   %! _make_global_context
                 <<                                                                         %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
@@ -308,19 +353,26 @@ def twentieth_music():
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                      %! _make_global_context
+            <BLANKLINE>
                 >>                                                                         %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                         \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! _comment_measure_numbers
                                 cs'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
@@ -329,12 +381,16 @@ def twentieth_music():
             <BLANKLINE>
                                 bf'!16
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 f'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
@@ -343,24 +399,32 @@ def twentieth_music():
             <BLANKLINE>
                                 fs'!16
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 b'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 2]                                   %! _comment_measure_numbers
                                 d'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! _comment_measure_numbers
                                 ef'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
@@ -369,13 +433,17 @@ def twentieth_music():
             <BLANKLINE>
                                 af'!16
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 4]                                   %! _comment_measure_numbers
                                 fs'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
@@ -384,16 +452,22 @@ def twentieth_music():
             <BLANKLINE>
                                 d'16
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 f'16
             <BLANKLINE>
                             }
+            <BLANKLINE>
                         }                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     }                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 >>                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
             >>                                                                             %! SingleStaffScoreTemplate
 
     Returns music-maker.

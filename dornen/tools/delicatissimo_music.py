@@ -53,10 +53,13 @@ def delicatissimo_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
+            <BLANKLINE>
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                   %! _make_global_context
                 <<                                                                         %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
@@ -87,13 +90,18 @@ def delicatissimo_music():
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                      %! _make_global_context
+            <BLANKLINE>
                 >>                                                                         %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                         \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! _comment_measure_numbers
@@ -101,7 +109,9 @@ def delicatissimo_music():
                                 - \staccato                                                %! IndicatorCommand
                                 [
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 2]                                   %! _comment_measure_numbers
@@ -141,7 +151,9 @@ def delicatissimo_music():
                                 c'32
                                 - \staccato                                                %! IndicatorCommand
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! _comment_measure_numbers
@@ -149,7 +161,9 @@ def delicatissimo_music():
                                 - \staccato                                                %! IndicatorCommand
                                 [
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 4]                                   %! _comment_measure_numbers
@@ -186,9 +200,13 @@ def delicatissimo_music():
                                 ]
             <BLANKLINE>
                             }
+            <BLANKLINE>
                         }                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     }                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 >>                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
             >>                                                                             %! SingleStaffScoreTemplate
 
     ..  container:: example
@@ -250,14 +268,17 @@ def delicatissimo_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
+            <BLANKLINE>
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             \with                                                                          %! SingleStaffScoreTemplate
             {                                                                              %! SingleStaffScoreTemplate
                 \override Beam.positions = #'(5 . 5)                                       %! SingleStaffScoreTemplate
             }                                                                              %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                   %! _make_global_context
                 <<                                                                         %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
@@ -282,13 +303,18 @@ def delicatissimo_music():
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                      %! _make_global_context
+            <BLANKLINE>
                 >>                                                                         %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                         \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! _comment_measure_numbers
@@ -297,7 +323,9 @@ def delicatissimo_music():
                                 e'32
                                 - \staccato                                                %! IndicatorCommand
                                 [
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
@@ -334,7 +362,9 @@ def delicatissimo_music():
                                 \set stemRightBeamCount = 1
                                 c'32
                                 - \staccato                                                %! IndicatorCommand
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
@@ -342,7 +372,9 @@ def delicatissimo_music():
                                 b'32
                                 - \staccato                                                %! IndicatorCommand
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 2]                                   %! _comment_measure_numbers
@@ -381,14 +413,18 @@ def delicatissimo_music():
                                 \set stemRightBeamCount = 1
                                 c'32
                                 - \staccato                                                %! IndicatorCommand
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 1
                                 b'32
                                 - \staccato                                                %! IndicatorCommand
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
@@ -421,7 +457,9 @@ def delicatissimo_music():
                                 f'32
                                 - \staccato                                                %! IndicatorCommand
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! _comment_measure_numbers
@@ -430,7 +468,9 @@ def delicatissimo_music():
                                 b'32
                                 - \staccato                                                %! IndicatorCommand
                                 [
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
@@ -462,7 +502,9 @@ def delicatissimo_music():
                                 \set stemRightBeamCount = 1
                                 f'32
                                 - \staccato                                                %! IndicatorCommand
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
@@ -472,9 +514,13 @@ def delicatissimo_music():
                                 ]
             <BLANKLINE>
                             }
+            <BLANKLINE>
                         }                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     }                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 >>                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
             >>                                                                             %! SingleStaffScoreTemplate
 
     Returns music-maker.

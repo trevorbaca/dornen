@@ -58,14 +58,17 @@ def wave_music(denominator=64, inverted=False):
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
+            <BLANKLINE>
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             \with                                                                          %! SingleStaffScoreTemplate
             {                                                                              %! SingleStaffScoreTemplate
                 \override TupletBracket.padding = #2                                       %! SingleStaffScoreTemplate
             }                                                                              %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                   %! _make_global_context
                 <<                                                                         %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
@@ -90,13 +93,18 @@ def wave_music(denominator=64, inverted=False):
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                      %! _make_global_context
+            <BLANKLINE>
                 >>                                                                         %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                         \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -155,8 +163,10 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 c'64 * 640/1024
                                 ]
+            <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -215,8 +225,10 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 c'64 * 640/1024
                                 ]
+            <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -272,8 +284,10 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 f'64 * 1536/1024
                                 ]
+            <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -332,8 +346,10 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 c'64 * 640/1024
                                 ]
+            <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -389,8 +405,10 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 f'64 * 1536/1024
                                 ]
+            <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -451,9 +469,13 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                         }                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     }                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 >>                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
             >>                                                                             %! SingleStaffScoreTemplate
 
     ..  container:: example
@@ -507,14 +529,17 @@ def wave_music(denominator=64, inverted=False):
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
+            <BLANKLINE>
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             \with                                                                          %! SingleStaffScoreTemplate
             {                                                                              %! SingleStaffScoreTemplate
                 \override TupletBracket.padding = #2                                       %! SingleStaffScoreTemplate
             }                                                                              %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                   %! _make_global_context
                 <<                                                                         %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
@@ -539,13 +564,18 @@ def wave_music(denominator=64, inverted=False):
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                      %! _make_global_context
+            <BLANKLINE>
                 >>                                                                         %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                         \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -604,8 +634,10 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 c'64 * 1536/1024
                                 ]
+            <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -664,8 +696,10 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 c'64 * 1536/1024
                                 ]
+            <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -721,8 +755,10 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 f'64 * 640/1024
                                 ]
+            <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -781,8 +817,10 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 c'64 * 1536/1024
                                 ]
+            <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -838,8 +876,10 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 f'64 * 640/1024
                                 ]
+            <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -900,9 +940,13 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                         }                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     }                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 >>                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
             >>                                                                             %! SingleStaffScoreTemplate
 
     ..  container:: example
@@ -956,14 +1000,17 @@ def wave_music(denominator=64, inverted=False):
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
+            <BLANKLINE>
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             \with                                                                          %! SingleStaffScoreTemplate
             {                                                                              %! SingleStaffScoreTemplate
                 \override TupletBracket.padding = #2                                       %! SingleStaffScoreTemplate
             }                                                                              %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                   %! _make_global_context
                 <<                                                                         %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
@@ -988,13 +1035,18 @@ def wave_music(denominator=64, inverted=False):
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                      %! _make_global_context
+            <BLANKLINE>
                 >>                                                                         %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                         \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -1053,8 +1105,10 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 c'32 * 672/1024
                                 ]
+            <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -1113,8 +1167,10 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 c'32 * 672/1024
                                 ]
+            <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -1170,8 +1226,10 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 f'32 * 1600/1024
                                 ]
+            <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -1230,8 +1288,10 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 c'32 * 672/1024
                                 ]
+            <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -1287,8 +1347,10 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                                 f'32 * 1600/1024
                                 ]
+            <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -1349,9 +1411,13 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
                             }
                             \revert TupletNumber.text
+            <BLANKLINE>
                         }                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     }                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 >>                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
             >>                                                                             %! SingleStaffScoreTemplate
 
     Returns music-maker.

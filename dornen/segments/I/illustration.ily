@@ -216,7 +216,9 @@ I_GlobalSkips = {                                                              %
 
 
 I_GuitarMusicVoiceI = {                                                        %! extern
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [I GuitarMusicVoiceI measure 185 / measure 1]                    %! _comment_measure_numbers
@@ -253,9 +255,13 @@ I_GuitarMusicVoiceI = {                                                        %
             r8
 
             r8
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -294,16 +300,22 @@ I_GuitarMusicVoiceI = {                                                        %
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
         }
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
             gf!2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -335,9 +347,13 @@ I_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -371,9 +387,13 @@ I_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -405,9 +425,13 @@ I_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -437,9 +461,13 @@ I_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -479,9 +507,13 @@ I_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -513,9 +545,13 @@ I_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -549,9 +585,13 @@ I_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -583,9 +623,13 @@ I_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -615,9 +659,13 @@ I_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -657,9 +705,13 @@ I_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -691,9 +743,13 @@ I_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -727,9 +783,13 @@ I_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -761,9 +821,13 @@ I_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -797,9 +861,13 @@ I_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -831,9 +899,13 @@ I_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -867,9 +939,13 @@ I_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -899,9 +975,13 @@ I_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -931,9 +1011,13 @@ I_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -969,16 +1053,22 @@ I_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
             gf!2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -1016,7 +1106,9 @@ I_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -1026,7 +1118,9 @@ I_GuitarMusicVoiceI = {                                                        %
             \revert TextScript.staff-padding                                   %! baca_script_staff_padding:OverrideCommand(2)
 
         }
+
     }
+
 }                                                                              %! extern
 
 
@@ -1245,12 +1339,17 @@ I_GuitarMusicVoiceIV = {                                                       %
 
 
 I_GuitarMusicStaff = <<                                                        %! extern
+
     \context GuitarMusicVoiceI = "GuitarMusicVoiceI"                           %! ScoreTemplate
     \I_GuitarMusicVoiceI                                                       %! extern
+
     \context GuitarMusicVoiceII = "GuitarMusicVoiceII"                         %! ScoreTemplate
     \I_GuitarMusicVoiceII                                                      %! extern
+
     \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"                       %! ScoreTemplate
     \I_GuitarMusicVoiceIII                                                     %! extern
+
     \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"                         %! ScoreTemplate
     \I_GuitarMusicVoiceIV                                                      %! extern
+
 >>                                                                             %! extern

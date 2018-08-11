@@ -3,18 +3,18 @@ L_GlobalSkips = {                                                              %
     % [L GlobalSkips measure 257 / measure 1]                                  %! _comment_measure_numbers
     \time 2/5                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2/5                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (257)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <0>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((1))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [L.1]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[9'35'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% - \abjad_invisible_line                                                    %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
-%@% - \baca_metronome_mark_spanner_left_text 3 0 1 "66"                        %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+%@% - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 3 0 1 "66"                        %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
-    - \abjad_invisible_line                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    - \baca_metronome_mark_spanner_colored_left_text 3 0 1 "66" #'green4       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 3 0 1 "66" #'green4       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
     % [L GlobalSkips measure 258 / measure 2]                                  %! _comment_measure_numbers
@@ -27,7 +27,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 259 / measure 3]                                  %! _comment_measure_numbers
     \time 1/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (259)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <2>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -53,7 +53,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 262 / measure 6]                                  %! _comment_measure_numbers
     \time 2/5                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2/5                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (262)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <5>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -71,7 +71,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 264 / measure 8]                                  %! _comment_measure_numbers
     \time 1/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (264)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <7>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -97,7 +97,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 267 / measure 11]                                 %! _comment_measure_numbers
     \time 2/5                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2/5                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (267)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <10>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -115,7 +115,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 269 / measure 13]                                 %! _comment_measure_numbers
     \time 1/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (269)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <12>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -141,7 +141,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 272 / measure 16]                                 %! _comment_measure_numbers
     \time 2/5                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2/5                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (272)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <15>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -151,7 +151,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 273 / measure 17]                                 %! _comment_measure_numbers
     \time 2/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (273)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <16>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -161,7 +161,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 274 / measure 18]                                 %! _comment_measure_numbers
     \time 2/5                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2/5                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (274)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <17>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -187,7 +187,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 277 / measure 21]                                 %! _comment_measure_numbers
     \time 3/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (277)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <20>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -197,7 +197,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 278 / measure 22]                                 %! _comment_measure_numbers
     \time 2/5                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2/5                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (278)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <21>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -223,7 +223,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 281 / measure 25]                                 %! _comment_measure_numbers
     \time 4/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 4/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (281)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <24>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -233,7 +233,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 282 / measure 26]                                 %! _comment_measure_numbers
     \time 5/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (282)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <25>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -243,7 +243,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 283 / measure 27]                                 %! _comment_measure_numbers
     \time 4/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 4/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (283)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <26>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -253,7 +253,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 284 / measure 28]                                 %! _comment_measure_numbers
     \time 3/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (284)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <27>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -263,7 +263,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 285 / measure 29]                                 %! _comment_measure_numbers
     \time 2/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (285)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <28>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -273,7 +273,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 286 / measure 30]                                 %! _comment_measure_numbers
     \time 1/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (286)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <29>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -283,7 +283,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 287 / measure 31]                                 %! _comment_measure_numbers
     \time 2/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (287)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <30>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -293,7 +293,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 288 / measure 32]                                 %! _comment_measure_numbers
     \time 3/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (288)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <31>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -303,7 +303,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 289 / measure 33]                                 %! _comment_measure_numbers
     \time 4/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 4/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (289)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <32>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -313,7 +313,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 290 / measure 34]                                 %! _comment_measure_numbers
     \time 5/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (290)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <33>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -323,7 +323,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 291 / measure 35]                                 %! _comment_measure_numbers
     \time 4/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 4/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (291)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <34>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -333,7 +333,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 292 / measure 36]                                 %! _comment_measure_numbers
     \time 3/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (292)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <35>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -343,7 +343,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 293 / measure 37]                                 %! _comment_measure_numbers
     \time 2/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (293)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <36>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -353,7 +353,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 294 / measure 38]                                 %! _comment_measure_numbers
     \time 1/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (294)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <37>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -363,7 +363,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 295 / measure 39]                                 %! _comment_measure_numbers
     \time 2/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (295)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <38>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -373,7 +373,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 296 / measure 40]                                 %! _comment_measure_numbers
     \time 3/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (296)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <39>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -383,7 +383,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 297 / measure 41]                                 %! _comment_measure_numbers
     \time 4/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 4/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (297)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <40>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -393,7 +393,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 298 / measure 42]                                 %! _comment_measure_numbers
     \time 5/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (298)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <41>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -403,7 +403,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 299 / measure 43]                                 %! _comment_measure_numbers
     \time 3/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (299)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <42>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -413,7 +413,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 300 / measure 44]                                 %! _comment_measure_numbers
     \time 2/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (300)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <43>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -423,7 +423,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 301 / measure 45]                                 %! _comment_measure_numbers
     \time 1/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (301)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <44>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -433,7 +433,7 @@ L_GlobalSkips = {                                                              %
 
     % [L GlobalSkips measure 302 / measure 46]                                 %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (302)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <45>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -441,7 +441,7 @@ L_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [L.46]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[13'19'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(4)
-    \baca_bar_line_visible                                                     %! _attach_final_bar_line
+    \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
 }                                                                              %! extern
@@ -522,9 +522,9 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "tamb. tr."                         %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "tamb. tr."                         %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -599,9 +599,9 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -714,9 +714,9 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -791,9 +791,9 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -906,9 +906,9 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -1053,9 +1053,9 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "nail rasg."                       %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "nail rasg."                       %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -1134,9 +1134,9 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -1211,9 +1211,9 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "nail. rasg."                      %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "nail. rasg."                      %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -1295,9 +1295,9 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -1372,9 +1372,9 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "nail rasg."                       %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "nail rasg."                       %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -1509,9 +1509,9 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "ponticello"                       %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "ponticello"                       %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -2130,9 +2130,9 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "gradually slow rasgueado"          %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "still"                            %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "gradually slow rasgueado"          %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "still"                            %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)

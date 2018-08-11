@@ -25,7 +25,7 @@ def design_1(start=None, stop=None):
             }
             {
                 \time 1/8
-                \abjad_color_music "red"
+                \abjad-color-music #'red
                 e'8
                 ^ \markup { 0 }
                 \stopGroup
@@ -414,7 +414,7 @@ def design_1(start=None, stop=None):
                 \startGroup
                 bf'8
                 ef'8
-                \abjad_color_music "red"
+                \abjad-color-music #'red
                 e'8
                 \stopGroup
                 s8

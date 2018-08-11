@@ -3,18 +3,18 @@ K_GlobalSkips = {                                                              %
     % [K GlobalSkips measure 232 / measure 1]                                  %! _comment_measure_numbers
     \time 2/5                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2/5                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (232)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <0>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
 %@% ^ \baca-dark-cyan-markup ((1))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [K.1]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[8'24'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% - \abjad_invisible_line                                                    %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
-%@% - \baca_metronome_mark_spanner_left_text 3 0 1 "66"                        %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+%@% - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 3 0 1 "66"                        %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
-    - \abjad_invisible_line                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    - \baca_metronome_mark_spanner_colored_left_text 3 0 1 "66" #'green4       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 3 0 1 "66" #'green4       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
     % [K GlobalSkips measure 233 / measure 2]                                  %! _comment_measure_numbers
@@ -27,7 +27,7 @@ K_GlobalSkips = {                                                              %
 
     % [K GlobalSkips measure 234 / measure 3]                                  %! _comment_measure_numbers
     \time 1/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (234)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <2>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -53,7 +53,7 @@ K_GlobalSkips = {                                                              %
 
     % [K GlobalSkips measure 237 / measure 6]                                  %! _comment_measure_numbers
     \time 2/5                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2/5                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (237)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <5>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -71,7 +71,7 @@ K_GlobalSkips = {                                                              %
 
     % [K GlobalSkips measure 239 / measure 8]                                  %! _comment_measure_numbers
     \time 1/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (239)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <7>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -97,7 +97,7 @@ K_GlobalSkips = {                                                              %
 
     % [K GlobalSkips measure 242 / measure 11]                                 %! _comment_measure_numbers
     \time 2/5                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2/5                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (242)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <10>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -115,7 +115,7 @@ K_GlobalSkips = {                                                              %
 
     % [K GlobalSkips measure 244 / measure 13]                                 %! _comment_measure_numbers
     \time 1/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (244)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <12>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -141,7 +141,7 @@ K_GlobalSkips = {                                                              %
 
     % [K GlobalSkips measure 247 / measure 16]                                 %! _comment_measure_numbers
     \time 2/5                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2/5                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (247)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <15>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -151,7 +151,7 @@ K_GlobalSkips = {                                                              %
 
     % [K GlobalSkips measure 248 / measure 17]                                 %! _comment_measure_numbers
     \time 1/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (248)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <16>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -177,7 +177,7 @@ K_GlobalSkips = {                                                              %
 
     % [K GlobalSkips measure 251 / measure 20]                                 %! _comment_measure_numbers
     \time 2/5                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2/5                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (251)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <19>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -187,7 +187,7 @@ K_GlobalSkips = {                                                              %
 
     % [K GlobalSkips measure 252 / measure 21]                                 %! _comment_measure_numbers
     \time 1/3                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/3                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (252)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <20>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -213,7 +213,7 @@ K_GlobalSkips = {                                                              %
 
     % [K GlobalSkips measure 255 / measure 24]                                 %! _comment_measure_numbers
     \time 4/5                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 4/5                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (255)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <23>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -229,7 +229,7 @@ K_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [K.25]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[9'29'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                              %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(4)
-    \baca_bar_line_visible                                                     %! _attach_final_bar_line
+    \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
 }                                                                              %! extern
@@ -310,9 +310,9 @@ K_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "tamb. tr."                         %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "tamb. tr."                         %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -387,9 +387,9 @@ K_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -502,9 +502,9 @@ K_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -579,9 +579,9 @@ K_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -694,9 +694,9 @@ K_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -771,9 +771,9 @@ K_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -848,9 +848,9 @@ K_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -925,9 +925,9 @@ K_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -1002,9 +1002,9 @@ K_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
@@ -1079,9 +1079,9 @@ K_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_left_text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca_text_spanner_right_text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
+            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)

@@ -53,10 +53,13 @@ def tremolo_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
+            <BLANKLINE>
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                   %! _make_global_context
                 <<                                                                         %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
@@ -87,13 +90,18 @@ def tremolo_music():
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                      %! _make_global_context
+            <BLANKLINE>
                 >>                                                                         %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                         \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
@@ -102,7 +110,9 @@ def tremolo_music():
                                 :32                                                        %! IndicatorCommand
                                 [
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
@@ -156,7 +166,9 @@ def tremolo_music():
                                 :32                                                        %! IndicatorCommand
                                 \repeatTie                                                 %! SpannerCommand
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
@@ -165,7 +177,9 @@ def tremolo_music():
                                 :32                                                        %! IndicatorCommand
                                 [
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
@@ -214,9 +228,13 @@ def tremolo_music():
                                 ]
             <BLANKLINE>
                             }
+            <BLANKLINE>
                         }                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     }                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 >>                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
             >>                                                                             %! SingleStaffScoreTemplate
 
     ..  container:: example
@@ -276,10 +294,13 @@ def tremolo_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
+            <BLANKLINE>
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                   %! _make_global_context
                 <<                                                                         %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
@@ -304,13 +325,18 @@ def tremolo_music():
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                      %! _make_global_context
+            <BLANKLINE>
                 >>                                                                         %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                         \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
@@ -320,7 +346,9 @@ def tremolo_music():
                                 e'8
                                 :32                                                        %! IndicatorCommand
                                 [
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
@@ -372,7 +400,9 @@ def tremolo_music():
                                 e'8
                                 :32                                                        %! IndicatorCommand
                                 \repeatTie                                                 %! SpannerCommand
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
@@ -383,7 +413,9 @@ def tremolo_music():
                                 :32                                                        %! IndicatorCommand
                                 \repeatTie                                                 %! SpannerCommand
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
@@ -436,7 +468,9 @@ def tremolo_music():
                                 e'8
                                 :32                                                        %! IndicatorCommand
                                 \repeatTie                                                 %! SpannerCommand
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
@@ -446,7 +480,9 @@ def tremolo_music():
                                 e'8
                                 :32                                                        %! IndicatorCommand
                                 \repeatTie                                                 %! SpannerCommand
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
@@ -492,7 +528,9 @@ def tremolo_music():
                                 :32                                                        %! IndicatorCommand
                                 \repeatTie                                                 %! SpannerCommand
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
@@ -503,7 +541,9 @@ def tremolo_music():
                                 e'8
                                 :32                                                        %! IndicatorCommand
                                 [
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
@@ -548,7 +588,9 @@ def tremolo_music():
                                 e'8
                                 :32                                                        %! IndicatorCommand
                                 \repeatTie                                                 %! SpannerCommand
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/11 {
             <BLANKLINE>
@@ -561,9 +603,13 @@ def tremolo_music():
                                 ]
             <BLANKLINE>
                             }
+            <BLANKLINE>
                         }                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     }                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 >>                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
             >>                                                                             %! SingleStaffScoreTemplate
 
     Returns music-maker.

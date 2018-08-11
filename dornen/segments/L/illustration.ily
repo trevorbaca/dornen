@@ -448,7 +448,9 @@ L_GlobalSkips = {                                                              %
 
 
 L_GuitarMusicVoiceI = {                                                        %! extern
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -486,9 +488,13 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)    %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -528,9 +534,13 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -563,9 +573,13 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
             \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -605,9 +619,13 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -640,9 +658,13 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
             \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -678,9 +700,13 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -720,9 +746,13 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -755,9 +785,13 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
             \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -797,9 +831,13 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -832,9 +870,13 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
             \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -870,9 +912,13 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -912,9 +958,13 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -947,9 +997,13 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
             \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -983,9 +1037,13 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -1017,9 +1075,13 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -1059,9 +1121,13 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -1098,9 +1164,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -1140,9 +1210,13 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -1175,9 +1249,13 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
             \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -1217,9 +1295,13 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+
         }
+
     }
+
     {
+
         \times 2/3 {
 
             % [L GuitarMusicVoiceI measure 277 / measure 21]                   %! _comment_measure_numbers
@@ -1259,9 +1341,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -1301,9 +1387,13 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -1336,9 +1426,13 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
             \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -1378,9 +1472,13 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
             - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
             \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -1422,9 +1520,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -1473,9 +1575,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -1527,9 +1633,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \times 2/3 {
 
             % [L GuitarMusicVoiceI measure 284 / measure 28]                   %! _comment_measure_numbers
@@ -1571,9 +1681,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -1612,9 +1726,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -1649,9 +1767,13 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -1690,9 +1812,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \times 2/3 {
 
             % [L GuitarMusicVoiceI measure 288 / measure 32]                   %! _comment_measure_numbers
@@ -1734,9 +1860,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -1783,9 +1913,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -1836,9 +1970,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -1885,9 +2023,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \times 2/3 {
 
             % [L GuitarMusicVoiceI measure 292 / measure 36]                   %! _comment_measure_numbers
@@ -1929,9 +2071,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -1971,9 +2117,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -2008,9 +2158,13 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -2049,9 +2203,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \times 2/3 {
 
             % [L GuitarMusicVoiceI measure 296 / measure 40]                   %! _comment_measure_numbers
@@ -2093,9 +2251,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -2148,9 +2310,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -2201,9 +2367,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \times 2/3 {
 
             % [L GuitarMusicVoiceI measure 299 / measure 43]                   %! _comment_measure_numbers
@@ -2245,9 +2415,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -2286,9 +2460,13 @@ L_GuitarMusicVoiceI = {                                                        %
             e2
             :32                                                                %! IndicatorCommand
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
@@ -2325,9 +2503,13 @@ L_GuitarMusicVoiceI = {                                                        %
             - \tweak circled-tip ##t                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
             \repeatTie                                                         %! SpannerCommand
+
         }
+
     }
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [L GuitarMusicVoiceI measure 302 / measure 46]                   %! _comment_measure_numbers
@@ -2370,7 +2552,9 @@ L_GuitarMusicVoiceI = {                                                        %
             \revert TextScript.staff-padding                                   %! baca_script_staff_padding:OverrideCommand(2)
 
         }
+
     }
+
 }                                                                              %! extern
 
 
@@ -2805,12 +2989,17 @@ L_GuitarMusicVoiceIV = {                                                       %
 
 
 L_GuitarMusicStaff = <<                                                        %! extern
+
     \context GuitarMusicVoiceI = "GuitarMusicVoiceI"                           %! ScoreTemplate
     \L_GuitarMusicVoiceI                                                       %! extern
+
     \context GuitarMusicVoiceII = "GuitarMusicVoiceII"                         %! ScoreTemplate
     \L_GuitarMusicVoiceII                                                      %! extern
+
     \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"                       %! ScoreTemplate
     \L_GuitarMusicVoiceIII                                                     %! extern
+
     \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"                         %! ScoreTemplate
     \L_GuitarMusicVoiceIV                                                      %! extern
+
 >>                                                                             %! extern

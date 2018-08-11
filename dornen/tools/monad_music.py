@@ -69,6 +69,7 @@ def monad_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
+            <BLANKLINE>
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             \with                                                                          %! SingleStaffScoreTemplate
             {                                                                              %! SingleStaffScoreTemplate
@@ -78,8 +79,10 @@ def monad_music():
                 \override TupletBracket.staff-padding = #1.5                               %! SingleStaffScoreTemplate
             }                                                                              %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                   %! _make_global_context
                 <<                                                                         %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
@@ -110,101 +113,140 @@ def monad_music():
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                      %! _make_global_context
+            <BLANKLINE>
                 >>                                                                         %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                         \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! _comment_measure_numbers
                                 cs'!2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 c'2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 bf'!2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 f'2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 af'!2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 fs'!2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 b'2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 2]                                   %! _comment_measure_numbers
                                 d'2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 e'2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! _comment_measure_numbers
                                 ef'!2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 a'2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 af'!2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 4]                                   %! _comment_measure_numbers
                                 fs'!2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 b'2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 d'2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 f'2
             <BLANKLINE>
                             }
+            <BLANKLINE>
                         }                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     }                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 >>                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
             >>                                                                             %! SingleStaffScoreTemplate
 
     ..  container:: example
@@ -267,6 +309,7 @@ def monad_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
+            <BLANKLINE>
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             \with                                                                          %! SingleStaffScoreTemplate
             {                                                                              %! SingleStaffScoreTemplate
@@ -276,8 +319,10 @@ def monad_music():
                 \override TupletBracket.staff-padding = #1.5                               %! SingleStaffScoreTemplate
             }                                                                              %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                   %! _make_global_context
                 <<                                                                         %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
@@ -308,84 +353,113 @@ def monad_music():
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                      %! _make_global_context
+            <BLANKLINE>
                 >>                                                                         %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                         \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! _comment_measure_numbers
                                 cs'!2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 c'2
             <BLANKLINE>
                                 bf'!2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 f'2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 af'!2
             <BLANKLINE>
                                 fs'!2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 b'2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 2]                                   %! _comment_measure_numbers
                                 d'2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! _comment_measure_numbers
                                 ef'!2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 a'2
             <BLANKLINE>
                                 af'!2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 % [MusicVoice measure 4]                                   %! _comment_measure_numbers
                                 fs'!2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 b'2
             <BLANKLINE>
                                 d'2
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
                                 f'2
             <BLANKLINE>
                             }
+            <BLANKLINE>
                         }                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     }                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 >>                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
             >>                                                                             %! SingleStaffScoreTemplate
 
     Returns music-maker.

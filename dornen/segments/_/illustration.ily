@@ -201,7 +201,9 @@ i_GlobalSkips = {                                                              %
 
 
 i_GuitarMusicVoiceI = {                                                        %! extern
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [_ GuitarMusicVoiceI measure 1]                                  %! _comment_measure_numbers
@@ -232,12 +234,16 @@ i_GuitarMusicVoiceI = {                                                        %
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             [                                                                  %! _extend_beam
             \override GuitarMusicStaff.Clef.color = #(x11-color 'violet)       %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
         }
+
     }
 
     % [_ GuitarMusicVoiceI measure 2]                                          %! _comment_measure_numbers
     s1 * 1/32
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [_ GuitarMusicVoiceI measure 3]                                  %! _comment_measure_numbers
@@ -261,12 +267,16 @@ i_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
+
         }
+
     }
 
     % [_ GuitarMusicVoiceI measure 4]                                          %! _comment_measure_numbers
     s1 * 1/32
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [_ GuitarMusicVoiceI measure 5]                                  %! _comment_measure_numbers
@@ -295,12 +305,16 @@ i_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 0                                        %! _extend_beam
             g'8.
             ]                                                                  %! _extend_beam
+
         }
+
     }
 
     % [_ GuitarMusicVoiceI measure 6]                                          %! _comment_measure_numbers
     s1 * 1/32
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [_ GuitarMusicVoiceI measure 7]                                  %! _comment_measure_numbers
@@ -331,12 +345,16 @@ i_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1                                        %! _extend_beam
             b8.
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
+
         }
+
     }
 
     % [_ GuitarMusicVoiceI measure 8]                                          %! _comment_measure_numbers
     s1 * 1/8
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [_ GuitarMusicVoiceI measure 10]                                 %! _comment_measure_numbers
@@ -373,12 +391,16 @@ i_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 0                                        %! _extend_beam
             af!8.
             ]                                                                  %! _extend_beam
+
         }
+
     }
 
     % [_ GuitarMusicVoiceI measure 11]                                         %! _comment_measure_numbers
     s1 * 17/64
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [_ GuitarMusicVoiceI measure 12]                                 %! _comment_measure_numbers
@@ -409,12 +431,16 @@ i_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1                                        %! _extend_beam
             bf!8.
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
+
         }
+
     }
 
     % [_ GuitarMusicVoiceI measure 13]                                         %! _comment_measure_numbers
     s1 * 1/32
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [_ GuitarMusicVoiceI measure 14]                                 %! _comment_measure_numbers
@@ -443,7 +469,9 @@ i_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 0                                        %! _extend_beam
             c'8.
             ]                                                                  %! _extend_beam
+
         }
+
     }
 
     % [_ GuitarMusicVoiceI measure 15]                                         %! _comment_measure_numbers
@@ -468,7 +496,9 @@ i_GuitarMusicVoiceII = {                                                       %
 
     % [_ GuitarMusicVoiceII measure 1]                                         %! _comment_measure_numbers
     s1 * 3/16
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [_ GuitarMusicVoiceII measure 2]                                 %! _comment_measure_numbers
@@ -504,7 +534,6 @@ i_GuitarMusicVoiceII = {                                                       %
 
                 af'16
                 ]                                                              %! ACC_1
-
             }
             \once \override Beam.positions = #'(-10 . -10)                     %! baca_beam_positions:OverrideCommand(1)
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! baca_time_signature_extra_offset:OverrideCommand(1)
@@ -512,12 +541,16 @@ i_GuitarMusicVoiceII = {                                                       %
             \set stemRightBeamCount = 3                                        %! _extend_beam
             c''32
             [                                                                  %! _extend_beam
+
         }
+
     }
 
     % [_ GuitarMusicVoiceII measure 3]                                         %! _comment_measure_numbers
     s1 * 3/16
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [_ GuitarMusicVoiceII measure 4]                                 %! _comment_measure_numbers
@@ -551,18 +584,21 @@ i_GuitarMusicVoiceII = {                                                       %
 
                 c''16
                 ]                                                              %! ACC_1
-
             }
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! baca_time_signature_extra_offset:OverrideCommand(1)
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             f'32
+
         }
+
     }
 
     % [_ GuitarMusicVoiceII measure 5]                                         %! _comment_measure_numbers
     s1 * 3/8
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [_ GuitarMusicVoiceII measure 6]                                 %! _comment_measure_numbers
@@ -594,19 +630,22 @@ i_GuitarMusicVoiceII = {                                                       %
 
                 ef''16
                 ]                                                              %! ACC_1
-
             }
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! baca_time_signature_extra_offset:OverrideCommand(1)
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             e''32
             ]                                                                  %! _extend_beam
+
         }
+
     }
 
     % [_ GuitarMusicVoiceII measure 7]                                         %! _comment_measure_numbers
     s1 * 3/8
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [_ GuitarMusicVoiceII measure 8]                                 %! _comment_measure_numbers
@@ -638,7 +677,6 @@ i_GuitarMusicVoiceII = {                                                       %
 
                 e''16
                 ]                                                              %! ACC_1
-
             }
             \once \override Beam.positions = #'(-10 . -10)                     %! baca_beam_positions:OverrideCommand(1)
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! baca_time_signature_extra_offset:OverrideCommand(1)
@@ -646,12 +684,16 @@ i_GuitarMusicVoiceII = {                                                       %
             \set stemRightBeamCount = 3                                        %! _extend_beam
             fs''!32
             [                                                                  %! _extend_beam
+
         }
+
     }
 
     % [_ GuitarMusicVoiceII measure 9]                                         %! _comment_measure_numbers
     s1 * 95/64
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [_ GuitarMusicVoiceII measure 13]                                %! _comment_measure_numbers
@@ -691,19 +733,22 @@ i_GuitarMusicVoiceII = {                                                       %
 
                 ef''16
                 ]                                                              %! ACC_1
-
             }
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! baca_time_signature_extra_offset:OverrideCommand(1)
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             e''32
             ]                                                                  %! _extend_beam
+
         }
+
     }
 
     % [_ GuitarMusicVoiceII measure 14]                                        %! _comment_measure_numbers
     s1 * 3/8
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [_ GuitarMusicVoiceII measure 15]                                %! _comment_measure_numbers
@@ -743,7 +788,6 @@ i_GuitarMusicVoiceII = {                                                       %
 
                 cs''16
                 ]                                                              %! ACC_1
-
             }
             \once \override Beam.positions = #'(-10 . -10)                     %! baca_beam_positions:OverrideCommand(1)
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! baca_time_signature_extra_offset:OverrideCommand(1)
@@ -751,9 +795,13 @@ i_GuitarMusicVoiceII = {                                                       %
             \set stemRightBeamCount = 3                                        %! _extend_beam
             fs''!32
             [                                                                  %! _extend_beam
+
         }
+
     }
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [_ GuitarMusicVoiceII measure 16]                                %! _comment_measure_numbers
@@ -783,14 +831,15 @@ i_GuitarMusicVoiceII = {                                                       %
 
                 f''16
                 ]                                                              %! ACC_1
-
             }
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! baca_time_signature_extra_offset:OverrideCommand(1)
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             g''32
             ]                                                                  %! _extend_beam
+
         }
+
     }
 
     % [_ GuitarMusicVoiceII measure 17]                                        %! _comment_measure_numbers
@@ -809,7 +858,9 @@ i_GuitarMusicVoiceIII = {                                                      %
 
     % [_ GuitarMusicVoiceIII measure 1]                                        %! _comment_measure_numbers
     s1 * 107/32
+
     {
+
         \override TupletNumber.text = \markup {
             \scale
                 #'(0.75 . 0.75)
@@ -887,10 +938,14 @@ i_GuitarMusicVoiceIII = {                                                      %
             ef''!64 * 1536/1024
             ]
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
+
         }
         \revert TupletNumber.text
+
     }
+
     {
+
         \override TupletNumber.text = \markup {
             \scale
                 #'(0.75 . 0.75)
@@ -981,7 +1036,9 @@ i_GuitarMusicVoiceIII = {                                                      %
 
         }
         \revert TupletNumber.text
+
     }
+
 }                                                                              %! extern
 
 
@@ -990,7 +1047,9 @@ i_GuitarMusicVoiceIV = {                                                       %
     % [_ GuitarMusicVoiceIV measure 1]                                         %! _comment_measure_numbers
     s1 * 5/4
     ^ \baca-default-indicator-markup "(“Guitar”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+
     {
+
         \tweak text #tuplet-number::calc-fraction-text
         \times 3/4 {
 
@@ -1030,7 +1089,9 @@ i_GuitarMusicVoiceIV = {                                                       %
             \set stemRightBeamCount = 1
             a'64
             (                                                                  %! SpannerCommand
+
         }
+
         \tweak text #tuplet-number::calc-fraction-text
         \times 3/4 {
 
@@ -1052,12 +1113,16 @@ i_GuitarMusicVoiceIV = {                                                       %
             d'64
             ]
             )                                                                  %! SpannerCommand
+
         }
+
     }
 
     % [_ GuitarMusicVoiceIV measure 10]                                        %! _comment_measure_numbers
     s1 * 3/4
+
     {
+
         \times 2/3 {
 
             % [_ GuitarMusicVoiceIV measure 11]                                %! _comment_measure_numbers
@@ -1092,7 +1157,9 @@ i_GuitarMusicVoiceIV = {                                                       %
             \set stemRightBeamCount = 1
             g'64
             (                                                                  %! SpannerCommand
+
         }
+
         \tweak text #tuplet-number::calc-fraction-text
         \times 15/16 {
 
@@ -1162,12 +1229,16 @@ i_GuitarMusicVoiceIV = {                                                       %
             f''64
             ]
             )                                                                  %! SpannerCommand
+
         }
+
     }
 
     % [_ GuitarMusicVoiceIV measure 12]                                        %! _comment_measure_numbers
     s1 * 27/32
+
     {
+
         \tweak text #tuplet-number::calc-fraction-text
         \times 6/7 {
 
@@ -1219,7 +1290,9 @@ i_GuitarMusicVoiceIV = {                                                       %
             \set stemRightBeamCount = 1
             af'!64
             (                                                                  %! SpannerCommand
+
         }
+
         \tweak text #tuplet-number::calc-fraction-text
         \times 3/4 {
 
@@ -1241,7 +1314,9 @@ i_GuitarMusicVoiceIV = {                                                       %
             a''64
             ]
             )                                                                  %! SpannerCommand
+
         }
+
     }
 
     % [_ GuitarMusicVoiceIV measure 18]                                        %! _comment_measure_numbers
@@ -1254,12 +1329,17 @@ i_GuitarMusicVoiceIV = {                                                       %
 
 
 i_GuitarMusicStaff = <<                                                        %! extern
+
     \context GuitarMusicVoiceI = "GuitarMusicVoiceI"                           %! ScoreTemplate
     \i_GuitarMusicVoiceI                                                       %! extern
+
     \context GuitarMusicVoiceII = "GuitarMusicVoiceII"                         %! ScoreTemplate
     \i_GuitarMusicVoiceII                                                      %! extern
+
     \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"                       %! ScoreTemplate
     \i_GuitarMusicVoiceIII                                                     %! extern
+
     \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"                         %! ScoreTemplate
     \i_GuitarMusicVoiceIV                                                      %! extern
+
 >>                                                                             %! extern

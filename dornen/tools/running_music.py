@@ -53,10 +53,13 @@ def running_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
+            <BLANKLINE>
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                   %! _make_global_context
                 <<                                                                         %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
@@ -87,20 +90,27 @@ def running_music():
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                      %! _make_global_context
+            <BLANKLINE>
                 >>                                                                         %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                         \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! _comment_measure_numbers
                                 e'64
                                 [
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {
             <BLANKLINE>
@@ -138,14 +148,18 @@ def running_music():
                                 ]
                                 )                                                          %! SpannerCommand
                                 )                                                          %! SpannerCommand
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! _comment_measure_numbers
                                 b'64
                                 [
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 5/6 {
             <BLANKLINE>
@@ -181,9 +195,13 @@ def running_music():
                                 )                                                          %! SpannerCommand
             <BLANKLINE>
                             }
+            <BLANKLINE>
                         }                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     }                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 >>                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
             >>                                                                             %! SingleStaffScoreTemplate
 
     ..  container:: example
@@ -242,10 +260,13 @@ def running_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
+            <BLANKLINE>
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                   %! _make_global_context
                 <<                                                                         %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
@@ -270,13 +291,18 @@ def running_music():
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                      %! _make_global_context
+            <BLANKLINE>
                 >>                                                                         %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                         \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! _comment_measure_numbers
@@ -285,7 +311,9 @@ def running_music():
                                 e'64
                                 [
                                 (                                                          %! SpannerCommand
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {
             <BLANKLINE>
@@ -320,7 +348,9 @@ def running_music():
                                 \set stemRightBeamCount = 1
                                 c'64
                                 (                                                          %! SpannerCommand
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
@@ -328,7 +358,9 @@ def running_music():
                                 b'64
                                 ]
                                 )                                                          %! SpannerCommand
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/7 {
             <BLANKLINE>
@@ -362,7 +394,9 @@ def running_music():
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 1
                                 c'64
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
@@ -370,7 +404,9 @@ def running_music():
                                 b'64
                                 )                                                          %! SpannerCommand
                                 (                                                          %! SpannerCommand
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 5/6 {
             <BLANKLINE>
@@ -399,7 +435,9 @@ def running_music():
                                 f'64
                                 ]
                                 )                                                          %! SpannerCommand
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! _comment_measure_numbers
@@ -408,7 +446,9 @@ def running_music():
                                 b'64
                                 [
                                 (                                                          %! SpannerCommand
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 5/6 {
             <BLANKLINE>
@@ -439,7 +479,9 @@ def running_music():
                                 \set stemRightBeamCount = 1
                                 f'64
                                 (                                                          %! SpannerCommand
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
@@ -449,9 +491,13 @@ def running_music():
                                 )                                                          %! SpannerCommand
             <BLANKLINE>
                             }
+            <BLANKLINE>
                         }                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     }                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 >>                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
             >>                                                                             %! SingleStaffScoreTemplate
 
     Returns music-maker.

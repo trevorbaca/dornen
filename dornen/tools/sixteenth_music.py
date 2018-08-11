@@ -69,6 +69,7 @@ def sixteenth_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
+            <BLANKLINE>
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             \with                                                                          %! SingleStaffScoreTemplate
             {                                                                              %! SingleStaffScoreTemplate
@@ -78,8 +79,10 @@ def sixteenth_music():
                 \override TupletBracket.staff-padding = #1.5                               %! SingleStaffScoreTemplate
             }                                                                              %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                   %! _make_global_context
                 <<                                                                         %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
@@ -110,85 +113,124 @@ def sixteenth_music():
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                      %! _make_global_context
+            <BLANKLINE>
                 >>                                                                         %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                         \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! _comment_measure_numbers
                                 cs'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 c'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 bf'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 f'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 af'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 fs'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 b'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 2]                                   %! _comment_measure_numbers
                                 d'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 e'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! _comment_measure_numbers
                                 ef'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 a'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 af'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 4]                                   %! _comment_measure_numbers
                                 fs'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 b'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 d'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 f'16
             <BLANKLINE>
                             }
+            <BLANKLINE>
                         }                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     }                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 >>                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
             >>                                                                             %! SingleStaffScoreTemplate
 
     ..  container:: example
@@ -251,6 +293,7 @@ def sixteenth_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
+            <BLANKLINE>
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             \with                                                                          %! SingleStaffScoreTemplate
             {                                                                              %! SingleStaffScoreTemplate
@@ -260,8 +303,10 @@ def sixteenth_music():
                 \override TupletBracket.staff-padding = #1.5                               %! SingleStaffScoreTemplate
             }                                                                              %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                   %! _make_global_context
                 <<                                                                         %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
@@ -292,18 +337,25 @@ def sixteenth_music():
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                      %! _make_global_context
+            <BLANKLINE>
                 >>                                                                         %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                         \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! _comment_measure_numbers
                                 cs'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 c'16
@@ -311,11 +363,15 @@ def sixteenth_music():
             <BLANKLINE>
                                 bf'!16
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 f'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 af'!16
@@ -323,21 +379,29 @@ def sixteenth_music():
             <BLANKLINE>
                                 fs'!16
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 b'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 2]                                   %! _comment_measure_numbers
                                 d'16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! _comment_measure_numbers
                                 ef'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 a'16
@@ -345,12 +409,16 @@ def sixteenth_music():
             <BLANKLINE>
                                 af'!16
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 4]                                   %! _comment_measure_numbers
                                 fs'!16
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 b'16
@@ -358,15 +426,21 @@ def sixteenth_music():
             <BLANKLINE>
                                 d'16
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 f'16
             <BLANKLINE>
                             }
+            <BLANKLINE>
                         }                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     }                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 >>                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
             >>                                                                             %! SingleStaffScoreTemplate
 
     Returns music-maker.

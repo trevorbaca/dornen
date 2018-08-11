@@ -72,6 +72,7 @@ def ovoid_music():
         ..  docs::
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
+            <BLANKLINE>
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             \with                                                                          %! SingleStaffScoreTemplate
             {                                                                              %! SingleStaffScoreTemplate
@@ -79,8 +80,10 @@ def ovoid_music():
                 \override SpacingSpanner.strict-note-spacing = ##f                         %! SingleStaffScoreTemplate
             }                                                                              %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 \context GlobalContext = "GlobalContext"                                   %! _make_global_context
                 <<                                                                         %! _make_global_context
+            <BLANKLINE>
                     \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
@@ -108,13 +111,18 @@ def ovoid_music():
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
                     }                                                                      %! _make_global_context
+            <BLANKLINE>
                 >>                                                                         %! _make_global_context
+            <BLANKLINE>
                 \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                         \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 1]                                   %! _comment_measure_numbers
@@ -122,7 +130,9 @@ def ovoid_music():
                                 \set stemRightBeamCount = 1
                                 af'!8.
                                 [
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
@@ -136,13 +146,14 @@ def ovoid_music():
             <BLANKLINE>
                                     bf'16
                                     ]                                                      %! ACC_1
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0
                                 f'32
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 2]                                   %! _comment_measure_numbers
@@ -158,12 +169,13 @@ def ovoid_music():
             <BLANKLINE>
                                     bf'16
                                     ]                                                      %! ACC_1
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 1
                                 f'32
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
@@ -177,13 +189,14 @@ def ovoid_music():
             <BLANKLINE>
                                     b'16
                                     ]                                                      %! ACC_1
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0
                                 d'32
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 3]                                   %! _comment_measure_numbers
@@ -199,12 +212,13 @@ def ovoid_music():
             <BLANKLINE>
                                     b'16
                                     ]                                                      %! ACC_1
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 1
                                 d'32
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
@@ -218,13 +232,14 @@ def ovoid_music():
             <BLANKLINE>
                                     a'16
                                     ]                                                      %! ACC_1
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0
                                 af'!32
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 4]                                   %! _comment_measure_numbers
@@ -240,12 +255,13 @@ def ovoid_music():
             <BLANKLINE>
                                     a'16
                                     ]                                                      %! ACC_1
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 1
                                 af'!32
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
@@ -259,13 +275,14 @@ def ovoid_music():
             <BLANKLINE>
                                     d'16
                                     ]                                                      %! ACC_1
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0
                                 f'32
                                 ]
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [MusicVoice measure 5]                                   %! _comment_measure_numbers
@@ -281,12 +298,13 @@ def ovoid_music():
             <BLANKLINE>
                                     d'16
                                     ]                                                      %! ACC_1
-            <BLANKLINE>
                                 }
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 1
                                 f'32
+            <BLANKLINE>
                             }
+            <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
@@ -295,9 +313,13 @@ def ovoid_music():
                                 ]
             <BLANKLINE>
                             }
+            <BLANKLINE>
                         }                                                                  %! SingleStaffScoreTemplate
+            <BLANKLINE>
                     }                                                                      %! SingleStaffScoreTemplate
+            <BLANKLINE>
                 >>                                                                         %! SingleStaffScoreTemplate
+            <BLANKLINE>
             >>                                                                             %! SingleStaffScoreTemplate
 
     Returns music-maker.

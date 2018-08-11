@@ -151,7 +151,9 @@ E_GlobalSkips = {                                                              %
 
 
 E_GuitarMusicVoiceI = {                                                        %! extern
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [E GuitarMusicVoiceI measure 120 / measure 1]                    %! _comment_measure_numbers
@@ -194,12 +196,16 @@ E_GuitarMusicVoiceI = {                                                        %
             c'32.
             - \tenuto                                                          %! IndicatorCommand
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
+
         }
+
     }
 
     % [E GuitarMusicVoiceI measure 121 / measure 2]                            %! _comment_measure_numbers
     s1 * 1/16
+
     {
+
         \tweak text #tuplet-number::calc-fraction-text
         \times 5/6 {
 
@@ -245,7 +251,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             b'64
+
         }
+
         \times 4/5 {
 
             \set stemLeftBeamCount = 1                                         %! _extend_beam
@@ -271,7 +279,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1                                        %! _extend_beam
             g''64
             (                                                                  %! SpannerCommand
+
         }
+
         \tweak text #tuplet-number::calc-fraction-text
         \times 3/4 {
 
@@ -291,12 +301,16 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1                                        %! _extend_beam
             fs''!64
             )                                                                  %! SpannerCommand
+
         }
+
     }
 
     % [E GuitarMusicVoiceI measure 123 / measure 4]                            %! _comment_measure_numbers
     s1 * 3/20
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [E GuitarMusicVoiceI measure 124 / measure 5]                    %! _comment_measure_numbers
@@ -332,12 +346,16 @@ E_GuitarMusicVoiceI = {                                                        %
             f'32.
             - \tenuto                                                          %! IndicatorCommand
             ]                                                                  %! _extend_beam
+
         }
+
     }
 
     % [E GuitarMusicVoiceI measure 125 / measure 6]                            %! _comment_measure_numbers
     s1 * 17/80
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [E GuitarMusicVoiceI measure 127 / measure 8]                    %! _comment_measure_numbers
@@ -364,9 +382,13 @@ E_GuitarMusicVoiceI = {                                                        %
             r8
 
             r8
+
         }
+
     }
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [E GuitarMusicVoiceI measure 128 / measure 9]                    %! _comment_measure_numbers
@@ -402,7 +424,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             f''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -419,7 +443,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             f''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -436,7 +462,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             f''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -453,7 +481,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             f''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -470,7 +500,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             f''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -487,7 +519,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             f''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -504,7 +538,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             f''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -521,7 +557,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             f''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -538,7 +576,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             f''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -556,9 +596,13 @@ E_GuitarMusicVoiceI = {                                                        %
             f''64
             - \staccato                                                        %! IndicatorCommand
             ]
+
         }
+
     }
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [E GuitarMusicVoiceI measure 129 / measure 10]                   %! _comment_measure_numbers
@@ -599,7 +643,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             fqs''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -621,7 +667,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             fqs''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -643,7 +691,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             fqs''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -665,7 +715,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             fqs''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -687,7 +739,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             fqs''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -709,7 +763,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             fqs''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -731,7 +787,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             fqs''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -753,7 +811,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             fqs''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -775,7 +835,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             fqs''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -798,9 +860,13 @@ E_GuitarMusicVoiceI = {                                                        %
             fqs''!64
             - \staccato                                                        %! IndicatorCommand
             ]
+
         }
+
     }
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [E GuitarMusicVoiceI measure 130 / measure 11]                   %! _comment_measure_numbers
@@ -846,7 +912,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             gqf''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -873,7 +941,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             gqf''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -900,7 +970,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             gqf''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -927,7 +999,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             gqf''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -954,7 +1028,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             gqf''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -981,7 +1057,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             gqf''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -1008,7 +1086,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             gqf''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -1035,7 +1115,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             gqf''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -1062,7 +1144,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             gqf''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -1090,9 +1174,13 @@ E_GuitarMusicVoiceI = {                                                        %
             gqf''!64
             - \staccato                                                        %! IndicatorCommand
             ]
+
         }
+
     }
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [E GuitarMusicVoiceI measure 131 / measure 12]                   %! _comment_measure_numbers
@@ -1143,7 +1231,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             a''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -1175,7 +1265,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             a''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -1207,7 +1299,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             a''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -1239,7 +1333,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             a''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -1271,7 +1367,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             a''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -1303,7 +1401,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             a''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -1335,7 +1435,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             a''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -1367,7 +1469,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             a''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -1399,7 +1503,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             a''64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -1432,9 +1538,13 @@ E_GuitarMusicVoiceI = {                                                        %
             a''64
             - \staccato                                                        %! IndicatorCommand
             ]
+
         }
+
     }
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [E GuitarMusicVoiceI measure 132 / measure 13]                   %! _comment_measure_numbers
@@ -1615,7 +1725,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             fs''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -1772,7 +1884,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             fs''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -1929,7 +2043,9 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemRightBeamCount = 1
             fs''!64
             - \staccato                                                        %! IndicatorCommand
+
         }
+
         \scaleDurations #'(1 . 1) {
 
             \set stemLeftBeamCount = 1
@@ -2089,7 +2205,9 @@ E_GuitarMusicVoiceI = {                                                        %
             ]
 
         }
+
     }
+
 }                                                                              %! extern
 
 
@@ -2142,7 +2260,9 @@ E_GuitarMusicVoiceIII = {                                                      %
     % [E GuitarMusicVoiceIII measure 120 / measure 1]                          %! _comment_measure_numbers
     \override Script.direction = #down                                         %! baca_script_down:OverrideCommand(1)
     s1 * 3/32
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [E GuitarMusicVoiceIII measure 121 / measure 2]                  %! _comment_measure_numbers
@@ -2173,12 +2293,16 @@ E_GuitarMusicVoiceIII = {                                                      %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             [                                                                  %! _extend_beam
+
         }
+
     }
 
     % [E GuitarMusicVoiceIII measure 122 / measure 3]                          %! _comment_measure_numbers
     s1 * 69/160
+
     {
+
         \scaleDurations #'(1 . 1) {
 
             % [E GuitarMusicVoiceIII measure 125 / measure 6]                  %! _comment_measure_numbers
@@ -2209,7 +2333,9 @@ E_GuitarMusicVoiceIII = {                                                      %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             ]                                                                  %! _extend_beam
+
         }
+
     }
 
     % [E GuitarMusicVoiceIII measure 126 / measure 7]                          %! _comment_measure_numbers
@@ -2243,7 +2369,9 @@ E_GuitarMusicVoiceIV = {                                                       %
     \override Beam.positions = #'(5.5 . 5.5)                                   %! baca_beam_positions:OverrideCommand(1)
     s1 * 11/32
     ^ \baca-reapplied-indicator-markup "(“Guitar”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -2280,12 +2408,16 @@ E_GuitarMusicVoiceIV = {                                                       %
             d''16
             - \staccato                                                        %! IndicatorCommand
             ]
+
         }
+
     }
 
     % [E GuitarMusicVoiceIV measure 124 / measure 5]                           %! _comment_measure_numbers
     s1 * 5/32
+
     {
+
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
@@ -2323,7 +2455,9 @@ E_GuitarMusicVoiceIV = {                                                       %
             - \staccato                                                        %! IndicatorCommand
             ]
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
+
         }
+
     }
 
     % [E GuitarMusicVoiceIV measure 127 / measure 8]                           %! _comment_measure_numbers
@@ -2348,12 +2482,17 @@ E_GuitarMusicVoiceIV = {                                                       %
 
 
 E_GuitarMusicStaff = <<                                                        %! extern
+
     \context GuitarMusicVoiceI = "GuitarMusicVoiceI"                           %! ScoreTemplate
     \E_GuitarMusicVoiceI                                                       %! extern
+
     \context GuitarMusicVoiceII = "GuitarMusicVoiceII"                         %! ScoreTemplate
     \E_GuitarMusicVoiceII                                                      %! extern
+
     \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"                       %! ScoreTemplate
     \E_GuitarMusicVoiceIII                                                     %! extern
+
     \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"                         %! ScoreTemplate
     \E_GuitarMusicVoiceIV                                                      %! extern
+
 >>                                                                             %! extern

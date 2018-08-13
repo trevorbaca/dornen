@@ -1017,7 +1017,7 @@ A_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             f'''32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1040,107 +1040,107 @@ A_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             a''32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             b''32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             bf''!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             c'''32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             fs''!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             g''32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             af''!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             d''32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             cs''!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             ef''!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             g'32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             af'!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             d''32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             cs''!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             ef'!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             fs'!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             a'32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             b32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             bf!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             c'32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             f'32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
             \revert TextScript.staff-padding                                   %! baca_script_staff_padding:OverrideCommand(2)
 
         }
@@ -1158,7 +1158,7 @@ A_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             f32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1180,107 +1180,107 @@ A_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             a32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             b32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             bf!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             c'32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             fs'!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             g'32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             af'!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             d'32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             cs''!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             ef''!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             g'32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             af'!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             d''32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             cs''!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             ef''!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             fs''!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             a''32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             b''32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             bf''!32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             c'''32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             f''32
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
             ]                                                                  %! _extend_beam
 
         }

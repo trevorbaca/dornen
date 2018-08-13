@@ -129,42 +129,42 @@ def tremolo_music():
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 0
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
                                 ]
             <BLANKLINE>
                             }
@@ -196,35 +196,35 @@ def tremolo_music():
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 0
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
                                 ]
             <BLANKLINE>
                             }
@@ -357,49 +357,49 @@ def tremolo_music():
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -411,7 +411,7 @@ def tremolo_music():
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
                                 ]
             <BLANKLINE>
                             }
@@ -432,42 +432,42 @@ def tremolo_music():
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -479,7 +479,7 @@ def tremolo_music():
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -491,42 +491,42 @@ def tremolo_music():
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 0
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
                                 ]
             <BLANKLINE>
                             }
@@ -552,42 +552,42 @@ def tremolo_music():
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -599,7 +599,7 @@ def tremolo_music():
                                 \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie     %! _shorten_long_repeat_ties
                                 e'8
                                 :32                                                        %! IndicatorCommand
-                                \repeatTie                                                 %! SpannerCommand
+                                \repeatTie                                                 %! baca_repeat_tie:SpannerCommand
                                 ]
             <BLANKLINE>
                             }

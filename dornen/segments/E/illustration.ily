@@ -230,7 +230,7 @@ E_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            (                                                                  %! SpannerCommand
+            (                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -259,12 +259,12 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             bf'!64
-            )                                                                  %! SpannerCommand
+            )                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             cs''!64
-            (                                                                  %! SpannerCommand
+            (                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -273,12 +273,12 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             fs''!64
-            )                                                                  %! SpannerCommand
+            )                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             g''64
-            (                                                                  %! SpannerCommand
+            (                                                                  %! baca_slur:SpannerCommand
 
         }
 
@@ -300,7 +300,7 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             fs''!64
-            )                                                                  %! SpannerCommand
+            )                                                                  %! baca_slur:SpannerCommand
 
         }
 

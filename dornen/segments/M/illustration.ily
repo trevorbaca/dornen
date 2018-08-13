@@ -764,57 +764,57 @@ M_GuitarMusicVoiceI = {                                                        %
             % [M GuitarMusicVoiceI measure 344 / measure 42]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
             ^ \markup { "RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke." } %! baca_markup:IndicatorCommand
 
             e2
             :32                                                                %! IndicatorCommand
-            \repeatTie                                                         %! SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
 
             e2
             :32                                                                %! IndicatorCommand
-            \repeatTie                                                         %! SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
 
             e2
             :32                                                                %! IndicatorCommand
-            \repeatTie                                                         %! SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
 
             e2
             :32                                                                %! IndicatorCommand
-            \repeatTie                                                         %! SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
 
             e2
             :32                                                                %! IndicatorCommand
-            \repeatTie                                                         %! SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
 
             e2
             :32                                                                %! IndicatorCommand
-            \repeatTie                                                         %! SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
 
             e2
             :32                                                                %! IndicatorCommand
-            \repeatTie                                                         %! SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
 
             e2
             :32                                                                %! IndicatorCommand
-            \repeatTie                                                         %! SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
 
             e2
             :32                                                                %! IndicatorCommand
-            \repeatTie                                                         %! SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
 
             e2
             :32                                                                %! IndicatorCommand
-            \repeatTie                                                         %! SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
 
             e2
             :32                                                                %! IndicatorCommand
-            \repeatTie                                                         %! SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
 
             e2
             :32                                                                %! IndicatorCommand
-            \repeatTie                                                         %! SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
 
         }
 
@@ -838,7 +838,7 @@ M_GuitarMusicVoiceII = {                                                       %
             \set stemRightBeamCount = 3
             e''32
             [
-            (                                                                  %! SpannerCommand
+            (                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -852,7 +852,7 @@ M_GuitarMusicVoiceII = {                                                       %
             \set stemRightBeamCount = 0
             c'''32
             ]
-            )                                                                  %! SpannerCommand
+            )                                                                  %! baca_slur:SpannerCommand
 
         }
 
@@ -870,7 +870,7 @@ M_GuitarMusicVoiceII = {                                                       %
             \set stemRightBeamCount = 3
             e''32
             [
-            (                                                                  %! SpannerCommand
+            (                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -884,7 +884,7 @@ M_GuitarMusicVoiceII = {                                                       %
             \set stemRightBeamCount = 0
             c'''32
             ]
-            )                                                                  %! SpannerCommand
+            )                                                                  %! baca_slur:SpannerCommand
 
         }
 
@@ -902,7 +902,7 @@ M_GuitarMusicVoiceII = {                                                       %
             \set stemRightBeamCount = 3
             e''32
             [
-            (                                                                  %! SpannerCommand
+            (                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -916,7 +916,7 @@ M_GuitarMusicVoiceII = {                                                       %
             \set stemRightBeamCount = 0
             c'''32
             ]
-            )                                                                  %! SpannerCommand
+            )                                                                  %! baca_slur:SpannerCommand
 
         }
 
@@ -934,7 +934,7 @@ M_GuitarMusicVoiceII = {                                                       %
             \set stemRightBeamCount = 3
             e''32
             [
-            (                                                                  %! SpannerCommand
+            (                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -948,7 +948,7 @@ M_GuitarMusicVoiceII = {                                                       %
             \set stemRightBeamCount = 0
             c'''32
             ]
-            )                                                                  %! SpannerCommand
+            )                                                                  %! baca_slur:SpannerCommand
 
         }
 
@@ -966,7 +966,7 @@ M_GuitarMusicVoiceII = {                                                       %
             \set stemRightBeamCount = 3
             e''32
             [
-            (                                                                  %! SpannerCommand
+            (                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -980,7 +980,7 @@ M_GuitarMusicVoiceII = {                                                       %
             \set stemRightBeamCount = 0
             c'''32
             ]
-            )                                                                  %! SpannerCommand
+            )                                                                  %! baca_slur:SpannerCommand
 
         }
 
@@ -998,7 +998,7 @@ M_GuitarMusicVoiceII = {                                                       %
             \set stemRightBeamCount = 3
             e''32
             [
-            (                                                                  %! SpannerCommand
+            (                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -1012,7 +1012,7 @@ M_GuitarMusicVoiceII = {                                                       %
             \set stemRightBeamCount = 0
             c'''32
             ]
-            )                                                                  %! SpannerCommand
+            )                                                                  %! baca_slur:SpannerCommand
 
         }
 

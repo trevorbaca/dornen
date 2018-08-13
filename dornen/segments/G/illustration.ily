@@ -170,7 +170,7 @@ G_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             [
-            \glissando                                                         %! SpannerCommand
+            \glissando                                                         %! baca_glissando:SpannerCommand
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 0
@@ -213,27 +213,27 @@ G_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             [                                                                  %! _extend_beam
-            \glissando                                                         %! SpannerCommand
+            \glissando                                                         %! baca_glissando:SpannerCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             f''16
-            \glissando                                                         %! SpannerCommand
+            \glissando                                                         %! baca_glissando:SpannerCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             cs''!16
-            \glissando                                                         %! SpannerCommand
+            \glissando                                                         %! baca_glissando:SpannerCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             b''32
-            \glissando                                                         %! SpannerCommand
+            \glissando                                                         %! baca_glissando:SpannerCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             c''16
-            \glissando                                                         %! SpannerCommand
+            \glissando                                                         %! baca_glissando:SpannerCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
@@ -273,17 +273,17 @@ G_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            \glissando                                                         %! SpannerCommand
+            \glissando                                                         %! baca_glissando:SpannerCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             cs'''!16
-            \glissando                                                         %! SpannerCommand
+            \glissando                                                         %! baca_glissando:SpannerCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             e'16
-            \glissando                                                         %! SpannerCommand
+            \glissando                                                         %! baca_glissando:SpannerCommand
 
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam

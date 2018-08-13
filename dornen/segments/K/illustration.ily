@@ -289,8 +289,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 233 / measure 2]                    %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -313,15 +313,15 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "tamb. tr."                         %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "tamb. tr."                         %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -335,8 +335,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 234 / measure 3]                    %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -360,7 +360,7 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
         }
 
@@ -374,8 +374,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 235 / measure 4]                    %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -398,15 +398,15 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -420,8 +420,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 236 / measure 5]                    %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -445,7 +445,7 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
         }
 
@@ -501,8 +501,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 238 / measure 7]                    %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -525,15 +525,15 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -547,8 +547,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 239 / measure 8]                    %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -572,7 +572,7 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
         }
 
@@ -586,8 +586,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 240 / measure 9]                    %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -610,15 +610,15 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -632,8 +632,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 241 / measure 10]                   %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -657,7 +657,7 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
         }
 
@@ -713,8 +713,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 243 / measure 12]                   %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -737,15 +737,15 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -759,8 +759,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 244 / measure 13]                   %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -784,7 +784,7 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
         }
 
@@ -798,8 +798,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 245 / measure 14]                   %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -822,15 +822,15 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -844,8 +844,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 246 / measure 15]                   %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -869,7 +869,7 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
         }
 
@@ -883,8 +883,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 247 / measure 16]                   %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -907,15 +907,15 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -929,8 +929,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 248 / measure 17]                   %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -954,7 +954,7 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
         }
 
@@ -968,8 +968,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 249 / measure 18]                   %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -992,15 +992,15 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -1014,8 +1014,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 250 / measure 19]                   %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1039,7 +1039,7 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
         }
 
@@ -1053,8 +1053,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 251 / measure 20]                   %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1077,15 +1077,15 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -1099,8 +1099,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 252 / measure 21]                   %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1124,7 +1124,7 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
         }
 
@@ -1138,8 +1138,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 253 / measure 22]                   %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1162,15 +1162,15 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -1266,8 +1266,8 @@ K_GuitarMusicVoiceI = {                                                        %
             % [K GuitarMusicVoiceI measure 256 / measure 25]                   %! _comment_measure_numbers
             f2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
             ^ \markup {                                                        %! baca_markup:IndicatorCommand
                 \override                                                      %! baca_markup:IndicatorCommand
                     #'(box-padding . 0.5)                                      %! baca_markup:IndicatorCommand
@@ -1297,7 +1297,7 @@ K_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
             f2
             :32                                                                %! IndicatorCommand

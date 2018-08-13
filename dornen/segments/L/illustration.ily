@@ -501,8 +501,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 258 / measure 2]                    %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -525,15 +525,15 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "tamb. tr."                         %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "tamb. tr."                         %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -547,8 +547,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 259 / measure 3]                    %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -572,7 +572,7 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
         }
 
@@ -586,8 +586,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 260 / measure 4]                    %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -610,15 +610,15 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -632,8 +632,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 261 / measure 5]                    %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -657,7 +657,7 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
         }
 
@@ -713,8 +713,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 263 / measure 7]                    %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -737,15 +737,15 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -759,8 +759,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 264 / measure 8]                    %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -784,7 +784,7 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
         }
 
@@ -798,8 +798,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 265 / measure 9]                    %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -822,15 +822,15 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "tamb. tr."                        %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -844,8 +844,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 266 / measure 10]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -869,7 +869,7 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
         }
 
@@ -925,8 +925,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 268 / measure 12]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -949,15 +949,15 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -971,8 +971,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 269 / measure 13]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -996,7 +996,7 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
         }
 
@@ -1010,8 +1010,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 270 / measure 14]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1034,8 +1034,8 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
 
         }
@@ -1050,8 +1050,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 271 / measure 15]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1088,8 +1088,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 272 / measure 16]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1112,15 +1112,15 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "nail rasg."                       %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "nail rasg."                       %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -1134,8 +1134,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 273 / measure 17]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1159,7 +1159,7 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
             e2
             :32                                                                %! IndicatorCommand
@@ -1177,8 +1177,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 274 / measure 18]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1201,15 +1201,15 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -1223,8 +1223,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 275 / measure 19]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1248,7 +1248,7 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
         }
 
@@ -1262,8 +1262,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 276 / measure 20]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1286,15 +1286,15 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "nail. rasg."                      %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "nail. rasg."                      %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -1307,8 +1307,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 277 / measure 21]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1332,7 +1332,7 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
             e2
             :32                                                                %! IndicatorCommand
@@ -1354,8 +1354,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 278 / measure 22]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1378,15 +1378,15 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "kn. rasg."                        %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -1400,8 +1400,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 279 / measure 23]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1425,7 +1425,7 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
         }
 
@@ -1439,8 +1439,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 280 / measure 24]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1463,15 +1463,15 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "nail rasg."                       %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "nail rasg."                       %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
         }
 
@@ -1533,8 +1533,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 282 / measure 26]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \ffff                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \ffff                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1558,7 +1558,7 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
             e2
             :32                                                                %! IndicatorCommand
@@ -1588,8 +1588,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 283 / measure 27]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \ffff                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \ffff                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1612,15 +1612,15 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "trans."                            %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "ponticello"                       %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "trans."                            %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "ponticello"                       %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
             e2
             :32                                                                %! IndicatorCommand
@@ -1645,10 +1645,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 284 / measure 28]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1671,8 +1671,8 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
 
             e2
@@ -1695,10 +1695,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 285 / measure 29]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \fff                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \fff                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \fff                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \fff                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1721,8 +1721,8 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
 
             e2
@@ -1741,10 +1741,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 286 / measure 30]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1767,8 +1767,8 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
 
         }
@@ -1783,10 +1783,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 287 / measure 31]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1809,8 +1809,8 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
 
             e2
@@ -1828,10 +1828,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 288 / measure 32]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1854,8 +1854,8 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
 
             e2
@@ -1878,10 +1878,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 289 / measure 33]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1904,8 +1904,8 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
 
             e2
@@ -1932,10 +1932,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 290 / measure 34]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1958,8 +1958,8 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
 
             e2
@@ -1990,10 +1990,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 291 / measure 35]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2016,8 +2016,8 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
 
             e2
@@ -2043,10 +2043,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 292 / measure 36]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2069,8 +2069,8 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
 
             e2
@@ -2093,10 +2093,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 293 / measure 37]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2119,10 +2119,10 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
             e2
             :32                                                                %! IndicatorCommand
@@ -2140,10 +2140,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 294 / measure 38]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2166,8 +2166,8 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
 
         }
@@ -2182,10 +2182,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 295 / measure 39]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2208,8 +2208,8 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
 
             e2
@@ -2227,10 +2227,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 296 / measure 40]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2253,8 +2253,8 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
 
             e2
@@ -2277,10 +2277,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 297 / measure 41]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2303,15 +2303,15 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
-            - \abjad-dashed-line-with-arrow                                    %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-left-text "gradually slow rasgueado"          %! PiecewiseIndicatorCommand(1)
-            - \baca-text-spanner-right-text "still"                            %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.padding #0.5                          %! PiecewiseIndicatorCommand(1)
-            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
-            \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
+            - \abjad-dashed-line-with-arrow                                    %! PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "gradually slow rasgueado"          %! PiecewiseCommand(1)
+            - \baca-text-spanner-right-text "still"                            %! PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #0.5                          %! PiecewiseCommand(1)
+            - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseCommand(1)
+            \startTextSpan                                                     %! PiecewiseCommand(1)
 
             e2
             :32                                                                %! IndicatorCommand
@@ -2337,10 +2337,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 298 / measure 42]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \pppp                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \pppp                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \pppp                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \pppp                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2363,8 +2363,8 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
 
             e2
@@ -2394,10 +2394,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 299 / measure 43]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2420,8 +2420,8 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
 
             e2
@@ -2444,10 +2444,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 300 / measure 44]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \ppppp                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \ppppp                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \ppppp                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \ppppp                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2470,8 +2470,8 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
 
             e2
@@ -2490,10 +2490,10 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 301 / measure 45]                   %! _comment_measure_numbers
             e2
             :32                                                                %! IndicatorCommand
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \pppp                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \pppp                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \pppp                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \pppp                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2516,10 +2516,10 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            - \tweak to-barline ##t                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            - \tweak circled-tip ##t                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            - \tweak to-barline ##t                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            - \tweak circled-tip ##t                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
             \repeatTie                                                         %! SpannerCommand
 
         }
@@ -2533,8 +2533,8 @@ L_GuitarMusicVoiceI = {                                                        %
             % [L GuitarMusicVoiceI measure 302 / measure 46]                   %! _comment_measure_numbers
             \once \override TextScript.staff-padding = #5.5                    %! baca_script_staff_padding:OverrideCommand(1)
             r8
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-            \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+            \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2557,7 +2557,7 @@ L_GuitarMusicVoiceI = {                                                        %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
-            \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
+            \stopTextSpan                                                      %! PiecewiseCommand(2)
 
             r8
 

@@ -165,7 +165,7 @@ E_GuitarMusicVoiceI = {                                                        %
         %@% \override GuitarMusicStaff.Clef.color = ##f                        %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
             \set GuitarMusicStaff.forceClef = ##t                              %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
             bf'!32.
-            - \tenuto                                                          %! IndicatorCommand
+            - \tenuto                                                          %! baca_tenuto:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -194,7 +194,7 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             c'32.
-            - \tenuto                                                          %! IndicatorCommand
+            - \tenuto                                                          %! baca_tenuto:IndicatorCommand
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
 
         }
@@ -317,7 +317,7 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             cs'!32.
-            - \tenuto                                                          %! IndicatorCommand
+            - \tenuto                                                          %! baca_tenuto:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -344,7 +344,7 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             f'32.
-            - \tenuto                                                          %! IndicatorCommand
+            - \tenuto                                                          %! baca_tenuto:IndicatorCommand
             ]                                                                  %! _extend_beam
 
         }
@@ -395,7 +395,7 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -418,12 +418,12 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -432,17 +432,17 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -451,17 +451,17 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -470,17 +470,17 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -489,17 +489,17 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -508,17 +508,17 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -527,17 +527,17 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -546,17 +546,17 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -565,17 +565,17 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -584,17 +584,17 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
             ]
 
         }
@@ -609,7 +609,7 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -632,17 +632,17 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -651,22 +651,22 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -675,22 +675,22 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -699,22 +699,22 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -723,22 +723,22 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -747,22 +747,22 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -771,22 +771,22 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -795,22 +795,22 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -819,22 +819,22 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -843,22 +843,22 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
             ]
 
         }
@@ -873,7 +873,7 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -896,22 +896,22 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -920,27 +920,27 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -949,27 +949,27 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -978,27 +978,27 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1007,27 +1007,27 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1036,27 +1036,27 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1065,27 +1065,27 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1094,27 +1094,27 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1123,27 +1123,27 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1152,27 +1152,27 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
             ]
 
         }
@@ -1187,7 +1187,7 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1210,27 +1210,27 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1239,32 +1239,32 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1273,32 +1273,32 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1307,32 +1307,32 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1341,32 +1341,32 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1375,32 +1375,32 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1409,32 +1409,32 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1443,32 +1443,32 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1477,32 +1477,32 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1511,32 +1511,32 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
             ]
 
         }
@@ -1551,7 +1551,7 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1574,157 +1574,157 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             g''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             af''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             dqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             eqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             b''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             d''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             ef''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             g''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             af''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             eqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             b''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             d''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             ef''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             dqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1733,157 +1733,157 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             dqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             ef''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             d''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             b''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             eqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             af''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             g''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             ef''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             d''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             b''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             eqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             dqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             af''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             g''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1892,157 +1892,157 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             g''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             af''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             dqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             eqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             b''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             d''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             ef''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             g''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             af''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             eqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             b''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             d''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             ef''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             dqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -2051,157 +2051,157 @@ E_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             dqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             ef''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             d''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             b''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             eqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             af''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             g''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             ef''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             d''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             b''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             eqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             dqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             af''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             g''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             a''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
             fs''!64
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
             ]
 
         }
@@ -2269,7 +2269,7 @@ E_GuitarMusicVoiceIII = {                                                      %
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             f16
-            - \accent                                                          %! IndicatorCommand
+            - \accent                                                          %! baca_accent:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2309,7 +2309,7 @@ E_GuitarMusicVoiceIII = {                                                      %
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             a16
-            - \accent                                                          %! IndicatorCommand
+            - \accent                                                          %! baca_accent:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2377,7 +2377,7 @@ E_GuitarMusicVoiceIV = {                                                       %
 
             % [E GuitarMusicVoiceIV measure 123 / measure 4]                   %! _comment_measure_numbers
             g''16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2403,10 +2403,10 @@ E_GuitarMusicVoiceIV = {                                                       %
             [
 
             af'!16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             d''16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
             ]
 
         }
@@ -2423,7 +2423,7 @@ E_GuitarMusicVoiceIV = {                                                       %
 
             % [E GuitarMusicVoiceIV measure 126 / measure 7]                   %! _comment_measure_numbers
             b'16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -2449,10 +2449,10 @@ E_GuitarMusicVoiceIV = {                                                       %
             [
 
             bf'!16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             c''16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
             ]
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
 

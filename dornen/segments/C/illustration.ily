@@ -1860,7 +1860,7 @@ C_GuitarMusicVoiceIV = {                                                       %
             \once \override TupletBracket.extra-offset = #'(0 . -0.5)          %! baca_tuplet_bracket_extra_offset:OverrideCommand(1)
             \once \override TupletNumber.extra-offset = #'(0 . -0.5)           %! baca_tuplet_number_extra_offset:OverrideCommand(1)
             gf!2
-            :32                                                                %! IndicatorCommand
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
             ^ \markup {                                                        %! baca_markup:IndicatorCommand
                 \override                                                      %! baca_markup:IndicatorCommand
                     #'(box-padding . 0.5)                                      %! baca_markup:IndicatorCommand
@@ -1891,7 +1891,7 @@ C_GuitarMusicVoiceIV = {                                                       %
         \times 4/5 {
 
             gf!2
-            :32                                                                %! IndicatorCommand
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
             \revert Stem.direction                                             %! baca_stem_up:OverrideCommand(2)
             \revert TupletBracket.staff-padding                                %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
@@ -1946,7 +1946,7 @@ C_GuitarMusicVoiceIV = {                                                       %
             \once \override TupletBracket.extra-offset = #'(0 . -0.5)          %! baca_tuplet_bracket_extra_offset:OverrideCommand(1)
             \once \override TupletNumber.extra-offset = #'(0 . -0.5)           %! baca_tuplet_number_extra_offset:OverrideCommand(1)
             gf!2
-            :32                                                                %! IndicatorCommand
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
             ^ \markup {                                                        %! baca_markup:IndicatorCommand
                 \override                                                      %! baca_markup:IndicatorCommand
                     #'(box-padding . 0.5)                                      %! baca_markup:IndicatorCommand
@@ -1977,7 +1977,7 @@ C_GuitarMusicVoiceIV = {                                                       %
         \times 4/5 {
 
             gf!2
-            :32                                                                %! IndicatorCommand
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
             \revert Stem.direction                                             %! baca_stem_up:OverrideCommand(2)
             \revert TupletBracket.staff-padding                                %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)

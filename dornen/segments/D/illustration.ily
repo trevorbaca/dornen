@@ -320,7 +320,7 @@ D_GuitarMusicVoiceI = {                                                        %
         \scaleDurations #'(1 . 1) {
 
             % [D GuitarMusicVoiceI measure 90 / measure 1]                     %! _comment_measure_numbers
-            \override Score.RehearsalMark.extra-offset = #'(-10 . -10)         %! IndicatorCommand
+            \override Score.RehearsalMark.extra-offset = #'(-10 . -10)         %! baca_literal:IndicatorCommand
             \override Beam.positions = #'(10 . 10)                             %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
@@ -329,7 +329,7 @@ D_GuitarMusicVoiceI = {                                                        %
         %@% \override GuitarMusicStaff.Clef.color = ##f                        %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
             \set GuitarMusicStaff.forceClef = ##t                              %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
             d'32.
-            - \tenuto                                                          %! IndicatorCommand
+            - \tenuto                                                          %! baca_tenuto:IndicatorCommand
             ^ \markup { "slurs fluid; all other parts mechanically precise" }  %! baca_markup:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -359,7 +359,7 @@ D_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             cs'!32.
-            - \tenuto                                                          %! IndicatorCommand
+            - \tenuto                                                          %! baca_tenuto:IndicatorCommand
 
         }
 
@@ -376,7 +376,7 @@ D_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             ef'!32.
-            - \tenuto                                                          %! IndicatorCommand
+            - \tenuto                                                          %! baca_tenuto:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -403,7 +403,7 @@ D_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             fs'!32.
-            - \tenuto                                                          %! IndicatorCommand
+            - \tenuto                                                          %! baca_tenuto:IndicatorCommand
             ]                                                                  %! _extend_beam
 
         }
@@ -421,7 +421,7 @@ D_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             d'32.
-            - \tenuto                                                          %! IndicatorCommand
+            - \tenuto                                                          %! baca_tenuto:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -449,7 +449,7 @@ D_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             cs'!32.
-            - \tenuto                                                          %! IndicatorCommand
+            - \tenuto                                                          %! baca_tenuto:IndicatorCommand
 
         }
 
@@ -466,7 +466,7 @@ D_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             d'32.
-            - \tenuto                                                          %! IndicatorCommand
+            - \tenuto                                                          %! baca_tenuto:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -493,7 +493,7 @@ D_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             cs'!32.
-            - \tenuto                                                          %! IndicatorCommand
+            - \tenuto                                                          %! baca_tenuto:IndicatorCommand
             ]                                                                  %! _extend_beam
 
         }
@@ -511,7 +511,7 @@ D_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             ef'!32.
-            - \tenuto                                                          %! IndicatorCommand
+            - \tenuto                                                          %! baca_tenuto:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -539,7 +539,7 @@ D_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             fs'!32.
-            - \tenuto                                                          %! IndicatorCommand
+            - \tenuto                                                          %! baca_tenuto:IndicatorCommand
 
         }
 
@@ -556,7 +556,7 @@ D_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             d'32.
-            - \tenuto                                                          %! IndicatorCommand
+            - \tenuto                                                          %! baca_tenuto:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -583,7 +583,7 @@ D_GuitarMusicVoiceI = {                                                        %
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             cs'!32.
-            - \tenuto                                                          %! IndicatorCommand
+            - \tenuto                                                          %! baca_tenuto:IndicatorCommand
             ]                                                                  %! _extend_beam
 
         }
@@ -815,7 +815,7 @@ D_GuitarMusicVoiceII = {                                                       %
             \once \override TupletBracket.extra-offset = #'(0 . -0.5)          %! baca_tuplet_bracket_extra_offset:OverrideCommand(1)
             \once \override TupletNumber.extra-offset = #'(0 . -0.5)           %! baca_tuplet_number_extra_offset:OverrideCommand(1)
             gf!2
-            :32                                                                %! IndicatorCommand
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
             ^ \markup {                                                        %! baca_markup:IndicatorCommand
                 \override                                                      %! baca_markup:IndicatorCommand
                     #'(box-padding . 0.5)                                      %! baca_markup:IndicatorCommand
@@ -934,7 +934,7 @@ D_GuitarMusicVoiceIII = {                                                      %
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             c'16
-            - \accent                                                          %! IndicatorCommand
+            - \accent                                                          %! baca_accent:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -974,7 +974,7 @@ D_GuitarMusicVoiceIII = {                                                      %
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             f16
-            - \accent                                                          %! IndicatorCommand
+            - \accent                                                          %! baca_accent:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1013,7 +1013,7 @@ D_GuitarMusicVoiceIII = {                                                      %
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             a16
-            - \accent                                                          %! IndicatorCommand
+            - \accent                                                          %! baca_accent:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1053,7 +1053,7 @@ D_GuitarMusicVoiceIII = {                                                      %
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             c'16
-            - \accent                                                          %! IndicatorCommand
+            - \accent                                                          %! baca_accent:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1093,7 +1093,7 @@ D_GuitarMusicVoiceIII = {                                                      %
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             f16
-            - \accent                                                          %! IndicatorCommand
+            - \accent                                                          %! baca_accent:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1132,7 +1132,7 @@ D_GuitarMusicVoiceIII = {                                                      %
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             a16
-            - \accent                                                          %! IndicatorCommand
+            - \accent                                                          %! baca_accent:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1184,7 +1184,7 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             b'16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1212,12 +1212,12 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             a'16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             g''16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1237,7 +1237,7 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             ef''!16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1264,12 +1264,12 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             fs''!16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             f''16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
             ]                                                                  %! _extend_beam
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
             \revert Stem.direction                                             %! baca_stem_up:OverrideCommand(2)
@@ -1290,7 +1290,7 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             a'16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1318,12 +1318,12 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             e''16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             bf'!16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1341,7 +1341,7 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             cs''!16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1368,12 +1368,12 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             b'16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             d''16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
             ]                                                                  %! _extend_beam
 
         }
@@ -1392,7 +1392,7 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             c''16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1420,12 +1420,12 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             ef''!16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             fs''!16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1443,7 +1443,7 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             g''16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1470,12 +1470,12 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             d''16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             cs''!16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
             ]                                                                  %! _extend_beam
 
         }
@@ -1494,7 +1494,7 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             b'16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1522,12 +1522,12 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             a'16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             g''16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1547,7 +1547,7 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             ef''!16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1574,12 +1574,12 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             fs''!16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             f''16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
             ]                                                                  %! _extend_beam
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
             \revert Stem.direction                                             %! baca_stem_up:OverrideCommand(2)
@@ -1600,7 +1600,7 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             a'16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1628,12 +1628,12 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             e''16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             bf'!16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1651,7 +1651,7 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             cs''!16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1678,12 +1678,12 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             b'16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             d''16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
             ]                                                                  %! _extend_beam
 
         }
@@ -1702,7 +1702,7 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             c''16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1730,12 +1730,12 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             ef''!16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             fs''!16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
         }
 
@@ -1753,7 +1753,7 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             g''16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %%%     \fontsize                                                      %! FIGURE_NAME_MARKUP
         %%%         #2                                                         %! FIGURE_NAME_MARKUP
@@ -1780,12 +1780,12 @@ D_GuitarMusicVoiceIV = {                                                       %
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             d''16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             cs''!16
-            - \staccato                                                        %! IndicatorCommand
+            - \staccato                                                        %! baca_staccato:IndicatorCommand
             ]                                                                  %! _extend_beam
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
 

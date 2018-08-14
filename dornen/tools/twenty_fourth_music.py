@@ -46,7 +46,7 @@ def twenty_fourth_music():
         >>> figures = abjad.select(figures_)
 
         >>> maker = baca.SegmentMaker(
-        ...     ignore_unregistered_pitches=True,
+        ...     do_not_color_unregistered_pitches=True,
         ...     score_template=baca.SingleStaffScoreTemplate(),
         ...     spacing=baca.minimum_duration((1, 24)),
         ...     time_signatures=time_signatures,
@@ -286,7 +286,7 @@ def twenty_fourth_music():
         >>> figures = abjad.select(figures_)
 
         >>> maker = baca.SegmentMaker(
-        ...     ignore_unregistered_pitches=True,
+        ...     do_not_color_unregistered_pitches=True,
         ...     score_template=baca.SingleStaffScoreTemplate(),
         ...     spacing=baca.minimum_duration((1, 24)),
         ...     time_signatures=time_signatures,

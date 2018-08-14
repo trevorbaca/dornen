@@ -454,92 +454,92 @@ maker(
 
 maker(
     ('v1', 27),
-    baca.hairpin('ffff > ff', selector=baca.rleaves()),
+    baca.hairpin('ffff >', bookend=False),
     )
 
 maker(
     ('v1', 28),
-    baca.hairpin('ff < fff', selector=baca.rleaves()),
+    baca.hairpin('ff <', bookend=False),
     )
 
 maker(
     ('v1', 29),
-    baca.hairpin('fff > f', selector=baca.rleaves()),
+    baca.hairpin('fff >', bookend=False),
     )
 
 maker(
     ('v1', 30),
-    baca.hairpin('f < ff', selector=baca.rleaves()),
+    baca.hairpin('f <', bookend=False),
     )
 
 maker(
     ('v1', 31),
-    baca.hairpin('ff > mf', selector=baca.rleaves()),
+    baca.hairpin('ff >', bookend=False),
     )
 
 maker(
     ('v1', 32),
-    baca.hairpin('mf < f', selector=baca.rleaves()),
+    baca.hairpin('mf <', bookend=False),
     )
 
 maker(
     ('v1', 33),
-    baca.hairpin('f > mp', selector=baca.rleaves()),
+    baca.hairpin('f >', bookend=False),
     )
 
 maker(
     ('v1', 34),
-    baca.hairpin('mp < mf', selector=baca.rleaves()),
+    baca.hairpin('mp <', bookend=False),
     )
 
 maker(
     ('v1', 35),
-    baca.hairpin('mf > p', selector=baca.rleaves()),
+    baca.hairpin('mf >', bookend=False),
     )
 
 maker(
     ('v1', 36),
-    baca.hairpin('p < mp', selector=baca.rleaves()),
+    baca.hairpin('p <', bookend=False),
     )
 
 maker(
     ('v1', 37),
-    baca.hairpin('mp > pp', selector=baca.rleaves()),
+    baca.hairpin('mp >', bookend=False),
     )
 
 maker(
     ('v1', 38),
-    baca.hairpin('pp < p', selector=baca.rleaves()),
+    baca.hairpin('pp <', bookend=False),
     )
 
 maker(
     ('v1', 39),
-    baca.hairpin('p > ppp', selector=baca.rleaves()),
+    baca.hairpin('p >', bookend=False),
     )
 
 maker(
     ('v1', 40),
-    baca.hairpin('ppp < pp', selector=baca.rleaves()),
+    baca.hairpin('ppp <', bookend=False),
     )
 
 maker(
     ('v1', 41),
-    baca.hairpin('pp > pppp', selector=baca.rleaves()),
+    baca.hairpin('pp >', bookend=False),
     )
 
 maker(
     ('v1', 42),
-    baca.hairpin('pppp < ppp', selector=baca.rleaves()),
+    baca.hairpin('pppp <', bookend=False),
     )
 
 maker(
     ('v1', 43),
-    baca.hairpin('ppp > ppppp', selector=baca.rleaves()),
+    baca.hairpin('ppp >', bookend=False),
     )
 
 maker(
     ('v1', 44),
-    baca.hairpin('ppppp < pppp', selector=baca.rleaves()),
+    baca.hairpin('ppppp <', bookend=False),
     )
 
 maker(

@@ -46,7 +46,7 @@ def rest_music(duration=None):
         >>> figures = abjad.select(figures_)
 
         >>> maker = baca.SegmentMaker(
-        ...     ignore_unregistered_pitches=True,
+        ...     do_not_color_unregistered_pitches=True,
         ...     score_template=baca.SingleStaffScoreTemplate(),
         ...     time_signatures=time_signatures,
         ...     )
@@ -174,7 +174,7 @@ def rest_music(duration=None):
         >>> figures = abjad.select(figures_)
 
         >>> maker = baca.SegmentMaker(
-        ...     ignore_unregistered_pitches=True,
+        ...     do_not_color_unregistered_pitches=True,
         ...     score_template=baca.SingleStaffScoreTemplate(),
         ...     time_signatures=time_signatures,
         ...     )

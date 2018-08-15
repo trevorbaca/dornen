@@ -47,6 +47,8 @@
         \consists Bar_number_engraver
         \consists Mark_engraver
         \consists Metronome_mark_engraver
+        % prevents LilyPond cyclic chain in pure-Y-offset callbacks warning:
+        \consists Staff_collecting_engraver
         \consists Time_signature_engraver
         \accepts GlobalSkips
         \accepts GlobalRests

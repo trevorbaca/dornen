@@ -88,24 +88,28 @@ def twenty_eighth_music():
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #28                                   %! HorizontalSpacingSpecifier(1):SPACING
+                        #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 7/28                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/4                                                           %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #28                                   %! HorizontalSpacingSpecifier(1):SPACING
+                        #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 2/28                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/14                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #28                                   %! HorizontalSpacingSpecifier(1):SPACING
+                        #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 3/28                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 3/28                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 4]                                          %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #28                                   %! HorizontalSpacingSpecifier(1):SPACING
+                        #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 4/28                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/7                                                           %! _make_global_skips(1)
@@ -328,24 +332,28 @@ def twenty_eighth_music():
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #28                                   %! HorizontalSpacingSpecifier(1):SPACING
+                        #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 7/28                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/4                                                           %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #28                                   %! HorizontalSpacingSpecifier(1):SPACING
+                        #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 1/28                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/28                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #28                                   %! HorizontalSpacingSpecifier(1):SPACING
+                        #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 3/28                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 3/28                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 4]                                          %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #28                                   %! HorizontalSpacingSpecifier(1):SPACING
+                        #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 4/28                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/7                                                           %! _make_global_skips(1)

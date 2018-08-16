@@ -84,16 +84,19 @@ def graced_tuplet_music():
                     {                                                                      %! _make_global_context
             <BLANKLINE>
                         % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
+                        #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 19/56                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 19/56                                                         %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
+                        #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 39/56                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 39/56                                                         %! _make_global_skips(1)
             <BLANKLINE>
                         % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
+                        #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 53/112                                                       %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 53/112                                                        %! _make_global_skips(1)

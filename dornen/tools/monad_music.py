@@ -52,7 +52,7 @@ def monad_music():
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     ('MusicVoice', 1),
+        ...     ('Music_Voice', 1),
         ...     baca.rhythm(
         ...         rhythm_maker=figures,
         ...         ),
@@ -80,34 +80,34 @@ def monad_music():
             }                                                                              %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
             <BLANKLINE>
-                \context GlobalContext = "GlobalContext"                                   %! _make_global_context
+                \context GlobalContext = "Global_Context"                                  %! _make_global_context
                 <<                                                                         %! _make_global_context
             <BLANKLINE>
-                    \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
+                    \context GlobalSkips = "Global_Skips"                                  %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
+                        % [Global_Skips measure 1]                                         %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 14/5                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 14/5                                                          %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
+                        % [Global_Skips measure 2]                                         %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 4/5                                                          %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 4/5                                                           %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
+                        % [Global_Skips measure 3]                                         %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 6/5                                                          %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 6/5                                                           %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 4]                                          %! _comment_measure_numbers
+                        % [Global_Skips measure 4]                                         %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 8/5                                                          %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -120,19 +120,19 @@ def monad_music():
             <BLANKLINE>
                 >>                                                                         %! _make_global_context
             <BLANKLINE>
-                \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
+                \context MusicContext = "Music_Context"                                    %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
             <BLANKLINE>
-                    \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
+                    \context Staff = "Music_Staff"                                         %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
             <BLANKLINE>
-                        \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
+                        \context Voice = "Music_Voice"                                     %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
             <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! _comment_measure_numbers
+                                % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 cs'!2
             <BLANKLINE>
                             }
@@ -182,7 +182,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! _comment_measure_numbers
+                                % [Music_Voice measure 2]                                  %! _comment_measure_numbers
                                 d'2
             <BLANKLINE>
                             }
@@ -197,7 +197,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! _comment_measure_numbers
+                                % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 ef'!2
             <BLANKLINE>
                             }
@@ -219,7 +219,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 4]                                   %! _comment_measure_numbers
+                                % [Music_Voice measure 4]                                  %! _comment_measure_numbers
                                 fs'!2
             <BLANKLINE>
                             }
@@ -296,7 +296,7 @@ def monad_music():
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     ('MusicVoice', 1),
+        ...     ('Music_Voice', 1),
         ...     baca.rhythm(
         ...         rhythm_maker=figures,
         ...         ),
@@ -324,34 +324,34 @@ def monad_music():
             }                                                                              %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
             <BLANKLINE>
-                \context GlobalContext = "GlobalContext"                                   %! _make_global_context
+                \context GlobalContext = "Global_Context"                                  %! _make_global_context
                 <<                                                                         %! _make_global_context
             <BLANKLINE>
-                    \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
+                    \context GlobalSkips = "Global_Skips"                                  %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
+                        % [Global_Skips measure 1]                                         %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 14/5                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 14/5                                                          %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
+                        % [Global_Skips measure 2]                                         %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 2/5                                                          %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 2/5                                                           %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
+                        % [Global_Skips measure 3]                                         %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 6/5                                                          %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 6/5                                                           %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 4]                                          %! _comment_measure_numbers
+                        % [Global_Skips measure 4]                                         %! _comment_measure_numbers
                         \baca-new-spacing-section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
                         #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 8/5                                                          %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -364,19 +364,19 @@ def monad_music():
             <BLANKLINE>
                 >>                                                                         %! _make_global_context
             <BLANKLINE>
-                \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
+                \context MusicContext = "Music_Context"                                    %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
             <BLANKLINE>
-                    \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
+                    \context Staff = "Music_Staff"                                         %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
             <BLANKLINE>
-                        \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
+                        \context Voice = "Music_Voice"                                     %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
             <BLANKLINE>
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! _comment_measure_numbers
+                                % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 cs'!2
             <BLANKLINE>
                             }
@@ -416,7 +416,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! _comment_measure_numbers
+                                % [Music_Voice measure 2]                                  %! _comment_measure_numbers
                                 d'2
             <BLANKLINE>
                             }
@@ -424,7 +424,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! _comment_measure_numbers
+                                % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 ef'!2
             <BLANKLINE>
                             }
@@ -441,7 +441,7 @@ def monad_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 4/5 {
             <BLANKLINE>
-                                % [MusicVoice measure 4]                                   %! _comment_measure_numbers
+                                % [Music_Voice measure 4]                                  %! _comment_measure_numbers
                                 fs'!2
             <BLANKLINE>
                             }

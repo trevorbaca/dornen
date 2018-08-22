@@ -51,7 +51,7 @@ def graced_tuplet_music():
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     ('MusicVoice', 1),
+        ...     ('Music_Voice', 1),
         ...     baca.rhythm(
         ...         rhythm_maker=figures,
         ...         ),
@@ -77,25 +77,25 @@ def graced_tuplet_music():
             }                                                                              %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
             <BLANKLINE>
-                \context GlobalContext = "GlobalContext"                                   %! _make_global_context
+                \context GlobalContext = "Global_Context"                                  %! _make_global_context
                 <<                                                                         %! _make_global_context
             <BLANKLINE>
-                    \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
+                    \context GlobalSkips = "Global_Skips"                                  %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
+                        % [Global_Skips measure 1]                                         %! _comment_measure_numbers
                         #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 19/56                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 19/56                                                         %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
+                        % [Global_Skips measure 2]                                         %! _comment_measure_numbers
                         #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 39/56                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 39/56                                                         %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
+                        % [Global_Skips measure 3]                                         %! _comment_measure_numbers
                         #(ly:expect-warning "strange time signature found")                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \time 53/112                                                       %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -107,20 +107,20 @@ def graced_tuplet_music():
             <BLANKLINE>
                 >>                                                                         %! _make_global_context
             <BLANKLINE>
-                \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
+                \context MusicContext = "Music_Context"                                    %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
             <BLANKLINE>
-                    \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
+                    \context Staff = "Music_Staff"                                         %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
             <BLANKLINE>
-                        \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
+                        \context Voice = "Music_Voice"                                     %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
             <BLANKLINE>
                             \tweak text #tuplet-number::calc-fraction-text
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! _comment_measure_numbers
+                                % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
                                 af'!16
@@ -179,7 +179,7 @@ def graced_tuplet_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! _comment_measure_numbers
+                                % [Music_Voice measure 2]                                  %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
                                 cs'!16
@@ -274,7 +274,7 @@ def graced_tuplet_music():
                             \tweak edge-height #'(0.7 . 0)
                             \times 8/7 {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! _comment_measure_numbers
+                                % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
                                 a'16

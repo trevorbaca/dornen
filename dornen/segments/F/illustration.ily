@@ -1,6 +1,6 @@
-F_GlobalSkips = {                                                              %! extern
+F_Global_Skips = {                                                             %! extern
 
-    % [F GlobalSkips measure 133 / measure 1]                                  %! _comment_measure_numbers
+    % [F Global_Skips measure 133 / measure 1]                                 %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 3/20                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -18,7 +18,7 @@ F_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 3 0 1 "44" #'green4       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [F GlobalSkips measure 134 / measure 2]                                  %! _comment_measure_numbers
+    % [F Global_Skips measure 134 / measure 2]                                 %! _comment_measure_numbers
     \time 1/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/16                                                                  %! _make_global_skips(1)
@@ -28,7 +28,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.2]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[4'49'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 135 / measure 3]                                  %! _comment_measure_numbers
+    % [F Global_Skips measure 135 / measure 3]                                 %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 3/28                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -39,7 +39,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.3]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[4'50'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 136 / measure 4]                                  %! _comment_measure_numbers
+    % [F Global_Skips measure 136 / measure 4]                                 %! _comment_measure_numbers
     \time 1/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/16                                                                  %! _make_global_skips(1)
@@ -49,7 +49,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.4]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[4'51'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 137 / measure 5]                                  %! _comment_measure_numbers
+    % [F Global_Skips measure 137 / measure 5]                                 %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 3/20                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -60,7 +60,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.5]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[4'52'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 138 / measure 6]                                  %! _comment_measure_numbers
+    % [F Global_Skips measure 138 / measure 6]                                 %! _comment_measure_numbers
     \time 1/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/16                                                                  %! _make_global_skips(1)
@@ -70,7 +70,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.6]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[4'53'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 139 / measure 7]                                  %! _comment_measure_numbers
+    % [F Global_Skips measure 139 / measure 7]                                 %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 3/28                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -81,7 +81,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.7]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[4'54'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 140 / measure 8]                                  %! _comment_measure_numbers
+    % [F Global_Skips measure 140 / measure 8]                                 %! _comment_measure_numbers
     \time 1/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/16                                                                  %! _make_global_skips(1)
@@ -91,7 +91,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.8]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[4'55'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 141 / measure 9]                                  %! _comment_measure_numbers
+    % [F Global_Skips measure 141 / measure 9]                                 %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 3/20                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -102,7 +102,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.9]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[4'56'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 142 / measure 10]                                 %! _comment_measure_numbers
+    % [F Global_Skips measure 142 / measure 10]                                %! _comment_measure_numbers
     \time 1/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/16                                                                  %! _make_global_skips(1)
@@ -112,7 +112,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.10]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[4'57'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 143 / measure 11]                                 %! _comment_measure_numbers
+    % [F Global_Skips measure 143 / measure 11]                                %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 1/24                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -123,7 +123,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.11]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[4'58'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 144 / measure 12]                                 %! _comment_measure_numbers
+    % [F Global_Skips measure 144 / measure 12]                                %! _comment_measure_numbers
     \time 4/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/8                                                                   %! _make_global_skips(1)
@@ -133,7 +133,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.12]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[4'59'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 145 / measure 13]                                 %! _comment_measure_numbers
+    % [F Global_Skips measure 145 / measure 13]                                %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 1/24                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -144,7 +144,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.13]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[5'00'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 146 / measure 14]                                 %! _comment_measure_numbers
+    % [F Global_Skips measure 146 / measure 14]                                %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 4/28                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -155,7 +155,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.14]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[5'00'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 147 / measure 15]                                 %! _comment_measure_numbers
+    % [F Global_Skips measure 147 / measure 15]                                %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 1/24                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -166,7 +166,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.15]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[5'02'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 148 / measure 16]                                 %! _comment_measure_numbers
+    % [F Global_Skips measure 148 / measure 16]                                %! _comment_measure_numbers
     \time 4/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/8                                                                   %! _make_global_skips(1)
@@ -176,7 +176,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.16]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[5'02'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 149 / measure 17]                                 %! _comment_measure_numbers
+    % [F Global_Skips measure 149 / measure 17]                                %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 1/24                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -187,7 +187,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.17]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[5'04'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 150 / measure 18]                                 %! _comment_measure_numbers
+    % [F Global_Skips measure 150 / measure 18]                                %! _comment_measure_numbers
     \time 4/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/8                                                                   %! _make_global_skips(1)
@@ -197,7 +197,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.18]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[5'04'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 151 / measure 19]                                 %! _comment_measure_numbers
+    % [F Global_Skips measure 151 / measure 19]                                %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 1/24                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -208,7 +208,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.19]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[5'06'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 152 / measure 20]                                 %! _comment_measure_numbers
+    % [F Global_Skips measure 152 / measure 20]                                %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 4/28                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -219,7 +219,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.20]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[5'06'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 153 / measure 21]                                 %! _comment_measure_numbers
+    % [F Global_Skips measure 153 / measure 21]                                %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 1/24                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -230,7 +230,7 @@ F_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [F.21]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[5'08'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [F GlobalSkips measure 154 / measure 22]                                 %! _comment_measure_numbers
+    % [F Global_Skips measure 154 / measure 22]                                %! _comment_measure_numbers
     \time 4/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/8                                                                   %! _make_global_skips(1)

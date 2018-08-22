@@ -20,9 +20,9 @@ class MusicAccumulator(baca.MusicAccumulator):
         ...     figure_name='D',
         ...     )
 
-        >>> selection = accumulator.assemble('GuitarMusicVoiceI')
+        >>> selection = accumulator.assemble('Guitar_Music_Voice_I')
         >>> lilypond_file = accumulator.show(
-        ...     {'GuitarMusicVoiceI': selection},
+        ...     {'Guitar_Music_Voice_I': selection},
         ...     accumulator.time_signatures,
         ...     )
         >>> abjad.show(lilypond_file, strict=79) # doctest: +SKIP
@@ -32,7 +32,7 @@ class MusicAccumulator(baca.MusicAccumulator):
             >>> abjad.f(lilypond_file[abjad.Staff])
             \new Staff
             <<
-                \context Voice = "GuitarMusicVoiceI"
+                \context Voice = "Guitar_Music_Voice_I"
                 {
                     {
                         \scaleDurations #'(1 . 1) {

@@ -10,11 +10,11 @@ metadata = abjad.OrderedDict(
                 'GlobalContext',
                 'GlobalSkips',
                 'MusicContext',
-                'GuitarMusicStaff',
-                'GuitarMusicVoiceI',
-                'GuitarMusicVoiceII',
-                'GuitarMusicVoiceIII',
-                'GuitarMusicVoiceIV',
+                'Guitar_Music_Staff',
+                'Guitar_Music_Voice_I',
+                'Guitar_Music_Voice_II',
+                'Guitar_Music_Voice_III',
+                'Guitar_Music_Voice_IV',
                 ],
             ),
         (
@@ -29,25 +29,25 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     (
-                        'GuitarMusicStaff',
+                        'Guitar_Music_Staff',
                         [
                             abjad.Momento(
-                                context='GuitarMusicVoiceI',
+                                context='Guitar_Music_Voice_I',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             abjad.Momento(
-                                context='GuitarMusicVoiceIV',
+                                context='Guitar_Music_Voice_IV',
                                 manifest='instruments',
                                 value='Guitar',
                                 ),
                             ],
                         ),
                     (
-                        'GuitarMusicVoiceI',
+                        'Guitar_Music_Voice_I',
                         [
                             abjad.Momento(
-                                context='GuitarMusicVoiceI',
+                                context='Guitar_Music_Voice_I',
                                 prototype='abjad.Dynamic',
                                 value='pp',
                                 ),
@@ -77,10 +77,10 @@ metadata = abjad.OrderedDict(
             'sounds_during_segment',
             abjad.OrderedDict(
                 [
-                    ('GuitarMusicVoiceI', True),
-                    ('GuitarMusicVoiceII', False),
-                    ('GuitarMusicVoiceIII', False),
-                    ('GuitarMusicVoiceIV', False),
+                    ('Guitar_Music_Voice_I', True),
+                    ('Guitar_Music_Voice_II', False),
+                    ('Guitar_Music_Voice_III', False),
+                    ('Guitar_Music_Voice_IV', False),
                     ]
                 ),
             ),

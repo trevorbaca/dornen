@@ -227,13 +227,13 @@ I_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-I_GuitarMusicVoiceI = {                                                        %! extern
+I_Guitar_Music_Voice_I = {                                                     %! extern
 
     {
 
         \scaleDurations #'(1 . 1) {
 
-            % [I GuitarMusicVoiceI measure 185 / measure 1]                    %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 185 / measure 1]                 %! _comment_measure_numbers
             \override TextScript.staff-padding = #5                            %! baca_script_staff_padding:OverrideCommand(1)
             \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -277,7 +277,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            % [I GuitarMusicVoiceI measure 186 / measure 2]                    %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 186 / measure 2]                 %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -331,7 +331,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            % [I GuitarMusicVoiceI measure 187 / measure 3]                    %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 187 / measure 3]                 %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -369,7 +369,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
-            % [I GuitarMusicVoiceI measure 188 / measure 4]                    %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 188 / measure 4]                 %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -409,7 +409,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
-            % [I GuitarMusicVoiceI measure 189 / measure 5]                    %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 189 / measure 5]                 %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -447,7 +447,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
-            % [I GuitarMusicVoiceI measure 190 / measure 6]                    %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 190 / measure 6]                 %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
@@ -483,7 +483,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            % [I GuitarMusicVoiceI measure 191 / measure 7]                    %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 191 / measure 7]                 %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -529,7 +529,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            % [I GuitarMusicVoiceI measure 192 / measure 8]                    %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 192 / measure 8]                 %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -567,7 +567,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
-            % [I GuitarMusicVoiceI measure 193 / measure 9]                    %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 193 / measure 9]                 %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -607,7 +607,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
-            % [I GuitarMusicVoiceI measure 194 / measure 10]                   %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 194 / measure 10]                %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -645,7 +645,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
-            % [I GuitarMusicVoiceI measure 195 / measure 11]                   %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 195 / measure 11]                %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
@@ -681,7 +681,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            % [I GuitarMusicVoiceI measure 196 / measure 12]                   %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 196 / measure 12]                %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -727,7 +727,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            % [I GuitarMusicVoiceI measure 197 / measure 13]                   %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 197 / measure 13]                %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -765,7 +765,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
-            % [I GuitarMusicVoiceI measure 198 / measure 14]                   %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 198 / measure 14]                %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -805,7 +805,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            % [I GuitarMusicVoiceI measure 199 / measure 15]                   %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 199 / measure 15]                %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -843,7 +843,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
-            % [I GuitarMusicVoiceI measure 200 / measure 16]                   %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 200 / measure 16]                %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -883,7 +883,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            % [I GuitarMusicVoiceI measure 201 / measure 17]                   %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 201 / measure 17]                %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -921,7 +921,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
-            % [I GuitarMusicVoiceI measure 202 / measure 18]                   %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 202 / measure 18]                %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -961,7 +961,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
-            % [I GuitarMusicVoiceI measure 203 / measure 19]                   %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 203 / measure 19]                %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
@@ -997,7 +997,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
-            % [I GuitarMusicVoiceI measure 204 / measure 20]                   %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 204 / measure 20]                %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
@@ -1033,7 +1033,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            % [I GuitarMusicVoiceI measure 205 / measure 21]                   %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 205 / measure 21]                %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             ^ \markup {                                                        %! baca_markup:IndicatorCommand
@@ -1084,7 +1084,7 @@ I_GuitarMusicVoiceI = {                                                        %
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            % [I GuitarMusicVoiceI measure 206 / measure 22]                   %! _comment_measure_numbers
+            % [I Guitar_Music_Voice_I measure 206 / measure 22]                %! _comment_measure_numbers
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1136,232 +1136,232 @@ I_GuitarMusicVoiceI = {                                                        %
 }                                                                              %! extern
 
 
-I_GuitarMusicVoiceII = {                                                       %! extern
+I_Guitar_Music_Voice_II = {                                                    %! extern
 
-    % [I GuitarMusicVoiceII measure 185 / measure 1]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 185 / measure 1]                        %! _comment_measure_numbers
     s1 * 3/8                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 186 / measure 2]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 186 / measure 2]                        %! _comment_measure_numbers
     s1 * 4/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 187 / measure 3]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 187 / measure 3]                        %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 188 / measure 4]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 188 / measure 4]                        %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 189 / measure 5]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 189 / measure 5]                        %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 190 / measure 6]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 190 / measure 6]                        %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 191 / measure 7]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 191 / measure 7]                        %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 192 / measure 8]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 192 / measure 8]                        %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 193 / measure 9]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 193 / measure 9]                        %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 194 / measure 10]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 194 / measure 10]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 195 / measure 11]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 195 / measure 11]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 196 / measure 12]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 196 / measure 12]                       %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 197 / measure 13]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 197 / measure 13]                       %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 198 / measure 14]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 198 / measure 14]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 199 / measure 15]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 199 / measure 15]                       %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 200 / measure 16]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 200 / measure 16]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 201 / measure 17]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 201 / measure 17]                       %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 202 / measure 18]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 202 / measure 18]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 203 / measure 19]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 203 / measure 19]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 204 / measure 20]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 204 / measure 20]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 205 / measure 21]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 205 / measure 21]                       %! _comment_measure_numbers
     s1 * 4/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceII measure 206 / measure 22]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_II measure 206 / measure 22]                       %! _comment_measure_numbers
     s1 * 4/5                                                                   %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-I_GuitarMusicVoiceIII = {                                                      %! extern
+I_Guitar_Music_Voice_III = {                                                   %! extern
 
-    % [I GuitarMusicVoiceIII measure 185 / measure 1]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 185 / measure 1]                       %! _comment_measure_numbers
     s1 * 3/8                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 186 / measure 2]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 186 / measure 2]                       %! _comment_measure_numbers
     s1 * 4/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 187 / measure 3]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 187 / measure 3]                       %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 188 / measure 4]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 188 / measure 4]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 189 / measure 5]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 189 / measure 5]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 190 / measure 6]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 190 / measure 6]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 191 / measure 7]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 191 / measure 7]                       %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 192 / measure 8]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 192 / measure 8]                       %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 193 / measure 9]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 193 / measure 9]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 194 / measure 10]                         %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 194 / measure 10]                      %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 195 / measure 11]                         %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 195 / measure 11]                      %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 196 / measure 12]                         %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 196 / measure 12]                      %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 197 / measure 13]                         %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 197 / measure 13]                      %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 198 / measure 14]                         %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 198 / measure 14]                      %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 199 / measure 15]                         %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 199 / measure 15]                      %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 200 / measure 16]                         %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 200 / measure 16]                      %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 201 / measure 17]                         %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 201 / measure 17]                      %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 202 / measure 18]                         %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 202 / measure 18]                      %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 203 / measure 19]                         %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 203 / measure 19]                      %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 204 / measure 20]                         %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 204 / measure 20]                      %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 205 / measure 21]                         %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 205 / measure 21]                      %! _comment_measure_numbers
     s1 * 4/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIII measure 206 / measure 22]                         %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_III measure 206 / measure 22]                      %! _comment_measure_numbers
     s1 * 4/5                                                                   %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-I_GuitarMusicVoiceIV = {                                                       %! extern
+I_Guitar_Music_Voice_IV = {                                                    %! extern
 
-    % [I GuitarMusicVoiceIV measure 185 / measure 1]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 185 / measure 1]                        %! _comment_measure_numbers
     s1 * 3/8                                                                   %! _call_rhythm_commands
     ^ \baca-reapplied-indicator-markup "(“Guitar”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
-    % [I GuitarMusicVoiceIV measure 186 / measure 2]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 186 / measure 2]                        %! _comment_measure_numbers
     s1 * 4/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 187 / measure 3]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 187 / measure 3]                        %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 188 / measure 4]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 188 / measure 4]                        %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 189 / measure 5]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 189 / measure 5]                        %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 190 / measure 6]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 190 / measure 6]                        %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 191 / measure 7]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 191 / measure 7]                        %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 192 / measure 8]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 192 / measure 8]                        %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 193 / measure 9]                           %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 193 / measure 9]                        %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 194 / measure 10]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 194 / measure 10]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 195 / measure 11]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 195 / measure 11]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 196 / measure 12]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 196 / measure 12]                       %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 197 / measure 13]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 197 / measure 13]                       %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 198 / measure 14]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 198 / measure 14]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 199 / measure 15]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 199 / measure 15]                       %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 200 / measure 16]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 200 / measure 16]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 201 / measure 17]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 201 / measure 17]                       %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 202 / measure 18]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 202 / measure 18]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 203 / measure 19]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 203 / measure 19]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 204 / measure 20]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 204 / measure 20]                       %! _comment_measure_numbers
     s1 * 1/3                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 205 / measure 21]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 205 / measure 21]                       %! _comment_measure_numbers
     s1 * 4/5                                                                   %! _call_rhythm_commands
 
-    % [I GuitarMusicVoiceIV measure 206 / measure 22]                          %! _comment_measure_numbers
+    % [I Guitar_Music_Voice_IV measure 206 / measure 22]                       %! _comment_measure_numbers
     s1 * 4/5                                                                   %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-I_GuitarMusicStaff = <<                                                        %! extern
+I_Guitar_Music_Staff = <<                                                      %! extern
 
-    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"                           %! ScoreTemplate
-    \I_GuitarMusicVoiceI                                                       %! extern
+    \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"                        %! ScoreTemplate
+    \I_Guitar_Music_Voice_I                                                    %! extern
 
-    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"                         %! ScoreTemplate
-    \I_GuitarMusicVoiceII                                                      %! extern
+    \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"                      %! ScoreTemplate
+    \I_Guitar_Music_Voice_II                                                   %! extern
 
-    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"                       %! ScoreTemplate
-    \I_GuitarMusicVoiceIII                                                     %! extern
+    \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"                    %! ScoreTemplate
+    \I_Guitar_Music_Voice_III                                                  %! extern
 
-    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"                         %! ScoreTemplate
-    \I_GuitarMusicVoiceIV                                                      %! extern
+    \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"                      %! ScoreTemplate
+    \I_Guitar_Music_Voice_IV                                                   %! extern
 
 >>                                                                             %! extern

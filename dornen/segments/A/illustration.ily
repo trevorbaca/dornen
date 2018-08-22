@@ -170,7 +170,7 @@ A_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-A_GuitarMusicVoiceI = {                                                        %! extern
+A_Guitar_Music_Voice_I = {                                                     %! extern
 
     {
 
@@ -215,7 +215,7 @@ A_GuitarMusicVoiceI = {                                                        %
             }
         \scaleDurations #'(1 . 1) {
 
-            % [A GuitarMusicVoiceI measure 20 / measure 1]                     %! _comment_measure_numbers
+            % [A Guitar_Music_Voice_I measure 20 / measure 1]                  %! _comment_measure_numbers
             \override Beam.positions = #'(8 . 8)                               %! baca_beam_positions:OverrideCommand(1)
             \once \override Beam.grow-direction = #left
             \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
@@ -421,14 +421,14 @@ A_GuitarMusicVoiceI = {                                                        %
 
     }
 
-    % [A GuitarMusicVoiceI measure 21 / measure 2]                             %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_I measure 21 / measure 2]                          %! _comment_measure_numbers
     s1 * 1/20
 
     {
 
         \times 4/5 {
 
-            % [A GuitarMusicVoiceI measure 22 / measure 3]                     %! _comment_measure_numbers
+            % [A Guitar_Music_Voice_I measure 22 / measure 3]                  %! _comment_measure_numbers
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             cs'!64
@@ -525,14 +525,14 @@ A_GuitarMusicVoiceI = {                                                        %
 
     }
 
-    % [A GuitarMusicVoiceI measure 23 / measure 4]                             %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_I measure 23 / measure 4]                          %! _comment_measure_numbers
     s1 * 1/10
 
     {
 
         \times 4/5 {
 
-            % [A GuitarMusicVoiceI measure 24 / measure 5]                     %! _comment_measure_numbers
+            % [A Guitar_Music_Voice_I measure 24 / measure 5]                  %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             cs'!64
@@ -633,14 +633,14 @@ A_GuitarMusicVoiceI = {                                                        %
 
     }
 
-    % [A GuitarMusicVoiceI measure 25 / measure 6]                             %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_I measure 25 / measure 6]                          %! _comment_measure_numbers
     s1 * 3/20
 
     {
 
         \times 4/5 {
 
-            % [A GuitarMusicVoiceI measure 26 / measure 7]                     %! _comment_measure_numbers
+            % [A Guitar_Music_Voice_I measure 26 / measure 7]                  %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             f'64
@@ -746,7 +746,7 @@ A_GuitarMusicVoiceI = {                                                        %
 
     }
 
-    % [A GuitarMusicVoiceI measure 27 / measure 8]                             %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_I measure 27 / measure 8]                          %! _comment_measure_numbers
     s1 * 1/5
 
     {
@@ -754,7 +754,7 @@ A_GuitarMusicVoiceI = {                                                        %
         \tweak text #tuplet-number::calc-fraction-text
         \times 5/6 {
 
-            % [A GuitarMusicVoiceI measure 28 / measure 9]                     %! _comment_measure_numbers
+            % [A Guitar_Music_Voice_I measure 28 / measure 9]                  %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             b64
@@ -864,7 +864,7 @@ A_GuitarMusicVoiceI = {                                                        %
 
     }
 
-    % [A GuitarMusicVoiceI measure 29 / measure 10]                            %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_I measure 29 / measure 10]                         %! _comment_measure_numbers
     s1 * 1/4
 
     {
@@ -872,7 +872,7 @@ A_GuitarMusicVoiceI = {                                                        %
         \tweak text #tuplet-number::calc-fraction-text
         \times 5/6 {
 
-            % [A GuitarMusicVoiceI measure 30 / measure 11]                    %! _comment_measure_numbers
+            % [A Guitar_Music_Voice_I measure 30 / measure 11]                 %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             ef'!64
@@ -1012,14 +1012,14 @@ A_GuitarMusicVoiceI = {                                                        %
 
     }
 
-    % [A GuitarMusicVoiceI measure 31 / measure 12]                            %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_I measure 31 / measure 12]                         %! _comment_measure_numbers
     s1 * 1/20
 
     {
 
         \scaleDurations #'(1 . 1) {
 
-            % [A GuitarMusicVoiceI measure 32 / measure 13]                    %! _comment_measure_numbers
+            % [A Guitar_Music_Voice_I measure 32 / measure 13]                 %! _comment_measure_numbers
             \override TextScript.staff-padding = #9                            %! baca_script_staff_padding:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
@@ -1154,14 +1154,14 @@ A_GuitarMusicVoiceI = {                                                        %
 
     }
 
-    % [A GuitarMusicVoiceI measure 33 / measure 14]                            %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_I measure 33 / measure 14]                         %! _comment_measure_numbers
     s1 * 1/10
 
     {
 
         \scaleDurations #'(1 . 1) {
 
-            % [A GuitarMusicVoiceI measure 34 / measure 15]                    %! _comment_measure_numbers
+            % [A Guitar_Music_Voice_I measure 34 / measure 15]                 %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             f32
@@ -1297,9 +1297,9 @@ A_GuitarMusicVoiceI = {                                                        %
 }                                                                              %! extern
 
 
-A_GuitarMusicVoiceII = {                                                       %! extern
+A_Guitar_Music_Voice_II = {                                                    %! extern
 
-    % [A GuitarMusicVoiceII measure 20 / measure 1]                            %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_II measure 20 / measure 1]                         %! _comment_measure_numbers
     s1 * 1/4
 
     {
@@ -1307,7 +1307,7 @@ A_GuitarMusicVoiceII = {                                                       %
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            % [A GuitarMusicVoiceII measure 21 / measure 2]                    %! _comment_measure_numbers
+            % [A Guitar_Music_Voice_II measure 21 / measure 2]                 %! _comment_measure_numbers
             \once \override Beam.positions = #'(-8 . -8)                       %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
@@ -1340,7 +1340,7 @@ A_GuitarMusicVoiceII = {                                                       %
 
     }
 
-    % [A GuitarMusicVoiceII measure 22 / measure 3]                            %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_II measure 22 / measure 3]                         %! _comment_measure_numbers
     s1 * 3/16
 
     {
@@ -1348,7 +1348,7 @@ A_GuitarMusicVoiceII = {                                                       %
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            % [A GuitarMusicVoiceII measure 23 / measure 4]                    %! _comment_measure_numbers
+            % [A Guitar_Music_Voice_II measure 23 / measure 4]                 %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             ef'''!16
@@ -1383,7 +1383,7 @@ A_GuitarMusicVoiceII = {                                                       %
 
     }
 
-    % [A GuitarMusicVoiceII measure 24 / measure 5]                            %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_II measure 24 / measure 5]                         %! _comment_measure_numbers
     s1 * 13/64
 
     {
@@ -1391,7 +1391,7 @@ A_GuitarMusicVoiceII = {                                                       %
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            % [A GuitarMusicVoiceII measure 25 / measure 6]                    %! _comment_measure_numbers
+            % [A Guitar_Music_Voice_II measure 25 / measure 6]                 %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             ef'''!16
@@ -1430,7 +1430,7 @@ A_GuitarMusicVoiceII = {                                                       %
 
     }
 
-    % [A GuitarMusicVoiceII measure 26 / measure 7]                            %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_II measure 26 / measure 7]                         %! _comment_measure_numbers
     s1 * 7/32
 
     {
@@ -1438,7 +1438,7 @@ A_GuitarMusicVoiceII = {                                                       %
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            % [A GuitarMusicVoiceII measure 27 / measure 8]                    %! _comment_measure_numbers
+            % [A Guitar_Music_Voice_II measure 27 / measure 8]                 %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             ef'''!16
@@ -1481,14 +1481,14 @@ A_GuitarMusicVoiceII = {                                                       %
 
     }
 
-    % [A GuitarMusicVoiceII measure 28 / measure 9]                            %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_II measure 28 / measure 9]                         %! _comment_measure_numbers
     s1 * 15/64
 
     {
 
         \times 4/5 {
 
-            % [A GuitarMusicVoiceII measure 29 / measure 10]                   %! _comment_measure_numbers
+            % [A Guitar_Music_Voice_II measure 29 / measure 10]                %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             ef'''!16
@@ -1531,7 +1531,7 @@ A_GuitarMusicVoiceII = {                                                       %
 
     }
 
-    % [A GuitarMusicVoiceII measure 30 / measure 11]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_II measure 30 / measure 11]                        %! _comment_measure_numbers
     s1 * 5/16
 
     {
@@ -1539,7 +1539,7 @@ A_GuitarMusicVoiceII = {                                                       %
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            % [A GuitarMusicVoiceII measure 31 / measure 12]                   %! _comment_measure_numbers
+            % [A Guitar_Music_Voice_II measure 31 / measure 12]                %! _comment_measure_numbers
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             ef'''!16
@@ -1571,7 +1571,7 @@ A_GuitarMusicVoiceII = {                                                       %
 
     }
 
-    % [A GuitarMusicVoiceII measure 32 / measure 13]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_II measure 32 / measure 13]                        %! _comment_measure_numbers
     s1 * 11/16
 
     {
@@ -1579,7 +1579,7 @@ A_GuitarMusicVoiceII = {                                                       %
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            % [A GuitarMusicVoiceII measure 33 / measure 14]                   %! _comment_measure_numbers
+            % [A Guitar_Music_Voice_II measure 33 / measure 14]                %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             ef'''!16
@@ -1615,125 +1615,125 @@ A_GuitarMusicVoiceII = {                                                       %
 
     }
 
-    % [A GuitarMusicVoiceII measure 34 / measure 15]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_II measure 34 / measure 15]                        %! _comment_measure_numbers
     s1 * 11/16                                                                 %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-A_GuitarMusicVoiceIII = {                                                      %! extern
+A_Guitar_Music_Voice_III = {                                                   %! extern
 
-    % [A GuitarMusicVoiceIII measure 20 / measure 1]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_III measure 20 / measure 1]                        %! _comment_measure_numbers
     s1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIII measure 21 / measure 2]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_III measure 21 / measure 2]                        %! _comment_measure_numbers
     s1 * 1/20                                                                  %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIII measure 22 / measure 3]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_III measure 22 / measure 3]                        %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIII measure 23 / measure 4]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_III measure 23 / measure 4]                        %! _comment_measure_numbers
     s1 * 1/10                                                                  %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIII measure 24 / measure 5]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_III measure 24 / measure 5]                        %! _comment_measure_numbers
     s1 * 13/64                                                                 %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIII measure 25 / measure 6]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_III measure 25 / measure 6]                        %! _comment_measure_numbers
     s1 * 3/20                                                                  %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIII measure 26 / measure 7]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_III measure 26 / measure 7]                        %! _comment_measure_numbers
     s1 * 7/32                                                                  %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIII measure 27 / measure 8]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_III measure 27 / measure 8]                        %! _comment_measure_numbers
     s1 * 1/5                                                                   %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIII measure 28 / measure 9]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_III measure 28 / measure 9]                        %! _comment_measure_numbers
     s1 * 15/64                                                                 %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIII measure 29 / measure 10]                          %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_III measure 29 / measure 10]                       %! _comment_measure_numbers
     s1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIII measure 30 / measure 11]                          %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_III measure 30 / measure 11]                       %! _comment_measure_numbers
     s1 * 5/16                                                                  %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIII measure 31 / measure 12]                          %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_III measure 31 / measure 12]                       %! _comment_measure_numbers
     s1 * 1/20                                                                  %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIII measure 32 / measure 13]                          %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_III measure 32 / measure 13]                       %! _comment_measure_numbers
     s1 * 11/16                                                                 %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIII measure 33 / measure 14]                          %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_III measure 33 / measure 14]                       %! _comment_measure_numbers
     s1 * 1/10                                                                  %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIII measure 34 / measure 15]                          %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_III measure 34 / measure 15]                       %! _comment_measure_numbers
     s1 * 11/16                                                                 %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-A_GuitarMusicVoiceIV = {                                                       %! extern
+A_Guitar_Music_Voice_IV = {                                                    %! extern
 
-    % [A GuitarMusicVoiceIV measure 20 / measure 1]                            %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_IV measure 20 / measure 1]                         %! _comment_measure_numbers
     s1 * 1/4                                                                   %! _call_rhythm_commands
     ^ \baca-reapplied-indicator-markup "(“Guitar”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
-    % [A GuitarMusicVoiceIV measure 21 / measure 2]                            %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_IV measure 21 / measure 2]                         %! _comment_measure_numbers
     s1 * 1/20                                                                  %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIV measure 22 / measure 3]                            %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_IV measure 22 / measure 3]                         %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIV measure 23 / measure 4]                            %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_IV measure 23 / measure 4]                         %! _comment_measure_numbers
     s1 * 1/10                                                                  %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIV measure 24 / measure 5]                            %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_IV measure 24 / measure 5]                         %! _comment_measure_numbers
     s1 * 13/64                                                                 %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIV measure 25 / measure 6]                            %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_IV measure 25 / measure 6]                         %! _comment_measure_numbers
     s1 * 3/20                                                                  %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIV measure 26 / measure 7]                            %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_IV measure 26 / measure 7]                         %! _comment_measure_numbers
     s1 * 7/32                                                                  %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIV measure 27 / measure 8]                            %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_IV measure 27 / measure 8]                         %! _comment_measure_numbers
     s1 * 1/5                                                                   %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIV measure 28 / measure 9]                            %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_IV measure 28 / measure 9]                         %! _comment_measure_numbers
     s1 * 15/64                                                                 %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIV measure 29 / measure 10]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_IV measure 29 / measure 10]                        %! _comment_measure_numbers
     s1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIV measure 30 / measure 11]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_IV measure 30 / measure 11]                        %! _comment_measure_numbers
     s1 * 5/16                                                                  %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIV measure 31 / measure 12]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_IV measure 31 / measure 12]                        %! _comment_measure_numbers
     s1 * 1/20                                                                  %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIV measure 32 / measure 13]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_IV measure 32 / measure 13]                        %! _comment_measure_numbers
     s1 * 11/16                                                                 %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIV measure 33 / measure 14]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_IV measure 33 / measure 14]                        %! _comment_measure_numbers
     s1 * 1/10                                                                  %! _call_rhythm_commands
 
-    % [A GuitarMusicVoiceIV measure 34 / measure 15]                           %! _comment_measure_numbers
+    % [A Guitar_Music_Voice_IV measure 34 / measure 15]                        %! _comment_measure_numbers
     s1 * 11/16                                                                 %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-A_GuitarMusicStaff = <<                                                        %! extern
+A_Guitar_Music_Staff = <<                                                      %! extern
 
-    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"                           %! ScoreTemplate
-    \A_GuitarMusicVoiceI                                                       %! extern
+    \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"                        %! ScoreTemplate
+    \A_Guitar_Music_Voice_I                                                    %! extern
 
-    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"                         %! ScoreTemplate
-    \A_GuitarMusicVoiceII                                                      %! extern
+    \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"                      %! ScoreTemplate
+    \A_Guitar_Music_Voice_II                                                   %! extern
 
-    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"                       %! ScoreTemplate
-    \A_GuitarMusicVoiceIII                                                     %! extern
+    \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"                    %! ScoreTemplate
+    \A_Guitar_Music_Voice_III                                                  %! extern
 
-    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"                         %! ScoreTemplate
-    \A_GuitarMusicVoiceIV                                                      %! extern
+    \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"                      %! ScoreTemplate
+    \A_Guitar_Music_Voice_IV                                                   %! extern
 
 >>                                                                             %! extern

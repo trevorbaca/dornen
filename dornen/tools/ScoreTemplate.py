@@ -33,22 +33,22 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>                                                                         %! _make_global_context
             \context MusicContext = "MusicContext"                                     %! ScoreTemplate
             {                                                                          %! ScoreTemplate
-                \context GuitarMusicStaff = "GuitarMusicStaff"                         %! ScoreTemplate
+                \context GuitarMusicStaff = "Guitar_Music_Staff"                       %! ScoreTemplate
                 <<                                                                     %! ScoreTemplate
-                    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"                   %! ScoreTemplate
+                    \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"                %! ScoreTemplate
                     {                                                                  %! ScoreTemplate
                         \clef "treble"                                                 %! attach_defaults
                         s1                                                             %! ScoreTemplate.__illustrate__
                     }                                                                  %! ScoreTemplate
-                    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"                 %! ScoreTemplate
+                    \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"              %! ScoreTemplate
                     {                                                                  %! ScoreTemplate
                         s1                                                             %! ScoreTemplate.__illustrate__
                     }                                                                  %! ScoreTemplate
-                    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"               %! ScoreTemplate
+                    \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"            %! ScoreTemplate
                     {                                                                  %! ScoreTemplate
                         s1                                                             %! ScoreTemplate.__illustrate__
                     }                                                                  %! ScoreTemplate
-                    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"                 %! ScoreTemplate
+                    \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"              %! ScoreTemplate
                     {                                                                  %! ScoreTemplate
                         s1                                                             %! ScoreTemplate.__illustrate__
                     }                                                                  %! ScoreTemplate
@@ -70,10 +70,10 @@ class ScoreTemplate(baca.ScoreTemplate):
     def __init__(self):
         super(ScoreTemplate, self).__init__()
         self.voice_abbreviations.update({
-            'v1': 'GuitarMusicVoiceI',
-            'v2': 'GuitarMusicVoiceII',
-            'v3': 'GuitarMusicVoiceIII',
-            'v4': 'GuitarMusicVoiceIV',
+            'v1': 'Guitar_Music_Voice_I',
+            'v2': 'Guitar_Music_Voice_II',
+            'v3': 'Guitar_Music_Voice_III',
+            'v4': 'Guitar_Music_Voice_IV',
             })
 
     ### SPECIAL METHODS ###
@@ -90,22 +90,22 @@ class ScoreTemplate(baca.ScoreTemplate):
         # GUITAR
         guitar_music_voice_1 = abjad.Voice(
             lilypond_type='GuitarMusicVoiceI',
-            name='GuitarMusicVoiceI',
+            name='Guitar_Music_Voice_I',
             tag=tag,
             )
         guitar_music_voice_2 = abjad.Voice(
             lilypond_type='GuitarMusicVoiceII',
-            name='GuitarMusicVoiceII',
+            name='Guitar_Music_Voice_II',
             tag=tag,
             )
         guitar_music_voice_3 = abjad.Voice(
             lilypond_type='GuitarMusicVoiceIII',
-            name='GuitarMusicVoiceIII',
+            name='Guitar_Music_Voice_III',
             tag=tag,
             )
         guitar_music_voice_4 = abjad.Voice(
             lilypond_type='GuitarMusicVoiceIV',
-            name='GuitarMusicVoiceIV',
+            name='Guitar_Music_Voice_IV',
             tag=tag,
             )
         guitar_music_staff = abjad.Staff(
@@ -117,7 +117,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                 ],
             lilypond_type='GuitarMusicStaff',
             is_simultaneous=True,
-            name='GuitarMusicStaff',
+            name='Guitar_Music_Staff',
             tag=tag,
             )
         abjad.annotate(
@@ -174,10 +174,10 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>> abjad.f(score_template.voice_abbreviations)
             abjad.OrderedDict(
                 [
-                    ('v1', 'GuitarMusicVoiceI'),
-                    ('v2', 'GuitarMusicVoiceII'),
-                    ('v3', 'GuitarMusicVoiceIII'),
-                    ('v4', 'GuitarMusicVoiceIV'),
+                    ('v1', 'Guitar_Music_Voice_I'),
+                    ('v2', 'Guitar_Music_Voice_II'),
+                    ('v3', 'Guitar_Music_Voice_III'),
+                    ('v4', 'Guitar_Music_Voice_IV'),
                     ]
                 )
 

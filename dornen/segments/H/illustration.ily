@@ -187,13 +187,13 @@ H_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-H_GuitarMusicVoiceI = {                                                        %! extern
+H_Guitar_Music_Voice_I = {                                                     %! extern
 
     {
 
         \scaleDurations #'(1 . 1) {
 
-            % [H GuitarMusicVoiceI measure 167 / measure 1]                    %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_I measure 167 / measure 1]                 %! _comment_measure_numbers
             \override Beam.positions = #'(6 . 6)                               %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
@@ -256,7 +256,7 @@ H_GuitarMusicVoiceI = {                                                        %
 
         \scaleDurations #'(1 . 1) {
 
-            % [H GuitarMusicVoiceI measure 168 / measure 2]                    %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_I measure 168 / measure 2]                 %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             af'!32
@@ -308,14 +308,14 @@ H_GuitarMusicVoiceI = {                                                        %
 
     }
 
-    % [H GuitarMusicVoiceI measure 169 / measure 3]                            %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_I measure 169 / measure 3]                         %! _comment_measure_numbers
     s1 * 3/16
 
     {
 
         \scaleDurations #'(1 . 1) {
 
-            % [H GuitarMusicVoiceI measure 170 / measure 4]                    %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_I measure 170 / measure 4]                 %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             b'32
@@ -371,7 +371,7 @@ H_GuitarMusicVoiceI = {                                                        %
 
         \scaleDurations #'(1 . 1) {
 
-            % [H GuitarMusicVoiceI measure 171 / measure 5]                    %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_I measure 171 / measure 5]                 %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             fs''!32
@@ -427,7 +427,7 @@ H_GuitarMusicVoiceI = {                                                        %
 
         \times 2/3 {
 
-            % [H GuitarMusicVoiceI measure 172 / measure 6]                    %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_I measure 172 / measure 6]                 %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             e16
@@ -464,7 +464,7 @@ H_GuitarMusicVoiceI = {                                                        %
 
     }
 
-    % [H GuitarMusicVoiceI measure 173 / measure 7]                            %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_I measure 173 / measure 7]                         %! _comment_measure_numbers
     s1 * 11/8
     \revert Beam.positions                                                     %! baca_beam_positions:OverrideCommand(2)
 
@@ -472,7 +472,7 @@ H_GuitarMusicVoiceI = {                                                        %
 
         \scaleDurations #'(1 . 1) {
 
-            % [H GuitarMusicVoiceI measure 175 / measure 9]                    %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_I measure 175 / measure 9]                 %! _comment_measure_numbers
             \override Beam.positions = #'(8 . 8)                               %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
@@ -521,14 +521,14 @@ H_GuitarMusicVoiceI = {                                                        %
 
     }
 
-    % [H GuitarMusicVoiceI measure 176 / measure 10]                           %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_I measure 176 / measure 10]                        %! _comment_measure_numbers
     s1 * 185/448
 
     {
 
         \scaleDurations #'(1 . 1) {
 
-            % [H GuitarMusicVoiceI measure 178 / measure 12]                   %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_I measure 178 / measure 12]                %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             cqs''!32
@@ -575,14 +575,14 @@ H_GuitarMusicVoiceI = {                                                        %
 
     }
 
-    % [H GuitarMusicVoiceI measure 179 / measure 13]                           %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_I measure 179 / measure 13]                        %! _comment_measure_numbers
     s1 * 111/224
 
     {
 
         \scaleDurations #'(1 . 1) {
 
-            % [H GuitarMusicVoiceI measure 181 / measure 15]                   %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_I measure 181 / measure 15]                %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             af''!32
@@ -633,14 +633,14 @@ H_GuitarMusicVoiceI = {                                                        %
 
     }
 
-    % [H GuitarMusicVoiceI measure 182 / measure 16]                           %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_I measure 182 / measure 16]                        %! _comment_measure_numbers
     s1 * 39/112
 
     {
 
         \times 4/5 {
 
-            % [H GuitarMusicVoiceI measure 183 / measure 17]                   %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_I measure 183 / measure 17]                %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             eqs''!64
@@ -737,16 +737,16 @@ H_GuitarMusicVoiceI = {                                                        %
 
     }
 
-    % [H GuitarMusicVoiceI measure 184 / measure 18]                           %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_I measure 184 / measure 18]                        %! _comment_measure_numbers
     s1 * 1/10                                                                  %! _make_measure_silences
     \revert Beam.positions                                                     %! baca_beam_positions:OverrideCommand(2)
 
 }                                                                              %! extern
 
 
-H_GuitarMusicVoiceII = {                                                       %! extern
+H_Guitar_Music_Voice_II = {                                                    %! extern
 
-    % [H GuitarMusicVoiceII measure 167 / measure 1]                           %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_II measure 167 / measure 1]                        %! _comment_measure_numbers
     s1 * 83/32
 
     {
@@ -754,7 +754,7 @@ H_GuitarMusicVoiceII = {                                                       %
         \tweak edge-height #'(0.7 . 0)
         \times 4/7 {
 
-            % [H GuitarMusicVoiceII measure 176 / measure 10]                  %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_II measure 176 / measure 10]               %! _comment_measure_numbers
             \override Beam.positions = #'(-5 . -5)                             %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
@@ -808,7 +808,7 @@ H_GuitarMusicVoiceII = {                                                       %
 
         \scaleDurations #'(1 . 1) {
 
-            % [H GuitarMusicVoiceII measure 177 / measure 11]                  %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_II measure 177 / measure 11]               %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             c''32.
@@ -855,7 +855,7 @@ H_GuitarMusicVoiceII = {                                                       %
 
     }
 
-    % [H GuitarMusicVoiceII measure 178 / measure 12]                          %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_II measure 178 / measure 12]                       %! _comment_measure_numbers
     s1 * 5/32
 
     {
@@ -863,7 +863,7 @@ H_GuitarMusicVoiceII = {                                                       %
         \tweak edge-height #'(0.7 . 0)
         \times 4/7 {
 
-            % [H GuitarMusicVoiceII measure 179 / measure 13]                  %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_II measure 179 / measure 13]               %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             ef''!16
@@ -918,7 +918,7 @@ H_GuitarMusicVoiceII = {                                                       %
 
         \scaleDurations #'(1 . 1) {
 
-            % [H GuitarMusicVoiceII measure 180 / measure 14]                  %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_II measure 180 / measure 14]               %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 3                                        %! _extend_beam
             cs''!32.
@@ -969,7 +969,7 @@ H_GuitarMusicVoiceII = {                                                       %
 
     }
 
-    % [H GuitarMusicVoiceII measure 181 / measure 15]                          %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_II measure 181 / measure 15]                       %! _comment_measure_numbers
     s1 * 3/16
 
     {
@@ -978,7 +978,7 @@ H_GuitarMusicVoiceII = {                                                       %
         \tweak edge-height #'(0.7 . 0)
         \times 8/7 {
 
-            % [H GuitarMusicVoiceII measure 182 / measure 16]                  %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_II measure 182 / measure 16]               %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             g''16
@@ -1042,7 +1042,7 @@ H_GuitarMusicVoiceII = {                                                       %
 
     }
 
-    % [H GuitarMusicVoiceII measure 183 / measure 17]                          %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_II measure 183 / measure 17]                       %! _comment_measure_numbers
     s1 * 3/16
 
     {
@@ -1050,7 +1050,7 @@ H_GuitarMusicVoiceII = {                                                       %
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            % [H GuitarMusicVoiceII measure 184 / measure 18]                  %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_II measure 184 / measure 18]               %! _comment_measure_numbers
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             bqf''!16
@@ -1089,9 +1089,9 @@ H_GuitarMusicVoiceII = {                                                       %
 }                                                                              %! extern
 
 
-H_GuitarMusicVoiceIII = {                                                      %! extern
+H_Guitar_Music_Voice_III = {                                                   %! extern
 
-    % [H GuitarMusicVoiceIII measure 167 / measure 1]                          %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_III measure 167 / measure 1]                       %! _comment_measure_numbers
     \override Beam.positions = #'(-4 . -4)                                     %! baca_beam_positions:OverrideCommand(1)
     s1 * 3/8
 
@@ -1138,7 +1138,7 @@ H_GuitarMusicVoiceIII = {                                                      %
             }
         \scaleDurations #'(1 . 1) {
 
-            % [H GuitarMusicVoiceIII measure 169 / measure 3]                  %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_III measure 169 / measure 3]               %! _comment_measure_numbers
             \once \override Beam.grow-direction = #right
             a''32 * 1984/1024
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
@@ -1176,7 +1176,7 @@ H_GuitarMusicVoiceIII = {                                                      %
 
     }
 
-    % [H GuitarMusicVoiceIII measure 170 / measure 4]                          %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_III measure 170 / measure 4]                       %! _comment_measure_numbers
     s1 * 1/2
 
     {
@@ -1224,7 +1224,7 @@ H_GuitarMusicVoiceIII = {                                                      %
             }
         \scaleDurations #'(1 . 1) {
 
-            % [H GuitarMusicVoiceIII measure 173 / measure 7]                  %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_III measure 173 / measure 7]               %! _comment_measure_numbers
             \once \override Beam.grow-direction = #right
             cs''!32 * 3264/1024
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
@@ -1339,7 +1339,7 @@ H_GuitarMusicVoiceIII = {                                                      %
             }
         \scaleDurations #'(1 . 1) {
 
-            % [H GuitarMusicVoiceIII measure 174 / measure 8]                  %! _comment_measure_numbers
+            % [H Guitar_Music_Voice_III measure 174 / measure 8]               %! _comment_measure_numbers
             \once \override Beam.grow-direction = #right
             cs''!32 * 3264/1024
         %%% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
@@ -1409,112 +1409,112 @@ H_GuitarMusicVoiceIII = {                                                      %
 
     }
 
-    % [H GuitarMusicVoiceIII measure 175 / measure 9]                          %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_III measure 175 / measure 9]                       %! _comment_measure_numbers
     s1 * 5/32                                                                  %! _make_measure_silences
 
-    % [H GuitarMusicVoiceIII measure 176 / measure 10]                         %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_III measure 176 / measure 10]                      %! _comment_measure_numbers
     s1 * 5/28                                                                  %! _make_measure_silences
 
-    % [H GuitarMusicVoiceIII measure 177 / measure 11]                         %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_III measure 177 / measure 11]                      %! _comment_measure_numbers
     s1 * 15/64                                                                 %! _make_measure_silences
 
-    % [H GuitarMusicVoiceIII measure 178 / measure 12]                         %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_III measure 178 / measure 12]                      %! _comment_measure_numbers
     s1 * 5/32                                                                  %! _make_measure_silences
 
-    % [H GuitarMusicVoiceIII measure 179 / measure 13]                         %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_III measure 179 / measure 13]                      %! _comment_measure_numbers
     s1 * 3/14                                                                  %! _make_measure_silences
 
-    % [H GuitarMusicVoiceIII measure 180 / measure 14]                         %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_III measure 180 / measure 14]                      %! _comment_measure_numbers
     s1 * 9/32                                                                  %! _make_measure_silences
 
-    % [H GuitarMusicVoiceIII measure 181 / measure 15]                         %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_III measure 181 / measure 15]                      %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _make_measure_silences
 
-    % [H GuitarMusicVoiceIII measure 182 / measure 16]                         %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_III measure 182 / measure 16]                      %! _comment_measure_numbers
     s1 * 39/112                                                                %! _make_measure_silences
 
-    % [H GuitarMusicVoiceIII measure 183 / measure 17]                         %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_III measure 183 / measure 17]                      %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _make_measure_silences
 
-    % [H GuitarMusicVoiceIII measure 184 / measure 18]                         %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_III measure 184 / measure 18]                      %! _comment_measure_numbers
     s1 * 1/10                                                                  %! _make_measure_silences
     \revert Beam.positions                                                     %! baca_beam_positions:OverrideCommand(2)
 
 }                                                                              %! extern
 
 
-H_GuitarMusicVoiceIV = {                                                       %! extern
+H_Guitar_Music_Voice_IV = {                                                    %! extern
 
-    % [H GuitarMusicVoiceIV measure 167 / measure 1]                           %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 167 / measure 1]                        %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands
     ^ \baca-reapplied-indicator-markup "(“Guitar”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
-    % [H GuitarMusicVoiceIV measure 168 / measure 2]                           %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 168 / measure 2]                        %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands
 
-    % [H GuitarMusicVoiceIV measure 169 / measure 3]                           %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 169 / measure 3]                        %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands
 
-    % [H GuitarMusicVoiceIV measure 170 / measure 4]                           %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 170 / measure 4]                        %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands
 
-    % [H GuitarMusicVoiceIV measure 171 / measure 5]                           %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 171 / measure 5]                        %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands
 
-    % [H GuitarMusicVoiceIV measure 172 / measure 6]                           %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 172 / measure 6]                        %! _comment_measure_numbers
     s1 * 1/8                                                                   %! _call_rhythm_commands
 
-    % [H GuitarMusicVoiceIV measure 173 / measure 7]                           %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 173 / measure 7]                        %! _comment_measure_numbers
     s1 * 11/16                                                                 %! _call_rhythm_commands
 
-    % [H GuitarMusicVoiceIV measure 174 / measure 8]                           %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 174 / measure 8]                        %! _comment_measure_numbers
     s1 * 11/16                                                                 %! _call_rhythm_commands
 
-    % [H GuitarMusicVoiceIV measure 175 / measure 9]                           %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 175 / measure 9]                        %! _comment_measure_numbers
     s1 * 5/32                                                                  %! _call_rhythm_commands
 
-    % [H GuitarMusicVoiceIV measure 176 / measure 10]                          %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 176 / measure 10]                       %! _comment_measure_numbers
     s1 * 5/28                                                                  %! _call_rhythm_commands
 
-    % [H GuitarMusicVoiceIV measure 177 / measure 11]                          %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 177 / measure 11]                       %! _comment_measure_numbers
     s1 * 15/64                                                                 %! _call_rhythm_commands
 
-    % [H GuitarMusicVoiceIV measure 178 / measure 12]                          %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 178 / measure 12]                       %! _comment_measure_numbers
     s1 * 5/32                                                                  %! _call_rhythm_commands
 
-    % [H GuitarMusicVoiceIV measure 179 / measure 13]                          %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 179 / measure 13]                       %! _comment_measure_numbers
     s1 * 3/14                                                                  %! _call_rhythm_commands
 
-    % [H GuitarMusicVoiceIV measure 180 / measure 14]                          %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 180 / measure 14]                       %! _comment_measure_numbers
     s1 * 9/32                                                                  %! _call_rhythm_commands
 
-    % [H GuitarMusicVoiceIV measure 181 / measure 15]                          %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 181 / measure 15]                       %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands
 
-    % [H GuitarMusicVoiceIV measure 182 / measure 16]                          %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 182 / measure 16]                       %! _comment_measure_numbers
     s1 * 39/112                                                                %! _call_rhythm_commands
 
-    % [H GuitarMusicVoiceIV measure 183 / measure 17]                          %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 183 / measure 17]                       %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands
 
-    % [H GuitarMusicVoiceIV measure 184 / measure 18]                          %! _comment_measure_numbers
+    % [H Guitar_Music_Voice_IV measure 184 / measure 18]                       %! _comment_measure_numbers
     s1 * 1/10                                                                  %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-H_GuitarMusicStaff = <<                                                        %! extern
+H_Guitar_Music_Staff = <<                                                      %! extern
 
-    \context GuitarMusicVoiceI = "GuitarMusicVoiceI"                           %! ScoreTemplate
-    \H_GuitarMusicVoiceI                                                       %! extern
+    \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"                        %! ScoreTemplate
+    \H_Guitar_Music_Voice_I                                                    %! extern
 
-    \context GuitarMusicVoiceII = "GuitarMusicVoiceII"                         %! ScoreTemplate
-    \H_GuitarMusicVoiceII                                                      %! extern
+    \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"                      %! ScoreTemplate
+    \H_Guitar_Music_Voice_II                                                   %! extern
 
-    \context GuitarMusicVoiceIII = "GuitarMusicVoiceIII"                       %! ScoreTemplate
-    \H_GuitarMusicVoiceIII                                                     %! extern
+    \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"                    %! ScoreTemplate
+    \H_Guitar_Music_Voice_III                                                  %! extern
 
-    \context GuitarMusicVoiceIV = "GuitarMusicVoiceIV"                         %! ScoreTemplate
-    \H_GuitarMusicVoiceIV                                                      %! extern
+    \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"                      %! ScoreTemplate
+    \H_Guitar_Music_Voice_IV                                                   %! extern
 
 >>                                                                             %! extern

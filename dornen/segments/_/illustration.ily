@@ -232,6 +232,7 @@ i_Guitar_Music_Voice_I = {                                                     %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
+            ^ \baca-default-indicator-markup "(“Guitar”)"                      %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
             [                                                                  %! _extend_beam
             \override GuitarMusicStaff.Clef.color = #(x11-color 'violet)       %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
@@ -1046,7 +1047,6 @@ i_Guitar_Music_Voice_IV = {                                                    %
 
     % [_ Guitar_Music_Voice_IV measure 1]                                      %! _comment_measure_numbers
     s1 * 5/4
-    ^ \baca-default-indicator-markup "(“Guitar”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
     {
 

@@ -220,6 +220,7 @@ H_Guitar_Music_Voice_I = {                                                     %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
+            ^ \baca-reapplied-indicator-markup "(“Guitar”)"                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
             [                                                                  %! _extend_beam
             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)    %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
@@ -1447,7 +1448,6 @@ H_Guitar_Music_Voice_IV = {                                                    %
 
     % [H Guitar_Music_Voice_IV measure 167 / measure 1]                        %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands
-    ^ \baca-reapplied-indicator-markup "(“Guitar”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
     % [H Guitar_Music_Voice_IV measure 168 / measure 2]                        %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _call_rhythm_commands

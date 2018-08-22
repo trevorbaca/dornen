@@ -145,6 +145,7 @@ G_Guitar_Music_Voice_I = {                                                     %
 %@% \override GuitarMusicStaff.Clef.color = ##f                                %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set GuitarMusicStaff.forceClef = ##t                                      %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     s1 * 7/32
+    ^ \baca-reapplied-indicator-markup "(“Guitar”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)            %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     {
@@ -680,7 +681,6 @@ G_Guitar_Music_Voice_IV = {                                                    %
     % [G Guitar_Music_Voice_IV measure 155 / measure 1]                        %! _comment_measure_numbers
     \override Beam.positions = #'(8 . 8)                                       %! baca_beam_positions:OverrideCommand(1)
     s1 * 11/32
-    ^ \baca-reapplied-indicator-markup "(“Guitar”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
     {
 

@@ -284,6 +284,7 @@ F_Guitar_Music_Voice_I = {                                                     %
         %%%                 ]                                                  %! FIGURE_NAME_MARKUP
         %%%             }                                                      %! FIGURE_NAME_MARKUP
         %%%     }                                                              %! FIGURE_NAME_MARKUP
+            ^ \baca-reapplied-indicator-markup "(“Guitar”)"                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
             [                                                                  %! _extend_beam
             (                                                                  %! baca_slur:SpannerCommand
             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)    %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -1268,7 +1269,6 @@ F_Guitar_Music_Voice_IV = {                                                    %
 
     % [F Guitar_Music_Voice_IV measure 133 / measure 1]                        %! _comment_measure_numbers
     s1 * 3/20                                                                  %! _call_rhythm_commands
-    ^ \baca-reapplied-indicator-markup "(“Guitar”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
     % [F Guitar_Music_Voice_IV measure 134 / measure 2]                        %! _comment_measure_numbers
     s1 * 1/16                                                                  %! _call_rhythm_commands

@@ -51,7 +51,7 @@ def rest_music(duration=None):
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     ('MusicVoice', 1),
+        ...     ('Music_Voice', 1),
         ...     baca.rhythm(
         ...         rhythm_maker=figures,
         ...         ),
@@ -68,23 +68,23 @@ def rest_music(duration=None):
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
             <BLANKLINE>
-                \context GlobalContext = "GlobalContext"                                   %! _make_global_context
+                \context GlobalContext = "Global_Context"                                  %! _make_global_context
                 <<                                                                         %! _make_global_context
             <BLANKLINE>
-                    \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
+                    \context GlobalSkips = "Global_Skips"                                  %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
+                        % [Global_Skips measure 1]                                         %! _comment_measure_numbers
                         \time 1/8                                                          %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/8                                                           %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
+                        % [Global_Skips measure 2]                                         %! _comment_measure_numbers
                         \time 2/8                                                          %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/4                                                           %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 3]                                          %! _comment_measure_numbers
+                        % [Global_Skips measure 3]                                         %! _comment_measure_numbers
                         \time 3/8                                                          %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 3/8                                                           %! _make_global_skips(1)
@@ -95,25 +95,25 @@ def rest_music(duration=None):
             <BLANKLINE>
                 >>                                                                         %! _make_global_context
             <BLANKLINE>
-                \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
+                \context MusicContext = "Music_Context"                                    %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
             <BLANKLINE>
-                    \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
+                    \context Staff = "Music_Staff"                                         %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
             <BLANKLINE>
-                        \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
+                        \context Voice = "Music_Voice"                                     %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
             <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! _comment_measure_numbers
+                                % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 r8
             <BLANKLINE>
                             }
             <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! _comment_measure_numbers
+                                % [Music_Voice measure 2]                                  %! _comment_measure_numbers
                                 r8
             <BLANKLINE>
                                 r8
@@ -122,7 +122,7 @@ def rest_music(duration=None):
             <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 3]                                   %! _comment_measure_numbers
+                                % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 r8
             <BLANKLINE>
                                 r8
@@ -179,7 +179,7 @@ def rest_music(duration=None):
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     ('MusicVoice', 1),
+        ...     ('Music_Voice', 1),
         ...     baca.rhythm(
         ...         rhythm_maker=figures,
         ...         ),
@@ -196,18 +196,18 @@ def rest_music(duration=None):
             \context Score = "Score"                                                       %! SingleStaffScoreTemplate
             <<                                                                             %! SingleStaffScoreTemplate
             <BLANKLINE>
-                \context GlobalContext = "GlobalContext"                                   %! _make_global_context
+                \context GlobalContext = "Global_Context"                                  %! _make_global_context
                 <<                                                                         %! _make_global_context
             <BLANKLINE>
-                    \context GlobalSkips = "GlobalSkips"                                   %! _make_global_context
+                    \context GlobalSkips = "Global_Skips"                                  %! _make_global_context
                     {                                                                      %! _make_global_context
             <BLANKLINE>
-                        % [GlobalSkips measure 1]                                          %! _comment_measure_numbers
+                        % [Global_Skips measure 1]                                         %! _comment_measure_numbers
                         \time 6/8                                                          %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 3/4                                                           %! _make_global_skips(1)
             <BLANKLINE>
-                        % [GlobalSkips measure 2]                                          %! _comment_measure_numbers
+                        % [Global_Skips measure 2]                                         %! _comment_measure_numbers
                         s1 * 3/4                                                           %! _make_global_skips(1)
                         \baca-bar-line-visible                                             %! _attach_final_bar_line
                         \bar "|"                                                           %! _attach_final_bar_line
@@ -216,18 +216,18 @@ def rest_music(duration=None):
             <BLANKLINE>
                 >>                                                                         %! _make_global_context
             <BLANKLINE>
-                \context MusicContext = "MusicContext"                                     %! SingleStaffScoreTemplate
+                \context MusicContext = "Music_Context"                                    %! SingleStaffScoreTemplate
                 <<                                                                         %! SingleStaffScoreTemplate
             <BLANKLINE>
-                    \context Staff = "MusicStaff"                                          %! SingleStaffScoreTemplate
+                    \context Staff = "Music_Staff"                                         %! SingleStaffScoreTemplate
                     {                                                                      %! SingleStaffScoreTemplate
             <BLANKLINE>
-                        \context Voice = "MusicVoice"                                      %! SingleStaffScoreTemplate
+                        \context Voice = "Music_Voice"                                     %! SingleStaffScoreTemplate
                         {                                                                  %! SingleStaffScoreTemplate
             <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 1]                                   %! _comment_measure_numbers
+                                % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 r8
             <BLANKLINE>
                             }
@@ -252,7 +252,7 @@ def rest_music(duration=None):
             <BLANKLINE>
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
-                                % [MusicVoice measure 2]                                   %! _comment_measure_numbers
+                                % [Music_Voice measure 2]                                  %! _comment_measure_numbers
                                 r8
             <BLANKLINE>
                                 r8

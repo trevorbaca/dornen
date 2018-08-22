@@ -1,6 +1,6 @@
-i_GlobalSkips = {                                                              %! extern
+i_Global_Skips = {                                                             %! extern
 
-    % [_ GlobalSkips measure 1]                                                %! _comment_measure_numbers
+    % [_ Global_Skips measure 1]                                               %! _comment_measure_numbers
     \time 3/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/16                                                                  %! _make_global_skips(1)
@@ -16,7 +16,7 @@ i_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 3 0 1 "44" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [_ GlobalSkips measure 2]                                                %! _comment_measure_numbers
+    % [_ Global_Skips measure 2]                                               %! _comment_measure_numbers
     \time 1/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/32                                                                  %! _make_global_skips(1)
@@ -26,7 +26,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.2]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'02'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 3]                                                %! _comment_measure_numbers
+    % [_ Global_Skips measure 3]                                               %! _comment_measure_numbers
     \time 3/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/16                                                                  %! _make_global_skips(1)
@@ -36,7 +36,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.3]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'02'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 4]                                                %! _comment_measure_numbers
+    % [_ Global_Skips measure 4]                                               %! _comment_measure_numbers
     \time 1/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/32                                                                  %! _make_global_skips(1)
@@ -46,7 +46,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.4]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'04'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 5]                                                %! _comment_measure_numbers
+    % [_ Global_Skips measure 5]                                               %! _comment_measure_numbers
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/8                                                                   %! _make_global_skips(1)
@@ -56,7 +56,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.5]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'04'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 6]                                                %! _comment_measure_numbers
+    % [_ Global_Skips measure 6]                                               %! _comment_measure_numbers
     \time 1/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/32                                                                  %! _make_global_skips(1)
@@ -66,7 +66,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.6]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'08'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 7]                                                %! _comment_measure_numbers
+    % [_ Global_Skips measure 7]                                               %! _comment_measure_numbers
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/8                                                                   %! _make_global_skips(1)
@@ -76,7 +76,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.7]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'09'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 8]                                                %! _comment_measure_numbers
+    % [_ Global_Skips measure 8]                                               %! _comment_measure_numbers
     \time 1/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/32                                                                  %! _make_global_skips(1)
@@ -86,7 +86,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.8]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'13'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 9]                                                %! _comment_measure_numbers
+    % [_ Global_Skips measure 9]                                               %! _comment_measure_numbers
     \time 3/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/32                                                                  %! _make_global_skips(1)
@@ -96,7 +96,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.9]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'13'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 10]                                               %! _comment_measure_numbers
+    % [_ Global_Skips measure 10]                                              %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -106,7 +106,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.10]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'14'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 11]                                               %! _comment_measure_numbers
+    % [_ Global_Skips measure 11]                                              %! _comment_measure_numbers
     \time 17/64                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 17/64                                                                 %! _make_global_skips(1)
@@ -116,7 +116,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.11]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'22'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 12]                                               %! _comment_measure_numbers
+    % [_ Global_Skips measure 12]                                              %! _comment_measure_numbers
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/8                                                                   %! _make_global_skips(1)
@@ -126,7 +126,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.12]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'25'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 13]                                               %! _comment_measure_numbers
+    % [_ Global_Skips measure 13]                                              %! _comment_measure_numbers
     \time 1/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/32                                                                  %! _make_global_skips(1)
@@ -136,7 +136,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.13]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'29'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 14]                                               %! _comment_measure_numbers
+    % [_ Global_Skips measure 14]                                              %! _comment_measure_numbers
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/8                                                                   %! _make_global_skips(1)
@@ -146,7 +146,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.14]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'30'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 15]                                               %! _comment_measure_numbers
+    % [_ Global_Skips measure 15]                                              %! _comment_measure_numbers
     \time 1/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/32                                                                  %! _make_global_skips(1)
@@ -156,7 +156,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.15]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'34'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 16]                                               %! _comment_measure_numbers
+    % [_ Global_Skips measure 16]                                              %! _comment_measure_numbers
     s1 * 1/32                                                                  %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (16)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <15>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -164,7 +164,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.16]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'34'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 17]                                               %! _comment_measure_numbers
+    % [_ Global_Skips measure 17]                                              %! _comment_measure_numbers
     \time 9/64                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 9/64                                                                  %! _make_global_skips(1)
@@ -174,7 +174,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.17]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'34'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 18]                                               %! _comment_measure_numbers
+    % [_ Global_Skips measure 18]                                              %! _comment_measure_numbers
     \time 7/64                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/64                                                                  %! _make_global_skips(1)
@@ -184,7 +184,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.18]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'36'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 19]                                               %! _comment_measure_numbers
+    % [_ Global_Skips measure 19]                                              %! _comment_measure_numbers
     \time 12/64                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/16                                                                  %! _make_global_skips(1)

@@ -57,7 +57,7 @@ def graced_rest_music():
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     ('MusicVoice', 1),
+        ...     ('Music_Voice', 1),
         ...     baca.rhythm(
         ...         rhythm_maker=figures,
         ...         ),
@@ -123,7 +123,7 @@ def graced_rest_music():
         ...     time_signatures=time_signatures,
         ...     )
         >>> maker(
-        ...     ('MusicVoice', 1),
+        ...     ('Music_Voice', 1),
         ...     baca.rhythm(
         ...         rhythm_maker=figures,
         ...         ),

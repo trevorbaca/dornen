@@ -374,7 +374,7 @@ maker = baca.SegmentMaker(
 accumulator.populate_segment_maker(maker)
 
 maker(
-    'GlobalSkips',
+    'Global_Skips',
     baca.metronome_mark('66', selector=baca.leaf(25 - 1)),
     )
 

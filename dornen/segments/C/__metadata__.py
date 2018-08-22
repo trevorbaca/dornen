@@ -33,13 +33,13 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Guitar_Music_Voice_I',
-                                prototype='abjad.Clef',
-                                value='treble',
-                                ),
-                            abjad.Momento(
-                                context='Guitar_Music_Voice_IV',
                                 manifest='instruments',
                                 value='Guitar',
+                                ),
+                            abjad.Momento(
+                                context='Guitar_Music_Voice_I',
+                                prototype='abjad.Clef',
+                                value='treble',
                                 ),
                             ],
                         ),

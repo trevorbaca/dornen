@@ -465,6 +465,7 @@ M_Guitar_Music_Voice_I = {                                                     %
             _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
             ^ \markup { "LH only until rascado! (RH tacet; encourage whisks) ..." } %! baca_markup:IndicatorCommand
+            ^ \baca-reapplied-indicator-markup "(“Guitar”)"                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
             [                                                                  %! _extend_beam
             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)    %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
@@ -1155,7 +1156,6 @@ M_Guitar_Music_Voice_IV = {                                                    %
     % [M Guitar_Music_Voice_IV measure 303 / measure 1]                        %! _comment_measure_numbers
     \override Beam.positions = #'(5.5 . 5.5)                                   %! baca_beam_positions:OverrideCommand(1)
     s1 * 3/32
-    ^ \baca-reapplied-indicator-markup "(“Guitar”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
     {
 

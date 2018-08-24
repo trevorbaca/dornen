@@ -12,9 +12,11 @@ metadata = abjad.OrderedDict(
                 'Music_Context',
                 'Guitar_Music_Staff',
                 'Guitar_Music_Voice_I',
+                'Guitar_Rest_Voice_I',
                 'Guitar_Music_Voice_II',
                 'Guitar_Music_Voice_III',
                 'Guitar_Music_Voice_IV',
+                'Guitar_Rest_Voice_IV',
                 ],
             ),
         (
@@ -71,6 +73,8 @@ metadata = abjad.OrderedDict(
                     ('Guitar_Music_Voice_II', True),
                     ('Guitar_Music_Voice_III', False),
                     ('Guitar_Music_Voice_IV', True),
+                    ('Guitar_Rest_Voice_I', False),
+                    ('Guitar_Rest_Voice_IV', False),
                     ]
                 ),
             ),

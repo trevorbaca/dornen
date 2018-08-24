@@ -450,8 +450,26 @@ G_Guitar_Music_Voice_II = {                                                    %
 
     }
 
-    % [G Guitar_Music_Voice_II measure 166 / measure 12]                       %! _comment_measure_numbers
-    s1 * 5/32                                                                  %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Guitar_Music_Voice_II"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Guitar_Music_Voice_II measure 166 / measure 12]               %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c''1 * 5/32                                                        %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Guitar_Rest_Voice_II"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Guitar_Rest_Voice_II measure 166 / measure 12]                %! _comment_measure_numbers
+            s1 * 5/32                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 
@@ -664,8 +682,26 @@ G_Guitar_Music_Voice_III = {                                                   %
 
     }
 
-    % [G Guitar_Music_Voice_III measure 164 / measure 10]                      %! _comment_measure_numbers
-    s1 * 2/7                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Guitar_Music_Voice_III"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Guitar_Music_Voice_III measure 164 / measure 10]              %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c''1 * 2/7                                                         %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Guitar_Rest_Voice_III"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Guitar_Rest_Voice_III measure 164 / measure 10]               %! _comment_measure_numbers
+            s1 * 2/7                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [G Guitar_Music_Voice_III measure 165 / measure 11]                      %! _comment_measure_numbers
     s1 * 7/32                                                                  %! _make_measure_silences
@@ -939,8 +975,26 @@ G_Guitar_Music_Voice_IV = {                                                    %
 
     }
 
-    % [G Guitar_Music_Voice_IV measure 165 / measure 11]                       %! _comment_measure_numbers
-    s1 * 7/32                                                                  %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Guitar_Music_Voice_IV"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Guitar_Music_Voice_IV measure 165 / measure 11]               %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c''1 * 7/32                                                        %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Guitar_Rest_Voice_IV"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Guitar_Rest_Voice_IV measure 165 / measure 11]                %! _comment_measure_numbers
+            s1 * 7/32                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [G Guitar_Music_Voice_IV measure 166 / measure 12]                       %! _comment_measure_numbers
     s1 * 5/32                                                                  %! _make_measure_silences

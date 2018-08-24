@@ -139,9 +139,14 @@ maker(
 
 maker(
     ('v3', (1, 7)),
-    baca.accent(selector=baca.pheads()),
-    baca.script_down(),
-    baca.register(-20),
+    baca.accent(
+        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        ),
+    baca.new(
+        baca.script_down(),
+        baca.register(-20),
+        selector=baca.leaves(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(

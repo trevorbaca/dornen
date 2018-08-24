@@ -281,33 +281,56 @@ accumulator.populate_segment_maker(maker)
 
 maker(
     'v1',
-    baca.tenuto(selector=baca.pheads()),
+    baca.tenuto(
+        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        ),
     baca.beam_positions(10),
-    baca.register(-12),
+    baca.register(
+        -12,
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
     ('v2', (1, 22)),
     baca.beam_positions(-5.5),
-    baca.register(4),
+    baca.register(
+        4,
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
     ('v2', (25, -1)),
     baca.beam_positions(-5.5),
-    baca.register(4),
+    baca.register(
+        4,
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
     'v3',
-    baca.accent(selector=baca.pheads()),
-    baca.script_down(),
-    baca.register(-20),
+    baca.accent(
+        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        ),
+    baca.script_down(
+        selector=baca.leaves(exclude=baca.enums.HIDDEN),
+        ),
+    baca.register(
+        -20,
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
     'v4',
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(
+        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        ),
     baca.beam_positions(5.5),
-    baca.register(-4),
+    baca.register(
+        -4,
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )

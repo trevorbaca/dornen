@@ -12,8 +12,15 @@ accumulator = dornen.MusicAccumulator(dornen.ScoreTemplate())
 design = dornen.design_1(start=28)
 assert len(design) == 22, len(design)
 
-lower_register = baca.register(-18)
-middle_register = baca.register(-12, 0)
+lower_register = baca.register(
+    -18,
+    selector=baca.plts(exclude=baca.enums.HIDDEN),
+    )
+middle_register = baca.register(
+    -12,
+    0,
+    selector=baca.plts(exclude=baca.enums.HIDDEN),
+    )
 
 accumulator(
     'v1',
@@ -226,7 +233,10 @@ maker(
 
 maker(
     ('v2', (1, 10)),
-    baca.beam_positions(-7),
+    baca.beam_positions(
+        -7,
+        selector=baca.leaves(exclude=baca.enums.HIDDEN),
+        ),
     lower_register,
     )
 
@@ -239,5 +249,7 @@ maker(
 maker(
     ('v3', (1, 22)),
     baca.beam_positions(4),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(
+        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        ),
     )

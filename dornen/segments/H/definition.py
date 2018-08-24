@@ -186,7 +186,10 @@ maker(
 
 maker(
     ('v1', (9, 18)),
-    baca.beam_positions(8),
+    baca.beam_positions(
+        8,
+        selector=baca.leaves(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(

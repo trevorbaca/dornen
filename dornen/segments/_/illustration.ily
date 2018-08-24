@@ -475,8 +475,26 @@ i_Guitar_Music_Voice_I = {                                                     %
 
     }
 
-    % [_ Guitar_Music_Voice_I measure 15]                                      %! _comment_measure_numbers
-    s1 * 1/32                                                                  %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Guitar_Music_Voice_I"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [_ Guitar_Music_Voice_I measure 15]                              %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c''1 * 1/32                                                        %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Guitar_Rest_Voice_I"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [_ Guitar_Rest_Voice_I measure 15]                               %! _comment_measure_numbers
+            s1 * 1/32                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [_ Guitar_Music_Voice_I measure 16]                                      %! _comment_measure_numbers
     s1 * 1/32                                                                  %! _make_measure_silences
@@ -843,8 +861,26 @@ i_Guitar_Music_Voice_II = {                                                    %
 
     }
 
-    % [_ Guitar_Music_Voice_II measure 17]                                     %! _comment_measure_numbers
-    s1 * 9/64                                                                  %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Guitar_Music_Voice_II"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [_ Guitar_Music_Voice_II measure 17]                             %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c''1 * 9/64                                                        %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Guitar_Rest_Voice_II"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [_ Guitar_Rest_Voice_II measure 17]                              %! _comment_measure_numbers
+            s1 * 9/64                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [_ Guitar_Music_Voice_II measure 18]                                     %! _comment_measure_numbers
     s1 * 7/64                                                                  %! _make_measure_silences
@@ -1319,8 +1355,26 @@ i_Guitar_Music_Voice_IV = {                                                    %
 
     }
 
-    % [_ Guitar_Music_Voice_IV measure 18]                                     %! _comment_measure_numbers
-    s1 * 7/64                                                                  %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Guitar_Music_Voice_IV"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [_ Guitar_Music_Voice_IV measure 18]                             %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c''1 * 7/64                                                        %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Guitar_Rest_Voice_IV"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [_ Guitar_Rest_Voice_IV measure 18]                              %! _comment_measure_numbers
+            s1 * 7/64                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [_ Guitar_Music_Voice_IV measure 19]                                     %! _comment_measure_numbers
     s1 * 3/16                                                                  %! _make_measure_silences

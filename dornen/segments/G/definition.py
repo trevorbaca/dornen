@@ -133,7 +133,11 @@ maker(
 # ovoid
 maker(
     ('v2', (1, 12)),
-    baca.register(-20, 4),
+    baca.register(
+        -20,
+        4,
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 # delicatissimo
@@ -145,5 +149,9 @@ maker(
 maker(
     ('v4', (1, 12)),
     baca.beam_positions(8),
-    baca.register(-18, 6),
+    baca.register(
+        -18,
+        6,
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )

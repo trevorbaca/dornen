@@ -1616,8 +1616,26 @@ A_Guitar_Music_Voice_II = {                                                    %
 
     }
 
-    % [A Guitar_Music_Voice_II measure 34 / measure 15]                        %! _comment_measure_numbers
-    s1 * 11/16                                                                 %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Guitar_Music_Voice_II"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Guitar_Music_Voice_II measure 34 / measure 15]                %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c''1 * 11/16                                                       %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Guitar_Rest_Voice_II"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Guitar_Rest_Voice_II measure 34 / measure 15]                 %! _comment_measure_numbers
+            s1 * 11/16                                                         %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
 }                                                                              %! extern
 

@@ -7,12 +7,12 @@ E_Global_Skips = {                                                             %
     s1 * 3/32                                                                  %! _make_global_skips(1)
 %@% ^ \baca-stage-number-markup "[E.1]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'48'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% - \baca-start-lmi-left-only "0"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% - \baca-start-mn-left-only "120"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% - \baca-start-lmi-left-only "0"                                            %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
+%@% - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "120"                                           %! MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 %@% - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
 %@% - \baca-metronome-mark-spanner-left-text 3 0 1 "66"                        %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
@@ -26,15 +26,15 @@ E_Global_Skips = {                                                             %
     s1 * 1/16                                                                  %! _make_global_skips(1)
 %@% ^ \baca-stage-number-markup "[E.2]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'48'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
-%@% - \baca-start-lmi-left-only "1"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% - \baca-start-lmn-left-only "2"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% - \baca-start-mn-left-only "121"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-lmi-left-only "1"                                            %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
+%@% - \baca-start-lmn-left-only "2"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "121"                                           %! MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 
     % [E Global_Skips measure 122 / measure 3]                                 %! _comment_measure_numbers
     \time 3/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -42,15 +42,15 @@ E_Global_Skips = {                                                             %
     s1 * 3/16                                                                  %! _make_global_skips(1)
 %@% ^ \baca-stage-number-markup "[E.3]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'49'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
-%@% - \baca-start-lmi-left-only "2"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% - \baca-start-lmn-left-only "3"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% - \baca-start-mn-left-only "122"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-lmi-left-only "2"                                            %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
+%@% - \baca-start-lmn-left-only "3"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "122"                                           %! MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 
     % [E Global_Skips measure 123 / measure 4]                                 %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -59,15 +59,15 @@ E_Global_Skips = {                                                             %
     s1 * 3/20                                                                  %! _make_global_skips(1)
 %@% ^ \baca-stage-number-markup "[E.4]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'50'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
-%@% - \baca-start-lmi-left-only "3"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% - \baca-start-lmn-left-only "4"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% - \baca-start-mn-left-only "123"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-lmi-left-only "3"                                            %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
+%@% - \baca-start-lmn-left-only "4"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "123"                                           %! MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 
     % [E Global_Skips measure 124 / measure 5]                                 %! _comment_measure_numbers
     \time 3/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -75,15 +75,15 @@ E_Global_Skips = {                                                             %
     s1 * 3/32                                                                  %! _make_global_skips(1)
 %@% ^ \baca-stage-number-markup "[E.5]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'51'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
-%@% - \baca-start-lmi-left-only "4"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% - \baca-start-lmn-left-only "5"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% - \baca-start-mn-left-only "124"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-lmi-left-only "4"                                            %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
+%@% - \baca-start-lmn-left-only "5"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "124"                                           %! MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 
     % [E Global_Skips measure 125 / measure 6]                                 %! _comment_measure_numbers
     \time 1/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -91,15 +91,15 @@ E_Global_Skips = {                                                             %
     s1 * 1/16                                                                  %! _make_global_skips(1)
 %@% ^ \baca-stage-number-markup "[E.6]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'52'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
-%@% - \baca-start-lmi-left-only "5"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% - \baca-start-lmn-left-only "6"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% - \baca-start-mn-left-only "125"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-lmi-left-only "5"                                            %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
+%@% - \baca-start-lmn-left-only "6"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "125"                                           %! MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 
     % [E Global_Skips measure 126 / measure 7]                                 %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -108,15 +108,15 @@ E_Global_Skips = {                                                             %
     s1 * 3/20                                                                  %! _make_global_skips(1)
 %@% ^ \baca-stage-number-markup "[E.7]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'52'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
-%@% - \baca-start-lmi-left-only "6"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% - \baca-start-lmn-left-only "7"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% - \baca-start-mn-left-only "126"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-lmi-left-only "6"                                            %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
+%@% - \baca-start-lmn-left-only "7"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "126"                                           %! MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 
     % [E Global_Skips measure 127 / measure 8]                                 %! _comment_measure_numbers
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -124,15 +124,15 @@ E_Global_Skips = {                                                             %
     s1 * 3/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-stage-number-markup "[E.8]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'53'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
-%@% - \baca-start-lmi-left-only "7"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% - \baca-start-lmn-left-only "8"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% - \baca-start-mn-left-only "127"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-lmi-left-only "7"                                            %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
+%@% - \baca-start-lmn-left-only "8"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "127"                                           %! MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 
     % [E Global_Skips measure 128 / measure 9]                                 %! _comment_measure_numbers
     \time 30/64                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -140,16 +140,16 @@ E_Global_Skips = {                                                             %
     s1 * 15/32                                                                 %! _make_global_skips(1)
 %@% ^ \baca-stage-number-markup "[E.9]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'56'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
     \stopTextSpan                                                              %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(1)
-%@% - \baca-start-lmi-left-only "8"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% - \baca-start-lmn-left-only "9"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% - \baca-start-mn-left-only "128"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% - \baca-start-lmi-left-only "8"                                            %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
+%@% - \baca-start-lmn-left-only "9"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "128"                                           %! MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 %@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% - \baca-metronome-mark-spanner-left-text 3 0 1 "44"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
@@ -163,15 +163,15 @@ E_Global_Skips = {                                                             %
     s1 * 5/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-stage-number-markup "[E.10]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'01'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
-%@% - \baca-start-lmi-left-only "9"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% - \baca-start-lmn-left-only "10"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% - \baca-start-mn-left-only "129"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-lmi-left-only "9"                                            %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
+%@% - \baca-start-lmn-left-only "10"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "129"                                           %! MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 
     % [E Global_Skips measure 130 / measure 11]                                %! _comment_measure_numbers
     \time 50/64                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -179,15 +179,15 @@ E_Global_Skips = {                                                             %
     s1 * 25/32                                                                 %! _make_global_skips(1)
 %@% ^ \baca-stage-number-markup "[E.11]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'08'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
-%@% - \baca-start-lmi-left-only "10"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% - \baca-start-lmn-left-only "11"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% - \baca-start-mn-left-only "130"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-lmi-left-only "10"                                           %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
+%@% - \baca-start-lmn-left-only "11"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "130"                                           %! MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 
     % [E Global_Skips measure 131 / measure 12]                                %! _comment_measure_numbers
     \time 60/64                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -195,15 +195,15 @@ E_Global_Skips = {                                                             %
     s1 * 15/16                                                                 %! _make_global_skips(1)
 %@% ^ \baca-stage-number-markup "[E.12]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'17'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
-%@% - \baca-start-lmi-both "11" "12"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
-%@% - \baca-start-lmn-both "12" "13"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
-%@% - \baca-start-mn-both "131" "132"                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-lmi-both "11" "12"                                           %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
+%@% - \baca-start-lmn-both "12" "13"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-both "131" "132"                                          %! MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 
     % [E Global_Skips measure 132 / measure 13]                                %! _comment_measure_numbers
     \time 125/64                                                               %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -211,9 +211,9 @@ E_Global_Skips = {                                                             %
     s1 * 125/64                                                                %! _make_global_skips(1)
 %@% ^ \baca-stage-number-markup "[E.13]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'27'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
     \stopTextSpan                                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(4)
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line

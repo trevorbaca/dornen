@@ -674,7 +674,9 @@ i_Guitar_Music_Voice_II = {                                                    %
 
                 af'16
                 ]                                                              %! ACC_1
+
             }
+
             \once \override Beam.positions = #'(-10 . -10)                     %! baca_beam_positions:OverrideCommand(1)
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! baca_time_signature_extra_offset:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                         %! _extend_beam
@@ -724,7 +726,9 @@ i_Guitar_Music_Voice_II = {                                                    %
 
                 c''16
                 ]                                                              %! ACC_1
+
             }
+
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! baca_time_signature_extra_offset:OverrideCommand(1)
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
@@ -770,7 +774,9 @@ i_Guitar_Music_Voice_II = {                                                    %
 
                 ef''16
                 ]                                                              %! ACC_1
+
             }
+
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! baca_time_signature_extra_offset:OverrideCommand(1)
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
@@ -817,7 +823,9 @@ i_Guitar_Music_Voice_II = {                                                    %
 
                 e''16
                 ]                                                              %! ACC_1
+
             }
+
             \once \override Beam.positions = #'(-10 . -10)                     %! baca_beam_positions:OverrideCommand(1)
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! baca_time_signature_extra_offset:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                         %! _extend_beam
@@ -873,7 +881,9 @@ i_Guitar_Music_Voice_II = {                                                    %
 
                 ef''16
                 ]                                                              %! ACC_1
+
             }
+
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! baca_time_signature_extra_offset:OverrideCommand(1)
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
@@ -928,7 +938,9 @@ i_Guitar_Music_Voice_II = {                                                    %
 
                 cs''16
                 ]                                                              %! ACC_1
+
             }
+
             \once \override Beam.positions = #'(-10 . -10)                     %! baca_beam_positions:OverrideCommand(1)
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! baca_time_signature_extra_offset:OverrideCommand(1)
             \set stemLeftBeamCount = 0                                         %! _extend_beam
@@ -971,7 +983,9 @@ i_Guitar_Music_Voice_II = {                                                    %
 
                 f''16
                 ]                                                              %! ACC_1
+
             }
+
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)    %! baca_time_signature_extra_offset:OverrideCommand(1)
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam

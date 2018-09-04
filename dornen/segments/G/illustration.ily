@@ -407,10 +407,10 @@ G_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 ef'16
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 fs'16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -457,14 +457,14 @@ G_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 a'16
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 g'16
 
                 bf'16
 
                 ef''16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -508,14 +508,14 @@ G_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 ef''16
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 c''16
 
                 d''16
 
                 g''16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 

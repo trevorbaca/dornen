@@ -662,7 +662,7 @@ i_Guitar_Music_Voice_II = {                                                    %
             %@%                 ]                                              %! FIGURE_NAME_MARKUP
             %@%             }                                                  %! FIGURE_NAME_MARKUP
             %@%     }                                                          %! FIGURE_NAME_MARKUP
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 d'16
 
@@ -673,7 +673,7 @@ i_Guitar_Music_Voice_II = {                                                    %
                 a'16
 
                 af'16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -716,7 +716,7 @@ i_Guitar_Music_Voice_II = {                                                    %
             %@%                 ]                                              %! FIGURE_NAME_MARKUP
             %@%             }                                                  %! FIGURE_NAME_MARKUP
             %@%     }                                                          %! FIGURE_NAME_MARKUP
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 g'16
 
@@ -725,7 +725,7 @@ i_Guitar_Music_Voice_II = {                                                    %
                 af'16
 
                 c''16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -766,14 +766,14 @@ i_Guitar_Music_Voice_II = {                                                    %
             %@%                 ]                                              %! FIGURE_NAME_MARKUP
             %@%             }                                                  %! FIGURE_NAME_MARKUP
             %@%     }                                                          %! FIGURE_NAME_MARKUP
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 fs'16
 
                 d''16
 
                 ef''16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -815,14 +815,14 @@ i_Guitar_Music_Voice_II = {                                                    %
             %@%                 ]                                              %! FIGURE_NAME_MARKUP
             %@%             }                                                  %! FIGURE_NAME_MARKUP
             %@%     }                                                          %! FIGURE_NAME_MARKUP
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 d''16
 
                 ef''16
 
                 e''16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -865,7 +865,7 @@ i_Guitar_Music_Voice_II = {                                                    %
             %@%                 ]                                              %! FIGURE_NAME_MARKUP
             %@%             }                                                  %! FIGURE_NAME_MARKUP
             %@%     }                                                          %! FIGURE_NAME_MARKUP
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 cs''16
 
@@ -880,7 +880,7 @@ i_Guitar_Music_Voice_II = {                                                    %
                 g''16
 
                 ef''16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -922,7 +922,7 @@ i_Guitar_Music_Voice_II = {                                                    %
             %@%                 ]                                              %! FIGURE_NAME_MARKUP
             %@%             }                                                  %! FIGURE_NAME_MARKUP
             %@%     }                                                          %! FIGURE_NAME_MARKUP
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 g''16
 
@@ -937,7 +937,7 @@ i_Guitar_Music_Voice_II = {                                                    %
                 a''16
 
                 cs''16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -977,12 +977,12 @@ i_Guitar_Music_Voice_II = {                                                    %
             %@%                 ]                                              %! FIGURE_NAME_MARKUP
             %@%             }                                                  %! FIGURE_NAME_MARKUP
             %@%     }                                                          %! FIGURE_NAME_MARKUP
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 e''16
 
                 f''16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 

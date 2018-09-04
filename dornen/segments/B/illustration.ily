@@ -1942,10 +1942,10 @@ B_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 e'16
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 f'16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -1990,10 +1990,10 @@ B_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 fs'16
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 bf'16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -2041,10 +2041,10 @@ B_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 e'16
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 f'16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -2089,10 +2089,10 @@ B_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 fs'16
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 bf'16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -2140,10 +2140,10 @@ B_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 e'16
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 f'16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -2188,10 +2188,10 @@ B_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 fs'16
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 bf'16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -2233,10 +2233,10 @@ B_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 bf'16
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 b'16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -2280,10 +2280,10 @@ B_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 ef'16
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 d'16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -2324,10 +2324,10 @@ B_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 a'16
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 cs''16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -2368,10 +2368,10 @@ B_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 d'16
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 f'16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -2412,10 +2412,10 @@ B_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 cs'16
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 e'16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -2459,10 +2459,10 @@ B_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 fs'16
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 a'16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 
@@ -2506,10 +2506,10 @@ B_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 af'16
-                [                                                              %! ACC_1
+                [                                                              %! AcciaccaturaSpecifier
 
                 b'16
-                ]                                                              %! ACC_1
+                ]                                                              %! AcciaccaturaSpecifier
 
             }
 

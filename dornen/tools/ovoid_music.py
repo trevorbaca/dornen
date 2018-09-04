@@ -142,11 +142,13 @@ def ovoid_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     c'16
-                                    [                                                      %! ACC_1
+                                    [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
                                     bf'16
-                                    ]                                                      %! ACC_1
+                                    ]                                                      %! AcciaccaturaSpecifier
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0
                                 f'32
@@ -165,11 +167,13 @@ def ovoid_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     c'16
-                                    [                                                      %! ACC_1
+                                    [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
                                     bf'16
-                                    ]                                                      %! ACC_1
+                                    ]                                                      %! AcciaccaturaSpecifier
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 1
                                 f'32
@@ -185,11 +189,13 @@ def ovoid_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     fs'16
-                                    [                                                      %! ACC_1
+                                    [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
                                     b'16
-                                    ]                                                      %! ACC_1
+                                    ]                                                      %! AcciaccaturaSpecifier
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0
                                 d'32
@@ -208,11 +214,13 @@ def ovoid_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     fs'16
-                                    [                                                      %! ACC_1
+                                    [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
                                     b'16
-                                    ]                                                      %! ACC_1
+                                    ]                                                      %! AcciaccaturaSpecifier
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 1
                                 d'32
@@ -228,11 +236,13 @@ def ovoid_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     ef'16
-                                    [                                                      %! ACC_1
+                                    [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
                                     a'16
-                                    ]                                                      %! ACC_1
+                                    ]                                                      %! AcciaccaturaSpecifier
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0
                                 af'!32
@@ -251,11 +261,13 @@ def ovoid_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     ef'16
-                                    [                                                      %! ACC_1
+                                    [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
                                     a'16
-                                    ]                                                      %! ACC_1
+                                    ]                                                      %! AcciaccaturaSpecifier
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 1
                                 af'!32
@@ -271,11 +283,13 @@ def ovoid_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     b'16
-                                    [                                                      %! ACC_1
+                                    [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
                                     d'16
-                                    ]                                                      %! ACC_1
+                                    ]                                                      %! AcciaccaturaSpecifier
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0
                                 f'32
@@ -294,11 +308,13 @@ def ovoid_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     b'16
-                                    [                                                      %! ACC_1
+                                    [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
                                     d'16
-                                    ]                                                      %! ACC_1
+                                    ]                                                      %! AcciaccaturaSpecifier
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 1
                                 f'32

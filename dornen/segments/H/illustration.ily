@@ -1136,7 +1136,9 @@ H_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 fs''16
+
             }
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             a''16
@@ -1158,7 +1160,9 @@ H_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 af''16
+
             }
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             g''16
@@ -1166,7 +1170,9 @@ H_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 f''16
+
             }
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             e''16

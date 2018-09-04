@@ -411,7 +411,9 @@ G_Guitar_Music_Voice_II = {                                                    %
 
                 fs'16
                 ]                                                              %! ACC_1
+
             }
+
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 0
             a32
@@ -463,7 +465,9 @@ G_Guitar_Music_Voice_II = {                                                    %
 
                 ef''16
                 ]                                                              %! ACC_1
+
             }
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             d''32
@@ -512,7 +516,9 @@ G_Guitar_Music_Voice_II = {                                                    %
 
                 g''16
                 ]                                                              %! ACC_1
+
             }
+
             \set stemLeftBeamCount = 3                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             bf''!32
@@ -822,7 +828,9 @@ G_Guitar_Music_Voice_IV = {                                                    %
             \acciaccatura {
 
                 e'16
+
             }
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             bf!16
@@ -865,7 +873,9 @@ G_Guitar_Music_Voice_IV = {                                                    %
             \acciaccatura {
 
                 g'16
+
             }
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             b16
@@ -873,7 +883,9 @@ G_Guitar_Music_Voice_IV = {                                                    %
             \acciaccatura {
 
                 cs'16
+
             }
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             c'16
@@ -881,7 +893,9 @@ G_Guitar_Music_Voice_IV = {                                                    %
             \acciaccatura {
 
                 ef'16
+
             }
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             f'16
@@ -889,7 +903,9 @@ G_Guitar_Music_Voice_IV = {                                                    %
             \acciaccatura {
 
                 af'16
+
             }
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             a'16
@@ -897,7 +913,9 @@ G_Guitar_Music_Voice_IV = {                                                    %
             \acciaccatura {
 
                 bf'16
+
             }
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             e'16
@@ -905,7 +923,9 @@ G_Guitar_Music_Voice_IV = {                                                    %
             \acciaccatura {
 
                 f'16
+
             }
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             af'!16
@@ -913,7 +933,9 @@ G_Guitar_Music_Voice_IV = {                                                    %
             \acciaccatura {
 
                 a'16
+
             }
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             bf'!16
@@ -921,7 +943,9 @@ G_Guitar_Music_Voice_IV = {                                                    %
             \acciaccatura {
 
                 e''16
+
             }
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             ef''!16
@@ -929,7 +953,9 @@ G_Guitar_Music_Voice_IV = {                                                    %
             \acciaccatura {
 
                 g''16
+
             }
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             b'16
@@ -937,7 +963,9 @@ G_Guitar_Music_Voice_IV = {                                                    %
             \acciaccatura {
 
                 cs''16
+
             }
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             c''16
@@ -1025,7 +1053,9 @@ G_Guitar_Music_Voice_IV = {                                                    %
             \acciaccatura {
 
                 a''16
+
             }
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             ef''!16
@@ -1033,7 +1063,9 @@ G_Guitar_Music_Voice_IV = {                                                    %
             \acciaccatura {
 
                 c'''16
+
             }
+
             \set stemLeftBeamCount = 2                                         %! _extend_beam
             \set stemRightBeamCount = 2                                        %! _extend_beam
             d'''16

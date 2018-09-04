@@ -134,13 +134,15 @@ def passepied_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     cs'16
-                                    [                                                      %! ACC_1
+                                    [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
                                     c'16
             <BLANKLINE>
                                     bf'16
-                                    ]                                                      %! ACC_1
+                                    ]                                                      %! AcciaccaturaSpecifier
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 f'32
                                 [
                                 ]
@@ -153,13 +155,15 @@ def passepied_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     af'16
-                                    [                                                      %! ACC_1
+                                    [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
                                     fs'16
             <BLANKLINE>
                                     b'16
-                                    ]                                                      %! ACC_1
+                                    ]                                                      %! AcciaccaturaSpecifier
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 d'32
                                 [
                                 ]
@@ -172,13 +176,15 @@ def passepied_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     e'16
-                                    [                                                      %! ACC_1
+                                    [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
                                     ef'16
             <BLANKLINE>
                                     a'16
-                                    ]                                                      %! ACC_1
+                                    ]                                                      %! AcciaccaturaSpecifier
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 af'!32
                                 [
                                 ]
@@ -191,13 +197,15 @@ def passepied_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     fs'16
-                                    [                                                      %! ACC_1
+                                    [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
                                     b'16
             <BLANKLINE>
                                     d'16
-                                    ]                                                      %! ACC_1
+                                    ]                                                      %! AcciaccaturaSpecifier
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 f'32
                                 [
                                 ]
@@ -376,13 +384,15 @@ def passepied_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     cs'16
-                                    [                                                      %! ACC_1
+                                    [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
                                     c'16
             <BLANKLINE>
                                     bf'16
-                                    ]                                                      %! ACC_1
+                                    ]                                                      %! AcciaccaturaSpecifier
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
                                 f'32
@@ -437,13 +447,15 @@ def passepied_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     af'16
-                                    [                                                      %! ACC_1
+                                    [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
                                     fs'16
             <BLANKLINE>
                                     b'16
-                                    ]                                                      %! ACC_1
+                                    ]                                                      %! AcciaccaturaSpecifier
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
                                 d'32
@@ -498,13 +510,15 @@ def passepied_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     e'16
-                                    [                                                      %! ACC_1
+                                    [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
                                     ef'16
             <BLANKLINE>
                                     a'16
-                                    ]                                                      %! ACC_1
+                                    ]                                                      %! AcciaccaturaSpecifier
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
                                 g'32

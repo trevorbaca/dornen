@@ -1,7 +1,7 @@
 import abjad
 
 
-class DesignChecker(abjad.AbjadObject):
+class DesignChecker(object):
     """
     Design-checker.
     """

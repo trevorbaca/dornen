@@ -1418,8 +1418,8 @@ C_Guitar_Music_Voice_III = {                                                   %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
             [                                                                  %! _extend_beam
-            (                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -1440,6 +1440,7 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             a'64
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1448,12 +1449,11 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             af'!64
-            )                                                                  %! baca_slur:SpannerCommand
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             d''64
-            (                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -1462,12 +1462,11 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             ef''!64
-            )                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             fs'!64
-            (                                                                  %! baca_slur:SpannerCommand
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1477,6 +1476,7 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             g'64
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -1489,7 +1489,7 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             ef'!64
-            )                                                                  %! baca_slur:SpannerCommand
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1520,7 +1520,7 @@ C_Guitar_Music_Voice_III = {                                                   %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            (                                                                  %! baca_slur:SpannerCommand
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -1537,6 +1537,7 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             fs'!64
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1546,22 +1547,20 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             g'64
-            )                                                                  %! baca_slur:SpannerCommand
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             d''64
-            (                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             cs''!64
-            )                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             ef''!64
-            (                                                                  %! baca_slur:SpannerCommand
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1570,6 +1569,7 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             fs''!64
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -1578,7 +1578,7 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             af''!64
-            )                                                                  %! baca_slur:SpannerCommand
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1613,7 +1613,7 @@ C_Guitar_Music_Voice_III = {                                                   %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            (                                                                  %! baca_slur:SpannerCommand
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -1626,6 +1626,7 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             ef'!64
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1634,7 +1635,7 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             fs'!64
-            )                                                                  %! baca_slur:SpannerCommand
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -1643,7 +1644,7 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             af'!64
-            (                                                                  %! baca_slur:SpannerCommand
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1653,6 +1654,7 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             f''64
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -1673,8 +1675,8 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             fs''!64
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
             ]                                                                  %! _extend_beam
-            )                                                                  %! baca_slur:SpannerCommand
 
         }
 
@@ -1709,7 +1711,6 @@ C_Guitar_Music_Voice_III = {                                                   %
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
             [                                                                  %! _extend_beam
-            (                                                                  %! baca_slur:SpannerCommand
 
         }
 
@@ -1719,12 +1720,11 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             f''64
-            )                                                                  %! baca_slur:SpannerCommand
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             b'64
-            (                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -1737,12 +1737,11 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             f''64
-            )                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             a'64
-            (                                                                  %! baca_slur:SpannerCommand
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1751,6 +1750,7 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             af'!64
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -1767,7 +1767,7 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             fs'!64
-            )                                                                  %! baca_slur:SpannerCommand
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1799,7 +1799,7 @@ C_Guitar_Music_Voice_III = {                                                   %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            (                                                                  %! baca_slur:SpannerCommand
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -1820,6 +1820,7 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             a'64
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1828,12 +1829,11 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             af'!64
-            )                                                                  %! baca_slur:SpannerCommand
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             d''64
-            (                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -1842,12 +1842,11 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             ef''!64
-            )                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             fs''!64
-            (                                                                  %! baca_slur:SpannerCommand
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1857,6 +1856,7 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             g''64
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -1869,7 +1869,7 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             ef''!64
-            )                                                                  %! baca_slur:SpannerCommand
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1903,7 +1903,7 @@ C_Guitar_Music_Voice_III = {                                                   %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            (                                                                  %! baca_slur:SpannerCommand
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -1920,6 +1920,7 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             fs'!64
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1929,22 +1930,20 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             g'64
-            )                                                                  %! baca_slur:SpannerCommand
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             d''64
-            (                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             cs''!64
-            )                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 1                                        %! _extend_beam
             ef''!64
-            (                                                                  %! baca_slur:SpannerCommand
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1953,6 +1952,7 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 1                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
             fs''!64
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 4                                        %! _extend_beam
@@ -1961,8 +1961,8 @@ C_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 4                                         %! _extend_beam
             \set stemRightBeamCount = 0                                        %! _extend_beam
             af''!64
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
             ]                                                                  %! _extend_beam
-            )                                                                  %! baca_slur:SpannerCommand
 
         }
 

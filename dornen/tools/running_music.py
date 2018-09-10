@@ -9,6 +9,9 @@ def running_music():
 
     >>> import dornen
 
+    ..  todo:: Implement tuplet + 1 / tuplet - 1 selector to slur figures as
+        originally intended.
+
     ..  container:: example
 
         Makes one-stage running figures:
@@ -118,9 +121,8 @@ def running_music():
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
                                 fs'!64
+                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
                                 [
-                                (                                                          %! baca_slur:SpannerCommand
-                                (                                                          %! baca_slur:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -145,9 +147,8 @@ def running_music():
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 0
                                 c'64
+                                )                                                          %! baca_slur:SpannerIndicatorCommand(2)
                                 ]
-                                )                                                          %! baca_slur:SpannerCommand
-                                )                                                          %! baca_slur:SpannerCommand
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -167,9 +168,8 @@ def running_music():
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
                                 bf'!64
+                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
                                 [
-                                (                                                          %! baca_slur:SpannerCommand
-                                (                                                          %! baca_slur:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -190,9 +190,8 @@ def running_music():
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 0
                                 f'64
+                                )                                                          %! baca_slur:SpannerIndicatorCommand(2)
                                 ]
-                                )                                                          %! baca_slur:SpannerCommand
-                                )                                                          %! baca_slur:SpannerCommand
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -310,7 +309,6 @@ def running_music():
                                 \set stemRightBeamCount = 4
                                 e'64
                                 [
-                                (                                                          %! baca_slur:SpannerCommand
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -320,12 +318,11 @@ def running_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
                                 fs'!64
-                                )                                                          %! baca_slur:SpannerCommand
+                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 d'64
-                                (                                                          %! baca_slur:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -342,12 +339,11 @@ def running_music():
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 af'!64
-                                )                                                          %! baca_slur:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 1
                                 c'64
-                                (                                                          %! baca_slur:SpannerCommand
+                                )                                                          %! baca_slur:SpannerIndicatorCommand(2)
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -357,7 +353,6 @@ def running_music():
                                 \set stemRightBeamCount = 0
                                 b'64
                                 ]
-                                )                                                          %! baca_slur:SpannerCommand
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -368,8 +363,8 @@ def running_music():
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
                                 fs'!64
+                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
                                 [
-                                (                                                          %! baca_slur:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -394,6 +389,7 @@ def running_music():
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 1
                                 c'64
+                                )                                                          %! baca_slur:SpannerIndicatorCommand(2)
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -402,8 +398,6 @@ def running_music():
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 1
                                 b'64
-                                )                                                          %! baca_slur:SpannerCommand
-                                (                                                          %! baca_slur:SpannerCommand
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -413,6 +407,7 @@ def running_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
                                 bf'!64
+                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -433,8 +428,8 @@ def running_music():
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 0
                                 f'64
+                                )                                                          %! baca_slur:SpannerIndicatorCommand(2)
                                 ]
-                                )                                                          %! baca_slur:SpannerCommand
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -445,7 +440,6 @@ def running_music():
                                 \set stemRightBeamCount = 4
                                 b'64
                                 [
-                                (                                                          %! baca_slur:SpannerCommand
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -455,12 +449,11 @@ def running_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
                                 bf'!64
-                                )                                                          %! baca_slur:SpannerCommand
+                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 g'64
-                                (                                                          %! baca_slur:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -473,12 +466,11 @@ def running_music():
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 c'64
-                                )                                                          %! baca_slur:SpannerCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 1
                                 f'64
-                                (                                                          %! baca_slur:SpannerCommand
+                                )                                                          %! baca_slur:SpannerIndicatorCommand(2)
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -488,7 +480,6 @@ def running_music():
                                 \set stemRightBeamCount = 0
                                 e'64
                                 ]
-                                )                                                          %! baca_slur:SpannerCommand
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -516,17 +507,21 @@ def running_music():
                 time_treatments=[-1, -2],
                 ),
             ),
+#        baca.new(
+#            baca.slur(),
+#            map=baca.tuplets()[:1].rleaves().group().nontrivial(),
+#            ),
+#        baca.new(
+#            baca.slur(),
+#            map=baca.tuplets()[1:-1].leaves()[1:-1].group().nontrivial(),
+#            ),
+#        baca.new(
+#            baca.slur(),
+#            map=baca.tuplets()[-1:].lleaves().group().nontrivial(),
+#            ),
         baca.new(
             baca.slur(),
-            map=baca.tuplets()[:1].rleaves().group().nontrivial(),
-            ),
-        baca.new(
-            baca.slur(),
-            map=baca.tuplets()[1:-1].leaves()[1:-1].group().nontrivial(),
-            ),
-        baca.new(
-            baca.slur(),
-            map=baca.tuplets()[-1:].lleaves().group().nontrivial(),
+            map=baca.tuplets().nontrivial(),
             ),
         color_unregistered_pitches=True,
         )

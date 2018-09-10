@@ -1245,8 +1245,8 @@ i_Guitar_Music_Voice_IV = {                                                    %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
             [
-            (                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
@@ -1259,7 +1259,7 @@ i_Guitar_Music_Voice_IV = {                                                    %
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a'64
-            (                                                                  %! baca_slur:SpannerCommand
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1269,7 +1269,7 @@ i_Guitar_Music_Voice_IV = {                                                    %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             ef'!64
-            )                                                                  %! baca_slur:SpannerCommand
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
@@ -1282,8 +1282,8 @@ i_Guitar_Music_Voice_IV = {                                                    %
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
             d'64
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
             ]
-            )                                                                  %! baca_slur:SpannerCommand
 
         }
 
@@ -1317,8 +1317,8 @@ i_Guitar_Music_Voice_IV = {                                                    %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
             [
-            (                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
@@ -1327,7 +1327,7 @@ i_Guitar_Music_Voice_IV = {                                                    %
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             g'64
-            (                                                                  %! baca_slur:SpannerCommand
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1337,7 +1337,7 @@ i_Guitar_Music_Voice_IV = {                                                    %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             cs''!64
-            )                                                                  %! baca_slur:SpannerCommand
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
@@ -1398,8 +1398,8 @@ i_Guitar_Music_Voice_IV = {                                                    %
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
             f''64
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
             ]
-            )                                                                  %! baca_slur:SpannerCommand
 
         }
 
@@ -1434,8 +1434,8 @@ i_Guitar_Music_Voice_IV = {                                                    %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
             [
-            (                                                                  %! baca_slur:SpannerCommand
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
@@ -1460,7 +1460,7 @@ i_Guitar_Music_Voice_IV = {                                                    %
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             af'!64
-            (                                                                  %! baca_slur:SpannerCommand
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
 
         }
 
@@ -1470,7 +1470,7 @@ i_Guitar_Music_Voice_IV = {                                                    %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             cs''!64
-            )                                                                  %! baca_slur:SpannerCommand
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
@@ -1483,8 +1483,8 @@ i_Guitar_Music_Voice_IV = {                                                    %
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
             a''64
+            )                                                                  %! baca_slur:SpannerIndicatorCommand(2)
             ]
-            )                                                                  %! baca_slur:SpannerCommand
 
         }
 

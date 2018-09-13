@@ -736,8 +736,6 @@ M_Guitar_Music_Voice_I = {                                                     %
 
             % [M Guitar_Music_Voice_I measure 303 / measure 1]                 %! _comment_measure_numbers
             \override Beam.positions = #'(10 . 10)                             %! baca_beam_positions:OverrideCommand(1)
-            \set stemLeftBeamCount = 0                                         %! _extend_beam
-            \set stemRightBeamCount = 3                                        %! _extend_beam
             \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
         %@% \override GuitarMusicStaff.Clef.color = ##f                        %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -748,11 +746,11 @@ M_Guitar_Music_Voice_I = {                                                     %
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
             ^ \markup { "LH only until rascado! (RH tacet; encourage whisks) ..." } %! baca_markup:IndicatorCommand
             ^ \baca-reapplied-indicator-markup "(“Guitar”)"                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-            [                                                                  %! _extend_beam
+            [
             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)    %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-            \set stemLeftBeamCount = 3                                         %! _extend_beam
-            \set stemRightBeamCount = 1                                        %! _extend_beam
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 1
             cs'!32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
 
@@ -768,16 +766,14 @@ M_Guitar_Music_Voice_I = {                                                     %
         \scaleDurations #'(1 . 1) {
 
             % [M Guitar_Music_Voice_I measure 308 / measure 6]                 %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! _extend_beam
-            \set stemRightBeamCount = 3                                        %! _extend_beam
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 3
             ef'!32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
 
-            \set stemLeftBeamCount = 3                                         %! _extend_beam
-            \set stemRightBeamCount = 0                                        %! _extend_beam
             fs'!32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
-            ]                                                                  %! _extend_beam
+            ]
 
         }
 
@@ -799,15 +795,13 @@ M_Guitar_Music_Voice_I = {                                                     %
         \scaleDurations #'(1 . 1) {
 
             % [M Guitar_Music_Voice_I measure 310 / measure 8]                 %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0                                         %! _extend_beam
-            \set stemRightBeamCount = 3                                        %! _extend_beam
             d'32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
             ^ \markup { "RH reaches for screw ..." }                           %! baca_markup:IndicatorCommand
-            [                                                                  %! _extend_beam
+            [
 
-            \set stemLeftBeamCount = 3                                         %! _extend_beam
-            \set stemRightBeamCount = 1                                        %! _extend_beam
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 1
             cs'!32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
 
@@ -823,16 +817,14 @@ M_Guitar_Music_Voice_I = {                                                     %
         \scaleDurations #'(1 . 1) {
 
             % [M Guitar_Music_Voice_I measure 315 / measure 13]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! _extend_beam
-            \set stemRightBeamCount = 3                                        %! _extend_beam
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 3
             ef'!32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
 
-            \set stemLeftBeamCount = 3                                         %! _extend_beam
-            \set stemRightBeamCount = 0                                        %! _extend_beam
             fs'!32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
-            ]                                                                  %! _extend_beam
+            ]
 
         }
 
@@ -854,15 +846,13 @@ M_Guitar_Music_Voice_I = {                                                     %
         \scaleDurations #'(1 . 1) {
 
             % [M Guitar_Music_Voice_I measure 317 / measure 15]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0                                         %! _extend_beam
-            \set stemRightBeamCount = 3                                        %! _extend_beam
             d'32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
             ^ \markup { "RH places screw on string ..." }                      %! baca_markup:IndicatorCommand
-            [                                                                  %! _extend_beam
+            [
 
-            \set stemLeftBeamCount = 3                                         %! _extend_beam
-            \set stemRightBeamCount = 1                                        %! _extend_beam
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 1
             cs'!32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
 
@@ -878,16 +868,14 @@ M_Guitar_Music_Voice_I = {                                                     %
         \scaleDurations #'(1 . 1) {
 
             % [M Guitar_Music_Voice_I measure 322 / measure 20]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! _extend_beam
-            \set stemRightBeamCount = 3                                        %! _extend_beam
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 3
             ef'!32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
 
-            \set stemLeftBeamCount = 3                                         %! _extend_beam
-            \set stemRightBeamCount = 0                                        %! _extend_beam
             fs'!32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
-            ]                                                                  %! _extend_beam
+            ]
 
         }
 
@@ -909,14 +897,12 @@ M_Guitar_Music_Voice_I = {                                                     %
         \scaleDurations #'(1 . 1) {
 
             % [M Guitar_Music_Voice_I measure 324 / measure 22]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0                                         %! _extend_beam
-            \set stemRightBeamCount = 3                                        %! _extend_beam
             d'32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
-            [                                                                  %! _extend_beam
+            [
 
-            \set stemLeftBeamCount = 3                                         %! _extend_beam
-            \set stemRightBeamCount = 1                                        %! _extend_beam
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 1
             cs'!32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
 
@@ -932,16 +918,14 @@ M_Guitar_Music_Voice_I = {                                                     %
         \scaleDurations #'(1 . 1) {
 
             % [M Guitar_Music_Voice_I measure 329 / measure 27]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! _extend_beam
-            \set stemRightBeamCount = 3                                        %! _extend_beam
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 3
             ef'!32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
 
-            \set stemLeftBeamCount = 3                                         %! _extend_beam
-            \set stemRightBeamCount = 0                                        %! _extend_beam
             fs'!32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
-            ]                                                                  %! _extend_beam
+            ]
 
         }
 
@@ -963,14 +947,12 @@ M_Guitar_Music_Voice_I = {                                                     %
         \scaleDurations #'(1 . 1) {
 
             % [M Guitar_Music_Voice_I measure 331 / measure 29]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0                                         %! _extend_beam
-            \set stemRightBeamCount = 3                                        %! _extend_beam
             d'32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
-            [                                                                  %! _extend_beam
+            [
 
-            \set stemLeftBeamCount = 3                                         %! _extend_beam
-            \set stemRightBeamCount = 1                                        %! _extend_beam
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 1
             cs'!32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
 
@@ -986,16 +968,14 @@ M_Guitar_Music_Voice_I = {                                                     %
         \scaleDurations #'(1 . 1) {
 
             % [M Guitar_Music_Voice_I measure 336 / measure 34]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! _extend_beam
-            \set stemRightBeamCount = 3                                        %! _extend_beam
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 3
             ef'!32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
 
-            \set stemLeftBeamCount = 3                                         %! _extend_beam
-            \set stemRightBeamCount = 0                                        %! _extend_beam
             fs'!32.
             - \tenuto                                                          %! baca_tenuto:IndicatorCommand
-            ]                                                                  %! _extend_beam
+            ]
 
         }
 
@@ -1133,8 +1113,8 @@ M_Guitar_Music_Voice_II = {                                                    %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
             e''32
-            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
             [
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -1165,8 +1145,8 @@ M_Guitar_Music_Voice_II = {                                                    %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
             e''32
-            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
             [
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -1197,8 +1177,8 @@ M_Guitar_Music_Voice_II = {                                                    %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
             e''32
-            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
             [
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -1229,8 +1209,8 @@ M_Guitar_Music_Voice_II = {                                                    %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
             e''32
-            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
             [
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -1261,8 +1241,8 @@ M_Guitar_Music_Voice_II = {                                                    %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
             e''32
-            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
             [
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -1293,8 +1273,8 @@ M_Guitar_Music_Voice_II = {                                                    %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
             e''32
-            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
             [
+            (                                                                  %! baca_slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -1355,6 +1335,8 @@ M_Guitar_Music_Voice_III = {                                                   %
             % [M Guitar_Music_Voice_III measure 305 / measure 3]               %! _comment_measure_numbers
             c'16
             - \accent                                                          %! baca_accent:IndicatorCommand
+            [
+            ]
 
         }
 
@@ -1370,6 +1352,8 @@ M_Guitar_Music_Voice_III = {                                                   %
             % [M Guitar_Music_Voice_III measure 312 / measure 10]              %! _comment_measure_numbers
             c'16
             - \accent                                                          %! baca_accent:IndicatorCommand
+            [
+            ]
 
         }
 
@@ -1385,6 +1369,8 @@ M_Guitar_Music_Voice_III = {                                                   %
             % [M Guitar_Music_Voice_III measure 319 / measure 17]              %! _comment_measure_numbers
             c'16
             - \accent                                                          %! baca_accent:IndicatorCommand
+            [
+            ]
 
         }
 
@@ -1400,6 +1386,8 @@ M_Guitar_Music_Voice_III = {                                                   %
             % [M Guitar_Music_Voice_III measure 326 / measure 24]              %! _comment_measure_numbers
             c'16
             - \accent                                                          %! baca_accent:IndicatorCommand
+            [
+            ]
 
         }
 
@@ -1415,6 +1403,8 @@ M_Guitar_Music_Voice_III = {                                                   %
             % [M Guitar_Music_Voice_III measure 333 / measure 31]              %! _comment_measure_numbers
             c'16
             - \accent                                                          %! baca_accent:IndicatorCommand
+            [
+            ]
 
         }
 
@@ -1430,6 +1420,8 @@ M_Guitar_Music_Voice_III = {                                                   %
             % [M Guitar_Music_Voice_III measure 340 / measure 38]              %! _comment_measure_numbers
             c'16
             - \accent                                                          %! baca_accent:IndicatorCommand
+            [
+            ]
 
         }
 
@@ -1481,19 +1473,15 @@ M_Guitar_Music_Voice_IV = {                                                    %
         \times 4/5 {
 
             % [M Guitar_Music_Voice_IV measure 304 / measure 2]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             b'16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
-            [                                                                  %! _extend_beam
+            [
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             a'16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 1                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 1
             g''16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
@@ -1510,23 +1498,19 @@ M_Guitar_Music_Voice_IV = {                                                    %
         \times 4/5 {
 
             % [M Guitar_Music_Voice_IV measure 306 / measure 4]                %! _comment_measure_numbers
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 2
             \override Beam.positions = #'(6 . 6)                               %! baca_beam_positions:OverrideCommand(1)
             \override Stem.direction = #up                                     %! baca_stem_up:OverrideCommand(1)
-            \set stemLeftBeamCount = 1                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             ef''!16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             fs''!16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 0                                        %! _extend_beam
             f''16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
-            ]                                                                  %! _extend_beam
+            ]
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
             \revert Stem.direction                                             %! baca_stem_up:OverrideCommand(2)
 
@@ -1543,19 +1527,15 @@ M_Guitar_Music_Voice_IV = {                                                    %
         \times 4/5 {
 
             % [M Guitar_Music_Voice_IV measure 311 / measure 9]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             b'16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
-            [                                                                  %! _extend_beam
+            [
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             a'16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 1                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 1
             g''16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
@@ -1572,23 +1552,19 @@ M_Guitar_Music_Voice_IV = {                                                    %
         \times 4/5 {
 
             % [M Guitar_Music_Voice_IV measure 313 / measure 11]               %! _comment_measure_numbers
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 2
             \override Beam.positions = #'(6 . 6)                               %! baca_beam_positions:OverrideCommand(1)
             \override Stem.direction = #up                                     %! baca_stem_up:OverrideCommand(1)
-            \set stemLeftBeamCount = 1                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             ef''!16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             fs''!16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 0                                        %! _extend_beam
             f''16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
-            ]                                                                  %! _extend_beam
+            ]
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
             \revert Stem.direction                                             %! baca_stem_up:OverrideCommand(2)
 
@@ -1605,19 +1581,15 @@ M_Guitar_Music_Voice_IV = {                                                    %
         \times 4/5 {
 
             % [M Guitar_Music_Voice_IV measure 318 / measure 16]               %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             b'16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
-            [                                                                  %! _extend_beam
+            [
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             a'16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 1                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 1
             g''16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
@@ -1634,23 +1606,19 @@ M_Guitar_Music_Voice_IV = {                                                    %
         \times 4/5 {
 
             % [M Guitar_Music_Voice_IV measure 320 / measure 18]               %! _comment_measure_numbers
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 2
             \override Beam.positions = #'(6 . 6)                               %! baca_beam_positions:OverrideCommand(1)
             \override Stem.direction = #up                                     %! baca_stem_up:OverrideCommand(1)
-            \set stemLeftBeamCount = 1                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             ef''!16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             fs''!16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 0                                        %! _extend_beam
             f''16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
-            ]                                                                  %! _extend_beam
+            ]
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
             \revert Stem.direction                                             %! baca_stem_up:OverrideCommand(2)
 
@@ -1667,19 +1635,15 @@ M_Guitar_Music_Voice_IV = {                                                    %
         \times 4/5 {
 
             % [M Guitar_Music_Voice_IV measure 325 / measure 23]               %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             b'16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
-            [                                                                  %! _extend_beam
+            [
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             a'16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 1                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 1
             g''16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
@@ -1696,23 +1660,19 @@ M_Guitar_Music_Voice_IV = {                                                    %
         \times 4/5 {
 
             % [M Guitar_Music_Voice_IV measure 327 / measure 25]               %! _comment_measure_numbers
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 2
             \override Beam.positions = #'(6 . 6)                               %! baca_beam_positions:OverrideCommand(1)
             \override Stem.direction = #up                                     %! baca_stem_up:OverrideCommand(1)
-            \set stemLeftBeamCount = 1                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             ef''!16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             fs''!16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 0                                        %! _extend_beam
             f''16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
-            ]                                                                  %! _extend_beam
+            ]
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
             \revert Stem.direction                                             %! baca_stem_up:OverrideCommand(2)
 
@@ -1729,19 +1689,15 @@ M_Guitar_Music_Voice_IV = {                                                    %
         \times 4/5 {
 
             % [M Guitar_Music_Voice_IV measure 332 / measure 30]               %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             b'16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
-            [                                                                  %! _extend_beam
+            [
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             a'16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 1                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 1
             g''16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
@@ -1758,23 +1714,19 @@ M_Guitar_Music_Voice_IV = {                                                    %
         \times 4/5 {
 
             % [M Guitar_Music_Voice_IV measure 334 / measure 32]               %! _comment_measure_numbers
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 2
             \override Beam.positions = #'(6 . 6)                               %! baca_beam_positions:OverrideCommand(1)
             \override Stem.direction = #up                                     %! baca_stem_up:OverrideCommand(1)
-            \set stemLeftBeamCount = 1                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             ef''!16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             fs''!16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 0                                        %! _extend_beam
             f''16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
-            ]                                                                  %! _extend_beam
+            ]
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
             \revert Stem.direction                                             %! baca_stem_up:OverrideCommand(2)
 
@@ -1791,19 +1743,15 @@ M_Guitar_Music_Voice_IV = {                                                    %
         \times 4/5 {
 
             % [M Guitar_Music_Voice_IV measure 339 / measure 37]               %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             b'16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
-            [                                                                  %! _extend_beam
+            [
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             a'16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 1                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 1
             g''16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
@@ -1820,23 +1768,19 @@ M_Guitar_Music_Voice_IV = {                                                    %
         \times 4/5 {
 
             % [M Guitar_Music_Voice_IV measure 341 / measure 39]               %! _comment_measure_numbers
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 2
             \override Beam.positions = #'(6 . 6)                               %! baca_beam_positions:OverrideCommand(1)
             \override Stem.direction = #up                                     %! baca_stem_up:OverrideCommand(1)
-            \set stemLeftBeamCount = 1                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             ef''!16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             fs''!16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 0                                        %! _extend_beam
             f''16
             - \staccato                                                        %! baca_staccato:IndicatorCommand
-            ]                                                                  %! _extend_beam
+            ]
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
             \revert Stem.direction                                             %! baca_stem_up:OverrideCommand(2)
 

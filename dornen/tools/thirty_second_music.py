@@ -106,8 +106,6 @@ def thirty_second_music():
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 e'32
-                                [
-                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -150,8 +148,6 @@ def thirty_second_music():
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 b'32
-                                [
-                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -302,7 +298,7 @@ def thirty_second_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
-                                \set stemLeftBeamCount = 0
+                                \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
                                 e'32
                                 [
@@ -344,7 +340,7 @@ def thirty_second_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
-                                \set stemRightBeamCount = 0
+                                \set stemRightBeamCount = 3
                                 b'32
                                 ]
             <BLANKLINE>
@@ -387,7 +383,7 @@ def thirty_second_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
-                                \set stemRightBeamCount = 1
+                                \set stemRightBeamCount = 3
                                 b'32
             <BLANKLINE>
                             }
@@ -424,7 +420,7 @@ def thirty_second_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
-                                \set stemLeftBeamCount = 0
+                                \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
                                 b'32
                                 [
@@ -462,7 +458,7 @@ def thirty_second_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
-                                \set stemRightBeamCount = 0
+                                \set stemRightBeamCount = 3
                                 e'32
                                 ]
             <BLANKLINE>

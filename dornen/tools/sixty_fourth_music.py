@@ -107,8 +107,6 @@ def sixty_fourth_music():
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 e'64
                                 - \staccato                                                %! baca_staccato:IndicatorCommand
-                                [
-                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -159,8 +157,6 @@ def sixty_fourth_music():
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 b'64
                                 - \staccato                                                %! baca_staccato:IndicatorCommand
-                                [
-                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>

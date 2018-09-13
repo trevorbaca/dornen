@@ -330,7 +330,7 @@ def passepied_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
-                                \set stemLeftBeamCount = 0
+                                \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
                                 af'!32
                                 [
@@ -393,7 +393,7 @@ def passepied_music():
             <BLANKLINE>
                                 }
             <BLANKLINE>
-                                \set stemLeftBeamCount = 0
+                                \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
                                 f'32
                                 [
@@ -456,7 +456,7 @@ def passepied_music():
             <BLANKLINE>
                                 }
             <BLANKLINE>
-                                \set stemLeftBeamCount = 0
+                                \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
                                 d'32
                                 [
@@ -519,7 +519,7 @@ def passepied_music():
             <BLANKLINE>
                                 }
             <BLANKLINE>
-                                \set stemLeftBeamCount = 0
+                                \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
                                 g'32
                                 [
@@ -549,7 +549,7 @@ def passepied_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
-                                \set stemRightBeamCount = 0
+                                \set stemRightBeamCount = 2
                                 af'!16
                                 ]
             <BLANKLINE>
@@ -568,6 +568,7 @@ def passepied_music():
     music_maker = baca.MusicMaker(
         rmakers.BeamSpecifier(
             beam_divisions_together=True,
+            beam_lone_notes=True,
             ),
         baca.PitchFirstRhythmCommand(
             pattern=abjad.index([0]),

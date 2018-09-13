@@ -121,7 +121,7 @@ def graced_tuplet_music():
                             \times 8/7 {
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
-                                \set stemLeftBeamCount = 0
+                                \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 af'!16
                                 [
@@ -139,7 +139,9 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     c'16
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 bf'!16
@@ -147,7 +149,9 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     f'16
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 af'!16
@@ -155,7 +159,9 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     fs'16
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 b'16
@@ -163,7 +169,9 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     d'16
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 e'16
@@ -188,7 +196,9 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     c'16
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 bf'!16
@@ -196,7 +206,9 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     f'16
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 af'!16
@@ -204,7 +216,9 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     fs'16
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 b'16
@@ -212,7 +226,9 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     d'16
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 e'16
@@ -234,7 +250,9 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     af'16
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 cs'!16
@@ -242,7 +260,9 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     c'16
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 bf'!16
@@ -250,7 +270,9 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     f'16
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 af'!16
@@ -258,7 +280,9 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     fs'16
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 b'16
@@ -283,7 +307,9 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     af'16
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 cs'!16
@@ -291,7 +317,9 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     c'16
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 bf'!16
@@ -299,7 +327,9 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     f'16
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 af'!16
@@ -307,7 +337,9 @@ def graced_tuplet_music():
                                 \acciaccatura {
             <BLANKLINE>
                                     fs'16
+            <BLANKLINE>
                                 }
+            <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 b'16
@@ -323,7 +355,7 @@ def graced_tuplet_music():
                             \times 5/7 {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
-                                \set stemRightBeamCount = 0
+                                \set stemRightBeamCount = 2
                                 af'!16
                                 ]
             <BLANKLINE>
@@ -341,9 +373,6 @@ def graced_tuplet_music():
     Returns music-maker.
     """
     music_maker = baca.MusicMaker(
-        rmakers.BeamSpecifier(
-            beam_divisions_together=True,
-            ),
         baca.PitchFirstRhythmCommand(
             pattern=abjad.index([0], 2),
             rhythm_maker=baca.PitchFirstRhythmMaker(
@@ -383,6 +412,10 @@ def graced_tuplet_music():
                 #time_treatments=[-1],
                 time_treatments=[abjad.Multiplier((5, 7))],
                 )
+            ),
+        rmakers.BeamSpecifier(
+            beam_divisions_together=True,
+            beam_lone_notes=True,
             ),
         color_unregistered_pitches=True,
         denominator=14,

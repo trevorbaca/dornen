@@ -126,7 +126,7 @@ def ovoid_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
-                                \set stemLeftBeamCount = 0
+                                \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 af'!8.
                                 [
@@ -324,7 +324,7 @@ def ovoid_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
-                                \set stemRightBeamCount = 0
+                                \set stemRightBeamCount = 1
                                 af'!8.
                                 ]
             <BLANKLINE>

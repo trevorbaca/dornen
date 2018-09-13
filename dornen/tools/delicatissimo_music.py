@@ -107,8 +107,6 @@ def delicatissimo_music():
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 e'32
                                 - \staccato                                                %! baca_staccato:IndicatorCommand
-                                [
-                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -159,8 +157,6 @@ def delicatissimo_music():
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 b'32
                                 - \staccato                                                %! baca_staccato:IndicatorCommand
-                                [
-                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -318,7 +314,7 @@ def delicatissimo_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
-                                \set stemLeftBeamCount = 0
+                                \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
                                 e'32
                                 - \staccato                                                %! baca_staccato:IndicatorCommand
@@ -368,7 +364,7 @@ def delicatissimo_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
-                                \set stemRightBeamCount = 0
+                                \set stemRightBeamCount = 3
                                 b'32
                                 - \staccato                                                %! baca_staccato:IndicatorCommand
                                 ]
@@ -419,7 +415,7 @@ def delicatissimo_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
-                                \set stemRightBeamCount = 1
+                                \set stemRightBeamCount = 3
                                 b'32
                                 - \staccato                                                %! baca_staccato:IndicatorCommand
             <BLANKLINE>
@@ -463,7 +459,7 @@ def delicatissimo_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
-                                \set stemLeftBeamCount = 0
+                                \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
                                 b'32
                                 - \staccato                                                %! baca_staccato:IndicatorCommand
@@ -508,7 +504,7 @@ def delicatissimo_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
-                                \set stemRightBeamCount = 0
+                                \set stemRightBeamCount = 3
                                 e'32
                                 - \staccato                                                %! baca_staccato:IndicatorCommand
                                 ]

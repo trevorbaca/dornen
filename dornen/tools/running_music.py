@@ -109,8 +109,6 @@ def running_music():
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 e'64
-                                [
-                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -121,8 +119,8 @@ def running_music():
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
                                 fs'!64
-                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
                                 [
+                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -156,8 +154,6 @@ def running_music():
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 b'64
-                                [
-                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -168,8 +164,8 @@ def running_music():
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
                                 bf'!64
-                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
                                 [
+                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -305,7 +301,7 @@ def running_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
-                                \set stemLeftBeamCount = 0
+                                \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 e'64
                                 [
@@ -350,7 +346,7 @@ def running_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
-                                \set stemRightBeamCount = 0
+                                \set stemRightBeamCount = 4
                                 b'64
                                 ]
             <BLANKLINE>
@@ -363,8 +359,8 @@ def running_music():
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
                                 fs'!64
-                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
                                 [
+                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
@@ -396,7 +392,7 @@ def running_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
-                                \set stemRightBeamCount = 1
+                                \set stemRightBeamCount = 4
                                 b'64
             <BLANKLINE>
                             }
@@ -436,7 +432,7 @@ def running_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
-                                \set stemLeftBeamCount = 0
+                                \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 b'64
                                 [
@@ -477,7 +473,7 @@ def running_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
-                                \set stemRightBeamCount = 0
+                                \set stemRightBeamCount = 4
                                 e'64
                                 ]
             <BLANKLINE>

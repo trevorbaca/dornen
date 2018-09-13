@@ -106,8 +106,6 @@ def default_music():
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 e'32
-                                [
-                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -117,8 +115,8 @@ def default_music():
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
                                 fs'!32
-                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
                                 [
+                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
@@ -152,8 +150,6 @@ def default_music():
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 b'32
-                                [
-                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -163,8 +159,8 @@ def default_music():
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
                                 bf'!32
-                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
                                 [
+                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
@@ -306,11 +302,11 @@ def default_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
-                                \set stemLeftBeamCount = 0
+                                \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
                                 e'32
-                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
                                 [
+                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -349,7 +345,7 @@ def default_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
-                                \set stemRightBeamCount = 0
+                                \set stemRightBeamCount = 3
                                 b'32
                                 )                                                          %! baca_slur:SpannerIndicatorCommand(2)
                                 ]
@@ -362,8 +358,8 @@ def default_music():
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
                                 fs'!32
-                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
                                 [
+                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
@@ -394,7 +390,7 @@ def default_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
-                                \set stemRightBeamCount = 1
+                                \set stemRightBeamCount = 3
                                 b'32
             <BLANKLINE>
                             }
@@ -432,11 +428,11 @@ def default_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
-                                \set stemLeftBeamCount = 0
+                                \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
                                 b'32
-                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
                                 [
+                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -471,7 +467,7 @@ def default_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
-                                \set stemRightBeamCount = 0
+                                \set stemRightBeamCount = 3
                                 e'32
                                 )                                                          %! baca_slur:SpannerIndicatorCommand(2)
                                 ]

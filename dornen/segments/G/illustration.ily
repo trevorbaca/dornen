@@ -247,7 +247,7 @@ G_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
             [
-            \glissando                                                         %! baca_glissando:SpannerCommand
+            \glissando                                                         %! baca_glissando
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 0
@@ -290,27 +290,27 @@ G_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
             [
-            \glissando                                                         %! baca_glissando:SpannerCommand
+            \glissando                                                         %! baca_glissando
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             f''16
-            \glissando                                                         %! baca_glissando:SpannerCommand
+            \glissando                                                         %! baca_glissando
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             cs''!16
-            \glissando                                                         %! baca_glissando:SpannerCommand
+            \glissando                                                         %! baca_glissando
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 3
             b''32
-            \glissando                                                         %! baca_glissando:SpannerCommand
+            \glissando                                                         %! baca_glissando
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             c''16
-            \glissando                                                         %! baca_glissando:SpannerCommand
+            \glissando                                                         %! baca_glissando
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
@@ -350,17 +350,17 @@ G_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            \glissando                                                         %! baca_glissando:SpannerCommand
+            \glissando                                                         %! baca_glissando
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             cs'''!16
-            \glissando                                                         %! baca_glissando:SpannerCommand
+            \glissando                                                         %! baca_glissando
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             e'16
-            \glissando                                                         %! baca_glissando:SpannerCommand
+            \glissando                                                         %! baca_glissando
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 0

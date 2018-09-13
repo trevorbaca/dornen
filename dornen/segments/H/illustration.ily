@@ -563,12 +563,12 @@ H_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            \glissando                                                         %! baca_glissando:SpannerCommand
+            \glissando                                                         %! baca_glissando
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             g'16
-            \glissando                                                         %! baca_glissando:SpannerCommand
+            \glissando                                                         %! baca_glissando
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 0

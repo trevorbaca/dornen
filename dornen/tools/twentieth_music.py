@@ -134,6 +134,8 @@ def twentieth_music():
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 cs'!16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -141,6 +143,8 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 c'16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -148,6 +152,8 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 bf'!16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -155,6 +161,8 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 f'16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -162,6 +170,8 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 af'!16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -169,6 +179,8 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 fs'!16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -176,6 +188,8 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 b'16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -184,6 +198,8 @@ def twentieth_music():
             <BLANKLINE>
                                 % [Music_Voice measure 2]                                  %! _comment_measure_numbers
                                 d'16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -191,6 +207,8 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 e'16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -199,6 +217,8 @@ def twentieth_music():
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 ef'!16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -206,6 +226,8 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 a'16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -213,6 +235,8 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 af'!16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -221,6 +245,8 @@ def twentieth_music():
             <BLANKLINE>
                                 % [Music_Voice measure 4]                                  %! _comment_measure_numbers
                                 fs'!16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -228,6 +254,8 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 b'16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -235,6 +263,8 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 d'16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -242,6 +272,8 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 f'16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -378,6 +410,8 @@ def twentieth_music():
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 cs'!16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -396,6 +430,8 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 f'16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -414,6 +450,8 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 b'16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -422,6 +460,8 @@ def twentieth_music():
             <BLANKLINE>
                                 % [Music_Voice measure 2]                                  %! _comment_measure_numbers
                                 d'16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -430,6 +470,8 @@ def twentieth_music():
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 ef'!16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -449,6 +491,8 @@ def twentieth_music():
             <BLANKLINE>
                                 % [Music_Voice measure 4]                                  %! _comment_measure_numbers
                                 fs'!16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -467,6 +511,8 @@ def twentieth_music():
                             \times 4/5 {
             <BLANKLINE>
                                 f'16
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -481,9 +527,6 @@ def twentieth_music():
     Returns music-maker.
     """
     music_maker = baca.MusicMaker(
-        rmakers.BeamSpecifier(
-            beam_each_division=True,
-            ),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
                 talea=rmakers.Talea(
@@ -492,6 +535,10 @@ def twentieth_music():
                     ),
                 time_treatments=[abjad.Multiplier((4, 5))],
                 )
+            ),
+        rmakers.BeamSpecifier(
+            beam_each_division=True,
+            beam_lone_notes=True,
             ),
         color_unregistered_pitches=True,
         denominator=20,

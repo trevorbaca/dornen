@@ -106,8 +106,6 @@ def glissando_scatto_music():
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 e'16
-                                [
-                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -131,8 +129,8 @@ def glissando_scatto_music():
                                 ef'!16
                                 \glissando                                                 %! baca_glissando:SpannerCommand
             <BLANKLINE>
-                                \set stemLeftBeamCount = 3
-                                \set stemRightBeamCount = 2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 3
                                 f'32
                                 \glissando                                                 %! baca_glissando:SpannerCommand
             <BLANKLINE>
@@ -157,8 +155,6 @@ def glissando_scatto_music():
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 b'16
-                                [
-                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -182,8 +178,8 @@ def glissando_scatto_music():
                                 a'16
                                 \glissando                                                 %! baca_glissando:SpannerCommand
             <BLANKLINE>
-                                \set stemLeftBeamCount = 3
-                                \set stemRightBeamCount = 2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 3
                                 af'!32
                                 \glissando                                                 %! baca_glissando:SpannerCommand
             <BLANKLINE>
@@ -309,7 +305,7 @@ def glissando_scatto_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
-                                \set stemLeftBeamCount = 0
+                                \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 e'16
                                 [
@@ -335,8 +331,8 @@ def glissando_scatto_music():
                                 ef'!16
                                 \glissando                                                 %! baca_glissando:SpannerCommand
             <BLANKLINE>
-                                \set stemLeftBeamCount = 3
-                                \set stemRightBeamCount = 2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 3
                                 f'32
                                 \glissando                                                 %! baca_glissando:SpannerCommand
             <BLANKLINE>
@@ -360,7 +356,7 @@ def glissando_scatto_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
-                                \set stemRightBeamCount = 0
+                                \set stemRightBeamCount = 2
                                 b'16
                                 ]
             <BLANKLINE>
@@ -386,8 +382,8 @@ def glissando_scatto_music():
                                 ef'!16
                                 \glissando                                                 %! baca_glissando:SpannerCommand
             <BLANKLINE>
-                                \set stemLeftBeamCount = 3
-                                \set stemRightBeamCount = 2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 3
                                 f'32
                                 \glissando                                                 %! baca_glissando:SpannerCommand
             <BLANKLINE>
@@ -411,7 +407,7 @@ def glissando_scatto_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
-                                \set stemRightBeamCount = 1
+                                \set stemRightBeamCount = 2
                                 b'16
                                 \glissando                                                 %! baca_glissando:SpannerCommand
             <BLANKLINE>
@@ -435,8 +431,8 @@ def glissando_scatto_music():
                                 a'16
                                 \glissando                                                 %! baca_glissando:SpannerCommand
             <BLANKLINE>
-                                \set stemLeftBeamCount = 3
-                                \set stemRightBeamCount = 2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 3
                                 af'!32
                                 \glissando                                                 %! baca_glissando:SpannerCommand
             <BLANKLINE>
@@ -455,7 +451,7 @@ def glissando_scatto_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
-                                \set stemLeftBeamCount = 0
+                                \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 b'16
                                 [
@@ -481,8 +477,8 @@ def glissando_scatto_music():
                                 a'16
                                 \glissando                                                 %! baca_glissando:SpannerCommand
             <BLANKLINE>
-                                \set stemLeftBeamCount = 3
-                                \set stemRightBeamCount = 2
+                                \set stemLeftBeamCount = 2
+                                \set stemRightBeamCount = 3
                                 af'!32
                                 \glissando                                                 %! baca_glissando:SpannerCommand
             <BLANKLINE>
@@ -501,7 +497,7 @@ def glissando_scatto_music():
                             \scaleDurations #'(1 . 1) {
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
-                                \set stemRightBeamCount = 0
+                                \set stemRightBeamCount = 2
                                 e'16
                                 ]
             <BLANKLINE>

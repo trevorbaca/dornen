@@ -106,6 +106,8 @@ def anchor_music():
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 e'8.
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -134,6 +136,8 @@ def anchor_music():
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 b'8.
+                                [
+                                ]
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -173,8 +177,10 @@ def anchor_music():
                     counts=[3],
                     denominator=16,
                     ),
-
                 ),
+            ),
+        rmakers.BeamSpecifier(
+            beam_lone_notes=True,
             ),
         color_unregistered_pitches=True,
         denominator=8,

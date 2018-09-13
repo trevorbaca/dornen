@@ -225,9 +225,9 @@ G_Guitar_Music_Voice_I = {                                                     %
         \scaleDurations #'(1 . 1) {
 
             % [G Guitar_Music_Voice_I measure 156 / measure 2]                 %! _comment_measure_numbers
-            \override Beam.positions = #'(8 . 8)                               %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 2
+            \override Beam.positions = #'(8 . 8)                               %! baca_beam_positions:OverrideCommand(1)
             g'16
         %@% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %@%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -268,9 +268,9 @@ G_Guitar_Music_Voice_I = {                                                     %
         \times 9/11 {
 
             % [G Guitar_Music_Voice_I measure 161 / measure 7]                 %! _comment_measure_numbers
+            \set stemLeftBeamCount = 0
+            \set stemRightBeamCount = 2
             \override Beam.positions = #'(12 . 12)                             %! baca_beam_positions:OverrideCommand(1)
-            \set stemLeftBeamCount = 0                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
             af'!16
         %@% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %@%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -289,31 +289,31 @@ G_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            [                                                                  %! _extend_beam
+            [
             \glissando                                                         %! baca_glissando:SpannerCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 2
             f''16
             \glissando                                                         %! baca_glissando:SpannerCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 2
             cs''!16
             \glissando                                                         %! baca_glissando:SpannerCommand
 
-            \set stemLeftBeamCount = 3                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 3
             b''32
             \glissando                                                         %! baca_glissando:SpannerCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 2
             c''16
             \glissando                                                         %! baca_glissando:SpannerCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 1                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 1
             af''!16
             \revert Beam.positions                                             %! baca_beam_positions:OverrideCommand(2)
 
@@ -330,8 +330,8 @@ G_Guitar_Music_Voice_I = {                                                     %
         \times 5/7 {
 
             % [G Guitar_Music_Voice_I measure 166 / measure 12]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 2
             b'16
         %@% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %@%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -352,20 +352,20 @@ G_Guitar_Music_Voice_I = {                                                     %
         %@%     }                                                              %! FIGURE_NAME_MARKUP
             \glissando                                                         %! baca_glissando:SpannerCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 2
             cs'''!16
             \glissando                                                         %! baca_glissando:SpannerCommand
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 2
             e'16
             \glissando                                                         %! baca_glissando:SpannerCommand
 
-            \set stemLeftBeamCount = 3                                         %! _extend_beam
-            \set stemRightBeamCount = 0                                        %! _extend_beam
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 0
             af''!32
-            ]                                                                  %! _extend_beam
+            ]
 
         }
 
@@ -381,9 +381,9 @@ G_Guitar_Music_Voice_II = {                                                    %
         \scaleDurations #'(1 . 1) {
 
             % [G Guitar_Music_Voice_II measure 155 / measure 1]                %! _comment_measure_numbers
-            \once \override Beam.positions = #'(-7.5 . -7.5)                   %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 1
+            \once \override Beam.positions = #'(-7.5 . -7.5)                   %! baca_beam_positions:OverrideCommand(1)
             b8.
         %@% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %@%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -431,9 +431,9 @@ G_Guitar_Music_Voice_II = {                                                    %
         \scaleDurations #'(1 . 1) {
 
             % [G Guitar_Music_Voice_II measure 160 / measure 6]                %! _comment_measure_numbers
+            \set stemLeftBeamCount = 0
+            \set stemRightBeamCount = 1
             \once \override Beam.positions = #'(-7.5 . -7.5)                   %! baca_beam_positions:OverrideCommand(1)
-            \set stemLeftBeamCount = 0                                         %! _extend_beam
-            \set stemRightBeamCount = 1                                        %! _extend_beam
             e'8.
         %@% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %@%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -452,7 +452,7 @@ G_Guitar_Music_Voice_II = {                                                    %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            [                                                                  %! _extend_beam
+            [
 
             \acciaccatura {
 
@@ -468,8 +468,8 @@ G_Guitar_Music_Voice_II = {                                                    %
 
             }
 
-            \set stemLeftBeamCount = 3                                         %! _extend_beam
-            \set stemRightBeamCount = 1                                        %! _extend_beam
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 1
             d''32
 
         }
@@ -484,8 +484,8 @@ G_Guitar_Music_Voice_II = {                                                    %
         \scaleDurations #'(1 . 1) {
 
             % [G Guitar_Music_Voice_II measure 165 / measure 11]               %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! _extend_beam
-            \set stemRightBeamCount = 1                                        %! _extend_beam
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 1
             a'8.
         %@% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %@%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -519,10 +519,10 @@ G_Guitar_Music_Voice_II = {                                                    %
 
             }
 
-            \set stemLeftBeamCount = 3                                         %! _extend_beam
-            \set stemRightBeamCount = 0                                        %! _extend_beam
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 0
             bf''!32
-            ]                                                                  %! _extend_beam
+            ]
 
         }
 
@@ -562,9 +562,9 @@ G_Guitar_Music_Voice_III = {                                                   %
         \scaleDurations #'(1 . 1) {
 
             % [G Guitar_Music_Voice_III measure 158 / measure 4]               %! _comment_measure_numbers
-            \override Beam.positions = #'(-7.5 . -7.5)                         %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
+            \override Beam.positions = #'(-7.5 . -7.5)                         %! baca_beam_positions:OverrideCommand(1)
             cs'''!32
             - \staccato                                                        %! baca_staccato:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
@@ -705,9 +705,9 @@ G_Guitar_Music_Voice_III = {                                                   %
         \scaleDurations #'(1 . 1) {
 
             % [G Guitar_Music_Voice_III measure 163 / measure 9]               %! _comment_measure_numbers
-            \override Beam.positions = #'(-6 . -6)                             %! baca_beam_positions:OverrideCommand(1)
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
+            \override Beam.positions = #'(-6 . -6)                             %! baca_beam_positions:OverrideCommand(1)
             af''!32
             - \staccato                                                        %! baca_staccato:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
@@ -803,8 +803,8 @@ G_Guitar_Music_Voice_IV = {                                                    %
         \times 8/7 {
 
             % [G Guitar_Music_Voice_IV measure 157 / measure 3]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 0
+            \set stemRightBeamCount = 2
             f'16
         %@% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %@%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -823,7 +823,7 @@ G_Guitar_Music_Voice_IV = {                                                    %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            [                                                                  %! _extend_beam
+            [
 
             \acciaccatura {
 
@@ -831,8 +831,8 @@ G_Guitar_Music_Voice_IV = {                                                    %
 
             }
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 1                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 1
             bf!16
 
         }
@@ -849,8 +849,8 @@ G_Guitar_Music_Voice_IV = {                                                    %
         \times 8/7 {
 
             % [G Guitar_Music_Voice_IV measure 159 / measure 5]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 2
             d'16
         %@% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %@%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -876,8 +876,8 @@ G_Guitar_Music_Voice_IV = {                                                    %
 
             }
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 2
             b16
 
             \acciaccatura {
@@ -886,8 +886,8 @@ G_Guitar_Music_Voice_IV = {                                                    %
 
             }
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 2
             c'16
 
             \acciaccatura {
@@ -896,8 +896,8 @@ G_Guitar_Music_Voice_IV = {                                                    %
 
             }
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 2
             f'16
 
             \acciaccatura {
@@ -906,8 +906,8 @@ G_Guitar_Music_Voice_IV = {                                                    %
 
             }
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 2
             a'16
 
             \acciaccatura {
@@ -916,8 +916,8 @@ G_Guitar_Music_Voice_IV = {                                                    %
 
             }
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 2
             e'16
 
             \acciaccatura {
@@ -926,8 +926,8 @@ G_Guitar_Music_Voice_IV = {                                                    %
 
             }
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 2
             af'!16
 
             \acciaccatura {
@@ -936,8 +936,8 @@ G_Guitar_Music_Voice_IV = {                                                    %
 
             }
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 2
             bf'!16
 
             \acciaccatura {
@@ -946,8 +946,8 @@ G_Guitar_Music_Voice_IV = {                                                    %
 
             }
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 2
             ef''!16
 
             \acciaccatura {
@@ -956,8 +956,8 @@ G_Guitar_Music_Voice_IV = {                                                    %
 
             }
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 2
             b'16
 
             \acciaccatura {
@@ -966,14 +966,14 @@ G_Guitar_Music_Voice_IV = {                                                    %
 
             }
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 2
             c''16
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 0                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 0
             d''16
-            ]                                                                  %! _extend_beam
+            ]
 
         }
 
@@ -989,8 +989,8 @@ G_Guitar_Music_Voice_IV = {                                                    %
         \times 8/7 {
 
             % [G Guitar_Music_Voice_IV measure 162 / measure 8]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 0
+            \set stemRightBeamCount = 2
             f''16
         %@% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %@%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -1009,10 +1009,10 @@ G_Guitar_Music_Voice_IV = {                                                    %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            [                                                                  %! _extend_beam
+            [
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 1                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 1
             d''16
 
         }
@@ -1029,8 +1029,8 @@ G_Guitar_Music_Voice_IV = {                                                    %
         \times 8/7 {
 
             % [G Guitar_Music_Voice_IV measure 164 / measure 10]               %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 2
             fs''!16
         %@% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %@%     \fontsize                                                      %! FIGURE_NAME_MARKUP
@@ -1056,8 +1056,8 @@ G_Guitar_Music_Voice_IV = {                                                    %
 
             }
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 2
             ef''!16
 
             \acciaccatura {
@@ -1066,14 +1066,14 @@ G_Guitar_Music_Voice_IV = {                                                    %
 
             }
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 2                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 2
             d'''16
 
-            \set stemLeftBeamCount = 2                                         %! _extend_beam
-            \set stemRightBeamCount = 0                                        %! _extend_beam
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 0
             fs''!16
-            ]                                                                  %! _extend_beam
+            ]
 
         }
 

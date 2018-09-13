@@ -350,7 +350,7 @@ accumulator(
     accumulator.merge(design[19:21]),
     accumulator.ovoid_music_maker,
     baca.register(-14, -6),
-    extend_beam=True,
+    #extend_beam=True,
     figure_name='O9',
     )
 

@@ -144,7 +144,6 @@ accumulator(
     design[13:],
     accumulator.delicatissimo_music_maker,
     baca.register(-20, 6),
-    extend_beam=True,
     figure_name='D2',
     )
 

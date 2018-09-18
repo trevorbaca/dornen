@@ -1046,51 +1046,51 @@ M_Guitar_Music_Voice_I = {                                                     %
 
             e2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
 
             e2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
 
             e2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
 
             e2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
 
             e2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
 
             e2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
 
             e2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
 
             e2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
 
             e2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
 
             e2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
 
             e2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
 
             e2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
 
         }
 

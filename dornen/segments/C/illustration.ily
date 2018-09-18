@@ -2051,7 +2051,7 @@ C_Guitar_Music_Voice_IV = {                                                    %
 
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
             \revert Stem.direction                                             %! baca_stem_up:OverrideCommand(2)
             \revert TupletBracket.staff-padding                                %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
 
@@ -2137,7 +2137,7 @@ C_Guitar_Music_Voice_IV = {                                                    %
 
             gf!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
             \revert Stem.direction                                             %! baca_stem_up:OverrideCommand(2)
             \revert TupletBracket.staff-padding                                %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
 

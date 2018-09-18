@@ -488,9 +488,9 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
+            \repeatTie                                                         %! baca_repeat_tie
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
             - \abjad-dashed-line-with-arrow                                    %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "tamb. tr."                         %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "kn. rasg."                        %! baca_text_spanner:PiecewiseCommand(1)
@@ -534,7 +534,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(2)
 
         }
@@ -573,9 +573,9 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
+            \repeatTie                                                         %! baca_repeat_tie
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
             - \abjad-dashed-line-with-arrow                                    %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "trans."                            %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "tamb. tr."                        %! baca_text_spanner:PiecewiseCommand(1)
@@ -619,7 +619,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(2)
 
         }
@@ -662,7 +662,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
 
         }
 
@@ -700,9 +700,9 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
+            \repeatTie                                                         %! baca_repeat_tie
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
             - \abjad-dashed-line-with-arrow                                    %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "trans."                            %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "kn. rasg."                        %! baca_text_spanner:PiecewiseCommand(1)
@@ -746,7 +746,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(2)
 
         }
@@ -785,9 +785,9 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
+            \repeatTie                                                         %! baca_repeat_tie
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
             - \abjad-dashed-line-with-arrow                                    %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "trans."                            %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "tamb. tr."                        %! baca_text_spanner:PiecewiseCommand(1)
@@ -831,7 +831,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(2)
 
         }
@@ -874,7 +874,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
 
         }
 
@@ -912,9 +912,9 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
+            \repeatTie                                                         %! baca_repeat_tie
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
             - \abjad-dashed-line-with-arrow                                    %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "trans."                            %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "kn. rasg."                        %! baca_text_spanner:PiecewiseCommand(1)
@@ -958,7 +958,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(2)
 
         }
@@ -997,9 +997,9 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
+            \repeatTie                                                         %! baca_repeat_tie
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
             - \abjad-dashed-line-with-arrow                                    %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "trans."                            %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "tamb. tr."                        %! baca_text_spanner:PiecewiseCommand(1)
@@ -1043,7 +1043,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(2)
 
         }
@@ -1082,9 +1082,9 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
+            \repeatTie                                                         %! baca_repeat_tie
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
             - \abjad-dashed-line-with-arrow                                    %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "trans."                            %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "kn. rasg."                        %! baca_text_spanner:PiecewiseCommand(1)
@@ -1128,7 +1128,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(2)
 
         }
@@ -1167,9 +1167,9 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
+            \repeatTie                                                         %! baca_repeat_tie
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
             - \abjad-dashed-line-with-arrow                                    %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "trans."                            %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "tamb. tr."                        %! baca_text_spanner:PiecewiseCommand(1)
@@ -1213,7 +1213,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(2)
 
         }
@@ -1252,9 +1252,9 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
+            \repeatTie                                                         %! baca_repeat_tie
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
             - \abjad-dashed-line-with-arrow                                    %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "trans."                            %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "kn. rasg."                        %! baca_text_spanner:PiecewiseCommand(1)
@@ -1298,7 +1298,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(2)
 
         }
@@ -1337,9 +1337,9 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
+            \repeatTie                                                         %! baca_repeat_tie
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
             - \abjad-dashed-line-with-arrow                                    %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "trans."                            %! baca_text_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "tamb. tr."                        %! baca_text_spanner:PiecewiseCommand(1)
@@ -1381,7 +1381,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
 
         }
 
@@ -1423,11 +1423,11 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
 
             f2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
 
         }
 
@@ -1471,12 +1471,12 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME_MARKUP
         %@%             }                                                      %! FIGURE_NAME_MARKUP
         %@%     }                                                              %! FIGURE_NAME_MARKUP
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(2)
 
             f2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie:SpannerCommand
+            \repeatTie                                                         %! baca_repeat_tie
             \revert TextSpanner.staff-padding                                  %! baca_text_spanner_staff_padding:OverrideCommand(2)
             \revert TextScript.staff-padding                                   %! baca_script_staff_padding:OverrideCommand(2)
 

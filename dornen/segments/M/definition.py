@@ -333,7 +333,7 @@ maker = baca.SegmentMaker(
         ),
     final_markup_extra_offset=(260, 0),
     ignore_repeat_pitch_classes=False,
-    last_segment=True,
+    final_segment=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     skips_instead_of_rests=True,
     time_signatures=accumulator.time_signatures,

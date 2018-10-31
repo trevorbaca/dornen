@@ -1,3 +1,5 @@
+% first_page_number = 8
+% page_count = 1
 % measure_count = 12
 % time_signatures = [
 % '7/32', '2/16', '2/14', '22/32', '12/14', '7/32', '9/32', '2/14', '6/32',

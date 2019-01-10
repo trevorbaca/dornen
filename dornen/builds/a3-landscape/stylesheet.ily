@@ -5,3 +5,7 @@
 
 \paper {
 }
+
+\layout {
+    ragged-right = ##f
+}

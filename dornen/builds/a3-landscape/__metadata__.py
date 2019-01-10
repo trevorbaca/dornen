@@ -3,8 +3,36 @@ import abjad
 
 metadata = abjad.OrderedDict(
     [
-        ('catalog_number_suffix', 'A3.L'),
+        (
+            'bol_measure_numbers',
+            [
+                1,
+                15,
+                27,
+                36,
+                52,
+                62,
+                73,
+                83,
+                96,
+                122,
+                130,
+                132,
+                133,
+                159,
+                173,
+                185,
+                208,
+                232,
+                259,
+                282,
+                292,
+                309,
+                344,
+                ],
+            ),
+        ('catalog_number_suffix', 'A3-L'),
         ('paper_size', 'a3landscape'),
-        ('price', '\\$52 / \\euro 46'),
+        ('price', '\\$52 / \\euro 52'),
         ]
     )

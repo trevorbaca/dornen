@@ -4,5 +4,8 @@
 #(set-default-paper-size "ledger")
 
 \paper {
-    system-system-spacing.minimum-distance = 22
+}
+
+\layout {
+    ragged-right = ##f
 }

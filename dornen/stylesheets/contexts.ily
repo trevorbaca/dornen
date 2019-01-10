@@ -53,8 +53,6 @@
         \accepts PageLayout
 
         \override BarNumber.Y-extent = ##f
-        % TODO: hide in score:
-        \override BarNumber.break-visibility = #end-of-line-invisible
         \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
 

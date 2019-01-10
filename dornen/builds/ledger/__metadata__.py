@@ -3,8 +3,8 @@ import abjad
 
 metadata = abjad.OrderedDict(
     [
-        ('catalog_number_suffix', ''),
+        ('catalog_number_suffix', 'LED'),
         ('paper_size', 'ledger'),
-        ('price', '\\$52 / \\euro 46'),
+        ('price', '\\$52 / \\euro 52'),
         ]
     )

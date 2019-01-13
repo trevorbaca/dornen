@@ -14,12 +14,12 @@ assert len(design) == 22, len(design)
 
 lower_register = baca.register(
     -18,
-    selector=baca.plts(exclude=baca.enums.HIDDEN),
+    selector=baca.plts(exclude=baca.const.HIDDEN),
     )
 middle_register = baca.register(
     -12,
     0,
-    selector=baca.plts(exclude=baca.enums.HIDDEN),
+    selector=baca.plts(exclude=baca.const.HIDDEN),
     )
 
 accumulator(
@@ -235,7 +235,7 @@ maker(
     ('v2', (1, 10)),
     baca.beam_positions(
         -7,
-        selector=baca.leaves(exclude=baca.enums.HIDDEN),
+        selector=baca.leaves(exclude=baca.const.HIDDEN),
         ),
     lower_register,
     )
@@ -250,6 +250,6 @@ maker(
     ('v3', (1, 22)),
     baca.beam_positions(4),
     baca.staccato(
-        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        selector=baca.pheads(exclude=baca.const.HIDDEN),
         ),
     )

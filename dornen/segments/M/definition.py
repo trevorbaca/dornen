@@ -353,22 +353,22 @@ maker(
     ('v2', (1, 41)),
     baca.beam_positions(
         -5.5,
-        selector=baca.leaves(exclude=baca.enums.HIDDEN),
+        selector=baca.leaves(exclude=baca.const.HIDDEN),
         ),
     baca.register(
         4,
-        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        selector=baca.plts(exclude=baca.const.HIDDEN),
         ),
     )
 
 maker(
     ('v3', (1, 41)),
     baca.accent(
-        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        selector=baca.pheads(exclude=baca.const.HIDDEN),
         ),
     baca.register(
         -20,
-        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        selector=baca.plts(exclude=baca.const.HIDDEN),
         ),
     baca.script_down(),
     )
@@ -378,6 +378,6 @@ maker(
     baca.beam_positions(5.5),
     baca.register(-4),
     baca.staccato(
-        selector=baca.pheads(exclude=baca.enums.HIDDEN),
+        selector=baca.pheads(exclude=baca.const.HIDDEN),
         ),
     )

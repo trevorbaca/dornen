@@ -329,10 +329,10 @@ i_Guitar_Music_Voice_I = {                                                     %
 
             % [_ Guitar_Music_Voice_I measure 1]                               %! _comment_measure_numbers
             \once \override Beam.positions = #'(6 . 6)                         %! baca_beam_positions:OverrideCommand(1)
-            \clef "treble"                                                     %! DEFAULT_CLEF:_set_status_tag:attach_defaults
+            \clef "treble"                                                     %! DEFAULT_CLEF:_set_status_tag:abjad.ScoreTemplate.attach_defaults
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
         %@% \override GuitarMusicStaff.Clef.color = ##f                        %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-            \set GuitarMusicStaff.forceClef = ##t                              %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
+            \set GuitarMusicStaff.forceClef = ##t                              %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults
             e'8.
         %@% ^ \markup {                                                        %! FIGURE_NAME_MARKUP
         %@%     \fontsize                                                      %! FIGURE_NAME_MARKUP

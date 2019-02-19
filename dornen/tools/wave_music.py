@@ -59,18 +59,18 @@ def wave_music(denominator=64, inverted=False):
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
             <BLANKLINE>
-            \context Score = "Score"                                                       %! SingleStaffScoreTemplate
-            \with                                                                          %! SingleStaffScoreTemplate
-            {                                                                              %! SingleStaffScoreTemplate
-                \override TupletBracket.padding = #2                                       %! SingleStaffScoreTemplate
-            }                                                                              %! SingleStaffScoreTemplate
-            <<                                                                             %! SingleStaffScoreTemplate
+            \context Score = "Score"                                                       %! baca.SingleStaffScoreTemplate.__call__
+            \with                                                                          %! baca.SingleStaffScoreTemplate.__call__
+            {                                                                              %! baca.SingleStaffScoreTemplate.__call__
+                \override TupletBracket.padding = #2                                       %! baca.SingleStaffScoreTemplate.__call__
+            }                                                                              %! baca.SingleStaffScoreTemplate.__call__
+            <<                                                                             %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                \context GlobalContext = "Global_Context"                                  %! _make_global_context
-                <<                                                                         %! _make_global_context
+                \context GlobalContext = "Global_Context"                                  %! abjad.ScoreTemplate._make_global_context
+                <<                                                                         %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
-                    \context GlobalSkips = "Global_Skips"                                  %! _make_global_context
-                    {                                                                      %! _make_global_context
+                    \context GlobalSkips = "Global_Skips"                                  %! abjad.ScoreTemplate._make_global_context
+                    {                                                                      %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
                         % [Global_Skips measure 1]                                         %! _comment_measure_numbers
                         \baca-new-spacing-section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
@@ -92,18 +92,18 @@ def wave_music(denominator=64, inverted=False):
                         \baca-bar-line-visible                                             %! _attach_final_bar_line
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
-                    }                                                                      %! _make_global_context
+                    }                                                                      %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
-                >>                                                                         %! _make_global_context
+                >>                                                                         %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
-                \context MusicContext = "Music_Context"                                    %! SingleStaffScoreTemplate
-                <<                                                                         %! SingleStaffScoreTemplate
+                \context MusicContext = "Music_Context"                                    %! baca.SingleStaffScoreTemplate.__call__
+                <<                                                                         %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                    \context Staff = "Music_Staff"                                         %! SingleStaffScoreTemplate
-                    {                                                                      %! SingleStaffScoreTemplate
+                    \context Staff = "Music_Staff"                                         %! baca.SingleStaffScoreTemplate.__call__
+                    {                                                                      %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                        \context Voice = "Music_Voice"                                     %! SingleStaffScoreTemplate
-                        {                                                                  %! SingleStaffScoreTemplate
+                        \context Voice = "Music_Voice"                                     %! baca.SingleStaffScoreTemplate.__call__
+                        {                                                                  %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
@@ -470,13 +470,13 @@ def wave_music(denominator=64, inverted=False):
                             }
                             \revert TupletNumber.text
             <BLANKLINE>
-                        }                                                                  %! SingleStaffScoreTemplate
+                        }                                                                  %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                    }                                                                      %! SingleStaffScoreTemplate
+                    }                                                                      %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                >>                                                                         %! SingleStaffScoreTemplate
+                >>                                                                         %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-            >>                                                                             %! SingleStaffScoreTemplate
+            >>                                                                             %! baca.SingleStaffScoreTemplate.__call__
 
     ..  container:: example
 
@@ -530,18 +530,18 @@ def wave_music(denominator=64, inverted=False):
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
             <BLANKLINE>
-            \context Score = "Score"                                                       %! SingleStaffScoreTemplate
-            \with                                                                          %! SingleStaffScoreTemplate
-            {                                                                              %! SingleStaffScoreTemplate
-                \override TupletBracket.padding = #2                                       %! SingleStaffScoreTemplate
-            }                                                                              %! SingleStaffScoreTemplate
-            <<                                                                             %! SingleStaffScoreTemplate
+            \context Score = "Score"                                                       %! baca.SingleStaffScoreTemplate.__call__
+            \with                                                                          %! baca.SingleStaffScoreTemplate.__call__
+            {                                                                              %! baca.SingleStaffScoreTemplate.__call__
+                \override TupletBracket.padding = #2                                       %! baca.SingleStaffScoreTemplate.__call__
+            }                                                                              %! baca.SingleStaffScoreTemplate.__call__
+            <<                                                                             %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                \context GlobalContext = "Global_Context"                                  %! _make_global_context
-                <<                                                                         %! _make_global_context
+                \context GlobalContext = "Global_Context"                                  %! abjad.ScoreTemplate._make_global_context
+                <<                                                                         %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
-                    \context GlobalSkips = "Global_Skips"                                  %! _make_global_context
-                    {                                                                      %! _make_global_context
+                    \context GlobalSkips = "Global_Skips"                                  %! abjad.ScoreTemplate._make_global_context
+                    {                                                                      %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
                         % [Global_Skips measure 1]                                         %! _comment_measure_numbers
                         \baca-new-spacing-section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
@@ -563,18 +563,18 @@ def wave_music(denominator=64, inverted=False):
                         \baca-bar-line-visible                                             %! _attach_final_bar_line
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
-                    }                                                                      %! _make_global_context
+                    }                                                                      %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
-                >>                                                                         %! _make_global_context
+                >>                                                                         %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
-                \context MusicContext = "Music_Context"                                    %! SingleStaffScoreTemplate
-                <<                                                                         %! SingleStaffScoreTemplate
+                \context MusicContext = "Music_Context"                                    %! baca.SingleStaffScoreTemplate.__call__
+                <<                                                                         %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                    \context Staff = "Music_Staff"                                         %! SingleStaffScoreTemplate
-                    {                                                                      %! SingleStaffScoreTemplate
+                    \context Staff = "Music_Staff"                                         %! baca.SingleStaffScoreTemplate.__call__
+                    {                                                                      %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                        \context Voice = "Music_Voice"                                     %! SingleStaffScoreTemplate
-                        {                                                                  %! SingleStaffScoreTemplate
+                        \context Voice = "Music_Voice"                                     %! baca.SingleStaffScoreTemplate.__call__
+                        {                                                                  %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
@@ -941,13 +941,13 @@ def wave_music(denominator=64, inverted=False):
                             }
                             \revert TupletNumber.text
             <BLANKLINE>
-                        }                                                                  %! SingleStaffScoreTemplate
+                        }                                                                  %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                    }                                                                      %! SingleStaffScoreTemplate
+                    }                                                                      %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                >>                                                                         %! SingleStaffScoreTemplate
+                >>                                                                         %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-            >>                                                                             %! SingleStaffScoreTemplate
+            >>                                                                             %! baca.SingleStaffScoreTemplate.__call__
 
     ..  container:: example
 
@@ -1001,18 +1001,18 @@ def wave_music(denominator=64, inverted=False):
 
             >>> abjad.f(lilypond_file[abjad.Score], strict=79)
             <BLANKLINE>
-            \context Score = "Score"                                                       %! SingleStaffScoreTemplate
-            \with                                                                          %! SingleStaffScoreTemplate
-            {                                                                              %! SingleStaffScoreTemplate
-                \override TupletBracket.padding = #2                                       %! SingleStaffScoreTemplate
-            }                                                                              %! SingleStaffScoreTemplate
-            <<                                                                             %! SingleStaffScoreTemplate
+            \context Score = "Score"                                                       %! baca.SingleStaffScoreTemplate.__call__
+            \with                                                                          %! baca.SingleStaffScoreTemplate.__call__
+            {                                                                              %! baca.SingleStaffScoreTemplate.__call__
+                \override TupletBracket.padding = #2                                       %! baca.SingleStaffScoreTemplate.__call__
+            }                                                                              %! baca.SingleStaffScoreTemplate.__call__
+            <<                                                                             %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                \context GlobalContext = "Global_Context"                                  %! _make_global_context
-                <<                                                                         %! _make_global_context
+                \context GlobalContext = "Global_Context"                                  %! abjad.ScoreTemplate._make_global_context
+                <<                                                                         %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
-                    \context GlobalSkips = "Global_Skips"                                  %! _make_global_context
-                    {                                                                      %! _make_global_context
+                    \context GlobalSkips = "Global_Skips"                                  %! abjad.ScoreTemplate._make_global_context
+                    {                                                                      %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
                         % [Global_Skips measure 1]                                         %! _comment_measure_numbers
                         \baca-new-spacing-section #32 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
@@ -1034,18 +1034,18 @@ def wave_music(denominator=64, inverted=False):
                         \baca-bar-line-visible                                             %! _attach_final_bar_line
                         \bar "|"                                                           %! _attach_final_bar_line
             <BLANKLINE>
-                    }                                                                      %! _make_global_context
+                    }                                                                      %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
-                >>                                                                         %! _make_global_context
+                >>                                                                         %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
-                \context MusicContext = "Music_Context"                                    %! SingleStaffScoreTemplate
-                <<                                                                         %! SingleStaffScoreTemplate
+                \context MusicContext = "Music_Context"                                    %! baca.SingleStaffScoreTemplate.__call__
+                <<                                                                         %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                    \context Staff = "Music_Staff"                                         %! SingleStaffScoreTemplate
-                    {                                                                      %! SingleStaffScoreTemplate
+                    \context Staff = "Music_Staff"                                         %! baca.SingleStaffScoreTemplate.__call__
+                    {                                                                      %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                        \context Voice = "Music_Voice"                                     %! SingleStaffScoreTemplate
-                        {                                                                  %! SingleStaffScoreTemplate
+                        \context Voice = "Music_Voice"                                     %! baca.SingleStaffScoreTemplate.__call__
+                        {                                                                  %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
                                 \scale
@@ -1412,13 +1412,13 @@ def wave_music(denominator=64, inverted=False):
                             }
                             \revert TupletNumber.text
             <BLANKLINE>
-                        }                                                                  %! SingleStaffScoreTemplate
+                        }                                                                  %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                    }                                                                      %! SingleStaffScoreTemplate
+                    }                                                                      %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                >>                                                                         %! SingleStaffScoreTemplate
+                >>                                                                         %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-            >>                                                                             %! SingleStaffScoreTemplate
+            >>                                                                             %! baca.SingleStaffScoreTemplate.__call__
 
     Returns music-maker.
     """

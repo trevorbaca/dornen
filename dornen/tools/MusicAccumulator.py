@@ -40,23 +40,23 @@ class MusicAccumulator(baca.MusicAccumulator):
                             \set stemRightBeamCount = 3
                             c'32
                             - \staccato %! baca_staccato:IndicatorCommand
-                        %@% ^ \markup {                       %! FIGURE_NAME_MARKUP
-                        %@%     \fontsize                     %! FIGURE_NAME_MARKUP
-                        %@%         #2                        %! FIGURE_NAME_MARKUP
-                        %@%         \concat                   %! FIGURE_NAME_MARKUP
-                        %@%             {                     %! FIGURE_NAME_MARKUP
-                        %@%                 [                 %! FIGURE_NAME_MARKUP
-                        %@%                 D                 %! FIGURE_NAME_MARKUP
-                        %@%                 \hspace           %! FIGURE_NAME_MARKUP
-                        %@%                     #1            %! FIGURE_NAME_MARKUP
-                        %@%                 \raise            %! FIGURE_NAME_MARKUP
-                        %@%                     #0.25         %! FIGURE_NAME_MARKUP
-                        %@%                     \fontsize     %! FIGURE_NAME_MARKUP
-                        %@%                         #-2       %! FIGURE_NAME_MARKUP
-                        %@%                         (0)       %! FIGURE_NAME_MARKUP
-                        %@%                 ]                 %! FIGURE_NAME_MARKUP
-                        %@%             }                     %! FIGURE_NAME_MARKUP
-                        %@%     }                             %! FIGURE_NAME_MARKUP
+                        %@% ^ \markup {                       %! FIGURE_NAME
+                        %@%     \fontsize                     %! FIGURE_NAME
+                        %@%         #2                        %! FIGURE_NAME
+                        %@%         \concat                   %! FIGURE_NAME
+                        %@%             {                     %! FIGURE_NAME
+                        %@%                 [                 %! FIGURE_NAME
+                        %@%                 D                 %! FIGURE_NAME
+                        %@%                 \hspace           %! FIGURE_NAME
+                        %@%                     #1            %! FIGURE_NAME
+                        %@%                 \raise            %! FIGURE_NAME
+                        %@%                     #0.25         %! FIGURE_NAME
+                        %@%                     \fontsize     %! FIGURE_NAME
+                        %@%                         #-2       %! FIGURE_NAME
+                        %@%                         (0)       %! FIGURE_NAME
+                        %@%                 ]                 %! FIGURE_NAME
+                        %@%             }                     %! FIGURE_NAME
+                        %@%     }                             %! FIGURE_NAME
                             [
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3

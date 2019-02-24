@@ -67,25 +67,25 @@ def running_music():
                     {                                                                      %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
                         % [Global_Skips measure 1]                                         %! _comment_measure_numbers
-                        \baca-new-spacing-section #1 #64                                   %! HorizontalSpacingSpecifier(1):SPACING
+                        \baca-new-spacing-section #1 #64                                   %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
                         \time 1/64                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/64                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [Global_Skips measure 2]                                         %! _comment_measure_numbers
-                        \baca-new-spacing-section #3 #224                                  %! HorizontalSpacingSpecifier(1):SPACING
+                        \baca-new-spacing-section #3 #224                                  %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
                         \time 3/32                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 3/32                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [Global_Skips measure 3]                                         %! _comment_measure_numbers
-                        \baca-new-spacing-section #1 #64                                   %! HorizontalSpacingSpecifier(1):SPACING
+                        \baca-new-spacing-section #1 #64                                   %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
                         \time 1/64                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/64                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [Global_Skips measure 4]                                         %! _comment_measure_numbers
-                        \baca-new-spacing-section #5 #384                                  %! HorizontalSpacingSpecifier(1):SPACING
+                        \baca-new-spacing-section #5 #384                                  %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
                         \time 5/64                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 5/64                                                          %! _make_global_skips(1)
@@ -266,19 +266,19 @@ def running_music():
                     {                                                                      %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
                         % [Global_Skips measure 1]                                         %! _comment_measure_numbers
-                        \baca-new-spacing-section #3 #224                                  %! HorizontalSpacingSpecifier(1):SPACING
+                        \baca-new-spacing-section #3 #224                                  %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
                         \time 1/8                                                          %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 1/8                                                           %! _make_global_skips(1)
             <BLANKLINE>
                         % [Global_Skips measure 2]                                         %! _comment_measure_numbers
-                        \baca-new-spacing-section #5 #384                                  %! HorizontalSpacingSpecifier(1):SPACING
+                        \baca-new-spacing-section #5 #384                                  %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
                         \time 3/16                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 3/16                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [Global_Skips measure 3]                                         %! _comment_measure_numbers
-                        \baca-new-spacing-section #5 #384                                  %! HorizontalSpacingSpecifier(1):SPACING
+                        \baca-new-spacing-section #5 #384                                  %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
                         \time 7/64                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 7/64                                                          %! _make_global_skips(1)

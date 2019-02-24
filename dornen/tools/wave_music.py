@@ -73,19 +73,19 @@ def wave_music(denominator=64, inverted=False):
                     {                                                                      %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
                         % [Global_Skips measure 1]                                         %! _comment_measure_numbers
-                        \baca-new-spacing-section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
+                        \baca-new-spacing-section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
                         \time 7/64                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 7/64                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [Global_Skips measure 2]                                         %! _comment_measure_numbers
-                        \baca-new-spacing-section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
+                        \baca-new-spacing-section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
                         \time 13/64                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 13/64                                                         %! _make_global_skips(1)
             <BLANKLINE>
                         % [Global_Skips measure 3]                                         %! _comment_measure_numbers
-                        \baca-new-spacing-section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
+                        \baca-new-spacing-section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
                         \time 20/64                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 5/16                                                          %! _make_global_skips(1)
@@ -544,19 +544,19 @@ def wave_music(denominator=64, inverted=False):
                     {                                                                      %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
                         % [Global_Skips measure 1]                                         %! _comment_measure_numbers
-                        \baca-new-spacing-section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
+                        \baca-new-spacing-section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
                         \time 7/64                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 7/64                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [Global_Skips measure 2]                                         %! _comment_measure_numbers
-                        \baca-new-spacing-section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
+                        \baca-new-spacing-section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
                         \time 13/64                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 13/64                                                         %! _make_global_skips(1)
             <BLANKLINE>
                         % [Global_Skips measure 3]                                         %! _comment_measure_numbers
-                        \baca-new-spacing-section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
+                        \baca-new-spacing-section #16 #1024                                %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
                         \time 20/64                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 5/16                                                          %! _make_global_skips(1)
@@ -1015,19 +1015,19 @@ def wave_music(denominator=64, inverted=False):
                     {                                                                      %! abjad.ScoreTemplate._make_global_context
             <BLANKLINE>
                         % [Global_Skips measure 1]                                         %! _comment_measure_numbers
-                        \baca-new-spacing-section #32 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
+                        \baca-new-spacing-section #32 #1024                                %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
                         \time 7/32                                                         %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 7/32                                                          %! _make_global_skips(1)
             <BLANKLINE>
                         % [Global_Skips measure 2]                                         %! _comment_measure_numbers
-                        \baca-new-spacing-section #32 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
+                        \baca-new-spacing-section #32 #1024                                %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
                         \time 13/32                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 13/32                                                         %! _make_global_skips(1)
             <BLANKLINE>
                         % [Global_Skips measure 3]                                         %! _comment_measure_numbers
-                        \baca-new-spacing-section #32 #1024                                %! HorizontalSpacingSpecifier(1):SPACING
+                        \baca-new-spacing-section #32 #1024                                %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
                         \time 20/32                                                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
                         \baca-time-signature-color #'blue                                  %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
                         s1 * 5/8                                                           %! _make_global_skips(1)

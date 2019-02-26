@@ -1109,16 +1109,16 @@ G_Guitar_Music_Voice_IV = {                                                    %
 
 G_Guitar_Music_Staff = <<                                                      %! abjad.Path.extern
 
-    \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"                        %! ScoreTemplate
+    \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"                        %! dornen.ScoreTemplate.__call__
     \G_Guitar_Music_Voice_I                                                    %! abjad.Path.extern
 
-    \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"                      %! ScoreTemplate
+    \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"                      %! dornen.ScoreTemplate.__call__
     \G_Guitar_Music_Voice_II                                                   %! abjad.Path.extern
 
-    \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"                    %! ScoreTemplate
+    \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"                    %! dornen.ScoreTemplate.__call__
     \G_Guitar_Music_Voice_III                                                  %! abjad.Path.extern
 
-    \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"                      %! ScoreTemplate
+    \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"                      %! dornen.ScoreTemplate.__call__
     \G_Guitar_Music_Voice_IV                                                   %! abjad.Path.extern
 
 >>                                                                             %! abjad.Path.extern

@@ -1,4 +1,4 @@
-L_Global_Skips = {                                                             %! extern
+L_Global_Skips = {                                                             %! abjad.Path.extern
 
     % [L Global_Skips measure 257 / measure 1]                                 %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -786,10 +786,10 @@ L_Global_Skips = {                                                             %
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-L_Guitar_Music_Voice_I = {                                                     %! extern
+L_Guitar_Music_Voice_I = {                                                     %! abjad.Path.extern
 
     {
 
@@ -2880,10 +2880,10 @@ L_Guitar_Music_Voice_I = {                                                     %
 
     }
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-L_Guitar_Music_Voice_II = {                                                    %! extern
+L_Guitar_Music_Voice_II = {                                                    %! abjad.Path.extern
 
     % [L Guitar_Music_Voice_II measure 257 / measure 1]                        %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
@@ -3023,10 +3023,10 @@ L_Guitar_Music_Voice_II = {                                                    %
     % [L Guitar_Music_Voice_II measure 302 / measure 46]                       %! _comment_measure_numbers
     s1 * 5/8                                                                   %! _call_rhythm_commands
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-L_Guitar_Music_Voice_III = {                                                   %! extern
+L_Guitar_Music_Voice_III = {                                                   %! abjad.Path.extern
 
     % [L Guitar_Music_Voice_III measure 257 / measure 1]                       %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
@@ -3166,10 +3166,10 @@ L_Guitar_Music_Voice_III = {                                                   %
     % [L Guitar_Music_Voice_III measure 302 / measure 46]                      %! _comment_measure_numbers
     s1 * 5/8                                                                   %! _call_rhythm_commands
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-L_Guitar_Music_Voice_IV = {                                                    %! extern
+L_Guitar_Music_Voice_IV = {                                                    %! abjad.Path.extern
 
     % [L Guitar_Music_Voice_IV measure 257 / measure 1]                        %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
@@ -3309,21 +3309,21 @@ L_Guitar_Music_Voice_IV = {                                                    %
     % [L Guitar_Music_Voice_IV measure 302 / measure 46]                       %! _comment_measure_numbers
     s1 * 5/8                                                                   %! _call_rhythm_commands
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-L_Guitar_Music_Staff = <<                                                      %! extern
+L_Guitar_Music_Staff = <<                                                      %! abjad.Path.extern
 
     \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"                        %! ScoreTemplate
-    \L_Guitar_Music_Voice_I                                                    %! extern
+    \L_Guitar_Music_Voice_I                                                    %! abjad.Path.extern
 
     \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"                      %! ScoreTemplate
-    \L_Guitar_Music_Voice_II                                                   %! extern
+    \L_Guitar_Music_Voice_II                                                   %! abjad.Path.extern
 
     \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"                    %! ScoreTemplate
-    \L_Guitar_Music_Voice_III                                                  %! extern
+    \L_Guitar_Music_Voice_III                                                  %! abjad.Path.extern
 
     \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"                      %! ScoreTemplate
-    \L_Guitar_Music_Voice_IV                                                   %! extern
+    \L_Guitar_Music_Voice_IV                                                   %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern

@@ -20,8 +20,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         >>> abjad.show(lilypond_file, strict=79) # doctest: +SKIP
 
         >>> abjad.f(lilypond_file[abjad.Score], strict=79)
-        \context Score = "Score"                                                       %! ScoreTemplate
-        <<                                                                             %! ScoreTemplate
+        \context Score = "Score"                                                       %! dornen.ScoreTemplate.__call__
+        <<                                                                             %! dornen.ScoreTemplate.__call__
             \context GlobalContext = "Global_Context"                                  %! abjad.ScoreTemplate._make_global_context
             <<                                                                         %! abjad.ScoreTemplate._make_global_context
                 \context GlobalRests = "Global_Rests"                                  %! abjad.ScoreTemplate._make_global_context
@@ -31,30 +31,30 @@ class ScoreTemplate(baca.ScoreTemplate):
                 {                                                                      %! abjad.ScoreTemplate._make_global_context
                 }                                                                      %! abjad.ScoreTemplate._make_global_context
             >>                                                                         %! abjad.ScoreTemplate._make_global_context
-            \context MusicContext = "Music_Context"                                    %! ScoreTemplate
-            {                                                                          %! ScoreTemplate
-                \context GuitarMusicStaff = "Guitar_Music_Staff"                       %! ScoreTemplate
-                <<                                                                     %! ScoreTemplate
-                    \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"                %! ScoreTemplate
-                    {                                                                  %! ScoreTemplate
+            \context MusicContext = "Music_Context"                                    %! dornen.ScoreTemplate.__call__
+            {                                                                          %! dornen.ScoreTemplate.__call__
+                \context GuitarMusicStaff = "Guitar_Music_Staff"                       %! dornen.ScoreTemplate.__call__
+                <<                                                                     %! dornen.ScoreTemplate.__call__
+                    \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"                %! dornen.ScoreTemplate.__call__
+                    {                                                                  %! dornen.ScoreTemplate.__call__
                         \clef "treble"                                                 %! abjad.ScoreTemplate.attach_defaults
                         s1                                                             %! abjad.ScoreTemplate.__illustrate__
-                    }                                                                  %! ScoreTemplate
-                    \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"              %! ScoreTemplate
-                    {                                                                  %! ScoreTemplate
+                    }                                                                  %! dornen.ScoreTemplate.__call__
+                    \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"              %! dornen.ScoreTemplate.__call__
+                    {                                                                  %! dornen.ScoreTemplate.__call__
                         s1                                                             %! abjad.ScoreTemplate.__illustrate__
-                    }                                                                  %! ScoreTemplate
-                    \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"            %! ScoreTemplate
-                    {                                                                  %! ScoreTemplate
+                    }                                                                  %! dornen.ScoreTemplate.__call__
+                    \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"            %! dornen.ScoreTemplate.__call__
+                    {                                                                  %! dornen.ScoreTemplate.__call__
                         s1                                                             %! abjad.ScoreTemplate.__illustrate__
-                    }                                                                  %! ScoreTemplate
-                    \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"              %! ScoreTemplate
-                    {                                                                  %! ScoreTemplate
+                    }                                                                  %! dornen.ScoreTemplate.__call__
+                    \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"              %! dornen.ScoreTemplate.__call__
+                    {                                                                  %! dornen.ScoreTemplate.__call__
                         s1                                                             %! abjad.ScoreTemplate.__illustrate__
-                    }                                                                  %! ScoreTemplate
-                >>                                                                     %! ScoreTemplate
-            }                                                                          %! ScoreTemplate
-        >>                                                                             %! ScoreTemplate
+                    }                                                                  %! dornen.ScoreTemplate.__call__
+                >>                                                                     %! dornen.ScoreTemplate.__call__
+            }                                                                          %! dornen.ScoreTemplate.__call__
+        >>                                                                             %! dornen.ScoreTemplate.__call__
 
 
     """
@@ -82,7 +82,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         """
         Calls score template.
         """
-        tag = 'ScoreTemplate'
+        tag = 'dornen.ScoreTemplate.__call__'
 
         # GLOBAL CONTEXT
         global_context = self._make_global_context()

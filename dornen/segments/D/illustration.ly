@@ -15,8 +15,8 @@
             \include "layout.ly"                                               %! baca.SegmentMaker._make_lilypond_file
         }                                                                      %! baca.SegmentMaker._make_lilypond_file
 
-        \context Score = "Score"                                               %! ScoreTemplate
-        <<                                                                     %! ScoreTemplate
+        \context Score = "Score"                                               %! dornen.ScoreTemplate.__call__
+        <<                                                                     %! dornen.ScoreTemplate.__call__
 
             \context GlobalContext = "Global_Context"                          %! abjad.ScoreTemplate._make_global_context
             <<                                                                 %! abjad.ScoreTemplate._make_global_context
@@ -26,15 +26,15 @@
 
             >>                                                                 %! abjad.ScoreTemplate._make_global_context
 
-            \context MusicContext = "Music_Context"                            %! ScoreTemplate
-            {                                                                  %! ScoreTemplate
+            \context MusicContext = "Music_Context"                            %! dornen.ScoreTemplate.__call__
+            {                                                                  %! dornen.ScoreTemplate.__call__
 
-                \context GuitarMusicStaff = "Guitar_Music_Staff"               %! ScoreTemplate
+                \context GuitarMusicStaff = "Guitar_Music_Staff"               %! dornen.ScoreTemplate.__call__
                 \D_Guitar_Music_Staff                                          %! abjad.Path.extern
 
-            }                                                                  %! ScoreTemplate
+            }                                                                  %! dornen.ScoreTemplate.__call__
 
-        >>                                                                     %! ScoreTemplate
+        >>                                                                     %! dornen.ScoreTemplate.__call__
 
     >>                                                                         %! baca.SegmentMaker._make_lilypond_file
     

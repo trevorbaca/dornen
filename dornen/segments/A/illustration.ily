@@ -263,6 +263,56 @@ A_Global_Skips = {                                                             %
 }                                                                              %! abjad.Path.extern
 
 
+A_Global_Rests = {                                                             %! abjad.Path.extern
+
+    % [A Global_Rests measure 20 / measure 1]                                  %! _comment_measure_numbers
+    R1 * 1/4                                                                   %! _make_global_rests(1)
+
+    % [A Global_Rests measure 21 / measure 2]                                  %! _comment_measure_numbers
+    R1 * 1/20                                                                  %! _make_global_rests(1)
+
+    % [A Global_Rests measure 22 / measure 3]                                  %! _comment_measure_numbers
+    R1 * 3/16                                                                  %! _make_global_rests(1)
+
+    % [A Global_Rests measure 23 / measure 4]                                  %! _comment_measure_numbers
+    R1 * 1/10                                                                  %! _make_global_rests(1)
+
+    % [A Global_Rests measure 24 / measure 5]                                  %! _comment_measure_numbers
+    R1 * 13/64                                                                 %! _make_global_rests(1)
+
+    % [A Global_Rests measure 25 / measure 6]                                  %! _comment_measure_numbers
+    R1 * 3/20                                                                  %! _make_global_rests(1)
+
+    % [A Global_Rests measure 26 / measure 7]                                  %! _comment_measure_numbers
+    R1 * 7/32                                                                  %! _make_global_rests(1)
+
+    % [A Global_Rests measure 27 / measure 8]                                  %! _comment_measure_numbers
+    R1 * 1/5                                                                   %! _make_global_rests(1)
+
+    % [A Global_Rests measure 28 / measure 9]                                  %! _comment_measure_numbers
+    R1 * 15/64                                                                 %! _make_global_rests(1)
+
+    % [A Global_Rests measure 29 / measure 10]                                 %! _comment_measure_numbers
+    R1 * 1/4                                                                   %! _make_global_rests(1)
+
+    % [A Global_Rests measure 30 / measure 11]                                 %! _comment_measure_numbers
+    R1 * 5/16                                                                  %! _make_global_rests(1)
+
+    % [A Global_Rests measure 31 / measure 12]                                 %! _comment_measure_numbers
+    R1 * 1/20                                                                  %! _make_global_rests(1)
+
+    % [A Global_Rests measure 32 / measure 13]                                 %! _comment_measure_numbers
+    R1 * 11/16                                                                 %! _make_global_rests(1)
+
+    % [A Global_Rests measure 33 / measure 14]                                 %! _comment_measure_numbers
+    R1 * 1/10                                                                  %! _make_global_rests(1)
+
+    % [A Global_Rests measure 34 / measure 15]                                 %! _comment_measure_numbers
+    R1 * 11/16                                                                 %! _make_global_rests(1)
+
+}                                                                              %! abjad.Path.extern
+
+
 A_Guitar_Music_Voice_I = {                                                     %! abjad.Path.extern
 
     {
@@ -1816,6 +1866,9 @@ A_Guitar_Music_Voice_IV = {                                                    %
 
 
 A_Guitar_Music_Staff = <<                                                      %! abjad.Path.extern
+
+    \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context
+    \A_Global_Rests                                                            %! abjad.Path.extern
 
     \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"                        %! dornen.ScoreTemplate.__call__
     \A_Guitar_Music_Voice_I                                                    %! abjad.Path.extern

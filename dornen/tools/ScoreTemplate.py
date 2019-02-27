@@ -63,7 +63,11 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     __documentation_section__ = None
 
+    _always_make_global_rests = True
+
     _do_not_require_margin_markup = True
+
+    _global_rests_in_topmost_staff = True
 
     ### INITIALIZER ###
 

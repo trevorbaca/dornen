@@ -728,6 +728,137 @@ M_Global_Skips = {                                                             %
 }                                                                              %! abjad.Path.extern
 
 
+M_Global_Rests = {                                                             %! abjad.Path.extern
+
+    % [M Global_Rests measure 303 / measure 1]                                 %! _comment_measure_numbers
+    R1 * 3/32                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 304 / measure 2]                                 %! _comment_measure_numbers
+    R1 * 3/20                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 305 / measure 3]                                 %! _comment_measure_numbers
+    R1 * 1/16                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 306 / measure 4]                                 %! _comment_measure_numbers
+    R1 * 3/20                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 307 / measure 5]                                 %! _comment_measure_numbers
+    R1 * 1/8                                                                   %! _make_global_rests(1)
+
+    % [M Global_Rests measure 308 / measure 6]                                 %! _comment_measure_numbers
+    R1 * 3/32                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 309 / measure 7]                                 %! _comment_measure_numbers
+    R1 * 1/32                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 310 / measure 8]                                 %! _comment_measure_numbers
+    R1 * 3/32                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 311 / measure 9]                                 %! _comment_measure_numbers
+    R1 * 3/20                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 312 / measure 10]                                %! _comment_measure_numbers
+    R1 * 1/16                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 313 / measure 11]                                %! _comment_measure_numbers
+    R1 * 3/20                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 314 / measure 12]                                %! _comment_measure_numbers
+    R1 * 1/8                                                                   %! _make_global_rests(1)
+
+    % [M Global_Rests measure 315 / measure 13]                                %! _comment_measure_numbers
+    R1 * 3/32                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 316 / measure 14]                                %! _comment_measure_numbers
+    R1 * 1/32                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 317 / measure 15]                                %! _comment_measure_numbers
+    R1 * 3/32                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 318 / measure 16]                                %! _comment_measure_numbers
+    R1 * 3/20                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 319 / measure 17]                                %! _comment_measure_numbers
+    R1 * 1/16                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 320 / measure 18]                                %! _comment_measure_numbers
+    R1 * 3/20                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 321 / measure 19]                                %! _comment_measure_numbers
+    R1 * 1/8                                                                   %! _make_global_rests(1)
+
+    % [M Global_Rests measure 322 / measure 20]                                %! _comment_measure_numbers
+    R1 * 3/32                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 323 / measure 21]                                %! _comment_measure_numbers
+    R1 * 1/32                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 324 / measure 22]                                %! _comment_measure_numbers
+    R1 * 3/32                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 325 / measure 23]                                %! _comment_measure_numbers
+    R1 * 3/20                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 326 / measure 24]                                %! _comment_measure_numbers
+    R1 * 1/16                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 327 / measure 25]                                %! _comment_measure_numbers
+    R1 * 3/20                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 328 / measure 26]                                %! _comment_measure_numbers
+    R1 * 1/8                                                                   %! _make_global_rests(1)
+
+    % [M Global_Rests measure 329 / measure 27]                                %! _comment_measure_numbers
+    R1 * 3/32                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 330 / measure 28]                                %! _comment_measure_numbers
+    R1 * 1/32                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 331 / measure 29]                                %! _comment_measure_numbers
+    R1 * 3/32                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 332 / measure 30]                                %! _comment_measure_numbers
+    R1 * 3/20                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 333 / measure 31]                                %! _comment_measure_numbers
+    R1 * 1/16                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 334 / measure 32]                                %! _comment_measure_numbers
+    R1 * 3/20                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 335 / measure 33]                                %! _comment_measure_numbers
+    R1 * 1/8                                                                   %! _make_global_rests(1)
+
+    % [M Global_Rests measure 336 / measure 34]                                %! _comment_measure_numbers
+    R1 * 3/32                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 337 / measure 35]                                %! _comment_measure_numbers
+    R1 * 1/32                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 338 / measure 36]                                %! _comment_measure_numbers
+    R1 * 3/32                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 339 / measure 37]                                %! _comment_measure_numbers
+    R1 * 3/20                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 340 / measure 38]                                %! _comment_measure_numbers
+    R1 * 1/16                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 341 / measure 39]                                %! _comment_measure_numbers
+    R1 * 3/20                                                                  %! _make_global_rests(1)
+
+    % [M Global_Rests measure 342 / measure 40]                                %! _comment_measure_numbers
+    R1 * 1/8                                                                   %! _make_global_rests(1)
+
+    % [M Global_Rests measure 343 / measure 41]                                %! _comment_measure_numbers
+    R1 * 5/8                                                                   %! _make_global_rests(1)
+
+    % [M Global_Rests measure 344 / measure 42]                                %! _comment_measure_numbers
+    R1 * 13/3                                                                  %! _make_global_rests(1)
+
+}                                                                              %! abjad.Path.extern
+
+
 M_Guitar_Music_Voice_I = {                                                     %! abjad.Path.extern
 
     {
@@ -1862,6 +1993,9 @@ M_Guitar_Music_Voice_IV = {                                                    %
 
 
 M_Guitar_Music_Staff = <<                                                      %! abjad.Path.extern
+
+    \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context
+    \M_Global_Rests                                                            %! abjad.Path.extern
 
     \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"                        %! dornen.ScoreTemplate.__call__
     \M_Guitar_Music_Voice_I                                                    %! abjad.Path.extern

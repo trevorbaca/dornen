@@ -17,6 +17,7 @@ persist = abjad.OrderedDict(
                 'Guitar_Music_Voice_II',
                 'Guitar_Rest_Voice_II',
                 'Guitar_Music_Voice_III',
+                'Guitar_Rest_Voice_III',
                 'Guitar_Music_Voice_IV',
                 'Guitar_Rest_Voice_IV',
                 ],

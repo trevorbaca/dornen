@@ -1,6 +1,6 @@
 % first_page_number = 2
 % page_count = 1
-% measure_count = 15
+% measure_count = 15 + 1
 % time_signatures = [
 % '4/16', '1/20', '3/16', '2/20', '13/64', '3/20', '7/32', '4/20', '15/64',
 %  '5/20', '5/16', '1/20', '22/32', '2/20', '22/32'
@@ -139,15 +139,15 @@
         %@% \bacaStartTextSpanSPM                                              %! SPACING
 
             % [Page_Layout measure 34]                                         %! _comment_measure_numbers
-            \baca-new-spacing-section #35 #4320                                %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
+            \baca-new-spacing-section #1 #180                                  %! HorizontalSpacingSpecifier(1):SPACING_COMMAND
             \noBreak                                                           %! BreakMeasureMap(2):BREAK
             s1 * 11/16                                                         %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                               %! SPACING
-        %@% - \baca-start-spm-both "[[1/180 * 35/24]]" "[1]"                   %! SPACING
+        %@% - \baca-start-spm-left-only "[1/180]"                              %! SPACING
         %@% \bacaStartTextSpanSPM                                              %! SPACING
 
             % [Page_Layout measure 35]                                         %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
-            \baca-new-spacing-section #1 #1                                    %! PHANTOM:_style_phantom_measures(1):HorizontalSpacingSpecifier(1):SPACING_COMMAND
+            \baca-new-spacing-section #1 #4                                    %! PHANTOM:_style_phantom_measures(1):HorizontalSpacingSpecifier(1):SPACING_COMMAND
             \noBreak                                                           %! PHANTOM:_style_phantom_measures(1):BreakMeasureMap(2):BREAK
             \baca-time-signature-transparent                                   %! PHANTOM:_style_phantom_measures(2)
             s1 * 1/4                                                           %! PHANTOM:_make_global_skips(3)

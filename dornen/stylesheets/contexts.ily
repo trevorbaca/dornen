@@ -64,24 +64,13 @@
         \override TimeSignature.style = #'numbered
     }
 
-    % PIANO STAFF
-    \context {
-        \PianoStaff
-        \remove "Keep_alive_together_engraver" 
-    }
-    % STAFF
-    \context {
-        \Staff
-        \remove Time_signature_engraver
-    }
-
     % VOICE
     \context {
         \Voice
         \remove Forbid_line_break_engraver
     }
 
-    % GUITAR CONTEXTS
+    % GUITAR MUSIC VOICE I
     \context {
         \Voice
         \name GuitarMusicVoiceI
@@ -93,6 +82,8 @@
         %\override TextScript.outside-staff-priority = 0
         \override TextScript.outside-staff-priority = 800
     }
+
+    % GUITAR MUSIC VOICE II
     \context {
         \Voice
         \name GuitarMusicVoiceII
@@ -118,6 +109,8 @@
         \override TupletBracket.color = #red
         \override TupletNumber.color = #red
     }
+
+    % GUITAR MUSIC VOICE III
     \context {
         \Voice
         \name GuitarMusicVoiceIII
@@ -126,6 +119,8 @@
 
         \override Stem.direction = #down
     }
+
+    % GUITAR MUSIC VOICE IV
     \context {
         \Voice
         \name GuitarMusicVoiceIV
@@ -152,6 +147,15 @@
         \override TupletBracket.color = #red
         \override TupletNumber.color = #red
     }
+
+    % STAFF
+    \context {
+        \Staff
+        \accepts GlobalRests
+        \remove Time_signature_engraver
+    }
+
+    % GUITAR MUSIC STAFF
     \context {
         \Staff
         \name GuitarMusicStaff
@@ -161,6 +165,12 @@
         \accepts GuitarMusicVoiceII
         \accepts GuitarMusicVoiceIII
         \accepts GuitarMusicVoiceIV
+    }
+
+    % PIANO STAFF
+    \context {
+        \PianoStaff
+        \remove "Keep_alive_together_engraver" 
     }
 
     % MUSIC CONTEXT
@@ -227,4 +237,5 @@
         proportionalNotationDuration = #(ly:make-moment 1 24)
         tupletFullLength = ##t
     }
+
 }

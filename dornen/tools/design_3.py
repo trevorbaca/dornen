@@ -408,22 +408,21 @@ def design_3(start=None, stop=None):
 
     """
     import dornen
+
     green_pitch_classes = dornen.green_pitch_classes
-    green_cursor = baca.Cursor.from_pitch_class_segments(
-        green_pitch_classes,
-        )
+    green_cursor = baca.Cursor.from_pitch_class_segments(green_pitch_classes)
     bright_green_pitch_classes = dornen.bright_green_pitch_classes
     bright_green_cursor = baca.Cursor.from_pitch_class_segments(
-        bright_green_pitch_classes,
-        )
+        bright_green_pitch_classes
+    )
     design_maker = baca.DesignMaker()
     design_maker.partition_cyclic(green_cursor, 12, [6, 5, 4, 3, 2, 1])
-    design_maker.partition(bright_green_cursor, 6, [], ['T0'])
-    design_maker.partition_cyclic(green_cursor, 6, [6], ['T1'])
-    design_maker.partition(bright_green_cursor, 4, [], ['T2'])
-    design_maker.partition_cyclic(bright_green_cursor, 4, [5], ['T2'])
-    design_maker.partition_cyclic(green_cursor, 4, [6], ['alpha'])
-    design_maker.partition_cyclic(bright_green_cursor, 4, [5], ['alpha'])
+    design_maker.partition(bright_green_cursor, 6, [], ["T0"])
+    design_maker.partition_cyclic(green_cursor, 6, [6], ["T1"])
+    design_maker.partition(bright_green_cursor, 4, [], ["T2"])
+    design_maker.partition_cyclic(bright_green_cursor, 4, [5], ["T2"])
+    design_maker.partition_cyclic(green_cursor, 4, [6], ["alpha"])
+    design_maker.partition_cyclic(bright_green_cursor, 4, [5], ["alpha"])
     design = design_maker()
     if start is None and stop is None:
         return design

@@ -374,24 +374,17 @@ def ovoid_music():
     Returns music-maker.
     """
     music_maker = baca.MusicMaker(
-        rmakers.BeamSpecifier(
-            beam_divisions_together=True,
-            ),
+        rmakers.BeamSpecifier(beam_divisions_together=True),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
                 acciaccatura_specifiers=[
                     baca.AcciaccaturaSpecifier(
-                        lmr_specifier=baca.LMRSpecifier(
-                            left_length=1,
-                            ),
-                        ),
-                    ],
-                talea=rmakers.Talea(
-                    counts=[6, 1],
-                    denominator=32,
-                    ),
-                )
-            ),
+                        lmr_specifier=baca.LMRSpecifier(left_length=1)
+                    )
+                ],
+                talea=rmakers.Talea(counts=[6, 1], denominator=32),
+            )
+        ),
         color_unregistered_pitches=True,
-        )
+    )
     return music_maker

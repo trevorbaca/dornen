@@ -543,13 +543,10 @@ def third_music():
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rmakers.Talea(
-                    counts=[1],
-                    denominator=2,
-                    ),
+                talea=rmakers.Talea(counts=[1], denominator=2),
                 time_treatments=[abjad.Multiplier((2, 3))],
-                )
-            ),
+            )
+        ),
         denominator=3,
-        )
+    )
     return music_maker

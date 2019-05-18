@@ -549,19 +549,14 @@ def twenty_eighth_music():
     Returns music-maker.
     """
     music_maker = baca.MusicMaker(
-        rmakers.BeamSpecifier(
-            beam_each_division=True,
-            ),
+        rmakers.BeamSpecifier(beam_each_division=True),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rmakers.Talea(
-                    counts=[1],
-                    denominator=16,
-                    ),
+                talea=rmakers.Talea(counts=[1], denominator=16),
                 time_treatments=[abjad.Multiplier((4, 7))],
-                )
-            ),
+            )
+        ),
         color_unregistered_pitches=True,
         denominator=28,
-        )
+    )
     return music_maker

@@ -424,30 +424,29 @@ def design_1(start=None, stop=None):
 
     """
     import dornen
+
     design_maker = baca.DesignMaker()
     magenta_pitch_classes = dornen.magenta_pitch_classes
     magenta_cursor = baca.Cursor.from_pitch_class_segments(
-        magenta_pitch_classes,
-        )
+        magenta_pitch_classes
+    )
     blue_pitch_classes = dornen.blue_pitch_classes
-    blue_cursor = baca.Cursor.from_pitch_class_segments(
-        blue_pitch_classes,
-        )
+    blue_cursor = baca.Cursor.from_pitch_class_segments(blue_pitch_classes)
     design_maker.partition(magenta_cursor, 2, [1])
     design_maker.partition(magenta_cursor, 2, [1])
     design_maker.partition(magenta_cursor, 2, [2])
     design_maker.partition(magenta_cursor, 2, [2])
     design_maker.partition(magenta_cursor, 2, [4])
     design_maker.partition(magenta_cursor, 2, [4])
-    design_maker.partition(blue_cursor, 4, [], ['T0'])
-    design_maker.partition(magenta_cursor, 3, [2], ['T1'])
-    design_maker.partition(magenta_cursor, 3, [2], ['T1'])
-    design_maker.partition(magenta_cursor, 3, [4], ['T1'])
-    design_maker.partition(magenta_cursor, 3, [4], ['T1'])
-    design_maker.partition(blue_cursor, 4, [], ['T2'])
-    design_maker.partition(blue_cursor, 4, [], ['T2'])
-    design_maker.partition_cyclic(magenta_cursor, 8, [1, 3], ['alpha'])
-    design_maker.partition_cyclic(blue_cursor, 8, [1, 4], ['alpha'])
+    design_maker.partition(blue_cursor, 4, [], ["T0"])
+    design_maker.partition(magenta_cursor, 3, [2], ["T1"])
+    design_maker.partition(magenta_cursor, 3, [2], ["T1"])
+    design_maker.partition(magenta_cursor, 3, [4], ["T1"])
+    design_maker.partition(magenta_cursor, 3, [4], ["T1"])
+    design_maker.partition(blue_cursor, 4, [], ["T2"])
+    design_maker.partition(blue_cursor, 4, [], ["T2"])
+    design_maker.partition_cyclic(magenta_cursor, 8, [1, 3], ["alpha"])
+    design_maker.partition_cyclic(blue_cursor, 8, [1, 4], ["alpha"])
     design = design_maker()
     if start is None and stop is None:
         return design

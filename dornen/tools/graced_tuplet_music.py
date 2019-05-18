@@ -412,45 +412,34 @@ def graced_tuplet_music():
                 acciaccatura_specifiers=[
                     baca.AcciaccaturaSpecifier(
                         lmr_specifier=baca.LMRSpecifier(
-                            left_length=1,
-                            right_counts=[2],
-                            right_cyclic=True,
-                            ),
-                        ),
-                    ],
-                talea=rmakers.Talea(
-                    counts=[1],
-                    denominator=16,
-                    ),
-                #time_treatments=[1],
+                            left_length=1, right_counts=[2], right_cyclic=True
+                        )
+                    )
+                ],
+                talea=rmakers.Talea(counts=[1], denominator=16),
+                # time_treatments=[1],
                 time_treatments=[abjad.Multiplier((8, 7))],
-                )
             ),
+        ),
         baca.PitchFirstRhythmCommand(
             pattern=abjad.index([1], 2),
             rhythm_maker=baca.PitchFirstRhythmMaker(
                 acciaccatura_specifiers=[
                     baca.AcciaccaturaSpecifier(
                         lmr_specifier=baca.LMRSpecifier(
-                            left_length=1,
-                            right_counts=[2],
-                            right_cyclic=True,
-                            ),
-                        ),
-                    ],
-                talea=rmakers.Talea(
-                    counts=[1],
-                    denominator=16,
-                    ),
-                #time_treatments=[-1],
+                            left_length=1, right_counts=[2], right_cyclic=True
+                        )
+                    )
+                ],
+                talea=rmakers.Talea(counts=[1], denominator=16),
+                # time_treatments=[-1],
                 time_treatments=[abjad.Multiplier((5, 7))],
-                )
             ),
+        ),
         rmakers.BeamSpecifier(
-            beam_divisions_together=True,
-            beam_lone_notes=True,
-            ),
+            beam_divisions_together=True, beam_lone_notes=True
+        ),
         color_unregistered_pitches=True,
         denominator=14,
-        )
+    )
     return music_maker

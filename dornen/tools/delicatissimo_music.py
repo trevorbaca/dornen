@@ -590,20 +590,14 @@ def delicatissimo_music():
     Returns music-maker.
     """
     music_maker = baca.MusicMaker(
-        rmakers.BeamSpecifier(
-            beam_divisions_together=True,
-            ),
+        rmakers.BeamSpecifier(beam_divisions_together=True),
         baca.staccato(selector=baca.pheads()),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rmakers.Talea(
-                    counts=[1],
-                    denominator=32,
-                    ),
-
-                ),
-            ),
+                talea=rmakers.Talea(counts=[1], denominator=32)
+            )
+        ),
         color_unregistered_pitches=True,
         denominator=32,
-        )
+    )
     return music_maker

@@ -562,17 +562,11 @@ def sixteenth_music():
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rmakers.Talea(
-                    counts=[1],
-                    denominator=16,
-                    ),
-                )
-            ),
-        rmakers.BeamSpecifier(
-            beam_each_division=True,
-            beam_lone_notes=True,
-            ),
+                talea=rmakers.Talea(counts=[1], denominator=16)
+            )
+        ),
+        rmakers.BeamSpecifier(beam_each_division=True, beam_lone_notes=True),
         color_unregistered_pitches=True,
         denominator=16,
-        )
+    )
     return music_maker

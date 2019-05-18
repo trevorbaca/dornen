@@ -556,17 +556,11 @@ def default_music():
         rmakers.BeamSpecifier(beam_divisions_together=True),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rmakers.Talea(
-                    counts=[1],
-                    denominator=32,
-                    ),
-                ),
-            ),
-        baca.new(
-            baca.slur(),
-            map=baca.ntruns(),
-            ),
+                talea=rmakers.Talea(counts=[1], denominator=32)
+            )
+        ),
+        baca.new(baca.slur(), map=baca.ntruns()),
         color_unregistered_pitches=True,
         denominator=32,
-        )
+    )
     return music_maker

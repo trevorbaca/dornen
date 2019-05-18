@@ -597,18 +597,12 @@ def twentieth_music():
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rmakers.Talea(
-                    counts=[1],
-                    denominator=16,
-                    ),
+                talea=rmakers.Talea(counts=[1], denominator=16),
                 time_treatments=[abjad.Multiplier((4, 5))],
-                )
-            ),
-        rmakers.BeamSpecifier(
-            beam_each_division=True,
-            beam_lone_notes=True,
-            ),
+            )
+        ),
+        rmakers.BeamSpecifier(beam_each_division=True, beam_lone_notes=True),
         color_unregistered_pitches=True,
         denominator=20,
-        )
+    )
     return music_maker

@@ -8,13 +8,11 @@ class DesignChecker(object):
 
     ### CLASS VARIABLES ###
 
-    __slots__ = (
-        '_design',
-        )
+    __slots__ = ("_design",)
 
-    _foreshadow_tag = 'foreshadow'
+    _foreshadow_tag = "foreshadow"
 
-    _recollection_tag = 'recollection'
+    _recollection_tag = "recollection"
 
     ### INITIALIZER ###
 
@@ -29,21 +27,21 @@ class DesignChecker(object):
         design_pitch_classes = self._get_design_pitch_classes()
         score_pitch_classes = self._get_score_pitch_classes(score)
         pairs = zip(design_pitch_classes, score_pitch_classes)
-        #print(design_pitch_classes)
-        #print(score_pitch_classes)
+        # print(design_pitch_classes)
+        # print(score_pitch_classes)
         for index, pair in enumerate(pairs):
             design_pitch_class, score_pitch_class = pair
             if not design_pitch_class == score_pitch_class:
-                message = f'pitch-class mismatch at index {index}:'
-                message += f' design {design_pitch_class!r}'
-                message += ' vs score {score_pitch_class!r}.'
+                message = f"pitch-class mismatch at index {index}:"
+                message += f" design {design_pitch_class!r}"
+                message += " vs score {score_pitch_class!r}."
                 raise Exception(message)
         total_design = len(design_pitch_classes)
         total_score = len(score_pitch_classes)
         if total_score < total_design:
-            message = f'{total_design} pcs; only {total_score} score pcs ...'
+            message = f"{total_design} pcs; only {total_score} score pcs ..."
         else:
-            message = f'{total_design} pcs with {total_score} score pcs ...'
+            message = f"{total_design} pcs with {total_score} score pcs ..."
         if not total_design == total_score:
             raise Exception(message)
         print(message)

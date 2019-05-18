@@ -558,35 +558,26 @@ def running_music():
     Returns music-maker.
     """
     music_maker = baca.MusicMaker(
-        rmakers.BeamSpecifier(
-            beam_divisions_together=True,
-            ),
+        rmakers.BeamSpecifier(beam_divisions_together=True),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rmakers.Talea(
-                    counts=[1],
-                    denominator=64,
-                    ),
-
+                talea=rmakers.Talea(counts=[1], denominator=64),
                 time_treatments=[-1, -2],
-                ),
-            ),
-#        baca.new(
-#            baca.slur(),
-#            map=baca.tuplets()[:1].rleaves().group().nontrivial(),
-#            ),
-#        baca.new(
-#            baca.slur(),
-#            map=baca.tuplets()[1:-1].leaves()[1:-1].group().nontrivial(),
-#            ),
-#        baca.new(
-#            baca.slur(),
-#            map=baca.tuplets()[-1:].lleaves().group().nontrivial(),
-#            ),
-        baca.new(
-            baca.slur(),
-            map=baca.tuplets().nontrivial(),
-            ),
+            )
+        ),
+        #        baca.new(
+        #            baca.slur(),
+        #            map=baca.tuplets()[:1].rleaves().group().nontrivial(),
+        #            ),
+        #        baca.new(
+        #            baca.slur(),
+        #            map=baca.tuplets()[1:-1].leaves()[1:-1].group().nontrivial(),
+        #            ),
+        #        baca.new(
+        #            baca.slur(),
+        #            map=baca.tuplets()[-1:].lleaves().group().nontrivial(),
+        #            ),
+        baca.new(baca.slur(), map=baca.tuplets().nontrivial()),
         color_unregistered_pitches=True,
-        )
+    )
     return music_maker

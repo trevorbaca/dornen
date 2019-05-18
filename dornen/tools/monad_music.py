@@ -543,13 +543,10 @@ def monad_music():
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rmakers.Talea(
-                    counts=[1],
-                    denominator=2,
-                    ),
+                talea=rmakers.Talea(counts=[1], denominator=2),
                 time_treatments=[abjad.Multiplier((4, 5))],
-                )
-            ),
+            )
+        ),
         denominator=5,
-        )
+    )
     return music_maker

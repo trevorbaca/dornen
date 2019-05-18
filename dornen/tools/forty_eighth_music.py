@@ -203,14 +203,10 @@ def forty_eighth_music():
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rmakers.Talea(
-                    counts=[3],
-                    denominator=64,
-                    ),
-
-                ),
-            ),
+                talea=rmakers.Talea(counts=[3], denominator=64)
+            )
+        ),
         color_unregistered_pitches=True,
         denominator=32,
-        )
+    )
     return music_maker

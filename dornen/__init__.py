@@ -1,20 +1,23 @@
 import distutils.version
 import platform
+
 if not (
-    distutils.version.LooseVersion('3.6') <
-    distutils.version.LooseVersion(platform.python_version())
-    ):
-    raise ImportError('Requires Python 3.6.')
+    distutils.version.LooseVersion("3.6")
+    < distutils.version.LooseVersion(platform.python_version())
+):
+    raise ImportError("Requires Python 3.6.")
 del distutils
 del platform
 from dornen.tools import *
 from dornen.materials.blue_pitch_classes.definition import blue_pitch_classes
-from dornen.materials.bright_green_pitch_classes.definition import \
-    bright_green_pitch_classes
+from dornen.materials.bright_green_pitch_classes.definition import (
+    bright_green_pitch_classes,
+)
 from dornen.materials.green_pitch_classes.definition import green_pitch_classes
 from dornen.materials.instruments.definition import instruments
-from dornen.materials.magenta_pitch_classes.definition import \
-    magenta_pitch_classes
+from dornen.materials.magenta_pitch_classes.definition import (
+    magenta_pitch_classes,
+)
 from dornen.materials.metronome_marks.definition import metronome_marks
 from dornen import segments
 

@@ -359,10 +359,10 @@ def rest_music(duration=None):
                 talea=rmakers.Talea(
                     counts=[duration.numerator],
                     denominator=duration.denominator,
-                    ),
-                )
-            ),
+                ),
+            )
+        ),
         color_unregistered_pitches=True,
         denominator=duration.denominator,
-        )
+    )
     return music_maker

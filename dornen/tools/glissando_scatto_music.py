@@ -582,24 +582,17 @@ def glissando_scatto_music():
     Returns music-maker.
     """
     music_maker = baca.MusicMaker(
-        rmakers.BeamSpecifier(
-            beam_divisions_together=True,
-            ),
+        rmakers.BeamSpecifier(beam_divisions_together=True),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
                 talea=rmakers.Talea(
-                    counts=[2, 2, 2, 1, 2, 2, 2],
-                    denominator=32,
-                    ),
-
-                time_treatments=[-2, -3],
+                    counts=[2, 2, 2, 1, 2, 2, 2], denominator=32
                 ),
-            ),
-        baca.new(
-            baca.glissando(),
-            map=baca.ntruns(),
-            ),
+                time_treatments=[-2, -3],
+            )
+        ),
+        baca.new(baca.glissando(), map=baca.ntruns()),
         color_unregistered_pitches=True,
         denominator=16,
-        )
+    )
     return music_maker

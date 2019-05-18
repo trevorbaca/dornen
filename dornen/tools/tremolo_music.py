@@ -645,24 +645,15 @@ def tremolo_music():
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rmakers.Talea(
-                    counts=[1],
-                    denominator=8,
-                    ),
-
+                talea=rmakers.Talea(counts=[1], denominator=8),
                 time_treatments=[abjad.Ratio((11, 8))],
-                ),
-            ),
-        rmakers.BeamSpecifier(
-            beam_divisions_together=True,
-            ),
-        baca.new(
-            baca.repeat_tie(),
-            map=baca.qruns().nontrivial(),
-            ),
+            )
+        ),
+        rmakers.BeamSpecifier(beam_divisions_together=True),
+        baca.new(baca.repeat_tie(), map=baca.qruns().nontrivial()),
         baca.stem_tremolo(selector=baca.pleaves()),
         allow_repeats=True,
         color_unregistered_pitches=True,
         denominator=11,
-        )
+    )
     return music_maker

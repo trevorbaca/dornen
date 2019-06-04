@@ -124,7 +124,7 @@ def default_music():
                                 \set stemRightBeamCount = 3
                                 fs'!32
                                 [
-                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
+                                (                                                          %! baca.slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
@@ -149,7 +149,7 @@ def default_music():
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0
                                 c'32
-                                )                                                          %! baca_slur:SpannerIndicatorCommand(2)
+                                )                                                          %! baca.slur:SpannerIndicatorCommand(2)
                                 ]
             <BLANKLINE>
                             }
@@ -168,7 +168,7 @@ def default_music():
                                 \set stemRightBeamCount = 3
                                 bf'!32
                                 [
-                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
+                                (                                                          %! baca.slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
@@ -189,7 +189,7 @@ def default_music():
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0
                                 f'32
-                                )                                                          %! baca_slur:SpannerIndicatorCommand(2)
+                                )                                                          %! baca.slur:SpannerIndicatorCommand(2)
                                 ]
             <BLANKLINE>
                             }
@@ -348,7 +348,7 @@ def default_music():
                                 \set stemRightBeamCount = 3
                                 e'32
                                 [
-                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
+                                (                                                          %! baca.slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -389,7 +389,7 @@ def default_music():
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
                                 b'32
-                                )                                                          %! baca_slur:SpannerIndicatorCommand(2)
+                                )                                                          %! baca.slur:SpannerIndicatorCommand(2)
                                 ]
             <BLANKLINE>
                             }
@@ -401,7 +401,7 @@ def default_music():
                                 \set stemRightBeamCount = 3
                                 fs'!32
                                 [
-                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
+                                (                                                          %! baca.slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
@@ -462,7 +462,7 @@ def default_music():
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0
                                 f'32
-                                )                                                          %! baca_slur:SpannerIndicatorCommand(2)
+                                )                                                          %! baca.slur:SpannerIndicatorCommand(2)
                                 ]
             <BLANKLINE>
                             }
@@ -474,7 +474,7 @@ def default_music():
                                 \set stemRightBeamCount = 3
                                 b'32
                                 [
-                                (                                                          %! baca_slur:SpannerIndicatorCommand(1)
+                                (                                                          %! baca.slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -511,7 +511,7 @@ def default_music():
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
                                 e'32
-                                )                                                          %! baca_slur:SpannerIndicatorCommand(2)
+                                )                                                          %! baca.slur:SpannerIndicatorCommand(2)
                                 ]
             <BLANKLINE>
                             }

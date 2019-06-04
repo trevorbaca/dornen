@@ -449,15 +449,15 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 186 / measure 2]                 %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-            ^ \markup {                                                        %! baca_markup:IndicatorCommand
-                \override                                                      %! baca_markup:IndicatorCommand
-                    #'(box-padding . 0.5)                                      %! baca_markup:IndicatorCommand
-                    \box                                                       %! baca_markup:IndicatorCommand
-                        "2-finger tamb. trill"                                 %! baca_markup:IndicatorCommand
-                }                                                              %! baca_markup:IndicatorCommand
+            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+            ^ \markup {                                                        %! baca.markup:IndicatorCommand
+                \override                                                      %! baca.markup:IndicatorCommand
+                    #'(box-padding . 0.5)                                      %! baca.markup:IndicatorCommand
+                    \box                                                       %! baca.markup:IndicatorCommand
+                        "2-finger tamb. trill"                                 %! baca.markup:IndicatorCommand
+                }                                                              %! baca.markup:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -481,7 +481,7 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
         }
 
@@ -489,8 +489,8 @@ I_Guitar_Music_Voice_I = {                                                     %
         \times 4/5 {
 
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
+            \repeatTie                                                         %! baca.repeat_tie
 
         }
 
@@ -503,9 +503,9 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 187 / measure 3]                 %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -528,7 +528,7 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
 
         }
 
@@ -541,9 +541,9 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 188 / measure 4]                 %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -566,9 +566,9 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
         }
 
@@ -581,9 +581,9 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 189 / measure 5]                 %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -606,7 +606,7 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
 
         }
 
@@ -619,7 +619,7 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 190 / measure 6]                 %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -642,7 +642,7 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
 
         }
 
@@ -655,15 +655,15 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 191 / measure 7]                 %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-            ^ \markup {                                                        %! baca_markup:IndicatorCommand
-                \override                                                      %! baca_markup:IndicatorCommand
-                    #'(box-padding . 0.5)                                      %! baca_markup:IndicatorCommand
-                    \box                                                       %! baca_markup:IndicatorCommand
-                        "3 fingers"                                            %! baca_markup:IndicatorCommand
-                }                                                              %! baca_markup:IndicatorCommand
+            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+            ^ \markup {                                                        %! baca.markup:IndicatorCommand
+                \override                                                      %! baca.markup:IndicatorCommand
+                    #'(box-padding . 0.5)                                      %! baca.markup:IndicatorCommand
+                    \box                                                       %! baca.markup:IndicatorCommand
+                        "3 fingers"                                            %! baca.markup:IndicatorCommand
+                }                                                              %! baca.markup:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -686,9 +686,9 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
         }
 
@@ -701,9 +701,9 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 192 / measure 8]                 %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -726,7 +726,7 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
 
         }
 
@@ -739,9 +739,9 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 193 / measure 9]                 %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -764,9 +764,9 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
         }
 
@@ -779,9 +779,9 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 194 / measure 10]                %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -804,7 +804,7 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
 
         }
 
@@ -817,7 +817,7 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 195 / measure 11]                %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -840,7 +840,7 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
 
         }
 
@@ -853,15 +853,15 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 196 / measure 12]                %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-            ^ \markup {                                                        %! baca_markup:IndicatorCommand
-                \override                                                      %! baca_markup:IndicatorCommand
-                    #'(box-padding . 0.5)                                      %! baca_markup:IndicatorCommand
-                    \box                                                       %! baca_markup:IndicatorCommand
-                        "4 fingers"                                            %! baca_markup:IndicatorCommand
-                }                                                              %! baca_markup:IndicatorCommand
+            \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+            ^ \markup {                                                        %! baca.markup:IndicatorCommand
+                \override                                                      %! baca.markup:IndicatorCommand
+                    #'(box-padding . 0.5)                                      %! baca.markup:IndicatorCommand
+                    \box                                                       %! baca.markup:IndicatorCommand
+                        "4 fingers"                                            %! baca.markup:IndicatorCommand
+                }                                                              %! baca.markup:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -884,9 +884,9 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
         }
 
@@ -899,9 +899,9 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 197 / measure 13]                %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -924,7 +924,7 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
 
         }
 
@@ -937,9 +937,9 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 198 / measure 14]                %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -962,9 +962,9 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
         }
 
@@ -977,9 +977,9 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 199 / measure 15]                %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1002,7 +1002,7 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
 
         }
 
@@ -1015,9 +1015,9 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 200 / measure 16]                %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+            \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1040,9 +1040,9 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
         }
 
@@ -1055,9 +1055,9 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 201 / measure 17]                %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1080,7 +1080,7 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
 
         }
 
@@ -1093,9 +1093,9 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 202 / measure 18]                %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1118,9 +1118,9 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
         }
 
@@ -1133,7 +1133,7 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 203 / measure 19]                %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1156,7 +1156,7 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
 
         }
 
@@ -1169,7 +1169,7 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 204 / measure 20]                %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1192,7 +1192,7 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
 
         }
 
@@ -1205,13 +1205,13 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 205 / measure 21]                %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            ^ \markup {                                                        %! baca_markup:IndicatorCommand
-                \override                                                      %! baca_markup:IndicatorCommand
-                    #'(box-padding . 0.5)                                      %! baca_markup:IndicatorCommand
-                    \box                                                       %! baca_markup:IndicatorCommand
-                        "3 fingers"                                            %! baca_markup:IndicatorCommand
-                }                                                              %! baca_markup:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
+            ^ \markup {                                                        %! baca.markup:IndicatorCommand
+                \override                                                      %! baca.markup:IndicatorCommand
+                    #'(box-padding . 0.5)                                      %! baca.markup:IndicatorCommand
+                    \box                                                       %! baca.markup:IndicatorCommand
+                        "3 fingers"                                            %! baca.markup:IndicatorCommand
+                }                                                              %! baca.markup:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1234,7 +1234,7 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
 
         }
 
@@ -1242,8 +1242,8 @@ I_Guitar_Music_Voice_I = {                                                     %
         \times 4/5 {
 
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
+            \repeatTie                                                         %! baca.repeat_tie
 
         }
 
@@ -1256,15 +1256,15 @@ I_Guitar_Music_Voice_I = {                                                     %
 
             % [I Guitar_Music_Voice_I measure 206 / measure 22]                %! _comment_measure_numbers
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-            ^ \markup {                                                        %! baca_markup:IndicatorCommand
-                \override                                                      %! baca_markup:IndicatorCommand
-                    #'(box-padding . 0.5)                                      %! baca_markup:IndicatorCommand
-                    \box                                                       %! baca_markup:IndicatorCommand
-                        "2 fingers"                                            %! baca_markup:IndicatorCommand
-                }                                                              %! baca_markup:IndicatorCommand
+            \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+            ^ \markup {                                                        %! baca.markup:IndicatorCommand
+                \override                                                      %! baca.markup:IndicatorCommand
+                    #'(box-padding . 0.5)                                      %! baca.markup:IndicatorCommand
+                    \box                                                       %! baca.markup:IndicatorCommand
+                        "2 fingers"                                            %! baca.markup:IndicatorCommand
+                }                                                              %! baca.markup:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1287,7 +1287,7 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \repeatTie                                                         %! baca_repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie
 
         }
 
@@ -1295,8 +1295,8 @@ I_Guitar_Music_Voice_I = {                                                     %
         \times 4/5 {
 
             gf!2
-            :32                                                                %! baca_stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca_repeat_tie
+            :32                                                                %! baca.stem_tremolo:IndicatorCommand
+            \repeatTie                                                         %! baca.repeat_tie
             \revert TextScript.staff-padding                                   %! baca_script_staff_padding:OverrideCommand(2)
 
         }

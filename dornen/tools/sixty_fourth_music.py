@@ -114,7 +114,7 @@ def sixty_fourth_music():
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 e'64
-                                - \staccato                                                %! baca_staccato:IndicatorCommand
+                                - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -124,38 +124,38 @@ def sixty_fourth_music():
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
                                 fs'!64
-                                - \staccato                                                %! baca_staccato:IndicatorCommand
+                                - \staccato                                                %! baca.staccato:IndicatorCommand
                                 [
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 d'64
-                                - \staccato                                                %! baca_staccato:IndicatorCommand
+                                - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 ef'!64
-                                - \staccato                                                %! baca_staccato:IndicatorCommand
+                                - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 f'64
-                                - \staccato                                                %! baca_staccato:IndicatorCommand
+                                - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 a'64
-                                - \staccato                                                %! baca_staccato:IndicatorCommand
+                                - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 af'!64
-                                - \staccato                                                %! baca_staccato:IndicatorCommand
+                                - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 0
                                 c'64
-                                - \staccato                                                %! baca_staccato:IndicatorCommand
+                                - \staccato                                                %! baca.staccato:IndicatorCommand
                                 ]
             <BLANKLINE>
                             }
@@ -164,7 +164,7 @@ def sixty_fourth_music():
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 b'64
-                                - \staccato                                                %! baca_staccato:IndicatorCommand
+                                - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -174,33 +174,33 @@ def sixty_fourth_music():
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
                                 bf'!64
-                                - \staccato                                                %! baca_staccato:IndicatorCommand
+                                - \staccato                                                %! baca.staccato:IndicatorCommand
                                 [
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 g'64
-                                - \staccato                                                %! baca_staccato:IndicatorCommand
+                                - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 a'64
-                                - \staccato                                                %! baca_staccato:IndicatorCommand
+                                - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 af'!64
-                                - \staccato                                                %! baca_staccato:IndicatorCommand
+                                - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
                                 c'64
-                                - \staccato                                                %! baca_staccato:IndicatorCommand
+                                - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 0
                                 f'64
-                                - \staccato                                                %! baca_staccato:IndicatorCommand
+                                - \staccato                                                %! baca.staccato:IndicatorCommand
                                 ]
             <BLANKLINE>
                             }

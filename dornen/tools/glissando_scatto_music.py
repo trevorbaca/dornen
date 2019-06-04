@@ -125,32 +125,32 @@ def glissando_scatto_music():
                                 \set stemRightBeamCount = 2
                                 fs'!16
                                 [
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 d'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 ef'!16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 3
                                 f'32
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 a'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 af'!16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 0
@@ -174,27 +174,27 @@ def glissando_scatto_music():
                                 \set stemRightBeamCount = 2
                                 bf'!16
                                 [
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 g'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 a'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 3
                                 af'!32
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 c'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 0
@@ -351,7 +351,7 @@ def glissando_scatto_music():
                                 \set stemRightBeamCount = 2
                                 e'16
                                 [
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -361,37 +361,37 @@ def glissando_scatto_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
                                 fs'!16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 d'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 ef'!16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 3
                                 f'32
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 a'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 af'!16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 1
                                 c'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -412,37 +412,37 @@ def glissando_scatto_music():
                                 \set stemRightBeamCount = 2
                                 fs'!16
                                 [
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 d'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 ef'!16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 3
                                 f'32
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 a'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 af'!16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 1
                                 c'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -451,7 +451,7 @@ def glissando_scatto_music():
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 b'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -461,27 +461,27 @@ def glissando_scatto_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
                                 bf'!16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 g'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 a'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 3
                                 af'!32
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 c'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 0
@@ -497,7 +497,7 @@ def glissando_scatto_music():
                                 \set stemRightBeamCount = 2
                                 b'16
                                 [
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -507,32 +507,32 @@ def glissando_scatto_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
                                 bf'!16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 g'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 a'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 3
                                 af'!32
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
                                 c'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 1
                                 f'16
-                                \glissando                                                 %! baca_glissando
+                                \glissando                                                 %! baca.glissando
             <BLANKLINE>
                             }
             <BLANKLINE>

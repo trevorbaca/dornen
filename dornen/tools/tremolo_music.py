@@ -119,7 +119,7 @@ def tremolo_music():
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -130,44 +130,44 @@ def tremolo_music():
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
                                 [
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 0
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
                                 ]
             <BLANKLINE>
                             }
@@ -177,7 +177,7 @@ def tremolo_music():
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -188,38 +188,38 @@ def tremolo_music():
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
                                 [
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 0
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
                                 ]
             <BLANKLINE>
                             }
@@ -376,7 +376,7 @@ def tremolo_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
                                 [
             <BLANKLINE>
                             }
@@ -387,44 +387,44 @@ def tremolo_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -434,8 +434,8 @@ def tremolo_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
                                 ]
             <BLANKLINE>
                             }
@@ -447,44 +447,44 @@ def tremolo_music():
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
                                 [
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -494,8 +494,8 @@ def tremolo_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -505,38 +505,38 @@ def tremolo_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 0
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
                                 ]
             <BLANKLINE>
                             }
@@ -548,7 +548,7 @@ def tremolo_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
                                 [
             <BLANKLINE>
                             }
@@ -559,38 +559,38 @@ def tremolo_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
             <BLANKLINE>
                             }
             <BLANKLINE>
@@ -600,8 +600,8 @@ def tremolo_music():
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 1
                                 e'8
-                                :32                                                        %! baca_stem_tremolo:IndicatorCommand
-                                \repeatTie                                                 %! baca_repeat_tie
+                                :32                                                        %! baca.stem_tremolo:IndicatorCommand
+                                \repeatTie                                                 %! baca.repeat_tie
                                 ]
             <BLANKLINE>
                             }

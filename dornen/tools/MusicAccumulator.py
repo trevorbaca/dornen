@@ -39,7 +39,7 @@ class MusicAccumulator(baca.MusicAccumulator):
                             \set stemLeftBeamCount = 0
                             \set stemRightBeamCount = 3
                             c'32
-                            - \staccato %! baca_staccato:IndicatorCommand
+                            - \staccato %! baca.staccato:IndicatorCommand
                         %@% ^ \markup {                       %! FIGURE_NAME
                         %@%     \fontsize                     %! FIGURE_NAME
                         %@%         #2                        %! FIGURE_NAME
@@ -61,39 +61,39 @@ class MusicAccumulator(baca.MusicAccumulator):
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
                             cs'32
-                            - \staccato %! baca_staccato:IndicatorCommand
+                            - \staccato %! baca.staccato:IndicatorCommand
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
                             d'32
-                            - \staccato %! baca_staccato:IndicatorCommand
+                            - \staccato %! baca.staccato:IndicatorCommand
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
                             ef'32
-                            - \staccato %! baca_staccato:IndicatorCommand
+                            - \staccato %! baca.staccato:IndicatorCommand
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
                             e'32
-                            - \staccato %! baca_staccato:IndicatorCommand
+                            - \staccato %! baca.staccato:IndicatorCommand
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
                             f'32
-                            - \staccato %! baca_staccato:IndicatorCommand
+                            - \staccato %! baca.staccato:IndicatorCommand
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
                             fs'32
-                            - \staccato %! baca_staccato:IndicatorCommand
+                            - \staccato %! baca.staccato:IndicatorCommand
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
                             g'32
-                            - \staccato %! baca_staccato:IndicatorCommand
+                            - \staccato %! baca.staccato:IndicatorCommand
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
                             af'32
-                            - \staccato %! baca_staccato:IndicatorCommand
+                            - \staccato %! baca.staccato:IndicatorCommand
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 0
                             a'32
-                            - \staccato %! baca_staccato:IndicatorCommand
+                            - \staccato %! baca.staccato:IndicatorCommand
                             ]
                         }
                     }

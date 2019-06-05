@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def rest_music(duration=None):
+def rest_music(duration=None) -> baca.MusicMaker:
     r"""
     Makes rest music-maker.
 
@@ -349,7 +349,6 @@ def rest_music(duration=None):
             <BLANKLINE>
             >>                                                                             %! baca.SingleStaffScoreTemplate.__call__
 
-    Returns music-maker.
     """
     duration = duration or abjad.Duration(1, 8)
     music_maker = baca.MusicMaker(

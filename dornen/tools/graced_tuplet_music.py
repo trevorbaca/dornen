@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def graced_tuplet_music():
+def graced_tuplet_music() -> baca.MusicMaker:
     r"""
     Makes graced tuplet music-maker.
 
@@ -403,7 +403,6 @@ def graced_tuplet_music():
             >>                                                                             %! baca.SingleStaffScoreTemplate.__call__
 
 
-    Returns music-maker.
     """
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(

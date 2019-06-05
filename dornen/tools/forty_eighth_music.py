@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def forty_eighth_music():
+def forty_eighth_music() -> baca.MusicMaker:
     r"""
     Makes forty-eighth music-maker.
 
@@ -198,7 +198,6 @@ def forty_eighth_music():
             <BLANKLINE>
             >>                                                                             %! baca.SingleStaffScoreTemplate.__call__
 
-    Returns music-maker.
     """
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(

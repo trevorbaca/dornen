@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def twenty_eighth_music():
+def twenty_eighth_music() -> baca.MusicMaker:
     r"""
     Makes twenty-eighths music-maker.
 
@@ -546,7 +546,6 @@ def twenty_eighth_music():
             <BLANKLINE>
             >>                                                                             %! baca.SingleStaffScoreTemplate.__call__
 
-    Returns music-maker.
     """
     music_maker = baca.MusicMaker(
         rmakers.BeamSpecifier(beam_each_division=True),

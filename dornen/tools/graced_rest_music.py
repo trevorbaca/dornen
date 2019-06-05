@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def graced_rest_music():
+def graced_rest_music() -> baca.MusicMaker:
     r"""
     Makes graced rest music-maker.
 
@@ -142,7 +142,6 @@ def graced_rest_music():
             >>> abjad.f(lilypond_file[abjad.Score], strict=79) # doctest: +SKIP
 
 
-    Returns music-maker.
     """
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(

@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def passepied_music():
+def passepied_music() -> baca.MusicMaker:
     r"""
     Makes passepied music-maker.
 
@@ -629,7 +629,6 @@ def passepied_music():
             <BLANKLINE>
             >>                                                                             %! baca.SingleStaffScoreTemplate.__call__
 
-    Returns music-maker.
     """
     music_maker = baca.MusicMaker(
         rmakers.BeamSpecifier(

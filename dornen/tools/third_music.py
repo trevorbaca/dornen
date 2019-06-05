@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def third_music():
+def third_music() -> baca.MusicMaker:
     r"""
     Makes third music-maker.
 
@@ -538,7 +538,6 @@ def third_music():
             <BLANKLINE>
             >>                                                                             %! baca.SingleStaffScoreTemplate.__call__
 
-    Returns music-maker.
     """
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(

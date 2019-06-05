@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def ovoid_music():
+def ovoid_music() -> baca.MusicMaker:
     r"""
     Makes ovoid music-maker.
 
@@ -371,7 +371,6 @@ def ovoid_music():
             <BLANKLINE>
             >>                                                                             %! baca.SingleStaffScoreTemplate.__call__
 
-    Returns music-maker.
     """
     music_maker = baca.MusicMaker(
         rmakers.BeamSpecifier(beam_divisions_together=True),

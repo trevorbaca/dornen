@@ -1,7 +1,11 @@
+import abjad
 import baca
+import typing
 
 
-def design_2(start=None, stop=None):
+def design_2(
+    start: int = None, stop: int = None
+) -> typing.Union[baca.PitchTree, typing.List[typing.List[abjad.Pitch]]]:
     r"""
     Makes design II.
 
@@ -422,10 +426,10 @@ def design_2(start=None, stop=None):
     if start is None and stop is None:
         return design
     cells = design.iterate(level=-2)
-    design = []
+    pitch_lists = []
     for cell in cells:
         numbered_pitch_classes = cell.get_payload()
-        numbers = [_.number for _ in numbered_pitch_classes]
-        design.append(numbers)
-    design = design[start:stop]
-    return design
+        pitch_list = [_.number for _ in numbered_pitch_classes]
+        pitch_lists.append(pitch_list)
+    pitch_lists = pitch_lists[start:stop]
+    return pitch_lists

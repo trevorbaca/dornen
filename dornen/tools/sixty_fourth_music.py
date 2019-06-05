@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def sixty_fourth_music():
+def sixty_fourth_music() -> baca.MusicMaker:
     r"""
     Makes sixty-fourth music-maker.
 
@@ -239,7 +239,6 @@ def sixty_fourth_music():
             <BLANKLINE>
             >>                                                                             %! baca.SingleStaffScoreTemplate.__call__
 
-    Returns music-maker.
     """
     music_maker = baca.MusicMaker(
         rmakers.BeamSpecifier(beam_divisions_together=True),

@@ -3,7 +3,9 @@ import baca
 from abjadext import rmakers
 
 
-def wave_music(denominator=64, inverted=False):
+def wave_music(
+    denominator: int = 64, inverted: bool = False
+) -> baca.MusicMaker:
     r"""
     Makes wave music-maker.
 
@@ -1522,7 +1524,6 @@ def wave_music(denominator=64, inverted=False):
             <BLANKLINE>
             >>                                                                             %! baca.SingleStaffScoreTemplate.__call__
 
-    Returns music-maker.
     """
     assert abjad.mathtools.is_positive_integer_power_of_two(denominator)
     assert 16 <= denominator, repr(denominator)

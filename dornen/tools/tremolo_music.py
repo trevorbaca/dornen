@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def tremolo_music():
+def tremolo_music() -> baca.MusicMaker:
     r"""
     Makes tremolo music-maker.
 
@@ -640,7 +640,6 @@ def tremolo_music():
             <BLANKLINE>
             >>                                                                             %! baca.SingleStaffScoreTemplate.__call__
 
-    Returns music-maker.
     """
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(

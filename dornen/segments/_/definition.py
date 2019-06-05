@@ -11,11 +11,11 @@ import os
 accumulator = dornen.MusicAccumulator(dornen.ScoreTemplate())
 design = dornen.design_1(stop=22)
 assert len(design) == 22
-design = baca.Cursor(design)
+cursor = baca.Cursor(design)
 
 accumulator(
     'v1',
-    design.next(),
+    cursor.next(),
     accumulator.anchor_music_maker,
     baca.beam_positions(6),
     baca.register(-8),
@@ -25,7 +25,7 @@ accumulator(
 
 accumulator(
     'v2',
-    design.next(),
+    cursor.next(),
     accumulator.passepied_music_maker,
     baca.beam_positions(-10),
     baca.time_signature_extra_offset((-2.5, 0)),
@@ -36,7 +36,7 @@ accumulator(
 
 accumulator(
     'v1',
-    design.next(),
+    cursor.next(),
     accumulator.anchor_music_maker,
     baca.register(-10),
     extend_beam=True,
@@ -45,7 +45,7 @@ accumulator(
 
 accumulator(
     'v2',
-    design.next(),
+    cursor.next(),
     accumulator.passepied_music_maker,
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-8),
@@ -55,7 +55,7 @@ accumulator(
 
 accumulator(
     'v1',
-    design.next(),
+    cursor.next(),
     accumulator.anchor_music_maker,
     baca.register(-12),
     figure_name=5,
@@ -63,7 +63,7 @@ accumulator(
 
 accumulator(
     'v2',
-    design.next(),
+    cursor.next(),
     accumulator.passepied_music_maker,
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-6),
@@ -72,7 +72,7 @@ accumulator(
 
 accumulator(
     'v1',
-    design.next(),
+    cursor.next(),
     accumulator.anchor_music_maker,
     baca.beam_positions(9),
     baca.register(-14),
@@ -82,7 +82,7 @@ accumulator(
 
 accumulator(
     'v2',
-    design.next(),
+    cursor.next(),
     accumulator.passepied_music_maker,
     baca.beam_positions(-10),
     baca.time_signature_extra_offset((-2.5, 0)),
@@ -93,7 +93,7 @@ accumulator(
 
 accumulator(
     'v4',
-    design.next(2),
+    cursor.next(2),
     accumulator.running_music_maker,
     baca.register(-12),
     figure_name=9,
@@ -101,7 +101,7 @@ accumulator(
 
 accumulator(
     'v1',
-    design.next(),
+    cursor.next(),
     accumulator.anchor_music_maker,
     baca.register(-16),
     figure_name=10,
@@ -109,7 +109,7 @@ accumulator(
 
 accumulator(
     'v4',
-    design.next(2),
+    cursor.next(2),
     accumulator.running_music_maker,
     baca.register(-6),
     figure_name=11,
@@ -117,7 +117,7 @@ accumulator(
 
 accumulator(
     'v1',
-    design.next(),
+    cursor.next(),
     accumulator.anchor_music_maker,
     baca.beam_positions(6),
     baca.register(-18),
@@ -127,7 +127,7 @@ accumulator(
 
 accumulator(
     'v2',
-    design.next(),
+    cursor.next(),
     accumulator.passepied_music_maker,
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-2),
@@ -136,7 +136,7 @@ accumulator(
 
 accumulator(
     'v1',
-    design.next(),
+    cursor.next(),
     accumulator.anchor_music_maker,
     baca.register(-20),
     figure_name=14,
@@ -144,7 +144,7 @@ accumulator(
 
 accumulator(
     'v2',
-    design.next(),
+    cursor.next(),
     accumulator.passepied_music_maker,
     baca.beam_positions(-10),
     baca.time_signature_extra_offset((-2.5, 0)),
@@ -155,7 +155,7 @@ accumulator(
 
 accumulator(
     'v2',
-    design.next(),
+    cursor.next(),
     accumulator.passepied_music_maker,
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(2),
@@ -164,7 +164,7 @@ accumulator(
 
 accumulator(
     'v4',
-    design.next(2),
+    cursor.next(2),
     accumulator.running_music_maker,
     baca.register(-12, 0),
     figure_name=17,
@@ -172,7 +172,7 @@ accumulator(
 
 accumulator(
     'v3',
-    design.next(),
+    cursor.next(),
     accumulator.inverted_wave_64_music_maker,
     baca.beam_positions(-6),
     figure_name=18,
@@ -180,7 +180,7 @@ accumulator(
 
 accumulator(
     'v3',
-    design.next(),
+    cursor.next(),
     accumulator.inverted_wave_64_music_maker,
     baca.beam_positions(-6),
     figure_name=19,

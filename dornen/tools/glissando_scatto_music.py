@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def glissando_scatto_music():
+def glissando_scatto_music() -> baca.MusicMaker:
     r"""
     Makes glissando scatto music-maker.
 
@@ -579,7 +579,6 @@ def glissando_scatto_music():
             <BLANKLINE>
             >>                                                                             %! baca.SingleStaffScoreTemplate.__call__
 
-    Returns music-maker.
     """
     music_maker = baca.MusicMaker(
         rmakers.BeamSpecifier(beam_divisions_together=True),

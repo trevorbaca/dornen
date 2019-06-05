@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def running_music():
+def running_music() -> baca.MusicMaker:
     r"""
     Makes running music-maker.
 
@@ -555,7 +555,6 @@ def running_music():
             <BLANKLINE>
             >>                                                                             %! baca.SingleStaffScoreTemplate.__call__
 
-    Returns music-maker.
     """
     music_maker = baca.MusicMaker(
         rmakers.BeamSpecifier(beam_divisions_together=True),

@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def anchor_music():
+def anchor_music() -> baca.MusicMaker:
     r"""
     Makes anchor music-maker.
 
@@ -202,7 +202,6 @@ def anchor_music():
             <BLANKLINE>
             >>                                                                             %! baca.SingleStaffScoreTemplate.__call__
 
-    Returns music-maker.
     """
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(

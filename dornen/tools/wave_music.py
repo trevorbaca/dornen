@@ -1547,6 +1547,7 @@ def wave_music(
         baca.PitchFirstRhythmCommand(
             pattern=abjad.index([1], 2), rhythm_maker=rhythm_maker_2
         ),
+        rmakers.BeamSpecifier(beam_each_division=True),
         color_unregistered_pitches=True,
         denominator=denominator,
     )

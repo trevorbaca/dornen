@@ -205,6 +205,7 @@ def forty_eighth_music() -> baca.MusicMaker:
                 talea=rmakers.Talea(counts=[3], denominator=64)
             )
         ),
+        rmakers.BeamSpecifier(beam_each_division=True),
         color_unregistered_pitches=True,
         denominator=32,
     )

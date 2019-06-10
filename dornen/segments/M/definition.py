@@ -308,7 +308,6 @@ accumulator(
     'v1',
     [5 * ['C4']],
     accumulator.rest_music_maker,
-    logical_tie_masks=rmakers.silence([0], 1),
     )
 
 accumulator(

@@ -196,7 +196,6 @@ accumulator(
     [3 * ['C4']],
     accumulator.rest_music_maker,
     figure_name='R1',
-    logical_tie_masks=rmakers.silence([0], 1),
     )
 
 #accumulator(

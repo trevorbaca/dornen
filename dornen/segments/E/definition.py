@@ -80,7 +80,6 @@ accumulator(
         selector=baca.leaf(0),
         ),
     figure_name='S1',
-    logical_tie_masks=rmakers.silence([0], 1),
     )
 
 accumulator(

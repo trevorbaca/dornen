@@ -354,7 +354,7 @@ def rest_music(duration=None) -> baca.MusicMaker:
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                logical_tie_masks=rmakers.silence([0], 1),
+                rmakers.SilenceMask(selector=baca.lts()),
                 talea=rmakers.Talea(
                     counts=[duration.numerator],
                     denominator=duration.denominator,

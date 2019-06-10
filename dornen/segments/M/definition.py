@@ -62,7 +62,6 @@ accumulator(
     [['C4']],
     accumulator.thirty_second_music_maker,
     rmakers.SilenceMask(selector=baca.lt(0)),
-    #logical_tie_masks=rmakers.silence([0], 1),
     )
 
 ### 2 ###
@@ -114,7 +113,6 @@ accumulator(
     [['C4']],
     accumulator.thirty_second_music_maker,
     rmakers.SilenceMask(selector=baca.lt(0)),
-    ###logical_tie_masks=rmakers.silence([0], 1),
     )
 
 ### 3 ###
@@ -166,7 +164,6 @@ accumulator(
     [['C4']],
     accumulator.thirty_second_music_maker,
     rmakers.SilenceMask(selector=baca.lt(0)),
-    ###logical_tie_masks=rmakers.silence([0], 1),
     )
 
 ### 4 ###
@@ -217,7 +214,6 @@ accumulator(
     [['C4']],
     accumulator.thirty_second_music_maker,
     rmakers.SilenceMask(selector=baca.lt(0)),
-    ###logical_tie_masks=rmakers.silence([0], 1),
     )
 
 ### 5 ###
@@ -268,7 +264,6 @@ accumulator(
     [['C4']],
     accumulator.thirty_second_music_maker,
     rmakers.SilenceMask(selector=baca.lt(0)),
-    ###logical_tie_masks=rmakers.silence([0], 1),
     )
 
 ### 6 ###

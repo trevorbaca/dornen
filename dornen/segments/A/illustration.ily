@@ -1145,7 +1145,7 @@ A_Guitar_Music_Voice_I = {                                                     %
             % [A Guitar_Music_Voice_I measure 32 / measure 13]                 %! _comment_measure_numbers
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
-            \override TextScript.staff-padding = #9                            %! baca_script_staff_padding:OverrideCommand(1)
+            \override TextScript.staff-padding = #9                            %! baca.text_script_staff_padding:OverrideCommand(1)
             f'''32
             - \staccato                                                        %! baca.staccato:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
@@ -1271,7 +1271,7 @@ A_Guitar_Music_Voice_I = {                                                     %
             \set stemRightBeamCount = 1
             f'32
             - \staccato                                                        %! baca.staccato:IndicatorCommand
-            \revert TextScript.staff-padding                                   %! baca_script_staff_padding:OverrideCommand(2)
+            \revert TextScript.staff-padding                                   %! baca.text_script_staff_padding:OverrideCommand(2)
 
         }
 

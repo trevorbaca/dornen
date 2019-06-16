@@ -444,7 +444,7 @@ J_Guitar_Music_Voice_I = {                                                     %
         \times 4/5 {
 
             % [J Guitar_Music_Voice_I measure 207 / measure 1]                 %! _comment_measure_numbers
-            \override TextScript.staff-padding = #5                            %! baca_script_staff_padding:OverrideCommand(1)
+            \override TextScript.staff-padding = #5                            %! baca.text_script_staff_padding:OverrideCommand(1)
             \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
         %@% \override GuitarMusicStaff.Clef.color = ##f                        %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -873,7 +873,7 @@ J_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie
-            \revert TextScript.staff-padding                                   %! baca_script_staff_padding:OverrideCommand(2)
+            \revert TextScript.staff-padding                                   %! baca.text_script_staff_padding:OverrideCommand(2)
 
         }
 
@@ -885,8 +885,8 @@ J_Guitar_Music_Voice_I = {                                                     %
         \times 4/5 {
 
             % [J Guitar_Music_Voice_I measure 218 / measure 12]                %! _comment_measure_numbers
-            \override TextSpanner.staff-padding = #5                           %! baca_text_spanner_staff_padding:OverrideCommand(1)
-            \override TextScript.staff-padding = #8                            %! baca_script_staff_padding:OverrideCommand(1)
+            \override TextSpanner.staff-padding = #5                           %! baca.text_spanner_staff_padding:OverrideCommand(1)
+            \override TextScript.staff-padding = #8                            %! baca.text_script_staff_padding:OverrideCommand(1)
             gtqf!2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1472,8 +1472,8 @@ J_Guitar_Music_Voice_I = {                                                     %
             gtqf!2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie
-            \revert TextSpanner.staff-padding                                  %! baca_text_spanner_staff_padding:OverrideCommand(2)
-            \revert TextScript.staff-padding                                   %! baca_script_staff_padding:OverrideCommand(2)
+            \revert TextSpanner.staff-padding                                  %! baca.text_spanner_staff_padding:OverrideCommand(2)
+            \revert TextScript.staff-padding                                   %! baca.text_script_staff_padding:OverrideCommand(2)
 
         }
 

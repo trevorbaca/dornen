@@ -42,6 +42,7 @@ def sixteenth_music() -> baca.MusicMaker:
         >>> figures_ = []
         >>> for figure in figures:
         ...     figures_.extend(figure)
+        ...     figure[:] = []
         ...
         >>> figures = abjad.select(figures_)
 
@@ -332,6 +333,7 @@ def sixteenth_music() -> baca.MusicMaker:
         >>> figures_ = []
         >>> for figure in figures:
         ...     figures_.extend(figure)
+        ...     figure[:] = []
         ...
         >>> figures = abjad.select(figures_)
 

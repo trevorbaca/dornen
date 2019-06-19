@@ -36,6 +36,7 @@ def wave_music(
         >>> figures_ = []
         >>> for figure in figures:
         ...     figures_.extend(figure)
+        ...     figure[:] = []
         ...
         >>> figures = abjad.select(figures_)
 
@@ -541,6 +542,7 @@ def wave_music(
         >>> figures_ = []
         >>> for figure in figures:
         ...     figures_.extend(figure)
+        ...     figure[:] = []
         ...
         >>> figures = abjad.select(figures_)
 
@@ -1046,6 +1048,7 @@ def wave_music(
         >>> figures_ = []
         >>> for figure in figures:
         ...     figures_.extend(figure)
+        ...     figure[:] = []
         ...
         >>> figures = abjad.select(figures_)
 

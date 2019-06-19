@@ -31,6 +31,7 @@ def glissando_scatto_music() -> baca.MusicMaker:
         >>> figures_ = []
         >>> for figure in figures:
         ...     figures_.extend(figure)
+        ...     figure[:] = []
         ...
         >>> figures = abjad.select(figures_)
 
@@ -271,6 +272,7 @@ def glissando_scatto_music() -> baca.MusicMaker:
         >>> figures_ = []
         >>> for figure in figures:
         ...     figures_.extend(figure)
+        ...     figure[:] = []
         ...
         >>> figures = abjad.select(figures_)
 

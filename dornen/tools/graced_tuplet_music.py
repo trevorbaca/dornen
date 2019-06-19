@@ -42,6 +42,7 @@ def graced_tuplet_music() -> baca.MusicMaker:
         >>> figures_ = []
         >>> for figure in figures:
         ...     figures_.extend(figure)
+        ...     figure[:] = []
         ...
         >>> figures = abjad.select(figures_)
 

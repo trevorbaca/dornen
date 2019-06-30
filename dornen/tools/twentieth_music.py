@@ -602,7 +602,7 @@ def twentieth_music() -> baca.MusicMaker:
                 time_treatments=[abjad.Multiplier((4, 5))],
             )
         ),
-        rmakers.BeamSpecifier(beam_each_division=True, beam_lone_notes=True),
+        rmakers.BeamSpecifier(selector=baca.select(), beam_lone_notes=True),
         color_unregistered_pitches=True,
         denominator=20,
     )

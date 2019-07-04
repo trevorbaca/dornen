@@ -2994,7 +2994,7 @@ L_Guitar_Music_Voice_II = {                                                    %
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_II measure 277 / measure 21]                       %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_II measure 278 / measure 22]                       %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
@@ -3015,7 +3015,7 @@ L_Guitar_Music_Voice_II = {                                                    %
     s1 * 4/3                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_II measure 284 / measure 28]                       %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_II measure 285 / measure 29]                       %! _comment_measure_numbers
     s1 * 2/3                                                                   %! _call_rhythm_commands
@@ -3027,7 +3027,7 @@ L_Guitar_Music_Voice_II = {                                                    %
     s1 * 2/3                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_II measure 288 / measure 32]                       %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_II measure 289 / measure 33]                       %! _comment_measure_numbers
     s1 * 4/3                                                                   %! _call_rhythm_commands
@@ -3039,7 +3039,7 @@ L_Guitar_Music_Voice_II = {                                                    %
     s1 * 4/3                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_II measure 292 / measure 36]                       %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_II measure 293 / measure 37]                       %! _comment_measure_numbers
     s1 * 2/3                                                                   %! _call_rhythm_commands
@@ -3051,7 +3051,7 @@ L_Guitar_Music_Voice_II = {                                                    %
     s1 * 2/3                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_II measure 296 / measure 40]                       %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_II measure 297 / measure 41]                       %! _comment_measure_numbers
     s1 * 4/3                                                                   %! _call_rhythm_commands
@@ -3060,7 +3060,7 @@ L_Guitar_Music_Voice_II = {                                                    %
     s1 * 5/3                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_II measure 299 / measure 43]                       %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_II measure 300 / measure 44]                       %! _comment_measure_numbers
     s1 * 2/3                                                                   %! _call_rhythm_commands
@@ -3158,7 +3158,7 @@ L_Guitar_Music_Voice_III = {                                                   %
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_III measure 277 / measure 21]                      %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_III measure 278 / measure 22]                      %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
@@ -3179,7 +3179,7 @@ L_Guitar_Music_Voice_III = {                                                   %
     s1 * 4/3                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_III measure 284 / measure 28]                      %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_III measure 285 / measure 29]                      %! _comment_measure_numbers
     s1 * 2/3                                                                   %! _call_rhythm_commands
@@ -3191,7 +3191,7 @@ L_Guitar_Music_Voice_III = {                                                   %
     s1 * 2/3                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_III measure 288 / measure 32]                      %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_III measure 289 / measure 33]                      %! _comment_measure_numbers
     s1 * 4/3                                                                   %! _call_rhythm_commands
@@ -3203,7 +3203,7 @@ L_Guitar_Music_Voice_III = {                                                   %
     s1 * 4/3                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_III measure 292 / measure 36]                      %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_III measure 293 / measure 37]                      %! _comment_measure_numbers
     s1 * 2/3                                                                   %! _call_rhythm_commands
@@ -3215,7 +3215,7 @@ L_Guitar_Music_Voice_III = {                                                   %
     s1 * 2/3                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_III measure 296 / measure 40]                      %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_III measure 297 / measure 41]                      %! _comment_measure_numbers
     s1 * 4/3                                                                   %! _call_rhythm_commands
@@ -3224,7 +3224,7 @@ L_Guitar_Music_Voice_III = {                                                   %
     s1 * 5/3                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_III measure 299 / measure 43]                      %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_III measure 300 / measure 44]                      %! _comment_measure_numbers
     s1 * 2/3                                                                   %! _call_rhythm_commands
@@ -3322,7 +3322,7 @@ L_Guitar_Music_Voice_IV = {                                                    %
     s1 * 2/5                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_IV measure 277 / measure 21]                       %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_IV measure 278 / measure 22]                       %! _comment_measure_numbers
     s1 * 2/5                                                                   %! _call_rhythm_commands
@@ -3343,7 +3343,7 @@ L_Guitar_Music_Voice_IV = {                                                    %
     s1 * 4/3                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_IV measure 284 / measure 28]                       %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_IV measure 285 / measure 29]                       %! _comment_measure_numbers
     s1 * 2/3                                                                   %! _call_rhythm_commands
@@ -3355,7 +3355,7 @@ L_Guitar_Music_Voice_IV = {                                                    %
     s1 * 2/3                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_IV measure 288 / measure 32]                       %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_IV measure 289 / measure 33]                       %! _comment_measure_numbers
     s1 * 4/3                                                                   %! _call_rhythm_commands
@@ -3367,7 +3367,7 @@ L_Guitar_Music_Voice_IV = {                                                    %
     s1 * 4/3                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_IV measure 292 / measure 36]                       %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_IV measure 293 / measure 37]                       %! _comment_measure_numbers
     s1 * 2/3                                                                   %! _call_rhythm_commands
@@ -3379,7 +3379,7 @@ L_Guitar_Music_Voice_IV = {                                                    %
     s1 * 2/3                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_IV measure 296 / measure 40]                       %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_IV measure 297 / measure 41]                       %! _comment_measure_numbers
     s1 * 4/3                                                                   %! _call_rhythm_commands
@@ -3388,7 +3388,7 @@ L_Guitar_Music_Voice_IV = {                                                    %
     s1 * 5/3                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_IV measure 299 / measure 43]                       %! _comment_measure_numbers
-    s1 * 1                                                                     %! _call_rhythm_commands
+    s1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [L Guitar_Music_Voice_IV measure 300 / measure 44]                       %! _comment_measure_numbers
     s1 * 2/3                                                                   %! _call_rhythm_commands

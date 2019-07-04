@@ -1551,37 +1551,37 @@ F_Guitar_Music_Voice_IV = {                                                    %
     s1 * 1/24                                                                  %! _call_rhythm_commands
 
     % [F Guitar_Music_Voice_IV measure 144 / measure 12]                       %! _comment_measure_numbers
-    s1 * 1/8                                                                   %! _call_rhythm_commands
+    s1 * 4/32                                                                  %! _call_rhythm_commands
 
     % [F Guitar_Music_Voice_IV measure 145 / measure 13]                       %! _comment_measure_numbers
     s1 * 1/24                                                                  %! _call_rhythm_commands
 
     % [F Guitar_Music_Voice_IV measure 146 / measure 14]                       %! _comment_measure_numbers
-    s1 * 1/7                                                                   %! _call_rhythm_commands
+    s1 * 4/28                                                                  %! _call_rhythm_commands
 
     % [F Guitar_Music_Voice_IV measure 147 / measure 15]                       %! _comment_measure_numbers
     s1 * 1/24                                                                  %! _call_rhythm_commands
 
     % [F Guitar_Music_Voice_IV measure 148 / measure 16]                       %! _comment_measure_numbers
-    s1 * 1/8                                                                   %! _call_rhythm_commands
+    s1 * 4/32                                                                  %! _call_rhythm_commands
 
     % [F Guitar_Music_Voice_IV measure 149 / measure 17]                       %! _comment_measure_numbers
     s1 * 1/24                                                                  %! _call_rhythm_commands
 
     % [F Guitar_Music_Voice_IV measure 150 / measure 18]                       %! _comment_measure_numbers
-    s1 * 1/8                                                                   %! _call_rhythm_commands
+    s1 * 4/32                                                                  %! _call_rhythm_commands
 
     % [F Guitar_Music_Voice_IV measure 151 / measure 19]                       %! _comment_measure_numbers
     s1 * 1/24                                                                  %! _call_rhythm_commands
 
     % [F Guitar_Music_Voice_IV measure 152 / measure 20]                       %! _comment_measure_numbers
-    s1 * 1/7                                                                   %! _call_rhythm_commands
+    s1 * 4/28                                                                  %! _call_rhythm_commands
 
     % [F Guitar_Music_Voice_IV measure 153 / measure 21]                       %! _comment_measure_numbers
     s1 * 1/24                                                                  %! _call_rhythm_commands
 
     % [F Guitar_Music_Voice_IV measure 154 / measure 22]                       %! _comment_measure_numbers
-    s1 * 1/8                                                                   %! _call_rhythm_commands
+    s1 * 4/32                                                                  %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

@@ -1787,7 +1787,7 @@ A_Guitar_Music_Voice_II = {                                                    %
 A_Guitar_Music_Voice_III = {                                                   %! abjad.Path.extern
 
     % [A Guitar_Music_Voice_III measure 20 / measure 1]                        %! _comment_measure_numbers
-    s1 * 1/4                                                                   %! _call_rhythm_commands
+    s1 * 4/16                                                                  %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_III measure 21 / measure 2]                        %! _comment_measure_numbers
     s1 * 1/20                                                                  %! _call_rhythm_commands
@@ -1796,7 +1796,7 @@ A_Guitar_Music_Voice_III = {                                                   %
     s1 * 3/16                                                                  %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_III measure 23 / measure 4]                        %! _comment_measure_numbers
-    s1 * 1/10                                                                  %! _call_rhythm_commands
+    s1 * 2/20                                                                  %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_III measure 24 / measure 5]                        %! _comment_measure_numbers
     s1 * 13/64                                                                 %! _call_rhythm_commands
@@ -1808,13 +1808,13 @@ A_Guitar_Music_Voice_III = {                                                   %
     s1 * 7/32                                                                  %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_III measure 27 / measure 8]                        %! _comment_measure_numbers
-    s1 * 1/5                                                                   %! _call_rhythm_commands
+    s1 * 4/20                                                                  %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_III measure 28 / measure 9]                        %! _comment_measure_numbers
     s1 * 15/64                                                                 %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_III measure 29 / measure 10]                       %! _comment_measure_numbers
-    s1 * 1/4                                                                   %! _call_rhythm_commands
+    s1 * 5/20                                                                  %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_III measure 30 / measure 11]                       %! _comment_measure_numbers
     s1 * 5/16                                                                  %! _call_rhythm_commands
@@ -1823,13 +1823,13 @@ A_Guitar_Music_Voice_III = {                                                   %
     s1 * 1/20                                                                  %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_III measure 32 / measure 13]                       %! _comment_measure_numbers
-    s1 * 11/16                                                                 %! _call_rhythm_commands
+    s1 * 22/32                                                                 %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_III measure 33 / measure 14]                       %! _comment_measure_numbers
-    s1 * 1/10                                                                  %! _call_rhythm_commands
+    s1 * 2/20                                                                  %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_III measure 34 / measure 15]                       %! _comment_measure_numbers
-    s1 * 11/16                                                                 %! _call_rhythm_commands
+    s1 * 22/32                                                                 %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1858,7 +1858,7 @@ A_Guitar_Music_Voice_III = {                                                   %
 A_Guitar_Music_Voice_IV = {                                                    %! abjad.Path.extern
 
     % [A Guitar_Music_Voice_IV measure 20 / measure 1]                         %! _comment_measure_numbers
-    s1 * 1/4                                                                   %! _call_rhythm_commands
+    s1 * 4/16                                                                  %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_IV measure 21 / measure 2]                         %! _comment_measure_numbers
     s1 * 1/20                                                                  %! _call_rhythm_commands
@@ -1867,7 +1867,7 @@ A_Guitar_Music_Voice_IV = {                                                    %
     s1 * 3/16                                                                  %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_IV measure 23 / measure 4]                         %! _comment_measure_numbers
-    s1 * 1/10                                                                  %! _call_rhythm_commands
+    s1 * 2/20                                                                  %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_IV measure 24 / measure 5]                         %! _comment_measure_numbers
     s1 * 13/64                                                                 %! _call_rhythm_commands
@@ -1879,13 +1879,13 @@ A_Guitar_Music_Voice_IV = {                                                    %
     s1 * 7/32                                                                  %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_IV measure 27 / measure 8]                         %! _comment_measure_numbers
-    s1 * 1/5                                                                   %! _call_rhythm_commands
+    s1 * 4/20                                                                  %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_IV measure 28 / measure 9]                         %! _comment_measure_numbers
     s1 * 15/64                                                                 %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_IV measure 29 / measure 10]                        %! _comment_measure_numbers
-    s1 * 1/4                                                                   %! _call_rhythm_commands
+    s1 * 5/20                                                                  %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_IV measure 30 / measure 11]                        %! _comment_measure_numbers
     s1 * 5/16                                                                  %! _call_rhythm_commands
@@ -1894,13 +1894,13 @@ A_Guitar_Music_Voice_IV = {                                                    %
     s1 * 1/20                                                                  %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_IV measure 32 / measure 13]                        %! _comment_measure_numbers
-    s1 * 11/16                                                                 %! _call_rhythm_commands
+    s1 * 22/32                                                                 %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_IV measure 33 / measure 14]                        %! _comment_measure_numbers
-    s1 * 1/10                                                                  %! _call_rhythm_commands
+    s1 * 2/20                                                                  %! _call_rhythm_commands
 
     % [A Guitar_Music_Voice_IV measure 34 / measure 15]                        %! _comment_measure_numbers
-    s1 * 11/16                                                                 %! _call_rhythm_commands
+    s1 * 22/32                                                                 %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

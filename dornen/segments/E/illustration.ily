@@ -2364,16 +2364,16 @@ E_Guitar_Music_Voice_II = {                                                    %
     s1 * 3/8                                                                   %! _call_rhythm_commands
 
     % [E Guitar_Music_Voice_II measure 128 / measure 9]                        %! _comment_measure_numbers
-    s1 * 15/32                                                                 %! _call_rhythm_commands
+    s1 * 30/64                                                                 %! _call_rhythm_commands
 
     % [E Guitar_Music_Voice_II measure 129 / measure 10]                       %! _comment_measure_numbers
-    s1 * 5/8                                                                   %! _call_rhythm_commands
+    s1 * 40/64                                                                 %! _call_rhythm_commands
 
     % [E Guitar_Music_Voice_II measure 130 / measure 11]                       %! _comment_measure_numbers
-    s1 * 25/32                                                                 %! _call_rhythm_commands
+    s1 * 50/64                                                                 %! _call_rhythm_commands
 
     % [E Guitar_Music_Voice_II measure 131 / measure 12]                       %! _comment_measure_numbers
-    s1 * 15/16                                                                 %! _call_rhythm_commands
+    s1 * 60/64                                                                 %! _call_rhythm_commands
 
     % [E Guitar_Music_Voice_II measure 132 / measure 13]                       %! _comment_measure_numbers
     s1 * 125/64                                                                %! _call_rhythm_commands

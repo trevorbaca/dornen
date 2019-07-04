@@ -2640,16 +2640,16 @@ B_Guitar_Music_Voice_III = {                                                   %
     s1 * 13/64                                                                 %! _call_rhythm_commands
 
     % [B Guitar_Music_Voice_III measure 40 / measure 6]                        %! _comment_measure_numbers
-    s1 * 1/7                                                                   %! _call_rhythm_commands
+    s1 * 2/14                                                                  %! _call_rhythm_commands
 
     % [B Guitar_Music_Voice_III measure 41 / measure 7]                        %! _comment_measure_numbers
     s1 * 7/32                                                                  %! _call_rhythm_commands
 
     % [B Guitar_Music_Voice_III measure 42 / measure 8]                        %! _comment_measure_numbers
-    s1 * 1/7                                                                   %! _call_rhythm_commands
+    s1 * 2/14                                                                  %! _call_rhythm_commands
 
     % [B Guitar_Music_Voice_III measure 43 / measure 9]                        %! _comment_measure_numbers
-    s1 * 1/8                                                                   %! _call_rhythm_commands
+    s1 * 4/32                                                                  %! _call_rhythm_commands
 
     % [B Guitar_Music_Voice_III measure 44 / measure 10]                       %! _comment_measure_numbers
     s1 * 1/14                                                                  %! _call_rhythm_commands
@@ -2661,13 +2661,13 @@ B_Guitar_Music_Voice_III = {                                                   %
     s1 * 3/14                                                                  %! _call_rhythm_commands
 
     % [B Guitar_Music_Voice_III measure 47 / measure 13]                       %! _comment_measure_numbers
-    s1 * 5/16                                                                  %! _call_rhythm_commands
+    s1 * 10/32                                                                 %! _call_rhythm_commands
 
     % [B Guitar_Music_Voice_III measure 48 / measure 14]                       %! _comment_measure_numbers
     s1 * 7/32                                                                  %! _call_rhythm_commands
 
     % [B Guitar_Music_Voice_III measure 49 / measure 15]                       %! _comment_measure_numbers
-    s1 * 1/7                                                                   %! _call_rhythm_commands
+    s1 * 2/14                                                                  %! _call_rhythm_commands
 
     % [B Guitar_Music_Voice_III measure 50 / measure 16]                       %! _comment_measure_numbers
     s1 * 13/64                                                                 %! _call_rhythm_commands
@@ -2679,7 +2679,7 @@ B_Guitar_Music_Voice_III = {                                                   %
     s1 * 5/14                                                                  %! _call_rhythm_commands
 
     % [B Guitar_Music_Voice_III measure 53 / measure 19]                       %! _comment_measure_numbers
-    s1 * 3/16                                                                  %! _call_rhythm_commands
+    s1 * 6/32                                                                  %! _call_rhythm_commands
 
     % [B Guitar_Music_Voice_III measure 54 / measure 20]                       %! _comment_measure_numbers
     s1 * 7/32                                                                  %! _call_rhythm_commands
@@ -2691,13 +2691,13 @@ B_Guitar_Music_Voice_III = {                                                   %
     s1 * 7/32                                                                  %! _call_rhythm_commands
 
     % [B Guitar_Music_Voice_III measure 57 / measure 23]                       %! _comment_measure_numbers
-    s1 * 5/16                                                                  %! _call_rhythm_commands
+    s1 * 10/32                                                                 %! _call_rhythm_commands
 
     % [B Guitar_Music_Voice_III measure 58 / measure 24]                       %! _comment_measure_numbers
-    s1 * 5/16                                                                  %! _call_rhythm_commands
+    s1 * 10/32                                                                 %! _call_rhythm_commands
 
     % [B Guitar_Music_Voice_III measure 59 / measure 25]                       %! _comment_measure_numbers
-    s1 * 1/2                                                                   %! _call_rhythm_commands
+    s1 * 16/32                                                                 %! _call_rhythm_commands
 
     % [B Guitar_Music_Voice_III measure 60 / measure 26]                       %! _comment_measure_numbers
     s1 * 7/32                                                                  %! _call_rhythm_commands
@@ -2724,7 +2724,7 @@ B_Guitar_Music_Voice_III = {                                                   %
     s1 * 13/64                                                                 %! _call_rhythm_commands
 
     % [B Guitar_Music_Voice_III measure 68 / measure 34]                       %! _comment_measure_numbers
-    s1 * 1/2                                                                   %! _call_rhythm_commands
+    s1 * 16/32                                                                 %! _call_rhythm_commands
 
     % [B Guitar_Music_Voice_III measure 69 / measure 35]                       %! _comment_measure_numbers
     s1 * 7/32                                                                  %! _call_rhythm_commands

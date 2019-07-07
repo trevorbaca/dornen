@@ -43,9 +43,7 @@ def glissando_scatto_music() -> baca.MusicMaker:
         ...     )
         >>> maker(
         ...     ('Music_Voice', 1),
-        ...     baca.rhythm(
-        ...         rhythm_maker=figures,
-        ...         ),
+        ...     baca.rhythm(figures, do_not_check_total_duration=True),
         ...     )
 
         >>> lilypond_file = maker.run(environment='docs')
@@ -284,9 +282,7 @@ def glissando_scatto_music() -> baca.MusicMaker:
         ...     )
         >>> maker(
         ...     ('Music_Voice', 1),
-        ...     baca.rhythm(
-        ...         rhythm_maker=figures,
-        ...         ),
+        ...     baca.rhythm(figures, do_not_check_total_duration=True),
         ...     )
 
         >>> lilypond_file = maker.run(environment='docs')

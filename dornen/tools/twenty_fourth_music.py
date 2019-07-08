@@ -54,7 +54,7 @@ def twenty_fourth_music() -> baca.MusicMaker:
         ...     )
         >>> maker(
         ...     ('Music_Voice', 1),
-        ...     baca.rhythm(figures, do_not_check_total_duration=True),
+        ...     baca.music(figures, do_not_check_total_duration=True),
         ...     )
 
         >>> lilypond_file = maker.run(environment='docs')
@@ -363,7 +363,7 @@ def twenty_fourth_music() -> baca.MusicMaker:
         ...     )
         >>> maker(
         ...     ('Music_Voice', 1),
-        ...     baca.rhythm(figures, do_not_check_total_duration=True),
+        ...     baca.music(figures, do_not_check_total_duration=True),
         ...     )
 
         >>> lilypond_file = maker.run(environment='docs')

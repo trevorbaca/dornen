@@ -21,7 +21,6 @@ from .sixteenth_music import sixteenth_music
 from .sixty_fourth_music import sixty_fourth_music
 from .third_music import third_music
 from .thirty_second_music import thirty_second_music
-from .tremolo_music import tremolo_music
 from .twentieth_music import twentieth_music
 from .twenty_eighth_music import twenty_eighth_music
 from .twenty_fourth_music import twenty_fourth_music

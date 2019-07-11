@@ -124,7 +124,6 @@ class MusicAccumulator(baca.MusicAccumulator):
         "sixty_fourth_music_maker",
         "third_music_maker",
         "thirty_second_music_maker",
-        "tremolo_music_maker",
         "twentieth_music_maker",
         "twenty_eighth_music_maker",
         "twenty_fourth_music_maker",
@@ -158,7 +157,6 @@ class MusicAccumulator(baca.MusicAccumulator):
         self.sixty_fourth_music_maker = dornen.sixty_fourth_music()
         self.third_music_maker = dornen.third_music()
         self.thirty_second_music_maker = dornen.thirty_second_music()
-        self.tremolo_music_maker = dornen.tremolo_music()
         self.twentieth_music_maker = dornen.twentieth_music()
         self.twenty_eighth_music_maker = dornen.twenty_eighth_music()
         self.twenty_fourth_music_maker = dornen.twenty_fourth_music()

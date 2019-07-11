@@ -321,7 +321,10 @@ accumulator(
         direction=abjad.Up,
         ),
     baca.register(-20),
-    baca.repeat_tie(),
+    baca.new(
+        baca.repeat_tie(selector=baca.pleaves()[1:]),
+        map=baca.qruns(),
+    ),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
 

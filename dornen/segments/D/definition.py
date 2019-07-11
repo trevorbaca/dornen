@@ -198,24 +198,11 @@ accumulator(
     figure_name='R1',
     )
 
-#accumulator(
-#    'v2',
-#    [[6, 6, 6, 6, 6]],
-#    accumulator.tremolo_music_maker,
-#    baca.stem_up(),
-#    baca.tuplet_bracket_staff_padding(0),
-#    baca.tuplet_bracket_extra_offset((0, -0.5)),
-#    baca.tuplet_number_extra_offset((0, -0.5)),
-#    baca.register(-20),
-#    figure_name='T1',
-#    )
-
 accumulator(
     'v2',
     [['Gb2']],
     accumulator.monad_music_maker,
     baca.markup('2-finger tamb. trill', boxed=True),
-    baca.repeat_tie(),
     baca.stem_tremolo(selector=baca.pleaves()),
     baca.stem_up(),
     baca.tuplet_bracket_staff_padding(0),

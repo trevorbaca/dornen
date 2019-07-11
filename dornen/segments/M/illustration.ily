@@ -1073,51 +1073,51 @@ M_Guitar_Music_Voice_I = {                                                     %
 
             e2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca.repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
             e2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca.repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
             e2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca.repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
             e2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca.repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
             e2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca.repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
             e2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca.repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
             e2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca.repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
             e2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca.repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
             e2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca.repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
             e2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca.repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
             e2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca.repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
             e2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \repeatTie                                                         %! baca.repeat_tie
+            \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
         }
 

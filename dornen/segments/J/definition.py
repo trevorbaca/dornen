@@ -206,7 +206,7 @@ maker(
     'v1',
     baca.register(-20),
     baca.new(
-        baca.repeat_tie(selector=baca.pleaves()[1:]),
+        baca.repeat_tie(baca.pleaves()[1:]),
         map=baca.qruns(),
     ),
     baca.stem_tremolo(selector=baca.pleaves()),

@@ -757,9 +757,9 @@ M_Global_Rests = {                                                             %
 
 M_Guitar_Music_Voice_I = {                                                     %! abjad.Path.extern
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 303 / measure 1]                 %! _comment_measure_numbers
             \override Beam.positions = #'(10 . 10)                             %! baca.beam_positions:OverrideCommand(1)
@@ -767,7 +767,7 @@ M_Guitar_Music_Voice_I = {                                                     %
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
         %@% \override GuitarMusicStaff.Clef.color = ##f                        %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
             \set GuitarMusicStaff.forceClef = ##t                              %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-            d'32.
+            d'32.                                                              %! baca.MusicMaker.__call__
             - \tweak color #(x11-color 'green4)                                %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
@@ -778,350 +778,350 @@ M_Guitar_Music_Voice_I = {                                                     %
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
-            cs'!32.
+            cs'!32.                                                            %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_I measure 304 / measure 2]                         %! _comment_measure_numbers
     s1 * 39/80
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 308 / measure 6]                 %! _comment_measure_numbers
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
-            ef'!32.
+            ef'!32.                                                            %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
 
-            fs'!32.
+            fs'!32.                                                            %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
             ]
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 309 / measure 7]                 %! _comment_measure_numbers
-            r32
+            r32                                                                %! baca.MusicMaker.__call__
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 310 / measure 8]                 %! _comment_measure_numbers
-            d'32.
+            d'32.                                                              %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
             ^ \markup { "RH reaches for screw ..." }                           %! baca.markup:IndicatorCommand
             [
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
-            cs'!32.
+            cs'!32.                                                            %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_I measure 311 / measure 9]                         %! _comment_measure_numbers
     s1 * 39/80
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 315 / measure 13]                %! _comment_measure_numbers
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
-            ef'!32.
+            ef'!32.                                                            %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
 
-            fs'!32.
+            fs'!32.                                                            %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
             ]
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 316 / measure 14]                %! _comment_measure_numbers
-            r32
+            r32                                                                %! baca.MusicMaker.__call__
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 317 / measure 15]                %! _comment_measure_numbers
-            d'32.
+            d'32.                                                              %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
             ^ \markup { "RH places screw on string ..." }                      %! baca.markup:IndicatorCommand
             [
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
-            cs'!32.
+            cs'!32.                                                            %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_I measure 318 / measure 16]                        %! _comment_measure_numbers
     s1 * 39/80
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 322 / measure 20]                %! _comment_measure_numbers
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
-            ef'!32.
+            ef'!32.                                                            %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
 
-            fs'!32.
+            fs'!32.                                                            %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
             ]
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 323 / measure 21]                %! _comment_measure_numbers
-            r32
+            r32                                                                %! baca.MusicMaker.__call__
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 324 / measure 22]                %! _comment_measure_numbers
-            d'32.
+            d'32.                                                              %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
             [
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
-            cs'!32.
+            cs'!32.                                                            %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_I measure 325 / measure 23]                        %! _comment_measure_numbers
     s1 * 39/80
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 329 / measure 27]                %! _comment_measure_numbers
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
-            ef'!32.
+            ef'!32.                                                            %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
 
-            fs'!32.
+            fs'!32.                                                            %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
             ]
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 330 / measure 28]                %! _comment_measure_numbers
-            r32
+            r32                                                                %! baca.MusicMaker.__call__
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 331 / measure 29]                %! _comment_measure_numbers
-            d'32.
+            d'32.                                                              %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
             [
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
-            cs'!32.
+            cs'!32.                                                            %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_I measure 332 / measure 30]                        %! _comment_measure_numbers
     s1 * 39/80
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 336 / measure 34]                %! _comment_measure_numbers
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
-            ef'!32.
+            ef'!32.                                                            %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
 
-            fs'!32.
+            fs'!32.                                                            %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
             ]
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 337 / measure 35]                %! _comment_measure_numbers
-            r32
+            r32                                                                %! baca.MusicMaker.__call__
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 338 / measure 36]                %! _comment_measure_numbers
-            d'32.
+            d'32.                                                              %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
             [
 
-            cs'!32.
+            cs'!32.                                                            %! baca.MusicMaker.__call__
             - \tenuto                                                          %! baca.tenuto:IndicatorCommand
             ]
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_I measure 339 / measure 37]                        %! _comment_measure_numbers
     s1 * 39/80
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 343 / measure 41]                %! _comment_measure_numbers
-            r8
+            r8                                                                 %! baca.MusicMaker.__call__
 
-            r8
+            r8                                                                 %! baca.MusicMaker.__call__
 
-            r8
+            r8                                                                 %! baca.MusicMaker.__call__
 
-            r8
+            r8                                                                 %! baca.MusicMaker.__call__
 
-            r8
+            r8                                                                 %! baca.MusicMaker.__call__
             \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_I measure 344 / measure 42]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
             ^ \markup { "RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke." } %! baca.markup:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1153,195 +1153,195 @@ M_Guitar_Music_Voice_II = {                                                    %
     \override Beam.positions = #'(-5.5 . -5.5)                                 %! baca.beam_positions:OverrideCommand(1)
     s1 * 73/160
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_II measure 307 / measure 5]                %! _comment_measure_numbers
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
-            e''32
+            e''32                                                              %! baca.MusicMaker.__call__
             [
             (                                                                  %! baca.slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-            bf''!32
+            bf''!32                                                            %! baca.MusicMaker.__call__
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-            g''32
+            g''32                                                              %! baca.MusicMaker.__call__
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 0
-            c'''32
+            c'''32                                                             %! baca.MusicMaker.__call__
             )                                                                  %! baca.slur:SpannerIndicatorCommand(2)
             ]
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_II measure 308 / measure 6]                        %! _comment_measure_numbers
     s1 * 93/160
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_II measure 314 / measure 12]               %! _comment_measure_numbers
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
-            e''32
+            e''32                                                              %! baca.MusicMaker.__call__
             [
             (                                                                  %! baca.slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-            bf''!32
+            bf''!32                                                            %! baca.MusicMaker.__call__
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-            g''32
+            g''32                                                              %! baca.MusicMaker.__call__
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 0
-            c'''32
+            c'''32                                                             %! baca.MusicMaker.__call__
             )                                                                  %! baca.slur:SpannerIndicatorCommand(2)
             ]
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_II measure 315 / measure 13]                       %! _comment_measure_numbers
     s1 * 93/160
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_II measure 321 / measure 19]               %! _comment_measure_numbers
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
-            e''32
+            e''32                                                              %! baca.MusicMaker.__call__
             [
             (                                                                  %! baca.slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-            bf''!32
+            bf''!32                                                            %! baca.MusicMaker.__call__
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-            g''32
+            g''32                                                              %! baca.MusicMaker.__call__
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 0
-            c'''32
+            c'''32                                                             %! baca.MusicMaker.__call__
             )                                                                  %! baca.slur:SpannerIndicatorCommand(2)
             ]
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_II measure 322 / measure 20]                       %! _comment_measure_numbers
     s1 * 93/160
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_II measure 328 / measure 26]               %! _comment_measure_numbers
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
-            e''32
+            e''32                                                              %! baca.MusicMaker.__call__
             [
             (                                                                  %! baca.slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-            bf''!32
+            bf''!32                                                            %! baca.MusicMaker.__call__
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-            g''32
+            g''32                                                              %! baca.MusicMaker.__call__
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 0
-            c'''32
+            c'''32                                                             %! baca.MusicMaker.__call__
             )                                                                  %! baca.slur:SpannerIndicatorCommand(2)
             ]
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_II measure 329 / measure 27]                       %! _comment_measure_numbers
     s1 * 93/160
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_II measure 335 / measure 33]               %! _comment_measure_numbers
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
-            e''32
+            e''32                                                              %! baca.MusicMaker.__call__
             [
             (                                                                  %! baca.slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-            bf''!32
+            bf''!32                                                            %! baca.MusicMaker.__call__
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-            g''32
+            g''32                                                              %! baca.MusicMaker.__call__
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 0
-            c'''32
+            c'''32                                                             %! baca.MusicMaker.__call__
             )                                                                  %! baca.slur:SpannerIndicatorCommand(2)
             ]
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_II measure 336 / measure 34]                       %! _comment_measure_numbers
     s1 * 93/160
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_II measure 342 / measure 40]               %! _comment_measure_numbers
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
-            e''32
+            e''32                                                              %! baca.MusicMaker.__call__
             [
             (                                                                  %! baca.slur:SpannerIndicatorCommand(1)
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-            bf''!32
+            bf''!32                                                            %! baca.MusicMaker.__call__
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-            g''32
+            g''32                                                              %! baca.MusicMaker.__call__
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 0
-            c'''32
+            c'''32                                                             %! baca.MusicMaker.__call__
             )                                                                  %! baca.slur:SpannerIndicatorCommand(2)
             ]
             \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1397,104 +1397,104 @@ M_Guitar_Music_Voice_III = {                                                   %
     \override Script.direction = #down                                         %! baca.script_down:OverrideCommand(1)
     s1 * 39/160
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_III measure 305 / measure 3]               %! _comment_measure_numbers
-            c'16
+            c'16                                                               %! baca.MusicMaker.__call__
             - \accent                                                          %! baca.accent:IndicatorCommand
             [
             ]
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_III measure 306 / measure 4]                       %! _comment_measure_numbers
     s1 * 103/160
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_III measure 312 / measure 10]              %! _comment_measure_numbers
-            c'16
+            c'16                                                               %! baca.MusicMaker.__call__
             - \accent                                                          %! baca.accent:IndicatorCommand
             [
             ]
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_III measure 313 / measure 11]                      %! _comment_measure_numbers
     s1 * 103/160
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_III measure 319 / measure 17]              %! _comment_measure_numbers
-            c'16
+            c'16                                                               %! baca.MusicMaker.__call__
             - \accent                                                          %! baca.accent:IndicatorCommand
             [
             ]
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_III measure 320 / measure 18]                      %! _comment_measure_numbers
     s1 * 103/160
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_III measure 326 / measure 24]              %! _comment_measure_numbers
-            c'16
+            c'16                                                               %! baca.MusicMaker.__call__
             - \accent                                                          %! baca.accent:IndicatorCommand
             [
             ]
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_III measure 327 / measure 25]                      %! _comment_measure_numbers
     s1 * 103/160
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_III measure 333 / measure 31]              %! _comment_measure_numbers
-            c'16
+            c'16                                                               %! baca.MusicMaker.__call__
             - \accent                                                          %! baca.accent:IndicatorCommand
             [
             ]
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_III measure 334 / measure 32]                      %! _comment_measure_numbers
     s1 * 103/160
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_III measure 340 / measure 38]              %! _comment_measure_numbers
-            c'16
+            c'16                                                               %! baca.MusicMaker.__call__
             - \accent                                                          %! baca.accent:IndicatorCommand
             [
             ]
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1557,326 +1557,326 @@ M_Guitar_Music_Voice_IV = {                                                    %
     \override Beam.positions = #'(5.5 . 5.5)                                   %! baca.beam_positions:OverrideCommand(1)
     s1 * 3/32
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_IV measure 304 / measure 2]                %! _comment_measure_numbers
-            b'16
+            b'16                                                               %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
             [
 
-            a'16
+            a'16                                                               %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
-            g''16
+            g''16                                                              %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_IV measure 305 / measure 3]                        %! _comment_measure_numbers
     s1 * 1/16
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_IV measure 306 / measure 4]                %! _comment_measure_numbers
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             \override Beam.positions = #'(6 . 6)                               %! baca.beam_positions:OverrideCommand(1)
             \override Stem.direction = #up                                     %! baca.stem_up:OverrideCommand(1)
-            ef''!16
+            ef''!16                                                            %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-            fs''!16
+            fs''!16                                                            %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-            f''16
+            f''16                                                              %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
             ]
             \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
             \revert Stem.direction                                             %! baca.stem_up:OverrideCommand(2)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_IV measure 307 / measure 5]                        %! _comment_measure_numbers
     s1 * 11/32
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_IV measure 311 / measure 9]                %! _comment_measure_numbers
-            b'16
+            b'16                                                               %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
             [
 
-            a'16
+            a'16                                                               %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
-            g''16
+            g''16                                                              %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_IV measure 312 / measure 10]                       %! _comment_measure_numbers
     s1 * 1/16
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_IV measure 313 / measure 11]               %! _comment_measure_numbers
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             \override Beam.positions = #'(6 . 6)                               %! baca.beam_positions:OverrideCommand(1)
             \override Stem.direction = #up                                     %! baca.stem_up:OverrideCommand(1)
-            ef''!16
+            ef''!16                                                            %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-            fs''!16
+            fs''!16                                                            %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-            f''16
+            f''16                                                              %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
             ]
             \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
             \revert Stem.direction                                             %! baca.stem_up:OverrideCommand(2)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_IV measure 314 / measure 12]                       %! _comment_measure_numbers
     s1 * 11/32
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_IV measure 318 / measure 16]               %! _comment_measure_numbers
-            b'16
+            b'16                                                               %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
             [
 
-            a'16
+            a'16                                                               %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
-            g''16
+            g''16                                                              %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_IV measure 319 / measure 17]                       %! _comment_measure_numbers
     s1 * 1/16
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_IV measure 320 / measure 18]               %! _comment_measure_numbers
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             \override Beam.positions = #'(6 . 6)                               %! baca.beam_positions:OverrideCommand(1)
             \override Stem.direction = #up                                     %! baca.stem_up:OverrideCommand(1)
-            ef''!16
+            ef''!16                                                            %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-            fs''!16
+            fs''!16                                                            %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-            f''16
+            f''16                                                              %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
             ]
             \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
             \revert Stem.direction                                             %! baca.stem_up:OverrideCommand(2)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_IV measure 321 / measure 19]                       %! _comment_measure_numbers
     s1 * 11/32
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_IV measure 325 / measure 23]               %! _comment_measure_numbers
-            b'16
+            b'16                                                               %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
             [
 
-            a'16
+            a'16                                                               %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
-            g''16
+            g''16                                                              %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_IV measure 326 / measure 24]                       %! _comment_measure_numbers
     s1 * 1/16
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_IV measure 327 / measure 25]               %! _comment_measure_numbers
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             \override Beam.positions = #'(6 . 6)                               %! baca.beam_positions:OverrideCommand(1)
             \override Stem.direction = #up                                     %! baca.stem_up:OverrideCommand(1)
-            ef''!16
+            ef''!16                                                            %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-            fs''!16
+            fs''!16                                                            %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-            f''16
+            f''16                                                              %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
             ]
             \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
             \revert Stem.direction                                             %! baca.stem_up:OverrideCommand(2)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_IV measure 328 / measure 26]                       %! _comment_measure_numbers
     s1 * 11/32
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_IV measure 332 / measure 30]               %! _comment_measure_numbers
-            b'16
+            b'16                                                               %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
             [
 
-            a'16
+            a'16                                                               %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
-            g''16
+            g''16                                                              %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_IV measure 333 / measure 31]                       %! _comment_measure_numbers
     s1 * 1/16
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_IV measure 334 / measure 32]               %! _comment_measure_numbers
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             \override Beam.positions = #'(6 . 6)                               %! baca.beam_positions:OverrideCommand(1)
             \override Stem.direction = #up                                     %! baca.stem_up:OverrideCommand(1)
-            ef''!16
+            ef''!16                                                            %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-            fs''!16
+            fs''!16                                                            %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-            f''16
+            f''16                                                              %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
             ]
             \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
             \revert Stem.direction                                             %! baca.stem_up:OverrideCommand(2)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_IV measure 335 / measure 33]                       %! _comment_measure_numbers
     s1 * 11/32
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_IV measure 339 / measure 37]               %! _comment_measure_numbers
-            b'16
+            b'16                                                               %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
             [
 
-            a'16
+            a'16                                                               %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
-            g''16
+            g''16                                                              %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     % [M Guitar_Music_Voice_IV measure 340 / measure 38]                       %! _comment_measure_numbers
     s1 * 1/16
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [M Guitar_Music_Voice_IV measure 341 / measure 39]               %! _comment_measure_numbers
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             \override Beam.positions = #'(6 . 6)                               %! baca.beam_positions:OverrideCommand(1)
             \override Stem.direction = #up                                     %! baca.stem_up:OverrideCommand(1)
-            ef''!16
+            ef''!16                                                            %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-            fs''!16
+            fs''!16                                                            %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-            f''16
+            f''16                                                              %! baca.MusicMaker.__call__
             - \staccato                                                        %! baca.staccato:IndicatorCommand
             ]
             \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
             \revert Stem.direction                                             %! baca.stem_up:OverrideCommand(2)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     <<                                                                         %! _make_multimeasure_rest_container
 

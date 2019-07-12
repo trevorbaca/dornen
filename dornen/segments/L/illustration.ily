@@ -818,10 +818,10 @@ L_Global_Rests = {                                                             %
 
 L_Guitar_Music_Voice_I = {                                                     %! abjad.Path.extern
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 257 / measure 1]                 %! _comment_measure_numbers
             \override TextSpanner.staff-padding = #5                           %! baca.text_spanner_staff_padding:OverrideCommand(1)
@@ -830,7 +830,7 @@ L_Guitar_Music_Voice_I = {                                                     %
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
         %@% \override GuitarMusicStaff.Clef.color = ##f                        %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
             \set GuitarMusicStaff.forceClef = ##t                              %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'green4)                                %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mp                                                                %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
@@ -859,17 +859,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             ^ \baca-reapplied-indicator-markup "(“Guitar”)"                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)    %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 258 / measure 2]                 %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -905,17 +905,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner:PiecewiseCommand(1)
             \startTextSpan                                                     %! baca.text_spanner:PiecewiseCommand(1)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 259 / measure 3]                 %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
@@ -944,17 +944,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 260 / measure 4]                 %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -990,17 +990,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner:PiecewiseCommand(1)
             \startTextSpan                                                     %! baca.text_spanner:PiecewiseCommand(1)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 261 / measure 5]                 %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
@@ -1029,17 +1029,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 262 / measure 6]                 %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             ^ \markup {                                                        %! baca.markup:IndicatorCommand
                 \override                                                      %! baca.markup:IndicatorCommand
@@ -1071,17 +1071,17 @@ L_Guitar_Music_Voice_I = {                                                     %
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 263 / measure 7]                 %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1117,17 +1117,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner:PiecewiseCommand(1)
             \startTextSpan                                                     %! baca.text_spanner:PiecewiseCommand(1)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 264 / measure 8]                 %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
@@ -1156,17 +1156,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 265 / measure 9]                 %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1202,17 +1202,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner:PiecewiseCommand(1)
             \startTextSpan                                                     %! baca.text_spanner:PiecewiseCommand(1)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 266 / measure 10]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
@@ -1241,17 +1241,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 267 / measure 11]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             ^ \markup {                                                        %! baca.markup:IndicatorCommand
                 \override                                                      %! baca.markup:IndicatorCommand
@@ -1283,17 +1283,17 @@ L_Guitar_Music_Voice_I = {                                                     %
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 268 / measure 12]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1329,17 +1329,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner:PiecewiseCommand(1)
             \startTextSpan                                                     %! baca.text_spanner:PiecewiseCommand(1)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 269 / measure 13]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
@@ -1368,17 +1368,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 270 / measure 14]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1408,17 +1408,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 271 / measure 15]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
@@ -1446,17 +1446,17 @@ L_Guitar_Music_Voice_I = {                                                     %
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 272 / measure 16]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1492,17 +1492,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner:PiecewiseCommand(1)
             \startTextSpan                                                     %! baca.text_spanner:PiecewiseCommand(1)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 273 / measure 17]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
@@ -1531,21 +1531,21 @@ L_Guitar_Music_Voice_I = {                                                     %
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 274 / measure 18]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1581,17 +1581,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner:PiecewiseCommand(1)
             \startTextSpan                                                     %! baca.text_spanner:PiecewiseCommand(1)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 275 / measure 19]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
@@ -1620,17 +1620,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 276 / measure 20]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1666,16 +1666,16 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner:PiecewiseCommand(1)
             \startTextSpan                                                     %! baca.text_spanner:PiecewiseCommand(1)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \times 2/3 {
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 277 / measure 21]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
@@ -1704,25 +1704,25 @@ L_Guitar_Music_Voice_I = {                                                     %
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 278 / measure 22]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1758,17 +1758,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner:PiecewiseCommand(1)
             \startTextSpan                                                     %! baca.text_spanner:PiecewiseCommand(1)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 279 / measure 23]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
@@ -1797,17 +1797,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 280 / measure 24]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1843,17 +1843,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner:PiecewiseCommand(1)
             \startTextSpan                                                     %! baca.text_spanner:PiecewiseCommand(1)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 281 / measure 25]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
@@ -1879,29 +1879,29 @@ L_Guitar_Music_Voice_I = {                                                     %
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 282 / measure 26]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ffff                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
@@ -1930,33 +1930,33 @@ L_Guitar_Music_Voice_I = {                                                     %
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 283 / measure 27]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ffff                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1992,28 +1992,28 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner:PiecewiseCommand(1)
             \startTextSpan                                                     %! baca.text_spanner:PiecewiseCommand(1)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \times 2/3 {
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 284 / measure 28]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2043,25 +2043,25 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 285 / measure 29]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \fff                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2091,21 +2091,21 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 286 / measure 30]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2135,17 +2135,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 287 / measure 31]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2175,20 +2175,20 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \times 2/3 {
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 288 / measure 32]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2218,25 +2218,25 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 289 / measure 33]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2266,29 +2266,29 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 290 / measure 34]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2318,33 +2318,33 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 291 / measure 35]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2374,28 +2374,28 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \times 2/3 {
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 292 / measure 36]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2425,25 +2425,25 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 293 / measure 37]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2474,21 +2474,21 @@ L_Guitar_Music_Voice_I = {                                                     %
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 294 / measure 38]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2518,17 +2518,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 295 / measure 39]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2558,20 +2558,20 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \times 2/3 {
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 296 / measure 40]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2601,25 +2601,25 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 297 / measure 41]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2655,29 +2655,29 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner:PiecewiseCommand(1)
             \startTextSpan                                                     %! baca.text_spanner:PiecewiseCommand(1)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 298 / measure 42]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pppp                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2707,32 +2707,32 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \times 2/3 {
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 299 / measure 43]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2762,25 +2762,25 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 300 / measure 44]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ppppp                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2810,21 +2810,21 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 301 / measure 45]                %! _comment_measure_numbers
-            e2
+            e2                                                                 %! baca.MusicMaker.__call__
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pppp                                                              %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2856,17 +2856,17 @@ L_Guitar_Music_Voice_I = {                                                     %
             - \tweak circled-tip ##t                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
-    {
+    {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
             % [L Guitar_Music_Voice_I measure 302 / measure 46]                %! _comment_measure_numbers
             \once \override TextScript.staff-padding = #5.5                    %! baca.text_script_staff_padding:OverrideCommand(1)
-            r8
+            r8                                                                 %! baca.MusicMaker.__call__
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
         %@% ^ \markup {                                                        %! FIGURE_NAME
@@ -2893,19 +2893,19 @@ L_Guitar_Music_Voice_I = {                                                     %
         %@%     }                                                              %! FIGURE_NAME
             \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
 
-            r8
+            r8                                                                 %! baca.MusicMaker.__call__
 
-            r8
+            r8                                                                 %! baca.MusicMaker.__call__
 
-            r8
+            r8                                                                 %! baca.MusicMaker.__call__
 
-            r8
+            r8                                                                 %! baca.MusicMaker.__call__
             \revert TextSpanner.staff-padding                                  %! baca.text_spanner_staff_padding:OverrideCommand(2)
             \revert TextScript.staff-padding                                   %! baca.text_script_staff_padding:OverrideCommand(2)
 
-        }
+        }                                                                      %! baca.MusicMaker.__call__
 
-    }
+    }                                                                          %! baca.MusicMaker.__call__
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

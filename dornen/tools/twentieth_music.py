@@ -136,153 +136,153 @@ def twentieth_music() -> baca.MusicMaker:
                         \context Voice = "Music_Voice"                                     %! baca.SingleStaffScoreTemplate.__call__
                         {                                                                  %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
-                                cs'!16
+                                cs'!16                                                     %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
-                                c'16
+                                c'16                                                       %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
-                                bf'!16
+                                bf'!16                                                     %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
-                                f'16
+                                f'16                                                       %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
-                                af'!16
+                                af'!16                                                     %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
-                                fs'!16
+                                fs'!16                                                     %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
-                                b'16
+                                b'16                                                       %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 2]                                  %! _comment_measure_numbers
-                                d'16
+                                d'16                                                       %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
-                                e'16
+                                e'16                                                       %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
-                                ef'!16
+                                ef'!16                                                     %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
-                                a'16
+                                a'16                                                       %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
-                                af'!16
+                                af'!16                                                     %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 4]                                  %! _comment_measure_numbers
-                                fs'!16
+                                fs'!16                                                     %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
-                                b'16
+                                b'16                                                       %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
-                                d'16
+                                d'16                                                       %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
-                                f'16
+                                f'16                                                       %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
                             <<                                                             %! PHANTOM:_make_multimeasure_rest_container
             <BLANKLINE>
@@ -445,116 +445,116 @@ def twentieth_music() -> baca.MusicMaker:
                         \context Voice = "Music_Voice"                                     %! baca.SingleStaffScoreTemplate.__call__
                         {                                                                  %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
-                                cs'!16
+                                cs'!16                                                     %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
-                                c'16
+                                c'16                                                       %! baca.music
                                 [
             <BLANKLINE>
-                                bf'!16
+                                bf'!16                                                     %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
-                                f'16
-                                [
-                                ]
-            <BLANKLINE>
-                            }
-            <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
-            <BLANKLINE>
-                                af'!16
-                                [
-            <BLANKLINE>
-                                fs'!16
-                                ]
-            <BLANKLINE>
-                            }
-            <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
-            <BLANKLINE>
-                                b'16
+                                f'16                                                       %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
+            <BLANKLINE>
+                                af'!16                                                     %! baca.music
+                                [
+            <BLANKLINE>
+                                fs'!16                                                     %! baca.music
+                                ]
+            <BLANKLINE>
+                            }                                                              %! baca.music
+            <BLANKLINE>
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
+            <BLANKLINE>
+                                b'16                                                       %! baca.music
+                                [
+                                ]
+            <BLANKLINE>
+                            }                                                              %! baca.music
+            <BLANKLINE>
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 2]                                  %! _comment_measure_numbers
-                                d'16
+                                d'16                                                       %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
-                                ef'!16
+                                ef'!16                                                     %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
-                                a'16
+                                a'16                                                       %! baca.music
                                 [
             <BLANKLINE>
-                                af'!16
+                                af'!16                                                     %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 4]                                  %! _comment_measure_numbers
-                                fs'!16
+                                fs'!16                                                     %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
-                                b'16
+                                b'16                                                       %! baca.music
                                 [
             <BLANKLINE>
-                                d'16
+                                d'16                                                       %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 4/5 {
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 4/5 {                                                   %! baca.music
             <BLANKLINE>
-                                f'16
+                                f'16                                                       %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
                             <<                                                             %! PHANTOM:_make_multimeasure_rest_container
             <BLANKLINE>

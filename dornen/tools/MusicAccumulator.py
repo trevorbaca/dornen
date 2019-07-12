@@ -34,11 +34,11 @@ class MusicAccumulator(baca.MusicAccumulator):
             <<
                 \context Voice = "Guitar_Music_Voice_I"
                 {
-                    {
-                        \scaleDurations #'(1 . 1) {
+                    { %! baca.MusicMaker.__call__
+                        \scaleDurations #'(1 . 1) { %! baca.MusicMaker.__call__
                             \set stemLeftBeamCount = 0
                             \set stemRightBeamCount = 3
-                            c'32
+                            c'32 %! baca.MusicMaker.__call__
                             - \staccato %! baca.staccato:IndicatorCommand
                         %@% ^ \markup {                       %! FIGURE_NAME
                         %@%     \fontsize                     %! FIGURE_NAME
@@ -60,43 +60,43 @@ class MusicAccumulator(baca.MusicAccumulator):
                             [
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
-                            cs'32
+                            cs'32 %! baca.MusicMaker.__call__
                             - \staccato %! baca.staccato:IndicatorCommand
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
-                            d'32
+                            d'32 %! baca.MusicMaker.__call__
                             - \staccato %! baca.staccato:IndicatorCommand
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
-                            ef'32
+                            ef'32 %! baca.MusicMaker.__call__
                             - \staccato %! baca.staccato:IndicatorCommand
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
-                            e'32
+                            e'32 %! baca.MusicMaker.__call__
                             - \staccato %! baca.staccato:IndicatorCommand
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
-                            f'32
+                            f'32 %! baca.MusicMaker.__call__
                             - \staccato %! baca.staccato:IndicatorCommand
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
-                            fs'32
+                            fs'32 %! baca.MusicMaker.__call__
                             - \staccato %! baca.staccato:IndicatorCommand
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
-                            g'32
+                            g'32 %! baca.MusicMaker.__call__
                             - \staccato %! baca.staccato:IndicatorCommand
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 3
-                            af'32
+                            af'32 %! baca.MusicMaker.__call__
                             - \staccato %! baca.staccato:IndicatorCommand
                             \set stemLeftBeamCount = 3
                             \set stemRightBeamCount = 0
-                            a'32
+                            a'32 %! baca.MusicMaker.__call__
                             - \staccato %! baca.staccato:IndicatorCommand
                             ]
-                        }
-                    }
+                        } %! baca.MusicMaker.__call__
+                    } %! baca.MusicMaker.__call__
                 }
             >>
 

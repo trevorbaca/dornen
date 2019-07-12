@@ -122,250 +122,250 @@ def graced_tuplet_music() -> baca.MusicMaker:
                         \context Voice = "Music_Voice"                                     %! baca.SingleStaffScoreTemplate.__call__
                         {                                                                  %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                            \tweak text #tuplet-number::calc-fraction-text
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 8/7 {
+                            \tweak text #tuplet-number::calc-fraction-text                 %! baca.music
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 8/7 {                                                   %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                af'!16
+                                af'!16                                                     %! baca.music
                                 [
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak text #tuplet-number::calc-fraction-text
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 5/7 {
+                            \tweak text #tuplet-number::calc-fraction-text                 %! baca.music
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 5/7 {                                                   %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
-                                cs'!16
+                                cs'!16                                                     %! baca.music
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    c'16
+                                    c'16                                                   %! baca.music
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                bf'!16
+                                bf'!16                                                     %! baca.music
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    f'16
+                                    f'16                                                   %! baca.music
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                af'!16
+                                af'!16                                                     %! baca.music
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    fs'16
+                                    fs'16                                                  %! baca.music
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                b'16
+                                b'16                                                       %! baca.music
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    d'16
+                                    d'16                                                   %! baca.music
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                e'16
+                                e'16                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 0
-                                ef'!16
+                                ef'!16                                                     %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak text #tuplet-number::calc-fraction-text
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 8/7 {
+                            \tweak text #tuplet-number::calc-fraction-text                 %! baca.music
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 8/7 {                                                   %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 2]                                  %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
-                                cs'!16
+                                cs'!16                                                     %! baca.music
                                 [
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    c'16
+                                    c'16                                                   %! baca.music
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                bf'!16
+                                bf'!16                                                     %! baca.music
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    f'16
+                                    f'16                                                   %! baca.music
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                af'!16
+                                af'!16                                                     %! baca.music
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    fs'16
+                                    fs'16                                                  %! baca.music
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                b'16
+                                b'16                                                       %! baca.music
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    d'16
+                                    d'16                                                   %! baca.music
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                e'16
+                                e'16                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 1
-                                ef'!16
+                                ef'!16                                                     %! baca.music
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak text #tuplet-number::calc-fraction-text
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 5/7 {
+                            \tweak text #tuplet-number::calc-fraction-text                 %! baca.music
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 5/7 {                                                   %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
-                                a'16
+                                a'16                                                       %! baca.music
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    af'16
+                                    af'16                                                  %! baca.music
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                cs'!16
+                                cs'!16                                                     %! baca.music
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    c'16
+                                    c'16                                                   %! baca.music
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                bf'!16
+                                bf'!16                                                     %! baca.music
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    f'16
+                                    f'16                                                   %! baca.music
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                af'!16
+                                af'!16                                                     %! baca.music
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    fs'16
+                                    fs'16                                                  %! baca.music
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                b'16
+                                b'16                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 0
-                                d'16
+                                d'16                                                       %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak text #tuplet-number::calc-fraction-text
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 8/7 {
+                            \tweak text #tuplet-number::calc-fraction-text                 %! baca.music
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 8/7 {                                                   %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 2
-                                a'16
+                                a'16                                                       %! baca.music
                                 [
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    af'16
+                                    af'16                                                  %! baca.music
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                cs'!16
+                                cs'!16                                                     %! baca.music
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    c'16
+                                    c'16                                                   %! baca.music
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                bf'!16
+                                bf'!16                                                     %! baca.music
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    f'16
+                                    f'16                                                   %! baca.music
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                af'!16
+                                af'!16                                                     %! baca.music
             <BLANKLINE>
                                 \acciaccatura {
             <BLANKLINE>
-                                    fs'16
+                                    fs'16                                                  %! baca.music
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                b'16
+                                b'16                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 1
-                                d'16
+                                d'16                                                       %! baca.music
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak text #tuplet-number::calc-fraction-text
-                            \tweak edge-height #'(0.7 . 0)
-                            \times 5/7 {
+                            \tweak text #tuplet-number::calc-fraction-text                 %! baca.music
+                            \tweak edge-height #'(0.7 . 0)                                 %! baca.music
+                            \times 5/7 {                                                   %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                af'!16
+                                af'!16                                                     %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
                             <<                                                             %! PHANTOM:_make_multimeasure_rest_container
             <BLANKLINE>

@@ -112,91 +112,91 @@ def running_music() -> baca.MusicMaker:
                         \context Voice = "Music_Voice"                                     %! baca.SingleStaffScoreTemplate.__call__
                         {                                                                  %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
-                                e'64
+                                e'64                                                       %! baca.music
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak text #tuplet-number::calc-fraction-text
-                            \times 6/7 {
+                            \tweak text #tuplet-number::calc-fraction-text                 %! baca.music
+                            \times 6/7 {                                                   %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 2]                                  %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
-                                fs'!64
+                                fs'!64                                                     %! baca.music
                                 [
                                 (                                                          %! baca.slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                d'64
+                                d'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                ef'!64
+                                ef'!64                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                f'64
+                                f'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                a'64
+                                a'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                af'!64
+                                af'!64                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 0
-                                c'64
+                                c'64                                                       %! baca.music
                                 )                                                          %! baca.slur:SpannerIndicatorCommand(2)
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
-                                b'64
+                                b'64                                                       %! baca.music
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak text #tuplet-number::calc-fraction-text
-                            \times 5/6 {
+                            \tweak text #tuplet-number::calc-fraction-text                 %! baca.music
+                            \times 5/6 {                                                   %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 4]                                  %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
-                                bf'!64
+                                bf'!64                                                     %! baca.music
                                 [
                                 (                                                          %! baca.slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                g'64
+                                g'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                a'64
+                                a'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                af'!64
+                                af'!64                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                c'64
+                                c'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 0
-                                f'64
+                                f'64                                                       %! baca.music
                                 )                                                          %! baca.slur:SpannerIndicatorCommand(2)
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
                             <<                                                             %! PHANTOM:_make_multimeasure_rest_container
             <BLANKLINE>
@@ -338,186 +338,186 @@ def running_music() -> baca.MusicMaker:
                         \context Voice = "Music_Voice"                                     %! baca.SingleStaffScoreTemplate.__call__
                         {                                                                  %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                e'64
+                                e'64                                                       %! baca.music
                                 [
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak text #tuplet-number::calc-fraction-text
-                            \times 6/7 {
+                            \tweak text #tuplet-number::calc-fraction-text                 %! baca.music
+                            \times 6/7 {                                                   %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
-                                fs'!64
+                                fs'!64                                                     %! baca.music
                                 (                                                          %! baca.slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                d'64
+                                d'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                ef'!64
+                                ef'!64                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                f'64
+                                f'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                a'64
+                                a'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                af'!64
+                                af'!64                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 1
-                                c'64
+                                c'64                                                       %! baca.music
                                 )                                                          %! baca.slur:SpannerIndicatorCommand(2)
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                b'64
+                                b'64                                                       %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak text #tuplet-number::calc-fraction-text
-                            \times 6/7 {
+                            \tweak text #tuplet-number::calc-fraction-text                 %! baca.music
+                            \times 6/7 {                                                   %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 2]                                  %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 4
-                                fs'!64
+                                fs'!64                                                     %! baca.music
                                 [
                                 (                                                          %! baca.slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                d'64
+                                d'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                ef'!64
+                                ef'!64                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                f'64
+                                f'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                a'64
+                                a'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                af'!64
+                                af'!64                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 1
-                                c'64
+                                c'64                                                       %! baca.music
                                 )                                                          %! baca.slur:SpannerIndicatorCommand(2)
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                b'64
+                                b'64                                                       %! baca.music
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak text #tuplet-number::calc-fraction-text
-                            \times 5/6 {
+                            \tweak text #tuplet-number::calc-fraction-text                 %! baca.music
+                            \times 5/6 {                                                   %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
-                                bf'!64
+                                bf'!64                                                     %! baca.music
                                 (                                                          %! baca.slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                g'64
+                                g'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                a'64
+                                a'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                af'!64
+                                af'!64                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                c'64
+                                c'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 0
-                                f'64
+                                f'64                                                       %! baca.music
                                 )                                                          %! baca.slur:SpannerIndicatorCommand(2)
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                b'64
+                                b'64                                                       %! baca.music
                                 [
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \tweak text #tuplet-number::calc-fraction-text
-                            \times 5/6 {
+                            \tweak text #tuplet-number::calc-fraction-text                 %! baca.music
+                            \times 5/6 {                                                   %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 4
-                                bf'!64
+                                bf'!64                                                     %! baca.music
                                 (                                                          %! baca.slur:SpannerIndicatorCommand(1)
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                g'64
+                                g'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                a'64
+                                a'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                af'!64
+                                af'!64                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                c'64
+                                c'64                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 1
-                                f'64
+                                f'64                                                       %! baca.music
                                 )                                                          %! baca.slur:SpannerIndicatorCommand(2)
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 4
                                 \set stemRightBeamCount = 4
-                                e'64
+                                e'64                                                       %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
                             <<                                                             %! PHANTOM:_make_multimeasure_rest_container
             <BLANKLINE>

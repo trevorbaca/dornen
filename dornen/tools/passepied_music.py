@@ -125,98 +125,98 @@ def passepied_music() -> baca.MusicMaker:
                         \context Voice = "Music_Voice"                                     %! baca.SingleStaffScoreTemplate.__call__
                         {                                                                  %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
-                                af'!32
+                                af'!32                                                     %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 2]                                  %! _comment_measure_numbers
                                 \acciaccatura {
             <BLANKLINE>
-                                    cs'16
+                                    cs'16                                                  %! baca.music
                                     [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
-                                    c'16
+                                    c'16                                                   %! baca.music
             <BLANKLINE>
-                                    bf'16
+                                    bf'16                                                  %! baca.music
                                     ]                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
-                                f'32
+                                f'32                                                       %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 \acciaccatura {
             <BLANKLINE>
-                                    af'16
+                                    af'16                                                  %! baca.music
                                     [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
-                                    fs'16
+                                    fs'16                                                  %! baca.music
             <BLANKLINE>
-                                    b'16
+                                    b'16                                                   %! baca.music
                                     ]                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
-                                d'32
+                                d'32                                                       %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 4]                                  %! _comment_measure_numbers
                                 \acciaccatura {
             <BLANKLINE>
-                                    e'16
+                                    e'16                                                   %! baca.music
                                     [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
-                                    ef'16
+                                    ef'16                                                  %! baca.music
             <BLANKLINE>
-                                    a'16
+                                    a'16                                                   %! baca.music
                                     ]                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
-                                af'!32
+                                af'!32                                                     %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 5]                                  %! _comment_measure_numbers
                                 \acciaccatura {
             <BLANKLINE>
-                                    fs'16
+                                    fs'16                                                  %! baca.music
                                     [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
-                                    b'16
+                                    b'16                                                   %! baca.music
             <BLANKLINE>
-                                    d'16
+                                    d'16                                                   %! baca.music
                                     ]                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
-                                f'32
+                                f'32                                                       %! baca.music
                                 [
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
                             <<                                                             %! PHANTOM:_make_multimeasure_rest_container
             <BLANKLINE>
@@ -365,233 +365,233 @@ def passepied_music() -> baca.MusicMaker:
                         \context Voice = "Music_Voice"                                     %! baca.SingleStaffScoreTemplate.__call__
                         {                                                                  %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'!32
+                                af'!32                                                     %! baca.music
                                 [
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
-                                cs'!16
+                                cs'!16                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                c'16
+                                c'16                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                bf'!16
+                                bf'!16                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 1
-                                f'16
+                                f'16                                                       %! baca.music
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
-                                af'!16
+                                af'!16                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                fs'!16
+                                fs'!16                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                b'16
+                                b'16                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 0
-                                d'16
+                                d'16                                                       %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 2]                                  %! _comment_measure_numbers
                                 \acciaccatura {
             <BLANKLINE>
-                                    cs'16
+                                    cs'16                                                  %! baca.music
                                     [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
-                                    c'16
+                                    c'16                                                   %! baca.music
             <BLANKLINE>
-                                    bf'16
+                                    bf'16                                                  %! baca.music
                                     ]                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                f'32
+                                f'32                                                       %! baca.music
                                 [
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
-                                af'!16
+                                af'!16                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                fs'!16
+                                fs'!16                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                b'16
+                                b'16                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 1
-                                d'16
+                                d'16                                                       %! baca.music
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
-                                e'16
+                                e'16                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                ef'!16
+                                ef'!16                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                a'16
+                                a'16                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 0
-                                g'16
+                                g'16                                                       %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 \acciaccatura {
             <BLANKLINE>
-                                    af'16
+                                    af'16                                                  %! baca.music
                                     [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
-                                    fs'16
+                                    fs'16                                                  %! baca.music
             <BLANKLINE>
-                                    b'16
+                                    b'16                                                   %! baca.music
                                     ]                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                d'32
+                                d'32                                                       %! baca.music
                                 [
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
-                                e'16
+                                e'16                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                ef'!16
+                                ef'!16                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                a'16
+                                a'16                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 1
-                                g'16
+                                g'16                                                       %! baca.music
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
-                                fs'!16
+                                fs'!16                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                b'16
+                                b'16                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                d'16
+                                d'16                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 0
-                                f'16
+                                f'16                                                       %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 4]                                  %! _comment_measure_numbers
                                 \acciaccatura {
             <BLANKLINE>
-                                    e'16
+                                    e'16                                                   %! baca.music
                                     [                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
-                                    ef'16
+                                    ef'16                                                  %! baca.music
             <BLANKLINE>
-                                    a'16
+                                    a'16                                                   %! baca.music
                                     ]                                                      %! AcciaccaturaSpecifier
             <BLANKLINE>
-                                }
+                                }                                                          %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                g'32
+                                g'32                                                       %! baca.music
                                 [
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 2
-                                fs'!16
+                                fs'!16                                                     %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                b'16
+                                b'16                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                d'16
+                                d'16                                                       %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 1
-                                f'16
+                                f'16                                                       %! baca.music
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 2
                                 \set stemRightBeamCount = 2
-                                af'!16
+                                af'!16                                                     %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
                             <<                                                             %! PHANTOM:_make_multimeasure_rest_container
             <BLANKLINE>

@@ -153,27 +153,27 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 \once \override Beam.grow-direction = #right
-                                fs'!64 * 2112/1024
+                                fs'!64 * 2112/1024                                         %! baca.music
                                 [
             <BLANKLINE>
-                                d'64 * 1152/1024
+                                d'64 * 1152/1024                                           %! baca.music
             <BLANKLINE>
-                                ef'!64 * 960/1024
+                                ef'!64 * 960/1024                                          %! baca.music
             <BLANKLINE>
-                                f'64 * 832/1024
+                                f'64 * 832/1024                                            %! baca.music
             <BLANKLINE>
-                                a'64 * 768/1024
+                                a'64 * 768/1024                                            %! baca.music
             <BLANKLINE>
-                                af'!64 * 704/1024
+                                af'!64 * 704/1024                                          %! baca.music
             <BLANKLINE>
-                                c'64 * 640/1024
+                                c'64 * 640/1024                                            %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
@@ -215,27 +215,27 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 2]                                  %! _comment_measure_numbers
                                 \once \override Beam.grow-direction = #right
-                                fs'!64 * 2112/1024
+                                fs'!64 * 2112/1024                                         %! baca.music
                                 [
             <BLANKLINE>
-                                d'64 * 1152/1024
+                                d'64 * 1152/1024                                           %! baca.music
             <BLANKLINE>
-                                ef'!64 * 960/1024
+                                ef'!64 * 960/1024                                          %! baca.music
             <BLANKLINE>
-                                f'64 * 832/1024
+                                f'64 * 832/1024                                            %! baca.music
             <BLANKLINE>
-                                a'64 * 768/1024
+                                a'64 * 768/1024                                            %! baca.music
             <BLANKLINE>
-                                af'!64 * 704/1024
+                                af'!64 * 704/1024                                          %! baca.music
             <BLANKLINE>
-                                c'64 * 640/1024
+                                c'64 * 640/1024                                            %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
@@ -277,24 +277,24 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #left
-                                bf'!64 * 320/1024
+                                bf'!64 * 320/1024                                          %! baca.music
                                 [
             <BLANKLINE>
-                                g'64 * 704/1024
+                                g'64 * 704/1024                                            %! baca.music
             <BLANKLINE>
-                                a'64 * 960/1024
+                                a'64 * 960/1024                                            %! baca.music
             <BLANKLINE>
-                                af'!64 * 1216/1024
+                                af'!64 * 1216/1024                                         %! baca.music
             <BLANKLINE>
-                                c'64 * 1408/1024
+                                c'64 * 1408/1024                                           %! baca.music
             <BLANKLINE>
-                                f'64 * 1536/1024
+                                f'64 * 1536/1024                                           %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
@@ -336,27 +336,27 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 \once \override Beam.grow-direction = #right
-                                fs'!64 * 2112/1024
+                                fs'!64 * 2112/1024                                         %! baca.music
                                 [
             <BLANKLINE>
-                                d'64 * 1152/1024
+                                d'64 * 1152/1024                                           %! baca.music
             <BLANKLINE>
-                                ef'!64 * 960/1024
+                                ef'!64 * 960/1024                                          %! baca.music
             <BLANKLINE>
-                                f'64 * 832/1024
+                                f'64 * 832/1024                                            %! baca.music
             <BLANKLINE>
-                                a'64 * 768/1024
+                                a'64 * 768/1024                                            %! baca.music
             <BLANKLINE>
-                                af'!64 * 704/1024
+                                af'!64 * 704/1024                                          %! baca.music
             <BLANKLINE>
-                                c'64 * 640/1024
+                                c'64 * 640/1024                                            %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
@@ -398,24 +398,24 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #left
-                                bf'!64 * 320/1024
+                                bf'!64 * 320/1024                                          %! baca.music
                                 [
             <BLANKLINE>
-                                g'64 * 704/1024
+                                g'64 * 704/1024                                            %! baca.music
             <BLANKLINE>
-                                a'64 * 960/1024
+                                a'64 * 960/1024                                            %! baca.music
             <BLANKLINE>
-                                af'!64 * 1216/1024
+                                af'!64 * 1216/1024                                         %! baca.music
             <BLANKLINE>
-                                c'64 * 1408/1024
+                                c'64 * 1408/1024                                           %! baca.music
             <BLANKLINE>
-                                f'64 * 1536/1024
+                                f'64 * 1536/1024                                           %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
@@ -457,26 +457,26 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #right
-                                fs'!64 * 2112/1024
+                                fs'!64 * 2112/1024                                         %! baca.music
                                 [
             <BLANKLINE>
-                                d'64 * 1152/1024
+                                d'64 * 1152/1024                                           %! baca.music
             <BLANKLINE>
-                                ef'!64 * 960/1024
+                                ef'!64 * 960/1024                                          %! baca.music
             <BLANKLINE>
-                                f'64 * 832/1024
+                                f'64 * 832/1024                                            %! baca.music
             <BLANKLINE>
-                                a'64 * 768/1024
+                                a'64 * 768/1024                                            %! baca.music
             <BLANKLINE>
-                                af'!64 * 704/1024
+                                af'!64 * 704/1024                                          %! baca.music
             <BLANKLINE>
-                                c'64 * 640/1024
+                                c'64 * 640/1024                                            %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             <<                                                             %! PHANTOM:_make_multimeasure_rest_container
@@ -657,27 +657,27 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 \once \override Beam.grow-direction = #left
-                                fs'!64 * 320/1024
+                                fs'!64 * 320/1024                                          %! baca.music
                                 [
             <BLANKLINE>
-                                d'64 * 640/1024
+                                d'64 * 640/1024                                            %! baca.music
             <BLANKLINE>
-                                ef'!64 * 896/1024
+                                ef'!64 * 896/1024                                          %! baca.music
             <BLANKLINE>
-                                f'64 * 1088/1024
+                                f'64 * 1088/1024                                           %! baca.music
             <BLANKLINE>
-                                a'64 * 1280/1024
+                                a'64 * 1280/1024                                           %! baca.music
             <BLANKLINE>
-                                af'!64 * 1408/1024
+                                af'!64 * 1408/1024                                         %! baca.music
             <BLANKLINE>
-                                c'64 * 1536/1024
+                                c'64 * 1536/1024                                           %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
@@ -719,27 +719,27 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 2]                                  %! _comment_measure_numbers
                                 \once \override Beam.grow-direction = #left
-                                fs'!64 * 320/1024
+                                fs'!64 * 320/1024                                          %! baca.music
                                 [
             <BLANKLINE>
-                                d'64 * 640/1024
+                                d'64 * 640/1024                                            %! baca.music
             <BLANKLINE>
-                                ef'!64 * 896/1024
+                                ef'!64 * 896/1024                                          %! baca.music
             <BLANKLINE>
-                                f'64 * 1088/1024
+                                f'64 * 1088/1024                                           %! baca.music
             <BLANKLINE>
-                                a'64 * 1280/1024
+                                a'64 * 1280/1024                                           %! baca.music
             <BLANKLINE>
-                                af'!64 * 1408/1024
+                                af'!64 * 1408/1024                                         %! baca.music
             <BLANKLINE>
-                                c'64 * 1536/1024
+                                c'64 * 1536/1024                                           %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
@@ -781,24 +781,24 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #right
-                                bf'!64 * 2048/1024
+                                bf'!64 * 2048/1024                                         %! baca.music
                                 [
             <BLANKLINE>
-                                g'64 * 1088/1024
+                                g'64 * 1088/1024                                           %! baca.music
             <BLANKLINE>
-                                a'64 * 896/1024
+                                a'64 * 896/1024                                            %! baca.music
             <BLANKLINE>
-                                af'!64 * 768/1024
+                                af'!64 * 768/1024                                          %! baca.music
             <BLANKLINE>
-                                c'64 * 704/1024
+                                c'64 * 704/1024                                            %! baca.music
             <BLANKLINE>
-                                f'64 * 640/1024
+                                f'64 * 640/1024                                            %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
@@ -840,27 +840,27 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 \once \override Beam.grow-direction = #left
-                                fs'!64 * 320/1024
+                                fs'!64 * 320/1024                                          %! baca.music
                                 [
             <BLANKLINE>
-                                d'64 * 640/1024
+                                d'64 * 640/1024                                            %! baca.music
             <BLANKLINE>
-                                ef'!64 * 896/1024
+                                ef'!64 * 896/1024                                          %! baca.music
             <BLANKLINE>
-                                f'64 * 1088/1024
+                                f'64 * 1088/1024                                           %! baca.music
             <BLANKLINE>
-                                a'64 * 1280/1024
+                                a'64 * 1280/1024                                           %! baca.music
             <BLANKLINE>
-                                af'!64 * 1408/1024
+                                af'!64 * 1408/1024                                         %! baca.music
             <BLANKLINE>
-                                c'64 * 1536/1024
+                                c'64 * 1536/1024                                           %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
@@ -902,24 +902,24 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #right
-                                bf'!64 * 2048/1024
+                                bf'!64 * 2048/1024                                         %! baca.music
                                 [
             <BLANKLINE>
-                                g'64 * 1088/1024
+                                g'64 * 1088/1024                                           %! baca.music
             <BLANKLINE>
-                                a'64 * 896/1024
+                                a'64 * 896/1024                                            %! baca.music
             <BLANKLINE>
-                                af'!64 * 768/1024
+                                af'!64 * 768/1024                                          %! baca.music
             <BLANKLINE>
-                                c'64 * 704/1024
+                                c'64 * 704/1024                                            %! baca.music
             <BLANKLINE>
-                                f'64 * 640/1024
+                                f'64 * 640/1024                                            %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
@@ -961,26 +961,26 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #left
-                                fs'!64 * 320/1024
+                                fs'!64 * 320/1024                                          %! baca.music
                                 [
             <BLANKLINE>
-                                d'64 * 640/1024
+                                d'64 * 640/1024                                            %! baca.music
             <BLANKLINE>
-                                ef'!64 * 896/1024
+                                ef'!64 * 896/1024                                          %! baca.music
             <BLANKLINE>
-                                f'64 * 1088/1024
+                                f'64 * 1088/1024                                           %! baca.music
             <BLANKLINE>
-                                a'64 * 1280/1024
+                                a'64 * 1280/1024                                           %! baca.music
             <BLANKLINE>
-                                af'!64 * 1408/1024
+                                af'!64 * 1408/1024                                         %! baca.music
             <BLANKLINE>
-                                c'64 * 1536/1024
+                                c'64 * 1536/1024                                           %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             <<                                                             %! PHANTOM:_make_multimeasure_rest_container
@@ -1161,27 +1161,27 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 \once \override Beam.grow-direction = #right
-                                fs'!32 * 2080/1024
+                                fs'!32 * 2080/1024                                         %! baca.music
                                 [
             <BLANKLINE>
-                                d'32 * 1152/1024
+                                d'32 * 1152/1024                                           %! baca.music
             <BLANKLINE>
-                                ef'!32 * 960/1024
+                                ef'!32 * 960/1024                                          %! baca.music
             <BLANKLINE>
-                                f'32 * 832/1024
+                                f'32 * 832/1024                                            %! baca.music
             <BLANKLINE>
-                                a'32 * 768/1024
+                                a'32 * 768/1024                                            %! baca.music
             <BLANKLINE>
-                                af'!32 * 704/1024
+                                af'!32 * 704/1024                                          %! baca.music
             <BLANKLINE>
-                                c'32 * 672/1024
+                                c'32 * 672/1024                                            %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
@@ -1223,27 +1223,27 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 2]                                  %! _comment_measure_numbers
                                 \once \override Beam.grow-direction = #right
-                                fs'!32 * 2080/1024
+                                fs'!32 * 2080/1024                                         %! baca.music
                                 [
             <BLANKLINE>
-                                d'32 * 1152/1024
+                                d'32 * 1152/1024                                           %! baca.music
             <BLANKLINE>
-                                ef'!32 * 960/1024
+                                ef'!32 * 960/1024                                          %! baca.music
             <BLANKLINE>
-                                f'32 * 832/1024
+                                f'32 * 832/1024                                            %! baca.music
             <BLANKLINE>
-                                a'32 * 768/1024
+                                a'32 * 768/1024                                            %! baca.music
             <BLANKLINE>
-                                af'!32 * 704/1024
+                                af'!32 * 704/1024                                          %! baca.music
             <BLANKLINE>
-                                c'32 * 672/1024
+                                c'32 * 672/1024                                            %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
@@ -1285,24 +1285,24 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #left
-                                bf'!32 * 320/1024
+                                bf'!32 * 320/1024                                          %! baca.music
                                 [
             <BLANKLINE>
-                                g'32 * 704/1024
+                                g'32 * 704/1024                                            %! baca.music
             <BLANKLINE>
-                                a'32 * 960/1024
+                                a'32 * 960/1024                                            %! baca.music
             <BLANKLINE>
-                                af'!32 * 1184/1024
+                                af'!32 * 1184/1024                                         %! baca.music
             <BLANKLINE>
-                                c'32 * 1376/1024
+                                c'32 * 1376/1024                                           %! baca.music
             <BLANKLINE>
-                                f'32 * 1600/1024
+                                f'32 * 1600/1024                                           %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
@@ -1344,27 +1344,27 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 \once \override Beam.grow-direction = #right
-                                fs'!32 * 2080/1024
+                                fs'!32 * 2080/1024                                         %! baca.music
                                 [
             <BLANKLINE>
-                                d'32 * 1152/1024
+                                d'32 * 1152/1024                                           %! baca.music
             <BLANKLINE>
-                                ef'!32 * 960/1024
+                                ef'!32 * 960/1024                                          %! baca.music
             <BLANKLINE>
-                                f'32 * 832/1024
+                                f'32 * 832/1024                                            %! baca.music
             <BLANKLINE>
-                                a'32 * 768/1024
+                                a'32 * 768/1024                                            %! baca.music
             <BLANKLINE>
-                                af'!32 * 704/1024
+                                af'!32 * 704/1024                                          %! baca.music
             <BLANKLINE>
-                                c'32 * 672/1024
+                                c'32 * 672/1024                                            %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
@@ -1406,24 +1406,24 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #left
-                                bf'!32 * 320/1024
+                                bf'!32 * 320/1024                                          %! baca.music
                                 [
             <BLANKLINE>
-                                g'32 * 704/1024
+                                g'32 * 704/1024                                            %! baca.music
             <BLANKLINE>
-                                a'32 * 960/1024
+                                a'32 * 960/1024                                            %! baca.music
             <BLANKLINE>
-                                af'!32 * 1184/1024
+                                af'!32 * 1184/1024                                         %! baca.music
             <BLANKLINE>
-                                c'32 * 1376/1024
+                                c'32 * 1376/1024                                           %! baca.music
             <BLANKLINE>
-                                f'32 * 1600/1024
+                                f'32 * 1600/1024                                           %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             \override TupletNumber.text = \markup {
@@ -1465,26 +1465,26 @@ def wave_music(
                                             }
                                         }
                                 }
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \once \override Beam.grow-direction = #right
-                                fs'!32 * 2080/1024
+                                fs'!32 * 2080/1024                                         %! baca.music
                                 [
             <BLANKLINE>
-                                d'32 * 1152/1024
+                                d'32 * 1152/1024                                           %! baca.music
             <BLANKLINE>
-                                ef'!32 * 960/1024
+                                ef'!32 * 960/1024                                          %! baca.music
             <BLANKLINE>
-                                f'32 * 832/1024
+                                f'32 * 832/1024                                            %! baca.music
             <BLANKLINE>
-                                a'32 * 768/1024
+                                a'32 * 768/1024                                            %! baca.music
             <BLANKLINE>
-                                af'!32 * 704/1024
+                                af'!32 * 704/1024                                          %! baca.music
             <BLANKLINE>
-                                c'32 * 672/1024
+                                c'32 * 672/1024                                            %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
                             \revert TupletNumber.text
             <BLANKLINE>
                             <<                                                             %! PHANTOM:_make_multimeasure_rest_container

@@ -109,100 +109,100 @@ def delicatissimo_music() -> baca.MusicMaker:
                         \context Voice = "Music_Voice"                                     %! baca.SingleStaffScoreTemplate.__call__
                         {                                                                  %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
-                                e'32
+                                e'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 2]                                  %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
-                                fs'!32
+                                fs'!32                                                     %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
                                 [
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                d'32
+                                d'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                ef'!32
+                                ef'!32                                                     %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                f'32
+                                f'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                a'32
+                                a'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'!32
+                                af'!32                                                     %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0
-                                c'32
+                                c'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
-                                b'32
+                                b'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 4]                                  %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
-                                bf'!32
+                                bf'!32                                                     %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
                                 [
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                g'32
+                                g'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                a'32
+                                a'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'!32
+                                af'!32                                                     %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                c'32
+                                c'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0
-                                f'32
+                                f'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
                             <<                                                             %! PHANTOM:_make_multimeasure_rest_container
             <BLANKLINE>
@@ -351,205 +351,205 @@ def delicatissimo_music() -> baca.MusicMaker:
                         \context Voice = "Music_Voice"                                     %! baca.SingleStaffScoreTemplate.__call__
                         {                                                                  %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                e'32
+                                e'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
                                 [
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 3
-                                fs'!32
+                                fs'!32                                                     %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                d'32
+                                d'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                ef'!32
+                                ef'!32                                                     %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                f'32
+                                f'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                a'32
+                                a'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'!32
+                                af'!32                                                     %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 1
-                                c'32
+                                c'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                b'32
+                                b'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 2]                                  %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 0
                                 \set stemRightBeamCount = 3
-                                fs'!32
+                                fs'!32                                                     %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
                                 [
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                d'32
+                                d'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                ef'!32
+                                ef'!32                                                     %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                f'32
+                                f'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                a'32
+                                a'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'!32
+                                af'!32                                                     %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 1
-                                c'32
+                                c'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                b'32
+                                b'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 3
-                                bf'!32
+                                bf'!32                                                     %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                g'32
+                                g'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                a'32
+                                a'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'!32
+                                af'!32                                                     %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                c'32
+                                c'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 0
-                                f'32
+                                f'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                b'32
+                                b'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
                                 [
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 1
                                 \set stemRightBeamCount = 3
-                                bf'!32
+                                bf'!32                                                     %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                g'32
+                                g'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                a'32
+                                a'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                af'!32
+                                af'!32                                                     %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                c'32
+                                c'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 1
-                                f'32
+                                f'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 \set stemLeftBeamCount = 3
                                 \set stemRightBeamCount = 3
-                                e'32
+                                e'32                                                       %! baca.music
                                 - \staccato                                                %! baca.staccato:IndicatorCommand
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
                             <<                                                             %! PHANTOM:_make_multimeasure_rest_container
             <BLANKLINE>

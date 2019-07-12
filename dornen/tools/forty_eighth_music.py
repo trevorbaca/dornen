@@ -109,59 +109,59 @@ def forty_eighth_music() -> baca.MusicMaker:
                         \context Voice = "Music_Voice"                                     %! baca.SingleStaffScoreTemplate.__call__
                         {                                                                  %! baca.SingleStaffScoreTemplate.__call__
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 1]                                  %! _comment_measure_numbers
-                                e'32.
+                                e'32.                                                      %! baca.music
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 2]                                  %! _comment_measure_numbers
-                                fs'!32.
+                                fs'!32.                                                    %! baca.music
                                 [
             <BLANKLINE>
-                                d'32.
+                                d'32.                                                      %! baca.music
             <BLANKLINE>
-                                ef'!32.
+                                ef'!32.                                                    %! baca.music
             <BLANKLINE>
-                                f'32.
+                                f'32.                                                      %! baca.music
             <BLANKLINE>
-                                a'32.
+                                a'32.                                                      %! baca.music
             <BLANKLINE>
-                                af'!32.
+                                af'!32.                                                    %! baca.music
             <BLANKLINE>
-                                c'32.
+                                c'32.                                                      %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 3]                                  %! _comment_measure_numbers
-                                b'32.
+                                b'32.                                                      %! baca.music
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
-                            \scaleDurations #'(1 . 1) {
+                            \scaleDurations #'(1 . 1) {                                    %! baca.music
             <BLANKLINE>
                                 % [Music_Voice measure 4]                                  %! _comment_measure_numbers
-                                bf'!32.
+                                bf'!32.                                                    %! baca.music
                                 [
             <BLANKLINE>
-                                g'32.
+                                g'32.                                                      %! baca.music
             <BLANKLINE>
-                                a'32.
+                                a'32.                                                      %! baca.music
             <BLANKLINE>
-                                af'!32.
+                                af'!32.                                                    %! baca.music
             <BLANKLINE>
-                                c'32.
+                                c'32.                                                      %! baca.music
             <BLANKLINE>
-                                f'32.
+                                f'32.                                                      %! baca.music
                                 ]
             <BLANKLINE>
-                            }
+                            }                                                              %! baca.music
             <BLANKLINE>
                             <<                                                             %! PHANTOM:_make_multimeasure_rest_container
             <BLANKLINE>

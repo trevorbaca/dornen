@@ -434,7 +434,7 @@ def graced_tuplet_music() -> baca.MusicMaker:
                 time_treatments=[abjad.Multiplier((5, 7))],
             ),
         ),
-        rmakers.BeamSpecifier(
+        rmakers.BeamCommand(
             beam_divisions_together=True, beam_lone_notes=True
         ),
         color_unregistered_pitches=True,

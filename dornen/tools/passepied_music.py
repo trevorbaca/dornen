@@ -629,7 +629,7 @@ def passepied_music() -> baca.MusicMaker:
 
     """
     music_maker = baca.MusicMaker(
-        rmakers.BeamSpecifier(
+        rmakers.BeamCommand(
             beam_divisions_together=True, beam_lone_notes=True
         ),
         baca.PitchFirstRhythmCommand(

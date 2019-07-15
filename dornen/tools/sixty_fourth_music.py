@@ -240,7 +240,7 @@ def sixty_fourth_music() -> baca.MusicMaker:
 
     """
     music_maker = baca.MusicMaker(
-        rmakers.BeamSpecifier(beam_divisions_together=True),
+        rmakers.BeamCommand(beam_divisions_together=True),
         baca.staccato(selector=baca.pheads()),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(

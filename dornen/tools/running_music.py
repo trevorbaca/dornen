@@ -555,7 +555,7 @@ def running_music() -> baca.MusicMaker:
 
     """
     music_maker = baca.MusicMaker(
-        rmakers.BeamSpecifier(beam_divisions_together=True),
+        rmakers.BeamCommand(beam_divisions_together=True),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
                 talea=rmakers.Talea(counts=[1], denominator=64),

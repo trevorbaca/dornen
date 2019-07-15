@@ -208,7 +208,7 @@ def anchor_music() -> baca.MusicMaker:
                 talea=rmakers.Talea(counts=[3], denominator=16)
             )
         ),
-        rmakers.BeamSpecifier(selector=baca.select(), beam_lone_notes=True),
+        rmakers.BeamCommand(selector=baca.select(), beam_lone_notes=True),
         color_unregistered_pitches=True,
         denominator=8,
     )

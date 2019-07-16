@@ -546,7 +546,7 @@ def twenty_eighth_music() -> baca.MusicMaker:
 
     """
     music_maker = baca.MusicMaker(
-        rmakers.beam(baca.select()),
+        rmakers.simple_beam(baca.select()),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
                 talea=rmakers.Talea(counts=[1], denominator=16),

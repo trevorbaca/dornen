@@ -562,7 +562,7 @@ def sixteenth_music() -> baca.MusicMaker:
                 talea=rmakers.Talea(counts=[1], denominator=16)
             )
         ),
-        rmakers.simple_beam(baca.select(), beam_lone_notes=True),
+        rmakers.beam(baca.select(), beam_lone_notes=True),
         color_unregistered_pitches=True,
         denominator=16,
     )

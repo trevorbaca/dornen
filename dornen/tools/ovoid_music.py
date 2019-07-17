@@ -372,7 +372,7 @@ def ovoid_music() -> baca.MusicMaker:
 
     """
     music_maker = baca.MusicMaker(
-        rmakers.beam_divisions_together(),
+        rmakers.beam_groups(),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
                 acciaccatura_specifiers=[

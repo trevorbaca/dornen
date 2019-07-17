@@ -598,7 +598,7 @@ def twenty_fourth_music() -> baca.MusicMaker:
                 time_treatments=[abjad.Multiplier((2, 3))],
             )
         ),
-        rmakers.simple_beam(baca.select(), beam_lone_notes=True),
+        rmakers.beam(baca.select(), beam_lone_notes=True),
         color_unregistered_pitches=True,
         denominator=24,
     )

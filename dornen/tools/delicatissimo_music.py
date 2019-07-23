@@ -587,11 +587,7 @@ def delicatissimo_music() -> baca.MusicMaker:
 
     """
     music_maker = baca.MusicMaker(
-        baca.PitchFirstAssignment(
-            rhythm_maker=baca.PitchFirstRhythmMaker(
-                rmakers.Talea(counts=[1], denominator=32)
-            )
-        ),
+        baca.PitchFirstAssignment(baca.pitch_first([1], 32)),
         rmakers.beam_groups(),
         baca.staccato(selector=baca.pheads()),
         color_unregistered_pitches=True,

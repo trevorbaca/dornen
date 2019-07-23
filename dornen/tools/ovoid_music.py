@@ -373,8 +373,9 @@ def ovoid_music() -> baca.MusicMaker:
     """
     music_maker = baca.MusicMaker(
         baca.PitchFirstAssignment(
-            rhythm_maker=baca.PitchFirstRhythmMaker(
-                rmakers.Talea(counts=[6, 1], denominator=32),
+            baca.pitch_first(
+                [6, 1],
+                32,
                 acciaccatura_specifiers=[
                     baca.AcciaccaturaSpecifier(
                         lmr_specifier=baca.LMRSpecifier(left_length=1)

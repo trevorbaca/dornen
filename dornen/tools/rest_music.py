@@ -351,14 +351,9 @@ def rest_music(duration=None) -> baca.MusicMaker:
     duration = duration or abjad.Duration(1, 8)
     music_maker = baca.MusicMaker(
         baca.PitchFirstAssignment(
-            rhythm_maker=baca.PitchFirstRhythmMaker(
-                rmakers.Talea(
-                    counts=[duration.numerator],
-                    denominator=duration.denominator,
-                ),
-                rmakers.force_rest(baca.lts()),
-            )
+            baca.pitch_first([duration.numerator], duration.denominator)
         ),
+        rmakers.force_rest(baca.lts()),
         color_unregistered_pitches=True,
         denominator=duration.denominator,
     )

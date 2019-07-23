@@ -580,9 +580,8 @@ def glissando_scatto_music() -> baca.MusicMaker:
     """
     music_maker = baca.MusicMaker(
         baca.PitchFirstAssignment(
-            rhythm_maker=baca.PitchFirstRhythmMaker(
-                rmakers.Talea(counts=[2, 2, 2, 1, 2, 2, 2], denominator=32),
-                time_treatments=[-2, -3],
+            baca.pitch_first(
+                [2, 2, 2, 1, 2, 2, 2], 32, time_treatments=[-2, -3]
             )
         ),
         rmakers.beam_groups(),

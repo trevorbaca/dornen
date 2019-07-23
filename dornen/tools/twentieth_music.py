@@ -593,9 +593,8 @@ def twentieth_music() -> baca.MusicMaker:
     """
     music_maker = baca.MusicMaker(
         baca.PitchFirstAssignment(
-            rhythm_maker=baca.PitchFirstRhythmMaker(
-                rmakers.Talea(counts=[1], denominator=16),
-                time_treatments=[abjad.Multiplier((4, 5))],
+            baca.pitch_first(
+                [1], 16, time_treatments=[abjad.Multiplier((4, 5))]
             )
         ),
         rmakers.beam(baca.select(), beam_lone_notes=True),

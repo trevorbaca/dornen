@@ -203,11 +203,7 @@ def anchor_music() -> baca.MusicMaker:
 
     """
     music_maker = baca.MusicMaker(
-        baca.PitchFirstAssignment(
-            rhythm_maker=baca.PitchFirstRhythmMaker(
-                rmakers.Talea(counts=[3], denominator=16)
-            )
-        ),
+        baca.PitchFirstAssignment(baca.pitch_first([3], 16)),
         rmakers.beam(baca.select(), beam_lone_notes=True),
         color_unregistered_pitches=True,
         denominator=8,

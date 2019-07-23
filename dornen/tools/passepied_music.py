@@ -630,17 +630,13 @@ def passepied_music() -> baca.MusicMaker:
     """
     music_maker = baca.MusicMaker(
         baca.PitchFirstAssignment(
-            pattern=abjad.index([0]),
-            rhythm_maker=baca.PitchFirstRhythmMaker(
-                rmakers.Talea(counts=[1], denominator=32),
-                acciaccatura_specifiers=[baca.AcciaccaturaSpecifier()],
+            baca.pitch_first(
+                [1], 32, acciaccatura_specifiers=[baca.AcciaccaturaSpecifier()]
             ),
+            pattern=abjad.index([0]),
         ),
         baca.PitchFirstAssignment(
-            pattern=~abjad.index([0]),
-            rhythm_maker=baca.PitchFirstRhythmMaker(
-                rmakers.Talea(counts=[1], denominator=16)
-            ),
+            baca.pitch_first([1], 16), pattern=~abjad.index([0])
         ),
         rmakers.beam_groups(beam_lone_notes=True),
         color_unregistered_pitches=True,

@@ -404,7 +404,7 @@ def graced_tuplet_music() -> baca.MusicMaker:
 
     """
     music_maker = baca.MusicMaker(
-        baca.PitchFirstRhythmCommand(
+        baca.PitchFirstAssignment(
             pattern=abjad.index([0], 2),
             rhythm_maker=baca.PitchFirstRhythmMaker(
                 rmakers.Talea(counts=[1], denominator=16),
@@ -418,7 +418,7 @@ def graced_tuplet_music() -> baca.MusicMaker:
                 time_treatments=[abjad.Multiplier((8, 7))],
             ),
         ),
-        baca.PitchFirstRhythmCommand(
+        baca.PitchFirstAssignment(
             pattern=abjad.index([1], 2),
             rhythm_maker=baca.PitchFirstRhythmMaker(
                 rmakers.Talea(counts=[1], denominator=16),

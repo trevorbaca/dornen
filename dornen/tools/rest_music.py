@@ -350,7 +350,7 @@ def rest_music(duration=None) -> baca.MusicMaker:
     """
     duration = duration or abjad.Duration(1, 8)
     music_maker = baca.MusicMaker(
-        baca.PitchFirstRhythmCommand(
+        baca.PitchFirstAssignment(
             rhythm_maker=baca.PitchFirstRhythmMaker(
                 rmakers.Talea(
                     counts=[duration.numerator],

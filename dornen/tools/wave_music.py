@@ -1538,10 +1538,10 @@ def wave_music(
         rhythm_maker_1 = ritardando_rhythm_maker
         rhythm_maker_2 = accelerando_rhythm_maker
     music_maker = baca.MusicMaker(
-        baca.PitchFirstRhythmCommand(
+        baca.PitchFirstAssignment(
             pattern=abjad.index([0], 2), rhythm_maker=rhythm_maker_1
         ),
-        baca.PitchFirstRhythmCommand(
+        baca.PitchFirstAssignment(
             pattern=abjad.index([1], 2), rhythm_maker=rhythm_maker_2
         ),
         rmakers.beam(baca.select()),

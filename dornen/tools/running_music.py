@@ -555,14 +555,14 @@ def running_music() -> baca.MusicMaker:
 
     """
     music_maker = baca.MusicMaker(
-        rmakers.beam_groups(),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
                 rmakers.Talea(counts=[1], denominator=64),
                 time_treatments=[-1, -2],
             )
         ),
-        baca.new(baca.slur(), map=baca.tuplets().nontrivial()),
+        rmakers.beam_groups(),
+        baca.slur(map=baca.tuplets().nontrivial()),
         color_unregistered_pitches=True,
     )
     return music_maker

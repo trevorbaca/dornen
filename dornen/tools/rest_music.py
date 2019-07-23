@@ -352,11 +352,11 @@ def rest_music(duration=None) -> baca.MusicMaker:
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                rmakers.force_rest(baca.lts()),
-                talea=rmakers.Talea(
+                rmakers.Talea(
                     counts=[duration.numerator],
                     denominator=duration.denominator,
                 ),
+                rmakers.force_rest(baca.lts()),
             )
         ),
         color_unregistered_pitches=True,

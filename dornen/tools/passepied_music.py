@@ -633,14 +633,14 @@ def passepied_music() -> baca.MusicMaker:
         baca.PitchFirstRhythmCommand(
             pattern=abjad.index([0]),
             rhythm_maker=baca.PitchFirstRhythmMaker(
+                rmakers.Talea(counts=[1], denominator=32),
                 acciaccatura_specifiers=[baca.AcciaccaturaSpecifier()],
-                talea=rmakers.Talea(counts=[1], denominator=32),
             ),
         ),
         baca.PitchFirstRhythmCommand(
             pattern=~abjad.index([0]),
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rmakers.Talea(counts=[1], denominator=16)
+                rmakers.Talea(counts=[1], denominator=16)
             ),
         ),
         color_unregistered_pitches=True,

@@ -594,7 +594,7 @@ def twenty_fourth_music() -> baca.MusicMaker:
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rmakers.Talea(counts=[1], denominator=16),
+                rmakers.Talea(counts=[1], denominator=16),
                 time_treatments=[abjad.Multiplier((2, 3))],
             )
         ),

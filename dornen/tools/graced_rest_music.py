@@ -144,8 +144,8 @@ def graced_rest_music() -> baca.MusicMaker:
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
+                rmakers.Talea(counts=[1], denominator=8),
                 acciaccatura_specifiers=[baca.AcciaccaturaSpecifier()],
-                talea=rmakers.Talea(counts=[1], denominator=8),
             )
         ),
         color_unregistered_pitches=True,

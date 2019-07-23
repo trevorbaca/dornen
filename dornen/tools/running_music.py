@@ -558,22 +558,10 @@ def running_music() -> baca.MusicMaker:
         rmakers.beam_groups(),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rmakers.Talea(counts=[1], denominator=64),
+                rmakers.Talea(counts=[1], denominator=64),
                 time_treatments=[-1, -2],
             )
         ),
-        #        baca.new(
-        #            baca.slur(),
-        #            map=baca.tuplets()[:1].rleaves().group().nontrivial(),
-        #            ),
-        #        baca.new(
-        #            baca.slur(),
-        #            map=baca.tuplets()[1:-1].leaves()[1:-1].group().nontrivial(),
-        #            ),
-        #        baca.new(
-        #            baca.slur(),
-        #            map=baca.tuplets()[-1:].lleaves().group().nontrivial(),
-        #            ),
         baca.new(baca.slur(), map=baca.tuplets().nontrivial()),
         color_unregistered_pitches=True,
     )

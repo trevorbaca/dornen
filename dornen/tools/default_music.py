@@ -553,7 +553,7 @@ def default_music() -> baca.MusicMaker:
         rmakers.beam_groups(),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rmakers.Talea(counts=[1], denominator=32)
+                rmakers.Talea(counts=[1], denominator=32)
             )
         ),
         baca.new(baca.slur(), map=baca.ntruns()),

@@ -407,6 +407,7 @@ def graced_tuplet_music() -> baca.MusicMaker:
         baca.PitchFirstRhythmCommand(
             pattern=abjad.index([0], 2),
             rhythm_maker=baca.PitchFirstRhythmMaker(
+                rmakers.Talea(counts=[1], denominator=16),
                 acciaccatura_specifiers=[
                     baca.AcciaccaturaSpecifier(
                         lmr_specifier=baca.LMRSpecifier(
@@ -414,7 +415,6 @@ def graced_tuplet_music() -> baca.MusicMaker:
                         )
                     )
                 ],
-                talea=rmakers.Talea(counts=[1], denominator=16),
                 # time_treatments=[1],
                 time_treatments=[abjad.Multiplier((8, 7))],
             ),
@@ -422,6 +422,7 @@ def graced_tuplet_music() -> baca.MusicMaker:
         baca.PitchFirstRhythmCommand(
             pattern=abjad.index([1], 2),
             rhythm_maker=baca.PitchFirstRhythmMaker(
+                rmakers.Talea(counts=[1], denominator=16),
                 acciaccatura_specifiers=[
                     baca.AcciaccaturaSpecifier(
                         lmr_specifier=baca.LMRSpecifier(
@@ -429,7 +430,6 @@ def graced_tuplet_music() -> baca.MusicMaker:
                         )
                     )
                 ],
-                talea=rmakers.Talea(counts=[1], denominator=16),
                 # time_treatments=[-1],
                 time_treatments=[abjad.Multiplier((5, 7))],
             ),

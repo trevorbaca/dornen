@@ -415,7 +415,6 @@ def graced_tuplet_music() -> baca.MusicMaker:
                         )
                     )
                 ],
-                # time_treatments=[1],
                 time_treatments=[abjad.Multiplier((8, 7))],
             ),
         ),
@@ -430,7 +429,6 @@ def graced_tuplet_music() -> baca.MusicMaker:
                         )
                     )
                 ],
-                # time_treatments=[-1],
                 time_treatments=[abjad.Multiplier((5, 7))],
             ),
         ),

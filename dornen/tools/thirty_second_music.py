@@ -540,12 +540,12 @@ def thirty_second_music() -> baca.MusicMaker:
 
     """
     music_maker = baca.MusicMaker(
-        rmakers.beam_groups(),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
                 rmakers.Talea(counts=[1], denominator=32)
             )
         ),
+        rmakers.beam_groups(),
         color_unregistered_pitches=True,
         denominator=32,
     )

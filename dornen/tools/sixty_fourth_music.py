@@ -244,7 +244,7 @@ def sixty_fourth_music() -> baca.MusicMaker:
         baca.staccato(selector=baca.pheads()),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rmakers.Talea(counts=[1], denominator=64)
+                rmakers.Talea(counts=[1], denominator=64)
             )
         ),
         color_unregistered_pitches=True,

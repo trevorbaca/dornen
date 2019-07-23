@@ -591,7 +591,7 @@ def delicatissimo_music() -> baca.MusicMaker:
         baca.staccato(selector=baca.pheads()),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rmakers.Talea(counts=[1], denominator=32)
+                rmakers.Talea(counts=[1], denominator=32)
             )
         ),
         color_unregistered_pitches=True,

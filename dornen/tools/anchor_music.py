@@ -205,7 +205,7 @@ def anchor_music() -> baca.MusicMaker:
     music_maker = baca.MusicMaker(
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
-                talea=rmakers.Talea(counts=[3], denominator=16)
+                rmakers.Talea(counts=[3], denominator=16)
             )
         ),
         rmakers.beam(baca.select(), beam_lone_notes=True),

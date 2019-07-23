@@ -375,12 +375,12 @@ def ovoid_music() -> baca.MusicMaker:
         rmakers.beam_groups(),
         baca.PitchFirstRhythmCommand(
             rhythm_maker=baca.PitchFirstRhythmMaker(
+                rmakers.Talea(counts=[6, 1], denominator=32),
                 acciaccatura_specifiers=[
                     baca.AcciaccaturaSpecifier(
                         lmr_specifier=baca.LMRSpecifier(left_length=1)
                     )
                 ],
-                talea=rmakers.Talea(counts=[6, 1], denominator=32),
             )
         ),
         color_unregistered_pitches=True,

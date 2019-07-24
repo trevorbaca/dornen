@@ -29,7 +29,7 @@ accumulator(
 
 accumulator(
     'v1',
-    accumulator.merge(design[:2]),
+    [baca.sequence(design[:2]).flatten()],
     accumulator.wave_64_music_maker,
     figure_name='W3',
     )

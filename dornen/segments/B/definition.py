@@ -25,7 +25,7 @@ accumulator(
 
 accumulator(
     'v2',
-    accumulator.reveal(design[4:5], 1),
+    baca.sequence(design[4:5]).reveal(1),
     accumulator.twentieth_music_maker,
     baca.beam_positions(-8),
     baca.register(6),
@@ -44,7 +44,7 @@ accumulator(
 
 accumulator(
     'v2',
-    accumulator.reveal(design[4:5], 2),
+    baca.sequence(design[4:5]).reveal(2),
     accumulator.twentieth_music_maker,
     baca.register(6),
     extend_beam=True,
@@ -62,7 +62,7 @@ accumulator(
 
 accumulator(
     'v2',
-    accumulator.reveal(design[4:5], 3),
+    baca.sequence(design[4:5]).reveal(3),
     accumulator.twentieth_music_maker,
     baca.register(6),
     extend_beam=True,
@@ -80,7 +80,7 @@ accumulator(
 
 accumulator(
     'v2',
-    accumulator.reveal(design[4:5], 4),
+    baca.sequence(design[4:5]).reveal(4),
     accumulator.twentieth_music_maker,
     baca.register(6),
     extend_beam=True,
@@ -98,7 +98,7 @@ accumulator(
 
 accumulator(
     'v2',
-    accumulator.reveal(design[4:5], 5),
+    baca.sequence(design[4:5]).reveal(5),
     accumulator.twentieth_music_maker,
     baca.register(6),
     figure_name='F1',
@@ -114,7 +114,7 @@ accumulator(
 
 accumulator(
     'v2',
-    accumulator.reveal(design[4:5], 1),
+    baca.sequence(design[4:5]).reveal(1),
     accumulator.twentieth_music_maker,
     baca.register(6),
     extend_beam=True,
@@ -133,7 +133,7 @@ accumulator(
 
 accumulator(
     'v2',
-    accumulator.reveal(design[4:5], 2),
+    baca.sequence(design[4:5]).reveal(2),
     accumulator.twentieth_music_maker,
     baca.register(6),
     figure_name='F1_2*',

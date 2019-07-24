@@ -1,5 +1,25 @@
 import abjad
 import baca
+from .anchor_music import anchor_music
+from .default_music import default_music
+from .delicatissimo_music import delicatissimo_music
+from .forty_eighth_music import forty_eighth_music
+from .glissando_scatto_music import glissando_scatto_music
+from .graced_rest_music import graced_rest_music
+from .graced_tuplet_music import graced_tuplet_music
+from .monad_music import monad_music
+from .ovoid_music import ovoid_music
+from .passepied_music import passepied_music
+from .rest_music import rest_music
+from .running_music import running_music
+from .sixteenth_music import sixteenth_music
+from .sixty_fourth_music import sixty_fourth_music
+from .third_music import third_music
+from .thirty_second_music import thirty_second_music
+from .twentieth_music import twentieth_music
+from .twenty_eighth_music import twenty_eighth_music
+from .twenty_fourth_music import twenty_fourth_music
+from .wave_music import wave_music
 
 
 class MusicAccumulator(baca.MusicAccumulator):
@@ -134,35 +154,33 @@ class MusicAccumulator(baca.MusicAccumulator):
     ### INITIALIZER ###
 
     def __init__(self, score_template):
-        import dornen
-
         super(MusicAccumulator, self).__init__(score_template)
-        self.anchor_music_maker = dornen.anchor_music()
-        self.default_music_maker = dornen.default_music()
-        self.delicatissimo_music_maker = dornen.delicatissimo_music()
-        self.forty_eighth_music_maker = dornen.forty_eighth_music()
-        self.glissando_scatto_music_maker = dornen.glissando_scatto_music()
-        self.graced_tuplet_music_maker = dornen.graced_tuplet_music()
-        self.inverted_wave_32_music_maker = dornen.wave_music(
+        self.anchor_music_maker = anchor_music()
+        self.default_music_maker = default_music()
+        self.delicatissimo_music_maker = delicatissimo_music()
+        self.forty_eighth_music_maker = forty_eighth_music()
+        self.glissando_scatto_music_maker = glissando_scatto_music()
+        self.graced_tuplet_music_maker = graced_tuplet_music()
+        self.inverted_wave_32_music_maker = wave_music(
             denominator=32, inverted=True
         )
-        self.inverted_wave_64_music_maker = dornen.wave_music(
+        self.inverted_wave_64_music_maker = wave_music(
             denominator=64, inverted=True
         )
-        self.monad_music_maker = dornen.monad_music()
-        self.ovoid_music_maker = dornen.ovoid_music()
-        self.passepied_music_maker = dornen.passepied_music()
-        self.rest_music_maker = dornen.rest_music()
-        self.sixteenth_music_maker = dornen.sixteenth_music()
-        self.sixty_fourth_music_maker = dornen.sixty_fourth_music()
-        self.third_music_maker = dornen.third_music()
-        self.thirty_second_music_maker = dornen.thirty_second_music()
-        self.twentieth_music_maker = dornen.twentieth_music()
-        self.twenty_eighth_music_maker = dornen.twenty_eighth_music()
-        self.twenty_fourth_music_maker = dornen.twenty_fourth_music()
-        self.wave_32_music_maker = dornen.wave_music(denominator=32)
-        self.wave_64_music_maker = dornen.wave_music(denominator=64)
-        self.running_music_maker = dornen.running_music()
+        self.monad_music_maker = monad_music()
+        self.ovoid_music_maker = ovoid_music()
+        self.passepied_music_maker = passepied_music()
+        self.rest_music_maker = rest_music()
+        self.sixteenth_music_maker = sixteenth_music()
+        self.sixty_fourth_music_maker = sixty_fourth_music()
+        self.third_music_maker = third_music()
+        self.thirty_second_music_maker = thirty_second_music()
+        self.twentieth_music_maker = twentieth_music()
+        self.twenty_eighth_music_maker = twenty_eighth_music()
+        self.twenty_fourth_music_maker = twenty_fourth_music()
+        self.wave_32_music_maker = wave_music(denominator=32)
+        self.wave_64_music_maker = wave_music(denominator=64)
+        self.running_music_maker = running_music()
 
     ### SPECIAL METHODS ###
 

@@ -9,142 +9,181 @@ import os
 ###############################################################################
 
 accumulator = dornen.MusicAccumulator(dornen.ScoreTemplate())
-design_2 = dornen.design_2(stop=14)
-design = design_2[:14]
-assert len(design) == 14
+design = dornen.design_1(stop=22)
+assert len(design) == 22
+cursor = baca.Cursor(design)
 
 accumulator(
     'v1',
-    design[:4],
+    cursor.next(),
+    accumulator.anchor_music_maker,
+    baca.beam_positions(6),
+    baca.register(-8),
+    extend_beam=True,
+    figure_name=1,
+    )
+
+accumulator(
+    'v2',
+    cursor.next(),
+    accumulator.passepied_music_maker,
+    baca.beam_positions(-10),
+    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.register(-10),
+    extend_beam=True,
+    figure_name=2,
+    )
+
+accumulator(
+    'v1',
+    cursor.next(),
+    accumulator.anchor_music_maker,
+    baca.register(-10),
+    extend_beam=True,
+    figure_name=3,
+    )
+
+accumulator(
+    'v2',
+    cursor.next(),
+    accumulator.passepied_music_maker,
+    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.register(-8),
+    extend_beam=True,
+    figure_name=4,
+    )
+
+accumulator(
+    'v1',
+    cursor.next(),
+    accumulator.anchor_music_maker,
+    baca.register(-12),
+    figure_name=5,
+    )
+
+accumulator(
+    'v2',
+    cursor.next(),
+    accumulator.passepied_music_maker,
+    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.register(-6),
+    figure_name=6,
+    )
+
+accumulator(
+    'v1',
+    cursor.next(),
+    accumulator.anchor_music_maker,
+    baca.beam_positions(9),
+    baca.register(-14),
+    extend_beam=True,
+    figure_name=7,
+    )
+
+accumulator(
+    'v2',
+    cursor.next(),
+    accumulator.passepied_music_maker,
+    baca.beam_positions(-10),
+    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.register(-4),
+    extend_beam=True,
+    figure_name=8,
+    )
+
+accumulator(
+    'v4',
+    cursor.next(2),
+    accumulator.running_music_maker,
+    baca.register(-12),
+    figure_name=9,
+    )
+
+accumulator(
+    'v1',
+    cursor.next(),
+    accumulator.anchor_music_maker,
+    baca.register(-16),
+    figure_name=10,
+    )
+
+accumulator(
+    'v4',
+    cursor.next(2),
+    accumulator.running_music_maker,
+    baca.register(-6),
+    figure_name=11,
+    )
+
+accumulator(
+    'v1',
+    cursor.next(),
+    accumulator.anchor_music_maker,
+    baca.beam_positions(6),
+    baca.register(-18),
+    extend_beam=True,
+    figure_name=12,
+    )
+
+accumulator(
+    'v2',
+    cursor.next(),
+    accumulator.passepied_music_maker,
+    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.register(-2),
+    figure_name=13,
+    )
+
+accumulator(
+    'v1',
+    cursor.next(),
+    accumulator.anchor_music_maker,
+    baca.register(-20),
+    figure_name=14,
+    )
+
+accumulator(
+    'v2',
+    cursor.next(),
+    accumulator.passepied_music_maker,
+    baca.beam_positions(-10),
+    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.register(0),
+    extend_beam=True,
+    figure_name=15,
+    )
+
+accumulator(
+    'v2',
+    cursor.next(),
+    accumulator.passepied_music_maker,
+    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.register(2),
+    figure_name=16,
+    )
+
+accumulator(
+    'v4',
+    cursor.next(2),
+    accumulator.running_music_maker,
+    baca.register(-12, 0),
+    figure_name=17,
+    )
+
+accumulator(
+    'v3',
+    cursor.next(),
     accumulator.inverted_wave_64_music_maker,
-    baca.beam_positions(8),
-    baca.register(0, -14),
-    denominator=16,
-    figure_name='W1',
+    baca.beam_positions(-6),
+    figure_name=18,
     )
 
 accumulator(
-    'v2',
-    accumulator.reveal(design[4:5], 1),
-    accumulator.twentieth_music_maker,
-    baca.beam_positions(-8),
-    baca.register(6),
-    extend_beam=True,
-    figure_name='F1_1',
-    )
-
-accumulator(
-    'v1',
-    design[5:8],
-    accumulator.running_music_maker,
-    baca.register(-14, 0),
-    extend_beam=True,
-    figure_name='R1',
-    )
-
-accumulator(
-    'v2',
-    accumulator.reveal(design[4:5], 2),
-    accumulator.twentieth_music_maker,
-    baca.register(6),
-    extend_beam=True,
-    figure_name='F1_2',
-    )
-
-accumulator(
-    'v1',
-    design[6:9],
-    accumulator.running_music_maker,
-    baca.register(-14, 0),
-    extend_beam=True,
-    figure_name='R2',
-    )
-
-accumulator(
-    'v2',
-    accumulator.reveal(design[4:5], 3),
-    accumulator.twentieth_music_maker,
-    baca.register(6),
-    extend_beam=True,
-    figure_name='F1_3',
-    )
-
-accumulator(
-    'v1',
-    design[7:10],
-    accumulator.running_music_maker,
-    baca.register(-14, 0),
-    extend_beam=True,
-    figure_name='R3',
-    )
-
-accumulator(
-    'v2',
-    accumulator.reveal(design[4:5], 4),
-    accumulator.twentieth_music_maker,
-    baca.register(6),
-    extend_beam=True,
-    figure_name='F1_4',
-    )
-
-accumulator(
-    'v1',
-    design[8:11],
-    accumulator.running_music_maker,
-    baca.register(-14, 0),
-    extend_beam=True,
-    figure_name='R4',
-    )
-
-accumulator(
-    'v2',
-    accumulator.reveal(design[4:5], 5),
-    accumulator.twentieth_music_maker,
-    baca.register(6),
-    figure_name='F1',
-    )
-
-accumulator(
-    'v1',
-    design[9:13],
-    accumulator.running_music_maker,
-    baca.register(-14, 6),
-    figure_name='R5',
-    )
-
-accumulator(
-    'v2',
-    accumulator.reveal(design[4:5], 1),
-    accumulator.twentieth_music_maker,
-    baca.register(6),
-    extend_beam=True,
-    figure_name='F1_1*',
-    )
-
-accumulator(
-    'v1',
-    design[13:],
-    accumulator.delicatissimo_music_maker,
-    baca.text_script_staff_padding(9),
-    baca.register(6, -20),
-    extend_beam=True,
-    figure_name='D1',
-    )
-
-accumulator(
-    'v2',
-    accumulator.reveal(design[4:5], 2),
-    accumulator.twentieth_music_maker,
-    baca.register(6),
-    figure_name='F1_2*',
-    )
-
-accumulator(
-    'v1',
-    design[13:],
-    accumulator.delicatissimo_music_maker,
-    baca.register(-20, 6),
-    figure_name='D2',
+    'v3',
+    cursor.next(),
+    accumulator.inverted_wave_64_music_maker,
+    baca.beam_positions(-6),
+    figure_name=19,
     )
 
 maker = baca.SegmentMaker(
@@ -155,3 +194,13 @@ maker = baca.SegmentMaker(
     )
 
 accumulator.populate_segment_maker(maker)
+
+maker(
+    'Global_Skips',
+    baca.metronome_mark('44', selector=baca.leaf(1 - 1)),
+    )
+
+maker(
+    ('v3', (18, 19)),
+    baca.register(0, -12),
+    )

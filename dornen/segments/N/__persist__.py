@@ -42,17 +42,27 @@ persist = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'Guitar_Music_Voice_I',
+                        [
+                            abjad.Momento(
+                                context='Guitar_Music_Voice_I',
+                                prototype='abjad.Dynamic',
+                                value='p',
+                                ),
+                            ],
+                        ),
+                    (
                         'Score',
                         [
                             abjad.Momento(
                                 context='Global_Skips',
                                 manifest='metronome_marks',
-                                value='44',
+                                value='66',
                                 ),
                             abjad.Momento(
                                 context='Global_Skips',
                                 prototype='abjad.TimeSignature',
-                                value='12/64',
+                                value='13/3',
                                 ),
                             ],
                         ),

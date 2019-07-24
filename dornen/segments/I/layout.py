@@ -10,8 +10,13 @@ breaks = baca.breaks(
             ),
         baca.system(
             20,
-            measure=12,
+            measure=8,
             y_offset=80,
+            ),
+        baca.system(
+            20,
+            measure=16,
+            y_offset=140,
             ),
         ),
     local_measure_numbers=True,
@@ -20,5 +25,5 @@ breaks = baca.breaks(
 spacing = baca.scorewide_spacing(
     __file__,
     breaks=breaks,
-    fallback_duration=(1, 48),
+    fallback_duration=(1, 180),
     )

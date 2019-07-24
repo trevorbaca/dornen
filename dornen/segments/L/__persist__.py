@@ -47,7 +47,7 @@ persist = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Guitar_Music_Voice_I',
                                 prototype='abjad.Dynamic',
-                                value='niente',
+                                value='mp',
                                 ),
                             ],
                         ),
@@ -62,7 +62,7 @@ persist = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Global_Skips',
                                 prototype='abjad.TimeSignature',
-                                value='5/8',
+                                value='4/5',
                                 ),
                             ],
                         ),

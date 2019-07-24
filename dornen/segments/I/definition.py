@@ -2,7 +2,6 @@ import abjad
 import baca
 import dornen
 import os
-from abjadext import rmakers
 
 
 ###############################################################################
@@ -10,168 +9,165 @@ from abjadext import rmakers
 ###############################################################################
 
 accumulator = dornen.MusicAccumulator(dornen.ScoreTemplate())
+design = dornen.design_3(start=20)
+assert len(design) == 20, (repr(design), len(design))
 
 accumulator(
     'v1',
-    [3 * ['C4']],
-    accumulator.rest_music_maker,
-    figure_name='R_1',
+    design[:1],
+    accumulator.delicatissimo_music_maker,
+    baca.register(-4, -20),
+    extend_beam=True,
+    figure_name='D1',
     )
 
 accumulator(
     'v1',
-    2 * [['Gb2']],
-    accumulator.monad_music_maker,
-    baca.markup('2-finger tamb. trill', boxed=True),
-    figure_name='2_1',
+    design[1:2],
+    accumulator.delicatissimo_music_maker,
+    baca.register(-4, -20),
+    extend_beam=True,
+    figure_name='D2',
+    )
+
+accumulator(
+    'v3',
+    design[2:3],
+    accumulator.wave_32_music_maker,
+    baca.register(0),
+    figure_name='W1',
     )
 
 accumulator(
     'v1',
-    [['Gb2']],
-    accumulator.monad_music_maker,
-    figure_name='2_2',
+    design[3:4],
+    accumulator.delicatissimo_music_maker,
+    baca.register(-4, -20),
+    extend_beam=True,
+    figure_name='D3',
     )
 
 accumulator(
     'v1',
-    [['Gb2']],
-    accumulator.third_music_maker,
-    figure_name='2_3',
+    design[4:5],
+    accumulator.delicatissimo_music_maker,
+    baca.register(-4, -20),
+    extend_beam=True,
+    figure_name='D4',
     )
 
 accumulator(
     'v1',
-    [['Gb2']],
-    accumulator.third_music_maker,
-    figure_name='2_4',
+    design[5:6],
+    accumulator.glissando_scatto_music_maker,
+    baca.register(-20),
+    baca.displacement([0, 1]),
+    figure_name='L1',
+    )
+
+accumulator(
+    'v3',
+    design[6:7],
+    accumulator.wave_32_music_maker,
+    baca.register(0),
+    figure_name='W2',
+    )
+
+accumulator(
+    'v3',
+    design[6:7],
+    accumulator.wave_32_music_maker,
+    baca.register(0),
+    figure_name='W3',
     )
 
 accumulator(
     'v1',
-    [['Gb2']],
-    accumulator.third_music_maker,
-    figure_name='2_5',
-    )
-
-###
-
-accumulator(
-    'v1',
-    [['Gb2']],
-    accumulator.monad_music_maker,
-    baca.markup('3 fingers', boxed=True),
-    figure_name='3_1',
+    design[7:8],
+    accumulator.thirty_second_music_maker,
+    baca.register(0),
+    extend_beam=True,
+    figure_name='32_1',
     )
 
 accumulator(
-    'v1',
-    [['Gb2']],
-    accumulator.monad_music_maker,
-    figure_name='3_2',
+    'v2',
+    design[8:9],
+    accumulator.twenty_eighth_music_maker,
+    baca.beam_positions(-5),
+    baca.register(0),
+    extend_beam=True,
+    figure_name='28_1',
     )
 
 accumulator(
-    'v1',
-    [['Gb2']],
-    accumulator.third_music_maker,
-    figure_name='3_3',
+    'v2',
+    design[9:10],
+    accumulator.forty_eighth_music_maker,
+    baca.register(0),
+    extend_beam=True,
+    figure_name='48_1',
     )
 
 accumulator(
     'v1',
-    [['Gb2']],
-    accumulator.third_music_maker,
-    figure_name='3_4',
+    design[10:11],
+    accumulator.thirty_second_music_maker,
+    baca.register(0),
+    extend_beam=True,
+    figure_name='32_2',
+    )
+
+accumulator(
+    'v2',
+    design[11:12],
+    accumulator.twenty_eighth_music_maker,
+    baca.register(0),
+    extend_beam=True,
+    figure_name='28_2',
+    )
+
+accumulator(
+    'v2',
+    design[12:13],
+    accumulator.forty_eighth_music_maker,
+    baca.register(0),
+    extend_beam=True,
+    figure_name='48_2',
     )
 
 accumulator(
     'v1',
-    [['Gb2']],
-    accumulator.third_music_maker,
-    figure_name='3_5',
-    )
-
-###
-
-accumulator(
-    'v1',
-    [['Gb2']],
-    accumulator.monad_music_maker,
-    baca.markup('4 fingers', boxed=True),
-    figure_name='4_1',
+    design[13:14],
+    accumulator.thirty_second_music_maker,
+    baca.register(0),
+    extend_beam=True,
+    figure_name='32_3',
     )
 
 accumulator(
-    'v1',
-    [['Gb2']],
-    accumulator.monad_music_maker,
-    figure_name='4_2',
+    'v2',
+    design[14:16],
+    accumulator.graced_tuplet_music_maker,
+    baca.register(0),
+    extend_beam=True,
+    figure_name='G1',
     )
 
 accumulator(
     'v1',
-    [['Gb2']],
-    accumulator.third_music_maker,
-    figure_name='4_3',
+    design[16:19],
+    accumulator.running_music_maker,
+    baca.register(0),
+    figure_name='R1',
     )
 
 accumulator(
-    'v1',
-    [['Gb2']],
-    accumulator.monad_music_maker,
-    figure_name='4_4',
-    )
-
-accumulator(
-    'v1',
-    [['Gb2']],
-    accumulator.third_music_maker,
-    figure_name='4_5',
-    )
-
-accumulator(
-    'v1',
-    [['Gb2']],
-    accumulator.monad_music_maker,
-    figure_name='4_6',
-    )
-
-accumulator(
-    'v1',
-    [['Gb2']],
-    accumulator.third_music_maker,
-    figure_name='4_7',
-    )
-
-accumulator(
-    'v1',
-    [['Gb2']],
-    accumulator.third_music_maker,
-    figure_name='4_8',
-    )
-
-accumulator(
-    'v1',
-    [['Gb2']],
-    accumulator.third_music_maker,
-    figure_name='4_9',
-    )
-
-accumulator(
-    'v1',
-    2 * [['Gb2']],
-    accumulator.monad_music_maker,
-    baca.markup('3 fingers', boxed=True),
-    figure_name='4_10',
-    )
-
-accumulator(
-    'v1',
-    2 * [['Gb2']],
-    accumulator.monad_music_maker,
-    baca.markup('2 fingers', boxed=True),
-    figure_name='4_11',
+    'v2',
+    design[19:20],
+    accumulator.twentieth_music_maker,
+    baca.register(0),
+    figure_name='20_1',
     )
 
 maker = baca.SegmentMaker(
@@ -184,56 +180,19 @@ maker = baca.SegmentMaker(
 accumulator.populate_segment_maker(maker)
 
 maker(
-    'v1',
-    baca.register(-20),
-    baca.new(
-        baca.repeat_tie(baca.pleaves()[1:]),
-        map=baca.qruns(),
-    ),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    ('v1', (1, 8)),
+    baca.beam_positions(6),
     )
 
 maker(
-    ('v1', 2),
-    baca.hairpin('ppp < pp', selector=baca.rleaves()),
+    ('v1', (9, 18)),
+    baca.beam_positions(
+        8,
+        selector=baca.leaves(exclude=abjad.const.HIDDEN),
+        ),
     )
 
 maker(
-    ('v1', 4),
-    baca.hairpin('pp > ppp', selector=baca.rleaves()),
-    )
-
-maker(
-    ('v1', 7),
-    baca.hairpin('ppp < p', selector=baca.rleaves()),
-    )
-
-maker(
-    ('v1', 9),
-    baca.hairpin('p > ppp', selector=baca.rleaves()),
-    )
-
-maker(
-    ('v1', 12),
-    baca.hairpin('ppp < pp', selector=baca.rleaves()),
-    )
-
-maker(
-    ('v1', 14),
-    baca.hairpin('pp < p', selector=baca.rleaves()),
-    )
-
-maker(
-    ('v1', 16),
-    baca.hairpin('p < mp', selector=baca.rleaves()),
-    )
-
-maker(
-    ('v1', (18, 21)),
-    baca.hairpin('mp > pp', selector=baca.rleaves()),
-    )
-
-maker(
-    'v1',
-    baca.text_script_staff_padding(5),
+    ('v3', (1, 18)),
+    baca.beam_positions(-4),
     )

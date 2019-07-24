@@ -6,22 +6,21 @@ from abjadext import rmakers
 
 
 ###############################################################################
-##################################### [E] #####################################
+##################################### [N] #####################################
 ###############################################################################
 
 accumulator = dornen.MusicAccumulator(dornen.ScoreTemplate())
 design = dornen.design_2(start=14, stop=28)
 assert len(design) == 14
 
-string = r"\override Score.RehearsalMark.extra-offset = #'(-10 . -10)"
+### 1 ###
+
 accumulator(
     'v1',
     design[:1],
     accumulator.forty_eighth_music_maker,
-    baca.markup('slurs fluid; all other parts mechanically precise'),
-    baca.literal(string),
+    baca.markup('LH only until rascado! (RH tacet; encourage whisks) ...'),
     extend_beam=True,
-    figure_name='48_1',
     )
 
 accumulator(
@@ -29,15 +28,12 @@ accumulator(
     design[1:2],
     accumulator.twentieth_music_maker,
     extend_beam=True,
-    figure_name='20_1',
     )
 
 accumulator(
     'v3',
     design[2:3],
     accumulator.sixteenth_music_maker,
-    extend_beam=True,
-    figure_name='16_1',
     )
 
 accumulator(
@@ -46,7 +42,6 @@ accumulator(
     accumulator.twentieth_music_maker,
     baca.beam_positions(6),
     baca.stem_up(),
-    figure_name='20_2',
     )
 
 accumulator(
@@ -54,84 +49,29 @@ accumulator(
     design[4:5],
     accumulator.thirty_second_music_maker,
     baca.slur(),
-    figure_name='32_1',
     )
 
 accumulator(
     'v1',
     design[5:6],
     accumulator.forty_eighth_music_maker,
-    figure_name='48_2',
-    )
-
-accumulator(
-    'v4',
-    design[6:7],
-    accumulator.twentieth_music_maker,
-    extend_beam=True,
-    figure_name='20_3',
-    )
-
-accumulator(
-    'v3',
-    design[7:8],
-    accumulator.sixteenth_music_maker,
-    extend_beam=True,
-    figure_name='16_2',
-    )
-
-accumulator(
-    'v4',
-    design[8:9],
-    accumulator.twentieth_music_maker,
-    figure_name='20_4',
-    )
-
-accumulator(
-    'v2',
-    design[9:10],
-    accumulator.thirty_second_music_maker,
-    baca.slur(),
-    figure_name='32_2',
     )
 
 accumulator(
     'v1',
-    design[10:11],
-    accumulator.forty_eighth_music_maker,
-    extend_beam=True,
-    figure_name='48_3',
+    [['C4']],
+    accumulator.thirty_second_music_maker,
+    rmakers.force_rest(baca.lt(0)),
     )
 
-accumulator(
-    'v4',
-    design[11:12],
-    accumulator.twentieth_music_maker,
-    extend_beam=True,
-    figure_name='20_5',
-    )
-
-accumulator(
-    'v3',
-    design[12:13],
-    accumulator.sixteenth_music_maker,
-    figure_name='16_3',
-    )
-
-accumulator(
-    'v4',
-    design[13:14],
-    accumulator.twentieth_music_maker,
-    figure_name='20_6',
-    )
-
-###
+### 2 ###
 
 accumulator(
     'v1',
     design[:1],
     accumulator.forty_eighth_music_maker,
-    figure_name='48_1*',
+    baca.markup('RH reaches for screw ...'),
+    extend_beam=True,
     )
 
 accumulator(
@@ -139,15 +79,12 @@ accumulator(
     design[1:2],
     accumulator.twentieth_music_maker,
     extend_beam=True,
-    figure_name='20_1*',
     )
 
 accumulator(
     'v3',
     design[2:3],
     accumulator.sixteenth_music_maker,
-    extend_beam=True,
-    figure_name='16_1*',
     )
 
 accumulator(
@@ -156,7 +93,6 @@ accumulator(
     accumulator.twentieth_music_maker,
     baca.beam_positions(6),
     baca.stem_up(),
-    figure_name='20_2*',
     )
 
 accumulator(
@@ -164,99 +100,242 @@ accumulator(
     design[4:5],
     accumulator.thirty_second_music_maker,
     baca.slur(),
-    figure_name='32_1*',
     )
 
 accumulator(
     'v1',
     design[5:6],
     accumulator.forty_eighth_music_maker,
+    )
+
+accumulator(
+    'v1',
+    [['C4']],
+    accumulator.thirty_second_music_maker,
+    rmakers.force_rest(baca.lt(0)),
+    )
+
+### 3 ###
+
+accumulator(
+    'v1',
+    design[:1],
+    accumulator.forty_eighth_music_maker,
+    baca.markup('RH places screw on string ...'),
     extend_beam=True,
-    figure_name='48_2*',
     )
 
 accumulator(
     'v4',
-    design[6:7],
+    design[1:2],
     accumulator.twentieth_music_maker,
     extend_beam=True,
-    figure_name='20_3*',
     )
 
 accumulator(
     'v3',
-    design[7:8],
+    design[2:3],
     accumulator.sixteenth_music_maker,
-    extend_beam=True,
-    figure_name='16_2*',
+    )
+
+accumulator(
+    'v4',
+    design[3:4],
+    accumulator.twentieth_music_maker,
+    baca.beam_positions(6),
+    baca.stem_up(),
     )
 
 accumulator(
     'v2',
-    [3 * ['C4']],
+    design[4:5],
+    accumulator.thirty_second_music_maker,
+    baca.slur(),
+    )
+
+accumulator(
+    'v1',
+    design[5:6],
+    accumulator.forty_eighth_music_maker,
+    )
+
+accumulator(
+    'v1',
+    [['C4']],
+    accumulator.thirty_second_music_maker,
+    rmakers.force_rest(baca.lt(0)),
+    )
+
+### 4 ###
+
+accumulator(
+    'v1',
+    design[:1],
+    accumulator.forty_eighth_music_maker,
+    extend_beam=True,
+    )
+
+accumulator(
+    'v4',
+    design[1:2],
+    accumulator.twentieth_music_maker,
+    extend_beam=True,
+    )
+
+accumulator(
+    'v3',
+    design[2:3],
+    accumulator.sixteenth_music_maker,
+    )
+
+accumulator(
+    'v4',
+    design[3:4],
+    accumulator.twentieth_music_maker,
+    baca.beam_positions(6),
+    baca.stem_up(),
+    )
+
+accumulator(
+    'v2',
+    design[4:5],
+    accumulator.thirty_second_music_maker,
+    baca.slur(),
+    )
+
+accumulator(
+    'v1',
+    design[5:6],
+    accumulator.forty_eighth_music_maker,
+    )
+
+accumulator(
+    'v1',
+    [['C4']],
+    accumulator.thirty_second_music_maker,
+    rmakers.force_rest(baca.lt(0)),
+    )
+
+### 5 ###
+
+accumulator(
+    'v1',
+    design[:1],
+    accumulator.forty_eighth_music_maker,
+    extend_beam=True,
+    )
+
+accumulator(
+    'v4',
+    design[1:2],
+    accumulator.twentieth_music_maker,
+    extend_beam=True,
+    )
+
+accumulator(
+    'v3',
+    design[2:3],
+    accumulator.sixteenth_music_maker,
+    )
+
+accumulator(
+    'v4',
+    design[3:4],
+    accumulator.twentieth_music_maker,
+    baca.beam_positions(6),
+    baca.stem_up(),
+    )
+
+accumulator(
+    'v2',
+    design[4:5],
+    accumulator.thirty_second_music_maker,
+    baca.slur(),
+    )
+
+accumulator(
+    'v1',
+    design[5:6],
+    accumulator.forty_eighth_music_maker,
+    )
+
+accumulator(
+    'v1',
+    [['C4']],
+    accumulator.thirty_second_music_maker,
+    rmakers.force_rest(baca.lt(0)),
+    )
+
+### 6 ###
+
+accumulator(
+    'v1',
+    design[:1],
+    accumulator.forty_eighth_music_maker,
+    )
+
+accumulator(
+    'v4',
+    design[1:2],
+    accumulator.twentieth_music_maker,
+    extend_beam=True,
+    )
+
+accumulator(
+    'v3',
+    design[2:3],
+    accumulator.sixteenth_music_maker,
+    )
+
+accumulator(
+    'v4',
+    design[3:4],
+    accumulator.twentieth_music_maker,
+    baca.beam_positions(6),
+    baca.stem_up(),
+    )
+
+accumulator(
+    'v2',
+    design[4:5],
+    accumulator.thirty_second_music_maker,
+    baca.slur(),
+    )
+
+### rascado ###
+
+accumulator(
+    'v1',
+    [5 * ['C4']],
     accumulator.rest_music_maker,
-    figure_name='R1',
-    )
-
-accumulator(
-    'v2',
-    [['Gb2']],
-    accumulator.monad_music_maker,
-    baca.markup('2-finger tamb. trill', boxed=True),
-    baca.stem_tremolo(selector=baca.pleaves()),
-    baca.stem_up(),
-    baca.tuplet_bracket_staff_padding(0),
-    baca.tuplet_bracket_extra_offset((0, -0.5)),
-    baca.tuplet_number_extra_offset((0, -0.5)),
-    baca.register(-20),
-    figure_name='2_1',
-    )
-
-accumulator(
-    'v4',
-    design[8:9],
-    accumulator.twentieth_music_maker,
-    figure_name='20_4*',
-    )
-
-accumulator(
-    'v2',
-    design[9:10],
-    accumulator.thirty_second_music_maker,
-    baca.slur(),
-    figure_name='32_2*',
     )
 
 accumulator(
     'v1',
-    design[10:11],
-    accumulator.forty_eighth_music_maker,
-    figure_name='48_3*',
-    )
-
-accumulator(
-    'v4',
-    design[11:12],
-    accumulator.twentieth_music_maker,
-    extend_beam=True,
-    figure_name='20_5*',
-    )
-
-accumulator(
-    'v3',
-    design[12:13],
-    accumulator.sixteenth_music_maker,
-    figure_name='16_3*',
-    )
-
-accumulator(
-    'v4',
-    design[13:14],
-    accumulator.twentieth_music_maker,
-    figure_name='20_6*',
+    [13 * ['E2']],
+    accumulator.third_music_maker,
+    baca.dynamic('p'),
+    baca.markup(
+        'RASCADO: slowly draw extremely long metal screw over open string;'
+        ' as close as possible to bridge; only one stroke.',
+        direction=abjad.Up,
+        ),
+    baca.register(-20),
+    baca.new(
+        baca.repeat_tie(baca.pleaves()[1:]),
+        map=baca.qruns(),
+    ),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 maker = baca.SegmentMaker(
+    final_markup=(
+        ['Cambridge, MA', 'Madison, WI', 'Palo Alto, CA.'],
+        ['November 2015', 'July 2016.'],
+        ),
+    final_markup_extra_offset=(260, 0),
+    ignore_repeat_pitch_classes=False,
+    final_segment=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     skips_instead_of_rests=True,
     time_signatures=accumulator.time_signatures,
@@ -266,29 +345,18 @@ maker = baca.SegmentMaker(
 accumulator.populate_segment_maker(maker)
 
 maker(
-    'v1',
-    baca.tenuto(
-        selector=baca.pheads(exclude=abjad.const.HIDDEN),
-        ),
+    ('v1', (1, 41)),
     baca.beam_positions(10),
-    baca.register(
-        -12,
-        selector=baca.plts(exclude=abjad.const.HIDDEN),
-        ),
+    baca.register(-12),
+    baca.tenuto(selector=baca.pheads()),
     )
 
 maker(
-    ('v2', (1, 22)),
-    baca.beam_positions(-5.5),
-    baca.register(
-        4,
-        selector=baca.plts(exclude=abjad.const.HIDDEN),
+    ('v2', (1, 41)),
+    baca.beam_positions(
+        -5.5,
+        selector=baca.leaves(exclude=abjad.const.HIDDEN),
         ),
-    )
-
-maker(
-    ('v2', (25, -1)),
-    baca.beam_positions(-5.5),
     baca.register(
         4,
         selector=baca.plts(exclude=abjad.const.HIDDEN),
@@ -296,27 +364,22 @@ maker(
     )
 
 maker(
-    'v3',
+    ('v3', (1, 41)),
     baca.accent(
         selector=baca.pheads(exclude=abjad.const.HIDDEN),
-        ),
-    baca.script_down(
-        selector=baca.leaves(exclude=abjad.const.HIDDEN),
         ),
     baca.register(
         -20,
         selector=baca.plts(exclude=abjad.const.HIDDEN),
         ),
+    baca.script_down(),
     )
 
 maker(
-    'v4',
+    ('v4', (1, 41)),
+    baca.beam_positions(5.5),
+    baca.register(-4),
     baca.staccato(
         selector=baca.pheads(exclude=abjad.const.HIDDEN),
-        ),
-    baca.beam_positions(5.5),
-    baca.register(
-        -4,
-        selector=baca.plts(exclude=abjad.const.HIDDEN),
         ),
     )

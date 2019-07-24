@@ -10,12 +10,12 @@ breaks = baca.breaks(
             ),
         baca.system(
             20,
-            measure=12,
+            measure=7,
             y_offset=80,
             ),
         baca.system(
             20,
-            measure=24,
+            measure=12,
             y_offset=140,
             ),
         ),

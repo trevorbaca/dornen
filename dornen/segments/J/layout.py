@@ -13,11 +13,6 @@ breaks = baca.breaks(
             measure=12,
             y_offset=80,
             ),
-        baca.system(
-            20,
-            measure=24,
-            y_offset=140,
-            ),
         ),
     local_measure_numbers=True,
     )

@@ -52,7 +52,7 @@ persist = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Global_Skips',
                                 prototype='abjad.TimeSignature',
-                                value='2/20',
+                                value='5/32',
                                 ),
                             ],
                         ),

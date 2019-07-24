@@ -8,7 +8,7 @@ import os
 ##################################### [B] #####################################
 ###############################################################################
 
-accumulator = dornen.MusicAccumulator(dornen.ScoreTemplate())
+accumulator = baca.MusicAccumulator(dornen.ScoreTemplate())
 design_2 = dornen.design_2(stop=14)
 design = design_2[:14]
 assert len(design) == 14

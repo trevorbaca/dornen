@@ -9,7 +9,7 @@ from abjadext import rmakers
 ##################################### [J] #####################################
 ###############################################################################
 
-accumulator = dornen.MusicAccumulator(dornen.ScoreTemplate())
+accumulator = baca.MusicAccumulator(dornen.ScoreTemplate())
 
 accumulator(
     'v1',

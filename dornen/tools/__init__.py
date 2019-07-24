@@ -1,5 +1,4 @@
 from .DesignChecker import DesignChecker
-from .MusicAccumulator import MusicAccumulator
 from .QuartertoneCommand import QuartertoneCommand
 from .ScoreTemplate import ScoreTemplate
 from .anchor_music import anchor_music

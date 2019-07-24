@@ -9,7 +9,7 @@ from abjadext import rmakers
 ##################################### [E] #####################################
 ###############################################################################
 
-accumulator = dornen.MusicAccumulator(dornen.ScoreTemplate())
+accumulator = baca.MusicAccumulator(dornen.ScoreTemplate())
 design = dornen.design_2(start=14, stop=28)
 assert len(design) == 14
 

@@ -8,7 +8,7 @@ import os
 ##################################### [L] #####################################
 ###############################################################################
 
-accumulator = dornen.MusicAccumulator(dornen.ScoreTemplate())
+accumulator = baca.MusicAccumulator(dornen.ScoreTemplate())
 
 accumulator(
     'v1',

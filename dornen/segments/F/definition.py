@@ -16,7 +16,7 @@ assert len(design) == 20
 accumulator(
     'v1',
     design[:1],
-    accumulator.forty_eighth_music_maker,
+    dornen.forty_eighth_music(),
     baca.tenuto(selector=baca.pheads()),
     baca.beam_positions(10),
     baca.register(-12),
@@ -27,7 +27,7 @@ accumulator(
 accumulator(
     'v3',
     design[1:2],
-    accumulator.sixteenth_music_maker,
+    dornen.sixteenth_music(),
     extend_beam=True,
     figure_name='16_1',
     )
@@ -35,7 +35,7 @@ accumulator(
 accumulator(
     'v1',
     design[2:5],
-    accumulator.running_music_maker,
+    dornen.running_music(),
     baca.register(-14, 0),
     extend_beam=True,
     figure_name='R1',
@@ -44,14 +44,14 @@ accumulator(
 accumulator(
     'v4',
     design[5:6],
-    accumulator.twentieth_music_maker,
+    dornen.twentieth_music(),
     figure_name='20_1',
     )
 
 accumulator(
     'v1',
     design[6:7],
-    accumulator.forty_eighth_music_maker,
+    dornen.forty_eighth_music(),
     baca.tenuto(selector=baca.pheads()),
     baca.register(-12),
     figure_name='48_2',
@@ -60,21 +60,21 @@ accumulator(
 accumulator(
     'v3',
     design[7:8],
-    accumulator.sixteenth_music_maker,
+    dornen.sixteenth_music(),
     figure_name='16_2',
     )
 
 accumulator(
     'v4',
     design[8:9],
-    accumulator.twentieth_music_maker,
+    dornen.twentieth_music(),
     figure_name='20_2',
     )
 
 accumulator(
     'v1',
     [3 * ['C4']],
-    accumulator.rest_music_maker,
+    dornen.rest_music(),
     baca.markup(
         'raise string 2 one quartertone',
         selector=baca.leaf(0),
@@ -85,7 +85,7 @@ accumulator(
 accumulator(
     'v1',
     baca.sequence(design[9:10]).reveal(3).repeat(10).flatten(),
-    accumulator.sixty_fourth_music_maker,
+    dornen.sixty_fourth_music(),
     baca.register(0),
     figure_name='D1',
     )
@@ -93,7 +93,7 @@ accumulator(
 accumulator(
     'v1',
     baca.sequence(design[9:10]).reveal(4).repeat(10).flatten(),
-    accumulator.sixty_fourth_music_maker,
+    dornen.sixty_fourth_music(),
     baca.register(0),
     figure_name='D2',
     )
@@ -101,7 +101,7 @@ accumulator(
 accumulator(
     'v1',
     baca.sequence(design[9:10]).reveal(5).repeat(10).flatten(),
-    accumulator.sixty_fourth_music_maker,
+    dornen.sixty_fourth_music(),
     baca.register(0),
     figure_name='D3',
     )
@@ -109,7 +109,7 @@ accumulator(
 accumulator(
     'v1',
     baca.sequence(design[9:10]).reveal(6).repeat(10).flatten(),
-    accumulator.sixty_fourth_music_maker,
+    dornen.sixty_fourth_music(),
     baca.register(0),
     figure_name='D4',
     )
@@ -117,7 +117,7 @@ accumulator(
 accumulator(
     'v1',
     baca.sequence(design[9:10]).boustrophedon(count=4),
-    accumulator.sixty_fourth_music_maker,
+    dornen.sixty_fourth_music(),
     baca.register(0),
     figure_name='D5',
     )

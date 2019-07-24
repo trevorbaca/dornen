@@ -23,108 +23,11 @@ from .wave_music import wave_music
 
 
 class MusicAccumulator(baca.MusicAccumulator):
-    r"""
+    """
     Music-accumulator.
-
-    >>> import dornen
-
-    ..  container:: example
-
-        >>> score_template = dornen.ScoreTemplate()
-        >>> accumulator = dornen.MusicAccumulator(score_template)
-        >>> segments = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
-        >>> accumulator(
-        ...     'v1',
-        ...     segments,
-        ...     accumulator.delicatissimo_music_maker,
-        ...     figure_name='D',
-        ...     )
-
-        >>> selection = accumulator.assemble('Guitar_Music_Voice_I')
-        >>> lilypond_file = accumulator.show(
-        ...     {'Guitar_Music_Voice_I': selection},
-        ...     accumulator.time_signatures,
-        ...     )
-        >>> abjad.show(lilypond_file, strict=79) # doctest: +SKIP
-
-        ..  docs::
-
-            >>> abjad.f(lilypond_file[abjad.Staff])
-            \new Staff
-            <<
-                \context Voice = "Guitar_Music_Voice_I"
-                {
-                    { %! baca.MusicMaker.__call__
-                        \scaleDurations #'(1 . 1) { %! baca.MusicMaker.__call__
-                            \set stemLeftBeamCount = 0
-                            \set stemRightBeamCount = 3
-                            c'32 %! baca.MusicMaker.__call__
-                            - \staccato %! baca.staccato:IndicatorCommand
-                        %@% ^ \markup {                       %! FIGURE_NAME
-                        %@%     \fontsize                     %! FIGURE_NAME
-                        %@%         #2                        %! FIGURE_NAME
-                        %@%         \concat                   %! FIGURE_NAME
-                        %@%             {                     %! FIGURE_NAME
-                        %@%                 [                 %! FIGURE_NAME
-                        %@%                 D                 %! FIGURE_NAME
-                        %@%                 \hspace           %! FIGURE_NAME
-                        %@%                     #1            %! FIGURE_NAME
-                        %@%                 \raise            %! FIGURE_NAME
-                        %@%                     #0.25         %! FIGURE_NAME
-                        %@%                     \fontsize     %! FIGURE_NAME
-                        %@%                         #-2       %! FIGURE_NAME
-                        %@%                         (0)       %! FIGURE_NAME
-                        %@%                 ]                 %! FIGURE_NAME
-                        %@%             }                     %! FIGURE_NAME
-                        %@%     }                             %! FIGURE_NAME
-                            [
-                            \set stemLeftBeamCount = 3
-                            \set stemRightBeamCount = 3
-                            cs'32 %! baca.MusicMaker.__call__
-                            - \staccato %! baca.staccato:IndicatorCommand
-                            \set stemLeftBeamCount = 3
-                            \set stemRightBeamCount = 3
-                            d'32 %! baca.MusicMaker.__call__
-                            - \staccato %! baca.staccato:IndicatorCommand
-                            \set stemLeftBeamCount = 3
-                            \set stemRightBeamCount = 3
-                            ef'32 %! baca.MusicMaker.__call__
-                            - \staccato %! baca.staccato:IndicatorCommand
-                            \set stemLeftBeamCount = 3
-                            \set stemRightBeamCount = 3
-                            e'32 %! baca.MusicMaker.__call__
-                            - \staccato %! baca.staccato:IndicatorCommand
-                            \set stemLeftBeamCount = 3
-                            \set stemRightBeamCount = 3
-                            f'32 %! baca.MusicMaker.__call__
-                            - \staccato %! baca.staccato:IndicatorCommand
-                            \set stemLeftBeamCount = 3
-                            \set stemRightBeamCount = 3
-                            fs'32 %! baca.MusicMaker.__call__
-                            - \staccato %! baca.staccato:IndicatorCommand
-                            \set stemLeftBeamCount = 3
-                            \set stemRightBeamCount = 3
-                            g'32 %! baca.MusicMaker.__call__
-                            - \staccato %! baca.staccato:IndicatorCommand
-                            \set stemLeftBeamCount = 3
-                            \set stemRightBeamCount = 3
-                            af'32 %! baca.MusicMaker.__call__
-                            - \staccato %! baca.staccato:IndicatorCommand
-                            \set stemLeftBeamCount = 3
-                            \set stemRightBeamCount = 0
-                            a'32 %! baca.MusicMaker.__call__
-                            - \staccato %! baca.staccato:IndicatorCommand
-                            ]
-                        } %! baca.MusicMaker.__call__
-                    } %! baca.MusicMaker.__call__
-                }
-            >>
-
     """
 
     ### CLASS VARIABLES ###
-
-    __documentation_section__ = None
 
     __slots__ = (
         "anchor_music_maker",

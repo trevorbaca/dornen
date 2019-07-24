@@ -225,30 +225,6 @@ class MusicAccumulator(baca.MusicAccumulator):
     ### PUBLIC METHODS ###
 
     @staticmethod
-    def boustrophedon(cells, count=2, flatten=False):
-        """
-        Concatenates cells back to back.
-
-        Returns new list.
-        """
-        result = []
-        for i in range(count):
-            if i == 0:
-                for cell in cells:
-                    result.append(cell[:])
-            elif i % 2 == 0:
-                result.append(cells[0][1:])
-                for cell in cells[1:]:
-                    result.append(cell[:])
-            else:
-                result.append(list(reversed(cells[-1]))[1:])
-                for cell in reversed(cells[:-1]):
-                    result.append(list(reversed(cell)))
-        if flatten:
-            result = [baca.sequence(result).flatten()]
-        return result
-
-    @staticmethod
     def merge(cells):
         """
         Merges cells.

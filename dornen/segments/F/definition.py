@@ -116,7 +116,7 @@ accumulator(
 
 accumulator(
     'v1',
-    accumulator.boustrophedon(design[9:10], 4),
+    baca.sequence(design[9:10]).boustrophedon(count=4),
     accumulator.sixty_fourth_music_maker,
     baca.register(0),
     figure_name='D5',

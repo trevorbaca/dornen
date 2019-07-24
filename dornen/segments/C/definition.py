@@ -22,7 +22,7 @@ accumulator(
 
 accumulator(
     'v4',
-    accumulator.reveal(design[5:6], 1),
+    baca.sequence(design[5:6]).reveal(1),
     accumulator.graced_tuplet_music_maker,
     baca.beam_positions(12),
     baca.stem_up(),
@@ -43,7 +43,7 @@ accumulator(
 
 accumulator(
     'v4',
-    accumulator.reveal(design[5:6], 1),
+    baca.sequence(design[5:6]).reveal(1),
     accumulator.graced_tuplet_music_maker,
     baca.stem_up(),
     baca.register(0),
@@ -62,7 +62,7 @@ accumulator(
 
 accumulator(
     'v4',
-    accumulator.reveal(design[5:6], 3),
+    baca.sequence(design[5:6]).reveal(3),
     accumulator.graced_tuplet_music_maker,
     baca.stem_up(),
     baca.register(0),
@@ -81,7 +81,7 @@ accumulator(
 
 accumulator(
     'v4',
-    accumulator.reveal(design[5:6], 3),
+    baca.sequence(design[5:6]).reveal(3),
     accumulator.graced_tuplet_music_maker,
     baca.stem_up(),
     baca.register(0),
@@ -92,7 +92,7 @@ cell_d1 = [baca.sequence(design[4:5]).boustrophedon(count=4).flatten()]
 
 accumulator(
     'v1',
-    accumulator.reveal(cell_d1, 4),
+    baca.sequence(cell_d1).reveal(4),
     accumulator.delicatissimo_music_maker,
     baca.beam_positions(-6.5),
     baca.stem_down(),
@@ -102,7 +102,7 @@ accumulator(
 
 accumulator(
     'v4',
-    accumulator.reveal(design[5:6], 1),
+    baca.sequence(design[5:6]).reveal(1),
     accumulator.graced_tuplet_music_maker,
     baca.beam_positions(12),
     baca.stem_up(),
@@ -113,7 +113,7 @@ accumulator(
 
 accumulator(
     'v1',
-    accumulator.reveal(cell_d1, 3),
+    baca.sequence(cell_d1).reveal(3),
     accumulator.delicatissimo_music_maker,
     baca.beam_positions(-6.5),
     baca.stem_down(),
@@ -123,7 +123,7 @@ accumulator(
 
 accumulator(
     'v4',
-    accumulator.reveal(design[5:6], 5),
+    baca.sequence(design[5:6]).reveal(5),
     accumulator.graced_tuplet_music_maker,
     baca.stem_up(),
     baca.register(0),
@@ -133,7 +133,7 @@ accumulator(
 
 accumulator(
     'v1',
-    accumulator.reveal(cell_d1, 10),
+    baca.sequence(cell_d1).reveal(10),
     accumulator.delicatissimo_music_maker,
     baca.beam_positions(-6.5),
     baca.stem_down(),
@@ -152,7 +152,7 @@ accumulator(
 
 accumulator(
     'v4',
-    accumulator.reveal(design[5:6], 3),
+    baca.sequence(design[5:6]).reveal(3),
     accumulator.graced_tuplet_music_maker,
     baca.stem_up(),
     baca.register(0),
@@ -172,7 +172,7 @@ accumulator(
 
 accumulator(
     'v1',
-    accumulator.reveal(cell_d1, 15),
+    baca.sequence(cell_d1).reveal(15),
     accumulator.delicatissimo_music_maker,
     baca.beam_positions(-6.5),
     baca.stem_down(),
@@ -182,7 +182,7 @@ accumulator(
 
 accumulator(
     'v4',
-    accumulator.reveal(design[5:6], 9),
+    baca.sequence(design[5:6]).reveal(9),
     accumulator.graced_tuplet_music_maker,
     baca.beam_positions(6),
     baca.stem_up(),
@@ -193,7 +193,7 @@ accumulator(
 
 accumulator(
     'v1',
-    accumulator.reveal(cell_d1, 6),
+    baca.sequence(cell_d1).reveal(6),
     accumulator.delicatissimo_music_maker,
     baca.beam_positions(-6.5),
     baca.stem_down(),
@@ -211,7 +211,7 @@ accumulator(
 
 accumulator(
     'v4',
-    accumulator.repeat(design[5:6], n=2),
+    list(baca.sequence(design[5:6]).repeat(n=2).flatten().map(list)),
     accumulator.graced_tuplet_music_maker,
     baca.beam_positions(6),
     baca.stem_up(),
@@ -231,23 +231,21 @@ accumulator(
 
 accumulator(
     'v1',
-    accumulator.reveal(cell_d1, 10),
+    baca.sequence(cell_d1).reveal(10),
     accumulator.delicatissimo_music_maker,
     baca.beam_positions(-6.5),
     baca.stem_down(),
-    #extend_beam=True,
     figure_name='D1_6',
     )
 
 accumulator(
     'v1',
-    accumulator.reveal(cell_d1, -15),
+    baca.sequence(cell_d1).reveal(-15),
     accumulator.delicatissimo_music_maker,
     baca.beam_positions(-6.5),
     baca.nest([abjad.Multiplier((2, 3))]),
     baca.stem_down(),
     baca.tuplet_bracket_up(),
-    #extend_beam=True,
     figure_name='D1_7',
     )
 
@@ -273,7 +271,7 @@ accumulator(
 
 accumulator(
     'v2',
-    accumulator.merge(design[7:9]),
+    baca.sequence(design[7:9]).join(),
     accumulator.ovoid_music_maker,
     baca.register(-14, -6),
     figure_name='O3',
@@ -281,7 +279,7 @@ accumulator(
 
 accumulator(
     'v2',
-    accumulator.merge(design[9:11]),
+    baca.sequence(design[9:11]).join(),
     accumulator.ovoid_music_maker,
     baca.beam_positions(-8, selector=baca.pleaf(0)),
     baca.register(-14, -6),
@@ -291,7 +289,7 @@ accumulator(
 
 accumulator(
     'v2',
-    accumulator.merge(design[11:13]),
+    baca.sequence(design[11:13]).join(),
     accumulator.ovoid_music_maker,
     baca.register(-14, -6),
     extend_beam=True,
@@ -300,7 +298,7 @@ accumulator(
 
 accumulator(
     'v2',
-    accumulator.merge(design[13:15]),
+    baca.sequence(design[13:15]).join(),
     accumulator.ovoid_music_maker,
     baca.register(-14, -6),
     extend_beam=True,
@@ -309,7 +307,7 @@ accumulator(
 
 accumulator(
     'v2',
-    accumulator.merge(design[15:17]),
+    baca.sequence(design[15:17]).join(),
     accumulator.ovoid_music_maker,
     baca.register(-14, -6),
     figure_name='O7',
@@ -317,7 +315,7 @@ accumulator(
 
 accumulator(
     'v2',
-    accumulator.merge(design[17:19]),
+    baca.sequence(design[17:19]).join(),
     accumulator.ovoid_music_maker,
     baca.beam_positions(-8, selector=baca.pleaf(0)),
     baca.register(-14, -6),
@@ -347,7 +345,7 @@ accumulator(
 
 accumulator(
     'v2',
-    accumulator.merge(design[19:21]),
+    baca.sequence(design[19:21]).join(),
     accumulator.ovoid_music_maker,
     baca.register(-14, -6),
     #extend_beam=True,

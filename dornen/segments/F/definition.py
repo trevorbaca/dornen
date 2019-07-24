@@ -84,7 +84,7 @@ accumulator(
 
 accumulator(
     'v1',
-    10 * accumulator.reveal(design[9:10], 3),
+    baca.sequence(design[9:10]).reveal(3).repeat(10).flatten(),
     accumulator.sixty_fourth_music_maker,
     baca.register(0),
     figure_name='D1',
@@ -92,7 +92,7 @@ accumulator(
 
 accumulator(
     'v1',
-    10 * accumulator.reveal(design[9:10], 4),
+    baca.sequence(design[9:10]).reveal(4).repeat(10).flatten(),
     accumulator.sixty_fourth_music_maker,
     baca.register(0),
     figure_name='D2',
@@ -100,7 +100,7 @@ accumulator(
 
 accumulator(
     'v1',
-    10 * accumulator.reveal(design[9:10], 5),
+    baca.sequence(design[9:10]).reveal(5).repeat(10).flatten(),
     accumulator.sixty_fourth_music_maker,
     baca.register(0),
     figure_name='D3',
@@ -108,7 +108,7 @@ accumulator(
 
 accumulator(
     'v1',
-    10 * accumulator.reveal(design[9:10], 6),
+    baca.sequence(design[9:10]).reveal(6).repeat(10).flatten(),
     accumulator.sixty_fourth_music_maker,
     baca.register(0),
     figure_name='D4',

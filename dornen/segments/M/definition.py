@@ -14,35 +14,35 @@ accumulator = dornen.MusicAccumulator(dornen.ScoreTemplate())
 accumulator(
     'v1',
     [['E2']],
-    accumulator.monad_music_maker,
+    dornen.monad_music(),
     figure_name='2_1',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.monad_music_maker,
+    dornen.monad_music(),
     figure_name='2_2',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='2_3',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='2_4',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='2_5',
     )
 
@@ -51,7 +51,7 @@ accumulator(
 accumulator(
     'v1',
     [['E2']],
-    accumulator.monad_music_maker,
+    dornen.monad_music(),
     baca.markup('3 fingers', boxed=True),
     figure_name='3_1',
     )
@@ -59,35 +59,35 @@ accumulator(
 accumulator(
     'v1',
     [['E2']],
-    accumulator.monad_music_maker,
+    dornen.monad_music(),
     figure_name='3_2',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='3_3',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='3_4',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='3_5',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.monad_music_maker,
+    dornen.monad_music(),
     baca.markup('4 fingers', boxed=True),
     figure_name='4_1',
     )
@@ -95,245 +95,245 @@ accumulator(
 accumulator(
     'v1',
     [['E2']],
-    accumulator.monad_music_maker,
+    dornen.monad_music(),
     figure_name='4_2',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_3',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_4',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_5',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.monad_music_maker,
+    dornen.monad_music(),
     figure_name='4_6',
     )
 
 accumulator(
     'v1',
     [2 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_7',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.monad_music_maker,
+    dornen.monad_music(),
     figure_name='4_8',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.monad_music_maker,
+    dornen.monad_music(),
     figure_name='4_9',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.monad_music_maker,
+    dornen.monad_music(),
     figure_name='4_10',
     )
 
 accumulator(
     'v1',
     [3 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_11',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.monad_music_maker,
+    dornen.monad_music(),
     figure_name='4_12',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.monad_music_maker,
+    dornen.monad_music(),
     figure_name='4_13',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.monad_music_maker,
+    dornen.monad_music(),
     figure_name='4_14',
     )
 
 accumulator(
     'v1',
     [4 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_15',
     )
 
 accumulator(
     'v1',
     [5 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_16',
     )
 
 accumulator(
     'v1',
     [4 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_17',
     )
 
 accumulator(
     'v1',
     [3 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_18',
     )
 
 accumulator(
     'v1',
     [2 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_19',
     )
 
 accumulator(
     'v1',
     [['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_20',
     )
 
 accumulator(
     'v1',
     [2 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_21',
     )
 
 accumulator(
     'v1',
     [3 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_22',
     )
 
 accumulator(
     'v1',
     [4 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_23',
     )
 
 accumulator(
     'v1',
     [5 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_24',
     )
 
 accumulator(
     'v1',
     [4 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_25',
     )
 
 accumulator(
     'v1',
     [3 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_26',
     )
 
 accumulator(
     'v1',
     [2 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_27',
     )
 
 accumulator(
     'v1',
     [1 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_28',
     )
 
 accumulator(
     'v1',
     [2 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_29',
     )
 
 accumulator(
     'v1',
     [3 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_30',
     )
 
 accumulator(
     'v1',
     [4 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_31',
     )
 
 accumulator(
     'v1',
     [5 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_32',
     )
 
 accumulator(
     'v1',
     [3 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_33',
     )
 
 accumulator(
     'v1',
     [2 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_34',
     )
 
 accumulator(
     'v1',
     [1 * ['E2']],
-    accumulator.third_music_maker,
+    dornen.third_music(),
     figure_name='4_35',
     )
 
 accumulator(
     'v1',
     [5 * ['C4']],
-    accumulator.rest_music_maker,
+    dornen.rest_music(),
     figure_name='4_36',
     )
 

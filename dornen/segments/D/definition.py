@@ -16,21 +16,21 @@ assert len(design) == 10
 accumulator(
     'v1',
     design[:2],
-    accumulator.wave_32_music_maker,
+    dornen.wave_music(denominator=32),
     figure_name='W1',
     )
 
 accumulator(
     'v1',
     design[:2],
-    accumulator.wave_64_music_maker,
+    dornen.wave_music(denominator=64),
     figure_name='W2',
     )
 
 accumulator(
     'v1',
     [baca.sequence(design[:2]).flatten()],
-    accumulator.wave_64_music_maker,
+    dornen.wave_music(denominator=64),
     figure_name='W3',
     )
 
@@ -38,7 +38,7 @@ accumulator(
 accumulator(
     'v2',
     design[2:3],
-    accumulator.glissando_scatto_music_maker,
+    dornen.glissando_scatto_music(),
     baca.markup('glissando: attack first note only'),
     baca.beam_positions(-12),
     baca.register(-8),
@@ -50,7 +50,7 @@ accumulator(
 accumulator(
     'v1',
     design[3:6],
-    accumulator.inverted_wave_32_music_maker,
+    dornen.wave_music(denominator=32, inverted=True),
     baca.register(-8),
     figure_name='W4',
     )
@@ -58,7 +58,7 @@ accumulator(
 accumulator(
     'v3',
     design[6:9],
-    accumulator.running_music_maker,
+    dornen.running_music(),
     baca.register(0, -14),
     extend_beam=True,
     figure_name='R1',
@@ -67,7 +67,7 @@ accumulator(
 accumulator(
     'v3',
     design[7:10],
-    accumulator.running_music_maker,
+    dornen.running_music(),
     baca.register(-14, 0),
     extend_beam=True,
     figure_name='R2',
@@ -76,14 +76,14 @@ accumulator(
 accumulator(
     'v4',
     [3 * ['C4']],
-    accumulator.rest_music_maker,
+    dornen.rest_music(),
     figure_name='S1',
     )
 
 accumulator(
     'v4',
     2 * [['Gb2']],
-    accumulator.monad_music_maker,
+    dornen.monad_music(),
     baca.markup('2-finger tamb. trill', boxed=True),
     baca.repeat_tie(baca.phead(1)),
     baca.stem_tremolo(selector=baca.pleaves()),
@@ -98,7 +98,7 @@ accumulator(
 accumulator(
     'v3',
     design[8:] + design[:1],
-    accumulator.running_music_maker,
+    dornen.running_music(),
     baca.register(-14, 0),
     figure_name='R3',
     )
@@ -106,7 +106,7 @@ accumulator(
 accumulator(
     'v1',
     design[1:3],
-    accumulator.wave_32_music_maker,
+    dornen.wave_music(denominator=32),
     baca.register(-20),
     figure_name='W5',
     )
@@ -114,7 +114,7 @@ accumulator(
 accumulator(
     'v2',
     design[3:4],
-    accumulator.glissando_scatto_music_maker,
+    dornen.glissando_scatto_music(),
     baca.register(-8),
     baca.displacement([0, 1]),
     extend_beam=True,
@@ -124,7 +124,7 @@ accumulator(
 accumulator(
     'v1',
     design[1:4],
-    accumulator.wave_32_music_maker,
+    dornen.wave_music(denominator=32),
     baca.register(-20, -4),
     figure_name='W6',
     )
@@ -132,7 +132,7 @@ accumulator(
 accumulator(
     'v2',
     design[4:5],
-    accumulator.glissando_scatto_music_maker,
+    dornen.glissando_scatto_music(),
     baca.register(-8),
     baca.displacement([0, 1]),
     figure_name='G3',
@@ -141,7 +141,7 @@ accumulator(
 accumulator(
     'v3',
     design[5:8],
-    accumulator.running_music_maker,
+    dornen.running_music(),
     baca.register(0, -14),
     extend_beam=True,
     figure_name='R4',
@@ -150,7 +150,7 @@ accumulator(
 accumulator(
     'v3',
     design[6:9],
-    accumulator.running_music_maker,
+    dornen.running_music(),
     baca.register(-14, 0),
     extend_beam=True,
     figure_name='R5',
@@ -159,14 +159,14 @@ accumulator(
 accumulator(
     'v4',
     [3 * ['C4']],
-    accumulator.rest_music_maker,
+    dornen.rest_music(),
     figure_name='S2',
     )
 
 accumulator(
     'v4',
     2 * [['Gb2']],
-    accumulator.monad_music_maker,
+    dornen.monad_music(),
     baca.markup('2-finger tamb. trill', boxed=True),
     baca.repeat_tie(baca.phead(1)),
     baca.stem_tremolo(selector=baca.pleaves()),
@@ -181,7 +181,7 @@ accumulator(
 accumulator(
     'v3',
     design[7:10],
-    accumulator.running_music_maker,
+    dornen.running_music(),
     baca.register(-14, 0),
     figure_name='R6',
     )

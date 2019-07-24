@@ -53,7 +53,7 @@ accumulator(
 
 accumulator(
     'v1',
-    accumulator.boustrophedon(design[2:3], count=2),
+    baca.sequence(design[2:3]).boustrophedon(count=2),
     accumulator.inverted_wave_64_music_maker,
     baca.beam_positions(7),
     baca.register(0, -14),
@@ -88,7 +88,7 @@ accumulator(
     figure_name='G1_3',
     )
 
-cell_d1 = accumulator.boustrophedon(design[4:5], count=4, flatten=True)
+cell_d1 = [baca.sequence(design[4:5]).boustrophedon(count=4).flatten()]
 
 accumulator(
     'v1',
@@ -162,7 +162,7 @@ accumulator(
 
 accumulator(
     'v1',
-    accumulator.boustrophedon(design[2:3], count=2, flatten=True),
+    [baca.sequence(design[2:3]).boustrophedon(count=2).flatten()],
     accumulator.wave_64_music_maker,
     baca.beam_positions(7),
     baca.stem_up(),
@@ -327,7 +327,7 @@ accumulator(
 
 accumulator(
     'v1',
-    accumulator.boustrophedon(design[2:3], count=2, flatten=True),
+    [baca.sequence(design[2:3]).boustrophedon(count=2).flatten()],
     accumulator.wave_64_music_maker,
     baca.beam_positions(7),
     baca.stem_up(),

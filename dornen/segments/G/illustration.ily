@@ -1,184 +1,333 @@
 G_Global_Skips = {                                                             %! abjad.Path.extern
 
-    % [G Global_Skips measure 155 / measure 1]                                 %! _comment_measure_numbers
-    \time 7/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    % [G Global_Skips measure 133 / measure 1]                                 %! _comment_measure_numbers
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \time 3/20                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 7/32                                                                  %! _make_global_skips(1)
+    s1 * 3/20                                                                  %! _make_global_skips(1)
 %@% - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "155"                                           %! MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "133"                                           %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% - \baca-metronome-mark-spanner-left-text 3 0 1 "66"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-    - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    - \baca-metronome-mark-spanner-colored-left-text 3 0 1 "66" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-%@% - \baca-start-ct-left-only "[5'26'']"                                      %! CLOCK_TIME
+%@% - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 3 0 1 "44"                        %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+%@% \bacaStartTextSpanMM                                                       %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+    - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 3 0 1 "44" #'green4       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    \bacaStartTextSpanMM                                                       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+%@% - \baca-start-ct-left-only "[5'02'']"                                      %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
-    % [G Global_Skips measure 156 / measure 2]                                 %! _comment_measure_numbers
-    \time 2/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    % [G Global_Skips measure 134 / measure 2]                                 %! _comment_measure_numbers
+    \time 1/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 1/8                                                                   %! _make_global_skips(1)
+    s1 * 1/16                                                                  %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %@% - \baca-start-lmn-left-only "2"                                            %! LOCAL_MEASURE_NUMBER
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "156"                                           %! MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "134"                                           %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[5'27'']"                                      %! CLOCK_TIME
+%@% - \baca-start-ct-left-only "[5'03'']"                                      %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
-    % [G Global_Skips measure 157 / measure 3]                                 %! _comment_measure_numbers
+    % [G Global_Skips measure 135 / measure 3]                                 %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \time 2/14                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \time 3/28                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 1/7                                                                   %! _make_global_skips(1)
+    s1 * 3/28                                                                  %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %@% - \baca-start-lmn-left-only "3"                                            %! LOCAL_MEASURE_NUMBER
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "157"                                           %! MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "135"                                           %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[5'28'']"                                      %! CLOCK_TIME
+%@% - \baca-start-ct-left-only "[5'04'']"                                      %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
-    % [G Global_Skips measure 158 / measure 4]                                 %! _comment_measure_numbers
-    \time 22/32                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    % [G Global_Skips measure 136 / measure 4]                                 %! _comment_measure_numbers
+    \time 1/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 11/16                                                                 %! _make_global_skips(1)
+    s1 * 1/16                                                                  %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %@% - \baca-start-lmn-left-only "4"                                            %! LOCAL_MEASURE_NUMBER
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "158"                                           %! MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "136"                                           %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[5'29'']"                                      %! CLOCK_TIME
+%@% - \baca-start-ct-left-only "[5'05'']"                                      %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
-    % [G Global_Skips measure 159 / measure 5]                                 %! _comment_measure_numbers
+    % [G Global_Skips measure 137 / measure 5]                                 %! _comment_measure_numbers
     #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \time 12/14                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \time 3/20                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 6/7                                                                   %! _make_global_skips(1)
+    s1 * 3/20                                                                  %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %@% - \baca-start-lmn-left-only "5"                                            %! LOCAL_MEASURE_NUMBER
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "159"                                           %! MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "137"                                           %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[5'34'']"                                      %! CLOCK_TIME
+%@% - \baca-start-ct-left-only "[5'06'']"                                      %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
-    % [G Global_Skips measure 160 / measure 6]                                 %! _comment_measure_numbers
-    \time 7/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    % [G Global_Skips measure 138 / measure 6]                                 %! _comment_measure_numbers
+    \time 1/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 7/32                                                                  %! _make_global_skips(1)
+    s1 * 1/16                                                                  %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %@% - \baca-start-lmn-left-only "6"                                            %! LOCAL_MEASURE_NUMBER
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "160"                                           %! MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "138"                                           %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[5'40'']"                                      %! CLOCK_TIME
+%@% - \baca-start-ct-left-only "[5'07'']"                                      %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
-    % [G Global_Skips measure 161 / measure 7]                                 %! _comment_measure_numbers
-    \time 9/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    % [G Global_Skips measure 139 / measure 7]                                 %! _comment_measure_numbers
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \time 3/28                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 9/32                                                                  %! _make_global_skips(1)
+    s1 * 3/28                                                                  %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %@% - \baca-start-lmn-left-only "7"                                            %! LOCAL_MEASURE_NUMBER
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "161"                                           %! MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "139"                                           %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[5'42'']"                                      %! CLOCK_TIME
+%@% - \baca-start-ct-left-only "[5'08'']"                                      %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
-    % [G Global_Skips measure 162 / measure 8]                                 %! _comment_measure_numbers
-    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \time 2/14                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    % [G Global_Skips measure 140 / measure 8]                                 %! _comment_measure_numbers
+    \time 1/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 1/7                                                                   %! _make_global_skips(1)
+    s1 * 1/16                                                                  %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %@% - \baca-start-lmn-left-only "8"                                            %! LOCAL_MEASURE_NUMBER
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "162"                                           %! MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "140"                                           %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[5'44'']"                                      %! CLOCK_TIME
+%@% - \baca-start-ct-left-only "[5'09'']"                                      %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
-    % [G Global_Skips measure 163 / measure 9]                                 %! _comment_measure_numbers
-    \time 6/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    % [G Global_Skips measure 141 / measure 9]                                 %! _comment_measure_numbers
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \time 3/20                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 3/16                                                                  %! _make_global_skips(1)
+    s1 * 3/20                                                                  %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %@% - \baca-start-lmn-left-only "9"                                            %! LOCAL_MEASURE_NUMBER
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "163"                                           %! MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "141"                                           %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[5'45'']"                                      %! CLOCK_TIME
+%@% - \baca-start-ct-left-only "[5'10'']"                                      %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
-    % [G Global_Skips measure 164 / measure 10]                                %! _comment_measure_numbers
-    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \time 4/14                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    % [G Global_Skips measure 142 / measure 10]                                %! _comment_measure_numbers
+    \time 1/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 2/7                                                                   %! _make_global_skips(1)
+    s1 * 1/16                                                                  %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %@% - \baca-start-lmn-left-only "10"                                           %! LOCAL_MEASURE_NUMBER
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "164"                                           %! MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "142"                                           %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[5'46'']"                                      %! CLOCK_TIME
+%@% - \baca-start-ct-left-only "[5'11'']"                                      %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
-    % [G Global_Skips measure 165 / measure 11]                                %! _comment_measure_numbers
-    \time 7/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    % [G Global_Skips measure 143 / measure 11]                                %! _comment_measure_numbers
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \time 1/24                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 7/32                                                                  %! _make_global_skips(1)
+    s1 * 1/24                                                                  %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %@% - \baca-start-lmn-left-only "11"                                           %! LOCAL_MEASURE_NUMBER
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "165"                                           %! MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "143"                                           %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[5'48'']"                                      %! CLOCK_TIME
+%@% - \baca-start-ct-left-only "[5'12'']"                                      %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
-    % [G Global_Skips measure 166 / measure 12]                                %! _comment_measure_numbers
-    \time 5/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    % [G Global_Skips measure 144 / measure 12]                                %! _comment_measure_numbers
+    \time 4/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 5/32                                                                  %! _make_global_skips(1)
+    s1 * 1/8                                                                   %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
 %@% - \baca-start-lmn-left-only "12"                                           %! LOCAL_MEASURE_NUMBER
 %@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "166"                                           %! MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "144"                                           %! MEASURE_NUMBER
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-both "[5'50'']" "[5'51'']"                                %! CLOCK_TIME
+%@% - \baca-start-ct-left-only "[5'13'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+
+    % [G Global_Skips measure 145 / measure 13]                                %! _comment_measure_numbers
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \time 1/24                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/24                                                                  %! _make_global_skips(1)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+%@% - \baca-start-lmn-left-only "13"                                           %! LOCAL_MEASURE_NUMBER
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "145"                                           %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+%@% - \baca-start-ct-left-only "[5'14'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+
+    % [G Global_Skips measure 146 / measure 14]                                %! _comment_measure_numbers
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \time 4/28                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/7                                                                   %! _make_global_skips(1)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+%@% - \baca-start-lmn-left-only "14"                                           %! LOCAL_MEASURE_NUMBER
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "146"                                           %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+%@% - \baca-start-ct-left-only "[5'14'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+
+    % [G Global_Skips measure 147 / measure 15]                                %! _comment_measure_numbers
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \time 1/24                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/24                                                                  %! _make_global_skips(1)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+%@% - \baca-start-lmn-left-only "15"                                           %! LOCAL_MEASURE_NUMBER
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "147"                                           %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+%@% - \baca-start-ct-left-only "[5'16'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+
+    % [G Global_Skips measure 148 / measure 16]                                %! _comment_measure_numbers
+    \time 4/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/8                                                                   %! _make_global_skips(1)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+%@% - \baca-start-lmn-left-only "16"                                           %! LOCAL_MEASURE_NUMBER
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "148"                                           %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+%@% - \baca-start-ct-left-only "[5'16'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+
+    % [G Global_Skips measure 149 / measure 17]                                %! _comment_measure_numbers
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \time 1/24                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/24                                                                  %! _make_global_skips(1)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+%@% - \baca-start-lmn-left-only "17"                                           %! LOCAL_MEASURE_NUMBER
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "149"                                           %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+%@% - \baca-start-ct-left-only "[5'18'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+
+    % [G Global_Skips measure 150 / measure 18]                                %! _comment_measure_numbers
+    \time 4/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/8                                                                   %! _make_global_skips(1)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+%@% - \baca-start-lmn-left-only "18"                                           %! LOCAL_MEASURE_NUMBER
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "150"                                           %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+%@% - \baca-start-ct-left-only "[5'18'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+
+    % [G Global_Skips measure 151 / measure 19]                                %! _comment_measure_numbers
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \time 1/24                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/24                                                                  %! _make_global_skips(1)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+%@% - \baca-start-lmn-left-only "19"                                           %! LOCAL_MEASURE_NUMBER
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "151"                                           %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+%@% - \baca-start-ct-left-only "[5'20'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+
+    % [G Global_Skips measure 152 / measure 20]                                %! _comment_measure_numbers
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \time 4/28                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/7                                                                   %! _make_global_skips(1)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+%@% - \baca-start-lmn-left-only "20"                                           %! LOCAL_MEASURE_NUMBER
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "152"                                           %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+%@% - \baca-start-ct-left-only "[5'20'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+
+    % [G Global_Skips measure 153 / measure 21]                                %! _comment_measure_numbers
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \time 1/24                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/24                                                                  %! _make_global_skips(1)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+%@% - \baca-start-lmn-left-only "21"                                           %! LOCAL_MEASURE_NUMBER
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "153"                                           %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+%@% - \baca-start-ct-left-only "[5'22'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+
+    % [G Global_Skips measure 154 / measure 22]                                %! _comment_measure_numbers
+    \time 4/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/8                                                                   %! _make_global_skips(1)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+%@% - \baca-start-lmn-left-only "22"                                           %! LOCAL_MEASURE_NUMBER
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "154"                                           %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+%@% - \baca-start-ct-both "[5'22'']" "[5'23'']"                                %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
-    % [G Global_Skips measure 167 / measure 13]                                %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
+    % [G Global_Skips measure 155 / measure 23]                                %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
     \time 1/4                                                                  %! PHANTOM:_style_phantom_measures(1):EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(3)
     \baca-time-signature-transparent                                           %! PHANTOM:_style_phantom_measures(2)
     s1 * 1/4                                                                   %! PHANTOM:_make_global_skips(3)
@@ -194,43 +343,73 @@ G_Global_Skips = {                                                             %
 
 G_Global_Rests = {                                                             %! abjad.Path.extern
 
-    % [G Global_Rests measure 155 / measure 1]                                 %! _comment_measure_numbers
-    R1 * 7/32                                                                  %! _make_global_rests(1)
+    % [G Global_Rests measure 133 / measure 1]                                 %! _comment_measure_numbers
+    R1 * 3/20                                                                  %! _make_global_rests(1)
 
-    % [G Global_Rests measure 156 / measure 2]                                 %! _comment_measure_numbers
+    % [G Global_Rests measure 134 / measure 2]                                 %! _comment_measure_numbers
+    R1 * 1/16                                                                  %! _make_global_rests(1)
+
+    % [G Global_Rests measure 135 / measure 3]                                 %! _comment_measure_numbers
+    R1 * 3/28                                                                  %! _make_global_rests(1)
+
+    % [G Global_Rests measure 136 / measure 4]                                 %! _comment_measure_numbers
+    R1 * 1/16                                                                  %! _make_global_rests(1)
+
+    % [G Global_Rests measure 137 / measure 5]                                 %! _comment_measure_numbers
+    R1 * 3/20                                                                  %! _make_global_rests(1)
+
+    % [G Global_Rests measure 138 / measure 6]                                 %! _comment_measure_numbers
+    R1 * 1/16                                                                  %! _make_global_rests(1)
+
+    % [G Global_Rests measure 139 / measure 7]                                 %! _comment_measure_numbers
+    R1 * 3/28                                                                  %! _make_global_rests(1)
+
+    % [G Global_Rests measure 140 / measure 8]                                 %! _comment_measure_numbers
+    R1 * 1/16                                                                  %! _make_global_rests(1)
+
+    % [G Global_Rests measure 141 / measure 9]                                 %! _comment_measure_numbers
+    R1 * 3/20                                                                  %! _make_global_rests(1)
+
+    % [G Global_Rests measure 142 / measure 10]                                %! _comment_measure_numbers
+    R1 * 1/16                                                                  %! _make_global_rests(1)
+
+    % [G Global_Rests measure 143 / measure 11]                                %! _comment_measure_numbers
+    R1 * 1/24                                                                  %! _make_global_rests(1)
+
+    % [G Global_Rests measure 144 / measure 12]                                %! _comment_measure_numbers
     R1 * 1/8                                                                   %! _make_global_rests(1)
 
-    % [G Global_Rests measure 157 / measure 3]                                 %! _comment_measure_numbers
+    % [G Global_Rests measure 145 / measure 13]                                %! _comment_measure_numbers
+    R1 * 1/24                                                                  %! _make_global_rests(1)
+
+    % [G Global_Rests measure 146 / measure 14]                                %! _comment_measure_numbers
     R1 * 1/7                                                                   %! _make_global_rests(1)
 
-    % [G Global_Rests measure 158 / measure 4]                                 %! _comment_measure_numbers
-    R1 * 11/16                                                                 %! _make_global_rests(1)
+    % [G Global_Rests measure 147 / measure 15]                                %! _comment_measure_numbers
+    R1 * 1/24                                                                  %! _make_global_rests(1)
 
-    % [G Global_Rests measure 159 / measure 5]                                 %! _comment_measure_numbers
-    R1 * 6/7                                                                   %! _make_global_rests(1)
+    % [G Global_Rests measure 148 / measure 16]                                %! _comment_measure_numbers
+    R1 * 1/8                                                                   %! _make_global_rests(1)
 
-    % [G Global_Rests measure 160 / measure 6]                                 %! _comment_measure_numbers
-    R1 * 7/32                                                                  %! _make_global_rests(1)
+    % [G Global_Rests measure 149 / measure 17]                                %! _comment_measure_numbers
+    R1 * 1/24                                                                  %! _make_global_rests(1)
 
-    % [G Global_Rests measure 161 / measure 7]                                 %! _comment_measure_numbers
-    R1 * 9/32                                                                  %! _make_global_rests(1)
+    % [G Global_Rests measure 150 / measure 18]                                %! _comment_measure_numbers
+    R1 * 1/8                                                                   %! _make_global_rests(1)
 
-    % [G Global_Rests measure 162 / measure 8]                                 %! _comment_measure_numbers
+    % [G Global_Rests measure 151 / measure 19]                                %! _comment_measure_numbers
+    R1 * 1/24                                                                  %! _make_global_rests(1)
+
+    % [G Global_Rests measure 152 / measure 20]                                %! _comment_measure_numbers
     R1 * 1/7                                                                   %! _make_global_rests(1)
 
-    % [G Global_Rests measure 163 / measure 9]                                 %! _comment_measure_numbers
-    R1 * 3/16                                                                  %! _make_global_rests(1)
+    % [G Global_Rests measure 153 / measure 21]                                %! _comment_measure_numbers
+    R1 * 1/24                                                                  %! _make_global_rests(1)
 
-    % [G Global_Rests measure 164 / measure 10]                                %! _comment_measure_numbers
-    R1 * 2/7                                                                   %! _make_global_rests(1)
+    % [G Global_Rests measure 154 / measure 22]                                %! _comment_measure_numbers
+    R1 * 1/8                                                                   %! _make_global_rests(1)
 
-    % [G Global_Rests measure 165 / measure 11]                                %! _comment_measure_numbers
-    R1 * 7/32                                                                  %! _make_global_rests(1)
-
-    % [G Global_Rests measure 166 / measure 12]                                %! _comment_measure_numbers
-    R1 * 5/32                                                                  %! _make_global_rests(1)
-
-    % [G Global_Rests measure 167 / measure 13]                                %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
+    % [G Global_Rests measure 155 / measure 23]                                %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
     R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
 
 }                                                                              %! abjad.Path.extern
@@ -238,66 +417,114 @@ G_Global_Rests = {                                                             %
 
 G_Guitar_Music_Voice_I = {                                                     %! abjad.Path.extern
 
-    % [G Guitar_Music_Voice_I measure 155 / measure 1]                         %! _comment_measure_numbers
-    \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4)         %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-%@% \override GuitarMusicStaff.Clef.color = ##f                                %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set GuitarMusicStaff.forceClef = ##t                                      %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    s1 * 7/32
-    ^ \baca-reapplied-indicator-markup "(“Guitar”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)            %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-
     {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
-            % [G Guitar_Music_Voice_I measure 156 / measure 2]                 %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 2
+            % [G Guitar_Music_Voice_I measure 133 / measure 1]                 %! _comment_measure_numbers
             \override Beam.positions = #'(8 . 8)                               %! baca.beam_positions:OverrideCommand(1)
-            g'16                                                               %! baca.MusicMaker.__call__
+            \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+        %@% \override GuitarMusicStaff.Clef.color = ##f                        %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+            \set GuitarMusicStaff.forceClef = ##t                              %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+            a'16                                                               %! baca.MusicMaker.__call__
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 L1                                                 %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         20                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             1                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
         %@%                     #0.25                                          %! FIGURE_NAME
         %@%                     \fontsize                                      %! FIGURE_NAME
         %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (1)                                        %! FIGURE_NAME
+        %@%                         (0)                                        %! FIGURE_NAME
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
+            ^ \baca-reapplied-indicator-markup "(“Guitar”)"                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
             [
-            \glissando                                                         %! baca.glissando
+            (                                                                  %! baca.slur:SpannerIndicatorCommand(1)
+            \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)    %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
+            cs''!16                                                            %! baca.MusicMaker.__call__
 
             \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 0
-            c'''16                                                             %! baca.MusicMaker.__call__
-            ]
-            \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
+            \set stemRightBeamCount = 1
+            g''16                                                              %! baca.MusicMaker.__call__
+            )                                                                  %! baca.slur:SpannerIndicatorCommand(2)
 
         }                                                                      %! baca.MusicMaker.__call__
 
     }                                                                          %! baca.MusicMaker.__call__
 
-    % [G Guitar_Music_Voice_I measure 157 / measure 3]                         %! _comment_measure_numbers
-    s1 * 61/32
+    % [G Guitar_Music_Voice_I measure 134 / measure 2]                         %! _comment_measure_numbers
+    s1 * 13/56
 
     {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak text #tuplet-number::calc-fraction-text                         %! baca.MusicMaker.__call__
-        \times 9/11 {                                                          %! baca.MusicMaker.__call__
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
 
-            % [G Guitar_Music_Voice_I measure 161 / measure 7]                 %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0
+            % [G Guitar_Music_Voice_I measure 137 / measure 5]                 %! _comment_measure_numbers
+            \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
-            \override Beam.positions = #'(12 . 12)                             %! baca.beam_positions:OverrideCommand(1)
+            cs'!16                                                             %! baca.MusicMaker.__call__
+        %@% ^ \markup {                                                        %! FIGURE_NAME
+        %@%     \fontsize                                                      %! FIGURE_NAME
+        %@%         #2                                                         %! FIGURE_NAME
+        %@%         \concat                                                    %! FIGURE_NAME
+        %@%             {                                                      %! FIGURE_NAME
+        %@%                 [                                                  %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         20                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             2                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
+        %@%                 \hspace                                            %! FIGURE_NAME
+        %@%                     #1                                             %! FIGURE_NAME
+        %@%                 \raise                                             %! FIGURE_NAME
+        %@%                     #0.25                                          %! FIGURE_NAME
+        %@%                     \fontsize                                      %! FIGURE_NAME
+        %@%                         #-2                                        %! FIGURE_NAME
+        %@%                         (4)                                        %! FIGURE_NAME
+        %@%                 ]                                                  %! FIGURE_NAME
+        %@%             }                                                      %! FIGURE_NAME
+        %@%     }                                                              %! FIGURE_NAME
+            (                                                                  %! baca.slur:SpannerIndicatorCommand(1)
+
+            e'16                                                               %! baca.MusicMaker.__call__
+
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 1
+            bf'!16                                                             %! baca.MusicMaker.__call__
+            )                                                                  %! baca.slur:SpannerIndicatorCommand(2)
+
+        }                                                                      %! baca.MusicMaker.__call__
+
+    }                                                                          %! baca.MusicMaker.__call__
+
+    % [G Guitar_Music_Voice_I measure 138 / measure 6]                         %! _comment_measure_numbers
+    s1 * 13/56
+
+    {                                                                          %! baca.MusicMaker.__call__
+
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/5 {                                                           %! baca.MusicMaker.__call__
+
+            % [G Guitar_Music_Voice_I measure 141 / measure 9]                 %! _comment_measure_numbers
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 2
             af'!16                                                             %! baca.MusicMaker.__call__
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
@@ -305,68 +532,57 @@ G_Guitar_Music_Voice_I = {                                                     %
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 L2                                                 %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         20                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             3                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
         %@%                     #0.25                                          %! FIGURE_NAME
         %@%                     \fontsize                                      %! FIGURE_NAME
         %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (6)                                        %! FIGURE_NAME
+        %@%                         (8)                                        %! FIGURE_NAME
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            [
-            \glissando                                                         %! baca.glissando
+            (                                                                  %! baca.slur:SpannerIndicatorCommand(1)
 
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
-            f''16                                                              %! baca.MusicMaker.__call__
-            \glissando                                                         %! baca.glissando
+            b'16                                                               %! baca.MusicMaker.__call__
 
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
-            cs''!16                                                            %! baca.MusicMaker.__call__
-            \glissando                                                         %! baca.glissando
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 3
-            b''32                                                              %! baca.MusicMaker.__call__
-            \glissando                                                         %! baca.glissando
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
-            c''16                                                              %! baca.MusicMaker.__call__
-            \glissando                                                         %! baca.glissando
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 1
-            af''!16                                                            %! baca.MusicMaker.__call__
-            \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
+            fs''!16                                                            %! baca.MusicMaker.__call__
+            )                                                                  %! baca.slur:SpannerIndicatorCommand(2)
+            ]
 
         }                                                                      %! baca.MusicMaker.__call__
 
     }                                                                          %! baca.MusicMaker.__call__
 
-    % [G Guitar_Music_Voice_I measure 162 / measure 8]                         %! _comment_measure_numbers
-    s1 * 187/224
+    % [G Guitar_Music_Voice_I measure 142 / measure 10]                        %! _comment_measure_numbers
+    s1 * 5/48
 
     {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak text #tuplet-number::calc-fraction-text                         %! baca.MusicMaker.__call__
-        \times 5/7 {                                                           %! baca.MusicMaker.__call__
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
-            % [G Guitar_Music_Voice_I measure 166 / measure 12]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
-            b'16                                                               %! baca.MusicMaker.__call__
+            % [G Guitar_Music_Voice_I measure 144 / measure 12]                %! _comment_measure_numbers
+            \set stemLeftBeamCount = 0
+            \set stemRightBeamCount = 3
+            e'32                                                               %! baca.MusicMaker.__call__
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 L3                                                 %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         32                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             1                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
@@ -377,22 +593,179 @@ G_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \glissando                                                         %! baca.glissando
+            [
+            (                                                                  %! baca.slur:SpannerIndicatorCommand(1)
 
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
-            cs'''!16                                                           %! baca.MusicMaker.__call__
-            \glissando                                                         %! baca.glissando
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 3
+            a'32                                                               %! baca.MusicMaker.__call__
 
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
-            e'16                                                               %! baca.MusicMaker.__call__
-            \glissando                                                         %! baca.glissando
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 3
+            g'32                                                               %! baca.MusicMaker.__call__
+
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 1
+            bf'!32                                                             %! baca.MusicMaker.__call__
+            )                                                                  %! baca.slur:SpannerIndicatorCommand(2)
+
+        }                                                                      %! baca.MusicMaker.__call__
+
+    }                                                                          %! baca.MusicMaker.__call__
+
+    % [G Guitar_Music_Voice_I measure 145 / measure 13]                        %! _comment_measure_numbers
+    s1 * 19/84
+
+    {                                                                          %! baca.MusicMaker.__call__
+
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
+
+            % [G Guitar_Music_Voice_I measure 148 / measure 16]                %! _comment_measure_numbers
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 3
+            af'!32                                                             %! baca.MusicMaker.__call__
+        %@% ^ \markup {                                                        %! FIGURE_NAME
+        %@%     \fontsize                                                      %! FIGURE_NAME
+        %@%         #2                                                         %! FIGURE_NAME
+        %@%         \concat                                                    %! FIGURE_NAME
+        %@%             {                                                      %! FIGURE_NAME
+        %@%                 [                                                  %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         32                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             2                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
+        %@%                 \hspace                                            %! FIGURE_NAME
+        %@%                     #1                                             %! FIGURE_NAME
+        %@%                 \raise                                             %! FIGURE_NAME
+        %@%                     #0.25                                          %! FIGURE_NAME
+        %@%                     \fontsize                                      %! FIGURE_NAME
+        %@%                         #-2                                        %! FIGURE_NAME
+        %@%                         (15)                                       %! FIGURE_NAME
+        %@%                 ]                                                  %! FIGURE_NAME
+        %@%             }                                                      %! FIGURE_NAME
+        %@%     }                                                              %! FIGURE_NAME
+            (                                                                  %! baca.slur:SpannerIndicatorCommand(1)
+
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 3
+            f'32                                                               %! baca.MusicMaker.__call__
+
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 3
+            d''32                                                              %! baca.MusicMaker.__call__
+
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 1
+            b'32                                                               %! baca.MusicMaker.__call__
+            )                                                                  %! baca.slur:SpannerIndicatorCommand(2)
+
+        }                                                                      %! baca.MusicMaker.__call__
+
+    }                                                                          %! baca.MusicMaker.__call__
+
+    % [G Guitar_Music_Voice_I measure 149 / measure 17]                        %! _comment_measure_numbers
+    s1 * 1/24
+
+    {                                                                          %! baca.MusicMaker.__call__
+
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
+
+            % [G Guitar_Music_Voice_I measure 150 / measure 18]                %! _comment_measure_numbers
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 3
+            cs'!32                                                             %! baca.MusicMaker.__call__
+        %@% ^ \markup {                                                        %! FIGURE_NAME
+        %@%     \fontsize                                                      %! FIGURE_NAME
+        %@%         #2                                                         %! FIGURE_NAME
+        %@%         \concat                                                    %! FIGURE_NAME
+        %@%             {                                                      %! FIGURE_NAME
+        %@%                 [                                                  %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         32                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             3                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
+        %@%                 \hspace                                            %! FIGURE_NAME
+        %@%                     #1                                             %! FIGURE_NAME
+        %@%                 \raise                                             %! FIGURE_NAME
+        %@%                     #0.25                                          %! FIGURE_NAME
+        %@%                     \fontsize                                      %! FIGURE_NAME
+        %@%                         #-2                                        %! FIGURE_NAME
+        %@%                         (17)                                       %! FIGURE_NAME
+        %@%                 ]                                                  %! FIGURE_NAME
+        %@%             }                                                      %! FIGURE_NAME
+        %@%     }                                                              %! FIGURE_NAME
+            (                                                                  %! baca.slur:SpannerIndicatorCommand(1)
+
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 3
+            e'32                                                               %! baca.MusicMaker.__call__
+
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 3
+            a'32                                                               %! baca.MusicMaker.__call__
+
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 1
+            g''32                                                              %! baca.MusicMaker.__call__
+            )                                                                  %! baca.slur:SpannerIndicatorCommand(2)
+
+        }                                                                      %! baca.MusicMaker.__call__
+
+    }                                                                          %! baca.MusicMaker.__call__
+
+    % [G Guitar_Music_Voice_I measure 151 / measure 19]                        %! _comment_measure_numbers
+    s1 * 19/84
+
+    {                                                                          %! baca.MusicMaker.__call__
+
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
+
+            % [G Guitar_Music_Voice_I measure 154 / measure 22]                %! _comment_measure_numbers
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 3
+            g'32                                                               %! baca.MusicMaker.__call__
+        %@% ^ \markup {                                                        %! FIGURE_NAME
+        %@%     \fontsize                                                      %! FIGURE_NAME
+        %@%         #2                                                         %! FIGURE_NAME
+        %@%         \concat                                                    %! FIGURE_NAME
+        %@%             {                                                      %! FIGURE_NAME
+        %@%                 [                                                  %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         32                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             4                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
+        %@%                 \hspace                                            %! FIGURE_NAME
+        %@%                     #1                                             %! FIGURE_NAME
+        %@%                 \raise                                             %! FIGURE_NAME
+        %@%                     #0.25                                          %! FIGURE_NAME
+        %@%                     \fontsize                                      %! FIGURE_NAME
+        %@%                         #-2                                        %! FIGURE_NAME
+        %@%                         (21)                                       %! FIGURE_NAME
+        %@%                 ]                                                  %! FIGURE_NAME
+        %@%             }                                                      %! FIGURE_NAME
+        %@%     }                                                              %! FIGURE_NAME
+            (                                                                  %! baca.slur:SpannerIndicatorCommand(1)
+
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 3
+            bf'!32                                                             %! baca.MusicMaker.__call__
+
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 3
+            ef''!32                                                            %! baca.MusicMaker.__call__
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 0
-            af''!32                                                            %! baca.MusicMaker.__call__
+            e''32                                                              %! baca.MusicMaker.__call__
+            )                                                                  %! baca.slur:SpannerIndicatorCommand(2)
             ]
+            \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
 
         }                                                                      %! baca.MusicMaker.__call__
 
@@ -403,7 +776,7 @@ G_Guitar_Music_Voice_I = {                                                     %
         \context Voice = "Guitar_Music_Voice_I"                                %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [G Guitar_Music_Voice_I measure 167 / measure 13]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [G Guitar_Music_Voice_I measure 155 / measure 23]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -412,7 +785,7 @@ G_Guitar_Music_Voice_I = {                                                     %
         \context Voice = "Guitar_Rest_Voice_I"                                 %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [G Guitar_Rest_Voice_I measure 167 / measure 13]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [G Guitar_Rest_Voice_I measure 155 / measure 23]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             s1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
@@ -424,72 +797,107 @@ G_Guitar_Music_Voice_I = {                                                     %
 
 G_Guitar_Music_Voice_II = {                                                    %! abjad.Path.extern
 
+    % [G Guitar_Music_Voice_II measure 133 / measure 1]                        %! _comment_measure_numbers
+    \override Beam.positions = #'(-7 . -7)                                     %! baca.beam_positions:OverrideCommand(1)
+    s1 * 3/20
+
     {                                                                          %! baca.MusicMaker.__call__
 
         \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
-            % [G Guitar_Music_Voice_II measure 155 / measure 1]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 1
-            \once \override Beam.positions = #'(-7.5 . -7.5)                   %! baca.beam_positions:OverrideCommand(1)
-            b8.                                                                %! baca.MusicMaker.__call__
+            % [G Guitar_Music_Voice_II measure 134 / measure 2]                %! _comment_measure_numbers
+            \once \override TextScript.direction = #down                       %! baca.text_script_down:OverrideCommand(1)
+            ef'!16                                                             %! baca.MusicMaker.__call__
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 O1                                                 %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         16                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             1                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
         %@%                     #0.25                                          %! FIGURE_NAME
         %@%                     \fontsize                                      %! FIGURE_NAME
         %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (0)                                        %! FIGURE_NAME
+        %@%                         (1)                                        %! FIGURE_NAME
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
+            _ \markup { "dull (but beautiful) thud with RH muting for each red note" } %! baca.markup:IndicatorCommand
             [
-
-            \acciaccatura {
-
-                ef'16                                                          %! baca.MusicMaker.__call__
-                [                                                              %! AcciaccaturaSpecifier
-
-                fs'16                                                          %! baca.MusicMaker.__call__
-                ]                                                              %! AcciaccaturaSpecifier
-
-            }                                                                  %! baca.MusicMaker.__call__
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 0
-            a32                                                                %! baca.MusicMaker.__call__
-            ]
 
         }                                                                      %! baca.MusicMaker.__call__
 
     }                                                                          %! baca.MusicMaker.__call__
 
-    % [G Guitar_Music_Voice_II measure 156 / measure 2]                        %! _comment_measure_numbers
-    s1 * 29/16
+    % [G Guitar_Music_Voice_II measure 135 / measure 3]                        %! _comment_measure_numbers
+    s1 * 3/28
 
     {                                                                          %! baca.MusicMaker.__call__
 
         \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
-            % [G Guitar_Music_Voice_II measure 160 / measure 6]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0
+            % [G Guitar_Music_Voice_II measure 136 / measure 4]                %! _comment_measure_numbers
+            \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
-            \once \override Beam.positions = #'(-7.5 . -7.5)                   %! baca.beam_positions:OverrideCommand(1)
-            e'8.                                                               %! baca.MusicMaker.__call__
+            a16                                                                %! baca.MusicMaker.__call__
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 O2                                                 %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         16                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             2                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
+        %@%                 \hspace                                            %! FIGURE_NAME
+        %@%                     #1                                             %! FIGURE_NAME
+        %@%                 \raise                                             %! FIGURE_NAME
+        %@%                     #0.25                                          %! FIGURE_NAME
+        %@%                     \fontsize                                      %! FIGURE_NAME
+        %@%                         #-2                                        %! FIGURE_NAME
+        %@%                         (3)                                        %! FIGURE_NAME
+        %@%                 ]                                                  %! FIGURE_NAME
+        %@%             }                                                      %! FIGURE_NAME
+        %@%     }                                                              %! FIGURE_NAME
+
+        }                                                                      %! baca.MusicMaker.__call__
+
+    }                                                                          %! baca.MusicMaker.__call__
+
+    % [G Guitar_Music_Voice_II measure 137 / measure 5]                        %! _comment_measure_numbers
+    s1 * 3/20
+
+    {                                                                          %! baca.MusicMaker.__call__
+
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
+
+            % [G Guitar_Music_Voice_II measure 138 / measure 6]                %! _comment_measure_numbers
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 1
+            b16                                                                %! baca.MusicMaker.__call__
+        %@% ^ \markup {                                                        %! FIGURE_NAME
+        %@%     \fontsize                                                      %! FIGURE_NAME
+        %@%         #2                                                         %! FIGURE_NAME
+        %@%         \concat                                                    %! FIGURE_NAME
+        %@%             {                                                      %! FIGURE_NAME
+        %@%                 [                                                  %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         16                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             3                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
@@ -500,48 +908,107 @@ G_Guitar_Music_Voice_II = {                                                    %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            [
-
-            \acciaccatura {
-
-                a'16                                                           %! baca.MusicMaker.__call__
-                [                                                              %! AcciaccaturaSpecifier
-
-                g'16                                                           %! baca.MusicMaker.__call__
-
-                bf'16                                                          %! baca.MusicMaker.__call__
-
-                ef''16                                                         %! baca.MusicMaker.__call__
-                ]                                                              %! AcciaccaturaSpecifier
-
-            }                                                                  %! baca.MusicMaker.__call__
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 1
-            d''32                                                              %! baca.MusicMaker.__call__
 
         }                                                                      %! baca.MusicMaker.__call__
 
     }                                                                          %! baca.MusicMaker.__call__
 
-    % [G Guitar_Music_Voice_II measure 161 / measure 7]                        %! _comment_measure_numbers
-    s1 * 201/224
+    % [G Guitar_Music_Voice_II measure 139 / measure 7]                        %! _comment_measure_numbers
+    s1 * 3/28
 
     {                                                                          %! baca.MusicMaker.__call__
 
         \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
 
-            % [G Guitar_Music_Voice_II measure 165 / measure 11]               %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1
+            % [G Guitar_Music_Voice_II measure 140 / measure 8]                %! _comment_measure_numbers
+            \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
-            a'8.                                                               %! baca.MusicMaker.__call__
+            e'16                                                               %! baca.MusicMaker.__call__
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 O3                                                 %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         16                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             4                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
+        %@%                 \hspace                                            %! FIGURE_NAME
+        %@%                     #1                                             %! FIGURE_NAME
+        %@%                 \raise                                             %! FIGURE_NAME
+        %@%                     #0.25                                          %! FIGURE_NAME
+        %@%                     \fontsize                                      %! FIGURE_NAME
+        %@%                         #-2                                        %! FIGURE_NAME
+        %@%                         (7)                                        %! FIGURE_NAME
+        %@%                 ]                                                  %! FIGURE_NAME
+        %@%             }                                                      %! FIGURE_NAME
+        %@%     }                                                              %! FIGURE_NAME
+
+        }                                                                      %! baca.MusicMaker.__call__
+
+    }                                                                          %! baca.MusicMaker.__call__
+
+    % [G Guitar_Music_Voice_II measure 141 / measure 9]                        %! _comment_measure_numbers
+    s1 * 3/20
+
+    {                                                                          %! baca.MusicMaker.__call__
+
+        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
+
+            % [G Guitar_Music_Voice_II measure 142 / measure 10]               %! _comment_measure_numbers
+            bf!16                                                              %! baca.MusicMaker.__call__
+        %@% ^ \markup {                                                        %! FIGURE_NAME
+        %@%     \fontsize                                                      %! FIGURE_NAME
+        %@%         #2                                                         %! FIGURE_NAME
+        %@%         \concat                                                    %! FIGURE_NAME
+        %@%             {                                                      %! FIGURE_NAME
+        %@%                 [                                                  %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         16                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             5                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
+        %@%                 \hspace                                            %! FIGURE_NAME
+        %@%                     #1                                             %! FIGURE_NAME
+        %@%                 \raise                                             %! FIGURE_NAME
+        %@%                     #0.25                                          %! FIGURE_NAME
+        %@%                     \fontsize                                      %! FIGURE_NAME
+        %@%                         #-2                                        %! FIGURE_NAME
+        %@%                         (9)                                        %! FIGURE_NAME
+        %@%                 ]                                                  %! FIGURE_NAME
+        %@%             }                                                      %! FIGURE_NAME
+        %@%     }                                                              %! FIGURE_NAME
+            ]
+            \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
+
+        }                                                                      %! baca.MusicMaker.__call__
+
+    }                                                                          %! baca.MusicMaker.__call__
+
+    {                                                                          %! baca.MusicMaker.__call__
+
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
+
+            % [G Guitar_Music_Voice_II measure 143 / measure 11]               %! _comment_measure_numbers
+            \override Beam.positions = #'(-7 . -7)                             %! baca.beam_positions:OverrideCommand(1)
+            ef'!16                                                             %! baca.MusicMaker.__call__
+        %@% ^ \markup {                                                        %! FIGURE_NAME
+        %@%     \fontsize                                                      %! FIGURE_NAME
+        %@%         #2                                                         %! FIGURE_NAME
+        %@%         \concat                                                    %! FIGURE_NAME
+        %@%             {                                                      %! FIGURE_NAME
+        %@%                 [                                                  %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         24                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             1                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
@@ -552,24 +1019,200 @@ G_Guitar_Music_Voice_II = {                                                    %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
+            [
 
-            \acciaccatura {
+        }                                                                      %! baca.MusicMaker.__call__
 
-                ef''16                                                         %! baca.MusicMaker.__call__
-                [                                                              %! AcciaccaturaSpecifier
+    }                                                                          %! baca.MusicMaker.__call__
 
-                c''16                                                          %! baca.MusicMaker.__call__
+    % [G Guitar_Music_Voice_II measure 144 / measure 12]                       %! _comment_measure_numbers
+    s1 * 1/8
 
-                d''16                                                          %! baca.MusicMaker.__call__
+    {                                                                          %! baca.MusicMaker.__call__
 
-                g''16                                                          %! baca.MusicMaker.__call__
-                ]                                                              %! AcciaccaturaSpecifier
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
 
-            }                                                                  %! baca.MusicMaker.__call__
+            % [G Guitar_Music_Voice_II measure 145 / measure 13]               %! _comment_measure_numbers
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 1
+            d'16                                                               %! baca.MusicMaker.__call__
+        %@% ^ \markup {                                                        %! FIGURE_NAME
+        %@%     \fontsize                                                      %! FIGURE_NAME
+        %@%         #2                                                         %! FIGURE_NAME
+        %@%         \concat                                                    %! FIGURE_NAME
+        %@%             {                                                      %! FIGURE_NAME
+        %@%                 [                                                  %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         24                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             2                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
+        %@%                 \hspace                                            %! FIGURE_NAME
+        %@%                     #1                                             %! FIGURE_NAME
+        %@%                 \raise                                             %! FIGURE_NAME
+        %@%                     #0.25                                          %! FIGURE_NAME
+        %@%                     \fontsize                                      %! FIGURE_NAME
+        %@%                         #-2                                        %! FIGURE_NAME
+        %@%                         (12)                                       %! FIGURE_NAME
+        %@%                 ]                                                  %! FIGURE_NAME
+        %@%             }                                                      %! FIGURE_NAME
+        %@%     }                                                              %! FIGURE_NAME
 
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 0
-            bf''!32                                                            %! baca.MusicMaker.__call__
+        }                                                                      %! baca.MusicMaker.__call__
+
+    }                                                                          %! baca.MusicMaker.__call__
+
+    % [G Guitar_Music_Voice_II measure 146 / measure 14]                       %! _comment_measure_numbers
+    s1 * 1/7
+
+    {                                                                          %! baca.MusicMaker.__call__
+
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
+
+            % [G Guitar_Music_Voice_II measure 147 / measure 15]               %! _comment_measure_numbers
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 1
+            c'16                                                               %! baca.MusicMaker.__call__
+        %@% ^ \markup {                                                        %! FIGURE_NAME
+        %@%     \fontsize                                                      %! FIGURE_NAME
+        %@%         #2                                                         %! FIGURE_NAME
+        %@%         \concat                                                    %! FIGURE_NAME
+        %@%             {                                                      %! FIGURE_NAME
+        %@%                 [                                                  %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         24                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             3                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
+        %@%                 \hspace                                            %! FIGURE_NAME
+        %@%                     #1                                             %! FIGURE_NAME
+        %@%                 \raise                                             %! FIGURE_NAME
+        %@%                     #0.25                                          %! FIGURE_NAME
+        %@%                     \fontsize                                      %! FIGURE_NAME
+        %@%                         #-2                                        %! FIGURE_NAME
+        %@%                         (14)                                       %! FIGURE_NAME
+        %@%                 ]                                                  %! FIGURE_NAME
+        %@%             }                                                      %! FIGURE_NAME
+        %@%     }                                                              %! FIGURE_NAME
+
+        }                                                                      %! baca.MusicMaker.__call__
+
+    }                                                                          %! baca.MusicMaker.__call__
+
+    % [G Guitar_Music_Voice_II measure 148 / measure 16]                       %! _comment_measure_numbers
+    s1 * 1/8
+
+    {                                                                          %! baca.MusicMaker.__call__
+
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
+
+            % [G Guitar_Music_Voice_II measure 149 / measure 17]               %! _comment_measure_numbers
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 1
+            c'16                                                               %! baca.MusicMaker.__call__
+        %@% ^ \markup {                                                        %! FIGURE_NAME
+        %@%     \fontsize                                                      %! FIGURE_NAME
+        %@%         #2                                                         %! FIGURE_NAME
+        %@%         \concat                                                    %! FIGURE_NAME
+        %@%             {                                                      %! FIGURE_NAME
+        %@%                 [                                                  %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         24                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             4                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
+        %@%                 \hspace                                            %! FIGURE_NAME
+        %@%                     #1                                             %! FIGURE_NAME
+        %@%                 \raise                                             %! FIGURE_NAME
+        %@%                     #0.25                                          %! FIGURE_NAME
+        %@%                     \fontsize                                      %! FIGURE_NAME
+        %@%                         #-2                                        %! FIGURE_NAME
+        %@%                         (16)                                       %! FIGURE_NAME
+        %@%                 ]                                                  %! FIGURE_NAME
+        %@%             }                                                      %! FIGURE_NAME
+        %@%     }                                                              %! FIGURE_NAME
+
+        }                                                                      %! baca.MusicMaker.__call__
+
+    }                                                                          %! baca.MusicMaker.__call__
+
+    % [G Guitar_Music_Voice_II measure 150 / measure 18]                       %! _comment_measure_numbers
+    s1 * 1/8
+
+    {                                                                          %! baca.MusicMaker.__call__
+
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
+
+            % [G Guitar_Music_Voice_II measure 151 / measure 19]               %! _comment_measure_numbers
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 1
+            bf!16                                                              %! baca.MusicMaker.__call__
+        %@% ^ \markup {                                                        %! FIGURE_NAME
+        %@%     \fontsize                                                      %! FIGURE_NAME
+        %@%         #2                                                         %! FIGURE_NAME
+        %@%         \concat                                                    %! FIGURE_NAME
+        %@%             {                                                      %! FIGURE_NAME
+        %@%                 [                                                  %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         24                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             5                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
+        %@%                 \hspace                                            %! FIGURE_NAME
+        %@%                     #1                                             %! FIGURE_NAME
+        %@%                 \raise                                             %! FIGURE_NAME
+        %@%                     #0.25                                          %! FIGURE_NAME
+        %@%                     \fontsize                                      %! FIGURE_NAME
+        %@%                         #-2                                        %! FIGURE_NAME
+        %@%                         (18)                                       %! FIGURE_NAME
+        %@%                 ]                                                  %! FIGURE_NAME
+        %@%             }                                                      %! FIGURE_NAME
+        %@%     }                                                              %! FIGURE_NAME
+
+        }                                                                      %! baca.MusicMaker.__call__
+
+    }                                                                          %! baca.MusicMaker.__call__
+
+    % [G Guitar_Music_Voice_II measure 152 / measure 20]                       %! _comment_measure_numbers
+    s1 * 1/7
+
+    {                                                                          %! baca.MusicMaker.__call__
+
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 2/3 {                                                           %! baca.MusicMaker.__call__
+
+            % [G Guitar_Music_Voice_II measure 153 / measure 21]               %! _comment_measure_numbers
+            a16                                                                %! baca.MusicMaker.__call__
+        %@% ^ \markup {                                                        %! FIGURE_NAME
+        %@%     \fontsize                                                      %! FIGURE_NAME
+        %@%         #2                                                         %! FIGURE_NAME
+        %@%         \concat                                                    %! FIGURE_NAME
+        %@%             {                                                      %! FIGURE_NAME
+        %@%                 [                                                  %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         24                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             6                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
+        %@%                 \hspace                                            %! FIGURE_NAME
+        %@%                     #1                                             %! FIGURE_NAME
+        %@%                 \raise                                             %! FIGURE_NAME
+        %@%                     #0.25                                          %! FIGURE_NAME
+        %@%                     \fontsize                                      %! FIGURE_NAME
+        %@%                         #-2                                        %! FIGURE_NAME
+        %@%                         (20)                                       %! FIGURE_NAME
+        %@%                 ]                                                  %! FIGURE_NAME
+        %@%             }                                                      %! FIGURE_NAME
+        %@%     }                                                              %! FIGURE_NAME
             ]
 
         }                                                                      %! baca.MusicMaker.__call__
@@ -581,17 +1224,18 @@ G_Guitar_Music_Voice_II = {                                                    %
         \context Voice = "Guitar_Music_Voice_II"                               %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Guitar_Music_Voice_II measure 166 / measure 12]               %! _comment_measure_numbers
+            % [G Guitar_Music_Voice_II measure 154 / measure 22]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c''1 * 5/32                                                        %! _make_multimeasure_rest_container
+            c''1 * 1/8                                                         %! _make_multimeasure_rest_container
+            \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
         \context Voice = "Guitar_Rest_Voice_II"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Guitar_Rest_Voice_II measure 166 / measure 12]                %! _comment_measure_numbers
-            s1 * 5/32                                                          %! _make_multimeasure_rest_container
+            % [G Guitar_Rest_Voice_II measure 154 / measure 22]                %! _comment_measure_numbers
+            s1 * 1/8                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -602,7 +1246,7 @@ G_Guitar_Music_Voice_II = {                                                    %
         \context Voice = "Guitar_Music_Voice_II"                               %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [G Guitar_Music_Voice_II measure 167 / measure 13]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [G Guitar_Music_Voice_II measure 155 / measure 23]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -611,7 +1255,7 @@ G_Guitar_Music_Voice_II = {                                                    %
         \context Voice = "Guitar_Rest_Voice_II"                                %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [G Guitar_Rest_Voice_II measure 167 / measure 13]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [G Guitar_Rest_Voice_II measure 155 / measure 23]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             s1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
@@ -623,286 +1267,31 @@ G_Guitar_Music_Voice_II = {                                                    %
 
 G_Guitar_Music_Voice_III = {                                                   %! abjad.Path.extern
 
-    % [G Guitar_Music_Voice_III measure 155 / measure 1]                       %! _comment_measure_numbers
-    s1 * 109/224
+    % [G Guitar_Music_Voice_III measure 133 / measure 1]                       %! _comment_measure_numbers
+    \override Beam.positions = #'(4 . 4)                                       %! baca.beam_positions:OverrideCommand(1)
+    s1 * 17/80
 
     {                                                                          %! baca.MusicMaker.__call__
 
-        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
-
-            % [G Guitar_Music_Voice_III measure 158 / measure 4]               %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 3
-            \override Beam.positions = #'(-7.5 . -7.5)                         %! baca.beam_positions:OverrideCommand(1)
-            cs'''!32                                                           %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-        %@% ^ \markup {                                                        %! FIGURE_NAME
-        %@%     \fontsize                                                      %! FIGURE_NAME
-        %@%         #2                                                         %! FIGURE_NAME
-        %@%         \concat                                                    %! FIGURE_NAME
-        %@%             {                                                      %! FIGURE_NAME
-        %@%                 [                                                  %! FIGURE_NAME
-        %@%                 D1                                                 %! FIGURE_NAME
-        %@%                 \hspace                                            %! FIGURE_NAME
-        %@%                     #1                                             %! FIGURE_NAME
-        %@%                 \raise                                             %! FIGURE_NAME
-        %@%                     #0.25                                          %! FIGURE_NAME
-        %@%                     \fontsize                                      %! FIGURE_NAME
-        %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (3)                                        %! FIGURE_NAME
-        %@%                 ]                                                  %! FIGURE_NAME
-        %@%             }                                                      %! FIGURE_NAME
-        %@%     }                                                              %! FIGURE_NAME
-            [
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            c'''32                                                             %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            d''32                                                              %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            g''32                                                              %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            b''32                                                              %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            bf''!32                                                            %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            e''32                                                              %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            ef''!32                                                            %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            f''32                                                              %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            af'!32                                                             %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            a'32                                                               %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            e'32                                                               %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            ef'!32                                                             %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            f'32                                                               %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            af'!32                                                             %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            a'32                                                               %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            bf'!32                                                             %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            c'32                                                               %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            d'32                                                               %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            g'32                                                               %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            b32                                                                %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 0
-            cs'!32                                                             %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-            ]
-            \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
-
-        }                                                                      %! baca.MusicMaker.__call__
-
-    }                                                                          %! baca.MusicMaker.__call__
-
-    % [G Guitar_Music_Voice_III measure 159 / measure 5]                       %! _comment_measure_numbers
-    s1 * 3/2
-
-    {                                                                          %! baca.MusicMaker.__call__
-
-        \scaleDurations #'(1 . 1) {                                            %! baca.MusicMaker.__call__
-
-            % [G Guitar_Music_Voice_III measure 163 / measure 9]               %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 3
-            \override Beam.positions = #'(-6 . -6)                             %! baca.beam_positions:OverrideCommand(1)
-            af''!32                                                            %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-        %@% ^ \markup {                                                        %! FIGURE_NAME
-        %@%     \fontsize                                                      %! FIGURE_NAME
-        %@%         #2                                                         %! FIGURE_NAME
-        %@%         \concat                                                    %! FIGURE_NAME
-        %@%             {                                                      %! FIGURE_NAME
-        %@%                 [                                                  %! FIGURE_NAME
-        %@%                 D2                                                 %! FIGURE_NAME
-        %@%                 \hspace                                            %! FIGURE_NAME
-        %@%                     #1                                             %! FIGURE_NAME
-        %@%                 \raise                                             %! FIGURE_NAME
-        %@%                     #0.25                                          %! FIGURE_NAME
-        %@%                     \fontsize                                      %! FIGURE_NAME
-        %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (8)                                        %! FIGURE_NAME
-        %@%                 ]                                                  %! FIGURE_NAME
-        %@%             }                                                      %! FIGURE_NAME
-        %@%     }                                                              %! FIGURE_NAME
-            [
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            bf''!32                                                            %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            b'32                                                               %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            cs''!32                                                            %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            e'32                                                               %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 0
-            g'32                                                               %! baca.MusicMaker.__call__
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
-            ]
-            \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
-
-        }                                                                      %! baca.MusicMaker.__call__
-
-    }                                                                          %! baca.MusicMaker.__call__
-
-    <<                                                                         %! _make_multimeasure_rest_container
-
-        \context Voice = "Guitar_Music_Voice_III"                              %! _make_multimeasure_rest_container
-        {                                                                      %! _make_multimeasure_rest_container
-
-            % [G Guitar_Music_Voice_III measure 164 / measure 10]              %! _comment_measure_numbers
-            \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c''1 * 2/7                                                         %! _make_multimeasure_rest_container
-
-        }                                                                      %! _make_multimeasure_rest_container
-
-        \context Voice = "Guitar_Rest_Voice_III"                               %! _make_multimeasure_rest_container
-        {                                                                      %! _make_multimeasure_rest_container
-
-            % [G Guitar_Rest_Voice_III measure 164 / measure 10]               %! _comment_measure_numbers
-            s1 * 2/7                                                           %! _make_multimeasure_rest_container
-
-        }                                                                      %! _make_multimeasure_rest_container
-
-    >>                                                                         %! _make_multimeasure_rest_container
-
-    % [G Guitar_Music_Voice_III measure 165 / measure 11]                      %! _comment_measure_numbers
-    s1 * 7/32                                                                  %! _make_measure_silences
-
-    % [G Guitar_Music_Voice_III measure 166 / measure 12]                      %! _comment_measure_numbers
-    s1 * 5/32                                                                  %! _make_measure_silences
-
-    <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
-
-        \context Voice = "Guitar_Music_Voice_III"                              %! PHANTOM:_make_multimeasure_rest_container
-        {                                                                      %! PHANTOM:_make_multimeasure_rest_container
-
-            % [G Guitar_Music_Voice_III measure 167 / measure 13]              %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
-            \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
-
-        }                                                                      %! PHANTOM:_make_multimeasure_rest_container
-
-        \context Voice = "Guitar_Rest_Voice_III"                               %! PHANTOM:_make_multimeasure_rest_container
-        {                                                                      %! PHANTOM:_make_multimeasure_rest_container
-
-            % [G Guitar_Rest_Voice_III measure 167 / measure 13]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
-            s1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
-
-        }                                                                      %! PHANTOM:_make_multimeasure_rest_container
-
-    >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
-
-}                                                                              %! abjad.Path.extern
-
-
-G_Guitar_Music_Voice_IV = {                                                    %! abjad.Path.extern
-
-    % [G Guitar_Music_Voice_IV measure 155 / measure 1]                        %! _comment_measure_numbers
-    \override Beam.positions = #'(8 . 8)                                       %! baca.beam_positions:OverrideCommand(1)
-    s1 * 11/32
-
-    {                                                                          %! baca.MusicMaker.__call__
-
-        \tweak text #tuplet-number::calc-fraction-text                         %! baca.MusicMaker.__call__
         \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
-        \times 8/7 {                                                           %! baca.MusicMaker.__call__
+        \times 4/7 {                                                           %! baca.MusicMaker.__call__
 
-            % [G Guitar_Music_Voice_IV measure 157 / measure 3]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 2
-            f'16                                                               %! baca.MusicMaker.__call__
+            % [G Guitar_Music_Voice_III measure 135 / measure 3]               %! _comment_measure_numbers
+            \override Stem.direction = #up                                     %! baca.stem_up:OverrideCommand(1)
+            d'16                                                               %! baca.MusicMaker.__call__
+            - \staccato                                                        %! baca.staccato:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 G1                                                 %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         28                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             1                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
@@ -915,255 +1304,163 @@ G_Guitar_Music_Voice_IV = {                                                    %
         %@%     }                                                              %! FIGURE_NAME
             [
 
-            \acciaccatura {
-
-                e'16                                                           %! baca.MusicMaker.__call__
-
-            }                                                                  %! baca.MusicMaker.__call__
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 1
-            bf!16                                                              %! baca.MusicMaker.__call__
-
-        }                                                                      %! baca.MusicMaker.__call__
-
-    }                                                                          %! baca.MusicMaker.__call__
-
-    % [G Guitar_Music_Voice_IV measure 158 / measure 4]                        %! _comment_measure_numbers
-    s1 * 11/16
-
-    {                                                                          %! baca.MusicMaker.__call__
-
-        \tweak text #tuplet-number::calc-fraction-text                         %! baca.MusicMaker.__call__
-        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
-        \times 8/7 {                                                           %! baca.MusicMaker.__call__
-
-            % [G Guitar_Music_Voice_IV measure 159 / measure 5]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
-            d'16                                                               %! baca.MusicMaker.__call__
-        %@% ^ \markup {                                                        %! FIGURE_NAME
-        %@%     \fontsize                                                      %! FIGURE_NAME
-        %@%         #2                                                         %! FIGURE_NAME
-        %@%         \concat                                                    %! FIGURE_NAME
-        %@%             {                                                      %! FIGURE_NAME
-        %@%                 [                                                  %! FIGURE_NAME
-        %@%                 G2                                                 %! FIGURE_NAME
-        %@%                 \hspace                                            %! FIGURE_NAME
-        %@%                     #1                                             %! FIGURE_NAME
-        %@%                 \raise                                             %! FIGURE_NAME
-        %@%                     #0.25                                          %! FIGURE_NAME
-        %@%                     \fontsize                                      %! FIGURE_NAME
-        %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (4)                                        %! FIGURE_NAME
-        %@%                 ]                                                  %! FIGURE_NAME
-        %@%             }                                                      %! FIGURE_NAME
-        %@%     }                                                              %! FIGURE_NAME
-
-            \acciaccatura {
-
-                g'16                                                           %! baca.MusicMaker.__call__
-
-            }                                                                  %! baca.MusicMaker.__call__
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
-            b16                                                                %! baca.MusicMaker.__call__
-
-            \acciaccatura {
-
-                cs'16                                                          %! baca.MusicMaker.__call__
-
-            }                                                                  %! baca.MusicMaker.__call__
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
-            c'16                                                               %! baca.MusicMaker.__call__
-
-            \acciaccatura {
-
-                ef'16                                                          %! baca.MusicMaker.__call__
-
-            }                                                                  %! baca.MusicMaker.__call__
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
             f'16                                                               %! baca.MusicMaker.__call__
+            - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-            \acciaccatura {
-
-                af'16                                                          %! baca.MusicMaker.__call__
-
-            }                                                                  %! baca.MusicMaker.__call__
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
-            a'16                                                               %! baca.MusicMaker.__call__
-
-            \acciaccatura {
-
-                bf'16                                                          %! baca.MusicMaker.__call__
-
-            }                                                                  %! baca.MusicMaker.__call__
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
-            e'16                                                               %! baca.MusicMaker.__call__
-
-            \acciaccatura {
-
-                f'16                                                           %! baca.MusicMaker.__call__
-
-            }                                                                  %! baca.MusicMaker.__call__
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
             af'!16                                                             %! baca.MusicMaker.__call__
-
-            \acciaccatura {
-
-                a'16                                                           %! baca.MusicMaker.__call__
-
-            }                                                                  %! baca.MusicMaker.__call__
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
-            bf'!16                                                             %! baca.MusicMaker.__call__
-
-            \acciaccatura {
-
-                e''16                                                          %! baca.MusicMaker.__call__
-
-            }                                                                  %! baca.MusicMaker.__call__
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
-            ef''!16                                                            %! baca.MusicMaker.__call__
-
-            \acciaccatura {
-
-                g''16                                                          %! baca.MusicMaker.__call__
-
-            }                                                                  %! baca.MusicMaker.__call__
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
-            b'16                                                               %! baca.MusicMaker.__call__
-
-            \acciaccatura {
-
-                cs''16                                                         %! baca.MusicMaker.__call__
-
-            }                                                                  %! baca.MusicMaker.__call__
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
-            c''16                                                              %! baca.MusicMaker.__call__
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 0
-            d''16                                                              %! baca.MusicMaker.__call__
+            - \staccato                                                        %! baca.staccato:IndicatorCommand
             ]
+            \revert Stem.direction                                             %! baca.stem_up:OverrideCommand(2)
 
         }                                                                      %! baca.MusicMaker.__call__
 
     }                                                                          %! baca.MusicMaker.__call__
 
-    % [G Guitar_Music_Voice_IV measure 160 / measure 6]                        %! _comment_measure_numbers
-    s1 * 1/2
+    % [G Guitar_Music_Voice_III measure 136 / measure 4]                       %! _comment_measure_numbers
+    s1 * 11/40
 
     {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak text #tuplet-number::calc-fraction-text                         %! baca.MusicMaker.__call__
         \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
-        \times 8/7 {                                                           %! baca.MusicMaker.__call__
+        \times 4/7 {                                                           %! baca.MusicMaker.__call__
 
-            % [G Guitar_Music_Voice_IV measure 162 / measure 8]                %! _comment_measure_numbers
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 2
-            f''16                                                              %! baca.MusicMaker.__call__
+            % [G Guitar_Music_Voice_III measure 139 / measure 7]               %! _comment_measure_numbers
+            \override Stem.direction = #up                                     %! baca.stem_up:OverrideCommand(1)
+            fs'!16                                                             %! baca.MusicMaker.__call__
+            - \staccato                                                        %! baca.staccato:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 G3                                                 %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         28                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             2                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
         %@%                     #0.25                                          %! FIGURE_NAME
         %@%                     \fontsize                                      %! FIGURE_NAME
         %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (7)                                        %! FIGURE_NAME
+        %@%                         (6)                                        %! FIGURE_NAME
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             [
 
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 1
-            d''16                                                              %! baca.MusicMaker.__call__
+            a'16                                                               %! baca.MusicMaker.__call__
+            - \staccato                                                        %! baca.staccato:IndicatorCommand
+
+            cs''!16                                                            %! baca.MusicMaker.__call__
+            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            ]
+            \revert Stem.direction                                             %! baca.stem_up:OverrideCommand(2)
 
         }                                                                      %! baca.MusicMaker.__call__
 
     }                                                                          %! baca.MusicMaker.__call__
 
-    % [G Guitar_Music_Voice_IV measure 163 / measure 9]                        %! _comment_measure_numbers
-    s1 * 3/16
+    % [G Guitar_Music_Voice_III measure 140 / measure 8]                       %! _comment_measure_numbers
+    s1 * 29/60
 
     {                                                                          %! baca.MusicMaker.__call__
 
-        \tweak text #tuplet-number::calc-fraction-text                         %! baca.MusicMaker.__call__
         \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
-        \times 8/7 {                                                           %! baca.MusicMaker.__call__
+        \times 4/7 {                                                           %! baca.MusicMaker.__call__
 
-            % [G Guitar_Music_Voice_IV measure 164 / measure 10]               %! _comment_measure_numbers
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
-            fs''!16                                                            %! baca.MusicMaker.__call__
+            % [G Guitar_Music_Voice_III measure 146 / measure 14]              %! _comment_measure_numbers
+            \override Stem.direction = #up                                     %! baca.stem_up:OverrideCommand(1)
+            af'!16                                                             %! baca.MusicMaker.__call__
+            - \staccato                                                        %! baca.staccato:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 G4                                                 %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         28                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             3                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
         %@%                     #0.25                                          %! FIGURE_NAME
         %@%                     \fontsize                                      %! FIGURE_NAME
         %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (9)                                        %! FIGURE_NAME
+        %@%                         (13)                                       %! FIGURE_NAME
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
+            [
 
-            \acciaccatura {
+            f'16                                                               %! baca.MusicMaker.__call__
+            - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-                a''16                                                          %! baca.MusicMaker.__call__
+            cs''!16                                                            %! baca.MusicMaker.__call__
+            - \staccato                                                        %! baca.staccato:IndicatorCommand
 
-            }                                                                  %! baca.MusicMaker.__call__
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
-            ef''!16                                                            %! baca.MusicMaker.__call__
-
-            \acciaccatura {
-
-                c'''16                                                         %! baca.MusicMaker.__call__
-
-            }                                                                  %! baca.MusicMaker.__call__
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 2
-            d'''16                                                             %! baca.MusicMaker.__call__
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 0
-            fs''!16                                                            %! baca.MusicMaker.__call__
+            b'16                                                               %! baca.MusicMaker.__call__
+            - \staccato                                                        %! baca.staccato:IndicatorCommand
             ]
+            \revert Stem.direction                                             %! baca.stem_up:OverrideCommand(2)
+
+        }                                                                      %! baca.MusicMaker.__call__
+
+    }                                                                          %! baca.MusicMaker.__call__
+
+    % [G Guitar_Music_Voice_III measure 147 / measure 15]                      %! _comment_measure_numbers
+    s1 * 3/8
+
+    {                                                                          %! baca.MusicMaker.__call__
+
+        \tweak edge-height #'(0.7 . 0)                                         %! baca.MusicMaker.__call__
+        \times 4/7 {                                                           %! baca.MusicMaker.__call__
+
+            % [G Guitar_Music_Voice_III measure 152 / measure 20]              %! _comment_measure_numbers
+            \override Stem.direction = #up                                     %! baca.stem_up:OverrideCommand(1)
+            ef'!16                                                             %! baca.MusicMaker.__call__
+            - \staccato                                                        %! baca.staccato:IndicatorCommand
+        %@% ^ \markup {                                                        %! FIGURE_NAME
+        %@%     \fontsize                                                      %! FIGURE_NAME
+        %@%         #2                                                         %! FIGURE_NAME
+        %@%         \concat                                                    %! FIGURE_NAME
+        %@%             {                                                      %! FIGURE_NAME
+        %@%                 [                                                  %! FIGURE_NAME
+        %@%                 \concat                                            %! FIGURE_NAME
+        %@%                     {                                              %! FIGURE_NAME
+        %@%                         28                                         %! FIGURE_NAME
+        %@%                         \sub                                       %! FIGURE_NAME
+        %@%                             4                                      %! FIGURE_NAME
+        %@%                     }                                              %! FIGURE_NAME
+        %@%                 \hspace                                            %! FIGURE_NAME
+        %@%                     #1                                             %! FIGURE_NAME
+        %@%                 \raise                                             %! FIGURE_NAME
+        %@%                     #0.25                                          %! FIGURE_NAME
+        %@%                     \fontsize                                      %! FIGURE_NAME
+        %@%                         #-2                                        %! FIGURE_NAME
+        %@%                         (19)                                       %! FIGURE_NAME
+        %@%                 ]                                                  %! FIGURE_NAME
+        %@%             }                                                      %! FIGURE_NAME
+        %@%     }                                                              %! FIGURE_NAME
+            [
+
+            c''16                                                              %! baca.MusicMaker.__call__
+            - \staccato                                                        %! baca.staccato:IndicatorCommand
+
+            cs''!16                                                            %! baca.MusicMaker.__call__
+            - \staccato                                                        %! baca.staccato:IndicatorCommand
+
+            b'16                                                               %! baca.MusicMaker.__call__
+            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            ]
+            \revert Stem.direction                                             %! baca.stem_up:OverrideCommand(2)
 
         }                                                                      %! baca.MusicMaker.__call__
 
@@ -1171,44 +1468,136 @@ G_Guitar_Music_Voice_IV = {                                                    %
 
     <<                                                                         %! _make_multimeasure_rest_container
 
-        \context Voice = "Guitar_Music_Voice_IV"                               %! _make_multimeasure_rest_container
+        \context Voice = "Guitar_Music_Voice_III"                              %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Guitar_Music_Voice_IV measure 165 / measure 11]               %! _comment_measure_numbers
+            % [G Guitar_Music_Voice_III measure 153 / measure 21]              %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c''1 * 7/32                                                        %! _make_multimeasure_rest_container
+            c''1 * 1/24                                                        %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
-        \context Voice = "Guitar_Rest_Voice_IV"                                %! _make_multimeasure_rest_container
+        \context Voice = "Guitar_Rest_Voice_III"                               %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Guitar_Rest_Voice_IV measure 165 / measure 11]                %! _comment_measure_numbers
-            s1 * 7/32                                                          %! _make_multimeasure_rest_container
+            % [G Guitar_Rest_Voice_III measure 153 / measure 21]               %! _comment_measure_numbers
+            s1 * 1/24                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [G Guitar_Music_Voice_IV measure 166 / measure 12]                       %! _comment_measure_numbers
-    s1 * 5/32                                                                  %! _make_measure_silences
+    % [G Guitar_Music_Voice_III measure 154 / measure 22]                      %! _comment_measure_numbers
+    s1 * 1/8                                                                   %! _make_measure_silences
     \revert Beam.positions                                                     %! baca.beam_positions:OverrideCommand(2)
+
+    <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
+
+        \context Voice = "Guitar_Music_Voice_III"                              %! PHANTOM:_make_multimeasure_rest_container
+        {                                                                      %! PHANTOM:_make_multimeasure_rest_container
+
+            % [G Guitar_Music_Voice_III measure 155 / measure 23]              %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
+            c''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
+
+        }                                                                      %! PHANTOM:_make_multimeasure_rest_container
+
+        \context Voice = "Guitar_Rest_Voice_III"                               %! PHANTOM:_make_multimeasure_rest_container
+        {                                                                      %! PHANTOM:_make_multimeasure_rest_container
+
+            % [G Guitar_Rest_Voice_III measure 155 / measure 23]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            s1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
+
+        }                                                                      %! PHANTOM:_make_multimeasure_rest_container
+
+    >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
+
+}                                                                              %! abjad.Path.extern
+
+
+G_Guitar_Music_Voice_IV = {                                                    %! abjad.Path.extern
+
+    % [G Guitar_Music_Voice_IV measure 133 / measure 1]                        %! _comment_measure_numbers
+    s1 * 3/20                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 134 / measure 2]                        %! _comment_measure_numbers
+    s1 * 1/16                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 135 / measure 3]                        %! _comment_measure_numbers
+    s1 * 3/28                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 136 / measure 4]                        %! _comment_measure_numbers
+    s1 * 1/16                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 137 / measure 5]                        %! _comment_measure_numbers
+    s1 * 3/20                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 138 / measure 6]                        %! _comment_measure_numbers
+    s1 * 1/16                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 139 / measure 7]                        %! _comment_measure_numbers
+    s1 * 3/28                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 140 / measure 8]                        %! _comment_measure_numbers
+    s1 * 1/16                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 141 / measure 9]                        %! _comment_measure_numbers
+    s1 * 3/20                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 142 / measure 10]                       %! _comment_measure_numbers
+    s1 * 1/16                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 143 / measure 11]                       %! _comment_measure_numbers
+    s1 * 1/24                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 144 / measure 12]                       %! _comment_measure_numbers
+    s1 * 4/32                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 145 / measure 13]                       %! _comment_measure_numbers
+    s1 * 1/24                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 146 / measure 14]                       %! _comment_measure_numbers
+    s1 * 4/28                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 147 / measure 15]                       %! _comment_measure_numbers
+    s1 * 1/24                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 148 / measure 16]                       %! _comment_measure_numbers
+    s1 * 4/32                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 149 / measure 17]                       %! _comment_measure_numbers
+    s1 * 1/24                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 150 / measure 18]                       %! _comment_measure_numbers
+    s1 * 4/32                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 151 / measure 19]                       %! _comment_measure_numbers
+    s1 * 1/24                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 152 / measure 20]                       %! _comment_measure_numbers
+    s1 * 4/28                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 153 / measure 21]                       %! _comment_measure_numbers
+    s1 * 1/24                                                                  %! _call_rhythm_commands
+
+    % [G Guitar_Music_Voice_IV measure 154 / measure 22]                       %! _comment_measure_numbers
+    s1 * 4/32                                                                  %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
         \context Voice = "Guitar_Music_Voice_IV"                               %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [G Guitar_Music_Voice_IV measure 167 / measure 13]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [G Guitar_Music_Voice_IV measure 155 / measure 23]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
+            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
         \context Voice = "Guitar_Rest_Voice_IV"                                %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [G Guitar_Rest_Voice_IV measure 167 / measure 13]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [G Guitar_Rest_Voice_IV measure 155 / measure 23]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             s1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container

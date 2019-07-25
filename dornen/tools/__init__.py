@@ -2,7 +2,6 @@ from .DesignChecker import DesignChecker
 from .QuartertoneCommand import QuartertoneCommand
 from .ScoreTemplate import ScoreTemplate
 from .anchor_music import anchor_music
-from .default_music import default_music
 from .delicatissimo_music import delicatissimo_music
 from .design_1 import design_1
 from .design_2 import design_2

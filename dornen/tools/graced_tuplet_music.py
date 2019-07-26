@@ -8,7 +8,7 @@ def graced_tuplet_music() -> baca.MusicMaker:
     Makes graced tuplet music-maker.
     """
     return baca.MusicMaker(
-        baca.pitch_first_assn(
+        baca.pitch_first(
             [1],
             16,
             acciaccatura_specifiers=[
@@ -21,7 +21,7 @@ def graced_tuplet_music() -> baca.MusicMaker:
             pattern=abjad.index([0], 2),
             time_treatments=[abjad.Multiplier((8, 7))],
         ),
-        baca.pitch_first_assn(
+        baca.pitch_first(
             [1],
             16,
             acciaccatura_specifiers=[

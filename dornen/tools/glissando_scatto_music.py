@@ -14,6 +14,5 @@ def glissando_scatto_music() -> baca.MusicMaker:
         ),
         rmakers.beam_groups(),
         baca.new(baca.glissando(), map=baca.ntruns()),
-        color_unregistered_pitches=True,
         denominator=16,
     )

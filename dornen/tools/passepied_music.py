@@ -18,5 +18,4 @@ def passepied_music() -> baca.MusicMaker:
             baca.pitch_first([1], 16), pattern=~abjad.index([0])
         ),
         rmakers.beam_groups(beam_lone_notes=True),
-        color_unregistered_pitches=True,
     )

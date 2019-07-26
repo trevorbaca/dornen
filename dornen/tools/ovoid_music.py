@@ -19,5 +19,4 @@ def ovoid_music() -> baca.MusicMaker:
             )
         ),
         rmakers.beam_groups(),
-        color_unregistered_pitches=True,
     )

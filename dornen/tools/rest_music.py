@@ -13,6 +13,5 @@ def rest_music(duration=None) -> baca.MusicMaker:
             baca.pitch_first([duration.numerator], duration.denominator)
         ),
         rmakers.force_rest(baca.lts()),
-        color_unregistered_pitches=True,
         denominator=duration.denominator,
     )

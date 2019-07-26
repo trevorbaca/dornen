@@ -12,5 +12,4 @@ def graced_rest_music() -> baca.MusicMaker:
                 [1], 8, acciaccatura_specifiers=[baca.AcciaccaturaSpecifier()]
             )
         ),
-        color_unregistered_pitches=True,
     )

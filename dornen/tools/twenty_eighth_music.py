@@ -14,6 +14,5 @@ def twenty_eighth_music() -> baca.MusicMaker:
             )
         ),
         rmakers.beam(baca.select()),
-        color_unregistered_pitches=True,
         denominator=28,
     )

@@ -26,6 +26,5 @@ def wave_music(
         baca.PitchFirstAssignment(rhythm_maker_1, pattern=abjad.index([0], 2)),
         baca.PitchFirstAssignment(rhythm_maker_2, pattern=abjad.index([1], 2)),
         rmakers.beam(baca.select()),
-        color_unregistered_pitches=True,
         denominator=denominator,
     )

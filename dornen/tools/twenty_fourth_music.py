@@ -14,6 +14,5 @@ def twenty_fourth_music() -> baca.MusicMaker:
             )
         ),
         rmakers.beam(baca.select(), beam_lone_notes=True),
-        color_unregistered_pitches=True,
         denominator=24,
     )

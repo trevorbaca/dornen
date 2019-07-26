@@ -39,6 +39,5 @@ def graced_tuplet_music() -> baca.MusicMaker:
             pattern=abjad.index([1], 2),
         ),
         rmakers.beam_groups(beam_lone_notes=True),
-        color_unregistered_pitches=True,
         denominator=14,
     )

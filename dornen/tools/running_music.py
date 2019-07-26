@@ -12,5 +12,4 @@ def running_music() -> baca.MusicMaker:
         ),
         rmakers.beam_groups(),
         baca.slur(map=baca.tuplets().nontrivial()),
-        color_unregistered_pitches=True,
     )

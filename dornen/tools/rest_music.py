@@ -9,9 +9,7 @@ def rest_music(duration=None) -> baca.MusicMaker:
     """
     duration = duration or abjad.Duration(1, 8)
     return baca.MusicMaker(
-        baca.PitchFirstAssignment(
-            baca.pitch_first([duration.numerator], duration.denominator)
-        ),
+        baca.pitch_first_assn([duration.numerator], duration.denominator),
         rmakers.force_rest(baca.lts()),
         denominator=duration.denominator,
     )

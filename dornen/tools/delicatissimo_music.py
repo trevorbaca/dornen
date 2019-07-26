@@ -7,7 +7,7 @@ def delicatissimo_music() -> baca.MusicMaker:
     Makes delicatissimo music-maker.
     """
     return baca.MusicMaker(
-        baca.PitchFirstAssignment(baca.pitch_first([1], 32)),
+        baca.pitch_first_assn([1], 32),
         rmakers.beam_groups(),
         baca.staccato(selector=baca.pheads()),
         denominator=32,

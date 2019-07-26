@@ -8,10 +8,8 @@ def twenty_fourth_music() -> baca.MusicMaker:
     Makes twenty-fourth music-maker.
     """
     return baca.MusicMaker(
-        baca.PitchFirstAssignment(
-            baca.pitch_first(
-                [1], 16, time_treatments=[abjad.Multiplier((2, 3))]
-            )
+        baca.pitch_first_assn(
+            [1], 16, time_treatments=[abjad.Multiplier((2, 3))]
         ),
         rmakers.beam(baca.select(), beam_lone_notes=True),
         denominator=24,

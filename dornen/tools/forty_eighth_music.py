@@ -7,7 +7,7 @@ def forty_eighth_music() -> baca.MusicMaker:
     Makes forty-eighth music-maker.
     """
     return baca.MusicMaker(
-        baca.PitchFirstAssignment(baca.pitch_first([3], 64)),
+        baca.pitch_first_assn([3], 64),
         rmakers.beam(baca.select()),
         denominator=32,
     )

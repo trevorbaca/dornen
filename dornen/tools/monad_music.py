@@ -9,5 +9,5 @@ def monad_music() -> baca.MusicMaker:
     """
     return baca.MusicMaker(
         baca.pitch_first([1], 2, time_treatments=[abjad.Multiplier((4, 5))]),
-        denominator=5,
+        signature=5,
     )

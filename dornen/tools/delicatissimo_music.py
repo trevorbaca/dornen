@@ -10,5 +10,5 @@ def delicatissimo_music() -> baca.MusicMaker:
         baca.pitch_first([1], 32),
         rmakers.beam_groups(),
         baca.staccato(selector=baca.pheads()),
-        denominator=32,
+        signature=32,
     )

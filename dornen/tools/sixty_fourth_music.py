@@ -10,5 +10,5 @@ def sixty_fourth_music() -> baca.MusicMaker:
         baca.pitch_first([1], 64),
         rmakers.beam_groups(),
         baca.staccato(selector=baca.pheads()),
-        denominator=64,
+        signature=64,
     )

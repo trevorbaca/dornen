@@ -11,5 +11,5 @@ def rest_music(duration=None) -> baca.MusicMaker:
     return baca.MusicMaker(
         baca.pitch_first([duration.numerator], duration.denominator),
         rmakers.force_rest(baca.lts()),
-        denominator=duration.denominator,
+        signature=duration.denominator,
     )

@@ -19,7 +19,7 @@ accumulator(
     dornen.wave_music(denominator=64, inverted=True),
     baca.beam_positions(8),
     baca.register(0, -14),
-    denominator=16,
+    signature=16,
     figure_name="W1",
 )
 

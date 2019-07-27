@@ -35,5 +35,5 @@ def graced_tuplet_music() -> baca.MusicMaker:
             time_treatments=[abjad.Multiplier((5, 7))],
         ),
         rmakers.beam_groups(beam_lone_notes=True),
-        denominator=14,
+        signature=14,
     )

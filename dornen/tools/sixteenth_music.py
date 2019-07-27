@@ -9,5 +9,5 @@ def sixteenth_music() -> baca.MusicMaker:
     return baca.MusicMaker(
         baca.pitch_first([1], 16),
         rmakers.beam(baca.select(), beam_lone_notes=True),
-        denominator=16,
+        signature=16,
     )

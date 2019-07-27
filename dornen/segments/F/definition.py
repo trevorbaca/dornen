@@ -22,7 +22,7 @@ accumulator(
     baca.register(-12),
     extend_beam=True,
     figure_name="48_1",
-    )
+)
 
 accumulator(
     "v3",
@@ -30,7 +30,7 @@ accumulator(
     dornen.sixteenth_music(),
     extend_beam=True,
     figure_name="16_1",
-    )
+)
 
 accumulator(
     "v1",
@@ -39,14 +39,14 @@ accumulator(
     baca.register(-14, 0),
     extend_beam=True,
     figure_name="R1",
-    )
+)
 
 accumulator(
     "v4",
     design[5:6],
     dornen.twentieth_music(),
     figure_name="20_1",
-    )
+)
 
 accumulator(
     "v1",
@@ -55,21 +55,21 @@ accumulator(
     baca.tenuto(selector=baca.pheads()),
     baca.register(-12),
     figure_name="48_2",
-    )
+)
 
 accumulator(
     "v3",
     design[7:8],
     dornen.sixteenth_music(),
     figure_name="16_2",
-    )
+)
 
 accumulator(
     "v4",
     design[8:9],
     dornen.twentieth_music(),
     figure_name="20_2",
-    )
+)
 
 accumulator(
     "v1",
@@ -78,9 +78,9 @@ accumulator(
     baca.markup(
         "raise string 2 one quartertone",
         selector=baca.leaf(0),
-        ),
+    ),
     figure_name="S1",
-    )
+)
 
 accumulator(
     "v1",
@@ -88,7 +88,7 @@ accumulator(
     dornen.sixty_fourth_music(),
     baca.register(0),
     figure_name="D1",
-    )
+)
 
 accumulator(
     "v1",
@@ -96,7 +96,7 @@ accumulator(
     dornen.sixty_fourth_music(),
     baca.register(0),
     figure_name="D2",
-    )
+)
 
 accumulator(
     "v1",
@@ -104,7 +104,7 @@ accumulator(
     dornen.sixty_fourth_music(),
     baca.register(0),
     figure_name="D3",
-    )
+)
 
 accumulator(
     "v1",
@@ -112,7 +112,7 @@ accumulator(
     dornen.sixty_fourth_music(),
     baca.register(0),
     figure_name="D4",
-    )
+)
 
 accumulator(
     "v1",
@@ -120,40 +120,40 @@ accumulator(
     dornen.sixty_fourth_music(),
     baca.register(0),
     figure_name="D5",
-    )
+)
 
 maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     skips_instead_of_rests=True,
     time_signatures=accumulator.time_signatures,
     transpose_score=True,
-    )
+)
 
 accumulator.populate_segment_maker(maker)
 
 maker(
     "Global_Skips",
     baca.metronome_mark("44", selector=baca.leaf(9 - 1)),
-    )
+)
 
 maker(
     ("v3", (1, 7)),
     baca.accent(
         selector=baca.pheads(exclude=abjad.const.HIDDEN),
-        ),
+    ),
     baca.new(
         baca.script_down(),
         baca.register(-20),
         selector=baca.leaves(exclude=abjad.const.HIDDEN),
-        ),
-    )
+    ),
+)
 
 maker(
     ("v4", (1, 7)),
     baca.staccato(selector=baca.pheads()),
     baca.beam_positions(5.5),
     baca.register(-4),
-    )
+)
 
 maker(
     [
@@ -162,4 +162,4 @@ maker(
         ("v4", (1, 9)),
         ],
     dornen.QuartertoneCommand(),
-    )
+)

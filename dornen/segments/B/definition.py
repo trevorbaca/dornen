@@ -21,7 +21,7 @@ accumulator(
     baca.register(0, -14),
     denominator=16,
     figure_name="W1",
-    )
+)
 
 accumulator(
     "v2",
@@ -31,7 +31,7 @@ accumulator(
     baca.register(6),
     extend_beam=True,
     figure_name="F1_1",
-    )
+)
 
 accumulator(
     "v1",
@@ -40,7 +40,7 @@ accumulator(
     baca.register(-14, 0),
     extend_beam=True,
     figure_name="R1",
-    )
+)
 
 accumulator(
     "v2",
@@ -49,7 +49,7 @@ accumulator(
     baca.register(6),
     extend_beam=True,
     figure_name="F1_2",
-    )
+)
 
 accumulator(
     "v1",
@@ -58,7 +58,7 @@ accumulator(
     baca.register(-14, 0),
     extend_beam=True,
     figure_name="R2",
-    )
+)
 
 accumulator(
     "v2",
@@ -67,7 +67,7 @@ accumulator(
     baca.register(6),
     extend_beam=True,
     figure_name="F1_3",
-    )
+)
 
 accumulator(
     "v1",
@@ -76,7 +76,7 @@ accumulator(
     baca.register(-14, 0),
     extend_beam=True,
     figure_name="R3",
-    )
+)
 
 accumulator(
     "v2",
@@ -85,7 +85,7 @@ accumulator(
     baca.register(6),
     extend_beam=True,
     figure_name="F1_4",
-    )
+)
 
 accumulator(
     "v1",
@@ -94,7 +94,7 @@ accumulator(
     baca.register(-14, 0),
     extend_beam=True,
     figure_name="R4",
-    )
+)
 
 accumulator(
     "v2",
@@ -102,7 +102,7 @@ accumulator(
     dornen.twentieth_music(),
     baca.register(6),
     figure_name="F1",
-    )
+)
 
 accumulator(
     "v1",
@@ -110,7 +110,7 @@ accumulator(
     dornen.running_music(),
     baca.register(-14, 6),
     figure_name="R5",
-    )
+)
 
 accumulator(
     "v2",
@@ -119,7 +119,7 @@ accumulator(
     baca.register(6),
     extend_beam=True,
     figure_name="F1_1*",
-    )
+)
 
 accumulator(
     "v1",
@@ -129,7 +129,7 @@ accumulator(
     baca.register(6, -20),
     extend_beam=True,
     figure_name="D1",
-    )
+)
 
 accumulator(
     "v2",
@@ -137,7 +137,7 @@ accumulator(
     dornen.twentieth_music(),
     baca.register(6),
     figure_name="F1_2*",
-    )
+)
 
 accumulator(
     "v1",
@@ -145,13 +145,13 @@ accumulator(
     dornen.delicatissimo_music(),
     baca.register(-20, 6),
     figure_name="D2",
-    )
+)
 
 maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     skips_instead_of_rests=True,
     time_signatures=accumulator.time_signatures,
     transpose_score=True,
-    )
+)
 
 accumulator.populate_segment_maker(maker)

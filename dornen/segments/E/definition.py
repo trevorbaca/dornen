@@ -203,7 +203,7 @@ accumulator(
     [["Gb2"]],
     dornen.monad_music(),
     baca.markup("2-finger tamb. trill", boxed=True),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(baca.pleaves()),
     baca.stem_up(),
     baca.tuplet_bracket_staff_padding(0),
     baca.tuplet_bracket_extra_offset((0, -0.5)),
@@ -267,9 +267,7 @@ accumulator.populate_segment_maker(maker)
 
 maker(
     "v1",
-    baca.tenuto(
-        selector=baca.pheads(exclude=abjad.const.HIDDEN),
-    ),
+    baca.tenuto(baca.pheads(exclude=abjad.const.HIDDEN)),
     baca.beam_positions(10),
     baca.register(
         -12,
@@ -297,12 +295,8 @@ maker(
 
 maker(
     "v3",
-    baca.accent(
-        selector=baca.pheads(exclude=abjad.const.HIDDEN),
-    ),
-    baca.script_down(
-        selector=baca.leaves(exclude=abjad.const.HIDDEN),
-    ),
+    baca.accent(baca.pheads(exclude=abjad.const.HIDDEN)),
+    baca.script_down(baca.leaves(exclude=abjad.const.HIDDEN)),
     baca.register(
         -20,
         selector=baca.plts(exclude=abjad.const.HIDDEN),
@@ -311,9 +305,7 @@ maker(
 
 maker(
     "v4",
-    baca.staccato(
-        selector=baca.pheads(exclude=abjad.const.HIDDEN),
-    ),
+    baca.staccato(baca.pheads(exclude=abjad.const.HIDDEN)),
     baca.beam_positions(5.5),
     baca.register(
         -4,

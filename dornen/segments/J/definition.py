@@ -190,7 +190,7 @@ maker(
         baca.repeat_tie(baca.pleaves()[1:]),
         map=baca.qruns(),
     ),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(baca.pleaves()),
 )
 
 maker(

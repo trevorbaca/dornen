@@ -17,7 +17,7 @@ accumulator(
     "v1",
     design[:1],
     dornen.forty_eighth_music(),
-    baca.tenuto(selector=baca.pheads()),
+    baca.tenuto(baca.pheads()),
     baca.beam_positions(10),
     baca.register(-12),
     extend_beam=True,
@@ -52,7 +52,7 @@ accumulator(
     "v1",
     design[6:7],
     dornen.forty_eighth_music(),
-    baca.tenuto(selector=baca.pheads()),
+    baca.tenuto(baca.pheads()),
     baca.register(-12),
     figure_name="48_2",
 )
@@ -133,14 +133,12 @@ accumulator.populate_segment_maker(maker)
 
 maker(
     "Global_Skips",
-    baca.metronome_mark("44", selector=baca.leaf(9 - 1)),
+    baca.metronome_mark("44", baca.leaf(9 - 1)),
 )
 
 maker(
     ("v3", (1, 7)),
-    baca.accent(
-        selector=baca.pheads(exclude=abjad.const.HIDDEN),
-    ),
+    baca.accent(baca.pheads(exclude=abjad.const.HIDDEN)),
     baca.new(
         baca.script_down(),
         baca.register(-20),
@@ -150,7 +148,7 @@ maker(
 
 maker(
     ("v4", (1, 7)),
-    baca.staccato(selector=baca.pheads()),
+    baca.staccato(baca.pheads()),
     baca.beam_positions(5.5),
     baca.register(-4),
 )

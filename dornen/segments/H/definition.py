@@ -16,7 +16,7 @@ accumulator(
     "v2",
     design[:1],
     dornen.ovoid_music(),
-    baca.beam_positions(-7.5, selector=baca.pleaf(0)),
+    baca.beam_positions(-7.5, baca.pleaf(0)),
     baca.register(-20, -8),
     figure_name="O1",
 )
@@ -57,7 +57,7 @@ accumulator(
     "v2",
     design[5:6],
     dornen.ovoid_music(),
-    baca.beam_positions(-7.5, selector=baca.pleaf(0)),
+    baca.beam_positions(-7.5, baca.pleaf(0)),
     extend_beam=True,
     figure_name="O2",
 )
@@ -120,7 +120,7 @@ accumulator.populate_segment_maker(maker)
 
 maker(
     "Global_Skips",
-    baca.metronome_mark("66", selector=baca.leaf(1 - 1)),
+    baca.metronome_mark("66", baca.leaf(1 - 1)),
 )
 
 # glissando scatto

@@ -19,7 +19,7 @@ accumulator(
     baca.register(-4, -20),
     extend_beam=True,
     figure_name="D1",
-    )
+)
 
 accumulator(
     "v1",
@@ -28,7 +28,7 @@ accumulator(
     baca.register(-4, -20),
     extend_beam=True,
     figure_name="D2",
-    )
+)
 
 accumulator(
     "v3",
@@ -36,7 +36,7 @@ accumulator(
     dornen.wave_music(denominator=32),
     baca.register(0),
     figure_name="W1",
-    )
+)
 
 accumulator(
     "v1",
@@ -45,7 +45,7 @@ accumulator(
     baca.register(-4, -20),
     extend_beam=True,
     figure_name="D3",
-    )
+)
 
 accumulator(
     "v1",
@@ -54,7 +54,7 @@ accumulator(
     baca.register(-4, -20),
     extend_beam=True,
     figure_name="D4",
-    )
+)
 
 accumulator(
     "v1",
@@ -63,7 +63,7 @@ accumulator(
     baca.register(-20),
     baca.displacement([0, 1]),
     figure_name="L1",
-    )
+)
 
 accumulator(
     "v3",
@@ -71,7 +71,7 @@ accumulator(
     dornen.wave_music(denominator=32),
     baca.register(0),
     figure_name="W2",
-    )
+)
 
 accumulator(
     "v3",
@@ -79,7 +79,7 @@ accumulator(
     dornen.wave_music(denominator=32),
     baca.register(0),
     figure_name="W3",
-    )
+)
 
 accumulator(
     "v1",
@@ -88,7 +88,7 @@ accumulator(
     baca.register(0),
     extend_beam=True,
     figure_name="32_1",
-    )
+)
 
 accumulator(
     "v2",
@@ -98,7 +98,7 @@ accumulator(
     baca.register(0),
     extend_beam=True,
     figure_name="28_1",
-    )
+)
 
 accumulator(
     "v2",
@@ -107,7 +107,7 @@ accumulator(
     baca.register(0),
     extend_beam=True,
     figure_name="48_1",
-    )
+)
 
 accumulator(
     "v1",
@@ -116,7 +116,7 @@ accumulator(
     baca.register(0),
     extend_beam=True,
     figure_name="32_2",
-    )
+)
 
 accumulator(
     "v2",
@@ -125,7 +125,7 @@ accumulator(
     baca.register(0),
     extend_beam=True,
     figure_name="28_2",
-    )
+)
 
 accumulator(
     "v2",
@@ -134,7 +134,7 @@ accumulator(
     baca.register(0),
     extend_beam=True,
     figure_name="48_2",
-    )
+)
 
 accumulator(
     "v1",
@@ -143,7 +143,7 @@ accumulator(
     baca.register(0),
     extend_beam=True,
     figure_name="32_3",
-    )
+)
 
 accumulator(
     "v2",
@@ -152,7 +152,7 @@ accumulator(
     baca.register(0),
     extend_beam=True,
     figure_name="G1",
-    )
+)
 
 accumulator(
     "v1",
@@ -160,7 +160,7 @@ accumulator(
     dornen.running_music(),
     baca.register(0),
     figure_name="R1",
-    )
+)
 
 accumulator(
     "v2",
@@ -168,31 +168,31 @@ accumulator(
     dornen.twentieth_music(),
     baca.register(0),
     figure_name="20_1",
-    )
+)
 
 maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     skips_instead_of_rests=True,
     time_signatures=accumulator.time_signatures,
     transpose_score=True,
-    )
+)
 
 accumulator.populate_segment_maker(maker)
 
 maker(
     ("v1", (1, 8)),
     baca.beam_positions(6),
-    )
+)
 
 maker(
     ("v1", (9, 18)),
     baca.beam_positions(
         8,
         selector=baca.leaves(exclude=abjad.const.HIDDEN),
-        ),
-    )
+    ),
+)
 
 maker(
     ("v3", (1, 18)),
     baca.beam_positions(-4),
-    )
+)

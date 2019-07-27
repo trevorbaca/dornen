@@ -14,112 +14,112 @@ design = dornen.design_3(start=10, stop=30)
 assert len(design) == 20
 
 accumulator(
-    'v1',
+    "v1",
     design[:1],
     dornen.forty_eighth_music(),
     baca.tenuto(selector=baca.pheads()),
     baca.beam_positions(10),
     baca.register(-12),
     extend_beam=True,
-    figure_name='48_1',
+    figure_name="48_1",
     )
 
 accumulator(
-    'v3',
+    "v3",
     design[1:2],
     dornen.sixteenth_music(),
     extend_beam=True,
-    figure_name='16_1',
+    figure_name="16_1",
     )
 
 accumulator(
-    'v1',
+    "v1",
     design[2:5],
     dornen.running_music(),
     baca.register(-14, 0),
     extend_beam=True,
-    figure_name='R1',
+    figure_name="R1",
     )
 
 accumulator(
-    'v4',
+    "v4",
     design[5:6],
     dornen.twentieth_music(),
-    figure_name='20_1',
+    figure_name="20_1",
     )
 
 accumulator(
-    'v1',
+    "v1",
     design[6:7],
     dornen.forty_eighth_music(),
     baca.tenuto(selector=baca.pheads()),
     baca.register(-12),
-    figure_name='48_2',
+    figure_name="48_2",
     )
 
 accumulator(
-    'v3',
+    "v3",
     design[7:8],
     dornen.sixteenth_music(),
-    figure_name='16_2',
+    figure_name="16_2",
     )
 
 accumulator(
-    'v4',
+    "v4",
     design[8:9],
     dornen.twentieth_music(),
-    figure_name='20_2',
+    figure_name="20_2",
     )
 
 accumulator(
-    'v1',
-    [3 * ['C4']],
+    "v1",
+    [3 * ["C4"]],
     dornen.rest_music(),
     baca.markup(
-        'raise string 2 one quartertone',
+        "raise string 2 one quartertone",
         selector=baca.leaf(0),
         ),
-    figure_name='S1',
+    figure_name="S1",
     )
 
 accumulator(
-    'v1',
+    "v1",
     baca.sequence(design[9:10]).reveal(3).repeat(10).flatten(),
     dornen.sixty_fourth_music(),
     baca.register(0),
-    figure_name='D1',
+    figure_name="D1",
     )
 
 accumulator(
-    'v1',
+    "v1",
     baca.sequence(design[9:10]).reveal(4).repeat(10).flatten(),
     dornen.sixty_fourth_music(),
     baca.register(0),
-    figure_name='D2',
+    figure_name="D2",
     )
 
 accumulator(
-    'v1',
+    "v1",
     baca.sequence(design[9:10]).reveal(5).repeat(10).flatten(),
     dornen.sixty_fourth_music(),
     baca.register(0),
-    figure_name='D3',
+    figure_name="D3",
     )
 
 accumulator(
-    'v1',
+    "v1",
     baca.sequence(design[9:10]).reveal(6).repeat(10).flatten(),
     dornen.sixty_fourth_music(),
     baca.register(0),
-    figure_name='D4',
+    figure_name="D4",
     )
 
 accumulator(
-    'v1',
+    "v1",
     baca.sequence(design[9:10]).boustrophedon(count=4),
     dornen.sixty_fourth_music(),
     baca.register(0),
-    figure_name='D5',
+    figure_name="D5",
     )
 
 maker = baca.SegmentMaker(
@@ -132,12 +132,12 @@ maker = baca.SegmentMaker(
 accumulator.populate_segment_maker(maker)
 
 maker(
-    'Global_Skips',
-    baca.metronome_mark('44', selector=baca.leaf(9 - 1)),
+    "Global_Skips",
+    baca.metronome_mark("44", selector=baca.leaf(9 - 1)),
     )
 
 maker(
-    ('v3', (1, 7)),
+    ("v3", (1, 7)),
     baca.accent(
         selector=baca.pheads(exclude=abjad.const.HIDDEN),
         ),
@@ -149,7 +149,7 @@ maker(
     )
 
 maker(
-    ('v4', (1, 7)),
+    ("v4", (1, 7)),
     baca.staccato(selector=baca.pheads()),
     baca.beam_positions(5.5),
     baca.register(-4),
@@ -157,9 +157,9 @@ maker(
 
 maker(
     [
-        ('v1', (1, 9)),
-        ('v3', (1, 9)),
-        ('v4', (1, 9)),
+        ("v1", (1, 9)),
+        ("v3", (1, 9)),
+        ("v4", (1, 9)),
         ],
     dornen.QuartertoneCommand(),
     )

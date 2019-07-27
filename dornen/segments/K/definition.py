@@ -11,186 +11,186 @@ import os
 accumulator = baca.MusicAccumulator(dornen.ScoreTemplate())
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.monad_music(),
-    figure_name='2_1',
+    figure_name="2_1",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.monad_music(),
-    figure_name='2_2',
+    figure_name="2_2",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.third_music(),
-    figure_name='2_3',
+    figure_name="2_3",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.third_music(),
-    figure_name='2_4',
+    figure_name="2_4",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.third_music(),
-    figure_name='2_5',
+    figure_name="2_5",
     )
 
 ###
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.monad_music(),
-    baca.markup('3 fingers', boxed=True),
-    figure_name='3_1',
+    baca.markup("3 fingers", boxed=True),
+    figure_name="3_1",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.monad_music(),
-    figure_name='3_2',
+    figure_name="3_2",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.third_music(),
-    figure_name='3_3',
+    figure_name="3_3",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.third_music(),
-    figure_name='3_4',
+    figure_name="3_4",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.third_music(),
-    figure_name='3_5',
+    figure_name="3_5",
     )
 
 ###
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.monad_music(),
-    baca.markup('4 fingers', boxed=True),
-    figure_name='4_1',
+    baca.markup("4 fingers", boxed=True),
+    figure_name="4_1",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.monad_music(),
-    figure_name='4_2',
+    figure_name="4_2",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.third_music(),
-    figure_name='4_3',
+    figure_name="4_3",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.third_music(),
-    figure_name='4_4',
+    figure_name="4_4",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.third_music(),
-    figure_name='4_5',
+    figure_name="4_5",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.monad_music(),
-    figure_name='4_6',
+    figure_name="4_6",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.third_music(),
-    figure_name='4_7',
+    figure_name="4_7",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.third_music(),
-    figure_name='4_8',
+    figure_name="4_8",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.third_music(),
-    figure_name='4_9',
+    figure_name="4_9",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.monad_music(),
-    figure_name='4_10',
+    figure_name="4_10",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.third_music(),
-    figure_name='4_11',
+    figure_name="4_11",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.third_music(),
-    figure_name='4_12',
+    figure_name="4_12",
     )
 
 accumulator(
-    'v1',
-    [['Gb~2']],
+    "v1",
+    [["Gb~2"]],
     dornen.third_music(),
-    figure_name='4_13',
+    figure_name="4_13",
     )
 
 accumulator(
-    'v1',
-    [2 * ['Gb~2']],
+    "v1",
+    [2 * ["Gb~2"]],
     dornen.monad_music(),
-    baca.markup('3 fingers', boxed=True),
-    figure_name='4_14',
+    baca.markup("3 fingers", boxed=True),
+    figure_name="4_14",
     )
 
 accumulator(
-    'v1',
-    [2 * ['Gb~2']],
+    "v1",
+    [2 * ["Gb~2"]],
     dornen.monad_music(),
-    baca.markup('2 fingers', boxed=True),
-    figure_name='4_15',
+    baca.markup("2 fingers", boxed=True),
+    figure_name="4_15",
     )
 
 maker = baca.SegmentMaker(
@@ -203,7 +203,7 @@ maker = baca.SegmentMaker(
 accumulator.populate_segment_maker(maker)
 
 maker(
-    'v1',
+    "v1",
     baca.register(-20),
     baca.new(
         baca.repeat_tie(baca.pleaves()[1:]),
@@ -213,80 +213,80 @@ maker(
     )
 
 maker(
-    ('v1', (2, 3)),
-    baca.hairpin('pp < p'),
+    ("v1", (2, 3)),
+    baca.hairpin("pp < p"),
     )
 
 maker(
-    ('v1', (4, 5)),
-    baca.hairpin('p > pp'),
+    ("v1", (4, 5)),
+    baca.hairpin("p > pp"),
     )
 
 maker(
-    ('v1', (7, 8)),
-    baca.hairpin('pp < mp'),
+    ("v1", (7, 8)),
+    baca.hairpin("pp < mp"),
     )
 
 maker(
-    ('v1', (9, 10)),
-    baca.hairpin('mp > pp'),
+    ("v1", (9, 10)),
+    baca.hairpin("mp > pp"),
     )
 
 maker(
-    ('v1', 12),
+    ("v1", 12),
     baca.new(
-        baca.hairpin('pp < p'),
-        baca.text_spanner('trans. => kn. rasg.'),
+        baca.hairpin("pp < p"),
+        baca.text_spanner("trans. => kn. rasg."),
         map=baca.rleaves().group(),
         ),
     )
 
 maker(
-    ('v1', 14),
+    ("v1", 14),
     baca.new(
-        baca.hairpin('p > pp'),
-        baca.text_spanner('trans. => tamb. tr.'),
+        baca.hairpin("p > pp"),
+        baca.text_spanner("trans. => tamb. tr."),
         map=baca.rleaves().group(),
         ),
     )
 
 maker(
-    ('v1', 16),
+    ("v1", 16),
     baca.new(
-        baca.hairpin('pp < mp'),
-        baca.text_spanner('trans. => kn. rasg.'),
+        baca.hairpin("pp < mp"),
+        baca.text_spanner("trans. => kn. rasg."),
         map=baca.rleaves().group(),
         ),
     )
 
 maker(
-    ('v1', 18),
+    ("v1", 18),
     baca.new(
-        baca.hairpin('mp > pp'),
-        baca.text_spanner('trans. => tamb. tr.'),
+        baca.hairpin("mp > pp"),
+        baca.text_spanner("trans. => tamb. tr."),
         map=baca.rleaves().group(),
         ),
     )
 
 maker(
-    ('v1', 20),
+    ("v1", 20),
     baca.new(
-        baca.text_spanner('trans. => kn. rasg.'),
+        baca.text_spanner("trans. => kn. rasg."),
         map=baca.rleaves().group(),
         ),
     )
 
 maker(
-    ('v1', (22, 24)),
+    ("v1", (22, 24)),
     baca.new(
-        baca.hairpin('mf > p'),
-        baca.text_spanner('trans. => tamb. tr.'),
+        baca.hairpin("mf > p"),
+        baca.text_spanner("trans. => tamb. tr."),
         map=baca.rleaves().group(),
         ),
     )
 
 maker(
-    'v1',
+    "v1",
     baca.new(
         baca.text_script_staff_padding(5),
         measures=(1, 11),

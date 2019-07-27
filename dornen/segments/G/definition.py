@@ -233,10 +233,7 @@ maker(
 
 maker(
     ("v2", (1, 10)),
-    baca.beam_positions(
-        -7,
-        selector=baca.leaves(exclude=abjad.const.HIDDEN),
-    ),
+    baca.beam_positions(-7, baca.leaves(exclude=abjad.const.HIDDEN)),
     lower_register,
 )
 
@@ -249,7 +246,5 @@ maker(
 maker(
     ("v3", (1, 22)),
     baca.beam_positions(4),
-    baca.staccato(
-        selector=baca.pheads(exclude=abjad.const.HIDDEN),
-    ),
+    baca.staccato(baca.pheads(exclude=abjad.const.HIDDEN)),
 )

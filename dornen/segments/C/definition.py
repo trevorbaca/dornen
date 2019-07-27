@@ -35,7 +35,7 @@ accumulator(
     "v2",
     design[1:2],
     dornen.ovoid_music(),
-    baca.beam_positions(-8, selector=baca.pleaf(0)),
+    baca.beam_positions(-8, baca.pleaf(0)),
     baca.register(-14, -6),
     extend_beam=True,
     figure_name="O1",
@@ -144,7 +144,7 @@ accumulator(
     "v2",
     design[1:2],
     dornen.ovoid_music(),
-    baca.beam_positions(-8, selector=baca.pleaf(0)),
+    baca.beam_positions(-8, baca.pleaf(0)),
     baca.register(-14, -6),
     extend_beam=True,
     figure_name="O1*",
@@ -223,7 +223,7 @@ accumulator(
     "v2",
     design[1:2],
     dornen.ovoid_music(),
-    baca.beam_positions(-8, selector=baca.pleaf(0)),
+    baca.beam_positions(-8, baca.pleaf(0)),
     baca.register(-14, -6),
     extend_beam=True,
     figure_name="O1**",
@@ -281,7 +281,7 @@ accumulator(
     "v2",
     baca.sequence(design[9:11]).join(),
     dornen.ovoid_music(),
-    baca.beam_positions(-8, selector=baca.pleaf(0)),
+    baca.beam_positions(-8, baca.pleaf(0)),
     baca.register(-14, -6),
     extend_beam=True,
     figure_name="O4",
@@ -317,7 +317,7 @@ accumulator(
     "v2",
     baca.sequence(design[17:19]).join(),
     dornen.ovoid_music(),
-    baca.beam_positions(-8, selector=baca.pleaf(0)),
+    baca.beam_positions(-8, baca.pleaf(0)),
     baca.register(-14, -6),
     extend_beam=True,
     figure_name="O8",
@@ -373,7 +373,7 @@ accumulator.populate_segment_maker(maker)
 
 maker(
     "Global_Skips",
-    baca.metronome_mark("66", selector=baca.leaf(25 - 1)),
+    baca.metronome_mark("66", baca.leaf(25 - 1)),
 )
 
 maker(

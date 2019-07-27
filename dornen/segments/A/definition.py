@@ -14,7 +14,7 @@ assert len(design) == 22
 cursor = baca.Cursor(design)
 
 accumulator(
-    'v1',
+    "v1",
     cursor.next(),
     dornen.anchor_music(),
     baca.beam_positions(6),
@@ -24,7 +24,7 @@ accumulator(
     )
 
 accumulator(
-    'v2',
+    "v2",
     cursor.next(),
     dornen.passepied_music(),
     baca.beam_positions(-10),
@@ -35,7 +35,7 @@ accumulator(
     )
 
 accumulator(
-    'v1',
+    "v1",
     cursor.next(),
     dornen.anchor_music(),
     baca.register(-10),
@@ -44,7 +44,7 @@ accumulator(
     )
 
 accumulator(
-    'v2',
+    "v2",
     cursor.next(),
     dornen.passepied_music(),
     baca.time_signature_extra_offset((-2.5, 0)),
@@ -54,7 +54,7 @@ accumulator(
     )
 
 accumulator(
-    'v1',
+    "v1",
     cursor.next(),
     dornen.anchor_music(),
     baca.register(-12),
@@ -62,7 +62,7 @@ accumulator(
     )
 
 accumulator(
-    'v2',
+    "v2",
     cursor.next(),
     dornen.passepied_music(),
     baca.time_signature_extra_offset((-2.5, 0)),
@@ -71,7 +71,7 @@ accumulator(
     )
 
 accumulator(
-    'v1',
+    "v1",
     cursor.next(),
     dornen.anchor_music(),
     baca.beam_positions(9),
@@ -81,7 +81,7 @@ accumulator(
     )
 
 accumulator(
-    'v2',
+    "v2",
     cursor.next(),
     dornen.passepied_music(),
     baca.beam_positions(-10),
@@ -92,7 +92,7 @@ accumulator(
     )
 
 accumulator(
-    'v4',
+    "v4",
     cursor.next(2),
     dornen.running_music(),
     baca.register(-12),
@@ -100,7 +100,7 @@ accumulator(
     )
 
 accumulator(
-    'v1',
+    "v1",
     cursor.next(),
     dornen.anchor_music(),
     baca.register(-16),
@@ -108,7 +108,7 @@ accumulator(
     )
 
 accumulator(
-    'v4',
+    "v4",
     cursor.next(2),
     dornen.running_music(),
     baca.register(-6),
@@ -116,7 +116,7 @@ accumulator(
     )
 
 accumulator(
-    'v1',
+    "v1",
     cursor.next(),
     dornen.anchor_music(),
     baca.beam_positions(6),
@@ -126,7 +126,7 @@ accumulator(
     )
 
 accumulator(
-    'v2',
+    "v2",
     cursor.next(),
     dornen.passepied_music(),
     baca.time_signature_extra_offset((-2.5, 0)),
@@ -135,7 +135,7 @@ accumulator(
     )
 
 accumulator(
-    'v1',
+    "v1",
     cursor.next(),
     dornen.anchor_music(),
     baca.register(-20),
@@ -143,7 +143,7 @@ accumulator(
     )
 
 accumulator(
-    'v2',
+    "v2",
     cursor.next(),
     dornen.passepied_music(),
     baca.beam_positions(-10),
@@ -154,7 +154,7 @@ accumulator(
     )
 
 accumulator(
-    'v2',
+    "v2",
     cursor.next(),
     dornen.passepied_music(),
     baca.time_signature_extra_offset((-2.5, 0)),
@@ -163,7 +163,7 @@ accumulator(
     )
 
 accumulator(
-    'v4',
+    "v4",
     cursor.next(2),
     dornen.running_music(),
     baca.register(-12, 0),
@@ -171,7 +171,7 @@ accumulator(
     )
 
 accumulator(
-    'v3',
+    "v3",
     cursor.next(),
     dornen.wave_music(denominator=64, inverted=True),
     baca.beam_positions(-6),
@@ -179,7 +179,7 @@ accumulator(
     )
 
 accumulator(
-    'v3',
+    "v3",
     cursor.next(),
     dornen.wave_music(denominator=64, inverted=True),
     baca.beam_positions(-6),
@@ -196,11 +196,11 @@ maker = baca.SegmentMaker(
 accumulator.populate_segment_maker(maker)
 
 maker(
-    'Global_Skips',
-    baca.metronome_mark('44', selector=baca.leaf(1 - 1)),
+    "Global_Skips",
+    baca.metronome_mark("44", selector=baca.leaf(1 - 1)),
     )
 
 maker(
-    ('v3', (18, 19)),
+    ("v3", (18, 19)),
     baca.register(0, -12),
     )

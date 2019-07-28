@@ -13,10 +13,12 @@ def wave_music(
     assert 16 <= denominator, repr(denominator)
     accelerando_rhythm_maker = baca.PitchFirstRhythmMaker(
         rmakers.Talea(counts=[1], denominator=denominator),
+        signature=denominator,
         time_treatments=["accel"],
     )
     ritardando_rhythm_maker = baca.PitchFirstRhythmMaker(
         rmakers.Talea(counts=[1], denominator=denominator),
+        signature=denominator,
         time_treatments=["rit"],
     )
     rhythm_maker_1 = accelerando_rhythm_maker
@@ -28,5 +30,4 @@ def wave_music(
         baca.PitchFirstAssignment(rhythm_maker_1, pattern=abjad.index([0], 2)),
         baca.PitchFirstAssignment(rhythm_maker_2, pattern=abjad.index([1], 2)),
         rmakers.beam(baca.select()),
-        signature=denominator,
     )

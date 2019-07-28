@@ -8,6 +8,7 @@ def third_music() -> baca.MusicMaker:
     Makes third music-maker.
     """
     return baca.MusicMaker(
-        baca.pitch_first([1], 2, time_treatments=[abjad.Multiplier((2, 3))]),
-        signature=3,
+        baca.pitch_first(
+            [1], 2, signature=3, time_treatments=[abjad.Multiplier((2, 3))]
+        )
     )

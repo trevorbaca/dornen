@@ -7,5 +7,5 @@ def thirty_second_music() -> baca.MusicMaker:
     Makes thirty-second music-maker.
     """
     return baca.MusicMaker(
-        baca.pitch_first([1], 32), rmakers.beam_groups(), signature=32
+        baca.pitch_first([1], 32, signature=32), rmakers.beam_groups()
     )

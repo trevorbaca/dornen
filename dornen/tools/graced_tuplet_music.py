@@ -19,6 +19,7 @@ def graced_tuplet_music() -> baca.MusicMaker:
                 )
             ],
             pattern=abjad.index([0], 2),
+            signature=14,
             time_treatments=[abjad.Multiplier((8, 7))],
         ),
         baca.pitch_first(
@@ -35,5 +36,4 @@ def graced_tuplet_music() -> baca.MusicMaker:
             time_treatments=[abjad.Multiplier((5, 7))],
         ),
         rmakers.beam_groups(beam_lone_notes=True),
-        signature=14,
     )

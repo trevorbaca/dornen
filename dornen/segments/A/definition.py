@@ -16,7 +16,7 @@ cursor = baca.Cursor(design)
 accumulator(
     "v1",
     cursor.next(),
-    dornen.anchor_music(),
+    *dornen.anchor_music(),
     baca.beam_positions(6),
     baca.register(-8),
     extend_beam=True,
@@ -26,7 +26,7 @@ accumulator(
 accumulator(
     "v2",
     cursor.next(),
-    dornen.passepied_music(),
+    *dornen.passepied_music(),
     baca.beam_positions(-10),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-10),
@@ -37,7 +37,7 @@ accumulator(
 accumulator(
     "v1",
     cursor.next(),
-    dornen.anchor_music(),
+    *dornen.anchor_music(),
     baca.register(-10),
     extend_beam=True,
     figure_name=3,
@@ -46,7 +46,7 @@ accumulator(
 accumulator(
     "v2",
     cursor.next(),
-    dornen.passepied_music(),
+    *dornen.passepied_music(),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-8),
     extend_beam=True,
@@ -56,7 +56,7 @@ accumulator(
 accumulator(
     "v1",
     cursor.next(),
-    dornen.anchor_music(),
+    *dornen.anchor_music(),
     baca.register(-12),
     figure_name=5,
 )
@@ -64,7 +64,7 @@ accumulator(
 accumulator(
     "v2",
     cursor.next(),
-    dornen.passepied_music(),
+    *dornen.passepied_music(),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-6),
     figure_name=6,
@@ -73,7 +73,7 @@ accumulator(
 accumulator(
     "v1",
     cursor.next(),
-    dornen.anchor_music(),
+    *dornen.anchor_music(),
     baca.beam_positions(9),
     baca.register(-14),
     extend_beam=True,
@@ -83,7 +83,7 @@ accumulator(
 accumulator(
     "v2",
     cursor.next(),
-    dornen.passepied_music(),
+    *dornen.passepied_music(),
     baca.beam_positions(-10),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-4),
@@ -94,7 +94,7 @@ accumulator(
 accumulator(
     "v4",
     cursor.next(2),
-    dornen.running_music(),
+    *dornen.running_music(),
     baca.register(-12),
     figure_name=9,
 )
@@ -102,7 +102,7 @@ accumulator(
 accumulator(
     "v1",
     cursor.next(),
-    dornen.anchor_music(),
+    *dornen.anchor_music(),
     baca.register(-16),
     figure_name=10,
 )
@@ -110,7 +110,7 @@ accumulator(
 accumulator(
     "v4",
     cursor.next(2),
-    dornen.running_music(),
+    *dornen.running_music(),
     baca.register(-6),
     figure_name=11,
 )
@@ -118,7 +118,7 @@ accumulator(
 accumulator(
     "v1",
     cursor.next(),
-    dornen.anchor_music(),
+    *dornen.anchor_music(),
     baca.beam_positions(6),
     baca.register(-18),
     extend_beam=True,
@@ -128,7 +128,7 @@ accumulator(
 accumulator(
     "v2",
     cursor.next(),
-    dornen.passepied_music(),
+    *dornen.passepied_music(),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-2),
     figure_name=13,
@@ -137,7 +137,7 @@ accumulator(
 accumulator(
     "v1",
     cursor.next(),
-    dornen.anchor_music(),
+    *dornen.anchor_music(),
     baca.register(-20),
     figure_name=14,
 )
@@ -145,7 +145,7 @@ accumulator(
 accumulator(
     "v2",
     cursor.next(),
-    dornen.passepied_music(),
+    *dornen.passepied_music(),
     baca.beam_positions(-10),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(0),
@@ -156,7 +156,7 @@ accumulator(
 accumulator(
     "v2",
     cursor.next(),
-    dornen.passepied_music(),
+    *dornen.passepied_music(),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(2),
     figure_name=16,
@@ -165,7 +165,7 @@ accumulator(
 accumulator(
     "v4",
     cursor.next(2),
-    dornen.running_music(),
+    *dornen.running_music(),
     baca.register(-12, 0),
     figure_name=17,
 )
@@ -173,7 +173,7 @@ accumulator(
 accumulator(
     "v3",
     cursor.next(),
-    dornen.wave_music(denominator=64, inverted=True),
+    *dornen.wave_music(denominator=64, inverted=True),
     baca.beam_positions(-6),
     figure_name=18,
 )
@@ -181,7 +181,7 @@ accumulator(
 accumulator(
     "v3",
     cursor.next(),
-    dornen.wave_music(denominator=64, inverted=True),
+    *dornen.wave_music(denominator=64, inverted=True),
     baca.beam_positions(-6),
     figure_name=19,
 )

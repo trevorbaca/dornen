@@ -2,10 +2,11 @@ import baca
 from abjadext import rmakers
 
 
-def forty_eighth_music() -> baca.MusicMaker:
+def forty_eighth_music() -> list:
     """
-    Makes forty-eighth music-maker.
+    Makes forty-eighth commands.
     """
-    return baca.MusicMaker(
-        baca.pitch_first([3], 64, signature=32), rmakers.beam(baca.select())
-    )
+    return [
+        baca.pitch_first([3], 64, signature=32),
+        rmakers.beam(baca.select()),
+    ]

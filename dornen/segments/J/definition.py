@@ -14,14 +14,14 @@ accumulator = baca.MusicAccumulator(dornen.ScoreTemplate())
 accumulator(
     "v1",
     [3 * ["C4"]],
-    dornen.rest_music(),
+    *dornen.rest_music(),
     figure_name="R_1",
 )
 
 accumulator(
     "v1",
     2 * [["Gb2"]],
-    dornen.monad_music(),
+    *dornen.monad_music(),
     baca.markup("2-finger tamb. trill", boxed=True),
     figure_name="2_1",
 )
@@ -29,28 +29,28 @@ accumulator(
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.monad_music(),
+    *dornen.monad_music(),
     figure_name="2_2",
 )
 
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.third_music(),
+    *dornen.third_music(),
     figure_name="2_3",
 )
 
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.third_music(),
+    *dornen.third_music(),
     figure_name="2_4",
 )
 
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.third_music(),
+    *dornen.third_music(),
     figure_name="2_5",
 )
 
@@ -59,7 +59,7 @@ accumulator(
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.monad_music(),
+    *dornen.monad_music(),
     baca.markup("3 fingers", boxed=True),
     figure_name="3_1",
 )
@@ -67,28 +67,28 @@ accumulator(
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.monad_music(),
+    *dornen.monad_music(),
     figure_name="3_2",
 )
 
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.third_music(),
+    *dornen.third_music(),
     figure_name="3_3",
 )
 
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.third_music(),
+    *dornen.third_music(),
     figure_name="3_4",
 )
 
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.third_music(),
+    *dornen.third_music(),
     figure_name="3_5",
 )
 
@@ -97,7 +97,7 @@ accumulator(
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.monad_music(),
+    *dornen.monad_music(),
     baca.markup("4 fingers", boxed=True),
     figure_name="4_1",
 )
@@ -105,63 +105,63 @@ accumulator(
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.monad_music(),
+    *dornen.monad_music(),
     figure_name="4_2",
 )
 
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.third_music(),
+    *dornen.third_music(),
     figure_name="4_3",
 )
 
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.monad_music(),
+    *dornen.monad_music(),
     figure_name="4_4",
 )
 
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.third_music(),
+    *dornen.third_music(),
     figure_name="4_5",
 )
 
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.monad_music(),
+    *dornen.monad_music(),
     figure_name="4_6",
 )
 
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.third_music(),
+    *dornen.third_music(),
     figure_name="4_7",
 )
 
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.third_music(),
+    *dornen.third_music(),
     figure_name="4_8",
 )
 
 accumulator(
     "v1",
     [["Gb2"]],
-    dornen.third_music(),
+    *dornen.third_music(),
     figure_name="4_9",
 )
 
 accumulator(
     "v1",
     2 * [["Gb2"]],
-    dornen.monad_music(),
+    *dornen.monad_music(),
     baca.markup("3 fingers", boxed=True),
     figure_name="4_10",
 )
@@ -169,7 +169,7 @@ accumulator(
 accumulator(
     "v1",
     2 * [["Gb2"]],
-    dornen.monad_music(),
+    *dornen.monad_music(),
     baca.markup("2 fingers", boxed=True),
     figure_name="4_11",
 )

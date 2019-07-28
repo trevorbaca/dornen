@@ -2,12 +2,12 @@ import baca
 from abjadext import rmakers
 
 
-def graced_rest_music() -> baca.MusicMaker:
+def graced_rest_music() -> list:
     """
-    Makes graced rest music-maker.
+    Makes graced rest commands.
     """
-    return baca.MusicMaker(
+    return [
         baca.pitch_first(
             [1], 8, acciaccatura_specifiers=[baca.AcciaccaturaSpecifier()]
         )
-    )
+    ]

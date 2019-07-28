@@ -2,11 +2,11 @@ import baca
 from abjadext import rmakers
 
 
-def sixteenth_music() -> baca.MusicMaker:
+def sixteenth_music() -> list:
     """
-    Makes sixteenth music-maker.
+    Makes sixteenth commands.
     """
-    return baca.MusicMaker(
+    return [
         baca.pitch_first([1], 16, signature=16),
         rmakers.beam(baca.select(), beam_lone_notes=True),
-    )
+    ]

@@ -2,11 +2,11 @@ import baca
 from abjadext import rmakers
 
 
-def ovoid_music() -> baca.MusicMaker:
+def ovoid_music() -> list:
     """
-    Makes ovoid music-maker.
+    Makes ovoid commands.
     """
-    return baca.MusicMaker(
+    return [
         baca.pitch_first(
             [6, 1],
             32,
@@ -17,4 +17,4 @@ def ovoid_music() -> baca.MusicMaker:
             ],
         ),
         rmakers.beam_groups(),
-    )
+    ]

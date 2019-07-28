@@ -3,11 +3,11 @@ import baca
 from abjadext import rmakers
 
 
-def graced_tuplet_music() -> baca.MusicMaker:
+def graced_tuplet_music() -> list:
     """
-    Makes graced tuplet music-maker.
+    Makes graced tuplet commands.
     """
-    return baca.MusicMaker(
+    return [
         baca.pitch_first(
             [1],
             16,
@@ -36,4 +36,4 @@ def graced_tuplet_music() -> baca.MusicMaker:
             time_treatments=[abjad.Multiplier((5, 7))],
         ),
         rmakers.beam_groups(beam_lone_notes=True),
-    )
+    ]

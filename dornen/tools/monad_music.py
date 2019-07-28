@@ -3,12 +3,12 @@ import baca
 from abjadext import rmakers
 
 
-def monad_music() -> baca.MusicMaker:
+def monad_music() -> list:
     """
-    Makes monad music-maker.
+    Makes monad commands.
     """
-    return baca.MusicMaker(
+    return [
         baca.pitch_first(
             [1], 2, signature=5, time_treatments=[abjad.Multiplier((4, 5))]
         )
-    )
+    ]

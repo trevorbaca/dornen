@@ -2,12 +2,12 @@ import baca
 from abjadext import rmakers
 
 
-def running_music() -> baca.MusicMaker:
+def running_music() -> list:
     """
-    Makes running music-maker.
+    Makes running commands.
     """
-    return baca.MusicMaker(
+    return [
         baca.pitch_first([1], 64, time_treatments=[-1, -2]),
         rmakers.beam_groups(),
         baca.slur(map=baca.tuplets().nontrivial()),
-    )
+    ]

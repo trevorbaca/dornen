@@ -2,10 +2,8 @@ import baca
 from abjadext import rmakers
 
 
-def thirty_second_music() -> baca.MusicMaker:
+def thirty_second_music() -> list:
     """
-    Makes thirty-second music-maker.
+    Makes thirty-second commands.
     """
-    return baca.MusicMaker(
-        baca.pitch_first([1], 32, signature=32), rmakers.beam_groups()
-    )
+    return [baca.pitch_first([1], 32, signature=32), rmakers.beam_groups()]

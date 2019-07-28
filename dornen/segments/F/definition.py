@@ -152,12 +152,3 @@ maker(
     baca.beam_positions(5.5),
     baca.register(-4),
 )
-
-maker(
-    [
-        ("v1", (1, 9)),
-        ("v3", (1, 9)),
-        ("v4", (1, 9)),
-        ],
-    dornen.QuartertoneCommand(),
-)

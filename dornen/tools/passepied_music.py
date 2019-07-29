@@ -11,7 +11,7 @@ def passepied_music() -> list:
         baca.pitch_first(
             [1],
             32,
-            acciaccatura_specifiers=[baca.AcciaccaturaSpecifier()],
+            acciaccatura=baca.AcciaccaturaSpecifier(),
             pattern=abjad.index([0]),
         ),
         baca.pitch_first([1], 16, pattern=~abjad.index([0])),

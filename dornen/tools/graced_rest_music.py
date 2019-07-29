@@ -7,7 +7,5 @@ def graced_rest_music() -> list:
     Makes graced rest commands.
     """
     return [
-        baca.pitch_first(
-            [1], 8, acciaccatura_specifiers=[baca.AcciaccaturaSpecifier()]
-        )
+        baca.pitch_first([1], 8, acciaccatura=baca.AcciaccaturaSpecifier())
     ]

@@ -10,11 +10,9 @@ def ovoid_music() -> list:
         baca.pitch_first(
             [6, 1],
             32,
-            acciaccatura_specifiers=[
-                baca.AcciaccaturaSpecifier(
-                    lmr_specifier=baca.LMRSpecifier(left_length=1)
-                )
-            ],
+            acciaccatura=baca.AcciaccaturaSpecifier(
+                lmr_specifier=baca.LMRSpecifier(left_length=1)
+            ),
         ),
         rmakers.beam_groups(),
     ]

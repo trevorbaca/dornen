@@ -8,7 +8,7 @@ import os
 ##################################### [A] #####################################
 ###############################################################################
 
-accumulator = baca.MusicAccumulator(dornen.ScoreTemplate())
+accumulator = baca.Accumulator(dornen.ScoreTemplate())
 design = dornen.design_1(stop=22)
 assert len(design) == 22
 cursor = baca.Cursor(design)

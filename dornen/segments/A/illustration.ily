@@ -367,7 +367,7 @@ A_Guitar_Music_Voice_I = {                                                     %
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 1                                                  %! FIGURE_NAME
+        %@%                 0                                                  %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
@@ -403,7 +403,7 @@ A_Guitar_Music_Voice_I = {                                                     %
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 3                                                  %! FIGURE_NAME
+        %@%                 2                                                  %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
@@ -436,7 +436,7 @@ A_Guitar_Music_Voice_I = {                                                     %
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 5                                                  %! FIGURE_NAME
+        %@%                 4                                                  %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
@@ -471,7 +471,7 @@ A_Guitar_Music_Voice_I = {                                                     %
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 7                                                  %! FIGURE_NAME
+        %@%                 6                                                  %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
@@ -510,7 +510,7 @@ A_Guitar_Music_Voice_I = {                                                     %
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 10                                                 %! FIGURE_NAME
+        %@%                 9                                                  %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
@@ -549,7 +549,7 @@ A_Guitar_Music_Voice_I = {                                                     %
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 12                                                 %! FIGURE_NAME
+        %@%                 11                                                 %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
@@ -588,7 +588,7 @@ A_Guitar_Music_Voice_I = {                                                     %
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 14                                                 %! FIGURE_NAME
+        %@%                 13                                                 %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
@@ -683,7 +683,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             %@%         \concat                                                %! FIGURE_NAME
             %@%             {                                                  %! FIGURE_NAME
             %@%                 [                                              %! FIGURE_NAME
-            %@%                 2                                              %! FIGURE_NAME
+            %@%                 1                                              %! FIGURE_NAME
             %@%                 \hspace                                        %! FIGURE_NAME
             %@%                     #1                                         %! FIGURE_NAME
             %@%                 \raise                                         %! FIGURE_NAME
@@ -735,7 +735,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             %@%         \concat                                                %! FIGURE_NAME
             %@%             {                                                  %! FIGURE_NAME
             %@%                 [                                              %! FIGURE_NAME
-            %@%                 4                                              %! FIGURE_NAME
+            %@%                 3                                              %! FIGURE_NAME
             %@%                 \hspace                                        %! FIGURE_NAME
             %@%                     #1                                         %! FIGURE_NAME
             %@%                 \raise                                         %! FIGURE_NAME
@@ -785,7 +785,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             %@%         \concat                                                %! FIGURE_NAME
             %@%             {                                                  %! FIGURE_NAME
             %@%                 [                                              %! FIGURE_NAME
-            %@%                 6                                              %! FIGURE_NAME
+            %@%                 5                                              %! FIGURE_NAME
             %@%                 \hspace                                        %! FIGURE_NAME
             %@%                     #1                                         %! FIGURE_NAME
             %@%                 \raise                                         %! FIGURE_NAME
@@ -832,7 +832,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             %@%         \concat                                                %! FIGURE_NAME
             %@%             {                                                  %! FIGURE_NAME
             %@%                 [                                              %! FIGURE_NAME
-            %@%                 8                                              %! FIGURE_NAME
+            %@%                 7                                              %! FIGURE_NAME
             %@%                 \hspace                                        %! FIGURE_NAME
             %@%                     #1                                         %! FIGURE_NAME
             %@%                 \raise                                         %! FIGURE_NAME
@@ -880,7 +880,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             %@%         \concat                                                %! FIGURE_NAME
             %@%             {                                                  %! FIGURE_NAME
             %@%                 [                                              %! FIGURE_NAME
-            %@%                 13                                             %! FIGURE_NAME
+            %@%                 12                                             %! FIGURE_NAME
             %@%                 \hspace                                        %! FIGURE_NAME
             %@%                     #1                                         %! FIGURE_NAME
             %@%                 \raise                                         %! FIGURE_NAME
@@ -935,7 +935,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             %@%         \concat                                                %! FIGURE_NAME
             %@%             {                                                  %! FIGURE_NAME
             %@%                 [                                              %! FIGURE_NAME
-            %@%                 15                                             %! FIGURE_NAME
+            %@%                 14                                             %! FIGURE_NAME
             %@%                 \hspace                                        %! FIGURE_NAME
             %@%                     #1                                         %! FIGURE_NAME
             %@%                 \raise                                         %! FIGURE_NAME
@@ -988,7 +988,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             %@%         \concat                                                %! FIGURE_NAME
             %@%             {                                                  %! FIGURE_NAME
             %@%                 [                                              %! FIGURE_NAME
-            %@%                 16                                             %! FIGURE_NAME
+            %@%                 15                                             %! FIGURE_NAME
             %@%                 \hspace                                        %! FIGURE_NAME
             %@%                     #1                                         %! FIGURE_NAME
             %@%                 \raise                                         %! FIGURE_NAME
@@ -1125,7 +1125,7 @@ A_Guitar_Music_Voice_III = {                                                   %
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 18                                                 %! FIGURE_NAME
+        %@%                 17                                                 %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
@@ -1210,7 +1210,7 @@ A_Guitar_Music_Voice_III = {                                                   %
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 19                                                 %! FIGURE_NAME
+        %@%                 18                                                 %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
@@ -1296,7 +1296,7 @@ A_Guitar_Music_Voice_IV = {                                                    %
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 9                                                  %! FIGURE_NAME
+        %@%                 8                                                  %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
@@ -1368,7 +1368,7 @@ A_Guitar_Music_Voice_IV = {                                                    %
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 11                                                 %! FIGURE_NAME
+        %@%                 10                                                 %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME
@@ -1485,7 +1485,7 @@ A_Guitar_Music_Voice_IV = {                                                    %
         %@%         \concat                                                    %! FIGURE_NAME
         %@%             {                                                      %! FIGURE_NAME
         %@%                 [                                                  %! FIGURE_NAME
-        %@%                 17                                                 %! FIGURE_NAME
+        %@%                 16                                                 %! FIGURE_NAME
         %@%                 \hspace                                            %! FIGURE_NAME
         %@%                     #1                                             %! FIGURE_NAME
         %@%                 \raise                                             %! FIGURE_NAME

@@ -20,7 +20,7 @@ accumulator(
     baca.beam_positions(6),
     baca.register(-8),
     baca.extend_beam(),
-    figure_name=1,
+    figure_name="0",
 )
 
 accumulator(
@@ -31,7 +31,7 @@ accumulator(
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-10),
     baca.extend_beam(),
-    figure_name=2,
+    figure_name="1",
 )
 
 accumulator(
@@ -40,7 +40,7 @@ accumulator(
     *dornen.anchor_music(),
     baca.register(-10),
     baca.extend_beam(),
-    figure_name=3,
+    figure_name="2",
 )
 
 accumulator(
@@ -50,7 +50,7 @@ accumulator(
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-8),
     baca.extend_beam(),
-    figure_name=4,
+    figure_name="3",
 )
 
 accumulator(
@@ -58,7 +58,7 @@ accumulator(
     cursor.next(),
     *dornen.anchor_music(),
     baca.register(-12),
-    figure_name=5,
+    figure_name="4",
 )
 
 accumulator(
@@ -67,7 +67,7 @@ accumulator(
     *dornen.passepied_music(),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-6),
-    figure_name=6,
+    figure_name="5",
 )
 
 accumulator(
@@ -77,7 +77,7 @@ accumulator(
     baca.beam_positions(9),
     baca.register(-14),
     baca.extend_beam(),
-    figure_name=7,
+    figure_name="6",
 )
 
 accumulator(
@@ -88,7 +88,7 @@ accumulator(
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-4),
     baca.extend_beam(),
-    figure_name=8,
+    figure_name="7",
 )
 
 accumulator(
@@ -96,7 +96,7 @@ accumulator(
     cursor.next(2),
     *dornen.running_music(),
     baca.register(-12),
-    figure_name=9,
+    figure_name="8",
 )
 
 accumulator(
@@ -104,7 +104,7 @@ accumulator(
     cursor.next(),
     *dornen.anchor_music(),
     baca.register(-16),
-    figure_name=10,
+    figure_name="9",
 )
 
 accumulator(
@@ -112,7 +112,7 @@ accumulator(
     cursor.next(2),
     *dornen.running_music(),
     baca.register(-6),
-    figure_name=11,
+    figure_name="10",
 )
 
 accumulator(
@@ -122,7 +122,7 @@ accumulator(
     baca.beam_positions(6),
     baca.register(-18),
     baca.extend_beam(),
-    figure_name=12,
+    figure_name="11",
 )
 
 accumulator(
@@ -131,7 +131,7 @@ accumulator(
     *dornen.passepied_music(),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-2),
-    figure_name=13,
+    figure_name="12",
 )
 
 accumulator(
@@ -139,7 +139,7 @@ accumulator(
     cursor.next(),
     *dornen.anchor_music(),
     baca.register(-20),
-    figure_name=14,
+    figure_name="13",
 )
 
 accumulator(
@@ -150,7 +150,7 @@ accumulator(
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(0),
     baca.extend_beam(),
-    figure_name=15,
+    figure_name="14",
 )
 
 accumulator(
@@ -159,7 +159,7 @@ accumulator(
     *dornen.passepied_music(),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(2),
-    figure_name=16,
+    figure_name="15",
 )
 
 accumulator(
@@ -167,7 +167,7 @@ accumulator(
     cursor.next(2),
     *dornen.running_music(),
     baca.register(-12, 0),
-    figure_name=17,
+    figure_name="16",
 )
 
 accumulator(
@@ -175,7 +175,7 @@ accumulator(
     cursor.next(),
     *dornen.wave_music(denominator=64, inverted=True),
     baca.beam_positions(-6),
-    figure_name=18,
+    figure_name="17",
 )
 
 accumulator(
@@ -183,7 +183,7 @@ accumulator(
     cursor.next(),
     *dornen.wave_music(denominator=64, inverted=True),
     baca.beam_positions(-6),
-    figure_name=19,
+    figure_name="18",
 )
 
 maker = baca.SegmentMaker(

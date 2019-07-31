@@ -455,10 +455,10 @@ H_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 ef'16
-                [                                                              %! AcciaccaturaSpecifier
+                [                                                              %! Acciaccatura
 
                 fs'16
-                ]                                                              %! AcciaccaturaSpecifier
+                ]                                                              %! Acciaccatura
 
             }
 
@@ -505,14 +505,14 @@ H_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 a'16
-                [                                                              %! AcciaccaturaSpecifier
+                [                                                              %! Acciaccatura
 
                 g'16
 
                 bf'16
 
                 ef''16
-                ]                                                              %! AcciaccaturaSpecifier
+                ]                                                              %! Acciaccatura
 
             }
 
@@ -556,14 +556,14 @@ H_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 ef''16
-                [                                                              %! AcciaccaturaSpecifier
+                [                                                              %! Acciaccatura
 
                 c''16
 
                 d''16
 
                 g''16
-                ]                                                              %! AcciaccaturaSpecifier
+                ]                                                              %! Acciaccatura
 
             }
 

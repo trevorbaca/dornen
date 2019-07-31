@@ -8,8 +8,6 @@ def twenty_fourth_music() -> list:
     Makes twenty-fourth commands.
     """
     return [
-        baca.pitch_first_assignment(
-            [1], 16, signature=24, treatments=[abjad.Multiplier((2, 3))]
-        ),
+        baca.pitch_first_assignment([1], 16, signature=24, treatments=["3:2"]),
         rmakers.beam(baca.select(), beam_lone_notes=True),
     ]

@@ -8,7 +8,5 @@ def monad_music() -> list:
     Makes monad commands.
     """
     return [
-        baca.pitch_first_assignment(
-            [1], 2, signature=5, treatments=[abjad.Multiplier((4, 5))]
-        )
+        baca.pitch_first_assignment([1], 2, signature=5, treatments=["5:4"])
     ]

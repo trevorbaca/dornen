@@ -694,7 +694,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             %@%                 ]                                              %! FIGURE_NAME
             %@%             }                                                  %! FIGURE_NAME
             %@%     }                                                          %! FIGURE_NAME
-                [                                                              %! AcciaccaturaSpecifier
+                [                                                              %! Acciaccatura
 
                 d'16
 
@@ -705,7 +705,7 @@ A_Guitar_Music_Voice_II = {                                                    %
                 a'16
 
                 af'16
-                ]                                                              %! AcciaccaturaSpecifier
+                ]                                                              %! Acciaccatura
 
             }
 
@@ -746,7 +746,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             %@%                 ]                                              %! FIGURE_NAME
             %@%             }                                                  %! FIGURE_NAME
             %@%     }                                                          %! FIGURE_NAME
-                [                                                              %! AcciaccaturaSpecifier
+                [                                                              %! Acciaccatura
 
                 g'16
 
@@ -755,7 +755,7 @@ A_Guitar_Music_Voice_II = {                                                    %
                 af'16
 
                 c''16
-                ]                                                              %! AcciaccaturaSpecifier
+                ]                                                              %! Acciaccatura
 
             }
 
@@ -796,14 +796,14 @@ A_Guitar_Music_Voice_II = {                                                    %
             %@%                 ]                                              %! FIGURE_NAME
             %@%             }                                                  %! FIGURE_NAME
             %@%     }                                                          %! FIGURE_NAME
-                [                                                              %! AcciaccaturaSpecifier
+                [                                                              %! Acciaccatura
 
                 fs'16
 
                 d''16
 
                 ef''16
-                ]                                                              %! AcciaccaturaSpecifier
+                ]                                                              %! Acciaccatura
 
             }
 
@@ -843,14 +843,14 @@ A_Guitar_Music_Voice_II = {                                                    %
             %@%                 ]                                              %! FIGURE_NAME
             %@%             }                                                  %! FIGURE_NAME
             %@%     }                                                          %! FIGURE_NAME
-                [                                                              %! AcciaccaturaSpecifier
+                [                                                              %! Acciaccatura
 
                 d''16
 
                 ef''16
 
                 e''16
-                ]                                                              %! AcciaccaturaSpecifier
+                ]                                                              %! Acciaccatura
 
             }
 
@@ -891,7 +891,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             %@%                 ]                                              %! FIGURE_NAME
             %@%             }                                                  %! FIGURE_NAME
             %@%     }                                                          %! FIGURE_NAME
-                [                                                              %! AcciaccaturaSpecifier
+                [                                                              %! Acciaccatura
 
                 cs''16
 
@@ -906,7 +906,7 @@ A_Guitar_Music_Voice_II = {                                                    %
                 g''16
 
                 ef''16
-                ]                                                              %! AcciaccaturaSpecifier
+                ]                                                              %! Acciaccatura
 
             }
 
@@ -946,7 +946,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             %@%                 ]                                              %! FIGURE_NAME
             %@%             }                                                  %! FIGURE_NAME
             %@%     }                                                          %! FIGURE_NAME
-                [                                                              %! AcciaccaturaSpecifier
+                [                                                              %! Acciaccatura
 
                 g''16
 
@@ -961,7 +961,7 @@ A_Guitar_Music_Voice_II = {                                                    %
                 a''16
 
                 cs''16
-                ]                                                              %! AcciaccaturaSpecifier
+                ]                                                              %! Acciaccatura
 
             }
 
@@ -999,12 +999,12 @@ A_Guitar_Music_Voice_II = {                                                    %
             %@%                 ]                                              %! FIGURE_NAME
             %@%             }                                                  %! FIGURE_NAME
             %@%     }                                                          %! FIGURE_NAME
-                [                                                              %! AcciaccaturaSpecifier
+                [                                                              %! Acciaccatura
 
                 e''16
 
                 f''16
-                ]                                                              %! AcciaccaturaSpecifier
+                ]                                                              %! Acciaccatura
 
             }
 

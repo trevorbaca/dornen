@@ -8,7 +8,7 @@ def third_music() -> list:
     Makes third commands.
     """
     return [
-        baca.pitch_first(
+        baca.pitch_first_assignment(
             [1], 2, signature=3, time_treatments=[abjad.Multiplier((2, 3))]
         )
     ]

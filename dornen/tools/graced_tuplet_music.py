@@ -8,7 +8,7 @@ def graced_tuplet_music() -> list:
     Makes graced tuplet commands.
     """
     return [
-        baca.pitch_first(
+        baca.pitch_first_assignment(
             [1],
             16,
             acciaccatura=baca.lmr(
@@ -18,7 +18,7 @@ def graced_tuplet_music() -> list:
             signature=14,
             time_treatments=[abjad.Multiplier((8, 7))],
         ),
-        baca.pitch_first(
+        baca.pitch_first_assignment(
             [1],
             16,
             acciaccatura=baca.lmr(

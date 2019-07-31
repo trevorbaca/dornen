@@ -27,7 +27,7 @@ accumulator(
     baca.beam_positions(12),
     baca.stem_up(),
     baca.register(0),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="G1_1",
 )
 
@@ -37,7 +37,7 @@ accumulator(
     *dornen.ovoid_music(),
     baca.beam_positions(-8, baca.pleaf(0)),
     baca.register(-14, -6),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="O1",
 )
 
@@ -47,7 +47,7 @@ accumulator(
     *dornen.graced_tuplet_music(),
     baca.stem_up(),
     baca.register(0),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="G1_1*",
 )
 
@@ -66,7 +66,7 @@ accumulator(
     *dornen.graced_tuplet_music(),
     baca.stem_up(),
     baca.register(0),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="G1_2",
 )
 
@@ -96,7 +96,7 @@ accumulator(
     *dornen.delicatissimo_music(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="D1_1",
 )
 
@@ -107,7 +107,7 @@ accumulator(
     baca.beam_positions(12),
     baca.stem_up(),
     baca.register(0),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="G1_4",
 )
 
@@ -117,7 +117,7 @@ accumulator(
     *dornen.delicatissimo_music(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="D1_2",
 )
 
@@ -127,7 +127,7 @@ accumulator(
     *dornen.graced_tuplet_music(),
     baca.stem_up(),
     baca.register(0),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="G1_5",
 )
 
@@ -146,7 +146,7 @@ accumulator(
     *dornen.ovoid_music(),
     baca.beam_positions(-8, baca.pleaf(0)),
     baca.register(-14, -6),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="O1*",
 )
 
@@ -156,7 +156,7 @@ accumulator(
     *dornen.graced_tuplet_music(),
     baca.stem_up(),
     baca.register(0),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="G1_6",
 )
 
@@ -176,7 +176,7 @@ accumulator(
     *dornen.delicatissimo_music(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="D1_4",
 )
 
@@ -187,7 +187,7 @@ accumulator(
     baca.beam_positions(6),
     baca.stem_up(),
     baca.register(0, -14),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="G1_7",
 )
 
@@ -225,7 +225,7 @@ accumulator(
     *dornen.ovoid_music(),
     baca.beam_positions(-8, baca.pleaf(0)),
     baca.register(-14, -6),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="O1**",
 )
 
@@ -265,7 +265,7 @@ accumulator(
     *dornen.ovoid_music(),
     baca.text_script_color("red"),
     baca.register(-14, -6),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="O2**",
 )
 
@@ -283,7 +283,7 @@ accumulator(
     *dornen.ovoid_music(),
     baca.beam_positions(-8, baca.pleaf(0)),
     baca.register(-14, -6),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="O4",
 )
 
@@ -292,7 +292,7 @@ accumulator(
     baca.sequence(design[11:13]).join(),
     *dornen.ovoid_music(),
     baca.register(-14, -6),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="O5",
 )
 
@@ -301,7 +301,7 @@ accumulator(
     baca.sequence(design[13:15]).join(),
     *dornen.ovoid_music(),
     baca.register(-14, -6),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="O6",
 )
 
@@ -319,7 +319,7 @@ accumulator(
     *dornen.ovoid_music(),
     baca.beam_positions(-8, baca.pleaf(0)),
     baca.register(-14, -6),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="O8",
 )
 
@@ -348,7 +348,7 @@ accumulator(
     baca.sequence(design[19:21]).join(),
     *dornen.ovoid_music(),
     baca.register(-14, -6),
-    #extend_beam=True,
+    #baca.extend_beam(),
     figure_name="O9",
 )
 

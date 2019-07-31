@@ -20,7 +20,7 @@ accumulator(
     *dornen.forty_eighth_music(),
     baca.markup("slurs fluid; all other parts mechanically precise"),
     baca.literal(string),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="48_1",
 )
 
@@ -28,7 +28,7 @@ accumulator(
     "v4",
     design[1:2],
     *dornen.twentieth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="20_1",
 )
 
@@ -36,7 +36,7 @@ accumulator(
     "v3",
     design[2:3],
     *dornen.sixteenth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="16_1",
 )
 
@@ -68,7 +68,7 @@ accumulator(
     "v4",
     design[6:7],
     *dornen.twentieth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="20_3",
 )
 
@@ -76,7 +76,7 @@ accumulator(
     "v3",
     design[7:8],
     *dornen.sixteenth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="16_2",
 )
 
@@ -99,7 +99,7 @@ accumulator(
     "v1",
     design[10:11],
     *dornen.forty_eighth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="48_3",
 )
 
@@ -107,7 +107,7 @@ accumulator(
     "v4",
     design[11:12],
     *dornen.twentieth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="20_5",
 )
 
@@ -138,7 +138,7 @@ accumulator(
     "v4",
     design[1:2],
     *dornen.twentieth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="20_1*",
 )
 
@@ -146,7 +146,7 @@ accumulator(
     "v3",
     design[2:3],
     *dornen.sixteenth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="16_1*",
 )
 
@@ -171,7 +171,7 @@ accumulator(
     "v1",
     design[5:6],
     *dornen.forty_eighth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="48_2*",
 )
 
@@ -179,7 +179,7 @@ accumulator(
     "v4",
     design[6:7],
     *dornen.twentieth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="20_3*",
 )
 
@@ -187,7 +187,7 @@ accumulator(
     "v3",
     design[7:8],
     *dornen.sixteenth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="16_2*",
 )
 
@@ -238,7 +238,7 @@ accumulator(
     "v4",
     design[11:12],
     *dornen.twentieth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="20_5*",
 )
 

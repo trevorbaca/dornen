@@ -33,7 +33,7 @@ accumulator(
     "v4",
     design[2:3],
     *dornen.graced_tuplet_music(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="G1",
 )
 
@@ -58,7 +58,7 @@ accumulator(
     design[5:6],
     *dornen.ovoid_music(),
     baca.beam_positions(-7.5, baca.pleaf(0)),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="O2",
 )
 
@@ -67,7 +67,7 @@ accumulator(
     design[6:7],
     *dornen.glissando_scatto_music(),
     baca.beam_positions(12),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="L2",
 )
 
@@ -75,7 +75,7 @@ accumulator(
     "v4",
     design[7:8],
     *dornen.graced_tuplet_music(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="G3",
 )
 

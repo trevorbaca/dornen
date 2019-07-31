@@ -20,7 +20,7 @@ accumulator(
     baca.tenuto(baca.pheads()),
     baca.beam_positions(10),
     baca.register(-12),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="48_1",
 )
 
@@ -28,7 +28,7 @@ accumulator(
     "v3",
     design[1:2],
     *dornen.sixteenth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="16_1",
 )
 
@@ -37,7 +37,7 @@ accumulator(
     design[2:5],
     *dornen.running_music(),
     baca.register(-14, 0),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name="R1",
 )
 
